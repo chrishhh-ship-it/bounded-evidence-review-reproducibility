@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "source_csv": "data/user_study/raw_responses_n30.csv",
+  "source_csv": "data/user_study/analysis_responses_n30.csv",
   "n_records_after_cleaning": 300,
   "participant_id_scheme": "P01-P30 assigned by questionnaire-file loading order; each participant contributes 10 question records.",
   "notes": [
     "This log records the cleaning decisions referenced by the manuscript's human-pilot section.",
-    "The preserved cleaned CSV is the analysis input; raw DOCX files are not overwritten by this log.",
+    "The deposited CSV is an anonymized analysis-ready table; raw DOCX files and local questionnaire filenames are not deposited.",
     "Blank suspicious-choice entries discovered during extraction were inspected in the temporary work files; only the manuscript-relevant ranking and Likert imputations are listed as analytic imputations below."
   ],
   "records": [

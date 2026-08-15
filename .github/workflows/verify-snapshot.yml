@@ -1,0 +1,31 @@
+name: Verify reproducibility snapshot
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Verify manifest without rewriting it
+        run: python scripts/build_manifest.py --verify-only
+      - name: Compile Python sources
+        run: python -m compileall -q modules scripts
+      - name: Parse deposited JSON files
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+
+          paths = list(Path(".").rglob("*.json"))
+          for path in paths:
+              json.loads(path.read_text(encoding="utf-8-sig"))
+          print(f"parsed_json_files={len(paths)}")
+      - name: Reproduce human-study descriptive statistics
+        run: python scripts/analyze_user_study.py

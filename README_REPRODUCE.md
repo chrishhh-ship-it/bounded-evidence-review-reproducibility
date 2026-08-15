@@ -1,6 +1,6 @@
 # Reproducibility Guide
 
-Updated: 2026-08-14
+Updated: 2026-08-15
 
 This guide lists the copy-paste commands used to reproduce the reported
 structural metrics from preserved system outputs. `scripts/evaluate_metrics.py`
@@ -39,7 +39,8 @@ Run manifest and checksums:
 
 Human pilot:
 
-- `data/user_study/raw_responses_n30.csv`
+- `data/user_study/analysis_responses_n30.csv`
+- `data/user_study/README.md`
 - `data/user_study/imputation_log.json`
 - `scripts/analyze_user_study.py`
 
@@ -181,9 +182,12 @@ Climate `56.9%`).
 
 ## Human Pilot
 
-The cleaned 30-participant file is `data/user_study/raw_responses_n30.csv`.
-The analysis entrypoint is read-only by default and does not overwrite
-`raw_responses.csv`.
+The anonymized, analysis-ready 30-participant file is
+`data/user_study/analysis_responses_n30.csv`. Direct identifiers, source-file
+names, and redundant raw display fields are not deposited. The retained fields
+are the exact inputs used by the analysis scripts; see
+`data/user_study/README.md` for the data dictionary and sanitization boundary.
+The analysis entrypoint is read-only by default.
 
 ```bash
 python scripts/analyze_user_study.py
@@ -203,3 +207,12 @@ Expected descriptive values:
 - End-to-end API regeneration is not expected to be byte-identical because the
   LLM calls were not seeded. The preserved markdown/JSON outputs are the
   reproducible evaluation objects.
+
+## Verify the deposited snapshot without modifying it
+
+```bash
+python scripts/build_manifest.py --verify-only
+```
+
+The repository enforces LF line endings through `.gitattributes`, so the same
+byte-level manifest can be verified on Windows, macOS, and Linux checkouts.

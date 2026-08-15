@@ -656,7 +656,7 @@
                         "n_participants":  30,
                         "n_questions_per_participant":  10,
                         "n_total_records_after_cleaning":  300,
-                        "raw_responses_csv":  "data/user_study/raw_responses_n30.csv",
+                        "analysis_responses_csv":  "data/user_study/analysis_responses_n30.csv",
                         "questionnaire_template":  "data/user_study/用户研究问卷.docx",
                         "answer_key":  "data/user_study/answer_key.json",
                         "imputation_log":  "data/user_study/imputation_log.json",

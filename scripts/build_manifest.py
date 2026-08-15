@@ -46,6 +46,11 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def write_json_lf(path: Path, payload: dict[str, object]) -> None:
+    with path.open("w", encoding="utf-8", newline="\n") as handle:
+        handle.write(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+
+
 def write_summary(created: str, source_snapshot: str) -> None:
     previous: tuple[int, int] | None = None
     for _ in range(10):
@@ -61,20 +66,14 @@ def write_summary(created: str, source_snapshot: str) -> None:
                 "virtual environments, Python bytecode, and cache directories."
             ),
         }
-        SUMMARY.write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+        write_json_lf(SUMMARY, payload)
         files = deposited_files()
         updated = (len(files), sum(path.stat().st_size for path in files))
         if updated == current or updated == previous:
             if updated != current:
                 payload["file_count_excluding_manifest"] = updated[0]
                 payload["total_bytes_excluding_manifest"] = updated[1]
-                SUMMARY.write_text(
-                    json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-                    encoding="utf-8",
-                )
+                write_json_lf(SUMMARY, payload)
             return
         previous = current
     raise RuntimeError("MANIFEST_SUMMARY.json size did not stabilize")
@@ -82,7 +81,7 @@ def write_summary(created: str, source_snapshot: str) -> None:
 
 def write_manifest() -> None:
     with MANIFEST.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.writer(handle)
+        writer = csv.writer(handle, lineterminator="\n")
         writer.writerow(["path", "size_bytes", "sha256"])
         for path in deposited_files():
             writer.writerow(
@@ -117,14 +116,23 @@ def verify_manifest() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
+        "--verify-only",
+        action="store_true",
+        help=(
+            "Verify the existing manifest and summary without rewriting either "
+            "file. Use this mode in clean-room review and CI checks."
+        ),
+    )
+    parser.add_argument(
         "--source-snapshot",
-        default="fe3f1a3b47807a331208e12f0baf7fd611c9137b",
+        default="5753face6a9d2d0cd4a3fc573537f914928e657c",
         help="Commit or archive identifier from which this review snapshot was repaired.",
     )
     args = parser.parse_args()
-    created = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-    write_summary(created, args.source_snapshot)
-    write_manifest()
+    if not args.verify_only:
+        created = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+        write_summary(created, args.source_snapshot)
+        write_manifest()
     verify_manifest()
     summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
     print(json.dumps(summary, indent=2))

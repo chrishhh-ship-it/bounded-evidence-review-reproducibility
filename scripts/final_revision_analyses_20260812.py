@@ -39,7 +39,7 @@ TITLE_DETAILS = (
     / "title_match_single_vs_arl_results.csv"
 )
 CORPUS_PATH = PROJECT_ROOT / "data/frozen_corpus_multidomain_v1.json"
-USER_STUDY_PATH = PROJECT_ROOT / "data/user_study/raw_responses_n30.csv"
+USER_STUDY_PATH = PROJECT_ROOT / "data/user_study/analysis_responses_n30.csv"
 ANSWER_KEY_PATH = PROJECT_ROOT / "data/user_study/answer_key.json"
 THRESHOLDS = (0.60, 0.65, 0.70, 0.72, 0.75, 0.80, 0.85, 0.90, 0.95)
 CONFIGS = {

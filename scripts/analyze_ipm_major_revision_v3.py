@@ -22,7 +22,7 @@ import evaluate_metrics as em  # noqa: E402
 
 
 CORPUS_PATH = PROJECT_ROOT / "data" / "frozen_corpus_multidomain_v1.json"
-USER_STUDY_PATH = PROJECT_ROOT / "data" / "user_study" / "raw_responses_n30.csv"
+USER_STUDY_PATH = PROJECT_ROOT / "data" / "user_study" / "analysis_responses_n30.csv"
 ANSWER_KEY_PATH = PROJECT_ROOT / "data" / "user_study" / "answer_key.json"
 ANNOTATION_DIR = PROJECT_ROOT / "data" / "annotation"
 

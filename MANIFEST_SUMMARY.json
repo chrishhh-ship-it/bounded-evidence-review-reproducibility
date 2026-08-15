@@ -1,7 +1,7 @@
 {
-  "created_utc": "2026-08-15T04:56:38+00:00",
-  "source_snapshot": "fe3f1a3b47807a331208e12f0baf7fd611c9137b",
-  "file_count_excluding_manifest": 5975,
-  "total_bytes_excluding_manifest": 202072172,
+  "created_utc": "2026-08-15T09:14:44+00:00",
+  "source_snapshot": "5753face6a9d2d0cd4a3fc573537f914928e657c",
+  "file_count_excluding_manifest": 5979,
+  "total_bytes_excluding_manifest": 202060106,
   "manifest_scope": "All deposited files except MANIFEST_SHA256.csv; excludes Git metadata, virtual environments, Python bytecode, and cache directories."
 }
