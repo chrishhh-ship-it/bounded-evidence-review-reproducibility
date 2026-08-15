@@ -3,5 +3,5 @@
   "query": "Google Scholar、OpenAlex、CrossRef、Scopus 在智慧情报服务中各自适合承担什么角色？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q12_baseline_a_20260410_190133.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q12_baseline_a_20260410_190133.md"
 }

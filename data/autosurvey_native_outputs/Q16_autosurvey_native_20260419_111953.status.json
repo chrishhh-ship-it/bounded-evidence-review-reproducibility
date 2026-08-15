@@ -2,8 +2,8 @@
   "query_id": "Q16",
   "query": "面向智慧情报服务的自动报告写作，最稳妥的论文式行文结构是什么？",
   "stage": "done",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q16_autosurvey_native_20260419_111953.md",
-  "output_json": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q16_autosurvey_native_20260419_111953.json",
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q16_autosurvey_native_20260419_111953.md",
+  "output_json": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q16_autosurvey_native_20260419_111953.json",
   "elapsed_seconds": 902.703,
   "retrieved_total": 88
 }

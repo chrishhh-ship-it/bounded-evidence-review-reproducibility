@@ -166,5 +166,5 @@
       "abstract": "With the increasing research attention on fairness in information retrieval systems, more and more fairness-aware algorithms have been proposed to ensure fairness for a sustainable and healthy retrieval ecosystem. However, as the most adopted measurement of fairness-aware algorithms, group fairness evaluation metrics, require group membership information that needs massive human annotations and is barely available for general information retrieval datasets. This data sparsity significantly impedes the development of fairness-aware information retrieval studies. Hence, a practical, scalable, low-cost group membership annotation method is needed to assist or replace human annotations. This study explored how to leverage language models to automatically annotate group membership for group fai"
     }
   ],
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q29_baseline_b_20260410_201805.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q29_baseline_b_20260410_201805.md"
 }

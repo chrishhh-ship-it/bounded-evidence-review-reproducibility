@@ -3,5 +3,5 @@
   "query": "人工标注在智慧情报服务 benchmark 中应优先覆盖哪些维度？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q28_baseline_a_20260410_201503.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q28_baseline_a_20260410_201503.md"
 }

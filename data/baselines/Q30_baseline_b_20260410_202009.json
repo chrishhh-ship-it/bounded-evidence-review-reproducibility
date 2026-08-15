@@ -165,5 +165,5 @@
       "abstract": "Contemporary information retrieval faces significant challenges as traditional keyword-based systems prove inadequate for complex analytical tasks. Agentic search represents a revolutionary departure from conventional document matching, establishing intelligent investigation platforms through sophisticated multi-agent collaboration. These platforms deploy specialized computational agents: Research Agents handle information discovery across diverse sources, Analysis Agents extract patterns and correlations, Domain Expert Agents contribute field-specific knowledge, while Quality Checker Agents validate findings. The query interpretation framework transcends simple keyword matching by analyzing problem structures through semantic processing and contextual recognition capabilities. Structured "
     }
   ],
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q30_baseline_b_20260410_202009.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q30_baseline_b_20260410_202009.md"
 }

@@ -77,4 +77,4 @@ The recalibration run should use the same 320 items, same gold key, same provide
 - Full raw role outputs: `title_match_single_vs_arl_raw.jsonl`
 - Per-item raw outputs: `items\\TM001.json` through `items\\TM320.json`
 - Run manifest: `run_manifest.json`
-- Script: `C:\\Users\\10305\\文献\\研究情报助手\\scripts\\run_title_match_single_vs_arl.py`
+- Script: `<USER_ROOT>\\文献\\研究情报助手\\scripts\\run_title_match_single_vs_arl.py`

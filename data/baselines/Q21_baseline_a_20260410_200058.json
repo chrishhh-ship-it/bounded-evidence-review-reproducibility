@@ -3,5 +3,5 @@
   "query": "writer、reviewer、reviser 三角色分工如何影响最终情报报告质量？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q21_baseline_a_20260410_200058.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q21_baseline_a_20260410_200058.md"
 }

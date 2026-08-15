@@ -139,5 +139,5 @@
       "abstract": "With the increasing demand of intelligent systems capable of operating in different contexts (e.g. users on the move) the correct interpretation of the user-need by such systems has become crucial to give consistent answers to the user questions. The most effective applications addressing such task are in the fields of natural language processing and semantic expansion of terms. These techniques are aimed at estimating the goal of an input query reformulating it as an intent, commonly relying on textual resources built exploiting different semantic relations like \\emph{synonymy}, \\emph{antonymy} and many others. The aim of this paper is to generate such resources using the labels of a given taxonomy as source of information. The obtained resources are integrated into a plain classifier for"
     }
   ],
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q10_baseline_b_20260410_185916.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q10_baseline_b_20260410_185916.md"
 }

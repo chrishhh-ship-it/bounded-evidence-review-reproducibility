@@ -3,5 +3,5 @@
   "query": "智慧情报服务系统最适合采用哪些自动评测指标？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q05_baseline_a_20260410_184755.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q05_baseline_a_20260410_184755.md"
 }

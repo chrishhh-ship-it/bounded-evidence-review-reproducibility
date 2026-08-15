@@ -2,8 +2,8 @@
   "query_id": "Q13",
   "query": "全文证据相较于摘要级证据，在智慧情报服务中带来哪些质量提升？",
   "stage": "done",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q13_autosurvey_native_20260419_104725.md",
-  "output_json": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q13_autosurvey_native_20260419_104725.json",
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q13_autosurvey_native_20260419_104725.md",
+  "output_json": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q13_autosurvey_native_20260419_104725.json",
   "elapsed_seconds": 666.211,
   "retrieved_total": 83
 }

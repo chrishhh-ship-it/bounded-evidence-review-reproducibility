@@ -161,5 +161,5 @@
       "abstract": "… 本文通过统计满足QoS 要求的作业个 数,将其与总作业数进行… 基于DRL 的Agent 训练方 法:一 种是基于C-DQN 的Agent,其采 … GAE 是一种优化优势函数的方法,旨 在平衡方差和偏差之间的关系…"
     }
   ],
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q26_baseline_b_20260410_201255.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q26_baseline_b_20260410_201255.md"
 }

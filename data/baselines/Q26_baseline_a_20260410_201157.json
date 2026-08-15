@@ -3,5 +3,5 @@
   "query": "增加 agent 数量是否总能带来质量提升？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q26_baseline_a_20260410_201157.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q26_baseline_a_20260410_201157.md"
 }

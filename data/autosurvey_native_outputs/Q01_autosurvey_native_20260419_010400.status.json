@@ -2,8 +2,8 @@
   "query_id": "Q01",
   "query": "面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？",
   "stage": "done",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q01_autosurvey_native_20260419_010400.md",
-  "output_json": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q01_autosurvey_native_20260419_010400.json",
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q01_autosurvey_native_20260419_010400.md",
+  "output_json": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q01_autosurvey_native_20260419_010400.json",
   "elapsed_seconds": 429.982,
   "retrieved_total": 79
 }

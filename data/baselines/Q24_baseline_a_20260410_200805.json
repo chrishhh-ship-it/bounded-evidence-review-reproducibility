@@ -3,5 +3,5 @@
   "query": "evidence agent 是否应该作为独立角色存在，而不是并入 writer agent？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q24_baseline_a_20260410_200805.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q24_baseline_a_20260410_200805.md"
 }

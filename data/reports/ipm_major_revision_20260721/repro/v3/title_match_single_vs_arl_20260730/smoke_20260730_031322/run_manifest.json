@@ -4,7 +4,7 @@
   "model": "deepseek-v4-pro",
   "temperature": 0.0,
   "max_tokens": 12000,
-  "gold_source": "C:\\Users\\10305\\Downloads\\title_match_verified_key_20260730.csv",
+  "gold_source": "<USER_ROOT>\\Downloads\\title_match_verified_key_20260730.csv",
   "adjudication_overrides": {
     "TM077": "match",
     "TM189": "nonmatch"
@@ -22,7 +22,7 @@
   ],
   "finished_at": "2026-07-30T03:15:03.267363",
   "status": "complete",
-  "result_csv": "C:\\Users\\10305\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\smoke_20260730_031322\\title_match_single_vs_arl_results.csv",
-  "raw_jsonl": "C:\\Users\\10305\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\smoke_20260730_031322\\title_match_single_vs_arl_raw.jsonl",
-  "metrics_json": "C:\\Users\\10305\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\smoke_20260730_031322\\TITLE_MATCH_SINGLE_VS_ARL_METRICS.json"
+  "result_csv": "<USER_ROOT>\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\smoke_20260730_031322\\title_match_single_vs_arl_results.csv",
+  "raw_jsonl": "<USER_ROOT>\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\smoke_20260730_031322\\title_match_single_vs_arl_raw.jsonl",
+  "metrics_json": "<USER_ROOT>\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\smoke_20260730_031322\\TITLE_MATCH_SINGLE_VS_ARL_METRICS.json"
 }
