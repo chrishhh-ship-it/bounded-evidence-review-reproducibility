@@ -1,0 +1,268 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q202",
+  "query": "What reporting requirements prevent an AI synthesis from misrepresenting the clinical significance of a statistically significant but small effect size?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q202_method1_exp_20260413_104011.json",
+  "same_query_evidence_ids": [
+    "doi:10.1111/eci.12931",
+    "doi:10.1186/s13750-021-00226-y",
+    "doi:10.1080/09544828.2026.2626883",
+    "doi:10.1002/ctm2.1207",
+    "doi:10.2196/57986",
+    "doi:10.48550/arxiv.2501.17181",
+    "doi:10.1101/2025.11.18.25340507",
+    "title:factors that influence the adoption of ai-enabled conversational agents (aicas) as an augmenting therapeutic tool by frontline healthcare workers: from technology acceptance model 3 (tam3) lens -- a systematic mapping review|2025"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.1111/eci.12931",
+    "doi:10.1186/s13750-021-00226-y",
+    "doi:10.1080/09544828.2026.2626883",
+    "doi:10.1002/ctm2.1207",
+    "doi:10.2196/57986",
+    "doi:10.48550/arxiv.2501.17181",
+    "doi:10.1101/2025.11.18.25340507",
+    "title:factors that influence the adoption of ai-enabled conversational agents (aicas) as an augmenting therapeutic tool by frontline healthcare workers: from technology acceptance model 3 (tam3) lens -- a systematic mapping review|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Time to challenge the spurious hierarchy of systematic over narrative reviews?",
+      "authors": [
+        "Trisha Greenhalgh",
+        "Sally Thorne",
+        "Kirsti Malterud"
+      ],
+      "abstract": "Cynthia Mulrow's important paper calling for literature reviews to be undertaken more systematically (and hence be more informative and reliable) is now 30 years old.1 A recent paper in BMC Medical Research Methodology compared the proportion of reviews that were systematic (as opposed to narrative) in five leading biomedical journals.2 The authors found significant diversity: from New England Journal of Medicine (0%) and Lancet (11%) to Annals of Internal Medicine (72%). Systematic reviews were assumed by the authors to be superior because they are (i) more likely to have a focused research question, (ii) more methodologically explicit and (iii) less likely to be biased than narrative reviews. This stance reflects the raison d’être of the Cochrane Collaboration, whose use of explicit and auditable quality criteria for undertaking systematic reviews has inspired a weighty methodological handbook,3 numerous tools and checklists4, 5 and structured reporting criteria.6 There is strong emphasis on methodological reproducibility, with the implication that a different review team, using the same search criteria, quality checklists and synthesis tools, should obtain the same result.3 Yet leading medical journals regularly publish clinical topic reviews that may lack a focused research question, methods section or statement on how studies were selected and analysed (see for example7-9). These narrative reviews typically draw on expert opinion by deliberately recruiting leading names in the field (eg “The aim of this Commission is to provide the strongest evidence base through involvement of experts from a wide cross-section of disciplines…”—page 1953, emphasis added8). Reviews crafted through the experience and judgement of experts are often viewed as untrustworthy (“eminence-based” is a pejorative term). Yet the classical definition of the EBM as “the conscientious, explicit, and judicious use of current best evidence …” (page 71, emphasis added)10 suggests a key role for judgement in the selection and interpretation of evidence. In short, there appears to be a growing divergence between the assumed “hierarchy” of evidence in secondary research, which defines systematic reviews as superior,11 and what some leading academic journals view as a state-of-the-art (that is, expert-led narrative) review. We believe this is partly because the systematic review format has been erroneously defined as a universal gold standard and partly because the term “narrative review” is frequently misunderstood, misapplied and unfairly dismissed. Systematic reviews in the Cochrane sense use a highly technical approach to identification, appraisal and synthesis of evidence and typically (although not invariably) privilege randomised controlled trials or previous systematic reviews over other forms of evidence.11 This may be entirely appropriate—especially when the primary purpose is to answer a very specific question about how to treat a particular disease in a particular target group. But the doctor in the clinic, the nurse on the ward or the social worker in the community will encounter patients with a wide diversity of health states, cultural backgrounds, illnesses, sufferings and resources.12 And those who gather around the policymaking table will find multiple calls on their attention—including burden of need, local availability of different treatments, personal testimony, strength of public opinion and budgetary realities. To produce a meaningful synthesis of research evidence relevant to such complex situations, the reviewer must (i) incorporate a broad range of knowledge sources and strategies for knowing and (ii) undertake multi-level interpretation using creativity and judgement.12, 13 We align with previous authors, who, drawing on Wittgenstein, distinguish between puzzles or problems that require data (for which a conventional systematic review, with meta-analysis where appropriate, may be the preferred methodology) and those that require clarification and insight (for which a more interpretive and discursive synthesis of existing literature is needed).14, 15 Below, we explore both strengths, limitations and conceptual confusions of systematic and narrative reviews. We consider three questions: what makes a review systematic; what is a narrative review and whether these different kinds of review should be viewed as competing or complementary. The defining characteristic of a systematic review in the Cochrane sense is the use of a predetermined structured method to search, screen, select, appraise and summarise study findings to answer a narrowly focused research question.3, 16 Using an exhaustive search methodology, the reviewer extracts all possibly relevant primary studies, and then limits the dataset using explicit inclusion and exclusion criteria. The review focus is highly circumscribed and quality criteria are tightly enforced. Typically, a body of hundreds or thousands of potential studies identified in the initial search is whittled down to a mere handful before the reviewer even begins to consider what they collectively mean. The term “systematic” is thus by no means synonymous with “high-quality”. Rather, it can be viewed as a set of methodologies characterised by tight focus, exhaustive search, high rejection-to-inclusion ratio and an emphasis on technical rather than interpretive synthesis methods. The conflation of the quality of a review with the assiduousness of such tasks as searching, applying inclusion and exclusion criteria, creating tables of extracted data and mathematically summing effect sizes (rather than, for example, with the level of critical analysis of the papers’ unstated assumptions and discussion sections) has, we believe, led to a proliferation of systematic reviews that represent aggregations of findings within the narrow body of work that has met the authors’ eligibility criteria.17-19 Such studies may sometimes add value, especially when additional meta-analysis confirms whether a clinically significant effect is or is not also statistically significant.20 But sometimes, the term “systematic review” allows a data aggregation to claim a more privileged position within the knowledge hierarchy than it actually deserves.11 We acknowledge that the science of systematic review within the Cochrane and Campbell Collaborations is evolving to embrace a wider range of primary studies and methodologies, with recommended procedures for sampling, assessment and synthesis of evidence compliant with the question asked and the context explored. The adjective “systematic” is thus coming to acquire a broader meaning in terms of the transparency and appropriateness of methods, rather than signifying strict adherence to a particular pre-defined tool or checklist or a privileging of randomised trials (see for example methodological work by Lewin et al,21 Petticrew et al22 and Pluye et al23-25). All these approaches, however, remain focused on answering a relatively narrow question that is predefined at the outset and with a primary focus on the extraction, tabulation and summation of empirical data. A narrative review is a scholarly summary along with interpretation and critique.26 It can be conducted using a number of distinctive methodologies. While principles and procedures may diverge from the classic methodology of systematic review, they are not unsystematic (in the sense of being ad hoc or careless), and may certainly be conducted and presented in a systematic way, depending on purpose, method and context. Different kinds of reviews offer different kinds of truth: the conventional systematic review with meta-analysis deals in probabilistic (typically, Bayesian) truth; it is concerned mainly with producing generalisable “facts” to aid prediction. The narrative review, in contrast, deals in plausible truth. Its goal is an authoritative argument, based on informed wisdom that is convincing to an audience of fellow experts. To that end, the author of a narrative review must authentically represent in the written product both the underpinning evidence (including but not limited to primary research) and how this evidence has been drawn upon and drawn together to inform the review's conclusions. A hermeneutic review takes as its reference point the notion of verstehen, or the process of creating an interpretive understanding.14 It capitalises on the continual deepening of insight that can be obtained by critical reflection on particular elements of a dataset—in this case, individual primary studies—in the context of a wider body of work. It may or may not define its reference body of studies using systematic search methods and inclusion/exclusion criteria, but its primary focus is on the essential tasks of induction and interpretation in relation to the defined sample for the purpose of advancing theoretical understanding.17 A realist review considers the “generative causality,” in which particular mechanisms (for example, peer influence) produce particular outcomes (for example, smoking cessation) in some circumstances (for example, when societal disapproval of smoking is high) but not others (for example, in cultures where smoking is still widely viewed as a mark of sophistication).27 A meta-narrative review maps the storyline of a research tradition over time.28 Shifting the focus away from comparing findings of studies published at different times, it orients critical reflection to discern how ideas have waxed and waned within different scholarly communities at different points in the development of thinking (see an early example of how the term “diffusion of innovations” was differently defined and explored in different academic disciplines29). Each of these forms of narrative review (along with other specialist approaches to combining primary studies in qualitative research30, 31) reflects an explicit lens that is expected to shape the understandings that will arise from the review process, through analysis and synthesis processes that may be highly systematic. Narrative reviews also include a number of more generic styles such as integrative32, 33 and critical,34 the former being the approach generally taken by narrative reviews in clinical journals. All these approaches play an important role in expanding our understanding not only of the topic in question but also of the reasons why it has been studied in a particular way, the interpretations that have been variously made with respect to what we know about it, and the nature of the knowledge base that informs or might inform clinical practice. Because hermeneutic, realist and meta-narrative reviews have explicit methodologies and accepted standards and criteria for judging their quality,14, 27, 28 a minority of scholars include such approaches within the (broadly defined) category of systematic reviews. However, we have had experience of journal editors rejecting reviews based on these techniques on the grounds that they were “not systematic”. Also of note is the emergence of “how-to” guides for narrative reviews, which (misleadingly in our view) exhort the reviewer to focus carefully on such tasks as starting with an explicit search strategy and defining strict inclusion and exclusion criteria for primary studies.35, 36 In other words, the boundaries between systematic and narrative reviews are both fuzzy and contested. The conflation of “systematic” with superior quality (and “narrative” with inferior quality) has played a major role in the muddying of methodological waters in secondary research. This implicit evidence hierarchy (or pyramid) elevates the mechanistic processes of exhaustive search, wide exclusion and mathematical averaging over the thoughtful, in-depth, critically reflective processes of engagement with ideas. The emphasis on thinking and interpretation in narrative review has prompted some authors to use the term “evidence-informed” rather than “evidence-based”15, 37: the narrative review is both less and more than a methods-driven exercise in extracting and summating data. Training in systematic reviews has produced a generation of scholars who are skilled in the technical tasks of searching, sorting, checking against inclusion criteria, tabulating extracted data and generating “grand means” and confidence intervals.3 These skills are important, but as the recent article by Faggion et al illustrates, critics may incorrectly assume that they override and make redundant the generation of understanding. To the extent that the term “systematic review” privileges only that which is common in the findings amongst a rigidly defined subset of the available body of work, we risk losing sight of the marvellous diversities and variations that ought to intrigue us. In excluding those aspects of scholarship, systematic reviews hold the potential to significantly skew our knowledge landscape. While there are occasions when systematic review is the ideal approach to answering specific types of question, the absence of thoughtful, interpretive critical reflection can render such products hollow, misleading and potentially harmful. The argument that systematic reviews are less biased than narrative reviews begs the question of what we mean by bias. Bias is an epidemiological construct, which refers to something that distorts the objective comparisons between groups.20 It presupposes the dispassionate, instrumental and universal “view from nowhere” that has long defined the scientific method.38 When we speak of interpretation, we refer to an analysis that is necessarily perspectival, with the interpreter transparently positioned in order that the reader can understand why this particular perspective, selection process and interpretive methodology was selected in relation to the question at hand.14, 17, 29, 37, 39 Systematic and transparent reflection upon and sharing of such aspects of the research process adds to the scientific quality of interpretive research. The question of whether “systematic” review techniques can eliminate bias in secondary research is in any case questionable. The privileging of freedom from bias over relevance of question and findings wrongly assumes that how the topic is framed, and which questions should be explored is somehow self-evident. A recent review of systematic reviews generated by a national knowledge centre to inform policymaking in Norway showed that in most cases, the evidence base addressed only a fraction of relevant policy questions.40 More generally, there is growing evidence that the science of systematic reviews is becoming increasingly distorted by commercial and other conflicts of interest, leading to reviews, which—often despite ticking the boxes on various quality checklists—are unnecessary, misleading or partisan.19, 41 The holy grail of a comprehensive database of unambiguous and unbiased evidence summaries (in pursuit of which the Cochrane Collaboration was founded42) continues to recede into the future. A legitimate criticism of narrative reviews is that they may “cherry pick” evidence to bolster a particular perspective. But this must be weighed against the counter-argument that the narrative reviewer selects evidence judiciously and purposively with an eye to what is relevant for key policy questions—including the question of which future research programmes should be funded. Whilst we accept that narrative reviews can be performed well or badly, we believe the undervaluing of such reviews is a major contributor to research waste. In the absence of an interpretive overview of a topic that clearly highlights the state of knowledge, ignorance and uncertainty (explaining how we know what we know, and where the intriguing unanswered questions lie), research funding will continue to be ploughed into questions that are of limited importance, and which have often already been answered.40 This principle was illustrated in a recent hermeneutic review of telehealth in heart failure by one of us.43 It identified 7 systematic reviews of systematic reviews, 32 systematic reviews (including 17 meta-analyses) covering hundreds of primary studies, as well as six mega-trials—almost all of which had concluded that more research (addressing the same narrow question with yet more randomised trials intended to establish an effect size for telehealth) was needed. The hermeneutic approach revealed numerous questions that had remained under-explored as researchers had pursued this narrow question—including the complex and changing nature of the co-morbidities and social determinants associated with heart failure, the varied experiences and priorities of patients with heart failure, the questionable nature of up-titration as a guiding principle in heart failure management, and the numerous organisational, regulatory and policy-level complexities associated with introducing telehealth programmes. The review concluded that: “The limited adoption of telehealth for heart failure has complex clinical, professional and institutional causes, which are unlikely to be elucidated by adding more randomised trials of technology-on versus technology-off to an already-crowded literature. An alternative approach is proposed, based on naturalistic study designs, application of social and organisational theory, and co-design of new service models based on socio-technical principles” (page 156). As many authors and journal editors are well aware, the narrative review is not a poor cousin of the systematic review but a different and potentially complementary form of scholarship.22, 44 Nevertheless, the simplistic hierarchy “systematic review good; narrative review less good” persists in some circles. The under-acknowledged limitations of systematic reviews, along with missed opportunities for undertaking and using narrative reviews to extend understanding within a field, risks legitimising and perpetuating a narrow and unexciting research agenda and contributing to research waste. We call upon policymakers and clinicians (who seek to ensure that their decisions are evidence-based, but who may have been seduced by a spurious hierarchy of secondary evidence) and on research commissioners (whose decisions will shape the generation of the future evidence base) to re-evaluate the low status currently afforded to narrative reviews. TG was invited to submit a paper on a topic of her choice to EJCI by the editor. She suggested this topic to ST and KM and wrote an initial outline for the paper. All authors then contributed iteratively and equally to the development of ideas and refinement of the paper.",
+      "year": "2018",
+      "published_date": "2018-03-26",
+      "journal": "European Journal of Clinical Investigation",
+      "url": "https://doi.org/10.1111/eci.12931",
+      "arxiv_id": "",
+      "keywords": [
+        "Spurious relationship",
+        "Narrative",
+        "Hierarchy",
+        "Narrative review",
+        "Systematic review",
+        "MEDLINE",
+        "Psychology",
+        "Computer science"
+      ],
+      "citations": 1032,
+      "source": "OpenAlex",
+      "doi": "10.1111/eci.12931",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded"
+    },
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "id": "gs_455d270f83",
+      "title": "Rethink literature review of design research in an age of AI–from 'secretary work'to scholarly synthesis of insight, frameworks, and foresight",
+      "abstract": ": its scholarly value lies not in the mere presence of text but in analytical judgment,  evidence–grounded evaluation, and rigorous reasoning. Classic guidance on critical reviewing",
+      "authors": [
+        "R Jiao"
+      ],
+      "year": 2026,
+      "journal": "Journal of Engineering Design",
+      "citations": 1,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/09544828.2026.2626883",
+      "doi": "10.1080/09544828.2026.2626883",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "The future of ChatGPT in academic research and publishing: A commentary for <i>clinical and translational medicine</i>",
+      "authors": [
+        "Jun Wen",
+        "Wei Wang"
+      ],
+      "abstract": "ChatGPT, an artificial intelligence (AI)-powered chatbot developed by OpenAI, is creating a buzz across all occupational sectors. Its name comes from its basis in the Generative Pretrained Transformer (GPT) language model. ChatGPT's most promising feature is its ability to offer human-like responses to text input using deep learning techniques at a level far superior to any other AI model. Its rapid integration in various industries signals the public's burgeoning reliance on AI technology. Thus, it is essential to critically evaluate ChatGPT's potential impacts on academic clinical and translational medicine research. ChatGPT contains 175 billion parameters, making it one of the largest and most powerful models for AI processing available today—hence its growing use in different occupations. ChatGPT's responses are leaps and bounds above those from past AI programs, in no small part due to being more human-like. ChatGPT has taken the business world by storm. It is easy to envision its expansion into clinical and translational medicine in the future. As such, experts must consider the potential effects of this technology in and beyond medical research. ChatGPT has made its debut in the scientific literature through published papers and preprints. Although ChatGPT can undoubtedly benefit writers of all backgrounds, its limitations in medical research merit close attention.1 The emerging use of ChatGPT has sparked an upheaval in the scientific community and ignited debates around the ethics of using AI to write scientific publications that can influence the decisions of physicians, researchers, and policymakers. The most significant disadvantage of ChatGPT is that the information it compiles is not always accurate. This drawback is especially detrimental in academic publishing; after all, progress depends on sharing appropriate information. Presenting incorrect data in a scientific setting carries a great risk of harm. For example, research influences how personal and community health concerns are treated and managed. The data which ChatGPT uses provide information from 2021 and earlier. The chatbot does not currently consider information reported in 2022 onward.2 For a field that is driven by recent advances to boost knowledge, enhance interventions, and formulate evidence-based policies, this year-long (and growing) information gap is a stark hindrance. If scholars use ChatGPT to create content, attempting to publish papers that contain false or outdated information will tarnish authors’ credibility among colleagues and peers. A double-edged sword with ChatGPT is the ability—or more accurately, the inability—of scholars to detect when other professionals have used it. Researchers at Northwestern University asked ChatGPT to write 50 medical-research abstracts based on a set of articles published in medical journals. The authors then asked a group of medical researchers to spot the fabricated abstracts.3 Problematic results emerged, with human reviewers able to correctly identify only 68% of the ChatGPT-produced abstracts and 86% of the genuine abstracts. These findings confirm ChatGPT writes believable (albeit potentially inaccurate) scientific abstracts. The results of this study bode well for those interested in employing ChatGPT to facilitate the writing process, as people reading their work likely will not realize it was AI-generated. However, this possibility raises several concerns. Being unable to identify valid information comes with consequences. Scientists may follow flawed investigation routes, which translate into wasted research dollars and misleading results. For policymakers, the inability to detect false research may ground policy decisions in incorrect information that could have monumental effects on society. Due to these implications, the future of academic and scientific publishing may soon hold policies that forbid AI-generated content. Those who use ChatGPT in any capacity will need to be aware of these mandates. The 40th International Conference on Machine Learning already banned papers written by AI tools, including ChatGPT.4 The Science family of journals is also updating their license and Editorial Policies to specify that they will not allow ChatGPT-produced text. They explained their stance in an editorial, stating that most cases of scientific misconduct arise from inadequate human attention, and permitting ChatGPT-generated content significantly increases this risk.5 Not all ChatGPT-related matters have elicited concern within the scientific research field. A February 2023 article in Nature described computational biologists’ use of ChatGPT to improve completed research papers. In just five minutes, the biologists received a review of their manuscript that increased readability and spotted equation-based mistakes. During a trial with three manuscripts, the team's use of ChatGPT was not always smooth, but the final output returned better-edited manuscripts.6 Using ChatGPT for this purpose bypasses the scientific community's primary concerns surrounding AI and its use of inaccurate or outdated information. Because computational biologists initially wrote the manuscripts, the information was already accurate and up to date. ChatGPT can help increase researchers’ productivity and content quality. If scientists can spend less time editing their work, they can devote more time to advancing the field of medicine. Considering these benefits, ChatGPT can prove invaluable for researchers looking to verify answers or identify problems in their work. It is important to remember that, as of now, ChatGPT is not sufficiently trained on specialized content to be able to fact-check technical topics.7 Experts anticipate that the technology and programs integrating ChatGPT will serve as precursors to more advanced AI systems. In the meantime, this chatbot can play a supportive role in academic and scientific publishing, primarily for editing. Even so, those who use ChatGPT must be aware of its limitations. As it stands, ChatGPT cannot be relied upon to provide correct facts or produce reliable references, as stated by a January editorial in Nature Machine Intelligence.8 Accepting the limitations of ChatGPT and using it only for certain tasks allows researchers to delegate tedious jobs, such as manuscript editing, to the AI model while avoiding catastrophes such as the publication of false information. As ChatGPT becomes more commonplace, it will be crucial to calibrate expectations about its capabilities and acknowledge that it cannot take on every job. Especially in the academic research field, any tasks in need of specialized subject knowledge or innovative ideas and opinions still require a genuine human touch that cannot be replaced by AI. Our conclusions regarding ChatGPT and its applications in scientific research focus on a high-impact journal–Clinical and Translational Medicine–that aims to promote, accelerate, and translate preclinical research for clinical applications. This journal highlights the importance of clinical and translational medicine research in the name of promoting the safety and efficacy of discoveries that proceed to human trials, reflecting the notion of ‘bench to bedside.’9 Implementing ChatGPT in its present iteration must be pursued with extreme caution given the tool's evolving limitations and capabilities when it comes to providing reliable information. Can AI replace human input? We concur with H. Holden Thorp's position5 on ChatGPT in that “ChatGPT is fun, but not an author” (p. 313). Scientists might be able to use well-developed AI tools to increase work efficiency for tasks such as proofreading and manuscript checks. In the future, AI-based tools may become recognized for their contributions to broader areas of scientific research, depending on their abilities to support human input. The boundaries between research ethics and the moral use of AI in health research10 need to be further explored to establish guidelines. All researchers and contributors must understand what AI can and cannot do. Therefore, editors and editorial board members should continue monitoring ChatGPT's applications in academic research to draft journal policies that inform contributors of best practices. Doing so will ensure that Clinical and Translational Medicine can maintain an image of integrity by publishing timely and accurate research that makes meaningful contributions. After all, research excellence is gauged by ethics and integrity. The authors declare no conflict of interest.",
+      "year": "2023",
+      "published_date": "2023-03-01",
+      "journal": "Clinical and Translational Medicine",
+      "url": "https://doi.org/10.1002/ctm2.1207",
+      "arxiv_id": "",
+      "keywords": [
+        "LEAPS",
+        "Marketing buzz",
+        "Translational medicine",
+        "Engineering ethics",
+        "Publishing",
+        "Data science",
+        "Translational research",
+        "Disadvantage"
+      ],
+      "citations": 103,
+      "source": "OpenAlex",
+      "doi": "10.1002/ctm2.1207",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "policy intelligence AND evidence grounded writing"
+    },
+    {
+      "title": "Exploring Biases of Large Language Models in the Field of Mental Health: Comparative Questionnaire Study of the Effect of Gender and Sexual Orientation in Anorexia Nervosa and Bulimia Nervosa Case Vignettes.",
+      "authors": [
+        "Rebekka Schnepper",
+        "Noa Roemmel",
+        "Rainer Schaefert",
+        "Lena Lambrecht-Walzinger",
+        "Gunther Meinlschmidt"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly used in mental health, showing promise in assessing disorders. However, concerns exist regarding their accuracy, reliability, and fairness. Societal biases and underrepresentation of certain populations may impact LLMs. Because LLMs are already used for clinical practice, including decision support, it is important to investigate potential biases to ensure a responsible use of LLMs. Anorexia nervosa (AN) and bulimia nervosa (BN) show a lifetime prevalence of 1%-2%, affecting more women than men. Among men, homosexual men face a higher risk of eating disorders (EDs) than heterosexual men. However, men are underrepresented in ED research, and studies on gender, sexual orientation, and their impact on AN and BN prevalence, symptoms, and treatment outcomes remain limited. We aimed to estimate the presence and size of bias related to gender and sexual orientation produced by a common LLM as well as a smaller LLM specifically trained for mental health analyses, exemplified in the context of ED symptomatology and health-related quality of life (HRQoL) of patients with AN or BN. We extracted 30 case vignettes (22 AN and 8 BN) from scientific papers. We adapted each vignette to create 4 versions, describing a female versus male patient living with their female versus male partner (2 × 2 design), yielding 120 vignettes. We then fed each vignette into ChatGPT-4 and to \"MentaLLaMA\" based on the Large Language Model Meta AI (LLaMA) architecture thrice with the instruction to evaluate them by providing responses to 2 psychometric instruments, the RAND-36 questionnaire assessing HRQoL and the eating disorder examination questionnaire. With the resulting LLM-generated scores, we calculated multilevel models with a random intercept for gender and sexual orientation (accounting for within-vignette variance), nested in vignettes (accounting for between-vignette variance). In ChatGPT-4, the multilevel model with 360 observations indicated a significant association with gender for the RAND-36 mental composite summary (conditional means: 12.8 for male and 15.1 for female cases; 95% CI of the effect -6.15 to -0.35; P=.04) but neither with sexual orientation (P=.71) nor with an interaction effect (P=.37). We found no indications for main effects of gender (conditional means: 5.65 for male and 5.61 for female cases; 95% CI -0.10 to 0.14; P=.88), sexual orientation (conditional means: 5.63 for heterosexual and 5.62 for homosexual cases; 95% CI -0.14 to 0.09; P=.67), or for an interaction effect (P=.61, 95% CI -0.11 to 0.19) for the eating disorder examination questionnaire overall score (conditional means 5.59-5.65 95% CIs 5.45 to 5.7). MentaLLaMA did not yield reliable results. LLM-generated mental HRQoL estimates for AN and BN case vignettes may be biased by gender, with male cases scoring lower despite no real-world evidence supporting this pattern. This highlights the risk of bias in generative artificial intelligence in the field of mental health. Understanding and mitigating biases related to gender and other factors, such as ethnicity, and socioeconomic status are crucial for responsible use in diagnostics and treatment recommendations.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "JMIR mental health",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40111287/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Anorexia Nervosa",
+        "Female",
+        "Bulimia Nervosa",
+        "Male",
+        "Surveys and Questionnaires",
+        "Adult",
+        "Sexual Behavior"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.2196/57986",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "title": "An AI-Driven Live Systematic Reviews in the Brain-Heart Interconnectome: Minimizing Research Waste and Advancing Evidence Synthesis",
+      "authors": [
+        "Arya Rahgozar",
+        "P. Mortezaagha",
+        "Jodi Edwards",
+        "Douglas Manuel",
+        "Jessie McGowen",
+        "Merrick Zwarenstein",
+        "Dean A. Fergusson",
+        "Andrea C. Tricco",
+        "Kelly Cobey",
+        "Margaret Sampson",
+        "M. King",
+        "Dawn P. Richards",
+        "Alexandra M. Bodnaruc",
+        "David Moher"
+      ],
+      "abstract": "The Brain-Heart Interconnectome (BHI) combines neurology and cardiology but is hindered by inefficiencies in evidence synthesis, poor adherence to quality standards, and research waste. To address these challenges, we developed an AI-driven system to enhance systematic reviews in the BHI domain. The system integrates automated detection of Population, Intervention, Comparator, Outcome, and Study design (PICOS), semantic search using vector embeddings, graph-based querying, and topic modeling to identify redundancies and underexplored areas. Core components include a Bi-LSTM model achieving 87% accuracy for PICOS compliance, a study design classifier with 95.7% accuracy, and Retrieval-Augmented Generation (RAG) with GPT-3.5, which outperformed GPT-4 for graph-based and topic-driven queries. The system provides real-time updates, reducing research waste through a living database and offering an interactive interface with dashboards and conversational AI. While initially developed for BHI, the system's adaptable architecture enables its application across various biomedical fields, supporting rigorous evidence synthesis, efficient resource allocation, and informed clinical decision-making.",
+      "year": "2025",
+      "published_date": "2025-01-25",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/2568a5905c4e2542396fde71bf7f362517f7cf6a",
+      "arxiv_id": "2501.17181",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2501.17181",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Measuring the Quality of AI-Generated Clinical Notes: A Systematic Review and Experimental Benchmark of Evaluation Methods",
+      "authors": [
+        "Alexandra Dahlberg",
+        "Tiila Käenniemi",
+        "Tiia Winther-Jensen",
+        "Olli Tapiola",
+        "Rami Luisto",
+        "Tuukka Puranen",
+        "Max Gordon",
+        "Enni Sanmark",
+        "Ville Vartiainen"
+      ],
+      "abstract": "Abstract\n                \n                  Background\n                  High-quality clinical documentation is essential for safe, effective care, yet producing it is time consuming and error prone. Large language models (LLMs) can assist with note generation, but clinical adoption is determined by the resulting note quality. However current evaluation practices vary, and their clinical relevance is unclear. Drawing on a multidisciplinary perspective, we examined how quality is assessed and how those assessments align with clinical demands.\n                \n                \n                  Methods\n                  We systematically searched Ovid Medline and Scopus on 10 April 2025 for peer-reviewed studies that used LLMs in generating clinical notes and included an evaluation of the quality of the resulting text. The screening followed PRISMA and the protocol was preregistered in PROSPERO. Data on metrics, and outcomes were synthesised narratively. Based on these findings, we designed an experimental setup to test the most common evaluation metrics and an LLM-as-evaluator, included for its scalability across large test sets. The experiment used synthetic cases with targeted perturbations.\n                \n                \n                  Findings\n                  Thirty-seven studies were included. The reporting was dominated by lexical overlap metrics, chiefly ROUGE and BLEU. Semantic similarity metrics, such as BERTScore and BLEURT, were less common. A human evaluation was frequent but heterogeneous, with criteria and methods defined using varying degrees of detail; the most common foci were correctness, fluency, and aspects of clinical acceptability. In our experimental setup, lexical overlap metrics detected deletions and modifications but penalised meaning-preserving paraphrases. Semantic metrics and LLM-as-evaluators were more tolerant of paraphrased perturbations, yet remained sensitive to relevant changes, with performance varying by model and language.\n                \n                \n                  Interpretation\n                  Current practice relies on lexical overlap metrics that are useful for cursory checks but insufficient as proxies for quality. We recommend a layered strategy that pairs semantic metrics with LLM-as-evaluator for scalability and includes targeted human adjudication. Broader, safety-focused validation across institutions and languages is needed before routine deployment.\n                \n                \n                  Funding\n                  Business Finland through the GenAID research project. Personal grants listed under Acknowledgments.",
+      "year": "2025",
+      "published_date": "2025-11-20",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1101/2025.11.18.25340507",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.1101/2025.11.18.25340507",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "Factors That Influence the Adoption of AI-enabled Conversational Agents (AICAs) as an Augmenting Therapeutic Tool by Frontline Healthcare Workers: From Technology Acceptance Model 3 (TAM3) Lens -- A Systematic Mapping Review",
+      "authors": [
+        "Rawan AlMakinah"
+      ],
+      "abstract": "Artificial intelligent (AI) conversational agents hold a promising future in the field of mental health, especially in helping marginalized communities that lack access to mental health support services. It is tempting to have a 24/7 mental health companion that can be accessed anywhere using mobile phones to provide therapist-like advice. Yet, caution should be taken, and studies around their feasibility need to be surveyed. Before adopting such a rapidly changing technology, studies on its feasibility should be explored, summarized, and synthesized to gain a solid understanding of the status quo and to enable us to build a framework that can guide us throughout the development and deployment processes. Different perspectives must be considered when investigating the feasibility of AI conversational agents, including the mental healthcare professional perspective. The literature can provide insights into their perspectives in terms of opportunities, concerns, and implications. Mental health professionals, the subject-matter experts in this field, have their points of view that should be understood and considered. This systematic literature review will explore mental health practitioners' attitudes toward AI conversational agents and the factors that affect their adoption and recommendation of the technology to augment their services and treatments. The TAM3 Framework will be the lens through which this systematic literature review will be conducted.",
+      "year": "2025",
+      "published_date": "2025-01-26",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2504.13183v1",
+      "arxiv_id": "2504.13183v1",
+      "keywords": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent survey"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "312209d807afe0c51e33d817d9800ad0b24960400aee2975159d02971d47094a",
+  "elapsed_seconds": 12.949,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q202_schema_single_agent_20260724_024615.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

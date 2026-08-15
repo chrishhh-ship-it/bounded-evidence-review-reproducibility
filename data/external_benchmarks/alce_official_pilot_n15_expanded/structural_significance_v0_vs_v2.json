@@ -1,0 +1,77 @@
+{
+  "asqa": {
+    "n_pairs": 15,
+    "citation_index_validity": {
+      "mean_v0": 0.9333333333333333,
+      "mean_v2": 1.0,
+      "mean_diff_v2_minus_v0": 0.06666666666666667,
+      "n_pairs_improved": 1,
+      "n_pairs_worsened": 0,
+      "n_pairs_unchanged": 14,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_p_two_sided": 0.31731050786291415,
+      "bh_fdr": {
+        "p": 0.31731050786291415,
+        "rank": 4,
+        "bh_critical": 0.05,
+        "significant_after_fdr": false
+      }
+    },
+    "sentence_citation_coverage": {
+      "mean_v0": 0.8088888888888889,
+      "mean_v2": 0.9666666666666667,
+      "mean_diff_v2_minus_v0": 0.15777777777777777,
+      "n_pairs_improved": 4,
+      "n_pairs_worsened": 0,
+      "n_pairs_unchanged": 11,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_p_two_sided": 0.06788915486182899,
+      "bh_fdr": {
+        "p": 0.06788915486182899,
+        "rank": 3,
+        "bh_critical": 0.037500000000000006,
+        "significant_after_fdr": false
+      }
+    }
+  },
+  "qampari": {
+    "n_pairs": 15,
+    "citation_index_validity": {
+      "mean_v0": 0.6666666666666666,
+      "mean_v2": 1.0,
+      "mean_diff_v2_minus_v0": 0.3333333333333333,
+      "n_pairs_improved": 5,
+      "n_pairs_worsened": 0,
+      "n_pairs_unchanged": 10,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_p_two_sided": 0.025347318677468252,
+      "bh_fdr": {
+        "p": 0.025347318677468252,
+        "rank": 1,
+        "bh_critical": 0.0125,
+        "significant_after_fdr": false
+      }
+    },
+    "sentence_citation_coverage": {
+      "mean_v0": 0.6666666666666666,
+      "mean_v2": 0.9666666666666667,
+      "mean_diff_v2_minus_v0": 0.3,
+      "n_pairs_improved": 5,
+      "n_pairs_worsened": 0,
+      "n_pairs_unchanged": 10,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_p_two_sided": 0.03389485352468927,
+      "bh_fdr": {
+        "p": 0.03389485352468927,
+        "rank": 2,
+        "bh_critical": 0.025,
+        "significant_after_fdr": false
+      }
+    }
+  },
+  "_fdr_summary": {
+    "family_size": 4,
+    "q_threshold": 0.05,
+    "any_significant_after_fdr": false
+  }
+}

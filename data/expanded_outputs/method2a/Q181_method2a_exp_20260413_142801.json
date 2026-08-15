@@ -1,0 +1,236 @@
+{
+  "query_id": "Q181",
+  "query": "What criteria determine when a crossover RCT's carryover effect threatens the citation grounding of a within-subject synthesis claim?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Time to challenge the spurious hierarchy of systematic over narrative reviews?",
+      "authors": [
+        "Trisha Greenhalgh",
+        "Sally Thorne",
+        "Kirsti Malterud"
+      ],
+      "abstract": "Cynthia Mulrow's important paper calling for literature reviews to be undertaken more systematically (and hence be more informative and reliable) is now 30 years old.1 A recent paper in BMC Medical Research Methodology compared the proportion of reviews that were systematic (as opposed to narrative) in five leading biomedical journals.2 The authors found significant diversity: from New England Journal of Medicine (0%) and Lancet (11%) to Annals of Internal Medicine (72%). Systematic reviews were assumed by the authors to be superior because they are (i) more likely to have a focused research question, (ii) more methodologically explicit and (iii) less likely to be biased than narrative reviews. This stance reflects the raison d’être of the Cochrane Collaboration, whose use of explicit and auditable quality criteria for undertaking systematic reviews has inspired a weighty methodological handbook,3 numerous tools and checklists4, 5 and structured reporting criteria.6 There is strong emphasis on methodological reproducibility, with the implication that a different review team, using the same search criteria, quality checklists and synthesis tools, should obtain the same result.3 Yet leading medical journals regularly publish clinical topic reviews that may lack a focused research question, methods section or statement on how studies were selected and analysed (see for example7-9). These narrative reviews typically draw on expert opinion by deliberately recruiting leading names in the field (eg “The aim of this Commission is to provide the strongest evidence base through involvement of experts from a wide cross-section of disciplines…”—page 1953, emphasis added8). Reviews crafted through the experience and judgement of experts are often viewed as untrustworthy (“eminence-based” is a pejorative term). Yet the classical definition of the EBM as “the conscientious, explicit, and judicious use of current best evidence …” (page 71, emphasis added)10 suggests a key role for judgement in the selection and interpretation of evidence. In short, there appears to be a growing divergence between the assumed “hierarchy” of evidence in secondary research, which defines systematic reviews as superior,11 and what some leading academic journals view as a state-of-the-art (that is, expert-led narrative) review. We believe this is partly because the systematic review format has been erroneously defined as a universal gold standard and partly because the term “narrative review” is frequently misunderstood, misapplied and unfairly dismissed. Systematic reviews in the Cochrane sense use a highly technical approach to identification, appraisal and synthesis of evidence and typically (although not invariably) privilege randomised controlled trials or previous systematic reviews over other forms of evidence.11 This may be entirely appropriate—especially when the primary purpose is to answer a very specific question about how to treat a particular disease in a particular target group. But the doctor in the clinic, the nurse on the ward or the social worker in the community will encounter patients with a wide diversity of health states, cultural backgrounds, illnesses, sufferings and resources.12 And those who gather around the policymaking table will find multiple calls on their attention—including burden of need, local availability of different treatments, personal testimony, strength of public opinion and budgetary realities. To produce a meaningful synthesis of research evidence relevant to such complex situations, the reviewer must (i) incorporate a broad range of knowledge sources and strategies for knowing and (ii) undertake multi-level interpretation using creativity and judgement.12, 13 We align with previous authors, who, drawing on Wittgenstein, distinguish between puzzles or problems that require data (for which a conventional systematic review, with meta-analysis where appropriate, may be the preferred methodology) and those that require clarification and insight (for which a more interpretive and discursive synthesis of existing literature is needed).14, 15 Below, we explore both strengths, limitations and conceptual confusions of systematic and narrative reviews. We consider three questions: what makes a review systematic; what is a narrative review and whether these different kinds of review should be viewed as competing or complementary. The defining characteristic of a systematic review in the Cochrane sense is the use of a predetermined structured method to search, screen, select, appraise and summarise study findings to answer a narrowly focused research question.3, 16 Using an exhaustive search methodology, the reviewer extracts all possibly relevant primary studies, and then limits the dataset using explicit inclusion and exclusion criteria. The review focus is highly circumscribed and quality criteria are tightly enforced. Typically, a body of hundreds or thousands of potential studies identified in the initial search is whittled down to a mere handful before the reviewer even begins to consider what they collectively mean. The term “systematic” is thus by no means synonymous with “high-quality”. Rather, it can be viewed as a set of methodologies characterised by tight focus, exhaustive search, high rejection-to-inclusion ratio and an emphasis on technical rather than interpretive synthesis methods. The conflation of the quality of a review with the assiduousness of such tasks as searching, applying inclusion and exclusion criteria, creating tables of extracted data and mathematically summing effect sizes (rather than, for example, with the level of critical analysis of the papers’ unstated assumptions and discussion sections) has, we believe, led to a proliferation of systematic reviews that represent aggregations of findings within the narrow body of work that has met the authors’ eligibility criteria.17-19 Such studies may sometimes add value, especially when additional meta-analysis confirms whether a clinically significant effect is or is not also statistically significant.20 But sometimes, the term “systematic review” allows a data aggregation to claim a more privileged position within the knowledge hierarchy than it actually deserves.11 We acknowledge that the science of systematic review within the Cochrane and Campbell Collaborations is evolving to embrace a wider range of primary studies and methodologies, with recommended procedures for sampling, assessment and synthesis of evidence compliant with the question asked and the context explored. The adjective “systematic” is thus coming to acquire a broader meaning in terms of the transparency and appropriateness of methods, rather than signifying strict adherence to a particular pre-defined tool or checklist or a privileging of randomised trials (see for example methodological work by Lewin et al,21 Petticrew et al22 and Pluye et al23-25). All these approaches, however, remain focused on answering a relatively narrow question that is predefined at the outset and with a primary focus on the extraction, tabulation and summation of empirical data. A narrative review is a scholarly summary along with interpretation and critique.26 It can be conducted using a number of distinctive methodologies. While principles and procedures may diverge from the classic methodology of systematic review, they are not unsystematic (in the sense of being ad hoc or careless), and may certainly be conducted and presented in a systematic way, depending on purpose, method and context. Different kinds of reviews offer different kinds of truth: the conventional systematic review with meta-analysis deals in probabilistic (typically, Bayesian) truth; it is concerned mainly with producing generalisable “facts” to aid prediction. The narrative review, in contrast, deals in plausible truth. Its goal is an authoritative argument, based on informed wisdom that is convincing to an audience of fellow experts. To that end, the author of a narrative review must authentically represent in the written product both the underpinning evidence (including but not limited to primary research) and how this evidence has been drawn upon and drawn together to inform the review's conclusions. A hermeneutic review takes as its reference point the notion of verstehen, or the process of creating an interpretive understanding.14 It capitalises on the continual deepening of insight that can be obtained by critical reflection on particular elements of a dataset—in this case, individual primary studies—in the context of a wider body of work. It may or may not define its reference body of studies using systematic search methods and inclusion/exclusion criteria, but its primary focus is on the essential tasks of induction and interpretation in relation to the defined sample for the purpose of advancing theoretical understanding.17 A realist review considers the “generative causality,” in which particular mechanisms (for example, peer influence) produce particular outcomes (for example, smoking cessation) in some circumstances (for example, when societal disapproval of smoking is high) but not others (for example, in cultures where smoking is still widely viewed as a mark of sophistication).27 A meta-narrative review maps the storyline of a research tradition over time.28 Shifting the focus away from comparing findings of studies published at different times, it orients critical reflection to discern how ideas have waxed and waned within different scholarly communities at different points in the development of thinking (see an early example of how the term “diffusion of innovations” was differently defined and explored in different academic disciplines29). Each of these forms of narrative review (along with other specialist approaches to combining primary studies in qualitative research30, 31) reflects an explicit lens that is expected to shape the understandings that will arise from the review process, through analysis and synthesis processes that may be highly systematic. Narrative reviews also include a number of more generic styles such as integrative32, 33 and critical,34 the former being the approach generally taken by narrative reviews in clinical journals. All these approaches play an important role in expanding our understanding not only of the topic in question but also of the reasons why it has been studied in a particular way, the interpretations that have been variously made with respect to what we know about it, and the nature of the knowledge base that informs or might inform clinical practice. Because hermeneutic, realist and meta-narrative reviews have explicit methodologies and accepted standards and criteria for judging their quality,14, 27, 28 a minority of scholars include such approaches within the (broadly defined) category of systematic reviews. However, we have had experience of journal editors rejecting reviews based on these techniques on the grounds that they were “not systematic”. Also of note is the emergence of “how-to” guides for narrative reviews, which (misleadingly in our view) exhort the reviewer to focus carefully on such tasks as starting with an explicit search strategy and defining strict inclusion and exclusion criteria for primary studies.35, 36 In other words, the boundaries between systematic and narrative reviews are both fuzzy and contested. The conflation of “systematic” with superior quality (and “narrative” with inferior quality) has played a major role in the muddying of methodological waters in secondary research. This implicit evidence hierarchy (or pyramid) elevates the mechanistic processes of exhaustive search, wide exclusion and mathematical averaging over the thoughtful, in-depth, critically reflective processes of engagement with ideas. The emphasis on thinking and interpretation in narrative review has prompted some authors to use the term “evidence-informed” rather than “evidence-based”15, 37: the narrative review is both less and more than a methods-driven exercise in extracting and summating data. Training in systematic reviews has produced a generation of scholars who are skilled in the technical tasks of searching, sorting, checking against inclusion criteria, tabulating extracted data and generating “grand means” and confidence intervals.3 These skills are important, but as the recent article by Faggion et al illustrates, critics may incorrectly assume that they override and make redundant the generation of understanding. To the extent that the term “systematic review” privileges only that which is common in the findings amongst a rigidly defined subset of the available body of work, we risk losing sight of the marvellous diversities and variations that ought to intrigue us. In excluding those aspects of scholarship, systematic reviews hold the potential to significantly skew our knowledge landscape. While there are occasions when systematic review is the ideal approach to answering specific types of question, the absence of thoughtful, interpretive critical reflection can render such products hollow, misleading and potentially harmful. The argument that systematic reviews are less biased than narrative reviews begs the question of what we mean by bias. Bias is an epidemiological construct, which refers to something that distorts the objective comparisons between groups.20 It presupposes the dispassionate, instrumental and universal “view from nowhere” that has long defined the scientific method.38 When we speak of interpretation, we refer to an analysis that is necessarily perspectival, with the interpreter transparently positioned in order that the reader can understand why this particular perspective, selection process and interpretive methodology was selected in relation to the question at hand.14, 17, 29, 37, 39 Systematic and transparent reflection upon and sharing of such aspects of the research process adds to the scientific quality of interpretive research. The question of whether “systematic” review techniques can eliminate bias in secondary research is in any case questionable. The privileging of freedom from bias over relevance of question and findings wrongly assumes that how the topic is framed, and which questions should be explored is somehow self-evident. A recent review of systematic reviews generated by a national knowledge centre to inform policymaking in Norway showed that in most cases, the evidence base addressed only a fraction of relevant policy questions.40 More generally, there is growing evidence that the science of systematic reviews is becoming increasingly distorted by commercial and other conflicts of interest, leading to reviews, which—often despite ticking the boxes on various quality checklists—are unnecessary, misleading or partisan.19, 41 The holy grail of a comprehensive database of unambiguous and unbiased evidence summaries (in pursuit of which the Cochrane Collaboration was founded42) continues to recede into the future. A legitimate criticism of narrative reviews is that they may “cherry pick” evidence to bolster a particular perspective. But this must be weighed against the counter-argument that the narrative reviewer selects evidence judiciously and purposively with an eye to what is relevant for key policy questions—including the question of which future research programmes should be funded. Whilst we accept that narrative reviews can be performed well or badly, we believe the undervaluing of such reviews is a major contributor to research waste. In the absence of an interpretive overview of a topic that clearly highlights the state of knowledge, ignorance and uncertainty (explaining how we know what we know, and where the intriguing unanswered questions lie), research funding will continue to be ploughed into questions that are of limited importance, and which have often already been answered.40 This principle was illustrated in a recent hermeneutic review of telehealth in heart failure by one of us.43 It identified 7 systematic reviews of systematic reviews, 32 systematic reviews (including 17 meta-analyses) covering hundreds of primary studies, as well as six mega-trials—almost all of which had concluded that more research (addressing the same narrow question with yet more randomised trials intended to establish an effect size for telehealth) was needed. The hermeneutic approach revealed numerous questions that had remained under-explored as researchers had pursued this narrow question—including the complex and changing nature of the co-morbidities and social determinants associated with heart failure, the varied experiences and priorities of patients with heart failure, the questionable nature of up-titration as a guiding principle in heart failure management, and the numerous organisational, regulatory and policy-level complexities associated with introducing telehealth programmes. The review concluded that: “The limited adoption of telehealth for heart failure has complex clinical, professional and institutional causes, which are unlikely to be elucidated by adding more randomised trials of technology-on versus technology-off to an already-crowded literature. An alternative approach is proposed, based on naturalistic study designs, application of social and organisational theory, and co-design of new service models based on socio-technical principles” (page 156). As many authors and journal editors are well aware, the narrative review is not a poor cousin of the systematic review but a different and potentially complementary form of scholarship.22, 44 Nevertheless, the simplistic hierarchy “systematic review good; narrative review less good” persists in some circles. The under-acknowledged limitations of systematic reviews, along with missed opportunities for undertaking and using narrative reviews to extend understanding within a field, risks legitimising and perpetuating a narrow and unexciting research agenda and contributing to research waste. We call upon policymakers and clinicians (who seek to ensure that their decisions are evidence-based, but who may have been seduced by a spurious hierarchy of secondary evidence) and on research commissioners (whose decisions will shape the generation of the future evidence base) to re-evaluate the low status currently afforded to narrative reviews. TG was invited to submit a paper on a topic of her choice to EJCI by the editor. She suggested this topic to ST and KM and wrote an initial outline for the paper. All authors then contributed iteratively and equally to the development of ideas and refinement of the paper.",
+      "year": "2018",
+      "published_date": "2018-03-26",
+      "journal": "European Journal of Clinical Investigation",
+      "url": "https://doi.org/10.1111/eci.12931",
+      "arxiv_id": "",
+      "keywords": [
+        "Spurious relationship",
+        "Narrative",
+        "Hierarchy",
+        "Narrative review",
+        "Systematic review",
+        "MEDLINE",
+        "Psychology",
+        "Computer science"
+      ],
+      "citations": 1032,
+      "source": "OpenAlex",
+      "doi": "10.1111/eci.12931",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded"
+    },
+    {
+      "title": "What is a heat wave: A survey and literature synthesis of heat wave definitions across the United States",
+      "authors": [
+        "Erin L. Bunting",
+        "Vasily Tolmanov",
+        "David Keellings"
+      ],
+      "abstract": "Heat waves are the last extreme weather events without a formal, on the books, definition. Instead, across the U.S. those working on extreme heat event management, forecasting, and planning are using differing definitions in their work. With such differing definitions being used there are widespread impacts including some to human and environmental health, natural resource management, and long-term emergency management planning. For instance, when should heat advisories for vulnerable populations be released when an event impacts a region using multiple definitions? There are concrete and justifiable reasons for the lack of a formal heat wave definition including, at its simplest, differences in what temperature is extreme enough, compared to the region’s climatological regimens, to be deemed as an extreme heat event or heat wave. This study looks for patterns and commonalities in emergency managers and climatologists, those most commonly addressing or planning for such events, definition of heat wave events through a review of the literature and widespread survey across the United States. Through a short 11-questions survey and subsequent text mining, we find widespread variability in the common heat wave definitions but a consistent pattern of core key term usage including aspects of heat duration, extreme temperature, and humidity. However, we also see little to no usage of non-climatological variables such as exposure, vulnerability, population, and land cover/land use.",
+      "year": "2024",
+      "published_date": "2024-09-05",
+      "journal": "PLOS Climate",
+      "url": "https://www.semanticscholar.org/paper/85c15024dc344146362050e52e766177ec168078",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 9,
+      "source": "Semantic Scholar",
+      "doi": "10.1371/journal.pclm.0000468",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis survey"
+    },
+    {
+      "title": "Strategies used for childhood chronic functional constipation: the SUCCESS evidence synthesis.",
+      "authors": [
+        "Alex Todhunter-Brown",
+        "Lorna Booth",
+        "Pauline Campbell",
+        "Brenda Cheer",
+        "Julie Cowie",
+        "Andrew Elders",
+        "Suzanne Hagen",
+        "Karen Jankulak",
+        "Helen Mason",
+        "Clare Millington",
+        "Margaret Ogden",
+        "Charlotte Paterson",
+        "Davina Richardson",
+        "Debs Smith",
+        "Jonathan Sutcliffe",
+        "Katie Thomson",
+        "Claire Torrens",
+        "Doreen McClurg"
+      ],
+      "abstract": "Up to 30% of children have constipation at some stage in their life. Although often short-lived, in one-third of children it progresses to chronic functional constipation, potentially with overflow incontinence. Optimal management strategies remain unclear. To determine the most effective interventions, and combinations and sequences of interventions, for childhood chronic functional constipation, and understand how they can best be implemented. Key stakeholders, comprising two parents of children with chronic functional constipation, two adults who experienced childhood chronic functional constipation and four health professional/continence experts, contributed throughout the research. We conducted pragmatic mixed-method reviews. For all reviews, included studies focused on any interventions/strategies, delivered in any setting, to improve any outcomes in children (0-18 years) with a clinical diagnosis of chronic functional constipation (excluding studies of diagnosis/assessment) included. Dual reviewers applied inclusion criteria and assessed risk of bias. One reviewer extracted data, checked by a second reviewer.  Stakeholders prioritised outcomes, developed a model which informed evidence synthesis and identified evidence gaps. 651 studies, including 190 randomised controlled trials and 236 primary studies, conservatively reported 48 interventions/intervention combinations. studies explored service delivery models ( Management of childhood chronic functional constipation is complex. The available evidence remains limited, with small, poorly conducted and reported studies. Many evidence gaps were identified. Treatment recommendations within current clinical guidelines remain largely unchanged, but there is a need for research to move away from considering effectiveness of single interventions. Clinical care and future studies must consider the individual characteristics of children. This study is registered as PROSPERO CRD42019159008. This award was funded by the National Institute for Health and Care Research (NIHR) Health Technology Assessment programme (NIHR award ref: 128470) and is published in full in  Between 5% and 30% of children experience constipation at some stage. In one-third of these children, this progresses to chronic functional constipation. Chronic functional constipation affects more children with additional needs. We aimed to find and bring together published information about treatments for chronic functional constipation, to help establish best treatments and treatment combinations. We did not cover assessment or diagnosis of chronic functional constipation. This project was guided by a ‘stakeholder group’, including parents of children with constipation, people who experienced constipation as children, and healthcare professionals/continence experts. We carried out a ‘scoping review’ and a series of ‘systematic reviews’. Our ‘scoping review’ provides an overall picture of research about treatments, with 651 studies describing 48 treatments. This helps identify important evidence gaps. ‘Systematic reviews’ are robust methods of bringing together and interpreting research evidence. Our stakeholder group decided to structure our systematic reviews to reflect who delivered the interventions. We brought together evidence about how well treatments worked when delivered by families/carers (32 studies), the wider children’s workforce (e.g. general practitioner, health visitor) (21 studies), continence teams (31 studies) or specialist consultant-led teams (42 studies). We also considered complementary therapies (15 studies) and behavioural strategies (4 studies). Care is affected by what is done and how it is done. We brought together evidence about different models of delivering care (15 studies), barriers and facilitators to implementation of treatments (106 studies) and costs (31 studies). Quality of evidence was mainly low to very low. Despite numerous studies, there was often insufficient information to support generalisable conclusions. Our findings generally agreed with current clinical guidelines. Management of childhood chronic functional constipation should be child-centred, multifaceted and adapted according to the individual child, their needs, the situation in which they live and the health-care setting in which they are looked after. Research is needed to address our identified evidence gaps.",
+      "year": "2024",
+      "published_date": "2024",
+      "journal": "Health technology assessment (Winchester, England)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38343084/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Constipation",
+        "Child",
+        "Chronic Disease",
+        "Adolescent",
+        "Child, Preschool",
+        "Cost-Benefit Analysis",
+        "Infant"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.3310/PLTR9622",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded"
+    },
+    {
+      "title": "What is the efficacy of dietary, nutraceutical, and probiotic interventions for the management of gastroesophageal reflux disease symptoms? A systematic literature review and meta-analysis.",
+      "authors": [
+        "Zoe Martin",
+        "Georgia Spry",
+        "Jen Hoult",
+        "Isabella R Maimone",
+        "Xueying Tang",
+        "Megan Crichton",
+        "Skye Marshall"
+      ],
+      "abstract": "Treatments for Gastroesophageal Reflux Disease (GERD) symptoms include pharmaceutical, surgical, dietary, and lifestyle behaviors; however, dietary interventions lack evidence synthesis. What is the effect of dietary, probiotic, and nutraceutical interventions on GERD symptoms, with or without pharmaceutical therapy, in adults with a history of GERD or functional dyspepsia compared to no intervention, placebo, or usual care? A systematic review and meta-analysis was performed according to PRISMA. The search strategy was implemented in MEDLINE, CINAHL, CENTRAL, and Embase on the 28th October 2020 and updated to 27th July 2021. Intervention studies were eligible if they evaluated the effect of a dietary, nutraceutical, or probiotic intervention on GERD symptoms in adults with a history of GERD or functional dyspepsia. The internal validity of studies was assessed using the Academy Quality Criteria Checklist; Review Manager software was used to perform meta-analysis; and certainty in the body of evidence was assessed using GRADE. 6,608 study records were retrieved from the search, with 21 studies (n = 24 highly heterogenous intervention groups) included (n = 10 restrictive dietary interventions; n = 3 non-restrictive dietary interventions; n = 8 nutraceutical interventions; and n = 3 probiotic interventions). GERD symptoms were clinically and statistically improved by a test-based elimination diet (n = 1 study), low nickel diet (n = 1 study), probiotic yoghurt (n = 1 study), psyllium husk (n = 1 study), prickly pear and olive leaf extract supplement (n = 1 study), and melatonin, amino acid and b-group vitamin supplement (n = 1 study) according to qualitative synthesis. Ginger-containing supplements could be meta-analyzed, and improved incidence of GERD symptom alleviation (n = 2 studies, OR: 7.50 [95%CI: 3.62-15.54], GRADE: high). No clinically and/or statistically significant effects were found for the remaining n = 16 highly heterogenous interventions. Evidence to guide the dietary management of GERD symptoms is limited in scope, quality, and feasibility. Based on the limited evidence available, dietary GERD management should be long-term, individualized, and consider both dietary restrictions and/or additions. CRD42021224082.",
+      "year": "2022",
+      "published_date": "2022",
+      "journal": "Clinical nutrition ESPEN",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36513474/",
+      "arxiv_id": "",
+      "keywords": [
+        "Adult",
+        "Humans",
+        "Dyspepsia",
+        "Probiotics",
+        "Gastroesophageal Reflux",
+        "Dietary Supplements",
+        "Diet",
+        "Pharmaceutical Preparations"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1016/j.clnesp.2022.09.015",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis",
+      "authors": [
+        "Björn Nykvist",
+        "Biljana Macura",
+        "Maria Xylia",
+        "Erik Olsson"
+      ],
+      "abstract": "In this paper we show that OpenAI’s Large Language Model (LLM) GPT perform remarkably well when used for title and abstract eligibility screening of scientific articles and within a (systematic) literature review workflow. We evaluated GPT on screening data from a systematic review study on electric vehicle charging infrastructure demand with almost 12,000 records using the same eligibility criteria as human screeners. We tested 3 different versions of this model that were tasked to distinguishing between relevant and irrelevant content by responding with a relevance probability between 0 and 1. For the latest GPT-4 model (tested in November 2023) and probability cutoff 0.5 the recall rate is 100%, meaning no relevant papers were missed and using this mode for screening would have saved 50% of the time that would otherwise be spent on manual screening. Experimenting with a higher cut of threshold can save more time. With threshold chosen so that recall is still above 95% for GPT-4 (where up to 5% of relevant papers might be missed), the model could save 75% of the time spent on manual screening. If automation technologies can replicate manual screening by human experts with effectiveness, accuracy, and precision, the work and cost savings are significant. Furthermore, the value of a comprehensive list of relevant literature, rather quickly available at the start of a research project, is hard to understate. However, as this study only evaluated the performance on one systematic review and one prompt, we caution that more test and methodological development is needed, and outline the next steps to properly evaluate rigor and effectiveness of LLMs for eligibility screening.",
+      "year": "2025",
+      "published_date": "2025-04-23",
+      "journal": "Environmental Evidence",
+      "url": "https://www.semanticscholar.org/paper/d7327fdeb93156500f92613f12dce65230193227",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13750-025-00360-x",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Do metacognitive beliefs satisfy criteria as mechanisms of change in treatment? A systematic review and evidence synthesis.",
+      "authors": [
+        "Erlend Pukstad",
+        "J. Halvorsen",
+        "M. Jensen",
+        "Solvor Solhaug",
+        "Henrik Nordahl"
+      ],
+      "abstract": "The Self-Regulatory Executive Function (S-REF) model emphasizes biases in metacognition, and particularly negative metacognitive beliefs, as the central mechanism of persistent emotional distress and disorders. Hence, interventions which effectively modify dysfunctional metacognitions are predicted to create improvement regardless of whether metacognitions are directly targeted or not. With an aim to evaluate the empirical support for metacognitions as a mechanism of change in psychopathology, we conducted a systematic review of the literature focusing on metacognitive change and its relationship to change in outcomes across emotional disorders and therapeutic interventions. Systematic searches were conducted and following PRISMA 2020 guidelines, 27 articles were identified. Results were synthesized and evaluated against established criteria for accurately classifying theoretical predictors as mechanisms of change. Our review shows a consistent association between change in metacognitions, particularly negative metacognitive beliefs, and outcome changes across different mental disorders, outcomes, and interventions. This relationship held even when controlling competing mechanisms such as cognitive beliefs and support the criterion of specificity. However, most of the identified studies lacked the methodological rigor needed (e.g., multiple assessment points during the treatment phase) to draw firm conclusions about metacognitions as a causal mechanism of change. Based on the existing literature, we conclude that metacognition is promising as a candidate to be considered a transdiagnostic mechanism of change of emotional disorders. We provide directions for future research necessary to more definitely determine the role of metacognitive change in psychopathology improvement and recovery.",
+      "year": "2025",
+      "published_date": "2025-10-03",
+      "journal": "Clinical Psychology Review",
+      "url": "https://www.semanticscholar.org/paper/08ebe1f93ce89a504ee13a26eb5e7f2d418437c8",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 4,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.cpr.2025.102654",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "PROTOCOL: The experiences of adults experiencing homelessness when accessing and using psychosocial interventions: A systematic review and qualitative evidence synthesis",
+      "authors": [
+        "C. O’Leary",
+        "Anton S. Roberts",
+        "L. Teixeira",
+        "E. Coren"
+      ],
+      "abstract": "Abstract The systematic review set out in this protocol is part of a broader evidence synthesis which intends to produce two systematic reviews to address a significant gap in the evidence base identified by Luchenski et al. (2018) and by White and Narayanan (2021). This review (the focus of this protocol) will be of the experiences of adults experiencing homelessness when accessing and using psychosocial interventions. This review of qualitative data will use thematic synthesis to analyse these experiences as faced by this population when accessing and using psychosocial interventions.",
+      "year": "2022",
+      "published_date": "2022-11-23",
+      "journal": "Campbell Systematic Reviews",
+      "url": "https://www.semanticscholar.org/paper/24f7de8447c8e406bb9caf23e294e2fec2a2dfad",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.1002/cl2.1289",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Review for \"The Experiences of Adults Experiencing Homelessness When Accessing and Using Psychosocial Interventions: A Systematic Review and Qualitative Evidence Synthesis\"",
+      "authors": [],
+      "abstract": "",
+      "year": "2023",
+      "published_date": "2023-9-21",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1002/cl2.70036/v1/review3",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1002/cl2.70036/v1/review3",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    }
+  ],
+  "timestamp": "20260413_142801"
+}

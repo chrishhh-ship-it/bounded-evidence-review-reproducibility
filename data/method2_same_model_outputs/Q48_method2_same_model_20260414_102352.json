@@ -1,0 +1,154 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "智能体写作系统对同一查询进行多次生成时，报告结构稳定性如何保证？",
+  "effective_search_query": "智能体写作系统 查询 多次生成 报告结构 稳定性",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 6,
+    "major_issues": [
+      "报告声称基于'摘要级证据'，但多处进行了超出证据范围的推断和延伸。例如，将[5]的'场景驱动—能力转化—赋能服务'路径直接推断为'将非结构化任务转化为结构化流程的可能性，或可作为稳定报告生成的基础逻辑'，证据中并未提及此路径与文本生成或结构稳定性的关联。",
+      "报告结论部分声称'无法得出...明确结论'，但又在'核心主题与证据'部分提出了多个具体的'支撑性证据'和'研究方向'，这些方向（如'研究智能体如何将场景驱动方法论具体化为可重复、结构化的内容生成流水线'）是基于对证据的过度解读和假设，而非证据本身的直接主张。",
+      "报告结构中的'检索与筛选概览'一节包含与证据无关的冗余信息，如'冻结试点语料库的初步研究'、'严格遵循方法一试点流程'，这些内容未在提供的证据中提及，属于无关的元描述。"
+    ],
+    "citation_issues": [
+      "引用[2]支持'利用外部知识与经验'时，证据[2]的关键主张是'LLM agents...can use external knowledge sources to tackle complex real-world problems'，并未特指'结构化的知识库'或用于提升'输出结构的稳定性'。报告进行了具体化延伸。",
+      "引用[3]和[8]支持'多智能体协作与知识转移...理论上可以设定统一的输出规范或模板'。证据[3]仅提及'LLM-based multi-agent system'，[8]提及'collaborative learning, knowledge transfer among AI agents'，均未涉及'输出规范'、'模板'或'结构约束'。此关联为作者推断。",
+      "引用[6]支持'存在知识缺口'时准确，但将其'延伸至对生成内容结构化控制这一具体技术挑战'是超出证据范围的推断。证据[6]的缺口特指'decision-making'。"
+    ],
+    "revision_instructions": [
+      "严格将分析与结论限定在证据明确陈述的范围内。移除所有基于证据的推断、延伸或假设性应用。例如，重写'核心主题与证据'部分，仅描述证据中实际提到的智能体能力（如使用外部知识、多智能体协作），而不将其与'报告结构稳定性'问题直接关联或提出解决方案。",
+      "重写结论，使其完全反映证据现状：即提供的证据集未包含任何直接解决'智能体写作系统多次生成报告结构稳定性'问题的信息。明确指出从给定证据中无法推导出任何保证机制、潜在基础或研究方向。",
+      "删除'检索与筛选概览'中所有与研究问题或证据内容无关的元描述性文字（如'冻结试点语料库'、'方法一试点流程'），仅保留对证据来源和范围的客观简述。",
+      "检查并修正所有引用，确保引用的具体主张与证据文本完全一致，不添加解释或应用场景。"
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 6,
+        "major_issues": [
+          "报告声称基于'摘要级证据'，但多处进行了超出证据范围的推断和延伸。例如，将[5]的'场景驱动—能力转化—赋能服务'路径直接推断为'将非结构化任务转化为结构化流程的可能性，或可作为稳定报告生成的基础逻辑'，证据中并未提及此路径与文本生成或结构稳定性的关联。",
+          "报告结论部分声称'无法得出...明确结论'，但又在'核心主题与证据'部分提出了多个具体的'支撑性证据'和'研究方向'，这些方向（如'研究智能体如何将场景驱动方法论具体化为可重复、结构化的内容生成流水线'）是基于对证据的过度解读和假设，而非证据本身的直接主张。",
+          "报告结构中的'检索与筛选概览'一节包含与证据无关的冗余信息，如'冻结试点语料库的初步研究'、'严格遵循方法一试点流程'，这些内容未在提供的证据中提及，属于无关的元描述。"
+        ],
+        "citation_issues": [
+          "引用[2]支持'利用外部知识与经验'时，证据[2]的关键主张是'LLM agents...can use external knowledge sources to tackle complex real-world problems'，并未特指'结构化的知识库'或用于提升'输出结构的稳定性'。报告进行了具体化延伸。",
+          "引用[3]和[8]支持'多智能体协作与知识转移...理论上可以设定统一的输出规范或模板'。证据[3]仅提及'LLM-based multi-agent system'，[8]提及'collaborative learning, knowledge transfer among AI agents'，均未涉及'输出规范'、'模板'或'结构约束'。此关联为作者推断。",
+          "引用[6]支持'存在知识缺口'时准确，但将其'延伸至对生成内容结构化控制这一具体技术挑战'是超出证据范围的推断。证据[6]的缺口特指'decision-making'。"
+        ],
+        "revision_instructions": [
+          "严格将分析与结论限定在证据明确陈述的范围内。移除所有基于证据的推断、延伸或假设性应用。例如，重写'核心主题与证据'部分，仅描述证据中实际提到的智能体能力（如使用外部知识、多智能体协作），而不将其与'报告结构稳定性'问题直接关联或提出解决方案。",
+          "重写结论，使其完全反映证据现状：即提供的证据集未包含任何直接解决'智能体写作系统多次生成报告结构稳定性'问题的信息。明确指出从给定证据中无法推导出任何保证机制、潜在基础或研究方向。",
+          "删除'检索与筛选概览'中所有与研究问题或证据内容无关的元描述性文字（如'冻结试点语料库'、'方法一试点流程'），仅保留对证据来源和范围的客观简述。",
+          "检查并修正所有引用，确保引用的具体主张与证据文本完全一致，不添加解释或应用场景。"
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.11968/tsyqb.1003-6938.2025001",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "title:building a secure agentic ai application leveraging a2a protocol|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.19678/j.issn.1000-3428.0069471"
+  ],
+  "top_papers": [
+    {
+      "title": "Agent kb: Leveraging cross-domain experience for agentic problem solving",
+      "year": 2025,
+      "journal": "X Tang, T Qin, T Peng, Z Zhou, D Shao, T Du… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 50,
+      "abstract": "… As artificial intelligence advances, language agents are … We propose the Agent Knowledge Base (AGENT KB), a hierarchical … All services used in this work rely on third-party API calls to …"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "Building a secure agentic AI application leveraging A2A protocol",
+      "year": 2025,
+      "journal": "I Habler, K Huang, VS Narajala, P Kulkarni - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 52,
+      "abstract": "… Applications of agent communication range across enterprise knowledge management, customer service, supply chain management, healthcare, smart grids, autonomous vehicles, e-…"
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    },
+    {
+      "title": "The Role Of Agentic Ai And Generative Ai In Transforming Modern Banking Services",
+      "year": 2025,
+      "journal": "A Todupunuri - American Journal of AI Cyber Computing Management, 2025 - ajaccm.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 67,
+      "abstract": "… There is a marked gap in the existing knowledge of the application of agentic AI to support decision-making, but literature also reveals a considerable advancement in applying AI in the …"
+    },
+    {
+      "title": "Next-generation agentic AI for transforming healthcare",
+      "year": "2025",
+      "journal": "Informatics and Health",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.infoh.2025.03.001",
+      "citations": 66,
+      "abstract": "Artificial Intelligence (AI) is transforming the healthcare landscape, yet many current applications remain narrowly task-specific, constrained by data complexity and inherent biases. This paper explores the emergence of next generation \"agentic AI\" systems, characterized by advanced autonomy, adaptability, scalability, and probabilistic reasoning, which address critical challenges in medical management. These systems enhance various aspects of healthcare, including diagnostics, clinical decision support, treatment planning, patient monitoring, administrative operations, drug discovery, and robotic-assisted surgery. Powered by multimodal AI, agentic systems integrate diverse data sources, iteratively refine outputs, and leverage vast knowledge bases to deliver context-aware, patient-centri"
+    },
+    {
+      "title": "Toward agentic ai networking in 6g: A generative foundation model-as-agent approach",
+      "year": 2025,
+      "journal": "Y Xiao, G Shi, P Zhang - IEEE Communications Magazine, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 55,
+      "abstract": "… challenges and requirements of agentic AI networking. We … rative learning, and knowledge transfer among AI agents. We … al services, which involve a much wider range of knowledge …"
+    }
+  ],
+  "elapsed_seconds": 135.712,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q48_method2_same_model_20260414_102352.md"
+}

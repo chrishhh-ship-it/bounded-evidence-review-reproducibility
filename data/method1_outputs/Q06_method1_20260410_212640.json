@@ -1,0 +1,32 @@
+{
+  "baseline": "method1_pipeline",
+  "query": "引用准确率和 orphan citation rate 是否能作为智慧情报服务的核心指标？",
+  "effective_search_query": "引用准确率 orphan citation rate 智慧情报服务 核心指标",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 2,
+  "screened_count": 2,
+  "all_retrieved_ids": [
+    "doi:10.11946/cjstp.202411251288李涵霄，",
+    "title:开源创新的现状, 热点及趋势分析——基于2005—2024 年知网文献的计量研究|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "科技期刊集群平台数字学术服务能力评价指标体系构建及实证研究",
+      "year": 2025,
+      "journal": "李涵霄， 杜杏叶， 曹珂瑞 - 中国科技期刊研究, 2025 - cjstp.cn",
+      "doi": "10.11946/cjstp.202411251288李涵霄，",
+      "citations": 6,
+      "abstract": "… 科研辅助工具;⑤服务人员的专业技 能与经验智慧. 4)能力体现层———核心层. 参照笔者前期成 … 社会影响进行计量评价与可视化呈现(指标 如:新闻提及数,政策引用数,社交媒体提及数等) C41 …"
+    },
+    {
+      "title": "开源创新的现状, 热点及趋势分析——基于2005—2024 年知网文献的计量研究",
+      "year": 2025,
+      "journal": "王锐， 吕秋月， 廖佳 - 华东师范大学学报(自然科学版), 2025 - xblk.ecnu.edu.cn",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 依托 开放资源与集体智慧, 开源创新在降低研发成本,加快技术… 学与科学计量学领域, 通 过对文献 的数量特征,内容特征及引用… 工维护成本, 还显著提升了检测准确率与分析效率. 在知识产权治理…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method1_outputs\\Q06_method1_20260410_212640.md"
+}

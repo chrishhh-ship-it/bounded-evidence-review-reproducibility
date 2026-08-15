@@ -1,0 +1,225 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q170",
+  "query": "How should a synthesis agent cite heterogeneity statistics (I²) without overclaiming their interpretability?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q170_method1_exp_20260413_094610.json",
+  "same_query_evidence_ids": [
+    "doi:10.1681/asn.0000000000000166",
+    "doi:10.21203/rs.3.rs-7235054/v1",
+    "doi:10.1002/cl2.1128",
+    "doi:10.2139/ssrn.6219015",
+    "doi:10.1177/09246479261441446",
+    "doi:10.1111/jebm.70098",
+    "doi:10.1080/19419899.2024.2347963",
+    "doi:10.2196/preprints.49164"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.1681/asn.0000000000000166",
+    "doi:10.21203/rs.3.rs-7235054/v1",
+    "doi:10.1002/cl2.1128",
+    "doi:10.2139/ssrn.6219015",
+    "doi:10.1177/09246479261441446",
+    "doi:10.1111/jebm.70098",
+    "doi:10.1080/19419899.2024.2347963",
+    "doi:10.2196/preprints.49164"
+  ],
+  "top_papers": [
+    {
+      "title": "Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature?",
+      "authors": [
+        "Qiao Jin",
+        "Robert Leaman",
+        "Zhiyong Lu"
+      ],
+      "abstract": "ChatGPT, a general purpose chatbot developed by OpenAI, has been widely reported to have the potential to revolutionize how people interact with information online.1 Like other large language models (LLMs), ChatGPT has been trained on a large text corpus to predict probable words from the surrounding context. ChatGPT, however, has received substantial popular attention for generating human-like conversational responses, and new developments are occurring rapidly. The initial release in November 2022 used the model generative pretrained transformers (GPT)-3.5, and a version based on GPT-4.0 was released in March 2023. Recent work has discussed applications of ChatGPT for medical education and clinical decision support.2–4 However, health care professionals should be aware of the drawbacks and limitations—and potential capabilities—of using ChatGPT and similar LLMs to interact with medical knowledge. A significant issue with ChatGPT is its tendency to generate confident-sounding but fabricated responses, commonly known as “hallucination.” Although it can generate plausible-sounding text, ChatGPT does not consult any source of truth.1 Occasional incorrect or biased responses are, therefore, inevitable, and ChatGPT cannot faithfully cite sources to allow their evidence to be verified. For example, we prompted GPT-3.5–based ChatGPT to list possible mechanisms of AKI in patients with coronavirus disease 2019 (COVID-19), with references. ChatGPT produced a list of plausible mechanisms, each of which has been investigated in the literature (Figure 1A) but supported its claims with fabricated titles and irrelevant PubMed identifiers. ChatGPT using the GPT-4 model acknowledges that it cannot produce references and refuses to cite articles in the answer (Figure 1C)—a significant improvement—but leaves the difficult task of verification to the user. Consulting ChatGPT directly for medical information carries a significant risk of drawing incorrect conclusions, particularly for patients.Figure 1.: Seeking information related to COVID-19 from ChatGPT. (A) ChatGPT-3.5 fabricates the references for its claims. (B) When prompted with the title and abstract of relevant articles, ChatGPT-3.5 can summarize the aspects requested, including some valid in-line references. However, many details are inaccurate: Related mechanisms are not correctly grouped, contradicting evidence is not mentioned, some citations are missing, and a listed mechanism is not specific. Note that the complete response mentioned only three of five articles. (C) ChatGPT-4 acknowledges its drawback and refuses to cite source articles in the response, which makes the verification more difficult. (D) ChatGPT-4 with the web browsing plug-in summarizes information from the search engine, but it only finds two relevant articles and fails to systematically answer the question. Responses were collected from GPT-3.5–based ChatGPT on March 14, 2023, and GPT-4–based ChatGPT on May 15, 2023.However, LLMs such as ChatGPT may be better suited for text summarization than directly answering medical questions. Pilot studies have shown that LLMs can be effective at clinical reasoning, reading comprehension, and generating fluent summaries with high fidelity.5–7 Augmenting LLMs such as ChatGPT with a traditional literature search engine may therefore help address hallucination and enable the system to provide the user with comprehensive high-level summaries. For example, the new Bing provides ChatGPT-like interactive agents to help users create effective queries, identify relevant results, and summarize their content. In addition, ChatGPT recently introduced a plug-in that allows the model to search the web when generating responses (currently in limited beta test). Incorporating such features into medical literature search has the potential to streamline gathering and synthesizing evidence from the literature, improving patient care. Unfortunately, summaries generated by current LLMs such as ChatGPT also contain inaccuracies,8 in addition to practical issues such as limitations on the length of input text. To illustrate these problems, we prompted ChatGPT (model 3.5) to identify possible mechanisms of AKI in patients with COVID-19, using five manually chosen articles on the pathophysiology of AKI in COVID-19. Although ChatGPT’s summary (Figure 1B) generally reflects the mechanisms of AKI discussed by the articles, the response lists symptoms from only three of the five input studies and misses some important mechanisms mentioned repeatedly, such as hypoxia. Moreover, some citations are missing, contradicting evidence is not mentioned, similar mechanisms are not correctly grouped, and one of the mechanisms listed is less specific than the source. We also prompted ChatGPT (model 4), with the web browsing plug-in, to answer the same question (Figure 1D). In this case, ChatGPT provides summaries with relevant citations. However, the response is based on only two articles, without synthesizing the evidence, and thus fails to answer the question systematically. Generally speaking, retrieval-augmented LLMs reduces users' control over sources, leading to results that may not align with the user's criteria for the best information (e.g., most up-to-date). Summaries generated by LLMs can miss important ideas discussed by the input sources or contain assertions unsupported by the input sources. Because imprecise or incomplete information can lead to incorrect clinical decisions and patient harm, content generated by current LLMs, including ChatGPT, must be verified for accuracy and completeness before use. Further research on the faithfulness of LLM-generated summaries and automatic verification tools is also warranted to realize the full potential of LLMs to streamline evidence gathering and synthesis from the medical literature. Despite these limitations, the remarkable progress in AI and the rapid advancements in LLMs may have profound implications for medicine, from assisting medical education,2 to accelerating literature screening for systematic reviews,7,9 and supporting physicians in various clinical settings as generalist medical AI,4 among other possibilities. In addition to augmenting LLMs with retrieval results from a search engine, LLMs can also be taught to use biomedical domain-specific tools, such as the Web APIs of specialized databases, to provide improved access to biomedical information.10 In summary, although ChatGPT is not currently suitable for use as a literature search engine on its own, we envision that the proposed retrieve, summarize, and verify paradigm could greatly benefit biomedical information seeking. This approach leverages the impressive capability of LLMs to generate high-level summaries while minimizing the risk of directly using false or fabricated information by combining LLMs and search engines. It is important to note that although LLM technology is progressing rapidly, it has not yet matured enough for clinical use. Therefore, users must retain full responsibility for verifying the accuracy and reliability of its output.",
+      "year": "2023",
+      "published_date": "2023-05-31",
+      "journal": "Journal of the American Society of Nephrology",
+      "url": "https://doi.org/10.1681/asn.0000000000000166",
+      "arxiv_id": "",
+      "keywords": [
+        "Affect (linguistics)",
+        "Medicine",
+        "Psychology",
+        "Intensive care medicine",
+        "Computer science",
+        "Communication"
+      ],
+      "citations": 67,
+      "source": "OpenAlex",
+      "doi": "10.1681/asn.0000000000000166",
+      "open_access": false,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "The feedback loop: A systematic review of how evaluation practices inform conversational agent design",
+      "authors": [
+        "Neşe Baz Aktaş",
+        "Adem Akbıyık"
+      ],
+      "abstract": "Abstract\n                Conversational Agents (CAs) have become increasingly integrated in our daily interactions. Despite this growing adoption, research on CA design remains fragmented, often lacking clear connections between design and its effects on user experience. Bridging perspectives from Human-Computer Interaction (HCI) and Information Systems (IS), this study provides a structured, design element-level synthesis of CA design practices and their effect on user experience. To do this, we systematically reviewed 97 empirical studies published in leading HCI and IS venues, following a rigorous three-stage methodology. Building on this, we proposed a CA design framework that identifies design dimensions and maps them with user outcomes to provide actionable guidance for practitioners. The resulting structured framework offers conceptual clarity and practical guidance, laying the groundwork for future empirical research and evidence-based design strategies in CA development.",
+      "year": "2025",
+      "published_date": "2025-9-29",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-7235054/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-7235054/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "Editorial: Evidence synthesis for accelerated learning on climate solutions",
+      "authors": [
+        "Lea Berrang‐Ford",
+        "Friederike Döbbe",
+        "Ruth Garside",
+        "Neal Haddaway",
+        "William F. Lamb",
+        "Jan C. Minx",
+        "Wolfgang Viechtbauer",
+        "Vivian Welch",
+        "Howard White"
+      ],
+      "abstract": "By signing the Paris Agreement with the aim to limit global warming to well below 2°C relative to preindustrial levels, countries have committed to kickstart the age of climate solutions. This challenge should not be underestimated: It requires turning around a 270-year-old trajectory of CO2 emissions growth that started with the industrial revolution (Friedlingstein et al., 2019), and racing towards net zero emissions over the next 3–5 decades (IPCC, 2018). But that is not enough. Because anthropogenic carbon emissions have already caused consequential warming of about 1°C since preindustrial times, there is a further need to reduce vulnerabilities and adapt to climate impacts that cannot be avoided (IPCC, 2014, 2018). All parts of society and the economy will need to play their parts in the transformation towards a climate-resilient, net-zero emissions world. It requires nothing less than transformational policies at all levels of governance from local to national and international (IPCC 2014, 2018). Climate policies for mitigation and adaptation have to become the focus in science and policy if we are to have the slightest chance of living up to this challenge. Because there is no time left for trial and error and since resources for organising a transformation into a carbon-neutral world are inherently limited, decision-making on climate solutions needs to be based on the best available evidence. “Best” evidence should be rigorous, transparent, timely, efficient, and fit-for-purpose applying formal methods for evidence synthesis (Gough et al., 2017; Haddaway et al., 2020). Knowledge brokering (Pielke, 2007) on climate change is commonly undertaken through scientific assessments of the available scientific literature. Most prominently these assessments are undertaken by the Intergovernmental Panel on Climate Change (IPCC). Like many other global environmental assessments, IPCC assessments are diverse, large-scale, multistakeholder and intergovernmental processes (Kowarsch et al., 2017). Compared with systematic reviews and evidence (gap) maps (Saran & White, 2018), their scope is vast. IPCC assessments usually require the consideration of more or less the entire recent scientific literature on climate change that has emerged during an assessment cycle—only somewhat constrained by a government-approved outline that provides some thematic focus. Progress in IPCC assessments depends on a well-working evidence pyramid (Figure 1). There is no time within IPCC processes to systematically assess the vast amounts of primary research on climate change. The availability of rigorous evidence syntheses that assess the primary evidence is fundamental for learning (Berrang-Ford et al., 2015; Minx et al., 2017). The IPCC has made continuous progress in building up knowledge on forward-looking questions that emerge around understanding, dealing with and mitigating potentially severe, pervasive and irreversible climate impacts that could affect human and natural systems in the absence of an adequate human response. This knowledge has had a big impact on international climate policy. It is difficult to think of major milestones like the Kyoto Protocol or the Paris Agreement being achieved without the synthetic scientific inputs provided by the IPCC. Learning has been driven by structured, model-intercomparison exercises that provide the major backbone of the evidence synthesis tradition in climate change. Similar to systematic reviews, model intercomparison exercises set out clear protocols for systematically assessing evidence generated by ensembles of harmonised climate models on specific questions around climate science, impacts and vulnerability as well as mitigation and adaptation (Edwards, 2011; Eyring et al., 2016; O'Neill et al., 2016). These lines of synthetic evidence arising from model intercomparison exercises have been fundamental for progress in the science of climate change as well as IPCC assessment reports (Minx et al., 2019). However, progress on understanding climate solutions from IPCC assessments has been limited, despite climate solutions now being rolled out across the world, with varying degrees of ambition and success (Eskander & Fankhauser, 2020; Höhne et al., 2020). The root of the problem is a lack of rigorous evidence syntheses that assess progress and historical success and failures in the implementation of climate solutions (Berrang-Ford et al., 2015; Minx et al., 2017) and are designed to minimise the various sources of bias traditional literature reviews are commonly exposed to (Haddaway et al., 2020). Transparent evidence synthesis is particularly infrequent in climate research using qualitative research, largely due to the widespread perception in many social sciences that systematic approaches are highly positivist and lack the methodological flexibility needed for critical inductive inquiry. Yet qualitative research is critical for understanding the human dimensions of climate change, and we will need robust synthetic insights from the social sciences to comprehensively learn about climate solutions. Substantial work has already been undertaken to develop qualitative evidence synthesis and mixed methods synthesis methods in other topic areas dealing with complexity. There is an opportunity to adopt and adapt these systematic evidence synthesis approaches to bridge some of the epistemological concerns. Despite this, many reviews in this field frequently lack transparent methodology about their processes, and often withdraw from engaging with the broader need for generalizeable insight (Gough et al., 2017). Systematic review research, meanwhile, has struggled to respond to the scope and heterogeneity of the climate literature, in particular the central role of contextual and mediating factors in influencing climate solutions. Thus, a robust middle layer of the evidence pyramid is partially lacking. As shown in Figure 1, the result is a lack of learning in science and policy regarding what climate solutions work under what conditions, for whom, and why in climate change assessments and beyond (Berrang-Ford et al., 2015; Minx et al., 2017). It is of great importance to grow a rigorous evidence synthesis culture particularly in the social science of climate change. The Campbell Collaboration has therefore now established a new Climate Solutions Coordinating Group (CSCG) with the purpose of building a comprehensive evidence base on climate solutions. We are part of a growing international, multidisciplinary network of scholars committed to prepare and disseminate high quality systematic reviews and evidence and gap maps that help us better understand climate solutions. With our work we want to support better, evidence-based decisions by: (a) supporting rigorous synthesis of evidence on key questions; (b) further improving the quality of climate change research through critical appraisal of primary research; and (c) improving the efficiency of the scientific process through enhanced oversight of, and less duplication in, secondary research efforts. We further believe that our work strengthens the IPCC and other climate change assessments by supporting the completion of its evidence pyramid (see Figure 1). We are particularly interested in learning about what climate solutions work well under what conditions, for whom, and why. Climate change mitigation and adaptation solutions are the end-points of our interest, but we broadly invite contributions in the field of “climate change and society”. We believe that developing a sound understanding requires a diverse approach to evidence synthesis, including quantitative, qualitative and mixed-methods evidence (Kastner et al., 2016). We further seek evidence synthesis efforts at all levels, including systematic reviews, evidence and gap maps, systematic reviews, qualitative meta-synthesis, mega-maps as well as maps of maps (Saran & White, 2018). There are scholars in very different communities working on evidence synthesis in the field of climate. We try to represent those different communities in the governance structure of the group. The Editorial Board includes researchers with a background in IPCC or similar climate change assessments as well as scholars involved in the Campbell Collaboration, Cochrane and the Collaboration for Environmental Evidence. The methodological expertise spans from more traditional quantitative systematic reviews to qualitative evidence synthesis methods such as thematic synthesis, framework synthesis, evaluation assessment, and meta-ethnography. Similarly, the Advisory Board comprises senior management of major global environmental assessments such as IPCC, Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services or the United Nations Environment Programmes' Emissions Gap Reports as well as the above mentioned Collaborations. We aim to diversify the representation of marginalised groups in both Boards as CSCG matures. Working on a cross-cutting topic such as climate change provides many interfaces to the work by other Campbell Coordinating Groups. For example, it will be crucial to work closely with the International Development Coordinating Group as both discourses are closely intertwined in the context of international climate policy. Similar, the work by the Education Collaborating Group is relevant as the importance of civic engagement and education for organising transformative climate solutions is increasingly appreciated. Evidence synthesis on climate solutions will also require adjusting available to and developing new methods for the specific context and multidisciplinary structure of the climate discourse requiring regular engagement and cooperation with the Methods Coordinating Group. Finally, as probably true for all Coordinating Groups across Campbell, the work of the Knowledge Translation and Implmentation Coordinating Group that focuses on effective ways of communicating evidence to different audiences is of direct relevance to our work at science-policy interface. Part of our work will be to build more capacity for systematic reviews in the field of climate. For that we will provide training in evidence synthesis methodologies and specifically target climate change assessment communities around the IPCC. We will enhance our reach further through the provision of a set of freely available and open training resources. We recognise that access to free training and mentoring are important barriers to building capacity for evidence-informed decision-making (including evidence synthesis) in resource constrained contexts like the Global South. Our aim is, therefore, to provide accessible and functional training in climate evidence synthesis that works across settings (e.g., with low bandwidth internet). It is an exciting and important task to build a thriving (social science) community that tries to learn what climate solutions work under what conditions, for whom, and why, using rigorous systematic review and evidence (gap) map methodologies. Beyond the core remit of the group to promote rigorous evidence synthesis as an important pathway to more evidence-informed climate policy, CSCG will further try to advance evidence synthesis methodology more generally in four priority areas. Promote the adaptation and application of qualitative and mixed methods evidence synthesis methodologies: The social science of climate change provides a very diverse body of evidence. Only a small part of this literature is directly on impact evaluations of climate solutions based on experimental or quasiexperimental research designs (IPCC, 2014). In part, this is because climate solutions are conditional on individual and societal behaviours, institutional settings and governance structures that are impossible to fully comprehend in solely quantitative work. Qualitative evidence synthesis is also key to understanding stakeholder experience and attitudes, the feasibility and acceptability of policy proposals, as well as unintended consequences (Macura et al., 2019). In order to comprehensively learn from the available evidence on climate solutions, it is, therefore, vital to mirror the methodological diversity in primary evidence by promoting the application of the full breadth of qualitative and mixed methods evidence synthesis methodologies (Kastner et al., 2016). Encourage the development and application of novel evidence synthesis technology: Climate change is not only one of the most pressing policy issues of our time, but also a very prolific area of research with tens of thousands of studies being published every year. In such an age of big literature with a vast and fast-growing evidence base, traditional manual tools of evidence synthesis are being pushed to their limits (Callaghan et al., 2020; Minx et al., 2017; Nunez-Mir et al., 2016). As such, the field of climate is ideally suited to explore how technology can be used to streamline individual processes in evidence synthesis. The CSCG will therefore contribute to discussions and methodologies on automation and computer-assistance for systematic reviews and evidence and gap maps (Haddaway et al n.d.; Nakagawa et al., 2019; O'Connor et al., 2019; Tsafnat et al., 2014; Westgate et al., 2018) as well as broader global environmental assessments (Callaghan et al., 2020; Lamb et al., 2019). Integrating the evidence synthesis traditions of the climate and the systematic review communities: It is clear that comprehensive learning on climate solutions must be rooted in a systematic exploration of alternative future pathways as well as systematic evaluation of past policies. The CSCG brings together two evidence synthesis communities with complementary strengths in ex-ante and ex-post assessments of climate solutions. We are convinced that there is great scope for mutual learning and that sharing and integration of these distinct traditions will ultimately lift evidence synthesis and the resulting scientific policy advice to a higher level. Promote the application of formal assessment of confidence in evidence within syntheses of climate solutions: Assessment of uncertainty and confidence in evidence is a critical component of climate change assessments (Janzwood, 2020; Jonassen & Pielke, 2011; Mach et al., 2017; Petticrew & McCartney, 2017). Methods for uncertainty assessment are widely used in quantitative syntheses of climate projections, and detection and attribution of impacts. Lesser known and used are methods for formally assessing confidence in mixed-methods and qualitative evidence, which are used in the health sciences but rarely in climate research (Colvin et al., 2015; Lewin et al., 2018; Mach & Field, 2017; van Bavel et al., 2020). Learning on climate solutions must be underpinned by awareness of the evolving quality and reliability of our evidence base (Adler & Hirsch Hadorn, 2014; Aven, 2019). The CSCG will bring together expertise in systematic confidence assessment and climate solutions research to apply and promote robust confidence assessment within evidence syntheses for climate solutions. Climate change is one of the most pressing problems that humankind faces. We need to urgently and rapidly learn from the best available evidence on climate solutions. The CSCG warmly invites registrations and submissions to Campbell Systematic Reviews from climate experts across diverse disciplines and evidence synthesis practitioners.",
+      "year": "2020",
+      "published_date": "2020-12-01",
+      "journal": "Campbell Systematic Reviews",
+      "url": "https://doi.org/10.1002/cl2.1128",
+      "arxiv_id": "",
+      "keywords": [
+        "Greenhouse gas",
+        "Climate change",
+        "Climate policy",
+        "Corporate governance",
+        "Natural resource economics",
+        "Global warming",
+        "Transformational leadership",
+        "Political science"
+      ],
+      "citations": 17,
+      "source": "OpenAlex",
+      "doi": "10.1002/cl2.1128",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate governance systematic review automation"
+    },
+    {
+      "title": "Synthesis large language models and machine learning agent",
+      "authors": [
+        "Roman Zikov"
+      ],
+      "abstract": "The capabilities of large language models (LLMs) continue to grow daily. Their potential applications in the gaming industry are vast and constantly expanding. This article presents a concept for synthesizing a large language model using the Unity game engine&amp;apos;s toolset for creating intelligent agents. It begins with an overview of the current, specific use of these tools in game development, describing their practical applications and conceptual plans. This is particularly relevant for dialogue management and adapting behavior in response to player actions and choices, potentially supported by speech interfaces or dynamic skill tree systems driven by AI agent logic. A model of a hypothetical non-player character (NPC) will be described, using LLMs to communicate with the player and internal algorithms for interacting with an intelligent agent as feedback. The model&amp;apos;s applicability to games will be assessed, a potential architecture will be discussed, and a direction for further research in this area will be outlined.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2139/ssrn.6219015",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.6219015",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "How I contributed to Cochrane Crowd and why it matters for evidence synthesis",
+      "authors": [
+        "V. Kataev"
+      ],
+      "abstract": "Robust evidence depends on disciplined methods rather than slogans. This commentary draws on my experience with Cochrane Crowd to show how brief, well-structured micro-tasks can strengthen the evidence pipeline. Two features are central: the platform logs every screening decision for audit, and hidden calibration items help maintain contributor accuracy. In routine queues, volunteers identify randomised controlled trials and tag Population, Intervention, Comparison and Outcome (PICO) elements, reducing noise and prioritising relevant records. When publication volume surges, this volunteer triage preserves high recall without sacrificing precision, giving review teams a cleaner starting point. Regular exposure to trial anatomy also sharpens bias detection in peer review and teaching. Individually, each task is modest; collectively, these tasks provide a practical defence against distortions in the research record. I encourage colleagues to devote a brief, focused session each week to Cochrane Crowd and help make trustworthy evidence more visible.",
+      "year": "2026",
+      "published_date": "2026-04-06",
+      "journal": "International Journal of Risk &amp; Safety in Medicine",
+      "url": "https://www.semanticscholar.org/paper/3d2e26ebd801572bdd36d9af775177be04384b25",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1177/09246479261441446",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Challenges Facing Evidence‐Synthesis and Clinical Practice Guidelines, and Their Solutions: Restoring Balance Through Core GRADE",
+      "authors": [
+        "G. Guyatt",
+        "L. Colunga-Lozano"
+      ],
+      "abstract": "A vivid and oft-used aphorism “we should keep things as simple as possible but not simpler” resonates deeply with the foundational aims of the evidence-based medicine (EBM) paradigm. Histor-ically, EBM leaders have done a good job achieving the right balance in creating tools and guidance for systematic reviews (SRs), clinical practice guidelines (CPGs), and health technology assessment (HTA). Recently, however, as we have outlined in two previous articles, the EBM community appears to have lost its optimal balance [ 1, 2 ]. Take, for instance, instruments assessing risk of bias in randomized trials. Cochrane RoB 2 [ 3 ], the Cochrane Collaboration’s preferred instrument, has proved excessively complex, resulting in misapplication and limited uptake [ 4 ], and limited reliability [ 5 ]. Even more problematic is Cochrane’s instrument for non-randomized study assessment of risk of bias, ROBINS-I, which is extremely complex and onerous to complete. Studies have demonstrated the instrument is often misunderstood and incorrectly applied, and takes far too long to complete [ 6–9 ]. Grading of Recommendations Assessment, Development, and Evaluation (GRADE), despite being by far the leading approach to determining certainty/quality of evidence in SR and moving from evidence to recommendations/decisions in CPGs and HTA, faces a number of challenges, including application to complex interventions, populations, and considerations of linked bodies of evidence. In addition, GRADE has suffered from problems similar to",
+      "year": "2025",
+      "published_date": "2025-12-01",
+      "journal": "Journal of Evidence-Based Medicine",
+      "url": "https://www.semanticscholar.org/paper/1f668ef3405b16038b89a20b97666d6a1e0e7463",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1111/jebm.70098",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Intersex people or khunthā in the Middle East – How they are perceived, accepted, & treated: qualitative evidence synthesis & framework analysis",
+      "authors": [
+        "Alexander Woodman"
+      ],
+      "abstract": "ABSTRACT In Islamic fiqh (jurisprudence), an intersex person is called a khunthā. This research aimed to synthesise the existing literature exploring data on khunthā in the Middle East on how they are perceived, accepted, and treated. Qualitative Evidence Synthesis and Framework Analysis. Five electronic literature databases were searched, covering the fields of healthcare sciences, ethics, and religion from 2016 to 2022. Guided by the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA), six studies were selected for final review and framework analysis. The framework analysis (FA) of included studies resulted in three themes and nine sub-themes: 1) ‘Gender manifestation’ - (i) Parental role and influence, (ii) Health outcomes of experiments, (iii) Socio-cultural prejudice; 2) ‘Physicians as decision makers’ - (i) Experiments vs. knowledge, (ii) Intersex vs. khunthā vs. DSD, (iii) Fixing dysfunctional gender; 3) ‘Islamic bioethics’ - (i) Legal and financial importance of gender, (ii) Scientific evidence vs. symbols, (iii) Medical ethics. Parents and physicians’ decisions are heavily influenced by socio-cultural attitudes about sex and gender, with a lack of sensibility for intersex persons at the later stages of their lives, and attempts to conceal this ‘imperfection’ by ‘fixing dysfunctional gender’.",
+      "year": "2024",
+      "published_date": "2024-05-01",
+      "journal": "Psychology &amp; Sexuality",
+      "url": "https://www.semanticscholar.org/paper/3c9d3967eceb1b340e002e1af923b3631e7e4c1b",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1080/19419899.2024.2347963",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "How is Real World Evidence taught in Nursing? A Systematic review undertaking a narrative synthesis of the literature (Preprint)",
+      "authors": [
+        "Tristan Coombe",
+        "Lisa Burrows",
+        "Madison Milne-Ives",
+        "Edward Meinert"
+      ],
+      "abstract": "BACKGROUND\n                        Real World Evidence (RWE) comprises forms, methodologies and applications including data collected in naturally uncontrolled settings utilising non-interventional, non-controlled and non-experimental approaches.  RWE may overcome problems inherent with traditional research methodologies.  It more closely represents the real world and how interventions affect the patient experience and could be more suitable for assessing complex social interventions. Clinicians require the skills and knowledge to utilise it effectively and mitigate its disadvantages.  As Nurses are the largest group of healthcare professionals, exploring how to develop knowledge of RWE in nursing has a large potential benefit for research and care.\n                \n                                \n                    OBJECTIVE\n                        This systematic review (SR) aims to consider how RWE is taught within nursing and examine the benefits and outcomes of those teaching and learning activities.\n                \n                                \n                    METHODS\n                        An SR without Meta-Analysis narrative synthesis approach was conducted. MEDLINE (EBSCO), EMBASE (Ovid), PsycINFO, Cochrane, Web of Science, SCOPUS and IEEE were searched using free text terms and MeSH terms combined with Boolean operators associated with RWE forms, types and methodologies, teaching and nursing.  Final studies were appraised using MMAT and JBI tools.\n                \n                                \n                    RESULTS\n                        Kinaesthetic approaches, simulated learning, and case studies were undertaken in classroom and practice settings utilising real and simulated data, which may positively increase perceived satisfaction and knowledge with RWE.   Constructivism and experiential learning could be more suitable for RWE education with educators and students displaying increased positivity towards RWE compared with alternative pedagogical approaches.  Barriers to RWE education included negative educator and learner beliefs, organisational barriers and concerns regarding data security and confidentiality.  A majority of the studies were observational or descriptive and a number of areas of bias were identified during the appraisal process.\n                \n                                \n                    CONCLUSIONS\n                        Utilising a range of teaching and learning strategies in nursing that make learning relevant and meaningful may be important in RWE education.  More research is needed to develop further the definition, characteristics and applications of RWE, consider different pedagogical approaches and a wider range of RWE forms, methodologies and applications.",
+      "year": "2023",
+      "published_date": "2023-5-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2196/preprints.49164",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2196/preprints.49164",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "54a88bce6cc2ad7969a59f6b1e07405deac50a8754dcb705b5f1b4c24718a690",
+  "elapsed_seconds": 12.181,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q170_schema_single_agent_20260724_024430.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

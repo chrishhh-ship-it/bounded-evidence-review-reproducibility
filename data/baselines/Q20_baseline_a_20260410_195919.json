@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "面向可投稿论文，智慧情报服务实验结果应如何图表化展示？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q20_baseline_a_20260410_195919.md"
+}

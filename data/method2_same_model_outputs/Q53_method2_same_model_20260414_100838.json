@@ -1,0 +1,154 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "证据智能体与写作智能体之间的上下文传递应包含哪些最小必要信息？",
+  "effective_search_query": "证据智能体 写作智能体 上下文传递 最小必要信息",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 4,
+    "major_issues": [
+      "报告的核心结论（第5节中推断的最小必要信息四个维度）缺乏直接证据支持。所提供的证据[1][2][3][5][6][7][8]仅泛泛提及智能体协作、知识共享或决策支持，没有任何一篇摘要明确或隐含地定义了证据智能体与写作智能体之间上下文传递的具体内容、格式或‘最小必要信息’。报告将宏观概念（如‘知识共享’）过度解读并具体化为微观的技术规范（如‘任务核心元数据’、‘结构化知识/证据体’），这在逻辑上不成立，超出了摘要证据的支撑范围。",
+      "报告声称其分析‘完全基于摘要级别的证据’，但其推断和结论（尤其是第2节和第5节）实质上进行了大量超出摘要文本的推测和构建。例如，摘要[1]提到‘利用跨领域经验’，但并未说明这些经验以何种形式在智能体间传递；摘要[7][8]讨论情报智能化，但未提及智能体间传递‘结构化情报产品’。报告将这些概念连接并具体化到‘上下文传递’这一特定问题，属于无证据支持的推论。",
+      "报告的研究问题（‘应包含哪些最小必要信息’）是一个具有明确技术或设计规范指向的问题。然而，所提供的八篇证据摘要均属于高层概念综述、应用案例介绍或愿景展望（如[1]的Agent KB概念、[2]的协议综述、[3]的6G网络愿景、[5][6]的体系构建、[7][8]的模式探讨），没有任何一篇涉及智能体间通信协议、消息格式、状态表示等实现层面的细节。因此，现有证据集从根本上无法支持对该研究问题的任何实质性回答，报告的任何肯定性推断都是无效的。"
+    ],
+    "citation_issues": [
+      "证据[4]在报告中未被引用，但其摘要内容在提供的证据集中为空（‘Key claim’和‘Methodology’字段均为空）。报告不应在参考文献列表中列出未在正文中引用且无实质内容的文献。",
+      "多处引用用于支持报告中具体推断的段落存在证据力度不足或关联性弱的问题。例如：1) 引用[1]支持‘可被结构化存储和复用的...知识片段’的推断，但[1]仅提及‘利用跨领域经验’，未涉及‘结构化’或‘传递’；2) 引用[2][3]支持‘外部权威知识源的引用...’，但[2]谈的是智能体使用外部知识源，[3]谈的是网络内知识转移，均非特指智能体间传递此类引用；3) 引用[5][6]支持‘任务目标、当前决策状态...’的推断，但这两篇描述的是应用系统整体目标，未分解到智能体间通信的上下文内容。这些引用未能有效支撑其所关联的论断。"
+    ],
+    "revision_instructions": [
+      "必须彻底重写报告结论部分（第5节）。基于当前证据，唯一有效的结论是：所提供的摘要证据均未直接或具体地涉及‘证据智能体与写作智能体之间的上下文传递应包含哪些最小必要信息’这一问题。任何看似相关的概念（如知识共享、决策支持）都过于宽泛，无法从中推导出具体的信息构成。报告应明确指出，要回答该研究问题，需要检索和审阅专注于智能体架构、通信协议、接口设计或具体多智能体系统实现的技术文献，而非当前这类高层概述和应用案例研究。",
+      "重写第2节‘核心主题与证据’。应将描述改为对摘要内容的客观归纳，并明确其与研究问题的距离。例如：1) 指出[1]提出了一个知识库概念，但未说明其如何用于智能体间通信；2) 指出[2][3]提及了知识增强和转移，但未定义转移的内容单元；3) 指出[5][6]描述了多智能体系统的应用目标，但未阐明内部智能体交互的上下文细节；4) 指出[7][8]讨论了情报处理模式的演进，但未关联到智能体间传递的具体信息类型。删除所有将摘要内容直接引申为‘暗示’或‘表明’上下文传递应包含某类信息的推断性语句。",
+      "删除第3节‘证据支持的研究方向’。由于现有证据未能为研究问题提供任何基础，因此基于这些证据提出的‘研究方向’（如标准化协议、分层模型）缺乏依据，属于凭空设想。本节应完全删除，或彻底改写为基于证据缺口提出的未来文献检索建议。",
+      "更新第4节‘摘要级证据的局限’。应强化一点：根本性局限在于所提供证据的类型与研究问题的性质不匹配。研究问题要求的是设计或规范层面的细节，而现有证据均为概念层、应用层或综述性的，因此无法提供答案。",
+      "清理参考文献。移除未在正文中引用且内容为空的证据[4]。检查并确保所有引用在正文中的使用都严格限于描述该证据摘要中实际陈述的内容，不得用于支撑超越原文的推断。"
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 4,
+        "major_issues": [
+          "报告的核心结论（第5节中推断的最小必要信息四个维度）缺乏直接证据支持。所提供的证据[1][2][3][5][6][7][8]仅泛泛提及智能体协作、知识共享或决策支持，没有任何一篇摘要明确或隐含地定义了证据智能体与写作智能体之间上下文传递的具体内容、格式或‘最小必要信息’。报告将宏观概念（如‘知识共享’）过度解读并具体化为微观的技术规范（如‘任务核心元数据’、‘结构化知识/证据体’），这在逻辑上不成立，超出了摘要证据的支撑范围。",
+          "报告声称其分析‘完全基于摘要级别的证据’，但其推断和结论（尤其是第2节和第5节）实质上进行了大量超出摘要文本的推测和构建。例如，摘要[1]提到‘利用跨领域经验’，但并未说明这些经验以何种形式在智能体间传递；摘要[7][8]讨论情报智能化，但未提及智能体间传递‘结构化情报产品’。报告将这些概念连接并具体化到‘上下文传递’这一特定问题，属于无证据支持的推论。",
+          "报告的研究问题（‘应包含哪些最小必要信息’）是一个具有明确技术或设计规范指向的问题。然而，所提供的八篇证据摘要均属于高层概念综述、应用案例介绍或愿景展望（如[1]的Agent KB概念、[2]的协议综述、[3]的6G网络愿景、[5][6]的体系构建、[7][8]的模式探讨），没有任何一篇涉及智能体间通信协议、消息格式、状态表示等实现层面的细节。因此，现有证据集从根本上无法支持对该研究问题的任何实质性回答，报告的任何肯定性推断都是无效的。"
+        ],
+        "citation_issues": [
+          "证据[4]在报告中未被引用，但其摘要内容在提供的证据集中为空（‘Key claim’和‘Methodology’字段均为空）。报告不应在参考文献列表中列出未在正文中引用且无实质内容的文献。",
+          "多处引用用于支持报告中具体推断的段落存在证据力度不足或关联性弱的问题。例如：1) 引用[1]支持‘可被结构化存储和复用的...知识片段’的推断，但[1]仅提及‘利用跨领域经验’，未涉及‘结构化’或‘传递’；2) 引用[2][3]支持‘外部权威知识源的引用...’，但[2]谈的是智能体使用外部知识源，[3]谈的是网络内知识转移，均非特指智能体间传递此类引用；3) 引用[5][6]支持‘任务目标、当前决策状态...’的推断，但这两篇描述的是应用系统整体目标，未分解到智能体间通信的上下文内容。这些引用未能有效支撑其所关联的论断。"
+        ],
+        "revision_instructions": [
+          "必须彻底重写报告结论部分（第5节）。基于当前证据，唯一有效的结论是：所提供的摘要证据均未直接或具体地涉及‘证据智能体与写作智能体之间的上下文传递应包含哪些最小必要信息’这一问题。任何看似相关的概念（如知识共享、决策支持）都过于宽泛，无法从中推导出具体的信息构成。报告应明确指出，要回答该研究问题，需要检索和审阅专注于智能体架构、通信协议、接口设计或具体多智能体系统实现的技术文献，而非当前这类高层概述和应用案例研究。",
+          "重写第2节‘核心主题与证据’。应将描述改为对摘要内容的客观归纳，并明确其与研究问题的距离。例如：1) 指出[1]提出了一个知识库概念，但未说明其如何用于智能体间通信；2) 指出[2][3]提及了知识增强和转移，但未定义转移的内容单元；3) 指出[5][6]描述了多智能体系统的应用目标，但未阐明内部智能体交互的上下文细节；4) 指出[7][8]讨论了情报处理模式的演进，但未关联到智能体间传递的具体信息类型。删除所有将摘要内容直接引申为‘暗示’或‘表明’上下文传递应包含某类信息的推断性语句。",
+          "删除第3节‘证据支持的研究方向’。由于现有证据未能为研究问题提供任何基础，因此基于这些证据提出的‘研究方向’（如标准化协议、分层模型）缺乏依据，属于凭空设想。本节应完全删除，或彻底改写为基于证据缺口提出的未来文献检索建议。",
+          "更新第4节‘摘要级证据的局限’。应强化一点：根本性局限在于所提供证据的类型与研究问题的性质不匹配。研究问题要求的是设计或规范层面的细节，而现有证据均为概念层、应用层或综述性的，因此无法提供答案。",
+          "清理参考文献。移除未在正文中引用且内容为空的证据[4]。检查并确保所有引用在正文中的使用都严格限于描述该证据摘要中实际陈述的内容，不得用于支撑超越原文的推断。"
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.11968/tsyqb.1003-6938.2025001",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "title:building a secure agentic ai application leveraging a2a protocol|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.19678/j.issn.1000-3428.0069471"
+  ],
+  "top_papers": [
+    {
+      "title": "Agent kb: Leveraging cross-domain experience for agentic problem solving",
+      "year": 2025,
+      "journal": "X Tang, T Qin, T Peng, Z Zhou, D Shao, T Du… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 50,
+      "abstract": "… As artificial intelligence advances, language agents are … We propose the Agent Knowledge Base (AGENT KB), a hierarchical … All services used in this work rely on third-party API calls to …"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "Toward agentic ai networking in 6g: A generative foundation model-as-agent approach",
+      "year": 2025,
+      "journal": "Y Xiao, G Shi, P Zhang - IEEE Communications Magazine, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 55,
+      "abstract": "… challenges and requirements of agentic AI networking. We … rative learning, and knowledge transfer among AI agents. We … al services, which involve a much wider range of knowledge …"
+    },
+    {
+      "title": "Building a secure agentic AI application leveraging A2A protocol",
+      "year": 2025,
+      "journal": "I Habler, K Huang, VS Narajala, P Kulkarni - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 52,
+      "abstract": "… Applications of agent communication range across enterprise knowledge management, customer service, supply chain management, healthcare, smart grids, autonomous vehicles, e-…"
+    },
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "人工智能赋能情报服务与决策:内涵、逻辑与路径",
+      "year": 2025,
+      "journal": "专题:人工智能赋能情报服务研究",
+      "source": "万方数据",
+      "doi": "10.11968/tsyqb.1003-6938.2025001",
+      "citations": 52,
+      "abstract": "文章聚焦于人工<span class='highlight'>智能</span>赋能<span class='highlight'>情报</span><span class='highlight'>服务</span>与决策的宏观认知概念、内涵与框架,旨在从内涵、逻辑与路径三个层面进行深入探讨.首先,明确了人工<span class='highlight'>智能</span>在<span class='highlight'>情报</span><span class='highlight'>服务</span>中的内涵,指出其通过<span class='highlight'>智能</span>化手段实现<span class='highlight'>情报</span>的高效收集、深度处理、精准分析及快速传递;其次,剖析了人工<span class='highlight'>智能</span>赋能<span class='highlight'>情报</span><span class='highlight'>服务</span>与决策的内在逻辑,包括融合创新、场景驱动和战略引领三大要素;最后,探索了人工<span class='highlight'>智能</span>赋能<span class='highlight'>情报</span><span class='highlight'>服务</span>的具体路径,包括<span class='highlight'>情报</span>感知及数智赋能的智慧响应体系构建、 场景化适配的智慧问答交互范式创新、<span class='highlight'>智能</span>化<span class='highlight'>情报</span>决策系统的内容构建与优化以及应用导向的\"智慧+\"<span class='highlight'>情报</"
+    }
+  ],
+  "elapsed_seconds": 161.649,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q53_method2_same_model_20260414_100838.md"
+}

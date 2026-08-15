@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？",
+  "effective_search_query": "产业情报分析 多智能协同 智慧情报服务 闭环构建",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "title:数据驱动的产业技术情报分析方法体系框架构建|2022",
+    "title:产业竞争情报服务模式演化分析|2016",
+    "title:多源数据驱动下产业竞争情报智慧服务机制研究|2026",
+    "title:数智驱动背景下产业竞争情报智慧服务的认知框架与实现逻辑|2023",
+    "title:产业技术情报分析方法的现状与发展趋势|2023",
+    "title:面向国家战略的产业竞争情报场景化智慧服务模式研究|2024",
+    "doi:10.12189/j.issn.1672-8505.2026.01.004?viewtype=html董克，",
+    "title:智能体赋能企业竞争情报研究——价值, 挑战与实现路径|2026",
+    "title:情报智能体——面向“十五五” 的科技情报工作新范式.|2024",
+    "title:智能制造与服务业融合问题分析与研究|2024",
+    "title:科技情报场景下数智融合方法的应用特征与发展趋势研究|2025",
+    "title:智能情报技术: 内涵, 边界与体系|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "数据驱动的产业技术情报分析方法体系框架构建",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "霍朝光， 卢小宾， 杨冠灿， 霍帆帆 - 图书情报知识, 2022 - meta.ecnu.edu.cn",
+      "doi": "",
+      "citations": 4,
+      "abstract": "… 产业技术情报分析方法是产业技术情报分析与服 务研究的科学方法论,是科技情报分析工作不可 或缺 的利器,也是智慧产业情报服务的核心[9].… 多源数据驱动的产业竞争情报智慧服务研究[J]. …"
+    },
+    {
+      "title": "产业竞争情报服务模式演化分析",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "李丽梅， 吴新年 - 图书情报工作, 2016",
+      "doi": "",
+      "citations": 3,
+      "abstract": ""
+    },
+    {
+      "title": "多源数据驱动下产业竞争情报智慧服务机制研究",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "郑荣， 魏明珠， 王晓宇， 陈玉 - 情报学报",
+      "doi": "",
+      "citations": 2,
+      "abstract": ""
+    },
+    {
+      "title": "数智驱动背景下产业竞争情报智慧服务的认知框架与实现逻辑",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "郑荣， 王晓宇， 高志豪， 雷亚欣 - 情报学报, 2023",
+      "doi": "",
+      "citations": 2,
+      "abstract": ""
+    },
+    {
+      "title": "产业技术情报分析方法的现状与发展趋势",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "卢小宾， 安然 - 情报资料工作, 2023 - qbzl.ruc.edu.cn",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 与融合,情报分析方法与技术,产业协同发展,注重分析结果的评估和… 数智时代的“智”要求智慧 数据 ,产业技术情报分析不能停留在… ,产业应用场景的特点对情报分析方法的需求展开 综合研究,构建…"
+    },
+    {
+      "title": "面向国家战略的产业竞争情报场景化智慧服务模式研究",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "郑荣， 王晓宇， 高志豪， 魏明珠 - 情报学报, 2024",
+      "doi": "",
+      "citations": 1,
+      "abstract": ""
+    },
+    {
+      "title": "创新需求牵引的产业情报智能服务体系研究",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "董克， 陈丽芳， 吴佳纯 - 西华大学学报(哲学社会科学版), 2026 - aj.xhu.edu.cn",
+      "doi": "10.12189/j.issn.1672-8505.2026.01.004?viewType=HTML董克，",
+      "citations": 0,
+      "abstract": "… 链与服务链协同流程,提升面向产业技术创新的服务效率与精度.… 服务需求及供给,构建了创新 需求牵引的产业情报智能服务体系.… 情报服务在时序与内容上实现对齐与闭环,承上启下地支撑产业…"
+    },
+    {
+      "title": "智能体赋能企业竞争情报研究——价值, 挑战与实现路径",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "邵晓璇 - Frontiers in Economics and Management, 2026 - fcipub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 在此基础上,从明确智能体辅助定位,构建多智能体协同技术… 多智能体的分工协作形成闭环 ——数据采集智能体专注于多源信息的抓取工作,分析智能体负责深度挖掘数据价值,关联智能体则构建…"
+    },
+    {
+      "title": "情报智能体——面向“十五五” 的科技情报工作新范式.",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "刘细文， 付芸， 韦华楠 - … of Library & Information Science in …, 2024 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 核心的 科技情报布局,满足多层次,多目标的科技情报服务 需求. … 单智能体[62]和多智能体[4]框架 ,本文 构建了基于情报智能体的… 的协同工作,新生态实 现了科技情报工作的闭环流程,为情报专家…"
+    },
+    {
+      "title": "智能制造与服务业融合问题分析与研究",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "周博果， 牛瑞坤， 王荣祺， 徐文超 - Sustainable Development, 2024 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 于加速构建制造业大国和质量卓越的国家,推动智能制造与服务业… ”和“服务”为主要研究对象 ;建立“两个产业”协同发展的理论分析.… 服务对智能制造的支持和提升效应,其高级服务元素流向智慧…"
+    },
+    {
+      "title": "科技情报场景下数智融合方法的应用特征与发展趋势研究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "刘博文， 夏义堃， 巴志超 - 情报学报, 2025",
+      "doi": "",
+      "citations": 0,
+      "abstract": ""
+    },
+    {
+      "title": "智能情报技术: 内涵, 边界与体系",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "姚长青， 程齐凯， 王莉军， 刘家伟 - 情报学报, 2025",
+      "doi": "",
+      "citations": 0,
+      "abstract": ""
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q01_baseline_b_20260410_183738.md"
+}

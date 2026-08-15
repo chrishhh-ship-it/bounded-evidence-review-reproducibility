@@ -1,0 +1,66 @@
+{
+  "official_source": "C:\\Users\\10305\\文献\\研究情报助手\\external\\github_learned_projects\\ALCE\\eval.py",
+  "metric_note": "Answer metrics mirror ALCE eval.py; citation diagnostics are adapter metrics. AutoAIS was not run because its official checkpoint was not downloaded.",
+  "groups": {
+    "asqa/v0": {
+      "n": 15,
+      "avg_words": 32.53333333333333,
+      "citation_index_validity": 0.9333333333333333,
+      "sentence_citation_coverage": 0.8088888888888889,
+      "str_em": 45.0,
+      "str_hit": 20.0
+    },
+    "asqa/v1": {
+      "n": 15,
+      "avg_words": 22.666666666666668,
+      "citation_index_validity": 1.0,
+      "sentence_citation_coverage": 0.791111111111111,
+      "str_em": 18.33333333333333,
+      "str_hit": 6.666666666666667
+    },
+    "asqa/v2": {
+      "n": 15,
+      "avg_words": 24.933333333333334,
+      "citation_index_validity": 1.0,
+      "sentence_citation_coverage": 0.9666666666666667,
+      "str_em": 38.333333333333336,
+      "str_hit": 13.333333333333334
+    },
+    "qampari/v0": {
+      "n": 15,
+      "avg_words": 7.133333333333334,
+      "citation_index_validity": 0.6666666666666666,
+      "sentence_citation_coverage": 0.6666666666666666,
+      "num_preds": 2.8666666666666667,
+      "qampari_prec": 26.740740740740744,
+      "qampari_rec": 11.000540567104036,
+      "qampari_rec_top5": 22.666666666666668,
+      "qampari_f1": 14.196544196544197,
+      "qampari_f1_top5": 23.095238095238095
+    },
+    "qampari/v1": {
+      "n": 15,
+      "avg_words": 8.866666666666667,
+      "citation_index_validity": 0.8,
+      "sentence_citation_coverage": 0.8,
+      "num_preds": 2.933333333333333,
+      "qampari_prec": 26.571428571428573,
+      "qampari_rec": 11.349124445099678,
+      "qampari_rec_top5": 22.666666666666668,
+      "qampari_f1": 14.57641124307791,
+      "qampari_f1_top5": 23.513227513227516
+    },
+    "qampari/v2": {
+      "n": 15,
+      "avg_words": 9.866666666666667,
+      "citation_index_validity": 1.0,
+      "sentence_citation_coverage": 0.9666666666666667,
+      "num_preds": 3.4,
+      "qampari_prec": 26.606060606060606,
+      "qampari_rec": 12.111651678215146,
+      "qampari_rec_top5": 24.000000000000004,
+      "qampari_f1": 15.71615984659463,
+      "qampari_f1_top5": 24.034391534391535
+    }
+  }
+}

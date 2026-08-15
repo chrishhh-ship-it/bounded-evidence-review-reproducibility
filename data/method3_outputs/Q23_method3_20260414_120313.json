@@ -1,0 +1,105 @@
+{
+  "baseline": "method3_self_refine",
+  "query": "没有 reviewer 的多智能体流水线与带对抗审稿循环的流水线差异在哪里？",
+  "query_id": "Q23",
+  "effective_search_query": "multi-agent pipeline, adversarial review cycle, comparison, differences",
+  "provider": "deepseek",
+  "model": null,
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_score": 8,
+  "accepted_without_revision": true,
+  "all_retrieved_ids": [
+    "title:multi-agent systems for clinical decision support: a systematic review|2025",
+    "title:architectural review on multi agent knowledge management|2018",
+    "doi:10.1109/tmc.2021.3116236",
+    "title:p1gpt: a multi-agent llm workflow module for multi-modal financial information analysis|2025",
+    "doi:10.12785/ijcds/130125",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.1109/mwc.016.2300600",
+    "title:a multi-agent digital twin–enabled decision support system for sustainable and resilient supplier management|2024",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/twc.2023.3235997",
+    "doi:10.48550/arxiv.2306.16092",
+    "title:multi-agent planning for automatic geospatial web service composition in geoportals|2018",
+    "doi:10.1109/tvt.2022.3173057",
+    "doi:10.1109/jsac.2022.3143251",
+    "title:an intelligent decision support system based on multi agent systems for business classification problem|2023"
+  ],
+  "top_papers": [
+    {
+      "title": "P1GPT: a multi-agent LLM workflow module for multi-modal financial information analysis",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Recent advances in large language models (LLMs) have enabled multi-agent reasoning systems capable of collaborative decision-making. However, in financial analysis, most frameworks remain narrowly focused on either isolated single-agent predictors or loosely connected analyst ensembles, and they lack a coherent reasoning workflow that unifies diverse data modalities. We introduce P1GPT, a layered multi-agent LLM framework for multi-modal financial information analysis and interpretable trading decision support. Unlike prior systems that emulate trading teams through role simulation, P1GPT implements a structured reasoning pipeline that systematically fuses technical, fundamental, and news-based insights through coordinated agent communication and integration-time synthesis. Backtesting on "
+    },
+    {
+      "title": "Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model",
+      "year": "2023",
+      "journal": "arXiv (Cornell University)",
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2306.16092",
+      "citations": 90,
+      "abstract": "AI legal assistants based on Large Language Models (LLMs) can provide accessible legal consulting services, but the hallucination problem poses potential legal risks. This paper presents Chatlaw, an innovative legal assistant utilizing a Mixture-of-Experts (MoE) model and a multi-agent system to enhance the reliability and accuracy of AI-driven legal services. By integrating knowledge graphs with artificial screening, we construct a high-quality legal dataset to train the MoE model. This model utilizes different experts to address various legal issues, optimizing the accuracy of legal responses. Additionally, Standardized Operating Procedures (SOP), modeled after real law firm workflows, significantly reduce errors and hallucinations in legal services. Our MoE model outperforms GPT-4 in th"
+    },
+    {
+      "title": "Multi-agent systems for clinical decision support: A systematic review",
+      "year": 2025,
+      "journal": "AL Silveira, R da Rosa Righi, CA Da Costa - Applied Soft Computing, 2025 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… Multi-agent reinforcement learning (MARL), ontology-based medical knowledge … (LLMs) are increasingly applied in clinical decision support systems (CDSSs). Despite rapid advances, …"
+    },
+    {
+      "title": "Towards An Intelligent Agent-Based Multi-Criteria Group Decision Support System : A Case Study In Land Use Management",
+      "year": "2023",
+      "journal": "International Journal of Computing and Digital Systems",
+      "source": "OpenAlex",
+      "doi": "10.12785/ijcds/130125",
+      "citations": 3,
+      "abstract": "The Land use management constitutes a multi-dimensional issue affected by a variety of criteria of different significance.Many decision-makers (DMs) are involved in this type of dilemma, and their preferences are often in dispute.To address these issues, researchers created a variety of GDSS with various architectures; nevertheless, not all of them can apply artificial intelligence approaches to mimic human behavior by predciting or classifying solutions.In this work, the authors used a previously designed GDSS named WIM-GDSS as the foundation for developing a new one with various features; the two systems differ in the prediction model employed.The proposed system's prediction module employs a model trained on a multicriteria method known as PROMETHEE II rather than TOPSIS; the latter met"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "A multi-agent digital twin–enabled decision support system for sustainable and resilient supplier management",
+      "year": 2024,
+      "journal": "YL Li, YP Tsang, CH Wu, CKM Lee - Computers & industrial engineering, 2024 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 61,
+      "abstract": "… decision-making under uncertainty. This paper introduces a digitally enabled decision support … The system leverages stratified fuzzy decision-making techniques to account for the …"
+    },
+    {
+      "title": "An intelligent decision support system based on multi agent systems for business classification problem",
+      "year": 2023,
+      "journal": "M Haj Qasem, M Aljaidi, G Samara, R Alazaidah… - Sustainability, 2023 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 40,
+      "abstract": "… decision making. Document classification is one of the main decisions that any business adopts in their decision making … In this paper, we combined multi-agent systems (MASs), which …"
+    }
+  ],
+  "elapsed_seconds": 111.762,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method3_outputs\\Q23_method3_20260414_120313.md"
+}

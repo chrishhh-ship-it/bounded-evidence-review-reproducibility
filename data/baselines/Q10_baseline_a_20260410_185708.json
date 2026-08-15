@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "如何评估智慧情报服务中 query expansion 的收益与风险？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q10_baseline_a_20260410_185708.md"
+}

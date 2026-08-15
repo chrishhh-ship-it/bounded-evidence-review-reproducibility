@@ -1,0 +1,18 @@
+{
+  "n_pairs": 320,
+  "seed": 20260724,
+  "gold_distribution": {
+    "nonmatch": 160,
+    "match": 160
+  },
+  "domain_distribution": {
+    "biomedical_evidence_synthesis": 60,
+    "multi_agent_information_services": 142,
+    "digital_humanities": 62,
+    "climate_policy_research": 56
+  },
+  "positive_source": "Canonical M1 bibliography entries matched at >=0.90 to their own query-specific preserved evidence titles.",
+  "negative_source": "Different titles from frozen_corpus_multidomain_v1.json, selected for high lexical similarity while excluding the true evidence title.",
+  "use": "Two coders independently label match/nonmatch. Keep the gold key hidden until coding is complete; then report coder agreement and precision/recall/F1 by language/domain and threshold.",
+  "warning": "The packet is ready for blinded human validation, but no validation result exists until both independent coding files are completed."
+}

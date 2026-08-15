@@ -1,0 +1,180 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "多智能协同系统的 reviewer agent 对最终报告质量能带来哪些可观察改进？",
+  "effective_search_query": "multi-agent systems reviewer agent report quality improvement",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.1109/mwc.016.2300600",
+    "doi:10.1016/j.promfg.2020.10.044",
+    "doi:10.3390/jmmp4030089",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.17048/am.2020.122",
+    "title:an intelligent decision support system based on multi agent systems for business classification problem|2023",
+    "doi:10.1109/tnse.2021.3077766",
+    "doi:10.1109/jas.2021.1004132",
+    "title:reinforcing clinical decision support through multi-agent systems and ethical ai governance|2025",
+    "title:a multi-agent model to develop knowledge management systems|2026",
+    "title:multi-agent systems: a survey|2018",
+    "doi:10.1007/s10462-016-9520-8a",
+    "title:multi-agent systems for clinical decision support: a systematic review|2025",
+    "title:ai agents as knowledge navigators: a conceptual framework for multi-agent systems in scientific knowledge management|2025",
+    "title:enhancing clinical decision-making: integrating multi-agent systems with ethical ai governance|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "A Quality-Oriented Digital Twin Modelling Method for Manufacturing Processes Based on A Multi-Agent Architecture",
+      "year": "2020",
+      "journal": "Procedia Manufacturing",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.promfg.2020.10.044",
+      "citations": 72,
+      "abstract": "The quality of a product is highly dependent on manufacturing processes. The recent development of industrial information technologies, such as Cyber-Physical Production Systems, Industrial Internet of Things, and Big Manufacturing Data Analytics has empowered the digitalization of manufacturing processes and promoted the concept of Digital Twin (DT). As one of the fundamental enabling technologies for Industry 4.0, DT enables the convergence between a physical system and its digital representation. DT modelling is the basis of implementing DT in practice. In this paper, we propose a DT modelling method based on a multi-agent architecture. It focuses on quality control during manufacturing processes and provides solutions to gather relevant information and analyze the corresponding influen"
+    },
+    {
+      "title": "Simulation of Smart Factory Processes Applying Multi-Agent-Systems—A Knowledge Management Perspective",
+      "year": "2020",
+      "journal": "Journal of Manufacturing and Materials Processing",
+      "source": "OpenAlex",
+      "doi": "10.3390/jmmp4030089",
+      "citations": 20,
+      "abstract": "The implementation of Industry 4.0 and smart factory concepts changes the ways of manufacturing and production and requires the combination and interaction of different technologies and systems. The need for rapid implementation is steadily increasing as customers demand individualized products which are only possible if the production unit is smart and flexible. However, an existing factory cannot be transformed easily into a smart factory, especially not during operational mode. Therefore, designers and engineers require solutions which help to simulate the aspired change beforehand, thus running realistic pre-tests without disturbing operations and production. New product lines may also be tested beforehand. Data and the deduced knowledge are key factors of the said transformation. One "
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "Multi-Agent based Intelligent Decision Support Systems for Cancer Classification",
+      "year": "2021",
+      "journal": "Agria Média 2020 és ICI-16 Információ- és Oktatástechnológiai konferencia",
+      "source": "CrossRef",
+      "doi": "10.17048/am.2020.122",
+      "citations": 0,
+      "abstract": "There is evidence that early detection of cancer diseases can improve the treatment and increase the survival rate of patients. This paper presents an efficient CAD system for cancer diseases diagnosis by gene expression profiles of DNA microarray datasets. The proposed CAD system combines Intelligent Decision Support System (IDSS) and Multi-Agent (MA) system. The IDSS represents the backbone of the entire CAD system. It consists of two main phases; feature selection/reduction phase and a classification phase. In the feature selection/reduction phase, eight diverse methods are developed. While, in the classification phase, three evolutionary machine learning algorithms are employed. On the other hand, the MA system manages the entire operation of the CAD system. It first initializes severa"
+    },
+    {
+      "title": "An intelligent decision support system based on multi agent systems for business classification problem",
+      "year": 2023,
+      "journal": "M Haj Qasem, M Aljaidi, G Samara, R Alazaidah… - Sustainability, 2023 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 40,
+      "abstract": "… decision making. Document classification is one of the main decisions that any business adopts in their decision making … In this paper, we combined multi-agent systems (MASs), which …"
+    },
+    {
+      "title": "Event-Triggered Adaptive Fault-Tolerant Pinning Control for Cluster Consensus of Heterogeneous Nonlinear Multi-Agent Systems Under Aperiodic DoS Attacks",
+      "year": "2021",
+      "journal": "IEEE Transactions on Network Science and Engineering",
+      "source": "OpenAlex",
+      "doi": "10.1109/tnse.2021.3077766",
+      "citations": 173,
+      "abstract": "This paper presents an event-triggered cluster consensus scheme for heterogeneous nonlinear second-order multi-agent systems (MASs) subject to cyber attacks (i.e., aperiodic denial-of-service (DoS) attacks), actuator faults and integral quadratic constraints (IQCs) under directed communication topology containing a directed spanning tree. Based on local communication, an event-triggered adaptive fault-tolerant pinning control scheme is designed to achieve cluster consensus under simultaneous cyber attacks and actuator faults. The proposed control scheme does not require the communication topology to satisfy the in-degree balance between different clusters. Furthermore, the fault-tolerant control part only needs to estimate one parameter for each agent. Instead of requiring continuous infor"
+    },
+    {
+      "title": "Adaptive Memory Event-Triggered Observer-Based Control for Nonlinear Multi-Agent Systems Under DoS Attacks",
+      "year": "2021",
+      "journal": "IEEE/CAA Journal of Automatica Sinica",
+      "source": "OpenAlex",
+      "doi": "10.1109/jas.2021.1004132",
+      "citations": 111,
+      "abstract": "This paper investigates the event-triggered security consensus problem for nonlinear multi-agent systems (MASs) under denial-of-service (DoS) attacks over an undirected graph. A novel adaptive memory observer-based anti-disturbance control scheme is presented to improve the observer accuracy by adding a buffer for the system output measurements. Meanwhile, this control scheme can also provide more reasonable control signals when DoS attacks occur. To save network resources, an adaptive memory event-triggered mechanism (AMETM) is also proposed and Zeno behavior is excluded. It is worth mentioning that the AMETM's updates do not require global information. Then, the observer and controller gains are obtained by using the linear matrix inequality (LMI) technique. Finally, simulation examples "
+    },
+    {
+      "title": "Reinforcing clinical decision support through multi-agent systems and ethical ai governance",
+      "year": 2025,
+      "journal": "YJ Chen, A Albarqawi, CS Chen - arXiv e-prints, 2025 - ui.adsabs.harvard.edu",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 17,
+      "abstract": "… artificial intelligence into clinical decision support systems (CDSS), are … Our results suggest that the multi-agent system (MAS) … AI-assisted decision support in an intensive care setting. …"
+    },
+    {
+      "title": "A Multi-agent Model to Develop Knowledge Management Systems",
+      "year": 2026,
+      "journal": "JP Soto, J Portillo-Rodríguez, M Piattini - academia.edu",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… The main contribution of this paper is the design of a multi-agent model that has been designed to help KMS developers to implement these kinds of systems. The advantages of this …"
+    },
+    {
+      "title": "Multi-agent systems: A survey",
+      "year": 2018,
+      "journal": "A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 1529,
+      "abstract": "… Multi Agent Learning (MAL) systems. The following challenges increase the complexity of adopting learning systems for … Mao, “Cross-clouds services autonomic management approach …"
+    },
+    {
+      "title": "Multi agent system: concepts, platforms and applications in power systems",
+      "year": 2018,
+      "journal": "A Sujil, J Verma, R Kumar - Artificial Intelligence Review, 2018 - Springer",
+      "source": "Google Scholar",
+      "doi": "10.1007/s10462-016-9520-8A",
+      "citations": 101,
+      "abstract": "… information. However, MAS can be made more robust by creating backup agents which can deliver the same service if the … Section 2 defines multi agent system and its basic concept, its …"
+    },
+    {
+      "title": "Multi-agent systems for clinical decision support: A systematic review",
+      "year": 2025,
+      "journal": "AL Silveira, R da Rosa Righi, CA Da Costa - Applied Soft Computing, 2025 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… Multi-agent reinforcement learning (MARL), ontology-based medical knowledge … (LLMs) are increasingly applied in clinical decision support systems (CDSSs). Despite rapid advances, …"
+    },
+    {
+      "title": "AI Agents as Knowledge Navigators: A Conceptual Framework for Multi-Agent Systems in Scientific Knowledge Management",
+      "year": 2025,
+      "journal": "P Gemelli, L Pagani, MI Zignego… - … -Computer Interaction & …, 2025 - books.google.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… The exponential expansion of scientific literature poses significant challenges in knowledge … for a multi-agent AI system designed to enhance scientific knowledge organization and …"
+    },
+    {
+      "title": "Enhancing Clinical Decision-Making: Integrating Multi-Agent Systems with Ethical AI Governance",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Recent advances in the data-driven medicine approach, which integrates ethically managed and explainable artificial intelligence into clinical decision support systems (CDSS), are critical to ensure reliable and effective patient care. This paper focuses on comparing novel agent system designs that use modular agents to analyze laboratory results, vital signs, and clinical context, and to predict and validate results. We implement our agent system with the eICU database, including running lab analysis, vitals-only interpreters, and contextual reasoners agents first, then sharing the memory into the integration agent, prediction agent, transparency agent, and a validation agent. Our results suggest that the multi-agent system (MAS) performed better than the single-agent system (SAS) with mo"
+    }
+  ],
+  "outline": "# The Impact of Reviewer Agents on Report Quality in Multi-Agent Collaborative Systems: A Survey\n\n## 1. Introduction and Foundational Concepts of Multi-Agent Collaborative Systems\n*This section introduces the core principles, architectures, and applications of multi-agent systems (MAS) in complex tasks like decision-making and report generation. It defines the specialized role of a reviewer agent within these collaborative frameworks and establishes the core research question regarding its impact on final output quality.*\n\n### 1.1 Core Principles and Architectures of Multi-Agent Systems (MAS)\n*This subsection introduces the foundational concepts of MAS, including autonomy, interaction, and decentralized control, and outlines common architectural paradigms that enable collaborative problem-solving in complex domains like manufacturing and healthcare.*\n\n### 1.2 Applications in Complex Decision-Making and Report Generation\n*This subsection reviews key applications of MAS in tasks requiring synthesis and analysis, such as clinical decision support, business classification, and smart factory simulation, highlighting their role in managing information and improving decision outcomes.*\n\n### 1.3 Defining the Reviewer Agent Role within Collaborative Frameworks\n*This subsection defines the specialized function of a reviewer agent as a quality assurance component within a MAS, responsible for evaluation, critique, and refinement of intermediate or final outputs like reports or decisions generated by other agents.*\n\n### 1.4 Establishing the Research Focus on Impact to Report Quality\n*This subsection articulates the core research question by framing how the integration of a dedicated reviewer agent may lead to observable improvements in final report attributes, setting the stage for the survey's investigation.*\n\n## 2. Methodological Foundations: The Role, Design, and Architecture of Reviewer Agents\n*This section examines the specific function, design paradigms, and integration mechanisms of reviewer agents for quality assurance. It reviews relevant MAS architectures for decision support and knowledge management that form the operational basis for these agents, detailing their functions such as evaluation, critique, and refinement within collaborative workflows.*\n\n### 2.1 Defining the Reviewer Agent: Core Functions and Quality Assurance Objectives\n*This subsection establishes the specific role of the reviewer agent within a MAS, detailing its primary functions such as evaluation, critique, validation, and refinement of intermediate or final outputs. It frames these functions within the overarching objective of quality assurance for decision support and report generation.*\n\n### 2.2 Architectural Paradigms and Integration Mechanisms for Reviewer Agents\n*This subsection reviews common MAS architectures (e.g., hierarchical, federated, blackboard) that support the integration of reviewer agents, as illustrated in smart factory and digital twin contexts. It examines how these agents are embedded within collaborative workflows, including their communication protocols and interaction models with other specialized agents.*\n\n### 2.3 Design Considerations: Knowledge, Tools, and Evaluation Metrics\n*This subsection analyzes the design components that enable a reviewer agent's function, including its knowledge base (domain-specific data, rules, benchmarks), access to analytical tools, and the internal or shared metrics it uses to assess quality, consistency, and logical coherence in outputs like reports or decisions.*\n\n### 2.4 Reviewer Agents in Practice: Case Studies from Decision Support and Knowledge Management\n*This subsection synthesizes practical implementations from the candidate papers, showcasing how reviewer or evaluator agent concepts are operationalized in domains such as smart city management, 6G network optimization, cancer classification, and scientific knowledge navigation to enhance system outputs.*\n\n## 3. Prerequisites for Reliable Operation: Resilience and Consensus in MAS\n*This section discusses the foundational requirements for maintaining reliable reviewer agent functionality, examining fault-tolerant and secure consensus control strategies for MAS under adversarial conditions or system faults, which are critical for robust operation.*\n\n### 3.1 Foundational Concepts of Resilience and Fault Tolerance in MAS\n*This subsection defines the core requirements for reliable reviewer agent operation, introducing key concepts of system resilience, fault tolerance, and robustness within multi-agent architectures. It discusses general strategies, such as creating backup agents and redundancy, to maintain functionality despite individual agent failures or degraded performance, establishing the baseline for secure and dependable collaboration.*\n\n### 3.2 Secure Consensus Control Under Adversarial Conditions and Cyber Attacks\n*This subsection examines advanced control strategies designed to achieve and maintain consensus among agents in the presence of active threats, such as Denial-of-Service (DoS) attacks. It reviews event-triggered, adaptive, and fault-tolerant pinning control schemes that enable heterogeneous agents to coordinate effectively and fulfill their roles, like review, even under aperiodic cyber attacks and actuator faults.*\n\n### 3.3 Observer-Based and Memory-Enhanced Mechanisms for Reliable State Estimation\n*This subsection details mechanisms that enhance the accuracy and reliability of an agent's understanding of the system state, which is critical for a reviewer's evaluation function. It covers adaptive memory observers and event-triggered protocols that improve disturbance rejection and provide reasonable control signals during attacks, ensuring agents have a consistent and accurate basis for decision-making and critique.*\n\n### 3.4 Architectural and Methodological Prerequisites for Critical Applications\n*This subsection explores how resilience and consensus prerequisites are implemented and prioritized in specific, high-stakes application domains for MAS, such as clinical decision support and industrial quality control. It discusses how modular agent designs, ethical governance frameworks, and quality-oriented digital twin models inherently require and build upon fault-tolerant and secure consensus foundations to ensure reliable operation.*\n\n## 4. Observable Improvements in Final Report Quality Attributed to Reviewer Agents\n*This section synthesizes empirical and theoretical evidence to propose specific, measurable enhancements in report quality. It details improvements in attributes such as accuracy, consistency, comprehensiveness, logical coherence, robustness, and error reduction directly attributable to the integration of reviewer agents.*\n\n### 4.1 Enhancement of Accuracy, Error Reduction, and Robustness\n*This subsection examines how reviewer agents contribute to increased factual correctness, identification and mitigation of errors, and the overall resilience of reports against faults or adversarial inputs, drawing on evidence from systems in manufacturing, healthcare, and communications.*\n\n### 4.2 Improvement of Logical Coherence and Consistency\n*This subsection details the role of reviewer agents in enforcing logical flow, eliminating contradictions, and ensuring internal consistency across report sections, a function highlighted in systems for scientific knowledge management and clinical decision support.*\n\n### 4.3 Augmentation of Comprehensiveness and Contextual Relevance\n*This subsection analyzes how reviewer agents, through mechanisms like evaluation and memory-augmented retrieval, ensure reports are thorough, contextually appropriate, and integrate necessary domain knowledge, as evidenced in applications for 6G communications and cancer classification.*\n\n## 5. Challenges, Ethical Considerations, Future Directions, and Conclusions\n*This section discusses the limitations of current implementations, ethical governance issues related to deployment in critical contexts, and identifies open research questions. It proposes future directions for advancing reviewer agent capabilities and their measurable impact on system performance and output quality.*\n\n### 5.1 Technical and Operational Challenges in Reviewer Agent Implementation\n*This subsection discusses current limitations in reviewer agent design and deployment, including challenges related to computational overhead, integration complexity, resilience against faults and adversarial attacks, and the difficulty of ensuring reliable consensus and quality evaluation in dynamic, heterogeneous multi-agent systems.*\n\n### 5.2 Ethical Governance and Accountability in Critical Applications\n*This subsection examines ethical considerations and governance frameworks required for deploying reviewer agents in high-stakes domains like healthcare and communications. It addresses issues of transparency, bias, accountability for automated decisions, and the need for ethical AI principles to ensure safe and trustworthy system operation.*\n\n### 5.3 Future Research Directions and Open Questions\n*This subsection identifies promising avenues for advancing reviewer agent capabilities, such as integration with large language models for enhanced reasoning, development of more sophisticated evaluation metrics for report quality, and exploration of novel architectures for scalable and adaptive quality assurance in complex collaborative workflows.*\n\n### 5.4 Synthesis and Concluding Remarks\n*This subsection synthesizes the key findings from the survey, summarizing the evidenced impact of reviewer agents on report quality, reiterating the major challenges and ethical imperatives, and offering a forward-looking perspective on the role of reviewer agents in the evolution of intelligent, collaborative systems.*",
+  "cited_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    12,
+    14,
+    15
+  ],
+  "elapsed_seconds": 453.939,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q07_autosurvey_20260419_002905.md"
+}

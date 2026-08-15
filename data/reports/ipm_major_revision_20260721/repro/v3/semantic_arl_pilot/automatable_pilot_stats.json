@@ -1,0 +1,60 @@
+{
+  "B0_schema_matched": {
+    "n": 30,
+    "citation_precision_mean": 1.0,
+    "bibliography_match_rate_mean": 1.0,
+    "orphan_rate_mean": 0.0708
+  },
+  "B1_deterministic_repair": {
+    "n": 30,
+    "citation_precision_mean": 1.0,
+    "bibliography_match_rate_mean": 1.0,
+    "orphan_rate_mean": 0.0
+  },
+  "B2_self_critique": {
+    "n": 30,
+    "citation_precision_mean": 1.0,
+    "bibliography_match_rate_mean": 1.0,
+    "orphan_rate_mean": 0.0708
+  },
+  "B3_semantic_arl": {
+    "n": 30,
+    "citation_precision_mean": 1.0,
+    "bibliography_match_rate_mean": 1.0,
+    "orphan_rate_mean": 0.0319
+  },
+  "cost_B2": {
+    "n": 30,
+    "mean_seconds": 10.32,
+    "median_seconds": 10.1,
+    "min_seconds": 6.94,
+    "max_seconds": 14.76
+  },
+  "cost_B3": {
+    "n": 31,
+    "mean_seconds": 20.01,
+    "median_seconds": 19.51,
+    "min_seconds": 13.93,
+    "max_seconds": 28.12
+  },
+  "B3_reviewer_self_reported_verdicts": {
+    "n_queries": 30,
+    "total_verdicts": 463,
+    "verdict_counts": {
+      "SUPPORTED": 265,
+      "PARTIAL": 91,
+      "CONTRADICTED": 0,
+      "INSUFFICIENT": 107,
+      "OTHER": 0
+    },
+    "verdict_pct": {
+      "SUPPORTED": 57.2,
+      "PARTIAL": 19.7,
+      "CONTRADICTED": 0.0,
+      "INSUFFICIENT": 23.1,
+      "OTHER": 0.0
+    },
+    "mean_verdicts_per_query": 15.43
+  },
+  "note": "citation_precision/bibliography_match_rate/orphan_rate here are STRUCTURAL sanity checks (do B2/B3 still resolve to E_q after semantic revision), not CSP/CSC. The B3 verdict distribution is the Semantic Reviewer's own self-report and is an auxiliary signal only -- it is not independent evidence of claim support and must not be reported as CSP/CSC. CSP/CSC require the blinded human annotation packet."
+}

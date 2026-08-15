@@ -1,0 +1,5899 @@
+[
+  {
+    "qid": "Q01",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "所有引用编号与参考文献条目一一对应且均被引用，所有参考文献标题与候选论文池完全一致，未发现虚构或错配问题。"
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1715,
+      "output_tokens": 1075,
+      "total_tokens": 2790,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14294
+    }
+  },
+  {
+    "qid": "Q02",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [2] is never cited in the report body, violating citation integrity."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1693,
+      "output_tokens": 852,
+      "total_tokens": 2545,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12750
+    }
+  },
+  {
+    "qid": "Q03",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title matches a candidate paper title exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1703,
+      "output_tokens": 504,
+      "total_tokens": 2207,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 7980
+    }
+  },
+  {
+    "qid": "Q04",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [2] (JARVIS) is never cited in the body, making it an uncited bibliography number."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2053,
+      "output_tokens": 1174,
+      "total_tokens": 3227,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16460
+    }
+  },
+  {
+    "qid": "Q05",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, every bibliography entry is cited in the body, and all titles match the candidate pool, so no structural issues exist."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1893,
+      "output_tokens": 788,
+      "total_tokens": 2681,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11147
+    }
+  },
+  {
+    "qid": "Q06",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to the bibliography, all bibliography entries are cited, and every bibliography title exactly or trivially matches a candidate paper title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2001,
+      "output_tokens": 985,
+      "total_tokens": 2986,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14362
+    }
+  },
+  {
+    "qid": "Q07",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries, all entries are cited, and every bibliography title exactly matches a title in the candidate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2161,
+      "output_tokens": 1244,
+      "total_tokens": 3405,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19766
+    }
+  },
+  {
+    "qid": "Q08",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1,
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries [1] and [2] are never cited in the report body."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1860,
+      "output_tokens": 1139,
+      "total_tokens": 2999,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15694
+    }
+  },
+  {
+    "qid": "Q09",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have corresponding entries in the bibliography, every bibliography entry is cited in the body, and all bibliography titles clearly match titles in the candidate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2154,
+      "output_tokens": 1111,
+      "total_tokens": 3265,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14985
+    }
+  },
+  {
+    "qid": "Q10",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries, all bibliography entries are cited, and every bibliography title exactly matches a candidate title from the evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2502,
+      "output_tokens": 1055,
+      "total_tokens": 3557,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14521
+    }
+  },
+  {
+    "qid": "Q11",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography entry is cited in the body, and all bibliography titles match candidate pool titles without discrepancy."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1708,
+      "output_tokens": 954,
+      "total_tokens": 2662,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12235
+    }
+  },
+  {
+    "qid": "Q12",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations correspond to a matching bibliography entry, every bibliography entry is cited in the text, and each bibliography title precisely matches a title from the candidate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1634,
+      "output_tokens": 916,
+      "total_tokens": 2550,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13366
+    }
+  },
+  {
+    "qid": "Q13",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited in the body, and every bibliography title corresponds exactly to a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1827,
+      "output_tokens": 1279,
+      "total_tokens": 3106,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15873
+    }
+  },
+  {
+    "qid": "Q14",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]-[8] have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title clearly matches a candidate paper title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1877,
+      "output_tokens": 771,
+      "total_tokens": 2648,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11308
+    }
+  },
+  {
+    "qid": "Q15",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All body citations correspond to bibliography entries, all bibliography entries are cited, and all bibliography titles exactly match those in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1544,
+      "output_tokens": 784,
+      "total_tokens": 2328,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11135
+    }
+  },
+  {
+    "qid": "Q16",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1] through [8] have matching bibliography entries, every bibliography entry is cited, and all titles exactly correspond to the provided candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1736,
+      "output_tokens": 860,
+      "total_tokens": 2596,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11630
+    }
+  },
+  {
+    "qid": "Q17",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography entry is cited at least once, and all bibliography titles correspond exactly to titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2081,
+      "output_tokens": 1301,
+      "total_tokens": 3382,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17023
+    }
+  },
+  {
+    "qid": "Q18",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and all titles correspond exactly to titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1821,
+      "output_tokens": 648,
+      "total_tokens": 2469,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9493
+    }
+  },
+  {
+    "qid": "Q19",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        3,
+        4
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "参考文献[3]和[4]在正文中完全未被引用，属于未引用的条目，违反完整性要求。"
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1547,
+      "output_tokens": 1218,
+      "total_tokens": 2765,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16716
+    }
+  },
+  {
+    "qid": "Q20",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have matching bibliography entries, all bibliography entries are cited in the body, and all bibliography titles clearly correspond to titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1840,
+      "output_tokens": 1168,
+      "total_tokens": 3008,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15242
+    }
+  },
+  {
+    "qid": "Q21",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 4,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have matching bibliography entries, every bibliography entry is cited in text (including [3] to [8] as a range), and all bibliography titles correspond exactly to titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1760,
+      "output_tokens": 1121,
+      "total_tokens": 2881,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14060
+    }
+  },
+  {
+    "qid": "Q22",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, every bibliography entry is cited, and all bibliography titles clearly match titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2185,
+      "output_tokens": 1160,
+      "total_tokens": 3345,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15561
+    }
+  },
+  {
+    "qid": "Q23",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations match bibliography entries, every bibliography entry is cited, and each bibliography title appears exactly in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1723,
+      "output_tokens": 1685,
+      "total_tokens": 3408,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 20442
+    }
+  },
+  {
+    "qid": "Q24",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries, all bibliography entries are cited, and all titles match the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2176,
+      "output_tokens": 854,
+      "total_tokens": 3030,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10898
+    }
+  },
+  {
+    "qid": "Q25",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [2] is never cited anywhere in the report body."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1994,
+      "output_tokens": 1129,
+      "total_tokens": 3123,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14158
+    }
+  },
+  {
+    "qid": "Q26",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title matches a title from the legitimate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1586,
+      "output_tokens": 1018,
+      "total_tokens": 2604,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14764
+    }
+  },
+  {
+    "qid": "Q27",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, every bibliography entry is cited, and each bibliography title exactly matches a title in the legitimate candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2462,
+      "output_tokens": 747,
+      "total_tokens": 3209,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11921
+    }
+  },
+  {
+    "qid": "Q28",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations ([1]-[8]) have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title matches a candidate from the provided pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2117,
+      "output_tokens": 1173,
+      "total_tokens": 3290,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16220
+    }
+  },
+  {
+    "qid": "Q29",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All in-text citations correspond to a listed bibliography entry, all bibliography entries are cited, and every bibliography title matches a candidate paper title exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1628,
+      "output_tokens": 583,
+      "total_tokens": 2211,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 8041
+    }
+  },
+  {
+    "qid": "Q30",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have corresponding bibliography entries and vice versa, and all bibliography titles exactly match a candidate paper, with no anomalies detected."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1897,
+      "output_tokens": 1050,
+      "total_tokens": 2947,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13300
+    }
+  },
+  {
+    "qid": "Q31",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations ([1]-[8]) are present in the bibliography, all eight bibliography entries are cited in the body, and every bibliography title matches exactly with a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1799,
+      "output_tokens": 886,
+      "total_tokens": 2685,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11782
+    }
+  },
+  {
+    "qid": "Q32",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        4
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "参考文献条目[4]未在正文任何位置被引用，导致未关联条目。"
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2176,
+      "output_tokens": 1109,
+      "total_tokens": 3285,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15768
+    }
+  },
+  {
+    "qid": "Q33",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "参考文献[2]在正文中未被任何引用，存在未引用书目。"
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1716,
+      "output_tokens": 1175,
+      "total_tokens": 2891,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16034
+    }
+  },
+  {
+    "qid": "Q34",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [1] is never cited anywhere in the body, indicating an inconsistency in the report structure."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1661,
+      "output_tokens": 1426,
+      "total_tokens": 3087,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19644
+    }
+  },
+  {
+    "qid": "Q35",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every bibliography title matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1901,
+      "output_tokens": 723,
+      "total_tokens": 2624,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10336
+    }
+  },
+  {
+    "qid": "Q36",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every bibliography title exactly matches a candidate paper title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1894,
+      "output_tokens": 966,
+      "total_tokens": 2860,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13082
+    }
+  },
+  {
+    "qid": "Q37",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 3,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1,
+        2,
+        4
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries [1], [2], and [4] are never cited in the body, so the report is not fully consistent."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1880,
+      "output_tokens": 446,
+      "total_tokens": 2326,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 8816
+    }
+  },
+  {
+    "qid": "Q38",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All 8 inline citations are matched to the bibliography, every bibliography entry is cited, and every bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2489,
+      "output_tokens": 795,
+      "total_tokens": 3284,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11481
+    }
+  },
+  {
+    "qid": "Q39",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        3
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [3] is never cited in the body, violating citation completeness."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1781,
+      "output_tokens": 1374,
+      "total_tokens": 3155,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 20789
+    }
+  },
+  {
+    "qid": "Q40",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title matches a title in the candidate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1642,
+      "output_tokens": 1014,
+      "total_tokens": 2656,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16886
+    }
+  },
+  {
+    "qid": "Q41",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1,
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries 1 and 2 are never cited in the body, indicating unused references."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1797,
+      "output_tokens": 1271,
+      "total_tokens": 3068,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15979
+    }
+  },
+  {
+    "qid": "Q42",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [2] is never cited in the body, violating citation completeness."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1558,
+      "output_tokens": 800,
+      "total_tokens": 2358,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12275
+    }
+  },
+  {
+    "qid": "Q43",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Reference [2] (ChatGPT review) is never cited in the body, leaving an uncited bibliography entry."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1634,
+      "output_tokens": 909,
+      "total_tokens": 2543,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13543
+    }
+  },
+  {
+    "qid": "Q44",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography numbers are cited, and every bibliography title is clearly present in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1731,
+      "output_tokens": 857,
+      "total_tokens": 2588,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13124
+    }
+  },
+  {
+    "qid": "Q45",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries, every bibliography entry is cited, and all bibliography titles match legitimate candidate pool titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1654,
+      "output_tokens": 1069,
+      "total_tokens": 2723,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15072
+    }
+  },
+  {
+    "qid": "Q46",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations map to existing bibliography entries, all bibliography entries are cited, and every bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1708,
+      "output_tokens": 1148,
+      "total_tokens": 2856,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15015
+    }
+  },
+  {
+    "qid": "Q47",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography item is cited in the text, and all bibliography titles correspond exactly to titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2195,
+      "output_tokens": 1037,
+      "total_tokens": 3232,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15325
+    }
+  },
+  {
+    "qid": "Q48",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to a listed bibliography entry, every bibliography entry is cited in the text, and every bibliography title exactly matches an entry in the provided candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1502,
+      "output_tokens": 643,
+      "total_tokens": 2145,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9614
+    }
+  },
+  {
+    "qid": "Q49",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        5,
+        7
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "参考文献条目[5]和[7]在正文中从未被引用，违反了报告完整性要求。"
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1969,
+      "output_tokens": 758,
+      "total_tokens": 2727,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11806
+    }
+  },
+  {
+    "qid": "Q50",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations are matched by bibliography entries, every bibliography entry is cited in the body, and all bibliography titles clearly correspond to titles in the candidate pool without any discrepancies."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1605,
+      "output_tokens": 878,
+      "total_tokens": 2483,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12304
+    }
+  },
+  {
+    "qid": "Q51",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations [1]–[8] correspond exactly to the eight bibliography entries, every bibliography entry is cited at least once in the body, and each bibliography title matches a candidate pool title with no discrepancies."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2655,
+      "output_tokens": 388,
+      "total_tokens": 3043,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 7767
+    }
+  },
+  {
+    "qid": "Q52",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, every bibliography entry is cited, and all bibliography titles match the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1588,
+      "output_tokens": 781,
+      "total_tokens": 2369,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11024
+    }
+  },
+  {
+    "qid": "Q53",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited at least once, and every bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1963,
+      "output_tokens": 1142,
+      "total_tokens": 3105,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15459
+    }
+  },
+  {
+    "qid": "Q54",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations match bibliography entries, every bibliography entry is cited, and all titles align with the candidate pool without fabrication or mismatch."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1689,
+      "output_tokens": 883,
+      "total_tokens": 2572,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10876
+    }
+  },
+  {
+    "qid": "Q55",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations (1–8) are matched to the bibliography, every bibliography entry is cited in the body, and every bibliography title corresponds exactly to a candidate pool title, leaving no structural or authenticity issues."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1583,
+      "output_tokens": 772,
+      "total_tokens": 2355,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12177
+    }
+  },
+  {
+    "qid": "Q56",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography entry is cited in the body, and all bibliography titles exactly match candidate pool titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1951,
+      "output_tokens": 742,
+      "total_tokens": 2693,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10728
+    }
+  },
+  {
+    "qid": "Q57",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 3,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]-[8] have matching bibliography entries, all entries are cited, and each bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1921,
+      "output_tokens": 714,
+      "total_tokens": 2635,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11314
+    }
+  },
+  {
+    "qid": "Q58",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [2] is never cited in the report body, leaving an uncited reference."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1761,
+      "output_tokens": 855,
+      "total_tokens": 2616,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13324
+    }
+  },
+  {
+    "qid": "Q59",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers [1]–[8] have corresponding entries in the bibliography, every bibliography entry is cited in the body, and all titles exactly match titles from the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1340,
+      "output_tokens": 860,
+      "total_tokens": 2200,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11878
+    }
+  },
+  {
+    "qid": "Q60",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers map to existing bibliography entries, every bibliography entry is cited in the text, and all bibliography titles match the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1624,
+      "output_tokens": 1308,
+      "total_tokens": 2932,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16475
+    }
+  },
+  {
+    "qid": "Q61",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title matches a candidate paper exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2028,
+      "output_tokens": 864,
+      "total_tokens": 2892,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12713
+    }
+  },
+  {
+    "qid": "Q62",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations are present in the bibliography, every bibliography entry is cited in the body, and all bibliography titles exactly match the provided candidate pool titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1493,
+      "output_tokens": 970,
+      "total_tokens": 2463,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11913
+    }
+  },
+  {
+    "qid": "Q63",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries and all bibliography titles match the provided legitimate candidate pool, with no orphan, uncited, or mismatched references detected."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1759,
+      "output_tokens": 948,
+      "total_tokens": 2707,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13790
+    }
+  },
+  {
+    "qid": "Q64",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 3,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        4,
+        5,
+        6
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Three bibliography entries ([4], [5], [6]) are never cited inline, violating strict structural completeness."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1612,
+      "output_tokens": 838,
+      "total_tokens": 2450,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11186
+    }
+  },
+  {
+    "qid": "Q65",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "所有正文引用编号均存在于参考书目中，所有参考书目条目均在正文中被引用，且每一条目的标题都与候选论文池中的标题明确匹配，未发现任何引用结构问题。"
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2053,
+      "output_tokens": 1349,
+      "total_tokens": 3402,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18465
+    }
+  },
+  {
+    "qid": "Q66",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, every bibliography entry is cited, and every bibliography title matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1834,
+      "output_tokens": 1199,
+      "total_tokens": 3033,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14588
+    }
+  },
+  {
+    "qid": "Q67",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all entries are cited, and every bibliography title corresponds exactly to a candidate paper title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1817,
+      "output_tokens": 853,
+      "total_tokens": 2670,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12340
+    }
+  },
+  {
+    "qid": "Q68",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations refer to existing bibliography entries, every bibliography entry is cited in the text, and all bibliography titles unambiguously match the provided candidate paper titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1950,
+      "output_tokens": 1194,
+      "total_tokens": 3144,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15744
+    }
+  },
+  {
+    "qid": "Q69",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have matching bibliography entries, every bibliography entry is cited in the text, and all bibliography titles clearly correspond to titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1835,
+      "output_tokens": 970,
+      "total_tokens": 2805,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14319
+    }
+  },
+  {
+    "qid": "Q70",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have matching bibliography entries, all bibliography entries are cited in the body, and every bibliography title clearly corresponds to a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1630,
+      "output_tokens": 666,
+      "total_tokens": 2296,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9988
+    }
+  },
+  {
+    "qid": "Q71",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have corresponding bibliography entries, every bibliography entry is cited in the body, and each bibliography title matches a candidate paper title without mismatch."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2140,
+      "output_tokens": 1541,
+      "total_tokens": 3681,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19836
+    }
+  },
+  {
+    "qid": "Q72",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to listed bibliography entries, every bibliography entry is cited in the text, and all bibliography titles match the provided candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1473,
+      "output_tokens": 928,
+      "total_tokens": 2401,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13038
+    }
+  },
+  {
+    "qid": "Q73",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations correspond exactly to the eight bibliography entries and each bibliography entry is cited in the body; all bibliography titles match titles from the candidate pool exactly, so no structural problems exist."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1730,
+      "output_tokens": 146,
+      "total_tokens": 1876,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 3977
+    }
+  },
+  {
+    "qid": "Q74",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations reference existing bibliography entries, every bibliography entry is cited, and each bibliography title exactly matches a candidate pool title, with no anomalies detected."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1985,
+      "output_tokens": 1352,
+      "total_tokens": 3337,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17621
+    }
+  },
+  {
+    "qid": "Q75",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations are correctly matched to the bibliography, every entry is cited, and each bibliography title perfectly corresponds to a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1964,
+      "output_tokens": 1617,
+      "total_tokens": 3581,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19100
+    }
+  },
+  {
+    "qid": "Q76",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight in-text citations correspond to existing bibliography entries, all bibliography entries are cited, and each bibliography title matches a candidate pool title without discrepancies."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2222,
+      "output_tokens": 1084,
+      "total_tokens": 3306,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13697
+    }
+  },
+  {
+    "qid": "Q77",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title matches a candidate paper title without discrepancy."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1792,
+      "output_tokens": 1015,
+      "total_tokens": 2807,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14603
+    }
+  },
+  {
+    "qid": "Q78",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all entries are cited, and all bibliography titles match candidate pool titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1661,
+      "output_tokens": 1270,
+      "total_tokens": 2931,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14511
+    }
+  },
+  {
+    "qid": "Q79",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have corresponding bibliography entries, every bibliography entry is cited in the text, and all bibliography titles match exactly with the candidate paper titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1681,
+      "output_tokens": 701,
+      "total_tokens": 2382,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11553
+    }
+  },
+  {
+    "qid": "Q80",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]-[8] have matching bibliography entries and all bibliography entries are cited, with all titles clearly corresponding to the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1983,
+      "output_tokens": 757,
+      "total_tokens": 2740,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11086
+    }
+  },
+  {
+    "qid": "Q81",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        4
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [4] is never cited in the report body, while all other citations and entries are consistent. No fabricated or mismatched titles were found."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2108,
+      "output_tokens": 1114,
+      "total_tokens": 3222,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16434
+    }
+  },
+  {
+    "qid": "Q82",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every reference title exactly matches a candidate paper in the provided pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2413,
+      "output_tokens": 1096,
+      "total_tokens": 3509,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15441
+    }
+  },
+  {
+    "qid": "Q83",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every bibliography title corresponds exactly to a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1996,
+      "output_tokens": 969,
+      "total_tokens": 2965,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12317
+    }
+  },
+  {
+    "qid": "Q84",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries, all bibliography entries are cited in the text, and every bibliography title exactly matches a title from the candidate paper pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2085,
+      "output_tokens": 1158,
+      "total_tokens": 3243,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15610
+    }
+  },
+  {
+    "qid": "Q85",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [2] is never cited anywhere in the body."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2021,
+      "output_tokens": 1460,
+      "total_tokens": 3481,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19206
+    }
+  },
+  {
+    "qid": "Q86",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have matching entries in the bibliography, every bibliography entry is cited in the text, and each title corresponds to one of the provided candidate papers."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2007,
+      "output_tokens": 580,
+      "total_tokens": 2587,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9074
+    }
+  },
+  {
+    "qid": "Q87",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have corresponding bibliography entries and are cited; every bibliography title exactly matches a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1716,
+      "output_tokens": 977,
+      "total_tokens": 2693,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13505
+    }
+  },
+  {
+    "qid": "Q88",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries, all bibliography entries are cited, and all bibliography titles exactly match titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1816,
+      "output_tokens": 919,
+      "total_tokens": 2735,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12285
+    }
+  },
+  {
+    "qid": "Q89",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers [1]–[8] have corresponding entries in the bibliography, all bibliography entries are cited in the text, and every bibliography title unambiguously matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1453,
+      "output_tokens": 1461,
+      "total_tokens": 2914,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18890
+    }
+  },
+  {
+    "qid": "Q90",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 4,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations correspond to bibliography entries, every bibliography entry is cited, and every bibliography title exactly matches a candidate title from the legitimate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1527,
+      "output_tokens": 450,
+      "total_tokens": 1977,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 6820
+    }
+  },
+  {
+    "qid": "Q91",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all entries are cited, and all bibliography titles correspond exactly to the candidate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1649,
+      "output_tokens": 801,
+      "total_tokens": 2450,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10550
+    }
+  },
+  {
+    "qid": "Q92",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations correspond to bibliography entries and all bibliography titles exactly match titles in the candidate pool, with no orphans, uncited entries, or fabrication mismatches."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1610,
+      "output_tokens": 953,
+      "total_tokens": 2563,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12626
+    }
+  },
+  {
+    "qid": "Q93",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All citations (1-8) are used in the body, every bibliography entry is cited, and each bibliography title exactly matches a candidate title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2127,
+      "output_tokens": 1106,
+      "total_tokens": 3233,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15383
+    }
+  },
+  {
+    "qid": "Q94",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography entry is cited in the text, and all bibliography titles exactly correspond to entries in the provided candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2104,
+      "output_tokens": 969,
+      "total_tokens": 3073,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13256
+    }
+  },
+  {
+    "qid": "Q95",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography items are cited in the body, and every bibliography title clearly matches a candidate paper title from the legitimate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1590,
+      "output_tokens": 621,
+      "total_tokens": 2211,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10895
+    }
+  },
+  {
+    "qid": "Q96",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have matching bibliography entries that are fully cited, and every bibliography entry's title exactly matches a candidate title in the provided legitimate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1914,
+      "output_tokens": 1216,
+      "total_tokens": 3130,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16710
+    }
+  },
+  {
+    "qid": "Q97",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        8
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [8] is never cited in the report body, indicating an uncited reference."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1689,
+      "output_tokens": 1053,
+      "total_tokens": 2742,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15768
+    }
+  },
+  {
+    "qid": "Q98",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        7,
+        8
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "参考文献 [7] 和 [8] 在正文中从未被引用，违反了完整的引用覆盖要求。"
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2255,
+      "output_tokens": 1058,
+      "total_tokens": 3313,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15928
+    }
+  },
+  {
+    "qid": "Q99",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries, all bibliography entries are cited in the body, and every bibliography title exactly matches a candidate title from the provided pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2124,
+      "output_tokens": 814,
+      "total_tokens": 2938,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11636
+    }
+  },
+  {
+    "qid": "Q100",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have matching bibliography entries, every bibliography entry is cited in the text, and all bibliography titles match exactly with the candidate paper titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1590,
+      "output_tokens": 1276,
+      "total_tokens": 2866,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17967
+    }
+  },
+  {
+    "qid": "Q101",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1841,
+      "output_tokens": 1313,
+      "total_tokens": 3154,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17654
+    }
+  },
+  {
+    "qid": "Q102",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title clearly matches a candidate paper from the provided pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1853,
+      "output_tokens": 1141,
+      "total_tokens": 2994,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17328
+    }
+  },
+  {
+    "qid": "Q103",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] are present in the bibliography, every bibliography entry is cited in the text, and every listed title exactly matches a candidate title from the legitimate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1611,
+      "output_tokens": 579,
+      "total_tokens": 2190,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10568
+    }
+  },
+  {
+    "qid": "Q104",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography item is cited in the text, and all bibliography titles exactly match the provided candidate papers."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1796,
+      "output_tokens": 915,
+      "total_tokens": 2711,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12996
+    }
+  },
+  {
+    "qid": "Q105",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 5,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations map to bibliography entries, all entries are cited, and every bibliography title exactly matches a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1699,
+      "output_tokens": 943,
+      "total_tokens": 2642,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15107
+    }
+  },
+  {
+    "qid": "Q106",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "所有文中引用编号均在参考文献列表中对应，所有参考文献均被正文引用，且每条文献标题与候选池中的合法证据完全匹配，未发现伪造或错配。"
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1709,
+      "output_tokens": 1042,
+      "total_tokens": 2751,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16288
+    }
+  },
+  {
+    "qid": "Q107",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, every bibliography entry is cited in the body, and all listed titles exactly match candidate pool titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1751,
+      "output_tokens": 908,
+      "total_tokens": 2659,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13119
+    }
+  },
+  {
+    "qid": "Q108",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography entry is cited at least once, and all titles clearly correspond to papers in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1888,
+      "output_tokens": 1340,
+      "total_tokens": 3228,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18592
+    }
+  },
+  {
+    "qid": "Q109",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries, every bibliography entry is cited, and all titles match those in the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2043,
+      "output_tokens": 1584,
+      "total_tokens": 3627,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 24490
+    }
+  },
+  {
+    "qid": "Q110",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1805,
+      "output_tokens": 767,
+      "total_tokens": 2572,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12679
+    }
+  },
+  {
+    "qid": "Q111",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have corresponding bibliography entries, all bibliography entries are cited in the body, and every bibliography title matches a candidate pool title exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2590,
+      "output_tokens": 965,
+      "total_tokens": 3555,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15582
+    }
+  },
+  {
+    "qid": "Q112",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        4
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [4] is never cited in the body despite being listed, violating citation completeness."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1957,
+      "output_tokens": 1935,
+      "total_tokens": 3892,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 28025
+    }
+  },
+  {
+    "qid": "Q113",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        3,
+        6
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries [3] and [6] are never cited in the report body, while all cited numbers match bibliography entries and all titles correspond to the candidate pool."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2065,
+      "output_tokens": 2121,
+      "total_tokens": 4186,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 26848
+    }
+  },
+  {
+    "qid": "Q114",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries, every bibliography entry is cited in the text, and every bibliography title matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2315,
+      "output_tokens": 1323,
+      "total_tokens": 3638,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 20904
+    }
+  },
+  {
+    "qid": "Q115",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        3,
+        5
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries [3] and [5] are never cited in the body, violating citation completeness."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1560,
+      "output_tokens": 1606,
+      "total_tokens": 3166,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19889
+    }
+  },
+  {
+    "qid": "Q116",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have matching bibliography entries and all bibliography entries are cited; every bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2388,
+      "output_tokens": 631,
+      "total_tokens": 3019,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10020
+    }
+  },
+  {
+    "qid": "Q117",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        7,
+        8
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "The bibliography contains entries [7] and [8] that are never cited in the body, violating a clean citation structure."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1931,
+      "output_tokens": 832,
+      "total_tokens": 2763,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14851
+    }
+  },
+  {
+    "qid": "Q118",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 3,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have matching bibliography entries, every bibliography entry is cited at least once in the body (including the range [1]-[7] covering entries 1–7), and all eight bibliography titles exactly match the provided candidate pool titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2019,
+      "output_tokens": 1211,
+      "total_tokens": 3230,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18449
+    }
+  },
+  {
+    "qid": "Q119",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries, every bibliography entry is cited in the body, and all bibliography titles match titles in the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2297,
+      "output_tokens": 744,
+      "total_tokens": 3041,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12469
+    }
+  },
+  {
+    "qid": "Q120",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title matches a title in the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2285,
+      "output_tokens": 196,
+      "total_tokens": 2481,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 5467
+    }
+  },
+  {
+    "qid": "Q121",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        5
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "参考文献[5]在正文中仅作为证据集范围被提及，但从未在具体分析或论述中被引用，构成未引用文献。"
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2105,
+      "output_tokens": 1518,
+      "total_tokens": 3623,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 26250
+    }
+  },
+  {
+    "qid": "Q122",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited, and all titles clearly match the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1855,
+      "output_tokens": 1030,
+      "total_tokens": 2885,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14166
+    }
+  },
+  {
+    "qid": "Q123",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2524,
+      "output_tokens": 1212,
+      "total_tokens": 3736,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19313
+    }
+  },
+  {
+    "qid": "Q124",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All in-text citations correspond to existing bibliography entries, all bibliography entries are cited in the text, and every bibliography title clearly matches a candidate title from the pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1922,
+      "output_tokens": 1180,
+      "total_tokens": 3102,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16500
+    }
+  },
+  {
+    "qid": "Q125",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations refer to existing bibliography entries, every bibliography entry is cited at least once via range citations, and all bibliography titles clearly match the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1796,
+      "output_tokens": 1173,
+      "total_tokens": 2969,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16879
+    }
+  },
+  {
+    "qid": "Q126",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have matching bibliography entries, every bibliography entry is cited in the body, and each entry's title clearly corresponds to a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2319,
+      "output_tokens": 794,
+      "total_tokens": 3113,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12507
+    }
+  },
+  {
+    "qid": "Q127",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations correspond to a matching bibliography entry, every bibliography entry is cited at least once, and all titles accurately match the provided candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2082,
+      "output_tokens": 1658,
+      "total_tokens": 3740,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 24020
+    }
+  },
+  {
+    "qid": "Q128",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        3
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Reference [3] is listed in the bibliography but never cited in the body text, making it an uncited entry."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1921,
+      "output_tokens": 1539,
+      "total_tokens": 3460,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 23860
+    }
+  },
+  {
+    "qid": "Q129",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All citations are matched, all bibliography entries are cited, and all titles correspond exactly to candidate pool titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1898,
+      "output_tokens": 706,
+      "total_tokens": 2604,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11268
+    }
+  },
+  {
+    "qid": "Q130",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have matching bibliography entries, all bibliography entries are cited in the body, and every bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1965,
+      "output_tokens": 436,
+      "total_tokens": 2401,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 8477
+    }
+  },
+  {
+    "qid": "Q131",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]-[8] have corresponding bibliography entries and all bibliography entries are cited; every bibliography title clearly matches a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2283,
+      "output_tokens": 1079,
+      "total_tokens": 3362,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15050
+    }
+  },
+  {
+    "qid": "Q132",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers correspond to existing bibliography entries, all bibliography entries are cited, and all bibliography titles match entries in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1909,
+      "output_tokens": 671,
+      "total_tokens": 2580,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12086
+    }
+  },
+  {
+    "qid": "Q133",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to a bibliography entry, every bibliography entry is cited, and all bibliography titles clearly match a candidate title from the pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1891,
+      "output_tokens": 1381,
+      "total_tokens": 3272,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19562
+    }
+  },
+  {
+    "qid": "Q134",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations correspond to listed bibliography entries, every bibliography entry is cited, and all titles exactly match legitimate candidate paper titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1879,
+      "output_tokens": 1014,
+      "total_tokens": 2893,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15400
+    }
+  },
+  {
+    "qid": "Q135",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        8
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "参考文献条目[8]在正文中从未被引用，存在未引用文献，不符合完全无问题的RELEASE条件。"
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2507,
+      "output_tokens": 573,
+      "total_tokens": 3080,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10901
+    }
+  },
+  {
+    "qid": "Q136",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 3,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1,
+        2,
+        3
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries [1], [2], and [3] are never cited in the report body."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2296,
+      "output_tokens": 1023,
+      "total_tokens": 3319,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19077
+    }
+  },
+  {
+    "qid": "Q137",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1,
+        7
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries [1] and [7] are never cited in the report body, indicating unused sources that must be removed or cited."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2309,
+      "output_tokens": 1307,
+      "total_tokens": 3616,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18450
+    }
+  },
+  {
+    "qid": "Q138",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have matching bibliography entries, all bibliography entries are cited in the body, and every bibliography title matches a legitimate candidate title exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2598,
+      "output_tokens": 761,
+      "total_tokens": 3359,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13761
+    }
+  },
+  {
+    "qid": "Q139",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations correspond to the eight bibliography entries, each bibliography entry is cited at least once in the body, and every bibliography title matches exactly a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1825,
+      "output_tokens": 538,
+      "total_tokens": 2363,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10392
+    }
+  },
+  {
+    "qid": "Q140",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] map to corresponding bibliography entries, all bibliography entries are cited, and every bibliography title exactly matches a candidate paper title from the provided pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1770,
+      "output_tokens": 1107,
+      "total_tokens": 2877,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16600
+    }
+  },
+  {
+    "qid": "Q141",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, every bibliography entry is cited in the body, and all bibliography titles exactly match titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2071,
+      "output_tokens": 1345,
+      "total_tokens": 3416,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17753
+    }
+  },
+  {
+    "qid": "Q142",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All bibliography entries match candidate titles and all inline citation numbers correspond to existing entries, with no orphan or uncited references found."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1596,
+      "output_tokens": 1183,
+      "total_tokens": 2779,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16499
+    }
+  },
+  {
+    "qid": "Q143",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries, every bibliography entry is cited in the text, and all bibliography titles exactly match titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2235,
+      "output_tokens": 910,
+      "total_tokens": 3145,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14034
+    }
+  },
+  {
+    "qid": "Q144",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations match existing bibliography entries, every bibliography entry is cited in the body, and all bibliography titles are clearly present in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2197,
+      "output_tokens": 1406,
+      "total_tokens": 3603,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19772
+    }
+  },
+  {
+    "qid": "Q145",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers [1]–[8] appear in the bibliography, every bibliography entry is cited in the text, and every bibliography title exactly matches a title in the provided candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2502,
+      "output_tokens": 529,
+      "total_tokens": 3031,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9338
+    }
+  },
+  {
+    "qid": "Q146",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have corresponding bibliography entries, every bibliography entry is cited in the body, and all bibliography titles exactly match titles from the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2042,
+      "output_tokens": 822,
+      "total_tokens": 2864,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13407
+    }
+  },
+  {
+    "qid": "Q147",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have matching bibliography entries, every bibliography entry is cited at least once, and all bibliography titles clearly match the provided candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2141,
+      "output_tokens": 872,
+      "total_tokens": 3013,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13959
+    }
+  },
+  {
+    "qid": "Q148",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 5,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "References [2,4,5,6,7] appear in the bibliography but are never cited in the body, leaving them orphaned and breaking citation integrity."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2200,
+      "output_tokens": 1367,
+      "total_tokens": 3567,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18588
+    }
+  },
+  {
+    "qid": "Q149",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 3,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography entry is cited in the body, and each bibliography title precisely corresponds to a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1871,
+      "output_tokens": 924,
+      "total_tokens": 2795,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13323
+    }
+  },
+  {
+    "qid": "Q150",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries and all bibliography titles exactly match legitimate candidate papers; every bibliography entry is cited in the body."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1941,
+      "output_tokens": 643,
+      "total_tokens": 2584,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11188
+    }
+  },
+  {
+    "qid": "Q151",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to a bibliography entry, every bibliography entry is cited in the text, and every bibliography title matches a title in the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2139,
+      "output_tokens": 982,
+      "total_tokens": 3121,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14502
+    }
+  },
+  {
+    "qid": "Q152",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] are present in the bibliography, every bibliography entry is cited in the body, and all bibliography titles exactly match the given candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2554,
+      "output_tokens": 851,
+      "total_tokens": 3405,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13973
+    }
+  },
+  {
+    "qid": "Q153",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations correspond to bibliography entries, all bibliography entries are cited in the body, and every bibliography title exactly matches a candidate title from the legitimate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2146,
+      "output_tokens": 509,
+      "total_tokens": 2655,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9019
+    }
+  },
+  {
+    "qid": "Q154",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations map to bibliography entries, all bibliography entries are cited, and every bibliography title matches a candidate paper exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1686,
+      "output_tokens": 688,
+      "total_tokens": 2374,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10627
+    }
+  },
+  {
+    "qid": "Q155",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations appear in the bibliography, the range [1]–[8] cites every entry so no bibliography item is uncited, and every bibliography title exactly matches a title from the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1747,
+      "output_tokens": 1283,
+      "total_tokens": 3030,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 21632
+    }
+  },
+  {
+    "qid": "Q156",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]-[8] match a corresponding bibliography entry, every bibliography entry is cited in the text, and all bibliography titles match the provided candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1965,
+      "output_tokens": 187,
+      "total_tokens": 2152,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 5499
+    }
+  },
+  {
+    "qid": "Q157",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every bibliography title exactly matches a candidate pool title without any discrepancies."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2182,
+      "output_tokens": 1268,
+      "total_tokens": 3450,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17299
+    }
+  },
+  {
+    "qid": "Q158",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations match existing bibliography entries, every bibliography entry is cited in the body, and every bibliography title clearly corresponds to a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1604,
+      "output_tokens": 964,
+      "total_tokens": 2568,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14279
+    }
+  },
+  {
+    "qid": "Q159",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited, and all titles match the provided candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2129,
+      "output_tokens": 1288,
+      "total_tokens": 3417,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17714
+    }
+  },
+  {
+    "qid": "Q160",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited in the body, and every bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2457,
+      "output_tokens": 939,
+      "total_tokens": 3396,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13104
+    }
+  },
+  {
+    "qid": "Q161",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have matching bibliography entries, every bibliography entry is cited at least once, and all titles exactly match candidate pool entries."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2036,
+      "output_tokens": 247,
+      "total_tokens": 2283,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 6877
+    }
+  },
+  {
+    "qid": "Q162",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited in the text, and every bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1819,
+      "output_tokens": 933,
+      "total_tokens": 2752,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13295
+    }
+  },
+  {
+    "qid": "Q163",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers correspond to entries in the bibliography, every bibliography entry is cited in the body, and all bibliography titles clearly match the provided candidate pool titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1782,
+      "output_tokens": 1060,
+      "total_tokens": 2842,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14438
+    }
+  },
+  {
+    "qid": "Q164",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries, all bibliography entries are cited in the body, and every bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1777,
+      "output_tokens": 1075,
+      "total_tokens": 2852,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14989
+    }
+  },
+  {
+    "qid": "Q165",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 4,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1,
+        2,
+        3,
+        8
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries [1,2,3,8] are never cited in the report body, violating citation completeness."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1827,
+      "output_tokens": 1263,
+      "total_tokens": 3090,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17661
+    }
+  },
+  {
+    "qid": "Q166",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations are present in the bibliography, all bibliography entries are cited, and every bibliography title clearly matches a title from the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2210,
+      "output_tokens": 1041,
+      "total_tokens": 3251,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16354
+    }
+  },
+  {
+    "qid": "Q167",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations are present in the bibliography, all bibliography entries are cited in the body, and every bibliography title clearly matches a provided candidate paper title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2227,
+      "output_tokens": 1764,
+      "total_tokens": 3991,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 22410
+    }
+  },
+  {
+    "qid": "Q168",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography entry is cited, and each bibliography title matches a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1686,
+      "output_tokens": 730,
+      "total_tokens": 2416,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11153
+    }
+  },
+  {
+    "qid": "Q169",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every bibliography title clearly corresponds to a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2510,
+      "output_tokens": 881,
+      "total_tokens": 3391,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13723
+    }
+  },
+  {
+    "qid": "Q170",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        7
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [7] is never cited in the report body, which violates structural completeness."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1392,
+      "output_tokens": 617,
+      "total_tokens": 2009,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10261
+    }
+  },
+  {
+    "qid": "Q171",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        3
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [3] is not cited anywhere in the body, indicating an uncited reference."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1821,
+      "output_tokens": 1305,
+      "total_tokens": 3126,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19000
+    }
+  },
+  {
+    "qid": "Q172",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2,
+        3
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries [2] and [3] are never cited in the body, violating citation completeness."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1448,
+      "output_tokens": 1000,
+      "total_tokens": 2448,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15219
+    }
+  },
+  {
+    "qid": "Q173",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have corresponding bibliography entries, every bibliography entry is cited in the body, and each bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2022,
+      "output_tokens": 1141,
+      "total_tokens": 3163,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16104
+    }
+  },
+  {
+    "qid": "Q174",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Reference [1] is present in the bibliography but never cited in the body, while all other citations and titles correctly match the candidate pool."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2383,
+      "output_tokens": 1509,
+      "total_tokens": 3892,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 22737
+    }
+  },
+  {
+    "qid": "Q175",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] correspond to entries in the bibliography, every bibliography entry is cited, and each bibliography title matches a title in the legitimate candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1591,
+      "output_tokens": 1019,
+      "total_tokens": 2610,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14880
+    }
+  },
+  {
+    "qid": "Q176",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations [1]–[8] have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title clearly matches a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2054,
+      "output_tokens": 775,
+      "total_tokens": 2829,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13453
+    }
+  },
+  {
+    "qid": "Q177",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight in-text citations have corresponding bibliography entries, every bibliography entry is cited in the text, and all titles match entries in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1659,
+      "output_tokens": 1225,
+      "total_tokens": 2884,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17695
+    }
+  },
+  {
+    "qid": "Q178",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        5,
+        6
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries [5] and [6] are never cited in the report body."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1882,
+      "output_tokens": 1263,
+      "total_tokens": 3145,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17792
+    }
+  },
+  {
+    "qid": "Q179",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited in the text, and every bibliography title matches a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2439,
+      "output_tokens": 990,
+      "total_tokens": 3429,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13800
+    }
+  },
+  {
+    "qid": "Q180",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title clearly matches a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2024,
+      "output_tokens": 1494,
+      "total_tokens": 3518,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 22274
+    }
+  },
+  {
+    "qid": "Q181",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers have corresponding bibliography entries and all bibliography entries are cited in the body; every bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1941,
+      "output_tokens": 1071,
+      "total_tokens": 3012,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15499
+    }
+  },
+  {
+    "qid": "Q182",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        6
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [6] is never cited in the report body, indicating an unused reference."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2096,
+      "output_tokens": 1194,
+      "total_tokens": 3290,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17258
+    }
+  },
+  {
+    "qid": "Q183",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries, every bibliography entry is cited, and all listed titles exactly match the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2340,
+      "output_tokens": 1850,
+      "total_tokens": 4190,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 32082
+    }
+  },
+  {
+    "qid": "Q184",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [1] is never cited in the report body, violating citation completeness."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2289,
+      "output_tokens": 812,
+      "total_tokens": 3101,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12168
+    }
+  },
+  {
+    "qid": "Q185",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited, and all titles match the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2231,
+      "output_tokens": 771,
+      "total_tokens": 3002,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11009
+    }
+  },
+  {
+    "qid": "Q186",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every entry's title clearly corresponds to a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1755,
+      "output_tokens": 1517,
+      "total_tokens": 3272,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 21047
+    }
+  },
+  {
+    "qid": "Q187",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1705,
+      "output_tokens": 996,
+      "total_tokens": 2701,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14578
+    }
+  },
+  {
+    "qid": "Q188",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations match bibliography entries, every bibliography entry is cited, and each bibliography title clearly corresponds to a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1780,
+      "output_tokens": 1003,
+      "total_tokens": 2783,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13546
+    }
+  },
+  {
+    "qid": "Q189",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to a bibliography entry, all bibliography entries are cited, and every title clearly matches a candidate paper from the pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1706,
+      "output_tokens": 1253,
+      "total_tokens": 2959,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17398
+    }
+  },
+  {
+    "qid": "Q190",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have matching bibliography entries, every bibliography entry is cited in the body, and all bibliography titles clearly correspond to candidate pool titles without any discrepancies."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2350,
+      "output_tokens": 1299,
+      "total_tokens": 3649,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18878
+    }
+  },
+  {
+    "qid": "Q191",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight in-text citations appear in the bibliography, all eight bibliography entries are cited, and every bibliography title matches a legitimate candidate paper from the provided pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2223,
+      "output_tokens": 1370,
+      "total_tokens": 3593,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19728
+    }
+  },
+  {
+    "qid": "Q192",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations map to existing bibliography entries, every bibliography entry is cited in the text, and all bibliography titles exactly match titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2196,
+      "output_tokens": 1349,
+      "total_tokens": 3545,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18005
+    }
+  },
+  {
+    "qid": "Q193",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have corresponding bibliography entries, all bibliography entries are cited, and every entry's title matches exactly a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2046,
+      "output_tokens": 906,
+      "total_tokens": 2952,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13177
+    }
+  },
+  {
+    "qid": "Q194",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations map to numbered bibliography entries, all bibliography entries are cited in the text, and every bibliography title matches a legitimate candidate title exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2175,
+      "output_tokens": 2099,
+      "total_tokens": 4274,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 29070
+    }
+  },
+  {
+    "qid": "Q195",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, every bibliography entry is cited in the body, and each bibliography title exactly matches a candidate paper title, indicating no citation structure issues."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1995,
+      "output_tokens": 1013,
+      "total_tokens": 3008,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14630
+    }
+  },
+  {
+    "qid": "Q196",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        7
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [7] is never cited in the body text."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1890,
+      "output_tokens": 891,
+      "total_tokens": 2781,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13069
+    }
+  },
+  {
+    "qid": "Q197",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all entries are cited, and every bibliography title matches a candidate paper title in the pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1808,
+      "output_tokens": 768,
+      "total_tokens": 2576,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13811
+    }
+  },
+  {
+    "qid": "Q198",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] correspond to existing bibliography entries, every bibliography entry is cited in the text, and each bibliography title matches a title in the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1975,
+      "output_tokens": 772,
+      "total_tokens": 2747,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10796
+    }
+  },
+  {
+    "qid": "Q199",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited in the text, and every bibliography title exactly matches a title in the legitimate candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2249,
+      "output_tokens": 953,
+      "total_tokens": 3202,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15016
+    }
+  },
+  {
+    "qid": "Q200",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to a bibliography entry, all bibliography entries are cited, and every bibliography title exactly matches a candidate paper title from the legitimate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1894,
+      "output_tokens": 641,
+      "total_tokens": 2535,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10886
+    }
+  },
+  {
+    "qid": "Q201",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to entries in the bibliography, every bibliography entry is cited in the body, and all bibliography titles match a title in the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2036,
+      "output_tokens": 433,
+      "total_tokens": 2469,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9573
+    }
+  },
+  {
+    "qid": "Q202",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [2] is never cited in the body text, causing an uncited bibliography number."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1699,
+      "output_tokens": 1711,
+      "total_tokens": 3410,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 21576
+    }
+  },
+  {
+    "qid": "Q203",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have matching bibliography entries, every bibliography entry is cited at least once, and all bibliography titles clearly correspond to titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2130,
+      "output_tokens": 1439,
+      "total_tokens": 3569,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19741
+    }
+  },
+  {
+    "qid": "Q204",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]-[8] have matching bibliography entries, all bibliography entries are cited in the text, and every bibliography title corresponds exactly to a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1868,
+      "output_tokens": 1273,
+      "total_tokens": 3141,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17209
+    }
+  },
+  {
+    "qid": "Q205",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have a matching bibliography entry, all bibliography entries are cited, and every bibliography title exactly matches a title from the candidate pool, indicating no structural citation issues."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1793,
+      "output_tokens": 860,
+      "total_tokens": 2653,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13134
+    }
+  },
+  {
+    "qid": "Q206",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] are present in the bibliography, every bibliography entry is cited at least once in the body, and each bibliography title matches exactly a title in the provided candidate paper pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1943,
+      "output_tokens": 1327,
+      "total_tokens": 3270,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19336
+    }
+  },
+  {
+    "qid": "Q207",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have matching bibliography entries, all bibliography entries are cited, and every bibliography title exactly matches a candidate paper title from the pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2015,
+      "output_tokens": 223,
+      "total_tokens": 2238,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 6261
+    }
+  },
+  {
+    "qid": "Q208",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        6
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [6] is never cited anywhere in the report body, leaving it as an uncited entry."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2109,
+      "output_tokens": 1419,
+      "total_tokens": 3528,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18366
+    }
+  },
+  {
+    "qid": "Q209",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries and all bibliography entries are cited; every bibliography title matches a candidate title from the provided pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1860,
+      "output_tokens": 1022,
+      "total_tokens": 2882,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14176
+    }
+  },
+  {
+    "qid": "Q210",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        4
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [4] is never cited in the report body, leaving an unreferenced source."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2009,
+      "output_tokens": 1413,
+      "total_tokens": 3422,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19380
+    }
+  },
+  {
+    "qid": "Q211",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every bibliography title matches a candidate title exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2164,
+      "output_tokens": 754,
+      "total_tokens": 2918,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10387
+    }
+  },
+  {
+    "qid": "Q212",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries, all entries are cited, and every bibliography title matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1875,
+      "output_tokens": 603,
+      "total_tokens": 2478,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10037
+    }
+  },
+  {
+    "qid": "Q213",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to existing bibliography entries, every bibliography entry is cited in the body, and each bibliography title matches a candidate paper title exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1562,
+      "output_tokens": 949,
+      "total_tokens": 2511,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14196
+    }
+  },
+  {
+    "qid": "Q214",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations refer to bibliography entries that exist, every bibliography entry is cited at least once in the text, and all bibliography titles are identical to titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2049,
+      "output_tokens": 1196,
+      "total_tokens": 3245,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18240
+    }
+  },
+  {
+    "qid": "Q215",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 5,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries 1, 2, 3, 5, and 8 are never cited in the body, representing unused sources that disrupt structural integrity."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1787,
+      "output_tokens": 665,
+      "total_tokens": 2452,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10954
+    }
+  },
+  {
+    "qid": "Q216",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citation numbers [1]–[8] correspond exactly to bibliography entries, every bibliography entry is cited in the body, and each bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2331,
+      "output_tokens": 738,
+      "total_tokens": 3069,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11336
+    }
+  },
+  {
+    "qid": "Q217",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations match bibliography entries, all bibliography entries are cited in the body, and every bibliography title matches a candidate pool title exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1587,
+      "output_tokens": 822,
+      "total_tokens": 2409,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10728
+    }
+  },
+  {
+    "qid": "Q218",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        7,
+        8
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries 7 and 8 are never cited in the report body."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 1784,
+      "output_tokens": 1366,
+      "total_tokens": 3150,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18522
+    }
+  },
+  {
+    "qid": "Q219",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography entry is cited in the text, and all bibliography titles clearly correspond to titles in the given candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1876,
+      "output_tokens": 1283,
+      "total_tokens": 3159,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17391
+    }
+  },
+  {
+    "qid": "Q220",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations map to existing bibliography entries, every bibliography entry is cited in the text, and each bibliography title matches a title from the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1917,
+      "output_tokens": 587,
+      "total_tokens": 2504,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9765
+    }
+  },
+  {
+    "qid": "Q221",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations match corresponding bibliography entries with identical titles from the candidate pool, and every bibliography entry is cited, leaving no structural anomalies."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2058,
+      "output_tokens": 504,
+      "total_tokens": 2562,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10406
+    }
+  },
+  {
+    "qid": "Q222",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All in-text citations correspond to existing bibliography entries, all bibliography entries are cited, and every bibliography title matches a candidate paper title from the legitimate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2146,
+      "output_tokens": 1017,
+      "total_tokens": 3163,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15127
+    }
+  },
+  {
+    "qid": "Q223",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight in-text citations [1]–[8] have corresponding bibliography entries, every bibliography entry is cited, and each bibliography title exactly matches a title in the candidate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1639,
+      "output_tokens": 1503,
+      "total_tokens": 3142,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 21162
+    }
+  },
+  {
+    "qid": "Q224",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have matching entries in the bibliography, all bibliography entries are cited in the text, and every bibliography title clearly corresponds to a candidate paper title from the pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2267,
+      "output_tokens": 877,
+      "total_tokens": 3144,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14773
+    }
+  },
+  {
+    "qid": "Q225",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "No structural issues: every inline citation has a matching bibliography entry, every bibliography entry is cited, and all bibliography titles exactly match the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1618,
+      "output_tokens": 776,
+      "total_tokens": 2394,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11459
+    }
+  },
+  {
+    "qid": "Q226",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited in the body, and each bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1584,
+      "output_tokens": 1228,
+      "total_tokens": 2812,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16433
+    }
+  },
+  {
+    "qid": "Q227",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight bibliography entries are cited in the body, all inline citation numbers correspond to existing entries, and all titles exactly match the candidate pool, indicating no structural or fabrication issues."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1629,
+      "output_tokens": 1119,
+      "total_tokens": 2748,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14952
+    }
+  },
+  {
+    "qid": "Q228",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries, every bibliography entry is cited in the body, and all bibliography titles match the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2104,
+      "output_tokens": 1350,
+      "total_tokens": 3454,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18060
+    }
+  },
+  {
+    "qid": "Q229",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline numbers have matching bibliography entries, all bibliography entries are cited, and every bibliography title exactly matches a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1752,
+      "output_tokens": 1270,
+      "total_tokens": 3022,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17678
+    }
+  },
+  {
+    "qid": "Q230",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations have matching bibliography entries, every bibliography entry is cited, and all titles match exactly to the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1754,
+      "output_tokens": 693,
+      "total_tokens": 2447,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10779
+    }
+  },
+  {
+    "qid": "Q231",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "所有内联引用编号均有对应的参考文献条目，所有参考文献均被正文引用，且所有参考文献标题与提供的候选池标题完全匹配，未发现编造或不一致。"
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1999,
+      "output_tokens": 661,
+      "total_tokens": 2660,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 12855
+    }
+  },
+  {
+    "qid": "Q232",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1869,
+      "output_tokens": 1273,
+      "total_tokens": 3142,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17187
+    }
+  },
+  {
+    "qid": "Q233",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have corresponding bibliography entries, every bibliography entry is cited at least once, and each bibliography title matches a candidate pool title exactly, indicating no structural citation errors."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1891,
+      "output_tokens": 1119,
+      "total_tokens": 3010,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15812
+    }
+  },
+  {
+    "qid": "Q234",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "所有正文引用编号均能在参考书目中找到对应条目，所有书目条目均被至少引用一次，且每个书目标题均与候选池中的标题完全一致。"
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1557,
+      "output_tokens": 774,
+      "total_tokens": 2331,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 10774
+    }
+  },
+  {
+    "qid": "Q235",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All in-text citations correspond to a bibliography entry, every bibliography entry is cited, and each bibliography title perfectly matches one of the candidate pool titles."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2100,
+      "output_tokens": 1078,
+      "total_tokens": 3178,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15886
+    }
+  },
+  {
+    "qid": "Q236",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 2,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        3,
+        4
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entries 3 and 4 are never cited in the report body, violating the requirement that all listed references must be cited."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2201,
+      "output_tokens": 1166,
+      "total_tokens": 3367,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16285
+    }
+  },
+  {
+    "qid": "Q237",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries, all bibliography entries are cited, and all titles match the provided candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2095,
+      "output_tokens": 1096,
+      "total_tokens": 3191,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 16809
+    }
+  },
+  {
+    "qid": "Q238",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations appear in the body and correspond to an entry in the bibliography, all eight bibliography entries are cited in the text, and every bibliography title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2298,
+      "output_tokens": 1258,
+      "total_tokens": 3556,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18760
+    }
+  },
+  {
+    "qid": "Q239",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations match a bibliography entry, all bibliography entries are cited in the body, and every bibliography title clearly corresponds to a candidate paper title from the legitimate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1620,
+      "output_tokens": 1146,
+      "total_tokens": 2766,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 14631
+    }
+  },
+  {
+    "qid": "Q240",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [2] is never cited in the body, while all other citations match and are legitimate."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2060,
+      "output_tokens": 1095,
+      "total_tokens": 3155,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 15264
+    }
+  },
+  {
+    "qid": "Q241",
+    "gate_release": "block",
+    "gate_reasons": "uncited_bibliography_entry",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 1,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [
+        2
+      ],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "BLOCK",
+      "rationale": "Bibliography entry [2] is not cited anywhere in the report body."
+    },
+    "reviewer_overall": "BLOCK",
+    "usage": {
+      "input_tokens": 2015,
+      "output_tokens": 724,
+      "total_tokens": 2739,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11217
+    }
+  },
+  {
+    "qid": "Q242",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, every bibliography entry is cited in the body, and each bibliography title exactly matches a candidate pool title."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2410,
+      "output_tokens": 1268,
+      "total_tokens": 3678,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18559
+    }
+  },
+  {
+    "qid": "Q243",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, every bibliography entry is cited, and all reference titles clearly match a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2261,
+      "output_tokens": 1253,
+      "total_tokens": 3514,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 17552
+    }
+  },
+  {
+    "qid": "Q244",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1964,
+      "output_tokens": 545,
+      "total_tokens": 2509,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9976
+    }
+  },
+  {
+    "qid": "Q245",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All eight inline citations appear in the bibliography, all bibliography entries are cited in the body, and every bibliography title matches a title in the candidate pool exactly."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2072,
+      "output_tokens": 900,
+      "total_tokens": 2972,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 13599
+    }
+  },
+  {
+    "qid": "Q246",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography items are cited, and every bibliography title exactly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2617,
+      "output_tokens": 479,
+      "total_tokens": 3096,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 8823
+    }
+  },
+  {
+    "qid": "Q247",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations correspond to bibliography entries, all bibliography entries are cited, and every referenced title exactly matches a title in the candidate evidence pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2115,
+      "output_tokens": 1406,
+      "total_tokens": 3521,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18269
+    }
+  },
+  {
+    "qid": "Q248",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited in the body, and all bibliography titles exactly match titles from the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1768,
+      "output_tokens": 461,
+      "total_tokens": 2229,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 9830
+    }
+  },
+  {
+    "qid": "Q249",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]–[8] have matching bibliography entries, every bibliography entry is cited in the body, and all bibliography titles correspond exactly to titles in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1854,
+      "output_tokens": 1367,
+      "total_tokens": 3221,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 19384
+    }
+  },
+  {
+    "qid": "Q250",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations have matching bibliography entries, all bibliography entries are cited, and every entry title clearly matches a title in the candidate pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 2178,
+      "output_tokens": 830,
+      "total_tokens": 3008,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 11875
+    }
+  },
+  {
+    "qid": "Q251",
+    "gate_release": "pass",
+    "gate_reasons": "",
+    "gate_text_orphans": 0,
+    "gate_uncited_bibliography_entries": 0,
+    "reviewer_verdict": {
+      "orphan_citation_numbers": [],
+      "uncited_bibliography_numbers": [],
+      "suspect_fabricated_or_mismatched_numbers": [],
+      "overall_verdict": "RELEASE",
+      "rationale": "All inline citations [1]-[8] have corresponding bibliography entries, all bibliography entries are cited, and every bibliography title exactly matches a candidate title in the provided pool."
+    },
+    "reviewer_overall": "RELEASE",
+    "usage": {
+      "input_tokens": 1911,
+      "output_tokens": 1241,
+      "total_tokens": 3152,
+      "attempt": 1,
+      "max_tokens_requested": 4000,
+      "latency_ms": 18324
+    }
+  }
+]

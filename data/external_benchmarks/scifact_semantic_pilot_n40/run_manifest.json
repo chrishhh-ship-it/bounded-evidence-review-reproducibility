@@ -1,0 +1,1528 @@
+{
+  "benchmark": "SciFact official dev",
+  "repo": "https://github.com/allenai/scifact",
+  "model": "deepseek-v4-pro",
+  "temperature": 0.0,
+  "records": [
+    {
+      "id": 1,
+      "claim": "0-dimensional biomaterials show inductive properties.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nThe provided evidence is empty, so there is no information to support or contradict the claim.",
+      "reviewer": "NEI\nNo evidence was provided to evaluate the claim.",
+      "final": "NEI\nBoth analyses correctly conclude that the claim cannot be evaluated due to the absence of any evidence.",
+      "usage": {
+        "v0": {
+          "input_tokens": 72,
+          "output_tokens": 78,
+          "total_tokens": 150,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3325
+        },
+        "reviewer": {
+          "input_tokens": 86,
+          "output_tokens": 82,
+          "total_tokens": 168,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3322
+        },
+        "adjudicator": {
+          "input_tokens": 97,
+          "output_tokens": 96,
+          "total_tokens": 193,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3434
+        }
+      }
+    },
+    {
+      "id": 3,
+      "claim": "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+      "gold": "SUPPORT",
+      "evidence": "Document 14717500: We propose as an alternative explanation that variants much less common than the associated one may create \"synthetic associations\" by occurring, stochastically, more often in association with one of the alleles at the common site versus the other allele. We show that they are not only possible, but inevitable, and that under simple but reasonable genetic models, they are likely to account for or contribute to many of the recently identified signals reported in genome-wide association studies. In conclusion, uncommon or rare genetic variants can easily create synthetic associations that are credited to common variants, and this possibility requires careful consideration in the interpretation and follow up of GWAS signals.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "SUPPORT",
+      "draft": "NEI\n\nThe evidence discusses how rare variants can create synthetic associations in GWAS but does not mention the 1000 Genomes Project or its role in mapping sequence variation. No link is established between the project and the claim.",
+      "reviewer": "NEI\nThe evidence discusses synthetic associations arising from rare variants but makes no mention of the 1,000 Genomes Project or its ability to map such variation.",
+      "final": "NEI\nThe evidence discusses synthetic associations from rare variants but does not reference the 1,000 Genomes Project, so it provides no support for the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 215,
+          "output_tokens": 263,
+          "total_tokens": 478,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5616
+        },
+        "reviewer": {
+          "input_tokens": 229,
+          "output_tokens": 213,
+          "total_tokens": 442,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5044
+        },
+        "adjudicator": {
+          "input_tokens": 286,
+          "output_tokens": 147,
+          "total_tokens": 433,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4673
+        }
+      }
+    },
+    {
+      "id": 5,
+      "claim": "1/2000 in UK have abnormal PrP positivity.",
+      "gold": "SUPPORT",
+      "evidence": "Document 13734012: RESULTS Of the 32,441 appendix samples 16 were positive for abnormal PrP, indicating an overall prevalence of 493 per million population (95% confidence interval 282 to 801 per million).",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence reports a prevalence of 493 per million (≈1/2028), and the 95% confidence interval (282–801 per million) includes 500 per million (1/2000), directly aligning with the claim.",
+      "reviewer": "SUPPORT\nThe evidence reports a prevalence of 493 per million (approximately 1 in 2030), which is nearly identical to the claimed 1 in 2000 (500 per million), and the 95% confidence interval (282–801 per million) includes the claimed value. Thus, the direct measurement strongly supports the claim.",
+      "final": "SUPPORT\nBoth analyses agree that the reported prevalence of 493 per million (≈1/2028) and its confidence interval (282–801 per million) directly support the claim of 1/2000.",
+      "usage": {
+        "v0": {
+          "input_tokens": 117,
+          "output_tokens": 356,
+          "total_tokens": 473,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 6989
+        },
+        "reviewer": {
+          "input_tokens": 131,
+          "output_tokens": 1213,
+          "total_tokens": 1344,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 19612
+        },
+        "adjudicator": {
+          "input_tokens": 229,
+          "output_tokens": 74,
+          "total_tokens": 303,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2792
+        }
+      }
+    },
+    {
+      "id": 13,
+      "claim": "5% of perinatal mortality is due to low birth weight.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nNo evidence was provided to evaluate the claim, so the information is insufficient.",
+      "reviewer": "NEI\nThe evidence explicitly states no information is provided, making it impossible to determine whether the claim is supported or contradicted.",
+      "final": "NEI\nBoth analyses agree that the evidence is insufficient to evaluate the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 76,
+          "output_tokens": 80,
+          "total_tokens": 156,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2963
+        },
+        "reviewer": {
+          "input_tokens": 90,
+          "output_tokens": 88,
+          "total_tokens": 178,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3085
+        },
+        "adjudicator": {
+          "input_tokens": 112,
+          "output_tokens": 130,
+          "total_tokens": 242,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4014
+        }
+      }
+    },
+    {
+      "id": 36,
+      "claim": "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "SUPPORT",
+      "draft": "NEI\nNo evidence was provided to assess the claim.",
+      "reviewer": "NEI\nThe provided evidence contains no information to evaluate the claim.",
+      "final": "NEI\nBoth analyses correctly find that no evidence was provided to support or refute the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 77,
+          "output_tokens": 116,
+          "total_tokens": 193,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3476
+        },
+        "reviewer": {
+          "input_tokens": 91,
+          "output_tokens": 88,
+          "total_tokens": 179,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3446
+        },
+        "adjudicator": {
+          "input_tokens": 95,
+          "output_tokens": 127,
+          "total_tokens": 222,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4349
+        }
+      }
+    },
+    {
+      "id": 42,
+      "claim": "A high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "gold": "CONTRADICT",
+      "evidence": "Document 18174210: Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count. We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "CONTRADICT",
+      "draft": "CONTRADICT\nThe evidence directly states that the increased erythrocyte count and microcytosis in homozygous alpha(+)-thalassaemia may protect against severe malarial anemia (SMA), contradicting the claim that a high microerythrocyte count raises vulnerability to severe anemia.",
+      "reviewer": "CONTRADICT\nThe evidence shows that the increased erythrocyte count and microcytosis in homozygous alpha(+)-thalassaemia children are associated with a reduced risk of severe malarial anemia (SMA), directly opposing the claim that a high microerythrocyte count raises vulnerability to severe anemia.",
+      "final": "CONTRADICT\nThe evidence indicates that a high microerythrocyte count is associated with protection against, not increased vulnerability to, severe anemia in homozygous alpha(+)-thalassemia subjects.",
+      "usage": {
+        "v0": {
+          "input_tokens": 200,
+          "output_tokens": 239,
+          "total_tokens": 439,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5216
+        },
+        "reviewer": {
+          "input_tokens": 214,
+          "output_tokens": 718,
+          "total_tokens": 932,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 10828
+        },
+        "adjudicator": {
+          "input_tokens": 308,
+          "output_tokens": 144,
+          "total_tokens": 452,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4343
+        }
+      }
+    },
+    {
+      "id": 48,
+      "claim": "A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",
+      "gold": "CONTRADICT",
+      "evidence": "Document 13734012: RESULTS Of the 32,441 appendix samples 16 were positive for abnormal PrP, indicating an overall prevalence of 493 per million population (95% confidence interval 282 to 801 per million).",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "CONTRADICT\n\nThe evidence reports a prevalence of 493 per million (95% CI 282–801 per million) based on 16 positive appendix samples. Applied to the UK population (e.g., ~60 million), this yields an estimated total far exceeding 1,000 cases, directly contradicting the claim.",
+      "reviewer": "NEI\n\nThe evidence provides a prevalence rate (493 per million) but does not include the UK population size required to calculate the total number of asymptomatic carriers. Without the population denominator, it is impossible to determine if 1,000 is consistent with the prevalence estimate.",
+      "final": "NEI\nThe evidence reports a prevalence rate but omits the UK population size required to calculate the total number of asymptomatic carriers, so the claim cannot be verified or contradicted.",
+      "usage": {
+        "v0": {
+          "input_tokens": 124,
+          "output_tokens": 742,
+          "total_tokens": 866,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 12935
+        },
+        "reviewer": {
+          "input_tokens": 138,
+          "output_tokens": 729,
+          "total_tokens": 867,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 11820
+        },
+        "adjudicator": {
+          "input_tokens": 236,
+          "output_tokens": 912,
+          "total_tokens": 1148,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 15412
+        }
+      }
+    },
+    {
+      "id": 49,
+      "claim": "ADAR1 binds to Dicer to cleave pre-miRNA.",
+      "gold": "SUPPORT",
+      "evidence": "Document 5953485: In this study, we investigated the interaction of the RNA editing mechanism with the RNA interference (RNAi) machinery and found that ADAR1 forms a complex with Dicer through direct protein-protein interaction. Most importantly, ADAR1 increases the maximum rate (Vmax) of pre-microRNA (miRNA) cleavage by Dicer and facilitates loading of miRNA onto RNA-induced silencing complexes, identifying a new role of ADAR1 in miRNA processing and RNAi mechanisms.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence states that ADAR1 directly binds Dicer and increases the Vmax of pre-miRNA cleavage by Dicer, directly supporting the claim.",
+      "reviewer": "SUPPORT\nThe evidence states that ADAR1 directly interacts with Dicer to form a complex and that this interaction increases Dicer's cleavage rate of pre-miRNA, confirming that ADAR1 binds Dicer and contributes to pre-miRNA cleavage.",
+      "final": "SUPPORT\nThe evidence directly states that ADAR1 forms a complex with Dicer via direct protein-protein interaction and increases the maximum rate of pre-miRNA cleavage, fully supporting the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 170,
+          "output_tokens": 175,
+          "total_tokens": 345,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4327
+        },
+        "reviewer": {
+          "input_tokens": 184,
+          "output_tokens": 371,
+          "total_tokens": 555,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 6267
+        },
+        "adjudicator": {
+          "input_tokens": 245,
+          "output_tokens": 127,
+          "total_tokens": 372,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4422
+        }
+      }
+    },
+    {
+      "id": 50,
+      "claim": "AIRE is expressed in some skin tumors.",
+      "gold": "SUPPORT",
+      "evidence": "Document 12580014: We report that autoimmune regulator (Aire), a transcriptional regulator, is inducibly expressed in human and mouse tumor keratinocytes in a K17-dependent manner and is required for timely onset of Gli2-induced skin tumorigenesis in mice.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence directly states that Aire is inducibly expressed in human and mouse tumor keratinocytes, which supports the claim that AIRE is expressed in some skin tumors.",
+      "reviewer": "SUPPORT. The evidence explicitly states that Aire is inducibly expressed in human and mouse tumor keratinocytes, directly indicating its presence in some skin tumors.",
+      "final": "SUPPORT. The evidence explicitly states that Aire is inducibly expressed in human and mouse tumor keratinocytes, confirming the claim that AIRE is expressed in some skin tumors.",
+      "usage": {
+        "v0": {
+          "input_tokens": 120,
+          "output_tokens": 188,
+          "total_tokens": 308,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4329
+        },
+        "reviewer": {
+          "input_tokens": 134,
+          "output_tokens": 223,
+          "total_tokens": 357,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4483
+        },
+        "adjudicator": {
+          "input_tokens": 181,
+          "output_tokens": 72,
+          "total_tokens": 253,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3054
+        }
+      }
+    },
+    {
+      "id": 51,
+      "claim": "ALDH1 expression is associated with better breast cancer outcomes.",
+      "gold": "CONTRADICT",
+      "evidence": "Document 45638119: In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "CONTRADICT",
+      "draft": "CONTRADICT\nThe evidence states that ALDH1 expression correlates with poor prognosis, directly opposing the claim of better outcomes.",
+      "reviewer": "CONTRADICT\nThe evidence states that ALDH1 expression correlated with poor prognosis, directly opposing the claim of better outcomes.",
+      "final": "CONTRADICT\nBoth analyses correctly identify that the evidence directly contradicts the claim by associating ALDH1 expression with poor rather than better prognosis.",
+      "usage": {
+        "v0": {
+          "input_tokens": 99,
+          "output_tokens": 144,
+          "total_tokens": 243,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3630
+        },
+        "reviewer": {
+          "input_tokens": 113,
+          "output_tokens": 145,
+          "total_tokens": 258,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3911
+        },
+        "adjudicator": {
+          "input_tokens": 143,
+          "output_tokens": 63,
+          "total_tokens": 206,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3282
+        }
+      }
+    },
+    {
+      "id": 53,
+      "claim": "ALDH1 expression is associated with poorer prognosis in breast cancer.",
+      "gold": "SUPPORT",
+      "evidence": "Document 45638119: In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence directly states that ALDH1 expression correlated with poor prognosis in 577 breast carcinomas.",
+      "reviewer": "SUPPORT\nThe evidence directly states that ALDH1 expression correlated with poor prognosis in 577 breast carcinomas, which entails the claim.",
+      "final": "SUPPORT\nThe evidence directly states that ALDH1 expression correlated with poor prognosis in a series of 577 breast carcinomas, which entails the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 100,
+          "output_tokens": 133,
+          "total_tokens": 233,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3337
+        },
+        "reviewer": {
+          "input_tokens": 114,
+          "output_tokens": 134,
+          "total_tokens": 248,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3615
+        },
+        "adjudicator": {
+          "input_tokens": 141,
+          "output_tokens": 78,
+          "total_tokens": 219,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3139
+        }
+      }
+    },
+    {
+      "id": 54,
+      "claim": "AMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs.",
+      "gold": "CONTRADICT",
+      "evidence": "Document 49556906: Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis. In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner. These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "CONTRADICT",
+      "draft": "CONTRADICT\nThe evidence indicates that AMPK activation reduces fibrotic activity and accelerates resolution of lung fibrosis, directly opposing the claim that it increases inflammation-related fibrosis.",
+      "reviewer": "CONTRADICT\nThe evidence indicates that AMPK activation reduces fibrotic activity in human lung myofibroblasts and accelerates resolution of established lung fibrosis in mice, directly opposing the claim that it increases fibrosis.",
+      "final": "CONTRADICT\nThe evidence shows AMPK activation reduces fibrotic activity and accelerates resolution of lung fibrosis, directly contradicting the claim that it increases inflammation-related fibrosis.",
+      "usage": {
+        "v0": {
+          "input_tokens": 196,
+          "output_tokens": 210,
+          "total_tokens": 406,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4606
+        },
+        "reviewer": {
+          "input_tokens": 210,
+          "output_tokens": 407,
+          "total_tokens": 617,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 6469
+        },
+        "adjudicator": {
+          "input_tokens": 264,
+          "output_tokens": 163,
+          "total_tokens": 427,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3750
+        }
+      }
+    },
+    {
+      "id": 56,
+      "claim": "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.",
+      "gold": "SUPPORT",
+      "evidence": "Document 4709641: Using human neurons derived from induced pluripotent stem cells that expressed apolipoprotein E4 (ApoE4), a variant of the APOE gene product and the major genetic risk factor for AD, we demonstrated that ApoE4-expressing neurons had higher levels of tau phosphorylation, unrelated to their increased production of amyloid-β (Aβ) peptides, and that they displayed GABAergic neuron degeneration.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nThe evidence states that ApoE4-expressing neurons exhibit increased tau phosphorylation, increased Aβ production, and GABAergic neuron degeneration, but it does not establish that these changes cause the degeneration. It only notes these phenomena and even states that tau phosphorylation is unrelated to Aβ production, leaving the causal relationship unspecified.",
+      "reviewer": "NEI\n\nThe evidence confirms that ApoE4-expressing neurons exhibit increased Aβ production, elevated tau phosphorylation, and GABAergic neuron degeneration, but it does not establish that the degeneration is caused by the increases in Aβ and tau phosphorylation. The causal link in the claim is therefore unsupported.",
+      "final": "NEI\nThe evidence confirms the co-occurrence of increased Aβ production, elevated tau phosphorylation, and GABAergic neuron degeneration in ApoE4-expressing neurons but does not establish that the degeneration is caused by the increases in Aβ and tau phosphorylation.",
+      "usage": {
+        "v0": {
+          "input_tokens": 165,
+          "output_tokens": 701,
+          "total_tokens": 866,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 12532
+        },
+        "reviewer": {
+          "input_tokens": 179,
+          "output_tokens": 944,
+          "total_tokens": 1123,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 15758
+        },
+        "adjudicator": {
+          "input_tokens": 280,
+          "output_tokens": 131,
+          "total_tokens": 411,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4449
+        }
+      }
+    },
+    {
+      "id": 57,
+      "claim": "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+      "gold": "CONTRADICT",
+      "evidence": "Document 4709641: Using human neurons derived from induced pluripotent stem cells that expressed apolipoprotein E4 (ApoE4), a variant of the APOE gene product and the major genetic risk factor for AD, we demonstrated that ApoE4-expressing neurons had higher levels of tau phosphorylation, unrelated to their increased production of amyloid-β (Aβ) peptides, and that they displayed GABAergic neuron degeneration.",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "CONTRADICT",
+      "draft": "CONTRADICT\nThe evidence states that ApoE4-expressing neurons displayed GABAergic neuron degeneration, which directly contradicts the claim that it delays such degeneration.",
+      "reviewer": "CONTRADICT\nThe evidence confirms increased Aβ production and tau phosphorylation but states that ApoE4-expressing neurons \"displayed GABAergic neuron degeneration,\" directly contradicting the claim that this delays degeneration.",
+      "final": "CONTRADICT\nThe evidence directly contradicts the claim by stating ApoE4-expressing neurons displayed GABAergic neuron degeneration, not a delay.",
+      "usage": {
+        "v0": {
+          "input_tokens": 166,
+          "output_tokens": 416,
+          "total_tokens": 582,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 6504
+        },
+        "reviewer": {
+          "input_tokens": 180,
+          "output_tokens": 518,
+          "total_tokens": 698,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 9119
+        },
+        "adjudicator": {
+          "input_tokens": 233,
+          "output_tokens": 127,
+          "total_tokens": 360,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3636
+        }
+      }
+    },
+    {
+      "id": 70,
+      "claim": "Activation of PPM1D suppresses p53 function.",
+      "gold": "SUPPORT",
+      "evidence": "Document 5956380: PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro. PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2.\nDocument 4414547: Functional studies demonstrate that the mutations result in enhanced suppression of p53 in response to ionizing radiation exposure, suggesting that the mutant alleles encode hyperactive PPM1D isoforms.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT. The evidence shows that hyperactive PPM1D isoforms (truncating mutations) enhance suppression of p53 activation, indicating that activation of PPM1D leads to p53 suppression.",
+      "reviewer": "SUPPORT. The evidence directly shows that hyperactive PPM1D isoforms (truncating mutations that enhance PPM1D's activity) suppress p53 function, as they attenuate p53 activation and enhance suppression of p53 in response to DNA damage.",
+      "final": "SUPPORT. Both analyses correctly agree that the evidence directly supports the claim, as hyperactive PPM1D mutations attenuate p53 activation and enhance its suppression.",
+      "usage": {
+        "v0": {
+          "input_tokens": 175,
+          "output_tokens": 494,
+          "total_tokens": 669,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 7785
+        },
+        "reviewer": {
+          "input_tokens": 189,
+          "output_tokens": 468,
+          "total_tokens": 657,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 7249
+        },
+        "adjudicator": {
+          "input_tokens": 261,
+          "output_tokens": 70,
+          "total_tokens": 331,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3068
+        }
+      }
+    },
+    {
+      "id": 72,
+      "claim": "Activator-inhibitor pairs are provided dorsally by Admpchordin.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nNo evidence was provided to evaluate the claim.",
+      "reviewer": "NEI\nNo evidence is provided to assess the claim.",
+      "final": "NEI\nBoth analyses agree that there is no evidence provided to evaluate the claim, so the label is NEI.",
+      "usage": {
+        "v0": {
+          "input_tokens": 79,
+          "output_tokens": 95,
+          "total_tokens": 174,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3282
+        },
+        "reviewer": {
+          "input_tokens": 93,
+          "output_tokens": 71,
+          "total_tokens": 164,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2968
+        },
+        "adjudicator": {
+          "input_tokens": 95,
+          "output_tokens": 111,
+          "total_tokens": 206,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3639
+        }
+      }
+    },
+    {
+      "id": 75,
+      "claim": "Active H. pylori urease has a polymeric structure that compromises two subunits, UreA and UreB.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nNo evidence was provided to evaluate the claim.",
+      "reviewer": "NEI\nNo evidence was provided to evaluate the claim.",
+      "final": "NEI\nNo evidence was provided to evaluate the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 86,
+          "output_tokens": 65,
+          "total_tokens": 151,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2789
+        },
+        "reviewer": {
+          "input_tokens": 100,
+          "output_tokens": 98,
+          "total_tokens": 198,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3139
+        },
+        "adjudicator": {
+          "input_tokens": 102,
+          "output_tokens": 101,
+          "total_tokens": 203,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3244
+        }
+      }
+    },
+    {
+      "id": 94,
+      "claim": "Albendazole is used to treat lymphatic filariasis.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nNo evidence was provided to evaluate the claim.",
+      "reviewer": "NEI\nNo evidence was provided to evaluate the claim.",
+      "final": "NEI\nBoth analyses agree that there is not enough information to evaluate the claim because no evidence was provided.",
+      "usage": {
+        "v0": {
+          "input_tokens": 75,
+          "output_tokens": 76,
+          "total_tokens": 151,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2990
+        },
+        "reviewer": {
+          "input_tokens": 89,
+          "output_tokens": 135,
+          "total_tokens": 224,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3732
+        },
+        "adjudicator": {
+          "input_tokens": 91,
+          "output_tokens": 70,
+          "total_tokens": 161,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3005
+        }
+      }
+    },
+    {
+      "id": 99,
+      "claim": "Alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nNo evidence is provided to evaluate the claim.",
+      "reviewer": "NEI\nNo evidence was provided to support or contradict the claim.",
+      "final": "NEI\nBoth analyses agree on NEI, as no evidence was provided to evaluate the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 79,
+          "output_tokens": 80,
+          "total_tokens": 159,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2863
+        },
+        "reviewer": {
+          "input_tokens": 93,
+          "output_tokens": 76,
+          "total_tokens": 169,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3071
+        },
+        "adjudicator": {
+          "input_tokens": 97,
+          "output_tokens": 75,
+          "total_tokens": 172,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3066
+        }
+      }
+    },
+    {
+      "id": 100,
+      "claim": "All hematopoietic stem cells segregate their chromosomes randomly.",
+      "gold": "SUPPORT",
+      "evidence": "Document 4381486: Sequential administration of 5-chloro-2-deoxyuridine and 5-iodo-2-deoxyuridine indicated that all HSCs segregate their chromosomes randomly.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence directly states that the experimental results indicated all hematopoietic stem cells segregate their chromosomes randomly.",
+      "reviewer": "SUPPORT\nThe evidence explicitly states that sequential administration of the two nucleoside analogs indicated all HSCs segregate their chromosomes randomly, directly entailing the claim.",
+      "final": "SUPPORT\nThe evidence directly states that the experimental results indicated all HSCs segregate their chromosomes randomly, entailing the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 109,
+          "output_tokens": 139,
+          "total_tokens": 248,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3690
+        },
+        "reviewer": {
+          "input_tokens": 123,
+          "output_tokens": 177,
+          "total_tokens": 300,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3795
+        },
+        "adjudicator": {
+          "input_tokens": 155,
+          "output_tokens": 312,
+          "total_tokens": 467,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5439
+        }
+      }
+    },
+    {
+      "id": 113,
+      "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+      "gold": "SUPPORT",
+      "evidence": "Document 6157837: Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia. Understanding the pathophysiological mechanisms and the common risk factors for ACE inhibitor–induced functional ARF is critical, because preventive strategies for ARF exist, and if effectively used, they may permit use of these compounds in a less restricted fashion.  ",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT  \nThe evidence explicitly states that ACE inhibitor use \"can also be associated with a syndrome of 'functional renal insufficiency'\", directly supporting the claim.",
+      "reviewer": "SUPPORT. The evidence states that ACE inhibitor use \"can also be associated with a syndrome of 'functional renal insufficiency,'\" directly supporting the claim.",
+      "final": "SUPPORT\nThe evidence explicitly states that ACE inhibitor use \"can also be associated with a syndrome of 'functional renal insufficiency'\", directly supporting the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 180,
+          "output_tokens": 280,
+          "total_tokens": 460,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4695
+        },
+        "reviewer": {
+          "input_tokens": 194,
+          "output_tokens": 195,
+          "total_tokens": 389,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3827
+        },
+        "adjudicator": {
+          "input_tokens": 233,
+          "output_tokens": 126,
+          "total_tokens": 359,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3616
+        }
+      }
+    },
+    {
+      "id": 115,
+      "claim": "Anthrax spores can be disposed of easily after they are dispersed.",
+      "gold": "CONTRADICT",
+      "evidence": "Document 33872649: More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities.",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "CONTRADICT",
+      "draft": "CONTRADICT\n\nThe evidence indicates that Bacillus anthracis spores reaerosolize during common office activities, demonstrating they persist and are not easily disposed of after dispersal.",
+      "reviewer": "CONTRADICT\nThe evidence indicates that anthrax spores reaerosolize during common office activities, showing they persist and are difficult to eliminate, contradicting the claim that they can be disposed of easily.",
+      "final": "CONTRADICT\nBoth analyses correctly identify that the evidence shows anthrax spores reaerosolize during common activities, directly contradicting the claim that they can be disposed of easily.",
+      "usage": {
+        "v0": {
+          "input_tokens": 136,
+          "output_tokens": 220,
+          "total_tokens": 356,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5344
+        },
+        "reviewer": {
+          "input_tokens": 150,
+          "output_tokens": 276,
+          "total_tokens": 426,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5411
+        },
+        "adjudicator": {
+          "input_tokens": 207,
+          "output_tokens": 92,
+          "total_tokens": 299,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3110
+        }
+      }
+    },
+    {
+      "id": 118,
+      "claim": "Antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile",
+      "gold": "SUPPORT",
+      "evidence": "Document 6372244: Antibiotics can have significant and long-lasting effects on the gastrointestinal tract microbiota, reducing colonization resistance against pathogens including Clostridium difficile. Our results indicate that antibiotic-mediated alteration of the gut microbiome converts the global metabolic profile to one that favours C. difficile germination and growth.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence explicitly states that antibiotics reduce colonization resistance against pathogens including Clostridium difficile and that antibiotic-mediated gut microbiome alterations favor C. difficile germination and growth, directly supporting the claim.",
+      "reviewer": "SUPPORT\nThe evidence explicitly states that antibiotics reduce colonization resistance against Clostridium difficile by altering the gut microbiome, directly entailing the claim.",
+      "final": "SUPPORT\nBoth analyses correctly identify that the evidence explicitly supports the claim, as it states antibiotics reduce colonization resistance against Clostridium difficile by altering the gut microbiome.",
+      "usage": {
+        "v0": {
+          "input_tokens": 131,
+          "output_tokens": 191,
+          "total_tokens": 322,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3994
+        },
+        "reviewer": {
+          "input_tokens": 145,
+          "output_tokens": 289,
+          "total_tokens": 434,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5036
+        },
+        "adjudicator": {
+          "input_tokens": 189,
+          "output_tokens": 94,
+          "total_tokens": 283,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3112
+        }
+      }
+    },
+    {
+      "id": 124,
+      "claim": "Antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.",
+      "gold": "SUPPORT",
+      "evidence": "Document 4883040: Antiretroviral therapy is strongly associated with a reduction in the incidence of tuberculosis in all baseline CD4 count categories: (1) less than 200 cells/µl (hazard ratio [HR] 0.16, 95% confidence interval [CI] 0.07 to 0.36), (2) 200 to 350 cells/µl (HR 0.34, 95% CI 0.19 to 0.60), (3) greater than 350 cells/µl (HR 0.43, 95% CI 0.30 to 0.63), and (4) any CD4 count (HR 0.35, 95% CI 0.28 to 0.44). CONCLUSIONS Antiretroviral therapy is strongly associated with a reduction in the incidence of tuberculosis across all CD4 count strata.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence reports hazard ratios significantly below 1 for all CD4 count categories, directly showing antiretroviral therapy reduces tuberculosis incidence across a broad range of CD4 strata.",
+      "reviewer": "SUPPORT  \nThe evidence directly states that antiretroviral therapy is strongly associated with a reduction in tuberculosis incidence across all baseline CD4 count categories, matching the claim exactly.",
+      "final": "SUPPORT\nBoth analyses correctly identify that the evidence directly confirms the claim, reporting significant hazard ratios below 1 across all specified CD4 strata and concluding antiretroviral therapy reduces tuberculosis incidence.",
+      "usage": {
+        "v0": {
+          "input_tokens": 258,
+          "output_tokens": 361,
+          "total_tokens": 619,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5632
+        },
+        "reviewer": {
+          "input_tokens": 272,
+          "output_tokens": 193,
+          "total_tokens": 465,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4111
+        },
+        "adjudicator": {
+          "input_tokens": 319,
+          "output_tokens": 68,
+          "total_tokens": 387,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3191
+        }
+      }
+    },
+    {
+      "id": 127,
+      "claim": "Arginine 90 in p150n is important for interaction with EB1.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nNo evidence was provided to evaluate the claim.",
+      "reviewer": "NEI\nNo evidence was provided to evaluate the claim.",
+      "final": "NEI\nBoth analyses correctly identify that the claim cannot be evaluated because no evidence was provided.",
+      "usage": {
+        "v0": {
+          "input_tokens": 80,
+          "output_tokens": 73,
+          "total_tokens": 153,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2982
+        },
+        "reviewer": {
+          "input_tokens": 94,
+          "output_tokens": 85,
+          "total_tokens": 179,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2613
+        },
+        "adjudicator": {
+          "input_tokens": 96,
+          "output_tokens": 100,
+          "total_tokens": 196,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3324
+        }
+      }
+    },
+    {
+      "id": 128,
+      "claim": "Arterioles have a larger lumen diameter than venules.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nNo evidence was provided to evaluate the claim.",
+      "reviewer": "NEI\nNo evidence was provided to support or refute the claim.",
+      "final": "NEI\nBoth analyses correctly identify that no evidence was provided to evaluate the claim, resulting in a lack of information.",
+      "usage": {
+        "v0": {
+          "input_tokens": 75,
+          "output_tokens": 73,
+          "total_tokens": 148,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2975
+        },
+        "reviewer": {
+          "input_tokens": 89,
+          "output_tokens": 75,
+          "total_tokens": 164,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2981
+        },
+        "adjudicator": {
+          "input_tokens": 94,
+          "output_tokens": 99,
+          "total_tokens": 193,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3574
+        }
+      }
+    },
+    {
+      "id": 129,
+      "claim": "Articles published in open access format are less likely to be cited than traditional journals.",
+      "gold": "CONTRADICT",
+      "evidence": "Document 27768226: It provides robust evidence that open-access articles (OA articles) are more immediately recognized and cited than non-OA articles. The results of this natural experiment are clear: in the 4 to 16 months following publication, OA articles gained a significant citation advantage over non-OA articles during the same period. They are twice as likely to be cited 4 to 10 months after publication and almost three times as likely between 10 and 16 months. Moreover, although the evidence from the current analysis argues most strongly for a time advantage in citation for OA articles, a study over longer periods will reveal whether this translates into a sustained increase in the number of citations.",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "CONTRADICT",
+      "draft": "CONTRADICT\nThe evidence shows that open-access articles have a citation advantage, being more likely to be cited shortly after publication, directly opposing the claim that they are less likely to be cited.",
+      "reviewer": "CONTRADICT\nThe evidence reports that open-access articles are more immediately cited, with a significant citation advantage (twice as likely to be cited 4–10 months after publication, nearly three times as likely between 10–16 months), directly contradicting the claim that they are less likely to be cited.",
+      "final": "CONTRADICT\nThe evidence clearly refutes the claim by showing that open-access articles are significantly more likely to be cited shortly after publication, not less.",
+      "usage": {
+        "v0": {
+          "input_tokens": 212,
+          "output_tokens": 133,
+          "total_tokens": 345,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3461
+        },
+        "reviewer": {
+          "input_tokens": 226,
+          "output_tokens": 202,
+          "total_tokens": 428,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4650
+        },
+        "adjudicator": {
+          "input_tokens": 308,
+          "output_tokens": 203,
+          "total_tokens": 511,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4630
+        }
+      }
+    },
+    {
+      "id": 130,
+      "claim": "Articles published in open access format are more likely to be cited than traditional journals.",
+      "gold": "SUPPORT",
+      "evidence": "Document 27768226: It provides robust evidence that open-access articles (OA articles) are more immediately recognized and cited than non-OA articles. The results of this natural experiment are clear: in the 4 to 16 months following publication, OA articles gained a significant citation advantage over non-OA articles during the same period. They are twice as likely to be cited 4 to 10 months after publication and almost three times as likely between 10 and 16 months. Moreover, although the evidence from the current analysis argues most strongly for a time advantage in citation for OA articles, a study over longer periods will reveal whether this translates into a sustained increase in the number of citations.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence directly states that OA articles are more immediately cited and have a significant citation advantage over non-OA articles in the months following publication, making them more likely to be cited.",
+      "reviewer": "SUPPORT\nThe evidence explicitly states that open-access articles gain a significant citation advantage over non-OA articles, being twice as likely to be cited 4–10 months after publication and almost three times as likely between 10–16 months, which directly supports the claim.",
+      "final": "SUPPORT\nThe evidence shows open-access articles were twice as likely to be cited 4–10 months after publication and nearly three times as likely 10–16 months after publication, directly supporting the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 212,
+          "output_tokens": 362,
+          "total_tokens": 574,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 6396
+        },
+        "reviewer": {
+          "input_tokens": 226,
+          "output_tokens": 353,
+          "total_tokens": 579,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 6411
+        },
+        "adjudicator": {
+          "input_tokens": 298,
+          "output_tokens": 184,
+          "total_tokens": 482,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4364
+        }
+      }
+    },
+    {
+      "id": 132,
+      "claim": "Aspirin inhibits the production of PGE2.",
+      "gold": "NEI",
+      "evidence": "No annotated evidence is provided.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "NEI",
+      "draft": "NEI\nNo evidence was provided to evaluate the claim.",
+      "reviewer": "NEI\nNo evidence was provided to support or contradict the claim.",
+      "final": "NEI\nBoth analyses agree the claim cannot be evaluated because no evidence was provided.",
+      "usage": {
+        "v0": {
+          "input_tokens": 73,
+          "output_tokens": 77,
+          "total_tokens": 150,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2983
+        },
+        "reviewer": {
+          "input_tokens": 87,
+          "output_tokens": 153,
+          "total_tokens": 240,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3316
+        },
+        "adjudicator": {
+          "input_tokens": 91,
+          "output_tokens": 58,
+          "total_tokens": 149,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 2875
+        }
+      }
+    },
+    {
+      "id": 133,
+      "claim": "Assembly of invadopodia is triggered by focal generation of phosphatidylinositol-3,4-biphosphate and the activation of the nonreceptor tyrosine kinase Src.",
+      "gold": "SUPPORT",
+      "evidence": "Document 16280642: The expression of various phosphoinositide-binding domains revealed that the podosomes in Src-transformed NIH3T3 (NIH-src) cells are enriched with PtdIns(3,4)P2, suggesting an important role of this phosphoinositide in podosome formation. Live-cell imaging analysis revealed that Src-expression stimulated podosome formation at focal adhesions of NIH3T3 cells after PtdIns(3,4)P2 accumulation.",
+      "v0_label": "NEI",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "NEI\n\nThe evidence discusses podosome formation in Src-transformed cells, but the claim specifically concerns invadopodia. Although podosomes and invadopodia are related structures, the evidence does not directly address invadopodia assembly, so it is insufficient to evaluate the claim.",
+      "reviewer": "NEI\nThe evidence describes podosome formation in Src-transformed cells, not invadopodia assembly, so it is insufficient to evaluate the claim about invadopodia.",
+      "final": "NEI\nThe evidence describes podosome formation in Src-transformed cells, not invadopodia assembly, so it is insufficient to evaluate the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 192,
+          "output_tokens": 315,
+          "total_tokens": 507,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5621
+        },
+        "reviewer": {
+          "input_tokens": 206,
+          "output_tokens": 535,
+          "total_tokens": 741,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 8006
+        },
+        "adjudicator": {
+          "input_tokens": 280,
+          "output_tokens": 186,
+          "total_tokens": 466,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4181
+        }
+      }
+    },
+    {
+      "id": 137,
+      "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+      "gold": "SUPPORT",
+      "evidence": "Document 26016929: The inclusion of a visual screening component in the assessment did not result in improvements in self reported visual problems (pooled odds ratio 1.04:95% confidence interval 0.89 to 1.22). CONCLUSIONS Screening of asymptomatic older people in the community is not justified on present evidence.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence directly states that visual screening did not improve self-reported visual problems (pooled OR 1.04, 95% CI 0.89 to 1.22) and concludes that screening asymptomatic older people is not justified, which supports the claim.",
+      "reviewer": "SUPPORT\nThe evidence directly states that screening asymptomatic older adults did not improve self-reported visual problems, aligning with the claim that such screening does not lead to improved vision.",
+      "final": "SUPPORT\nBoth analyses correctly identify that the evidence directly supports the claim by citing the null effect on self-reported visual problems and the conclusion that screening asymptomatic older people is not justified.",
+      "usage": {
+        "v0": {
+          "input_tokens": 139,
+          "output_tokens": 217,
+          "total_tokens": 356,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4363
+        },
+        "reviewer": {
+          "input_tokens": 153,
+          "output_tokens": 245,
+          "total_tokens": 398,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4662
+        },
+        "adjudicator": {
+          "input_tokens": 221,
+          "output_tokens": 168,
+          "total_tokens": 389,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4310
+        }
+      }
+    },
+    {
+      "id": 141,
+      "claim": "Auditory entrainment is strengthened when people see congruent visual and auditory information.",
+      "gold": "SUPPORT",
+      "evidence": "Document 14437255: UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions. When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality. We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions. Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.    SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying. Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT. The evidence states that neural entrainment to the speech envelope is enhanced by congruent audiovisual speech and inhibited by incongruent visual information, directly supporting the claim that auditory entrainment is strengthened when congruent visual and auditory information are seen.",
+      "reviewer": "SUPPORT\nThe evidence directly states that neural entrainment to the speech envelope is enhanced by congruent audiovisual speech and inhibited by incongruent streams, supporting the claim.",
+      "final": "SUPPORT\nBoth analyses correctly identify that the evidence directly supports the claim by stating that congruent audiovisual speech enhances neural entrainment.",
+      "usage": {
+        "v0": {
+          "input_tokens": 246,
+          "output_tokens": 344,
+          "total_tokens": 590,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5734
+        },
+        "reviewer": {
+          "input_tokens": 260,
+          "output_tokens": 192,
+          "total_tokens": 452,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3986
+        },
+        "adjudicator": {
+          "input_tokens": 322,
+          "output_tokens": 184,
+          "total_tokens": 506,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4651
+        }
+      }
+    },
+    {
+      "id": 142,
+      "claim": "Autologous transplantation of mesenchymal stem cells causes a higher rate of opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+      "gold": "CONTRADICT",
+      "evidence": "Document 10582939: Also, during the 1-year follow-up, combined analysis of MSC-treated groups revealed significantly decreased risk of opportunistic infections than the control group (hazard ratio, 0.42; 95% CI, 0.20-0.85, P=.02)   CONCLUSION Among patients undergoing renal transplant, the use of autologous MSCs compared with anti-IL-2 receptor antibody induction therapy resulted in lower incidence of acute rejection, decreased risk of opportunistic infection, and better estimated renal function at 1 year.   \n",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "CONTRADICT",
+      "draft": "CONTRADICT\nThe evidence directly states that autologous MSCs resulted in a decreased risk of opportunistic infection compared to anti-IL-2 receptor antibody induction therapy, which contradicts the claim of a higher rate.",
+      "reviewer": "CONTRADICT\n\nThe evidence explicitly states that autologous MSC transplantation resulted in a \"decreased risk of opportunistic infection\" compared to anti-IL-2 receptor antibody induction therapy, which directly contradicts the claim that it causes a higher rate.",
+      "final": "CONTRADICT\nThe evidence states that autologous MSC transplantation decreased the risk of opportunistic infections compared to anti-IL-2 receptor antibody therapy, directly contradicting the claim of a higher rate.",
+      "usage": {
+        "v0": {
+          "input_tokens": 196,
+          "output_tokens": 356,
+          "total_tokens": 552,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5899
+        },
+        "reviewer": {
+          "input_tokens": 210,
+          "output_tokens": 355,
+          "total_tokens": 565,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5479
+        },
+        "adjudicator": {
+          "input_tokens": 280,
+          "output_tokens": 161,
+          "total_tokens": 441,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3828
+        }
+      }
+    },
+    {
+      "id": 143,
+      "claim": "Autologous transplantation of mesenchymal stem cells causes fewer opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+      "gold": "SUPPORT",
+      "evidence": "Document 10582939: Also, during the 1-year follow-up, combined analysis of MSC-treated groups revealed significantly decreased risk of opportunistic infections than the control group (hazard ratio, 0.42; 95% CI, 0.20-0.85, P=.02)   CONCLUSION Among patients undergoing renal transplant, the use of autologous MSCs compared with anti-IL-2 receptor antibody induction therapy resulted in lower incidence of acute rejection, decreased risk of opportunistic infection, and better estimated renal function at 1 year.   \n",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence directly states that autologous MSCs resulted in a significantly decreased risk of opportunistic infections compared to anti-IL-2 receptor antibody induction therapy.",
+      "reviewer": "SUPPORT  \nThe evidence directly states that autologous MSCs, compared with anti-IL-2 receptor antibody induction therapy, resulted in a decreased risk of opportunistic infection.",
+      "final": "SUPPORT\nThe evidence directly states that autologous MSCs, compared with anti-IL-2 receptor antibody induction therapy, resulted in a significantly decreased risk of opportunistic infections.",
+      "usage": {
+        "v0": {
+          "input_tokens": 193,
+          "output_tokens": 217,
+          "total_tokens": 410,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4538
+        },
+        "reviewer": {
+          "input_tokens": 207,
+          "output_tokens": 275,
+          "total_tokens": 482,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4929
+        },
+        "adjudicator": {
+          "input_tokens": 252,
+          "output_tokens": 148,
+          "total_tokens": 400,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3247
+        }
+      }
+    },
+    {
+      "id": 146,
+      "claim": "Autologous transplantation of mesenchymal stem cells has lower rates of rejection than induction therapy with anti-interleukin-2 receptor antibodies.",
+      "gold": "SUPPORT",
+      "evidence": "Document 10582939: After 6 months, 4 of 53 patients (7.5%) in the autologous MSC plus standard-dose CNI group (95% CI, 0.4%-14.7%; P = .04) and 4 of 52 patients (7.7%) in the low-dose group (95% CI, 0.5%-14.9%; P = .046) compared with 11 of 51 controls (21.6%; 95% CI, 10.5%-32.6%) had biopsy-confirmed acute rejection. Also, during the 1-year follow-up, combined analysis of MSC-treated groups revealed significantly decreased risk of opportunistic infections than the control group (hazard ratio, 0.42; 95% CI, 0.20-0.85, P=.02)   CONCLUSION Among patients undergoing renal transplant, the use of autologous MSCs compared with anti-IL-2 receptor antibody induction therapy resulted in lower incidence of acute rejection, decreased risk of opportunistic infection, and better estimated renal function at 1 year.   \n",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT  \nThe provided study directly compares autologous MSC transplantation to anti-IL-2 receptor antibody induction therapy and reports a significantly lower incidence of acute rejection in the MSC groups (7.5% and 7.7%) versus the control group (21.6%), supporting the claim.",
+      "reviewer": "SUPPORT. The evidence directly states that autologous MSC therapy resulted in a lower incidence of acute rejection (7.5% and 7.7%) compared to anti-IL-2 receptor antibody induction (21.6%), matching the claim of lower rejection rates.",
+      "final": "SUPPORT\nThe study directly compares autologous MSC transplantation to anti-IL-2 receptor antibody induction therapy and reports a significantly lower incidence of acute rejection in the MSC groups (7.5% and 7.7%) versus the control group (21.6%).",
+      "usage": {
+        "v0": {
+          "input_tokens": 310,
+          "output_tokens": 519,
+          "total_tokens": 829,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 7164
+        },
+        "reviewer": {
+          "input_tokens": 324,
+          "output_tokens": 285,
+          "total_tokens": 609,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 5402
+        },
+        "adjudicator": {
+          "input_tokens": 415,
+          "output_tokens": 201,
+          "total_tokens": 616,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4376
+        }
+      }
+    },
+    {
+      "id": 148,
+      "claim": "Autophagy declines in aged organisms.",
+      "gold": "SUPPORT",
+      "evidence": "Document 1084345: We have previously found that CMA activity declines in aged organisms and have proposed that this failure in cellular clearance could contribute to the accumulation of altered proteins, the abnormal cellular homeostasis and, eventually, the functional loss characteristic of aged organisms.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence directly states that CMA (chaperone-mediated autophagy) activity declines in aged organisms, which supports the claim that autophagy declines with age.",
+      "reviewer": "SUPPORT\nThe evidence directly states that CMA activity, a specific type of autophagy, declines in aged organisms, providing explicit support for the general claim.",
+      "final": "SUPPORT\nBoth analyses correctly identify that the evidence explicitly states CMA (a form of autophagy) declines in aged organisms, directly supporting the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 115,
+          "output_tokens": 118,
+          "total_tokens": 233,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3455
+        },
+        "reviewer": {
+          "input_tokens": 129,
+          "output_tokens": 662,
+          "total_tokens": 791,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 11558
+        },
+        "adjudicator": {
+          "input_tokens": 169,
+          "output_tokens": 111,
+          "total_tokens": 280,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4093
+        }
+      }
+    },
+    {
+      "id": 163,
+      "claim": "Bariatric surgery has a positive impact on mental health.",
+      "gold": "SUPPORT",
+      "evidence": "Document 18872233: Bariatric surgery was, however, consistently associated with postoperative decreases in the prevalence of depression (7 studies; 8%-74% decrease) and the severity of depressive symptoms (6 studies; 40%-70% decrease).   \n Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nThe evidence demonstrates that bariatric surgery reduces both the prevalence and severity of depression, a major component of mental health, thereby directly supporting the claim of a positive impact.",
+      "reviewer": "SUPPORT\nThe evidence indicates that bariatric surgery is associated with postoperative decreases in the prevalence and severity of depression, directly supporting a positive impact on mental health.",
+      "final": "SUPPORT\nBoth analyses correctly identify that the evidence shows a postoperative decrease in depression, which directly supports a positive mental health impact.",
+      "usage": {
+        "v0": {
+          "input_tokens": 141,
+          "output_tokens": 214,
+          "total_tokens": 355,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4703
+        },
+        "reviewer": {
+          "input_tokens": 155,
+          "output_tokens": 193,
+          "total_tokens": 348,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4207
+        },
+        "adjudicator": {
+          "input_tokens": 203,
+          "output_tokens": 142,
+          "total_tokens": 345,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3532
+        }
+      }
+    },
+    {
+      "id": 171,
+      "claim": "Basophils counteract disease development in patients with systemic lupus erythematosus (SLE).",
+      "gold": "CONTRADICT",
+      "evidence": "Document 12670680: We report that activation of basophils by autoreactive IgE causes their homing to lymph nodes, promoting T helper type 2 (T(H)2) cell differentiation and enhancing the production of self-reactive antibodies that cause lupus-like nephritis in mice lacking the Src family protein tyrosine kinase Lyn (Lyn(-/-) mice). Individuals with SLE also have elevated serum IgE, self-reactive IgEs and activated basophils that express CD62 ligand (CD62L) and the major histocompatibility complex (MHC) class II molecule human leukocyte antigen-DR (HLA-DR), parameters that are associated with increased disease activity and active lupus nephritis. Thus, in Lyn(-/-) mice, basophils and IgE autoantibodies amplify autoantibody production that leads to lupus nephritis, and in individuals with SLE IgE autoantibodies and activated basophils are factors associated with disease activity and nephritis.",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "CONTRADICT",
+      "v2_final_label": "CONTRADICT",
+      "draft": "CONTRADICT\nThe evidence demonstrates that activated basophils promote autoantibody production and are associated with increased disease activity and lupus nephritis, directly opposing the claim that they counteract disease development.",
+      "reviewer": "CONTRADICT\nThe evidence shows that activated basophils promote autoantibody production and are associated with increased disease activity and nephritis in SLE, indicating they contribute to disease development rather than counteracting it.",
+      "final": "CONTRADICT\nThe evidence demonstrates that activated basophils promote autoantibody production and are associated with increased disease activity and nephritis in SLE, directly contradicting the claim that they counteract disease development.",
+      "usage": {
+        "v0": {
+          "input_tokens": 269,
+          "output_tokens": 337,
+          "total_tokens": 606,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 6105
+        },
+        "reviewer": {
+          "input_tokens": 283,
+          "output_tokens": 176,
+          "total_tokens": 459,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 4075
+        },
+        "adjudicator": {
+          "input_tokens": 344,
+          "output_tokens": 91,
+          "total_tokens": 435,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3182
+        }
+      }
+    },
+    {
+      "id": 179,
+      "claim": "Birth-weight is positively associated with breast cancer.",
+      "gold": "SUPPORT",
+      "evidence": "Document 16322674: Birth weight was positively associated with breast cancer risk in studies based on birth records (pooled relative risk [RR] per one standard deviation [SD] [= 0.5 kg] increment in birth weight: 1.06; 95% confidence interval [CI] 1.02-1.09) and parental recall when the participants were children (1.02; 95% CI 0.99-1.05), but not in those based on adult self-reports, or maternal recall during the woman's adulthood (0.98; 95% CI 0.95-1.01) (p for heterogeneity between data sources = 0.003). Relative to women who weighed 3.000-3.499 kg, the risk was 0.96 (CI 0.80-1.16) in those who weighed < 2.500 kg, and 1.12 (95% CI 1.00-1.25) in those who weighed > or = 4.000 kg (p for linear trend = 0.001) in birth record data. CONCLUSIONS This pooled analysis of individual participant data is consistent with birth size, and in particular birth length, being an independent correlate of breast cancer risk in adulthood.\nDocument 27123743: The majority of studies identified a positive link between birthweight and premenopausal, but not postmenopausal, breast cancer. The relative risk estimate for breast cancer comparing women with high birthweight to women with low birthweight combining all studies including both pre- and postmenopausal breast cancer was 1.23 (95% confidence interval 1.13-1.34).\nDocument 23557241: Increased risk of breast cancer was noted with increased birthweight (relative risk [RR] 1.15 [95% CI 1.09-1.21]), birth length (1.28 [1.11-1.48]), higher maternal age (1.13 [1.02-1.25]), and paternal age (1.12 [1.05-1.19]).\nDocument 17450673: RESULTS We found that heavier birth weights were associated with increased breast cancer risk, with studies involving five categories of birth weight identifying odds ratios (ORs) of 1.24 (95% confidence interval [CI] 1.04 to 1.48) for 4,000 g or more and 1.15 (95% CI 1.04 to 1.26) for 3,500 g to 3,999 g, relative to a birth weight of 2,500 to 2,599 g. These studies provided no support for a J-shaped relationship of birthweight to risk. CONCLUSION Our findings provide some support for the hypothesis that in utero exposures reflective of higher endogenous hormone levels could affect risk for development of breast cancer in adulthood.",
+      "v0_label": "SUPPORT",
+      "v2_reviewer_label": "SUPPORT",
+      "v2_final_label": "SUPPORT",
+      "draft": "SUPPORT\nAll provided studies report a positive association (relative risks/odds ratios > 1) between higher birth weight and breast cancer risk, with overall pooled estimates showing increased risk (e.g., RR 1.23, 1.15, OR 1.24 for high birth weight categories).",
+      "reviewer": "SUPPORT  \nAll four documents report a positive association between higher birth weight and increased breast cancer risk, with statistically significant relative risks (e.g., RRs of 1.06–1.23), consistently supporting the claim.",
+      "final": "SUPPORT\nAll four documents consistently report a positive association between higher birthweight and increased breast cancer risk, with statistically significant relative risks above 1.",
+      "usage": {
+        "v0": {
+          "input_tokens": 664,
+          "output_tokens": 494,
+          "total_tokens": 1158,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 8414
+        },
+        "reviewer": {
+          "input_tokens": 678,
+          "output_tokens": 581,
+          "total_tokens": 1259,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 9482
+        },
+        "adjudicator": {
+          "input_tokens": 764,
+          "output_tokens": 85,
+          "total_tokens": 849,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 3147
+        }
+      }
+    },
+    {
+      "id": 180,
+      "claim": "Blocking the interaction between TDP-43 and respiratory complex I proteins ND3 and ND6 leads to increased TDP-43-induced neuronal loss.",
+      "gold": "CONTRADICT",
+      "evidence": "Document 16966326: The suppression of TDP-43 mitochondrial localization abolishes WT and mutant TDP-43-induced mitochondrial dysfunction and neuronal loss, and improves phenotypes of transgenic mutant TDP-43 mice.",
+      "v0_label": "CONTRADICT",
+      "v2_reviewer_label": "NEI",
+      "v2_final_label": "NEI",
+      "draft": "CONTRADICT\nThe evidence shows that suppressing TDP-43 mitochondrial localization abolishes neuronal loss, which contradicts the claim that blocking the specific interaction with ND3 and ND6 would increase neuronal loss.",
+      "reviewer": "NEI\nThe evidence discusses suppression of TDP-43 mitochondrial localization in general, without mentioning the specific interaction with ND3 or ND6. It is therefore insufficient to determine how blocking that particular interaction would affect neuronal loss.",
+      "final": "NEI\nThe evidence only discusses suppression of TDP-43 mitochondrial localization in general and does not mention the specific interaction with ND3 or ND6, making it insufficient to evaluate the claim.",
+      "usage": {
+        "v0": {
+          "input_tokens": 130,
+          "output_tokens": 333,
+          "total_tokens": 463,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 6129
+        },
+        "reviewer": {
+          "input_tokens": 144,
+          "output_tokens": 1610,
+          "total_tokens": 1754,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 24888
+        },
+        "adjudicator": {
+          "input_tokens": 208,
+          "output_tokens": 732,
+          "total_tokens": 940,
+          "attempt": 1,
+          "max_tokens_requested": 12000,
+          "latency_ms": 10868
+        }
+      }
+    }
+  ]
+}

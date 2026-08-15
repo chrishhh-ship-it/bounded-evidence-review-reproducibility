@@ -1,0 +1,105 @@
+{
+  "baseline": "method3_self_refine",
+  "query": "多智能协同系统的 reviewer agent 对最终报告质量能带来哪些可观察改进？",
+  "query_id": "Q07",
+  "effective_search_query": "multi-agent systems reviewer agent report quality improvement",
+  "provider": "deepseek",
+  "model": null,
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_score": 8,
+  "accepted_without_revision": true,
+  "all_retrieved_ids": [
+    "doi:10.1109/mwc.016.2300600",
+    "doi:10.1016/j.promfg.2020.10.044",
+    "doi:10.3390/jmmp4030089",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.17048/am.2020.122",
+    "title:an intelligent decision support system based on multi agent systems for business classification problem|2023",
+    "doi:10.1109/tnse.2021.3077766",
+    "doi:10.1109/jas.2021.1004132",
+    "title:reinforcing clinical decision support through multi-agent systems and ethical ai governance|2025",
+    "title:a multi-agent model to develop knowledge management systems|2026",
+    "title:multi-agent systems: a survey|2018",
+    "doi:10.1007/s10462-016-9520-8a",
+    "title:multi-agent systems for clinical decision support: a systematic review|2025",
+    "title:ai agents as knowledge navigators: a conceptual framework for multi-agent systems in scientific knowledge management|2025",
+    "title:enhancing clinical decision-making: integrating multi-agent systems with ethical ai governance|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "AI Agents as Knowledge Navigators: A Conceptual Framework for Multi-Agent Systems in Scientific Knowledge Management",
+      "year": 2025,
+      "journal": "P Gemelli, L Pagani, MI Zignego… - … -Computer Interaction & …, 2025 - books.google.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… The exponential expansion of scientific literature poses significant challenges in knowledge … for a multi-agent AI system designed to enhance scientific knowledge organization and …"
+    },
+    {
+      "title": "Multi-agent systems for clinical decision support: A systematic review",
+      "year": 2025,
+      "journal": "AL Silveira, R da Rosa Righi, CA Da Costa - Applied Soft Computing, 2025 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… Multi-agent reinforcement learning (MARL), ontology-based medical knowledge … (LLMs) are increasingly applied in clinical decision support systems (CDSSs). Despite rapid advances, …"
+    },
+    {
+      "title": "Reinforcing clinical decision support through multi-agent systems and ethical ai governance",
+      "year": 2025,
+      "journal": "YJ Chen, A Albarqawi, CS Chen - arXiv e-prints, 2025 - ui.adsabs.harvard.edu",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 17,
+      "abstract": "… artificial intelligence into clinical decision support systems (CDSS), are … Our results suggest that the multi-agent system (MAS) … AI-assisted decision support in an intensive care setting. …"
+    },
+    {
+      "title": "Enhancing Clinical Decision-Making: Integrating Multi-Agent Systems with Ethical AI Governance",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Recent advances in the data-driven medicine approach, which integrates ethically managed and explainable artificial intelligence into clinical decision support systems (CDSS), are critical to ensure reliable and effective patient care. This paper focuses on comparing novel agent system designs that use modular agents to analyze laboratory results, vital signs, and clinical context, and to predict and validate results. We implement our agent system with the eICU database, including running lab analysis, vitals-only interpreters, and contextual reasoners agents first, then sharing the memory into the integration agent, prediction agent, transparency agent, and a validation agent. Our results suggest that the multi-agent system (MAS) performed better than the single-agent system (SAS) with mo"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "An intelligent decision support system based on multi agent systems for business classification problem",
+      "year": 2023,
+      "journal": "M Haj Qasem, M Aljaidi, G Samara, R Alazaidah… - Sustainability, 2023 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 40,
+      "abstract": "… decision making. Document classification is one of the main decisions that any business adopts in their decision making … In this paper, we combined multi-agent systems (MASs), which …"
+    },
+    {
+      "title": "A Quality-Oriented Digital Twin Modelling Method for Manufacturing Processes Based on A Multi-Agent Architecture",
+      "year": "2020",
+      "journal": "Procedia Manufacturing",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.promfg.2020.10.044",
+      "citations": 72,
+      "abstract": "The quality of a product is highly dependent on manufacturing processes. The recent development of industrial information technologies, such as Cyber-Physical Production Systems, Industrial Internet of Things, and Big Manufacturing Data Analytics has empowered the digitalization of manufacturing processes and promoted the concept of Digital Twin (DT). As one of the fundamental enabling technologies for Industry 4.0, DT enables the convergence between a physical system and its digital representation. DT modelling is the basis of implementing DT in practice. In this paper, we propose a DT modelling method based on a multi-agent architecture. It focuses on quality control during manufacturing processes and provides solutions to gather relevant information and analyze the corresponding influen"
+    }
+  ],
+  "elapsed_seconds": 106.812,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method3_outputs\\Q07_method3_20260414_112105.md"
+}

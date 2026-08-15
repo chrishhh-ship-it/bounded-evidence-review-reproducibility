@@ -1,0 +1,17 @@
+{
+  "V0": {
+    "n": 30,
+    "gate_pass_n": 27,
+    "gate_pass_rate": 0.9
+  },
+  "V1": {
+    "n": 30,
+    "gate_pass_n": 29,
+    "gate_pass_rate": 0.9667
+  },
+  "V2": {
+    "n": 30,
+    "gate_pass_n": 30,
+    "gate_pass_rate": 1.0
+  }
+}

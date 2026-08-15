@@ -1,0 +1,175 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "引用准确率和 orphan citation rate 是否能作为智慧情报服务的核心指标？",
+  "effective_search_query": "引用准确率 orphan citation rate 智慧情报服务 核心指标",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.1108/tqm-10-2019-0243",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/tvt.2022.3173057",
+    "doi:10.1109/jsac.2021.3088669",
+    "doi:10.1109/access.2019.2916314",
+    "doi:10.12052/gdutxb.240047",
+    "doi:10.1111/ijcs.70066",
+    "doi:10.13998/j.cnki.issn1002-1248.25-0683",
+    "title:effects of property recovery incentives and social interaction on self-evacuation decisions in natural disasters: an agent-based modelling approach|2026",
+    "title:aracne: an llm-based autonomous shell pentesting agent|2025",
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003"
+  ],
+  "top_papers": [
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "year": "2020",
+      "journal": "The TQM Journal",
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "citations": 365,
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere ap"
+    },
+    {
+      "title": "Joint Secure Offloading and Resource Allocation for Vehicular Edge Computing Network: A Multi-Agent Deep Reinforcement Learning Approach",
+      "year": "2023",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2023.3242997",
+      "citations": 212,
+      "abstract": "The mobile edge computing (MEC) technology can simultaneously provide high-speed computing services for multiple vehicular users (VUs) in vehicular edge computing (VEC) networks. Nevertheless, due to the open feature of the wireless offloading channels and the high mobility of the vehicles, the security and stability of the offloading process would be seriously degraded. In this paper, by utilizing the physical layer security (PLS) technique and spectrum sharing architecture, we propose a deep reinforcement learning based joint secure offloading and resource allocation (SORA) scheme to improve the secrecy performance and resource efficiency of the multi-user VEC networks, where the VU offloading links share the frequency spectrum preoccupied with the vehicle-to-vehicle (V2V) communication "
+    },
+    {
+      "title": "Federated Multi-Agent Deep Reinforcement Learning for Resource Allocation of Vehicle-to-Vehicle Communications",
+      "year": "2022",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2022.3173057",
+      "citations": 154,
+      "abstract": "Dynamic topology, fast-changing channels and the time sensitivity of safety-related services present challenges to the status quo of resource allocation for cellular-underlaying vehicle-to-vehicle (V2V) communications. In this paper, we investigate a novel federated multi-agent deep reinforcement learning (FedMARL) approach for the decentralized joint optimization of channel selection and power control for V2V communication. The approach takes advantage of both deep reinforcement learning (DRL) and federated learning (FL), satisfying the reliability and delay requirements of V2V communication while maximizing the transmit rates of cellular links. Specifically, we elaborately construct individual V2V agent implement by the dueling double deep Q-network (D3QN), and design the reward function"
+    },
+    {
+      "title": "Multi-UAV Trajectory Planning for Energy-Efficient Content Coverage: A Decentralized Learning-Based Approach",
+      "year": "2021",
+      "journal": "IEEE Journal on Selected Areas in Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/jsac.2021.3088669",
+      "citations": 134,
+      "abstract": "In next-generation wireless networks, high-mobility unmanned aerial vehicles (UAVs) are promising to provide content coverage, where users can receive sufficient requested content within a given time. However, trajectory planning for multiple UAVs to provide content coverage is challenging since 1) UAVs cannot provide content coverage for all users due to the limited energy and caching storage, and 2) the trajectory planning of UAV is coupled with each other. Moreover, the complete information based trajectory planning methods are unusable since UAVs cannot obtain prior information on the rapidly changing environment. In this paper, we investigate the multi-UAV trajectory planning for energy-efficient content coverage. We first formulate an energy efficiency maximization problem considerin"
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning Based Cooperative Content Caching for Mobile Edge Networks",
+      "year": "2019",
+      "journal": "IEEE Access",
+      "source": "OpenAlex",
+      "doi": "10.1109/access.2019.2916314",
+      "citations": 80,
+      "abstract": "To address the drastic growth of data traffic dominated by streaming of video-on-demand files, mobile edge caching/computing (MEC) can be exploited to develop intelligent content caching at mobile network edges to alleviate redundant traffic and improve content delivery efficiency. Under the MEC architecture, content providers (CPs) can deploy popular video files at MEC servers to improve users’ quality of experience (QoE). Designing an efficient content caching policy is crucial for CPs due to the content dynamics, unknown spatial-temporal traffic demands, and limited service capacity. The knowledge of users’ preference is very useful and important for efficient content caching, yet often unavailable in advance. Under this circumstance, machine learning can be used to learn the users’ pre"
+    },
+    {
+      "title": "信息不对称下的智能网联汽车公平服务缓存与任务卸载算法",
+      "year": 2025,
+      "journal": "综合研究",
+      "source": "万方数据",
+      "doi": "10.12052/gdutxb.240047",
+      "citations": 9,
+      "abstract": "在延迟敏感任务存在的车联网中,车到车雾计算可有效缓解路边单元的计算任务过载.现有研究往往假设路边单元可获取网络中所有车辆全局算力信息,且假设提供服务车辆能够自主为服务请求车辆提供计算,然而其忽视了算法大规模实际部署时获取全局算力信息需要高昂的控制开销以及车辆的自私性.为此,针对车联网负载卸载中的自私性、信息不对称性和服务公平性问题,建立面向车辆雾计算的服务缓存与任务卸载整数数学线性规划模型,谋求 系统最小服务完成率最大.通过设计基于合同理论的高效轻量级激励机制以激励车辆提供雾计算资源,且路边单元无需获取全局车辆算力信息,从而更贴近实际运行环境.仿真实验结果表明,提出的基于合同的舍入算法(Contract-based Rounding Algorithm,CRA)与基准算法相比,最小服务完成率平均提升73.16%和48.72%,吞吐量降低平均不超过3.39%和14.96%. assume that roadside units can obtain the global computing capability <span class='highlight'>information</span> of all vehicles in the network,and <span class='highlight'>service</span> vehicles can autonomously provide computation for <span class='highlight'>service</span> requesting vehicles. However,the high control cost to obtain global computing power <span class='highlight'>information</span> and v"
+    },
+    {
+      "title": "Anthropomorphism of Artificial Intelligence Service Agent and Consumer Responses: A Systematic Literature Review and Future Research Agenda",
+      "year": "2025",
+      "journal": "International Journal of Consumer Studies",
+      "source": "OpenAlex",
+      "doi": "10.1111/ijcs.70066",
+      "citations": 8,
+      "abstract": "ABSTRACT Artificial intelligence service agent (AISA) anthropomorphism is increasingly applied in service situations to deliver consumers a more personalized service experience. Extensive research has explored it over the past decade. However, the body of knowledge about this domain remains fragmented due to the lack of a comprehensive review. This paper aims to understand the domain through a framework‐based systematic literature review approach. We conducted an in‐depth analysis of 149 peer‐reviewed articles retrieved on April 25, 2024. Significant results include (a) analyzing research profiling (i.e., publication, journal, citation, and country analysis), (b) synthesizing findings based on the theories‐contexts‐characteristics‐methods (TCCM) framework, and (c) proposing future research"
+    },
+    {
+      "title": "数字人文与农业知识服务的融合创新:基于仿真模拟的视角",
+      "year": 2026,
+      "journal": "研究论文",
+      "source": "万方数据",
+      "doi": "10.13998/j.cnki.issn1002-1248.25-0683",
+      "citations": 0,
+      "abstract": "[目的/意义]以农业知识服务为应用情境,探讨基于仿真模拟的数字人文工具体系及其与生成式人工智能融合的应用价值,明确相关方法在数字人文方法体系与农业知识服务实践中的功能定位.[方法/过程]系统梳理文献计量研究中常用的仿真方法,重点分析各类仿真方法如何通过数字人文工具实现可视化、系统化与可交互应用,并进一步引入生成式人工智能,探讨\"生成式智能体\"在多智能体仿真中的应用潜力及其对建模灵活性与情境表达 能力方面的拓展作用.[结果/结论]结果表明,基于仿真模拟的数字人文工具体系能够在农业知识服务中支持对文献增长结构、科研协作网络及知识传播机制的动态分析,并为科研评价、科技服务与政策传播等场景提供情景化的决策支持能力.生成式人工智能的引入进一步增强了数字人文工具对主体行为异质性与情境化决策过程的刻画水平.从实践角度看,该工具体系在农业图情与科技服务中具有应用潜力,但仍面临数据质量、计算成本与模型可解释 性等方面的挑战. humanities tools can be effectively embedded into agricultural <span class='highlight'>knowledge</span> <span class='highlight'>service</span> workflows.These applications include research evaluation,scientific information services,and policy communication,where  digital humanities tools and agricultural <span class='highlight'>knowledge</span> services.In particular,the paper highlights"
+    },
+    {
+      "title": "Effects of Property Recovery Incentives and Social Interaction on Self-Evacuation Decisions in Natural Disasters: An Agent-Based Modelling Approach",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Understanding evacuation decision-making behaviour is one of the key components for designing disaster mitigation policies. This study investigates how communications between household agents in a community influence self-evacuation decisions. We develop an agent-based model that simulates household agents' decisions to evacuate or stay. These agents interact within the framework of evolutionary game theory, effectively competing for limited shared resources, which include property recovery funds and coordination services. We explore four scenarios that model different prioritisations of access to government-provided incentives. We discover that the impact of the incentive diminishes both with increasing funding value and the household agent prioritisation, indicating that there is an opti"
+    },
+    {
+      "title": "ARACNE: An LLM-Based Autonomous Shell Pentesting Agent",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "We introduce ARACNE, a fully autonomous LLM-based pentesting agent tailored for SSH services that can execute commands on real Linux shell systems. Introduces a new agent architecture with multi-LLM model support. Experiments show that ARACNE can reach a 60\\% success rate against the autonomous defender ShelLM and a 57.58\\% success rate against the Over The Wire Bandit CTF challenges, improving over the state-of-the-art. When winning, the average number of actions taken by the agent to accomplish the goals was less than 5. The results show that the use of multi-LLM is a promising approach to increase accuracy in the actions."
+    },
+    {
+      "title": "生成式人工智能赋能课堂教学的形态层级与进阶路径",
+      "year": 2025,
+      "journal": "课程与教学",
+      "source": "万方数据",
+      "doi": "10.13811/j.cnki.eer.2025.06.010",
+      "citations": 193,
+      "abstract": "生成式人工智能深度赋能课堂教学,既是技术演进的必然趋势,也是教育高质量发展的内在需求.文章系统阐释了不同赋能形态的内涵特征与内在关联,构建了生成式人工智能赋能课堂教学的形态层级框架并提供了典型示例.该框架包括四个逐级递进、相互关联的层级:\"劳动替代与任务辅助\"作为基础形态,聚焦基础性教学任务的工具赋能;\"能力增强与边界拓展\"作为初级形态,致力于提升教学效能与拓展教学边界,提供多样化服务赋能;\" 人机协同与创新激活\"作为中级形态,强调人机深度协作与教学创新能力的激发,实现具有协同意识的智能主体赋能;\"认知融通与思维塑造\"作为高级形态,着眼于教学智慧的深度融合与高阶思维的培养,实现多元智能体共生的融合赋能.基于生成式人工智能赋能课堂教学的形态演进所呈现的层次性与纵深性特征,文章进一步提出实现层级进阶的系统化路径,包括政策指引与制度保障、素养提升与观念完善、价值重塑与技术突破. The innovative integration and deep empowerment of generative artificial <span class='highlight'>intelligence</span>(AI)with classroom teaching represent both an inevitable trend in technological evolution and an intrinsic  boundaries,thus providing diversified <span class='highlight'>service</span> empowerment;\"human-machine collaboration and innovation activation\"as the intermediate form,emphasizing dee"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    },
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    }
+  ],
+  "outline": "# 引用准确率与孤儿引用率作为智慧情报服务核心指标的评估框架\n\n## 1. 引言：智慧情报服务的演进、指标需求与挑战\n*本节概述情报工作向智能化模式的转型，界定智慧情报服务的范畴与核心功能。阐述在服务效能评估中对科学、可量化核心指标的迫切需求，分析传统文献计量指标的局限性，并引出引用准确率与孤儿引用率作为潜在核心指标的研究问题。*\n\n### 1.1 智慧情报服务的演进：从传统模式到智能体驱动的范式转型\n*基于文献[14]等，概述情报工作从传统文献检索向大模型驱动、智能体赋能的深刻转型，界定“智能即情报”等新模式的内涵，并阐述智慧情报服务在科研[13]、应急管理[15]等领域的核心功能与范畴。*\n\n### 1.2 服务效能评估的指标需求与挑战\n*阐述在智慧情报服务（如科研知识服务[13]、智能网联汽车服务[2]）效能评估中，对科学、可量化核心指标的迫切需求，分析传统文献计量或单一技术指标在衡量智能化、主动化服务价值时的局限性。*\n\n### 1.3 潜在核心指标的引出：引用准确率与孤儿引用率\n*基于智慧情报服务在知识关联构建[13]与完整性保障方面的核心功能，引出“引用准确率”与“孤儿引用率”作为衡量知识发现可靠性、知识网络完整性的潜在核心指标，并点明将其置于智能服务（如AI代理[12]、人机协同[11]）语境下评估的研究问题。*\n\n## 2. 核心概念与测量方法：定义与理论剖析\n*本节深入定义并辨析“引用准确率”与“孤儿引用率”在智能体驱动的情报服务语境下的具体内涵。系统回顾与梳理其计算方法、测量技术及在衡量情报服务知识发现、关联构建与知识完整性方面的理论意义与价值。*\n\n### 2.1 智能情报服务语境下核心指标的内涵界定\n*结合智能体驱动的服务模式（如[13][14]所述），明确定义“引用准确率”与“孤儿引用率”在智慧情报服务中的具体概念，辨析其与传统文献计量学中相关概念的区别与联系，并阐述其在衡量服务知识发现与关联构建质量方面的核心价值。*\n\n### 2.2 测量方法与技术实现路径\n*系统梳理两项指标的计算逻辑、数据来源与量化方法，回顾并分析现有测量技术（如基于知识图谱的关联验证、大模型驱动的语义分析等，参考[12][13]），并讨论在智能服务场景（如[15]中的应急情报体系）中实施测量的可行技术与潜在挑战。*\n\n### 2.3 理论意义与评估维度剖析\n*深入剖析两项指标在评估智慧情报服务知识完整性、逻辑严谨性及服务可靠性方面的理论意义。结合智能服务形态（如[11]中的人机协同层级），构建以引用质量为核心，涵盖知识关联强度、信息链完整性等多维度的理论评估框架。*\n\n## 3. 实证关联与应用场景分析\n*本节综合来自科研、智能网联汽车、AI服务代理、数字人文、网络安全等跨领域智慧服务场景的实证证据。分析两项指标在不同服务形态（如任务辅助、人机协同）中的实际测量、潜在关联、应用效果及其作为效能衡量工具的实证基础与局限性。*\n\n### 3.1 跨领域智慧服务场景中的指标测量实践\n*基于候选文献，分析引用准确率与孤儿引用率在科研知识服务、智能网联汽车、AI服务代理、数字人文及网络安全等具体场景中的可测量性与实际应用方式。例如，在科研知识服务中探讨智能体如何结构化知识并影响引用质量；在车联网中分析任务卸载决策对情报关联完整性的隐喻。*\n\n### 3.2 不同服务形态下的指标表现与关联分析\n*依据服务形态的演进（如从任务辅助到人机协同），分析两项指标在不同形态下的潜在关联与应用效果。结合生成式AI赋能教学的形态层级框架，探讨指标如何随服务智能化程度深化而变化，并评估其在衡量服务效能（如知识发现、决策支持）方面的实证基础。*\n\n### 3.3 作为效能衡量工具的实证局限性与挑战\n*综合各应用场景的证据，批判性分析将引用准确率与孤儿引用率作为核心效能指标的局限性。具体讨论数据获取与标准化困难、领域依赖性、情境化解释需求（如应急情报的时效性与准确性权衡）以及智能体行为不确定性带来的测量挑战。*\n\n## 4. 综合评估：可行性、局限性与整合框架\n*本节批判性评估两项指标作为核心关键绩效指标的可行性，系统分析其优势、实践挑战（如数据获取、领域依赖性、情境化需求）及适用范围。在此基础上，提出一个将引用质量指标与情境化服务效能相结合的综合性评估框架。*\n\n### 4.1 作为核心KPI的可行性评估：优势与潜在价值\n*本小节系统分析引用准确率与孤儿引用率作为智慧情报服务核心关键绩效指标的理论优势与潜在价值，包括其对服务知识完整性、关联构建质量、可信度与可解释性的直接衡量能力，以及在驱动服务优化、支持人机协同决策中的核心作用。*\n\n### 4.2 实践挑战与局限性分析\n*本小节批判性探讨两项指标在落地应用中面临的主要挑战与局限性，涵盖数据获取与处理的复杂性（如非结构化文本解析）、领域依赖性、情境化需求差异（如不同服务形态对指标权重的不同要求），以及可能存在的度量偏差与操纵风险。*\n\n### 4.3 跨场景适用性与范围界定\n*本小节基于候选文献中的多元应用场景（如科研知识服务、应急情报、智能网联汽车、AI教学代理），分析两项指标在不同智慧情报服务形态（从任务辅助到人机协同）中的适用性差异，并界定其作为核心指标的有效作用范围与边界条件。*\n\n### 4.4 整合框架构建：指标、情境与效能融合\n*本小节提出一个综合性评估框架，旨在将引用质量指标（准确率、孤儿率）与具体服务场景、用户任务目标及人机协同深度等情境化因素相结合，构建一个多层次、动态可调的智慧情报服务效能评估模型，以指导实践并弥补单一指标的不足。*\n\n## 5. 未来研究方向与展望\n*本节基于前述分析，提出未来具体的研究议程，包括指标的完善与标准化、测量技术的集成、跨领域验证，以及推动智慧情报服务向高级形态演进的政策与技术路径。*\n\n### 5.1 指标体系的完善、标准化与情境化适配\n*针对引用准确率与孤儿引用率，提出具体的研究议程，包括指标定义的精细化、计算方法的标准化，以及根据不同智慧情报服务场景（如应急响应、科研辅助）进行动态权重调整与情境化适配的路径。*\n\n### 5.2 测量技术的集成创新与多模态数据融合\n*探讨如何集成大语言模型、知识图谱、多智能体协同等前沿技术，实现两项指标的高效、自动化测量。重点研究跨模态数据（文本、代码、图谱）的融合处理，以应对复杂、动态情报服务环境下的评估挑战。*\n\n### 5.3 跨领域验证与效能关联的实证研究拓展\n*规划在更广泛的智慧服务领域（如智能网联汽车、数字人文、网络安全）开展实证研究，验证两项指标的普适性与局限性。深入研究指标数值与最终服务效能（如决策质量、创新激发）之间的因果或强关联机制。*\n\n### 5.4 推动服务进阶的政策路径与技术生态构建\n*基于智慧情报服务的形态演进理论，提出将引用质量指标嵌入服务设计与评估的政策建议与技术标准。探讨如何通过指标引导，构建促进人机协同、认知融通的高级智慧情报服务生态所需的技术突破与制度保障。*",
+  "cited_ids": [
+    2,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "elapsed_seconds": 367.946,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q06_autosurvey_20260419_002255.md"
+}

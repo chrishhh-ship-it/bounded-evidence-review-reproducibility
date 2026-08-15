@@ -1,0 +1,241 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q115",
+  "query": "How should a systematic literature review in digital humanities handle the citation of software tools as primary research contributions?",
+  "domain_id": "digital_humanities",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q115_method1_exp_20260413_082613.json",
+  "same_query_evidence_ids": [
+    "doi:10.1057/s41599-024-02978-7",
+    "doi:10.7146/cfasr.v16i2.162827",
+    "doi:10.1016/j.ijinfomgt.2020.102225",
+    "doi:10.1093/jamia/ocaf063",
+    "doi:10.62823/ijira/5.3(ii).8151",
+    "doi:10.3390/en13061473",
+    "doi:10.2196/preprints.49164",
+    "doi:10.1016/j.future.2025.107829"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.1057/s41599-024-02978-7",
+    "doi:10.7146/cfasr.v16i2.162827",
+    "doi:10.1016/j.ijinfomgt.2020.102225",
+    "doi:10.1093/jamia/ocaf063",
+    "doi:10.62823/ijira/5.3(ii).8151",
+    "doi:10.3390/en13061473",
+    "doi:10.2196/preprints.49164",
+    "doi:10.1016/j.future.2025.107829"
+  ],
+  "top_papers": [
+    {
+      "title": "How do we study misogyny in the digital age? A systematic literature review using a computational linguistic approach",
+      "authors": [
+        "Lara Fontanella",
+        "Berta Chulvi",
+        "Elisa Ignazzi",
+        "A. Sarra",
+        "Alice Tontodimamma"
+      ],
+      "abstract": "Nowadays, despite centuries of striving for equality, women still face higher levels of discrimination compared to men in nearly every aspect of life. Recently, this systemic inequality has manifested in cyberspace through the proliferation of abusive content that is even more aggressive than what one would expect in the 21st century. Various research disciplines are now attempting to characterise this new manifestation of misogyny. The endeavour to comprehend this phenomenon has resulted in a significant increase in publications from several fields, including Social Sciences, Arts and Humanities, Psychology, and Computer Science. This paper presents a systematic review of multidisciplinary research on misogyny from the years 1990 to 2022, encompassing a total of 2830 articles retrieved from the Scopus database as of December 31, 2022. The literature is thoroughly analysed using three approaches: bibliometric analysis, topic detection, and qualitative analysis of the documents. The findings suggest that the analysis of online misogyny has been the primary driver behind the exponential growth in publications in this field. Additionally, the results of the topic analysis and topic interaction reveal a limited connection between the areas of knowledge that are necessary to fully grasp this complex phenomenon.",
+      "year": "2024",
+      "published_date": "2024-04-02",
+      "journal": "Humanities and Social Sciences Communications",
+      "url": "https://www.semanticscholar.org/paper/aa211982ba661c19c4f362226b17f649f1ff05dd",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 32,
+      "source": "Semantic Scholar",
+      "doi": "10.1057/s41599-024-02978-7",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "The Impact and Value of Research in the Arts and Humanities - A Systematic Literature Review",
+      "authors": [
+        "C. Bloch",
+        "Alan Irwin",
+        "E. K. Schmidt",
+        "Anna Vigsø Pedersen",
+        "Amalie Due Svendsen"
+      ],
+      "abstract": "Research and research policy have increasingly directed attention towards issues concerning the impact of research. This focus appears to be driven by a range of factors, including: the wish to demonstrate accountability with regard to public funding, the need to measure and benchmark research quality, and a growing interest in understanding and documenting the connection between research and its societal use (Penfield et al., 2014). Research in the Arts and Humanities (A&H) is no exception from this trend, stimulating considerable debate over the impact of A&H research, as well as on how this impact can be demonstrated (Pedersen et al., 2020; Reale et al., 2018).\nAt the same time, there is a lack of consensus on how valuation and impact in A&H can be understood and measured. Indeed, some scholars question whether the ‘impact’ concept is even appropriate in terms of capturing how A&H research matters for society (Belfiore, 2015; Collini, 2012). In contrast to disciplines within Science, Technology, Engineering and Mathematics (STEM), the societal impact of A&H research may be more difficult to grasp. Hence, a better understanding of the nature of A&H research, as well as how value creation takes place, are central to an appreciation of research impact in A&H and the factors that can promote or hinder it.\nThe Danish Centre for Studies in Research and Research Policy (CFA) at Aarhus University has undertaken a study of existing knowledge about the societal impact of Arts and Humanities research. The goal of this study is to review and synthesise work on the impact of A&H research, including how this impact can be conceptualised and the role of funding and evaluation in promoting this research and its impact. The study was funded by the Augustinus Foundation. This study is based on a systematic literature review as well as insights drawn directly from experts in the field of societal impact, A&H researchers and other key stakeholders.",
+      "year": "2025",
+      "published_date": "2025-10-01",
+      "journal": "CFA Scientific Reports",
+      "url": "https://www.semanticscholar.org/paper/b83c926c6cf407efc1505ad813e1ad9e649d8ddd",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.7146/cfasr.v16i2.162827",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities literature review automation benchmark"
+    },
+    {
+      "id": "wf_81cc8dc010dc69b0fac26302ba78737c",
+      "title": "The strategic use of artificial intelligence in the digital era: Systematic literature review and future research directions",
+      "abstract": "<span class='highlight'>Artificial</span> <span class='highlight'>Intelligence</span> tools have attracted attention from the <span class='highlight'>literature</span> and business organizations in the last decade, especially by the advances in machine learning techniques. However, despite   and frameworks, highlighting the potential benefits, challenges and opportunities; presenting a discussion about future research directions. Through a <span class='highlight'>systematic</span> <span class='highlight'>literature</span> <span class='highlight'>review</span>, research articles  value. In this context, the present study aims to fill this gap by: providing a critical <span class='highlight'>literature</span> <span class='highlight'>review</span> related to the integration of AI to organizational strategy; synthetizing the existing approaches iii) <span class='highlight'>automation</span>; and (iv) new products and services. These findings contribute to both theoretical and managerial perspectives, with extensive opportunities for generating novel theory and new forms of  the great potential of AI technologies for solving problems, there are still issues involved in practical use and lack of knowledge as regards using AI in a strategic way, in order to create business",
+      "authors": [
+        "Borges, Aline F. S.",
+        "Laurindo, Fernando J. B.",
+        "Spinola, Mauro M.",
+        "Gonsalves, Rodrigo F.",
+        "Mattos, Claudia A."
+      ],
+      "year": 2021,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1016/j.ijinfomgt.2020.102225",
+      "doi": "10.1016/j.ijinfomgt.2020.102225",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "Artificial intelligence",
+        "Deep learning",
+        "Machine learning",
+        "Business strategy",
+        "Information technology",
+        "Literature review"
+      ],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent literature review"
+    },
+    {
+      "title": "The emergence of large language models as tools in literature reviews: a large language model-assisted systematic review.",
+      "authors": [
+        "Dmitry Scherbakov",
+        "Nina Hubig",
+        "Vinita Jansari",
+        "Alexander Bakumenko",
+        "Leslie A Lenert"
+      ],
+      "abstract": "This study aims to summarize the usage of large language models (LLMs) in the process of creating a scientific review by looking at the methodological papers that describe the use of LLMs in review automation and the review papers that mention they were made with the support of LLMs. The search was conducted in June 2024 in PubMed, Scopus, Dimensions, and Google Scholar by human reviewers. Screening and extraction process took place in Covidence with the help of LLM add-on based on the OpenAI GPT-4o model. ChatGPT and Scite.ai were used in cleaning the data, generating the code for figures, and drafting the manuscript. Of the 3788 articles retrieved, 172 studies were deemed eligible for the final review. ChatGPT and GPT-based LLM emerged as the most dominant architecture for review automation (n = 126, 73.2%). A significant number of review automation projects were found, but only a limited number of papers (n = 26, 15.1%) were actual reviews that acknowledged LLM usage. Most citations focused on the automation of a particular stage of review, such as Searching for publications (n = 60, 34.9%) and Data extraction (n = 54, 31.4%). When comparing the pooled performance of GPT-based and BERT-based models, the former was better in data extraction with a mean precision of 83.0% (SD = 10.4) and a recall of 86.0% (SD = 9.8). Our LLM-assisted systematic review revealed a significant number of research projects related to review automation using LLMs. Despite limitations, such as lower accuracy of extraction for numeric data, we anticipate that LLMs will soon change the way scientific reviews are conducted.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Journal of the American Medical Informatics Association : JAMIA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40332983/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Systematic Reviews as Topic",
+        "Review Literature as Topic",
+        "Programming Languages",
+        "Information Storage and Retrieval",
+        "Large Language Models"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1093/jamia/ocaf063",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models systematic review"
+    },
+    {
+      "title": "Digital Financial Literacy in the Era of FinTech: A Systematic Literature Review and Bibliometric Analysis",
+      "authors": [
+        "R. Devi",
+        "N. Nazma"
+      ],
+      "abstract": "This systematic literature review explores the role of digital financial literacy (DFL) in enhancing financial decision-making and access to digital financial services. The review focuses on tourism entrepreneurship and rural women's empowerment, with a focus on journal and author contributions and countries. The research dataset spans from 1993 to 2025, with 149 publications published, showing a 9.81% yearly growth rate. Financial inclusion is the top variable contributing to DFL, with the most significant contributions coming from international sources. Core sources include Investment Management and Financial Innovations, Cogent Business and Management, Sustainability, Resources Policy, Theoretical and Practical Research in the Economic Fields, and Humanities and Social Sciences Letters. India and China are the most influential contributors, with collaboration worldwide in the topic.",
+      "year": "2025",
+      "published_date": "2025-09-30",
+      "journal": "International Journal of Innovations &amp; Research Analysis",
+      "url": "https://www.semanticscholar.org/paper/eb09bd0ea3f6984f381eb20d575ffc2000112c00",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.62823/ijira/5.3(ii).8151",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities literature review automation benchmark"
+    },
+    {
+      "title": "Contributions and Risks of Artificial Intelligence (AI) in Building Smarter Cities: Insights from a Systematic Review of the Literature",
+      "authors": [
+        "Tan Yiğitcanlar",
+        "Kevin C. Desouza",
+        "Luke Butler",
+        "Farnoosh Roozkhosh"
+      ],
+      "abstract": "Artificial intelligence (AI) is one of the most disruptive technologies of our time. Interest in the use of AI for urban innovation continues to grow. Particularly, the rise of smart cities—urban locations that are enabled by community, technology, and policy to deliver productivity, innovation, livability, wellbeing, sustainability, accessibility, good governance, and good planning—has increased the demand for AI-enabled innovations. There is, nevertheless, no scholarly work that provides a comprehensive review on the topic. This paper generates insights into how AI can contribute to the development of smarter cities. A systematic review of the literature is selected as the methodologic approach. Results are categorized under the main smart city development dimensions, i.e., economy, society, environment, and governance. The findings of the systematic review containing 93 articles disclose that: (a) AI in the context of smart cities is an emerging field of research and practice. (b) The central focus of the literature is on AI technologies, algorithms, and their current and prospective applications. (c) AI applications in the context of smart cities mainly concentrate on business efficiency, data analytics, education, energy, environmental sustainability, health, land use, security, transport, and urban management areas. (d) There is limited scholarly research investigating the risks of wider AI utilization. (e) Upcoming disruptions of AI in cities and societies have not been adequately examined. Current and potential contributions of AI to the development of smarter cities are outlined in this paper to inform scholars of prospective areas for further research.",
+      "year": "2020",
+      "published_date": "2020-03-20",
+      "journal": "Energies",
+      "url": "https://doi.org/10.3390/en13061473",
+      "arxiv_id": "",
+      "keywords": [
+        "Context (archaeology)",
+        "Corporate governance",
+        "Sustainability",
+        "Smart city",
+        "Systematic review",
+        "Productivity",
+        "Applications of artificial intelligence",
+        "Big data"
+      ],
+      "citations": 498,
+      "source": "OpenAlex",
+      "doi": "10.3390/en13061473",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate governance systematic review automation"
+    },
+    {
+      "title": "How is Real World Evidence taught in Nursing? A Systematic review undertaking a narrative synthesis of the literature (Preprint)",
+      "authors": [
+        "Tristan Coombe",
+        "Lisa Burrows",
+        "Madison Milne-Ives",
+        "Edward Meinert"
+      ],
+      "abstract": "BACKGROUND\n                        Real World Evidence (RWE) comprises forms, methodologies and applications including data collected in naturally uncontrolled settings utilising non-interventional, non-controlled and non-experimental approaches.  RWE may overcome problems inherent with traditional research methodologies.  It more closely represents the real world and how interventions affect the patient experience and could be more suitable for assessing complex social interventions. Clinicians require the skills and knowledge to utilise it effectively and mitigate its disadvantages.  As Nurses are the largest group of healthcare professionals, exploring how to develop knowledge of RWE in nursing has a large potential benefit for research and care.\n                \n                                \n                    OBJECTIVE\n                        This systematic review (SR) aims to consider how RWE is taught within nursing and examine the benefits and outcomes of those teaching and learning activities.\n                \n                                \n                    METHODS\n                        An SR without Meta-Analysis narrative synthesis approach was conducted. MEDLINE (EBSCO), EMBASE (Ovid), PsycINFO, Cochrane, Web of Science, SCOPUS and IEEE were searched using free text terms and MeSH terms combined with Boolean operators associated with RWE forms, types and methodologies, teaching and nursing.  Final studies were appraised using MMAT and JBI tools.\n                \n                                \n                    RESULTS\n                        Kinaesthetic approaches, simulated learning, and case studies were undertaken in classroom and practice settings utilising real and simulated data, which may positively increase perceived satisfaction and knowledge with RWE.   Constructivism and experiential learning could be more suitable for RWE education with educators and students displaying increased positivity towards RWE compared with alternative pedagogical approaches.  Barriers to RWE education included negative educator and learner beliefs, organisational barriers and concerns regarding data security and confidentiality.  A majority of the studies were observational or descriptive and a number of areas of bias were identified during the appraisal process.\n                \n                                \n                    CONCLUSIONS\n                        Utilising a range of teaching and learning strategies in nursing that make learning relevant and meaningful may be important in RWE education.  More research is needed to develop further the definition, characteristics and applications of RWE, consider different pedagogical approaches and a wider range of RWE forms, methodologies and applications.",
+      "year": "2023",
+      "published_date": "2023-5-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2196/preprints.49164",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2196/preprints.49164",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "The role of Large Language Models in addressing IoT challenges: A systematic literature review",
+      "authors": [
+        "Gabriele De Vito",
+        "Fabio Palomba",
+        "Filomena Ferrucci"
+      ],
+      "abstract": "The Internet of Things (IoT) has revolutionized various sectors by enabling devices to communicate and interact seamlessly. However, developing IoT applications has data management, security, and interoperability challenges. Large Language Models (LLMs) have shown promise in addressing these challenges due to their advanced language processing capabilities. This Systematic Literature Review assesses the role of LLMs in addressing IoT challenges, exploring the strategies, hardware, and software configurations used, and identifying directions for future research. We extensively searched databases like Scopus, IEEE Xplore, and ACM Digital Library, initially screening 1,419 studies and identifying an additional 1,167 through snowballing, ultimately focusing on 55 relevant papers. The findings reveal LLMs’ potential to address key IoT challenges such as security and scalability. However, they also highlight significant obstacles, including high computational demands and the complexities of training and tuning these models. Future research should aim to develop methods to reduce the computational requirements of LLMs, improve training datasets, simplify implementation processes, and explore the ethical and privacy implications of using LLMs in IoT applications.",
+      "year": "2025",
+      "published_date": "2025-04-01",
+      "journal": "Future generations computer systems",
+      "url": "https://www.semanticscholar.org/paper/f7c99ee4025a033f77d29502bf29c27455c69896",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 16,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.future.2025.107829",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models systematic review"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "1848af81e424e0eb31f6fed626b173d27c8c6f62d9266ad0eb3cc2d1f12b0c63",
+  "elapsed_seconds": 12.499,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q115_schema_single_agent_20260724_023228.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

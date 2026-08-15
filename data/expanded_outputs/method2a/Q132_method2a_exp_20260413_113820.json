@@ -1,0 +1,236 @@
+{
+  "query_id": "Q132",
+  "query": "How do alignment errors between OCR text and original page images propagate into citation grounding failures in DH pipelines?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Importance of investing time and money in integrating large language model-based agents into outbreak analytics pipelines",
+      "authors": [
+        "Albert Jan van Hoek",
+        "Sebastian Funk",
+        "Stefan Flasche",
+        "Billy J. Quilty",
+        "Esther van Kleef",
+        "Anton Camacho",
+        "Adam J. Kucharski"
+      ],
+      "abstract": "Outbreaks such as mpox and COVID-19 underscore the need for swift, evidence-based responses to limit their spread and save lives. Such evidence should be generated in real time. Generating these insights requires synthesis of many different sources of information and a combination of multiple distinct analytical techniques, from basic descriptive analysis to complex dynamic models.1Polonsky JA Baidjoe A Kamvar ZN et al.Outbreak analytics: a developing data science for informing the response to emerging pathogens.Philos Trans R Soc Lond B Biol Sci. 2019; 37420180276Crossref PubMed Scopus (99) Google Scholar Timely generation of policy-relevant evidence relies on skilled staff and prebuilt outbreak analytics pipelines, alongside rapid literature reviews and ad-hoc data curation processes. Although these workflows are constantly improving, they continue to involve several time-intensive manual tasks such as abstract selection and data extraction, cleaning, and merging. Performing subsequent research and writing up results are also time intensive. At some instances, specific skills such as coding are required. In particular, multiple governments or organisations require regular situational updates against a background of changing data and epidemic dynamics, creating major bottlenecks in the ability to deliver analysis at scale. To improve and enhance the efficiency of real-time outbreak analytics and to reduce the number of potential bottlenecks, considerable opportunity to make use of newly emerging large language models (LLMs) exists. Recently, several advanced LLMs have become available, including GPT-4 from OpenAI and Gemini from Google. These LLMs are equipped with capabilities such as generating and interpreting text, writing and executing code, performing analytical tasks, and processing images. Integration of LLMs within outbreak analytic workflows can be achieved both directly and indirectly. The direct approach would be for analysts to interact with LLMs directly to assist in writing codes for analysis or to provide tailored feedback on written text, similar to the common tools currently available. The indirect approach would involve having the analyst interact with specialised LLM-based agents. LLM-based agents are computer programs that can deploy multiple LLMs with specific roles and specialisations to perform dedicated tasks, similar to how human teams divide projects on the basis of the experience and knowledge of the team members.2Xi Z Chen W Guo X et al.The rise and potential of large language model based agents: a survey.arXiv. 2023; (preprint)https://arxiv.org/abs/2309.07864Google Scholar Such agents can perform tasks to achieve specific goals, either on their own or collaboratively with other agents, with the outputs of one agent’s task becoming an input for the next agent or in dialogue with the analyst. We observe several key advantages in utilising specialised LLM-based agents. A primary advantage of using LLM-based agents, compared with using LLMs directly through prompting, lies in their ability to formalise LLM team interactions, enabling optimisation of workflows and quality control to enhance consistency and reproducibility. Furthermore, using multiple agents allows for more review steps before presenting the answer to the analyst, which can yield a higher-quality output than that obtained using direct prompting. Moreover, simultaneous deployment of LLM-based agents allows multiple tasks to be performed simultaneously and at scale. Through collaboration, multiple agents could complete more complex tasks. Finally, LLM agents, equipped with memory capabilities, enhance their performance over time by learning from their previous experience to accomplish tasks more effectively. Given these characteristics and the anticipated increasing capabilities of LLMs, developing several specifically defined LLM-based agents as part of the outbreak analytics pipeline has considerable potential for improving its efficiency. Once developed and tested, these workflows can be scaled and replicated globally, providing round-the-clock operation and support and creating a more equitable distribution of analytical knowledge and expertise. However, as with all new technologies, the integration of these new LLMs should be approached with caution. Pilot studies, real-world testing, and validation against established benchmarks are necessary to understand the limitations of the models; learn about their stability and costs; acquire experience with optimal use; learn all ethical implications; and develop consistency, trust, and acceptance. This learning will also allow for implementation of necessary governance structures and oversight to prevent misuse or unintended consequences, as misinterpretation of data or failure to capture nuances could lead to erroneous conclusions or recommendations, having serious consequences. Furthermore, integrating the use of LLMs will require training of staff and adaptation of hardware and software infrastructures to support these pipelines. Although LLMs in outbreak responses can lead to important efficiency gains in time and quality, this article is not a call for all tasks to be replaced by LLM agents. A sufficiently nuanced interpretation of outbreak data is difficult, with profound consequences, for which human skill, responsibility, and input are key. Therefore, creating an environment in which skilled staff can focus more of their time on these problems is crucial. Cautious use of this approach might also empower less technically trained staff to solve these problems. We declare no competing interests. During the preparation of this manuscript, the author used OpenAI GPT-4 using GPT “Academic Assistant Pro” to generate an initial sketch draft based on an extended outline with relevant topics in bullet points produced by the main author. After using this tool/service, the authors substantially reworked and edited the content and then performed an AI check for grammar and spelling of a near final version. The authors take full responsibility for the content of the publication.",
+      "year": "2024",
+      "published_date": "2024-05-17",
+      "journal": "The Lancet Microbe",
+      "url": "https://doi.org/10.1016/s2666-5247(24)00104-6",
+      "arxiv_id": "",
+      "keywords": [
+        "Analytics",
+        "Data science",
+        "Computer science",
+        "Situation awareness",
+        "Big data",
+        "Workflow",
+        "Dashboard",
+        "Engineering"
+      ],
+      "citations": 8,
+      "source": "OpenAlex",
+      "doi": "10.1016/s2666-5247(24)00104-6",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Text analysis using deep neural networks in digital humanities and information science",
+      "authors": [
+        "Omri Suissa",
+        "Avshalom Elmalech",
+        "Maayan Zhitomirsky‐Geffet"
+      ],
+      "abstract": "Abstract Combining computational technologies and humanities is an ongoing effort aimed at making resources such as texts, images, audio, video, and other artifacts digitally available, searchable, and analyzable. In recent years, deep neural networks (DNN) dominate the field of automatic text analysis and natural language processing (NLP), in some cases presenting a super‐human performance. DNNs are the state‐of‐the‐art machine learning algorithms solving many NLP tasks that are relevant for Digital Humanities (DH) research, such as spell checking, language detection, entity extraction, author detection, question answering, and other tasks. These supervised algorithms learn patterns from a large number of “right” and “wrong” examples and apply them to new examples. However, using DNNs for analyzing the text resources in DH research presents two main challenges: (un)availability of training data and a need for domain adaptation. This paper explores these challenges by analyzing multiple use‐cases of DH studies in recent literature and their possible solutions and lays out a practical decision model for DH experts for when and how to choose the appropriate deep learning approaches for their research. Moreover, in this paper, we aim to raise awareness of the benefits of utilizing deep learning models in the DH community.",
+      "year": "2021",
+      "published_date": "2021-06-30",
+      "journal": "Journal of the Association for Information Science and Technology",
+      "url": "https://doi.org/10.1002/asi.24544",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Artificial intelligence",
+        "Deep learning",
+        "Field (mathematics)",
+        "Digital humanities",
+        "Domain (mathematical analysis)",
+        "Spell",
+        "Question answering"
+      ],
+      "citations": 63,
+      "source": "OpenAlex",
+      "doi": "10.1002/asi.24544",
+      "open_access": false,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "title": "From OCR to Analysis: Tracking Correction Provenance in Digital Humanities Pipelines",
+      "authors": [
+        "Haoze Guo",
+        "Ziqi Wei"
+      ],
+      "abstract": "Optical Character Recognition (OCR) is a critical but error-prone stage in digital humanities text pipelines. While OCR correction improves usability for downstream NLP tasks, common workflows often overwrite intermediate decisions, obscuring how textual transformations affect scholarly interpretation. We present a provenance-aware framework for OCR-corrected humanities corpora that records correction lineage at the span level, including edit type, correction source, confidence, and revision status. Using a pilot corpus of historical texts, we compare downstream named entity extraction across raw OCR, fully corrected text, and provenance-filtered corrections. Our results show that correction pathways can substantially alter extracted entities and document-level interpretations, while provenance signals help identify unstable outputs and prioritize human review. We argue that provenance should be treated as a first-class analytical layer in NLP for digital humanities, supporting reproducibility, source criticism, and uncertainty-aware interpretation.",
+      "year": "2026",
+      "published_date": "2026-03-01",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.00884v3",
+      "arxiv_id": "2603.00884v3",
+      "keywords": [
+        "cs.HC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities literature review automation full text retrieval"
+    },
+    {
+      "title": "Using Large Language Models for Text Annotation in Social Science and Humanities: A Hands-On Python/R Tutorial",
+      "authors": [
+        "Qixiang Fang",
+        "Javier Garcia-Bernardo",
+        "Erik-Jan van Kesteren"
+      ],
+      "abstract": "Large language models (LLMs) have become an essential tool for social scientists and humanities (SSH) researchers who work with textual data. One particularly valuable use case is automating text annotation, traditionally a time-consuming step in preparing data for empirical analysis. Yet, many SSH researchers face two challenges: getting started with LLMs, and understanding how to evaluate and correct for their limitations. The rapid pace of model development can make LLMs appear inaccessible or intimidating, while even experienced users may overlook how annotation errors can bias results from downstream analyses (e.g., regression estimates, $p$-values), even when accuracy appears high. This tutorial provides a step-by-step, hands-on guide to using LLMs for text annotation in SSH research for both Python and R users. We cover (1) how to choose and access LLM APIs, (2) how to design and run annotation tasks programmatically, (3) how to evaluate annotation quality and iterate on prompts, (4) how to integrate annotations into statistical workflows while accounting for uncertainty, and (5) how to manage cost, efficiency, and reproducibility. Throughout, we provide concrete examples, code snippets, and best-practice checklists to help researchers confidently and transparently incorporate LLM-based annotation into their workflows.",
+      "year": "2025",
+      "published_date": "2025-11-13",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.31235/osf.io/v4eq6_v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.31235/osf.io/v4eq6_v1",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models full text retrieval"
+    },
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "How to enable healthier and more sustainable food practices in collective meal contexts: A scoping review.",
+      "authors": [
+        "João Graça",
+        "Lúcia Campos",
+        "David Guedes",
+        "Lisa Roque",
+        "Vasco Brazão",
+        "M. Truninger",
+        "Cristina Godinho"
+      ],
+      "abstract": "Collective meal contexts such as restaurants, cafeterias and canteens can help accelerate transitions to healthier and more sustainable diets. However, evidence from intervention studies on these contexts lacks integration. This scoping review aimed to map determinants of dietary change in collective meal contexts across multiple settings, interventions, target groups, and target behaviors. The review provided two main outcomes: (i) identifying intervention components to promote dietary change in collective meal contexts, based on the existing body of evidence; and (ii) classifying and integrating these intervention components into an overarching framework of behavior change (i.e., COM-B system). The review encompassed twenty-eight databases via two indexing services and extracted information from 232 primary sources (27,458 records selected for title and abstract screening, 574 articles selected for full-text screening). We identified a total of 653 intervention activities, which were classified into intervention components and grouped under three broad themes, namely contextual and environmental changes, social influence, and knowledge and behavioral regulation. Multi-component interventions tended to report overall positive outcomes. The review proposes several directions for future research, including: (i) moving toward more theory-based interventions in collective meal contexts; (ii) providing more detailed information about intervention settings, implementation, target groups, activities, and materials; and (iii) improving the use of open science practices in the field. Furthermore, the review offers a free, original, open-access list and synthesis of 277 intervention studies in collective meal contexts, which can help intervention planners and evaluators optimize their efforts to promote healthier and more sustainable food practices in these contexts.",
+      "year": "2023",
+      "published_date": "2023-05-01",
+      "journal": "Appetite",
+      "url": "https://www.semanticscholar.org/paper/7a3f47d615cabbb30ce1b8abc39d1ee072c8a05f",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 30,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.appet.2023.106597",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis full text retrieval"
+    },
+    {
+      "title": "Errors of commission and omission in artificial intelligence: contextual biases and voids of ChatGPT as a research assistant",
+      "authors": [
+        "Hamidah M. Salleh"
+      ],
+      "abstract": "Abstract The human interaction with machines has come a long way from the ancient times to the Artificial Intelligence (AI) tools today, threatening individuals and organisations in various professions. ChatGPT (CGPT) has entered on the scenes to replace researchers and research assistants, creating a hysertia and hype at every level that CGPT will replace science. Although it is dubbed as a substitute of scholars, CGPT, its true implications can be judged by the error of omission versus commission to answer whether CGPT plays an effective role in the efficiency and effectiveness of supporting research and practice. Based on the framework of errors of commission and omission, this article tests the function of CGPT as a research assistant, which answers theoretical question why biases occur (if any) and how they occur, and a practical question how to prevent them. This article is based on an experiment with CGPT to test whether it can produce (a) summaries based on citations, (b) citations based on summaries it produced, and (c) citations based on the published abstract of the research article in the literature. For consistency, this study uses 1 author (who was able and willing to participate), 34 publications in referred journals, multiple experiments. The result shows three patterns. First, CGPT produced summaries of all citations correctly, and the proximity between the abstract and summary ranged from 5 to 10 with average about 7 on 10-scale. Second, the summary to citation was 100% inaccurate and biased. Third, the link from the abstract to citation was 100% biased. In the theory of errors of omission and errors of commission, this study explains where, how and why those errors occur in the contextualised world.",
+      "year": "2023",
+      "published_date": "2023-08-01",
+      "journal": "Digital Economy and Sustainable Development",
+      "url": "https://doi.org/10.1007/s44265-023-00015-0",
+      "arxiv_id": "",
+      "keywords": [
+        "Citation",
+        "Commission",
+        "Consistency (knowledge bases)",
+        "Computer science",
+        "Function (biology)",
+        "Scale (ratio)",
+        "Test (biology)",
+        "Artificial intelligence"
+      ],
+      "citations": 10,
+      "source": "OpenAlex",
+      "doi": "10.1007/s44265-023-00015-0",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant"
+    },
+    {
+      "title": "How do we study misogyny in the digital age? A systematic literature review using a computational linguistic approach",
+      "authors": [
+        "Lara Fontanella",
+        "Berta Chulvi",
+        "Elisa Ignazzi",
+        "A. Sarra",
+        "Alice Tontodimamma"
+      ],
+      "abstract": "Nowadays, despite centuries of striving for equality, women still face higher levels of discrimination compared to men in nearly every aspect of life. Recently, this systemic inequality has manifested in cyberspace through the proliferation of abusive content that is even more aggressive than what one would expect in the 21st century. Various research disciplines are now attempting to characterise this new manifestation of misogyny. The endeavour to comprehend this phenomenon has resulted in a significant increase in publications from several fields, including Social Sciences, Arts and Humanities, Psychology, and Computer Science. This paper presents a systematic review of multidisciplinary research on misogyny from the years 1990 to 2022, encompassing a total of 2830 articles retrieved from the Scopus database as of December 31, 2022. The literature is thoroughly analysed using three approaches: bibliometric analysis, topic detection, and qualitative analysis of the documents. The findings suggest that the analysis of online misogyny has been the primary driver behind the exponential growth in publications in this field. Additionally, the results of the topic analysis and topic interaction reveal a limited connection between the areas of knowledge that are necessary to fully grasp this complex phenomenon.",
+      "year": "2024",
+      "published_date": "2024-04-02",
+      "journal": "Humanities and Social Sciences Communications",
+      "url": "https://www.semanticscholar.org/paper/aa211982ba661c19c4f362226b17f649f1ff05dd",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 32,
+      "source": "Semantic Scholar",
+      "doi": "10.1057/s41599-024-02978-7",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    }
+  ],
+  "timestamp": "20260413_113820"
+}

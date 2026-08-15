@@ -1,0 +1,103 @@
+{
+  "baseline": "method4_cot_citation",
+  "query": "引用准确率和 orphan citation rate 是否能作为智慧情报服务的核心指标？",
+  "query_id": "Q06",
+  "effective_search_query": "引用准确率 orphan citation rate 智慧情报服务 核心指标",
+  "provider": "deepseek",
+  "model": null,
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "doi:10.1108/tqm-10-2019-0243",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/tvt.2022.3173057",
+    "doi:10.1109/jsac.2021.3088669",
+    "doi:10.1109/access.2019.2916314",
+    "doi:10.12052/gdutxb.240047",
+    "doi:10.1111/ijcs.70066",
+    "doi:10.13998/j.cnki.issn1002-1248.25-0683",
+    "title:effects of property recovery incentives and social interaction on self-evacuation decisions in natural disasters: an agent-based modelling approach|2026",
+    "title:aracne: an llm-based autonomous shell pentesting agent|2025",
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003"
+  ],
+  "top_papers": [
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    },
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "year": "2020",
+      "journal": "The TQM Journal",
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "citations": 365,
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere ap"
+    },
+    {
+      "title": "Anthropomorphism of Artificial Intelligence Service Agent and Consumer Responses: A Systematic Literature Review and Future Research Agenda",
+      "year": "2025",
+      "journal": "International Journal of Consumer Studies",
+      "source": "OpenAlex",
+      "doi": "10.1111/ijcs.70066",
+      "citations": 8,
+      "abstract": "ABSTRACT Artificial intelligence service agent (AISA) anthropomorphism is increasingly applied in service situations to deliver consumers a more personalized service experience. Extensive research has explored it over the past decade. However, the body of knowledge about this domain remains fragmented due to the lack of a comprehensive review. This paper aims to understand the domain through a framework‐based systematic literature review approach. We conducted an in‐depth analysis of 149 peer‐reviewed articles retrieved on April 25, 2024. Significant results include (a) analyzing research profiling (i.e., publication, journal, citation, and country analysis), (b) synthesizing findings based on the theories‐contexts‐characteristics‐methods (TCCM) framework, and (c) proposing future research"
+    },
+    {
+      "title": "数字人文与农业知识服务的融合创新:基于仿真模拟的视角",
+      "year": 2026,
+      "journal": "研究论文",
+      "source": "万方数据",
+      "doi": "10.13998/j.cnki.issn1002-1248.25-0683",
+      "citations": 0,
+      "abstract": "[目的/意义]以农业知识服务为应用情境,探讨基于仿真模拟的数字人文工具体系及其与生成式人工智能融合的应用价值,明确相关方法在数字人文方法体系与农业知识服务实践中的功能定位.[方法/过程]系统梳理文献计量研究中常用的仿真方法,重点分析各类仿真方法如何通过数字人文工具实现可视化、系统化与可交互应用,并进一步引入生成式人工智能,探讨\"生成式智能体\"在多智能体仿真中的应用潜力及其对建模灵活性与情境表达 能力方面的拓展作用.[结果/结论]结果表明,基于仿真模拟的数字人文工具体系能够在农业知识服务中支持对文献增长结构、科研协作网络及知识传播机制的动态分析,并为科研评价、科技服务与政策传播等场景提供情景化的决策支持能力.生成式人工智能的引入进一步增强了数字人文工具对主体行为异质性与情境化决策过程的刻画水平.从实践角度看,该工具体系在农业图情与科技服务中具有应用潜力,但仍面临数据质量、计算成本与模型可解释 性等方面的挑战. humanities tools can be effectively embedded into agricultural <span class='highlight'>knowledge</span> <span class='highlight'>service</span> workflows.These applications include research evaluation,scientific information services,and policy communication,where  digital humanities tools and agricultural <span class='highlight'>knowledge</span> services.In particular,the paper highlights"
+    },
+    {
+      "title": "生成式人工智能赋能课堂教学的形态层级与进阶路径",
+      "year": 2025,
+      "journal": "课程与教学",
+      "source": "万方数据",
+      "doi": "10.13811/j.cnki.eer.2025.06.010",
+      "citations": 193,
+      "abstract": "生成式人工智能深度赋能课堂教学,既是技术演进的必然趋势,也是教育高质量发展的内在需求.文章系统阐释了不同赋能形态的内涵特征与内在关联,构建了生成式人工智能赋能课堂教学的形态层级框架并提供了典型示例.该框架包括四个逐级递进、相互关联的层级:\"劳动替代与任务辅助\"作为基础形态,聚焦基础性教学任务的工具赋能;\"能力增强与边界拓展\"作为初级形态,致力于提升教学效能与拓展教学边界,提供多样化服务赋能;\" 人机协同与创新激活\"作为中级形态,强调人机深度协作与教学创新能力的激发,实现具有协同意识的智能主体赋能;\"认知融通与思维塑造\"作为高级形态,着眼于教学智慧的深度融合与高阶思维的培养,实现多元智能体共生的融合赋能.基于生成式人工智能赋能课堂教学的形态演进所呈现的层次性与纵深性特征,文章进一步提出实现层级进阶的系统化路径,包括政策指引与制度保障、素养提升与观念完善、价值重塑与技术突破. The innovative integration and deep empowerment of generative artificial <span class='highlight'>intelligence</span>(AI)with classroom teaching represent both an inevitable trend in technological evolution and an intrinsic  boundaries,thus providing diversified <span class='highlight'>service</span> empowerment;\"human-machine collaboration and innovation activation\"as the intermediate form,emphasizing dee"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    }
+  ],
+  "elapsed_seconds": 123.51,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method4_outputs\\Q06_method4_20260414_112021.md"
+}

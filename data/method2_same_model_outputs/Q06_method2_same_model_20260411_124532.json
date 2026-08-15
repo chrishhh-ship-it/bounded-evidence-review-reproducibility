@@ -1,0 +1,127 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "引用准确率和 orphan citation rate 是否能作为智慧情报服务的核心指标？",
+  "effective_search_query": "引用准确率 orphan citation rate 智慧情报服务 核心指标",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds": 1,
+  "review_feedback": {
+    "overall_score": 7,
+    "major_issues": [
+      "报告结论部分存在过度推断。证据仅表明未发现直接讨论，但结论表述为'无法得出...能作为...结论'，这在逻辑上不够严谨。更准确的表述应是'现有证据未支持...'或'缺乏直接证据表明...'。",
+      "第4节'摘要级证据的局限'中，'概念适用范围未界定'的讨论超出了证据范围。证据[1][2][3]并未对'智慧情报服务'的概念范围进行明确界定或与学术评价范畴对比，此部分属于作者推测，应删除或明确指出这是基于证据缺失的推断。",
+      "报告结构中的'证据支持的研究方向'（第3节）与审查查询的直接相关性较弱。虽然基于证据推导，但主要回答'智能技术如何应用于情报服务'，而非'特定指标是否适合作为核心指标'。建议将此节精简或融入其他部分，以更紧密地围绕查询问题。"
+    ],
+    "citation_issues": [
+      "证据[4]的引用（第2节'人工智能被认为是实现当代组织运营变革的关键'）虽然大意相符，但原文关键主张是'Artificial intelligence is key to achieving persuasive operational transformations in contemporary organizational set-ups, implying its relevance to intelligence services.' 报告表述简化了'implying its relevance to intelligence services'这一重要限定，可能略微强化了其与情报服务的直接关联。",
+      "证据[5][7][8]在报告中被概括为'利用多智能体深度强化学习等技术解决...问题'，引用准确。但需注意，证据[5]的方法论明确包含'physical layer security (PLS) technique and spectrum sharing architecture'，报告概括时未提及此技术细节，虽不影响主要论点，但在严格审查下可视为轻微遗漏。"
+    ],
+    "revision_instructions": [
+      "修正结论部分（第5节）的表述，使其严格基于证据缺失的事实，避免绝对化推断。例如，改为：'基于当前摘要级别的证据，未发现将“引用准确率”和“孤儿引用率”作为智慧情报服务核心指标的明确论述或支持。'",
+      "删除或重写第4节中'概念适用范围未界定'的段落。若保留，应明确说明这是基于证据中未发现相关讨论的观察，而非证据本身的陈述。",
+      "考虑精简或重组第3节'证据支持的研究方向'，使其更直接地服务于对查询问题的分析，例如，指出这些研究方向中可能涉及哪些评估指标，但现有证据未包含文献计量指标。",
+      "检查并确保所有引用表述与证据原文关键主张在核心含义上保持一致，特别是证据[4]的引用，可考虑更精确地表述其'暗示相关性'的限定。"
+    ],
+    "accept_without_revision": false
+  },
+  "all_retrieved_ids": [
+    "doi:10.1108/tqm-10-2019-0243",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/tvt.2022.3173057",
+    "doi:10.1109/jsac.2021.3088669",
+    "doi:10.1109/access.2019.2916314",
+    "doi:10.12052/gdutxb.240047",
+    "doi:10.1111/ijcs.70066",
+    "doi:10.13998/j.cnki.issn1002-1248.25-0683",
+    "title:effects of property recovery incentives and social interaction on self-evacuation decisions in natural disasters: an agent-based modelling approach|2026",
+    "title:aracne: an llm-based autonomous shell pentesting agent|2025",
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003"
+  ],
+  "top_papers": [
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    },
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "year": "2020",
+      "journal": "The TQM Journal",
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "citations": 365,
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere ap"
+    },
+    {
+      "title": "Joint Secure Offloading and Resource Allocation for Vehicular Edge Computing Network: A Multi-Agent Deep Reinforcement Learning Approach",
+      "year": "2023",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2023.3242997",
+      "citations": 212,
+      "abstract": "The mobile edge computing (MEC) technology can simultaneously provide high-speed computing services for multiple vehicular users (VUs) in vehicular edge computing (VEC) networks. Nevertheless, due to the open feature of the wireless offloading channels and the high mobility of the vehicles, the security and stability of the offloading process would be seriously degraded. In this paper, by utilizing the physical layer security (PLS) technique and spectrum sharing architecture, we propose a deep reinforcement learning based joint secure offloading and resource allocation (SORA) scheme to improve the secrecy performance and resource efficiency of the multi-user VEC networks, where the VU offloading links share the frequency spectrum preoccupied with the vehicle-to-vehicle (V2V) communication "
+    },
+    {
+      "title": "Federated Multi-Agent Deep Reinforcement Learning for Resource Allocation of Vehicle-to-Vehicle Communications",
+      "year": "2022",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2022.3173057",
+      "citations": 154,
+      "abstract": "Dynamic topology, fast-changing channels and the time sensitivity of safety-related services present challenges to the status quo of resource allocation for cellular-underlaying vehicle-to-vehicle (V2V) communications. In this paper, we investigate a novel federated multi-agent deep reinforcement learning (FedMARL) approach for the decentralized joint optimization of channel selection and power control for V2V communication. The approach takes advantage of both deep reinforcement learning (DRL) and federated learning (FL), satisfying the reliability and delay requirements of V2V communication while maximizing the transmit rates of cellular links. Specifically, we elaborately construct individual V2V agent implement by the dueling double deep Q-network (D3QN), and design the reward function"
+    },
+    {
+      "title": "Multi-UAV Trajectory Planning for Energy-Efficient Content Coverage: A Decentralized Learning-Based Approach",
+      "year": "2021",
+      "journal": "IEEE Journal on Selected Areas in Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/jsac.2021.3088669",
+      "citations": 134,
+      "abstract": "In next-generation wireless networks, high-mobility unmanned aerial vehicles (UAVs) are promising to provide content coverage, where users can receive sufficient requested content within a given time. However, trajectory planning for multiple UAVs to provide content coverage is challenging since 1) UAVs cannot provide content coverage for all users due to the limited energy and caching storage, and 2) the trajectory planning of UAV is coupled with each other. Moreover, the complete information based trajectory planning methods are unusable since UAVs cannot obtain prior information on the rapidly changing environment. In this paper, we investigate the multi-UAV trajectory planning for energy-efficient content coverage. We first formulate an energy efficiency maximization problem considerin"
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning Based Cooperative Content Caching for Mobile Edge Networks",
+      "year": "2019",
+      "journal": "IEEE Access",
+      "source": "OpenAlex",
+      "doi": "10.1109/access.2019.2916314",
+      "citations": 80,
+      "abstract": "To address the drastic growth of data traffic dominated by streaming of video-on-demand files, mobile edge caching/computing (MEC) can be exploited to develop intelligent content caching at mobile network edges to alleviate redundant traffic and improve content delivery efficiency. Under the MEC architecture, content providers (CPs) can deploy popular video files at MEC servers to improve users’ quality of experience (QoE). Designing an efficient content caching policy is crucial for CPs due to the content dynamics, unknown spatial-temporal traffic demands, and limited service capacity. The knowledge of users’ preference is very useful and important for efficient content caching, yet often unavailable in advance. Under this circumstance, machine learning can be used to learn the users’ pre"
+    }
+  ],
+  "elapsed_seconds": 113.889,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q06_method2_same_model_20260411_124532.md"
+}

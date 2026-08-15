@@ -1,0 +1,13 @@
+{
+  "inventory": {
+    "occurrences": 3004,
+    "unique": 454
+  },
+  "verified_unique_rows": 454,
+  "status_distribution": {
+    "verified_genuine_but_unretrieved": 436,
+    "unresolved_external": 12,
+    "probable_genuine_requires_manual_check": 6
+  },
+  "interpretation": "verified_genuine_but_unretrieved means a high-similarity registry match outside the query evidence set. unresolved_external does not prove nonexistence or fabrication."
+}

@@ -1,0 +1,152 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "对抗审稿循环在减少报告中过度概括性陈述方面有哪些可量化的证据？",
+  "effective_search_query": "对抗审稿循环 过度概括性陈述 量化证据",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 7,
+    "major_issues": [
+      "报告未能严格遵循'仅基于所提供证据'的指令。第2节和第3节中关于'智能体作为结构化报告生成与审核工具'、'基于智能体的动态知识验证与迭代机制'等研究方向的推测，超出了证据支持范围。证据中没有任何内容表明智能体技术被设计或用于'识别并挑战报告中的过度概括陈述'、'进行事实核查和表述细化'或构建'对抗性审稿循环的模型'。这些是作者基于技术理念的延伸想象，而非从证据中得出的结论。",
+      "报告对证据的解读存在过度延伸。证据[3][4][5]描述了智能体在特定领域（科研、情报、应急管理）中推动服务模式转型、构建结构化体系或技术演进，但并未直接或间接论证这些技术与'减少报告中的概括性陈述'或'提升报告精确性'存在关联。报告将'场景化'、'结构化'、'精准性'等广义概念与研究问题中的'减少过度概括性陈述'直接挂钩，缺乏证据链条的支持。",
+      "报告结论部分存在矛盾。第5节'谨慎结论'第一句正确指出'无法得出...存在可量化证据的结论'，但随后又提出'为未来探索...提供了技术理念上的启发'。后者并非基于现有证据的结论，而是建议，应明确区分。报告应更坚定地停留在'无直接证据'这一核心发现上。"
+    ],
+    "citation_issues": [
+      "部分引用未能准确反映证据内容。例如，引用[8]（Toward agentic ai networking in 6g）来支持'生成学习与知识转移'启发了'对抗性审稿循环模型'的构建，这是不恰当的。证据[8]仅提及该方法涉及生成学习和知识转移，其应用场景是6G网络，与审稿或文本概括性无关，不能作为该推论的依据。",
+      "引用[7]被用于说明'主题不匹配'是正确的，但报告在其他部分应避免暗示其与研究问题有任何潜在关联。"
+    ],
+    "revision_instructions": [
+      "严格限定分析范围：删除所有基于证据的推测和未来研究方向（如原第3节全部内容）。报告应仅总结证据中实际存在的内容，并明确指出这些内容与研究问题的关联程度（在本案例中为无直接关联）。",
+      "重写第2节'核心主题与证据'：聚焦于客观描述证据集中的共同主题（即智能体/生成式AI在各领域的应用），并明确指出这些主题均未涉及'对抗审稿循环'或'减少过度概括性陈述'。删除将'场景化'、'结构化'等概念与研究问题目标进行间接关联的论述。",
+      "简化并强化结论：结论应直接、明确地重申核心发现：基于所提供的证据集，没有发现任何直接或间接讨论'对抗审稿循环'或'减少报告中过度概括性陈述的可量化证据'的文献。所有证据均围绕其他主题。可以提及证据的年份和领域分布作为背景，但不应提出任何启发或未来方向。",
+      "检查并修正所有引用：确保每一处引用都严格对应证据中明确陈述的内容，删除任何将引用用于支持延伸推论的表述。"
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 7,
+        "major_issues": [
+          "报告未能严格遵循'仅基于所提供证据'的指令。第2节和第3节中关于'智能体作为结构化报告生成与审核工具'、'基于智能体的动态知识验证与迭代机制'等研究方向的推测，超出了证据支持范围。证据中没有任何内容表明智能体技术被设计或用于'识别并挑战报告中的过度概括陈述'、'进行事实核查和表述细化'或构建'对抗性审稿循环的模型'。这些是作者基于技术理念的延伸想象，而非从证据中得出的结论。",
+          "报告对证据的解读存在过度延伸。证据[3][4][5]描述了智能体在特定领域（科研、情报、应急管理）中推动服务模式转型、构建结构化体系或技术演进，但并未直接或间接论证这些技术与'减少报告中的概括性陈述'或'提升报告精确性'存在关联。报告将'场景化'、'结构化'、'精准性'等广义概念与研究问题中的'减少过度概括性陈述'直接挂钩，缺乏证据链条的支持。",
+          "报告结论部分存在矛盾。第5节'谨慎结论'第一句正确指出'无法得出...存在可量化证据的结论'，但随后又提出'为未来探索...提供了技术理念上的启发'。后者并非基于现有证据的结论，而是建议，应明确区分。报告应更坚定地停留在'无直接证据'这一核心发现上。"
+        ],
+        "citation_issues": [
+          "部分引用未能准确反映证据内容。例如，引用[8]（Toward agentic ai networking in 6g）来支持'生成学习与知识转移'启发了'对抗性审稿循环模型'的构建，这是不恰当的。证据[8]仅提及该方法涉及生成学习和知识转移，其应用场景是6G网络，与审稿或文本概括性无关，不能作为该推论的依据。",
+          "引用[7]被用于说明'主题不匹配'是正确的，但报告在其他部分应避免暗示其与研究问题有任何潜在关联。"
+        ],
+        "revision_instructions": [
+          "严格限定分析范围：删除所有基于证据的推测和未来研究方向（如原第3节全部内容）。报告应仅总结证据中实际存在的内容，并明确指出这些内容与研究问题的关联程度（在本案例中为无直接关联）。",
+          "重写第2节'核心主题与证据'：聚焦于客观描述证据集中的共同主题（即智能体/生成式AI在各领域的应用），并明确指出这些主题均未涉及'对抗审稿循环'或'减少过度概括性陈述'。删除将'场景化'、'结构化'等概念与研究问题目标进行间接关联的论述。",
+          "简化并强化结论：结论应直接、明确地重申核心发现：基于所提供的证据集，没有发现任何直接或间接讨论'对抗审稿循环'或'减少报告中过度概括性陈述的可量化证据'的文献。所有证据均围绕其他主题。可以提及证据的年份和领域分布作为背景，但不应提出任何启发或未来方向。",
+          "检查并修正所有引用：确保每一处引用都严格对应证据中明确陈述的内容，删除任何将引用用于支持延伸推论的表述。"
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.11968/tsyqb.1003-6938.2025001",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "title:building a secure agentic ai application leveraging a2a protocol|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.19678/j.issn.1000-3428.0069471"
+  ],
+  "top_papers": [
+    {
+      "title": "生成式人工智能赋能课堂教学的形态层级与进阶路径",
+      "year": 2025,
+      "journal": "课程与教学",
+      "source": "万方数据",
+      "doi": "10.13811/j.cnki.eer.2025.06.010",
+      "citations": 193,
+      "abstract": "生成式人工智能深度赋能课堂教学,既是技术演进的必然趋势,也是教育高质量发展的内在需求.文章系统阐释了不同赋能形态的内涵特征与内在关联,构建了生成式人工智能赋能课堂教学的形态层级框架并提供了典型示例.该框架包括四个逐级递进、相互关联的层级:\"劳动替代与任务辅助\"作为基础形态,聚焦基础性教学任务的工具赋能;\"能力增强与边界拓展\"作为初级形态,致力于提升教学效能与拓展教学边界,提供多样化服务赋能;\" 人机协同与创新激活\"作为中级形态,强调人机深度协作与教学创新能力的激发,实现具有协同意识的智能主体赋能;\"认知融通与思维塑造\"作为高级形态,着眼于教学智慧的深度融合与高阶思维的培养,实现多元智能体共生的融合赋能.基于生成式人工智能赋能课堂教学的形态演进所呈现的层次性与纵深性特征,文章进一步提出实现层级进阶的系统化路径,包括政策指引与制度保障、素养提升与观念完善、价值重塑与技术突破. The innovative integration and deep empowerment of generative artificial <span class='highlight'>intelligence</span>(AI)with classroom teaching represent both an inevitable trend in technological evolution and an intrinsic  boundaries,thus providing diversified <span class='highlight'>service</span> empowerment;\"human-machine collaboration and innovation activation\"as the intermediate form,emphasizing dee"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    },
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "The Role Of Agentic Ai And Generative Ai In Transforming Modern Banking Services",
+      "year": 2025,
+      "journal": "A Todupunuri - American Journal of AI Cyber Computing Management, 2025 - ajaccm.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 67,
+      "abstract": "… There is a marked gap in the existing knowledge of the application of agentic AI to support decision-making, but literature also reveals a considerable advancement in applying AI in the …"
+    },
+    {
+      "title": "Next-generation agentic AI for transforming healthcare",
+      "year": "2025",
+      "journal": "Informatics and Health",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.infoh.2025.03.001",
+      "citations": 66,
+      "abstract": "Artificial Intelligence (AI) is transforming the healthcare landscape, yet many current applications remain narrowly task-specific, constrained by data complexity and inherent biases. This paper explores the emergence of next generation \"agentic AI\" systems, characterized by advanced autonomy, adaptability, scalability, and probabilistic reasoning, which address critical challenges in medical management. These systems enhance various aspects of healthcare, including diagnostics, clinical decision support, treatment planning, patient monitoring, administrative operations, drug discovery, and robotic-assisted surgery. Powered by multimodal AI, agentic systems integrate diverse data sources, iteratively refine outputs, and leverage vast knowledge bases to deliver context-aware, patient-centri"
+    },
+    {
+      "title": "Toward agentic ai networking in 6g: A generative foundation model-as-agent approach",
+      "year": 2025,
+      "journal": "Y Xiao, G Shi, P Zhang - IEEE Communications Magazine, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 55,
+      "abstract": "… challenges and requirements of agentic AI networking. We … rative learning, and knowledge transfer among AI agents. We … al services, which involve a much wider range of knowledge …"
+    }
+  ],
+  "elapsed_seconds": 153.784,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q49_method2_same_model_20260414_095724.md"
+}

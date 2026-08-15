@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "面向可投稿论文，智慧情报服务实验结果应如何图表化展示？",
+  "effective_search_query": "智慧情报服务 实验 图表 展示 论文",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "title:新技术环境下的智库情报服务创新研究|2020",
+    "title:web 4.0 时代的情报学创新探究|2016",
+    "title:学科研究对象演化视角下的情报学教育定位研究|2021",
+    "title:生成式人工智能辅助学科情报服务途径探析———以利用chatgpt 生成学科领域论文分析报告为例.|2025",
+    "title:社会科学院图书情报机构服务智库研究|2020",
+    "title:数据驱动的图书馆学情报学|2020",
+    "title:多模态知识图谱构建及其在智慧知识服务中的应用.|2024",
+    "title:国内图书情报学领域知识服务研究脉络探析|2016",
+    "title:面向军工情报研究的智慧工作平台设计与实践|2025",
+    "title:基于citespace 的智慧图书馆知识图谱分析|2018",
+    "title:情报智能体——面向“十五五” 的科技情报工作新范式.|2024",
+    "title:基于cnki 的情报学研究生学位论文研究|2016"
+  ],
+  "top_papers": [
+    {
+      "title": "新技术环境下的智库情报服务创新研究",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "黄晓斌， 张明鑫 - 图书与情报, 2020 - tsyqb.gslib.com.cn",
+      "doi": "",
+      "citations": 8,
+      "abstract": "… 情报服务;5G;区块链;大数据;物联网;人工智能 中图分类号:G252 … 传统智库情报研究问题的确定 , 更多依赖的是专家的经验智慧和… 传统智库注重建立研究成果的发布与展示平 台, 用于定期更新和…"
+    },
+    {
+      "title": "Web 4.0 时代的情报学创新探究",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "张庆普， 陈茫 - 情报学报, 2016",
+      "doi": "",
+      "citations": 6,
+      "abstract": ""
+    },
+    {
+      "title": "学科研究对象演化视角下的情报学教育定位研究",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "李树青， 苏震， 蒋伟伟， 徐侠 - 科技情报研究, 2021 - njcie.com",
+      "doi": "",
+      "citations": 4,
+      "abstract": "… 而智慧不 仅可以作为人类一种获得知识,情报的结果,同时, 也是一种可以… 特点,将不同时代 我国 情报学应用领域的关注点做了划分,如图5所示. … 从情报学硕博士论文看情报问题与情报方法[J].…"
+    },
+    {
+      "title": "生成式人工智能辅助学科情报服务途径探析———以利用ChatGPT 生成学科领域论文分析报告为例.",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "江珊， 常定姁， 张开阳， 龚芙蓉… - Journal of Academic …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 目前,生成式人工智能在智慧图书 馆框架构建[16-17],提升服务… 图4展示了将图2中的文献地域 分布表输入 GPT-4后的结果.GPT … ,它将提升情报分析的时效性,通过 综合文本,图像,实验数据等不同…"
+    },
+    {
+      "title": "社会科学院图书情报机构服务智库研究",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "刘伟东 - 情报资料工作, 2020 - qbzl.ruc.edu.cn",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 文献信 息咨询服务,而且主动编制一些学术剪报,论文索引, 资料摘编… 可见,社科院图 书情报机构 肩负着为政府决策提供信息服务的… 研究与智库 服务,数据监管与数据分析,智能技术与智慧服务”能 …"
+    },
+    {
+      "title": "数据驱动的图书馆学情报学",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "王世伟 - 情报资料工作, 2020 - qbzl.ruc.edu.cn",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 从这些论文刊载的期刊分析, 图书情报学界的专业学术期刊几乎… 中国科学院计算机网络 信息 中心大数据部数据工程实验室主任… 速发展的浪潮和图情领域正在兴起的智慧图书馆,智 慧情报,科技…"
+    },
+    {
+      "title": "多模态知识图谱构建及其在智慧知识服务中的应用.",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "闫永君， 庄媛 - Journal of Academic Library & Information …, 2024 - search.ebscohost.com",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 学校图书情报工作委员会项目“生成式人工智能驱动智慧图书馆… 以上处理之后,创建有向图的 存储多模态知识图 谱,步骤如下: … 信息网数据库———中国权威经济论文库,人 大复印报刊资料全文…"
+    },
+    {
+      "title": "国内图书情报学领域知识服务研究脉络探析",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "郭卫宁 - 图书馆学研究, 2016",
+      "doi": "",
+      "citations": 1,
+      "abstract": ""
+    },
+    {
+      "title": "面向军工情报研究的智慧工作平台设计与实践",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "韩冬梅， 张大伟 - 舰船科学技术, 2025 - html.rhhz.net",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 情报研究业务流程,梳理形成了智慧工作平台的总体架构,如图1所… ,通过企业服务总线(Enterprise Service Bus)实现特有的服务集成… 挖掘和图形化展示为领导提供决策依据,为员工提供业务辅助; …"
+    },
+    {
+      "title": "基于Citespace 的智慧图书馆知识图谱分析",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "姚远， 徐立军， 鲁亚楠， 徐世东， 张蕙 - Advances in Social Sciences, 2018 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 由图1可见,国内对智慧图书馆的研究始于2011年,研究开展时间… 刊发266篇相关学术论文,而 CNKI数据库中以“智慧图书馆”为关键… 智慧服务包含智慧门户,智慧检索,智慧挖掘,智慧情报服务,智慧…"
+    },
+    {
+      "title": "情报智能体——面向“十五五” 的科技情报工作新范式.",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "刘细文， 付芸， 韦华楠 - … of Library & Information Science in …, 2024 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 改革开放后,计算机技术开 始出现和应用,中国开始建立论文… 性测试和实验验证的人类可发 现 知识.伴随着假设的复杂性和… ,本文 构建了基于情报智能体的科技情报工作新生态,如图 6 所示.…"
+    },
+    {
+      "title": "基于CNKI 的情报学研究生学位论文研究",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "王达 - 宁波城市职业技术学院学报, 2016",
+      "doi": "",
+      "citations": 0,
+      "abstract": ""
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q20_baseline_b_20260410_200017.md"
+}

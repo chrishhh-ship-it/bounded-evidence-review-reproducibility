@@ -1,0 +1,236 @@
+{
+  "query_id": "Q168",
+  "query": "How should a literature synthesis system handle citations to network meta-analyses when direct and indirect evidence conflict?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "How to Conduct and Interpret Systematic Reviews and Meta-Analyses",
+      "authors": [
+        "Siddharth Singh"
+      ],
+      "abstract": "Systematic reviews with or without meta-analyses serve a key purpose in critically and objectively synthesizing all available evidence regarding a focused clinical question and can inform clinical practice and clinical guidelines. Performing a rigorous systematic review is multi-step process, which includes (a) identifying a well-defined focused clinically relevant question, (b) developing a detailed review protocol with strict inclusion and exclusion criteria, (c) systematic literature search of multiple databases and unpublished data, in consultation with a medical librarian, (d) meticulous study identification and (e) systematic data abstraction, by at least two sets of investigators independently, (f) risk of bias assessment, and (g) thoughtful quantitative synthesis through meta-analysis where relevant. Besides informing guidelines, credible systematic reviews and quality of evidence assessment can help identify key knowledge gaps for future studies.",
+      "year": "2017",
+      "published_date": "2017-05-01",
+      "journal": "Clinical and Translational Gastroenterology",
+      "url": "https://doi.org/10.1038/ctg.2017.20",
+      "arxiv_id": "",
+      "keywords": [
+        "Systematic review",
+        "Medicine",
+        "Protocol (science)",
+        "Identification (biology)",
+        "MEDLINE",
+        "Meta-analysis",
+        "Medical literature",
+        "Data science"
+      ],
+      "citations": 45,
+      "source": "OpenAlex",
+      "doi": "10.1038/ctg.2017.20",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Mobile phone interventions to improve health outcomes among patients with chronic diseases: an umbrella review and evidence synthesis from 34 meta-analyses",
+      "authors": [
+        "Shufang Sun",
+        "Otto Simonsson",
+        "S. McGarvey",
+        "J. Torous",
+        "Simon B. Goldberg"
+      ],
+      "abstract": "This umbrella review of 34 meta-analyses, representing 235 randomised controlled trials done across 52 countries and 48 957 participants and ten chronic conditions, aimed to evaluate evidence on the efficacy of mobile phone interventions for populations with chronic diseases. We evaluated the strengths of evidence via the Fusar-Poli and Radua methodology. Compared with usual care, mobile apps had convincing effects on glycated haemoglobin reduction among adults with type 2 diabetes (d=0·44). Highly suggestive effects were found for both text messages and apps on various outcomes, including medication adherence (among patients with HIV in sub-Saharan Africa and people with cardiovascular disease), glucose management in type 2 diabetes, and blood pressure reduction in hypertension. Many effects (42%) were non-significant. Various gaps were identified, such as a scarcity of reporting on moderators and publication bias by meta-analyses, little research in low-income and lower-middle-income countries, and little reporting on adverse events.",
+      "year": "2024",
+      "published_date": "2024-09-01",
+      "journal": "The Lancet Digital Health",
+      "url": "https://www.semanticscholar.org/paper/824508cddada96c705ee1bc388e5f10ae8d1718a",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 22,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/S2589-7500(24)00119-5",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature?",
+      "authors": [
+        "Qiao Jin",
+        "Robert Leaman",
+        "Zhiyong Lu"
+      ],
+      "abstract": "ChatGPT, a general purpose chatbot developed by OpenAI, has been widely reported to have the potential to revolutionize how people interact with information online.1 Like other large language models (LLMs), ChatGPT has been trained on a large text corpus to predict probable words from the surrounding context. ChatGPT, however, has received substantial popular attention for generating human-like conversational responses, and new developments are occurring rapidly. The initial release in November 2022 used the model generative pretrained transformers (GPT)-3.5, and a version based on GPT-4.0 was released in March 2023. Recent work has discussed applications of ChatGPT for medical education and clinical decision support.2–4 However, health care professionals should be aware of the drawbacks and limitations—and potential capabilities—of using ChatGPT and similar LLMs to interact with medical knowledge. A significant issue with ChatGPT is its tendency to generate confident-sounding but fabricated responses, commonly known as “hallucination.” Although it can generate plausible-sounding text, ChatGPT does not consult any source of truth.1 Occasional incorrect or biased responses are, therefore, inevitable, and ChatGPT cannot faithfully cite sources to allow their evidence to be verified. For example, we prompted GPT-3.5–based ChatGPT to list possible mechanisms of AKI in patients with coronavirus disease 2019 (COVID-19), with references. ChatGPT produced a list of plausible mechanisms, each of which has been investigated in the literature (Figure 1A) but supported its claims with fabricated titles and irrelevant PubMed identifiers. ChatGPT using the GPT-4 model acknowledges that it cannot produce references and refuses to cite articles in the answer (Figure 1C)—a significant improvement—but leaves the difficult task of verification to the user. Consulting ChatGPT directly for medical information carries a significant risk of drawing incorrect conclusions, particularly for patients.Figure 1.: Seeking information related to COVID-19 from ChatGPT. (A) ChatGPT-3.5 fabricates the references for its claims. (B) When prompted with the title and abstract of relevant articles, ChatGPT-3.5 can summarize the aspects requested, including some valid in-line references. However, many details are inaccurate: Related mechanisms are not correctly grouped, contradicting evidence is not mentioned, some citations are missing, and a listed mechanism is not specific. Note that the complete response mentioned only three of five articles. (C) ChatGPT-4 acknowledges its drawback and refuses to cite source articles in the response, which makes the verification more difficult. (D) ChatGPT-4 with the web browsing plug-in summarizes information from the search engine, but it only finds two relevant articles and fails to systematically answer the question. Responses were collected from GPT-3.5–based ChatGPT on March 14, 2023, and GPT-4–based ChatGPT on May 15, 2023.However, LLMs such as ChatGPT may be better suited for text summarization than directly answering medical questions. Pilot studies have shown that LLMs can be effective at clinical reasoning, reading comprehension, and generating fluent summaries with high fidelity.5–7 Augmenting LLMs such as ChatGPT with a traditional literature search engine may therefore help address hallucination and enable the system to provide the user with comprehensive high-level summaries. For example, the new Bing provides ChatGPT-like interactive agents to help users create effective queries, identify relevant results, and summarize their content. In addition, ChatGPT recently introduced a plug-in that allows the model to search the web when generating responses (currently in limited beta test). Incorporating such features into medical literature search has the potential to streamline gathering and synthesizing evidence from the literature, improving patient care. Unfortunately, summaries generated by current LLMs such as ChatGPT also contain inaccuracies,8 in addition to practical issues such as limitations on the length of input text. To illustrate these problems, we prompted ChatGPT (model 3.5) to identify possible mechanisms of AKI in patients with COVID-19, using five manually chosen articles on the pathophysiology of AKI in COVID-19. Although ChatGPT’s summary (Figure 1B) generally reflects the mechanisms of AKI discussed by the articles, the response lists symptoms from only three of the five input studies and misses some important mechanisms mentioned repeatedly, such as hypoxia. Moreover, some citations are missing, contradicting evidence is not mentioned, similar mechanisms are not correctly grouped, and one of the mechanisms listed is less specific than the source. We also prompted ChatGPT (model 4), with the web browsing plug-in, to answer the same question (Figure 1D). In this case, ChatGPT provides summaries with relevant citations. However, the response is based on only two articles, without synthesizing the evidence, and thus fails to answer the question systematically. Generally speaking, retrieval-augmented LLMs reduces users' control over sources, leading to results that may not align with the user's criteria for the best information (e.g., most up-to-date). Summaries generated by LLMs can miss important ideas discussed by the input sources or contain assertions unsupported by the input sources. Because imprecise or incomplete information can lead to incorrect clinical decisions and patient harm, content generated by current LLMs, including ChatGPT, must be verified for accuracy and completeness before use. Further research on the faithfulness of LLM-generated summaries and automatic verification tools is also warranted to realize the full potential of LLMs to streamline evidence gathering and synthesis from the medical literature. Despite these limitations, the remarkable progress in AI and the rapid advancements in LLMs may have profound implications for medicine, from assisting medical education,2 to accelerating literature screening for systematic reviews,7,9 and supporting physicians in various clinical settings as generalist medical AI,4 among other possibilities. In addition to augmenting LLMs with retrieval results from a search engine, LLMs can also be taught to use biomedical domain-specific tools, such as the Web APIs of specialized databases, to provide improved access to biomedical information.10 In summary, although ChatGPT is not currently suitable for use as a literature search engine on its own, we envision that the proposed retrieve, summarize, and verify paradigm could greatly benefit biomedical information seeking. This approach leverages the impressive capability of LLMs to generate high-level summaries while minimizing the risk of directly using false or fabricated information by combining LLMs and search engines. It is important to note that although LLM technology is progressing rapidly, it has not yet matured enough for clinical use. Therefore, users must retain full responsibility for verifying the accuracy and reliability of its output.",
+      "year": "2023",
+      "published_date": "2023-05-31",
+      "journal": "Journal of the American Society of Nephrology",
+      "url": "https://doi.org/10.1681/asn.0000000000000166",
+      "arxiv_id": "",
+      "keywords": [
+        "Affect (linguistics)",
+        "Medicine",
+        "Psychology",
+        "Intensive care medicine",
+        "Computer science",
+        "Communication"
+      ],
+      "citations": 67,
+      "source": "OpenAlex",
+      "doi": "10.1681/asn.0000000000000166",
+      "open_access": false,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "id": "gs_18a63faa66",
+      "title": "Future of evidence synthesis: Automated, living, and interactive systematic reviews and meta-analyses",
+      "abstract": "of large language models (LLMs) represents a paradigm shift in artificial intelligence (AI) and  provides an opportunity to transform the practice of evidence synthesis evidence synthesis.",
+      "authors": [
+        "IB Riaz",
+        "SAA Naqvi",
+        "B Hasan",
+        "MH Murad"
+      ],
+      "year": 2024,
+      "journal": "Mayo Clinic Proceedings: Digital …",
+      "citations": 27,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949761224000580",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "How I contributed to Cochrane Crowd and why it matters for evidence synthesis",
+      "authors": [
+        "V. Kataev"
+      ],
+      "abstract": "Robust evidence depends on disciplined methods rather than slogans. This commentary draws on my experience with Cochrane Crowd to show how brief, well-structured micro-tasks can strengthen the evidence pipeline. Two features are central: the platform logs every screening decision for audit, and hidden calibration items help maintain contributor accuracy. In routine queues, volunteers identify randomised controlled trials and tag Population, Intervention, Comparison and Outcome (PICO) elements, reducing noise and prioritising relevant records. When publication volume surges, this volunteer triage preserves high recall without sacrificing precision, giving review teams a cleaner starting point. Regular exposure to trial anatomy also sharpens bias detection in peer review and teaching. Individually, each task is modest; collectively, these tasks provide a practical defence against distortions in the research record. I encourage colleagues to devote a brief, focused session each week to Cochrane Crowd and help make trustworthy evidence more visible.",
+      "year": "2026",
+      "published_date": "2026-04-06",
+      "journal": "International Journal of Risk &amp; Safety in Medicine",
+      "url": "https://www.semanticscholar.org/paper/3d2e26ebd801572bdd36d9af775177be04384b25",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1177/09246479261441446",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Open synthesis and the coronavirus pandemic in 2020",
+      "authors": [
+        "Neal Haddaway",
+        "Elie A. Akl",
+        "Matthew J. Page",
+        "Vivian Welch",
+        "Ciara Keenan",
+        "Tamara Lotfi"
+      ],
+      "abstract": "•Open Science principles are vital for ensuring reproducibility, trust, and legacy.•Evidence synthesis is a vital means of summarizing research for decision-making.•Open Synthesis is the application of Open Science principles to evidence synthesis.•Open approaches to planning, conducting, and reporting synthesis have many benefits.•We call on the evidence synthesis community to embrace Open Synthesis. The coronavirus disease 2019 (COVID-19) pandemic of 2020 has caused high levels of mortality and continues to threaten the lives of the global population [[1]World Health OrganizationCoronavirus disease 2019 (COVID-19): situation report, 85. World Health Organisation, Geneva2020Google Scholar]. The pandemic has amounted to a “once in a lifetime” event for humanity and has affected it across its different sectors of existence: health, education, economy, environment, etc. The pandemic continues to threaten job prospects for millions of people and has resulted in widespread economic turmoil [[2]McKibbin W.J. Fernando R. The global macroeconomic impacts of COVID-19: seven scenarios. SSRN J.https://www.ssrn.com/abstract=3547729Date: 2020Date accessed: April 15, 2020Google Scholar]. It has also led to the cancellation of numerous conferences (e.g., [[3]Robbins R. STAT’s guide to health care conferences disrupted by the coronavirus crisis. STAT News.https://www.statnews.com/2020/03/07/stats-guide-health-care-conferences-disrupted-covid-19/Date: 2020Date accessed: April 7, 2020Google Scholar]) and research fieldwork and closed offices across the globe. As the scientific community grapples to respond to the massive and rapidly evolving crisis, the volume of research literature that has been published in relation to the outbreak has expanded rapidly (Figure 1). Simultaneously, efforts to synthesize this growing evidence base have begun, both through ongoing traditional approaches to independent systematic reviews (e.g., [[4]Sahin A.R. Erdogan A. Mutlu Agaoglu P. Dineri Y. Cakirci A.Y. Senel M.E. et al.2019 novel coronavirus (COVID-19) outbreak: a review of the current literature.Eurasian J Med Oncol. 2020; 4: 1-7Google Scholar,[5]Salehi S. Abedi A. Balakrishnan S. Gholamrezanezhad A. Coronavirus disease 2019 (COVID-19): a systematic review of imaging findings in 919 patients.Am J Roentgenol. 2020; : 1-7Crossref PubMed Scopus (912) Google Scholar]), and through both rapid and living systematic reviews (e.g., https://covidrapidreviews.cochrane.org/search/site). Rapid systematic reviews provide in a timely way the evidence needed to inform policy making under urgent circumstances. On the other hand, living systematic reviews ensure that any evidence synthesis is up to date with the latest evidence (e.g., by the L.OVE team at Epistemonikos). As the volume of evidence increases and decision makers and scientists struggle to grapple with the rapidly expanding evidence base, many research groups are volunteering to support these efforts by using online collaborative tools and virtual workspaces, in an effort to support continued working during challenging times, and also to help identify, map, and synthesize research as it emerges. This work faces a suite of challenges because of the often closed nature of science. The major challenges are the duplication of efforts (leading to research waste), the inefficiency in conducting research, and missing the opportunity to address important questions. Open science principles present an opportunity to address these challenges in the context of the COVID-19 pandemic. They would also ensure that the research in the field is more collaborative, transparent, and rigorous. This article argues for, and illustrates how, to apply the principles of Open Science to the field of evidence synthesis, a concept we refer to as Open Synthesis [[6]Haddaway N.R. Open Synthesis: on the need for evidence synthesis to embrace Open Science.Environ Evid. 2018; 7: 26Crossref Scopus (24) Google Scholar]. We use the COVID-19 pandemic as a case in point to highlight the potential significant benefits of Openness to the research, policy, and practice communities. Evidence synthesis is the name for research methodologies that involve identifying, collating, appraising, and summarizing a body of research evidence using tried and tested systematic and robust literature review methods: i.e., systematic reviews and systematic maps [[7]Gough D. Oliver S. Thomas J. An introduction to systematic reviews.2nd ed. SAGE Publication, London2017: 304Google Scholar]. Systematic reviews are now widely used in the field of health care as a “gold standard” for summarizing evidence to provide support for decision-making in policy and practice, through a variety of knowledge translation products and practice guidelines [[8]Alonso-Coello P. Schünemann H.J. Moberg J. Brignardello-Petersen R. Akl E.A. Davoli M. et al.GRADE Evidence to Decision (EtD) frameworks: a systematic and transparent approach to making well informed healthcare choices. 1: Introduction.BMJ. 2016; 353: i2016Crossref PubMed Scopus (411) Google Scholar]. However, systematic reviewers face challenges as a result of an often closed academic system; research can be difficult to find and download without access to expensive bibliographic databases [[9]Livoreil B. Glanville J. Haddaway N.R. Bayliss H. Bethel A. Lachapelle F.F. et al.Systematic searching for environmental evidence using multiple tools and sources.Environ Evid. 2017; 6: 23Crossref Scopus (70) Google Scholar]; primary research articles and the systematic reviews that synthesize them are hidden behind paywalls [[10]Chawla A. Twycross-Lewis R. Maffulli N. Microfracture produces inferior outcomes to other cartilage repair techniques in chondral injuries in the paediatric knee.Br Med Bull. 2015; 116: 93-103PubMed Google Scholar,[11]Piwowar H. Priem J. Larivière V. Alperin J.P. Matthias L. Norlander B. et al.The state of OA: a large-scale analysis of the prevalence and impact of Open Access articles.PeerJ. 2018; 6: e4375Crossref PubMed Scopus (492) Google Scholar]; reporting of methods used in trials and syntheses is often deficient to some degree, hampering verification and learning about methodology [[12]Glasziou P. Altman D.G. Bossuyt P. Boutron I. Clarke M. Julious S. et al.Reducing waste from incomplete or unusable reports of biomedical research.Lancet. 2014; 383: 267-276Abstract Full Text Full Text PDF PubMed Scopus (798) Google Scholar]; research data are often not made public, particularly when produced by organizations with commercial interests, such as pharmaceutical companies [[13]Moynihan R. Bero L. Hill S. Johansson M. Lexchin J. Macdonald H. et al.Pathways to independence: towards producing and using trustworthy evidence.BMJ. 2019; 367: l6576Crossref PubMed Scopus (60) Google Scholar]; analytical code is rarely shared and statistical methods can be hard to verify [[14]Chiang I.C.A. Jhangiani R.S. Price P.C. From the “replicability crisis” to open science practices. Research Methods in Psychology. BCcampus.https://opentextbc.ca/researchmethods/chapter/from-the-replicability-crisis-to-open-science-practices/Date: 2015Date accessed: April 22, 2020Google Scholar], and educational materials to train the next generation of evidence synthesists are often not made public [[15]Farrow R. Open education and critical pedagogy.Learn Media Technology. 2017; 42: 130-146Crossref Scopus (26) Google Scholar]. Open Science has central premises relating to accessibility and the collaborative nature of knowledge creation and the knowledge itself [[16]Fecher B. Friesike S. Open science: one term, five schools of thought.in: Bartling S. Friesike S. Opening Science: The Evolving Guide on How the Internet is Changing Research, Collaboration and Scholarly Publishing [Internet]. Springer International Publishing, Cham2014: 17-47Crossref Google Scholar]. These principles (see Table 1) include concepts such as open access (unrestricted availability of research publications,11) and open data (freely accessible research data used in analyses; [[17]Gewin V. Data sharing: an open mind on open data.Nature. 2016; 529: 117-119Crossref PubMed Google Scholar]) that together support efficient, transparent, and rigorous research.Table 1Main concepts within Open Science [translated and adapted from OpenScienceASAP; http://openscienceasap.org/open-science]ConceptDefinitionOpen dataFreely available research dataOpen sourceUse and production of freely accessible software and hardwareOpen methodologyDocumentation of methods for a research process as far as possibleOpen peer reviewTransparent and traceable quality assurance through open peer reviewOpen accessPublish research articles in an accessible manner, making them useable and accessible for allOpen educational resourcesFree and accessible materials for education and university teaching Open table in a new tab There are various definitions of Open Science, ranging from relatively simple classifications of “data, analysis, publications, and comments” [[18]Foster E.D. Deardorff A. Open science framework (OSF).J Med Libr Assoc. 2017; 105: 203-206Crossref Google Scholar] to somewhat more elaborate frameworks (see Table 1), all the way to complex hierarchical conceptual models [[19]Knoth P. Pontika N. Open Science Taxonomy. figshare, 2015https://doi.org/10.6084/m9.figshare.1508606.v3Crossref Google Scholar]. Although these classifications differ in their complexity, they each attempt to cover all aspects of research processes from initiation to communication. Some of the problems with traditional approaches to evidence synthesis described above (access to data, methods, publications, etc.) can be and indeed are being mitigated by applying these Open Science principles to evidence synthesis; the result has been termed Open Synthesis [[6]Haddaway N.R. Open Synthesis: on the need for evidence synthesis to embrace Open Science.Environ Evid. 2018; 7: 26Crossref Scopus (24) Google Scholar]. Open Synthesis was first proposed to apply Open Access, Open Data, Open Source and Open Methodology to evidence synthesis, with the possible addition of Open Education. We propose a finer resolution based on more complex taxonomies (e.g., [[19]Knoth P. Pontika N. Open Science Taxonomy. figshare, 2015https://doi.org/10.6084/m9.figshare.1508606.v3Crossref Google Scholar]). We suggest that such Open Synthesis would support the transfer of knowledge from primary research to decision support tools and evidence portals (e.g., the Teaching and Learning Toolkit), particularly during humanitarian crises; for example, Evidence Aid hosts a freely accessible evidence repository that holds summaries of COVID-19 relevant evidence (https://www.evidenceaid.org/coronavirus-covid-19-evidence-collection/) [[20]Clarke M. Evidence Aid – from the Asian tsunami to the Wenchuan earthquake.J Evid Based Med. 2008; 1: 9-11Crossref PubMed Scopus (23) Google Scholar]. Many Open Synthesis resources have been developed and assembled in an effort to facilitate access to the novel evidence base emerging in relation to the COVID-19 pandemic. These examples are (understandably) almost exclusively related to the field of health, but the evidence base will become increasingly multidisciplinary and cross-sectoral as research focus spreads to include the societal and environmental impacts of the outbreak and subsequent social policies, such as widescale lockdowns. The key components of Open Synthesis are described in Figure 2, and examples are given below. The COVID-19 evidence map of emerging literature produced by the Meta-Evidence blog was open to interested collaborators (before the project was discontinued because of considerable overlap with several other projects) and involved substantial efforts to translate and extract information from literature written in Chinese. The synthesizing group under COVID Evidence Network to support Decision makers (COVID-END; https://www.mcmasterforum.org/networks/covid-end/working-groups/synthesizing) supports efforts to synthesize the evidence that already exists in ways that are more coordinated and efficient and that balance quality and timeliness. Cochrane's COVID Rapid Reviews repository provides space for Open Collaboration by connecting authors interested in addressing the same rapid review question that were submitted by the public. To enable free (i.e., not paywalled) searching for relevant evidence, various efforts are seeking to build “living” bibliographies and databases of research on COVID-19. For example, the CORD19 database (MIT); the COVID-19 living systematic map (EPPI center); Cochrane's COVID-19 Study Register; the Norwegian Institute of Public Health's live map of COVID-19 evidence. Similarly, the McMaster GRADE Center is collaborating with the Norwegian Institute of Public Health and others to map recommendations relevant to COVID-19 and make them publicly available (including the strength and certainty of supporting evidence) [[21]Schünemann H.J. Santesso N. Vist G.E. Cuello C. Lotfi T. Flottorp S. et al.Using GRADE in situations of emergencies and urgencies: certainty in evidence and recommendations matters during the COVID-19 pandemic, now more than ever and no matter what.J Clin Epidemiol. 2020; 0Google Scholar]. Efforts exist to ensure that evidence syntheses use transparent and well reported methods to improve repeatability and For example, the systematic review has a to already reviews of and relevant to COVID-19. accessible data (including and within the process of conducting a systematic are being made available for and From evidence the COVID-19 data from within reviews in a publicly accessible database useable and tools for analysis and have been made available online to support the and of COVID-19 relevant research, for example, for and data on the the for the of evidence on COVID-19 N.R. A. S. et a for evidence synthesis Evid. 2019; Scopus Google Scholar]. Many the code to their research (e.g., for statistical to date this practice is not in the syntheses we have because this is challenging reviewers have not made use of and code not exist (e.g., for reviews using However, some examples of Open in primary research include code to COVID data from and code for and have made COVID-19 relevant research articles and evidence syntheses freely the COVID-19 evidence and several of and The Systematic reviewers can facilitate Open Access by ensuring their reviews are freely accessible (e.g., by in open access or or in publicly accessible but also by access to the primary research in their reviews (e.g., by for the of their Although not peer review reports and of systematic some resources exist to support the Science Rapid for peer freely accessible resources (e.g., and exist for evidence synthesis by the Collaboration for Evidence and Institute and by the Evidence Synthesis Systematic reviews have been to from reporting of of and of in L. M. S. et of and of in systematic reviews on health policy and a J Health 2018; 7: PubMed Scopus Google Scholar]. Open for to possible and this would be by all involved in the and of systematic reviews (including review group peer and these be this be a at the point of (e.g., review publications, educational or peer review or a freely accessible central database of no Open Although no have been Open Synthesis some have about Open We have described some of these in Table These to itself as a practice or the application and of Open Science within current and relating to Open Science and their to and within Open relating to Open of the to Open for Open of and or of C. T. et science open to all 2019; Google Science within the current and can and particularly and the or to evidence as with primary Synthesis principles can be than to struggle to be can be in to support and (e.g., for and S. for Open Access 2015; Scopus Google Scholar], in Open of A. C. Open science: a new Scopus Google Data and be or for some data in syntheses are in the public some data from or outcomes from authors are not available in the public the of use that the to of or statistical code and any and to the data be for of public (e.g., M. the new of science. and of data be by or not the reviews are not to be a means of with the public summaries The is not for Open Synthesis to methods be and to to be by information A. C. the data in open 2016; PubMed Scopus Google of of data or information make it difficult to find important is more across evidence syntheses than primary research because they use a reporting be to support or facilitate that information is and provide different with different levels of for different (e.g., for the of are C. Open science benefits and in and 2019; PubMed Scopus Google that they be to are in their methods and to data and is potential for in the and analysis of in systematic be to and when these for or first the behind the and authors and and Open Open Synthesis be as an opportunity to findings as to of data to Data J Med. 2016; PubMed Scopus Google that of data or methods by others is an practice and that authors the Collaboration and the Collaboration for Evidence review the to to their reviews for a Data and used in an evidence synthesis is already in the public of the benefits in and impact of research from of data provide and of data for academic and that quality science will A. Open Science and its accessed: 2020Google to Open and some that a of traditional peer review for the that research and research will become in a to a of Open Access and closed peer They are not an of Open Science but an of and not be to quality evidence syntheses from being but this is also the case for that are peer use of for Open that and (i.e., peer and for within the community (i.e., and for conducting and reporting evidence synthesis (e.g., and resources needed to Openness A. C. Open science: a new Scopus Google N. B. M. research data accessed: 7, 2020Google that data and information are made Open resources and that are not available to of data produced within a systematic review project considerable resources to and not from the particularly for Open Collaboration considerable to and are not can be for the by using (e.g., to and the use of free data and by and Open and transparent from an (e.g., code However, this point is not and the need for across all aspects of Open can methods and processes and tools used to and data in this process E.A. Haddaway N.R. Lotfi T. Evidence synthesis when and of reviews Clin Epidemiol. 2020; 0Google of (i.e., of public Open science: or accessed: 2020Google free availability of data the of (e.g., that to provide using public data (e.g., and that or groups of people (e.g., by for a that is already free and to these are often available but of is vital to by commercial (e.g., a to access an article that is already Open use help commercial use of Open Data (e.g., but they are not without for example, that are based on that is to academic S. the and the online is a Scopus Google to of open data on to in and reported 2015; Google M. in and without current and Methods 2018; 1: Scopus Google are that of data is not or syntheses often make use of data not at the of and for these reviews this not be an data not be to data the for Open Data need to be or adapted in some to ensure can be For example, data on for data exist M. S. the to of data and 2020Date accessed: 2020Google Scholar]. be needed for that closed D. D. Y. and to the of open The of university and The Google in academic and in that are expensive to Open and in also not or Open practices. not the to be reviewers often work within primary research the same on evidence synthesis already have Open are to as Open Science become more but a to support are to be by being more Open (e.g., Open table in a new tab are with some of the that be by Open for example, 1) living systematic reviews involve of to of that need to be for (e.g., C. Systematic towards evidence for decision-making 2020Date accessed: 2020Google need to for in practice in of as novel methods become of in the These are not problems with Open Synthesis but important that be when and in support of Open However, a to Open systematic reviews and systematic maps will involve many and a of different these not be and is a need for about and it is that the of Open Science the L. of open and research 2017; PubMed Scopus Google Scholar]. some of these Open Synthesis are or by review reviews can be made Open Access at the point of for a by or made free a to Open not systematic data to be made public Clarke M. L. H. et 2018; PubMed Scopus Google Scholar]. methods in reviews are to the for Reviews reporting J. R. T. J. D. from the of reviews Scholar], the data from primary within a review are not Collaboration reviews are published in their Open Access and Open Methods are by the for Collaboration Open Data and are in the for the of the systematic reviews next to 2019; Scholar]. For both review are published online and work as be with all systematic reviews and maps (e.g., in of Systematic or published in a Open evidence synthesis approaches has the potential to research, to data and and in knowledge availability (e.g., a body of coronavirus trials was and by from Open synthesis also supports living systematic reviews or it is the framework to it the need to facilitate that Open Synthesis of evidence will provide with and access to the synthesis methods, of and other for and improve the quality and of the impact of Open Synthesis the of other is to respond to the knowledge of decision makers by Similarly, it has to knowledge translation tools that are to the decision it build on emerging such as Evidence Synthesis E.A. Haddaway N.R. Lotfi T. Evidence synthesis when and of reviews Clin Epidemiol. 2020; 0Google Scholar], to ensure the of the process and of the We of these principles across all to the and economic challenges of the global COVID-19 pandemic, such as supporting education for of social impacts of to the and of global or the of social on environmental from and We call for application of Open Science and Open Synthesis principles across both within and the COVID-19 to support evidence synthesis, and Open evidence synthesis from all can the and of systematic reviews and support particularly in global such as the current COVID-19 pandemic, a more and collaborative in the event of global R. Data A. review J. review A. review review review with Data",
+      "year": "2020",
+      "published_date": "2020-07-01",
+      "journal": "Journal of Clinical Epidemiology",
+      "url": "https://doi.org/10.1016/j.jclinepi.2020.06.032",
+      "arxiv_id": "",
+      "keywords": [
+        "Pandemic",
+        "Globe",
+        "Coronavirus disease 2019 (COVID-19)",
+        "Coronavirus",
+        "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+        "2019-20 coronavirus outbreak",
+        "Population",
+        "Economic growth"
+      ],
+      "citations": 15,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.jclinepi.2020.06.032",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "Accelerating Evidence Synthesis: A BERT-Assisted Workflow for Meta-Analyses of Radiotherapy Complications in Nasopharyngeal Carcinoma",
+      "authors": [
+        "Tsair-Fwu Lee",
+        "Wen-Ping Yun",
+        "Hung-Wei Hsu",
+        "Jyun-Jie Wu",
+        "Ya-Shin Kuan",
+        "Yi-Lun Liao",
+        "C. Wuu",
+        "Liyun Chang",
+        "Yang-Wei Hsieh",
+        "Pei-Ju Chao"
+      ],
+      "abstract": "Background/Objectives: This study developed and evaluated a BERT-assisted literature screening workflow to support meta-analyses of postradiotherapy complications in nasopharyngeal carcinoma patients. The aim was to automate key screening steps to improve downstream screening efficiency and consistency, while minimizing time and bias during manual reviews. Materials and Methods: A bidirectional encoder representations from transformers (BERT) model was integrated into a standard systematic review pipeline for studies on postradiotherapy complications in nasopharyngeal carcinoma. The workflow combined automated BERT-based classification with manual verification and followed PRISMA and PICOS guidelines for literature identification, screening, and eligibility assessment. Model training involved hyperparameter tuning and comparison of different optimizers to maximize screening performance against a manually curated reference set, with particular attention to discrimination (AUC) and processing time. Results: From an initial corpus of 6496 records, the combined automated and manual workflow identified 23 eligible studies for meta-analysis. The included studies showed substantial heterogeneity (I2 = 86.85%), supporting the use of a random-effects model to pool outcomes. The BERT model optimized with an Adagrad optimizer achieved an AUC of 0.77 for relevant-study classification and reduced screening time to 1142 s. To demonstrate the workflow’s utility, a downstream meta-analysis was conducted using the identified studies. As a downstream application based on the identified studies, a quantitative synthesis was conducted, in which (meta-analysis of the 23 included studies), a random forest model—evaluated across those studies—achieved an AUC of 0.92 under a fixed-effect analysis for predicting postradiotherapy complications. Conclusions: Integrating BERT into the literature screening phase of meta-analysis for postradiotherapy nasopharyngeal carcinoma complications markedly improved screening efficiency while maintaining acceptable classification performance. This workflow demonstrates the feasibility of transformer-based assistance for systematic reviews and provides a foundation for developing disease-specific, AI-augmented evidence synthesis pipelines in oncology.",
+      "year": "2026",
+      "published_date": "2026-03-01",
+      "journal": "Reports",
+      "url": "https://www.semanticscholar.org/paper/c447e19c9add9eff42fda5e20e05b225b4b7d518",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/reports9010090",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "A4SLR: An Agentic Artificial Intelligence-Assisted Systematic Literature Review Framework to Augment Evidence Synthesis for Health Economics and Outcomes Research and Health Technology Assessment.",
+      "authors": [
+        "Kyeryoung Lee",
+        "Hunki Paek",
+        "Nneka Ofoegbu",
+        "Steven Rube",
+        "Mitchell K Higashi",
+        "Dalia Dawoud",
+        "Hua Xu",
+        "Lizheng Shi",
+        "Xiaoyan Wang"
+      ],
+      "abstract": "Systematic literature reviews (SLRs) are essential for synthesizing high-quality evidence in clinical research, health economics and outcomes research, and health technology assessments. However, the growing volume of published data has made SLRs time-consuming, labor-intensive, and costly. To address these challenges, we introduce A4SLR, an agentic artificial-intelligence-assisted SLR framework, which provides a flexible, extensible methodology for automating the entire SLR process-from initial query formulation to evidence synthesis-across various study fields. A4SLR comprises 8 modules integrated with specialized artificial intelligence agents powered by large language models: search, I/E criteria deployment, abstract/full-text screening, text/table pre-processing, data extraction, assessment, risk of bias analysis, and report. We implemented and validated this framework using 2 use cases, non-small cell lung cancer and perinatal mood and anxiety disorders. Performance of the assessment was evaluated quantitatively and qualitatively. Our implementation demonstrated high accuracy in article screening (F1 scores: 0.917-0.977), risk of bias assessment (Cohen's k: 0.8442-0.9064), and data extraction (F-scores: 0.96-0.998), including patient characteristics, safety and efficacy outcomes, economic model parameters, and cost-effectiveness data. Notably, the text/table preprocessing agent yielded comprehensive coverage of data elements, particularly in the challenging tasks of accurately matching outcome values to their corresponding study arms. Our findings highlight the potential of the A4SLR framework to transform the evidence synthesis process by addressing the limitations of manual SLRs, thereby enhancing health economics and outcomes research and health technology assessments. Designed as a scalable, user-centric, extensible approach, A4SLR provides a robust solution for generating comprehensive up-to-date evidence to support researchers and decision makers across diverse clinical and therapeutic areas.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40816692/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Artificial Intelligence",
+        "Cost-Benefit Analysis",
+        "Economics, Medical",
+        "Outcome Assessment, Health Care",
+        "Systematic Reviews as Topic",
+        "Technology Assessment, Biomedical"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1016/j.jval.2025.08.002",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent"
+    }
+  ],
+  "timestamp": "20260413_135002"
+}

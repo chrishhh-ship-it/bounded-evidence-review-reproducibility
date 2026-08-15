@@ -1,0 +1,251 @@
+{
+  "query_id": "Q097",
+  "query": "在系统文献综述场景中，证明 Method 2 相对于 Method 1（7× 成本）的额外 1.7× 成本是合理的条件是什么？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Space-Air-Ground Integrated Multi-Domain Network Resource Orchestration Based on Virtual Network Architecture: A DRL Method",
+      "authors": [
+        "Peiying Zhang",
+        "Chao Wang",
+        "Neeraj Kumar",
+        "Lei Liu"
+      ],
+      "abstract": "Traditional ground wireless communication networks cannot provide high-quality services for artificial intelligence (AI) applications such as intelligent transportation systems (ITS) due to deployment, coverage and capacity issues. The space-air-ground integrated network (SAGIN) has become a research focus in the industry. Compared with traditional wireless communication networks, SAGIN is more flexible and reliable, and it has wider coverage and higher quality of seamless connection. However, due to its inherent heterogeneity, time-varying and self-organizing characteristics, the deployment and use of SAGIN still faces huge challenges, among which the orchestration of heterogeneous resources is a key issue. Based on virtual network architecture and deep reinforcement learning (DRL), we model SAGIN&#x2019;s heterogeneous resource orchestration as a multi-domain virtual network embedding (VNE) problem, and propose a SAGIN cross-domain VNE algorithm. We model the different network segments of SAGIN, and set the network attributes according to the actual situation of SAGIN and user needs. In DRL, the agent is acted by a five-layer policy network. We build a feature matrix based on network attributes extracted from SAGIN and use it as the agent training environment. Through training, the probability of each underlying node being embedded can be derived. In test phase, we complete the embedding process of virtual nodes and links in turn based on this probability. Finally, we verify the effectiveness of the algorithm from both training and testing.",
+      "year": "2021",
+      "published_date": "2021-08-03",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "url": "https://doi.org/10.1109/tits.2021.3099477",
+      "arxiv_id": "",
+      "keywords": [
+        "Orchestration",
+        "Computer science",
+        "Architecture",
+        "Network architecture",
+        "Domain (mathematical analysis)",
+        "Space (punctuation)",
+        "Computer network",
+        "Virtual network"
+      ],
+      "citations": 105,
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2021.3099477",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "A Reconfigurable Method for Intelligent Manufacturing Based on Industrial Cloud and Edge Intelligence",
+      "authors": [
+        "Hao Tang",
+        "Di Li",
+        "Jiafu Wan",
+        "Muhammad Imran",
+        "Muhammad Shoaib"
+      ],
+      "abstract": "The development of Industry 4.0 has provided the possibility to meet frequent changes in product type and batches, a sharp decline in the delivery cycle, constraints of quality cost, and other relevant parameters of customized production mode. Intelligent manufacturing, as a core of Industry 4.0, represents a deep integration of new IT technologies, such as the industrial Internet of Things and service-oriented architecture, and manufacturing process. To realize intelligent manufacturing, this article introduces a cloud-assisted and edge-decision-making manufacturing architecture that contains a cloud and production edges. An intelligent production edge is designed to provide the traditional devices the abilities of data access and self-decision making. Besides, the proposed architecture is modeled as a multiagent system with the edge intelligence support, describing the agent-based reconfiguration mechanism from the three aspects, namely, agent interaction, agent behavior, and negotiation mechanism. The experimental results show that the reconfigurable method based on the proposed architecture can be used in the mixed-flow production scenario based on random orders, to improve the adaptability and robustness.",
+      "year": "2019",
+      "published_date": "2019-10-30",
+      "journal": "IEEE Internet of Things Journal",
+      "url": "https://doi.org/10.1109/jiot.2019.2950048",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Cloud computing",
+        "Control reconfiguration",
+        "Cloud manufacturing",
+        "Distributed computing",
+        "Adaptability",
+        "Robustness (evolution)",
+        "Industry 4.0"
+      ],
+      "citations": 84,
+      "source": "OpenAlex",
+      "doi": "10.1109/jiot.2019.2950048",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "A Quality-Oriented Digital Twin Modelling Method for Manufacturing Processes Based on A Multi-Agent Architecture",
+      "authors": [
+        "Xiaochen Zheng",
+        "Foivos Psarommatis",
+        "Pierluigi Petrali",
+        "Claudio Turrin",
+        "Jinzhi Lu",
+        "Dimitris Kiritsis"
+      ],
+      "abstract": "The quality of a product is highly dependent on manufacturing processes. The recent development of industrial information technologies, such as Cyber-Physical Production Systems, Industrial Internet of Things, and Big Manufacturing Data Analytics has empowered the digitalization of manufacturing processes and promoted the concept of Digital Twin (DT). As one of the fundamental enabling technologies for Industry 4.0, DT enables the convergence between a physical system and its digital representation. DT modelling is the basis of implementing DT in practice. In this paper, we propose a DT modelling method based on a multi-agent architecture. It focuses on quality control during manufacturing processes and provides solutions to gather relevant information and analyze the corresponding influences on product quality. The MPFQ-model (Material, Production Process, Product Function/Future, Product Quality) is adopted to support the analysis of main influential factors related to the final product quality during the manufacturing phase. The five-dimension architecture is used as the basis for the DT models, including (i) physical entities, (ii) virtual models, (iii) DT data, (iv) services and (v) connections. Based on this architecture a Multi-Agent System (MAS) component and a semantic engineering component are integrated to create a quality-oriented DT framework.",
+      "year": "2020",
+      "published_date": "2020-01-01",
+      "journal": "Procedia Manufacturing",
+      "url": "https://doi.org/10.1016/j.promfg.2020.10.044",
+      "arxiv_id": "",
+      "keywords": [
+        "Quality (philosophy)",
+        "Cyber-physical system",
+        "Component (thermodynamics)",
+        "Manufacturing engineering",
+        "Product (mathematics)",
+        "Computer science",
+        "Systems engineering",
+        "Architecture"
+      ],
+      "citations": 72,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.promfg.2020.10.044",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Autonomous Digital Twin of Enterprise: Method and Toolset for Knowledge-Based Multi-Agent Adaptive Management of Tasks and Resources in Real Time",
+      "authors": [
+        "Vladimir Galuzin",
+        "Anastasia Galitskaya",
+        "Sergey Grachev",
+        "Vladimir Larukhin",
+        "Dmitry Novichkov",
+        "Petr Skobelev",
+        "Alexey Zhilyaev"
+      ],
+      "abstract": "Digital twins of complex technical objects are widely applied for various domains, rapidly becoming smart, cognitive and autonomous. However, the problem of digital twins for autonomous management of enterprise resources is still not fully researched. In this paper, an autonomous digital twin of enterprise is introduced to provide knowledge-based multi-agent adaptive allocation, scheduling, optimization, monitoring and control of tasks and resources in real time, synchronized with employees’ plans, preferences and competencies via mobile devices. The main requirements for adaptive resource management are analyzed. The authors propose formalized ontological and multi-agent models for developing the autonomous digital twin of enterprise. A method and software toolset for designing the autonomous digital twin of enterprise, applicable for both operational management of tasks and resources and what-if simulations, are developed. The validation of developed methods and toolsets for IT service desk has proved increase in efficiency, as well as savings in time and costs of deliveries for various applications. The paper also outlines a plan for future research, as well as a number of new potential business applications.",
+      "year": "2022",
+      "published_date": "2022-05-12",
+      "journal": "Mathematics",
+      "url": "https://doi.org/10.3390/math10101662",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Enterprise software",
+        "Scheduling (production processes)",
+        "Knowledge management",
+        "Process management",
+        "Operations management",
+        "Engineering"
+      ],
+      "citations": 22,
+      "source": "OpenAlex",
+      "doi": "10.3390/math10101662",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "MANTRA: Enhancing Automated Method-Level Refactoring with Contextual RAG and Multi-Agent LLM Collaboration",
+      "authors": [
+        "Yisen Xu",
+        "Feng Lin",
+        "Jinqiu Yang",
+        "Tse-Hsun Chen",
+        "Nikolaos Tsantalis"
+      ],
+      "abstract": "Maintaining and scaling software systems relies heavily on effective code refactoring, yet this process remains labor-intensive, requiring developers to carefully analyze existing codebases and prevent the introduction of new defects. Although recent advancements have leveraged Large Language Models (LLMs) to automate refactoring tasks, current solutions are constrained in scope and lack mechanisms to guarantee code compilability and successful test execution. In this work, we introduce MANTRA, a comprehensive LLM agent-based framework that automates method-level refactoring. MANTRA integrates Context-Aware Retrieval-Augmented Generation, coordinated Multi-Agent Collaboration, and Verbal Reinforcement Learning to emulate human decision-making during refactoring while preserving code correctness and readability. Our empirical study, conducted on 703 instances of\"pure refactorings\"(i.e., code changes exclusively involving structural improvements), drawn from 10 representative Java projects, covers the six most prevalent refactoring operations. Experimental results demonstrate that MANTRA substantially surpasses a baseline LLM model (RawGPT ), achieving an 82.8% success rate (582/703) in producing code that compiles and passes all tests, compared to just 8.7% (61/703) with RawGPT. Moreover, in comparison to IntelliJ's LLM-powered refactoring tool (EM-Assist), MANTRA exhibits a 50% improvement in generating Extract Method transformations. A usability study involving 37 professional developers further shows that refactorings performed by MANTRA are perceived to be as readable and reusable as human-written code, and in certain cases, even more favorable. These results highlight the practical advantages of MANTRA and emphasize the growing potential of LLM-based systems in advancing the automation of software refactoring tasks.",
+      "year": "2025",
+      "published_date": "2025-03-18",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/82f5b9da7ca932129f849f3fe7319e747855af37",
+      "arxiv_id": "2503.14340",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 16,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2503.14340",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "A Universal Transcoding and Transmission Method for Livecast with Networked Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Xingyan Chen",
+        "Changqiao Xu",
+        "Mu Wang",
+        "Zhonghui Wu",
+        "Shujie Yang",
+        "Lujie Zhong",
+        "Gabriel‐Miro Muntean"
+      ],
+      "abstract": "Intensive video transcoding and data transmission are the most crucial tasks for large-scale Crowd-sourced Livecast Services (CLS). However, there exists no versatile model for joint optimization of computing resources (e.g., CPU) and transmission resources (e.g., bandwidth) in CLS systems, making maintaining the balance between saving resources and improving user viewing experience very challenging. In this paper, we first propose a novel universal model, called Augmented Graph Model (AGM), which converts the above joint optimization into a multi-hop routing problem. This model provides a new perspective for the analysis of resource allocation in CLS, as well as opens new avenues for problem-solving. Further, we design a decentralized Networked Multi-Agent Reinforcement Learning (MARL) approach and propose an actor-critic algorithm, allowing network nodes (agents) to distributively solve the multi-hop routing problem using AGM in a fully cooperative manner. By leveraging the computing resource of massive nodes efficiently, this approach has good scalability and can be employed in large-scale CLS. To the best of our knowledge, this work is the first attempt to apply networked MARL on CLS. Finally, we use the centralized (single-agent) RL algorithm as a benchmark to evaluate the numerical performance of our solution in a large-scale simulation. Additionally, experimental results based on a prototype system show that our solution is superior in saving resources and service performance to two alternative state-of-the-art solutions.",
+      "year": "2021",
+      "published_date": "2021-05-10",
+      "journal": "OpenAlex",
+      "url": "https://doi.org/10.1109/infocom42981.2021.9488868",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Reinforcement learning",
+        "Scalability",
+        "Distributed computing",
+        "CLs upper limits",
+        "Transcoding",
+        "Benchmark (surveying)",
+        "Wireless network"
+      ],
+      "citations": 14,
+      "source": "OpenAlex",
+      "doi": "10.1109/infocom42981.2021.9488868",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "An Intelligent Multi-agent System Using Fuzzy Analytic Hierarchy Process and Axiomatic Design as a Decision Support Method for Refugee Settlement Siting",
+      "authors": [
+        "Maria Drakaki",
+        "Hacer Güner Gören",
+        "Panagiotis Tzionas"
+      ],
+      "abstract": "",
+      "year": "2018",
+      "published_date": "2018-01-01",
+      "journal": "Lecture notes in business information processing",
+      "url": "https://doi.org/10.1007/978-3-319-90315-6_2",
+      "arxiv_id": "",
+      "keywords": [
+        "Settlement (finance)",
+        "Analytic hierarchy process",
+        "Refugee",
+        "Multiple-criteria decision analysis",
+        "Axiomatic design",
+        "Operations research",
+        "Fuzzy logic",
+        "Management science"
+      ],
+      "citations": 7,
+      "source": "OpenAlex",
+      "doi": "10.1007/978-3-319-90315-6_2",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Virtual worlds, real insights: a multi-method literature review of customer service experience in extended reality: a multi-method literature review",
+      "authors": [
+        "Omkar Dastane",
+        "Shalini Aggarwal",
+        "Suchita Jha",
+        "Eugene Cheng‐Xi Aw"
+      ],
+      "abstract": "\nPurpose\nGiven the significant changes that immersive technologies have brought about in services marketing, new research output emphasizes the necessity of thoroughly examining the customer experience in extended reality (XR) service landscapes. The study aims to bridges the gap in understanding customer journey stages in XR environments by using a multi-method literature review approach.\n\n\nDesign/methodology/approach\nThe present study combines a systematic review with a bibliometric analysis of 892 Scopus-indexed publications retrieved by following the PRISMA protocol. The study performs analysis using ATLAS.ti (content analysis), Biblioshiny (performance analysis and strategy map) and VOS viewer (network analysis) to effectively analyze and synthesize the extensive body of literature.\n\n\nFindings\nAn integrated conceptual model of customer experience in XR was developed, mapping its consequences across six customer journey stages, with antecedents encompassing dimensions of system quality and usability, immersion and presence, experiential engagement and value, trust and authenticity. The bibliometric analysis offered a panoramic view by illuminating the nine clusters (i.e. virtual community, value co-creation, AI trust and quality, digital infrastructure, experiential marketing, customer journey, enjoyment, experience management and interactivity) that make up the field’s intellectual structure.\n\n\nOriginality/value\nThis study presents a pioneering and comprehensive review that enriches the existing literature and contributes to service marketing theory and practice. The study highlights fundamental research gaps in XR customer experience and proposes a future research agenda and implications. Theoretically, the findings add insights into the context-specific domain of XR-driven consumer behavior by uncovering its antecedents and consequences.\n",
+      "year": "2025",
+      "published_date": "2025-05-22",
+      "journal": "Journal of Services Marketing",
+      "url": "https://www.semanticscholar.org/paper/e83892b5eb62c247b2d279794a8944e9e38d25e2",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.1108/jsm-09-2024-0495",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service literature review"
+    }
+  ],
+  "timestamp": "20260413_001602"
+}

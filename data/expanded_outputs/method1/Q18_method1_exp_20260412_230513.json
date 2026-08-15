@@ -1,0 +1,201 @@
+{
+  "query_id": "Q18",
+  "query": "如何减少智慧情报服务自动报告中的夸大性 claim？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "id": "gs_a7db622d9a",
+      "title": "FactReview: Evidence-Grounded Reviews with Literature Positioning and Execution-Based Claim Verification",
+      "abstract": "needed for review lies in related work or released code. We present FactReview, an  evidence-grounded reviewing system that combines claim extraction, literature positioning, and",
+      "authors": [
+        "H Xu",
+        "L Yue",
+        "C Ouyang",
+        "L Zheng",
+        "S Pan",
+        "S Di"
+      ],
+      "year": 2026,
+      "journal": "arXiv preprint arXiv …",
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2604.04074",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "id": "gs_9e8ee2fe9a",
+      "title": "SciTrue: Evidence-Grounded Claim Verification in Science",
+      "abstract": "products now provide scientific summarisation, literature review, or evidence retrieval, often   to systematic review templates), and lack precise mappings between synthesized claims and",
+      "authors": [
+        "N Tan",
+        "M Li",
+        "M Gahegan"
+      ],
+      "year": 2026,
+      "journal": "Proceedings of the 19th Conference of …",
+      "citations": 0,
+      "url": "https://aclanthology.org/2026.eacl-demo.27/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "MedRAGChecker: Claim-Level Verification for Biomedical Retrieval-Augmented Generation",
+      "authors": [
+        "Yuelyu Ji",
+        "M. Kwak",
+        "Hang Zhang",
+        "Xizhi Wu",
+        "Chenyu Li",
+        "Yanshan Wang"
+      ],
+      "abstract": "Biomedical retrieval-augmented generation (RAG) can ground LLM answers in medical literature, yet long-form outputs often contain isolated unsupported or contradictory claims with safety implications. We introduce MedRAGChecker, a claim-level verification and diagnostic framework for biomedical RAG. Given a question, retrieved evidence, and a generated answer, MedRAGChecker decomposes the answer into atomic claims and estimates claim support by combining evidence-grounded natural language inference (NLI) with biomedical knowledge-graph (KG) consistency signals. Aggregating claim decisions yields answer-level diagnostics that help disentangle retrieval and generation failures, including faithfulness, under-evidence, contradiction, and safety-critical error rates. To enable scalable evaluation, we distill the pipeline into compact biomedical models and use an ensemble verifier with class-specific reliability weighting. Experiments on four biomedical QA benchmarks show that MedRAGChecker reliably flags unsupported and contradicted claims and reveals distinct risk profiles across generators, particularly on safety-critical biomedical relations.",
+      "year": "2026",
+      "published_date": "2026-01-10",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/f431f33224310d45fd80933a21d44c1464ceb873",
+      "arxiv_id": "2601.06519",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2601.06519",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Combating Biomedical Misinformation through Multi-modal Claim Detection and Evidence-based Verification",
+      "authors": [
+        "Mariano Barone",
+        "Antonio Romano",
+        "Giuseppe Riccio",
+        "Marco Postiglione",
+        "Vincenzo Moscato"
+      ],
+      "abstract": "Misinformation in healthcare, from vaccine hesitancy to unproven treatments, poses risks to public health and trust in medical systems. While machine learning and natural language processing have advanced automated fact-checking, validating biomedical claims remains uniquely challenging due to complex terminology, the need for domain expertise, and the critical importance of grounding in scientific evidence. We introduce CER (Combining Evidence and Reasoning), a novel framework for biomedical fact-checking that integrates scientific evidence retrieval, reasoning via large language models, and supervised veracity prediction. By integrating the text-generation capabilities of large language models with advanced retrieval techniques for high-quality biomedical scientific evidence, CER effectively mitigates the risk of hallucinations, ensuring that generated outputs are grounded in verifiable, evidence-based sources. Evaluations on expert-annotated datasets (HealthFC, BioASQ-7b, SciFact) demonstrate state-of-the-art performance and promising cross-dataset generalization. Code and data are released for transparency and reproducibility: https://github.com/PRAISELab-PicusLab/CER",
+      "year": "2025",
+      "published_date": "2025-09-17",
+      "journal": "SIGIR '25: Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2025",
+      "url": "http://arxiv.org/abs/2509.13888v1",
+      "arxiv_id": "2509.13888v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models"
+    },
+    {
+      "id": "gs_1a23860506",
+      "title": "Agentic AI for Next-Generation Insurance Platforms: Autonomous Decision-Making in Claims and Policy Servicing",
+      "abstract": "… agentic AI to automate these activ- ities would enhance the speed, quality, and efficiency of service … Acting on behalf of insurance companies, agentic AI would decide whether a claim …",
+      "authors": [
+        "K Amistapuram"
+      ],
+      "year": 2025,
+      "journal": "K Amistapuram - Journal of Marketing & Social Research, 2025 - jmsr-online.com",
+      "citations": 20,
+      "url": "https://jmsr-online.com/article/agentic-ai-for-next-generation-insurance-platforms-autonomous-decision-making-in-claims-and-policy-servicing-400/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Artificial intelligence service agents: a silver lining in rural India",
+      "authors": [
+        "Hariharan Ravi",
+        "R. Vedapradha"
+      ],
+      "abstract": "Purpose The study aims to examine the impact of an artificial intelligent service agent (AISA) on customer services to the rural population provided by KAYA, Kotak Life's AI-enabled insurance chatbot avatar that offers quality insurance services. Design/methodology/approach Multi-stage cluster sampling method was adopted to collect the responses from the 707 customers across the rural population of southern states of India. SPSS V.2 and Smart PLS 4 were used to apply simple percentage analysis, multiple linear regression analysis, and structural equation modeling (SEM) to validate the hypothesis. The dependent variables are economic performance and market performance based on the independent variables: efficiency, security, availability, enjoyment and contact. Findings The study revealed that efficiency and security are the highest predictors and the most influencing variables in predicting the economic and market performance of the insurance companies in determining the quality of service when rendered through AISA among the customers. Efficiency, security, availability, contact and enjoyment are the critical dimensions of AISA. It has a more significant impact on quality service (claim processing) to the rural population. It improves the economic and market performance among the insurance companies and the rural population. Originality/value Customers need convenience when making claims. Even little challenges might lead to stress and unhappiness, depending on the situation. Restrictions on where customers can file claims may not be the most outstanding service insurance firms can offer, given rising travel and commuting costs and widening geographical borders. Customers value proactive communication from service providers about the status of their insurance claims.",
+      "year": "2023",
+      "published_date": "2023-04-05",
+      "journal": "Kybernetes",
+      "url": "https://doi.org/10.1108/k-09-2022-1239",
+      "arxiv_id": "",
+      "keywords": [
+        "Population",
+        "Service quality",
+        "Service (business)",
+        "Business",
+        "Marketing",
+        "Service provider",
+        "Quality (philosophy)",
+        "Actuarial science"
+      ],
+      "citations": 7,
+      "source": "OpenAlex",
+      "doi": "10.1108/k-09-2022-1239",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation",
+      "authors": [
+        "Ines Besrour",
+        "Jingbo He",
+        "Tobias Schreieder",
+        "Michael Farber"
+      ],
+      "abstract": "We present SQuAI (https://squai.scads.ai/), a scalable and trustworthy multi-agent retrieval-augmented generation (RAG) framework for scientific question answering (QA) with large language models (LLMs). SQuAI addresses key limitations of existing RAG systems in the scholarly domain, where complex, open-domain questions demand accurate answers, explicit claims with citations, and retrieval across millions of scientific documents. Built on over 2.3 million full-text papers from arXiv.org, SQuAI employs four collaborative agents to decompose complex questions into sub-questions, retrieve targeted evidence via hybrid sparse-dense retrieval, and adaptively filter documents to improve contextual relevance. To ensure faithfulness and traceability, SQuAI integrates in-line citations for each generated claim and provides supporting sentences from the source documents. Our system improves faithfulness, answer relevance, and contextual relevance by up to +0.088 (12%) over a strong RAG baseline. We further release a benchmark of 1,000 scientific question-answer-evidence triplets to support reproducibility. With transparent reasoning, verifiable citations, and domain-wide scalability, SQuAI demonstrates how multi-agent RAG enables more trustworthy scientific QA with LLMs.",
+      "year": "2025",
+      "published_date": "2025-10-17",
+      "journal": "International Conference on Information and Knowledge Management",
+      "url": "https://www.semanticscholar.org/paper/d6c3fe64cef9add8f0d4069d0b13d8c5638f1abb",
+      "arxiv_id": "2510.15682",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3746252.3761471",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system full text retrieval"
+    },
+    {
+      "title": "Towards Robust Fact-Checking: A Multi-Agent System with Advanced Evidence Retrieval",
+      "authors": [
+        "Tam Trinh",
+        "Manh Nguyen",
+        "Truong-Son Hy"
+      ],
+      "abstract": "The rapid spread of misinformation in the digital era poses significant challenges to public discourse, necessitating robust and scalable fact-checking solutions. Traditional human-led fact-checking methods, while credible, struggle with the volume and velocity of online content, prompting the integration of automated systems powered by Large Language Models (LLMs). However, existing automated approaches often face limitations, such as handling complex claims, ensuring source credibility, and maintaining transparency. This paper proposes a novel multi-agent system for automated fact-checking that enhances accuracy, efficiency, and explainability. The system comprises four specialized agents: an Input Ingestion Agent for claim decomposition, a Query Generation Agent for formulating targeted subqueries, an Evidence Retrieval Agent for sourcing credible evidence, and a Verdict Prediction Agent for synthesizing veracity judgments with human-interpretable explanations. Evaluated on benchmark datasets (FEVEROUS, HOVER, SciFact), the proposed system achieves a 12.3% improvement in Macro F1-score over baseline methods. The system effectively decomposes complex claims, retrieves reliable evidence from trusted sources, and generates transparent explanations for verification decisions. Our approach contributes to the growing field of automated fact-checking by providing a more accurate, efficient, and transparent verification methodology that aligns with human fact-checking practices while maintaining scalability for real-world applications. Our source code is available at https://github.com/HySonLab/FactAgent",
+      "year": "2025",
+      "published_date": "2025-06-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2506.17878v1",
+      "arxiv_id": "2506.17878v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    }
+  ],
+  "timestamp": "20260412_230513"
+}

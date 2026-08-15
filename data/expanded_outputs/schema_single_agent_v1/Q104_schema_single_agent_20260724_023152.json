@@ -1,0 +1,237 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q104",
+  "query": "多领域基准（≥3 领域）相比单领域基准在验证引用纪律机制时提供了哪些额外的实验控制？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q104_method1_exp_20260413_081252.json",
+  "same_query_evidence_ids": [
+    "doi:10.3969/j.issn.2095-8870.2026.01.006",
+    "doi:10.3969/j.issn.2095-8870.2026.01.003",
+    "doi:10.3969/j.issn.2095-8870.2026.01.013",
+    "title:数字人文与开放议程——西蒙·马奥尼教授访谈|2024",
+    "doi:10.1109/mvt.2019.2921208",
+    "doi:10.1016/j.iotcps.2023.04.003",
+    "title:multi-agent systems: a survey|2018",
+    "doi:10.1038/nenergy.2016.32"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.3969/j.issn.2095-8870.2026.01.006",
+    "doi:10.3969/j.issn.2095-8870.2026.01.003",
+    "doi:10.3969/j.issn.2095-8870.2026.01.013",
+    "title:数字人文与开放议程——西蒙·马奥尼教授访谈|2024",
+    "doi:10.1109/mvt.2019.2921208",
+    "doi:10.1016/j.iotcps.2023.04.003",
+    "title:multi-agent systems: a survey|2018",
+    "doi:10.1038/nenergy.2016.32"
+  ],
+  "top_papers": [
+    {
+      "id": "wf_jzqb202601006",
+      "title": "正确认识人工智能时代开源情报的变革性力量",
+      "abstract": "在坚守与探索中,《竞争<span class='highlight'>情报</span>》杂志于2015年完成了从内刊向正式公开出版刊物的转型.转眼又一个十年过去.回顾2015-2025年,以科技<span class='highlight'>情报</span>、竞争<span class='highlight'>情报</span>和商业<span class='highlight'>情报</span>为代表的<span class='highlight'>情报</span>领域,在技术<span class='highlight'>体</span>系、实践范式与治理机制等方面经历了深刻而系统的变革.生成式人工<span class='highlight'>智能</span>(GenAI)与开源<span class='highlight'>情报</span>(OSINT)逐渐成为关键<span class='highlight'>驱动</span>力,推动<span class='highlight'>情报</span>工作从信息获取、<span class='highlight'>分析</span>研判到产品输出的全流程重构.展望下一个十年(2026-2035 年),<span class='highlight'>情报</span>领域无疑将迎来更为深层的演进.如何打破制约<span class='highlight'>情报</span>价值释放的<span class='highlight'>体</span>制、技术与认知壁垒,实现真正意义上的\"破界\",如何构建开放、协同、可持续的<span class='highlight'>情报</span>生态,实现<span class='highlight'>多</span>元主<span class='highlight'>体</span>之间的\"共生\",将成为摆在<span class='highlight'>情报</span>界面前的核心议题.在这一进程中,AI大模型如何突破\"幻觉\"瓶颈以实现高可信度与精准推理?<span class='highlight'>情报</span>如何更有效支撑地缘博弈与重大商业决策?<span class='highlight'>情报</span>方法与技术将出现哪些新的突破性进展?在数据跨境流动受限与合规要求日益严格 的背景下,竞争<span class='highlight'>情报</span>如何平衡效率与安全?商业<span class='highlight'>情报</span>又如何从\"被动响应\"走向\"主动预测\"?<span class='highlight'>情报</span>学教育<span class='highlight'>体</span>系应当如何调整,以培养适应新形势的复合型专业人才?围绕上述问题,本刊特邀<span class='highlight'>多</span>位长期深耕<span class='highlight'>情报</span>研究与实践一线的专家学者,从不同视角对未来十年竞争<span class='highlight'>情报</span>领域的发展趋势进行前瞻性展望,以期为学界与业界提供有价值的思考与参考. Through a decade of perseverance and exploration,Competitive Intelligence completed its transition in 2015 from an internal publication to a formally published journal.Another ten years have since  passed.Looking back at the period from 2015 to 2025,the intelligence community—represented by scientific and technological intelligence,competitive intelligence,and business intelligence—has undergone  profound and systematic transformations in terms of technological foundations,practical paradigms,and governance mechanisms.Generative artificial intelligence(GenAI)and open-source intelligence(OSINT)have  gradually emerged as key driving forces,reshaping the entire intelligence workflow,from information acquisition and analytical assessment to product generation and dissemination.Looking ahead to the next  decade(2026-2035),the intelligence field is poised to experience even deeper transformations.How to break through institutional,technological,and cognitive barriers that constrain the realization of",
+      "authors": [
+        "梅建明"
+      ],
+      "year": 2026,
+      "journal": "特写",
+      "citations": 3,
+      "url": "https://doi.org/10.3969/j.issn.2095-8870.2026.01.006",
+      "doi": "10.3969/j.issn.2095-8870.2026.01.006",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "竞争情报",
+        "破界",
+        "共生",
+        "展望"
+      ],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "wf_jzqb202601003",
+      "title": "解决好智能情报研究中的几个关键问题",
+      "abstract": "在坚守与探索中,《竞争<span class='highlight'>情报</span>》杂志于2015年完成了从内刊向正式公开出版刊物的转型.转眼又一个十年过去.回顾2015-2025年,以科技<span class='highlight'>情报</span>、竞争<span class='highlight'>情报</span>和商业<span class='highlight'>情报</span>为代表的<span class='highlight'>情报</span>领域,在技术<span class='highlight'>体</span>系、实践范式与治理机制等方面经历了深刻而系统的变革.生成式人工<span class='highlight'>智能</span>(GenAI)与开源<span class='highlight'>情报</span>(OSINT)逐渐成为关键<span class='highlight'>驱动</span>力,推动<span class='highlight'>情报</span>工作从信息获取、<span class='highlight'>分析</span>研判到产品输出的全流程重构.展望下一个十年(2026-2035 年),<span class='highlight'>情报</span>领域无疑将迎来更为深层的演进.如何打破制约<span class='highlight'>情报</span>价值释放的<span class='highlight'>体</span>制、技术与认知壁垒,实现真正意义上的\"破界\",如何构建开放、协同、可持续的<span class='highlight'>情报</span>生态,实现<span class='highlight'>多</span>元主<span class='highlight'>体</span>之间的\"共生\",将成为摆在<span class='highlight'>情报</span>界面前的核心议题.在这一进程中,AI大模型如何突破\"幻觉\"瓶颈以实现高可信度与精准推理?<span class='highlight'>情报</span>如何更有效支撑地缘博弈与重大商业决策?<span class='highlight'>情报</span>方法与技术将出现哪些新的突破性进展?在数据跨境流动受限与合规要求日益严格 的背景下,竞争<span class='highlight'>情报</span>如何平衡效率与安全?商业<span class='highlight'>情报</span>又如何从\"被动响应\"走向\"主动预测\"?<span class='highlight'>情报</span>学教育<span class='highlight'>体</span>系应当如何调整,以培养适应新形势的复合型专业人才?围绕上述问题,本刊特邀<span class='highlight'>多</span>位长期深耕<span class='highlight'>情报</span>研究与实践一线的专家学者,从不同视角对未来十年竞争<span class='highlight'>情报</span>领域的发展趋势进行前瞻性展望,以期为学界与业界提供有价值的思考与参考. Through a decade of perseverance and exploration,Competitive Intelligence completed its transition in 2015 from an internal publication to a formally published journal.Another ten years have since  passed.Looking back at the period from 2015 to 2025,the intelligence community—represented by scientific and technological intelligence,competitive intelligence,and business intelligence—has undergone  profound and systematic transformations in terms of technological foundations,practical paradigms,and governance mechanisms.Generative artificial intelligence(GenAI)and open-source intelligence(OSINT)have  gradually emerged as key driving forces,reshaping the entire intelligence workflow,from information acquisition and analytical assessment to product generation and dissemination.Looking ahead to the next  decade(2026-2035),the intelligence field is poised to experience even deeper transformations.How to break through institutional,technological,and cognitive barriers that constrain the realization of",
+      "authors": [
+        "张智雄"
+      ],
+      "year": 2026,
+      "journal": "特写",
+      "citations": 2,
+      "url": "https://doi.org/10.3969/j.issn.2095-8870.2026.01.003",
+      "doi": "10.3969/j.issn.2095-8870.2026.01.003",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "竞争情报",
+        "破界",
+        "共生",
+        "展望"
+      ],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "wf_jzqb202601013",
+      "title": "智驭变革:重塑AI赋能与多极化加速格局下的竞争情报新范式",
+      "abstract": "在坚守与探索中,《竞争<span class='highlight'>情报</span>》杂志于2015年完成了从内刊向正式公开出版刊物的转型.转眼又一个十年过去.回顾2015-2025年,以科技<span class='highlight'>情报</span>、竞争<span class='highlight'>情报</span>和商业<span class='highlight'>情报</span>为代表的<span class='highlight'>情报</span>领域,在技术<span class='highlight'>体</span>系、实践范式与治理机制等方面经历了深刻而系统的变革.生成式人工<span class='highlight'>智能</span>(GenAI)与开源<span class='highlight'>情报</span>(OSINT)逐渐成为关键<span class='highlight'>驱动</span>力,推动<span class='highlight'>情报</span>工作从信息获取、<span class='highlight'>分析</span>研判到产品输出的全流程重构.展望下一个十年(2026-2035 年),<span class='highlight'>情报</span>领域无疑将迎来更为深层的演进.如何打破制约<span class='highlight'>情报</span>价值释放的<span class='highlight'>体</span>制、技术与认知壁垒,实现真正意义上的\"破界\",如何构建开放、协同、可持续的<span class='highlight'>情报</span>生态,实现<span class='highlight'>多</span>元主<span class='highlight'>体</span>之间的\"共生\",将成为摆在<span class='highlight'>情报</span>界面前的核心议题.在这一进程中,AI大模型如何突破\"幻觉\"瓶颈以实现高可信度与精准推理?<span class='highlight'>情报</span>如何更有效支撑地缘博弈与重大商业决策?<span class='highlight'>情报</span>方法与技术将出现哪些新的突破性进展?在数据跨境流动受限与合规要求日益严格 的背景下,竞争<span class='highlight'>情报</span>如何平衡效率与安全?商业<span class='highlight'>情报</span>又如何从\"被动响应\"走向\"主动预测\"?<span class='highlight'>情报</span>学教育<span class='highlight'>体</span>系应当如何调整,以培养适应新形势的复合型专业人才?围绕上述问题,本刊特邀<span class='highlight'>多</span>位长期深耕<span class='highlight'>情报</span>研究与实践一线的专家学者,从不同视角对未来十年竞争<span class='highlight'>情报</span>领域的发展趋势进行前瞻性展望,以期为学界与业界提供有价值的思考与参考. Through a decade of perseverance and exploration,Competitive Intelligence completed its transition in 2015 from an internal publication to a formally published journal.Another ten years have since  passed.Looking back at the period from 2015 to 2025,the intelligence community—represented by scientific and technological intelligence,competitive intelligence,and business intelligence—has undergone  profound and systematic transformations in terms of technological foundations,practical paradigms,and governance mechanisms.Generative artificial intelligence(GenAI)and open-source intelligence(OSINT)have  gradually emerged as key driving forces,reshaping the entire intelligence workflow,from information acquisition and analytical assessment to product generation and dissemination.Looking ahead to the next  decade(2026-2035),the intelligence field is poised to experience even deeper transformations.How to break through institutional,technological,and cognitive barriers that constrain the realization of",
+      "authors": [
+        "王曰芬",
+        "田益宁"
+      ],
+      "year": 2026,
+      "journal": "特写",
+      "citations": 0,
+      "url": "https://doi.org/10.3969/j.issn.2095-8870.2026.01.013",
+      "doi": "10.3969/j.issn.2095-8870.2026.01.013",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "竞争情报",
+        "破界",
+        "共生",
+        "展望"
+      ],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "wf_szrwyj202403003",
+      "title": "数字人文与开放议程——西蒙·马奥尼教授访谈",
+      "abstract": "尽管国际上对开放议程的研究与实践已较为成熟,但在中国,相关研究仍较为匮乏.而作为理念与实践均与之密切相关的<span class='highlight'>数字</span><span class='highlight'>人文</span>领域,尤其需要提升对开放议程的认识.文章是对伦敦大学学院<span class='highlight'>数字</span><span class='highlight'>人文</span>荣休教授、<span class='highlight'>数字</span><span class='highlight'>人文</span>领域开放议程倡导者西蒙·马奥尼(Simon Mahony)教授的访谈整理,集中探讨了开放议程的内容与价值,及<span class='highlight'>数字</span><span class='highlight'>人文</span>与开放议程的关系.马奥尼教授指出,开放议程的核心在于促进知识的民主化与共享,增强学术 研究的透明性与包容性,并鼓励公众参与知识生产;作为开放议程的积极推动者,<span class='highlight'>数字</span><span class='highlight'>人文</span>学科在全球学术生态中的作用尤为突出,但是不同地区、国家之间的开放议程进度和内容有较大差异,比如英国与中国.马奥尼教授对开放议程的未来发展持乐观态度,认为其将继续推动知识创造与传播的加速,并进一步提升社会的学术参与度. Digital humanities,as an active promoting force of the Open Agenda,shares the same core values with Open Science:freedom,collaboration,inclusion,sharing,openness,and transparency.Digital technologies  not only pro-vide the technical foundation for realizing freedom,openness,and sharing,but they also transformed human thinking and the paradigms of scientific research.The widespread application of  emerging technologies,such as artificial intelli-gence,has exerted a significant impact on the disciplinary literacy,research paradigms,and trends of digital humanities.Simon Mahony,Emeritus Professor of  Digital Humanities at University College London(UCL),has been active in the field for over 20 years.As a contributor,researcher,and educator in digital humanities,he analyzes the de-velopment of this field  from a comprehensive perspective.Through three in-depth interviews with Professor Mahony,this article discusses the spirit of openness in digital humanities,starting from the Open Agenda and Open Science",
+      "authors": [
+        "西蒙·马奥尼",
+        "陈兴怡",
+        "王普宇"
+      ],
+      "year": 2024,
+      "journal": "游目骋观",
+      "citations": 14,
+      "url": "https://www.wanfangdata.com.cn/periodical/detail?id=szrwyj202403003",
+      "doi": "",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "数字人文",
+        "开放议程",
+        "开放科学"
+      ],
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "title": "6G Wireless Networks: Vision, Requirements, Architecture, and Key Technologies",
+      "authors": [
+        "Zhengquan Zhang",
+        "Yue Xiao",
+        "Zheng Ma",
+        "Ming Xiao",
+        "Zhiguo Ding",
+        "Xianfu Lei",
+        "George K. Karagiannidis",
+        "Pingzhi Fan"
+      ],
+      "abstract": "A key enabler for the intelligent information society of 2030, 6G networks are expected to provide performance superior to 5G and satisfy emerging services and applications. In this article, we present our vision of what 6G will be and describe usage scenarios and requirements for multi-terabyte per second (Tb/s) and intelligent 6G networks. We present a large-dimensional and autonomous network architecture that integrates space, air, ground, and underwater networks to provide ubiquitous and unlimited wireless connectivity. We also discuss artificial intelligence (AI) and machine learning [1], [2] for autonomous networks and innovative air-interface design. Finally, we identify several promising technologies for the 6G ecosystem, including terahertz (THz) communications, very-large-scale antenna arrays [i.e., supermassive (SM) multiple-input, multiple-output (MIMO)], large intelligent surfaces (LISs) and holographic beamforming (HBF), orbital angular momentum (OAM) multiplexing, laser and visible-light communications (VLC), blockchain-based spectrum sharing, quantum communications and computing, molecular communications, and the Internet of Nano-Things.",
+      "year": "2019",
+      "published_date": "2019-07-18",
+      "journal": "IEEE Vehicular Technology Magazine",
+      "url": "https://doi.org/10.1109/mvt.2019.2921208",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Wireless",
+        "Visible light communication",
+        "Key (lock)",
+        "Free-space optical communication",
+        "Telecommunications",
+        "Network architecture",
+        "Beamforming"
+      ],
+      "citations": 2428,
+      "source": "OpenAlex",
+      "doi": "10.1109/mvt.2019.2921208",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",
+      "authors": [
+        "Partha Pratim Ray"
+      ],
+      "abstract": "In recent years, artificial intelligence (AI) and machine learning have been transforming the landscape of scientific research. Out of which, the chatbot technology has experienced tremendous advancements in recent years, especially with ChatGPT emerging as a notable AI language model. This comprehensive review delves into the background, applications, key challenges, and future directions of ChatGPT. We begin by exploring its origins, development, and underlying technology, before examining its wide-ranging applications across industries such as customer service, healthcare, and education. We also highlight the critical challenges that ChatGPT faces, including ethical concerns, data biases, and safety issues, while discussing potential mitigation strategies. Finally, we envision the future of ChatGPT by exploring areas of further research and development, focusing on its integration with other technologies, improved human-AI interaction, and addressing the digital divide. This review offers valuable insights for researchers, developers, and stakeholders interested in the ever-evolving landscape of AI-driven conversational agents. This study explores the various ways ChatGPT has been revolutionizing scientific research, spanning from data processing and hypothesis generation to collaboration and public outreach. Furthermore, the paper examines the potential challenges and ethical concerns surrounding the use of ChatGPT in research, while highlighting the importance of striking a balance between AI-assisted innovation and human expertise. The paper presents several ethical issues in existing computing domain and how ChatGPT can invoke challenges to such notion. This work also includes some biases and limitations of ChatGPT. It is worth to note that despite of several controversies and ethical concerns, ChatGPT has attracted remarkable attentions from academia, research, and industries in a very short span of time.",
+      "year": "2023",
+      "published_date": "2023-01-01",
+      "journal": "Internet of Things and Cyber-Physical Systems",
+      "url": "https://doi.org/10.1016/j.iotcps.2023.04.003",
+      "arxiv_id": "",
+      "keywords": [
+        "Scope (computer science)",
+        "Engineering ethics",
+        "Data science",
+        "Computer science",
+        "Knowledge management",
+        "Management science",
+        "Engineering"
+      ],
+      "citations": 2286,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.iotcps.2023.04.003",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_c5c51d77f3",
+      "title": "Multi-agent systems: A survey",
+      "abstract": "… Multi Agent Learning (MAL) systems. The following challenges increase the complexity of adopting learning systems for … Mao, “Cross-clouds services autonomic management approach …",
+      "authors": [
+        "A Dorri",
+        "SS Kanhere",
+        "R Jurdak"
+      ],
+      "year": 2018,
+      "journal": "A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org",
+      "citations": 1529,
+      "url": "https://ieeexplore.ieee.org/abstract/document/8352646/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Electricity market design for the prosumer era",
+      "authors": [
+        "Yael Parag",
+        "Benjamin K. Sovacool"
+      ],
+      "abstract": "Prosumers are agents that both consume and produce energy. With the growth in small and medium-sized agents using solar photovoltaic panels, smart meters, vehicle-to-grid electric automobiles, home batteries and other ‘smart’ devices, prosuming offers the potential for consumers and vehicle owners to re-evaluate their energy practices. As the number of prosumers increases, the electric utility sector of today is likely to undergo significant changes over the coming decades, offering possibilities for greening of the system, but also bringing many unknowns and risks that need to be identified and managed. To develop strategies for the future, policymakers and planners need knowledge of how prosumers could be integrated effectively and efficiently into competitive electricity markets. Here we identify and discuss three promising potential prosumer markets related to prosumer grid integration, peer-to-peer models and prosumer community groups. We also caution against optimism by laying out a series of caveats and complexities. Small-scale renewable energy systems and smart technologies are enabling energy consumers to become producers and service providers as well. This Perspective explores this ‘prosumption’ phenomenon, highlighting three promising prosumer market models and the challenges for future implementation.",
+      "year": "2016",
+      "published_date": "2016-03-21",
+      "journal": "Nature Energy",
+      "url": "https://doi.org/10.1038/nenergy.2016.32",
+      "arxiv_id": "",
+      "keywords": [
+        "Prosumer",
+        "Renewable energy",
+        "Smart grid",
+        "Business",
+        "Environmental economics",
+        "Electricity",
+        "Photovoltaic system",
+        "Service provider"
+      ],
+      "citations": 1193,
+      "source": "OpenAlex",
+      "doi": "10.1038/nenergy.2016.32",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "039d46b1c34991861dbf4b618a7b9f451874a9703cd39338b6d73ea5df0fc9c2",
+  "elapsed_seconds": 24.389,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q104_schema_single_agent_20260724_023152.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

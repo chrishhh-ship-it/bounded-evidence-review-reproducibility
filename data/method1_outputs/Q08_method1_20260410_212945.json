@@ -1,0 +1,90 @@
+{
+  "baseline": "method1_pipeline",
+  "query": "evidence agent 对情报报告的证据覆盖率有何影响？",
+  "effective_search_query": "evidence agent 情报报告 证据覆盖率 影响",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "title:证据与价值对决策的影响|2020",
+    "title:构建全球卫生政策与管理证据库, 助力循证决策与卫生治理可持续发展|2024",
+    "doi:10.11946/cjstp.202506080612艾莉莎，",
+    "title:一种微信公众号影响力的评估方法|2016",
+    "title:qing bao in organizational decision-making and evidence in evidence-based policy|2020",
+    "title:科技循证政策制定中的证据推荐方法研究与应用.|2025",
+    "title:the establishment of independent forensic agency in taiwan|2023",
+    "title:research and application of evidence recommendation methods in science and technology evidence-based policy making|2025",
+    "doi:10.3773/j.issn.1006-4885.2025.12.007.pdf王菌丽，",
+    "title:construction of a dynamic perception system for talent supply-demand matching matching: theoretical framework and implementation path.|2025",
+    "title:跨域“协同应急” 对安全生产治理绩效的影响机制|2026",
+    "title:… mechanism of cross-regional “cooperative response to accidents” policy on production safety governance performance: empirical evidence from the beijing …|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "科技循证政策制定中的证据推荐方法研究与应用.",
+      "year": 2025,
+      "journal": "何莹， 孙巍， 李周晶， 马晓敏 - Journal of Library & …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… (Evidence-Based Policy,EBP)的核心思想 是将最佳证据放置于… 的智能协调与高效执行,本研究 系统采用了Agent 架构(图9).该… 的国家影响 更为显著,直接呼应了政策在气候变化适应性上的核 …"
+    },
+    {
+      "title": "Research and Application of Evidence Recommendation Methods in Science and Technology Evidence-Based Policy Making",
+      "year": 2025,
+      "journal": "HE Ying, SUN Wei, Z LI… - Journal of Library and …, 2025 - search.proquest.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… (Evidence-Based Policy,EBP)的核心思想 是将最佳证据放置于… 的智能协调与高效执行,本研究 系统采用了 Agent 架构(图 9).该 … 的国家影响 更为显著,直接呼应了政策在气候变化适应性上的核 …"
+    },
+    {
+      "title": "Qing Bao in Organizational Decision-making and Evidence in Evidence-based Policy",
+      "year": 2020,
+      "journal": "Q MIAO - Scientific Information Research, 2020 - eng.kjqbyj.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 》中“情报”是作为一种军事用语出现:“军 中集种种报告并预见之机… 的企业情报工作如果 以竞争 情报来概括的话,是对影响商业竞争… 对于情报工作有很 大的启发;其次,因为本文所界定的情报与证据…"
+    },
+    {
+      "title": "Construction of a Dynamic Perception System for Talent Supply-Demand Matching Matching: Theoretical Framework and Implementation Path.",
+      "year": 2025,
+      "journal": "G YANG, Z ZHANG - … of Library & Information Science in …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 对人才市场的净影响,揭示政策效果的作用路 径与边界条件.在… 的证据链条,强化了情报产品的可 信度与可解释性, 为情报支持… to obtain quantitative evidence and actionable plans for program …"
+    },
+    {
+      "title": "科技期刊数智化平台建设创新方案及实测效果探析——以《 北京邮电大学学报》 为例",
+      "year": 2025,
+      "journal": "艾莉莎， 孙宇彤， 靳海灵， 马逍悦， 钟羽， 李博识… - 中国科技期刊研究, 2025 - cjstp.cn",
+      "doi": "10.11946/cjstp.202506080612艾莉莎，",
+      "citations": 2,
+      "abstract": "… 化数字平 的国际化运营,知识服务与影响力建设仍存在明显 差距.这种… 2 创新方案:科研进度全 周期智能管控与多维 证据链构建 … 等[12] 研究表示,稿件分析Agent基于BERT与知识图谱技 术,可以…"
+    },
+    {
+      "title": "证据与价值对决策的影响",
+      "year": 2020,
+      "journal": "耿劲松， 鲍海妮， 余小兰 - 框架在知证决策中应用的方法学, 2020 - html.rhhz.net",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 目标技术的卫生技术评估报告 [3-4] ,提供卫生技术评估的证据概要;也可通过检索… 证据需求 ,怎样获取和评估证据,如何将证据应用于决策形成了知证决策的实践指南;又如“证据至决策”(evidence …"
+    },
+    {
+      "title": "数字化转型对企业数字风险管理的影响研究",
+      "year": 2026,
+      "journal": "王菌丽， 崔俊， 贾栗 - 科学决策, 2026 - qkkxjc.cn",
+      "doi": "10.3773/j.issn.1006-4885.2025.12.007.pdf王菌丽，",
+      "citations": 0,
+      "abstract": "… 意义:合作网络不仅提供更全面的风险情报来源,也为企 业在面对网络… 这为研究框架中的主效应 提供了初步经验证据.在模型2 中加入… 4.5 机制- 中介效应分析 表7 和图2 报告了综合中介与调节式…"
+    },
+    {
+      "title": "构建全球卫生政策与管理证据库, 助力循证决策与卫生治理可持续发展",
+      "year": 2024,
+      "journal": "田晨， 杨水华， 杨克虎， 葛龙 - 协和医学杂志, 2024 - xhyxzz.pumch.cn",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… , system positioning, evidence scope, technical implementation and … 证据委员会发 布了题 为《为决策者, 证据中介和以影响力为导向 的证据生产者敲响警钟并指明前进道路》 的报告, 该报告…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method1_outputs\\Q08_method1_20260410_212945.md"
+}

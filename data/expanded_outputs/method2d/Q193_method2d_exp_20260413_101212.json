@@ -1,0 +1,211 @@
+{
+  "query_id": "Q193",
+  "query": "How should a multi-agent synthesis handle citations to ontology terms (MeSH, SNOMED) as evidence for clinical classification claims?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "MEDSYN: Benchmarking Multi-EviDence SYNthesis in Complex Clinical Cases for Multimodal Large Language Models",
+      "authors": [
+        "Boqi Chen",
+        "Xudong Liu",
+        "Jiachuan Peng",
+        "Marianne Frey-Marti",
+        "B. Zheng",
+        "Kyle Lam",
+        "Lin Li",
+        "Jianing Qiu"
+      ],
+      "abstract": "Multimodal large language models (MLLMs) have shown great potential in medical applications, yet existing benchmarks inadequately capture real-world clinical complexity. We introduce MEDSYN, a multilingual, multimodal benchmark of highly complex clinical cases with up to 7 distinct visual clinical evidence (CE) types per case. Mirroring clinical workflow, we evaluate 18 MLLMs on differential diagnosis (DDx) generation and final diagnosis (FDx) selection. While top models often match or even outperform human experts on DDx generation, all MLLMs exhibit a much larger DDx--FDx performance gap compared to expert clinicians, indicating a failure mode in synthesis of heterogeneous CE types. Ablations attribute this failure to (i) overreliance on less discriminative textual CE ($\\it{e.g.}$, medical history) and (ii) a cross-modal CE utilization gap. We introduce Evidence Sensitivity to quantify the latter and show that a smaller gap correlates with higher diagnostic accuracy. Finally, we demonstrate how it can be used to guide interventions to improve model performance. We will open-source our benchmark and code.",
+      "year": "2026",
+      "published_date": "2026-02-25",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/9f756e20db0f0d9342ee827ea2adda40cd666dcf",
+      "arxiv_id": "2602.21950",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2602.21950",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Multi-Agent Retrieval Augmented Generation for Clinical Decision Support: A Systematic Review and Integrative Conceptual Framework",
+      "authors": [
+        "Tarisai Mugambiwa",
+        "Belinda Ndlovu"
+      ],
+      "abstract": "Multi agent retrieval augmented generation (RAG) systems are increasingly explored as advanced architectures for clinical decision support combining information retrieval, reasoning and verification through coordinated agent interactions. This study systematically reviews applications of agentic and multi agent RAG in clinical decision support systems (CDSS) and synthesizes an integrative conceptual framework linking technical design to technology adoption considerations. Following PRISMA guidelines, searches were conducted from PubMed, IEEE Xplore and ScienceDirect using structured Boolean strings combining terms for multi agent architectures, RAG and CDSS.The search yielded 12 studies published between 2020 and 2025 that met the inclusion criteria. The review synthesises evidence on multi agent role configurations retrieval and reasoning strategies, verification mechanisms and reported clinical contexts. Across studies, dominant challenges include data and corpus limitations retrieval quality dependency, limited clinical validation and computational overhead, alongside governance concerns such as privacy, bias and accountability. Building on the synthesis, we propose a four-agent CDSS framework retriever, reasoner, verifier, safety and map its deployment determinants to Technology Acceptance Model constructs perceived usefulness, perceived ease of use, trust and diffusion of Innovations attributes. The review concludes with design-oriented recommendations for safer, explainable, and adoption-ready multi-agent RAG CDSS, particularly for low-resource contexts.",
+      "year": "2026",
+      "published_date": "2026-2-4",
+      "journal": "Journal of Applied Informatics and Computing",
+      "url": "https://doi.org/10.30871/jaic.v10i1.11900",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.30871/jaic.v10i1.11900",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    },
+    {
+      "title": "Biomedical reasoning in action: Multi-agent System for Auditable Biomedical Evidence Synthesis",
+      "authors": [
+        "Oskar Wysocki",
+        "Magdalena Wysocka",
+        "Mauricio Jacobo",
+        "Harriet Unsworth",
+        "André Freitas"
+      ],
+      "abstract": "We present M-Reason, a demonstration system for transparent, agent-based reasoning and evidence integration in the biomedical domain, with a focus on cancer research. M-Reason leverages recent advances in large language models (LLMs) and modular agent orchestration to automate evidence retrieval, appraisal, and synthesis across diverse biomedical data sources. Each agent specializes in a specific evidence stream, enabling parallel processing and fine-grained analysis. The system emphasizes explainability, structured reporting, and user auditability, providing complete traceability from source evidence to final conclusions. We discuss critical tradeoffs between agent specialization, system complexity, and resource usage, as well as the integration of deterministic code for validation. An open, interactive user interface allows researchers to directly observe, explore and evaluate the multi-agent workflow. Our evaluation demonstrates substantial gains in efficiency and output consistency, highlighting M-Reason's potential as both a practical tool for evidence synthesis and a testbed for robust multi-agent LLM systems in scientific research, available at https://m-reason.digitalecmt.com.",
+      "year": "2025",
+      "published_date": "2025-10-06",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2510.05335v1",
+      "arxiv_id": "2510.05335v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models"
+    },
+    {
+      "title": "Multi-Agent AI Systems in Healthcare: Systematic Evidence Synthesis Via PRISMA of Clinical Decision Support Systems, Robotic Interventions, and Critical Care",
+      "authors": [
+        "Oto Peter Ode",
+        "Ndukwe Chika Kalu",
+        "Saleh Abbas",
+        "Arslan Arshad",
+        "Adagboyi Isaac Inalegwu",
+        "Konstantin Koshechkin"
+      ],
+      "abstract": "Abstract: Multi-agent artificial intelligence systems (MAS) is transforming the healthcare sector by enabling intelligent decision-making, robotic interventions, and critical care management. Despite growing interest, a comprehensive synthesis of their real-world applications, performance, and limitations is lacking. This systematic review aims to evaluate the deployment of MAS in healthcare across three key domains: Clinical Decision Support Systems (CDSS), Robotic Interventions, and Critical Care Monitoring. It also addresses ethical and legal considerations, offers a comparative framework, and identifies research gaps. A systematic search of PubMed, IEEE Xplore, Scopus, and Web of Science was conducted following PRISMA guidelines. A total of 150 records were retrieved. After duplicate removal and screening, 32 studies met inclusion criteria. The Joanna Briggs Institute (JBI) Critical Appraisal Checklist guided quality assessment. Data were extracted using a structured form and organized by topic. Among the 32 studies included, 12 focused on MAS-based CDSS, 11 on robotic interventions, and 9 on MAS in critical care. Most MAS demonstrated improved diagnostic accuracy, aided real-time decision support, and enhanced patient monitoring. However, over 60% involved practical models and lacked clinical validation. Ethical concerns, particularly around autonomy, data privacy, transparency, and legal accountability were sometimes overlooked. Only 7 studies discussed ethical or legal implications in depth. A comparative framework was developed, comparing MAS tools based on scalability, clinical validation, autonomy, human-AI interaction, and data transparency. No doubt, MAS hold transformative potential across healthcare domains. However, real-world deployment remains unclear. Greater emphasis on clinical validation, ethical design, and regulatory frameworks is needed. This review provides suggestions for future research and responsible adoption of MAS in healthcare.",
+      "year": "2025",
+      "published_date": "2025-06-19",
+      "journal": "International Journal of Latest Technology in Engineering Management &amp; Applied Science",
+      "url": "https://www.semanticscholar.org/paper/fe07442a7eb33396064eb4d2400ea3464a03cd29",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.51583/ijltemas.2025.140500080",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing",
+      "authors": [
+        "Naeimeh Nourmohammadi",
+        "Md Meem Hossain",
+        "The Anh Han",
+        "Safina Showkat Ara",
+        "Zia Ush Shamszaman"
+      ],
+      "abstract": "Large language models (LLMs) show promise for healthcare question answering, but clinical use is limited by weak verification, insufficient evidence grounding, and unreliable confidence signalling. We propose a multi-agent medical QA framework that combines complementary LLMs with evidence retrieval, uncertainty estimation, and bias checks to improve answer reliability. Our approach has two phases. First, we fine-tune three representative LLM families (GPT, LLaMA, and DeepSeek R1) on MedQuAD-derived medical QA data (20k+ question-answer pairs across multiple NIH domains) and benchmark generation quality. DeepSeek R1 achieves the strongest scores (ROUGE-1 0.536 +- 0.04; ROUGE-2 0.226 +-0.03; BLEU 0.098 -+ 0.018) and substantially outperforms the specialised biomedical baseline BioGPT in zero-shot evaluation. Second, we implement a modular multi-agent pipeline in which a Clinical Reasoning agent (fine-tuned LLaMA) produces structured explanations, an Evidence Retrieval agent queries PubMed to ground responses in recent literature, and a Refinement agent (DeepSeek R1) improves clarity and factual consistency; an optional human validation path is triggered for high-risk or high-uncertainty cases. Safety mechanisms include Monte Carlo dropout and perplexity-based uncertainty scoring, plus lexical and sentiment-based bias detection supported by LIME/SHAP-based analyses. In evaluation, the full system achieves 87% accuracy with relevance around 0.80, and evidence augmentation reduces uncertainty (perplexity 4.13) compared to base responses, with mean end-to-end latency of 36.5 seconds under the reported configuration. Overall, the results indicate that agent specialisation and verification layers can mitigate key single-model limitations and provide a practical, extensible design for evidence-based and bias-aware medical AI.",
+      "year": "2026",
+      "published_date": "2026-02-15",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2602.14158v1",
+      "arxiv_id": "2602.14158v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "clinical evidence review multi-agent"
+    },
+    {
+      "title": "Bridging Clinical Narratives and ACR Appropriateness Guidelines: A Multi-Agent RAG System for Medical Imaging Decisions",
+      "authors": [
+        "Satrio Pambudi",
+        "F. Menolascina"
+      ],
+      "abstract": "The selection of appropriate medical imaging procedures is a critical and complex clinical decision, guided by extensive evidence-based standards such as the ACR Appropriateness Criteria (ACR-AC). However, the underutilization of these guidelines, stemming from the difficulty of mapping unstructured patient narratives to structured criteria, contributes to suboptimal patient outcomes and increased healthcare costs. To bridge this gap, we introduce a multi-agent cognitive architecture that automates the translation of free-text clinical scenarios into specific, guideline-adherent imaging recommendations. Our system leverages a novel, domain-adapted dense retrieval model, ColBERT, fine-tuned on a synthetically generated dataset of 8,840 clinical scenario-recommendation pairs to achieve highly accurate information retrieval from the ACR-AC knowledge base. This retriever identifies candidate guidelines with a 93.9% top-10 recall, which are then processed by a sequence of LLM-based agents for selection and evidence-based synthesis. We evaluate our architecture using GPT-4.1 and MedGemma agents, demonstrating a state-of-the-art exact match accuracy of 81%, meaning that in 81% of test cases the predicted procedure set was identical to the guideline's reference set, and an F1-score of 0.879. This represents a 67-percentage-point absolute improvement in accuracy over a strong standalone GPT-4.1 baseline, underscoring the contribution that our architecture makes to a frontier model. These results were obtained on a challenging test set with substantial lexical divergence from the source guidelines. Our code is available at https://anonymous.4open.science/r/demo-iclr-B567/",
+      "year": "2025",
+      "published_date": "2025-10-06",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/f9f3bd50710f2caed2d612fd0d66219993c1fa8d",
+      "arxiv_id": "2510.04969",
+      "keywords": [
+        "Biology"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis full text retrieval"
+    },
+    {
+      "title": "A Scoping Review of Registered Clinical Trials of Convalescent Plasma for COVID-19 and a Framework for Accelerated Synthesis of Trial Evidence (FAST Evidence)",
+      "authors": [
+        "Katina Zheng",
+        "Gary Liao",
+        "Manoj M. Lalu",
+        "A. Tinmouth",
+        "D. A. Fergusson",
+        "David S. Allan"
+      ],
+      "abstract": "Many parallel studies of convalescent plasma with modest enrolment projections have been launched for the treatment of COVID-19. By pooling data from multiple parallel studies that are similar, we can increase the effective sample size and achieve enough statistical power to determine effectiveness more quickly through meta-analysis. A scoping review of registered clinical trials of convalescent plasma for COVID-19 was conducted to assess the feasibility of performing a rapid and timely meta-analysis that will support accelerated review for approval and implementation. ClinicalTrials.gov and the WHO International Clinical Trials Registry Platform were searched April 23, 2020. Trials were included if they utilized convalescent plasma to treat or prevent COVID-19. Forty-eight registered trials (projected to enroll more than 5000 subjects) of convalescent plasma were identified and included for analysis. The majority of studies (33 studies with 4440 projected enrolment) will address the treatment of severe and/or critical cases of COVID-19. Twenty-nine studies are controlled and 17 of these are reported as actively recruiting. The combined enrolment of patients from similar studies should be sufficient to determine meaningful improvements in mortality, rates of admission to intensive care and need for mechanical ventilation by the end of 2020—sooner than any individual study could determine effectiveness. Accessing supplemental outcome data from investigators may be needed; however, to align reporting of some outcomes from these studies. Heterogeneity in product potency due to different antibody titers is anticipated and studies using conventional treatment as controls instead of placebo may complicate our understanding of efficacy. Convalescent plasma is being tested in ongoing controlled studies, largely to treat severe and/or critical cases of COVID-19. Sufficient combined power to detect clinically important reductions in multiple outcomes, including mortality, is expected by September 2020. Regulatory approval, funding and implementation by blood operators could be accelerated by planned meta-analysis as study results become available.",
+      "year": "2020",
+      "published_date": "2020-07-01",
+      "journal": "Transfusion Medicine Reviews",
+      "url": "https://www.semanticscholar.org/paper/2d4764939092527acff6ee63f68b20ecbf52f487",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 10,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.tmrv.2020.06.005",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "OncoCITE: Multimodal Multi-Agent Reconstruction of Clinical Oncology Knowledge Bases from Scientific Literature",
+      "authors": [
+        "Mujahid Quidwai",
+        "Santiago Thibaud",
+        "Dennis Shasha",
+        "Sundar Jagannath",
+        "Samir Parekh",
+        "Alessandro Laganà"
+      ],
+      "abstract": "Abstract\n                Precision oncology depends on curated variant knowledge bases, yet manual curation creates latency, coverage gaps and errors, as well as inconsistent and incomplete annotation. Through systematic analysis of the 11,312 items in the CIViC database, we identified structural bottlenecks including long-tail literature distribution, resistance underrepresentation, and prolonged update delays. We developed OncoCITE, a multi-agent AI system for source-grounded extraction and harmonization of clinical genomic evidence from full-text publications. At database scale, we enriched all CIViC evidence items with ontology-standardized identifiers, achieving 83.12% item-level resolution. End-to-end extraction was validated in a disease-specific corpus using a three-way framework in which neither human curation nor AI output was treated as ground truth: the system recovered 84% of valid curated evidence, identified additional high-precision findings, and detected discrepancies in 24.2% of ground-truth items. Prospective application to emerging immunotherapy literature demonstrates real-time evidence synthesis. OncoCITE provides an auditable and open-source framework for scalable precision oncology knowledge curation.",
+      "year": "2026",
+      "published_date": "2026-3-31",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-9160944/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-9160944/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "clinical evidence review multi-agent"
+    }
+  ],
+  "timestamp": "20260413_101212"
+}

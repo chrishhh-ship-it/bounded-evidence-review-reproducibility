@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "人工标注在智慧情报服务 benchmark 中应优先覆盖哪些维度？",
+  "effective_search_query": "人工标注 智慧情报服务 benchmark 维度 优先级",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "doi:10.3969/j.issn.1004-910x.2025.06.009朱云轩，",
+    "title:视频中台体系架构研究与设计.|2024",
+    "title:基于数字政府建设的公文标签体系构建与应用研究.|2024",
+    "title:液氧液氢发动机领域知识图谱构建与应用|2022",
+    "title:review of decentralized federated learning.|2025",
+    "doi:10.11999/jeit250947.pdf王云涛，",
+    "title:企业信息化与智能仓储协同发展研究——以京东亚洲一号为例|2025",
+    "title:国内外学术场景下个性化文本检索研究述评.|2023",
+    "title:基于大语言模型智能体的社会认知模拟|2026",
+    "title:impact of data element utilization level on enterprises' supply chain discourse power.|2025",
+    "doi:10.3969/j.issn.1004-910x.2025.06.009y",
+    "title:social cognition simulation with large language model-driven agents|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "人工智能与工业的深度耦合技术路径: 从云端认知到具身重构",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "朱云轩， 黎菁， 彭拓宇 - 工业技术经济, 2025 - journal03.magtech.org.cn",
+      "doi": "10.3969/j.issn.1004-910X.2025.06.009朱云轩，",
+      "citations": 5,
+      "abstract": "… 术, 使云端AI服务具备了工业级水平的处理能力. 这种云端AI基础… 执行” 三重维度重构的系统性 范式变革. 在这一 变革过程中, … 就是“智慧家居”, 智能 远程家居控制以及家居自动化是具身人工智能…"
+    },
+    {
+      "title": "视频中台体系架构研究与设计.",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "吴志雄， 崔勇 - Journal of Computer Engineering & …, 2024 - search.ebscohost.com",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… (3)一组实战研判服务组件 对视频图像数据及各类情报信息进行… 低优先级任务状态并退 出执行 ,再将计算资源分配给高优先级任务… 海康威视: 多维感知和人工智能打造智慧流域 [J]. 中国水利, …"
+    },
+    {
+      "title": "基于数字政府建设的公文标签体系构建与应用研究.",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "金加和， 施筱玲， 徐峰， 叶红叶… - Big Data Research …, 2024 - search.ebscohost.com",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 分析各维度的数据特征,进行机器自动打 标,节约了人工判断成本.… 和智能化决策,本文利用机器 标注和 人工标注方法,坚持权威,先进,… 未来,随着人工智能和 大数据技术的不断发展,智慧政务服务将 …"
+    },
+    {
+      "title": "液氧液氢发动机领域知识图谱构建与应用",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "陈潇萍， 王剑锋， 张虹， 胡庆杰 - 北京航空航天大学学报, 2022 - spacejournal.cn",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 取渠道,服务于建立科研生产人员的高效学习平 台.在此过程中,… ,将语料人工标注分为实体 语料 标注和关系语料标注2 个工作.… 通过对比各组实验的结果,可以发现:①当采 用较高的向量维度时…"
+    },
+    {
+      "title": "Review of Decentralized Federated Learning.",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "L CHEN, K XU, R ZHAO, Y HAN… - Journal of Frontiers of …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 作为人工智能领域的重要分支,集中式联邦学习 (centralized … 本章将从通信机制,模 型聚合和隐私 保护三个维度展开分析,并… 85];系统 层通过区块链实现威胁情报共享与可追溯,增强全局安 全态势…"
+    },
+    {
+      "title": "低空智联网架构, 安全与优化关键技术",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "王云涛， 苏洲， 高源， 巴建乐 - 电子与信息学报, 2025 - jeit.ac.cn",
+      "doi": "10.11999/JEIT250947.pdf王云涛，",
+      "citations": 0,
+      "abstract": "… 自主智能使得 低空航空器能在最小化人工干预的条件下完成… 空域调度需耦合通信,能量与任务 优先级等多 源约束,单维优化易… ,为 攻击者提供了低成本且隐蔽的情报获取途径. (d)硬件木马攻击.…"
+    },
+    {
+      "title": "企业信息化与智能仓储协同发展研究——以京东亚洲一号为例",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "李紫渝 - E-Commerce Letters, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… As a benchmark project for intelligent warehousing in China… ”的需求,2023年国内电商仓储的 人工分拣的错误情况约占3%~5… 及库存管理,开发“实时分拣优先级系统”,通过大数据智能分析能力,…"
+    },
+    {
+      "title": "国内外学术场景下个性化文本检索研究述评.",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "张洁， 朱亮， 寇远涛 - Journal of Agricultural Big Data, 2023 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 中文文献检索自中国知网, 检索词为“个性化检索or 个性化查询”,人工阅读后 筛选出… 维度包括 用户兴趣/偏好,知识水平,用户背景, 学习及认知风格,目标,使用情境等,这些模型均可 支撑个性化服务…"
+    },
+    {
+      "title": "基于大语言模型智能体的社会认知模拟",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "张明新， 伍瑾轩， 朱睿， 王云龙， 孟文娟， 刘喆… - 系统仿真 …, 2026 - china-simulation.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 实践, 在若干关键维度上存在明显不足,包括模块级设 计对比的… 同时根据数据采集方 式,将数据 集分为人工标注,真实或合成数据. … 激发主体间的知识共 享和集体智慧的涌现.通过反复辩论,智能体…"
+    },
+    {
+      "title": "Impact of Data Element Utilization Level on Enterprises' Supply Chain Discourse Power.",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "T LIU, S LIU, Z LIU, D ZENG… - Journal of Library & …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 关键指标,体现在产品和服务的快速流转 上[24].在数字经济时代,自动化和智能生产技术已成 … 维度,系统性的衡量体系.具体 而言,一方面参考了从技术基础设施角度构建指标体 系的研究,将“人工…"
+    },
+    {
+      "title": "The Deeply Coupled Technological Pathway of Artificial Intelligence and Industry: From Cloud-based Cognition to Embodied Reconfiguration",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "Y Zhu, J Li, T Peng - Journal of Industrial Technological …, 2025 - journal03.magtech.org.cn",
+      "doi": "10.3969/j.issn.1004-910X.2025.06.009Y",
+      "citations": 0,
+      "abstract": "… 研究方向: 人工智能及人工智能产品级开发, 数字技术, 计算策略, … 执行” 三重维度重构的系统性 范式变革. 在这一 变革过程中, … “智慧家居”, 智能 远程家居控制以及家居自动化是具身人工智能在…"
+    },
+    {
+      "title": "Social Cognition Simulation with Large Language Model-driven Agents",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "M Zhang, J Wu, R Zhu, Y Wang… - Journal of …, 2026 - dc-china-simulation …",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 实践, 在若干关键维度上存在明显不足,包括模块级设 计对比的… 同时根据数据采集方 式,将数据 集分为人工标注,真实或合成数据. … 激发主体间的知识共 享和集体智慧的涌现.通过反复辩论,智能体…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q28_baseline_b_20260410_201604.md"
+}

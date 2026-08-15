@@ -1,0 +1,241 @@
+{
+  "query_id": "Q38",
+  "query": "在 benchmark 规模有限的情况下，bootstrap 与 paired t-test 分别适合回答什么问题？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "ChemPaperBench: A Multi-Domain Benchmark for Literature-Grounded Chemical Reasoning of LLM-Based Multi-Agent Systems",
+      "authors": [
+        "Ivan Dubrovsky",
+        "Kamil Fatkhiev",
+        "Anastasia Vepreva",
+        "Anastasia Orlova",
+        "Nina Gubina",
+        "D.Yu. Shakirova",
+        "Rodion Golovinskii",
+        "Al Abbass Mohamed",
+        "A. Dmitrenko",
+        "Nikolay O. Nikitin",
+        "Anna V. Kaluzhnaya"
+      ],
+      "abstract": "Existing benchmarks for chemistry-oriented LLMs and multi-agent systems often test foundational knowledge but fail to assess the complex, multi-step reasoning and literature analysis capabilities essential for cutting-edge research. The most advanced systems must be able to extract up-todate information from scientific publications, perform domainspecific calculations, generate predictions, and integrate these outputs through multi-step reasoning. To enable systematic evaluation of such capabilities, we present ChemPaperBench: a benchmark that integrates expert-validated synthetic tasks grounded in real chemical literature. Covering a broad range of sub-disciplines and varying levels of difficulty, this benchmark uniquely assesses a system's ability to search, extract, and reason over scientific sources. We use ChemPaperBench to compare frontier LLMs with a newly created retrieval-augmented multiagent architecture, highlighting current strengths and limitations of both paradigms. Beyond benchmarking, ChemPaperBench contributes to the vision of AI-ready data for scientific discovery, offering a reusable and extensible framework for interdisciplinary evaluation at the intersection of chemistry and artificial intelligence. Code is available here https://github.com/ITMO-NSS-team/chempaperbench. Data is available here https://huggingface.co/datasets/ITMO-NSS/ChemPaperBench.",
+      "year": "2025",
+      "published_date": "2025-11-12",
+      "journal": "2025 IEEE International Conference on Data Mining Workshops (ICDMW)",
+      "url": "https://www.semanticscholar.org/paper/79e2b83b02abb7bf4bc4dcb3bb1313e619939f42",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/ICDMW69685.2025.00014",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems",
+      "authors": [
+        "Wei Wang",
+        "Dan Zhang",
+        "Tao Feng",
+        "Boyan Wang",
+        "Jie Tang"
+      ],
+      "abstract": "Large Language Models (LLMs) are becoming increasingly powerful and capable of handling complex tasks, e.g., building single agents and multi-agent systems. Compared to single agents, multi-agent systems have higher requirements for the collaboration capabilities of language models. Many benchmarks are proposed to evaluate their collaborative abilities. However, these benchmarks lack fine-grained evaluations of LLM collaborative capabilities. Additionally, multi-agent collaborative and competitive scenarios are ignored in existing works. To address these two problems, we propose a benchmark, called BattleAgentBench, which defines seven sub-stages of three varying difficulty levels and conducts a fine-grained evaluation of language models in terms of single-agent scenario navigation capabilities, paired-agent task execution abilities, and multi-agent collaboration and competition capabilities. We conducted extensive evaluations on leading four closed-source and seven open-source models. Experimental results indicate that API-based models perform excellently on simple tasks but open-source small models struggle with simple tasks. Regarding difficult tasks that require collaborative and competitive abilities, although API-based models have demonstrated some collaborative capabilities, there is still enormous room for improvement.",
+      "year": "2024",
+      "published_date": "2024-08-28",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2408.15971v1",
+      "arxiv_id": "2408.15971v1",
+      "keywords": [
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system benchmark"
+    },
+    {
+      "title": "Evaluation of large language model performance on the Biomedical Language Understanding and Reasoning Benchmark",
+      "authors": [
+        "Hui Feng",
+        "Francesco Ronzano",
+        "J. Lafleur",
+        "Matthew Garber",
+        "Rodrigo José de Oliveira",
+        "Kathryn Rough",
+        "K. Roth",
+        "Jay Nanavati",
+        "Khaldoun Zine",
+        "El Abidine",
+        "C. Mack"
+      ],
+      "abstract": "Background: The ability of large language models (LLMs) to interpret and generate human-like text has been accompanied with speculation about their application in medicine and clinical research. There is limited data available to inform evidence-based decisions on the appropriateness for specific use cases. Methods: We evaluated and compared four general-purpose LLMs (GPT-4, GPT-3.5-turbo, Flan-T5-XXL, and Zephyr-7B-Beta) and a healthcare-specific LLM (MedLLaMA-13B) on a set of 13 datasets - referred to as the Biomedical Language Understanding and Reasoning Benchmark (BLURB) - covering six commonly needed medical natural language processing tasks: named entity recognition (NER); relation extraction; population, interventions, comparators, and outcomes (PICO); sentence similarity; document classification; and question-answering. All models were evaluated without modification. Model performance was assessed according to a range of prompting strategies (formalised as a systematic, reusable prompting framework) and relied on the standard, task-specific evaluation metrics defined by BLURB. Results: Across all tasks, GPT-4 outperformed other LLMs, followed by Flan-T5-XXL and GPT-3.5- turbo, then Zephyr-7b-Beta and MedLLaMA-13B. The most performant prompts for GPT-4 and Flan-T5-XXL both outperformed the previously-reported best results for the PubMedQA task. The domain-specific MedLLaMA-13B achieved lower scores for most tasks except for question-answering tasks. We observed a substantial impact of strategically editing the prompt describing the task and a consistent improvement in performance when including examples semantically similar to the input text in the prompt. Conclusion: These results provide evidence of the potential LLMs may have for medical application and highlight the importance of robust evaluation before adopting LLMs for any specific use cases. Continuing to explore how these emerging technologies can be adapted for the healthcare setting, paired with human expertise, and enhanced through quality control measures will be important research to allow responsible innovation with LLMs in the medical area.",
+      "year": "2024",
+      "published_date": "2024-05-17",
+      "journal": "medRxiv",
+      "url": "https://www.semanticscholar.org/paper/b8f3e8b85bef7b0abb187ca4cbcca677cccbcb44",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.1101/2024.05.17.24307411",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "End-to-End Reliability of Automated Systems for Diagnostic Data Extraction: A Benchmark Study in Uro-Oncologic Evidence Synthesis",
+      "authors": [
+        "Matthias May",
+        "Julio Ruben Rodas Garzaro",
+        "Anton Kravchuk",
+        "Christian Gilfrich",
+        "Gregor Donabauer",
+        "Samy Ateia",
+        "Udo Kruschwitz",
+        "Maximilian Haas",
+        "Christoph Eckl",
+        "Maximilian Burger"
+      ],
+      "abstract": "Abstract\n                \n                  Background\n                  Automated systems, including large language models, are increasingly used to support data extraction in diagnostic systematic reviews. However, their reliability, safety, and repeatability under realistic extraction conditions remain insufficiently characterized.\n                \n                \n                  Objective\n                  To benchmark the end-to-end reliability of automated systems for extracting diagnostic accuracy data from published uro-oncologic studies, with a focus on correctness, abstention behavior in non-derivable scenarios, repeatability across repeated runs, and operational efficiency.\n                \n                \n                  Methods\n                  This prospective, protocol-driven benchmarking study evaluates a purpose-built extraction system (MedNuggetizer) and three contemporary large language models. Systems are applied to a fixed corpus of published full-text PDFs and publicly available supplementary material reporting on Uromonitor and urine cytology for bladder cancer detection. A locked, uniform extraction prompt is used across all systems. The primary endpoint is dataset-run correctness, defined as either exact extraction of the complete 2-by-2 diagnostic table or correct declaration of non-derivability. A non-inferiority design with an exact one-sided binomial test is employed. Secondary endpoints include hallucination behavior on pre-specified sentinel datasets, repeatability across repeated runs, fidelity of derived diagnostic metrics, and execution time compared with human extraction.\n                \n                \n                  Results\n                  The study is powered for a non-inferiority margin of 5 percentage points relative to a predefined correctness threshold of 95 percent. Twenty independent runs per system are performed, yielding 320 dataset-run observations. Primary inference is conducted at the run level, with consensus-level results reported as supportive robustness analyses.\n                \n                \n                  Conclusions\n                  This protocol establishes a conservative and reproducible framework for evaluating automated systems used in diagnostic evidence synthesis. By integrating correctness, abstention, repeatability, and safety into a single end-to-end evaluation, the study addresses key methodological gaps in the clinical assessment of generative AI tools.",
+      "year": "2025",
+      "published_date": "2025-12-31",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.64898/2025.12.24.25342959",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.64898/2025.12.24.25342959",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Measuring the Quality of AI-Generated Clinical Notes: A Systematic Review and Experimental Benchmark of Evaluation Methods",
+      "authors": [
+        "Alexandra Dahlberg",
+        "Tiila Käenniemi",
+        "Tiia Winther-Jensen",
+        "Olli Tapiola",
+        "Rami Luisto",
+        "Tuukka Puranen",
+        "Max Gordon",
+        "Enni Sanmark",
+        "Ville Vartiainen"
+      ],
+      "abstract": "Abstract\n                \n                  Background\n                  High-quality clinical documentation is essential for safe, effective care, yet producing it is time consuming and error prone. Large language models (LLMs) can assist with note generation, but clinical adoption is determined by the resulting note quality. However current evaluation practices vary, and their clinical relevance is unclear. Drawing on a multidisciplinary perspective, we examined how quality is assessed and how those assessments align with clinical demands.\n                \n                \n                  Methods\n                  We systematically searched Ovid Medline and Scopus on 10 April 2025 for peer-reviewed studies that used LLMs in generating clinical notes and included an evaluation of the quality of the resulting text. The screening followed PRISMA and the protocol was preregistered in PROSPERO. Data on metrics, and outcomes were synthesised narratively. Based on these findings, we designed an experimental setup to test the most common evaluation metrics and an LLM-as-evaluator, included for its scalability across large test sets. The experiment used synthetic cases with targeted perturbations.\n                \n                \n                  Findings\n                  Thirty-seven studies were included. The reporting was dominated by lexical overlap metrics, chiefly ROUGE and BLEU. Semantic similarity metrics, such as BERTScore and BLEURT, were less common. A human evaluation was frequent but heterogeneous, with criteria and methods defined using varying degrees of detail; the most common foci were correctness, fluency, and aspects of clinical acceptability. In our experimental setup, lexical overlap metrics detected deletions and modifications but penalised meaning-preserving paraphrases. Semantic metrics and LLM-as-evaluators were more tolerant of paraphrased perturbations, yet remained sensitive to relevant changes, with performance varying by model and language.\n                \n                \n                  Interpretation\n                  Current practice relies on lexical overlap metrics that are useful for cursory checks but insufficient as proxies for quality. We recommend a layered strategy that pairs semantic metrics with LLM-as-evaluator for scalability and includes targeted human adjudication. Broader, safety-focused validation across institutions and languages is needed before routine deployment.\n                \n                \n                  Funding\n                  Business Finland through the GenAID research project. Personal grants listed under Acknowledgments.",
+      "year": "2025",
+      "published_date": "2025-11-20",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1101/2025.11.18.25340507",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.1101/2025.11.18.25340507",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "Auditing Demographic Bias in Mistral: An Open-Source LLM’s Diagnostic Performance on the MedQA Benchmark",
+      "authors": [
+        "H. Ahmed",
+        "Abdul Hamid Sadka"
+      ],
+      "abstract": "The application of large language models (LLMs) within clinical decision-support frameworks is receiving growing research attention, yet their fairness and demographic robustness remain insufficiently understood. This study introduces MedQA-Demog, a purpose-built, label-invariant extension of the MedQA-USMLE benchmark, designed to enable systematic auditing of demographic bias in medical reasoning models. Using a deterministic augmentation framework, we generated 4,659 question-answer items that incorporated counterfactual variations in gender, race/ethnicity, and age, and validated them through automated integrity and balance checks. We evaluated the Mistral 7B-Instruct model under stochastic (temperature = 0.7) and deterministic (temperature = 0.0) inference rules via the Ollama local environment, applying Wilson’s 95% confidence intervals, $\\chi ^{2}/z$ -tests, McNemar’s paired analysis, and Cohen’s h effect sizes to quantify fairness. Across all demographic variants, diagnostic accuracy remained consistent ( $\\Delta \\lt 0.04$ ; p >0.05), and all performance gaps fell within Minimal or Low Bias thresholds. Confusion-matrix and prediction-balance analyses revealed no systematic over- or under-prediction patterns, while power analysis confirmed that observed fluctuations were below the minimum detectable effect ( $\\approx 0.057$ ). A stratified robustness analysis further confirms that these fairness patterns persist across question difficulty levels and are not an artefact of uniformly limited performance. These findings demonstrate that open-weight, instruction-tuned LLMs can maintain demographic stability in clinical reasoning when evaluated through reproducible, controlled pipelines. This framework provides a practical foundation for bias evaluation in open clinical LLMs, supporting their ethical integration into digital health tools and clinical decision-support systems.",
+      "year": "2026",
+      "published_date": "",
+      "journal": "IEEE Access",
+      "url": "https://www.semanticscholar.org/paper/6f77e839dfcb1df0de011c8e5a12e0de94ddc934",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/ACCESS.2026.3656396",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis benchmark"
+    },
+    {
+      "title": "Code Review Agent Benchmark",
+      "authors": [
+        "Yuntong Zhang",
+        "Zhiyuan Pan",
+        "Imam Nur Bani Yusuf",
+        "Haifeng Ruan",
+        "Ridwan Shariffdeen",
+        "Abhik Roychoudhury"
+      ],
+      "abstract": "Software engineering agents have shown significant promise in writing code. As AI agents permeate code writing, and generate huge volumes of code automatically -- the matter of code quality comes front and centre. As the automatically generated code gets integrated into huge code-bases -- the issue of code review and broadly quality assurance becomes important. In this paper, we take a fresh look at the problem and curate a code review dataset for AI agents to work with. Our dataset called c-CRAB (pronounced see-crab) can evaluate agents for code review tasks. Specifically given a pull-request (which could be coming from code generation agents or humans), if a code review agent produces a review, our evaluation framework can asses the reviewing capability of the code review agents. Our evaluation framework is used to evaluate the state of the art today -- the open-source PR-agent, as well as commercial code review agents from Devin, Claude Code, and Codex. Our c-CRAB dataset is systematically constructed from human reviews -- given a human review of a pull request instance we generate corresponding tests to evaluate the code review agent generated reviews. Such a benchmark construction gives us several insights. Firstly, the existing review agents taken together can solve only around 40% of the c-CRAB tasks, indicating the potential to close this gap by future research. Secondly, we observe that the agent reviews often consider different aspects from the human reviews -- indicating the potential for human-agent collaboration for code review that could be deployed in future software teams. Last but not the least, the agent generated tests from our data-set act as a held out test-suite and hence quality gate for agent generated reviews. What this will mean for future collaboration of code generation agents, test generation agents and code review agents -- remains to be investigated.",
+      "year": "2026",
+      "published_date": "2026-03-24",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/db9e5764d5e24b152429457896374b85ee463f7f",
+      "arxiv_id": "2603.23448",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents",
+      "authors": [
+        "Manasi Sharma",
+        "Chen Bo Calvin Zhang",
+        "Chaithanya Bandi",
+        "Clinton Wang",
+        "Ankit Aich",
+        "Huy Nghiem",
+        "Tahseen Rabbani",
+        "Ye Htet",
+        "Brian Jang",
+        "Sumana Basu",
+        "Aishwarya H. Balwani",
+        "Denis Peskoff",
+        "Marcos Ayestaran",
+        "Sean M. Hendryx",
+        "Brad Kenstler",
+        "Bing Liu"
+      ],
+      "abstract": "Deep Research (DR) is an emerging agent application that leverages large language models (LLMs) to address open-ended queries. It requires the integration of several capabilities, including multi-step reasoning, cross-document synthesis, and the generation of evidence-backed, long-form answers. Evaluating DR remains challenging because responses are lengthy and diverse, admit many valid solutions, and often depend on dynamic information sources. We introduce ResearchRubrics, a standardized benchmark for DR built with over 2,800+ hours of human labor that pairs realistic, domain-diverse prompts with 2,500+ expert-written, fine-grained rubrics to assess factual grounding, reasoning soundness, and clarity. We also propose a new complexity framework for categorizing DR tasks along three axes: conceptual breadth, logical nesting, and exploration. In addition, we develop human and model-based evaluation protocols that measure rubric adherence for DR agents. We evaluate several state-of-the-art DR systems and find that even leading agents like Gemini's DR and OpenAI's DR achieve under 68% average compliance with our rubrics, primarily due to missed implicit context and inadequate reasoning about retrieved information. Our results highlight the need for robust, scalable assessment of deep research capabilities, to which end we release ResearchRubrics(including all prompts, rubrics, and evaluation code) to facilitate progress toward well-justified research assistants.",
+      "year": "2025",
+      "published_date": "2025-11-10",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/8bd46c6cd215b8e24a5c561df8e21499d0dcbcbf",
+      "arxiv_id": "2511.07685",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 27,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2511.07685",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    }
+  ],
+  "timestamp": "20260412_231240"
+}

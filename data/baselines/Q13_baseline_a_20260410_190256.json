@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "全文证据相较于摘要级证据，在智慧情报服务中带来哪些质量提升？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q13_baseline_a_20260410_190256.md"
+}

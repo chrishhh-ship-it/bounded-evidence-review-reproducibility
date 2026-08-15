@@ -1,0 +1,112 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 10,
+  "all_retrieved_ids": [
+    "title:数据驱动的产业技术情报分析方法体系框架构建|2022",
+    "title:产业竞争情报服务模式演化分析|2016",
+    "title:多源数据驱动下产业竞争情报智慧服务机制研究|2026",
+    "title:数智驱动背景下产业竞争情报智慧服务的认知框架与实现逻辑|2023",
+    "title:产业技术情报分析方法的现状与发展趋势|2023",
+    "title:面向国家战略的产业竞争情报场景化智慧服务模式研究|2024",
+    "doi:10.12189/j.issn.1672-8505.2026.01.004?viewtype=html董克，",
+    "title:情报智能体——面向“十五五” 的科技情报工作新范式.|2024",
+    "title:面向未来场景的新兴技术产业化机制——基于知识组织视角的探索性案例分析|2025",
+    "title:基于动态数据汇聚与aiot 协同的智慧园区管理系统设计与实现|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "数据驱动的产业技术情报分析方法体系框架构建",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "霍朝光， 卢小宾， 杨冠灿， 霍帆帆 - 图书情报知识, 2022 - meta.ecnu.edu.cn",
+      "doi": "",
+      "citations": 4,
+      "abstract": "… ,是科技情报分析工作不可或缺 的利器,也是智慧产业情报服务的核心[9].… 体 系,数据驱动的意识 不够鲜明,面向产业技术的情报 分析方法体系有待… 多源数据驱动的产业竞争情报智慧服务研究[J]. …"
+    },
+    {
+      "title": "产业竞争情报服务模式演化分析",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "李丽梅， 吴新年 - 图书情报工作, 2016",
+      "doi": "",
+      "citations": 3,
+      "abstract": ""
+    },
+    {
+      "title": "多源数据驱动下产业竞争情报智慧服务机制研究",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "郑荣， 魏明珠， 王晓宇， 陈玉 - 情报学报",
+      "doi": "",
+      "citations": 2,
+      "abstract": ""
+    },
+    {
+      "title": "数智驱动背景下产业竞争情报智慧服务的认知框架与实现逻辑",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "郑荣， 王晓宇， 高志豪， 雷亚欣 - 情报学报, 2023",
+      "doi": "",
+      "citations": 2,
+      "abstract": ""
+    },
+    {
+      "title": "产业技术情报分析方法的现状与发展趋势",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "卢小宾， 安然 - 情报资料工作, 2023 - qbzl.ruc.edu.cn",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 与融合,情报分析方法与技术,产业协同发展,注重分析结果的评估和… 监测和分析的具体对象 确定 情报分析任务,适合面向具体情报… 的情报分析任务更适合在数据 驱动的情报分析模式下确定情报…"
+    },
+    {
+      "title": "面向国家战略的产业竞争情报场景化智慧服务模式研究",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "郑荣， 王晓宇， 高志豪， 魏明珠 - 情报学报, 2024",
+      "doi": "",
+      "citations": 1,
+      "abstract": ""
+    },
+    {
+      "title": "创新需求牵引的产业情报智能服务体系研究",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "董克， 陈丽芳， 吴佳纯 - 西华大学学报(哲学社会科学版), 2026 - aj.xhu.edu.cn",
+      "doi": "10.12189/j.issn.1672-8505.2026.01.004?viewType=HTML董克，",
+      "citations": 0,
+      "abstract": "… 链与服务链协同流程,提升面向产业技术创新的服务效率与精度.… 情报服务在时序与内容上实现 对齐与闭环,承上启下地支撑产业… 创新驱动的产业情报智能服务体系结构如图4 所示,它以智能服务…"
+    },
+    {
+      "title": "情报智能体——面向“十五五” 的科技情报工作新范式.",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "刘细文， 付芸， 韦华楠 - … of Library & Information Science in …, 2024 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 在情报智能体的驱动下,科技情报工作将 迈向更高水平的自动化… 单智能体[62]和多智能体[4]框架 ,本文 构建了基于情报智能体的… 的协同工作,新生态实 现了科技情报工作的闭环流程,为情报专家…"
+    },
+    {
+      "title": "面向未来场景的新兴技术产业化机制——基于知识组织视角的探索性案例分析",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "杨坤， 殷涛， 汪万， 王琲 - 科技进步与对策, 2025 - kjjb.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 在场景驱动理论 框架下,知识组织理论逐渐深化并扩展至智慧… 因此, 协同创新是面向未来场景的 新兴技术产业化的静态运 行… 首次构建了“场景挖掘—知识组织—场 景适配—场景迭代”的闭环循环…"
+    },
+    {
+      "title": "基于动态数据汇聚与AIoT 协同的智慧园区管理系统设计与实现",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "肖雷， 肖家彬， 彭仕宁 - Computer Science and Application, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 通过构建多模态数据动态汇聚模型与AIoT协同优化体系两大核心… 本文致力于建立面向智慧园区 治理的智能决策支持系统,系统化破解… 算力协同,形成数据驱动,业务赋能的智能化闭环,如图8所示. …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\retrieval_single_agent_20260410_132927.md"
+}

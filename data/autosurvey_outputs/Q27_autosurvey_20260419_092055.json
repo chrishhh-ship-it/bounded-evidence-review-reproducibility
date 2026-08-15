@@ -1,0 +1,179 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "如何构建面向智慧情报服务的 benchmark query set 与评测协议？",
+  "effective_search_query": "智慧情报服务 benchmark query set 评测协议 构建",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "title:reliable collaborative conversational agent system based on llms and answer set programming|2025",
+    "title:agent-diff: benchmarking llm agents on enterprise api tasks via code execution with state-diff-based evaluation|2026",
+    "doi:10.5194/egusphere-egu26-22037",
+    "title:agentigraph: a multi-agent knowledge graph framework for interactive, domain-specific llm chatbots|2025",
+    "title:a multi-agent system enables versatile information extraction from the chemical literature|2025",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/tnse.2022.3157274",
+    "doi:10.1109/tmc.2022.3199812",
+    "doi:10.1287/msom.2020.0939",
+    "doi:10.1109/tvt.2021.3096928",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.1109/tits.2021.3099477",
+    "doi:10.1108/tqm-10-2019-0243",
+    "doi:10.1109/tsg.2020.2970755"
+  ],
+  "top_papers": [
+    {
+      "title": "Reliable Collaborative Conversational Agent System Based on LLMs and Answer Set Programming",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "As the Large-Language-Model-driven (LLM-driven) Artificial Intelligence (AI) bots became popular, people realized their strong potential in Task-Oriented Dialogue (TOD). However, bots relying wholly on LLMs are unreliable in their knowledge, and whether they can finally produce a correct outcome for the task is not guaranteed. The collaboration among these agents also remains a challenge, since the necessary information to convey is unclear, and the information transfer is by prompts: unreliable, and malicious knowledge is easy to inject. With the help of knowledge representation and reasoning tools such as Answer Set Programming (ASP), conversational agents can be built safely and reliably, and communication among the agents made more reliable as well. We propose a Manager-Customer-Servic"
+    },
+    {
+      "title": "Agent-Diff: Benchmarking LLM Agents on Enterprise API Tasks via Code Execution with State-Diff-Based Evaluation",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "We present Agent-Diff, a novel benchmarking framework for evaluating agentic Large Language Models (LLMs) on real-world productivity software API tasks via code execution. Agentic LLM performance varies due to differences in models, external tool access, prompt structures, and agentic frameworks. Benchmarks must make fundamental trade-offs between a sandboxed approach that controls for variation in software environments and more ecologically valid approaches employing real services. Agent-Diff attempts to capture the desirable features of both of these approaches by including access to the real API interfaces for software services while sandboxing the environment in which calls are made, processed, and evaluated. This approach relies on two key innovations. The first is a novel state-diff "
+    },
+    {
+      "title": "Risk to Resilience: LLM-Driven Agentic AI for Natural Hazard Assessment and Decision Support",
+      "year": "2026",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.5194/egusphere-egu26-22037",
+      "citations": 0,
+      "abstract": "Recent advances in large language models (LLMs) are transforming how geoscientists interact with data, models, and decision-support systems. Beyond literature web search and text processing, LLMs now enable new forms of knowledge discovery, real-time analysis, and human–AI collaboration in natural hazards and climate-risk research. At the same time, the increasing availability of geospatial data, remote sensing images, and model outputs creates both opportunities and challenges for integrating text-as-data approaches into operational geoscientific workflows.We present a set of applied case studies demonstrating how LLM-driven assistant agents can be embedded into geoscientific systems to support flood risk assessment, hazard communication, and mitigation planning and decision. The demonstr"
+    },
+    {
+      "title": "AGENTiGraph: A Multi-Agent Knowledge Graph Framework for Interactive, Domain-Specific LLM Chatbots",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "AGENTiGraph is a user-friendly, agent-driven system that enables intuitive interaction and management of domain-specific data through the manipulation of knowledge graphs in natural language. It gives non-technical users a complete, visual solution to incrementally build and refine their knowledge bases, allowing multi-round dialogues and dynamic updates without specialized query languages. The flexible design of AGENTiGraph, including intent classification, task planning, and automatic knowledge integration, ensures seamless reasoning between diverse tasks. Evaluated on a 3,500-query benchmark within an educational scenario, the system outperforms strong zero-shot baselines (achieving 95.12% classification accuracy, 90.45% execution success), indicating potential scalability to compliance"
+    },
+    {
+      "title": "A Multi-Agent System Enables Versatile Information Extraction from the Chemical Literature",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "To fully expedite AI-powered chemical research, high-quality chemical databases are the foundation. Automatic extraction of chemical information from the literature is essential for constructing reaction databases, but it is currently limited by the multimodality and style variability of chemical information. In this work, we developed a multimodal large language model (MLLM)-based multi-agent system for robust and automated chemical information extraction. It utilizes the MLLM's strong reasoning capability to understand the structure of diverse chemical graphics and decompose the extraction task into sub-tasks. It then coordinates a set of specialized agents, each combining the capabilities of the MLLM with the precise, domain-specific strengths of dedicated tools and web services, to sol"
+    },
+    {
+      "title": "生成式人工智能驱动下智慧图书馆信息搜索的技术框架及服务模式研究",
+      "year": 2025,
+      "journal": "专栏:中国特色图书情报学",
+      "source": "万方数据",
+      "doi": "10.13530/j.cnki.jlis.2025041",
+      "citations": 52,
+      "abstract": "在生成式人工智能技术快速发展的背景下,用户的信息需求和信息行为日益多样化和复杂化,智慧图书馆的信息供给模式需要从\"被动响应\"转变为\"主动出击\"、从\"静态适配\"过渡到\"动态服务\".借助以大语言模型为代表的生成式人工智能技术强大的自然语言处理、多模态数据整合及知识生成能力,智慧图书馆信息搜索服务可以向个性化、精准化和智慧化服务模式转型.本文首先系统梳理传统信息检索、语义检索和GenAI驱动的生成式 信息搜索三种不同检索范式的功能及特征演变;其次,基于CASA范式和社会技术系统视角构建以大语言模型智能体为支撑的智慧图书馆生成式信息搜索技术框架,该框架支持多场景下人智协同的信息搜索认知构建;最后,从场景解构、关键支撑和服务目标三个角度提出了\"意图感知+认知建构+内容生成\"的智慧图书馆人智协同的信息搜索服务模式.本研究提出的技术框架和服务模式促进了信息服务从工具型向协同型的范式转变,强化了智慧图书馆 从工具型服务向认知增益型服务体系的转型,为未来智慧图书馆知识搜索体系的构建提供了新思路.图3.表2.参考文献37. query formulation,and result presentation.It then,drawing on the Computers Are Social Actors(CASA)paradigm and a sociotechnical system perspective,proposes an <span class='highlight'>LLM</span> <span class='highlight'>Agent</span> framework that orchestrates  the classical four <span class='highlight'>information</span> <span class='highli"
+    },
+    {
+      "title": "Joint Secure Offloading and Resource Allocation for Vehicular Edge Computing Network: A Multi-Agent Deep Reinforcement Learning Approach",
+      "year": "2023",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2023.3242997",
+      "citations": 212,
+      "abstract": "The mobile edge computing (MEC) technology can simultaneously provide high-speed computing services for multiple vehicular users (VUs) in vehicular edge computing (VEC) networks. Nevertheless, due to the open feature of the wireless offloading channels and the high mobility of the vehicles, the security and stability of the offloading process would be seriously degraded. In this paper, by utilizing the physical layer security (PLS) technique and spectrum sharing architecture, we propose a deep reinforcement learning based joint secure offloading and resource allocation (SORA) scheme to improve the secrecy performance and resource efficiency of the multi-user VEC networks, where the VU offloading links share the frequency spectrum preoccupied with the vehicle-to-vehicle (V2V) communication "
+    },
+    {
+      "title": "Dynamic SDN-Based Radio Access Network Slicing With Deep Reinforcement Learning for URLLC and eMBB Services",
+      "year": "2022",
+      "journal": "IEEE Transactions on Network Science and Engineering",
+      "source": "OpenAlex",
+      "doi": "10.1109/tnse.2022.3157274",
+      "citations": 106,
+      "abstract": "Radio access network (RAN) slicing is a key technology that enables 5G network to support heterogeneous requirements of generic services, namely ultra-reliable low-latency communication (URLLC) and enhanced mobile broadband (eMBB). In this paper, we propose a two time-scales RAN slicing mechanism to optimize the performance of URLLC and eMBB services. In a large time-scale, an SDN controller allocates radio resources to gNodeBs according to the requirements of the eMBB and URLLC services. In a short time-scale, each gNodeB allocates its available resources to its end-users and requests, if needed, additional resources from adjacent gNodeBs. We formulate this problem as a non-linear binary program and prove its NP-hardness. Next, for each time-scale, we model the problem as a Markov decisio"
+    },
+    {
+      "title": "Collective Deep Reinforcement Learning for Intelligence Sharing in the Internet of Intelligence-Empowered Edge Computing",
+      "year": "2022",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "source": "OpenAlex",
+      "doi": "10.1109/tmc.2022.3199812",
+      "citations": 60,
+      "abstract": "Edge intelligence is emerging as a new interdiscipline to push learning intelligence from remote centers to the edge of the network. However, with its widespread deployment, new challenges arise in terms of training efficiency and service of quality (QoS). Massive repetitive model training is ubiquitous due to the inevitable needs of users for the same types of data and training results. Additionally, a smaller volume of data samples will cause the over-fitting of models. To address these issues, driven by the Internet of intelligence, this paper proposes a distributed edge intelligence sharing scheme, which allows distributed edge nodes to quickly and economically improve learning performance by sharing their learned intelligence. Considering the time-varying edge network states including"
+    },
+    {
+      "title": "A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory Optimization",
+      "year": "2021",
+      "journal": "Manufacturing & Service Operations Management",
+      "source": "OpenAlex",
+      "doi": "10.1287/msom.2020.0939",
+      "citations": 206,
+      "abstract": "Problem definition: The beer game is widely used in supply chain management classes to demonstrate the bullwhip effect and the importance of supply chain coordination. The game is a decentralized, multiagent, cooperative problem that can be modeled as a serial supply chain network in which agents choose order quantities while cooperatively attempting to minimize the network’s total cost, although each agent only observes local information. Academic/practical relevance: Under some conditions, a base-stock replenishment policy is optimal. However, in a decentralized supply chain in which some agents act irrationally, there is no known optimal policy for an agent wishing to act optimally. Methodology: We propose a deep reinforcement learning (RL) algorithm to play the beer game. Our algorithm"
+    },
+    {
+      "title": "Multi-Agent Deep Reinforcement Learning for Computation Offloading and Interference Coordination in Small Cell Networks",
+      "year": "2021",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2021.3096928",
+      "citations": 149,
+      "abstract": "Integrating mobile edge computing (MEC) with small cell networks has been conceived as a promising solution to provide pervasive computing services. However, the interactions among small cells due to inter-cell interference, the diverse application-specific requirements, as well as the highly dynamic wireless environment make it challenging to design an optimal computation offloading scheme. In this paper, we focus on the joint design of computation offloading and interference coordination for edge intelligence empowered small cell networks. To this end, we propose a distributed multi-agent deep reinforcement learning (DRL) scheme with the objective of minimizing the overall energy consumption while ensuring the latency requirements. Specifically, we exploit the collaboration among small c"
+    },
+    {
+      "title": "Dynamic UAV Deployment for Differentiated Services: A Multi-Agent Imitation Learning Based Approach",
+      "year": "2021",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "source": "OpenAlex",
+      "doi": "10.1109/tmc.2021.3116236",
+      "citations": 117,
+      "abstract": "Unmanned Aerial Vehicles (UAVs) have been utilized to serve on-ground users with various services, e.g., computing, communication and caching, due to their mobility and flexibility. The main focus of many recent studies on UAVs is to deploy a set of homogeneous UAVs with identical capabilities controlled by one UAV owner/company to provide services. However, little attention has been paid to the issue of how to enable different UAV owners to provide services with differentiated service capabilities in a shared area. To address this issue, we propose a multi-agent imitation learning enabled UAV deployment approach to maximize both profits of UAV owners and utilities of on-ground users. Specially, a Markov game is formulated among UAV owners and we prove that a Nash equilibrium exists based "
+    },
+    {
+      "title": "Space-Air-Ground Integrated Multi-Domain Network Resource Orchestration Based on Virtual Network Architecture: A DRL Method",
+      "year": "2021",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2021.3099477",
+      "citations": 105,
+      "abstract": "Traditional ground wireless communication networks cannot provide high-quality services for artificial intelligence (AI) applications such as intelligent transportation systems (ITS) due to deployment, coverage and capacity issues. The space-air-ground integrated network (SAGIN) has become a research focus in the industry. Compared with traditional wireless communication networks, SAGIN is more flexible and reliable, and it has wider coverage and higher quality of seamless connection. However, due to its inherent heterogeneity, time-varying and self-organizing characteristics, the deployment and use of SAGIN still faces huge challenges, among which the orchestration of heterogeneous resources is a key issue. Based on virtual network architecture and deep reinforcement learning (DRL), we mo"
+    },
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "year": "2020",
+      "journal": "The TQM Journal",
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "citations": 365,
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere ap"
+    },
+    {
+      "title": "Multi-Agent Based Attack-Resilient System Integrity Protection for Smart Grid",
+      "year": "2020",
+      "journal": "IEEE Transactions on Smart Grid",
+      "source": "OpenAlex",
+      "doi": "10.1109/tsg.2020.2970755",
+      "citations": 145,
+      "abstract": "Most System Integrity Protection (SIP) schemes deployed in smart gird today are centralized functions relying on wide-area communication. The highly centralized implementation makes SIP susceptible to the single point of failure induced by cyber attacks. In this paper, we present a novel multi-agent-based design to enhance the cyber resilience of SIP while focusing on augmenting its situational awareness and self-adaptiveness. Specifically, we have investigated data-driven anomaly detection and adaptive load rejection within the decentralized SIP set-up. After attaining a comprehensive taxonomy of operation states of a power grid as a cyber-physical system, we are able to convert the anomaly detection to a multi-class classification problem. A supervised learning algorithm, named as Suppor"
+    }
+  ],
+  "outline": "# 构建面向智慧情报服务的基准查询集与评测协议：综合框架、跨领域挑战与未来方向\n\n## 1. 引言：智慧情报服务的范式转变与标准化评测的迫切需求\n*阐述生成式人工智能驱动下智慧情报服务（如任务导向对话、企业API任务、地理空间分析）的范式转变及其在复杂网络环境（如边缘计算）中的核心作用。分析构建标准化、可复现的基准查询集与评测协议对于推动技术发展、确保服务可靠性、公平竞争与持续优化的重要性与核心挑战。*\n\n### 1.1 生成式AI驱动下的智慧情报服务范式转变\n*阐述以大型语言模型（LLM）为代表的生成式人工智能如何推动情报服务从被动响应、静态适配的传统模式，向主动感知、动态生成、人智协同的智慧化模式转型，并以任务导向对话、企业API任务、地理空间分析等为例说明其核心特征。*\n\n### 1.2 复杂网络环境中智慧情报服务的核心作用与挑战\n*分析智慧情报服务在边缘计算、车联网等复杂动态网络环境中的关键作用，并基于相关论文，指出其在资源分配、协同决策、安全卸载等方面面临的高动态性、异构需求与安全可靠性的核心挑战。*\n\n### 1.3 标准化评测的迫切需求与核心价值\n*论述构建标准化、可复现的基准查询集与评测协议对于推动技术迭代、确保服务可靠性、促进公平竞争以及实现系统持续优化的重要性，强调其在技术发展生态中的基础性作用。*\n\n### 1.4 基准构建与评测面临的核心挑战\n*分析构建面向智慧情报服务的评测体系所面临的核心挑战，包括如何平衡控制变量与生态效度、建模动态复杂环境、定义多维性能指标（如时延、能耗、安全性、公平性）以及实现跨领域、多场景的适应性评估。*\n\n## 2. 理论基础与相关领域评测现状分析\n*梳理从信息检索、语义搜索到生成式AI驱动的智慧搜索的范式演变，明确智慧情报服务中用户意图、认知建构等关键理论要素。同时，综述并分析现有基准构建方法（如沙盒模拟、真实服务集成）及相关领域（如多智能体强化学习在资源调度中的应用）的评测实践，提取其在控制变量与生态效度权衡、动态环境建模、性能指标定义等方面的经验与启示。*\n\n### 2.1 智慧情报服务的范式演变与核心理论要素\n*梳理从传统信息检索、语义搜索到生成式AI驱动的智慧搜索的范式演变，分析各阶段的技术特征与局限性。基于文献[6]，明确智慧情报服务中“意图感知”、“认知建构”及“人智协同”等关键理论要素，为基准构建奠定理论基础。*\n\n### 2.2 现有基准构建方法：沙盒模拟与真实服务集成\n*综述并分析构建评测基准的两种主要方法：在受控的沙盒/仿真环境中模拟服务（如多智能体系统仿真），以及集成真实服务API进行端到端评估。讨论这两种方法在控制变量、生态效度、可复现性及实施复杂度方面的权衡与启示。*\n\n### 2.3 相关领域评测实践：多智能体与强化学习的经验\n*分析多智能体深度强化学习在边缘计算、网络资源调度（如文献[7][8][11]）及供应链管理（如文献[10]）等领域的评测实践。重点提取其在动态环境建模、分布式决策、性能指标定义（如时延、能耗、安全性）以及处理协作与竞争关系方面的经验。*\n\n### 2.4 关键启示：变量控制、动态建模与指标设计\n*综合前述分析与文献[9]关于智能共享的考量，总结对构建智慧情报服务评测协议的核心启示，包括如何在控制变量与真实场景复杂性间取得平衡、如何有效建模动态演化的用户需求与环境状态，以及如何设计兼顾性能、效率、可靠性与公平性的多维评价指标体系。*\n\n## 3. 基准查询集的关键构建维度与设计原则\n*从查询的复杂性、领域特异性、动态演化性、多模态性及场景真实性（如差异化服务、抗攻击韧性）等维度，探讨如何设计能全面反映多领域智慧情报服务需求的基准查询集。提出面向多场景、支持人智协同的设计原则，确保查询集能有效驱动技术评估与迭代。*\n\n### 3.1 基准查询的多维复杂性建模与领域特异性嵌入\n*基于智慧情报服务从被动响应到主动生成的范式转变，探讨如何从查询的语义深度、任务步骤、逻辑推理及上下文依赖性等方面构建复杂性谱系。同时，结合特定领域（如智慧图书馆、车联网、供应链管理）的业务逻辑与知识体系，设计具有领域嵌入特性的查询，确保基准能有效评估系统在专业场景下的意图理解与任务分解能力。*\n\n### 3.2 动态演化性、多模态集成与场景真实性构建\n*分析如何模拟用户需求、环境状态（如网络资源、车辆位置）与对抗性干扰的动态变化，使查询集能反映服务环境的时变性与不确定性。探讨整合文本、图像、时空数据等多模态查询要素的方法，并构建体现差异化服务质量（如URLLC与eMBB）与系统抗攻击韧性等真实挑战的场景，以全面检验服务的适应性与鲁棒性。*\n\n### 3.3 面向人智协同与多场景评估的设计原则\n*提出以“意图感知-认知建构-内容生成”为线索的设计原则，确保查询集能支持并评估人机协同的认知过程。强调查询集需覆盖从边缘计算资源调度到多智能体协同决策等多种异构场景，并遵循可扩展、可组合的原则，以驱动技术在不同服务模式下的迭代优化与公平比较。*\n\n## 4. 支撑技术与跨领域框架借鉴\n*探讨支撑可靠基准构建与动态评测的关键使能技术，包括多智能体协作（如AGENTiGraph）、知识表示与推理（如ASP）、领域特定模型（如MLLM）的集成。同时，借鉴多智能体系统、深度强化学习在资源优化与协同决策（如网络切片、边缘计算）中的框架，为构建自适应评测协议提供技术和方法论启示。*\n\n### 4.1 多智能体协作与知识表示推理技术\n*探讨以LLM智能体（如AGENTiGraph）为核心的多智能体协作框架，以及基于逻辑编程（如ASP）的知识表示与推理技术，如何为基准查询集的动态生成、复杂意图理解与多步骤任务分解提供核心支撑。*\n\n### 4.2 领域特定模型与多模态集成\n*分析领域特定模型（如MLLM）在增强基准查询的领域特异性与多模态性方面的作用，讨论如何集成这些模型以构建能够反映真实智慧情报服务场景（如地理空间分析、多模态内容生成）的复杂查询。*\n\n### 4.3 深度强化学习在资源协同决策中的框架借鉴\n*借鉴多智能体深度强化学习在边缘计算、网络切片等领域的资源优化与协同决策框架（如联合卸载与资源分配），分析其建模动态环境、处理多目标权衡的方法，为设计自适应、可动态调整的评测协议提供方法论启示。*\n\n### 4.4 分布式智能共享与协作学习机制\n*探讨基于分布式智能共享（如边缘智能协作）与协作学习（如供应链博弈）的机制，如何为解决基准构建中的数据孤岛、模型过拟合问题，以及设计评估智能体间协作性与整体系统效率的协议提供技术思路。*\n\n## 5. 综合评测协议的多维框架与实施路径\n*提出一个涵盖性能（如时延、能耗）、效率、可靠性、安全性、公平性、协作性及领域适应性等多维目标的综合评测协议框架。讨论该框架的实施路径，包括如何利用仿真环境、标准数据集、状态差分评估及可解释AI技术，实现可复现、可比较且动态自适应的评估。*\n\n### 5.1 多维评测指标体系的构建与定义\n*基于智慧情报服务的复杂需求，定义并阐述一个涵盖性能（时延、能耗）、效率、可靠性、安全性、公平性、协作性及领域适应性的综合评测指标体系，并讨论各项指标在评估服务整体效能中的具体作用与量化方法。*\n\n### 5.2 基于仿真与动态环境建模的实施框架\n*探讨如何借鉴多智能体深度强化学习（如论文[7][8][11]）在资源调度与网络切片中的建模方法，构建高保真、可扩展的仿真环境，以支持对动态、复杂服务场景（如边缘计算、车联网）中基准查询的自动化、可复现评估。*\n\n### 5.3 状态差分评估与可解释性分析技术\n*阐述如何利用状态差分评估方法对比不同系统或策略在相同基准查询下的表现差异，并结合可解释AI技术（XAI）对评估结果进行深度分析，以揭示模型决策逻辑、性能瓶颈及协作机制，确保评测过程透明、可信。*\n\n### 5.4 协议标准化与动态自适应演进路径\n*讨论综合评测协议的标准化挑战与实施路径，提出如何通过集成标准数据集、模块化评估组件以及在线学习机制，使评测协议能够适应技术迭代与新场景需求，实现动态自进化，保障评估的长期有效性与可比性。*\n\n## 6. 未来方向、开放挑战与总结展望\n*总结构建面向智慧情报服务的基准查询集与评测协议所面临的开放挑战，如技术集成复杂度、协议标准化、生态构建等。展望未来研究方向，并提出推动该领域发展的综合框架构建建议与行动路径。*\n\n### 6.1 开放挑战：技术集成、标准化与生态构建\n*总结构建基准与协议面临的核心挑战，包括多智能体、知识推理、领域模型等异构技术的集成复杂度，评测协议与指标缺乏跨领域标准，以及需要学术界、产业界协同共建开放评测生态的迫切性。*\n\n### 6.2 未来研究方向：动态适应、安全可信与人智协同\n*展望未来研究的关键方向，包括开发能适应动态网络与服务演化的自适应评测框架，融入对抗性测试与可解释性评估的安全可信评测，以及探索支持人机混合智能协同决策与评估的新范式。*\n\n### 6.3 行动路径：综合框架构建与社区倡议\n*提出推动领域发展的具体行动路径，建议构建一个融合仿真沙盒、真实数据流与标准化接口的模块化综合框架，并倡导发起跨学科社区倡议，以共建基准数据集、开源工具和最佳实践指南。*",
+  "cited_ids": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "elapsed_seconds": 388.096,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q27_autosurvey_20260419_092055.md"
+}

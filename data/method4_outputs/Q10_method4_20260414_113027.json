@@ -1,0 +1,103 @@
+{
+  "baseline": "method4_cot_citation",
+  "query": "如何评估智慧情报服务中 query expansion 的收益与风险？",
+  "query_id": "Q10",
+  "effective_search_query": "query expansion evaluation benefits risks intelligent information services",
+  "provider": "deepseek",
+  "model": null,
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "doi:10.1016/j.apmrv.2021.04.001",
+    "doi:10.1016/j.crm.2021.100304",
+    "doi:10.1109/sisy62279.2024.10737601",
+    "doi:10.5194/egusphere-egu26-2819",
+    "doi:10.1016/j.tra.2020.01.007",
+    "doi:10.3389/fdata.2019.00045",
+    "doi:10.1109/iccas.2016.7832322",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "doi:10.1145/3663529.3663841",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.7176/ikm/11-4-05",
+    "doi:10.1109/comst.2023.3338153",
+    "doi:10.1080/19368623.2020.1721394",
+    "doi:10.1002/ajae.12089",
+    "doi:10.1109/tii.2020.3046028"
+  ],
+  "top_papers": [
+    {
+      "title": "生成式人工智能驱动下智慧图书馆信息搜索的技术框架及服务模式研究",
+      "year": 2025,
+      "journal": "专栏:中国特色图书情报学",
+      "source": "万方数据",
+      "doi": "10.13530/j.cnki.jlis.2025041",
+      "citations": 52,
+      "abstract": "在生成式人工智能技术快速发展的背景下,用户的信息需求和信息行为日益多样化和复杂化,智慧图书馆的信息供给模式需要从\"被动响应\"转变为\"主动出击\"、从\"静态适配\"过渡到\"动态服务\".借助以大语言模型为代表的生成式人工智能技术强大的自然语言处理、多模态数据整合及知识生成能力,智慧图书馆信息搜索服务可以向个性化、精准化和智慧化服务模式转型.本文首先系统梳理传统信息检索、语义检索和GenAI驱动的生成式 信息搜索三种不同检索范式的功能及特征演变;其次,基于CASA范式和社会技术系统视角构建以大语言模型智能体为支撑的智慧图书馆生成式信息搜索技术框架,该框架支持多场景下人智协同的信息搜索认知构建;最后,从场景解构、关键支撑和服务目标三个角度提出了\"意图感知+认知建构+内容生成\"的智慧图书馆人智协同的信息搜索服务模式.本研究提出的技术框架和服务模式促进了信息服务从工具型向协同型的范式转变,强化了智慧图书馆 从工具型服务向认知增益型服务体系的转型,为未来智慧图书馆知识搜索体系的构建提供了新思路.图3.表2.参考文献37. query formulation,and result presentation.It then,drawing on the Computers Are Social Actors(CASA)paradigm and a sociotechnical system perspective,proposes an <span class='highlight'>LLM</span> <span class='highlight'>Agent</span> framework that orchestrates  the classical four <span class='highlight'>information</span> <span class='highli"
+    },
+    {
+      "title": "Climate Service Recipes: automatic multi-hazard climate information workflow generation using agentic Large Language Models (LLMs) and knowledge graphs",
+      "year": "2026",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.5194/egusphere-egu26-2819",
+      "citations": 0,
+      "abstract": "Climate Service Recipes (HACID-CSR) is an agentic system designed to assist providers of climate services in developing their advice for a wide range of clients. HACID-CSR guides providers by navigating the large and ever-increasing corpus of knowledge as well as an area without established standards and with limited access to scientific experts. It automatically generates detailed workflows (or “recipes”) by leveraging both a large language model’s internal reasoning and contextual knowledge from a domain knowledge graph for climate services (CS-DKG). The CS-DKG is an expert-curated ontology of climate service concepts with mapped relationships between climate variables, emission scenarios, indices, hazards, sectors, and key datasets (CORDEX, CMIP5, UKCP18), built as part of the Horizon E"
+    },
+    {
+      "title": "An Intelligent LLM-Powered Personalized Assistant for Digital Banking Using LangGraph and Chain of Thoughts",
+      "year": "2024",
+      "journal": "OpenAlex",
+      "source": "OpenAlex",
+      "doi": "10.1109/sisy62279.2024.10737601",
+      "citations": 18,
+      "abstract": "Text-based applications and chatbots are increasingly popular for delivering banking services and educational tools, offering convenient and efficient solutions for users. Whereas, personalized assistants have transformed user engagement in the digital banking space by utilizing Large Language Models (LLMs) in conjunction with autonomous agents. This study proposes the development of an intelligent personalized assistant for digital banking, utilizing a multi-agent framework based on the LangGraph and Chain of Thoughts (COT) prompting. While COT guarantees context-aware replies, the LangGraph design maps characteristics to nodes to improve user interactions. The objectives of this system are to enhance task efficiency and elevate the capabilities of digital banking assistants. We present a"
+    },
+    {
+      "title": "Artificially intelligent device use in service delivery: a systematic review, synthesis, and research agenda",
+      "year": "2020",
+      "journal": "Journal of Hospitality Marketing & Management",
+      "source": "OpenAlex",
+      "doi": "10.1080/19368623.2020.1721394",
+      "citations": 296,
+      "abstract": "This study undertakes a systematic review of Artificial Intelligence and its applications to service encounters and the hospitality industry by reviewing publications that (1) mainly discuss AI technology, (2) are in the context of services, and (3) investigate the use or the adoption of AI technology rather than technical issues such as system design, algorithms, voice recognition modules, or psychological knowledge representations. Seven major themes are identified via a review of 63 publications. The themes are (1) current AI technology in service frontline, (2) levels of artificial intelligence, (3) AI agents, (4) human–AI service encounters, (5) theoretical frameworks of the acceptance of AI, (6) reasons for adopting AI, and (7) potential challenges of AI. This study also offers a fur"
+    },
+    {
+      "title": "Effect of customization, core self-evaluation, and information richness on trust in online insurance service: Intelligent agent as a moderating variable",
+      "year": "2021",
+      "journal": "Asia Pacific Management Review",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.apmrv.2021.04.001",
+      "citations": 28,
+      "abstract": "The study explores trust in the online insurance industry and examines the moderating effect of intelligent agents on customization, core self-evaluation, and information richness on trust. Data were collected online from a total of 606 valid questionnaires. Structured equation modeling is employed to confirm the proposed model. The results show that customization, core self-evaluation (CSE) and information richness have a significant, positive causal influence on trust. Intelligent agent moderates positively the relationship between core self-evaluation, information richness and trust. However, it does not show to moderate the relationships between customization and trust. This study introduces “intelligent agent” as a moderating variable. The intelligent agent positively moderates trust "
+    },
+    {
+      "title": "Exploring LLM-Based Agents for Root Cause Analysis",
+      "year": "2024",
+      "journal": "OpenAlex",
+      "source": "OpenAlex",
+      "doi": "10.1145/3663529.3663841",
+      "citations": 48,
+      "abstract": "The growing complexity of cloud based software systems has resulted in incident management becoming an integral part of the software development lifecycle. Root cause analysis (RCA), a critical part of the incident management process, is a demanding task for on-call engineers, requiring deep domain knowledge and extensive experience with a team’s specific services. Automation of RCA can result in significant savings of time, and ease the burden of incident management on on-call engineers. Recently, researchers have utilized Large Language Models (LLMs) to perform RCA, and have demonstrated promising results. However, these approaches are not able to dynamically collect additional diagnostic information such as incident related logs, metrics or databases, severely restricting their ability "
+    },
+    {
+      "title": "AI-Enhanced Cloud-Edge-Terminal Collaborative Network: Survey, Applications, and Future Directions",
+      "year": "2023",
+      "journal": "IEEE Communications Surveys & Tutorials",
+      "source": "OpenAlex",
+      "doi": "10.1109/comst.2023.3338153",
+      "citations": 70,
+      "abstract": "The cloud-edge-terminal collaborative network (CETCN) is considered as a novel paradigm for emerging applications owing to its huge potential in providing low-latency and ultra-reliable computing services. However, achieving such benefits is very challenging due to the heterogeneous computing power of terminal devices and the complex environment faced by the CETCN. In particular, the high-dimensional and dynamic environment states cause difficulties for the CETCN to make efficient decisions in terms of task offloading, collaborative caching and mobility management. To this end, artificial intelligence (AI), especially deep reinforcement learning (DRL) has been proven effective in solving sequential decision-making problems in various domains, and offers a promising solution for the above-m"
+    },
+    {
+      "title": "The role of information availability to passengers in public transport disruptions: An agent-based simulation approach",
+      "year": "2020",
+      "journal": "Transportation Research Part A Policy and Practice",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.tra.2020.01.007",
+      "citations": 60,
+      "abstract": "In public transport disruptions, a key relation between the services of operating company and passengers’ satisfaction is the disseminated information. This paper proposes rigorous mathematical descriptions to describe the effects of information availability to passengers, including the user equilibrium and non-equilibrium solutions. The information availability in disruption is summarised in a “who-when-where-what” four-dimensional framework. Based on different information, passengers’ behaviours are assumed and simulated to evaluate the benefits of information availability in public transport disruption. An agent-based micro-simulation model (MATSim) is applied for the city of Zürich, Switzerland, for the benefit of activity-based simulation in a multi-modal network. We use an existing d"
+    }
+  ],
+  "elapsed_seconds": 172.137,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method4_outputs\\Q10_method4_20260414_113027.md"
+}

@@ -1,0 +1,205 @@
+{
+  "query_id": "Q197",
+  "query": "How should a multi-agent synthesis pipeline document its automation decisions to meet PRISMA-AI reporting requirements?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Multi-Agent AI Systems in Healthcare: Systematic Evidence Synthesis Via PRISMA of Clinical Decision Support Systems, Robotic Interventions, and Critical Care",
+      "authors": [
+        "Oto Peter Ode",
+        "Ndukwe Chika Kalu",
+        "Saleh Abbas",
+        "Arslan Arshad",
+        "Adagboyi Isaac Inalegwu",
+        "Konstantin Koshechkin"
+      ],
+      "abstract": "Abstract: Multi-agent artificial intelligence systems (MAS) is transforming the healthcare sector by enabling intelligent decision-making, robotic interventions, and critical care management. Despite growing interest, a comprehensive synthesis of their real-world applications, performance, and limitations is lacking. This systematic review aims to evaluate the deployment of MAS in healthcare across three key domains: Clinical Decision Support Systems (CDSS), Robotic Interventions, and Critical Care Monitoring. It also addresses ethical and legal considerations, offers a comparative framework, and identifies research gaps. A systematic search of PubMed, IEEE Xplore, Scopus, and Web of Science was conducted following PRISMA guidelines. A total of 150 records were retrieved. After duplicate removal and screening, 32 studies met inclusion criteria. The Joanna Briggs Institute (JBI) Critical Appraisal Checklist guided quality assessment. Data were extracted using a structured form and organized by topic. Among the 32 studies included, 12 focused on MAS-based CDSS, 11 on robotic interventions, and 9 on MAS in critical care. Most MAS demonstrated improved diagnostic accuracy, aided real-time decision support, and enhanced patient monitoring. However, over 60% involved practical models and lacked clinical validation. Ethical concerns, particularly around autonomy, data privacy, transparency, and legal accountability were sometimes overlooked. Only 7 studies discussed ethical or legal implications in depth. A comparative framework was developed, comparing MAS tools based on scalability, clinical validation, autonomy, human-AI interaction, and data transparency. No doubt, MAS hold transformative potential across healthcare domains. However, real-world deployment remains unclear. Greater emphasis on clinical validation, ethical design, and regulatory frameworks is needed. This review provides suggestions for future research and responsible adoption of MAS in healthcare.",
+      "year": "2025",
+      "published_date": "2025-06-19",
+      "journal": "International Journal of Latest Technology in Engineering Management &amp; Applied Science",
+      "url": "https://www.semanticscholar.org/paper/fe07442a7eb33396064eb4d2400ea3464a03cd29",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.51583/ijltemas.2025.140500080",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "Analysing the Role of Multi-Agent AI Models for Autonomous Business Decision Systems",
+      "authors": [
+        "Chitiz Tayal",
+        "Sujit Murumkar",
+        "S. Biradar"
+      ],
+      "abstract": "The autonomous business decision systems are now the centre of organisational competitiveness as organisations continue to work in volatile and increasingly data-intensive and interdependent environments. The use of multi-agent systems (MAS) can provide an effective paradigm, which facilitates decentralised, adaptive and collaborative intelligence with distributed agents perceiving environments and negotiating actions and autonomous optimisation. This paper is a critical assessment of how multi-agent AI models, such as logic agents, multi-agent reinforcement learning (MARL), agents based on large language models, agent development systems, simulation systems, and self-evolving agents' systems, have contributed to autonomous business decision systems. Systematic literature reviews, simulations, enterprise case studies and foundation-model based research and decision intelligence (DI) frameworks evidence shows how multi agent strategies provides increased robustness, scalability and responsiveness to the complex organisational domains. Simulation-based research using MAS is seen to be able to model emerging behaviours, test organisational conditions and uncertainty within energy system, construction, logistics and financial fields. The further reinforcement learning and cooperative decision modelling enhance MAS autonomy as it provides the ability to optimise the learning of dynamic environments. Similar results are presented by the research of Automated Machine Learning (AutoML) that demonstrates that automated model development helps lower technical barriers and speeds up its deployment and enables adaptive decision pipelines. Decision Intelligence literature displays how organisations can restructure decision-making with the help of AI to construct data pipelines, and provide human-computer interaction. Although issues remain, such as explainability, cost of coordination and data governance, there is strong evidence that MAS constitute a backbone architecture to next generation autonomous decision ecosystems according to all sources. The given synthesis illustrates how multi-agent AI may be used as a strategic foundation of predictive, operational and strategic automation of decisions in contemporary businesses.",
+      "year": "2026",
+      "published_date": "2026-01-05",
+      "journal": "Computing and Communication Workshop and Conference",
+      "url": "https://www.semanticscholar.org/paper/1139f2c15c573fcedb86d64870c9b612447df3a1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/CCWC67433.2026.11393746",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate evidence review multi-agent literature review"
+    },
+    {
+      "title": "From Individual Decisions to Team Emergence: A Survey on Explainable Cooperative Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Lei Sheng",
+        "Xiliang Chen",
+        "Zhiqiang Pan",
+        "Fei Cai",
+        "Honghui Chen"
+      ],
+      "abstract": "Abstract\n                Multi-Agent Reinforcement Learning (MARL) holds significant promise for cooperative decision-making, yet its reliance on deep neural networks (DNNs) creates ''black-box'' characteristics that impede trustworthy deployment in high-stakes scenarios. This lack of transparency complicates tracing decision logic and raises concerns about safety and accountability. This survey systematically reviews Explainable MARL (XMARL) for cooperative settings, deconstructing the decision-making chain from individual agent policies to collective team behavior. To address the absence of a unified framework, we introduce a novel multi-level taxonomy encompassing microscopic individual behavior, interaction mechanisms, team strategy emergence, and system-level performance. We organize core explanatory questions and technical approaches within this structure, summarize the principles and limitations of representative methods, and critically discuss key challenges such as evaluation standards, causal reasoning integration, and deployment adaptability. Our goal is to provide both theoretical foundation and technical guidance for building transparent, trustworthy, and verifiably cooperative multi-agent systems (MASs).",
+      "year": "2025",
+      "published_date": "2025-11-14",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-7965328/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-7965328/v1",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service survey"
+    },
+    {
+      "title": "SLA Management in Reconfigurable Multi-Agent RAG: A Systems Approach to Question Answering",
+      "authors": [
+        "Michael Iannelli",
+        "Sneha Kuchipudi",
+        "Vera Dvorak"
+      ],
+      "abstract": "Retrieval Augmented Generation (RAG) enables Large Language Models (LLMs) to generalize to new information by decoupling reasoning capabilities from static knowledge bases. Traditional RAG enhancements have explored vertical scaling-assigning subtasks to specialized modules-and horizontal scaling-replicating tasks across multiple agents-to improve performance. However, real-world applications impose diverse Service Level Agreements (SLAs) and Quality of Service (QoS) requirements, involving trade-offs among objectives such as reducing cost, ensuring answer quality, and adhering to specific operational constraints.   In this work, we present a systems-oriented approach to multi-agent RAG tailored for real-world Question Answering (QA) applications. By integrating task-specific non-functional requirements-such as answer quality, cost, and latency-into the system, we enable dynamic reconfiguration to meet diverse SLAs. Our method maps these Service Level Objectives (SLOs) to system-level parameters, allowing the generation of optimal results within specified resource constraints.   We conduct a case study in the QA domain, demonstrating how dynamic re-orchestration of a multi-agent RAG system can effectively manage the trade-off between answer quality and cost. By adjusting the system based on query intent and operational conditions, we systematically balance performance and resource utilization. This approach allows the system to meet SLOs for various query types, showcasing its practicality for real-world applications.",
+      "year": "2024",
+      "published_date": "2024-12-07",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2412.06832v2",
+      "arxiv_id": "2412.06832v2",
+      "keywords": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL",
+        "cs.DC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "A Survey on LLM-based Multi-Agent AI Hospital",
+      "authors": [
+        "Zonghai Yao",
+        "Hong Yu"
+      ],
+      "abstract": "AI hospitals use agent-driven multi-agent systems based on large language models (LLMs) to automate and optimize medical workflows, enabling intelligent agents to understand, reason, and assist in complex medical tasks. Although AI-driven healthcare applications are developing rapidly, research remains fragmented across various scenarios. This survey carefully analyzes 72 studies on LLM-based medical agents published between 2023 and 2025, provides a comprehensive review of AI hospitals, and systematically introduces a structured taxonomy to categorize its core components and applications. Additionally, we explored the key challenges associated with the core components of AI hospitals, including agent roles, interaction patterns, reasoning mechanisms, memory management, and tool integration. Finally, we explore how to further develop the AI hospital into a more meaningful research and practice platform that supports medical simulation, complex problem-solving, evaluation, and synthetic data generation. This, in turn, will accelerate progress in clinical reasoning, decision support, and AI-driven medical innovation, highlighting the crucial role of AI hospitals as the foundational framework for AI-powered healthcare ecosystems. By providing a structured perspective, this survey bridges AI and healthcare research, providing a roadmap for strengthening interdisciplinary collaboration and the practical applicability of AI hospitals.",
+      "year": "2025",
+      "published_date": "2025-3-4",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.31219/osf.io/bv5sg_v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 6,
+      "source": "CrossRef",
+      "doi": "10.31219/osf.io/bv5sg_v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent survey"
+    },
+    {
+      "title": "Architecting Agentic AI for Modern Software Testing: Capabilities, Foundations, and a Proposed Scalable Multi-Agent System for Automated Test Generation",
+      "authors": [
+        "Twinkle Joshi"
+      ],
+      "abstract": "The progression of software testing has evolved from manual processes to automated systems. However, the emergence of Agentic AI-driven testing represents the next transformative leap. These intelligent agents autonomously generate, execute, and optimize tests, redefining the quality assurance (QA) landscape. \nAgentic AI—defined by its capacity to independently perceive, plan, execute, and learn—has emerged as a transformative force in software testing. This article examines the impact of Agentic AI on the software testing lifecycle, highlighting its core capabilities, such as dynamic test generation, autonomous execution, intelligent root-cause analysis, multi-modal command interpretation, and context-aware decision-making. These capabilities enable a significant shift from brittle test scripts and reactive maintenance to proactive, adaptive, and self-optimizing testing systems. \nWe further introduce a novel architectural framework that applies Agentic AI principles to automated test scenario generation. This multi-agent system comprises a Perception Module for requirement and code understanding, a Cognitive Module for strategic planning and intelligent scenario design, and an Action Module for executing, analyzing, and learning from tests. Built on state-of-the-art technologies—including large language models (LLMs), retrieval-augmented generation (RAG), deep learning, and vector databases—our framework enables seamless integration with CI/CD pipelines, supports multi-format output generation, and incorporates continuous learning for test optimization. \nThe proposed architecture demonstrates how Agentic AI can enhance test coverage, improve software reliability, and reduce the cost and effort of maintaining large-scale testing infrastructures. It provides an intelligent, scalable, and future-ready solution for quality assurance in fast-paced, modern development environments.",
+      "year": "2025",
+      "published_date": "2025-06-01",
+      "journal": "Journal of Information Systems Engineering & Management",
+      "url": "https://www.semanticscholar.org/paper/44e4f58329a2b7c79c149f640a4058276723d86e",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.52783/jisem.v10i52s.10768",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "From Questions to Queries: An AI-powered Multi-Agent Framework for Spatial Text-to-SQL",
+      "authors": [
+        "Ali Khosravi Kazazi",
+        "Zhenlong Li",
+        "M. Lessani",
+        "Guido Cervone"
+      ],
+      "abstract": "The complexity of SQL and the spatial semantics of PostGIS create barriers for non-experts working with spatial data. Although large language models can translate natural language into SQL, spatial Text-to-SQL is more error-prone than general Text-to-SQL because it must resolve geographic intent, schema ambiguity, geometry-bearing tables and columns, spatial function choice, and coordinate reference system and measurement assumptions. We introduce a multi-agent framework that addresses these coupled challenges through staged interpretation, schema grounding, logical planning, SQL generation, and execution-based review. The framework is supported by a knowledge base with programmatic schema profiling, semantic enrichment, and embedding-based retrieval. We evaluated the framework on the non-spatial KaggleDBQA benchmark and on SpatialQueryQA, a new multi-level and coverage-oriented benchmark with diverse geometry types, workload categories, and spatial operations. On KaggleDBQA, the system reached 81.2% accuracy, 221 of 272 questions, after reviewer corrections. On SpatialQueryQA, the system achieved 87.7% accuracy, 79 of 90, compared with 76.7% without the review stage. These results show that decomposing the task into specialized but tightly coupled agents improves robustness, especially for spatially sensitive queries. The study improves access to spatial analysis and provides a practical step toward more reliable spatial Text-to-SQL systems and autonomous GIS.",
+      "year": "2025",
+      "published_date": "2025-10-23",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/fb5cc8abfa5117650ffd56da0ae81ca55f6eeafd",
+      "arxiv_id": "2510.21045",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2510.21045",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system full text retrieval"
+    },
+    {
+      "title": "Mirror: A Multi-Agent System for AI-Assisted Ethics Review",
+      "authors": [
+        "Yifan Ding",
+        "Yuhui Shi",
+        "Zhiyan Li",
+        "Zilong Wang",
+        "Yifeng Gao",
+        "Yajun Yang",
+        "Mengjie Yang",
+        "Yixiu Liang",
+        "Xipeng Qiu",
+        "Xuanjing Huang",
+        "Xingjun Ma",
+        "Yu-Gang Jiang",
+        "Guoyu Wang"
+      ],
+      "abstract": "Ethics review is a foundational mechanism of modern research governance, yet contemporary systems face increasing strain as ethical risks arise as structural consequences of large-scale, interdisciplinary scientific practice. The demand for consistent and defensible decisions under heterogeneous risk profiles exposes limitations in institutional review capacity rather than in the legitimacy of ethics oversight. Recent advances in large language models (LLMs) offer new opportunities to support ethics review, but their direct application remains limited by insufficient ethical reasoning capability, weak integration with regulatory structures, and strict privacy constraints on authentic review materials. In this work, we introduce Mirror, an agentic framework for AI-assisted ethical review that integrates ethical reasoning, structured rule interpretation, and multi-agent deliberation within a unified architecture. At its core is EthicsLLM, a foundational model fine-tuned on EthicsQA, a specialized dataset of 41K question-chain-of-thought-answer triples distilled from authoritative ethics and regulatory corpora. EthicsLLM provides detailed normative and regulatory understanding, enabling Mirror to operate in two complementary modes. Mirror-ER (expedited Review) automates expedited review through an executable rule base that supports efficient and transparent compliance checks for minimal-risk studies. Mirror-CR (Committee Review) simulates full-board deliberation through coordinated interactions among expert agents, an ethics secretary agent, and a principal investigator agent, producing structured, committee-level assessments across ten ethical dimensions. Empirical evaluations demonstrate that Mirror significantly improves the quality, consistency, and professionalism of ethics assessments compared with strong generalist LLMs.",
+      "year": "2026",
+      "published_date": "2026-02-09",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2602.13292v1",
+      "arxiv_id": "2602.13292v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system systematic review"
+    }
+  ],
+  "timestamp": "20260413_180255"
+}

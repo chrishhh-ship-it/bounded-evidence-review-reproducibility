@@ -1,0 +1,63 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "如果只能获取部分全文，智慧情报服务应如何进行风险提示与结论降级？",
+  "effective_search_query": "智慧情报服务 部分全文 风险提示 结论降级",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 5,
+  "all_retrieved_ids": [
+    "doi:10.13872/j.1000-0275.2024.0004罗孳孳，",
+    "title:人机融合智能决策: 概念, 框架与应用|2025",
+    "title:教出學童好食力—國小推動食農教育之行動策略探究|2021",
+    "title:我在山東當院長: 一位中國大學小官的自白|2024",
+    "title:contacts behind the hostilities: dialogues and negotiations with veiled emissaries between two sides of taiwan strait (1988-2000)|2024"
+  ],
+  "top_papers": [
+    {
+      "title": "气象大数据应用场景与气象服务技术预见研究——面向重庆农业领域",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "罗孳孳， 唐云辉， 武强， 阳园燕， 赵雨佳， 张逸轩… - 农业现代化 …, 2026 - nyxdhyj.isa.ac.cn",
+      "doi": "10.13872/j.1000-0275.2024.0004罗孳孳，",
+      "citations": 3,
+      "abstract": "… 和智慧服务过程中,数据采集,加工 处理,预报预测,共享服务等… 部分创业型公司,如The Climate Corporation 基于气象大数据向… ,FT 表示检索全文,式意为检索CNKI 中主题和全文包含式中对应…"
+    },
+    {
+      "title": "人机融合智能决策: 概念, 框架与应用",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "李哲， 王可， 王彪， 赵梓棋， 李亚飞， 郭毅博… - 电子与信息 …, 2025 - lib.zjsru.edu.cn",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 人机融合智 能强调人类智慧和机器智能的协同共融,将人类在 决策… 当前面临的核心挑战与未来 发展方向, 并对全文工作进行总结. … 同 时,部分研究提出输入驱动的特征组合策略.Arevalo等人[63]…"
+    },
+    {
+      "title": "教出學童好食力—國小推動食農教育之行動策略探究",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "賀宏偉， 王志軒 - 臺灣教育評論月刊, 2021 - ater.org.tw",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… , 需要 導師給予相當程度上的安撫與勸導, 還有部分的新生會使用較為暴力的方式去作 弄同學使 … 故建議家長讓孩 童配戴具有監控睡眠品質功能的智慧型手錶, 並於手機載入該配備的app 程式, …"
+    },
+    {
+      "title": "我在山東當院長: 一位中國大學小官的自白",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "貝淡寧 - 2024 - books.google.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 責任,但就那些進展順利的事情,大部分應 該歸功於沛的非正式建議.我… 最 美好的人生是靠智慧 和仁去服務政治群體.而實踐這種人生的… 9 現在下結論還為時過早.我能夠預測 的是,即使最終出現像…"
+    },
+    {
+      "title": "Contacts Behind the Hostilities: Dialogues and Negotiations With Veiled Emissaries Between Two Sides of Taiwan Strait (1988-2000)",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "PM Tan - 2024 - search.proquest.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 大部分的兩岸問題,由此而生. 本研究關注,溝通,是讓臺灣與中國大陸兩造,從政治光譜兩端逐漸… 兩岸秘密渠道, 是敵對的海峽兩岸政治實體,故意完全/部分隱瞞[國內]和國際的行為者,並藉由最 高…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q14_baseline_b_20260410_190530.md"
+}

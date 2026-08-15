@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "哪些自动指标可以先行使用，以减少人工标注成本？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q29_baseline_a_20260410_201646.md"
+}

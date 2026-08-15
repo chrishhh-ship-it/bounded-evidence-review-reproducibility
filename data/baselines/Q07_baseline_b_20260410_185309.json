@@ -1,0 +1,164 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "多智能协同系统的 reviewer agent 对最终报告质量能带来哪些可观察改进？",
+  "effective_search_query": "multi-agent systems reviewer agent report quality improvement",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 16,
+  "all_retrieved_ids": [
+    "title:multi-agent systems: a survey|2018",
+    "doi:10.1007/s10462-021-10097-xa",
+    "doi:10.1007/978-3-319-94580-4_9d",
+    "title:marg: multi-agent review generation for scientific papers|2024",
+    "title:multi-agent systems: a survey about its components, framework and workflow|2024",
+    "title:a systematic literature review in multi-agent systems: patterns and trends|2019",
+    "doi:10.1504/ijcat.2016.080485t",
+    "doi:10.1007/978-3-031-77043-2_16r",
+    "title:the rise of agentic testing: multi-agent systems for robust software quality assurance|2026",
+    "title:self-optimizing multi-agent systems for deep research|2026",
+    "title:redel: a toolkit for llm-powered recursive multi-agent systems|2024",
+    "title:tradinggroup: a multi-agent trading system with self-reflection and data-synthesis|2025",
+    "title:enhancing llms for impression generation in radiology reports through a multi-agent system|2024",
+    "title:multi-agent system for automated code reviews|2025",
+    "title:a review of multi-agent ai systems for biological and clinical data analysis|2026",
+    "title:automating scientific evaluation: a multi-agent framework for transparent and trustworthy peer review|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Multi-agent systems: A survey",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org",
+      "doi": "",
+      "citations": 1529,
+      "abstract": "… This information is reported to the channel agent which controls transfer policy and … Mao, “Cross-clouds services autonomic management approach based on self-organizing multi-agent …"
+    },
+    {
+      "title": "Consensus in multi-agent systems: a review",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "A Amirkhani, AH Barshooi - Artificial Intelligence Review, 2022 - Springer",
+      "doi": "10.1007/s10462-021-10097-xA",
+      "citations": 517,
+      "abstract": "… , in this section, the modeling of system agents by nonlinear kinematics and dynamics has been addressed. Actually, there are many systems (eg, the dynamics of helicopters and car-…"
+    },
+    {
+      "title": "Multi-agent systems and blockchain: Results from a systematic literature review",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "D Calvaresi, A Dubovitskaya, JP Calbimonte… - … and multi-agent systems, 2018 - Springer",
+      "doi": "10.1007/978-3-319-94580-4_9D",
+      "citations": 144,
+      "abstract": "… among agents, voting systems, agent identity management, … Based on the reviewers’ rooted backgrounds on MAS and … , Blockchain + multi-agent system, Blockchain + smart contract + …"
+    },
+    {
+      "title": "Marg: Multi-agent review generation for scientific papers",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "M D'Arcy, T Hope, L Birnbaum, D Downey - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 106,
+      "abstract": "… architecture is formulated as follows: We define an agent as one … in a performance improvement; instead, the use of multiple agents … In Table 4 we report the average number of …"
+    },
+    {
+      "title": "Multi-agent systems: A survey about its components, framework and workflow",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "D Maldonado, E Cruz, JA Torres, PJ Cruz… - IEEE …, 2024 - ieeexplore.ieee.org",
+      "doi": "",
+      "citations": 79,
+      "abstract": "… , a multi-agent system (MAS) is a set of so-called agents … type of agent recognizes that interaction with other agents is … a traffic management system, an autonomous agent can take …"
+    },
+    {
+      "title": "A systematic literature review in multi-agent systems: Patterns and trends",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "M Falco, G Robiolo - 2019 XLV Latin American Computing …, 2019 - ieeexplore.ieee.org",
+      "doi": "",
+      "citations": 29,
+      "abstract": "… Over twenty years ago, agents and Multi-Agent Systems (… as follows: A) this SLR reports on the identification, classification … Process Improvement (CIMPS), pp. 1-7, IEEE, 2017, October. …"
+    },
+    {
+      "title": "QM4MAS: a quality model for multi-agent systems",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "T Marir, F Mokhati… - International …, 2016 - inderscienceonline.com",
+      "doi": "10.1504/IJCAT.2016.080485T",
+      "citations": 14,
+      "abstract": "… level in which we study the quality of each agent alone, and social level in which the … can be satisfied by a partial achievement of its goal if the price of the result improvement is …"
+    },
+    {
+      "title": "Multi-agents system in healthcare: A systematic literature review",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "R Elkamouchi, A Daaif, K Elguemmat - International Conference on Smart …, 2024 - Springer",
+      "doi": "10.1007/978-3-031-77043-2_16R",
+      "citations": 4,
+      "abstract": "… challenges in healthcare delivery and management [2]. … , we were able to obtain systematic reviews and books that helped us … specifically focused on multi-agent systems applied in the …"
+    },
+    {
+      "title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "S Naqvi, M Baqar, NA Mohammad - arXiv preprint arXiv:2601.02454, 2026 - arxiv.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… By using sandboxed execution, detailed failure reporting, … signals essential for autonomous improvement. This work … of multi-agent systems grows with the number of agents and …"
+    },
+    {
+      "title": "Self-Optimizing Multi-Agent Systems for Deep Research",
+      "year": "2026",
+      "source": "arXiv",
+      "journal": "arXiv Preprint",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Given a user's complex information need, a multi-agent Deep Research system iteratively plans, retrieves, and synthesizes evidence across hundreds of documents to produce a high-quality answer. In one possible architecture, an orchestrator agent coordinates the process, while parallel worker agents execute tasks. Current Deep Research systems, however, often rely on hand-engineered prompts and static architectures, making improvement brittle, expensive, and time-consuming. We therefore explore various multi-agent optimization methods to show that enabling agents to self-play and explore different prompt combinations can produce high-quality Deep Research systems that match or outperform expert-crafted prompts."
+    },
+    {
+      "title": "ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems",
+      "year": "2024",
+      "source": "arXiv",
+      "journal": "arXiv Preprint",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Recently, there has been increasing interest in using Large Language Models (LLMs) to construct complex multi-agent systems to perform tasks such as compiling literature reviews, drafting consumer reports, and planning vacations. Many tools and libraries exist for helping create such systems, however none support recursive multi-agent systems -- where the models themselves flexibly decide when to delegate tasks and how to organize their delegation structure. In this work, we introduce ReDel: a toolkit for recursive multi-agent systems that supports custom tool-use, delegation schemes, event-based logging, and interactive replay in an easy-to-use web interface. We show that, using ReDel, we are able to easily identify potential areas of improvements through the visualization and debugging t"
+    },
+    {
+      "title": "TradingGroup: A Multi-Agent Trading System with Self-Reflection and Data-Synthesis",
+      "year": "2025",
+      "source": "arXiv",
+      "journal": "arXiv Preprint",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Recent advancements in large language models (LLMs) have enabled powerful agent-based applications in finance, particularly for sentiment analysis, financial report comprehension, and stock forecasting. However, existing systems often lack inter-agent coordination, structured self-reflection, and access to high-quality, domain-specific post-training data such as data from trading activities including both market conditions and agent decisions. These data are crucial for agents to understand the market dynamics, improve the quality of decision-making and promote effective coordination. We introduce TradingGroup, a multi-agent trading system designed to address these limitations through a self-reflective architecture and an end-to-end data-synthesis pipeline. TradingGroup consists of special"
+    },
+    {
+      "title": "Enhancing LLMs for Impression Generation in Radiology Reports through a Multi-Agent System",
+      "year": "2024",
+      "source": "arXiv",
+      "journal": "arXiv Preprint",
+      "doi": "",
+      "citations": 0,
+      "abstract": "This study introduces \"RadCouncil,\" a multi-agent Large Language Model (LLM) framework designed to enhance the generation of impressions in radiology reports from the finding section. RadCouncil comprises three specialized agents: 1) a \"Retrieval\" Agent that identifies and retrieves similar reports from a vector database, 2) a \"Radiologist\" Agent that generates impressions based on the finding section of the given report plus the exemplar reports retrieved by the Retrieval Agent, and 3) a \"Reviewer\" Agent that evaluates the generated impressions and provides feedback. The performance of RadCouncil was evaluated using both quantitative metrics (BLEU, ROUGE, BERTScore) and qualitative criteria assessed by GPT-4, using chest X-ray as a case study. Experiment results show improvements in RadCo"
+    },
+    {
+      "title": "MULTI-AGENT SYSTEM FOR AUTOMATED CODE REVIEWS",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "S Premasundera - 2025 - trepo.tuni.fi",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… agent. This thesis addresses these limitations by proposing a … overall structure of the report. It assisted in refining grammar, … redundancy analyses reveal qualitative improvements in the …"
+    },
+    {
+      "title": "A Review of Multi-Agent AI Systems for Biological and Clinical Data Analysis",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "J Spieser, A Balapour, J Meller, KC Patra… - Methods and …, 2026 - researchgate.net",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… This review evaluates the emerging paradigm of multi-agent systems (MASs) for biomedical … reported performance or utility improvements of the multi-agent approach over single-agent …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q07_baseline_b_20260410_185309.md"
+}

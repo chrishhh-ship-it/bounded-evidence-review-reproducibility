@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "如果只能获取部分全文，智慧情报服务应如何进行风险提示与结论降级？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q14_baseline_a_20260410_190428.md"
+}

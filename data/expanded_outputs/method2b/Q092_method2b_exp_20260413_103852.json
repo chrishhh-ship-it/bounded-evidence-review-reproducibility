@@ -1,0 +1,204 @@
+{
+  "query_id": "Q092",
+  "query": "在六角色管线中，Planner 角色的存在是否对最终引用精度产生显著影响？有哪些证据？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Understanding and Bridging the Planner-Coder Gap: A Systematic Study on the Robustness of Multi-Agent Systems for Code Generation",
+      "authors": [
+        "Zongyi Lyu",
+        "Songqiang Chen",
+        "Zhenlan Ji",
+        "Liwen Wang",
+        "Shuai Wang",
+        "Daoyuan Wu",
+        "Wenxuan Wang",
+        "Shing-Chi Cheung"
+      ],
+      "abstract": "Multi-agent systems (MASs) have emerged as a promising paradigm for automated code generation, demonstrating impressive performance on established benchmarks. Despite their prosperous development, the fundamental mechanisms underlying their robustness remain poorly understood, raising critical concerns for real-world deployment. This paper conducts a systematic empirical study to uncover the internal robustness flaws of MASs using a mutation-based methodology. By designing a testing pipeline incorporating semantic-preserving mutation operators and a novel fitness function, we assess mainstream MASs across multiple datasets and LLMs. Our findings reveal substantial robustness flaws: semantically equivalent inputs cause drastic performance drops, with MASs failing to solve 7.9\\%--83.3\\% of problems they initially resolved successfully. Through comprehensive failure analysis, we discover a fundamental cause underlying these robustness issues: the \\textit{planner-coder gap}, which accounts for 75.3\\% of failures. This gap arises from information loss in the multi-stage transformation process where planning agents decompose requirements into underspecified plans, and coding agents subsequently misinterpret intricate logic during code generation. Based on this formulated information transformation process, we propose a \\textit{repairing method} that mitigates information loss through multi-prompt generation and introduces a monitor agent to bridge the planner-coder gap. Evaluation shows that our repairing method effectively enhances the robustness of MASs by solving 40.0\\%--88.9\\% of identified failures. Our work uncovers critical robustness flaws in MASs and provides effective mitigation strategies, contributing essential insights for developing more reliable MASs for code generation.",
+      "year": "2025",
+      "published_date": "2025-10-12",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/1cb3a1f3dfd152365c1333815f49bfb3e2e7fa32",
+      "arxiv_id": "2510.10460",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "Generative AI Trip Planner: Transforming Digital Travel Planning Through Large Language Models",
+      "authors": [
+        "Dr. Anita Sachin Mahajan and Vaishali Yashwant Pat"
+      ],
+      "abstract": "The travel industry is undergoing a significant transformation driven by generative artificial intelligence (AI) technologies. This research paper presents a comprehensive analysis of generative AI trip planning systems, examining their architecture, capabilities, and impact on the travel planning experience. Through systematic literature review and empirical analysis, this study demonstrates that AI-powered trip planners automate itinerary creation, provide personalized recommendations, and reduce planning time by 65-70% compared to traditional methods [1]. The research evaluates current implementations including ChatGPT-based planners, LLM-driven applications, and multi-agent systems. Key findings indicate that 40% of leisure travelers worldwide now use AI tools for trip planning, with highest adoption among younger demographics and elite loyalty members [2]. The paper presents architectural frameworks, performance metrics, and user satisfaction results, establishing AI trip planners as transformative technology in the travel sector.",
+      "year": "2025",
+      "published_date": "2025-12-18",
+      "journal": "International Journal of Advanced Research in Science, Communication and Technology",
+      "url": "https://www.semanticscholar.org/paper/c3dc3e68c47b787e3fcac937b65dd0b819726c89",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48175/ijarsct-30480",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis literature review"
+    },
+    {
+      "id": "wf_qk3e_000034743495",
+      "title": "A brain-inspired agentic architecture to improve planning with LLMs",
+      "abstract": "superior transfer across tasks. These results demonstrate the benefit of utilizing <span class='highlight'>knowledge</span> from cognitive neuroscience to improve planning in LLMs. coordinate them in the <span class='highlight'>service</span> of a goal. Therefore, we propose a modular <span class='highlight'>agentic</span> architecture - the Modular <span class='highlight'>Agentic</span> Planner (MAP) - in which planning is performed via the interaction of specialized  We find that MAP yields significant improvements over both standard LLM methods and competitive <span class='highlight'>agentic</span> baselines, can be effectively combined with smaller and more cost-efficient LLMs, and displays  Large language models (LLMs) demonstrate impressive performance on a wide variety of tasks, but they often struggle with tasks that require multi-step reasoning or goal-directed planning. To address  this, we take inspiration from the human brain, in which planning is accomplished via component processes that are predominantly associated with specific brain regions. These processes include conflict",
+      "authors": [
+        "Taylor Webb",
+        "Shanka Subhra Mondal",
+        "Ida Momennejad"
+      ],
+      "year": 2025,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1038/s41467-025-63804-5",
+      "doi": "10.1038/s41467-025-63804-5",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_1226e2bf7d",
+      "title": "LLM-empowered Agents Simulation Framework for Scenario Generation in Service Ecosystem Governance",
+      "abstract": "… driven by LLM-empowered agents, a core component of the experimental system. The framework integrates three collaborative agents (ie, the left part of Fig.1): Planner Agent (PA) …",
+      "authors": [
+        "D Zhou",
+        "Y Hou",
+        "X Xue",
+        "X Lu",
+        "Q Li",
+        "L Cui"
+      ],
+      "year": 2025,
+      "journal": "D Zhou, Y Hou, X Xue, X Lu, Q Li, L Cui - arXiv preprint arXiv:2509.01441, 2025 - arxiv.org",
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2509.01441",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "The effectiveness of a digital budget assistant with auto-split expense feature in enhancing students financial planning",
+      "authors": [
+        "Airah Shane Cabizares",
+        "Cutie Dagum",
+        "Keith Josh Munda",
+        "Shepril Heart Sagarino"
+      ],
+      "abstract": "This study is about a Digital Budget Assistant with Auto-Split Expense Feature to determine its effect on improving the financial planner and manager capabilities of students. It was developed with User-Centered Agile Software Development Methodology, ensuring that the system is user-friendly and able to be integrated into new environments to students’ financial needs. The researcher chose a quantitative approach to the research design and solicited feedback from 30 students via such means as SUS (System Usability Scale) questionnaires and indicators of performance. The evaluation outcomes demonstrated that a SUS score of 76.6 was obtained, which means good/excellent usability was exploited and the system have been evaluated by 30 students who actually started using this application through System Usability Scale (SUS) questionnaire and performance measures test. Descriptive analysis was conducted to explore the influence of frequency of use on efficacy in budgeting accuracy in expenditure management. Results analysis revealed to receive system is evaluated with an overall SUS score threshold of 76.6 for the Good – Excellent Usability classification. The app was rated as excellent in terms of functionality, accuracy and decision aiding by the users. This new Auto-Split Expense Feature was a big step forward in better money savings groups roundup, group expenditure management, and keeping the transparency of group spending features. The system was concluded to be more precise, less time consuming and more supportive in decision than the manual-budgeting practices. Findings justify that the Digital Budget Assistant has a significant positive effect on financial literacy, budgeting discipline and collective student finance planning. Future work includes optimization of offline usage, inclusion of more financial activities and testing among multiple institutions to improve usability and scalability.",
+      "year": "2025",
+      "published_date": "2025-12-31",
+      "journal": "International Journal of Science and Research Archive",
+      "url": "https://www.semanticscholar.org/paper/f80c63d3e0d4fead5d85022d17a2f4408dda6bae",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.30574/ijsra.2025.17.3.3219",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    },
+    {
+      "title": "Comparative Analysis, Tools, and Questions",
+      "authors": [
+        "Kathleen Araújo"
+      ],
+      "abstract": "This chapter returns to the overarching questions of this book, namely, how can national energy transitions be explained, to what extent do patterns of change align and differ in the transitions of this study, and how does policy play a role, particularly with innovations that emerged amid the transitions. To broadly answer, the four cases are comparatively examined here. The conceptual tools from Chapter 3 are also elaborated based on the findings. Implications of the results are discussed, and will serve as a basis for further discussion in Chapter 9 on how to think about energy transitions as a planner, decision-maker, and researcher. Among the more significant findings are the following. Greater energy substitution (in relative terms) occurred initially within the countries that extended or repurposed existing energy systems versus the country (i.e., Denmark) that developed a new energy system from a nearly non-existent one. Cost improvements were evident in all cases; however, a number of caveats are worth noting. Among the energy technologies and their services that were studied, only Icelandic geothermal-based heating was competitive in its home market in the 1970s; nonetheless, the remaining energy technologies that were studied later became cost competitive. As the national industries of this book became globally recognized, increases in the quality of living within the given countries also occurred, as gauged by the Human Development Index (HDI). With respect to timescales, substantial energy transitions were evident in all cases within a period of 15 years or less. In terms of technology complexity, this attribute was not a confounding barrier to change. Finally, government was instrumental to change, but not always the driver. There are countless ways to compare national energy transitions. This section illustrates ways of doing so, first by describing broadly observed, socio-technical patterns with the tool typologies outlined in Chapter 3. A discussion of tool refinement follows. The section then turns to more systematically assess key, qualitative and quantitative dimensions of the four transition cases.",
+      "year": "2018",
+      "published_date": "2018-2-1",
+      "journal": "Low Carbon Energy Transitions",
+      "url": "https://doi.org/10.1093/oso/9780199362554.003.0011",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1093/oso/9780199362554.003.0011",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval"
+    },
+    {
+      "title": "6G Wireless Networks: Vision, Requirements, Architecture, and Key Technologies",
+      "authors": [
+        "Zhengquan Zhang",
+        "Yue Xiao",
+        "Zheng Ma",
+        "Ming Xiao",
+        "Zhiguo Ding",
+        "Xianfu Lei",
+        "George K. Karagiannidis",
+        "Pingzhi Fan"
+      ],
+      "abstract": "A key enabler for the intelligent information society of 2030, 6G networks are expected to provide performance superior to 5G and satisfy emerging services and applications. In this article, we present our vision of what 6G will be and describe usage scenarios and requirements for multi-terabyte per second (Tb/s) and intelligent 6G networks. We present a large-dimensional and autonomous network architecture that integrates space, air, ground, and underwater networks to provide ubiquitous and unlimited wireless connectivity. We also discuss artificial intelligence (AI) and machine learning [1], [2] for autonomous networks and innovative air-interface design. Finally, we identify several promising technologies for the 6G ecosystem, including terahertz (THz) communications, very-large-scale antenna arrays [i.e., supermassive (SM) multiple-input, multiple-output (MIMO)], large intelligent surfaces (LISs) and holographic beamforming (HBF), orbital angular momentum (OAM) multiplexing, laser and visible-light communications (VLC), blockchain-based spectrum sharing, quantum communications and computing, molecular communications, and the Internet of Nano-Things.",
+      "year": "2019",
+      "published_date": "2019-07-18",
+      "journal": "IEEE Vehicular Technology Magazine",
+      "url": "https://doi.org/10.1109/mvt.2019.2921208",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Wireless",
+        "Visible light communication",
+        "Key (lock)",
+        "Free-space optical communication",
+        "Telecommunications",
+        "Network architecture",
+        "Beamforming"
+      ],
+      "citations": 2428,
+      "source": "OpenAlex",
+      "doi": "10.1109/mvt.2019.2921208",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",
+      "authors": [
+        "Partha Pratim Ray"
+      ],
+      "abstract": "In recent years, artificial intelligence (AI) and machine learning have been transforming the landscape of scientific research. Out of which, the chatbot technology has experienced tremendous advancements in recent years, especially with ChatGPT emerging as a notable AI language model. This comprehensive review delves into the background, applications, key challenges, and future directions of ChatGPT. We begin by exploring its origins, development, and underlying technology, before examining its wide-ranging applications across industries such as customer service, healthcare, and education. We also highlight the critical challenges that ChatGPT faces, including ethical concerns, data biases, and safety issues, while discussing potential mitigation strategies. Finally, we envision the future of ChatGPT by exploring areas of further research and development, focusing on its integration with other technologies, improved human-AI interaction, and addressing the digital divide. This review offers valuable insights for researchers, developers, and stakeholders interested in the ever-evolving landscape of AI-driven conversational agents. This study explores the various ways ChatGPT has been revolutionizing scientific research, spanning from data processing and hypothesis generation to collaboration and public outreach. Furthermore, the paper examines the potential challenges and ethical concerns surrounding the use of ChatGPT in research, while highlighting the importance of striking a balance between AI-assisted innovation and human expertise. The paper presents several ethical issues in existing computing domain and how ChatGPT can invoke challenges to such notion. This work also includes some biases and limitations of ChatGPT. It is worth to note that despite of several controversies and ethical concerns, ChatGPT has attracted remarkable attentions from academia, research, and industries in a very short span of time.",
+      "year": "2023",
+      "published_date": "2023-01-01",
+      "journal": "Internet of Things and Cyber-Physical Systems",
+      "url": "https://doi.org/10.1016/j.iotcps.2023.04.003",
+      "arxiv_id": "",
+      "keywords": [
+        "Scope (computer science)",
+        "Engineering ethics",
+        "Data science",
+        "Computer science",
+        "Knowledge management",
+        "Management science",
+        "Engineering"
+      ],
+      "citations": 2286,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.iotcps.2023.04.003",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "timestamp": "20260413_103852"
+}

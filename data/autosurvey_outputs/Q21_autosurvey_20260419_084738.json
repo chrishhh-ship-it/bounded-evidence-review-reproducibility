@@ -1,0 +1,180 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "writer、reviewer、reviser 三角色分工如何影响最终情报报告质量？",
+  "effective_search_query": "writer reviewer reviser role division intelligence report quality",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.1108/ejm-09-2020-0672",
+    "doi:10.1080/08874417.2021.1962213",
+    "doi:10.1108/tqm-10-2019-0243",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.1109/tmc.2022.3199812",
+    "doi:10.1108/jrim-10-2020-0214",
+    "doi:10.1109/jiot.2019.2950048",
+    "doi:10.1109/access.2019.2916004",
+    "doi:10.1016/j.mcpdig.2023.03.006",
+    "title:impact of human and ai-agent services on customer learning, immersion and loyalty: the role of interactivity|2025",
+    "doi:10.1051/e3sconf/202568000107",
+    "doi:10.1108/k-09-2022-1239",
+    "doi:10.1108/intr-04-2022-0253",
+    "doi:10.33050/tmj.v10i3.2585",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Developing a service quality scale for artificial intelligence service agents",
+      "year": "2022",
+      "journal": "European Journal of Marketing",
+      "source": "OpenAlex",
+      "doi": "10.1108/ejm-09-2020-0672",
+      "citations": 87,
+      "abstract": "Purpose Service providers and consumers alike are increasingly adopting artificial intelligence service agents (AISA) for service. Yet, no service quality scale exists that can fully capture the key factors influencing AISA service quality. This study aims to address this shortcoming by developing a scale for measuring AISA service quality (AISAQUAL). Design/methodology/approach Based on extant service quality research and established scale development techniques, the study constructs, refines and validates a multidimensional AISAQUAL scale through a series of pilot and validation studies. Findings AISAQUAL contains 26 items across six dimensions: efficiency, security, availability, enjoyment, contact and anthropomorphism. The new scale demonstrates good psychometric properties and can be "
+    },
+    {
+      "title": "Artificial Intelligence Service Agents: Role of Parasocial Relationship",
+      "year": "2021",
+      "journal": "Journal of Computer Information Systems",
+      "source": "OpenAlex",
+      "doi": "10.1080/08874417.2021.1962213",
+      "citations": 65,
+      "abstract": "Increased use of artificial intelligence service agents (AISA) has been associated with improvements in AISA service performance. Whilst there is consensus that unique forms of attachment develop between users and AISA that manifest as parasocial relationships (PSRs), the literature is less clear about the AISA service attributes and how they influence PSR and the users’ subjective well-being. Based on a dataset collected from 408 virtual assistant users from the US, this research develops and tests a model that can explain how AISA-enabled service influences subjective well-being through the mediating effect of PSR. Findings also indicate significant gender and AISA experience differences in the PSR effect on subjective well-being. This study advances current understanding of AISA in serv"
+    },
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "year": "2020",
+      "journal": "The TQM Journal",
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "citations": 365,
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere ap"
+    },
+    {
+      "title": "The Role of Participatory Approaches in Modern Agricultural Extension: Bridging Knowledge Gaps for Sustainable Farming Practices",
+      "year": "2025",
+      "journal": "Journal of Experimental Agriculture International",
+      "source": "OpenAlex",
+      "doi": "10.9734/jeai/2025/v47i23281",
+      "citations": 49,
+      "abstract": "Participatory approaches in agricultural extension have revolutionized knowledge dissemination by fostering collaborative learning, farmer empowerment, and the co-creation of context-specific innovations. Unlike traditional top-down extension models, participatory methodologies emphasize mutual learning, where farmers, researchers, and extension agents engage in dynamic exchanges to develop adaptive and sustainable agricultural practices. These approaches have proven effective in promoting climate-smart agriculture, integrated pest management, soil and water conservation, and agroecological transitions, ensuring resilience in the face of environmental and socio-economic challenges. The implementation of participatory extension faces significant barriers, including institutional rigidity, p"
+    },
+    {
+      "title": "Collective Deep Reinforcement Learning for Intelligence Sharing in the Internet of Intelligence-Empowered Edge Computing",
+      "year": "2022",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "source": "OpenAlex",
+      "doi": "10.1109/tmc.2022.3199812",
+      "citations": 60,
+      "abstract": "Edge intelligence is emerging as a new interdiscipline to push learning intelligence from remote centers to the edge of the network. However, with its widespread deployment, new challenges arise in terms of training efficiency and service of quality (QoS). Massive repetitive model training is ubiquitous due to the inevitable needs of users for the same types of data and training results. Additionally, a smaller volume of data samples will cause the over-fitting of models. To address these issues, driven by the Internet of intelligence, this paper proposes a distributed edge intelligence sharing scheme, which allows distributed edge nodes to quickly and economically improve learning performance by sharing their learned intelligence. Considering the time-varying edge network states including"
+    },
+    {
+      "title": "Enhancing the value co-creation process: artificial intelligence and mobile banking service platforms",
+      "year": "2021",
+      "journal": "Journal of Research in Interactive Marketing",
+      "source": "OpenAlex",
+      "doi": "10.1108/jrim-10-2020-0214",
+      "citations": 239,
+      "abstract": "Purpose The purpose of this study is to investigate the relationships that influence the value co-creation process and lead to consumer comfort with artificial intelligence (AI) and mobile banking (AIMB) service platforms. Design/methodology/approach A conceptual model was developed to investigate the value-in-use perceptions of AI-based mobile banking applications via five antecedents: baseline perceptions of current bank service delivery; service delivery configuration benefits; general data security; safety perceptions of specific mobile banking services; and perceptions of AI service delivery. Data were collected from 218 respondents and analyzed using structural equation modeling. Findings This study highlights the role and importance of the sequential relationships that impact the as"
+    },
+    {
+      "title": "A Reconfigurable Method for Intelligent Manufacturing Based on Industrial Cloud and Edge Intelligence",
+      "year": "2019",
+      "journal": "IEEE Internet of Things Journal",
+      "source": "OpenAlex",
+      "doi": "10.1109/jiot.2019.2950048",
+      "citations": 84,
+      "abstract": "The development of Industry 4.0 has provided the possibility to meet frequent changes in product type and batches, a sharp decline in the delivery cycle, constraints of quality cost, and other relevant parameters of customized production mode. Intelligent manufacturing, as a core of Industry 4.0, represents a deep integration of new IT technologies, such as the industrial Internet of Things and service-oriented architecture, and manufacturing process. To realize intelligent manufacturing, this article introduces a cloud-assisted and edge-decision-making manufacturing architecture that contains a cloud and production edges. An intelligent production edge is designed to provide the traditional devices the abilities of data access and self-decision making. Besides, the proposed architecture i"
+    },
+    {
+      "title": "Swarm Intelligence-Inspired Autonomous Flocking Control in UAV Networks",
+      "year": "2019",
+      "journal": "IEEE Access",
+      "source": "OpenAlex",
+      "doi": "10.1109/access.2019.2916004",
+      "citations": 66,
+      "abstract": "The collaboration of multiple unmanned aerial vehicles (UAVs) has stimulated the emergence of a novel wireless network paradigm named UAV network. UAV network, compared with uncoordinated UAV systems could provide wider coverage, better monitoring, and understanding of the interested area, and smarter decision-making. However, realizing the full potential of UAV network in dynamic environments poses great challenges in topology/flocking control, energy conservation, and quality of service guarantee. In this backdrop, this paper proposes a swarm intelligence-inspired autonomous flocking control scheme for UAV networks. First, based on the concept of intelligent emergence of swarm agents, a swarm intelligence-inspired multi-layer flocking control scheme is built for the flocking control prob"
+    },
+    {
+      "title": "A Framework for Critically Assessing ChatGPT and Other Large Language Artificial Intelligence Model Applications in Health Care",
+      "year": "2023",
+      "journal": "Mayo Clinic Proceedings Digital Health",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.mcpdig.2023.03.006",
+      "citations": 19,
+      "abstract": "Large language models (LLMs) are pretrained artificial intelligence (AI) algorithms that can interpret text and generate human-like text in real time.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar Recent studies on LLMs (eg, PaLM and GPT-3.5) have found near-human performance on medical examinations and many possible future applications have been discussed, such as drafting discharge summaries, answering consultations, or generating lists of differential diagnosis.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2"
+    },
+    {
+      "title": "Impact of human and AI-agent services on customer learning, immersion and loyalty: the role of interactivity",
+      "year": 2025,
+      "journal": "R Chatterjee, SR George, JS Verma… - Journal of Service …, 2025 - emerald.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… -agent service (HAS) and artificial intelligence-agent service (… loyalty (CLY) within online service interactions. Additionally, the … and service providers share resources and knowledge …"
+    },
+    {
+      "title": "AI-Driven Vehicle Routing Optimization: A Hybrid Model Using GNN, PPO, Tabu Search, and Agentic Intelligence",
+      "year": 2025,
+      "journal": "",
+      "source": "万方数据",
+      "doi": "10.1051/e3sconf/202568000107",
+      "citations": 0,
+      "abstract": "The Vehicle Routing Problem (VRP) remains a central challenge in logistics optimization, requiring efficient solutions that balance operational cost, <span class='highlight'>service</span> quality, and sustainability. Traditional  representation, Proximal Policy Optimization (PPO) for sequential decision-making, Tabu Search for local refinement, and an <span class='highlight'>Agentic</span> Large Language Model (LLM) for high-level reasoning and constraint re-weighting.  heuristics and pure learning models. Results show consistent improvements across operational and environmental metrics, highlighting the potential of <span class='highlight'>agentic</span> hybrid AI to support next-generation, sustainable  heuristic and metaheuristic approaches achieve reasonable results but struggle to ge"
+    },
+    {
+      "title": "Artificial intelligence service agents: a silver lining in rural India",
+      "year": "2023",
+      "journal": "Kybernetes",
+      "source": "OpenAlex",
+      "doi": "10.1108/k-09-2022-1239",
+      "citations": 7,
+      "abstract": "Purpose The study aims to examine the impact of an artificial intelligent service agent (AISA) on customer services to the rural population provided by KAYA, Kotak Life's AI-enabled insurance chatbot avatar that offers quality insurance services. Design/methodology/approach Multi-stage cluster sampling method was adopted to collect the responses from the 707 customers across the rural population of southern states of India. SPSS V.2 and Smart PLS 4 were used to apply simple percentage analysis, multiple linear regression analysis, and structural equation modeling (SEM) to validate the hypothesis. The dependent variables are economic performance and market performance based on the independent variables: efficiency, security, availability, enjoyment and contact. Findings The study revealed t"
+    },
+    {
+      "title": "How does material adaptivity of smart objects shape infusion use? The pivot role of social embeddedness",
+      "year": 2024,
+      "journal": "",
+      "source": "万方数据",
+      "doi": "10.1108/INTR-04-2022-0253",
+      "citations": 0,
+      "abstract": "PurposeAdvances in material agency driven by artificial <span class='highlight'>intelligence</span> (AI) have facilitated breakthroughs in material adaptivity enabling smart objects to autonomously provide individualized smart  infusion use and identifies the bridging role of social embeddedness of smart objects as <span class='highlight'>agentic</span> social actors in the AI context. services, which makes smart objects act as social actors embedded in the real world. However, little is known about how material adaptivity fosters the infusion use of smart objects to maximize the value of  smart services in customers' lives. This study examines the underlying mechanism of material adaptivity (task and social adaptivity) on AI infusion use, drawing on the theoretical lens of social  embedde"
+    },
+    {
+      "title": "AI Agent Based Service Innovation to Enhance Efficiency and User Experience",
+      "year": "2026",
+      "journal": "Technomedia Journal",
+      "source": "CrossRef",
+      "doi": "10.33050/tmj.v10i3.2585",
+      "citations": 0,
+      "abstract": "The innovation of services based on Artificial Intelligence (AI) Agent has become a key strategy in improving operational efficiency, service quality, and user experience across various digital business sectors. AI Agent, utilizing natural language processing, machine learning, and realtime data analysis, can automate service processes that previously required manual interaction, such as customer responses, recommendations, and processing complex information. This study aims to analyze how the application of AI Agent can accelerate service responses, improve information accuracy, and create more personalized interactions for users. The research method used is a literature review from reputable journals, academic books, and industry reports, which are then analyzed descriptively to identify"
+    },
+    {
+      "title": "The Role Of Agentic Ai And Generative Ai In Transforming Modern Banking Services",
+      "year": 2025,
+      "journal": "A Todupunuri - American Journal of AI Cyber Computing Management, 2025 - ajaccm.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 67,
+      "abstract": "… There is a marked gap in the existing knowledge of the application of agentic AI to support decision-making, but literature also reveals a considerable advancement in applying AI in the …"
+    }
+  ],
+  "outline": "# The Tripartite Division of Labor in Intelligence Reporting: How Writer, Reviewer, and Reviser Roles Shape Final Report Quality\n\n## 1. Introduction: Conceptualizing the Tripartite Workflow and Research Focus\n*This section introduces the core research question on how the division of labor among writers, reviewers, and revisers impacts final intelligence report quality. It frames the inquiry within broader contexts of collaborative knowledge work, quality assurance, and the emerging paradigm of agentic AI in service and decision-making domains.*\n\n### 1.1 Defining the Tripartite Workflow in Intelligence Reporting\n*This subsection introduces and defines the core roles of writer, reviewer, and reviser within the intelligence reporting pipeline, establishing their sequential and interdependent functions as a foundational collaborative workflow for quality assurance.*\n\n### 1.2 Framing the Research Question: Impact on Final Report Quality\n*This subsection explicitly states the central research question, examining how the division of labor and interaction among the three roles influences critical quality dimensions of the final intelligence product, such as accuracy, clarity, and actionability.*\n\n### 1.3 Contextualizing the Inquiry: Collaborative Knowledge Work and Agentic AI\n*This subsection situates the tripartite model within broader theoretical and practical contexts, including paradigms of collaborative knowledge work, quality control processes, and the emerging integration of agentic AI in service and decision-making domains.*\n\n## 2. Theoretical Foundations: Role Definitions, Processes, and Quality Metrics\n*This section establishes the theoretical framework, defining the distinct functions, responsibilities, and interdependencies of the writer, reviewer, and reviser. It reviews models for collaborative workflows and the established metrics for assessing report quality, such as accuracy, objectivity, clarity, and actionable insight.*\n\n### 2.1 Defining the Core Triad: Functions and Interdependencies of Writer, Reviewer, and Reviser\n*This subsection provides precise definitions for the three roles, delineating their distinct responsibilities (e.g., writer as initial synthesizer, reviewer as critical assessor, reviser as final polisher) and theorizes their interdependencies within a sequential yet iterative collaborative workflow.*\n\n### 2.2 Models of Collaborative Workflow and Quality Assurance in Knowledge Production\n*This subsection reviews theoretical models for multi-stage, role-based collaboration, drawing from knowledge management and organizational theory. It examines how structured workflows, feedback loops, and division of labor are designed to systematically enhance output quality and mitigate individual error or bias.*\n\n### 2.3 Establishing Metrics for Intelligence Report Quality\n*This subsection outlines the key dimensions and established metrics for assessing the quality of a final intelligence report, including accuracy, objectivity/neutrality, clarity, timeliness, relevance, and the ultimate criterion of actionable insight for decision-making.*\n\n## 3. Mechanisms of Influence: Impact on Report Attributes and Empirical Insights\n*This section analyzes how the tripartite interaction specifically impacts key report quality dimensions. It synthesizes empirical findings on the efficacy of the model, examining factors like communication, bias, and the mechanisms through which role specialization influences operational and qualitative outcomes.*\n\n### 3.1 Mechanisms of Influence on Core Report Quality Dimensions\n*This subsection analyzes how the distinct responsibilities and interactions of the writer, reviewer, and reviser directly impact key report attributes such as accuracy, objectivity, clarity, and actionable insight. It examines empirical insights into how role specialization and sequential workflow can enhance or hinder these quality dimensions.*\n\n### 3.2 Empirical Findings on Efficacy, Communication, and Bias\n*This subsection synthesizes empirical research on the tripartite model's effectiveness, focusing on critical factors like communication patterns, feedback quality, and the mitigation or amplification of cognitive biases (e.g., confirmation bias, groupthink) throughout the collaborative process.*\n\n### 3.3 Operational and Qualitative Outcomes of Role Specialization\n*This subsection explores the mechanisms through which the division of labor influences both operational outcomes (e.g., efficiency, process security) and deeper qualitative outcomes (e.g., report credibility, user trust, decision-making utility), drawing parallels from studies on structured workflows and agentic systems.*\n\n## 4. Technological Mediation: The Role of AI and Collaborative Platforms\n*This section examines how emerging technologies, particularly artificial intelligence agents and collaborative platforms, are augmenting or transforming the traditional three-role workflow. It explores AI's role in enhancing efficiency, security, and adaptive decision-making within the writer-reviewer-reviser pipeline.*\n\n### 4.1 AI as Augmentative Tools in the Writer-Reviewer-Reviser Pipeline\n*This subsection examines how AI agents and collaborative platforms function as supportive tools for each human role, enhancing efficiency and accuracy. It draws on literature about AI in service and operations to discuss applications like automated drafting, bias detection in review, and consistency checks in revision, referencing how these technologies mediate the traditional workflow without fully replacing human judgment.*\n\n### 4.2 Transforming Collaboration and Value Co-Creation through Digital Platforms\n*This subsection analyzes how AI-driven platforms reshape the interactive dynamics and value co-creation among the three roles. It explores how these technologies facilitate communication, version control, and iterative feedback, potentially reducing knowledge gaps and fostering a more participatory and integrated reporting process, as informed by studies on collaborative service platforms.*\n\n### 4.3 Security, Trust, and Adaptive Decision-Making in AI-Mediated Workflows\n*This subsection investigates the critical role of AI in enhancing the security of sensitive reporting processes and in supporting adaptive, data-driven decision-making. It addresses how AI agents can predictively assess report quality, manage data integrity, and build user trust—key factors for adoption in high-stakes environments like intelligence, as highlighted by research on AI service agents in secure contexts.*\n\n## 5. Synthesis, Challenges, and Future Research Directions\n*This section consolidates key findings to present an integrated model of effective role-based collaboration. It discusses persistent challenges like bias and groupthink, identifies current research gaps, and proposes future directions for optimizing the intelligence reporting pipeline, including the integration of hybrid AI models.*\n\n### 5.1 Synthesis: An Integrated Model for Effective Tripartite Collaboration\n*This subsection consolidates key findings to propose a holistic model of the writer-reviewer-reviser workflow, emphasizing how clear role definitions, structured interdependence, and iterative feedback loops optimize report quality attributes like accuracy, clarity, and actionability.*\n\n### 5.2 Persistent Challenges: Bias, Groupthink, and Process Inertia\n*This subsection discusses enduring obstacles to quality in the tripartite model, including cognitive biases, institutional groupthink, communication breakdowns, and resource constraints, drawing parallels to challenges identified in participatory knowledge systems.*\n\n### 5.3 Future Research Directions: Hybrid AI Integration and Adaptive Workflows\n*This subsection identifies research gaps and proposes future studies on integrating agentic AI as a collaborative partner or process orchestrator within the pipeline, exploring hybrid models that enhance adaptive decision-making, bias mitigation, and efficiency while preserving human oversight.*",
+  "cited_ids": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    14
+  ],
+  "elapsed_seconds": 261.39,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q21_autosurvey_20260419_084738.md"
+}

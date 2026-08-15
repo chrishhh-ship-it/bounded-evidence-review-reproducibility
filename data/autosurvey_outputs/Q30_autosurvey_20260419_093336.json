@@ -1,0 +1,178 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "面向多智能协同情报服务，什么样的 query 最能区分单智能体与多智能体能力差异？",
+  "effective_search_query": "multi-agent intelligence collaborative query capability differentiation",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.48550/arxiv.2306.16092",
+    "title:multi-agent intelligence for multidisciplinary decision-making in gastrointestinal oncology|2025",
+    "title:mad-cti: cyber threat intelligence analysis of the dark web using a multi-agent framework|2025",
+    "doi:10.2478/amns-2024-1757",
+    "title:cogsearch: a cognitive-aligned multi-agent framework for proactive decision support in e-commerce search|2026",
+    "doi:10.1080/00207543.2016.1251624y",
+    "title:maca: a multi-agent reinforcement learning platform for collective intelligence|2019",
+    "title:distributed artificial intelligence with multi-agent systems for mec|2019",
+    "doi:10.1016/j.future.2017.05.046",
+    "doi:10.2174/9789815165791123010010",
+    "doi:10.2139/ssrn.5350715",
+    "doi:10.1109/mwc.016.2300600",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/tvt.2021.3096928",
+    "doi:10.1109/comst.2023.3338153"
+  ],
+  "top_papers": [
+    {
+      "title": "Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model",
+      "year": "2023",
+      "journal": "arXiv (Cornell University)",
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2306.16092",
+      "citations": 90,
+      "abstract": "AI legal assistants based on Large Language Models (LLMs) can provide accessible legal consulting services, but the hallucination problem poses potential legal risks. This paper presents Chatlaw, an innovative legal assistant utilizing a Mixture-of-Experts (MoE) model and a multi-agent system to enhance the reliability and accuracy of AI-driven legal services. By integrating knowledge graphs with artificial screening, we construct a high-quality legal dataset to train the MoE model. This model utilizes different experts to address various legal issues, optimizing the accuracy of legal responses. Additionally, Standardized Operating Procedures (SOP), modeled after real law firm workflows, significantly reduce errors and hallucinations in legal services. Our MoE model outperforms GPT-4 in th"
+    },
+    {
+      "title": "Multi-Agent Intelligence for Multidisciplinary Decision-Making in Gastrointestinal Oncology",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Multimodal clinical reasoning in the field of gastrointestinal (GI) oncology necessitates the integrated interpretation of endoscopic imagery, radiological data, and biochemical markers. Despite the evident potential exhibited by Multimodal Large Language Models (MLLMs), they frequently encounter challenges such as context dilution and hallucination when confronted with intricate, heterogeneous medical histories. In order to address these limitations, a hierarchical Multi-Agent Framework is proposed, which emulates the collaborative workflow of a human Multidisciplinary Team (MDT). The system attained a composite expert evaluation score of 4.60/5.00, thereby demonstrating a substantial improvement over the monolithic baseline. It is noteworthy that the agent-based architecture yielded the "
+    },
+    {
+      "title": "MAD-CTI: Cyber threat intelligence analysis of the dark web using a multi-agent framework",
+      "year": 2025,
+      "journal": "S Shah, VK Madisetti - IEEE Access, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 10,
+      "abstract": "… multi-agent framework based on Large Language Models (LLM) … agent architecture to improve efficiency, scalability, and consistency. By utilizing state-of-the-art LLM models and agents…"
+    },
+    {
+      "title": "A cross-enterprise collaborative production scheduling decision support algorithm with multi-agent support",
+      "year": "2024",
+      "journal": "Applied Mathematics and Nonlinear Sciences",
+      "source": "CrossRef",
+      "doi": "10.2478/amns-2024-1757",
+      "citations": 2,
+      "abstract": "Abstract\n                  This study harnesses the capabilities of intelligent agent technology to develop a framework for cross-enterprise collaborative production scheduling decision-making. It conducts a comprehensive examination of the business processes and production scheduling decisions encapsulated within this framework. The research begins by pinpointing the challenges inherent in cross-enterprise collaborative production scheduling. Subsequently, it introduces a genetic algorithm tailored for agent-based decision-making in this context and delineates its algorithmic parameters. The effectiveness of this approach is validated through a series of simulation experiments focused on a case study of cross-enterprise collaborative production scheduling from an agent-oriented perspectiv"
+    },
+    {
+      "title": "CogSearch: A Cognitive-Aligned Multi-Agent Framework for Proactive Decision Support in E-Commerce Search",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Modern e-commerce search engines, largely rooted in passive retrieval-and-ranking models, frequently fail to support complex decision-making, leaving users overwhelmed by cognitive friction. In this paper, we introduce CogSearch, a novel cognitive-oriented multi-agent framework that reimagines e-commerce search as a proactive decision support system. By synergizing four specialized agents, CogSearch mimics human cognitive workflows: it decomposes intricate user intents, fuses heterogeneous knowledge across internal and external sources, and delivers highly actionable insights. Our offline benchmarks validate CogSearch's excellence in consultative and complex search scenarios. Extensive online A/B testing on JD.com demonstrates the system's transformative impact: it reduced decision costs b"
+    },
+    {
+      "title": "Cloud computing and its impact on service level: a multi-agent simulation model",
+      "year": 2017,
+      "journal": "Y Yu, RQ Cao, D Schniederjans - International Journal of …, 2017 - Taylor & Francis",
+      "source": "Google Scholar",
+      "doi": "10.1080/00207543.2016.1251624Y",
+      "citations": 54,
+      "abstract": "… and (3) business intelligence (BI) collaborative planning, forecasting and replenishment. In addition, we use multi-agent-based simulation to analyse how each level of collaboration (…"
+    },
+    {
+      "title": "Maca: a multi-agent reinforcement learning platform for collective intelligence",
+      "year": 2019,
+      "journal": "F Gao, S Chen, M Li, B Huang - … Engineering and Service …, 2019 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 16,
+      "abstract": "… in collective intelligence field… multi-agent reinforcement training platform called MaCA was built to improve reinforcement learning effectiveness for heterogeneous collective cooperative …"
+    },
+    {
+      "title": "Distributed artificial intelligence with multi-agent systems for MEC",
+      "year": 2019,
+      "journal": "T Leppanen - 2019 28th International Conference on Computer …, 2019 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 14,
+      "abstract": "… as a multi-agent system. MEC system management services and application execution components are designed as software agents, facilitating distributed artificial intelligence …"
+    },
+    {
+      "title": "Using a multi-agent system and artificial intelligence for monitoring and improving the cloud performance and security",
+      "year": "2017",
+      "journal": "Future Generation Computer Systems",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.future.2017.05.046",
+      "citations": 108,
+      "abstract": ""
+    },
+    {
+      "title": "Multi-Agent Based Decision Support Systems",
+      "year": "2023",
+      "journal": "Reinventing Technological Innovations with Artificial Intelligence",
+      "source": "CrossRef",
+      "doi": "10.2174/9789815165791123010010",
+      "citations": 0,
+      "abstract": "Multi-Agent-Based Decision Support Systems (MADSS) have emerged as\npowerful tools for facilitating decision-making in complex and dynamic environments.\nThis chapter provides an overview of MADSS, highlighting their fundamental\nconcepts, key components, and applications. MADSS leverage the principles of multi-agent systems, artificial intelligence, and decision support systems to enable\ncollaborative decision-making among multiple autonomous agents. The chapter begins\nby introducing the concept of multi-agent systems, emphasizing the advantages they\noffer in terms of adaptability, flexibility, and scalability. It then explores the integration\nof decision support systems within this framework, enabling agents to make informed\ndecisions by analyzing vast amounts of data, evaluating various al"
+    },
+    {
+      "title": "Turn-Based Multi-Agent Reinforcement Learning: An Artificial Intelligence and Decision Support Solution for University Course Timetabling",
+      "year": "2025",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.5350715",
+      "citations": 0,
+      "abstract": ""
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "Joint Secure Offloading and Resource Allocation for Vehicular Edge Computing Network: A Multi-Agent Deep Reinforcement Learning Approach",
+      "year": "2023",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2023.3242997",
+      "citations": 212,
+      "abstract": "The mobile edge computing (MEC) technology can simultaneously provide high-speed computing services for multiple vehicular users (VUs) in vehicular edge computing (VEC) networks. Nevertheless, due to the open feature of the wireless offloading channels and the high mobility of the vehicles, the security and stability of the offloading process would be seriously degraded. In this paper, by utilizing the physical layer security (PLS) technique and spectrum sharing architecture, we propose a deep reinforcement learning based joint secure offloading and resource allocation (SORA) scheme to improve the secrecy performance and resource efficiency of the multi-user VEC networks, where the VU offloading links share the frequency spectrum preoccupied with the vehicle-to-vehicle (V2V) communication "
+    },
+    {
+      "title": "Multi-Agent Deep Reinforcement Learning for Computation Offloading and Interference Coordination in Small Cell Networks",
+      "year": "2021",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2021.3096928",
+      "citations": 149,
+      "abstract": "Integrating mobile edge computing (MEC) with small cell networks has been conceived as a promising solution to provide pervasive computing services. However, the interactions among small cells due to inter-cell interference, the diverse application-specific requirements, as well as the highly dynamic wireless environment make it challenging to design an optimal computation offloading scheme. In this paper, we focus on the joint design of computation offloading and interference coordination for edge intelligence empowered small cell networks. To this end, we propose a distributed multi-agent deep reinforcement learning (DRL) scheme with the objective of minimizing the overall energy consumption while ensuring the latency requirements. Specifically, we exploit the collaboration among small c"
+    },
+    {
+      "title": "AI-Enhanced Cloud-Edge-Terminal Collaborative Network: Survey, Applications, and Future Directions",
+      "year": "2023",
+      "journal": "IEEE Communications Surveys & Tutorials",
+      "source": "OpenAlex",
+      "doi": "10.1109/comst.2023.3338153",
+      "citations": 70,
+      "abstract": "The cloud-edge-terminal collaborative network (CETCN) is considered as a novel paradigm for emerging applications owing to its huge potential in providing low-latency and ultra-reliable computing services. However, achieving such benefits is very challenging due to the heterogeneous computing power of terminal devices and the complex environment faced by the CETCN. In particular, the high-dimensional and dynamic environment states cause difficulties for the CETCN to make efficient decisions in terms of task offloading, collaborative caching and mobility management. To this end, artificial intelligence (AI), especially deep reinforcement learning (DRL) has been proven effective in solving sequential decision-making problems in various domains, and offers a promising solution for the above-m"
+    }
+  ],
+  "outline": "# Query Design for Distinguishing Single and Multi-Agent Capabilities in Collaborative Intelligence Services\n\n## 1. Introduction and Problem Formulation\n*This section introduces the core research question on query design for distinguishing agent capabilities. It defines key concepts like multi-agent collaborative intelligence services, establishes the necessity of such systems in complex domains (e.g., law, medicine, cybersecurity), and highlights the importance of query-based capability differentiation for evaluation.*\n\n### 1.1 Defining Collaborative Intelligence and the Core Research Problem\n*This subsection introduces the central research question on designing queries to distinguish between single-agent and multi-agent capabilities. It defines key terms such as \"multi-agent collaborative intelligence services\" and establishes the scope of the investigation into query-based evaluation.*\n\n### 1.2 The Necessity of Multi-Agent Systems in Complex Domains\n*This subsection justifies the need for multi-agent collaborative intelligence by highlighting their application in demanding, high-stakes fields like law, medicine, cybersecurity, and communications, drawing on examples from the provided literature to illustrate real-world challenges.*\n\n### 1.3 The Role of Query Design in Capability Assessment and Benchmarking\n*This subsection explains why specifically designed queries are a critical tool for evaluating and differentiating system capabilities, framing them as essential for benchmarking performance, identifying architectural strengths, and guiding future development of intelligent services.*\n\n## 2. Foundational Frameworks: From Single Agents to Multi-Agent Systems\n*This section contrasts monolithic LLM/single-agent approaches with the architectural and functional principles of multi-agent systems. It reviews key differentiators such as specialized agents, standardized operating procedures (SOPs), hierarchical collaboration, and the role of these systems as backbones for collaborative intelligence and decision support.*\n\n### 2.1 Architectural Principles of Single vs. Multi-Agent Systems\n*This subsection contrasts the monolithic, general-purpose architecture of a single LLM/agent with the modular, distributed architecture of multi-agent systems. It highlights how multi-agent systems are composed of specialized, autonomous agents that interact through defined communication protocols, enabling adaptability and scalability absent in single-agent models.*\n\n### 2.2 Key Functional Differentiators: Specialization, SOPs, and Hierarchy\n*This subsection reviews core mechanisms that define multi-agent collaboration, including agent specialization for task decomposition, the use of Standardized Operating Procedures (SOPs) to structure workflows and reduce errors, and hierarchical organization for coordination and decision-making, as exemplified in domains like law and medicine.*\n\n### 2.3 Multi-Agent Systems as Decision Support Backbones\n*This subsection examines the role of multi-agent systems as foundational frameworks for collaborative intelligence and decision support in complex, dynamic environments. It discusses how these systems integrate distributed knowledge, analytical tools, and reasoning to facilitate informed decision-making in areas such as e-commerce, production scheduling, and network management.*\n\n## 3. Characterizing Agent Capability Differences\n*This section analyzes the theoretical and practical distinctions between single and multi-agent systems. It focuses on dimensions such as collaboration levels, distributed problem-solving, scalability, heterogeneous specialization, and performance in simulated or domain-specific environments.*\n\n### 3.1 Foundational Dimensions of Capability Distinction\n*This subsection outlines the core theoretical dimensions that differentiate single and multi-agent systems, including collaboration levels (from independent to cooperative), distributed versus centralized problem-solving, and scalability in handling complex, dynamic tasks.*\n\n### 3.2 Specialization and Heterogeneity in Agent Roles\n*This subsection examines how heterogeneous specialization among agents enables multi-agent systems to outperform monolithic models, drawing on examples from decision support, e-commerce, and communications where specialized agents handle distinct sub-tasks.*\n\n### 3.3 Performance in Dynamic and Resource-Constrained Environments\n*This subsection analyzes the practical performance distinctions in simulated or domain-specific environments, focusing on how multi-agent systems manage dynamic constraints, security, and resource allocation in domains like edge computing and vehicular networks.*\n\n## 4. A Taxonomy of Capability-Differentiating Queries\n*This section synthesizes the reviewed foundations to propose a framework for designing and categorizing queries. It analyzes how queries demanding integrated reasoning across data modalities, procedural workflows, distributed knowledge, coordination, or collective learning expose the superior capability of multi-agent systems, drawing examples from domains like communications, edge computing, and resource management.*\n\n### 4.1 Query Dimensions for Exposing Multi-Agent Architectural Advantages\n*This subsection establishes core dimensions for query design based on the architectural principles of multi-agent systems. It analyzes how queries demanding distributed knowledge integration, specialized role coordination, and procedural workflow execution inherently challenge single agents, drawing on foundational concepts from Multi-Agent-Based Decision Support Systems (MADSS) and the agent-enhanced frameworks for 6G communications.*\n\n### 4.2 Query Categories in Dynamic and Resource-Constrained Domains\n*This subsection categorizes queries that test real-time, adaptive, and secure collaborative decision-making in complex environments. It uses examples from edge computing and vehicular networks, such as joint optimization of offloading and interference coordination or secure resource allocation, to illustrate queries where multi-agent systems excel due to distributed learning and coordinated action.*\n\n### 4.3 Proactive and Cognitive-Oriented Query Frameworks\n*This subsection explores query designs that require proactive reasoning, intent decomposition, and synthesis of heterogeneous information to support complex decision-making. It frames these using examples like e-commerce search, where queries necessitate mimicking human cognitive workflows—a task that highlights the limitations of monolithic models and the strengths of specialized, collaborative agent systems.*\n\n### 4.4 Evaluation and Synthesis of Differentiating Query Patterns\n*This subsection synthesizes the preceding categories into a practical framework for generating benchmark queries. It discusses how to combine dimensions—such as integrating multi-modal data reasoning with collective learning—to create robust tests, and touches on initial evaluation metrics from case studies to assess the capability gap exposed by such queries.*\n\n## 5. Synthesis, Evaluation, and Future Directions\n*This section consolidates criteria and principles for crafting distinguishing queries. It discusses relevant evaluation metrics from the literature, outlines open challenges in query design for benchmarking collaborative intelligence, and proposes directions for future research.*\n\n### 5.1 Principles and Criteria for Crafting Distinguishing Queries\n*Consolidates key principles for designing queries that effectively differentiate single and multi-agent capabilities, drawing on insights from prior sections. It outlines criteria such as requiring distributed knowledge integration, explicit coordination protocols, multi-step procedural workflows, and the management of dynamic, heterogeneous inputs.*\n\n### 5.2 Evaluation Metrics and Benchmarking Frameworks\n*Discusses relevant metrics from the literature for assessing query performance and system capability, including composite expert scores, decision cost reduction, task completion latency, and scalability measures. It examines how these metrics apply to benchmarking collaborative intelligence as revealed by the designed queries.*\n\n### 5.3 Open Challenges in Query Design for Collaborative Intelligence\n*Outlines persistent challenges in creating effective benchmarks, such as simulating realistic multi-stakeholder environments, avoiding query bias towards specific architectures, quantifying the quality of agent coordination, and establishing standardized evaluation datasets across complex domains like healthcare and network management.*\n\n### 5.4 Future Research Directions\n*Proposes forward-looking research avenues, including the development of adaptive query generators, the integration of cross-domain query taxonomies, the exploration of human-in-the-loop evaluation for collaborative decision support, and the need for long-term studies on multi-agent system evolution and learning.*",
+  "cited_ids": [
+    1,
+    2,
+    4,
+    5,
+    10,
+    12,
+    13,
+    14,
+    15
+  ],
+  "elapsed_seconds": 280.928,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q30_autosurvey_20260419_093336.md"
+}

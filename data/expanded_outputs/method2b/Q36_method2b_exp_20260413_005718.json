@@ -1,0 +1,212 @@
+{
+  "query_id": "Q36",
+  "query": "claim-level faithfulness 与 citation discipline 在智慧情报服务评测中分别解决什么问题？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "MedRAGChecker: Claim-Level Verification for Biomedical Retrieval-Augmented Generation",
+      "authors": [
+        "Yuelyu Ji",
+        "M. Kwak",
+        "Hang Zhang",
+        "Xizhi Wu",
+        "Chenyu Li",
+        "Yanshan Wang"
+      ],
+      "abstract": "Biomedical retrieval-augmented generation (RAG) can ground LLM answers in medical literature, yet long-form outputs often contain isolated unsupported or contradictory claims with safety implications. We introduce MedRAGChecker, a claim-level verification and diagnostic framework for biomedical RAG. Given a question, retrieved evidence, and a generated answer, MedRAGChecker decomposes the answer into atomic claims and estimates claim support by combining evidence-grounded natural language inference (NLI) with biomedical knowledge-graph (KG) consistency signals. Aggregating claim decisions yields answer-level diagnostics that help disentangle retrieval and generation failures, including faithfulness, under-evidence, contradiction, and safety-critical error rates. To enable scalable evaluation, we distill the pipeline into compact biomedical models and use an ensemble verifier with class-specific reliability weighting. Experiments on four biomedical QA benchmarks show that MedRAGChecker reliably flags unsupported and contradicted claims and reveals distinct risk profiles across generators, particularly on safety-critical biomedical relations.",
+      "year": "2026",
+      "published_date": "2026-01-10",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/f431f33224310d45fd80933a21d44c1464ceb873",
+      "arxiv_id": "2601.06519",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2601.06519",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "ILCiteR: Evidence-grounded Interpretable Local Citation Recommendation",
+      "authors": [
+        "Sayar Ghosh Roy",
+        "Jiawei Han"
+      ],
+      "abstract": "Existing Machine Learning approaches for local citation recommendation directly map or translate a query, which is typically a claim or an entity mention, to citation-worthy research papers. Within such a formulation, it is challenging to pinpoint why one should cite a specific research paper for a particular query, leading to limited recommendation interpretability. To alleviate this, we introduce the evidence-grounded local citation recommendation task, where the target latent space comprises evidence spans for recommending specific papers. Using a distantly-supervised evidence retrieval and multi-step re-ranking framework, our proposed system, ILCiteR, recommends papers to cite for a query grounded on similar evidence spans extracted from the existing research literature. Unlike past formulations that simply output recommendations, ILCiteR retrieves ranked lists of evidence span and recommended paper pairs. Secondly, previously proposed neural models for citation recommendation require expensive training on massive labeled data, ideally after every significant update to the pool of candidate papers. In contrast, ILCiteR relies solely on distant supervision from a dynamic evidence database and pre-trained Transformer-based Language Models without any model training. We contribute a novel dataset for the evidence-grounded local citation recommendation task and demonstrate the efficacy of our proposed conditional neural rank-ensembling approach for re-ranking evidence spans.",
+      "year": "2024",
+      "published_date": "2024-03-13",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2403.08737v1",
+      "arxiv_id": "2403.08737v1",
+      "keywords": [
+        "cs.IR",
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "evidence grounded medical literature analysis"
+    },
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "id": "gs_fcc6c0c0ed",
+      "title": "An intelligent assistant for high-level task understanding",
+      "abstract": "This paper addresses the problem of cross-domain task assistance in the context of spoken  dialogue systems. We propose approaches to discover users' high-level intentions and",
+      "authors": [
+        "M Sun",
+        "YN Chen",
+        "AI Rudnicky"
+      ],
+      "year": 2016,
+      "journal": "… International Conference on Intelligent …",
+      "citations": 60,
+      "url": "https://dl.acm.org/doi/abs/10.1145/2856767.2856818",
+      "doi": "10.1145/2856767.2856818",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant"
+    },
+    {
+      "id": "gs_9437a4ee10",
+      "title": "Cloud computing and its impact on service level: a multi-agent simulation model",
+      "abstract": "… and (3) business intelligence (BI) collaborative planning, forecasting and replenishment. In addition, we use multi-agent-based simulation to analyse how each level of collaboration (…",
+      "authors": [
+        "Y Yu",
+        "RQ Cao",
+        "D Schniederjans"
+      ],
+      "year": 2017,
+      "journal": "Y Yu, RQ Cao, D Schniederjans - International Journal of …, 2017 - Taylor & Francis",
+      "citations": 54,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00207543.2016.1251624",
+      "doi": "10.1080/00207543.2016.1251624Y",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "MANTRA: Enhancing Automated Method-Level Refactoring with Contextual RAG and Multi-Agent LLM Collaboration",
+      "authors": [
+        "Yisen Xu",
+        "Feng Lin",
+        "Jinqiu Yang",
+        "Tse-Hsun Chen",
+        "Nikolaos Tsantalis"
+      ],
+      "abstract": "Maintaining and scaling software systems relies heavily on effective code refactoring, yet this process remains labor-intensive, requiring developers to carefully analyze existing codebases and prevent the introduction of new defects. Although recent advancements have leveraged Large Language Models (LLMs) to automate refactoring tasks, current solutions are constrained in scope and lack mechanisms to guarantee code compilability and successful test execution. In this work, we introduce MANTRA, a comprehensive LLM agent-based framework that automates method-level refactoring. MANTRA integrates Context-Aware Retrieval-Augmented Generation, coordinated Multi-Agent Collaboration, and Verbal Reinforcement Learning to emulate human decision-making during refactoring while preserving code correctness and readability. Our empirical study, conducted on 703 instances of\"pure refactorings\"(i.e., code changes exclusively involving structural improvements), drawn from 10 representative Java projects, covers the six most prevalent refactoring operations. Experimental results demonstrate that MANTRA substantially surpasses a baseline LLM model (RawGPT ), achieving an 82.8% success rate (582/703) in producing code that compiles and passes all tests, compared to just 8.7% (61/703) with RawGPT. Moreover, in comparison to IntelliJ's LLM-powered refactoring tool (EM-Assist), MANTRA exhibits a 50% improvement in generating Extract Method transformations. A usability study involving 37 professional developers further shows that refactorings performed by MANTRA are perceived to be as readable and reusable as human-written code, and in certain cases, even more favorable. These results highlight the practical advantages of MANTRA and emphasize the growing potential of LLM-based systems in advancing the automation of software refactoring tasks.",
+      "year": "2025",
+      "published_date": "2025-03-18",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/82f5b9da7ca932129f849f3fe7319e747855af37",
+      "arxiv_id": "2503.14340",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 16,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2503.14340",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "LITERAS: Biomedical literature review and citation retrieval agents",
+      "authors": [
+        "A. Gorenshtein",
+        "Kamel Shihada",
+        "M. Sorka",
+        "Dvir Aran",
+        "S. Shelly"
+      ],
+      "abstract": "BACKGROUND\nExisting tools for reference retrieval using large language models (LLMs) frequently generate inaccurate, gray literature or fabricated citations, leading to poor accuracy. In this study, we aim to address this gap by developing a highly accurate reference retrieval system focusing on the precision and reliability of citations across five medical fields.\n\n\nMETHODS\nWe developed open-source multi-AI agent, literature review, and citation retrieval agents (LITERAS) designed to generate literature review drafts with accurate and confirmable citations. LITERAS integrates a search through the largest biomedical literature database (MEDLINE) via PubMed's application programming interface and bidirectional inter-agent communication to enhance citation accuracy and reliability. To evaluate its performance, we compared LITERAS to state-of-the-art LLMs, Sonar and Sonar-Pro by Perplexity AI. The evaluation covered five distinct medical disciplines Oncology, Cardiology, Rheumatology, Psychiatry, and Infectious Diseases/Public Health, focusing on the credibility, precision, and confirmation of citations, as well as the overall quality of the referenced sources.\n\n\nRESULTS\nLITERAS achieved near-perfect citation accuracy (i.e., whether references match real publications) at 99.82 %, statistically indistinguishable from Sonar (100.00 %, p = 0.065) and Sonar-Pro (99.93 %, p = 0.074). When focusing on referencing accuracy (the consistency between in-text citation details and metadata), LITERAS (96.81 %) significantly outperformed Sonar (89.07 %, p < 0.001) and matched Sonar-Pro (96.33 %, p = 0.139). Notably, LITERAS exclusively relied on Q1-Q2, peer-reviewed journals (0 % nonacademic content), whereas Sonar contained 35.60 % (p < 0.01) nonacademic sources, and Sonar-Pro used 6.47 % (p < 0.001). However, Sonar-Pro cited higher-impact journals than LITERAS (median impact factor (IF) = 14.70 vs LITERAS 3.70, p < 0.001). LITERAS's multi-agent loop (2.2 ± 1.34 iterations per query) minimized hallucinations and consistently prioritized recent articles (IQR = 2023-2024). The field-specific analysis demonstrated the oncology field with the largest IF discrepancies (Sonar-Pro 42.1 vs LITERAS 4.3, p < 0.001), reflecting Sonar-Pro's preference for major consortium guidelines and high-impact meta-analyses.\n\n\nCONCLUSION\nLITERAS demonstrated significantly higher retrieval of recent academic journal articles and generating longer summary report compared to academic search LLMs approaches in literature review tasks. This work provides insights into improving the reliability of AI-assisted literature review systems.",
+      "year": "2025",
+      "published_date": "2025-05-17",
+      "journal": "Comput. Biol. Medicine",
+      "url": "https://www.semanticscholar.org/paper/a9ddffc92014f55ed8f9de7e27f2baf6a85644c4",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.compbiomed.2025.110363",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Multi-level multi-stage agent-based decision support system for simulation of crowd dynamics",
+      "authors": [
+        "Alqurashi R."
+      ],
+      "abstract": "",
+      "year": "2018",
+      "published_date": "2018-12-27",
+      "journal": "Proceedings of the IEEE International Conference on Engineering of Complex Computer Systems ICECCS",
+      "volume": "2018-December",
+      "pages": "82-92",
+      "url": "https://doi.org/10.1109/ICECCS2018.2018.00017",
+      "doi": "10.1109/ICECCS2018.2018.00017",
+      "keywords": [],
+      "citations": 4,
+      "source": "Scopus",
+      "arxiv_id": "",
+      "eid": "2-s2.0-85061352986",
+      "scopus_id": "85061352986",
+      "pii": "",
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "timestamp": "20260413_005718"
+}

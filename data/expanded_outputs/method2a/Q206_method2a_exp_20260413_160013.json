@@ -1,0 +1,230 @@
+{
+  "query_id": "Q206",
+  "query": "What evidence standards justify citing a single-country carbon tax evaluation as support for a multinational policy recommendation?",
+  "domain_id": "climate_policy_research",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Carbon Disclosure Policy as a Strategic Driver for Carbon Emission Reduction: A Systematic Review and Quantitative Policy Synthesis",
+      "authors": [
+        "F. O. Ayodele",
+        "B. Ayodele",
+        "T. Oladele",
+        "Titik Setyaningsih",
+        "S. Munir"
+      ],
+      "abstract": "One of the main takeaways of the recently concluded Conference of the Parties (COP) 30 is the need for all humanity to unite against climate change. Effective climate-related risk and carbon footprint disclosure could serve as a systematic approach to reduce the menace of climate change. Several frameworks for carbon disclosure have been developed and implemented. Nevertheless, there is lack of consistency and clarity in the implementation of the frameworks and how they are integrated into climate reporting. This has created a gap in accountability, often resulting in the misalignment of climate goals, thereby necessitating the need to delve into strategic imperatives of carbon disclosure policies as a mechanism for carbon reduction. In view of this, the main objective of this study is to elucidate how carbon disclosure policies have been strategically positioned as a mechanism for climate-aligned decision making. The study explores and synthesizes existing literature and data on the strategic role of carbon disclosure policies in the carbon emission management of selected countries using the PRISMA framework and secondary data policy synthesis. The analysis reveals that there was a noticeable carbon emissions reduction in countries like Estonia, Ireland, and the United Kingdom. This indicates a strong correlation between carbon emissions reduction and high carbon tax implementation. However, there was a lack of perfectly linear correlation between disclosure scores and the carbon emission reduction in some countries, an indication that carbon disclosure is not the sole determinant of carbon emissions management, even though it plays an important role as a catalyst for transparency awareness. The robustness of carbon disclosure policies can be said to be linked to a broader national climate policy, stressing its importance as a climate action framework.",
+      "year": "2026",
+      "published_date": "2026-02-18",
+      "journal": "Environments",
+      "url": "https://www.semanticscholar.org/paper/80f65fe3de525a191175be1cb957aa3837529e33",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/environments13020115",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis benchmark"
+    },
+    {
+      "title": "Efficacy of interventions to improve public support for evidence based public health and climate change policy measures: a systematic review.",
+      "authors": [
+        "Rachel Coleman",
+        "Rebecca Clifford",
+        "Catherine Hewitt",
+        "Jim McCambridge"
+      ],
+      "abstract": "Abstract\n        Background Policies which reduce affordability and availability of alcohol are known to be effective in reducing alcohol harms. Public support is important in policy decision making and implementation, and it may be possible to intervene to improve public support for alcohol policy measures. This systematic review aims to explore the effects of interventions to increase public support for evidence based policy measures in relation to either public health or climate change, and to examine underpinning theory and content of effective interventions.Methods The electronic search strategy was built around the constructs \"public support or opinion\", \"health or climate change policies\" and \"interventions\". Backward and forward searching was conducted, and authors of included papers contacted. Studies were included if they aimed to intervene to improve public support for public health or climate change policy measures, were controlled trials, and targeted the general public.Results Sixteen studies were included in this review, of which 13 had sufficient data for inclusion in meta analyses. The pooled effect estimates for continuous and binary data both show improvements in public support for policy measures as a result of evaluated interventions. The pooled standardised mean difference (n=8 studies) is 0.13 (95% C.I. 0.08-0.17), and the pooled odds ratio (n=5 studies) is 1.72 (95% C.I. 1.33-2.21). Careful attention to message framing, with or without narrative persuasion, appears particularly important content for efficacious interventions.Conclusion This systematic review demonstrates the efficacy of interventions to improve public support for public health policies.",
+      "year": "2020",
+      "published_date": "2020-3-2",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-15577/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-15577/v1",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate evidence review multi-agent systematic review"
+    },
+    {
+      "title": "Editorial: Evidence synthesis for accelerated learning on climate solutions",
+      "authors": [
+        "Lea Berrang‐Ford",
+        "Friederike Döbbe",
+        "Ruth Garside",
+        "Neal Haddaway",
+        "William F. Lamb",
+        "Jan C. Minx",
+        "Wolfgang Viechtbauer",
+        "Vivian Welch",
+        "Howard White"
+      ],
+      "abstract": "By signing the Paris Agreement with the aim to limit global warming to well below 2°C relative to preindustrial levels, countries have committed to kickstart the age of climate solutions. This challenge should not be underestimated: It requires turning around a 270-year-old trajectory of CO2 emissions growth that started with the industrial revolution (Friedlingstein et al., 2019), and racing towards net zero emissions over the next 3–5 decades (IPCC, 2018). But that is not enough. Because anthropogenic carbon emissions have already caused consequential warming of about 1°C since preindustrial times, there is a further need to reduce vulnerabilities and adapt to climate impacts that cannot be avoided (IPCC, 2014, 2018). All parts of society and the economy will need to play their parts in the transformation towards a climate-resilient, net-zero emissions world. It requires nothing less than transformational policies at all levels of governance from local to national and international (IPCC 2014, 2018). Climate policies for mitigation and adaptation have to become the focus in science and policy if we are to have the slightest chance of living up to this challenge. Because there is no time left for trial and error and since resources for organising a transformation into a carbon-neutral world are inherently limited, decision-making on climate solutions needs to be based on the best available evidence. “Best” evidence should be rigorous, transparent, timely, efficient, and fit-for-purpose applying formal methods for evidence synthesis (Gough et al., 2017; Haddaway et al., 2020). Knowledge brokering (Pielke, 2007) on climate change is commonly undertaken through scientific assessments of the available scientific literature. Most prominently these assessments are undertaken by the Intergovernmental Panel on Climate Change (IPCC). Like many other global environmental assessments, IPCC assessments are diverse, large-scale, multistakeholder and intergovernmental processes (Kowarsch et al., 2017). Compared with systematic reviews and evidence (gap) maps (Saran & White, 2018), their scope is vast. IPCC assessments usually require the consideration of more or less the entire recent scientific literature on climate change that has emerged during an assessment cycle—only somewhat constrained by a government-approved outline that provides some thematic focus. Progress in IPCC assessments depends on a well-working evidence pyramid (Figure 1). There is no time within IPCC processes to systematically assess the vast amounts of primary research on climate change. The availability of rigorous evidence syntheses that assess the primary evidence is fundamental for learning (Berrang-Ford et al., 2015; Minx et al., 2017). The IPCC has made continuous progress in building up knowledge on forward-looking questions that emerge around understanding, dealing with and mitigating potentially severe, pervasive and irreversible climate impacts that could affect human and natural systems in the absence of an adequate human response. This knowledge has had a big impact on international climate policy. It is difficult to think of major milestones like the Kyoto Protocol or the Paris Agreement being achieved without the synthetic scientific inputs provided by the IPCC. Learning has been driven by structured, model-intercomparison exercises that provide the major backbone of the evidence synthesis tradition in climate change. Similar to systematic reviews, model intercomparison exercises set out clear protocols for systematically assessing evidence generated by ensembles of harmonised climate models on specific questions around climate science, impacts and vulnerability as well as mitigation and adaptation (Edwards, 2011; Eyring et al., 2016; O'Neill et al., 2016). These lines of synthetic evidence arising from model intercomparison exercises have been fundamental for progress in the science of climate change as well as IPCC assessment reports (Minx et al., 2019). However, progress on understanding climate solutions from IPCC assessments has been limited, despite climate solutions now being rolled out across the world, with varying degrees of ambition and success (Eskander & Fankhauser, 2020; Höhne et al., 2020). The root of the problem is a lack of rigorous evidence syntheses that assess progress and historical success and failures in the implementation of climate solutions (Berrang-Ford et al., 2015; Minx et al., 2017) and are designed to minimise the various sources of bias traditional literature reviews are commonly exposed to (Haddaway et al., 2020). Transparent evidence synthesis is particularly infrequent in climate research using qualitative research, largely due to the widespread perception in many social sciences that systematic approaches are highly positivist and lack the methodological flexibility needed for critical inductive inquiry. Yet qualitative research is critical for understanding the human dimensions of climate change, and we will need robust synthetic insights from the social sciences to comprehensively learn about climate solutions. Substantial work has already been undertaken to develop qualitative evidence synthesis and mixed methods synthesis methods in other topic areas dealing with complexity. There is an opportunity to adopt and adapt these systematic evidence synthesis approaches to bridge some of the epistemological concerns. Despite this, many reviews in this field frequently lack transparent methodology about their processes, and often withdraw from engaging with the broader need for generalizeable insight (Gough et al., 2017). Systematic review research, meanwhile, has struggled to respond to the scope and heterogeneity of the climate literature, in particular the central role of contextual and mediating factors in influencing climate solutions. Thus, a robust middle layer of the evidence pyramid is partially lacking. As shown in Figure 1, the result is a lack of learning in science and policy regarding what climate solutions work under what conditions, for whom, and why in climate change assessments and beyond (Berrang-Ford et al., 2015; Minx et al., 2017). It is of great importance to grow a rigorous evidence synthesis culture particularly in the social science of climate change. The Campbell Collaboration has therefore now established a new Climate Solutions Coordinating Group (CSCG) with the purpose of building a comprehensive evidence base on climate solutions. We are part of a growing international, multidisciplinary network of scholars committed to prepare and disseminate high quality systematic reviews and evidence and gap maps that help us better understand climate solutions. With our work we want to support better, evidence-based decisions by: (a) supporting rigorous synthesis of evidence on key questions; (b) further improving the quality of climate change research through critical appraisal of primary research; and (c) improving the efficiency of the scientific process through enhanced oversight of, and less duplication in, secondary research efforts. We further believe that our work strengthens the IPCC and other climate change assessments by supporting the completion of its evidence pyramid (see Figure 1). We are particularly interested in learning about what climate solutions work well under what conditions, for whom, and why. Climate change mitigation and adaptation solutions are the end-points of our interest, but we broadly invite contributions in the field of “climate change and society”. We believe that developing a sound understanding requires a diverse approach to evidence synthesis, including quantitative, qualitative and mixed-methods evidence (Kastner et al., 2016). We further seek evidence synthesis efforts at all levels, including systematic reviews, evidence and gap maps, systematic reviews, qualitative meta-synthesis, mega-maps as well as maps of maps (Saran & White, 2018). There are scholars in very different communities working on evidence synthesis in the field of climate. We try to represent those different communities in the governance structure of the group. The Editorial Board includes researchers with a background in IPCC or similar climate change assessments as well as scholars involved in the Campbell Collaboration, Cochrane and the Collaboration for Environmental Evidence. The methodological expertise spans from more traditional quantitative systematic reviews to qualitative evidence synthesis methods such as thematic synthesis, framework synthesis, evaluation assessment, and meta-ethnography. Similarly, the Advisory Board comprises senior management of major global environmental assessments such as IPCC, Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services or the United Nations Environment Programmes' Emissions Gap Reports as well as the above mentioned Collaborations. We aim to diversify the representation of marginalised groups in both Boards as CSCG matures. Working on a cross-cutting topic such as climate change provides many interfaces to the work by other Campbell Coordinating Groups. For example, it will be crucial to work closely with the International Development Coordinating Group as both discourses are closely intertwined in the context of international climate policy. Similar, the work by the Education Collaborating Group is relevant as the importance of civic engagement and education for organising transformative climate solutions is increasingly appreciated. Evidence synthesis on climate solutions will also require adjusting available to and developing new methods for the specific context and multidisciplinary structure of the climate discourse requiring regular engagement and cooperation with the Methods Coordinating Group. Finally, as probably true for all Coordinating Groups across Campbell, the work of the Knowledge Translation and Implmentation Coordinating Group that focuses on effective ways of communicating evidence to different audiences is of direct relevance to our work at science-policy interface. Part of our work will be to build more capacity for systematic reviews in the field of climate. For that we will provide training in evidence synthesis methodologies and specifically target climate change assessment communities around the IPCC. We will enhance our reach further through the provision of a set of freely available and open training resources. We recognise that access to free training and mentoring are important barriers to building capacity for evidence-informed decision-making (including evidence synthesis) in resource constrained contexts like the Global South. Our aim is, therefore, to provide accessible and functional training in climate evidence synthesis that works across settings (e.g., with low bandwidth internet). It is an exciting and important task to build a thriving (social science) community that tries to learn what climate solutions work under what conditions, for whom, and why, using rigorous systematic review and evidence (gap) map methodologies. Beyond the core remit of the group to promote rigorous evidence synthesis as an important pathway to more evidence-informed climate policy, CSCG will further try to advance evidence synthesis methodology more generally in four priority areas. Promote the adaptation and application of qualitative and mixed methods evidence synthesis methodologies: The social science of climate change provides a very diverse body of evidence. Only a small part of this literature is directly on impact evaluations of climate solutions based on experimental or quasiexperimental research designs (IPCC, 2014). In part, this is because climate solutions are conditional on individual and societal behaviours, institutional settings and governance structures that are impossible to fully comprehend in solely quantitative work. Qualitative evidence synthesis is also key to understanding stakeholder experience and attitudes, the feasibility and acceptability of policy proposals, as well as unintended consequences (Macura et al., 2019). In order to comprehensively learn from the available evidence on climate solutions, it is, therefore, vital to mirror the methodological diversity in primary evidence by promoting the application of the full breadth of qualitative and mixed methods evidence synthesis methodologies (Kastner et al., 2016). Encourage the development and application of novel evidence synthesis technology: Climate change is not only one of the most pressing policy issues of our time, but also a very prolific area of research with tens of thousands of studies being published every year. In such an age of big literature with a vast and fast-growing evidence base, traditional manual tools of evidence synthesis are being pushed to their limits (Callaghan et al., 2020; Minx et al., 2017; Nunez-Mir et al., 2016). As such, the field of climate is ideally suited to explore how technology can be used to streamline individual processes in evidence synthesis. The CSCG will therefore contribute to discussions and methodologies on automation and computer-assistance for systematic reviews and evidence and gap maps (Haddaway et al n.d.; Nakagawa et al., 2019; O'Connor et al., 2019; Tsafnat et al., 2014; Westgate et al., 2018) as well as broader global environmental assessments (Callaghan et al., 2020; Lamb et al., 2019). Integrating the evidence synthesis traditions of the climate and the systematic review communities: It is clear that comprehensive learning on climate solutions must be rooted in a systematic exploration of alternative future pathways as well as systematic evaluation of past policies. The CSCG brings together two evidence synthesis communities with complementary strengths in ex-ante and ex-post assessments of climate solutions. We are convinced that there is great scope for mutual learning and that sharing and integration of these distinct traditions will ultimately lift evidence synthesis and the resulting scientific policy advice to a higher level. Promote the application of formal assessment of confidence in evidence within syntheses of climate solutions: Assessment of uncertainty and confidence in evidence is a critical component of climate change assessments (Janzwood, 2020; Jonassen & Pielke, 2011; Mach et al., 2017; Petticrew & McCartney, 2017). Methods for uncertainty assessment are widely used in quantitative syntheses of climate projections, and detection and attribution of impacts. Lesser known and used are methods for formally assessing confidence in mixed-methods and qualitative evidence, which are used in the health sciences but rarely in climate research (Colvin et al., 2015; Lewin et al., 2018; Mach & Field, 2017; van Bavel et al., 2020). Learning on climate solutions must be underpinned by awareness of the evolving quality and reliability of our evidence base (Adler & Hirsch Hadorn, 2014; Aven, 2019). The CSCG will bring together expertise in systematic confidence assessment and climate solutions research to apply and promote robust confidence assessment within evidence syntheses for climate solutions. Climate change is one of the most pressing problems that humankind faces. We need to urgently and rapidly learn from the best available evidence on climate solutions. The CSCG warmly invites registrations and submissions to Campbell Systematic Reviews from climate experts across diverse disciplines and evidence synthesis practitioners.",
+      "year": "2020",
+      "published_date": "2020-12-01",
+      "journal": "Campbell Systematic Reviews",
+      "url": "https://doi.org/10.1002/cl2.1128",
+      "arxiv_id": "",
+      "keywords": [
+        "Greenhouse gas",
+        "Climate change",
+        "Climate policy",
+        "Corporate governance",
+        "Natural resource economics",
+        "Global warming",
+        "Transformational leadership",
+        "Political science"
+      ],
+      "citations": 17,
+      "source": "OpenAlex",
+      "doi": "10.1002/cl2.1128",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate governance systematic review automation"
+    },
+    {
+      "title": "Accelerating Energy Transition in Indonesia: The Crucial Role of Green Constitution and Carbon Tax Policy",
+      "authors": [
+        "Nabila Syahrani",
+        "Shinta Hadiyantina",
+        "Adi Kusumaningrum"
+      ],
+      "abstract": "The research explores the nexus between taxation laws, climate change control, and energy transition acceleration, focusing on Indonesia's legal framework and international commitments. Highlighting Indonesia's ratification of the Kyoto Protocol and its subsequent policies, including the adoption of carbon taxes, the study underscores the need for effective fund allocation to combat climate change and accelerate the transition to renewable energy sources. Using a normative juridical research approach, the study analyzes legal provisions, literature, and comparative frameworks to elucidate the regulatory landscape. It identifies gaps in the current legal framework concerning carbon tax allocation and calls for establishing clear regulations to ensure transparency, accountability, and efficiency in fund utilization. Drawing upon legal principles such as environmental justice, prevention of environmental damage, and sustainability, the study advocates for a holistic approach to environmental protection and management. It proposes recommendations for formulating government regulations, emphasizing the importance of defining terms, outlining implementation procedures, and instituting mechanisms for monitoring and evaluation. Ultimately, the research underscores the pivotal role of law in addressing climate change and advancing sustainable development. By aligning taxation laws with environmental objectives, Indonesia can harness carbon tax revenues to foster renewable energy development, mitigate climate change impacts, and promote long-term ecological sustainability",
+      "year": "2024",
+      "published_date": "2024-03-25",
+      "journal": "Journal of Social and Policy Issues",
+      "url": "https://www.semanticscholar.org/paper/f58d3b489bfc537aa2b3f446cc64a0e35616f325",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.58835/jspi.v4i1.307",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval benchmark"
+    },
+    {
+      "title": "The (Co)Benefits Portal—an evidence-based and climate policy-relevant tool for decision-making",
+      "authors": [
+        "B. van Bavel",
+        "Lea Berrang-Ford",
+        "R. Willoughby",
+        "Daisy Harley Nyang",
+        "Emma Sands",
+        "Conor O’Donnell",
+        "T. James",
+        "P. Forster",
+        "S. Arnold",
+        "C. Reddington",
+        "J. Lowe"
+      ],
+      "abstract": "From improving health outcomes and health inequalities to ensuring energy and income security, the mitigation of and adaptation to climate change has extensive and diverse benefits. This paper describes a systematic evidence synthesis of climate action (co)benefits and trade-offs as well as the development of a decision-support tool that enables policy makers to explore that evidence-base. The term ‘(co)benefit’ is used deliberately to encompass both the direct benefits of averted impacts due to climate change as well as the indirect or ancillary benefits resulting from mitigation and adaptation interventions. We conducted a systematic search of the peer-reviewed literature in the IPCC 6th Assessment Report, Web of Science, and the Lancet Countdown on Health and Climate Change Reports. Our search strategy prioritised synthesised evidence (e.g. reviews, assessments) excluding primary studies and single case-studies. Data were extracted from 74 distinct records meeting our inclusion criteria and a total of 1785 rows of evidence were analysed. Scientific and technical teams then worked together to develop a tool interface that underwent iterative testing among a small group of potential users. The resulting (Co)Benefits Portal presents an assessment of the available scientific evidence of health, ecosystem, economic, energy, and socio-cultural (co)benefits and trade-offs associated with 40 different mitigation and adaptation actions for both global and regional scales. We then apply the (Co)Benefits Portal into a UK context, in combination with national policy documents and departmental guidance, to connect evidence about relevant climate interventions and reveal cross-sectoral policy implications that are essential for optimising opportunities and avoiding risks. We discuss how evidence-based tools can be developed to bridge critical climate adaptation and mitigation research, policy, and decision-making gaps.",
+      "year": "2025",
+      "published_date": "2025-09-30",
+      "journal": "Environmental Research Letters",
+      "url": "https://www.semanticscholar.org/paper/321db185340335a17d79ccd0f8774502a8959ed7",
+      "arxiv_id": "",
+      "keywords": [
+        "Physics"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1088/1748-9326/adf981",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis"
+    },
+    {
+      "title": "Peer Review Report For: Policy Evaluation Network (PEN): Protocol for systematic literature review examining the evidence for impact of policies across seven different policy domains [version 2; peer review: 1 approved]",
+      "authors": [
+        "Melinda Craike"
+      ],
+      "abstract": "",
+      "year": "2020",
+      "published_date": "2020-12-17",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21956/hrbopenres.14323.r28482",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21956/hrbopenres.14323.r28482",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate evidence review multi-agent systematic review"
+    },
+    {
+      "title": "The effects and safety of testosterone replacement therapy for men with hypogonadism: the TestES evidence synthesis and economic evaluation.",
+      "authors": [
+        "M. Cruickshank",
+        "Jemma Hudson",
+        "Rodolfo Hernández",
+        "M. Aceves-Martins",
+        "R. Quinton",
+        "K. Gillies",
+        "Lorna Aucott",
+        "Charlotte Kennedy",
+        "Paul Manson",
+        "N. Oliver",
+        "Frederick Wu",
+        "Siladitya Bhattacharya",
+        "W. Dhillo",
+        "C. Jayasena",
+        "Miriam Brazzelli"
+      ],
+      "abstract": "Background\nLow levels of testosterone cause male hypogonadism, which is associated with sexual dysfunction, tiredness and reduced muscle strength and quality of life. Testosterone replacement therapy is commonly used for ameliorating symptoms of male hypogonadism, but there is uncertainty about the magnitude of its effects and its cardiovascular and cerebrovascular safety.\n\n\nAims of the research\nThe primary aim was to evaluate the safety of testosterone replacement therapy. We also assessed the clinical and cost-effectiveness of testosterone replacement therapy for men with male hypogonadism, and the existing qualitative evidence on men's experience and acceptability of testosterone replacement therapy.\n\n\nDesign\nEvidence synthesis and individual participant data meta-analysis of effectiveness and safety, qualitative evidence synthesis and model-based cost-utility analysis.\n\n\nData sources\nMajor electronic databases were searched from 1992 to February 2021 and were restricted to English-language publications.\n\n\nMethods\nWe conducted a systematic review with meta-analysis of individual participant data according to current methodological standards. Evidence was considered from placebo-controlled randomised controlled trials assessing the effects of any formulation of testosterone replacement therapy in men with male hypogonadism. Primary outcomes were mortality and cardiovascular and cerebrovascular events. Data were extracted by one reviewer and cross-checked by a second reviewer. The risk of bias was assessed using the Cochrane Risk of Bias tool. We performed one-stage meta-analyses using the acquired individual participant data and two-stage meta-analyses to integrate the individual participant data with data extracted from eligible studies that did not provide individual participant data. A decision-analytic Markov model was developed to evaluate the cost per quality-adjusted life-years of the use of testosterone replacement therapy in cohorts of patients of different starting ages.\n\n\nResults\nWe identified 35 trials (5601 randomised participants). Of these, 17 trials (3431 participants) provided individual participant data. There were too few deaths to assess mortality. There was no difference between the testosterone replacement therapy group (120/1601, 7.5%) and placebo group (110/1519, 7.2%) in the incidence of cardiovascular and/or cerebrovascular events (13 studies, odds ratio 1.07, 95% confidence interval 0.81 to 1.42; p = 0.62). Testosterone replacement therapy improved quality of life and sexual function in almost all patient subgroups. In the testosterone replacement therapy group, serum testosterone was higher while serum cholesterol, triglycerides, haemoglobin and haematocrit were all lower. We identified several themes from five qualitative studies showing how symptoms of low testosterone affect men's lives and their experience of treatment. The cost-effectiveness of testosterone replacement therapy was dependent on whether uncertain effects on all-cause mortality were included in the model, and on the approach used to estimate the health state utility increment associated with testosterone replacement therapy, which might have been driven by improvements in symptoms such as sexual dysfunction and low mood.\n\n\nLimitations\nA meaningful evaluation of mortality was hampered by the limited number of defined events. Definition and reporting of cardiovascular and cerebrovascular events and methods for testosterone measurement varied across trials.\n\n\nConclusions\nOur findings do not support a relationship between testosterone replacement therapy and cardiovascular/cerebrovascular events in the short-to-medium term. Testosterone replacement therapy improves sexual function and quality of life without adverse effects on blood pressure, serum lipids or glycaemic markers.\n\n\nFuture work\nRigorous long-term evidence assessing the safety of testosterone replacement therapy and subgroups most benefiting from treatment is needed.\n\n\nStudy registration\nThe study is registered as PROSPERO CRD42018111005.\n\n\nFunding\nThis award was funded by the National Institute for Health and Care Research (NIHR) Health Technology Assessment programme (NIHR award ref: 17/68/01) and is published in full in Health Technology Assessment; Vol. 28, No. 43. See the NIHR Funding and Awards website for further award information.",
+      "year": "2024",
+      "published_date": "2024-08-01",
+      "journal": "Health Technology Assessment",
+      "url": "https://www.semanticscholar.org/paper/ab90f1932f643a1685c37e4efe358282a371379e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 10,
+      "source": "Semantic Scholar",
+      "doi": "10.3310/JRYT3981",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "A Benchmark, Expand, and Calibration (BenchExCal) Trial Emulation Approach for Using Real‐World Evidence to Support Indication Expansions: Design and Process for a Planned Empirical Evaluation",
+      "authors": [
+        "Shirley V. Wang",
+        "M. Russo",
+        "Robert J. Glynn",
+        "Marie C Bradley",
+        "Jiwei He",
+        "John Concato",
+        "Sebastian Schneeweiss"
+      ],
+      "abstract": "Real‐world evidence involving healthcare database studies is well established for making causal inferences in post‐market drug safety studies and methods, data, and research infrastructure for evaluating effectiveness have advanced in recent years. The rapidly expanding field of etiologic research using insurance claims and electronic health records databases is being evaluated for supporting effectiveness claims. One such use case to support regulatory decision‐making on effectiveness is for expanding indications beyond existing effectiveness claims. Confidence in the validity of findings from cohort studies conducted using databases (hereafter “database study”) to support indication expansions could be increased through a structured benchmarking process of an initial database study against RCT evidence followed by calibration of a subsequent database study based on differences in results observed in the initial RCT‐database pair. This paper proposes a benchmark, expand, and calibration (BenchExCal) approach to trial emulation and describes the design and process for evaluating the performance of the approach through both simulation studies; five planned empirical examples are also described. The project will provide insights regarding how a first‐stage benchmarking emulation of a completed trial for an existing indication can be used to calibrate, increase confidence, and improve interpretation of the results for a second‐stage emulation of a hypothetical trial that could potentially provide evidence for an expanded indication. Although the examples have been selected to provide a variety of learnings, five use cases do not address all clinical and data scenarios that may be encountered when seeking a supplemental indication for a marketed drug.",
+      "year": "2025",
+      "published_date": "2025-03-11",
+      "journal": "Clinical pharmacology and therapy",
+      "url": "https://www.semanticscholar.org/paper/c47eb2f996469716b189e1d1cb416734fe929051",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.1002/cpt.3621",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    }
+  ],
+  "timestamp": "20260413_160013"
+}

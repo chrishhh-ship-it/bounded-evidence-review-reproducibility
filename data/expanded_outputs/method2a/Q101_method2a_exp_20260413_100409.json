@@ -1,0 +1,200 @@
+{
+  "query_id": "Q101",
+  "query": "n=30 查询的试点规模对哪些结论的有效性构成威胁？哪些结论在此规模下仍然稳健？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Systematic review of research on artificial intelligence applications in higher education – where are the educators?",
+      "authors": [
+        "Olaf Zawacki‐Richter",
+        "Victoria I. Marín",
+        "Melissa Bond",
+        "Franziska Gouverneur"
+      ],
+      "abstract": "Abstract According to various international reports, Artificial Intelligence in Education (AIEd) is one of the currently emerging fields in educational technology. Whilst it has been around for about 30 years, it is still unclear for educators how to make pedagogical advantage of it on a broader scale, and how it can actually impact meaningfully on teaching and learning in higher education. This paper seeks to provide an overview of research on AI applications in higher education through a systematic review. Out of 2656 initially identified publications for the period between 2007 and 2018, 146 articles were included for final synthesis, according to explicit inclusion and exclusion criteria. The descriptive results show that most of the disciplines involved in AIEd papers come from Computer Science and STEM, and that quantitative methods were the most frequently used in empirical studies. The synthesis of results presents four areas of AIEd applications in academic support services, and institutional and administrative services: 1. profiling and prediction, 2. assessment and evaluation, 3. adaptive systems and personalisation, and 4. intelligent tutoring systems. The conclusions reflect on the almost lack of critical reflection of challenges and risks of AIEd, the weak connection to theoretical pedagogical perspectives, and the need for further exploration of ethical and educational approaches in the application of AIEd in higher education.",
+      "year": "2019",
+      "published_date": "2019-10-28",
+      "journal": "International Journal of Educational Technology in Higher Education",
+      "url": "https://doi.org/10.1186/s41239-019-0171-0",
+      "arxiv_id": "",
+      "keywords": [
+        "Personalization",
+        "Profiling (computer programming)",
+        "Higher education",
+        "Scale (ratio)",
+        "Inclusion (mineral)",
+        "Critical reflection",
+        "Computer science",
+        "Psychology"
+      ],
+      "citations": 4655,
+      "source": "OpenAlex",
+      "doi": "10.1186/s41239-019-0171-0",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service systematic review"
+    },
+    {
+      "title": "A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges",
+      "authors": [
+        "Andrew Brown",
+        "Muhammad Roman",
+        "Barry Devereux"
+      ],
+      "abstract": "Background: Retrieval-augmented generation (RAG) aims to reduce hallucinations and outdated knowledge by grounding LLM outputs in retrieved evidence, but empirical results are scattered across tasks, systems, and metrics, limiting cumulative insight. Objective: We aimed to synthesise empirical evidence on RAG effectiveness versus parametric-only baselines, map datasets/architectures/evaluation practices, and surface limitations and research gaps. Methods: This systematic review was conducted and reported in accordance with PRISMA 2020. We searched the ACM Digital Library, IEEE Xplore, Scopus, ScienceDirect, and DBLP; all sources were last searched on 13 May 2025. This included studies from January 2020–May 2025 that addressed RAG or similar retrieval-supported systems producing text output, met citation thresholds (≥15 for 2025; ≥30 for 2024 or earlier), and offered original contributions; excluded non-English items, irrelevant works, duplicates, and records without accessible full text. Bias was appraised with a brief checklist; screening used one reviewer with an independent check and discussion. LLM suggestions were advisory only; 2025 citation thresholds were adjusted to limit citation-lag. We used a descriptive approach to synthesise the results, organising studies by themes aligned to RQ1–RQ4 and reporting summary counts/frequencies; no meta-analysis was undertaken due to heterogeneity of designs and metrics. Results: We included 128 studies spanning knowledge-intensive tasks (35/128; 27.3%), open-domain QA (20/128; 15.6%), software engineering (13/128; 10.2%), and medical domains (11/128; 8.6%). Methods have shifted from DPR+seq2seq baselines to modular, policy-driven RAG with hybrid/structure-aware retrieval, uncertainty-triggered loops, memory, and emerging multimodality. Evaluation remains overlap-heavy (EM/F1), with increasing use of retrieval diagnostics (e.g., Recall@k, MRR@k), human judgements, and LLM-as-judge protocols. Efficiency and security (poisoning, leakage, jailbreaks) are growing concerns. Discussion: Evidence supports a shift to modular, policy-driven RAG, combining hybrid/structure-aware retrieval, uncertainty-aware control, memory, and multimodality, to improve grounding and efficiency. To advance from prototypes to dependable systems, we recommend: (i) holistic benchmarks pairing quality with cost/latency and safety, (ii) budget-aware retrieval/tool-use policies, and (iii) provenance-aware pipelines that expose uncertainty and deliver traceable evidence. We note the evidence base may be affected by citation-lag from the inclusion thresholds and by English-only, five-library coverage. Funding: Advanced Research and Engineering Centre. Registration: Not registered.",
+      "year": "2025",
+      "published_date": "2025-08-08",
+      "journal": "Big Data and Cognitive Computing",
+      "url": "https://www.semanticscholar.org/paper/7477bccbe3683c49a9d6c50f901569d87ca07ce5",
+      "arxiv_id": "2508.06401",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 15,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2508.06401",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system full text retrieval"
+    },
+    {
+      "title": "Knowledge-Informed Multi-Agent Trajectory Prediction at Signalized Intersections for Infrastructure-to-Everything",
+      "authors": [
+        "Huilin Yin",
+        "Yang Xu",
+        "Jiaxiang Li",
+        "Hao Zhang",
+        "Gerhard Rigoll"
+      ],
+      "abstract": "Multi-agent trajectory prediction at signalized intersections is crucial for developing efficient intelligent transportation systems and safe autonomous driving systems. Due to the complexity of intersection scenarios and the limitations of single-vehicle perception, the performance of vehicle-centric prediction methods has reached a plateau. In this paper, we introduce an Infrastructure-to-Everything (I2X) collaborative prediction scheme. In this scheme, roadside units (RSUs) independently forecast the future trajectories of all vehicles and transmit these predictions unidirectionally to subscribing vehicles. Building on this scheme, we propose I2XTraj, a dedicated infrastructure-based trajectory prediction model. I2XTraj leverages real-time traffic signal states, prior maneuver strategy knowledge, and multi-agent interactions to generate accurate, joint multi-modal trajectory prediction. First, a continuous signal-informed mechanism is proposed to adaptively process real-time traffic signals to guide trajectory proposal generation under varied intersection configurations. Second, a driving strategy awareness mechanism estimates the joint distribution of maneuver strategies by integrating spatial priors of intersection areas with dynamic vehicle states, enabling coverage of the full set of feasible maneuvers. Third, a spatial-temporal-mode attention network models multi-agent interactions to refine and adjust joint trajectory outputs.Finally, I2XTraj is evaluated on two real-world datasets of signalized intersections, the V2X-Seq and the SinD drone dataset. In both single-infrastructure and online collaborative scenarios, our model outperforms state-of-the-art methods by over 30\\% on V2X-Seq and 15\\% on SinD, demonstrating strong generalizability and robustness.",
+      "year": "2025",
+      "published_date": "2025-01-23",
+      "journal": "IEEE transactions on intelligent transportation systems (Print)",
+      "url": "https://www.semanticscholar.org/paper/799cdc76de81f4aa47be83ad5c3fc0f483a5124e",
+      "arxiv_id": "2501.13461",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2501.13461",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "A cross-enterprise collaborative production scheduling decision support algorithm with multi-agent support",
+      "authors": [
+        "Lili Chen",
+        "Jianbing Yang"
+      ],
+      "abstract": "Abstract\n                  This study harnesses the capabilities of intelligent agent technology to develop a framework for cross-enterprise collaborative production scheduling decision-making. It conducts a comprehensive examination of the business processes and production scheduling decisions encapsulated within this framework. The research begins by pinpointing the challenges inherent in cross-enterprise collaborative production scheduling. Subsequently, it introduces a genetic algorithm tailored for agent-based decision-making in this context and delineates its algorithmic parameters. The effectiveness of this approach is validated through a series of simulation experiments focused on a case study of cross-enterprise collaborative production scheduling from an agent-oriented perspective. The findings indicate that implementing the agent structure and genetic algorithms in a scenario involving ten workpieces and ten machines (10×10) results in a new job reach time of 30, a workshop load of 0.5338, and an average reduction in scheduling time of 11.60%. These results underscore the efficacy of the proposed agent structure and genetic algorithms in enhancing decision support for cross-enterprise collaborative production scheduling, thereby laying a scientific foundation for achieving heightened production efficiency through intelligent agent technology.",
+      "year": "2024",
+      "published_date": "2024-1-1",
+      "journal": "Applied Mathematics and Nonlinear Sciences",
+      "url": "https://doi.org/10.2478/amns-2024-1757",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "CrossRef",
+      "doi": "10.2478/amns-2024-1757",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Determinants of Gender-Based Violence in Nepal: A Review of Recent Evidence",
+      "authors": [
+        "Krishna Prasad Dhital"
+      ],
+      "abstract": "Background: Gender-based violence (GBV) remains a major global public health and human rights challenge, significantly impacting women's health and well-being. In Nepal, GBV is a pervasive societal crisis, with impacts that undermine the nation's progress. Recent evidence indicates that GBV persists at high levels, affecting women and girls across various settings, including schools and homes. \nObjectives: This narrative review aims to synthesize recent evidence on GBV in Nepal, with a focus on examining its determinants across multiple ecological levels—including individual, relationship, household, community, and institutional factors—to inform evidence-based prevention programs and policy interventions. \nMethods: This review is based on a synthesis of recent literature, including national surveys and empirical studies. The analysis is guided by a socio-ecological model, which recognizes that GBV is influenced by factors operating at multiple levels, from individual beliefs to broader societal structures. \nFindings: The review confirms the high prevalence of GBV in Nepal. A recent cross-sectional study among secondary school female students in the Sarlahi district found that 45.33% had experienced lifetime GBV, broken down into psychological (39.56%), sexual (30.22%), and physical violence (16.89%). Key risk factors identified include: \n \nIndividual/Relationship Level: Husband's alcohol use and poor marital communication are significant risk factors for intimate partner violence (IPV). \nHousehold Level: Economic stress, type of family, and gender-based discrimination within the family are associated with GBV experience. \nCommunity & Societal Level: Patriarchal norms, gender-inequitable attitudes, and the intergenerational transmission of violence (e.g., witnessing violence as a child) are deeply entrenched drivers of GBV. Despite existing laws, services for survivors remain fragmented, and emotional abuse is often overlooked due to a lack of physical evidence. \n \nConclusion: GBV in Nepal is a complex issue driven by interconnected factors across the socio-ecological spectrum. While physical and sexual violence are documented, psychological violence is highly prevalent yet frequently overlooked by support systems. \nImplication: There is an urgent need for a multi-sectoral approach to effectively prevent and respond to GBV. This should include: \n \nStrengthening institutional frameworks and multi-sectoral response services. \nImplementing community-based programs that challenge harmful gender norms and engage men and boys. \n \nImproving access to integrated services—including legal, psychosocial, and health support—for survivors, particularly in remote areas.",
+      "year": "2025",
+      "published_date": "2025-11-03",
+      "journal": "NPRC Journal of Multidisciplinary Research",
+      "url": "https://www.semanticscholar.org/paper/22736e22da543a507685b317bffe5b7d2bdd5a44",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.3126/nprcjmr.v2i10.85870",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis survey"
+    },
+    {
+      "title": "CogSearch: A Cognitive-Aligned Multi-Agent Framework for Proactive Decision Support in E-Commerce Search",
+      "authors": [
+        "Zhouwei Zhai",
+        "Mengxiang Chen",
+        "Haoyun Xia",
+        "Jin Li",
+        "Renquan Zhou",
+        "Min Yang"
+      ],
+      "abstract": "Modern e-commerce search engines, largely rooted in passive retrieval-and-ranking models, frequently fail to support complex decision-making, leaving users overwhelmed by cognitive friction. In this paper, we introduce CogSearch, a novel cognitive-oriented multi-agent framework that reimagines e-commerce search as a proactive decision support system. By synergizing four specialized agents, CogSearch mimics human cognitive workflows: it decomposes intricate user intents, fuses heterogeneous knowledge across internal and external sources, and delivers highly actionable insights. Our offline benchmarks validate CogSearch's excellence in consultative and complex search scenarios. Extensive online A/B testing on JD.com demonstrates the system's transformative impact: it reduced decision costs by 5% and achieved a 0.41% increase in overall UCVR, with a remarkable 30% surge in conversion for decision-heavy queries. CogSearch represents a fundamental shift in information retrieval, moving beyond traditional relevance-centric paradigms toward a future of holistic, collaborative decision intelligence.",
+      "year": "2026",
+      "published_date": "2026-03-12",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.11927v1",
+      "arxiv_id": "2603.11927v1",
+      "keywords": [
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Evaluating Small Language Models for Agentic On-Farm Decision Support Systems",
+      "authors": [
+        "Enhong Liu",
+        "Haiyu Yang",
+        "Miel Hostens"
+      ],
+      "abstract": "Large Language Models (LLM) hold potential to support dairy scholars and farmers by supporting decision-making and broadening access to knowledge for stakeholders with limited technical expertise. However, the substantial computational demand restricts access to LLM almost exclusively through cloud-based service, which makes LLM-based decision support tools impractical for dairy farming. To address this gap, lightweight alternatives capable of running locally on farm hardware are required. In this work, we benchmarked 20 open-source Small Language Models (SLM) available on HuggingFace under farm-realistic computing constraints. Building on our prior work, we developed an agentic AI system that integrates five task-specific agents: literature search, web search, SQL database interaction, NoSQL database interaction, and graph generation following predictive models. Evaluation was conducted in two phases. In the first phase, five test questions were used for the initial screening to identify models capable of following basic dairy-related instructions and performing reliably in a compute-constrained environment. Models that passed this preliminary stage were then evaluated using 30 questions (five per task category mentioned above, plus one category addressing integrity and misconduct) in phase two. In results, Qwen-4B achieved superior performance across most of task categories, although showed unstable effectiveness in NoSQL database interactions through PySpark. To our knowledge, this is the first work explicitly evaluating the feasibility of SLM as engines for dairy farming decision-making, with central emphases on privacy and computational efficiency. While results highlight the promise of SLM-assisted tools for practical deployment in dairy farming, challenges remain, and fine-tuning is still needed to refine SLM performance in dairy-specific questions.",
+      "year": "2025",
+      "published_date": "2025-12-16",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2512.14043v1",
+      "arxiv_id": "2512.14043v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "A Review of Multi-Agent AI Systems for Biological and Clinical Data Analysis.",
+      "authors": [
+        "Jackson Spieser",
+        "Ali Balapour",
+        "Jarek Meller",
+        "Krushna C Patra",
+        "Behrouz Shamsaei"
+      ],
+      "abstract": "This review evaluates the emerging paradigm of multi-agent systems (MASs) for biomedical and clinical data analysis, focusing on their ability to overcome the reasoning and reliability limitations of standalone large language models (LLMs). We synthesize findings from recent architectural frameworks, specifically LangGraph, CrewAI, and the Model Context Protocol (MCP), to examine how specialized agent teams divide labor, utilize precision tools, and cross-verify outputs. We find that MAS architectures yield significant performance gains in various domains: recent implementations improved oncology decision-making accuracy from 30.3% to 87.2% and reached a peak of 93.2% accuracy on USMLE-style benchmarks through simulated clinical evolution. In clinical trial matching, multi-agent frameworks achieved 87.3% accuracy and enhanced clinician screening efficiency by 42.6% (",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "Methods and protocols",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41874150/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.3390/mps9020033",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    }
+  ],
+  "timestamp": "20260413_100409"
+}

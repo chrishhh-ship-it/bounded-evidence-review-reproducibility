@@ -1,0 +1,227 @@
+{
+  "query_id": "Q60",
+  "query": "如果 benchmark 要跨领域扩展，哪些 query 应保留为领域无关核心题型？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing",
+      "authors": [
+        "Naeimeh Nourmohammadi",
+        "Md Meem Hossain",
+        "The Anh Han",
+        "Safina Showkat Ara",
+        "Zia Ush Shamszaman"
+      ],
+      "abstract": "Large language models (LLMs) show promise for healthcare question answering, but clinical use is limited by weak verification, insufficient evidence grounding, and unreliable confidence signalling. We propose a multi-agent medical QA framework that combines complementary LLMs with evidence retrieval, uncertainty estimation, and bias checks to improve answer reliability. Our approach has two phases. First, we fine-tune three representative LLM families (GPT, LLaMA, and DeepSeek R1) on MedQuAD-derived medical QA data (20k+ question-answer pairs across multiple NIH domains) and benchmark generation quality. DeepSeek R1 achieves the strongest scores (ROUGE-1 0.536 +- 0.04; ROUGE-2 0.226 +-0.03; BLEU 0.098 -+ 0.018) and substantially outperforms the specialised biomedical baseline BioGPT in zero-shot evaluation. Second, we implement a modular multi-agent pipeline in which a Clinical Reasoning agent (fine-tuned LLaMA) produces structured explanations, an Evidence Retrieval agent queries PubMed to ground responses in recent literature, and a Refinement agent (DeepSeek R1) improves clarity and factual consistency; an optional human validation path is triggered for high-risk or high-uncertainty cases. Safety mechanisms include Monte Carlo dropout and perplexity-based uncertainty scoring, plus lexical and sentiment-based bias detection supported by LIME/SHAP-based analyses. In evaluation, the full system achieves 87% accuracy with relevance around 0.80, and evidence augmentation reduces uncertainty (perplexity 4.13) compared to base responses, with mean end-to-end latency of 36.5 seconds under the reported configuration. Overall, the results indicate that agent specialisation and verification layers can mitigate key single-model limitations and provide a practical, extensible design for evidence-based and bias-aware medical AI.",
+      "year": "2026",
+      "published_date": "2026-02-15",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2602.14158v1",
+      "arxiv_id": "2602.14158v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "clinical evidence review multi-agent"
+    },
+    {
+      "title": "Revisiting Task-Oriented Dataset Search in the Era of Large Language Models: Challenges, Benchmark, and Solution",
+      "authors": [
+        "Zixin Wei",
+        "Yucan Guo",
+        "Jinyang Li",
+        "Xiaolin Han",
+        "Xiaolong Jin",
+        "Chenhao Ma"
+      ],
+      "abstract": "The search for suitable datasets is the critical\"first step\"in data-driven research, but it remains a great challenge. Researchers often need to search for datasets based on high-level task descriptions. However, existing search systems struggle with this task due to ambiguous user intent, task-to-dataset mapping and benchmark gaps, and entity ambiguity. To address these challenges, we introduce KATS, a novel end-to-end system for task-oriented dataset search from unstructured scientific literature. KATS consists of two key components, i.e., offline knowledge base construction and online query processing. The sophisticated offline pipeline automatically constructs a high-quality, dynamically updatable task-dataset knowledge graph by employing a collaborative multi-agent framework for information extraction, thereby filling the task-to-dataset mapping gap. To further address the challenge of entity ambiguity, a unique semantic-based mechanism is used for task entity linking and dataset entity resolution. For online retrieval, KATS utilizes a specialized hybrid query engine that combines vector search with graph-based ranking to generate highly relevant results. Additionally, we introduce CS-TDS, a tailored benchmark suite for evaluating task-oriented dataset search systems, addressing the critical gap in standardized evaluation. Experiments on our benchmark suite show that KATS significantly outperforms state-of-the-art retrieval-augmented generation frameworks in both effectiveness and efficiency, providing a robust blueprint for the next generation of dataset discovery systems.",
+      "year": "2025",
+      "published_date": "2025-12-17",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/cd6ed6620434589e36b52f2b2feea19cc79471d1",
+      "arxiv_id": "2512.15363",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2512.15363",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "title": "ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents",
+      "authors": [
+        "Manasi Sharma",
+        "Chen Bo Calvin Zhang",
+        "Chaithanya Bandi",
+        "Clinton Wang",
+        "Ankit Aich",
+        "Huy Nghiem",
+        "Tahseen Rabbani",
+        "Ye Htet",
+        "Brian Jang",
+        "Sumana Basu",
+        "Aishwarya H. Balwani",
+        "Denis Peskoff",
+        "Marcos Ayestaran",
+        "Sean M. Hendryx",
+        "Brad Kenstler",
+        "Bing Liu"
+      ],
+      "abstract": "Deep Research (DR) is an emerging agent application that leverages large language models (LLMs) to address open-ended queries. It requires the integration of several capabilities, including multi-step reasoning, cross-document synthesis, and the generation of evidence-backed, long-form answers. Evaluating DR remains challenging because responses are lengthy and diverse, admit many valid solutions, and often depend on dynamic information sources. We introduce ResearchRubrics, a standardized benchmark for DR built with over 2,800+ hours of human labor that pairs realistic, domain-diverse prompts with 2,500+ expert-written, fine-grained rubrics to assess factual grounding, reasoning soundness, and clarity. We also propose a new complexity framework for categorizing DR tasks along three axes: conceptual breadth, logical nesting, and exploration. In addition, we develop human and model-based evaluation protocols that measure rubric adherence for DR agents. We evaluate several state-of-the-art DR systems and find that even leading agents like Gemini's DR and OpenAI's DR achieve under 68% average compliance with our rubrics, primarily due to missed implicit context and inadequate reasoning about retrieved information. Our results highlight the need for robust, scalable assessment of deep research capabilities, to which end we release ResearchRubrics(including all prompts, rubrics, and evaluation code) to facilitate progress toward well-justified research assistants.",
+      "year": "2025",
+      "published_date": "2025-11-10",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/8bd46c6cd215b8e24a5c561df8e21499d0dcbcbf",
+      "arxiv_id": "2511.07685",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 27,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2511.07685",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild",
+      "authors": [
+        "Jiayu Wang",
+        "Yifei Ming",
+        "Riya Dulepet",
+        "Qinglin Chen",
+        "Austin Xu",
+        "Zixuan Ke",
+        "Frederic Sala",
+        "Aws Albarghouthi",
+        "Caiming Xiong",
+        "Shafiq Joty"
+      ],
+      "abstract": "Deep research -- producing comprehensive, citation-grounded reports by searching and synthesizing information from hundreds of live web sources -- marks an important frontier for agentic systems. To rigorously evaluate this ability, four principles are essential: tasks should be (1) user-centric, reflecting realistic information needs, (2) dynamic, requiring up-to-date information beyond parametric knowledge, (3) unambiguous, ensuring consistent interpretation across users, and (4) multi-faceted and search-intensive, requiring search over numerous web sources and in-depth analysis. Existing benchmarks fall short of these principles, often focusing on narrow domains or posing ambiguous questions that hinder fair comparison. Guided by these principles, we introduce LiveResearchBench, a benchmark of 100 expert-curated tasks spanning daily life, enterprise, and academia, each requiring extensive, dynamic, real-time web search and synthesis. Built with over 1,500 hours of human labor, LiveResearchBench provides a rigorous basis for systematic evaluation. To evaluate citation-grounded long-form reports, we introduce DeepEval, a comprehensive suite covering both content- and report-level quality, including coverage, presentation, citation accuracy and association, consistency and depth of analysis. DeepEval integrates four complementary evaluation protocols, each designed to ensure stable assessment and high agreement with human judgments. Using LiveResearchBench and DeepEval, we conduct a comprehensive evaluation of 17 frontier deep research systems, including single-agent web search, single-agent deep research, and multi-agent systems. Our analysis reveals current strengths, recurring failure modes, and key system components needed to advance reliable, insightful deep research. Our code is available at: https://github.com/SalesforceAIResearch/LiveResearchBench.",
+      "year": "2025",
+      "published_date": "2025-10-16",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/420629313afc5c694bdef50dfcc54b8e6a173f6f",
+      "arxiv_id": "2510.14240",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 16,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2510.14240",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant systematic review"
+    },
+    {
+      "title": "Tool-RoCo: An Agent-as-Tool Self-organization Large Language Model Benchmark in Multi-robot Cooperation",
+      "authors": [
+        "Ke Zhang",
+        "Xiaoning Zhao",
+        "Ce Zheng",
+        "Jiahong Ning",
+        "Dandan Zhu",
+        "Wenqi Zhang",
+        "Chen Sun",
+        "Toshiharu Sugawara"
+      ],
+      "abstract": "This study proposes Tool-RoCo, a novel benchmark for evaluating large language models (LLMs) in long-term multi-agent cooperation based on RoCo, a multi-robot cooperative benchmark. Recent research on LLM-based multi-agent systems has relied on predefined orchestration, while ignoring agent autonomy. Tool-RoCo treats other agents as tools and introduces cooperative tools, leveraging tool usage to evaluate multi-agent cooperation and self-organization. Tool usage means that each agent (LLM) selects a tool from a candidate set based on the current state, receives feedback, and adjusts its selection in subsequent rounds. To evaluate different autonomy levels, we propose four LLM paradigms: (1) centralized cooperation, where a single LLM allocates tools to all agents; (2) centralized self-organization, where a central LLM autonomously activates agents while keeping others inactive; (3) decentralized cooperation, where each agent has its own LLM and calls tools based on local information; and (4) self-organization, where a randomly chosen initial agent can request collaboration, activating additional agents via tool calls. Tool-RoCo includes three multi-robot tasks, SORT, PACK, and CABINET, to measure format and parameter accuracy and agent coordination through tool usage. The results using several LLMs showed that cooperative tools accounted for only 7.09% of all tools, indicating that LLM-based agents rarely invoked others as assistants. Moreover, activation tools accounted for 96.42%, suggesting that current LLMs tend to maintain active agents while seldom deactivating them for adaptive coordination. Tool-RoCo provides a systematic benchmark to evaluate LLM autonomy and cooperation in multi-agent tasks. Code and Demo: https://github.com/ColaZhang22/Tool-Roco",
+      "year": "2025",
+      "published_date": "2025-11-26",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/5a21dd40a02566226fd73fe115c0288b5d406bf9",
+      "arxiv_id": "2511.21510",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2511.21510",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "ASIC-Agent: An Autonomous Multi-Agent System for ASIC Design with Benchmark Evaluation",
+      "authors": [
+        "Ahmed Allam",
+        "Youssef Mansour",
+        "Mohamed Shalan"
+      ],
+      "abstract": "",
+      "year": "2025",
+      "published_date": "2025-6-26",
+      "journal": "2025 IEEE International Conference on LLM-Aided Design (ICLAD)",
+      "url": "https://doi.org/10.1109/iclad65226.2025.00033",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.1109/iclad65226.2025.00033",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service benchmark"
+    },
+    {
+      "title": "Multi-Agent-Based Information Retrieval System Using Information Scent in Query Log Mining for Effective Web Search",
+      "authors": [
+        "Suruchi Chawla"
+      ],
+      "abstract": "This chapter explains the multi-agent system for effective information retrieval using information scent in query log mining. The precision of search results is low due to difficult to infer the information need of the small size search query and therefore information need of the user is not satisfied effectively. Information Scent is used for modeling the information need of user web search session and clustering is performed to identify the similar information need sessions. Hyper Link-Induced Topic Search (HITS) is executed on clusters to generate the Hubs and authorities for web page recommendations to users who search with similar intents. This multi-agent system based on clustered query sessions uses query operations like expansion and recommendation to infer the information need of user search queries and recommends Hubs and authorities for effective web search.",
+      "year": "2018",
+      "published_date": "2018",
+      "journal": "Information Retrieval and Management",
+      "url": "https://doi.org/10.4018/978-1-5225-5191-1.ch012",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.4018/978-1-5225-5191-1.ch012",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service full text retrieval"
+    },
+    {
+      "title": "Design Principles for the Construction of a Benchmark Evaluating Security Operation Capabilities of Multi-agent AI Systems",
+      "authors": [
+        "Yicheng Cai",
+        "Mitchell John DeStefano",
+        "Guodong Dong",
+        "Pulkit Handa",
+        "Peng Liu",
+        "Tejas Singhal",
+        "Peiyu Tseng",
+        "Winston Jen White"
+      ],
+      "abstract": "As Large Language Models (LLMs) and multi-agent AI systems are demonstrating increasing potential in cybersecurity operations, organizations, policymakers, model providers, and researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such AI systems to achieve more autonomous SOCs (security operation centers) and reduce manual effort. In particular, the AI and cybersecurity communities have recently developed several benchmarks for evaluating the red team capabilities of multi-agent AI systems. However, because the operations in SOCs are dominated by blue team operations, the capabilities of AI systems & agents to achieve more autonomous SOCs cannot be evaluated without a benchmark focused on blue team operations. To our best knowledge, no systematic benchmark for evaluating coordinated multi-task blue team AI has been proposed in the literature. Existing blue team benchmarks focus on a particular task. The goal of this work is to develop a set of design principles for the construction of a benchmark, which is denoted as SOC-bench, to evaluate the blue team capabilities of AI. Following these design principles, we have developed a conceptual design of SOC-bench, which consists of a family of five blue team tasks in the context of large-scale ransomware attack incident response.",
+      "year": "2026",
+      "published_date": "2026-03-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.28998v1",
+      "arxiv_id": "2603.28998v1",
+      "keywords": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    }
+  ],
+  "timestamp": "20260413_001642"
+}

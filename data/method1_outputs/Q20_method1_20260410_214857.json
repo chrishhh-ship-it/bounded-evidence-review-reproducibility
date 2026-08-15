@@ -1,0 +1,103 @@
+{
+  "baseline": "method1_pipeline",
+  "query": "面向可投稿论文，智慧情报服务实验结果应如何图表化展示？",
+  "effective_search_query": "智慧情报服务 实验 结果 图表化 展示 论文投稿",
+  "provider": "deepseek",
+  "model": "",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "doi:10.13998/j.cnki.issn1002-1248.25-0379",
+    "doi:10.16353/j.cnki.1000-7490.2025.05.005",
+    "doi:10.16353/j.cnki.1000-7490.2025.04.011",
+    "doi:10.3969/j.issn.1002-1965.2026.02.009",
+    "doi:10.16353/j.cnki.1000-7490.2024.11.002",
+    "doi:10.13998/j.cnki.issn1002-1248.25-0385",
+    "doi:10.16353/j.cnki.1000-7490.2024.11.004",
+    "doi:10.13998/j.cnki.issn1002-1248.25-0562",
+    "doi:10.16353/j.cnki.1000-7490.2024.11.003",
+    "doi:10.3724/j.fjyl.la20250723",
+    "doi:10.12154/j.qbzlgz.2025.02.001",
+    "doi:10.13266/j.issn.0252-3116.2026.04.005",
+    "doi:10.13998/j.cnki.issn1002-1248.25-0683"
+  ],
+  "top_papers": [
+    {
+      "title": "基于DIKIW的智能情报服务理论及系统框架研究与实践",
+      "year": 2025,
+      "journal": "学术年会专题",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.05.005",
+      "citations": 29,
+      "abstract": "[目的/意义]为应对智能情报技术带来的新机遇和新挑战,支撑科技情报领域的智能服务升级,开展智能情报服务理论及系统框架研究与实践是非常必要的.[方法/过程]对当前智能情报服务理论、系统平台进行调研研究,结合工作实践经验,提出基于DIKIW模型的\"3+1+N\"智能情报服务框架,并在具体的科技领域开展服务实践探索.[结果/结论]数智化时代,越来越重视用户场景驱动和面向专业领域的深度情报服务,文章提出的 智能情报服务系统框架对智能化建设领域数据基座、知识基座、情报基座,研发领域智能情报服务平台,提升科技情报工作的智能化水平,支撑领域科技情报研究,具有参考和借鉴意义. research on the theory,system framework and practical applications of <span class='highlight'>intelligent</span> <span class='highlight'>information</span> <span class='highlight'>service</span>.[Method/process]A systematic investigation was conducted on the current theories and system platforms of  <span class='highlight'>intelligent</span> <span class='highlight'>information</span> <span class='highlight'>service</span>.Based on practical experience,a\"3+1+N\"<span class='highlight'>intelligent</span> in-formati"
+    },
+    {
+      "title": "\"数据要素×\"效应下产业协同应急智慧情报服务架构与机制研究",
+      "year": 2024,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2024.11.002",
+      "citations": 24,
+      "abstract": "[目的/意义]复杂国际形势下产业危机事件和次生危机事件频发,导致我国产业发展不断受阻.在\"数据要素×\"行动计划指导下,借助产业协同应急<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>体系,发挥产业数据要素乘数效应,将有助于赋能产业危机事件应对与处置.[方法/过程]首先,以\"数据要素×\"为研究视角,通过文献分析及对比分析法明确\"数据要素×\"赋能产业协同应急<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>的着力点,厘清产业数据要素与各主体之间的关联关系,剖析产业数据要素 乘数效应的赋能逻辑,构建产业协同应急<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>架构;其次,从乘效赋能、场景细分、技术驱动和<span class='highlight'>服务</span>进阶4个方面构建\"数据要素乘数效应赋能—危机事件阶段需求牵引—多元智能技术融合应用—<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>模式动态更新\"的产业协同应急<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highligh"
+    },
+    {
+      "title": "面向产业协同应急恢复的智慧情报服务模式研究——以\"韧性治理\"为研究视角",
+      "year": 2024,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2024.11.004",
+      "citations": 19,
+      "abstract": "[目的/意义]在复杂国际形势背景下,产业危机情境和次生危机事件频发,我国产业正逐渐陷入外部不正当国际竞争导致的发展囹圄之中.产业危机事件发生后的协同应急恢复成为避免产业次生危机、保障产业永续健康发展的重要环节.因此,面向产业危机事件协同应急恢复的<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>成为研究重点.[方法/过程]文章以\"韧性治理\"理论为研究视角,首先明确了产业协同应急恢复阶段的<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>需求,分析韧性治理理论与产业协同 应急恢复<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>的适切性;其次,基于韧性治理理论,从韧性技术、韧性组织和韧性环境三个维度入手,构建产业协同应急恢复阶段的<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>模式;最后,以我国半导体产业为例,阐释该模式的运行流程,分析该模式的价值.[结果/结论]文章系统性地提出产业协同应急恢复阶段的<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span"
+    },
+    {
+      "title": "面向产业协同应急处置的智慧情报服务模式研究",
+      "year": 2024,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2024.11.003",
+      "citations": 17,
+      "abstract": "[目的/意义]不确定环境下我国产业发展受到冲击,亟须高质量的<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>赋能产业危机事件处置,以摆脱危机束缚.[方法/过程]文章重点关注应急管理过程的预防、准备和响应三个阶段,明确产业协同应急处置过程中的<span class='highlight'>情报</span><span class='highlight'>服务</span>需求;然后以实际需求为牵引,融合区块链与大语言模型技术构建\"<span class='highlight'>情报</span>流链条—大模型支撑—联盟链底座\"为核心的产业协同应急处置<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>模式;最后,以我国半导体产业停产危机处置为案例,进行 处置过程预防、准备和响应阶段<span class='highlight'>智慧</span><span class='highlight'>情报</span><span class='highlight'>服务</span>的实验及效果分析,验证该模式的价值.[结果/结论]从案例和实验结果中可以得出,该模式下预防阶段的预警结果与实际情况吻合,本地知识库与大语言模型的结合让准备阶段<span class='highlight'>智慧</span>问询结果的F1值提升,联盟区块链的高吞吐量和低延迟能够满足响应阶段应急<span class='highlight'>情报</span>信息的高效传输和协同响应. [Purpose/signif"
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    },
+    {
+      "title": "面向生成式智能体的图书馆系统架构与转型研究",
+      "year": 2025,
+      "journal": "研究论文",
+      "source": "万方数据",
+      "doi": "10.13998/j.cnki.issn1002-1248.25-0562",
+      "citations": 11,
+      "abstract": "由基础<span class='highlight'>服务</span>层、<span class='highlight'>智能</span><span class='highlight'>体协</span><span class='highlight'>同</span>层与语义交互层构成的3层架构:底层开放原子能力,中层通过协议实现<span class='highlight'>多</span><span class='highlight'>智能</span>体编排,上层以自然语言驱动交互并保持语义一致.最后,借助\"图书馆助手\"原型,在书目追问与推荐场景中开展实验验证.[结果/结论]实验表明,该架构在<span class='highlight'>智能</span>化与用户体验方面优于传统模式,但在长期记忆与反馈闭环上仍待完善. [目的/意义]探讨图书馆信息系统从平台化向<span class='highlight'>智能</span>体化的转型路径,分析现有ILS与LSP在<span class='highlight'>智能</span><span class='highlight'>服务</span>与协<span class='highlight'>同</span>能力方面的局限,提出以ILS/LSP能力为底座的面向生成式<span class='highlight'>智能</span>体的图书馆系统架构.[方法/过程]首先梳理ILS与LSP<span class='highlight'>服务</span>方面的局限,在此基础上构建涵盖语义感知、上下文建模、目标驱动、偏好适配与反思进化的生成式<span class='highlight'>智能</span>体能力分级模型,并将其映射至编目、流通、参考咨询与学科<span class='highlight'>服务</"
+    },
+    {
+      "title": "网络空间安全情报服务架构刻画与运行机理透视研究",
+      "year": 2025,
+      "journal": "理论探讨",
+      "source": "万方数据",
+      "doi": "10.12154/j.qbzlgz.2025.02.001",
+      "citations": 7,
+      "abstract": "[目的/意义]为有效应对多元化、隐蔽式、高强度、大规模、高持续的网络空间安全威胁,必须构建一<span class='highlight'>体</span>化、全方位、<span class='highlight'>智能</span>化的网络空间安全<span class='highlight'>情报</span><span class='highlight'>服务</span>架构.[方法/过程]文章以改进型霍尔<span class='highlight'>模型</span>为分析框架,遵循网络空间安全为中心和安全<span class='highlight'>情报</span><span class='highlight'>服务</span>化的思想,详细刻画网络空间安全<span class='highlight'>情报</span><span class='highlight'>服务</span>架构,深入透视其运行机理.[结果/结论]网络空间安全<span class='highlight'>情报</span><span class='highlight'>服务</span>架构由流程子模块、逻辑子模块、认知子模块三部分组成,其中<span class='highlight'>服务</span>流程面向网络空间 安全感知、网络空间安全判断、网络空间安全执行三类需求,<span class='highlight'>服务</span>工作<span class='highlight'>体</span>现了\"攻击场景溯源-事件关联识别-危机应对升级\"的运行逻辑,<span class='highlight'>服务</span>认知主要<span class='highlight'>体</span>现在价值共识、技术支撑、能力保障三个方面.网络空间安全<span cla"
+    },
+    {
+      "title": "以AI塑形智慧图书馆:基于智能体的下一代图书馆服务平台",
+      "year": 2025,
+      "journal": "智能体专题",
+      "source": "万方数据",
+      "doi": "10.13998/j.cnki.issn1002-1248.25-0379",
+      "citations": 34,
+      "abstract": "[目的/意义]云计算时代提出的图书馆<span class='highlight'>服务</span>平台(LSP)未能实现其成为图书馆统一解决方案的承诺,在智慧图书馆时代又面临新的发展瓶颈.其相对刚性的架构、孤岛化的数据<span class='highlight'>模型</span>和有限的<span class='highlight'>智能</span>水平,难以满足现代用户对新型资源生态的获取,及主动式<span class='highlight'>服务</span>的迫切需求.本文旨在提出一种基于大语言<span class='highlight'>模型</span>(LLM)<span class='highlight'>智能</span><span class='highlight'>体</span>(Agent)的下一代LSP架构A-LSP,以解决现有LSP的局限性,并推动图书馆<span class='highlight'>服务</span>平台向人工<span class='highlight'>智能</span>时代转型 .[方法/过程]该架构引入了一个新的3层概念<span class='highlight'>模型</span>,包括实现标准化工具集成的MCP市场、负责编排调度的<span class='highlight'>智能</span><span class='highlight'>体</span>中间件,以及支持功能扩展的<span class='highlight'>智能</span><span class='highlight'>体</span>应用生态层.同时,文章面向未来图书馆提出了\"五大中心\"的建设需求框架,即智慧资源中心、智慧<span class='highlight'>服务</span>中心、智慧学习中心、智慧学术交流中心与"
+    }
+  ],
+  "elapsed_seconds": 85.619,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method1_outputs\\Q20_method1_20260410_214857.md"
+}

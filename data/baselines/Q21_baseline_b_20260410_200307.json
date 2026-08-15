@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "writer、reviewer、reviser 三角色分工如何影响最终情报报告质量？",
+  "effective_search_query": "writer reviewer reviser role division intelligence report quality",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "title:linguistic features in writing quality and development: an overview|2020",
+    "doi:10.3102/0034654315619491sc",
+    "title:23 professional writing expertise|2018",
+    "doi:10.1007/s11948-015-9625-5db",
+    "title:essentials of assessment report writing|2018",
+    "doi:10.1080/02684527.2019.1569343d",
+    "doi:10.1007/s10115-025-02435-0a",
+    "title:reviewer, essay, and reviewing-process characteristics that predict errors in web-based peer review|2021",
+    "doi:10.1177/0016986218754495ke",
+    "title:teaching intelligence analysis writing skills: a program evaluation|2019",
+    "title:technical report writing efficiency using ai-powered tools: opportunities, challenges, and future directions|2025",
+    "title:reviewer 2 is not your enemy: a practical guide to revisions|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Linguistic features in writing quality and development: An overview",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "SA Crossley - Journal of Writing Research, 2020 - jowr.org",
+      "doi": "",
+      "citations": 477,
+      "abstract": "… to assist writers in revising specific aspects of writing. The … Instead, this review will focus on research that has examined … as providing feedback to writers in intelligent tutoring system …"
+    },
+    {
+      "title": "The relationship between component skills and writing quality and production across developmental levels: A meta-analysis of the last 25 years",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "SC Kent, J Wanzek - Review of Educational research, 2016 - journals.sagepub.com",
+      "doi": "10.3102/0034654315619491SC",
+      "citations": 209,
+      "abstract": "… (revising/proofreading), and self-monitoring during writing. Since … Several of the models of writing highlight executive functions … views of the Institute or the US Department of Education. …"
+    },
+    {
+      "title": "23 Professional Writing Expertise",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "RT Kellogg - The Cambridge handbook of expertise and expert …, 2018 - books.google.com",
+      "doi": "",
+      "citations": 205,
+      "abstract": "… -writing phase, for example, the writer may plan, review the … In revision, as in the original drafting of a text, the writer may … from models of high quality writing through journal clubs where …"
+    },
+    {
+      "title": "Ensuring the quality, fairness, and integrity of journal peer review: A possible role of editors",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "DB Resnik, SA Elmore - Science and Engineering Ethics, 2016 - Springer",
+      "doi": "10.1007/s11948-015-9625-5DB",
+      "citations": 184,
+      "abstract": "… The identities of the authors and reviewers are concealed from each other in a double-blind … One of the reasons why reviewer reports are often inconsistent is that reviewers are usually …"
+    },
+    {
+      "title": "Essentials of assessment report writing",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "WJ Schneider, EO Lichtenberger, N Mather… - 2018 - books.google.com",
+      "doi": "",
+      "citations": 148,
+      "abstract": "… Chapters 2 and 3 review many technical aspects of writing, … but he made an important revision to their organization (see … of our reports are not in a position to judge the quality of our work…"
+    },
+    {
+      "title": "Improving information evaluation for intelligence production",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "D Irwin, DR Mandel - Intelligence and National Security, 2019 - Taylor & Francis",
+      "doi": "10.1080/02684527.2019.1569343D",
+      "citations": 55,
+      "abstract": "… protocol on Bayesian belief revision and hypothesis testing … reflect a broader review of the intelligence, information fusion … the authors and do not represent the views of the Department …"
+    },
+    {
+      "title": "Defining quality in peer review reports: a scoping review",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "A Sizo, A Lino, Á Rocha, LP Reis - Knowledge and Information Systems, 2025 - Springer",
+      "doi": "10.1007/s10115-025-02435-0A",
+      "citations": 18,
+      "abstract": "… peer-review quality, with review assessment playing a key role in … and requirements for writing high-quality peer reviews. To achieve … for acceptance, revision, or rejection [66]. Finally, …"
+    },
+    {
+      "title": "Reviewer, essay, and reviewing-process characteristics that predict errors in web-based peer review",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "Y Xiong, CD Schunn - Computers & Education, 2021 - Elsevier",
+      "doi": "",
+      "citations": 13,
+      "abstract": "… and leniency errors: review comment length predicted both … ; review disagreement, reviewer ability and average sentence length of comments predicted severe errors; and essay quality …"
+    },
+    {
+      "title": "How to become a more effective reviewer",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "KE Snyder - Gifted Child Quarterly, 2018 - journals.sagepub.com",
+      "doi": "10.1177/0016986218754495KE",
+      "citations": 7,
+      "abstract": "… revision decisions I received for other manuscripts. I keep the former in a file of “reviews I’d like to receive,” and I strive to write my reviews like … Not only does it help improve the quality of …"
+    },
+    {
+      "title": "Teaching intelligence analysis writing skills: A program evaluation",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "S Dorn - Journal of Intelligence and Analysis, 2019 - ialeia.org",
+      "doi": "",
+      "citations": 6,
+      "abstract": "… writing samples, this study reviews the efficacy of a writing … the quality and effectiveness of intelligence writing is parsing … questions to cause writers to rethink and revise, and avoiding …"
+    },
+    {
+      "title": "Technical Report Writing Efficiency Using AI-Powered Tools: Opportunities, Challenges, and Future Directions",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "MA AlAfnan - Journal of Artificial Intelligence and Technology, 2025 - ojs.istp-press.com",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… Abstract: The study explores the role of Artificial Intelligence (… This literature review examines the existing body of research … report writing, focusing on its impact on efficiency and quality …"
+    },
+    {
+      "title": "Reviewer 2 is Not Your Enemy: A Practical Guide to Revisions",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "MN Almarzouq, M Elmarzouky… - Arab Journal of …, 2025 - journals.ku.edu.kw",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… , and language authors should adopt when responding revise and … across all disciplines, where the quality of a response can … the reviewer did not understand our research”, authors can …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q21_baseline_b_20260410_200307.md"
+}

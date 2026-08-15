@@ -1,0 +1,105 @@
+{
+  "baseline": "method3_self_refine",
+  "query": "writer、reviewer、reviser 三角色分工如何影响最终情报报告质量？",
+  "query_id": "Q21",
+  "effective_search_query": "writer reviewer reviser role division intelligence report quality",
+  "provider": "deepseek",
+  "model": null,
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_score": 7,
+  "accepted_without_revision": false,
+  "all_retrieved_ids": [
+    "doi:10.1108/ejm-09-2020-0672",
+    "doi:10.1080/08874417.2021.1962213",
+    "doi:10.1108/tqm-10-2019-0243",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.1109/tmc.2022.3199812",
+    "doi:10.1108/jrim-10-2020-0214",
+    "doi:10.1109/jiot.2019.2950048",
+    "doi:10.1109/access.2019.2916004",
+    "doi:10.1016/j.mcpdig.2023.03.006",
+    "title:impact of human and ai-agent services on customer learning, immersion and loyalty: the role of interactivity|2025",
+    "doi:10.1051/e3sconf/202568000107",
+    "doi:10.1108/k-09-2022-1239",
+    "doi:10.1108/intr-04-2022-0253",
+    "doi:10.33050/tmj.v10i3.2585",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Developing a service quality scale for artificial intelligence service agents",
+      "year": "2022",
+      "journal": "European Journal of Marketing",
+      "source": "OpenAlex",
+      "doi": "10.1108/ejm-09-2020-0672",
+      "citations": 87,
+      "abstract": "Purpose Service providers and consumers alike are increasingly adopting artificial intelligence service agents (AISA) for service. Yet, no service quality scale exists that can fully capture the key factors influencing AISA service quality. This study aims to address this shortcoming by developing a scale for measuring AISA service quality (AISAQUAL). Design/methodology/approach Based on extant service quality research and established scale development techniques, the study constructs, refines and validates a multidimensional AISAQUAL scale through a series of pilot and validation studies. Findings AISAQUAL contains 26 items across six dimensions: efficiency, security, availability, enjoyment, contact and anthropomorphism. The new scale demonstrates good psychometric properties and can be "
+    },
+    {
+      "title": "Artificial Intelligence Service Agents: Role of Parasocial Relationship",
+      "year": "2021",
+      "journal": "Journal of Computer Information Systems",
+      "source": "OpenAlex",
+      "doi": "10.1080/08874417.2021.1962213",
+      "citations": 65,
+      "abstract": "Increased use of artificial intelligence service agents (AISA) has been associated with improvements in AISA service performance. Whilst there is consensus that unique forms of attachment develop between users and AISA that manifest as parasocial relationships (PSRs), the literature is less clear about the AISA service attributes and how they influence PSR and the users’ subjective well-being. Based on a dataset collected from 408 virtual assistant users from the US, this research develops and tests a model that can explain how AISA-enabled service influences subjective well-being through the mediating effect of PSR. Findings also indicate significant gender and AISA experience differences in the PSR effect on subjective well-being. This study advances current understanding of AISA in serv"
+    },
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "year": "2020",
+      "journal": "The TQM Journal",
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "citations": 365,
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere ap"
+    },
+    {
+      "title": "The Role of Participatory Approaches in Modern Agricultural Extension: Bridging Knowledge Gaps for Sustainable Farming Practices",
+      "year": "2025",
+      "journal": "Journal of Experimental Agriculture International",
+      "source": "OpenAlex",
+      "doi": "10.9734/jeai/2025/v47i23281",
+      "citations": 49,
+      "abstract": "Participatory approaches in agricultural extension have revolutionized knowledge dissemination by fostering collaborative learning, farmer empowerment, and the co-creation of context-specific innovations. Unlike traditional top-down extension models, participatory methodologies emphasize mutual learning, where farmers, researchers, and extension agents engage in dynamic exchanges to develop adaptive and sustainable agricultural practices. These approaches have proven effective in promoting climate-smart agriculture, integrated pest management, soil and water conservation, and agroecological transitions, ensuring resilience in the face of environmental and socio-economic challenges. The implementation of participatory extension faces significant barriers, including institutional rigidity, p"
+    },
+    {
+      "title": "Collective Deep Reinforcement Learning for Intelligence Sharing in the Internet of Intelligence-Empowered Edge Computing",
+      "year": "2022",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "source": "OpenAlex",
+      "doi": "10.1109/tmc.2022.3199812",
+      "citations": 60,
+      "abstract": "Edge intelligence is emerging as a new interdiscipline to push learning intelligence from remote centers to the edge of the network. However, with its widespread deployment, new challenges arise in terms of training efficiency and service of quality (QoS). Massive repetitive model training is ubiquitous due to the inevitable needs of users for the same types of data and training results. Additionally, a smaller volume of data samples will cause the over-fitting of models. To address these issues, driven by the Internet of intelligence, this paper proposes a distributed edge intelligence sharing scheme, which allows distributed edge nodes to quickly and economically improve learning performance by sharing their learned intelligence. Considering the time-varying edge network states including"
+    },
+    {
+      "title": "Enhancing the value co-creation process: artificial intelligence and mobile banking service platforms",
+      "year": "2021",
+      "journal": "Journal of Research in Interactive Marketing",
+      "source": "OpenAlex",
+      "doi": "10.1108/jrim-10-2020-0214",
+      "citations": 239,
+      "abstract": "Purpose The purpose of this study is to investigate the relationships that influence the value co-creation process and lead to consumer comfort with artificial intelligence (AI) and mobile banking (AIMB) service platforms. Design/methodology/approach A conceptual model was developed to investigate the value-in-use perceptions of AI-based mobile banking applications via five antecedents: baseline perceptions of current bank service delivery; service delivery configuration benefits; general data security; safety perceptions of specific mobile banking services; and perceptions of AI service delivery. Data were collected from 218 respondents and analyzed using structural equation modeling. Findings This study highlights the role and importance of the sequential relationships that impact the as"
+    },
+    {
+      "title": "A Reconfigurable Method for Intelligent Manufacturing Based on Industrial Cloud and Edge Intelligence",
+      "year": "2019",
+      "journal": "IEEE Internet of Things Journal",
+      "source": "OpenAlex",
+      "doi": "10.1109/jiot.2019.2950048",
+      "citations": 84,
+      "abstract": "The development of Industry 4.0 has provided the possibility to meet frequent changes in product type and batches, a sharp decline in the delivery cycle, constraints of quality cost, and other relevant parameters of customized production mode. Intelligent manufacturing, as a core of Industry 4.0, represents a deep integration of new IT technologies, such as the industrial Internet of Things and service-oriented architecture, and manufacturing process. To realize intelligent manufacturing, this article introduces a cloud-assisted and edge-decision-making manufacturing architecture that contains a cloud and production edges. An intelligent production edge is designed to provide the traditional devices the abilities of data access and self-decision making. Besides, the proposed architecture i"
+    },
+    {
+      "title": "Swarm Intelligence-Inspired Autonomous Flocking Control in UAV Networks",
+      "year": "2019",
+      "journal": "IEEE Access",
+      "source": "OpenAlex",
+      "doi": "10.1109/access.2019.2916004",
+      "citations": 66,
+      "abstract": "The collaboration of multiple unmanned aerial vehicles (UAVs) has stimulated the emergence of a novel wireless network paradigm named UAV network. UAV network, compared with uncoordinated UAV systems could provide wider coverage, better monitoring, and understanding of the interested area, and smarter decision-making. However, realizing the full potential of UAV network in dynamic environments poses great challenges in topology/flocking control, energy conservation, and quality of service guarantee. In this backdrop, this paper proposes a swarm intelligence-inspired autonomous flocking control scheme for UAV networks. First, based on the concept of intelligent emergence of swarm agents, a swarm intelligence-inspired multi-layer flocking control scheme is built for the flocking control prob"
+    }
+  ],
+  "elapsed_seconds": 159.439,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method3_outputs\\Q21_method3_20260414_115816.md"
+}

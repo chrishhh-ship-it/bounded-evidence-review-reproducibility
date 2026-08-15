@@ -1,0 +1,32 @@
+{
+  "baseline": "method1_pipeline",
+  "query": "如何评估智慧情报服务中 query expansion 的收益与风险？",
+  "effective_search_query": "query expansion 收益 风险 评估 智慧情报服务",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 2,
+  "screened_count": 2,
+  "all_retrieved_ids": [
+    "doi:10.15961/j.jsuese.201600352/?viewtype=html陈兴蜀，",
+    "title:数据驱动的事件预测技术最新研究进展|2022"
+  ],
+  "top_papers": [
+    {
+      "title": "数据驱动的事件预测技术最新研究进展",
+      "year": 2022,
+      "journal": "李志鹏， 杨阳朝， 廖勇， 俞能海， 吴哲， 谢海永… - 信息安全 …, 2022 - meta.ecnu.edu.cn",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… 精准调控, 能够带来显著的经济收益, 减少不必要的损失, 具有重要… 了一种动态查询扩展(Dynamic Query Expansion)算法, 用于迭代… 智慧 城市涵盖了智慧交通,智慧家庭等, 在智慧交通领域, 利用…"
+    },
+    {
+      "title": "基于大数据的网络安全与情报分析",
+      "year": 2023,
+      "journal": "陈兴蜀， 曾雪梅， 王文贤， 邵国林 - 工程科学与技术, 2023 - jsuese.scu.edu.cn",
+      "doi": "10.15961/j.jsuese.201600352/?viewType=HTML陈兴蜀，",
+      "citations": 14,
+      "abstract": "… 威胁情报共享标准,尚未建成规模化,一体化的现代威胁情报中心和开放的威胁情报综合服务平台 .… 数据可视化可以帮助分析者一眼洞悉数据背后 隐藏的信息并转化为知识及智慧[20],因此,许多…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method1_outputs\\Q10_method1_20260410_213324.md"
+}

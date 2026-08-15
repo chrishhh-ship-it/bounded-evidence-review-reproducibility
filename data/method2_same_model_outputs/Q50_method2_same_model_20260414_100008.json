@@ -1,0 +1,154 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "修订智能体在执行受限修复时，如何避免引入新的语义错误？",
+  "effective_search_query": "修订智能体 受限修复 语义错误 避免",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 6,
+    "major_issues": [
+      "报告声称分析基于8篇文献摘要，但多处论述超出了摘要证据范围。例如，第2节中'多智能体协同与分布式决策'部分声称'这种分布式架构可能允许通过智能体间的校验与协商，来发现和纠正单个智能体可能引入的语义错误'，但证据[3][8]的摘要仅描述多智能体系统的存在和应用场景，并未提及任何关于校验、协商或纠正语义错误的具体机制或能力。",
+      "报告在'核心主题与证据'和'证据支持的研究方向'中进行了推断性连接，将一般性的智能体特征（如外部知识、多智能体、概率推理）与'避免语义错误'这一具体问题直接关联，但提供的证据并未支持这种具体关联。例如，证据[4]提到'外部大脑'用于解决复杂问题，但未说明其与避免语义错误的关系；证据[2]提到概率推理是下一代智能体的特征，但未阐述其如何应用于评估修复动作的语义风险。",
+      "报告结论部分（'谨慎结论'）的表述（'可能通过几种架构或能力层面的设计来降低引入新语义错误的风险'）是基于对证据的过度解读和推断，而非摘要中明确陈述的内容。摘要证据仅描述了智能体的某些架构或能力，但均未直接论证或暗示这些设计旨在或能够降低语义错误风险。"
+    ],
+    "citation_issues": [
+      "证据[5]和[7]在报告中未被引用以支持任何具体论点，仅在参考文献列表中列出，属于冗余引用。",
+      "报告第2节引用证据[6]支持'特定领域的约束满足'，但证据[6]的摘要仅提及'生成式基础模型即智能体方法、协作学习和知识转移'，未提及'满足严格的时延、能耗等约束'。约束满足的描述主要来自证据[8]。此处引用不准确。"
+    ],
+    "revision_instructions": [
+      "严格将报告中的所有主张和解释限定在证据摘要明确陈述的范围内。删除所有基于证据的推断、延伸或假设性连接，特别是那些将一般智能体特征与'避免语义错误'具体问题关联的论述。",
+      "重写'核心主题与证据'部分，使其仅总结证据摘要中实际描述的系统特征、方法或主张，而不添加关于这些特征如何应用于'避免语义错误'的解读。例如，仅说明证据[4]提到'外部大脑'用于处理复杂问题，证据[8]描述多智能体用于资源调度。",
+      "重写'证据支持的研究方向'和'谨慎结论'部分，明确指出现有摘要证据并未直接提出或支持任何与'避免引入新语义错误'具体相关的研究方向或结论。结论应强调证据的间接性和非针对性，而非提出基于推断的潜在方向。",
+      "修正引用问题：移除未被用于支持论点的冗余引用（如[5][7]），并确保所有引用准确反映对应证据摘要的内容。",
+      "在'摘要级证据的局限'部分，应更加强调所有证据均未直接讨论'受限修复中避免语义错误'这一核心问题，这是最主要的局限。"
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 6,
+        "major_issues": [
+          "报告声称分析基于8篇文献摘要，但多处论述超出了摘要证据范围。例如，第2节中'多智能体协同与分布式决策'部分声称'这种分布式架构可能允许通过智能体间的校验与协商，来发现和纠正单个智能体可能引入的语义错误'，但证据[3][8]的摘要仅描述多智能体系统的存在和应用场景，并未提及任何关于校验、协商或纠正语义错误的具体机制或能力。",
+          "报告在'核心主题与证据'和'证据支持的研究方向'中进行了推断性连接，将一般性的智能体特征（如外部知识、多智能体、概率推理）与'避免语义错误'这一具体问题直接关联，但提供的证据并未支持这种具体关联。例如，证据[4]提到'外部大脑'用于解决复杂问题，但未说明其与避免语义错误的关系；证据[2]提到概率推理是下一代智能体的特征，但未阐述其如何应用于评估修复动作的语义风险。",
+          "报告结论部分（'谨慎结论'）的表述（'可能通过几种架构或能力层面的设计来降低引入新语义错误的风险'）是基于对证据的过度解读和推断，而非摘要中明确陈述的内容。摘要证据仅描述了智能体的某些架构或能力，但均未直接论证或暗示这些设计旨在或能够降低语义错误风险。"
+        ],
+        "citation_issues": [
+          "证据[5]和[7]在报告中未被引用以支持任何具体论点，仅在参考文献列表中列出，属于冗余引用。",
+          "报告第2节引用证据[6]支持'特定领域的约束满足'，但证据[6]的摘要仅提及'生成式基础模型即智能体方法、协作学习和知识转移'，未提及'满足严格的时延、能耗等约束'。约束满足的描述主要来自证据[8]。此处引用不准确。"
+        ],
+        "revision_instructions": [
+          "严格将报告中的所有主张和解释限定在证据摘要明确陈述的范围内。删除所有基于证据的推断、延伸或假设性连接，特别是那些将一般智能体特征与'避免语义错误'具体问题关联的论述。",
+          "重写'核心主题与证据'部分，使其仅总结证据摘要中实际描述的系统特征、方法或主张，而不添加关于这些特征如何应用于'避免语义错误'的解读。例如，仅说明证据[4]提到'外部大脑'用于处理复杂问题，证据[8]描述多智能体用于资源调度。",
+          "重写'证据支持的研究方向'和'谨慎结论'部分，明确指出现有摘要证据并未直接提出或支持任何与'避免引入新语义错误'具体相关的研究方向或结论。结论应强调证据的间接性和非针对性，而非提出基于推断的潜在方向。",
+          "修正引用问题：移除未被用于支持论点的冗余引用（如[5][7]），并确保所有引用准确反映对应证据摘要的内容。",
+          "在'摘要级证据的局限'部分，应更加强调所有证据均未直接讨论'受限修复中避免语义错误'这一核心问题，这是最主要的局限。"
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.11968/tsyqb.1003-6938.2025001",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "title:building a secure agentic ai application leveraging a2a protocol|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.19678/j.issn.1000-3428.0069471"
+  ],
+  "top_papers": [
+    {
+      "title": "Agent kb: Leveraging cross-domain experience for agentic problem solving",
+      "year": 2025,
+      "journal": "X Tang, T Qin, T Peng, Z Zhou, D Shao, T Du… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 50,
+      "abstract": "… As artificial intelligence advances, language agents are … We propose the Agent Knowledge Base (AGENT KB), a hierarchical … All services used in this work rely on third-party API calls to …"
+    },
+    {
+      "title": "Next-generation agentic AI for transforming healthcare",
+      "year": "2025",
+      "journal": "Informatics and Health",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.infoh.2025.03.001",
+      "citations": 66,
+      "abstract": "Artificial Intelligence (AI) is transforming the healthcare landscape, yet many current applications remain narrowly task-specific, constrained by data complexity and inherent biases. This paper explores the emergence of next generation \"agentic AI\" systems, characterized by advanced autonomy, adaptability, scalability, and probabilistic reasoning, which address critical challenges in medical management. These systems enhance various aspects of healthcare, including diagnostics, clinical decision support, treatment planning, patient monitoring, administrative operations, drug discovery, and robotic-assisted surgery. Powered by multimodal AI, agentic systems integrate diverse data sources, iteratively refine outputs, and leverage vast knowledge bases to deliver context-aware, patient-centri"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "The Role Of Agentic Ai And Generative Ai In Transforming Modern Banking Services",
+      "year": 2025,
+      "journal": "A Todupunuri - American Journal of AI Cyber Computing Management, 2025 - ajaccm.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 67,
+      "abstract": "… There is a marked gap in the existing knowledge of the application of agentic AI to support decision-making, but literature also reveals a considerable advancement in applying AI in the …"
+    },
+    {
+      "title": "Toward agentic ai networking in 6g: A generative foundation model-as-agent approach",
+      "year": 2025,
+      "journal": "Y Xiao, G Shi, P Zhang - IEEE Communications Magazine, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 55,
+      "abstract": "… challenges and requirements of agentic AI networking. We … rative learning, and knowledge transfer among AI agents. We … al services, which involve a much wider range of knowledge …"
+    },
+    {
+      "title": "Building a secure agentic AI application leveraging A2A protocol",
+      "year": 2025,
+      "journal": "I Habler, K Huang, VS Narajala, P Kulkarni - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 52,
+      "abstract": "… Applications of agent communication range across enterprise knowledge management, customer service, supply chain management, healthcare, smart grids, autonomous vehicles, e-…"
+    },
+    {
+      "title": "空天地一体化算力网络资源调度机制",
+      "year": 2025,
+      "journal": "空天地一体化算力网络",
+      "source": "万方数据",
+      "doi": "10.19678/j.issn.1000-3428.0069471",
+      "citations": 45,
+      "abstract": "为满足卫星数据处理、车辆远程控制等快速响应和大范围覆盖的应用场景需求,聚焦于采用分层控制和人工智能技术的方法,设计一种空天地一体化算力网络资源调度机制.将空天地网络划分为3个域,分别部署域控制器,负责本地域的资源管理,同时通过卫星和无人机的覆盖范围进行地面区域划分,确保地面区域能够得到有效的服务保障,以实现高效的数据传输和任务处理.为了优化空天地算力网络资源利用率,引入多智能体强化学习算法,对 不同场景下产生的计算任务进行实时处理,将每个域控制器视为具备任务调度和资源分配能力的智能体,在满足时延和能耗的约束下,通过协同学习和分布式决策实现计算任务智能调度和高效分配.实验结果表明,该机制能够有效提高资源利用率和缩短任务响应时间. achieve effective <span class='highlight'>service</span> guarantees,efficient data transmission,and task processing.A <span class='highlight'>multi-agent</span> reinforcement learning-based scheduling algorithm is proposed to optimize resource utilization in  hierarchical control and artificial <span class='highlight'>intelligence</span> technology to design a resource scheduling mechanism for space-air-ground integrated computing power networks.Air,space,and ground networks ar"
+    }
+  ],
+  "elapsed_seconds": 148.306,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q50_method2_same_model_20260414_100008.md"
+}

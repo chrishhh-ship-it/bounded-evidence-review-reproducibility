@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "多智能协同系统的 reviewer agent 对最终报告质量能带来哪些可观察改进？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q07_baseline_a_20260410_185053.md"
+}

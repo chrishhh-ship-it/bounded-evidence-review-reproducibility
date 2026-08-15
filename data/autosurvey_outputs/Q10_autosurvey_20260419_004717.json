@@ -1,0 +1,178 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "如何评估智慧情报服务中 query expansion 的收益与风险？",
+  "effective_search_query": "query expansion evaluation benefits risks intelligent information services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.1016/j.apmrv.2021.04.001",
+    "doi:10.1016/j.crm.2021.100304",
+    "doi:10.1109/sisy62279.2024.10737601",
+    "doi:10.5194/egusphere-egu26-2819",
+    "doi:10.1016/j.tra.2020.01.007",
+    "doi:10.3389/fdata.2019.00045",
+    "doi:10.1109/iccas.2016.7832322",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "doi:10.1145/3663529.3663841",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.7176/ikm/11-4-05",
+    "doi:10.1109/comst.2023.3338153",
+    "doi:10.1080/19368623.2020.1721394",
+    "doi:10.1002/ajae.12089",
+    "doi:10.1109/tii.2020.3046028"
+  ],
+  "top_papers": [
+    {
+      "title": "Effect of customization, core self-evaluation, and information richness on trust in online insurance service: Intelligent agent as a moderating variable",
+      "year": "2021",
+      "journal": "Asia Pacific Management Review",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.apmrv.2021.04.001",
+      "citations": 28,
+      "abstract": "The study explores trust in the online insurance industry and examines the moderating effect of intelligent agents on customization, core self-evaluation, and information richness on trust. Data were collected online from a total of 606 valid questionnaires. Structured equation modeling is employed to confirm the proposed model. The results show that customization, core self-evaluation (CSE) and information richness have a significant, positive causal influence on trust. Intelligent agent moderates positively the relationship between core self-evaluation, information richness and trust. However, it does not show to moderate the relationships between customization and trust. This study introduces “intelligent agent” as a moderating variable. The intelligent agent positively moderates trust "
+    },
+    {
+      "title": "Improving the effectiveness of agricultural extension services in supporting farmers to adapt to climate change: Insights from northeastern Ghana",
+      "year": "2021",
+      "journal": "Climate Risk Management",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.crm.2021.100304",
+      "citations": 279,
+      "abstract": "The importance of extension services in helping smallholder farmers to address the many challenges of agricultural production cannot be over-emphasized. However, relatively few studies have been conducted that investigate how the capacities of agricultural extension agents can be built to more effectively assist smallholder farmers in managing climate risks and impacts. As climate change is a key threat to smallholder food production, addressing this issue is increasingly important. This paper aims to identify how agricultural extension agents in Ghana can better support smallholder farmers in navigating and addressing the effects of climate change on food production. It asks: (i) what are the sources of information used by agricultural extension agents in Ghana’s Upper East region? (ii) w"
+    },
+    {
+      "title": "An Intelligent LLM-Powered Personalized Assistant for Digital Banking Using LangGraph and Chain of Thoughts",
+      "year": "2024",
+      "journal": "OpenAlex",
+      "source": "OpenAlex",
+      "doi": "10.1109/sisy62279.2024.10737601",
+      "citations": 18,
+      "abstract": "Text-based applications and chatbots are increasingly popular for delivering banking services and educational tools, offering convenient and efficient solutions for users. Whereas, personalized assistants have transformed user engagement in the digital banking space by utilizing Large Language Models (LLMs) in conjunction with autonomous agents. This study proposes the development of an intelligent personalized assistant for digital banking, utilizing a multi-agent framework based on the LangGraph and Chain of Thoughts (COT) prompting. While COT guarantees context-aware replies, the LangGraph design maps characteristics to nodes to improve user interactions. The objectives of this system are to enhance task efficiency and elevate the capabilities of digital banking assistants. We present a"
+    },
+    {
+      "title": "Climate Service Recipes: automatic multi-hazard climate information workflow generation using agentic Large Language Models (LLMs) and knowledge graphs",
+      "year": "2026",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.5194/egusphere-egu26-2819",
+      "citations": 0,
+      "abstract": "Climate Service Recipes (HACID-CSR) is an agentic system designed to assist providers of climate services in developing their advice for a wide range of clients. HACID-CSR guides providers by navigating the large and ever-increasing corpus of knowledge as well as an area without established standards and with limited access to scientific experts. It automatically generates detailed workflows (or “recipes”) by leveraging both a large language model’s internal reasoning and contextual knowledge from a domain knowledge graph for climate services (CS-DKG). The CS-DKG is an expert-curated ontology of climate service concepts with mapped relationships between climate variables, emission scenarios, indices, hazards, sectors, and key datasets (CORDEX, CMIP5, UKCP18), built as part of the Horizon E"
+    },
+    {
+      "title": "The role of information availability to passengers in public transport disruptions: An agent-based simulation approach",
+      "year": "2020",
+      "journal": "Transportation Research Part A Policy and Practice",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.tra.2020.01.007",
+      "citations": 60,
+      "abstract": "In public transport disruptions, a key relation between the services of operating company and passengers’ satisfaction is the disseminated information. This paper proposes rigorous mathematical descriptions to describe the effects of information availability to passengers, including the user equilibrium and non-equilibrium solutions. The information availability in disruption is summarised in a “who-when-where-what” four-dimensional framework. Based on different information, passengers’ behaviours are assumed and simulated to evaluate the benefits of information availability in public transport disruption. An agent-based micro-simulation model (MATSim) is applied for the city of Zürich, Switzerland, for the benefit of activity-based simulation in a multi-modal network. We use an existing d"
+    },
+    {
+      "title": "A Review of Microsoft Academic Services for Science of Science Studies",
+      "year": "2019",
+      "journal": "Frontiers in Big Data",
+      "source": "OpenAlex",
+      "doi": "10.3389/fdata.2019.00045",
+      "citations": 144,
+      "abstract": "Since the relaunch of Microsoft Academic Services (MAS) 4 years ago, scholarly communications have undergone dramatic changes: more ideas are being exchanged online, more authors are sharing their data, and more software tools used to make discoveries and reproduce the results are being distributed openly. The sheer amount of information available is overwhelming for individual humans to keep up and digest. In the meantime, artificial intelligence (AI) technologies have made great strides and the cost of computing has plummeted to the extent that it has become practical to employ intelligent agents to comprehensively collect and analyze scholarly communications. MAS is one such effort and this paper describes its recent progresses since the last disclosure. As there are plenty of independe"
+    },
+    {
+      "title": "Intelligent UAV in smart cities using IoT",
+      "year": "2016",
+      "journal": "OpenAlex",
+      "source": "OpenAlex",
+      "doi": "10.1109/iccas.2016.7832322",
+      "citations": 79,
+      "abstract": "The concept of a Smart City is becoming an increasingly important research area around the world. The amount of information collected and the number of stationary sensors, surveillance cameras and other devices that need to be places in a smart city is so vast that using a mobile platform to replace them can reduce the cost in both energy and resources. This paper proposes an open source intelligent IoT platform that would allow implementation of various Smart City services such as: smart home, smart unmanned aerial vehicle, smart energy grid, smart transportation systems and other possible future services that will evolve along with the consumer demand. A smart platform is enabled by Machine-to-Machine communications and multi-agent system architecture. Such a platform will allow solving "
+    },
+    {
+      "title": "生成式人工智能驱动下智慧图书馆信息搜索的技术框架及服务模式研究",
+      "year": 2025,
+      "journal": "专栏:中国特色图书情报学",
+      "source": "万方数据",
+      "doi": "10.13530/j.cnki.jlis.2025041",
+      "citations": 52,
+      "abstract": "在生成式人工智能技术快速发展的背景下,用户的信息需求和信息行为日益多样化和复杂化,智慧图书馆的信息供给模式需要从\"被动响应\"转变为\"主动出击\"、从\"静态适配\"过渡到\"动态服务\".借助以大语言模型为代表的生成式人工智能技术强大的自然语言处理、多模态数据整合及知识生成能力,智慧图书馆信息搜索服务可以向个性化、精准化和智慧化服务模式转型.本文首先系统梳理传统信息检索、语义检索和GenAI驱动的生成式 信息搜索三种不同检索范式的功能及特征演变;其次,基于CASA范式和社会技术系统视角构建以大语言模型智能体为支撑的智慧图书馆生成式信息搜索技术框架,该框架支持多场景下人智协同的信息搜索认知构建;最后,从场景解构、关键支撑和服务目标三个角度提出了\"意图感知+认知建构+内容生成\"的智慧图书馆人智协同的信息搜索服务模式.本研究提出的技术框架和服务模式促进了信息服务从工具型向协同型的范式转变,强化了智慧图书馆 从工具型服务向认知增益型服务体系的转型,为未来智慧图书馆知识搜索体系的构建提供了新思路.图3.表2.参考文献37. query formulation,and result presentation.It then,drawing on the Computers Are Social Actors(CASA)paradigm and a sociotechnical system perspective,proposes an <span class='highlight'>LLM</span> <span class='highlight'>Agent</span> framework that orchestrates  the classical four <span class='highlight'>information</span> <span class='highli"
+    },
+    {
+      "title": "Exploring LLM-Based Agents for Root Cause Analysis",
+      "year": "2024",
+      "journal": "OpenAlex",
+      "source": "OpenAlex",
+      "doi": "10.1145/3663529.3663841",
+      "citations": 48,
+      "abstract": "The growing complexity of cloud based software systems has resulted in incident management becoming an integral part of the software development lifecycle. Root cause analysis (RCA), a critical part of the incident management process, is a demanding task for on-call engineers, requiring deep domain knowledge and extensive experience with a team’s specific services. Automation of RCA can result in significant savings of time, and ease the burden of incident management on on-call engineers. Recently, researchers have utilized Large Language Models (LLMs) to perform RCA, and have demonstrated promising results. However, these approaches are not able to dynamically collect additional diagnostic information such as incident related logs, metrics or databases, severely restricting their ability "
+    },
+    {
+      "title": "Dynamic UAV Deployment for Differentiated Services: A Multi-Agent Imitation Learning Based Approach",
+      "year": "2021",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "source": "OpenAlex",
+      "doi": "10.1109/tmc.2021.3116236",
+      "citations": 117,
+      "abstract": "Unmanned Aerial Vehicles (UAVs) have been utilized to serve on-ground users with various services, e.g., computing, communication and caching, due to their mobility and flexibility. The main focus of many recent studies on UAVs is to deploy a set of homogeneous UAVs with identical capabilities controlled by one UAV owner/company to provide services. However, little attention has been paid to the issue of how to enable different UAV owners to provide services with differentiated service capabilities in a shared area. To address this issue, we propose a multi-agent imitation learning enabled UAV deployment approach to maximize both profits of UAV owners and utilities of on-ground users. Specially, a Markov game is formulated among UAV owners and we prove that a Nash equilibrium exists based "
+    },
+    {
+      "title": "Intelligent agent based-Real time monitoring and Evaluation of GSM quality of service",
+      "year": "2021",
+      "journal": "Information and Knowledge Management",
+      "source": "CrossRef",
+      "doi": "10.7176/ikm/11-4-05",
+      "citations": 0,
+      "abstract": ""
+    },
+    {
+      "title": "AI-Enhanced Cloud-Edge-Terminal Collaborative Network: Survey, Applications, and Future Directions",
+      "year": "2023",
+      "journal": "IEEE Communications Surveys & Tutorials",
+      "source": "OpenAlex",
+      "doi": "10.1109/comst.2023.3338153",
+      "citations": 70,
+      "abstract": "The cloud-edge-terminal collaborative network (CETCN) is considered as a novel paradigm for emerging applications owing to its huge potential in providing low-latency and ultra-reliable computing services. However, achieving such benefits is very challenging due to the heterogeneous computing power of terminal devices and the complex environment faced by the CETCN. In particular, the high-dimensional and dynamic environment states cause difficulties for the CETCN to make efficient decisions in terms of task offloading, collaborative caching and mobility management. To this end, artificial intelligence (AI), especially deep reinforcement learning (DRL) has been proven effective in solving sequential decision-making problems in various domains, and offers a promising solution for the above-m"
+    },
+    {
+      "title": "Artificially intelligent device use in service delivery: a systematic review, synthesis, and research agenda",
+      "year": "2020",
+      "journal": "Journal of Hospitality Marketing & Management",
+      "source": "OpenAlex",
+      "doi": "10.1080/19368623.2020.1721394",
+      "citations": 296,
+      "abstract": "This study undertakes a systematic review of Artificial Intelligence and its applications to service encounters and the hospitality industry by reviewing publications that (1) mainly discuss AI technology, (2) are in the context of services, and (3) investigate the use or the adoption of AI technology rather than technical issues such as system design, algorithms, voice recognition modules, or psychological knowledge representations. Seven major themes are identified via a review of 63 publications. The themes are (1) current AI technology in service frontline, (2) levels of artificial intelligence, (3) AI agents, (4) human–AI service encounters, (5) theoretical frameworks of the acceptance of AI, (6) reasons for adopting AI, and (7) potential challenges of AI. This study also offers a fur"
+    },
+    {
+      "title": "Information and Communication Technologies to Provide Agricultural Advice to Smallholder Farmers: Experimental Evidence from Uganda",
+      "year": "2020",
+      "journal": "American Journal of Agricultural Economics",
+      "source": "OpenAlex",
+      "doi": "10.1002/ajae.12089",
+      "citations": 174,
+      "abstract": "Agricultural advisory services generally rely on interpersonal knowledge transfers by agricultural extension agents who visit farmers to provide information. This approach is not always effective and has proved hard to scale sustainably, particularly in highly dispersed smallholder farming systems. Information and communication technologies (ICTs) have been advanced as a promising way to overcome many of the problems associated with conventional agricultural extension. We evaluate the effectiveness of an ICT‐mediated approach to deliver agricultural information in a field experiment conducted among small‐scale maize farmers in eastern Uganda. Three complementary technologies designed to address both informational and behavioral constraints to technical change are considered. First, we inve"
+    },
+    {
+      "title": "When Information Freshness Meets Service Latency in Federated Learning: A Task-Aware Incentive Scheme for Smart Industries",
+      "year": "2020",
+      "journal": "IEEE Transactions on Industrial Informatics",
+      "source": "OpenAlex",
+      "doi": "10.1109/tii.2020.3046028",
+      "citations": 78,
+      "abstract": "For several industrial applications, a sole data owner may lack sufficient training samples to train effective machine learning based models. As such, we propose a federated learning (FL) based approach to promote privacy-preserving collaborative machine learning for applications in smart industries. In our system model, a model owner initiates an FL task involving a group of workers, i.e., data owners, to perform model training on their locally stored data before transmitting the model updates for aggregation. There exists a tradeoff between service latency, i.e., the time taken for the training request to be completed, and age of information (AoI), i.e., the time elapsed between data aggregation from the deployed industrial Internet of Things devices to completion of the FL-based trainin"
+    }
+  ],
+  "outline": "# 智慧情报服务中查询扩展的收益与风险评估：一个综合框架与多学科视角\n\n## 1. 引言：智慧情报服务、查询扩展与评估挑战\n*概述智慧情报服务的发展背景与核心需求，界定查询扩展（Query Expansion）技术在其中扮演的关键角色。阐述在个性化服务（如数字银行、气候咨询）背景下，对查询扩展的收益与风险进行系统性、多维度评估的紧迫性、复杂性与核心挑战。*\n\n### 1.1 智慧情报服务的发展背景与核心需求\n*概述智慧情报服务在生成式人工智能、多智能体系统等技术驱动下的演进，及其在金融、气候、应急管理等关键领域应对复杂、个性化信息需求的核心使命，强调从被动响应到主动、动态服务转型的必然性。*\n\n### 1.2 查询扩展（Query Expansion）的角色界定与技术演进\n*界定查询扩展在智慧情报服务信息检索流程中的关键作用，分析其从传统语义检索到由大语言模型智能体（LLM Agent）驱动的生成式、协同式扩展的技术范式转变，及其对实现精准意图理解与认知构建的支撑。*\n\n### 1.3 个性化服务场景下的评估挑战与紧迫性\n*结合数字银行、气候咨询等具体应用场景，阐述对查询扩展的收益与风险进行系统性评估的紧迫性，分析其面临的复杂性，包括技术效能、系统协同、用户体验及社会伦理等多维度交织的核心挑战。*\n\n## 2. 技术基础：驱动查询扩展的智能架构\n*分析支撑智慧情报服务中动态、协同查询扩展过程的核心技术架构，包括以大语言模型智能体（LLM Agent）、多智能体系统及多模态框架，阐明其如何实现查询的扩展与优化。*\n\n### 2.1 核心引擎：大语言模型智能体（LLM Agent）的查询理解与生成\n*阐述大语言模型智能体作为查询扩展核心引擎的作用，分析其如何通过自然语言理解、上下文推理（如思维链）及知识生成能力，将用户初始查询意图转化为更丰富、更精确的查询表述，为后续的检索与协同处理奠定基础。*\n\n### 2.2 协同架构：多智能体系统的动态任务编排与冲突消解\n*分析多智能体系统框架（如LangGraph）如何通过角色化智能体（如检索、分析、验证智能体）的协同工作，实现查询扩展任务的动态分解、执行与结果整合，并探讨在此过程中可能出现的协同冲突与系统脆弱性问题。*\n\n### 2.3 情境融合：多模态与跨领域信息集成框架\n*探讨支撑查询扩展的多模态信息集成框架，阐明其如何整合文本、日志、指标、数据库等异构数据源，以及如何结合具体服务场景（如金融、气候、图书馆），实现查询扩展与情境的动态适配，以增强服务的精准性与场景适应性。*\n\n## 3. 收益维度：服务效能、用户体验与认知增益\n*系统阐述查询扩展带来的核心收益，包括提升信息检索的查全率与精准度、增强服务的个性化与场景适应性、优化任务效率与资源调度，以及通过人智协同促进用户信任、满意度与决策支持效果。*\n\n### 3.1 提升信息检索效能：查全率、精准度与任务效率\n*阐述查询扩展如何通过理解用户深层意图和上下文，显著提升信息检索的查全率与精准度，并优化任务执行效率与资源调度，如在云边端协同网络中进行高效的任务卸载与缓存决策。*\n\n### 3.2 增强服务个性化与场景适应性\n*分析查询扩展如何基于用户画像、实时情境与多模态数据，实现服务的动态个性化定制与跨场景（如气候咨询、交通调度）的智能适配，从而提供更精准、主动的智慧情报服务。*\n\n### 3.3 促进人智协同与认知增益\n*探讨查询扩展通过构建人机协同的认知框架，如何辅助用户进行更深入的决策分析（如根因分析），并在此过程中提升用户对服务的信任度、满意度及整体决策支持效果。*\n\n## 4. 风险维度：技术局限、系统脆弱性与社会伦理挑战\n*深入探讨查询扩展可能引发的多重风险，包括技术层面的语义漂移、信息过载、计算与通信开销；系统层面的多智能体协同冲突与脆弱性；以及社会伦理层面的信息偏差、隐私安全、对智能代理的过度依赖及用户信任与接受度问题。*\n\n### 4.1 技术局限：语义漂移、信息过载与资源开销\n*分析查询扩展在技术实现层面的固有风险，包括因扩展不当导致的查询意图偏离（语义漂移）、返回信息过多或无关造成用户认知负担（信息过载），以及在大规模或实时服务中引发的显著计算、存储与通信资源开销。*\n\n### 4.2 系统脆弱性：多智能体协同冲突与架构风险\n*探讨在基于多智能体（如LLM Agent）或云-边-端协同的智慧情报服务架构中，查询扩展过程可能引发的系统级风险，包括智能体间目标冲突、决策不一致、协同失效，以及由此带来的服务可靠性、鲁棒性和整体架构脆弱性问题。*\n\n### 4.3 社会伦理挑战：信息偏差、隐私安全与代理依赖\n*审视查询扩展技术在社会与伦理维度引发的潜在挑战，重点分析因训练数据或算法偏见导致的信息内容偏差、扩展过程中可能涉及的用户隐私与数据安全问题，以及用户可能对智能代理产生过度依赖，进而影响其自主判断能力与信任度。*\n\n## 5. 综合评估框架与未来研究方向\n*提出一个整合收益与风险的多维度评估框架，涵盖信息新鲜度、服务延迟、采纳效果等指标。基于现有技术局限与应用挑战，指出未来在跨领域应用验证、动态评估方法、人机协同机制及理论模型深化等方面的关键研究路径。*\n\n### 5.1 整合收益与风险的多维度评估框架构建\n*提出一个面向智慧情报服务查询扩展的综合评估框架，该框架整合技术效能（如查全率、精准度）、系统性能（如服务延迟、计算开销）、用户体验（如满意度、认知增益）及社会伦理（如信息偏差、隐私安全）等多维度指标，并借鉴相关研究中的“四维”信息框架与系统视角，以量化与质化相结合的方式衡量其净收益。*\n\n### 5.2 关键评估指标与动态测量方法\n*深入阐述评估框架中的核心操作性指标，如信息新鲜度、任务完成效率、多智能体协同稳定性、用户采纳意愿等。探讨如何结合多智能体仿真、在线学习等技术，实现对查询扩展效果在动态、复杂环境下的实时或近实时评估，以应对服务场景的持续演化。*\n\n### 5.3 跨领域应用验证与挑战\n*基于农业推广、公共交通、云边协同等不同领域的案例，分析所提评估框架在具体智慧情报服务场景（如气候咨询、故障诊断、个性化推荐）中的适用性与验证挑战。讨论领域特异性需求如何影响评估指标的选择与权重，以及跨领域普适性框架构建的难点。*\n\n### 5.4 未来研究方向与理论深化路径\n*指出未来研究的关键路径，包括：开发更健壮的人智协同机制以平衡自动化与人工控制；深化多智能体系统中查询扩展的理论模型，以解释和预测协同冲突与语义漂移；推动评估方法从静态 snapshot 向贯穿服务生命周期的动态、长期追踪演进，以全面理解其长期收益与风险。*",
+  "cited_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    12
+  ],
+  "elapsed_seconds": 388.372,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q10_autosurvey_20260419_004717.md"
+}

@@ -1,0 +1,122 @@
+{
+  "seed": 42,
+  "sampled_qids": [
+    "Q02",
+    "Q233",
+    "Q12",
+    "Q183",
+    "Q129",
+    "Q184",
+    "Q229",
+    "Q133",
+    "Q064",
+    "Q121"
+  ],
+  "bundles": [
+    {
+      "qid": "Q02",
+      "domain": "多智能体情报服务",
+      "query": "多智能体协同在竞争情报检索与证据聚合中的核心收益是什么？",
+      "label_to_system": {
+        "①": "C",
+        "②": "B",
+        "③": "A"
+      }
+    },
+    {
+      "qid": "Q233",
+      "domain": "气候政策研究",
+      "query": "How should a synthesis agent distinguish between descriptive stakeholder mapping and normative governance design recommendations in its bibliography?",
+      "label_to_system": {
+        "①": "C",
+        "②": "A",
+        "③": "B"
+      }
+    },
+    {
+      "qid": "Q12",
+      "domain": "多智能体情报服务",
+      "query": "Google Scholar、OpenAlex、CrossRef、Scopus 在智慧情报服务中各自适合承担什么角色？",
+      "label_to_system": {
+        "①": "C",
+        "②": "B",
+        "③": "A"
+      }
+    },
+    {
+      "qid": "Q183",
+      "domain": "生物医学证据综合",
+      "query": "How should clinical NLP systems cite de-identification decisions when those decisions affect the representativeness of extracted evidence?",
+      "label_to_system": {
+        "①": "B",
+        "②": "A",
+        "③": "C"
+      }
+    },
+    {
+      "qid": "Q129",
+      "domain": "数字人文",
+      "query": "How should a literature synthesis system handle contradictory centrality rankings produced by different network construction choices?",
+      "label_to_system": {
+        "①": "B",
+        "②": "C",
+        "③": "A"
+      }
+    },
+    {
+      "qid": "Q184",
+      "domain": "生物医学证据综合",
+      "query": "What corpus construction requirements ensure that clinical NLP training data can serve as frozen-corpus retrieval evidence?",
+      "label_to_system": {
+        "①": "B",
+        "②": "C",
+        "③": "A"
+      }
+    },
+    {
+      "qid": "Q229",
+      "domain": "气候政策研究",
+      "query": "How should a synthesis agent cite evidence on public acceptance of climate policies when the cited surveys used different framing of the same policy?",
+      "label_to_system": {
+        "①": "C",
+        "②": "B",
+        "③": "A"
+      }
+    },
+    {
+      "qid": "Q133",
+      "domain": "数字人文",
+      "query": "What corpus design principles prevent multimodal DH corpora from being dominated by well-digitized, high-resource materials?",
+      "label_to_system": {
+        "①": "A",
+        "②": "C",
+        "③": "B"
+      }
+    },
+    {
+      "qid": "Q064",
+      "domain": "多智能体情报服务",
+      "query": "多智能体文献综述管线中，Screening 角色的打分标准如何与 Synthesis 的引用精度对齐？",
+      "label_to_system": {
+        "①": "C",
+        "②": "B",
+        "③": "A"
+      }
+    },
+    {
+      "qid": "Q121",
+      "domain": "数字人文",
+      "query": "What citation frameworks exist for crediting indigenous communities as co-creators of digital cultural heritage corpora?",
+      "label_to_system": {
+        "①": "B",
+        "②": "C",
+        "③": "A"
+      }
+    }
+  ],
+  "system_legend": {
+    "A": "naive_RAG_M1  (expected worst)",
+    "B": "same_model_ARL_M2b (middle)",
+    "C": "cross_model_CDMA_ARL_M2a (expected best)"
+  }
+}

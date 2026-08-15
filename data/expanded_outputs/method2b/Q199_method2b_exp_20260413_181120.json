@@ -1,0 +1,237 @@
+{
+  "query_id": "Q199",
+  "query": "How should an AI-assisted systematic review report uncertainty bounds on its pooled estimates when the corpus covers only a fraction of eligible studies?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Factors That Influence the Adoption of AI-enabled Conversational Agents (AICAs) as an Augmenting Therapeutic Tool by Frontline Healthcare Workers: From Technology Acceptance Model 3 (TAM3) Lens -- A Systematic Mapping Review",
+      "authors": [
+        "Rawan AlMakinah"
+      ],
+      "abstract": "Artificial intelligent (AI) conversational agents hold a promising future in the field of mental health, especially in helping marginalized communities that lack access to mental health support services. It is tempting to have a 24/7 mental health companion that can be accessed anywhere using mobile phones to provide therapist-like advice. Yet, caution should be taken, and studies around their feasibility need to be surveyed. Before adopting such a rapidly changing technology, studies on its feasibility should be explored, summarized, and synthesized to gain a solid understanding of the status quo and to enable us to build a framework that can guide us throughout the development and deployment processes. Different perspectives must be considered when investigating the feasibility of AI conversational agents, including the mental healthcare professional perspective. The literature can provide insights into their perspectives in terms of opportunities, concerns, and implications. Mental health professionals, the subject-matter experts in this field, have their points of view that should be understood and considered. This systematic literature review will explore mental health practitioners' attitudes toward AI conversational agents and the factors that affect their adoption and recommendation of the technology to augment their services and treatments. The TAM3 Framework will be the lens through which this systematic literature review will be conducted.",
+      "year": "2025",
+      "published_date": "2025-01-26",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2504.13183v1",
+      "arxiv_id": "2504.13183v1",
+      "keywords": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent survey"
+    },
+    {
+      "title": "The emergence of large language models as tools in literature reviews: a large language model-assisted systematic review.",
+      "authors": [
+        "Dmitry Scherbakov",
+        "Nina Hubig",
+        "Vinita Jansari",
+        "Alexander Bakumenko",
+        "Leslie A Lenert"
+      ],
+      "abstract": "This study aims to summarize the usage of large language models (LLMs) in the process of creating a scientific review by looking at the methodological papers that describe the use of LLMs in review automation and the review papers that mention they were made with the support of LLMs. The search was conducted in June 2024 in PubMed, Scopus, Dimensions, and Google Scholar by human reviewers. Screening and extraction process took place in Covidence with the help of LLM add-on based on the OpenAI GPT-4o model. ChatGPT and Scite.ai were used in cleaning the data, generating the code for figures, and drafting the manuscript. Of the 3788 articles retrieved, 172 studies were deemed eligible for the final review. ChatGPT and GPT-based LLM emerged as the most dominant architecture for review automation (n = 126, 73.2%). A significant number of review automation projects were found, but only a limited number of papers (n = 26, 15.1%) were actual reviews that acknowledged LLM usage. Most citations focused on the automation of a particular stage of review, such as Searching for publications (n = 60, 34.9%) and Data extraction (n = 54, 31.4%). When comparing the pooled performance of GPT-based and BERT-based models, the former was better in data extraction with a mean precision of 83.0% (SD = 10.4) and a recall of 86.0% (SD = 9.8). Our LLM-assisted systematic review revealed a significant number of research projects related to review automation using LLMs. Despite limitations, such as lower accuracy of extraction for numeric data, we anticipate that LLMs will soon change the way scientific reviews are conducted.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Journal of the American Medical Informatics Association : JAMIA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40332983/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Systematic Reviews as Topic",
+        "Review Literature as Topic",
+        "Programming Languages",
+        "Information Storage and Retrieval",
+        "Large Language Models"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1093/jamia/ocaf063",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models systematic review"
+    },
+    {
+      "title": "Computational-Assisted Systematic Review and Meta-Analysis (CASMA): Effect of a Subclass of GnRH-a on Endometriosis Recurrence",
+      "authors": [
+        "Sandro Tsang"
+      ],
+      "abstract": "Background: Evidence synthesis facilitates evidence-based medicine. This task becomes increasingly difficult to accomplished with applying computational solutions, since the medical literature grows at astonishing rates. Objective: This study evaluates an information retrieval-driven workflow, CASMA, to enhance the efficiency, transparency, and reproducibility of systematic reviews. Endometriosis recurrence serves as the ideal case due to its complex and ambiguous literature. Methods: The hybrid approach integrates PRISMA guidelines with fuzzy matching and regular expression (regex) to facilitate semi-automated deduplication and filtered records before manual screening. The workflow synthesised evidence from randomised controlled trials on the efficacy of a subclass of gonadotropin-releasing hormone agonists (GnRH-a). A modified splitting method addressed unit-of-analysis errors in multi-arm trials. Results: The workflow sharply reduced the screening workload, taking only 11 days to fetch and filter 33,444 records. Seven eligible RCTs were synthesized (841 patients). The pooled random-effects model yielded a Risk Ratio (RR) of $0.64$ ($95\\%$ CI $0.48$ to $0.86$), demonstrating a $36\\%$ reduction in recurrence, with non-significant heterogeneity ($I^2=0.00\\%$, $\\tau^2=0.00$). The findings were robust and stable, as they were backed by sensitivity analyses. Conclusion: This study demonstrates an application of an information-retrieval-driven workflow for medical evidence synthesis. The approach yields valuable clinical results and a generalisable framework to scale up the evidence synthesis, bridging the gap between clinical research and computer science.",
+      "year": "2025",
+      "published_date": "2025-09-20",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/08c29675213944609f275fcd664fb3b7310b5e7c",
+      "arxiv_id": "2509.16599",
+      "keywords": [
+        "Computer Science",
+        "Mathematics"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2509.16599",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Artificial Intelligence-Assisted Energy and Thermal Comfort Control for Sustainable Buildings: An Extended Representation of the Systematic Review",
+      "authors": [
+        "Ghezlane Halhoul Merabet",
+        "Mohamed Essaaidi",
+        "Mohamed Ben-Haddou",
+        "Basheer Qolomany",
+        "Junaid Qadir",
+        "Muhammad Anan",
+        "Ala Al-Fuqaha",
+        "Riduan Mohamed Abid",
+        "Driss Benhaddou"
+      ],
+      "abstract": "Different factors such as thermal comfort, humidity, air quality, and noise have significant combined effects on the acceptability and quality of the activities performed by the building occupants who spend most of their times indoors. Among the factors cited, thermal comfort, which contributes to the human well-being because of its connection with the thermoregulation of the human body. Therefore, the creation of thermally comfortable and energy efficient environments is of great importance in the design of the buildings and hence the heating, ventilation and air-conditioning systems. Recent works have been directed towards more advanced control strategies, based mainly on artificial intelligence which has the ability to imitate human behavior. This systematic literature review aims to provide an overview of the intelligent control strategies inside building and to investigate their ability to balance thermal comfort and energy efficiency optimization in indoor environments. Methods. A systematic literature review examined the peer-reviewed research works using ACM Digital Library, Scopus, Google Scholar, IEEE Xplore (IEOL), Web of Science, and Science Direct (SDOL), besides other sources from manual search. With the following string terms: thermal comfort, comfort temperature, preferred temperature, intelligent control, advanced control, artificial intelligence, computational intelligence, building, indoors, and built environment. Inclusion criteria were: English, studies monitoring, mainly, human thermal comfort in buildings and energy efficiency simultaneously based on control strategies using the intelligent approaches. Preferred Reporting Items for Systematic Reviews and Meta-Analysis guidelines were used. Initially, 1,077 articles were yielded, and 120 ultimately met inclusion criteria and were reviewed.",
+      "year": "2020",
+      "published_date": "2020-06-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2006.12559v2",
+      "arxiv_id": "2006.12559v2",
+      "keywords": [
+        "eess.SP",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent literature review"
+    },
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Time to challenge the spurious hierarchy of systematic over narrative reviews?",
+      "authors": [
+        "Trisha Greenhalgh",
+        "Sally Thorne",
+        "Kirsti Malterud"
+      ],
+      "abstract": "Cynthia Mulrow's important paper calling for literature reviews to be undertaken more systematically (and hence be more informative and reliable) is now 30 years old.1 A recent paper in BMC Medical Research Methodology compared the proportion of reviews that were systematic (as opposed to narrative) in five leading biomedical journals.2 The authors found significant diversity: from New England Journal of Medicine (0%) and Lancet (11%) to Annals of Internal Medicine (72%). Systematic reviews were assumed by the authors to be superior because they are (i) more likely to have a focused research question, (ii) more methodologically explicit and (iii) less likely to be biased than narrative reviews. This stance reflects the raison d’être of the Cochrane Collaboration, whose use of explicit and auditable quality criteria for undertaking systematic reviews has inspired a weighty methodological handbook,3 numerous tools and checklists4, 5 and structured reporting criteria.6 There is strong emphasis on methodological reproducibility, with the implication that a different review team, using the same search criteria, quality checklists and synthesis tools, should obtain the same result.3 Yet leading medical journals regularly publish clinical topic reviews that may lack a focused research question, methods section or statement on how studies were selected and analysed (see for example7-9). These narrative reviews typically draw on expert opinion by deliberately recruiting leading names in the field (eg “The aim of this Commission is to provide the strongest evidence base through involvement of experts from a wide cross-section of disciplines…”—page 1953, emphasis added8). Reviews crafted through the experience and judgement of experts are often viewed as untrustworthy (“eminence-based” is a pejorative term). Yet the classical definition of the EBM as “the conscientious, explicit, and judicious use of current best evidence …” (page 71, emphasis added)10 suggests a key role for judgement in the selection and interpretation of evidence. In short, there appears to be a growing divergence between the assumed “hierarchy” of evidence in secondary research, which defines systematic reviews as superior,11 and what some leading academic journals view as a state-of-the-art (that is, expert-led narrative) review. We believe this is partly because the systematic review format has been erroneously defined as a universal gold standard and partly because the term “narrative review” is frequently misunderstood, misapplied and unfairly dismissed. Systematic reviews in the Cochrane sense use a highly technical approach to identification, appraisal and synthesis of evidence and typically (although not invariably) privilege randomised controlled trials or previous systematic reviews over other forms of evidence.11 This may be entirely appropriate—especially when the primary purpose is to answer a very specific question about how to treat a particular disease in a particular target group. But the doctor in the clinic, the nurse on the ward or the social worker in the community will encounter patients with a wide diversity of health states, cultural backgrounds, illnesses, sufferings and resources.12 And those who gather around the policymaking table will find multiple calls on their attention—including burden of need, local availability of different treatments, personal testimony, strength of public opinion and budgetary realities. To produce a meaningful synthesis of research evidence relevant to such complex situations, the reviewer must (i) incorporate a broad range of knowledge sources and strategies for knowing and (ii) undertake multi-level interpretation using creativity and judgement.12, 13 We align with previous authors, who, drawing on Wittgenstein, distinguish between puzzles or problems that require data (for which a conventional systematic review, with meta-analysis where appropriate, may be the preferred methodology) and those that require clarification and insight (for which a more interpretive and discursive synthesis of existing literature is needed).14, 15 Below, we explore both strengths, limitations and conceptual confusions of systematic and narrative reviews. We consider three questions: what makes a review systematic; what is a narrative review and whether these different kinds of review should be viewed as competing or complementary. The defining characteristic of a systematic review in the Cochrane sense is the use of a predetermined structured method to search, screen, select, appraise and summarise study findings to answer a narrowly focused research question.3, 16 Using an exhaustive search methodology, the reviewer extracts all possibly relevant primary studies, and then limits the dataset using explicit inclusion and exclusion criteria. The review focus is highly circumscribed and quality criteria are tightly enforced. Typically, a body of hundreds or thousands of potential studies identified in the initial search is whittled down to a mere handful before the reviewer even begins to consider what they collectively mean. The term “systematic” is thus by no means synonymous with “high-quality”. Rather, it can be viewed as a set of methodologies characterised by tight focus, exhaustive search, high rejection-to-inclusion ratio and an emphasis on technical rather than interpretive synthesis methods. The conflation of the quality of a review with the assiduousness of such tasks as searching, applying inclusion and exclusion criteria, creating tables of extracted data and mathematically summing effect sizes (rather than, for example, with the level of critical analysis of the papers’ unstated assumptions and discussion sections) has, we believe, led to a proliferation of systematic reviews that represent aggregations of findings within the narrow body of work that has met the authors’ eligibility criteria.17-19 Such studies may sometimes add value, especially when additional meta-analysis confirms whether a clinically significant effect is or is not also statistically significant.20 But sometimes, the term “systematic review” allows a data aggregation to claim a more privileged position within the knowledge hierarchy than it actually deserves.11 We acknowledge that the science of systematic review within the Cochrane and Campbell Collaborations is evolving to embrace a wider range of primary studies and methodologies, with recommended procedures for sampling, assessment and synthesis of evidence compliant with the question asked and the context explored. The adjective “systematic” is thus coming to acquire a broader meaning in terms of the transparency and appropriateness of methods, rather than signifying strict adherence to a particular pre-defined tool or checklist or a privileging of randomised trials (see for example methodological work by Lewin et al,21 Petticrew et al22 and Pluye et al23-25). All these approaches, however, remain focused on answering a relatively narrow question that is predefined at the outset and with a primary focus on the extraction, tabulation and summation of empirical data. A narrative review is a scholarly summary along with interpretation and critique.26 It can be conducted using a number of distinctive methodologies. While principles and procedures may diverge from the classic methodology of systematic review, they are not unsystematic (in the sense of being ad hoc or careless), and may certainly be conducted and presented in a systematic way, depending on purpose, method and context. Different kinds of reviews offer different kinds of truth: the conventional systematic review with meta-analysis deals in probabilistic (typically, Bayesian) truth; it is concerned mainly with producing generalisable “facts” to aid prediction. The narrative review, in contrast, deals in plausible truth. Its goal is an authoritative argument, based on informed wisdom that is convincing to an audience of fellow experts. To that end, the author of a narrative review must authentically represent in the written product both the underpinning evidence (including but not limited to primary research) and how this evidence has been drawn upon and drawn together to inform the review's conclusions. A hermeneutic review takes as its reference point the notion of verstehen, or the process of creating an interpretive understanding.14 It capitalises on the continual deepening of insight that can be obtained by critical reflection on particular elements of a dataset—in this case, individual primary studies—in the context of a wider body of work. It may or may not define its reference body of studies using systematic search methods and inclusion/exclusion criteria, but its primary focus is on the essential tasks of induction and interpretation in relation to the defined sample for the purpose of advancing theoretical understanding.17 A realist review considers the “generative causality,” in which particular mechanisms (for example, peer influence) produce particular outcomes (for example, smoking cessation) in some circumstances (for example, when societal disapproval of smoking is high) but not others (for example, in cultures where smoking is still widely viewed as a mark of sophistication).27 A meta-narrative review maps the storyline of a research tradition over time.28 Shifting the focus away from comparing findings of studies published at different times, it orients critical reflection to discern how ideas have waxed and waned within different scholarly communities at different points in the development of thinking (see an early example of how the term “diffusion of innovations” was differently defined and explored in different academic disciplines29). Each of these forms of narrative review (along with other specialist approaches to combining primary studies in qualitative research30, 31) reflects an explicit lens that is expected to shape the understandings that will arise from the review process, through analysis and synthesis processes that may be highly systematic. Narrative reviews also include a number of more generic styles such as integrative32, 33 and critical,34 the former being the approach generally taken by narrative reviews in clinical journals. All these approaches play an important role in expanding our understanding not only of the topic in question but also of the reasons why it has been studied in a particular way, the interpretations that have been variously made with respect to what we know about it, and the nature of the knowledge base that informs or might inform clinical practice. Because hermeneutic, realist and meta-narrative reviews have explicit methodologies and accepted standards and criteria for judging their quality,14, 27, 28 a minority of scholars include such approaches within the (broadly defined) category of systematic reviews. However, we have had experience of journal editors rejecting reviews based on these techniques on the grounds that they were “not systematic”. Also of note is the emergence of “how-to” guides for narrative reviews, which (misleadingly in our view) exhort the reviewer to focus carefully on such tasks as starting with an explicit search strategy and defining strict inclusion and exclusion criteria for primary studies.35, 36 In other words, the boundaries between systematic and narrative reviews are both fuzzy and contested. The conflation of “systematic” with superior quality (and “narrative” with inferior quality) has played a major role in the muddying of methodological waters in secondary research. This implicit evidence hierarchy (or pyramid) elevates the mechanistic processes of exhaustive search, wide exclusion and mathematical averaging over the thoughtful, in-depth, critically reflective processes of engagement with ideas. The emphasis on thinking and interpretation in narrative review has prompted some authors to use the term “evidence-informed” rather than “evidence-based”15, 37: the narrative review is both less and more than a methods-driven exercise in extracting and summating data. Training in systematic reviews has produced a generation of scholars who are skilled in the technical tasks of searching, sorting, checking against inclusion criteria, tabulating extracted data and generating “grand means” and confidence intervals.3 These skills are important, but as the recent article by Faggion et al illustrates, critics may incorrectly assume that they override and make redundant the generation of understanding. To the extent that the term “systematic review” privileges only that which is common in the findings amongst a rigidly defined subset of the available body of work, we risk losing sight of the marvellous diversities and variations that ought to intrigue us. In excluding those aspects of scholarship, systematic reviews hold the potential to significantly skew our knowledge landscape. While there are occasions when systematic review is the ideal approach to answering specific types of question, the absence of thoughtful, interpretive critical reflection can render such products hollow, misleading and potentially harmful. The argument that systematic reviews are less biased than narrative reviews begs the question of what we mean by bias. Bias is an epidemiological construct, which refers to something that distorts the objective comparisons between groups.20 It presupposes the dispassionate, instrumental and universal “view from nowhere” that has long defined the scientific method.38 When we speak of interpretation, we refer to an analysis that is necessarily perspectival, with the interpreter transparently positioned in order that the reader can understand why this particular perspective, selection process and interpretive methodology was selected in relation to the question at hand.14, 17, 29, 37, 39 Systematic and transparent reflection upon and sharing of such aspects of the research process adds to the scientific quality of interpretive research. The question of whether “systematic” review techniques can eliminate bias in secondary research is in any case questionable. The privileging of freedom from bias over relevance of question and findings wrongly assumes that how the topic is framed, and which questions should be explored is somehow self-evident. A recent review of systematic reviews generated by a national knowledge centre to inform policymaking in Norway showed that in most cases, the evidence base addressed only a fraction of relevant policy questions.40 More generally, there is growing evidence that the science of systematic reviews is becoming increasingly distorted by commercial and other conflicts of interest, leading to reviews, which—often despite ticking the boxes on various quality checklists—are unnecessary, misleading or partisan.19, 41 The holy grail of a comprehensive database of unambiguous and unbiased evidence summaries (in pursuit of which the Cochrane Collaboration was founded42) continues to recede into the future. A legitimate criticism of narrative reviews is that they may “cherry pick” evidence to bolster a particular perspective. But this must be weighed against the counter-argument that the narrative reviewer selects evidence judiciously and purposively with an eye to what is relevant for key policy questions—including the question of which future research programmes should be funded. Whilst we accept that narrative reviews can be performed well or badly, we believe the undervaluing of such reviews is a major contributor to research waste. In the absence of an interpretive overview of a topic that clearly highlights the state of knowledge, ignorance and uncertainty (explaining how we know what we know, and where the intriguing unanswered questions lie), research funding will continue to be ploughed into questions that are of limited importance, and which have often already been answered.40 This principle was illustrated in a recent hermeneutic review of telehealth in heart failure by one of us.43 It identified 7 systematic reviews of systematic reviews, 32 systematic reviews (including 17 meta-analyses) covering hundreds of primary studies, as well as six mega-trials—almost all of which had concluded that more research (addressing the same narrow question with yet more randomised trials intended to establish an effect size for telehealth) was needed. The hermeneutic approach revealed numerous questions that had remained under-explored as researchers had pursued this narrow question—including the complex and changing nature of the co-morbidities and social determinants associated with heart failure, the varied experiences and priorities of patients with heart failure, the questionable nature of up-titration as a guiding principle in heart failure management, and the numerous organisational, regulatory and policy-level complexities associated with introducing telehealth programmes. The review concluded that: “The limited adoption of telehealth for heart failure has complex clinical, professional and institutional causes, which are unlikely to be elucidated by adding more randomised trials of technology-on versus technology-off to an already-crowded literature. An alternative approach is proposed, based on naturalistic study designs, application of social and organisational theory, and co-design of new service models based on socio-technical principles” (page 156). As many authors and journal editors are well aware, the narrative review is not a poor cousin of the systematic review but a different and potentially complementary form of scholarship.22, 44 Nevertheless, the simplistic hierarchy “systematic review good; narrative review less good” persists in some circles. The under-acknowledged limitations of systematic reviews, along with missed opportunities for undertaking and using narrative reviews to extend understanding within a field, risks legitimising and perpetuating a narrow and unexciting research agenda and contributing to research waste. We call upon policymakers and clinicians (who seek to ensure that their decisions are evidence-based, but who may have been seduced by a spurious hierarchy of secondary evidence) and on research commissioners (whose decisions will shape the generation of the future evidence base) to re-evaluate the low status currently afforded to narrative reviews. TG was invited to submit a paper on a topic of her choice to EJCI by the editor. She suggested this topic to ST and KM and wrote an initial outline for the paper. All authors then contributed iteratively and equally to the development of ideas and refinement of the paper.",
+      "year": "2018",
+      "published_date": "2018-03-26",
+      "journal": "European Journal of Clinical Investigation",
+      "url": "https://doi.org/10.1111/eci.12931",
+      "arxiv_id": "",
+      "keywords": [
+        "Spurious relationship",
+        "Narrative",
+        "Hierarchy",
+        "Narrative review",
+        "Systematic review",
+        "MEDLINE",
+        "Psychology",
+        "Computer science"
+      ],
+      "citations": 1032,
+      "source": "OpenAlex",
+      "doi": "10.1111/eci.12931",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded"
+    },
+    {
+      "title": "The impact of generative AI on critical thinking skills: a systematic review, conceptual framework and future research directions",
+      "authors": [
+        "Mohamed Y. I. Helal",
+        "Ibrahim A. Elgendy",
+        "M. Albashrawi",
+        "Yogesh K. Dwivedi",
+        "Mohammad S. Al-Ahmadi",
+        "Il Jeon"
+      ],
+      "abstract": "\n \n The purpose of this study is to systematically review and critically analyze the emerging body of research on how generative artificial intelligence (GenAI) tools impact individuals’ critical thinking skills. It asks: How can GenAI tools increase or decrease the fundamental processes of interpretation, analysis, evaluation and creative inference?\n \n \n \n The authors developed a comprehensive search string comprising 15 keywords that combined GenAI terms with higher-order cognitive descriptions. For the 2023–2025 timeframe, this search yielded 79 Web of Science papers and 142 Scopus papers. They analyzed and synthesised 68 peer-reviewed papers after filtering, duplication removal and full-text eligibility checks.\n \n \n \n This study proposes the dual-impact generative-AI critical thinking (DI-GAI-CT) framework, which maps GenAI affordances and mirror-image pitfalls onto five cognitive-metacognitive mediators (prompt quality, self-regulation, engagement, trust, metacognitive critique); three inhibitors (hallucination, automation bias and quick-solution dependence); Murphy’s five-stage critical thinking staircase; and four boundary moderators (task specificity, task complexity, ethical-AI literacy and general AI literacy). A forward-looking agenda then outlines six priority research streams such as multiwave causal tracking, full-constellation modeling and cross-cultural replication.\n \n \n \n In theory, DI-GAI-CT provides the first mechanism-rich model for explaining both uplift and erosion in higher-order reasoning driven by GenAI. In practice, the agenda provides domain-specific levers to organizational leaders, AI designers and educators, such as prompt engineering, metacognitive scaffolding and dual-impact governance, to increase reflective judgment while dampening automation bias.\n \n \n \n To the best of the authors’ knowledge, this is the first review to incorporate a diverse evidence set into a multilevel, dual-stream process model, indicating precisely when, how and why GenAI may either strengthen or undermine critical thinking abilities.\n",
+      "year": "2025",
+      "published_date": "2025-08-08",
+      "journal": "Information Discovery and Delivery",
+      "url": "https://www.semanticscholar.org/paper/1fad125ab180ebf6aa8bd74f41c9d606d042b25d",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 4,
+      "source": "Semantic Scholar",
+      "doi": "10.1108/idd-05-2025-0125",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    },
+    {
+      "title": "Measuring the Quality of AI-Generated Clinical Notes: A Systematic Review and Experimental Benchmark of Evaluation Methods",
+      "authors": [
+        "Alexandra Dahlberg",
+        "Tiila Käenniemi",
+        "Tiia Winther-Jensen",
+        "Olli Tapiola",
+        "Rami Luisto",
+        "Tuukka Puranen",
+        "Max Gordon",
+        "Enni Sanmark",
+        "Ville Vartiainen"
+      ],
+      "abstract": "Abstract\n                \n                  Background\n                  High-quality clinical documentation is essential for safe, effective care, yet producing it is time consuming and error prone. Large language models (LLMs) can assist with note generation, but clinical adoption is determined by the resulting note quality. However current evaluation practices vary, and their clinical relevance is unclear. Drawing on a multidisciplinary perspective, we examined how quality is assessed and how those assessments align with clinical demands.\n                \n                \n                  Methods\n                  We systematically searched Ovid Medline and Scopus on 10 April 2025 for peer-reviewed studies that used LLMs in generating clinical notes and included an evaluation of the quality of the resulting text. The screening followed PRISMA and the protocol was preregistered in PROSPERO. Data on metrics, and outcomes were synthesised narratively. Based on these findings, we designed an experimental setup to test the most common evaluation metrics and an LLM-as-evaluator, included for its scalability across large test sets. The experiment used synthetic cases with targeted perturbations.\n                \n                \n                  Findings\n                  Thirty-seven studies were included. The reporting was dominated by lexical overlap metrics, chiefly ROUGE and BLEU. Semantic similarity metrics, such as BERTScore and BLEURT, were less common. A human evaluation was frequent but heterogeneous, with criteria and methods defined using varying degrees of detail; the most common foci were correctness, fluency, and aspects of clinical acceptability. In our experimental setup, lexical overlap metrics detected deletions and modifications but penalised meaning-preserving paraphrases. Semantic metrics and LLM-as-evaluators were more tolerant of paraphrased perturbations, yet remained sensitive to relevant changes, with performance varying by model and language.\n                \n                \n                  Interpretation\n                  Current practice relies on lexical overlap metrics that are useful for cursory checks but insufficient as proxies for quality. We recommend a layered strategy that pairs semantic metrics with LLM-as-evaluator for scalability and includes targeted human adjudication. Broader, safety-focused validation across institutions and languages is needed before routine deployment.\n                \n                \n                  Funding\n                  Business Finland through the GenAID research project. Personal grants listed under Acknowledgments.",
+      "year": "2025",
+      "published_date": "2025-11-20",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1101/2025.11.18.25340507",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.1101/2025.11.18.25340507",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    }
+  ],
+  "timestamp": "20260413_181120"
+}

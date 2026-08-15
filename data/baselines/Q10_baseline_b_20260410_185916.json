@@ -1,0 +1,143 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "如何评估智慧情报服务中 query expansion 的收益与风险？",
+  "effective_search_query": "query expansion evaluation benefits risks intelligent information services",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 13,
+  "all_retrieved_ids": [
+    "doi:10.1007/s10115-015-0830-ya",
+    "doi:10.1080/0960085x.2020.1869508x",
+    "doi:10.1007/s44163-024-00111-wk",
+    "doi:10.1007/s41666-024-00159-4s",
+    "doi:10.1186/s13677-024-00674-0h",
+    "doi:10.1007/s10115-018-1269-8ma",
+    "title:the intelligent prediction and assessment of financial information risk in the cloud computing model|2024",
+    "doi:10.1007/s12065-020-00554-xdk",
+    "doi:10.1007/s13748-019-00178-yh",
+    "title:automatic query expansion for information retrieval: a survey and problem definition|2017",
+    "title:intelligent personalized approaches for semantic search and query expansion|2019",
+    "doi:10.1007/s10844-025-00988-8v",
+    "title:evaluation of semantic relations impact in query expansion-based retrieval systems|2022"
+  ],
+  "top_papers": [
+    {
+      "title": "A survey on indexing techniques for big data: taxonomy and performance evaluation",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "A Gani, A Siddiqa, S Shamshirband… - Knowledge and information …, 2016 - Springer",
+      "doi": "10.1007/S10115-015-0830-YA",
+      "citations": 377,
+      "abstract": "… Therefore, intelligent indexing in terms of a single classifier is a substitute to monitor requirements of big data with continuously changing behavior, but it may exhibit more time in query …"
+    },
+    {
+      "title": "The good, the bad, and the ugly: Impact of analytics and artificial intelligence-enabled personal information collection on privacy and participation in ridesharing",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "X Cheng, L Su, X Luo, J Benitez… - … Journal of Information …, 2022 - Taylor & Francis",
+      "doi": "10.1080/0960085X.2020.1869508X",
+      "citations": 225,
+      "abstract": "… We then articulate the bright and dark sides’ key components and establish a theoretical argumentation to the specific benefits and risks through a cognitive appraisal. Finally, we …"
+    },
+    {
+      "title": "Opportunities, challenges, and benefits of AI innovation in government services: a review",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "K Alhosani, SM Alhashmi - Discover Artificial Intelligence, 2024 - Springer",
+      "doi": "10.1007/s44163-024-00111-wK",
+      "citations": 205,
+      "abstract": "… hurdles and service delays, this study highlights the necessity for a thorough knowledge of the risks, impediments, and incentives of employing AI for government services. The study …"
+    },
+    {
+      "title": "Clinical information retrieval: a literature review",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "S Sivarajkumar, HA Mohammad, D Oniani… - Journal of healthcare …, 2024 - Springer",
+      "doi": "10.1007/s41666-024-00159-4S",
+      "citations": 52,
+      "abstract": "… , methodologies, evaluation metrics, and applications. The review identifies key research gaps in clinical IR methods such as indexing, ranking, and query expansion, offering insights …"
+    },
+    {
+      "title": "From data to insights: the application and challenges of knowledge graphs in intelligent audit",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "H Zhong, D Yang, S Shi, L Wei, Y Wang - Journal of Cloud Computing, 2024 - Springer",
+      "doi": "10.1186/s13677-024-00674-0H",
+      "citations": 36,
+      "abstract": "… obtain and evaluate evidence to ensure … intelligent information processing and knowledge discovery, providing people with richer, more accurate, and personalized information services […"
+    },
+    {
+      "title": "A survey of statistical approaches for query expansion",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "MA Raza, R Mokhtar, N Ahmad - Knowledge and information systems, 2019 - Springer",
+      "doi": "10.1007/s10115-018-1269-8MA",
+      "citations": 30,
+      "abstract": "… to query expansion. In this article, we primarily discuss statistical query expansion approaches that … Finally, we evaluate these techniques using five functional features and experimental …"
+    },
+    {
+      "title": "The intelligent prediction and assessment of financial information risk in the cloud computing model",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "Y Wang, M Zhu, J Yuan, G Wang, H Zhou - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 27,
+      "abstract": "… risks and challenges of financial information in the cloud computing environment by using intelligent forecasting and evaluation … cloud services, as well as the use of artificial intelligence …"
+    },
+    {
+      "title": "Semantic approaches for query expansion",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "DK Sharma, R Pamula, DS Chauhan - Evolutionary Intelligence, 2021 - Springer",
+      "doi": "10.1007/s12065-020-00554-xDK",
+      "citations": 22,
+      "abstract": "… Query Expansion techniques contain the semantic concepts that are relevant to semantic computing, computational intelligence, and information … several semantic query expansion core …"
+    },
+    {
+      "title": "Query expansion based on clustering and personalized information retrieval",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "H Khalifi, W Cherif, AE Qadi, Y Ghanou - Progress in Artificial Intelligence, 2019 - Springer",
+      "doi": "10.1007/s13748-019-00178-yH",
+      "citations": 15,
+      "abstract": "… This section includes also an empirical evaluation of its steps, especially data structuration … a new query extension, but the difference is that we complete the words in the query sentence …"
+    },
+    {
+      "title": "Automatic query expansion for information retrieval: a survey and problem definition",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "OA Abass, O Folorunso, BO Samuel - … Science and Information …, 2017 - academia.edu",
+      "doi": "",
+      "citations": 9,
+      "abstract": "… intelligent method of query expansion and fashion out future work on the implementation of intelligent information … test collections (Forum for Information Retrieval Evaluation, FIRE, and …"
+    },
+    {
+      "title": "Intelligent personalized approaches for semantic search and query expansion",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "OG Elshaweesh - 2019 - search.proquest.com",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… propose a personal query expansion Model which is able to deal with complex information, … Based on the review of the existing literature on query expansion, we identify the following …"
+    },
+    {
+      "title": "DeepFinLLM 2.0: an optimized and scalable multilingual financial advisor unleashing strategic insights through multi-API orchestration and large language models",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "V Reddy, N Veeranjaneyulu - Journal of Intelligent Information Systems, 2025 - Springer",
+      "doi": "10.1007/s10844-025-00988-8V",
+      "citations": 1,
+      "abstract": "… timely financial insights, including risk assessments and portfolio recommendations. DeepFinLLM 2.0 … Personalized user profiles and risk assessments further enhance the tailoring of …"
+    },
+    {
+      "title": "Evaluation of semantic relations impact in query expansion-based retrieval systems",
+      "year": "2022",
+      "source": "arXiv",
+      "journal": "Knowledge Based Systems, Volume 283, 11 January 2024",
+      "doi": "",
+      "citations": 0,
+      "abstract": "With the increasing demand of intelligent systems capable of operating in different contexts (e.g. users on the move) the correct interpretation of the user-need by such systems has become crucial to give consistent answers to the user questions. The most effective applications addressing such task are in the fields of natural language processing and semantic expansion of terms. These techniques are aimed at estimating the goal of an input query reformulating it as an intent, commonly relying on textual resources built exploiting different semantic relations like \\emph{synonymy}, \\emph{antonymy} and many others. The aim of this paper is to generate such resources using the labels of a given taxonomy as source of information. The obtained resources are integrated into a plain classifier for"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q10_baseline_b_20260410_185916.md"
+}

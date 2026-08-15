@@ -1,0 +1,176 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "人工标注在智慧情报服务 benchmark 中应优先覆盖哪些维度？",
+  "effective_search_query": "人工标注 智慧情报服务 benchmark 维度 优先级",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.1109/tnse.2022.3157274",
+    "doi:10.1109/tmc.2022.3199812",
+    "doi:10.1109/tvt.2021.3096928",
+    "doi:10.1016/j.tra.2020.01.007",
+    "title:agent-diff: benchmarking llm agents on enterprise api tasks via code execution with state-diff-based evaluation|2026",
+    "title:secure and energy-efficient wireless agentic ai networks|2026",
+    "title:llm agents for automated web vulnerability reproduction: are we there yet?|2025",
+    "doi:10.20944/preprints202510.1394.v1",
+    "title:agentigraph: a multi-agent knowledge graph framework for interactive, domain-specific llm chatbots|2025",
+    "title:aim-bench: evaluating decision-making biases of agentic llm as inventory manager|2025",
+    "title:a multi-agent system enables versatile information extraction from the chemical literature|2025",
+    "title:sop-agent: empower general purpose ai agent with domain-specific sops|2025",
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01"
+  ],
+  "top_papers": [
+    {
+      "title": "Dynamic SDN-Based Radio Access Network Slicing With Deep Reinforcement Learning for URLLC and eMBB Services",
+      "year": "2022",
+      "journal": "IEEE Transactions on Network Science and Engineering",
+      "source": "OpenAlex",
+      "doi": "10.1109/tnse.2022.3157274",
+      "citations": 106,
+      "abstract": "Radio access network (RAN) slicing is a key technology that enables 5G network to support heterogeneous requirements of generic services, namely ultra-reliable low-latency communication (URLLC) and enhanced mobile broadband (eMBB). In this paper, we propose a two time-scales RAN slicing mechanism to optimize the performance of URLLC and eMBB services. In a large time-scale, an SDN controller allocates radio resources to gNodeBs according to the requirements of the eMBB and URLLC services. In a short time-scale, each gNodeB allocates its available resources to its end-users and requests, if needed, additional resources from adjacent gNodeBs. We formulate this problem as a non-linear binary program and prove its NP-hardness. Next, for each time-scale, we model the problem as a Markov decisio"
+    },
+    {
+      "title": "Collective Deep Reinforcement Learning for Intelligence Sharing in the Internet of Intelligence-Empowered Edge Computing",
+      "year": "2022",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "source": "OpenAlex",
+      "doi": "10.1109/tmc.2022.3199812",
+      "citations": 60,
+      "abstract": "Edge intelligence is emerging as a new interdiscipline to push learning intelligence from remote centers to the edge of the network. However, with its widespread deployment, new challenges arise in terms of training efficiency and service of quality (QoS). Massive repetitive model training is ubiquitous due to the inevitable needs of users for the same types of data and training results. Additionally, a smaller volume of data samples will cause the over-fitting of models. To address these issues, driven by the Internet of intelligence, this paper proposes a distributed edge intelligence sharing scheme, which allows distributed edge nodes to quickly and economically improve learning performance by sharing their learned intelligence. Considering the time-varying edge network states including"
+    },
+    {
+      "title": "Multi-Agent Deep Reinforcement Learning for Computation Offloading and Interference Coordination in Small Cell Networks",
+      "year": "2021",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2021.3096928",
+      "citations": 149,
+      "abstract": "Integrating mobile edge computing (MEC) with small cell networks has been conceived as a promising solution to provide pervasive computing services. However, the interactions among small cells due to inter-cell interference, the diverse application-specific requirements, as well as the highly dynamic wireless environment make it challenging to design an optimal computation offloading scheme. In this paper, we focus on the joint design of computation offloading and interference coordination for edge intelligence empowered small cell networks. To this end, we propose a distributed multi-agent deep reinforcement learning (DRL) scheme with the objective of minimizing the overall energy consumption while ensuring the latency requirements. Specifically, we exploit the collaboration among small c"
+    },
+    {
+      "title": "The role of information availability to passengers in public transport disruptions: An agent-based simulation approach",
+      "year": "2020",
+      "journal": "Transportation Research Part A Policy and Practice",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.tra.2020.01.007",
+      "citations": 60,
+      "abstract": "In public transport disruptions, a key relation between the services of operating company and passengers’ satisfaction is the disseminated information. This paper proposes rigorous mathematical descriptions to describe the effects of information availability to passengers, including the user equilibrium and non-equilibrium solutions. The information availability in disruption is summarised in a “who-when-where-what” four-dimensional framework. Based on different information, passengers’ behaviours are assumed and simulated to evaluate the benefits of information availability in public transport disruption. An agent-based micro-simulation model (MATSim) is applied for the city of Zürich, Switzerland, for the benefit of activity-based simulation in a multi-modal network. We use an existing d"
+    },
+    {
+      "title": "Agent-Diff: Benchmarking LLM Agents on Enterprise API Tasks via Code Execution with State-Diff-Based Evaluation",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "We present Agent-Diff, a novel benchmarking framework for evaluating agentic Large Language Models (LLMs) on real-world productivity software API tasks via code execution. Agentic LLM performance varies due to differences in models, external tool access, prompt structures, and agentic frameworks. Benchmarks must make fundamental trade-offs between a sandboxed approach that controls for variation in software environments and more ecologically valid approaches employing real services. Agent-Diff attempts to capture the desirable features of both of these approaches by including access to the real API interfaces for software services while sandboxing the environment in which calls are made, processed, and evaluated. This approach relies on two key innovations. The first is a novel state-diff "
+    },
+    {
+      "title": "Secure and Energy-Efficient Wireless Agentic AI Networks",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "In this paper, we introduce a secure wireless agentic AI network comprising one supervisor AI agent and multiple other AI agents to provision quality of service (QoS) for users' reasoning tasks while ensuring confidentiality of private knowledge and reasoning outcomes. Specifically, the supervisor AI agent can dynamically assign other AI agents to participate in cooperative reasoning, while the unselected AI agents act as friendly jammers to degrade the eavesdropper's interception performance. To extend the service duration of AI agents, an energy minimization problem is formulated that jointly optimizes AI agent selection, base station (BS) beamforming, and AI agent transmission power, subject to latency and reasoning accuracy constraints. To address the formulated problem, we propose two"
+    },
+    {
+      "title": "LLM Agents for Automated Web Vulnerability Reproduction: Are We There Yet?",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Large language model (LLM) agents have demonstrated remarkable capabilities in software engineering and cybersecurity tasks, including code generation, vulnerability discovery, and automated testing. One critical but underexplored application is automated web vulnerability reproduction, which transforms vulnerability reports into working exploits. Although recent advances suggest promising potential, challenges remain in applying LLM agents to real-world web vulnerability reproduction scenarios. In this paper, we present the first comprehensive evaluation of state-of-the-art LLM agents for automated web vulnerability reproduction. We systematically assess 20 agents from software engineering, cybersecurity, and general domains across 16 dimensions, including technical capabilities, environm"
+    },
+    {
+      "title": "Energy-Aware Hybrid Decision Support System for Urban Traffic Signal Control: Multi-Agent Reinforcement Learning with Fuzzy Multi-Criteria IoT Routing",
+      "year": "2025",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.20944/preprints202510.1394.v1",
+      "citations": 0,
+      "abstract": "Urban traffic congestion is posing significant chal- lenges to modern smart cities, which consuming excessive energy through both vehicular emissions and intelligent transporta- tion infrastructure. While multi-agent reinforcement learning (MARL) has shown promising results for adaptive traffic signal control, existing approaches are overlooking the substantial energy consumption of IoT sensing and communication networks that enable these systems. This paper is presenting a novel hybrid decision support system (DSS) that jointly optimizes traffic flow performance and sensing infrastructure energy efficiency. Our approach is integrating a MARL-based traffic signal controller with a fuzzy multi-criteria IoT routing layer that dynamically balances residual energy, hop count, link quality, and"
+    },
+    {
+      "title": "AGENTiGraph: A Multi-Agent Knowledge Graph Framework for Interactive, Domain-Specific LLM Chatbots",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "AGENTiGraph is a user-friendly, agent-driven system that enables intuitive interaction and management of domain-specific data through the manipulation of knowledge graphs in natural language. It gives non-technical users a complete, visual solution to incrementally build and refine their knowledge bases, allowing multi-round dialogues and dynamic updates without specialized query languages. The flexible design of AGENTiGraph, including intent classification, task planning, and automatic knowledge integration, ensures seamless reasoning between diverse tasks. Evaluated on a 3,500-query benchmark within an educational scenario, the system outperforms strong zero-shot baselines (achieving 95.12% classification accuracy, 90.45% execution success), indicating potential scalability to compliance"
+    },
+    {
+      "title": "AIM-Bench: Evaluating Decision-making Biases of Agentic LLM as Inventory Manager",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Recent advances in mathematical reasoning and the long-term planning capabilities of large language models (LLMs) have precipitated the development of agents, which are being increasingly leveraged in business operations processes. Decision models to optimize inventory levels are one of the core elements of operations management. However, the capabilities of the LLM agent in making inventory decisions in uncertain contexts, as well as the decision-making biases (e.g. framing effect, etc.) of the agent, remain largely unexplored. This prompts concerns regarding the capacity of LLM agents to effectively address real-world problems, as well as the potential implications of biases that may be present. To address this gap, we introduce AIM-Bench, a novel benchmark designed to assess the decisio"
+    },
+    {
+      "title": "A Multi-Agent System Enables Versatile Information Extraction from the Chemical Literature",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "To fully expedite AI-powered chemical research, high-quality chemical databases are the foundation. Automatic extraction of chemical information from the literature is essential for constructing reaction databases, but it is currently limited by the multimodality and style variability of chemical information. In this work, we developed a multimodal large language model (MLLM)-based multi-agent system for robust and automated chemical information extraction. It utilizes the MLLM's strong reasoning capability to understand the structure of diverse chemical graphics and decompose the extraction task into sub-tasks. It then coordinates a set of specialized agents, each combining the capabilities of the MLLM with the precise, domain-specific strengths of dedicated tools and web services, to sol"
+    },
+    {
+      "title": "SOP-Agent: Empower General Purpose AI Agent with Domain-Specific SOPs",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Despite significant advancements in general-purpose AI agents, several challenges still hinder their practical application in real-world scenarios. First, the limited planning capabilities of Large Language Models (LLM) restrict AI agents from effectively solving complex tasks that require long-horizon planning. Second, general-purpose AI agents struggle to efficiently utilize domain-specific knowledge and human expertise. In this paper, we introduce the Standard Operational Procedure-guided Agent (SOP-agent), a novel framework for constructing domain-specific agents through pseudocode-style Standard Operational Procedures (SOPs) written in natural language. Formally, we represent a SOP as a decision graph, which is traversed to guide the agent in completing tasks specified by the SOP. We "
+    },
+    {
+      "title": "生成式人工智能赋能课堂教学的形态层级与进阶路径",
+      "year": 2025,
+      "journal": "课程与教学",
+      "source": "万方数据",
+      "doi": "10.13811/j.cnki.eer.2025.06.010",
+      "citations": 193,
+      "abstract": "生成式人工智能深度赋能课堂教学,既是技术演进的必然趋势,也是教育高质量发展的内在需求.文章系统阐释了不同赋能形态的内涵特征与内在关联,构建了生成式人工智能赋能课堂教学的形态层级框架并提供了典型示例.该框架包括四个逐级递进、相互关联的层级:\"劳动替代与任务辅助\"作为基础形态,聚焦基础性教学任务的工具赋能;\"能力增强与边界拓展\"作为初级形态,致力于提升教学效能与拓展教学边界,提供多样化服务赋能;\" 人机协同与创新激活\"作为中级形态,强调人机深度协作与教学创新能力的激发,实现具有协同意识的智能主体赋能;\"认知融通与思维塑造\"作为高级形态,着眼于教学智慧的深度融合与高阶思维的培养,实现多元智能体共生的融合赋能.基于生成式人工智能赋能课堂教学的形态演进所呈现的层次性与纵深性特征,文章进一步提出实现层级进阶的系统化路径,包括政策指引与制度保障、素养提升与观念完善、价值重塑与技术突破. The innovative integration and deep empowerment of generative artificial <span class='highlight'>intelligence</span>(AI)with classroom teaching represent both an inevitable trend in technological evolution and an intrinsic  boundaries,thus providing diversified <span class='highlight'>service</span> empowerment;\"human-machine collaboration and innovation activation\"as the intermediate form,emphasizing dee"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    }
+  ],
+  "outline": "# 人工标注在智慧情报服务基准测试中的优先维度覆盖研究\n\n## 1. 引言：智慧情报服务基准测试与人工标注的挑战\n*本节将概述智慧情报服务（如边缘智能、网络切片、交通信息调度）的内涵、发展现状及其对高质量基准测试的需求，界定基于智能体的系统范畴，并阐述人工标注在构建可评估基准中的核心作用、当前面临的维度覆盖优先级问题与关键挑战。*\n\n### 1.1 智慧情报服务的内涵、发展现状与基准测试需求\n*概述智慧情报服务（如边缘智能、网络切片、交通信息调度）的核心概念与典型应用场景，分析其从工具赋能到认知融合的演进趋势，并阐述构建高质量、可评估基准测试对于服务优化与标准化的重要性。*\n\n### 1.2 基于智能体的系统范畴界定与人工标注的核心作用\n*界定本研究中基于智能体的智慧情报服务系统范畴，明确智能体作为决策与执行核心的角色。阐述人工标注在构建基准测试中的基础性作用，即为模型训练、性能评估提供结构化、高质量的“标准答案”或状态-动作对。*\n\n### 1.3 人工标注维度覆盖的优先级问题与关键挑战\n*分析在复杂、动态的智慧情报服务场景下，人工标注面临的核心挑战：如何系统性地确定应优先标注哪些评估维度（如时延、可靠性、协作性等），以平衡标注成本、基准的全面性与评估的可信度，并应对环境动态性、任务复杂性带来的标注难题。*\n\n## 2. 智慧情报服务场景与核心评估维度分析\n*本节将基于候选文献，分析不同智慧情报服务场景（如URLLC/eMBB网络切片、边缘智能共享、计算卸载、公共交通信息调度、企业API任务）的核心性能需求，提炼出关键评估维度，包括时延、可靠性、能效、信息完备性、任务完成度等系统级性能指标，以及任务复杂性、环境动态性、结果准确性等智能体核心能力维度。*\n\n### 2.1 典型智慧情报服务场景及其核心性能需求分析\n*基于候选文献，具体分析URLLC/eMBB网络切片、边缘智能共享、计算卸载、公共交通信息调度及企业API任务等代表性场景，提炼各场景对时延、可靠性、能效、信息完备性及任务完成度等系统级性能指标的关键需求。*\n\n### 2.2 智能体核心能力维度的提炼与界定\n*结合智能体在复杂动态环境中的决策与执行过程，从任务复杂性、环境动态性、结果准确性、多智能体协作性等角度，系统分析并界定评估智能体核心能力的关键维度。*\n\n### 2.3 场景需求与能力维度的映射与综合评估框架\n*建立不同智慧服务场景的核心性能需求与智能体关键能力维度之间的映射关系，初步构建一个综合性的评估维度框架，为后续确定人工标注的优先覆盖维度奠定基础。*\n\n## 3. 人工标注优先维度的系统性框架构建\n*本节将提出一个系统性的框架，用于确定人工标注应优先覆盖的维度。依据包括服务的关键性（如可靠性）、决策的复杂性（如多智能体协作）、信息的结构性（如“谁-时-地-何”框架）、评估的可信性（如状态差分验证），并整合智能体核心能力（决策、推理、规划、执行）、系统级约束（资源消耗、安全性、隐私、协作协调性）以及领域适应需求（领域知识整合、用户交互体验、可扩展性、决策偏差）。*\n\n### 3.1 基于服务关键性与决策复杂性的标注维度优先级判定\n*本小节将依据服务的关键性（如URLLC场景的可靠性）和决策的复杂性（如多智能体协作、动态环境），构建一个维度筛选矩阵。它将分析如何优先标注那些对系统核心功能与智能体协同决策影响最直接的维度，例如时延、可靠性、任务完成度以及协作协调性。*\n\n### 3.2 整合智能体核心能力与系统级约束的标注框架\n*本小节将系统性地整合智能体的核心能力（决策、推理、规划、执行）与系统级约束（资源消耗、安全性、隐私），形成一个结构化标注清单。该框架旨在确保人工标注不仅评估智能体的内在能力，也覆盖其在真实约束下的表现，从而提升基准测试的全面性与可信性。*\n\n### 3.3 面向信息结构性与评估可信性的标注方法设计\n*本小节将探讨如何依据信息的结构性（如“谁-时-地-何”框架）和评估的可信性需求（如状态差分验证），设计具体的标注协议与验证方法。重点包括如何结构化地标注环境状态与智能体行为，以及引入交叉验证、差分测试等机制来确保标注结果的可信度与一致性。*\n\n### 3.4 考虑领域适应与演进路径的标注动态扩展机制\n*本小节将分析领域适应需求（如领域知识整合、用户交互体验）和服务智能进阶路径（从工具赋能到认知融合），提出一个可扩展的标注框架。该机制强调标注维度需随特定领域专业知识和服务模式的演进而动态调整，优先覆盖领域知识融合、标准化流程（SOP）及服务模式转变等关键方面。*\n\n## 4. 领域专用性与服务演进维度的标注重点\n*本节将深入分析智能体在特定领域（如网络安全、交通管理、化学、科研）的应用，说明人工标注需优先覆盖领域知识融合、专家经验编码、标准化操作流程（SOP）嵌入，以确保基准的实用性与专业性。同时，参考智慧服务从工具赋能到认知融合的演进路径，提出标注应系统规划以刻画服务模式的智能进阶，覆盖从被动响应到主动、嵌入式知识服务的转变。*\n\n### 4.1 领域专用性标注：知识融合与SOP嵌入\n*本部分将结合网络安全、交通管理等具体领域，分析人工标注如何优先覆盖领域知识的结构化融合、专家经验的显性编码，并重点阐述将标准化操作流程（SOP）作为决策图谱嵌入基准，以提升智能体在专业场景中的任务完成可靠性与决策规范性，确保基准的专业实用性。*\n\n### 4.2 服务模式演进与智能进阶的标注刻画\n*本部分将依据智慧服务从工具赋能到认知融合的演进路径，提出人工标注需系统规划以刻画服务模式的智能进阶。标注重点应覆盖从被动响应、任务辅助到主动感知、人机协同，直至嵌入式知识服务与思维塑造的转变过程，以驱动基准评估智能体的服务层级与融合深度。*\n\n### 4.3 面向科研与知识服务的主动服务转型标注\n*本部分将聚焦科研等知识密集型领域，分析人工标注如何优先支持智能体将知识对象转化为可交互、可计算的服务。标注重点在于刻画智能体实现知识结构化、语义化，以及从被动支撑向主动、嵌入式服务转型的关键维度，如场景理解、能力转化与服务嵌入的评估点。*\n\n## 5. 未来研究方向与总结\n*本节将总结人工标注在智慧情报服务基准测试中维度优先覆盖的策略意义，并探讨未来研究方向，如动态标注、人机协同标注、标注标准在不同领域的泛化与适配，以及其在驱动基准标准化、促进技术落地与跨领域融合方面的潜在价值。*\n\n### 5.1 维度优先覆盖的策略意义总结\n*总结人工标注在智慧情报服务基准测试中优先覆盖关键维度（如服务关键性、决策复杂性、领域专用性）的核心价值，阐述其对提升基准评估可信度、引导智能体能力发展、以及确保基准与真实服务需求对齐的战略意义。*\n\n### 5.2 标注方法与范式的未来演进\n*探讨未来人工标注方法的前沿方向，包括动态标注以适应服务环境与智能体策略的持续演化，以及人机协同标注框架以提升标注效率、一致性与规模，并分析其对基准测试生命周期管理的影响。*\n\n### 5.3 标注标准的泛化、适配与基准驱动\n*分析人工标注标准在不同智慧服务领域（如网络、交通、科研）间泛化与领域特异性适配的挑战与路径，探讨优先维度框架在驱动跨领域基准标准化、促进技术评估与落地应用方面的潜在作用。*\n\n### 5.4 促进跨领域融合与认知进阶的标注展望\n*基于服务从工具赋能到认知融合的演进路径，展望人工标注如何系统刻画智能体的认知与协作能力进阶，从而支持智慧情报服务向主动、嵌入式知识服务模式转型，并促进跨领域知识融合与创新。*",
+  "cited_ids": [
+    1,
+    2,
+    3,
+    12,
+    13,
+    14,
+    15
+  ],
+  "elapsed_seconds": 335.404,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q28_autosurvey_20260419_092234.md"
+}

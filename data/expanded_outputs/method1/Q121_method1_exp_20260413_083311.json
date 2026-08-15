@@ -1,0 +1,200 @@
+{
+  "query_id": "Q121",
+  "query": "What citation frameworks exist for crediting indigenous communities as co-creators of digital cultural heritage corpora?",
+  "domain_id": "digital_humanities",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Should we really ‘hermeneutise’ the Digital Humanities? A plea for the epistemic productivity of a ‘cultural technique of flattening’ in the Humanities.",
+      "authors": [
+        "Sybille Krämer"
+      ],
+      "abstract": "Why are the Digital Humanities a genuine part of the Humanities? Attempts are currently being made by arguing that computational methods are at the same time hermeneutic procedures (‘screwmeneutics’, ‘hermenumericals’): computation and hermeneutics were mixed. In criticizing this fusion of ‘literacy’ and ‘numeracy’, it is argued that what really connects the classical Humanities and the Digital Humanities is methodologically based on the ‘cultural technique of flattening’ and not on hermeneutics. The projection of spatial and non-spatial relations onto the artificial flatness of inscribed and illustrated surfaces forms a first-order epistemic and cultural potential in the history of the Humanities: diagrammatic reasoning, the visualizing potential of writings, lists, tables, diagrams, and maps, the sorting function of alphabetically ordered knowledge corpora have always shaped and determined basic scholarly work. It is this ‘diagrammatical’ dimension to which the Digital Humanities are linked to Humanities in general. The metamorphosis of texts, pictures, and music into the surface configurations of machine-analyzable data corpora opens up the possibility of revealing latent and implicit patterns of cultural artifacts, and practices that mostly are not accessible to human perception. The quantifying, computational methods of the Digital Humanities operate like computer-generated microscopes and telescopes into the cultural heritage, ongoing cultural practices, and even the culturally unconscious.",
+      "year": "2023",
+      "published_date": "2023-01-30",
+      "journal": "Journal of Cultural Analytics",
+      "url": "https://www.semanticscholar.org/paper/fe02b866804681e3bbdb27e097f0f2a58e867369",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.22148/001c.55592",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    },
+    {
+      "title": "Evaluation of large language models for the intangible cultural heritage domain",
+      "authors": [
+        "Zhixiao Zhao",
+        "Dongbo Wang"
+      ],
+      "abstract": "Large language modeling has permeated various fields of society and considerably impacted the humanities and social sciences. The emergence of domain-specific large language models (LLMs) has opened new avenues for research in these fields. For instance, in the area of intangible cultural heritage (ICH), in which strong regional and ethnic roots and existing transmission methods hinder its transmission in modern society, domain-specific LLMs provide a digital approach to preserving and transmitting ICH-related knowledge. As such, a comprehensive model evaluation benchmark is essential to develop an effective ICH-oriented LLM. This study develops a domain-specific LLM evaluation benchmark for the ICH domain and evaluates the performance of current mainstream LLMs utilizing relevant data sourced from the China ICH network. The results demonstrated that the linguistic capability of LLMs affected their performance, even in vertical domain evaluations.",
+      "year": "2025",
+      "published_date": "2025-09-03",
+      "journal": "npj Heritage Science",
+      "url": "https://doi.org/10.1038/s40494-025-02013-1",
+      "arxiv_id": "",
+      "keywords": [
+        "Intangible cultural heritage",
+        "Domain (mathematical analysis)",
+        "Cultural heritage",
+        "Heritage language",
+        "Linguistics",
+        "Computer science",
+        "Geography",
+        "Archaeology"
+      ],
+      "citations": 3,
+      "source": "OpenAlex",
+      "doi": "10.1038/s40494-025-02013-1",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models benchmark"
+    },
+    {
+      "title": "Wikidata Visualization for Event and Temporal Data Exploration in Digital Humanities and Cultural Heritage",
+      "authors": [
+        "Go Sugimoto",
+        "Victor de Boer",
+        "Jacco van Ossenbruggen"
+      ],
+      "abstract": "Temporal data are crucial in many research activities within Digital Humanities (DH) and Cultural Heritage (CH). At the same time, there is a growing need for visualization tools to explore events in Linked Data (LD). This article investigates LD visualization tools that address event data in association with temporal data for research purposes in DH and CH. We analyze the availability of Wikidata visualization tools capable of handling event data for DH and CH research and propose ways to improve visualization tools to better represent temporal data in Wikidata. We identified 14 requirements based on principles from the information visualization domain, as well as an analysis of previous studies and existing tools. We design and develop a Wikidata-centric tool to meet these requirements. This tool is then evaluated through focus groups and questionnaires with DH and CH experts. The results of the evaluation show overall positive feedback and highlight the implicit need and value of visualization tools that handle events in Wikidata for research in DH and CH. In addition, they indicate the improved accessibility and visualization capabilities of Wikidata through the seven time-related functionalities of the tool.",
+      "year": "2025",
+      "published_date": "2025-12-11",
+      "journal": "Semantic Web: – Interoperability, Usability, Applicability",
+      "url": "https://www.semanticscholar.org/paper/6942a05c3640c0a31a59f43a0c43ca195e1a4f56",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1177/22104968251395606",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    },
+    {
+      "title": "Can large language models serve as digital assistants for medical undergraduates? – A bibliometric mapping and scoping analysis of the medical-education literature",
+      "authors": [
+        "Hong Wang",
+        "Wenhui Shan",
+        "Ruoyan Liu",
+        "Zhening Wang"
+      ],
+      "abstract": "Objective Since the public release of ChatGPT in late 2022, large language models (LLMs) have been rapidly adopted in medical education, and the emergence of the free and open-source Chinese model DeepSeek in 2025 has further accelerated local uptake. However, their academic impact and measurable outcomes remain unclear. This study aims to conduct a comprehensive bibliometric analysis of literature from 1999 to 2025, mapping the evolution, thematic landscape and emerging frontiers of LLM-assisted medical education, with particular attention to the post-ChatGPT phenomenon represented by DeepSeek, in order to clarify current research status and inform future directions for educators and policymakers. Methods English-language articles and reviews (1999–23/03/2025) were retrieved from the Web of Science Core Collection. Publication trends, co-authorships, co-citations, burst keywords and thematic clusters were analysed with CiteSpace 6.4.R1, R-bibliometrix and VOSviewer 1.6.20. Results The analysis revealed a sharp growth in publications after 2022, coinciding with the release of ChatGPT, with the United States, China and Canada emerging as leading contributors. Influential institutions included Mayo Clinic, University of Toronto and Karolinska Institutet. Research hotspots clustered around generative artificial intelligence (AI) applications, machine learning, simulation-based training and blended learning. Recent bursts of keywords such as ‘DeepSeek’ indicate expanding regional engagement and diversification of AI tools. Conclusions Large language model research in medical education is transitioning from exploratory commentaries to more applied and empirical investigations. While open-source models offer opportunities for broader access, critical challenges remain regarding measurable educational outcomes, ethical frameworks and global equity. Addressing these gaps through rigorous outcome-based studies and cross-institutional collaboration will be essential for the sustainable integration of LLMs into medical curricula.",
+      "year": "2025",
+      "published_date": "2025-05-01",
+      "journal": "Digital Health",
+      "url": "https://www.semanticscholar.org/paper/b4eb5238261fd286d482f18366d78bbefc07e9e3",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1177/20552076251390280",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis literature review"
+    },
+    {
+      "title": "The metaverse as a future form of smart cities: A systematic literature review of co-benefits and trade-offs for sustainable development goals",
+      "authors": [
+        "Ayyoob Sharifi",
+        "Melika Amirzadeh",
+        "Amir Reza Khavarian-Garmsir"
+      ],
+      "abstract": "The United Nations launched the Sustainable Development Goals (SDGs) in 2015 to address a multitude of complex challenges facing today's world. Concurrently, the concept of smart cities has evolved to embrace advanced digital technologies and artificial intelligence for urban management and sustainability. Within this context, the Metaverse has emerged as a virtual extension of smart cities, offering a revolutionary space to reimagine urban life and governance. This systematic review explores how the Metaverse, as a virtual form of smart cities, aligns with the SDGs. It focuses on identifying potential co-benefits and trade-offs between the Metaverse and SDGs. The results indicate that research primarily focuses on SDGs related to health, education, innovation, sustainable cities, and responsible consumption and production. In contrast, less attention is given to SDGs related to reducing inequalities, climate change, environmental sustainability, peace, and partnership. The synthesis highlights the potential of the Metaverse to enhance smart cities' operational efficiency, transparency, and evidence-based decision-making through big data analytics and virtual collaboration. However, it also identifies risks such as exacerbating disparities and increasing environmental burdens. While the Metaverse can offer transformative solutions for smart urban environments, its benefits must be balanced with equitable access and environmental sustainability to effectively contribute to the SDGs. This requires addressing the digital and technological divide and environmental concerns to foster inclusive urban societies that uphold peace, justice, and strong institutions. The review underscores the need for strategic policy frameworks to mitigate risks and maximize the positive impact of the Metaverse on sustainable and resilient urban development. • The alignment of the Metaverse with the Sustainable Development Goals is examined. • Existing focus is mainly on SDG 3, SDG 4, SDG 9, SDG 11, and SDG 12. • Multiple co-benefits and trade-offs are investigated. • Co-benefits are related to efficiency, transparency, and evidence-based decision-making. • Trade-offs are mainly related to inequalities and environmental impacts.",
+      "year": "2025",
+      "published_date": "2025-03-22",
+      "journal": "Cities",
+      "url": "https://doi.org/10.1016/j.cities.2025.105879",
+      "arxiv_id": "",
+      "keywords": [
+        "Sustainable development",
+        "Business",
+        "Political science"
+      ],
+      "citations": 23,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.cities.2025.105879",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "policy intelligence evidence grounded writing systematic review"
+    },
+    {
+      "title": "Challenges and barriers of using large language models (LLM) such as ChatGPT for diagnostic medicine with a focus on digital pathology – a recent scoping review",
+      "authors": [
+        "E. Ullah",
+        "Anil Parwani",
+        "M. Baig",
+        "Rajendra Singh"
+      ],
+      "abstract": "Background The integration of large language models (LLMs) like ChatGPT in diagnostic medicine, with a focus on digital pathology, has garnered significant attention. However, understanding the challenges and barriers associated with the use of LLMs in this context is crucial for their successful implementation. Methods A scoping review was conducted to explore the challenges and barriers of using LLMs, in diagnostic medicine with a focus on digital pathology. A comprehensive search was conducted using electronic databases, including PubMed and Google Scholar, for relevant articles published within the past four years. The selected articles were critically analyzed to identify and summarize the challenges and barriers reported in the literature. Results The scoping review identified several challenges and barriers associated with the use of LLMs in diagnostic medicine. These included limitations in contextual understanding and interpretability, biases in training data, ethical considerations, impact on healthcare professionals, and regulatory concerns. Contextual understanding and interpretability challenges arise due to the lack of true understanding of medical concepts and lack of these models being explicitly trained on medical records selected by trained professionals, and the black-box nature of LLMs. Biases in training data pose a risk of perpetuating disparities and inaccuracies in diagnoses. Ethical considerations include patient privacy, data security, and responsible AI use. The integration of LLMs may impact healthcare professionals’ autonomy and decision-making abilities. Regulatory concerns surround the need for guidelines and frameworks to ensure safe and ethical implementation. Conclusion The scoping review highlights the challenges and barriers of using LLMs in diagnostic medicine with a focus on digital pathology. Understanding these challenges is essential for addressing the limitations and developing strategies to overcome barriers. It is critical for health professionals to be involved in the selection of data and fine tuning of the models. Further research, validation, and collaboration between AI developers, healthcare professionals, and regulatory bodies are necessary to ensure the responsible and effective integration of LLMs in diagnostic medicine.",
+      "year": "2024",
+      "published_date": "2024-02-27",
+      "journal": "Diagnostic Pathology",
+      "url": "https://www.semanticscholar.org/paper/06ea3b3c4680cc8939b830f0edf260a0d142d76a",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 272,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13000-024-01464-7",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models literature review"
+    },
+    {
+      "title": "Digital Humanities and disability: A systematic literature review of cultural accessibility for people with disability",
+      "authors": [
+        "Maria Pirrone",
+        "Marco Centorrino",
+        "Antonino Galletta",
+        "Christian Sicari",
+        "Massimo Villari"
+      ],
+      "abstract": "AbstractIn recent times, Digital Humanities (DH), together with the discoveries of Information and Communications Technology, have enabled the rediscovery and usability of cultural content with the support of various technologies. However, it was found that not everyone is able to access web platforms or visit cultural sites easily. In particular, the epidemiological Covid-19 crisis has highlighted the retrograde state of culture in terms of accessibility and usability, conditioned by the physical and web browsing limitations that for years weighed on people with disabilities. Therefore, it was decided to investigate how DH might support the cultural accessibility of people with disabilities. In particular, it was decided to carry out a systematic review of the cultural innovations of DH together with a survey on disability and supporting technologies in order to present how to improve the quality of the cultural experience of such a target. This study proceeded with the research and selection of literature on the subject of DH and disability, with the selection, analysis, and correlation of the scientific works included. The reference time frame includes the works produced between 2018 and 2022 consulted on main databases such as Scopus and Web of Science (WoS), screened using the Preferred Reporting Items for Systematic reviews and Meta-Analyses Statement.",
+      "year": "2022",
+      "published_date": "2022-7-30",
+      "journal": "Digital Scholarship in the Humanities",
+      "url": "https://doi.org/10.1093/llc/fqac045",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 11,
+      "source": "CrossRef",
+      "doi": "10.1093/llc/fqac045",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship systematic review"
+    },
+    {
+      "title": "Design, Digital Humanities, and Information Visualization for Cultural Heritage",
+      "authors": [
+        "R. Trocchianesi",
+        "Letizia Bollini"
+      ],
+      "abstract": "In this essay, we are interested in investigating some of the possible relations between design and digital humanities. In particular, we analyze the contribution that communication and interface design can bring to digital humanities. In a scene currently characterized by a heterogeneous set of activities and humanistic, technological, and cultural studies, the involvement of design seems confined to the development of digital instruments in accessing, exploring, and manipulating cultural data. How can design and the humanities work in an interdisciplinary way in order to shape new digital means to explore humanistic content? This essay presents four case studies (three of them developed by the authors), each of which suggests some methods and tools focused on the interdisciplinary relationships of scholars. The findings are both models of collaboration and models of digital architecture (data visualization) and showcase applied digital interactive platforms that present several paths to discovering different levels of content in the fields of art, psychology, literature, and history. In conclusion, this essay presents a manifesto focusing on ten points of virtuous relation between design humanities and the field of information visualization.",
+      "year": "2023",
+      "published_date": "2023-11-01",
+      "journal": "Multimodal Technologies and Interaction",
+      "url": "https://www.semanticscholar.org/paper/479a39c5e4d0278d3e755119b0e852a3e2b70f4f",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 10,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/mti7110102",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    }
+  ],
+  "timestamp": "20260413_083311"
+}

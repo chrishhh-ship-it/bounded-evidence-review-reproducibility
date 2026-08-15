@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "全文阅读链路中最值得优先抽取的结构化证据有哪些？",
+  "effective_search_query": "全文阅读链路 结构化证据 抽取 优先级",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "title:复杂网络链路可预测性: 基于特征谱视角|2020",
+    "title:议论文证据链构建的实践观察与问题分析——基于九年级上册第二单元项目学习的学生作业研究|2025",
+    "title:面向非结构化扫描pdf 的大语言模型知识图谱生成框架|2025",
+    "title:中级汉语阅读课说明文教学探索性案例研究|2025",
+    "title:促进初中学生思维发展的英语阅读教学活动探究|2025",
+    "title:指向思维品质的高中英语阅读问题链设计研究——以一节高中英语读思优质课为例|2025",
+    "doi:10.12146/j.issn.2095-3135.20211122001刘啸，",
+    "title:基于深度学习的问题链在高中英语阅读教学中的应用与实践|2025",
+    "title:正青春, 正能量. 2, 考上清_ 北大, 我_ 找到方法|2018",
+    "title:管理类联考写作通关高分秘籍|2021",
+    "title:的论证图重建, 健全性审计与史实核验|2026",
+    "title:生成式人工智能环境下的搜索即学习: 技术路径, 行为演化与伦理挑战|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "复杂网络链路可预测性: 基于特征谱视角",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "谭索怡， 祁明泽， 吴俊， 吕欣 - 物理学报, 2020 - homexinlu.com",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 的信息, 就可以制定一定 的优先级规则或重要性标准来选择性地… 网络的结构, 那么这个网络是 可预测的, 即网络的结构一致性越… 设计了基于证据推理(Dempster-Shafer theory) 的链路预测算法…"
+    },
+    {
+      "title": "议论文证据链构建的实践观察与问题分析——基于九年级上册第二单元项目学习的学生作业研究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "王强 - Global Education Perspective, 2025 - fcpi.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 证据链构建中已展现出文本提取与生活关联的初步能力,但在“文本研读・奠基”与“方法迁移・练兵 ”阶段仍存在证据分析不深,生活证据… 三维证据链,落实“思辨性阅读与表达”任务群的核心素养目标. …"
+    },
+    {
+      "title": "面向非结构化扫描PDF 的大语言模型知识图谱生成框架",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "刘建民， 肖维维 - Computer Science and Application, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 质量文本识别,数学符号语义解析及知识体系结构化建模.针对扫描PDF图像模糊,公式识别… 抽取 与三元组构建.通过章节节点动态容器化,游离节点三级消解策略,在Neo4j中实现数学概念的逻辑化…"
+    },
+    {
+      "title": "中级汉语阅读课说明文教学探索性案例研究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "焦秀芹 - Advances in Education, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 有疗效,以外部证据增强可信度.这种客观性特征要求中级学习者聚焦信息本身,而非主观情感解读 . … 典型性原则是首要考量,应优先选取结构规范的文本,确保其具备标准文体特征与清晰说明逻辑.…"
+    },
+    {
+      "title": "促进初中学生思维发展的英语阅读教学活动探究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "刘晓艳 - 教育学, 2025 - sci-open.net",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 提出有效问题技巧,指导寻找文本证据支持观 点,鼓励质疑文本… 质疑,分析,评价,反思 完整思维链 ,促进阅读理解深度与广度.[3] 以人… 生英语阅读逻辑思 维建构提供了有力工具,通过图形化方式展现…"
+    },
+    {
+      "title": "指向思维品质的高中英语阅读问题链设计研究——以一节高中英语读思优质课为例",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "徐雯， 叶薇 - Creative Education Studies, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 因此教师必须重视“问”的策略,帮助学生在盘活结构化知识的过程中能创造性表达自己的观点,… 模式,运用问题链的教学方式在提升学生阅读理解综合能力上效果更显著,但缺乏课堂即时思维证据. …"
+    },
+    {
+      "title": "基于动态图神经网络的会话式机器阅读理解研究",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "刘啸， 杨敏 - 集成技术, 2022 - jcjs.siat.ac.cn",
+      "doi": "10.12146/j.issn.2095-3135.20211122001刘啸，",
+      "citations": 0,
+      "abstract": "… ,从而为文档图结构 表示的识别提供证据文本.Ding 等[21]提出一个多 跳阅读理解框架CogQA,该… (1)实体图构造模块 构建文本实体图结构首先需要对文章进行命 名实体抽取,实体是机器阅读…"
+    },
+    {
+      "title": "基于深度学习的问题链在高中英语阅读教学中的应用与实践",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "李韵红， 於银梅 - Creative Education Studies, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 学生循着问题链一步步深入文本,经历比较,归纳,批判,创造等认知活动,… 能力以及创新意识,有效 解决了阅读教学中思维训练碎片化,随意化的问题. … (引导学生从文本中寻找证据,进行分析归纳) …"
+    },
+    {
+      "title": "正青春, 正能量. 2, 考上清_ 北大, 我_ 找到方法",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "_ 方_ _ - 2018 - books.google.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 暑假其实是大一块可用来阅读的时间,可选择2~3本名著 回阅读. 其实如果是的想阅读, 发现是 可抽来阅读的. 心是先 把要读的东列在日程里, 阅读一点, 有一些时间挡来, 拿来阅读. …"
+    },
+    {
+      "title": "管理类联考写作通关高分秘籍",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "贾振立 - 2021 - books.google.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 扩大自己的 阅读面,对快速准确理解材料,梳理论证结构,发现… 结构关键词告诉我们:哪个陈述是 通过证据和前提表明其正当性的(这… 考生在考场上可以优先找结构关键词和首尾句, 判断是不是结论…"
+    },
+    {
+      "title": "的论证图重建, 健全性审计与史实核验",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "W Meng - researchgate.net",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 该文具有公共传播体裁的长处:结构清晰,概念组织力强,价值导向… 史实双重证据链”而言,存在 关键 缺陷:核心概念“尺度”缺少操作化定义… 基于刘同舫的段落结构与判断强度,本文抽取6 个核心主张: …"
+    },
+    {
+      "title": "生成式人工智能环境下的搜索即学习: 技术路径, 行为演化与伦理挑战",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "施栩婕， 袁帆， 李佳 - 农业图书情报学报, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 相较于系统性文献综述(Systematic Review),范 围综述(Scoping Review)作为一种能够整合 多种类 型证据的文献研究方法,具有系统梳理现有文献类 型,核心概念及研究方法的独特优势[35],…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q15_baseline_b_20260410_190649.md"
+}

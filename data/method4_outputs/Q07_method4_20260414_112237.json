@@ -1,0 +1,103 @@
+{
+  "baseline": "method4_cot_citation",
+  "query": "多智能协同系统的 reviewer agent 对最终报告质量能带来哪些可观察改进？",
+  "query_id": "Q07",
+  "effective_search_query": "multi-agent systems, reviewer agent, report quality, performance improvement",
+  "provider": "deepseek",
+  "model": null,
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "doi:10.1109/mwc.016.2300600",
+    "doi:10.1016/j.promfg.2020.10.044",
+    "doi:10.3390/jmmp4030089",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.20944/preprints202510.1394.v1",
+    "doi:10.17048/am.2020.122",
+    "title:an intelligent decision support system based on multi agent systems for business classification problem|2023",
+    "doi:10.1109/tnse.2021.3077766",
+    "doi:10.1109/jas.2021.1004132",
+    "doi:10.1109/tits.2023.3242997",
+    "title:reinforcing clinical decision support through multi-agent systems and ethical ai governance|2025",
+    "title:a multi-agent model to develop knowledge management systems|2026",
+    "title:multi-agent systems: a survey|2018",
+    "title:mascem: optimizing the performance of a multi-agent system|2016",
+    "doi:10.1007/s10462-016-9520-8a"
+  ],
+  "top_papers": [
+    {
+      "title": "Reinforcing clinical decision support through multi-agent systems and ethical ai governance",
+      "year": 2025,
+      "journal": "YJ Chen, A Albarqawi, CS Chen - arXiv e-prints, 2025 - ui.adsabs.harvard.edu",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 17,
+      "abstract": "… artificial intelligence into clinical decision support systems (CDSS), are … Our results suggest that the multi-agent system (MAS) … AI-assisted decision support in an intensive care setting. …"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "MASCEM: Optimizing the performance of a multi-agent system",
+      "year": 2016,
+      "journal": "G Santos, T Pinto, I Praça, Z Vale - Energy, 2016 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 115,
+      "abstract": "… This paper presents a new, enhanced version of MASCEM (Multi-Agent System for … able to face the highly demanding requirements that the decision support in this field requires. This …"
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "Multi-Agent based Intelligent Decision Support Systems for Cancer Classification",
+      "year": "2021",
+      "journal": "Agria Média 2020 és ICI-16 Információ- és Oktatástechnológiai konferencia",
+      "source": "CrossRef",
+      "doi": "10.17048/am.2020.122",
+      "citations": 0,
+      "abstract": "There is evidence that early detection of cancer diseases can improve the treatment and increase the survival rate of patients. This paper presents an efficient CAD system for cancer diseases diagnosis by gene expression profiles of DNA microarray datasets. The proposed CAD system combines Intelligent Decision Support System (IDSS) and Multi-Agent (MA) system. The IDSS represents the backbone of the entire CAD system. It consists of two main phases; feature selection/reduction phase and a classification phase. In the feature selection/reduction phase, eight diverse methods are developed. While, in the classification phase, three evolutionary machine learning algorithms are employed. On the other hand, the MA system manages the entire operation of the CAD system. It first initializes severa"
+    },
+    {
+      "title": "An intelligent decision support system based on multi agent systems for business classification problem",
+      "year": 2023,
+      "journal": "M Haj Qasem, M Aljaidi, G Samara, R Alazaidah… - Sustainability, 2023 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 40,
+      "abstract": "… decision making. Document classification is one of the main decisions that any business adopts in their decision making … In this paper, we combined multi-agent systems (MASs), which …"
+    },
+    {
+      "title": "A Quality-Oriented Digital Twin Modelling Method for Manufacturing Processes Based on A Multi-Agent Architecture",
+      "year": "2020",
+      "journal": "Procedia Manufacturing",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.promfg.2020.10.044",
+      "citations": 72,
+      "abstract": "The quality of a product is highly dependent on manufacturing processes. The recent development of industrial information technologies, such as Cyber-Physical Production Systems, Industrial Internet of Things, and Big Manufacturing Data Analytics has empowered the digitalization of manufacturing processes and promoted the concept of Digital Twin (DT). As one of the fundamental enabling technologies for Industry 4.0, DT enables the convergence between a physical system and its digital representation. DT modelling is the basis of implementing DT in practice. In this paper, we propose a DT modelling method based on a multi-agent architecture. It focuses on quality control during manufacturing processes and provides solutions to gather relevant information and analyze the corresponding influen"
+    },
+    {
+      "title": "Simulation of Smart Factory Processes Applying Multi-Agent-Systems—A Knowledge Management Perspective",
+      "year": "2020",
+      "journal": "Journal of Manufacturing and Materials Processing",
+      "source": "OpenAlex",
+      "doi": "10.3390/jmmp4030089",
+      "citations": 20,
+      "abstract": "The implementation of Industry 4.0 and smart factory concepts changes the ways of manufacturing and production and requires the combination and interaction of different technologies and systems. The need for rapid implementation is steadily increasing as customers demand individualized products which are only possible if the production unit is smart and flexible. However, an existing factory cannot be transformed easily into a smart factory, especially not during operational mode. Therefore, designers and engineers require solutions which help to simulate the aspired change beforehand, thus running realistic pre-tests without disturbing operations and production. New product lines may also be tested beforehand. Data and the deduced knowledge are key factors of the said transformation. One "
+    }
+  ],
+  "elapsed_seconds": 141.855,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method4_outputs\\Q07_method4_20260414_112237.md"
+}

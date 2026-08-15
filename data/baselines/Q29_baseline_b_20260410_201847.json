@@ -1,0 +1,163 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "哪些自动指标可以先行使用，以减少人工标注成本？",
+  "effective_search_query": "automatic metrics, human annotation cost reduction",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "title:how to evaluate machine translation: a review of automated and human metrics|2020",
+    "title:the price of debiasing automatic metrics in natural language evalaution|2018",
+    "title:human evaluation and correlation with automatic metrics in consultation note generation|2022",
+    "title:modeling and mitigating human annotation errors to design efficient stream processing systems with human-in-the-loop machine learning|2022",
+    "title:automatic detection of maintenance requests: comparison of human manual annotation and sentiment analysis techniques|2022",
+    "title:a comprehensive review of automated data annotation techniques in human activity recognition|2023",
+    "title:keeping humans in the loop: human-centered automated annotation with generative ai|2024",
+    "doi:10.1007/s11192-024-05114-z",
+    "doi:10.1007/978-3-031-60606-9_26t",
+    "title:reducing manual annotation costs for cell segmentation by upgrading low-quality annotations|2024",
+    "doi:10.1007/978-3-319-75928-9_85n",
+    "title:a unified metric for simultaneous evaluation of error rate and annotation cost|2025",
+    "title:the price of debiasing automatic metrics in natural language evaluation|2018",
+    "title:evaluating the iwslt2023 speech translation tasks: human annotations, automatic metrics, and segmentation|2024",
+    "title:improving annotation quality: empirical insights into bias, human-ai collaboration, and workflow design|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "How to evaluate machine translation: A review of automated and human metrics",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "E Chatzikoumi - Natural Language Engineering, 2020 - cambridge.org",
+      "doi": "",
+      "citations": 194,
+      "abstract": "… , influential automated, semiautomated and human metrics … dedicated to automated metrics; the second, to human metrics; … translations or human annotations, and what is automatically …"
+    },
+    {
+      "title": "The price of debiasing automatic metrics in natural language evalaution",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "A Chaganty, S Mussmann, P Liang - … of the 56th Annual Meeting of …, 2018 - aclanthology.org",
+      "doi": "",
+      "citations": 173,
+      "abstract": "… variates to combine automatic metrics with human evaluation to … efficiency (equivalently, cost savings)—the factor reduction in number of hu… Annotations cost $0.40 per system response.…"
+    },
+    {
+      "title": "Human evaluation and correlation with automatic metrics in consultation note generation",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "F Moramarco, AP Korfiatis, M Perera… - Proceedings of the …, 2022 - aclanthology.org",
+      "doi": "",
+      "citations": 74,
+      "abstract": "… All our findings and annotations are open-sourced. … These eval_notes appear on the evaluator screen throughout to help reduce the cognitive load of remembering what was discussed …"
+    },
+    {
+      "title": "Modeling and mitigating human annotation errors to design efficient stream processing systems with human-in-the-loop machine learning",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "R Pandey, H Purohit, C Castillo, VL Shalin - International Journal of Human …, 2022 - Elsevier",
+      "doi": "",
+      "citations": 65,
+      "abstract": "… , which may affect annotation for automated classifiers. Our … of human annotations, but that has fewer human annotation errors. Automated systems that help reduce human annotation …"
+    },
+    {
+      "title": "Automatic detection of maintenance requests: Comparison of Human Manual Annotation and Sentiment Analysis techniques",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "M D'Orazio, E Di Giuseppe, G Bernardini - Automation in Construction, 2022 - Elsevier",
+      "doi": "",
+      "citations": 42,
+      "abstract": "… /polarities and domains/contexts can reduce its effectiveness. This study compares the … techniques and Human Manual Annotation, considered the gold standard, to automatically define …"
+    },
+    {
+      "title": "A comprehensive review of automated data annotation techniques in human activity recognition",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "F Demrozi, C Turetta, FA Machot, G Pravadelli… - arXiv preprint arXiv …, 2023 - arxiv.org",
+      "doi": "",
+      "citations": 28,
+      "abstract": "… faster and more scalable than manual labeling and reduce the annotation process’s cost. … , and other relevant performance metrics of the annotation systems. Only publications in …"
+    },
+    {
+      "title": "Keeping humans in the loop: Human-centered automated annotation with generative ai",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "N Pangakis, S Wolken - arXiv preprint arXiv:2409.09467, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 13,
+      "abstract": "… As a result, we do not leverage this metric for automated annotation evaluation. Instead, we exploit this … We believe that this helps to reduce concerns about data annotation quality. The …"
+    },
+    {
+      "title": "Automated recognition of innovative sentences in academic articles: semi-automatic annotation for cost reduction and SAO reconstruction for enhanced data",
+      "year": "2024",
+      "source": "CrossRef",
+      "journal": "Scientometrics",
+      "doi": "10.1007/s11192-024-05114-z",
+      "citations": 7,
+      "abstract": ""
+    },
+    {
+      "title": "Reducing human annotation effort using self-supervised learning for image segmentation",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "T Siriborvornratanakul - International Conference on Human-Computer …, 2024 - Springer",
+      "doi": "10.1007/978-3-031-60606-9_26T",
+      "citations": 7,
+      "abstract": "… prevents full automation and … of human annotation in image segmentation, delving into a comparative exploration between the conventional fully-supervised segmentation annotation …"
+    },
+    {
+      "title": "Reducing manual annotation costs for cell segmentation by upgrading low-quality annotations",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "S Vădineanu, DM Pelt, O Dzyubachyk, KJ Batenburg - Journal of Imaging, 2024 - mdpi.com",
+      "doi": "",
+      "citations": 5,
+      "abstract": "… By providing coarser delineations, only annotating a subset of all cells, or relying on automatic … with limited human annotation costs by only requiring a small set of data with high-quality …"
+    },
+    {
+      "title": "Human vs. Automatic Annotation Regarding the Task of Relevance Detection in Social Networks",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "N Guimarães, F Miranda, Á Figueira - International Conference on …, 2018 - Springer",
+      "doi": "10.1007/978-3-319-75928-9_85N",
+      "citations": 3,
+      "abstract": "… to automatically label … metrics to evaluate each annotation and worker, abdicating the inter-worker agreement to be able to label a large dataset in a less costly manner. In the automatic …"
+    },
+    {
+      "title": "A Unified Metric for Simultaneous Evaluation of Error Rate and Annotation Cost",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "M Lindsey, F Kubala, RM Stern - ICASSP 2025-2025 IEEE …, 2025 - ieeexplore.ieee.org",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… of a human operator who benefits from the automatic detection process. We also focus on … to express the time cost of a detection algorithm as the relative cost savings compared to …"
+    },
+    {
+      "title": "The price of debiasing automatic metrics in natural language evaluation",
+      "year": "2018",
+      "source": "arXiv",
+      "journal": "arXiv Preprint",
+      "doi": "",
+      "citations": 0,
+      "abstract": "For evaluating generation systems, automatic metrics such as BLEU cost nothing to run but have been shown to correlate poorly with human judgment, leading to systematic bias against certain model improvements. On the other hand, averaging human judgments, the unbiased gold standard, is often too expensive. In this paper, we use control variates to combine automatic metrics with human evaluation to obtain an unbiased estimator with lower cost than human evaluation alone. In practice, however, we obtain only a 7-13% cost reduction on evaluating summarization and open-response question answering systems. We then prove that our estimator is optimal: there is no unbiased estimator with lower cost. Our theory further highlights the two fundamental bottlenecks---the automatic metric and the promp"
+    },
+    {
+      "title": "Evaluating the IWSLT2023 Speech Translation Tasks: Human Annotations, Automatic Metrics, and Segmentation",
+      "year": "2024",
+      "source": "arXiv",
+      "journal": "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Human evaluation is a critical component in machine translation system development and has received much attention in text translation research. However, little prior work exists on the topic of human evaluation for speech translation, which adds additional challenges such as noisy data and segmentation mismatches. We take first steps to fill this gap by conducting a comprehensive human evaluation of the results of several shared tasks from the last International Workshop on Spoken Language Translation (IWSLT 2023). We propose an effective evaluation strategy based on automatic resegmentation and direct assessment with segment context. Our analysis revealed that: 1) the proposed evaluation strategy is robust and scores well-correlated with other types of human judgements; 2) automatic metr"
+    },
+    {
+      "title": "Improving annotation quality: empirical insights into bias, human-AI collaboration, and workflow design",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "J Beck - 2025 - edoc.ub.uni-muenchen.de",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… characteristics, task perception metrics, and paradata to … We observe strong potential for cost reduction and quality … human and automated annotators for the same annotation task …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q29_baseline_b_20260410_201847.md"
+}

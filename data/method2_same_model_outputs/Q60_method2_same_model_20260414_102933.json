@@ -1,0 +1,156 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "多智能体情报系统的可重现性应如何通过基准协议来保障？",
+  "effective_search_query": "多智能体情报系统 可重现性 基准协议",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 6,
+    "major_issues": [
+      "报告标题和核心研究问题聚焦于'可重现性'和'基准协议'，但证据集中没有任何一篇文献直接讨论这两个概念。报告在分析中承认了这一点，但随后进行了大量间接推导和推测，超出了摘要证据的支持范围。例如，第3节'证据支持的研究方向'中提出的四个方向（标准化评估指标、系统架构规范化、对抗外部依赖方法、跨领域场景库构建）均是基于相关概念（如指标、架构、依赖）的联想，而非证据中明确提出的与可重现性或基准协议直接相关的内容。这导致报告的核心论证缺乏直接证据支撑，属于过度解读。",
+      "报告将'多智能体强化学习算法'在资源调度中使用的'资源利用率、任务响应时间'等指标[6]，直接关联并推导为未来多智能体情报系统'基准协议'中'需要定义和标准化'的'评估指标'。证据[6]仅描述了该特定调度机制使用的评估指标，并未提及这些指标与更广泛的'基准协议'或'可重现性'保障有关。这种关联缺乏逻辑必然性，属于证据外推。",
+      "报告将证据[3]中提到的'A2A协议'和证据[6][7]中提到的'分层控制'、'云边端架构'，推导为基准协议'可能需要规范多智能体系统的通用架构组件、智能体间的交互接口与通信协议'的依据。然而，这些证据仅描述了特定系统使用的协议或架构，并未讨论将其标准化为通用基准协议的必要性或方法。这种推导是假设性的，而非基于证据的结论。"
+    ],
+    "citation_issues": [
+      "对证据[5]的引用（'智能体系统可能严重依赖外部API'）是准确的。",
+      "对证据[6]的引用（提及具体评估指标）是准确的，但对其解读（关联到基准协议）存在问题，如主要问题所述。",
+      "对证据[2,7,8]的引用（应用场景和背景）基本准确，但用于支持'构建...标准情报任务场景库'这一推导时，证据力度不足，因为这些文献并未讨论'场景库'对于基准测试的作用。",
+      "报告整体引用格式规范，与提供的证据列表匹配。"
+    ],
+    "revision_instructions": [
+      "必须大幅修改报告结论和推导部分，使其严格局限于摘要证据明确陈述的内容。明确指出现有证据中缺乏对'可重现性'和'基准协议'的直接讨论，是本次分析的核心发现，而非进行间接推测的起点。",
+      "重写第3节'证据支持的研究方向'。当前内容应改为'证据中潜在的相关要素'或类似标题，并仅作客观罗列，例如：1. 部分应用领域存在量化评估指标（如[6]）；2. 系统构建涉及特定架构与协议（如[3,6,7]）；3. 系统实现可能存在外部依赖（如[5]）。同时必须明确强调，这些要素在证据中并未与'可重现性保障'或'基准协议设计'建立任何直接联系。",
+      "修改第5节'谨慎结论'，使其更直接地反映证据缺口。结论应强调：基于现有摘要，无法回答研究问题。可指出证据显示了多智能体系统的多样应用和技术组件，但关于如何通过基准协议保障其可重现性，需要检索和研读专门讨论系统评估、测试基准、标准化与可重现性方法论的文献。",
+      "考虑调整报告标题或开头声明，更清晰地表明这是一份'证据缺口分析报告'或'基于有限证据的初步范围界定'，而非试图给出答案的分析报告。"
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 6,
+        "major_issues": [
+          "报告标题和核心研究问题聚焦于'可重现性'和'基准协议'，但证据集中没有任何一篇文献直接讨论这两个概念。报告在分析中承认了这一点，但随后进行了大量间接推导和推测，超出了摘要证据的支持范围。例如，第3节'证据支持的研究方向'中提出的四个方向（标准化评估指标、系统架构规范化、对抗外部依赖方法、跨领域场景库构建）均是基于相关概念（如指标、架构、依赖）的联想，而非证据中明确提出的与可重现性或基准协议直接相关的内容。这导致报告的核心论证缺乏直接证据支撑，属于过度解读。",
+          "报告将'多智能体强化学习算法'在资源调度中使用的'资源利用率、任务响应时间'等指标[6]，直接关联并推导为未来多智能体情报系统'基准协议'中'需要定义和标准化'的'评估指标'。证据[6]仅描述了该特定调度机制使用的评估指标，并未提及这些指标与更广泛的'基准协议'或'可重现性'保障有关。这种关联缺乏逻辑必然性，属于证据外推。",
+          "报告将证据[3]中提到的'A2A协议'和证据[6][7]中提到的'分层控制'、'云边端架构'，推导为基准协议'可能需要规范多智能体系统的通用架构组件、智能体间的交互接口与通信协议'的依据。然而，这些证据仅描述了特定系统使用的协议或架构，并未讨论将其标准化为通用基准协议的必要性或方法。这种推导是假设性的，而非基于证据的结论。"
+        ],
+        "citation_issues": [
+          "对证据[5]的引用（'智能体系统可能严重依赖外部API'）是准确的。",
+          "对证据[6]的引用（提及具体评估指标）是准确的，但对其解读（关联到基准协议）存在问题，如主要问题所述。",
+          "对证据[2,7,8]的引用（应用场景和背景）基本准确，但用于支持'构建...标准情报任务场景库'这一推导时，证据力度不足，因为这些文献并未讨论'场景库'对于基准测试的作用。",
+          "报告整体引用格式规范，与提供的证据列表匹配。"
+        ],
+        "revision_instructions": [
+          "必须大幅修改报告结论和推导部分，使其严格局限于摘要证据明确陈述的内容。明确指出现有证据中缺乏对'可重现性'和'基准协议'的直接讨论，是本次分析的核心发现，而非进行间接推测的起点。",
+          "重写第3节'证据支持的研究方向'。当前内容应改为'证据中潜在的相关要素'或类似标题，并仅作客观罗列，例如：1. 部分应用领域存在量化评估指标（如[6]）；2. 系统构建涉及特定架构与协议（如[3,6,7]）；3. 系统实现可能存在外部依赖（如[5]）。同时必须明确强调，这些要素在证据中并未与'可重现性保障'或'基准协议设计'建立任何直接联系。",
+          "修改第5节'谨慎结论'，使其更直接地反映证据缺口。结论应强调：基于现有摘要，无法回答研究问题。可指出证据显示了多智能体系统的多样应用和技术组件，但关于如何通过基准协议保障其可重现性，需要检索和研读专门讨论系统评估、测试基准、标准化与可重现性方法论的文献。",
+          "考虑调整报告标题或开头声明，更清晰地表明这是一份'证据缺口分析报告'或'基于有限证据的初步范围界定'，而非试图给出答案的分析报告。"
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.11968/tsyqb.1003-6938.2025001",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "title:building a secure agentic ai application leveraging a2a protocol|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.19678/j.issn.1000-3428.0069471"
+  ],
+  "top_papers": [
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "Building a secure agentic AI application leveraging A2A protocol",
+      "year": 2025,
+      "journal": "I Habler, K Huang, VS Narajala, P Kulkarni - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 52,
+      "abstract": "… Applications of agent communication range across enterprise knowledge management, customer service, supply chain management, healthcare, smart grids, autonomous vehicles, e-…"
+    },
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "Agent kb: Leveraging cross-domain experience for agentic problem solving",
+      "year": 2025,
+      "journal": "X Tang, T Qin, T Peng, Z Zhou, D Shao, T Du… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 50,
+      "abstract": "… As artificial intelligence advances, language agents are … We propose the Agent Knowledge Base (AGENT KB), a hierarchical … All services used in this work rely on third-party API calls to …"
+    },
+    {
+      "title": "空天地一体化算力网络资源调度机制",
+      "year": 2025,
+      "journal": "空天地一体化算力网络",
+      "source": "万方数据",
+      "doi": "10.19678/j.issn.1000-3428.0069471",
+      "citations": 45,
+      "abstract": "为满足卫星数据处理、车辆远程控制等快速响应和大范围覆盖的应用场景需求,聚焦于采用分层控制和人工智能技术的方法,设计一种空天地一体化算力网络资源调度机制.将空天地网络划分为3个域,分别部署域控制器,负责本地域的资源管理,同时通过卫星和无人机的覆盖范围进行地面区域划分,确保地面区域能够得到有效的服务保障,以实现高效的数据传输和任务处理.为了优化空天地算力网络资源利用率,引入多智能体强化学习算法,对 不同场景下产生的计算任务进行实时处理,将每个域控制器视为具备任务调度和资源分配能力的智能体,在满足时延和能耗的约束下,通过协同学习和分布式决策实现计算任务智能调度和高效分配.实验结果表明,该机制能够有效提高资源利用率和缩短任务响应时间. achieve effective <span class='highlight'>service</span> guarantees,efficient data transmission,and task processing.A <span class='highlight'>multi-agent</span> reinforcement learning-based scheduling algorithm is proposed to optimize resource utilization in  hierarchical control and artificial <span class='highlight'>intelligence</span> technology to design a resource scheduling mechanism for space-air-ground integrated computing power networks.Air,space,and ground networks ar"
+    },
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "人工智能赋能情报服务与决策:内涵、逻辑与路径",
+      "year": 2025,
+      "journal": "专题:人工智能赋能情报服务研究",
+      "source": "万方数据",
+      "doi": "10.11968/tsyqb.1003-6938.2025001",
+      "citations": 52,
+      "abstract": "文章聚焦于人工<span class='highlight'>智能</span>赋能<span class='highlight'>情报</span><span class='highlight'>服务</span>与决策的宏观认知概念、内涵与框架,旨在从内涵、逻辑与路径三个层面进行深入探讨.首先,明确了人工<span class='highlight'>智能</span>在<span class='highlight'>情报</span><span class='highlight'>服务</span>中的内涵,指出其通过<span class='highlight'>智能</span>化手段实现<span class='highlight'>情报</span>的高效收集、深度处理、精准分析及快速传递;其次,剖析了人工<span class='highlight'>智能</span>赋能<span class='highlight'>情报</span><span class='highlight'>服务</span>与决策的内在逻辑,包括融合创新、场景驱动和战略引领三大要素;最后,探索了人工<span class='highlight'>智能</span>赋能<span class='highlight'>情报</span><span class='highlight'>服务</span>的具体路径,包括<span class='highlight'>情报</span>感知及数智赋能的智慧响应体系构建、 场景化适配的智慧问答交互范式创新、<span class='highlight'>智能</span>化<span class='highlight'>情报</span>决策系统的内容构建与优化以及应用导向的\"智慧+\"<span class='highlight'>情报</"
+    }
+  ],
+  "elapsed_seconds": 162.628,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q60_method2_same_model_20260414_102933.md"
+}

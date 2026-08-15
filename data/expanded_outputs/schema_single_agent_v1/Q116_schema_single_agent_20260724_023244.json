@@ -1,0 +1,244 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q116",
+  "query": "What quantitative measures can operationalize 'narrative complexity' in a reproducible, citation-checkable way for literary studies?",
+  "domain_id": "digital_humanities",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q116_method1_exp_20260413_082729.json",
+  "same_query_evidence_ids": [
+    "doi:10.30564/fls.v7i4.8619",
+    "doi:10.1108/wje-07-2021-0393",
+    "doi:10.1016/j.identj.2025.04.015",
+    "doi:10.31219/osf.io/v2byr_v3",
+    "doi:10.63468/sshrr.200",
+    "doi:10.1016/j.mcpdig.2023.03.006",
+    "doi:10.1109/bigdia68682.2025.11382737",
+    "doi:10.1186/s12911-024-02533-z"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.30564/fls.v7i4.8619",
+    "doi:10.1108/wje-07-2021-0393",
+    "doi:10.1016/j.identj.2025.04.015",
+    "doi:10.31219/osf.io/v2byr_v3",
+    "doi:10.63468/sshrr.200",
+    "doi:10.1016/j.mcpdig.2023.03.006",
+    "doi:10.1109/bigdia68682.2025.11382737",
+    "doi:10.1186/s12911-024-02533-z"
+  ],
+  "top_papers": [
+    {
+      "title": "Epistemological Transformation of the Paradigm of Literary Studies in the Context of the Integration of Digital Humanities Methods",
+      "authors": [
+        "Moldir Amangazykyzy",
+        "Aigerim A. Gilea",
+        "Aubakirova Karlygash",
+        "Abisheva Nurziya",
+        "Kulanova Sandygash"
+      ],
+      "abstract": "The epistemological transformation of literary studies in the context of digital humanities and the post-humanities shift challenges traditional hermeneutic paradigms, requiring a fundamental reconsideration of literariness, authorship, and textuality. This article explores the impact of distant reading and computational methodologies on contemporary literary analysis, particularly within postcolonial and feminist criticism. By integrating large-scale textual analysis with AI-driven methods, distant reading unveils new historical, structural, and thematic patterns while simultaneously raising critical concerns regarding representation, data selection, and algorithmic biases. The study examines how digital humanities methodologies, such as sentiment analysis, topic modeling, and network analysis, reshape the interpretation of gender and race in literary history. Case studies demonstrate how AI-assisted literary analysis reveals structural imbalances in representation, while feminist and decolonial critiques highlight the ethical imperatives of corpus formation, algorithmic transparency, and epistemic inclusivity. The findings underscore the methodological and ideological tensions between computational literary studies and traditional close reading approaches, advocating for a hybrid model that integrates quantitative insights with hermeneutic depth.Ultimately, this article argues that digital methodologies not only expand the analytical scope of literary research but also redefine the epistemological foundations of the discipline. The intersection of distant reading with feminist and decolonial critique destabilizes canonical hierarchies, urging scholars to critically engage with the political dimensions of digital research. By foregrounding the ethical challenges of AI-driven analysis, this study contributes to ongoing debates on the future of literary studies in the digital age, advocating for a more inclusive, interdisciplinary, and critically reflexive approach to literary scholarship.",
+      "year": "2025",
+      "published_date": "2025-03-27",
+      "journal": "Forum for Linguistic Studies",
+      "url": "https://doi.org/10.30564/fls.v7i4.8619",
+      "arxiv_id": "",
+      "keywords": [
+        "Digital humanities",
+        "Context (archaeology)",
+        "Transformation (genetics)",
+        "Digital transformation",
+        "Epistemology",
+        "Humanities",
+        "Sociology",
+        "Philosophy"
+      ],
+      "citations": 6,
+      "source": "OpenAlex",
+      "doi": "10.30564/fls.v7i4.8619",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship"
+    },
+    {
+      "title": "RETRACTED: Integrating hyperreal literature with CALL in English language curriculum for engineering studies in India: an empirical study of the impact on students’ learning",
+      "authors": [
+        "A. K. Ajeesh",
+        "S. Rukmini"
+      ],
+      "abstract": "Purpose Scholarship on language teacher knowledge and critical digital literacy. Using a grounded theory approach, semi-structured online presentations of students, classroom observations and their responses to multimedia tools such as movies and literature were analysed. As part of the study, 150 students pursuing undergraduate degree in engineering were assigned two assignments involving science fiction movies and hyperreal literature as part of an experiential strategy. A survey was conducted before and after the study to evaluate the change in students’ perception towards the use of technology and multimedia in language classrooms as well as their awareness of technological dependency in the postmodern world. The findings show that student cognition of AI and technological dependency is a complex and emergent system, and that, despite current literacy education scholarship stressing digital literacy as a social and critical praxis, technology is treated in a mostly functional, rather than a critical manner in a standard university language classroom. The results of this study suggest that the disadvantages of a realistic approach to teaching digital composition can be avoided by creating other forms of educational materials that adhere to critical digital literacies sense, such as posthuman literary works and science fiction film. Design/methodology/approach This study is primarily qualitative and empirical, focussing on the analysis of student responses to classroom assignments and semi-structured online presentations and responses to multimedia tools such as movies and online literature. A pilot study was performed among the engineering students of Vellore Institute of Technology, Vellore, India, to better understand engineering students’ perceptions and attitudes towards teaching English as a second language using emerging technology, with the aim of improving language abilities, writing skills, imagination and overall personality. One hundred and fifty (150) students were assigned two assignments as part of an experiential strategy. Owing to the COVID-19 pandemic, Microsoft Teams was used as the platform for assessment and observation. As part of their learning challenge, students were required to watch the movies “Her”, “Interstellar” and “Bandersnatch” and write a technical report outlining some of the major observations on technology and AI. Secondly, as part of their learning challenge, students were required to read Oliver Sacks’ “The Machine Stops” and comment on his perspectives on technological dependency. This was supplemented by assessment tests and assignments focussing on the digital nature of the global education system. Another survey was conducted at the end of the study to evaluate the change in students’ perception towards the use of technology and multimedia in language classrooms as well as their awareness of technological dependency in the postmodern world. Owing to the posthuman and hyperreal nature of the movies and texts, students were introduced to the theories of Marshall McLuhan and Jean Baudrillard to better understand the chosen works. Findings In the posthuman era, where digital technologies are at their peak, English language teachers select appropriate teaching resource materials based on the needs of the students and do their utmost to combine them with technology to make their teaching more engaging and efficient. Thanks to the current craze for Digital Humanities, not just English language teaching but also literature classroom teaching has experienced several paradigm shifts. This has raised the need for English teachers and professionals on the job market. Given this context, and in particular, to raise knowledge among engineering students of their critical position in the literary job sector, two tasks were assigned to students in the Language Classroom. These tasks included integrating technology into language studies and literature, instilling imagination, honing literary skills and facilitating the development of a comprehensive approach to life and potential endeavours. Originality/value As evident from the study and literature review, the introduction of emerging technology in Language Classrooms has grown in popularity, but it has yet to be incorporated into Language Classrooms that focus on the comprehensive development of students, especially in India. Furthermore, proof of interactions between digital learning and teaching practices and anticipated results, effects and impacts was gathered to make the Language Classroom more social, inspiring and engaging, but little more. As a result, we see a lot of potential for research in this field, particularly concerning the most recent language studies advancements about Digital Humanities.",
+      "year": "2021",
+      "published_date": "2021-11-15",
+      "journal": "World Journal of Engineering",
+      "url": "https://doi.org/10.1108/wje-07-2021-0393",
+      "arxiv_id": "",
+      "keywords": [
+        "Curriculum",
+        "Experiential learning",
+        "Pedagogy",
+        "Mathematics education",
+        "Scholarship",
+        "Empirical research",
+        "Psychology",
+        "Computer science"
+      ],
+      "citations": 5,
+      "source": "OpenAlex",
+      "doi": "10.1108/wje-07-2021-0393",
+      "open_access": false,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship literature review"
+    },
+    {
+      "title": "Can Large Language Models Serve as Reliable Tools for Information in Dentistry? A Systematic Review",
+      "authors": [
+        "Nora Alhazmi",
+        "Aram Alshehri",
+        "F. BaHammam",
+        "M. Philip",
+        "Muhammad Nadeem",
+        "S. Khanagar"
+      ],
+      "abstract": "Large language models (LLMs) have gained popularity among dental students for generating subject-related answers. However, their widespread use raises significant concerns about misinformation. This systematic review aims to critically evaluate studies assessing the performance of LLMs in dentistry. A comprehensive electronic search was conducted in PubMed/Medline, Scopus, Embase, Web of Science, Google Scholar, and the Saudi Digital Library to identify studies published up to September 2024. The study quality was assessed using the Prediction Model Risk of Bias Assessment Tool (PROBAST). A total of 2030 studies have been identified. After removing 907 duplicate records, 1123 studies remained for screening. Ultimately, 31 studies met the inclusion criteria. Approximately half of these studies were classified as “high risk,” while the remainder were classified as “low risk.” The applicability of the findings was rated as “low concern.” The primary limitations of LLMs include their inability to specify information sources and their tendency to generate fabricated citations. Based on this review, LLMs hold promise as supplementary educational tools in dentistry. Evidence indicates that students using LLMs may achieve improved academic performance compared to traditional methods. However, concerns about occasional inaccuracies and unreliable citations underscore the need for further research, integration with validated sources, and adherence to ethical guidelines. Ultimately, LLMs should be viewed as complementary tools within dental education, with careful consideration of their limitations.",
+      "year": "2025",
+      "published_date": "2025-05-16",
+      "journal": "International Dental Journal",
+      "url": "https://www.semanticscholar.org/paper/cf75aef12d8f8cd6cfd8ae1d261bac217cd4bb4c",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 9,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.identj.2025.04.015",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models systematic review"
+    },
+    {
+      "title": "Empathy in Social Entrepreneurship: Evidence from a Systematic Review with Structured Narrative Synthesis",
+      "authors": [
+        "Alireza Kheirabadi"
+      ],
+      "abstract": "AbstractBackground: Empathy is often treated as a personal resource that should support social entrepreneurship. Still, the literature uses “empathy” in non-equivalent ways, and many studies embed it inside intention models rather than measuring it as an independent construct. This review synthesizes the empirical evidence while keeping those operational differences explicit.Methods: We conducted a systematic review with structured narrative synthesis. The protocol was registered in Prospective Register of Systematic Reviews (PROSPERO). Scopus and PubMed were searched from inception up to January 2024 (English-language records). Quantitative studies were included if they assessed empathy and social entrepreneurship or closely related outcomes. Data were extracted into a standardized table, and empathy operationalization was coded as embedded, independent, or both. Outcomes were grouped as intention-focused versus broader endpoints. We used narrative synthesis because studies differed in measures, outcome definitions, and reporting, with many estimating indirect pathways in structural models. Methodological quality was appraised using the Joanna Briggs Institute checklist for analytical cross-sectional studies.Results: Twenty-five reports contributed 26 study entries. Most studies were cross-sectional surveys and focused on social entrepreneurial intention. When empathy was embedded within intention models, its direct association with intention was often model-dependent, with feasibility and normative pathways playing a prominent role. Recurring mediators included social entrepreneurial self-efficacy and moral obligation, while perceived social support and creativity appeared in a smaller subset. Evidence beyond intention was limited and heterogeneous, spanning control and feasibility-related outcomes, nascent behavior, implementation, and performance-oriented indicators. Quality appraisal suggested that measurement and statistical methods were generally acceptable, although confounding control was often limited or incompletely specified.Conclusion: Empathy appears relevant to social entrepreneurship, but it does not behave as a uniform predictor across operationalizations and models. Future work would benefit from clearer measurement choices, stronger confound handling, designs that move beyond single-wave self-report data, and more behavioral and implementation-oriented outcomes.Keywords: empathy; social entrepreneurship; social entrepreneurial intention; social entrepreneurial self-efficacy; moral obligation; perceived social support; structured narrative synthesis; Theory of Planned Behavior",
+      "year": "2025",
+      "published_date": "2025-12-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.31219/osf.io/v2byr_v3",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.31219/osf.io/v2byr_v3",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries",
+      "authors": [
+        "Bushara Iqbal"
+      ],
+      "abstract": "The paper is an examination of how AI-assisted emotional metadata can be used to enhance discoverability of digital library texts. Conventional library metadata is mostly based on factual and descriptive labels and this constrains people in their search as they cannot seek emotional or affective features. The study follows the mixed methodology, using both the quantitative analysis of the AI based emotional tags with the qualitative data of the human specialists, librarians and literature scholars. Our example is the review of two W. H. Davies poems, the Rain and Leisure with the help of AI models (GPT, BERT, RoBERTa), and the results were evaluated compared to human-assigned emotion metadata in terms of accuracy, match percentage, and depth of interpretation. It has been found that AI is able to produce accurate emotional signals on emotions fairly superficially (calmness and serenity), but it has difficulty with subtler aspects of literature, thus the need for human intervention. The research shows that discovery in digital libraries, user interaction, and search can be boosted by adding emotional metadata in digital libraries. Through a hybrid strategy of maximum efficiency of AI and human interpretive skills, libraries will be able to update the current cataloguing methods and save the literary and cultural integrity of their material. The results are useful in library metadata standards and give guidelines of future studies in AI-aid to digital humanities.",
+      "year": "2025",
+      "published_date": "2025-11-26",
+      "journal": "Social Sciences &amp; Humanity Research Review",
+      "url": "https://www.semanticscholar.org/paper/135ae968297e8ff61d883fa8ad6dfa01bd62da6c",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.63468/sshrr.200",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "A Framework for Critically Assessing ChatGPT and Other Large Language Artificial Intelligence Model Applications in Health Care",
+      "authors": [
+        "Jonathan Ilicki"
+      ],
+      "abstract": "Large language models (LLMs) are pretrained artificial intelligence (AI) algorithms that can interpret text and generate human-like text in real time.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar Recent studies on LLMs (eg, PaLM and GPT-3.5) have found near-human performance on medical examinations and many possible future applications have been discussed, such as drafting discharge summaries, answering consultations, or generating lists of differential diagnosis.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar, 2Liévin V, Egeberg Hother C, Winther O. Can large language models reason about medical questions? Preprint. Posted online July 17, 2022. arXiv. 2207.08143. https://doi.org/10.48550/arXiv.2207.08143Google Scholar, 3Patel S.B. Lam K. ChatGPT: the future of discharge summaries?.Lancet Digit Health. 2023; 5: e107-e108Abstract Full Text Full Text PDF PubMed Scopus (84) Google Scholar, 4Hirosawa T. Harada Y. Yokose M. Sakamoto T. Kawamura R. Shimizu T. Diagnostic accuracy of differential-diagnosis lists generated by generative pretrained transformer 3 chatbot for clinical vignettes with common chief complaints: a pilot Study.Int J Environ Res Public Health. 2023; 20: 3378Crossref PubMed Scopus (20) Google Scholar, 5Gilson A. Safranek C.W. Huang T. et al.How does ChatGPT perform on the United States medical licensing examination? The implications of large language models for medical education and knowledge assessment.JMIR Med Educ. 2023; 9e45312Crossref PubMed Scopus (128) Google Scholar, 6Kung T.H. Cheatham M. Medenilla A. et al.Performance of ChatGPT on USMLE: potential for AI-assisted medical education using large language models.PLOS Digit Health. 2023; 2e0000198Crossref PubMed Google Scholar, 7Howard A. Hope W. Gerada A. ChatGPT and antimicrobial advice: the end of the consulting infection doctor?.Lancet Infect Dis. 2023; 23: 405-406Abstract Full Text Full Text PDF PubMed Scopus (24) Google Scholar Moreover, ChatGPT can already automatically generate empathetic responses to patients and seemingly genuine scientific abstracts.8Else H. Abstracts written by ChatGPT fool scientists.Nature. 2023; 613: 423Crossref PubMed Scopus (115) Google Scholar,9Goode J. A mental health tech company ran an AI experiment on real users. Nothing’s stopping apps from conducting more. NBC News.https://www.nbcnews.com/tech/internet/chatgpt-ai-experiment-mental-health-tech-app-koko-rcna65110Date accessed: January 19, 2023Google Scholar The number of possible applications is likely to continue to increase, especially with large public investments in health care AI and as LLMs' capabilities continue to improve.10Health Secretary announces £250 million investment in artificial intelligence.Gov.UK.https://www.gov.uk/government/news/health-secretary-announces-250-million-investment-in-artificial-intelligenceDate accessed: January 19, 2023Google Scholar,11Rosemain M. Rose M. France to spend $1.8 billion on AI to compete with U.S., China. Reuters Techonology News.https://www.reuters.com/article/us-france-tech-idUSKBN1H51XPDate accessed: January 19, 2023Google Scholar However, it can be challenging for clinicians with limited technical understanding to assess the feasibility of such applications.12Chen M. Zhang B. Cai Z. et al.Acceptance of clinical artificial intelligence among physicians and medical students: a systematic review with cross-sectional survey.Front Med (Lausanne). 2022; 9: 990604Crossref PubMed Scopus (12) Google Scholar This could result in focusing on unrealistic applications or neglecting promising ones. Frameworks have been developed to assist in assessing AI applications for specific domains, eg, for radiology.13Omoumi P. Ducarouge A. Tournier A. et al.To buy or not to buy-evaluating commercial AI solutions in radiology (the ECLAIR guidelines).Eur Radiol. 2021; 31: 3786-3796Crossref PubMed Scopus (54) Google Scholar However, no such framework exists for LLM applications. Therefore, this article posits a simple framework for nontechnical health care professionals for assessing the feasibility of potential LLM applications in health care. The framework consists of the following 4 steps:1.Determine the main source of health care data that the LLM uses2.Determine the intended recipient of the LLM’s output3.Combine the answers from (1) and (2) to identify a category4.Assess fundamental limitations for that category Determine whether the health care data that the LLM will use to reply to prompts comes from patients (eg, health data or medical records), health care providers (eg, information on procedures, medications, research or organizational information, such as opening hours), or payers (eg, information on reimbursement of procedures). Determine whether the main reader of the output of LLM is a patient, provider, or payer. Combine the answers from steps 1 and 2 in the LLM feasibility framework (Table 1) to identify which category the solution belongs to.Table 1LLM Feasibility Framework: Matrix for Determining Category of LLM ApplicationMain recipient of outputMain source of health care dataUsing patient data…Using provider data…Using payer data…… to highly automate summaries or explanations of…PatientsAdapting output (see examples) to, eg., individual patients’ health literacy, medical history, and current medicationsCategory 1Example: Patient’s own medical records (eg, discharge notes, laboratory results, investigations)Category 2Example: Provider information (eg, medications, treatments, preoperative processes)Category 3Example: Payer information (eg, coverage, explanation of health care system, available providers)ProvidersAdapting output (see examples) to, eg., providers’ specific clinical context, resources, or inquiryCategory 2Example: Pertinent patient information (eg, from medical records, laboratory results)Category 2Example: Relevant medical information (eg, merging local or international guidelines, research)Category 3Example: Relevant payer information (eg, reimbursement, quality measures, or coverage)PayersAdapting output (see examples) to, eg, payers’ specific rules on coverage, reimbursement, or quality measuresCategory 2Example: Relevant population data (eg, aggregate statistics from free text medical records)Category 3Example: Relevant provider information (eg, quality, efficiency or cost of providers/pathways)Category 3Example: Improving existing internal knowledge management systemsLLM, large language model. Open table in a new tab LLM, large language model. Table 2 describes categories and corresponding fundamental limitations, which can be used to assess the feasibility of a specific application. LLMs can be used in many different ways and are developing rapidly. However, some limitations are intrinsic to the AI model itself, which can be seen in the literature to date, and these are unlikely to change despite the rapid development. In brief, these limitations are as follows:i.Lack of understanding: LLMs lack a human-like understanding of the real-world phenomena that words describe and only process their semantic representation. This lack of understanding is highlighted by unpredictable illogical errors in reasoning in recent LLM studies.2Liévin V, Egeberg Hother C, Winther O. Can large language models reason about medical questions? Preprint. Posted online July 17, 2022. arXiv. 2207.08143. https://doi.org/10.48550/arXiv.2207.08143Google Scholar,5Gilson A. Safranek C.W. Huang T. et al.How does ChatGPT perform on the United States medical licensing examination? The implications of large language models for medical education and knowledge assessment.JMIR Med Educ. 2023; 9e45312Crossref PubMed Scopus (128) Google Scholar,14Rao A, Kim J, Kamineni M, Pang M, Lie W, Succi MD. Evaluating ChatGPT as an adjunct for radiologic decision-making. Preprint. Posted online February 7, 2023. medRxiv. 23285399. https://doi.org/10.1101/2023.02.02.23285399Google Scholar This lack of real-world understanding limits the extent to which LLMs can act autonomously without oversight and creates the need of control mechanisms to ensure the appropriateness of the output.ii.Lack of predictability: LLMs run the risk of creating “hallucinations” (text responses that are either nonsensical or unfaithful to the content they should use) and errors that are difficult to predict, which can entail patient risks.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar,4Hirosawa T. Harada Y. Yokose M. Sakamoto T. Kawamura R. Shimizu T. Diagnostic accuracy of differential-diagnosis lists generated by generative pretrained transformer 3 chatbot for clinical vignettes with common chief complaints: a pilot Study.Int J Environ Res Public Health. 2023; 20: 3378Crossref PubMed Scopus (20) Google Scholar,15Ji Z, Lee N, Frieske R, et al. Survey of hallucination in natural language generation. Preprint. Posted online February 8, 2022. arXiv. 2202.03629. https://doi.org/10.1145/3571730Google Scholar Manufacturers must ensure that a medical LLM software performs in a safe and predictable manner according to relevant legislation (eg, the Medical Device Regulation in Europe). Guaranteeing that a LLM does not create any hallucination is challenging. This risk can be partially mitigated by, for example, letting a clinician assess the output before it is acted on (to identify errors) or by forcing the LLM to reference external sources for the statements in its output (to allow comparisons with the original data that the output is based on).iii.Lack of empathy: Even if LLMs can generate seemingly empathetic responses, they cannot experience emotions or empathize with a patient when providing emotional support.16Montemayor C. Halpern J. Fairweather A. In principle obstacles for empathic AI: why we can’t replace human empathy in healthcare.AI Soc. 2022; 37: 1353-1359Crossref PubMed Scopus (8) Google Scholar Moreover, people may not perceive empathy as genuine when coming from an algorithm.17Morris R.R. Kouddous K. Kshirsagar R. Schueller S.M. Towards an artificially empathic conversational agent for mental health applications: system design and user perceptions.J Med Internet Res. 2018; 20: e10148Crossref PubMed Scopus (118) Google Scholar This may change over time but is currently a limitation in, for example, using unsupervised LLM output to provide patients with sensitive information.Table 2LLM Feasibility Framework: Limitations relevant for each categoryCategoryExample of healthcare data usedFundamental limitations relevant for categoryLack of understandingLack of predictabilityLack of empathy1: Output without clinical supervision-Patient health data: e.g. medical records, blood results, patient reported outcome measures, data from wearables✓✓✓2: Supervised output which can impact clinical decisions-Patient health data (as above)-Generic provider data: information about e.g. medications, treatments, procedures, research-Specific provider data: information about e.g. clinicians, opening hours, services provided✓✓3: Administrative output-Provider information (generic/specific as above)-Payer data: administrative data, process measures, reimbursement, costs✓LLM, Large language model. Open table in a new tab LLM, Large language model. The framework could be applied as follows: Imagine a LLM application that aims to improve patient adherence by adapting generic medication information (provider data) to patients (patient recipient) and different levels of health literacy. The combination of data and recipient places the application in category 2, and therefore it would be important to understand how the application addresses the lack of understanding and predictability by LLMs. This framework has several limitations. First, it is not exhaustive but is designed as a simple heuristic for an initial understanding of what fundamental limitations a LLM application may have. This framework does not replace a comprehensive assessment, which is needed before clinical implementation. Such an assessment will include several important aspects, such as interpretability of models (to what extent one can understand why they produce a certain result), which LLM is used, if the training data are sufficiently representative and of high quality, and whether the model has been fine-tuned to medical data. Second, it can only be used to identify potentially impractical solutions but not to confirm the feasibility of solutions. Last, despite incorporating limitations that seem fundamental, these may change as LLMs and social norms develop. Notwithstanding the abovementioned limitations, this framework aims to aid nontechnical health care professionals in critically assessing emerging LLM applications and ensuring their development into clinically safe and useful tools. LLMs have great potential to improve many parts of health care, but more research is needed to understand their performance, safety, and effect on health care systems. Finally, when addressing novel emerging technologies, keep Amara’s law in mind: “We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.”18Amara R. 1925-2017, American futurologist.in: Ratcliffe S. Oxford Essential Quotations.5th ed. Oxford University Press, 2016Google Scholar",
+      "year": "2023",
+      "published_date": "2023-05-18",
+      "journal": "Mayo Clinic Proceedings Digital Health",
+      "url": "https://doi.org/10.1016/j.mcpdig.2023.03.006",
+      "arxiv_id": "",
+      "keywords": [
+        "Preprint",
+        "Scopus",
+        "Artificial intelligence",
+        "English language",
+        "Language model",
+        "Computer science",
+        "Natural language processing",
+        "ENCODE"
+      ],
+      "citations": 19,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.mcpdig.2023.03.006",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "ALERA: An Entropy-Based LLM Multi-Agent Framework for Dynamic Risk Quantification in Quantitative Investing",
+      "authors": [
+        "Senmiao Wang",
+        "Zhenyun Li",
+        "Guanlin Wu"
+      ],
+      "abstract": "The financial services industry increasingly relies on data-driven quantitative investing, with large language models (LLMs) advancing decision-making through improved financial semantic understanding, news-driven forecasting, and trading signal generation. However, traditional risk metrics like volatility, Value-at-Risk, and Maximum Drawdown often fail to capture the dynamic complexity of markets, leading to undetected risks or excessive trading. We propose ALERA, an LLM-based multi-agent framework that uses entropy to quantify decision-making uncertainty and assess risk across four dimensions: expert disagreements, historical experience, market volatility, and stock correlations. ALERA mitigates long-term information forgetting with a memory pool and incorporates stock interactions for robust risk assessment. Our contributions include pioneering entropy-based risk quantification, a unified framework for dynamic trading strategies, and extensive empirical validation showing superior performance in return and Sharpe ratio compared to baseline methods. Specifically, ALERA achieves an annualized return of 26.32% and a Sharpe Ratio of 1.71 for AAPL, with a cumulative return of 6.31% and a maximum drawdown of 3.63% over a three-month period from August to November 2024, outperforming baselines like MACD, KDJ+RSI, ZMR, and SMA.",
+      "year": "2025",
+      "published_date": "2025-11-08",
+      "journal": "2025 11th International Conference on Big Data and Information Analytics (BigDIA)",
+      "url": "https://www.semanticscholar.org/paper/12cf7474ba0c98d7c376fe4e47847d1ef35de14f",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/BigDIA68682.2025.11382737",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service survey"
+    },
+    {
+      "id": "wf_qk3e_000031489221",
+      "title": "Development of a quantitative index system for evaluating the quality of electronic medical records in disease risk intelligent prediction",
+      "abstract": "assigned by the proposed index system and the predictive performances of the datasets.DiscussionThe proposed index system for evaluating EMR data quality is <span class='highlight'>grounded</span> in extensive <span class='highlight'>literature</span> <span class='highlight'>analysis</span> and  ObjectiveThis study aimed to develop and validate a quantitative index system for evaluating the data quality of Electronic <span class='highlight'>Medical</span> Records (EMR) in disease risk prediction using Machine Learning (ML ).Materials and methodsThe index system was developed in four steps: (1) a preliminary index system was outlined based on <span class='highlight'>literature</span> review; (2) we utilized the Delphi method to structure the  second-level, and 33 third-level indicators. The weights of these indicators were obtained through the AHP method. Results from the empirical <span class='highlight'>analysis</span> illustrated a positive relationship between the scores  quality and suitability of EMR data in ML-based disease risk predictions. It can serve as a guide in building EMR databases, improving EMR data quality control, and generating reliable real-world <span class='highlight'>evidence</span>.",
+      "authors": [
+        "Jiayin Zhou",
+        "Jie Hao",
+        "Mingkun Tang",
+        "Haixia Sun",
+        "Jiayang Wang",
+        "Jiao Li",
+        "Qing Qian"
+      ],
+      "year": 2024,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1186/s12911-024-02533-z",
+      "doi": "10.1186/s12911-024-02533-z",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "Electronic medical record",
+        "Quality control",
+        "Data management",
+        "Machine learning",
+        "Disease risk prediction"
+      ],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "evidence grounded medical literature analysis"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "87cdc0b143637c58cd5acc48715cfdab0b371673ffffeef91a2e95c52a53ca89",
+  "elapsed_seconds": 21.806,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q116_schema_single_agent_20260724_023244.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

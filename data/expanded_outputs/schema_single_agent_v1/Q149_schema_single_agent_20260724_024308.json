@@ -1,0 +1,266 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q149",
+  "query": "How should multi-lingual DH corpora handle script-specific tokenization when computing token-overlap based citation grounding metrics?",
+  "domain_id": "digital_humanities",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q149_method1_exp_20260413_091036.json",
+  "same_query_evidence_ids": [
+    "title:graphilosophy: graph-based digital humanities computing with the four books|2026",
+    "doi:10.1115/1.4064409",
+    "title:multi-agent systems should be treated as principal-agent problems|2026",
+    "title:devnous: an llm-based multi-agent system for grounding it project management in unstructured conversation|2025",
+    "doi:10.3390/s22051746",
+    "doi:10.1109/access.2019.2902846",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.1111/nyas.14009"
+  ],
+  "all_retrieved_ids": [
+    "title:graphilosophy: graph-based digital humanities computing with the four books|2026",
+    "doi:10.1115/1.4064409",
+    "title:multi-agent systems should be treated as principal-agent problems|2026",
+    "title:devnous: an llm-based multi-agent system for grounding it project management in unstructured conversation|2025",
+    "doi:10.3390/s22051746",
+    "doi:10.1109/access.2019.2902846",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.1111/nyas.14009"
+  ],
+  "top_papers": [
+    {
+      "title": "Graphilosophy: Graph-Based Digital Humanities Computing with The Four Books",
+      "authors": [
+        "Minh-Thu Do",
+        "Quynh-Chau Le-Tran",
+        "Duc-Duy Nguyen-Mai",
+        "Thien-Trang Nguyen",
+        "Khanh-Duy Le",
+        "Minh-Triet Tran",
+        "Tam V. Nguyen",
+        "Trung-Nghia Le"
+      ],
+      "abstract": "The Four Books have shaped East Asian intellectual traditions, yet their multi-layered interpretive complexity limits their accessibility in the digital age. While traditional bilingual commentaries provide a vital pedagogical bridge, computational frameworks are needed to preserve and explore this wisdom. This paper bridges AI and classical philosophy by introducing Graphilosophy, an ontology-guided, multi-layered knowledge graph framework for modeling and interpreting The Four Books. Integrating natural language processing, multilingual semantic embeddings, and humanistic analysis, the framework transforms a bilingual Chinese-Vietnamese corpus into an interpretively grounded resource. Graphilosophy encodes linguistic, conceptual, and interpretive relationships across interconnected layers, enabling cross-lingual retrieval and AI-assisted reasoning while explicitly preserving scholarly nuance and interpretive plurality. The system also enables non-expert users to trace the evolution of ethical concepts across borders and languages, ensuring that ancient wisdom remains a living resource for modern moral discourse rather than a static relic of the past. Through an interactive interface, users can trace the evolution of ethical concepts across languages, ensuring ancient wisdom remains relevant for modern discourse. A preliminary user study suggests the system's capacity to enhance conceptual understanding and cross-cultural learning. By linking algorithmic representation with ethical inquiry, this research exemplifies how AI can serve as a methodological bridge, accommodating the ambiguity of cultural heritage rather than reducing it to static data. The Source code and data are released at https://github.com/ThuDoMinh1102/confucian-texts-knowledge-graph.",
+      "year": "2026",
+      "published_date": "2026-03-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.28755v1",
+      "arxiv_id": "2603.28755v1",
+      "keywords": [
+        "cs.CY"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship full text retrieval"
+    },
+    {
+      "title": "Probing an Easy-to-Deploy Multi-Agent Manufacturing System Based on Agent Computing Node: Architecture, Implementation, and Case Study",
+      "authors": [
+        "Liping Wang",
+        "Qingwei Nie",
+        "Zequn Zhang",
+        "Dunbing Tang",
+        "Changchun Liu"
+      ],
+      "abstract": "\n Due to the widespread adoption of personalized customization services, the application contexts within discrete manufacturing workshops have become increasingly intricate, necessitating the modern industry to evolve towards a more adaptable production trajectory. The pre-established production rules present difficulties in accommodating dynamic situations. Although a Multi-agent Manufacturing System (MAMS) yields natural advantages in handling dynamic emergencies, the current research is limited to the computer simulation level and lacks integration with the underlying physical devices. In order to mitigate said challenges, the standardization modeling approach for the Agent Computing Node (ACN) to facilitate the implementation of a readily deployable MAMS was proposed in the present study. Initially, adapters encompassing communication, decision, and control modules were developed within the Industrial Personnel Computer (IPC)-based computing node to accommodate the heterogeneous interface protocols of diverse machines. These adapters enable communication and interaction among machines while laying the computational foundation for the ACN. Accordingly, the models of the Machine Agent (MA), the Part Agent (PA), and the monitoring agent were constructed based on ACNs and could perceive the dynamic production information and support the enabling application. Subsequently, to guide ACNs in making scheduling decisions beneficial to global performance, an improved negotiation mechanism in MAMS was achieved in real-time. Finally, the proposed MAMS based on the ACN was deployed in an actual flexible machining workshop. Comparative experiments were implemented and, as exhibited from the experimental results, the proposed ACNs possessed the capabilities of achieving optimal global decision-making and facilitating straightforward deployment.",
+      "year": "2024",
+      "published_date": "2024-01-04",
+      "journal": "Journal of Computing and Information Science in Engineering",
+      "url": "https://www.semanticscholar.org/paper/f91e7753180704404d1dfa43ff6f1010d5fcd4b5",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 3,
+      "source": "Semantic Scholar",
+      "doi": "10.1115/1.4064409",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service survey"
+    },
+    {
+      "title": "Multi-Agent Systems Should be Treated as Principal-Agent Problems",
+      "authors": [
+        "Paulius Rauba",
+        "Simonas Cepenas",
+        "Mihaela van der Schaar"
+      ],
+      "abstract": "Consider a multi-agent systems setup in which a principal (a supervisor agent) assigns subtasks to specialized agents and aggregates their responses into a single system-level output. A core property of such systems is information asymmetry: agents observe task-specific information, produce intermediate reasoning traces, and operate with different context windows. In isolation, such asymmetry is not problematic, since agents report truthfully to the principal when incentives are fully aligned. However, this assumption breaks down when incentives diverge. Recent evidence suggests that LLM-based agents can acquire their own goals, such as survival or self-preservation, a phenomenon known as scheming, and may deceive humans or other agents. This leads to agency loss: a gap between the principal's intended outcome and the realized system behavior. Drawing on core ideas from microeconomic theory, we argue that these characteristics, information asymmetry and misaligned goals, are best studied through the lens of principal-agent problems. We explain why multi-agent systems, both human-to-LLM and LLM-to-LLM, naturally induce information asymmetry under this formulation, and we use scheming, where LLM agents pursue covert goals, as a concrete case study. We show that recently introduced terminology used to describe scheming, such as covert subversion or deferred subversion, corresponds to well-studied concepts in the mechanism design literature, which not only characterizes the problem but also prescribes concrete mitigation strategies. More broadly, we argue for applying tools developed to study human agent behavior to the analysis of non-human agents.",
+      "year": "2026",
+      "published_date": "2026-01-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2601.23211v1",
+      "arxiv_id": "2601.23211v1",
+      "keywords": [
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis literature review"
+    },
+    {
+      "title": "DevNous: An LLM-Based Multi-Agent System for Grounding IT Project Management in Unstructured Conversation",
+      "authors": [
+        "Stavros Doropoulos",
+        "Stavros Vologiannidis",
+        "Ioannis Magnisalis"
+      ],
+      "abstract": "The manual translation of unstructured team dialogue into the structured artifacts required for Information Technology (IT) project governance is a critical bottleneck in modern information systems management. We introduce DevNous, a Large Language Model-based (LLM) multi-agent expert system, to automate this unstructured-to-structured translation process. DevNous integrates directly into team chat environments, identifying actionable intents from informal dialogue and managing stateful, multi-turn workflows for core administrative tasks like automated task formalization and progress summary synthesis. To quantitatively evaluate the system, we introduce a new benchmark of 160 realistic, interactive conversational turns. The dataset was manually annotated with a multi-label ground truth and is publicly available. On this benchmark, DevNous achieves an exact match turn accuracy of 81.3\\% and a multiset F1-Score of 0.845, providing strong evidence for its viability. The primary contributions of this work are twofold: (1) a validated architectural pattern for developing ambient administrative agents, and (2) the introduction of the first robust empirical baseline and public benchmark dataset for this challenging problem domain.",
+      "year": "2025",
+      "published_date": "2025-08-12",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2508.08761v1",
+      "arxiv_id": "2508.08761v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis literature review"
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning Based Fully Decentralized Dynamic Time Division Configuration for 5G and B5G Network.",
+      "authors": [
+        "Xiangyu Chen",
+        "Gang Chuai",
+        "Weidong Gao"
+      ],
+      "abstract": "Future network services must adapt to the highly dynamic uplink and downlink traffic. To fulfill this requirement, the 3rd Generation Partnership Project (3GPP) proposed dynamic time division duplex (D-TDD) technology in Long Term Evolution (LTE) Release 11. Afterward, the 3GPP RAN#86 meeting clarified that 5G NR needs to support dynamic adjustment of the duplex pattern (transmission direction) in the time domain. Although 5G NR provides a more flexible duplex pattern, how to configure an effective duplex pattern according to services traffic is still an open research area. In this research, we propose a distributed multi-agent deep reinforcement learning (MARL) based decentralized D-TDD configuration method. First, we model a D-TDD configuration problem as a dynamic programming problem. Given the buffer length of all UE, we model the D-TDD configuration policy as a conditional probability distribution. Our goal is to find a D-TDD configuration policy that maximizes the expected discount return of all UE's sum rates. Second, in order to reduce signaling overhead, we design a fully decentralized solution with distributed MARL technology. Each agent in MARL makes decisions only based on local observations. We regard each base station (BS) as an agent, and each agent configures uplink and downlink time slot ratio according to length of intra-BS user (UE) queue buffer. Third, in order to solve the problem of overall system revenue caused by the lack of global information in MARL, we apply leniency control and binary LSTM (BLSTM) based auto-encoder. Leniency controller effectively controls Q-value estimation process in MARL according to Q-value and current network conditions, and auto-encoder makes up for the defect that leniency control cannot handle complex environments and high-dimensional data. Through the parallel distributed training, the global D-TDD policy is obtained. This method deploys the MARL algorithm on the Mobile Edge Computing (MEC) server of each BS and uses the storage and computing capabilities of the server for distributed training. The simulation results show that the proposed distributed MARL converges stably in various environments, and performs better than distributed deep reinforcement algorithm.",
+      "year": "2022",
+      "published_date": "2022",
+      "journal": "Sensors (Basel, Switzerland)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35270890/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.3390/s22051746",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service"
+    },
+    {
+      "title": "Multi-Objective Workflow Scheduling With Deep-Q-Network-Based Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Yuandou Wang",
+        "Hang Liu",
+        "Wanbo Zheng",
+        "Yunni Xia",
+        "Yawen Li",
+        "Peng Chen",
+        "Kunyin Guo",
+        "Hong Xie"
+      ],
+      "abstract": "Cloud Computing provides an effective platform for executing large-scale and complex workflow applications with a pay-as-you-go model. Nevertheless, various challenges, especially its optimal scheduling for multiple conflicting objectives, are yet to be addressed properly. The existing multi-objective workflow scheduling approaches are still limited in many ways, e.g., encoding is restricted by prior experts’ knowledge when handling a dynamic real-time problem, which strongly influences the performance of scheduling. In this paper, we apply a deep-Q-network model in a multi-agent reinforcement learning setting to guide the scheduling of multi-workflows over infrastructure-as-a-service clouds. To optimize multi-workflow completion time and user’s cost, we consider a Markov game model, which takes the number of workflow applications and heterogeneous virtual machines as state input and the maximum completion time and cost as rewards. The game model is capable of seeking for correlated equilibrium between make-span and cost criteria without prior experts’ knowledge and converges to the correlated equilibrium policy in a dynamic real-time environment. To validate our proposed approach, we conduct extensive case studies based on multiple well-known scientific workflow templates and Amazon EC2 cloud. The experimental results clearly suggest that our proposed approach outperforms traditional ones, e.g., non-dominated sorting genetic algorithm-II, multi-objective particle swarm optimization, and game-theoretic-based greedy algorithms, in terms of optimality of scheduling plans generated.",
+      "year": "2019",
+      "published_date": "2019-01-01",
+      "journal": "IEEE Access",
+      "url": "https://doi.org/10.1109/access.2019.2902846",
+      "arxiv_id": "",
+      "keywords": [
+        "Reinforcement learning",
+        "Computer science",
+        "Workflow",
+        "Scheduling (production processes)",
+        "Distributed computing",
+        "Q-learning",
+        "Artificial intelligence",
+        "Computer network"
+      ],
+      "citations": 281,
+      "source": "OpenAlex",
+      "doi": "10.1109/access.2019.2902846",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Dynamic UAV Deployment for Differentiated Services: A Multi-Agent Imitation Learning Based Approach",
+      "authors": [
+        "Xiaojie Wang",
+        "Zhaolong Ning",
+        "Song Guo",
+        "Miaowen Wen",
+        "Lei Guo",
+        "H. Vincent Poor"
+      ],
+      "abstract": "Unmanned Aerial Vehicles (UAVs) have been utilized to serve on-ground users with various services, e.g., computing, communication and caching, due to their mobility and flexibility. The main focus of many recent studies on UAVs is to deploy a set of homogeneous UAVs with identical capabilities controlled by one UAV owner/company to provide services. However, little attention has been paid to the issue of how to enable different UAV owners to provide services with differentiated service capabilities in a shared area. To address this issue, we propose a multi-agent imitation learning enabled UAV deployment approach to maximize both profits of UAV owners and utilities of on-ground users. Specially, a Markov game is formulated among UAV owners and we prove that a Nash equilibrium exists based on the full knowledge of the system. For online scheduling with incomplete information, we design agent policies by imitating the behaviors of corresponding experts. A novel neural network model, integrating convolutional neural networks, generative adversarial networks and a gradient-based policy, can be trained and executed in a fully decentralized manner with a guaranteed <inline-formula><tex-math notation=\"LaTeX\">$\\epsilon$</tex-math></inline-formula> -Nash equilibrium. Performance results show that our algorithm has significant superiority in terms of average profits, utilities and execution time compared with other representative algorithms.",
+      "year": "2021",
+      "published_date": "2021-09-29",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "url": "https://doi.org/10.1109/tmc.2021.3116236",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Software deployment",
+        "Nash equilibrium",
+        "Flexibility (engineering)",
+        "Distributed computing",
+        "Scheduling (production processes)",
+        "Artificial neural network",
+        "Artificial intelligence"
+      ],
+      "citations": 117,
+      "source": "OpenAlex",
+      "doi": "10.1109/tmc.2021.3116236",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "New York City Panel on Climate Change 2019 Report Chapter 6: Community‐Based Assessments of Adaptation and Equity",
+      "authors": [
+        "Sheila R. Foster",
+        "Robin Leichenko",
+        "Khai Hoan Nguyen",
+        "Reginald Blake",
+        "Howard Kunreuther",
+        "Malgosia Madajewicz",
+        "Elisaveta P. Petkova",
+        "Rae Zimmerman",
+        "Cecil Corbin‐Mark",
+        "Elizabeth Yeampierre",
+        "Angela Tovar",
+        "Cynthia Herrera",
+        "Daron Ravenborg"
+      ],
+      "abstract": "There is a widespread awareness that the uneven distribution of climate change impacts combined with preexisting social and economic challenges makes some communities more vulnerable than others (Reckien et al., 2018; IPCC, 2014; Leichenko et al., 2011). There is also growing recognition of the need for inclusion of community perspectives, viewpoints, and exigencies into adaptation decision making and planning (Chu et al., 2016). The concept of equity relates to climate change adaptation through inequalities in climate change impacts and vulnerabilities, as well as through uneven involvement in adaptation planning. It recognizes that disparities in health outcomes, inequities in living conditions, and lack of political power place low-income communities and many communities of color at greater risk and limit their capacity to adapt. The NPCC3 Workgroup on Community-Based Assessment of Adaptation and Equity (CBA Workgroup) explored how equity concerns can be incorporated into climate change vulnerability assessments and community adaptation planning in New York City. The CBA Workgroup's explicit focus on equity in vulnerability and adaptation is a new contribution to the NPCC. While prior New York State research by Leichenko et al. (2011) identified a need for consideration of equity and environmental justice in the analysis of state-wide climate impacts, vulnerabilities, and adaptation, the formation of the CBA Workgroup within the NPCC3 reflects the city's recognition of and strong commitment to these issues. Investigation of spatial patterns of social vulnerability to climate change stressors in New York City. This entailed compilation, review, and assessment of recent vulnerability mapping studies conducted in New York City and elsewhere in the United States. The aim of this review was to identify spatial patterns of vulnerability to climate change stresses across neighborhoods and communities and to provide guidance on methods and indicators that can be used to monitor and track neighborhood vulnerability over time.1 Case studies in socially and economically disadvantaged communities. Case studies of climate change vulnerability and adaptation were undertaken in collaboration with three community-based organizations (CBOs)—WE ACT for Environmental Justice in Harlem, THE POINT CDC in Hunts Point, and UPROSE in Sunset Park. These CBOs are situated predominantly in neighborhoods whose residents are often low-income or people of color who have been excluded from opportunity and resources. All of these CBOs have mobilized to develop climate adaptation plans for their communities. Examination of community-based adaptation planning efforts. For each case study community, we collaborated with CBOs and New York City planners to explore how community group perspectives and input are incorporated into the development and implementation of community-based adaptation plans. Analysis of current practices for incorporating equity. This task was achieved via comparative investigation of how New York City and other cities in the northeastern United States incorporate principles of equity into community adaptation planning. Relying on long-established conventions and practices within the field of environmental justice and emerging practices for community-based vulnerability analysis, the CBA Workgroup adopted a collaborative co-production model for assessing vulnerability and equitable adaptation (Deas et al., 2017; Sarzynski 2015; Lemos and Morehouse, 2005; Cole and Foster 2001). This approach involved meeting at the outset with CBOs from the targeted study neighborhoods and including them as full participating members and contributors to the CBA Workgroup. Given that the broad mandate of the CBA Workgroup was to examine ways in which equity is incorporated into climate adaptation planning, partnering with local communities helped ensure that the work process and product adhere to the principles of environmental justice. Research on climate change has drawn attention to numerous inequalities associated with mitigation, vulnerability, and adaptation. These include the uneven distribution of greenhouse gas emissions and mitigation responsibility; differential vulnerability to climate stressors across regions, communities, and social groups; and intergenerational equity in terms of who should bear the cost of impacts and mitigation efforts (Parks and Roberts, 2010; Paalova and Adger, 2006; Kasperson and Dow, 1991). The equity dimensions of adaptation also highlight differences in capacity to respond to climate stresses and recover from climate shocks, and the possibility of uneven benefits and burdens linked to adaptation efforts (Klein et al., 2014; Smit and Wandel, 2006). At the urban scale, the research points to the disproportionate risks from climate change impacts in low-income communities, the existence of economic and social factors that may undermine or limit community adaptive capacity, the importance of including a diversity of community voices and perspectives in adaptation planning efforts, and the need for equitable allocation of adaptation resources (Reckien et al., 2018; Deas et al., 2017; Anguelovski et al., 2016; Chu et al., 2016; NAACP, 2015; Schlosberg and Collins, 2014; Bulkeley et al., 2014; Ross and Berkes, 2014). While there is increasing recognition of equity issues in urban adaptation planning, there remains a need for a more systematic framework for urban adaptation and equity analysis. Ideally, such a framework would serve as a template for cities that wish to incorporate fully equity considerations into adaptation planning. In proposing such a framework, this chapter draws on the climate change adaptation, mitigation, and environmental justice literatures (Reckien et al., 2018; Foster, 2017; Schlosberg and Collins, 2014; McDermott et al., 2013; Leichenko et al., 2011; Cole and Foster, 2001). In particular, the chapter builds upon the equity framework developed by McDermott et al. (2013) for application to payments for ecosystem services. As suggested by McDermott et al. (2013), our approach incorporates three elements: distributional, contextual, and procedural equity (see Box 6.1). Distributional equity emphasizes the uneven environmental burdens and benefits across groups and neighborhoods (Foster, 2017). The literature on environmental justice, for example, has brought attention to racial and ethnic disparities in the distribution of polluting facilities and other environmental hazards and the lack of environmental amenities such as green spaces in low-income and minority communities (Coburn et al., 2006; Cole and Foster, 2001; Fothergill et al., 1999; U.S. EPA, 1992). Within the climate change literature, elements of distributional equity include recognition of inequalities in social vulnerability to climate change; inequalities in the capacity to adapt or influence mitigation of climate change; inequalities in benefits associated with adaptation policies; and inequalities and unintended consequences of adaptation and mitigation efforts (McDermott et al., 2013; Leichenko et al., 2011). Distributional equity in both the environmental justice and climate adaptation literatures brings attention to the distribution of costs and benefits of policy initiatives on various populations. Rooted in principles of equality and social welfare, efforts to incorporate distributive equity are often needs based (McDermott et al., 2013). As such, these approaches directly target the least advantaged communities and most at-risk community members in standard-setting and adaptation planning. While the notion of contextual equity, as proposed by McDermott et al. (2013), is a relatively recent addition to climate change adaptation discussions, its essential elements are well recognized in the climate vulnerability and environmental justice literatures, both of which emphasize social \"root causes\" of vulnerability, including the influence of structural racism (Ribot, 2014; Cole and Foster, 2001). Social context (and history) is important to understanding existing disparities and to adequate assessment of social impacts at different stages of the planning process (i.e., preplanning, planning, action development, implementation, and evaluation/feedbacks on outcomes) (Sarzynski, 2015; O'Brien et al., 2007). Contextual equity draws attention to factors that contribute to social vulnerabilities and recognizes that differences in power and access can prevent some communities from receiving resources or from participating in the decision-making process (Fraser, 2009). Consideration of contextual equity entails recognition of the \"uneven playing field\" that is created for some communities as a result of pre-existing economic, social, and political inequalities (McDermott et al., 2013). A contextual equity approach suggests that recognition of socioeconomic conditions and existing injustices is critical for designing community-based adaptation strategies (Schlosberg et al., 2017). Within the environmental justice and climate change literatures, procedural equity is typically defined as the representation and inclusion of affected individuals, communities, and groups in environmental and adaptation priority-setting and decision making. With respect to climate change impacts, this includes decisions about adaptation strategies and actions, as well as emergency preparedness and emergency response in relation to climate-related risks. Efforts to achieve procedural equity most often require explicit mechanisms to ensure participation of affected actors in policy and planning decisions (Chu et al., 2016; Schlosberg, 2013; Leichenko et al., 2011). Traditional efforts to include groups historically deprived of resources in environmental and adaptation decision-making processes include public hearings and meetings, citizen advisory councils, and citizen panels (Sarzynski, 2015). However, the climate change community is also paying increased attention to the need for greater inclusion of affected groups in the climate assessment process. Co-production of adaptation entails collaboration between researchers, policy makers, and affected groups in the identification of critical risks and vulnerabilities, formulation of adaptation options, and selection and implementation of response strategies (Cornell et al., 2013; Kirchhoff et al., 2013; Rosenzweig et al., 2011). This type of collaborative engagement of affected communities in all phases of adaptation planning and implementation has been identified by the environmental justice community as a critical need in the New York region (NYCEJA, 2018; NYCEJA, 2016; Sandy Regional Assembly, 2013). More generally, co-production approaches are considered vital for identification of sustainable adaptation pathways (Eisenhauer, 2016) and for fostering of equitable and sustainable cities (Rosenzweig et al., 2018; Iaione, 2016; Foster and Iaione, 2016). The remainder of the chapter is structured along these three dimensions of equity. Distributional equity is captured in Section 6.3's examination of spatial vulnerability patterns and indicators, where the primary emphasis is on measurement and tracking of spatial inequalities in vulnerability and capacity to adapt to climate change stressors. Contextual equity is highlighted in Section 6.4 through three case studies of socially vulnerable communities, in which we examine how climate stressors overlap with social and economic barriers and disadvantages, as well as legacy environmental justice issues. In Section 6.5, the concept of procedural equity is employed to examine community involvement in local adaptation planning efforts in New York City. In Section 6.6, we employ all three equity dimensions in a comparative examination of adaptation efforts in five cities in the Northeast of the United States. Vulnerability to climate change is defined as the susceptibility of a given population, system, or place to harm from exposure to climate-related shocks and stresses (IPCC, 2012). Social vulnerability analysis, which has been extensively developed in the hazard and climate change literatures, describes the relationship between social characteristics and biophysical vulnerability to climate change stressors and other environmental hazards, as well as the distribution of tangible and intangible impacts on particular subpopulations or communities (Cutter and Finch, 2008; Adger, 2006; Cutter et al., 2000). In addition to measuring vulnerability to climate stressors, social vulnerability analysis increasingly is used to measure vulnerability to toxic and hazardous facility siting and to determine environmental justice areas based on indicators that track proximity and exposure to a variety of pollution sources (Foster, 2017; Sadd et al., 2011). A similar literature identifies social and biophysical factors that contribute to community climate change and disaster resilience (Leichenko et al., 2015; Cutter et al., 2014). Social factors that have been found to contribute to resilience include, for example, economic vitality and diversity; quality of housing and infrastructure; institutional, governance, and civic capacities; presence of strong social networks; and availability of health insurance. Biophysical factors include the presence of natural flood buffers and pervious surfaces, availability of locally sourced food supplies, adequacy of local water supplies, and location outside of low-elevation coastal zones (Cutter et al., 2014; Leichenko, 2011). Social vulnerability analysis focuses on demographic and socioeconomic factors that increase or attenuate the effects of climate change or other hazard events on a local population. Factors that are often found in the literature include socioeconomic status (wealth or poverty); education; age; access and functional needs; gender; race and ethnicity (Cutter et al., 2009) (see Appendix 6.A). Through the creation of empirical metrics and indicators of social vulnerability, researchers capture a wide array of factors that shape the susceptibility of certain populations and communities to harm from environmental hazard events and the ability to recover following these events (Tate, 2012; Cutter et al., 2003). Consideration of distributional equity is foundational to all types of social vulnerability analysis, where the goal is to document the uneven distribution of vulnerabilities to climate shocks and stress across neighborhoods, communities, and regions. Vulnerability analysis is often explicitly designed to help identify \"hot spots\" for needs-based targeting of resources and policies to communities that are most at risk (de Sherbinin, 2014; Dunning and Durden, 2011). In the following discussion, we describe methodological approaches used for social vulnerability analysis and mapping in New York City and elsewhere. We examine vulnerability mapping applications conducted by nonprofit organizations, academic institutions, and governmental agencies. We also provide recommendations for spatial vulnerability tracking at the neighborhood level. Vulnerability mapping is a widely used approach for assessment of the spatial patterns related to climate change risks and for allocation of resources to at risk communities (de Sherbinin, 2014). Mapping of social vulnerability patterns provides a comparative, cross-sectional overview of vulnerability levels across various parts of a study area (e.g., comparing counties, census tracts, or block groups) (see Box 6.2). The two most prevalent frameworks for social vulnerability mapping applications in the United States are the Social Vulnerability Index (SoVI), a product of the Hazards and Vulnerability Research Institute at the University of South Carolina (Cutter et al., 2003), and the Social Vulnerability Index (SVI), a product of the U.S. Centers for Disease Control (CDC) (Flanagan et al., 2011). SoVI and SVI are widely used by state and local government agencies to document spatial patterns of vulnerability to climate stressors for the purpose of targeting resources to those areas with the greatest needs (HVRI, 2018a; CDC SVI, 2018). These and related approaches are intended to capture social conditions that influence vulnerability to a range of climate stressors. Importantly, these efforts emphasize general vulnerability to climate stresses, and can also be designed to capture population exposure to specific climate stresses such as heat or coastal flooding. All the approaches to vulnerability mapping rely on selected indicators of social vulnerability. Table 6.1, based on Cutter et al. (2009), classifies common social vulnerability indicators into general categories used in different studies. These categories include socioeconomic status, gender, race and/or ethnicity, age, housing tenure, employment, occupation, family structure, education, population growth, access to medical services, access and functional needs populations, and social dependence. While generalized social vulnerability maps such as SoVI and SVI are not intended to document physical exposure to specific climate change stressors, many studies combine social vulnerability maps with other maps displaying exposure to specific climate stressors such as coastal flooding (e.g., U.S. Climate Resilience Toolkit, 2018; Martinich et al., 2013). The resulting \"overlay\" maps help to pinpoint intersections between social and biophysical vulnerabilities (O'Brien et al., 2004). The current edition of the SoVI (2010–2014) is constructed using a set of 29 socio-demographic variables related to age, education, employment, income, health, household structure, housing, language barriers, poverty, race/ethnicity, and transportation access (see Table 6.2 and Appendix 6.A). Data sources for SoVI variables generally come from the most recently available U.S. Census (last completed in 2010), and the annual and 5-year updates from the American Community Survey (ACS). The SoVI index employs principal component analysis (PCA), which is a statistical technique that reduces a large set of variables into a smaller set of aggregated factors (Tate, 2012). Cardinality (+) or (–) is assigned to component loadings. Positive loadings are associated with increased vulnerability and negative loadings with decreased vulnerability. The equally weighted components are added together to create a numerical social vulnerability value for each spatial unit (county, census tract, etc.). The SoVI approach is widely used for social vulnerability mapping throughout the United States. Examples include applications in the Southeastern U.S. (OXFAM, 2009), California (Cooley et al., 2012), New Jersey (Pflicke et al., 2015), and a number of studies in New York City (Nature Conservancy, 2013; de Sherbinin and Bardy, 2015). These efforts involve employing some or all of the variables in the SoVI and utilizing PCA to tabulate the social vulnerability scores. Key differences among SoVI-like vulnerability indices lie in the number and type of variables included, the spatial unit of analysis, inclusion of data sources other than the U.S. Census, and areas of study. In some cases, the selection of variables for inclusion may be influenced by the type of climate stressor that the researcher wishes to examine. For example, Cooley et al. (2012) use the SoVI method, but select indicators that are intended to capture social vulnerability to extreme heat, coastal flooding, wild fires, and air quality (see Appendix 6.A). Another source of differences is whether the variables reflect portions of the population within given characteristics in a block or tract or the density of households or individuals with those characteristics. Methods used to combine individual factors into an index (e.g., with or without weights, etc.) are another source of variations. Social vulnerability patterns identified in the applications reflect the specific combinations of variables and scale used to create each index. The New York City studies were used to illustrate how the SoVI approach has been applied to examine distributional vulnerabilities to climate change–related coastal flood risk at the neighborhood level (see Table 6.3). These include the Nature Conservancy Mapping Portal (2013) and a study by de Sherbinin and Bardy (2015). Each of these studies follows the prescribed SoVI framework by Cutter et al. (2003) with modifications of variable selection in some instances. The Nature Conservancy analysis of social vulnerability to flooding and sea level rise in New York City utilized 27 variables from the SoVI 2006 to 2010 edition, excluding two variables due to lack of data availability (Nature Conservancy, 2013). The results demonstrate that medium and high levels of social vulnerability are concentrated in census tracts located in northern Manhattan, the South Bronx, the Lower East side, western and southern Brooklyn, north-central Queens (e.g., Flushing), and the Rockaways. Census tracts in our three case study areas (northern Manhattan; Sunset Park, Brooklyn; and Hunts Point, Bronx) display medium or high levels of vulnerability according to this analysis (see Figs. 6.1 and 6.2). Results of the de Sherbinin and Bardy (2015) analysis reveal similar distributions of social vulnerability to climate stressors (flooding) across city neighborhoods. They examined spatial vulnerabilities across block groups using the general SoVI approach but reduced the number of variables to 21 (variables that were not available at the block group level were excluded from the analysis). Social vulnerability index (SoVI) by the Nature Conservancy at census tract level (Nature Conservancy, 2013). Note: NPCC3 community case study neighborhoods are circled. Social vulnerability to floods in New York City at census block group level using a in which component are equally added and (de Sherbinin and Bardy, 2015). Note: NPCC3 community case study neighborhoods are circled. While patterns of social vulnerability overlap across the two New York City a among them from the unit of analysis. In the in 6.1 and the spatial by the block group analysis in de Sherbinin and Bardy (2015) to reveal greater of vulnerable block groups in some areas than are from the census tract results in the Nature Conservancy (2013) analysis. In the of northern and the South Bronx, for example, the tract that this area has medium vulnerability with of high vulnerability. In the two block group both reveal large of high vulnerability block groups within these vulnerability These areas of high vulnerability are not well captured in the analysis. While these results are on how the data are in the reveal important differences between block group and census The for Disease Control of and Disease has its social vulnerability framework and based on the work of et al. The SVI indicators, which are into socioeconomic status, household and minority status and and housing and transportation (see Table 6.4 and Appendix 6.A). The CDC employs a which entails of the of in a distribution that a specific is greater than or for all census It for the individual are by the for the variables each and the for each to determine the is by the for each the tracts, and the for each The SVI index has been for all census tracts in the United States SVI, 2016). The SVI index is widely used by governmental public health SVI, 2018). A is the application of the SVI index for the City of and by their of of (see Appendix 6.A). The SVI for was created by each tract according to its level of vulnerability in to the across the state of the and include the of flooding data the social vulnerability for the City of which was constructed from the CDC SVI mapping This of CDC SVI was by the in following 2017; (see Appendix 6.A). In to SoVI applications that display some in of variables to include in the analysis, SVI applications generally include the variables and generally As such, the SVI results are more directly across different data for the SVI can be directly from the CDC the SVI can be following a disaster as was (see Appendix 6.A). While a general SVI analysis has not been conducted for New York the CDC SVI model provides vulnerability for New York These which of all census tracts in New York reveal high and medium vulnerability in many of the areas of New York City that were identified by SoVI (see 6.3). As with the SoVI the New York State SVI medium or high levels of general social vulnerability in all three of our case study SVI New York State application displaying results for New York City constructed by the CBA The SVI indicators, which are into socioeconomic status, household and minority status and and housing and Note: NPCC3 community case study neighborhoods are circled. The of the between SoVI and SVI reflects the in the variables used to document social vulnerability in both These results also our selection of vulnerable communities for the case studies. In addition to and there are many other types of vulnerability mapping applications that use different methods of variable selection and index (see Table include a climate vulnerability assessment for the City of by the 2015), a social vulnerability assessment for the City of New York and the Vulnerability Index by the New York City of and of New The social vulnerability mapping application by (2015) indicators, which were via analysis based on an set of to be linked to social vulnerability. These indicators include people with people with and medical social people with income, people of people with people with than high education, and those a these (2015) created vulnerability each of which is intended to reveal of social vulnerability for particular indicators at the tract and neighborhood levels (see conducted a of different statistical approaches for social vulnerability assessment in New York City. The study used a set of variables population, population, American population, population, population, population population over population living in poverty, population with access to a and The study a range of different approaches to index These approaches include without with and The study that results to on how the indices are In weighted approaches may levels of social vulnerability throughout the city than PCA a of these was to that high levels of vulnerability across the Each of our three case study neighborhoods is as a on this (see of vulnerability in New York City 2018). Note: NPCC3 community case study neighborhoods are circled. In to most of the SoVI and SVI applications the Vulnerability in by the New York City of and and focuses on a climate The based on a case study of heat vulnerability in New York City by et al. is intended to help identify neighborhoods that are most at risk to health effects extreme heat The index includes two environmental factors",
+      "year": "2019",
+      "published_date": "2019-03-01",
+      "journal": "Annals of the New York Academy of Sciences",
+      "url": "https://doi.org/10.1111/nyas.14009",
+      "arxiv_id": "",
+      "keywords": [
+        "Equity (law)",
+        "Adaptation (eye)",
+        "Climate change",
+        "Political science",
+        "Regional science",
+        "Psychology",
+        "Geography",
+        "Ecology"
+      ],
+      "citations": 98,
+      "source": "OpenAlex",
+      "doi": "10.1111/nyas.14009",
+      "open_access": false,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "46fa7c7fc89cb124ebc0399c8881524973f69b1c5196d32fe7944223ed7af6e2",
+  "elapsed_seconds": 19.665,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q149_schema_single_agent_20260724_024308.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

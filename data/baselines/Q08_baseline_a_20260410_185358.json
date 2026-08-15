@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "evidence agent 对情报报告的证据覆盖率有何影响？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q08_baseline_a_20260410_185358.md"
+}

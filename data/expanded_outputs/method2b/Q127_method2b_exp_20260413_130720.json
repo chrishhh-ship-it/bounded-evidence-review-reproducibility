@@ -1,0 +1,212 @@
+{
+  "query_id": "Q127",
+  "query": "How do temporal resolution choices (decade vs. year vs. month) affect the reproducibility of historical network analysis results?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "The Potential Application of Large Language Models in Pharmaceutical Supply Chain Management",
+      "authors": [
+        "David Aguero",
+        "Scott D. Nelson"
+      ],
+      "abstract": "The pharmaceutical supply chain is growing increasingly intricate, with various challenges arising in drug inventory management, procurement, distribution, and dispensing processes. Issues such as shortage mitigation, inconsistency in regulatory compliance, cost control, cold-chain storage, adaptation to technologic advances, and secure information sharing all pose significant difficulties to pharmaceutical supply chain management.1 Consequently, this adds immense pressure on health system pharmacies to enhance their arsenal of available tools.2Pediatric hospitals in particular encounter unique challenges relating to pharmaceutical and supply shortages, which can cause delays in vital patient procedures, alterations in care protocols, and even unexpected changes in care locations.Historically, supply chain operations have been improved by using physical automation technologies and methodologies such as robotic process automation. Efficient operations use business intelligence to drive informed decisions regarding sourcing, pricing, and patient care, which can be facilitated either by internal teams or through vendor-provided solutions.3 While this approach does mitigate several problems, it rarely results in holistic problem resolution—like a chronic illness, these issues wax and wane.Addressing these supply chain challenges is crucial to ensure that patients receive the most optimal care available.3 Emerging technologies like large language models (LLMs) and generative artificial intelligence (AI) present new opportunities to address these supply chain challenges. LLMs can be used for knowledge management, data analysis, and process automation, contributing to the ongoing digitalization of supply chains, in ways that are difficult to predict, but worthwhile considering.4LLMs are a type of deep-learning artificial neural network that can perform various natural language processing (NLP) tasks, such as recognizing, translating, predicting, and generating text. However, unlike traditional NLP models, LLMs can capture long-range dependencies and contextual information within the entire prompt by using what are called self-attention mechanisms, instead of word by word. Self-attention allows the model to focus on the most relevant parts of the input and output, and how they relate to each other.5 This self-attention is based on a mathematical model called a transformer, which uses many layers of neural networks to process the input and output text sequences. The transformer consists of an encoder that converts the input text into numerical representations called tokens, and a decoder to convert the results back into text. These LLM transformers are trained to predict the next best word, or missing words, based on many examples of natural language from massive amounts of data, often from diverse sources and domains, to learn the patterns and structures of natural language. LLM transformers have billions of parameters, which are the mathematical weights the model learns during training and uses to make predictions during inference. Hence, an already trained transformer model that is used to generate text is called a generative pretrained transformer. LLMs have achieved remarkable results in various NLP benchmarks and applications, such as question answering, text summarization, text generation, and sentiment analysis. Training a transformer requires massive amounts of compute power,6 so these pretrained transformers can also be adapted to specific tasks or domains by fine-tuning, which is the process of updating the parameters of a pretrained model by using a smaller and more relevant dataset or even using reinforcement learning from human feedback of results.7LLMs have proven to be a disruptive technology, and there is a lot of interest in leveraging LLMs across many domains to perform different tasks, and as such, they have the potential to affect health care in many ways. For example, LLMs can help pharmacists and clinicians with drug information retrieval, drug interaction checking, adverse drug event detection, medication adherence monitoring, patient education, and clinical decision support.8 However, LLMs also pose some challenges and limitations, such as data quality, data privacy, model reliability, AI hallucinations, model explainability, and ethical implications. Therefore, it is important to evaluate the performance and validity of LLMs in health care settings and to ensure their safe and responsible use.In this commentary, we will explore several ways LLMs could be applied to pharmaceutical supply chain management, and some areas where there are potentially major limitations to their use.Systems Integration. LLMs can likely help integrate various inventory optimization tools and disparate databases by using natural language to generate queries and responses, which could reduce the need for manual data entry and extraction across different systems. For example, an LLM could help extract relevant information from unstructured or semi-structured data sources, such as free-text or voice recordings, and then structure the relevant information in a way that can be used by other systems (e.g., inventory management systems based on upstream prescriber orders). Additionally, LLMs perform well at code generation, which could reduce the effort needed to convert data from multiple systems into a standard data model, or help with translating the data from one system to another so it can then be used in the other system, thereby providing an end-to-end integration and data flow by translating between systems. The limitation here is that the model will not be able to extract data that do not exist or are not available to the LLM from the external systems.Human-Data Interface and Data Analysis. Similar to the systems integration, LLMs could help with the human-computer interface and facilitate data analysis.9 For example, using their ability to translate natural language to code could be useful for extracting and analyzing data from a database. A person could ask a question of the data, such as “Which medications do we use the most each week, and what is their total cost?” The LLM would then convert the question into a structured query, extract the data, then write python code to analyze those data to determine which medications are used the most and how much they have cost. Given the chatbot nature of the LLMs, the LLM could even ask clarifying questions to better formulate the question, such as asking how far back the user would like to look for summing the total cost of each medication. This natural conversational format could facilitate easier use of the computer systems. However, anyone who has worked in reporting know the challenges to shaping questions and understanding the true intent behind a question to provide valuable information. The LLMs could provide the user with the information based on what they asked, but that may not be what they really wanted, or could even be wrong. It is important to test and verify ­results to make sure the statistical analysis chosen is the appropriate approach, and that the databases used have reliable data to answer the questions.Process Automation. LLMs could help facilitate the automation of complex hierarchical and planning tasks, such as automatically performing a task when certain conditions are met or helping to triage messages to the correct recipients. LLMs have the capability to report even when there is missing or incoherent data present, they are less affected by spelling mistakes or grammatical errors, and could even make mass changes to data. However, having LLMs make mass changes to data to automatically carry out tasks could cause problems, and there should always be a human in the loop to review and approve the action to be taken.Simulation and Training. LLMs can theoretically be used to help improve supply chain resilience by simulating disruption scenarios to help generate and improve risk-management plans. This is achieved through the analysis of archival data and external influencers to highlight weak points. The ability of these AI models to digest vast amounts of data makes it possible to detect risk-associated patterns and forecast possible disturbances.10 A trained LLM can evaluate factors such as historical supplier disruptions, meteorologic patterns, and market seasonality, and early results suggest this has been successful in other industries.11 Upon identifying an elevated risk by the generative AI model involved in the supply chain planning, it could simulate the effect on supply routes. This prognostic capacity could enable pharmacy operations to establish stronger emergency plans. Additionally, LLMs can quickly generate synthetic datasets for training and onboarding new staff by walking through various scenarios, asking questions, and responding to questions.9 However, LLMs are not able to predict unusual or rare events, such as war, natural disasters, cyberattacks, or pandemics (i.e., black swan events) that could very well affect the supply chain.Knowledge Management. Knowledge management is a challenge in any industry or company. LLMs could be trained on internal, unstructured data, such as emails, meeting minutes, training materials, transaction histories, notes, best-practice documents, policy and standard operating procedure documents, and notifications received from outside systems. This could help facilitate search of this valuable source of institution-specific recommendations, answer questions, and identify how similar issues were handled in the past.9 However, policies and practices tend to change over time, and the LLM could return outdated materials, or require retraining. The performance of the model is only going to be as good as the information it trains on.Text Summarization. One key feature of LLMs is their ability to summarize large volumes of text, which could be used to help chronical or document decisions made as well as the rationale. LLMs could be used to summarize notifications of potential shortages, then combined with internal data, put those notifications in institution-specific context for human review. While text summarization is helpful, there is always the risk of missing or leaving out key information.Optimizing Travel Routes and Recommending Methods to Reduce Environmental Impact. One potential area could be to use LLMs to optimize travel or delivery routes. One could imagine putting the delivery data and concepts into textual sentences and then do analysis to optimize the routes. However, there are already sophisticated algorithms and software used to optimize travel routes.While LLMs hold potential in many prediction-based applications, they also face significant hurdles in other aspects of pharmaceutical supply chain. The authors believe LLMs would struggle to produce value in the following scenarios.Predicting Medication Shortages. Medication shortages are generally triggered by acute events such as increases in demand, raw and/or active product ingredient shortages, or complications in manufacturing processes. Because LLMs are trained on historical data and may not have real-time access to such rapidly changing information, they are challenged to predict theoretical shortages. In fact, relying on these models to predict a shortage could cause a triggering event that leads to a medication shortage. Further, much of the data needed to predict medication shortages is private, meaning only specific entities (Group Purchasing Organization, wholesalers, or specific organizations like the United States Pharmacopeia) have access to the right set of information to predict a theoretical shortage with any accuracy. Black swan events, such as the COVID-19 pandemic, cause additional complications for LLMs, which may lack a full contextual understanding necessary to interpret the nuanced effects of geopolitical events, economic trends, natural disasters, and other factors affecting supply chain operations.Enhanced Data Quality. The importance of standardization and structured syntax and semantics in enhancing supply chain operations cannot be overstated. Despite the existence of common data standards such as the Global Trade Item Number and the Global Location Number from GS1, their adoption is not universal. It is possible for 2 facilities within the same health system to use different systems, or different versions of the same system. Furthermore, different major wholesalers provide varying information for identical products. This means Wholesaler A and Wholesaler B may categorize the therapeutic class of a new drug differently, leading to inconsistencies and posing substantial challenges for LLM.Even as GS1 US and other organizations promote data standardization, limited standardization persists in the development, configuration, and data storage methods of supply chain systems. This can impede LLMs’ ability to derive meaningful insights from unstructured data, exemplifying the “Garbage In, Garbage Out” concept. Particularly for pediatric hospitals, the lack of standardization may lead to medication administration errors and other crucial downstream processes. For instance, if an LLM approves distribution of a product containing preservatives, it may negatively affect a sensitive pediatric patient population. Furthermore, the lack of comprehensive integration and interoperability among various health systems today can hinder data and insights sharing across different sections of the supply chain.Nonetheless, LLMs can assist in detecting anomalies and effecting repairs in mismatched databases. Clinical content vendors can use trained models to scrutinize the content (typically sent monthly as part of a subscription) for missing or miscoded fields, based on preexisting data. Such data eventually finds its way into both electronic health record and third-party–supported inventory systems that affect patient care. Leveraging historical data, LLMs could also assess trends and detect anomalies within the system, such as miscoded revenue fields or quantity conversion factors between units of issue (like vials) and units of sale (like cartons containing 5 sleeves of 6 vials).Inventory Management. While powerful in making real-time decisions based on historical information, placing high-acuity orders based on present day workflows (consignment, 340B accumulation) suggest LLMs are a stronger copilot than a replacement for humans in current state. These tasks require a human touch, or a “thoughtful, warm body,” to make decisions based on nuanced factors that a language model may not fully comprehend (such as substitution of a compounded preparation in place of a commercially used preparation, or considering loan/borrow activity for patient-specific doses within a geographic area, and factoring these scenarios in appropriately for inventory use and forecasting).While LLMs can augment intelligence with predictive analytics and give personalized product alternative recommendations, they may not always provide accurate local forecasting based on historical usage. This could lead to incorrect predictions and potential inventory imbalances. Furthermore, while they can automate tasks like document processing through intelligent automation or digital workers that combine conversational AI with robotic process automation, there are already more specialized tools available for such tasks. These tools are designed specifically for inventory management and can provide more accurate and efficient results, making them a better choice for managing multiple ordering systems and adjusting inventory levels regularly.Keeping LLMs Up-to-Date Can Be Difficult. Training LLMs requires massive amounts of compute power and data to train on, which could pose a significant limitation to their application in supply chain. Pharmaceutical supply chain management is a very dynamic and complex domain that involves multiple stakeholders, regulations, and uncertainties. The LLMs could be making recommendations based on historical or out-of-date information. Keeping LLMs up-to-date with the latest information and trends could prove to be very difficult and costly. Moreover, retraining LLMs can break the reinforcement learning from human feedback process,12 which is a technique that uses the feedback from human users and their preferences to optimize the LLM’s output performance. Therefore, retraining the model can degrade its performance and alignment with human values and preferences. One possible way to overcome these challenges is by using an application programing interface (API) to improve the prompt. In this method, the LLM uses the prompt given by the user, then calls an API to pull the most up-to-date information, then adds that information back into the prompt to improve the results. An API could provide relevant and updated information from various sources, such as databases, web search results, or news articles, and incorporate that information into the new prompt fed back to the LLM. Using an API can also enable more fine-grained control over the LLM’s behavior, such as specifying the tone, style, or length of the output. Given the LLM’s ability to write code, it could even help write its own API interfaces.It Is All About the Prompt. The usefulness of LLMs and their results depend on the and of the which the LLM’s and output. However, there are some limitations to such as context and are when the may not provide context or information for the model to generate relevant and accurate For example, if the prompt were a report on the inventory of the the LLM may not know which what or what of is of this is also by most LLMs have a of or that they can as input or output. For example, if the prompt is a of the latest on COVID-19 in one the input prompt would not be large for the LLM to process all the latest and the model may not be able to all the necessary information in such a the importance of good cannot be overstated. are and provide context and information for the model to generate and relevant also use appropriate and to the output. For example, a good prompt for an inventory report could a report on the inventory of for the of the following total of in by (e.g., and of each current and for each to optimize the management and reduce report to and use and where produce the most some organizations have even prompt to the most out of the is the process of for It is a that requires to and is an and by learning and prompt users could the power of LLMs to automate tasks and improve and with any technology, LLMs also pose certain for For example, LLMs may sensitive data such as patient inventory or supplier and use that data for training or inference. This could lead to data or if the LLMs are not or Moreover, LLMs may generate or content based on the patterns they during which could the quality, or of the pharmaceutical supply of the common that affect LLM are as or the LLM by using that make the model or perform the LLM sensitive or information through the LLM’s responses, either or This results from to the LLM from the system or thereby the LLM to access or that it should code the LLM prompt to have it code or on the system or potentially its or on the LLM’s output or which could in errors, or This is also to as automation AI the to the LLM’s or with the intent or which could lead to or data the of the training data, either by data or by data, which could affect the LLM’s performance or that are designed to or the either by it to produce incorrect or or by its or or the LLM’s parameters, or either by the LLM or by analyzing its responses, which could enable or sensitive This when or the training data or the LLM’s internal either by the LLM’s or by its which could data or LLMs are trained to predict the next best word, based on statistical patterns from large amounts of data, and as such, this can in errors or An when LLMs generate output that is not with the training data, but this is in such a way as to in the incorrect which may to the can cause or if the user is not of the limitations and of Therefore, it is important to LLMs as than human intelligence means that LLMs are designed to assist and human not to or Additionally, even LLMs can answer questions, they are only statistical models and not of understanding the or domain of the training data or LLMs a that could enhance some within pharmaceutical supply chain their application with certain and and will likely encounter hurdles when to LLMs to supply chain The authors using LLMs for tasks that depend on historical and data, and it is crucial to verify the output LLMs to The use of LLMs should be with and and should always be by human and",
+      "year": "2024",
+      "published_date": "2024-04-01",
+      "journal": "The Journal of Pediatric Pharmacology and Therapeutics",
+      "url": "https://doi.org/10.5863/1551-6776-29.2.200",
+      "arxiv_id": "",
+      "keywords": [
+        "Supply chain",
+        "Risk analysis (engineering)",
+        "Supply chain management",
+        "Procurement",
+        "Automation",
+        "Process (computing)",
+        "Health care",
+        "Computer science"
+      ],
+      "citations": 13,
+      "source": "OpenAlex",
+      "doi": "10.5863/1551-6776-29.2.200",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis"
+    },
+    {
+      "title": "Empirical Evaluation of the Energy Transition Efficiency in the EU-27 Countries over a Decade—A Non-Obvious Perspective",
+      "authors": [
+        "Jarosław Brodny",
+        "M. Tutak",
+        "W. Grebski"
+      ],
+      "abstract": "In response to the escalating challenges of climate change and the urgent need to reduce greenhouse gas emissions, the energy transition has become a central priority of environmental policy worldwide. The European Union (EU), a global leader in implementing sustainable energy solutions, has pursued numerous initiatives aimed at advancing energy transformation. This paper presents the results of an empirical study assessing the efficiency of the energy transition process in the EU-27 countries over the 2013–2023 period. The assessment is based on the dynamic changes in selected indicators relevant to the energy transition, including decarbonization of the energy sector, improvements in energy efficiency, the share of renewable energy sources, energy import dependency, greenhouse gas emissions, and the extent of energy poverty. A multidimensional analysis was conducted using a specially developed energy transition efficiency index, where indicator weights were determined through the Analytic Hierarchy Process. The study also examined two distinct sub-periods (2013–2018 and 2018–2023), as well as a series of shorter, two-year intervals (2013–2015, 2015–2017, 2017–2019, 2019–2021, and 2021–2023), enabling a more nuanced analysis of the temporal evolution of transition efforts. Additionally, principal component analysis was employed to classify the EU-27 countries based on the similarity of their energy transition profiles. The findings reveal significant disparities in the pace and scope of energy transition across member states. Luxembourg, Malta, and the Netherlands demonstrated the most dynamic progress during the study period, followed by Sweden, Denmark, Germany, and Estonia. In contrast, Bulgaria, Hungary, Poland, Latvia, Croatia, and Romania recorded the lowest performance. These differences underscore the varying starting points, policy approaches, and implementation speeds among EU countries in achieving energy transition objectives.",
+      "year": "2025",
+      "published_date": "2025-06-26",
+      "journal": "Energies",
+      "url": "https://www.semanticscholar.org/paper/2c2ca47e50dfc116d9ca238257cdbe256c1763d3",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/en18133367",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval benchmark"
+    },
+    {
+      "title": "How can quantitative policy analysis inform the energy transition? The case of electrification",
+      "authors": [
+        "Parth Vaishnav"
+      ],
+      "abstract": "Quantitative analyses may aim to provide actionable answers to policy questions and to generate tools or insights for decision-making. Given the deep uncertainties involved in any realistic reckoning of policy questions, this study argues that only the second of these goals is achievable. Here, this argument is illustrated by considering analyses of how the electrification of an activity changes the damage from the air pollution emissions that occur because of that activity. The sources of uncertainty in such an analysis include the long life of the technologies being studied. Consequently, the structure and operation of the electricity grid might change because of the new technology and independent of it. Analysts must make subjective choices about what to include in their analysis and what to exclude. For example, policies modeled in isolation may, in reality, be bundled with other policies; interactions between technologies may be missed if the analysis focuses on only one technology; and certain benefits or costs may be neglected because they lie outside the scope of the analysis and the expertise of the analyst. Quantitative policy analysis must aim to be part of the broader discussions in society that ultimately determine what policies get implemented.",
+      "year": "2023",
+      "published_date": "2023-10-9",
+      "journal": "Frontiers in Sustainable Energy Policy",
+      "url": "https://doi.org/10.3389/fsuep.2023.1271301",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 10,
+      "source": "CrossRef",
+      "doi": "10.3389/fsuep.2023.1271301",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval"
+    },
+    {
+      "title": "Publications of systematic review and meta-analysis in the indexed anesthesia journals: a 10-year bibliometric analysis",
+      "authors": [
+        "Zhi-yao Zou",
+        "Xiao-jing Huang",
+        "Jin-rui Song",
+        "Yun-tai Yao"
+      ],
+      "abstract": "Background Anesthesiology research is growing at a rapid pace. It is essential to understand the scope and trends over time to identify gaps and future areas for growth. Systematic reviews and meta-analyses (SRMA) are summaries of the best available evidence to address a specific research question via a comprehensive literature search, in-depth analyses, and synthesis of results. High-quality SRMA are increasingly used and play an essential role in medical research. Objective We aimed to explore the trends of SRMA in indexed anesthesia journals. Methods SRMA published in indexed anesthesia journals from 2013 to 2023 were retrieved from the Web of Science database. Data were presented via descriptive statistics. We used CiteSpace 6.1.R6 to analyze countries, institutions, journals, authors, and keywords through visual maps to explore the research hotspots and trends. The journal’s Journal Citation Reports partition, impact factor, annual publications, journals H-index, and a number of highly-cited papers were calculated in the WoS database. Results A total of 34 indexed anesthesia journals and 3,004 SRMA were included. The year 2021 was the year with the most SRMA (385/3,004). Out of the 3,004 SRMAs, 36 (0.03%) were highly cited papers, and 22 of the 36 highly cited papers focused on “pain management.” BRITISH JOURNAL OF ANAESTHESIA had the highest 5-year impact factor (9.6) in 2022 Journal Citation Reports, the most significant number of publications (268/3,004), the highest total number of citations (13,173/86,145), and the most significant number of SRMAs cited more than 100 (36/160). ANAESTHESIA achieved the highest impact factor in the 2022 Journal Citation Reports (10.7) and the highest average annual citations (58.82). PAIN had the highest number of highly cited papers (15/36). The United States of America was the most productive country, with 823/3,004 SRMAs. University Toronto had the highest number of publications (245/3,004). The most frequent of keywords was the topic “Pain Management” (1,622/29.1%). Conclusion This present study would be valuable to practitioners, academics, researchers, and students in understanding the dynamics of progress in anesthesiology.",
+      "year": "2025",
+      "published_date": "2025-05-07",
+      "journal": "Frontiers in Medicine",
+      "url": "https://www.semanticscholar.org/paper/976f90a26b4fd6001afeabdcacf5e0d726117da3",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.3389/fmed.2025.1523630",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "A social network analysis of Twitter: Mapping the digital humanities community",
+      "authors": [
+        "Martin Grandjean"
+      ],
+      "abstract": "Defining digital humanities might be an endless debate if we stick to the discussion about the boundaries of this concept as an academic “discipline”. In an attempt to concretely identify this field and its actors, this paper shows that it is possible to analyse them through Twitter, a social media widely used by this “community of practice”. Based on a network analysis of 2,500 users identified as members of this movement, the visualisation of the “who’s following who?” graph allows us to highlight the structure of the network’s relationships, and identify users whose position is particular. Specifically, we show that linguistic groups are key factors to explain clustering within a network whose characteristics look similar to a small world.",
+      "year": "2016",
+      "published_date": "2016-04-15",
+      "journal": "Cogent Arts and Humanities",
+      "url": "https://doi.org/10.1080/23311983.2016.1171458",
+      "arxiv_id": "",
+      "keywords": [
+        "Digital humanities",
+        "Social network analysis",
+        "Humanities",
+        "Sociology",
+        "Social network (sociolinguistics)",
+        "Data science",
+        "Social media",
+        "World Wide Web"
+      ],
+      "citations": 201,
+      "source": "OpenAlex",
+      "doi": "10.1080/23311983.2016.1171458",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    },
+    {
+      "title": "How do we study misogyny in the digital age? A systematic literature review using a computational linguistic approach",
+      "authors": [
+        "Lara Fontanella",
+        "Berta Chulvi",
+        "Elisa Ignazzi",
+        "A. Sarra",
+        "Alice Tontodimamma"
+      ],
+      "abstract": "Nowadays, despite centuries of striving for equality, women still face higher levels of discrimination compared to men in nearly every aspect of life. Recently, this systemic inequality has manifested in cyberspace through the proliferation of abusive content that is even more aggressive than what one would expect in the 21st century. Various research disciplines are now attempting to characterise this new manifestation of misogyny. The endeavour to comprehend this phenomenon has resulted in a significant increase in publications from several fields, including Social Sciences, Arts and Humanities, Psychology, and Computer Science. This paper presents a systematic review of multidisciplinary research on misogyny from the years 1990 to 2022, encompassing a total of 2830 articles retrieved from the Scopus database as of December 31, 2022. The literature is thoroughly analysed using three approaches: bibliometric analysis, topic detection, and qualitative analysis of the documents. The findings suggest that the analysis of online misogyny has been the primary driver behind the exponential growth in publications in this field. Additionally, the results of the topic analysis and topic interaction reveal a limited connection between the areas of knowledge that are necessary to fully grasp this complex phenomenon.",
+      "year": "2024",
+      "published_date": "2024-04-02",
+      "journal": "Humanities and Social Sciences Communications",
+      "url": "https://www.semanticscholar.org/paper/aa211982ba661c19c4f362226b17f649f1ff05dd",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 32,
+      "source": "Semantic Scholar",
+      "doi": "10.1057/s41599-024-02978-7",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Preliminary results on the paleo-landscape of Tell Basta /Bubastis (eastern Nile delta): An integrated approach combining GIS-Based spatial analysis, geophysical and archaeological investigations",
+      "authors": [
+        "T. Ullmann",
+        "Eva Lange‐Athinodorou",
+        "Alexander Göbel",
+        "Christian Büdel",
+        "R. Baumhauer"
+      ],
+      "abstract": "Abstract The city of Bubastis (Tell Basta) is situated in the south-eastern Nile delta and was of great importance in Ancient Egypt. While the remains of the city have been the subject of archaeological investigations for more than one hundred years, little research has been carried out on the characterization of the former landscape in general and on the localization of the Pelusiac and Tanitic branches in the area of Bubastis in particular. This contribution presents preliminary results from recent investigations that focused on the study of historic cartographic records in digital terrain analyses, archaeological records and written sources, and the gathering of onsite sedimentary archives. The GIS-analyses used digital hydrographic modelling and relied on digital terrain data generated from the topographic maps of the Survey of Egypt (1930s). Additionally, drilling was conducted in Bubastis in spring 2016; six boreholes were made and preliminary macroscopy sediment analyses suggest a Pre-Holocene genesis of the underlying sediments. It is anticipated that Bubastis is situated on a Gezira of Pleistocene age. Gezira sediments were found in depths between +3.3 m and −0.68 (a.s.l.) and these were characterized by medium to coarse sand of yellowish and brownish colour. Results of the digital terrain analyses further suggest that the ridges and mounds in the west and south-west of the study area are remains of the Pleistocene deposits and that the tells in the foreland - like Bubastis - witness the erosion history. The results from digital hydrographic modelling indicated at least two major fluvial systems; one north and one south of Bubastis, which can be related with the Pelusiac and Tanitic systems. The model-driven approach suggests that the Pelusiac branch was running south of Bubastis, implying that Bietak's alternative “B/1 Bahr Abu El Akhdar” is the most likely route for the branch. However, a different interpretation of the results involves the formation of levees and this approach supports Bietak's model, e.g. the route of the Pelusiac branch fits the modelled major watershed boundary in the north of Bubastis.",
+      "year": "2019",
+      "published_date": "",
+      "journal": "Quaternary International",
+      "url": "https://www.semanticscholar.org/paper/4c6388b560ca87274459b449c6db910169548b7e",
+      "arxiv_id": "",
+      "keywords": [
+        "Geology"
+      ],
+      "citations": 15,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/J.QUAINT.2017.12.053",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis survey"
+    },
+    {
+      "title": "Exploring the Technical Knowledge Interaction of Global Digital Humanities: Three-decade Evidence from Bibliometric-based perspectives",
+      "authors": [
+        "Jiayi Li",
+        "Chengxi Yan",
+        "Yurong Zeng",
+        "Zhichao Fang",
+        "Huiru Wang"
+      ],
+      "abstract": "Digital Humanities (DH) is an interdisciplinary field that integrates computational methods with humanities scholarship to investigate innovative topics. Each academic discipline follows a unique developmental path shaped by the topics researchers investigate and the methods they employ. With the help of bibliometric analysis, most of previous studies have examined DH across multiple dimensions such as research hotspots, co-author networks, and institutional rankings. However, these studies have often been limited in their ability to provide deep insights into the current state of technological advancements and topic development in DH. As a result, their conclusions tend to remain superficial or lack interpretability in understanding how methods and topics interrelate in the field. To address this gap, this study introduced a new concept of Topic-Method Composition (TMC), which refers to a hybrid knowledge structure generated by the co-occurrence of specific research topics and the corresponding method. Especially by analyzing the interaction between TMCs, we can see more clearly the intersection and integration of digital technology and humanistic subjects in DH. Moreover, this study developed a TMC-based workflow combining bibliometric analysis, topic modeling, and network analysis to analyze the development characteristics and patterns of research disciplines. By applying this workflow to large-scale bibliometric data, it enables a detailed view of the knowledge structures, providing a tool adaptable to other fields.",
+      "year": "2025",
+      "published_date": "2025-08-11",
+      "journal": "Proceedings of 2025 Digital Humanities Conference",
+      "url": "http://arxiv.org/abs/2508.08347v1",
+      "arxiv_id": "2508.08347v1",
+      "keywords": [
+        "cs.DL",
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    }
+  ],
+  "timestamp": "20260413_130720"
+}

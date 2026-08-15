@@ -1,0 +1,1 @@
+{"baseline": "autosurvey_corpus_controlled", "query_id": "Q01", "query": "面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？", "provider": "deepseek", "error": "HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.", "timestamp": "20260418_233256"}

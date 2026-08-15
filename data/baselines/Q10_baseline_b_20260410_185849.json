@@ -1,0 +1,169 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "如何评估智慧情报服务中 query expansion 的收益与风险？",
+  "effective_search_query": "query expansion evaluation benefits risks intelligent information services",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 21,
+  "all_retrieved_ids": [
+    "doi:10.1007/s10115-015-0830-ya",
+    "doi:10.1080/0960085x.2020.1869508x",
+    "doi:10.1007/s44163-024-00111-wk",
+    "doi:10.1007/s41666-024-00159-4s",
+    "doi:10.1186/s13677-024-00674-0h",
+    "doi:10.1109/jiot.2024.3396488",
+    "doi:10.1007/s10115-018-1269-8ma",
+    "title:the intelligent prediction and assessment of financial information risk in the cloud computing model|2024",
+    "doi:10.1016/j.csi.2019.03.002",
+    "doi:10.1007/s12065-020-00554-xdk",
+    "doi:10.1007/s13748-019-00178-yh",
+    "doi:10.64818/pijbas.3107.8478.0001",
+    "doi:10.1109/icacite57410.2023.10182730",
+    "title:automatic query expansion for information retrieval: a survey and problem definition|2017",
+    "doi:10.1080/0144929x.2024.2330001",
+    "title:intelligent personalized approaches for semantic search and query expansion|2019",
+    "doi:10.1007/s10844-025-00988-8v",
+    "title:evaluation of semantic relations impact in query expansion-based retrieval systems|2022",
+    "doi:10.54195/9789465150727",
+    "doi:10.3233/sji-230014",
+    "doi:10.1016/j.jaac.2022.09.202"
+  ],
+  "top_papers": [
+    {
+      "title": "A survey on indexing techniques for big data: taxonomy and performance evaluation",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "A Gani, A Siddiqa, S Shamshirband… - Knowledge and information …, 2016 - Springer",
+      "doi": "10.1007/S10115-015-0830-YA",
+      "citations": 377,
+      "abstract": "… Therefore, intelligent indexing in terms of a single classifier is a substitute to monitor requirements of big data with continuously changing behavior, but it may exhibit more time in query …"
+    },
+    {
+      "title": "The good, the bad, and the ugly: Impact of analytics and artificial intelligence-enabled personal information collection on privacy and participation in ridesharing",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "X Cheng, L Su, X Luo, J Benitez… - … Journal of Information …, 2022 - Taylor & Francis",
+      "doi": "10.1080/0960085X.2020.1869508X",
+      "citations": 225,
+      "abstract": "… We then articulate the bright and dark sides’ key components and establish a theoretical argumentation to the specific benefits and risks through a cognitive appraisal. Finally, we …"
+    },
+    {
+      "title": "Opportunities, challenges, and benefits of AI innovation in government services: a review",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "K Alhosani, SM Alhashmi - Discover Artificial Intelligence, 2024 - Springer",
+      "doi": "10.1007/s44163-024-00111-wK",
+      "citations": 205,
+      "abstract": "… hurdles and service delays, this study highlights the necessity for a thorough knowledge of the risks, impediments, and incentives of employing AI for government services. The study …"
+    },
+    {
+      "title": "Clinical information retrieval: a literature review",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "S Sivarajkumar, HA Mohammad, D Oniani… - Journal of healthcare …, 2024 - Springer",
+      "doi": "10.1007/s41666-024-00159-4S",
+      "citations": 52,
+      "abstract": "… , methodologies, evaluation metrics, and applications. The review identifies key research gaps in clinical IR methods such as indexing, ranking, and query expansion, offering insights …"
+    },
+    {
+      "title": "From data to insights: the application and challenges of knowledge graphs in intelligent audit",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "H Zhong, D Yang, S Shi, L Wei, Y Wang - Journal of Cloud Computing, 2024 - Springer",
+      "doi": "10.1186/s13677-024-00674-0H",
+      "citations": 36,
+      "abstract": "… obtain and evaluate evidence to ensure … intelligent information processing and knowledge discovery, providing people with richer, more accurate, and personalized information services […"
+    },
+    {
+      "title": "Blockchain-Based Mutual Authentication Protocol for IoT-Enabled Decentralized Healthcare Environment",
+      "year": "2024",
+      "source": "Semantic Scholar",
+      "journal": "IEEE Internet of Things Journal",
+      "doi": "10.1109/JIOT.2024.3396488",
+      "citations": 34,
+      "abstract": "In the ever-evolving landscape of technology, healthcare continuously harnesses its benefits, propelling advancements in medical practices. Within intelligent healthcare, medical robots play a pivotal role, providing integral support to healthcare professionals, streamlining processes, and delivering efficient services. These robots securely transmit patient treatment plans, transferring them to cloud storage and subsequently storing them in blockchain systems. This innovative approach ensures the integrity and accessibility of patient data, introducing novel avenues for seamless interaction with medical information for hospitals and patients’ families. Despite these advantages, the looming privacy risks associated with sensitive patient data transmission pose a compelling challenge, deman"
+    },
+    {
+      "title": "A survey of statistical approaches for query expansion",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "MA Raza, R Mokhtar, N Ahmad - Knowledge and information systems, 2019 - Springer",
+      "doi": "10.1007/s10115-018-1269-8MA",
+      "citations": 30,
+      "abstract": "… to query expansion. In this article, we primarily discuss statistical query expansion approaches that … Finally, we evaluate these techniques using five functional features and experimental …"
+    },
+    {
+      "title": "The intelligent prediction and assessment of financial information risk in the cloud computing model",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "Y Wang, M Zhu, J Yuan, G Wang, H Zhou - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 27,
+      "abstract": "… risks and challenges of financial information in the cloud computing environment by using intelligent forecasting and evaluation … cloud services, as well as the use of artificial intelligence …"
+    },
+    {
+      "title": "Evaluation of intelligent agents in consumer-to-business e-Commerce",
+      "year": "2019",
+      "source": "Semantic Scholar",
+      "journal": "Comput. Stand. Interfaces",
+      "doi": "10.1016/J.CSI.2019.03.002",
+      "citations": 26,
+      "abstract": "Abstract Electronic commerce has changed traditional business trading behaviors, since consumers can easily consume through the Internet e-commerce platform. The Internet provides numerous products and services, but consumers find it is hard to choose their favorite ones. The consumer-to-business (C2B) is popular in recent years and it has become one of the best choices for customers forming a group to buy products. Thus, more and more consumers participate in online group buying. However, consumers anticipate to different prices when buying products and demand service. Thus, applying an intelligent agent into negotiation can effectively decrease efforts spent on collecting buyer information, transaction costs, and negotiation with sellers. This study proposed a system that applies an inte"
+    },
+    {
+      "title": "Semantic approaches for query expansion",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "DK Sharma, R Pamula, DS Chauhan - Evolutionary Intelligence, 2021 - Springer",
+      "doi": "10.1007/s12065-020-00554-xDK",
+      "citations": 22,
+      "abstract": "… Query Expansion techniques contain the semantic concepts that are relevant to semantic computing, computational intelligence, and information … several semantic query expansion core …"
+    },
+    {
+      "title": "Query expansion based on clustering and personalized information retrieval",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "H Khalifi, W Cherif, AE Qadi, Y Ghanou - Progress in Artificial Intelligence, 2019 - Springer",
+      "doi": "10.1007/s13748-019-00178-yH",
+      "citations": 15,
+      "abstract": "… This section includes also an empirical evaluation of its steps, especially data structuration … a new query extension, but the difference is that we complete the words in the query sentence …"
+    },
+    {
+      "title": "Predictive Analysis of a Jobless Society and Future Human Life Comfortability based on AI-Driven Super Intelligent Machines",
+      "year": "2025",
+      "source": "Semantic Scholar",
+      "journal": "Poornaprajna International Journal of Basic &amp; Applied Sciences (PIJBAS)",
+      "doi": "10.64818/pijbas.3107.8478.0001",
+      "citations": 13,
+      "abstract": "Purpose: To explore the transformative potential of AI-driven super-intelligent machines in ensuring future human life comfort by enabling fully automated systems of production and distribution. It evaluates the feasibility of government-implemented Total Automation Models, where goods and services are produced and distributed without cost to individuals. The study analyzes how such costless provisioning can be achieved through continuous, intelligent optimization, and examines the broader implications of this paradigm shift for human purpose, governance structures, and global equity in a post-scarcity, technologically governed society.\nMethodology: In this paper, the exploratory qualitative research method is used. The relevant information is collected using keyword-based search in Google"
+    },
+    {
+      "title": "Framework for the Deployment of Intelligent Smart Cities (ISC) using Artificial Intelligence and Software Networking Technologies",
+      "year": "2023",
+      "source": "Semantic Scholar",
+      "journal": "2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)",
+      "doi": "10.1109/icacite57410.2023.10182730",
+      "citations": 12,
+      "abstract": "This article’s goals include providing a framework for interpersonal and communication to safeguard welfare services and assess how well the innovation ecosystem is now understood. An essay starts with an overview or description of \"urban area\" This viewpoint includes neighborhood services, modern amenities, or smart infrastructure. Information and technology, digital operations use, monitoring, and interconnection, amongst other things. The section that follows examines various urban planning concerns, either administration or expansion. Utilizing diverse technologies effectively is made possible by innovative information about towns or an answer to a question concerning high-quality public infrastructure. An innovative method of managing networks is the Software Defined Network (SDN) arc"
+    },
+    {
+      "title": "Automatic query expansion for information retrieval: a survey and problem definition",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "OA Abass, O Folorunso, BO Samuel - … Science and Information …, 2017 - academia.edu",
+      "doi": "",
+      "citations": 9,
+      "abstract": "… intelligent method of query expansion and fashion out future work on the implementation of intelligent information … test collections (Forum for Information Retrieval Evaluation, FIRE, and …"
+    },
+    {
+      "title": "The roles of trust and privacy calculus in citizen-centric services usage: evidence from the close contact query platform in China",
+      "year": "2024",
+      "source": "Semantic Scholar",
+      "journal": "Behavior and Information Technology",
+      "doi": "10.1080/0144929X.2024.2330001",
+      "citations": 4,
+      "abstract": "ABSTRACT The mechanism of the ‘privacy calculus’ between privacy risks and benefits has gained attention in e-government service, but there were few empirical studies. Trust reduces perceived risk as well as enhances perceived benefits. However, the effects of different types of trust on privacy calculus are yet undefined. Regarding above issues, we build a research model based on the theoretical framework of ‘Antecedents → Privacy Concerns → Outcomes (APCO)’, theories of privacy calculus and e-government trustworthiness typology. We analyse survey data from the Close Contact Query Platform providing citizen-centric services for COVID-19 in China. Trust in transactions and information is increased by trust in government organisations. Trust in government organisations and transactions decr"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q10_baseline_b_20260410_185849.md"
+}

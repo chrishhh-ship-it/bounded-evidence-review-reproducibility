@@ -1,0 +1,12 @@
+[
+  {
+    "config": "schema_single_agent",
+    "n": 1,
+    "citation_precision_pct": 100.0,
+    "orphan_rate_pct": 0.0,
+    "section_completeness_pct": 100.0,
+    "bibliography_match_rate_pct": 100.0,
+    "abstract_coverage_pct": 100.0,
+    "no_formal_citation_frac_pct": 0.0
+  }
+]

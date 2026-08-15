@@ -1,0 +1,20 @@
+{
+  "n_total": 251,
+  "n_scored": 251,
+  "n_unparseable_reviewer_verdict": 0,
+  "confusion_matrix": {
+    "TP_block_block": 45,
+    "FP_reviewer_block_gate_pass": 2,
+    "FN_reviewer_release_gate_block": 9,
+    "TN_release_release": 195
+  },
+  "accuracy": 0.9561752988047809,
+  "precision_block": 0.9574468085106383,
+  "recall_block": 0.8333333333333334,
+  "f1_block": 0.8910891089108911,
+  "reason_level_agreement": {
+    "orphan_citation_flag_agreement_rate": 1.0,
+    "uncited_bibliography_flag_agreement_rate": 0.9561752988047809
+  },
+  "note": "BLOCK is the positive class; deterministic gate release (pass/block) is treated as the structural-compliance reference standard, not a semantic gold standard."
+}

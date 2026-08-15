@@ -1,0 +1,127 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "哪些自动指标可以先行使用，以减少人工标注成本？",
+  "effective_search_query": "automatic metrics, human annotation cost reduction",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds": 1,
+  "review_feedback": {
+    "overall_score": 7,
+    "major_issues": [
+      "报告结论过于绝对，声称'无法确定或推荐任何具体的自动指标'，但证据[2]明确提到'23条启发式规则'，这可以视为一种自动评估指标或框架，用于指导人机协同，可能间接减少对人工标注的依赖。报告未能识别这一潜在关联。",
+      "报告在'核心主题与证据'部分正确指出文献未直接讨论自动指标，但在'证据支持的研究方向'中却推断出'自主工作流生成'等方向，这些推断超出了摘要证据的直接支持范围，属于过度解读。证据[1][3][5][8]仅提及系统'可能'或'潜在地'减少人工依赖，并未论证其与'先行自动指标'的关系。",
+      "报告结构中的'参考文献'部分不应作为分析内容出现，它属于格式性内容，不应在情报分析正文中占据独立章节。这降低了报告的专业性。"
+    ],
+    "citation_issues": [
+      "证据[7]和[8]的'Key claim'字段在提供的证据集中为空，但报告中引用了它们（[7][8]）来支持'智能体AI对专家知识的替代与辅助'等观点。报告应明确指出这些文献的摘要中缺乏具体主张，因此基于它们的推论强度较弱，或避免将其作为核心支持证据。",
+      "报告引用证据[4]来支持'AI应用的实际挑战与局限'，这是准确的。但证据[4]讨论的是聊天机器人用户满意度，与'标注成本'关联度较低，报告对此关联的解释稍显牵强。"
+    ],
+    "revision_instructions": [
+      "修正结论的绝对化表述。应指出：基于摘要证据，没有文献明确讨论为减少标注成本而设计的'先行自动指标'。但证据[2]提出的'启发式方法'可被视为一种自动化评估或指导框架，其在服务共创中的应用可能影响人力配置模式，这与减少特定人工投入（包括标注）的宏观目标存在间接关联。",
+      "精简或重组'证据支持的研究方向'部分。应更明确地区分摘要中直接陈述的内容（如系统功能）与报告自身的推断（如这些功能对成本的影响）。强调这些推断是基于潜在关联的假设，而非摘要提供的直接证据。",
+      "将'参考文献'列表从报告正文分析部分移除，或将其改为更简洁的格式（如文内标注）。确保报告正文完全聚焦于情报分析。",
+      "在引用证据[7]和[8]时，添加说明，指出其摘要中关键主张缺失，因此相关推论需谨慎对待。"
+    ],
+    "accept_without_revision": false
+  },
+  "all_retrieved_ids": [
+    "doi:10.5194/egusphere-egu26-2819",
+    "title:optimizing service operations via llm-powered multi-agent simulation|2026",
+    "title:service recovery by ai or human agents: do failure and strategy context matter?|2025",
+    "doi:10.1016/j.jretai.2025.03.003",
+    "doi:10.1287/msom.2020.0939",
+    "doi:10.2139/ssrn.6130946",
+    "title:decision science in the agentic era: research frontiers on agentic ai and human-agent collaboration|2026",
+    "title:synergizing human-ai agency: a guide of 23 heuristics for service co-creation with llm-based agents|2023",
+    "doi:10.1016/j.artint.2016.07.002",
+    "title:impact of human and ai-agent services on customer learning, immersion and loyalty: the role of interactivity|2025",
+    "doi:10.1007/978-3-031-89424-4.pdfckk",
+    "doi:10.1007/s12525-020-00414-7",
+    "title:from human experts to ai agents: agentic ai for knowledge-intense problem-solving in logistics?|2025",
+    "doi:10.1007/978-981-96-0868-3_19d",
+    "title:llm-agent interactions on markets with information asymmetries|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "From human experts to AI agents: Agentic AI for knowledge-intense problem-solving in logistics?",
+      "year": 2025,
+      "journal": "G Neumann - … European Conference on Knowledge Management …, 2025 - opus4.kobv.de",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… is knowledge-based and knowledge-creating. Because of this, Knowledge Management … task-oriented AI to intelligent agents or agentic AI allowing for autonomous, goaldriven decision-…"
+    },
+    {
+      "title": "Synergizing human-AI agency: a guide of 23 heuristics for service co-creation with LLM-based agents",
+      "year": 2023,
+      "journal": "Q Zheng, Z Xu, A Choudhry, Y Chen, Y Li… - arXiv preprint arXiv …, 2023 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 17,
+      "abstract": "… how service providers desire, understand, and interact with LLM-based AI output. We ask: How can we support non-AI domain experts in service co-creation with LLM-based agents? To …"
+    },
+    {
+      "title": "Climate Service Recipes: automatic multi-hazard climate information workflow generation using agentic Large Language Models (LLMs) and knowledge graphs",
+      "year": "2026",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.5194/egusphere-egu26-2819",
+      "citations": 0,
+      "abstract": "Climate Service Recipes (HACID-CSR) is an agentic system designed to assist providers of climate services in developing their advice for a wide range of clients. HACID-CSR guides providers by navigating the large and ever-increasing corpus of knowledge as well as an area without established standards and with limited access to scientific experts. It automatically generates detailed workflows (or “recipes”) by leveraging both a large language model’s internal reasoning and contextual knowledge from a domain knowledge graph for climate services (CS-DKG). The CS-DKG is an expert-curated ontology of climate service concepts with mapped relationships between climate variables, emission scenarios, indices, hazards, sectors, and key datasets (CORDEX, CMIP5, UKCP18), built as part of the Horizon E"
+    },
+    {
+      "title": "AI-based chatbots in customer service and their effects on user compliance",
+      "year": "2020",
+      "journal": "Electronic Markets",
+      "source": "OpenAlex",
+      "doi": "10.1007/s12525-020-00414-7",
+      "citations": 1014,
+      "abstract": "Abstract Communicating with customers through live chat interfaces has become an increasingly popular means to provide real-time customer service in many e-commerce settings. Today, human chat service agents are frequently replaced by conversational software agents or chatbots, which are systems designed to communicate with human users by means of natural language often based on artificial intelligence (AI). Though cost- and time-saving opportunities triggered a widespread implementation of AI-based chatbots, they still frequently fail to meet customer expectations, potentially resulting in users being less inclined to comply with requests made by the chatbot. Drawing on social response and commitment-consistency theory, we empirically examine through a randomized online experiment how ver"
+    },
+    {
+      "title": "Optimizing Service Operations via LLM-Powered Multi-Agent Simulation",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Service system performance depends on how participants respond to design choices, but modeling these responses is hard due to the complexity of human behavior. We introduce an LLM-powered multi-agent simulation (LLM-MAS) framework for optimizing service operations. We pose the problem as stochastic optimization with decision-dependent uncertainty: design choices are embedded in prompts and shape the distribution of outcomes from interacting LLM-powered agents. By embedding key numerical information in prompts and extracting it from LLM-generated text, we model this uncertainty as a controlled Markov chain. We develop an on-trajectory learning algorithm that, on a single simulation run, simultaneously constructs zeroth-order gradient estimates and updates design parameters to optimize stead"
+    },
+    {
+      "title": "A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory Optimization",
+      "year": "2021",
+      "journal": "Manufacturing & Service Operations Management",
+      "source": "OpenAlex",
+      "doi": "10.1287/msom.2020.0939",
+      "citations": 206,
+      "abstract": "Problem definition: The beer game is widely used in supply chain management classes to demonstrate the bullwhip effect and the importance of supply chain coordination. The game is a decentralized, multiagent, cooperative problem that can be modeled as a serial supply chain network in which agents choose order quantities while cooperatively attempting to minimize the network’s total cost, although each agent only observes local information. Academic/practical relevance: Under some conditions, a base-stock replenishment policy is optimal. However, in a decentralized supply chain in which some agents act irrationally, there is no known optimal policy for an agent wishing to act optimally. Methodology: We propose a deep reinforcement learning (RL) algorithm to play the beer game. Our algorithm"
+    },
+    {
+      "title": "Decision Science in the Agentic Era: Research Frontiers on Agentic AI and Human-Agent Collaboration",
+      "year": 2026,
+      "journal": "Y Zhang, T Sun - Available at SSRN 6111886, 2026 - papers.ssrn.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… Building on recent discussions of “agentic AI” (eg, IBM 2025b), we define agentic AI as AI … to genuinely agentic systems rather than ever more sophisticated forms of decision support. …"
+    },
+    {
+      "title": "The Power of Agentic AI: Redefining Human Life and Decision-Making",
+      "year": 2025,
+      "journal": "CKK Reddy, S Joseph, H Joshi, S Doss, M Ouaissa - DOI, 2025 - Springer",
+      "source": "Google Scholar",
+      "doi": "10.1007/978-3-031-89424-4.pdfCKK",
+      "citations": 2,
+      "abstract": "… for Collaboration and Decision Support” presents a new strategy for enhancing information retrieval (IR) systems, which combines dynamic feedback mechanisms, agentic artificial …"
+    }
+  ],
+  "elapsed_seconds": 155.972,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q29_method2_same_model_20260411_134120.md"
+}

@@ -1,0 +1,218 @@
+{
+  "query_id": "Q156",
+  "query": "How should a synthesis agent cite computational stylometry results that conflict with literary-historical periodization consensus?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Mapping the Thematic Landscape of Value-Based Healthcare Implementation: Evidence Mapping with Computational Thematic Synthesis (Preprint)",
+      "authors": [
+        "Mohammed As'ad"
+      ],
+      "abstract": "BACKGROUND\n                  The literature on value-based healthcare (VBHC) implementation has expanded rapidly but remains heterogeneous, making synthesis difficult. This study aimed to map the thematic landscape of VBHC implementation and identify recurring domains, cross-cutting patterns, and gaps in the evidence.\n                \n                \n                  OBJECTIVE\n                  To map and synthesize the thematic landscape of the value-based healthcare (VBHC) implementation literature using computational thematic synthesis, identifying recurring domains, cross-cutting patterns, and evidence gaps.\n                \n                \n                  METHODS\n                  PubMed was searched without date restrictions and limited to English-language publications. Screening and full-text eligibility assessment were conducted manually in two stages. Eligible full texts were embedded using a text-embedding model (text-embedding-3-large, 3,072 dimensions), projected with UMAP, and clustered with HDBSCAN using consensus across 10 random seeds. Cluster stability was examined using an alternative embedding model, direct-space clustering, and negative controls.\n                \n                \n                  RESULTS\n                  A total of 8,957 records were screened, and 351 full-text articles were included. Computational synthesis identified 18 themes that grouped into four broader domains: condition-specific VBHC applications, measurement and costing approaches, organisational and workforce models, and health system policy and governance. Commentaries and framework papers were the most common design category (19.4%), while empirical studies were comparatively fewer across most themes. The United States and the Netherlands contributed the largest share of publications. Themes supported by stronger measurement infrastructure, including PROMs, ICHOM outcome sets, and TDABC, were more frequently associated with reported value improvements.\n                \n                \n                  CONCLUSIONS\n                  This evidence-mapping study provides a broad overview of the VBHC implementation literature. Despite wide diffusion of the concept, much of the field remains centred on conceptual discussion rather than empirical evaluation. Future work should prioritise interventional designs and context-sensitive implementation frameworks, particularly in under-represented regions.",
+      "year": "2026",
+      "published_date": "2026-3-27",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2196/preprints.96335",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2196/preprints.96335",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis benchmark"
+    },
+    {
+      "title": "Researching outcomes from forensic services for people with intellectual or developmental disabilities: a systematic review, evidence synthesis and expert and patient/carer consultation",
+      "authors": [
+        "C. Morrissey",
+        "Nicole Geach",
+        "R. Alexander",
+        "V. Chester",
+        "J. Devapriam",
+        "C. Duggan",
+        "P. Langdon",
+        "B. Lindsay",
+        "J. McCarthy",
+        "D. Walker"
+      ],
+      "abstract": "Background: Inpatient services for people with intellectual and other types of developmental disabilities (IDD) who also have forensic or risk issues are largely provided in secure hospitals. Although this is a health service sector with high levels of expenditure, there is limited empirical information on patient outcomes from such services. In order for a future substantive longitudinal outcomes study in forensic IDD services to be informed and feasible, more needs to be understood about the outcome domains that are of relevance and importance and how they should be measured. A preliminary series of studies was therefore undertaken. Objectives: To synthesise evidence in relation to the outcome domains that have been researched in the existing literature from hospital and community forensic services for people with IDD, within the broad domains of service effectiveness, patient safety and patient experience. To identify a definitive framework of outcome domains (and associated measures and indicators) based both on this research evidence and on the views of patients, carers and clinicians. To synthesise the information gathered in order to inform design of future multisite longitudinal research in the sector. Design: Three linked studies were conducted. Stage 1 was a systematic review and evidence synthesis of outcome domains and measures as found within the forensic IDD literature. Stage 2 was a consultation exercise with 15 patients with IDD and six carers. Stage 3 was a modified Delphi consensus exercise with 15 clinicians and experts using the information gathered at stages 1 and 2. Results: At stage 1, 60 studies that researched a range of outcomes in forensic IDD services were identified from the literature. This resulted in the construction of an initial framework of outcome domains. The consultation with patients and carers at stage 2 added to these framework domains that related particularly to carer experience and the level of support post discharge in the community. The Delphi process at stage 3 confirmed the validity of the resulting framework for clinician. This survey also identified the outcome measures preferred by clinicians and those that are currently utilised in services. Thus, indicators of appropriate measures in some important domains were identified, although there was a paucity of measures in other domains. Conclusions: Together, these three linked studies led to the development of an evidence-based framework of key outcome domains and subdomains. A provisional list of associated measures and indicators was developed, although with the paucity of measures in some domains development of specific indicators may be required. With further refinement this could eventually be utilised by services and commissioners for comparative purposes, and in future empirical research on outcomes in forensic IDD services. An outline research proposal closely linked to recent policy initiatives was proposed. Limitations of the study include the relatively small number of carers and patients and range of experts consulted. Future work: This would comprise a national longitudinal study tracking IDD in patients through hospitalisation and discharge. Study registration: This study is registered as PROSPERO CRD42015016941. Funding: The National Institute for Health Research Health Services and Delivery Research programme.",
+      "year": "2017",
+      "published_date": "2017-01-24",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/793960e03a11923d5d34e1e4ed219ecaf739fd1a",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 17,
+      "source": "Semantic Scholar",
+      "doi": "10.3310/HSDR05030",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis survey"
+    },
+    {
+      "title": "Interacting with digitised historical newspapers: understanding the use of digital surrogates as primary sources",
+      "authors": [
+        "Elina Late",
+        "Sanna Kumpulainen"
+      ],
+      "abstract": "Purpose The paper examines academic historians' information interactions with material from digital historical-newspaper collections as the research process unfolds. Design/methodology/approach The study employed qualitative analysis from in-depth interviews with Finnish history scholars who use digitised historical newspapers as primary sources for their research. A model for task-based information interaction guided the collection and analysis of data. Findings The study revealed numerous information interactions within activities related to task-planning, the search process, selecting and working with the items and synthesis and reporting. The information interactions differ with the activities involved, which call for system support mechanisms specific to each activity type. Various activities feature information search, which is an essential research method for those using digital collections in the compilation and analysis of data. Furthermore, application of quantitative methods and multidisciplinary collaboration may be shaping culture in history research toward convergence with the research culture of the natural sciences. Originality/value For sustainable digital humanities infrastructure and digital collections, it is of great importance that system designers understand how the collections are accessed, why and their use in the real-world context. The study enriches understanding of the collections' utilisation and advances a theoretical framework for explicating task-based information interaction.",
+      "year": "2021",
+      "published_date": "2021-09-14",
+      "journal": "Journal of Documentation",
+      "url": "https://doi.org/10.1108/jd-04-2021-0078",
+      "arxiv_id": "",
+      "keywords": [
+        "Newspaper",
+        "Originality",
+        "Context (archaeology)",
+        "Computer science",
+        "Digital library",
+        "Task (project management)",
+        "Data science",
+        "Digital curation"
+      ],
+      "citations": 33,
+      "source": "OpenAlex",
+      "doi": "10.1108/jd-04-2021-0078",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND research synthesis"
+    },
+    {
+      "title": "Empathy in Social Entrepreneurship: Evidence from a Systematic Review with Structured Narrative Synthesis",
+      "authors": [
+        "Alireza Kheirabadi"
+      ],
+      "abstract": "AbstractBackground: Empathy is often treated as a personal resource that should support social entrepreneurship. Still, the literature uses “empathy” in non-equivalent ways, and many studies embed it inside intention models rather than measuring it as an independent construct. This review synthesizes the empirical evidence while keeping those operational differences explicit.Methods: We conducted a systematic review with structured narrative synthesis. The protocol was registered in Prospective Register of Systematic Reviews (PROSPERO). Scopus and PubMed were searched from inception up to January 2024 (English-language records). Quantitative studies were included if they assessed empathy and social entrepreneurship or closely related outcomes. Data were extracted into a standardized table, and empathy operationalization was coded as embedded, independent, or both. Outcomes were grouped as intention-focused versus broader endpoints. We used narrative synthesis because studies differed in measures, outcome definitions, and reporting, with many estimating indirect pathways in structural models. Methodological quality was appraised using the Joanna Briggs Institute checklist for analytical cross-sectional studies.Results: Twenty-five reports contributed 26 study entries. Most studies were cross-sectional surveys and focused on social entrepreneurial intention. When empathy was embedded within intention models, its direct association with intention was often model-dependent, with feasibility and normative pathways playing a prominent role. Recurring mediators included social entrepreneurial self-efficacy and moral obligation, while perceived social support and creativity appeared in a smaller subset. Evidence beyond intention was limited and heterogeneous, spanning control and feasibility-related outcomes, nascent behavior, implementation, and performance-oriented indicators. Quality appraisal suggested that measurement and statistical methods were generally acceptable, although confounding control was often limited or incompletely specified.Conclusion: Empathy appears relevant to social entrepreneurship, but it does not behave as a uniform predictor across operationalizations and models. Future work would benefit from clearer measurement choices, stronger confound handling, designs that move beyond single-wave self-report data, and more behavioral and implementation-oriented outcomes.Keywords: empathy; social entrepreneurship; social entrepreneurial intention; social entrepreneurial self-efficacy; moral obligation; perceived social support; structured narrative synthesis; Theory of Planned Behavior",
+      "year": "2025",
+      "published_date": "2025-12-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.31219/osf.io/v2byr_v3",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.31219/osf.io/v2byr_v3",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Critical-Reflective Human-AI Collaboration: Exploring Computational Tools for Art Historical Image Retrieval",
+      "authors": [
+        "Katrin Glinka",
+        "Claudia Müller-Birn"
+      ],
+      "abstract": "Just as other disciplines, the humanities explore how computational research approaches and tools can meaningfully contribute to scholarly knowledge production. We approach the design of computational tools through the analytical lens of 'human-AI collaboration.' However, there is no generalizable concept of what constitutes 'meaningful' human-AI collaboration. In terms of genuinely human competencies, we consider criticality and reflection as guiding principles of scholarly knowledge production. Although (designing for) reflection is a recurring topic in CSCW and HCI discourses, it has not been centered in work on human-AI collaboration. We posit that integrating both concepts is a viable approach to supporting 'meaningful' human-AI collaboration in the humanities. Our research, thus, is guided by the question of how critical reflection can be enabled in human-AI collaboration. We address this question with a use case that centers on computer vision (CV) tools for art historical image retrieval. Specifically, we conducted a qualitative interview study with art historians and extended the interviews with a think-aloud software exploration. We observed and recorded our participants' interaction with a ready-to-use CV tool in a possible research scenario. We found that critical reflection, indeed, constitutes a core prerequisite for 'meaningful' human-AI collaboration in humanities research contexts. However, we observed that critical reflection was not fully realized during interaction with the CV tool. We interpret this divergence as supporting our hypothesis that computational tools need to be intentionally designed in such a way that they actively scaffold and support critical reflection during interaction. Based on our findings, we suggest four empirically grounded design implications for 'critical-reflective human-AI collaboration'.",
+      "year": "2023",
+      "published_date": "2023-06-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2306.12843v1",
+      "arxiv_id": "2306.12843v1",
+      "keywords": [
+        "cs.HC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis full text retrieval"
+    },
+    {
+      "title": "Bots with Feelings: Should AI Agents Express Positive Emotion in Customer Service?",
+      "authors": [
+        "Elizabeth Han",
+        "Dezhi Yin",
+        "Han Zhang"
+      ],
+      "abstract": "The rise of emotional intelligence technology and the recent debate about the possibility of a “sentient” artificial intelligence (AI) urge the need to study the role of emotion during people’s interactions with AIs. In customer service, human employees are increasingly replaced by AI agents, such as chatbots, and often these AI agents are equipped with emotion-expressing capabilities to replicate the positive impact of human-expressed positive emotion. But is it indeed beneficial? This research explores how, when, and why an AI agent’s expression of positive emotion affects customers’ service evaluations. Through controlled experiments in which the subjects interacted with a service agent (AI or human) to resolve a hypothetical service issue, we provide answers to these questions. We show that AI-expressed positive emotion can influence customers affectively (by evoking customers’ positive emotions) and cognitively (by violating customers’ expectations) in opposite directions. Thus, positive emotion expressed by an AI agent (versus a human employee) is less effective in facilitating service evaluations. We further underscore that, depending on customers’ expectations toward their relationship with a service agent, AI-expressed positive emotion may enhance or hurt service evaluations. Overall, our work provides useful guidance on how and when companies can best deploy emotion-expressing AI agents.",
+      "year": "2022",
+      "published_date": "2022-12-02",
+      "journal": "Information Systems Research",
+      "url": "https://doi.org/10.1287/isre.2022.1179",
+      "arxiv_id": "",
+      "keywords": [
+        "Feeling",
+        "Service (business)",
+        "Customer service",
+        "Human intelligence",
+        "Psychology",
+        "Emotional intelligence",
+        "Negative emotion",
+        "Expression (computer science)"
+      ],
+      "citations": 227,
+      "source": "OpenAlex",
+      "doi": "10.1287/isre.2022.1179",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature?",
+      "authors": [
+        "Qiao Jin",
+        "Robert Leaman",
+        "Zhiyong Lu"
+      ],
+      "abstract": "ChatGPT, a general purpose chatbot developed by OpenAI, has been widely reported to have the potential to revolutionize how people interact with information online.1 Like other large language models (LLMs), ChatGPT has been trained on a large text corpus to predict probable words from the surrounding context. ChatGPT, however, has received substantial popular attention for generating human-like conversational responses, and new developments are occurring rapidly. The initial release in November 2022 used the model generative pretrained transformers (GPT)-3.5, and a version based on GPT-4.0 was released in March 2023. Recent work has discussed applications of ChatGPT for medical education and clinical decision support.2–4 However, health care professionals should be aware of the drawbacks and limitations—and potential capabilities—of using ChatGPT and similar LLMs to interact with medical knowledge. A significant issue with ChatGPT is its tendency to generate confident-sounding but fabricated responses, commonly known as “hallucination.” Although it can generate plausible-sounding text, ChatGPT does not consult any source of truth.1 Occasional incorrect or biased responses are, therefore, inevitable, and ChatGPT cannot faithfully cite sources to allow their evidence to be verified. For example, we prompted GPT-3.5–based ChatGPT to list possible mechanisms of AKI in patients with coronavirus disease 2019 (COVID-19), with references. ChatGPT produced a list of plausible mechanisms, each of which has been investigated in the literature (Figure 1A) but supported its claims with fabricated titles and irrelevant PubMed identifiers. ChatGPT using the GPT-4 model acknowledges that it cannot produce references and refuses to cite articles in the answer (Figure 1C)—a significant improvement—but leaves the difficult task of verification to the user. Consulting ChatGPT directly for medical information carries a significant risk of drawing incorrect conclusions, particularly for patients.Figure 1.: Seeking information related to COVID-19 from ChatGPT. (A) ChatGPT-3.5 fabricates the references for its claims. (B) When prompted with the title and abstract of relevant articles, ChatGPT-3.5 can summarize the aspects requested, including some valid in-line references. However, many details are inaccurate: Related mechanisms are not correctly grouped, contradicting evidence is not mentioned, some citations are missing, and a listed mechanism is not specific. Note that the complete response mentioned only three of five articles. (C) ChatGPT-4 acknowledges its drawback and refuses to cite source articles in the response, which makes the verification more difficult. (D) ChatGPT-4 with the web browsing plug-in summarizes information from the search engine, but it only finds two relevant articles and fails to systematically answer the question. Responses were collected from GPT-3.5–based ChatGPT on March 14, 2023, and GPT-4–based ChatGPT on May 15, 2023.However, LLMs such as ChatGPT may be better suited for text summarization than directly answering medical questions. Pilot studies have shown that LLMs can be effective at clinical reasoning, reading comprehension, and generating fluent summaries with high fidelity.5–7 Augmenting LLMs such as ChatGPT with a traditional literature search engine may therefore help address hallucination and enable the system to provide the user with comprehensive high-level summaries. For example, the new Bing provides ChatGPT-like interactive agents to help users create effective queries, identify relevant results, and summarize their content. In addition, ChatGPT recently introduced a plug-in that allows the model to search the web when generating responses (currently in limited beta test). Incorporating such features into medical literature search has the potential to streamline gathering and synthesizing evidence from the literature, improving patient care. Unfortunately, summaries generated by current LLMs such as ChatGPT also contain inaccuracies,8 in addition to practical issues such as limitations on the length of input text. To illustrate these problems, we prompted ChatGPT (model 3.5) to identify possible mechanisms of AKI in patients with COVID-19, using five manually chosen articles on the pathophysiology of AKI in COVID-19. Although ChatGPT’s summary (Figure 1B) generally reflects the mechanisms of AKI discussed by the articles, the response lists symptoms from only three of the five input studies and misses some important mechanisms mentioned repeatedly, such as hypoxia. Moreover, some citations are missing, contradicting evidence is not mentioned, similar mechanisms are not correctly grouped, and one of the mechanisms listed is less specific than the source. We also prompted ChatGPT (model 4), with the web browsing plug-in, to answer the same question (Figure 1D). In this case, ChatGPT provides summaries with relevant citations. However, the response is based on only two articles, without synthesizing the evidence, and thus fails to answer the question systematically. Generally speaking, retrieval-augmented LLMs reduces users' control over sources, leading to results that may not align with the user's criteria for the best information (e.g., most up-to-date). Summaries generated by LLMs can miss important ideas discussed by the input sources or contain assertions unsupported by the input sources. Because imprecise or incomplete information can lead to incorrect clinical decisions and patient harm, content generated by current LLMs, including ChatGPT, must be verified for accuracy and completeness before use. Further research on the faithfulness of LLM-generated summaries and automatic verification tools is also warranted to realize the full potential of LLMs to streamline evidence gathering and synthesis from the medical literature. Despite these limitations, the remarkable progress in AI and the rapid advancements in LLMs may have profound implications for medicine, from assisting medical education,2 to accelerating literature screening for systematic reviews,7,9 and supporting physicians in various clinical settings as generalist medical AI,4 among other possibilities. In addition to augmenting LLMs with retrieval results from a search engine, LLMs can also be taught to use biomedical domain-specific tools, such as the Web APIs of specialized databases, to provide improved access to biomedical information.10 In summary, although ChatGPT is not currently suitable for use as a literature search engine on its own, we envision that the proposed retrieve, summarize, and verify paradigm could greatly benefit biomedical information seeking. This approach leverages the impressive capability of LLMs to generate high-level summaries while minimizing the risk of directly using false or fabricated information by combining LLMs and search engines. It is important to note that although LLM technology is progressing rapidly, it has not yet matured enough for clinical use. Therefore, users must retain full responsibility for verifying the accuracy and reliability of its output.",
+      "year": "2023",
+      "published_date": "2023-05-31",
+      "journal": "Journal of the American Society of Nephrology",
+      "url": "https://doi.org/10.1681/asn.0000000000000166",
+      "arxiv_id": "",
+      "keywords": [
+        "Affect (linguistics)",
+        "Medicine",
+        "Psychology",
+        "Intensive care medicine",
+        "Computer science",
+        "Communication"
+      ],
+      "citations": 67,
+      "source": "OpenAlex",
+      "doi": "10.1681/asn.0000000000000166",
+      "open_access": false,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "Effects of mosquito control using the microbial agent Bacillus thuringiensis israelensis (Bti) on aquatic and terrestrial ecosystems: a systematic review",
+      "authors": [
+        "M. Land",
+        "M. Bundschuh",
+        "R. J. Hopkins",
+        "B. Poulin",
+        "B. Mckie"
+      ],
+      "abstract": "Background The bacterium Bacillus thuringiensis serovar israelensis (Bti) is commercially produced in various formulations for use as a larvicide worldwide, targeting especially the aquatic larval stage of mosquitoes. However, there is a concern that repeated Bti treatments may have both direct and indirect impacts on non-target organisms (NTOs) and the ecosystems they inhabit. This review evaluates the evidence for such impacts. Methods Literature was searched using six bibliographic databases, two search engines, and on specialist web sites. Eligibility screening was performed in two steps on (1) title/abstract, with consistency among reviewers assessed by double-screening 557 articles and (2) full text. Articles included after full text screening were critically appraised independently by two reviewers. Disagreements were reconciled through discussions. Key parameters of included studies are presented in narrative synthesis tables, including risk of bias assessments. Meta-analyses comparing treated with untreated ecosystems and using either the raw mean difference or log response ratio as effect size were performed. Review findings Ninety-five articles covering 282 case studies were included in the review. From these, we identified 119 different response variables, which were divided into nine outcome categories. Most studies investigated NTO abundance or life history (reproduction related outcomes), but diversity and community composition are also well represented as outcome categories. The studies are highly variable in methodology, rigor, and spatio-temporal scale, spanning 1 day to 21 years and from < 1m^2 to > 10,000 m^2. Our metanalyses revealed a consistent negative effect of Bti treatment on abundances of Chironomidae and Crustacea, and also on chironomid emergence, although from a more restricted set of studies and regions. For most remaining response variables, we judged meta-analysis unfeasible, due to low study numbers or insufficient reporting of methods and results. Conclusions There is now a significant body of studies documenting effects of mosquito control using Bti on NTOs or other ecosystem properties, especially associated with negative effects on Chironomidae, as apparent from our meta-analyses. Accordingly, we suggest the potential for negative NTO or other ecosystem effects of Bti treatment should not be discounted a priori. Once a decision to proceed with Bti treatment has been taken, priority should be given to a well-designed program of ongoing monitoring and assessment. The paucity of rigorous studies conducted with low bias risk for most response variables undermines our capacity for evaluating how common many of the effects documented might be. Future research would benefit from a rigorous and well-replicated approach to studying Bti impacts in semi-field mesocosms or in the field, combined with a greater rigor in reporting key methodological details. A greater focus is needed on understanding the environmental factors which regulate the wider effects of mosquito control using Bti on NTOs and ecosystems, to enhance our capacity for predicting where and when Bti is most likely to have additional, negative and indirect ecological impacts.",
+      "year": "2023",
+      "published_date": "2023-11-22",
+      "journal": "Environmental Evidence",
+      "url": "https://www.semanticscholar.org/paper/7c6fb570454d72573cbc2a9b8910edc2931ee12e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 25,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13750-023-00319-w",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    }
+  ],
+  "timestamp": "20260413_080933"
+}
