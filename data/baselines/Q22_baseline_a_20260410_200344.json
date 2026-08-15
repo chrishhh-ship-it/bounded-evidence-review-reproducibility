@@ -3,5 +3,5 @@
   "query": "screening agent 在多智能协同情报服务中的主要作用是什么？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q22_baseline_a_20260410_200344.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q22_baseline_a_20260410_200344.md"
 }

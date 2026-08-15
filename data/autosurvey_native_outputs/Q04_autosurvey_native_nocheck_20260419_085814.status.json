@@ -2,8 +2,8 @@
   "query_id": "Q04",
   "query": "如何为智慧情报服务设计 retrieval-evidence-writing 的多阶段工作流？",
   "stage": "done",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q04_autosurvey_native_nocheck_20260419_085814.md",
-  "output_json": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q04_autosurvey_native_nocheck_20260419_085814.json",
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q04_autosurvey_native_nocheck_20260419_085814.md",
+  "output_json": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q04_autosurvey_native_nocheck_20260419_085814.json",
   "elapsed_seconds": 794.404,
   "retrieved_total": 133
 }

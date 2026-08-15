@@ -2,8 +2,8 @@
   "query_id": "Q20",
   "query": "面向可投稿论文，智慧情报服务实验结果应如何图表化展示？",
   "stage": "done",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q20_autosurvey_native_20260419_120917.md",
-  "output_json": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q20_autosurvey_native_20260419_120917.json",
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q20_autosurvey_native_20260419_120917.md",
+  "output_json": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q20_autosurvey_native_20260419_120917.json",
   "elapsed_seconds": 758.09,
   "retrieved_total": 86
 }

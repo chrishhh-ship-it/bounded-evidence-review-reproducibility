@@ -1,11 +1,28 @@
 # Reproducibility Guide
 
-Updated: 2026-04-29
+Updated: 2026-08-14
 
 This guide lists the copy-paste commands used to reproduce the reported
 structural metrics from preserved system outputs. `scripts/evaluate_metrics.py`
 requires an explicit `--corpus` argument so that pilot and expanded benchmark
 corpora cannot be mixed silently.
+
+## Environment and scope
+
+From the repository root, install the minimum analysis dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+For the exact versions used in the verification run, see
+`requirements-lock.txt`.
+
+The commands below reproduce analyses from preserved outputs. They do not
+promise byte-identical regeneration of hosted-model responses. Scripts that
+call model providers require the user's own credentials and may be affected by
+provider-side model updates. On Windows, use a short checkout path such as
+`C:\ipmrep` to avoid legacy path-length failures.
 
 ## Required Files
 

@@ -1,6 +1,6 @@
 {
   "benchmark": "SciFact official dev",
-  "source": "C:\\Users\\10305\\文献\\研究情报助手\\data\\external_benchmarks\\scifact_semantic_pilot_n10\\scifact_semantic_pilot_outputs.json",
+  "source": "<USER_ROOT>\\文献\\研究情报助手\\data\\external_benchmarks\\scifact_semantic_pilot_n10\\scifact_semantic_pilot_outputs.json",
   "note": "Small external pilot; official test labels and full leaderboard evaluation were not run.",
   "label_distribution": {
     "NEI": 3,

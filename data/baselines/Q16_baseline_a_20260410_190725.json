@@ -3,5 +3,5 @@
   "query": "面向智慧情报服务的自动报告写作，最稳妥的论文式行文结构是什么？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q16_baseline_a_20260410_190725.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q16_baseline_a_20260410_190725.md"
 }

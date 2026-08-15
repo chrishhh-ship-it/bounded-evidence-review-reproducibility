@@ -14,7 +14,7 @@
   },
   "temperature": 0.0,
   "max_tokens": 12000,
-  "gold_source": "C:\\Users\\10305\\Downloads\\title_match_verified_key_20260730.csv",
+  "gold_source": "<USER_ROOT>\\Downloads\\title_match_verified_key_20260730.csv",
   "adjudication_overrides": {
     "TM077": "match",
     "TM189": "nonmatch"

@@ -3,5 +3,5 @@
   "query": "审稿循环在自动报告生成中应重点检查哪些高风险问题？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q19_baseline_a_20260410_195748.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q19_baseline_a_20260410_195748.md"
 }

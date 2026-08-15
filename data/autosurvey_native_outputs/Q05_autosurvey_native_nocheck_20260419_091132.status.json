@@ -2,8 +2,8 @@
   "query_id": "Q05",
   "query": "智慧情报服务系统最适合采用哪些自动评测指标？",
   "stage": "done",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q05_autosurvey_native_nocheck_20260419_091132.md",
-  "output_json": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q05_autosurvey_native_nocheck_20260419_091132.json",
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q05_autosurvey_native_nocheck_20260419_091132.md",
+  "output_json": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q05_autosurvey_native_nocheck_20260419_091132.json",
   "elapsed_seconds": 519.814,
   "retrieved_total": 90
 }

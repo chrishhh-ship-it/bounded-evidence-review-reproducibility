@@ -1,5 +1,5 @@
 {
-  "source": "C:\\Users\\10305\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\final_gold_v1_20260730\\title_match_final_gold_v1.csv",
+  "source": "<USER_ROOT>\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\final_gold_v1_20260730\\title_match_final_gold_v1.csv",
   "n_pairs": 320,
   "gold_distribution": {
     "nonmatch": 168,

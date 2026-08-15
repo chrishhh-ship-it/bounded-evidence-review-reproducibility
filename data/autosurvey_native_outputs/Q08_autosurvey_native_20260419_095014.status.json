@@ -2,8 +2,8 @@
   "query_id": "Q08",
   "query": "evidence agent 对情报报告的证据覆盖率有何影响？",
   "stage": "done",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q08_autosurvey_native_20260419_095014.md",
-  "output_json": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q08_autosurvey_native_20260419_095014.json",
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q08_autosurvey_native_20260419_095014.md",
+  "output_json": "<USER_ROOT>\\文献\\研究情报助手\\data\\autosurvey_native_outputs\\Q08_autosurvey_native_20260419_095014.json",
   "elapsed_seconds": 653.612,
   "retrieved_total": 119
 }

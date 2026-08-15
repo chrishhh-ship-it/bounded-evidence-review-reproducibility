@@ -3,5 +3,5 @@
   "query": "没有 reviewer 的多智能体流水线与带对抗审稿循环的流水线差异在哪里？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q23_baseline_a_20260410_200604.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q23_baseline_a_20260410_200604.md"
 }

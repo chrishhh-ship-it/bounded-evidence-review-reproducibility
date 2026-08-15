@@ -3,5 +3,5 @@
   "query": "多智能协同系统生成的情报报告应如何组织结果、局限性与建议？",
   "provider": "deepseek",
   "model": "",
-  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q17_baseline_a_20260410_190911.md"
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\baselines\\Q17_baseline_a_20260410_190911.md"
 }
