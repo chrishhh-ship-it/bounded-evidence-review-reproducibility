@@ -1,0 +1,165 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "增加 agent 数量是否总能带来质量提升？",
+  "effective_search_query": "agent数量 质量提升 关系",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 17,
+  "all_retrieved_ids": [
+    "doi:10.11835/j.issn.1008-5831.pj.2023.02.002",
+    "doi:10.14062/j.issn.0454-5648.20240154",
+    "doi:10.3724/aauj.2025008",
+    "doi:10.3969/j.issn.1003-1995.2025.06.29",
+    "title:agent technology and its applications in scientific research.|2025",
+    "title:基于区间协同拍卖策略的改进多agent 车间调度模型研究|2019",
+    "title:基于agent 的建筑工人流动行为仿真及其对行业的影响|2020",
+    "title:基于agent 的技术合作创新仿真模型|2016",
+    "doi:10.3969/j.issn.1000-7059.2025.04.20250197",
+    "title:基于agent 的改进贴近度的多属性评价模型.|2021",
+    "title:重大工程项目合同治理和关系治理对项目质量绩效的影响研究——以承包商机会主义行为为中介变量|2025",
+    "title:基于市场权值的二阶段多agent 任务分配算法|2022",
+    "title:基于agent 服务的chatgpt 处理多方对话任务|2025",
+    "title:基于nk 模型的团体标准质量提升策略研究|2024",
+    "title:一种新的以服务质量为导向的spark 作业调度器.|2096",
+    "doi:10.16511/j.cnki.qhdxxb.2025.22.024.pdf郭翔，",
+    "title:信任不对称可以合理存在吗?——基于agent 的仿真实验研究|2016"
+  ],
+  "top_papers": [
+    {
+      "title": "计算社会科学发展演变及学科框架与学科结构",
+      "year": 2023,
+      "source": "万方数据",
+      "journal": "学科体系评价专题",
+      "doi": "10.11835/j.issn.1008-5831.pj.2023.02.002",
+      "citations": 72,
+      "abstract": "分类体系,在此基础上对计算社会科学的学科界定、学科结构进行研究,进一步分析其与方法、技术类学科的<span class='highlight'>关系</span>,进而从学科角度思考计算社会科学的学科框架与学科结构.研究结论:第一,计算社会科学国外论文<span class='highlight'>数量</span>领先于国内论文<span class='highlight'>数量</span>,我国计算社会科学研究尚处于起步阶段.第二,计算社会科学国内外研究侧重点不同.国内计算社会科学研究聚焦于人工智能、复杂系统、传播理论等新兴主题,更加重视数据驱动过程中数据<span class='highlight'>质量</span>的分析,强调通过 数据驱动为计算社会科学在社会科学研究的兴起与发展提供了极大施展空间,<span class='highlight'>提升</span>了社会科学研究的深度与广度,有效契合科学研究的复杂性需求.探究计算社会科学发展演变、学科框架与学科结构的界定对于计算社会科学的发展具有重要意义.本文通过收集、整理计算社会科学领域国内外文献,厘清计算社会科学的概念,进而梳理计算社会科学的学科演进趋势、研究范式、研究方法及研究应用;并从数字人文的学科结构入手,分析教育部学科门类 建模仿真、社会网络分析、数据挖掘等方法论的使用.而国外计算社会科学以数据科学为核心,聚焦于社交媒体、社会网络与复杂系统,强调通过社会网络分析、基于<span class='highlight'>Agent</span>建模、机器学习、自然语言处理等方法使用.第三,计算社会科学是传统社会科学学科下二级学科的集合,不能将其设为一级学科,要严格区分数字人文与计算社会科学.第四,计算社会科学研究领域有一定限制,高度也存在一定不足.第五,方法与技术类学科是计算社会科学的 重要支撑,但作为社会"
+    },
+    {
+      "title": "赤泥基高强度免烧透水砖制备及影响因素与构效机制",
+      "year": 2024,
+      "source": "万方数据",
+      "journal": "环境矿物材料专题—研究论文",
+      "doi": "10.14062/j.issn.0454-5648.20240154",
+      "citations": 25,
+      "abstract": "的流动性,以及连通孔隙<span class='highlight'>数量</span>来显著影响砖体的性能.在发泡剂添加量低于4％(<span class='highlight'>质量</span>分数)时,可以有效<span class='highlight'>提升</span>砖体内部的孔隙率,但是过高的添加量会使透水砖的水灰比增大,弱化了发泡剂本身的造孔作用.采用X射线粉末衍射仪、扫描电子显微镜研究透水砖制备过程中的强度形成机理,发现在砖体制备过程中,赤泥以及水泥反应形成了硅酸钙凝胶,可以有效凝结骨料,赋予透水砖强度以及透水性能.本工作体现了\"变废为宝\"的资源化利用理念, 随着赤泥堆存量不断增加和城市化进程加快,赤泥资源化利用和低碳透水砖开发,成为协同解决2大问题的关键.基于赤泥和透水砖材料基因共性,以赤泥为原料,采用造粒工艺将赤泥制成免烧骨料,结合混料、成型、养护等步骤,成功制备了高强度免烧透水砖.为系统阐明透水砖制备过程中材料性能的影响因素与构效<span class='highlight'>关系</span>,进一步探究了水灰比、目标孔隙率以及发泡剂占比对透水砖性能的影响,发现水灰比和目标孔隙率主要通过改变砖体内部浆料 为赤泥的资源化利用与海绵城市建设对高端建材的需求,提供了新的思路和方法. susceptibility to fracturing,thereby impacting the mechanical properties.\r\nThe results of foaming <span class='highlight'>agent</span> content effect on permeable brick performance indicate that increasing the foaming <span class='highlig"
+    },
+    {
+      "title": "有机肥配施微生物菌剂对井冈蜜柚土壤微生物及果实品质的影响",
+      "year": 2025,
+      "source": "万方数据",
+      "journal": "园艺科学",
+      "doi": "10.3724/aauj.2025008",
+      "citations": 14,
+      "abstract": "能提高果实品质,其中T2处理对果实品质的<span class='highlight'>提升</span>效果最好.T2处理能显著提高井冈蜜柚单果<span class='highlight'>质量</span>、可溶性固形物、VC和固酸比,较CK处理分别提高5.56％、12.14％、27.54％和36.39％.相关性分析显示,碳水化合物类等碳源利用强度与蜜柚可溶性糖、VC和固酸比等品质指标呈显著正相关<span class='highlight'>关系</span>.[结论]有机肥配施微生物菌剂能提高土壤pH,改善柚园土壤酸化情况;有效提高果园土壤微生物活性,增加土壤微生物对 2处理能提高土壤pH,改善土壤酸化情况;显著提高土壤全氮、有效磷、速效钾等养分,<span class='highlight'>提升</span>比例分别为13.87％、44.39％、12.54％.T2处理后土壤微生物的代谢活性和土壤中细菌的<span class='highlight'>数量</span>增加,其对碳水化合物类、羧酸类、胺类等碳源利用强度增高,但对酚酸类碳源利用强度降低.T2处理能显著提高土壤微生物群落中的物种优势度和群落结构的丰富度,但对微生物群落均匀度无显著影响.与CK相比,T1、T2、T3处理均 碳水化合物类、羧酸类和胺类等碳源的利用强度和微生物功能多样性,<span class='highlight'>提升</span>土壤肥力,进而改善井冈蜜柚的产量及果实品质.因此,有机肥配施微生物菌剂的施肥模式可在井冈蜜柚主产区进行推广. [目的]探究有机肥配施微生物菌剂对井冈蜜柚园土壤养分、土壤微生物及果实品质的影响,为井冈蜜柚的科学施肥提供依据.[方法]以井冈蜜柚品种之一的金兰柚为研究对象,设置对照(CK)、单施有机肥(T1)、有机肥+微生物菌剂(T2)及单施微生物菌剂(T3)4个"
+    },
+    {
+      "title": "混凝土性能及模板工艺对外观质量的影响",
+      "year": 2025,
+      "source": "万方数据",
+      "journal": "工程材料及其他",
+      "doi": "10.3969/j.issn.1003-1995.2025.06.29",
+      "citations": 7,
+      "abstract": "为<span class='highlight'>提升</span>桥塔外观<span class='highlight'>质量</span>,基于混凝土性能优化与模板工艺改进,研究降黏剂掺量对混凝土工作性能、流变性能和微观结构的影响,并建立混凝土性能、模板表面粗糙度、脱模剂种类同外观<span class='highlight'>质量</span>之间的<span class='highlight'>关系</span>.结果表明:降黏剂可改善混凝土流动性和保坍性,相较于基准组,15%掺量降黏剂组混凝土浆体屈服应力、塑性黏度分别下降27.7%、23.9%,孔隙率降低1.9%,无害孔占比<span class='highlight'>提升</span>17.7%,多害孔占比降低12.6%,混凝土试件 表面气泡<span class='highlight'>数量</span>减少,外观<span class='highlight'>质量</span><span class='highlight'>提升</span>;模板表面粗糙度随使用次数的增加逐渐增大,钢模板的表面粗糙度增大速度快于WISA(芬兰维萨)模板,使用10次时钢模板和WISA模板的表面粗糙度分别为1.298 0、1.083 6 μm,相较于WISA模板,钢模板表面粗糙度增大对混凝土表面粗糙度的影响程度更低;随模板表面粗糙度增大,混凝土表面粗糙度增大速率加快;采用水性脱模剂可降低混凝土表面气泡间距系数和气泡含量,<span class='highlight'>提升</span> 混凝土表面气泡排出能力. rheological properties,and microstructure of concrete was studied,and the relationship between concrete perf"
+    },
+    {
+      "title": "Agent Technology and Its Applications in Scientific Research.",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "L QIAN, Q WANG, Y LIU, Y ZHANG… - Journal of Library & …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 连接,解决传统上下文学习中工具关系割 裂的问题,如在机器人… 的讨论部分,智能体往往受限于训练 数 据中的现有理论框架,难以提出… 识别优势有机结合,共同提升关键科研决 策的质量和效率.亟需…"
+    },
+    {
+      "title": "基于区间协同拍卖策略的改进多Agent 车间调度模型研究",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "管晨丞， 唐敦兵， 魏鑫， 沈小雨 - 航空制造技术, 2019 - amte.net.cn",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… Agent 目标之间的组合优化 关系,使得优化区间过小,系统整体 调度性能不佳;同时,为简化Agent … 取得3~10 个作业调度请求, ISASS 在作业请求个数与计算速度 方面取得了最佳的平衡,模型调度…"
+    },
+    {
+      "title": "基于agent 的建筑工人流动行为仿真及其对行业的影响",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "王新成， 孙继德， 丁晓， 王小丽 - 控制与决策, 2020 - kzyjc.alljournals.cn",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 借鉴Scott [13] 关于社会关系网中网络结构,关系强度,关系数量以及关系的形成,变迁和消亡的… 稳定建筑工人队伍, 保障工程质量安全, 维护雇佣双方和谐的劳动关系, 促进我国建筑业的健康发展. …"
+    },
+    {
+      "title": "基于Agent 的技术合作创新仿真模型",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "尹智刚， 王延章， 倪子建 - 管理评论, 2016",
+      "doi": "",
+      "citations": 1,
+      "abstract": ""
+    },
+    {
+      "title": "基于多步推理的钢铁产品检测任务生成技术",
+      "year": 2025,
+      "source": "万方数据",
+      "journal": "场景应用",
+      "doi": "10.3969/j.issn.1000-7059.2025.04.20250197",
+      "citations": 0,
+      "abstract": "金属材料检测认证是确保材料<span class='highlight'>质量</span>的关键环节,涉及复杂的标准体系和多样化的检测需求.传统人工生成检测工单的方式因标准<span class='highlight'>数量</span>庞大、内容复杂及相互引用<span class='highlight'>关系</span>密集,存在效率低、易出错的问题.提出一种基于多步推理的大语言模型智能体框架,结合思维链(chain-of-thought,CoT)技术与检索增强生成(retrieval-augmen-ted generation,RAG)技术,完成从产品信息输入到结构化 工单输出的自动化全流程.实验结果表明,该方法显著<span class='highlight'>提升</span>了工单生成的准确性与效率,为材料检测认证的智能化提供了有效支持. work orders suffers from low efficiency and high error rates due to the vast number of standards and intricate inter-referencing relationships.An intelligent <span class='highlight'>agent</span> framework was proposed based on  Metal material testing and certification is a critical process for ensuring material quality,in-volving complex standard systems and diverse testing requirements.The traditional manual gene"
+    },
+    {
+      "title": "基于Agent 的改进贴近度的多属性评价模型.",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "伍京华， 吴学桥 - Journal of Computer Engineering & …, 2021 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… Agent及遗传算法的谈判模型, Agent可以动态选择合适策略来应对谈判对方Agent发 出的提议 ,但该研究过多关注双方效用的约束关系,… 基 于Agent 的自动谈判中的属性分为等级属性和数量属 …"
+    },
+    {
+      "title": "重大工程项目合同治理和关系治理对项目质量绩效的影响研究——以承包商机会主义行为为中介变量",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "孙继德， 王佳乐 - Modern Management, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 关系,且在合同治理,关系治理与项目质量绩效的关系中起部分中介作用.研究表明,合同治理是 保障项目质量水平的重要机制,揭示了关系… Grounded in transaction cost theory, principal-agent …"
+    },
+    {
+      "title": "基于市场权值的二阶段多agent 任务分配算法",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "万宇杰， 伏明兰， 陈得宝， 陈吕强 - Hans Journal of Data Mining, 2022 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… agent系统的中的个体进行任务分配时,需要考虑到Agent个体的思维状态是否受到感情,智慧,社会 关系等方面因素的影响,Agent… 但是得到解的质量会随着问题规模(agent个数与任务个数)的上升…"
+    },
+    {
+      "title": "基于Agent 服务的ChatGPT 处理多方对话任务",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "万静 - Software Engineering and Applications, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… ,Agent功能能够更好地捕捉上下文中的复杂语义关系,生成更为连贯和自然的对话内容.在本研究 中,我们将ChatGPT的Agent… 精心构造的提示不仅能够显著影响模型的输出质量,还能充分挖掘…"
+    },
+    {
+      "title": "基于NK 模型的团体标准质量提升策略研究",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "郑素丽， 王鹤谖， 于艳娜 - 中国管理科学, 2024 - zgglkx.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 质量如何受到参与制定的主体数量,技术复杂 度以及团体标准组织协调能力的影响,研究技术搜 索复杂程度与团体内最优主体数量和团体标准组 织协调程度之间的匹配关系,从而为提升… agent-…"
+    },
+    {
+      "title": "一种新的以服务质量为导向的Spark 作业调度器.",
+      "year": 2096,
+      "source": "Google Scholar",
+      "journal": "何玉林， 莫沛恒， 黄哲学 - Big Data Research (2096-0271), 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 本文通过统计满足QoS 要求的作业个 数,将其与总作业数进行… 基于DRL 的Agent 训练方 法:一 种是基于C-DQN 的Agent,其采 … GAE 是一种优化优势函数的方法,旨 在平衡方差和偏差之间的关系…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q26_baseline_b_20260410_201255.md"
+}

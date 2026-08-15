@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "全文阅读链路中最值得优先抽取的结构化证据有哪些？",
+  "effective_search_query": "structured evidence extraction, full-text reading, priority",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "doi:10.1186/s13643-016-0249-xa",
+    "title:data extraction methods for systematic review (semi) automation: update of a living systematic review|2025",
+    "doi:10.1186/s13643-017-0617-1c",
+    "doi:10.1186/s13750-017-0099-6b",
+    "title:extractive text summarization system to aid data extraction from full text in systematic review development|2016",
+    "title:towards precise pico extraction from abstracts of randomized controlled trials using a section-specific learning approach|2023",
+    "title:semi-automatic systematic literature reviews and information extraction of covid-19 scientific evidence: description and preliminary results of the coke …|2022",
+    "title:automatic extraction of research themes in epidemiological criminology from pubmed abstracts from 1946 to 2020: text mining study|2023",
+    "title:a scoping review of adopted information extraction methods for rcts|2023",
+    "doi:10.1145/3731120.3744614x",
+    "doi:10.1080/2833373x.2025.2546791l",
+    "title:from chaos to clarity: schema-constrained ai for auditable biomedical evidence extraction from full-text pdfs|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Searching for qualitative research for inclusion in systematic reviews: a structured methodological review",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "A Booth - Systematic reviews, 2016 - Springer",
+      "doi": "10.1186/s13643-016-0249-xA",
+      "citations": 815,
+      "abstract": "… of the process renders it a particular priority. Our knowledge of … The 7S framework was used as a structure for data extraction. … As a consequence, a higher proportion of full-text articles …"
+    },
+    {
+      "title": "Data extraction methods for systematic review (semi) automation: Update of a living systematic review",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "L Schmidt, ANF Mutlu, R Elmore, BK Olorisade… - …, 2025 - pmc.ncbi.nlm.nih.gov",
+      "doi": "",
+      "citations": 208,
+      "abstract": "… a year, in order to use priority screening with early stopping as … We included full text publications that describe an original … was automated based on structured content from our living …"
+    },
+    {
+      "title": "Toward a comprehensive evidence map of overview of systematic review methods: paper 1—purpose, eligibility, search and data extraction",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "C Lunny, SE Brennan, S McDonald, JE McKenzie - Systematic reviews, 2017 - Springer",
+      "doi": "10.1186/s13643-017-0617-1C",
+      "citations": 201,
+      "abstract": "… We assessed 87 full-text reports for eligibility and excluded 21, with reasons noted in … the evidence to be useful, the framework provides the structure for creating this map. Some priority …"
+    },
+    {
+      "title": "Systematic searching for environmental evidence using multiple tools and sources",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "B Livoreil, J Glanville, NR Haddaway, H Bayliss… - … Evidence, 2017 - Springer",
+      "doi": "10.1186/s13750-017-0099-6B",
+      "citations": 171,
+      "abstract": "… optimal search structure as the basis on which any evidence … relevance and should be given priority. Combined with the use … examining the extracted papers at title, abstract and full-text […"
+    },
+    {
+      "title": "Extractive text summarization system to aid data extraction from full text in systematic review development",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "DDA Bui, G Del Fiol, JF Hurdle… - Journal of biomedical …, 2016 - Elsevier",
+      "doi": "",
+      "citations": 91,
+      "abstract": "… to automatically generate summaries of full-text scientific publications. The summaries at the … for the data extraction as presented in the Cochrane review’s study characteristics tables. …"
+    },
+    {
+      "title": "Towards precise PICO extraction from abstracts of randomized controlled trials using a section-specific learning approach",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "Y Hu, VK Keloth, K Raja, Y Chen, H Xu - Bioinformatics, 2023 - academic.oup.com",
+      "doi": "",
+      "citations": 30,
+      "abstract": "… The clinicians use PICO for querying evidence for improving … We randomly selected 200 structured RCT abstracts from the … and full-text articles or applying our pipeline to the full-text …"
+    },
+    {
+      "title": "Semi-Automatic systematic literature reviews and information extraction of COVID-19 scientific evidence: description and preliminary results of the COKE …",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "D Golinelli, AG Nuzzolese, F Sanmarchi, L Bulla… - Information, 2022 - mdpi.com",
+      "doi": "",
+      "citations": 15,
+      "abstract": "… evidence within a medical citation database is popular and advantageous. However, accurately and efficiently extracting PICO elements from non-structured … extract and read the full text …"
+    },
+    {
+      "title": "Automatic extraction of research themes in epidemiological criminology from PubMed abstracts from 1946 to 2020: text mining study",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "G Karystianis, P Simpson, W Lukmanjaya… - JMIR formative …, 2023 - formative.jmir.org",
+      "doi": "",
+      "citations": 7,
+      "abstract": "… the extracted themes and the stakeholder priorities showed … they are written in a relatively structured format with their own … , as we did not use full-text articles because it is possible that …"
+    },
+    {
+      "title": "A Scoping Review of Adopted Information Extraction Methods for RCTs",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "A Aletaha, L Nemati-Anaraki… - Medical Journal of …, 2023 - pmc.ncbi.nlm.nih.gov",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… As far as we are faced with structured and unstructured … X8.0.1 to organize, curate, and review their full text of them. … that information extraction algorithms and evidence synthesis tools …"
+    },
+    {
+      "title": "The next phase of scientific fact-checking: advanced evidence retrieval from complex structured academic papers",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "X Deng, X Wang, M Stevenson - … of the 2025 International ACM SIGIR …, 2025 - dl.acm.org",
+      "doi": "10.1145/3731120.3744614X",
+      "citations": 3,
+      "abstract": "… than full-text papers, thereby excluding critical structural and … to fragmented evidence, making time extraction unreliable. … to as a signal to adjust priority. Citations are classified into eight …"
+    },
+    {
+      "title": "Large language models for data extraction in toxicology: implications and lessons learned from the clinical evidence domain",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "L Schmidt, F Campbell, D Craig… - Evidence-Based …, 2025 - Taylor & Francis",
+      "doi": "10.1080/2833373X.2025.2546791L",
+      "citations": 3,
+      "abstract": "… -assisted approaches such as priority screening and early … data extraction tool, integrates LLMs to process full-text PDFs … -based medicine, we advocate for adoption of structured …"
+    },
+    {
+      "title": "From Chaos to Clarity: Schema-Constrained AI for Auditable Biomedical Evidence Extraction from Full-Text PDFs",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "P Mortezaagha, J Shaw, B Sun, A Rahgozar - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… -constrained AI extraction system that transforms full-text biomedical PDFs into structured, … can detach captions or disrupt reading order, and semantic models may hallucinate when …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q15_baseline_b_20260410_190827.md"
+}

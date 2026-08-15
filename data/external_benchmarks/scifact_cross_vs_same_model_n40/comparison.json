@@ -1,0 +1,398 @@
+{
+  "n": 40,
+  "v0_drafts_identical_across_pilots": true,
+  "v0": {
+    "accuracy": 0.9,
+    "macro_f1": 0.8964938964938964
+  },
+  "same_model_final": {
+    "reviewer_model": "deepseek-v4-pro",
+    "accuracy": 0.875,
+    "macro_f1": 0.8648581692059953
+  },
+  "cross_model_final": {
+    "reviewer_model": "kimi (moonshot-v1-32k)",
+    "accuracy": 0.9,
+    "macro_f1": 0.896209054103791
+  },
+  "mcnemar_v0_vs_same_model_final": {
+    "b01": 3,
+    "b10": 2,
+    "n_discordant": 5,
+    "p_value_exact_binomial": 1.0
+  },
+  "mcnemar_v0_vs_cross_model_final": {
+    "b01": 2,
+    "b10": 2,
+    "n_discordant": 4,
+    "p_value_exact_binomial": 1.0
+  },
+  "mcnemar_same_model_final_vs_cross_model_final": {
+    "b01": 2,
+    "b10": 3,
+    "n_discordant": 5,
+    "p_value_exact_binomial": 1.0
+  },
+  "per_claim": [
+    {
+      "id": 1,
+      "gold": "NEI",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 3,
+      "gold": "SUPPORT",
+      "v0": "NEI",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 5,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 13,
+      "gold": "NEI",
+      "v0": "NEI",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 36,
+      "gold": "NEI",
+      "v0": "NEI",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 42,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "CONTRADICT",
+      "cross_model_reviewer_kimi": "NEI",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 48,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "NEI",
+      "cross_model_final": "CONTRADICT"
+    },
+    {
+      "id": 49,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 50,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 51,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "CONTRADICT",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "CONTRADICT"
+    },
+    {
+      "id": 53,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 54,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "CONTRADICT",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "CONTRADICT"
+    },
+    {
+      "id": 56,
+      "gold": "SUPPORT",
+      "v0": "NEI",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 57,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "CONTRADICT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "CONTRADICT"
+    },
+    {
+      "id": 70,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 72,
+      "gold": "NEI",
+      "v0": "NEI",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 75,
+      "gold": "NEI",
+      "v0": "NEI",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 94,
+      "gold": "NEI",
+      "v0": "NEI",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 99,
+      "gold": "NEI",
+      "v0": "NEI",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 100,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 113,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 115,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "CONTRADICT",
+      "cross_model_reviewer_kimi": "NEI",
+      "cross_model_final": "CONTRADICT"
+    },
+    {
+      "id": 118,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 124,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 127,
+      "gold": "NEI",
+      "v0": "NEI",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 128,
+      "gold": "NEI",
+      "v0": "NEI",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 129,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "CONTRADICT",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "CONTRADICT"
+    },
+    {
+      "id": 130,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 132,
+      "gold": "NEI",
+      "v0": "NEI",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 133,
+      "gold": "SUPPORT",
+      "v0": "NEI",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "NEI"
+    },
+    {
+      "id": 137,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 141,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 142,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "CONTRADICT",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "CONTRADICT"
+    },
+    {
+      "id": 143,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 146,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 148,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 163,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 171,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "CONTRADICT",
+      "same_model_final": "CONTRADICT",
+      "cross_model_reviewer_kimi": "CONTRADICT",
+      "cross_model_final": "CONTRADICT"
+    },
+    {
+      "id": 179,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "same_model_reviewer": "SUPPORT",
+      "same_model_final": "SUPPORT",
+      "cross_model_reviewer_kimi": "SUPPORT",
+      "cross_model_final": "SUPPORT"
+    },
+    {
+      "id": 180,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "same_model_reviewer": "NEI",
+      "same_model_final": "NEI",
+      "cross_model_reviewer_kimi": "NEI",
+      "cross_model_final": "CONTRADICT"
+    }
+  ]
+}

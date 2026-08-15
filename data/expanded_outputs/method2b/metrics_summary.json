@@ -1,0 +1,12 @@
+[
+  {
+    "config": "method2_same_model",
+    "n": 251,
+    "citation_precision_pct": 62.7,
+    "orphan_rate_pct": 37.9,
+    "section_completeness_pct": 99.7,
+    "bibliography_match_rate_pct": 62.6,
+    "abstract_coverage_pct": 94.9,
+    "no_formal_citation_frac_pct": 0.0
+  }
+]

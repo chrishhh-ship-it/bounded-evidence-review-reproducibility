@@ -1,0 +1,127 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "没有 reviewer 的多智能体流水线与带对抗审稿循环的流水线差异在哪里？",
+  "effective_search_query": "multi-agent pipeline, adversarial review cycle, comparison, differences",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds": 1,
+  "review_feedback": {
+    "overall_score": 7,
+    "major_issues": [
+      "报告未能严格区分证据中的明确陈述与推测性解读。例如，在'核心主题与证据'部分，报告声称'所有论文均将多智能体系统（MAS）或基于大语言模型（LLM）的多智能体工作流作为其核心方法'，但证据[4]是一篇系统综述，其'核心方法'是综述方法，而非其综述内容所描述的方法。报告将综述对象的方法与综述本身的方法混为一谈。",
+      "报告在'证据支持的研究方向'部分进行了过度归纳。证据[1]仅描述了其自身系统是'分层多智能体LLM工作流'，并未声称这是为了'改善任务执行的连贯性与可解释性'（尽管可能是其目标）。证据[2]提到'利用知识图谱和专家混合模型提高可靠性'，但未明确提及'降低幻觉风险'，这是报告添加的解读。证据[6]提到智能体具有'评估、反思'能力，但未说明这是为了'使其超越基础LLM的局限'。这些解读超出了摘要提供的明确信息。",
+      "报告结论'无法得出...具体结论'是正确的，但部分论证基于对证据的过度解读而非严格缺失。例如，指出论文[5]提及'存在争议的偏好'但未说明是否采用对抗机制是有效的；但声称所有论文'描述的协作模式...不足以界定是否存在...对抗性审稿循环'时，其判断标准（何为'足以界定'）未在证据中明确，属于报告作者的推断。"
+    ],
+    "citation_issues": [
+      "参考文献列表格式与正文引用不完全一致。正文使用数字编号（如[1]），但参考文献列表使用了作者-年份格式（如'A Kalyuzhnaya... - Smart Cities, 2025'）。根据证据提供的元数据，应统一为数字编号的简单列表或标准的文献引用格式。",
+      "部分引用信息不完整或与证据提供的信息有出入。例如，证据[3]在参考文献中列出了多位作者，但证据集中仅提供了'A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov…'作为作者，报告应与此保持一致，或注明信息来源于证据集。证据[4]、[7]、[8]的参考文献条目中包含了证据集未提供的作者全名，这些信息可能来自报告作者的补充，但未在证据中明确，应仅使用证据提供的信息。"
+    ],
+    "revision_instructions": [
+      "严格基于证据进行陈述。区分证据中明确声明的'关键主张'、'方法论'与报告作者的分析和推断。对于推断部分，应明确标注为'基于摘要的解读'或'可能表明'，而非作为事实陈述。例如，将'以改善任务执行的连贯性与可解释性'修改为'其设计可能旨在改善连贯性与可解释性'，或直接引用证据中的表述。",
+      "修正引用格式。统一正文引用与参考文献列表的格式。参考文献列表应严格基于证据集提供的元数据（如标题、作者、来源、期刊/会议、年份），不添加证据未提供的信息（如未列出的作者全名）。确保每个条目与证据编号一一对应，信息准确。",
+      "精炼结论部分。结论'无法得出...具体结论'是准确的，但支撑此结论的论证应更直接地基于证据的缺失（即没有任何一篇摘要直接比较或阐述该差异），而非基于对现有描述'不足以界定'的主观判断。重点强调证据集在直接回应查询问题上的空白。",
+      "检查并修正术语一致性。确保报告中使用的术语（如'对抗审稿循环'、'审稿者'）与证据集中的表述（如'对抗性评估'、'人工筛选'）有清晰区分，并明确指出证据中未出现完全相同的术语。"
+    ],
+    "accept_without_revision": false
+  },
+  "all_retrieved_ids": [
+    "title:multi-agent systems for clinical decision support: a systematic review|2025",
+    "title:architectural review on multi agent knowledge management|2018",
+    "doi:10.1109/tmc.2021.3116236",
+    "title:p1gpt: a multi-agent llm workflow module for multi-modal financial information analysis|2025",
+    "doi:10.12785/ijcds/130125",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.1109/mwc.016.2300600",
+    "title:a multi-agent digital twin–enabled decision support system for sustainable and resilient supplier management|2024",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/twc.2023.3235997",
+    "doi:10.48550/arxiv.2306.16092",
+    "title:multi-agent planning for automatic geospatial web service composition in geoportals|2018",
+    "doi:10.1109/tvt.2022.3173057",
+    "doi:10.1109/jsac.2022.3143251",
+    "title:an intelligent decision support system based on multi agent systems for business classification problem|2023"
+  ],
+  "top_papers": [
+    {
+      "title": "P1GPT: a multi-agent LLM workflow module for multi-modal financial information analysis",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Recent advances in large language models (LLMs) have enabled multi-agent reasoning systems capable of collaborative decision-making. However, in financial analysis, most frameworks remain narrowly focused on either isolated single-agent predictors or loosely connected analyst ensembles, and they lack a coherent reasoning workflow that unifies diverse data modalities. We introduce P1GPT, a layered multi-agent LLM framework for multi-modal financial information analysis and interpretable trading decision support. Unlike prior systems that emulate trading teams through role simulation, P1GPT implements a structured reasoning pipeline that systematically fuses technical, fundamental, and news-based insights through coordinated agent communication and integration-time synthesis. Backtesting on "
+    },
+    {
+      "title": "Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model",
+      "year": "2023",
+      "journal": "arXiv (Cornell University)",
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2306.16092",
+      "citations": 90,
+      "abstract": "AI legal assistants based on Large Language Models (LLMs) can provide accessible legal consulting services, but the hallucination problem poses potential legal risks. This paper presents Chatlaw, an innovative legal assistant utilizing a Mixture-of-Experts (MoE) model and a multi-agent system to enhance the reliability and accuracy of AI-driven legal services. By integrating knowledge graphs with artificial screening, we construct a high-quality legal dataset to train the MoE model. This model utilizes different experts to address various legal issues, optimizing the accuracy of legal responses. Additionally, Standardized Operating Procedures (SOP), modeled after real law firm workflows, significantly reduce errors and hallucinations in legal services. Our MoE model outperforms GPT-4 in th"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "Multi-agent systems for clinical decision support: A systematic review",
+      "year": 2025,
+      "journal": "AL Silveira, R da Rosa Righi, CA Da Costa - Applied Soft Computing, 2025 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… Multi-agent reinforcement learning (MARL), ontology-based medical knowledge … (LLMs) are increasingly applied in clinical decision support systems (CDSSs). Despite rapid advances, …"
+    },
+    {
+      "title": "Towards An Intelligent Agent-Based Multi-Criteria Group Decision Support System : A Case Study In Land Use Management",
+      "year": "2023",
+      "journal": "International Journal of Computing and Digital Systems",
+      "source": "OpenAlex",
+      "doi": "10.12785/ijcds/130125",
+      "citations": 3,
+      "abstract": "The Land use management constitutes a multi-dimensional issue affected by a variety of criteria of different significance.Many decision-makers (DMs) are involved in this type of dilemma, and their preferences are often in dispute.To address these issues, researchers created a variety of GDSS with various architectures; nevertheless, not all of them can apply artificial intelligence approaches to mimic human behavior by predciting or classifying solutions.In this work, the authors used a previously designed GDSS named WIM-GDSS as the foundation for developing a new one with various features; the two systems differ in the prediction model employed.The proposed system's prediction module employs a model trained on a multicriteria method known as PROMETHEE II rather than TOPSIS; the latter met"
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "A multi-agent digital twin–enabled decision support system for sustainable and resilient supplier management",
+      "year": 2024,
+      "journal": "YL Li, YP Tsang, CH Wu, CKM Lee - Computers & industrial engineering, 2024 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 61,
+      "abstract": "… decision-making under uncertainty. This paper introduces a digitally enabled decision support … The system leverages stratified fuzzy decision-making techniques to account for the …"
+    },
+    {
+      "title": "An intelligent decision support system based on multi agent systems for business classification problem",
+      "year": 2023,
+      "journal": "M Haj Qasem, M Aljaidi, G Samara, R Alazaidah… - Sustainability, 2023 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 40,
+      "abstract": "… decision making. Document classification is one of the main decisions that any business adopts in their decision making … In this paper, we combined multi-agent systems (MASs), which …"
+    }
+  ],
+  "elapsed_seconds": 130.746,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q23_method2_same_model_20260411_132644.md"
+}

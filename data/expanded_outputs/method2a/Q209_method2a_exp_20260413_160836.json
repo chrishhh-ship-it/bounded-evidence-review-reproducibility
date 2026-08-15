@@ -1,0 +1,205 @@
+{
+  "query_id": "Q209",
+  "query": "How should a synthesis agent distinguish between policy design recommendations and policy outcome evaluations when constructing its bibliography?",
+  "domain_id": "climate_policy_research",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Mobility and Health in the Context of Climate Change: A Systematic Literature Review and Meta-Synthesis of Policy Recommendations",
+      "authors": [
+        "Patricia Nayna Schwerdtle",
+        "Julia Stockemer",
+        "Kathryn Bowen",
+        "Rainer Sauerborn",
+        "Celia McMichael",
+        "Ina Danquah"
+      ],
+      "abstract": "Changing mobility patterns combined with changes in the climate present challenges and opportunities for global health, requiring effective, relevant and humane policy responses. This systematic literature review sought to synthesize the existing policy recommendations related to the literature examining the intersection of climate change, migration and health to strengthen the evidence-base. Systematic searches were conducted in four academic databases (PubMed, Ovid Medline, Global Health and Scopus) and Google Scholar for empirical studies published between 1990 &amp;ndash; 2020 that used any study design to investigate migration and health in the context of climate change. Studies underwent a two-stage protocol-based screening process and eligible studies were appraised for quality using a standardized mixed-methods tool. From the initial 2,425 hits, 68 articles were appraised for quality and included in the synthesis. Among the policy recommendations, six themes were discernible: (1) avoid the universal promotion of migration as an adaptive response to climate risk; (2) preserve cultural and social ties of mobile populations; (3) enable the participation of migrants in decision-making in sites of relocation and resettlement; (4) strengthen health systems and reduce barriers for migrants to access health care; (5) support and promote optimization of social determinants of migrant health; (6) integrate health into loss and damage assessments related to climate change. The results call for transformative policies that support the health and wellbeing of people engaging in, or affected by mobility responses, including those whose migration decisions and experiences are influenced by climate change, and to establish and develop inclusive migrant healthcare.",
+      "year": "2020",
+      "published_date": "2020-11-02",
+      "journal": "Preprints.org",
+      "url": "https://doi.org/10.20944/preprints202011.0072.v1",
+      "arxiv_id": "",
+      "keywords": [
+        "Systematic review",
+        "Context (archaeology)",
+        "Health care",
+        "Climate change",
+        "Health policy",
+        "Health promotion",
+        "Political science",
+        "Scopus"
+      ],
+      "citations": 2,
+      "source": "OpenAlex",
+      "doi": "10.20944/preprints202011.0072.v1",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis"
+    },
+    {
+      "title": "The feedback loop: A systematic review of how evaluation practices inform conversational agent design",
+      "authors": [
+        "Neşe Baz Aktaş",
+        "Adem Akbıyık"
+      ],
+      "abstract": "Abstract\n                Conversational Agents (CAs) have become increasingly integrated in our daily interactions. Despite this growing adoption, research on CA design remains fragmented, often lacking clear connections between design and its effects on user experience. Bridging perspectives from Human-Computer Interaction (HCI) and Information Systems (IS), this study provides a structured, design element-level synthesis of CA design practices and their effect on user experience. To do this, we systematically reviewed 97 empirical studies published in leading HCI and IS venues, following a rigorous three-stage methodology. Building on this, we proposed a CA design framework that identifies design dimensions and maps them with user outcomes to provide actionable guidance for practitioners. The resulting structured framework offers conceptual clarity and practical guidance, laying the groundwork for future empirical research and evidence-based design strategies in CA development.",
+      "year": "2025",
+      "published_date": "2025-9-29",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-7235054/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-7235054/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "National Energy Transition Framework toward SDG7 with Legal Reforms and Policy Bundles: The Case of Taiwan and Its Comparison with Japan",
+      "authors": [
+        "Muhua Lin",
+        "H. Liou",
+        "Kuei-Tien Chou"
+      ],
+      "abstract": "The main problem explored in this study is how Taiwan and other countries meet the challenges of the United Nations Sustainable Development Goals regarding energy transition by using legal instruments or policy bundles. This study adopts textual analysis and legal policy analysis as its main form of research methodology, and the theory of energy justice, as well as principles of energy management, to correlate with the Sustainable Development Goals. Furthermore, this study aims to construct an analysis structure for national energy transition and to analyze the current situation within Taiwan’s electricity sector reforms, while providing evidence of the national experience of electrical industry reforms as an international reference. This study also compares the differences between the seventh Sustainable Development Goal relationship and national energy transitions in Taiwan and Japan, based on the similar initiative of the revised Electricity Act with the policy bundle. This study specifically finds that, firstly, the theory for energy justice is connected with the principles for energy management, owing to the same concepts of “Fair Competition”, via the recognition of “Energy Development and Poverty”, which correlates with “Environment Protection”. Therefore, the concept of energy transition proposed in this study integrates national energy development policy goals and combines them with environmental sustainability, the green economy, and social equity. Secondly, the national energy transition in Taiwan is a response to the Sustainable Development Goals, and electricity sector-related laws could be used as legal tools for national energy transition. This study concludes that Taiwanese and Japanese governments can strengthen their environmental regulations to promote fair competition directly, with fair competition then being able to enhance stable electricity supply, to enable these countries to move towards the seventh Sustainable Development Goal and its indicators. Finally, the analysis structure used in this study could be used as a policy analysis tool for other countries during their own energy transition, when a nation is willing to strategically reform its electricity sector and make sustainable choices regarding transition paths and policy bundles that are suitable for the situation of the individual country. Then, a nation can make revisions to its laws and formulate a policy that is in line with local conditions, while as simultaneously implementing the Sustainable Development Goals.",
+      "year": "2020",
+      "published_date": "2020-03-16",
+      "journal": "Energies",
+      "url": "https://www.semanticscholar.org/paper/1c8e08c63fc5bb7cb842cdd1175d1426e701936f",
+      "arxiv_id": "",
+      "keywords": [
+        "Business"
+      ],
+      "citations": 31,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/en13061387",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval benchmark"
+    },
+    {
+      "title": "A systematic scoping review and content analysis of policy recommendations for climate-resilient agriculture",
+      "authors": [
+        "G. Manevska-Tasevska",
+        "U. Duangbootsee",
+        "Ivan Bimbilovski",
+        "Piyathida Thathong",
+        "T. Ha"
+      ],
+      "abstract": "ABSTRACT Climate-resilient agriculture (CRA) is among the top policy priorities for the Association of Southeast Asian Nations (ASEAN) in their food, agriculture, and forestry sectors. However, the strategies that have been adopted to date have failed to produce positive changes or alter climate change trajectories. Scientific evidence is crucial for evidence-based policy making in this arena and elsewhere. We undertake a scoping review to explore what is known from the existing scientific literature about the policy recommendations for CRA in ASEAN. We follow the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines for new systematic reviews. Furthermore, we conduct a content analysis to classify the policy recommendations into eight CRA policy categories and to investigate how the policies identified in the reviewed articles reinforce the climate resilience capacities (CRC) needed for CRA. The synthesis review is based on 47 papers. This research contributes to climate resilience literature, and explains how the results of this study could be applied in policy analysis to build CRC within the agricultural sector. The knowledge generated by this study can support policy design, and therefore support the building of an enabling environment for CRA for ASEAN and elsewhere. Key policy insights: Scientific literature on CRA typically recommends policies that support communication and knowledge sharing and advance research and technology development, often in combination with risk management- and/or environmental/climate support. There is insufficient evidence on actual policies enabling CRA. This result may also reflect a lack of research on some of the identified CRA policy categories, such as agricultural production support, investment support, infrastructural support, land use regulation and certification. This synthesis review identifies literature addressing policy capacity to achieve CRA goals. Adaptability and transformability are key dimensions of policy capacity enabling responsive actions to climate change, mainly via social learning, in-depth learning and research and technology development. Literature pays little attention to anticipation and robustness, facilitating proactive ex-ante initiatives and coping for climate change; we argue that these dimensions of capacity merit further research. This synthesis demonstrates key gaps in research and understanding of CRA and related policies targeting capacity building, followed by a need to raise awareness of the importance of such policies. It also points to the need to enable preparation for climate-related crisis planning, through use of anticipatory policies and tools, such as climate predictions to inform planning of robust prevention measures. Last but not least, the synthesis identifies that representation across the ASEAN countries and the type of agricultural systems in is unbalanced; research from Vietnam and Malesia and research on rice production or rice in combination with other crops or shrimp are over-represented. We argue that research on climate change adaptation for other important agricultural production systems, covering the remaining ASEAN countries, is needed to fill this gap.",
+      "year": "2023",
+      "published_date": "2023-07-05",
+      "journal": "Climate Policy",
+      "url": "https://www.semanticscholar.org/paper/2da3df66d23ab2aa3490fa4e2c46e62b71df396b",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 19,
+      "source": "Semantic Scholar",
+      "doi": "10.1080/14693062.2023.2232334",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis benchmark"
+    },
+    {
+      "title": "The Role of Policy Design and Market Forces to Achieve an Effective Energy Transition: A Comparative Analysis Between the UK and Chinese Models",
+      "authors": [
+        "Marco Dell’Aquila",
+        "Daniel Atzori",
+        "Ofelia Raluca Stroe"
+      ],
+      "abstract": "",
+      "year": "2020",
+      "published_date": "2020",
+      "journal": "Lecture Notes in Energy",
+      "url": "https://doi.org/10.1007/978-3-030-39066-2_10",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 4,
+      "source": "CrossRef",
+      "doi": "10.1007/978-3-030-39066-2_10",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval"
+    },
+    {
+      "title": "Carbon Pricing and Green Growth: A Systematic Review of Policy Effectiveness, Design, and Equity",
+      "authors": [
+        "Enoch Nii-Okai",
+        "Alfred Yeboah",
+        "Emmanuel Kwasi Xonu",
+        "Ayodeji Olayode",
+        "Efe Nkem Osarodion",
+        "Gopal Fosu Oppong Wiafe",
+        "Albert Miezah Ackah",
+        "Benjamin Osaze Enobakhare"
+      ],
+      "abstract": "Climate change constitutes a major market failure because greenhouse gas emissions are not priced to reflect their social costs. Carbon pricing has become a central policy instrument, yet its effectiveness varies across contexts. This review evaluates the performance of carbon taxes and emissions trading systems by examining their environmental, economic, and equity outcomes. The analysis applies a systematic review framework covering peer-reviewed studies, meta-analyses, and international policy assessments published between 2008 and 2025. Evidence is synthesized across three dimensions: emissions reductions, innovation and structural change, and distributional impacts. The literature consistently shows that carbon pricing reduces emissions when price signals are strong, credible, and increase predictably over time. Jurisdictions with rising tax schedules or progressively tightening emissions caps achieve the most durable mitigation. Carbon pricing also stimulates low-carbon innovation and supports long-term structural change, especially when combined with complementary policies. Distributional outcomes vary, but equity improves significantly when revenues are returned through rebates or tax reductions. Overall effectiveness depends more on design quality and policy coherence than on whether pricing is delivered through taxes or trading systems. Credible long-term price paths, broad sectoral coverage, transparent governance, and equitable revenue use are essential conditions for achieving sustained environmental and socio-economic benefits.",
+      "year": "2025",
+      "published_date": "2025-11-29",
+      "journal": "Journal of Environment, Climate, and Ecology",
+      "url": "https://www.semanticscholar.org/paper/b37bb1fb3bd3c3b5f58be9b98ea3dd585c2429a1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.69739/jece.v2i2.1238",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate evidence review multi-agent systematic review"
+    },
+    {
+      "title": "Carbon Disclosure Policy as a Strategic Driver for Carbon Emission Reduction: A Systematic Review and Quantitative Policy Synthesis",
+      "authors": [
+        "F. O. Ayodele",
+        "B. Ayodele",
+        "T. Oladele",
+        "Titik Setyaningsih",
+        "S. Munir"
+      ],
+      "abstract": "One of the main takeaways of the recently concluded Conference of the Parties (COP) 30 is the need for all humanity to unite against climate change. Effective climate-related risk and carbon footprint disclosure could serve as a systematic approach to reduce the menace of climate change. Several frameworks for carbon disclosure have been developed and implemented. Nevertheless, there is lack of consistency and clarity in the implementation of the frameworks and how they are integrated into climate reporting. This has created a gap in accountability, often resulting in the misalignment of climate goals, thereby necessitating the need to delve into strategic imperatives of carbon disclosure policies as a mechanism for carbon reduction. In view of this, the main objective of this study is to elucidate how carbon disclosure policies have been strategically positioned as a mechanism for climate-aligned decision making. The study explores and synthesizes existing literature and data on the strategic role of carbon disclosure policies in the carbon emission management of selected countries using the PRISMA framework and secondary data policy synthesis. The analysis reveals that there was a noticeable carbon emissions reduction in countries like Estonia, Ireland, and the United Kingdom. This indicates a strong correlation between carbon emissions reduction and high carbon tax implementation. However, there was a lack of perfectly linear correlation between disclosure scores and the carbon emission reduction in some countries, an indication that carbon disclosure is not the sole determinant of carbon emissions management, even though it plays an important role as a catalyst for transparency awareness. The robustness of carbon disclosure policies can be said to be linked to a broader national climate policy, stressing its importance as a climate action framework.",
+      "year": "2026",
+      "published_date": "2026-02-18",
+      "journal": "Environments",
+      "url": "https://www.semanticscholar.org/paper/80f65fe3de525a191175be1cb957aa3837529e33",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/environments13020115",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis benchmark"
+    },
+    {
+      "title": "Causal Relationship Between Climate and Financial Sector: A Systematic Literature Review and Policy Recommendations",
+      "authors": [
+        "Palvinder Kaur",
+        "Manminder Kaur"
+      ],
+      "abstract": "",
+      "year": "2023",
+      "published_date": "2023-6-5",
+      "journal": "International Journal of Economic Behavior and Organization",
+      "url": "https://doi.org/10.11648/j.ijebo.20231102.15",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.11648/j.ijebo.20231102.15",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis benchmark"
+    }
+  ],
+  "timestamp": "20260413_160836"
+}

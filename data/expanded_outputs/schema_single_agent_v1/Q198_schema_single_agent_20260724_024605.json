@@ -1,0 +1,230 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q198",
+  "query": "What are the irreducible failure modes of automated biomedical evidence synthesis that require human expert review regardless of pipeline sophistication?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q198_method1_exp_20260413_103219.json",
+  "same_query_evidence_ids": [
+    "doi:10.48550/arxiv.2504.20113",
+    "doi:10.2196/preprints.49164",
+    "doi:10.1111/eci.12931",
+    "doi:10.1002/erv.2675",
+    "doi:10.1101/2025.11.08.25339805",
+    "doi:10.1016/j.ienj.2023.101297",
+    "doi:10.3390/architecture4030025",
+    "doi:10.1186/s12911-025-02915-x"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.48550/arxiv.2504.20113",
+    "doi:10.2196/preprints.49164",
+    "doi:10.1111/eci.12931",
+    "doi:10.1002/erv.2675",
+    "doi:10.1101/2025.11.08.25339805",
+    "doi:10.1016/j.ienj.2023.101297",
+    "doi:10.3390/architecture4030025",
+    "doi:10.1186/s12911-025-02915-x"
+  ],
+  "top_papers": [
+    {
+      "title": "Transforming Evidence Synthesis: A Systematic Review of the Evolution of Automated Meta-Analysis in the Age of AI",
+      "authors": [
+        "Lingbo Li",
+        "A. Mathrani",
+        "Teo Sušnjak"
+      ],
+      "abstract": "Exponential growth in scientific literature has heightened the demand for efficient evidence-based synthesis, driving the rise of the field of Automated Meta-analysis (AMA) powered by natural language processing and machine learning. This PRISMA systematic review introduces a structured framework for assessing the current state of AMA, based on screening 978 papers from 2006 to 2024, and analyzing 54 studies across diverse domains. Findings reveal a predominant focus on automating data processing (57%), such as extraction and statistical modeling, while only 17% address advanced synthesis stages. Just one study (2%) explored preliminary full-process automation, highlighting a critical gap that limits AMA's capacity for comprehensive synthesis. Despite recent breakthroughs in large language models (LLMs) and advanced AI, their integration into statistical modeling and higher-order synthesis, such as heterogeneity assessment and bias evaluation, remains underdeveloped. This has constrained AMA's potential for fully autonomous meta-analysis. From our dataset spanning medical (67%) and non-medical (33%) applications, we found that AMA has exhibited distinct implementation patterns and varying degrees of effectiveness in actually improving efficiency, scalability, and reproducibility. While automation has enhanced specific meta-analytic tasks, achieving seamless, end-to-end automation remains an open challenge. As AI systems advance in reasoning and contextual understanding, addressing these gaps is now imperative. Future efforts must focus on bridging automation across all meta-analysis stages, refining interpretability, and ensuring methodological robustness to fully realize AMA's potential for scalable, domain-agnostic synthesis.",
+      "year": "2025",
+      "published_date": "2025-04-28",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/cbc9b68c69c564c285f97e4891835ae41cd8fa29",
+      "arxiv_id": "2504.20113",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2504.20113",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "How is Real World Evidence taught in Nursing? A Systematic review undertaking a narrative synthesis of the literature (Preprint)",
+      "authors": [
+        "Tristan Coombe",
+        "Lisa Burrows",
+        "Madison Milne-Ives",
+        "Edward Meinert"
+      ],
+      "abstract": "BACKGROUND\n                        Real World Evidence (RWE) comprises forms, methodologies and applications including data collected in naturally uncontrolled settings utilising non-interventional, non-controlled and non-experimental approaches.  RWE may overcome problems inherent with traditional research methodologies.  It more closely represents the real world and how interventions affect the patient experience and could be more suitable for assessing complex social interventions. Clinicians require the skills and knowledge to utilise it effectively and mitigate its disadvantages.  As Nurses are the largest group of healthcare professionals, exploring how to develop knowledge of RWE in nursing has a large potential benefit for research and care.\n                \n                                \n                    OBJECTIVE\n                        This systematic review (SR) aims to consider how RWE is taught within nursing and examine the benefits and outcomes of those teaching and learning activities.\n                \n                                \n                    METHODS\n                        An SR without Meta-Analysis narrative synthesis approach was conducted. MEDLINE (EBSCO), EMBASE (Ovid), PsycINFO, Cochrane, Web of Science, SCOPUS and IEEE were searched using free text terms and MeSH terms combined with Boolean operators associated with RWE forms, types and methodologies, teaching and nursing.  Final studies were appraised using MMAT and JBI tools.\n                \n                                \n                    RESULTS\n                        Kinaesthetic approaches, simulated learning, and case studies were undertaken in classroom and practice settings utilising real and simulated data, which may positively increase perceived satisfaction and knowledge with RWE.   Constructivism and experiential learning could be more suitable for RWE education with educators and students displaying increased positivity towards RWE compared with alternative pedagogical approaches.  Barriers to RWE education included negative educator and learner beliefs, organisational barriers and concerns regarding data security and confidentiality.  A majority of the studies were observational or descriptive and a number of areas of bias were identified during the appraisal process.\n                \n                                \n                    CONCLUSIONS\n                        Utilising a range of teaching and learning strategies in nursing that make learning relevant and meaningful may be important in RWE education.  More research is needed to develop further the definition, characteristics and applications of RWE, consider different pedagogical approaches and a wider range of RWE forms, methodologies and applications.",
+      "year": "2023",
+      "published_date": "2023-5-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2196/preprints.49164",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2196/preprints.49164",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Time to challenge the spurious hierarchy of systematic over narrative reviews?",
+      "authors": [
+        "Trisha Greenhalgh",
+        "Sally Thorne",
+        "Kirsti Malterud"
+      ],
+      "abstract": "Cynthia Mulrow's important paper calling for literature reviews to be undertaken more systematically (and hence be more informative and reliable) is now 30 years old.1 A recent paper in BMC Medical Research Methodology compared the proportion of reviews that were systematic (as opposed to narrative) in five leading biomedical journals.2 The authors found significant diversity: from New England Journal of Medicine (0%) and Lancet (11%) to Annals of Internal Medicine (72%). Systematic reviews were assumed by the authors to be superior because they are (i) more likely to have a focused research question, (ii) more methodologically explicit and (iii) less likely to be biased than narrative reviews. This stance reflects the raison d’être of the Cochrane Collaboration, whose use of explicit and auditable quality criteria for undertaking systematic reviews has inspired a weighty methodological handbook,3 numerous tools and checklists4, 5 and structured reporting criteria.6 There is strong emphasis on methodological reproducibility, with the implication that a different review team, using the same search criteria, quality checklists and synthesis tools, should obtain the same result.3 Yet leading medical journals regularly publish clinical topic reviews that may lack a focused research question, methods section or statement on how studies were selected and analysed (see for example7-9). These narrative reviews typically draw on expert opinion by deliberately recruiting leading names in the field (eg “The aim of this Commission is to provide the strongest evidence base through involvement of experts from a wide cross-section of disciplines…”—page 1953, emphasis added8). Reviews crafted through the experience and judgement of experts are often viewed as untrustworthy (“eminence-based” is a pejorative term). Yet the classical definition of the EBM as “the conscientious, explicit, and judicious use of current best evidence …” (page 71, emphasis added)10 suggests a key role for judgement in the selection and interpretation of evidence. In short, there appears to be a growing divergence between the assumed “hierarchy” of evidence in secondary research, which defines systematic reviews as superior,11 and what some leading academic journals view as a state-of-the-art (that is, expert-led narrative) review. We believe this is partly because the systematic review format has been erroneously defined as a universal gold standard and partly because the term “narrative review” is frequently misunderstood, misapplied and unfairly dismissed. Systematic reviews in the Cochrane sense use a highly technical approach to identification, appraisal and synthesis of evidence and typically (although not invariably) privilege randomised controlled trials or previous systematic reviews over other forms of evidence.11 This may be entirely appropriate—especially when the primary purpose is to answer a very specific question about how to treat a particular disease in a particular target group. But the doctor in the clinic, the nurse on the ward or the social worker in the community will encounter patients with a wide diversity of health states, cultural backgrounds, illnesses, sufferings and resources.12 And those who gather around the policymaking table will find multiple calls on their attention—including burden of need, local availability of different treatments, personal testimony, strength of public opinion and budgetary realities. To produce a meaningful synthesis of research evidence relevant to such complex situations, the reviewer must (i) incorporate a broad range of knowledge sources and strategies for knowing and (ii) undertake multi-level interpretation using creativity and judgement.12, 13 We align with previous authors, who, drawing on Wittgenstein, distinguish between puzzles or problems that require data (for which a conventional systematic review, with meta-analysis where appropriate, may be the preferred methodology) and those that require clarification and insight (for which a more interpretive and discursive synthesis of existing literature is needed).14, 15 Below, we explore both strengths, limitations and conceptual confusions of systematic and narrative reviews. We consider three questions: what makes a review systematic; what is a narrative review and whether these different kinds of review should be viewed as competing or complementary. The defining characteristic of a systematic review in the Cochrane sense is the use of a predetermined structured method to search, screen, select, appraise and summarise study findings to answer a narrowly focused research question.3, 16 Using an exhaustive search methodology, the reviewer extracts all possibly relevant primary studies, and then limits the dataset using explicit inclusion and exclusion criteria. The review focus is highly circumscribed and quality criteria are tightly enforced. Typically, a body of hundreds or thousands of potential studies identified in the initial search is whittled down to a mere handful before the reviewer even begins to consider what they collectively mean. The term “systematic” is thus by no means synonymous with “high-quality”. Rather, it can be viewed as a set of methodologies characterised by tight focus, exhaustive search, high rejection-to-inclusion ratio and an emphasis on technical rather than interpretive synthesis methods. The conflation of the quality of a review with the assiduousness of such tasks as searching, applying inclusion and exclusion criteria, creating tables of extracted data and mathematically summing effect sizes (rather than, for example, with the level of critical analysis of the papers’ unstated assumptions and discussion sections) has, we believe, led to a proliferation of systematic reviews that represent aggregations of findings within the narrow body of work that has met the authors’ eligibility criteria.17-19 Such studies may sometimes add value, especially when additional meta-analysis confirms whether a clinically significant effect is or is not also statistically significant.20 But sometimes, the term “systematic review” allows a data aggregation to claim a more privileged position within the knowledge hierarchy than it actually deserves.11 We acknowledge that the science of systematic review within the Cochrane and Campbell Collaborations is evolving to embrace a wider range of primary studies and methodologies, with recommended procedures for sampling, assessment and synthesis of evidence compliant with the question asked and the context explored. The adjective “systematic” is thus coming to acquire a broader meaning in terms of the transparency and appropriateness of methods, rather than signifying strict adherence to a particular pre-defined tool or checklist or a privileging of randomised trials (see for example methodological work by Lewin et al,21 Petticrew et al22 and Pluye et al23-25). All these approaches, however, remain focused on answering a relatively narrow question that is predefined at the outset and with a primary focus on the extraction, tabulation and summation of empirical data. A narrative review is a scholarly summary along with interpretation and critique.26 It can be conducted using a number of distinctive methodologies. While principles and procedures may diverge from the classic methodology of systematic review, they are not unsystematic (in the sense of being ad hoc or careless), and may certainly be conducted and presented in a systematic way, depending on purpose, method and context. Different kinds of reviews offer different kinds of truth: the conventional systematic review with meta-analysis deals in probabilistic (typically, Bayesian) truth; it is concerned mainly with producing generalisable “facts” to aid prediction. The narrative review, in contrast, deals in plausible truth. Its goal is an authoritative argument, based on informed wisdom that is convincing to an audience of fellow experts. To that end, the author of a narrative review must authentically represent in the written product both the underpinning evidence (including but not limited to primary research) and how this evidence has been drawn upon and drawn together to inform the review's conclusions. A hermeneutic review takes as its reference point the notion of verstehen, or the process of creating an interpretive understanding.14 It capitalises on the continual deepening of insight that can be obtained by critical reflection on particular elements of a dataset—in this case, individual primary studies—in the context of a wider body of work. It may or may not define its reference body of studies using systematic search methods and inclusion/exclusion criteria, but its primary focus is on the essential tasks of induction and interpretation in relation to the defined sample for the purpose of advancing theoretical understanding.17 A realist review considers the “generative causality,” in which particular mechanisms (for example, peer influence) produce particular outcomes (for example, smoking cessation) in some circumstances (for example, when societal disapproval of smoking is high) but not others (for example, in cultures where smoking is still widely viewed as a mark of sophistication).27 A meta-narrative review maps the storyline of a research tradition over time.28 Shifting the focus away from comparing findings of studies published at different times, it orients critical reflection to discern how ideas have waxed and waned within different scholarly communities at different points in the development of thinking (see an early example of how the term “diffusion of innovations” was differently defined and explored in different academic disciplines29). Each of these forms of narrative review (along with other specialist approaches to combining primary studies in qualitative research30, 31) reflects an explicit lens that is expected to shape the understandings that will arise from the review process, through analysis and synthesis processes that may be highly systematic. Narrative reviews also include a number of more generic styles such as integrative32, 33 and critical,34 the former being the approach generally taken by narrative reviews in clinical journals. All these approaches play an important role in expanding our understanding not only of the topic in question but also of the reasons why it has been studied in a particular way, the interpretations that have been variously made with respect to what we know about it, and the nature of the knowledge base that informs or might inform clinical practice. Because hermeneutic, realist and meta-narrative reviews have explicit methodologies and accepted standards and criteria for judging their quality,14, 27, 28 a minority of scholars include such approaches within the (broadly defined) category of systematic reviews. However, we have had experience of journal editors rejecting reviews based on these techniques on the grounds that they were “not systematic”. Also of note is the emergence of “how-to” guides for narrative reviews, which (misleadingly in our view) exhort the reviewer to focus carefully on such tasks as starting with an explicit search strategy and defining strict inclusion and exclusion criteria for primary studies.35, 36 In other words, the boundaries between systematic and narrative reviews are both fuzzy and contested. The conflation of “systematic” with superior quality (and “narrative” with inferior quality) has played a major role in the muddying of methodological waters in secondary research. This implicit evidence hierarchy (or pyramid) elevates the mechanistic processes of exhaustive search, wide exclusion and mathematical averaging over the thoughtful, in-depth, critically reflective processes of engagement with ideas. The emphasis on thinking and interpretation in narrative review has prompted some authors to use the term “evidence-informed” rather than “evidence-based”15, 37: the narrative review is both less and more than a methods-driven exercise in extracting and summating data. Training in systematic reviews has produced a generation of scholars who are skilled in the technical tasks of searching, sorting, checking against inclusion criteria, tabulating extracted data and generating “grand means” and confidence intervals.3 These skills are important, but as the recent article by Faggion et al illustrates, critics may incorrectly assume that they override and make redundant the generation of understanding. To the extent that the term “systematic review” privileges only that which is common in the findings amongst a rigidly defined subset of the available body of work, we risk losing sight of the marvellous diversities and variations that ought to intrigue us. In excluding those aspects of scholarship, systematic reviews hold the potential to significantly skew our knowledge landscape. While there are occasions when systematic review is the ideal approach to answering specific types of question, the absence of thoughtful, interpretive critical reflection can render such products hollow, misleading and potentially harmful. The argument that systematic reviews are less biased than narrative reviews begs the question of what we mean by bias. Bias is an epidemiological construct, which refers to something that distorts the objective comparisons between groups.20 It presupposes the dispassionate, instrumental and universal “view from nowhere” that has long defined the scientific method.38 When we speak of interpretation, we refer to an analysis that is necessarily perspectival, with the interpreter transparently positioned in order that the reader can understand why this particular perspective, selection process and interpretive methodology was selected in relation to the question at hand.14, 17, 29, 37, 39 Systematic and transparent reflection upon and sharing of such aspects of the research process adds to the scientific quality of interpretive research. The question of whether “systematic” review techniques can eliminate bias in secondary research is in any case questionable. The privileging of freedom from bias over relevance of question and findings wrongly assumes that how the topic is framed, and which questions should be explored is somehow self-evident. A recent review of systematic reviews generated by a national knowledge centre to inform policymaking in Norway showed that in most cases, the evidence base addressed only a fraction of relevant policy questions.40 More generally, there is growing evidence that the science of systematic reviews is becoming increasingly distorted by commercial and other conflicts of interest, leading to reviews, which—often despite ticking the boxes on various quality checklists—are unnecessary, misleading or partisan.19, 41 The holy grail of a comprehensive database of unambiguous and unbiased evidence summaries (in pursuit of which the Cochrane Collaboration was founded42) continues to recede into the future. A legitimate criticism of narrative reviews is that they may “cherry pick” evidence to bolster a particular perspective. But this must be weighed against the counter-argument that the narrative reviewer selects evidence judiciously and purposively with an eye to what is relevant for key policy questions—including the question of which future research programmes should be funded. Whilst we accept that narrative reviews can be performed well or badly, we believe the undervaluing of such reviews is a major contributor to research waste. In the absence of an interpretive overview of a topic that clearly highlights the state of knowledge, ignorance and uncertainty (explaining how we know what we know, and where the intriguing unanswered questions lie), research funding will continue to be ploughed into questions that are of limited importance, and which have often already been answered.40 This principle was illustrated in a recent hermeneutic review of telehealth in heart failure by one of us.43 It identified 7 systematic reviews of systematic reviews, 32 systematic reviews (including 17 meta-analyses) covering hundreds of primary studies, as well as six mega-trials—almost all of which had concluded that more research (addressing the same narrow question with yet more randomised trials intended to establish an effect size for telehealth) was needed. The hermeneutic approach revealed numerous questions that had remained under-explored as researchers had pursued this narrow question—including the complex and changing nature of the co-morbidities and social determinants associated with heart failure, the varied experiences and priorities of patients with heart failure, the questionable nature of up-titration as a guiding principle in heart failure management, and the numerous organisational, regulatory and policy-level complexities associated with introducing telehealth programmes. The review concluded that: “The limited adoption of telehealth for heart failure has complex clinical, professional and institutional causes, which are unlikely to be elucidated by adding more randomised trials of technology-on versus technology-off to an already-crowded literature. An alternative approach is proposed, based on naturalistic study designs, application of social and organisational theory, and co-design of new service models based on socio-technical principles” (page 156). As many authors and journal editors are well aware, the narrative review is not a poor cousin of the systematic review but a different and potentially complementary form of scholarship.22, 44 Nevertheless, the simplistic hierarchy “systematic review good; narrative review less good” persists in some circles. The under-acknowledged limitations of systematic reviews, along with missed opportunities for undertaking and using narrative reviews to extend understanding within a field, risks legitimising and perpetuating a narrow and unexciting research agenda and contributing to research waste. We call upon policymakers and clinicians (who seek to ensure that their decisions are evidence-based, but who may have been seduced by a spurious hierarchy of secondary evidence) and on research commissioners (whose decisions will shape the generation of the future evidence base) to re-evaluate the low status currently afforded to narrative reviews. TG was invited to submit a paper on a topic of her choice to EJCI by the editor. She suggested this topic to ST and KM and wrote an initial outline for the paper. All authors then contributed iteratively and equally to the development of ideas and refinement of the paper.",
+      "year": "2018",
+      "published_date": "2018-03-26",
+      "journal": "European Journal of Clinical Investigation",
+      "url": "https://doi.org/10.1111/eci.12931",
+      "arxiv_id": "",
+      "keywords": [
+        "Spurious relationship",
+        "Narrative",
+        "Hierarchy",
+        "Narrative review",
+        "Systematic review",
+        "MEDLINE",
+        "Psychology",
+        "Computer science"
+      ],
+      "citations": 1032,
+      "source": "OpenAlex",
+      "doi": "10.1111/eci.12931",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded"
+    },
+    {
+      "title": "Disordered eating and the perinatal period: A systematic review and best evidence synthesis of mental health and psychosocial correlates.",
+      "authors": [
+        "Rachel Baskin",
+        "R. Galligan"
+      ],
+      "abstract": "OBJECTIVE\nThis paper systematically reviews the literature to date on the relationship between disordered eating and mental health, psychological and social factors during pregnancy and the post-partum period, as well as the direction of associations.\n\n\nMETHODS\nPeer reviewed articles were sourced from seven databases: PsycINFO, CINAHL, Psychology and Behavioural Sciences Collection, Academic Search Complete, Scopus (MEDLINE), Web of Science, and Proquest. A quality review and best evidence synthesis was conducted.\n\n\nRESULTS\nThe final review included 11 prospective cohort and 14 cross sectional/retrospective studies. According to a synthesis of findings, a strong level of evidence supports an association between disordered eating during pregnancy and depressive and anxiety symptoms during pregnancy. There was also a limited level of evidence for the association between disordered eating and obsessive-compulsive symptoms during pregnancy and between disordered eating and depressive symptoms during the post-partum period. No directions of associations could be determined.\n\n\nCONCLUSIONS\nOn the basis of initial findings, it is recommended that depressive and anxiety symptoms be monitored in conjunction with any disordered eating concerns during perinatal care. Given the significance of the childbearing years to the health and well-being of both mother and infant, further prospective cohort studies in this area are necessitated.",
+      "year": "2019",
+      "published_date": "2019-09-01",
+      "journal": "European eating disorders review",
+      "url": "https://www.semanticscholar.org/paper/66f6d0528ee3a018c87a66374c526cbdcb57a352",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 19,
+      "source": "Semantic Scholar",
+      "doi": "10.1002/erv.2675",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Computational Review of Technology-Assisted Medical Evidence Synthesis through Human-LLM Collaboration: A Case Study of Cochrane",
+      "authors": [
+        "Yiping Ding",
+        "Xiaorui Jiang",
+        "Opeoluwa Akinseloyin"
+      ],
+      "abstract": "Abstract\n                Medical evidence synthesis, typically done by systematic reviews, requires extensive manual effort across stages such as searching, screening, extraction, and synthesis, making them slow and costly. These limitations hinder timely updates and rapid responses during health crises. Interests in technology-assisted evidence synthesis have been increasing, driven by artificial intelligence (AI) and large language models (LLMs). In 2024, four major networks including the Cochrane, Campbell Collaboration, Joanna Briggs Institute and Collaboration for Environmental Evidence jointly launched an AI Methods Group to advance automation in evidence synthesis. This chapter presents a large-scale computational analysis of technology-assisted MES across 7,271 Cochrane reviews (2010– 2024), identifying computer tools—software, packages, or algorithmic implementations—used at different review stages via an LLM-human collaborative annotation pipeline. A multi-LLM mechanism combining suggestion, verification, and self-critical questioning achieved high-recall tool extraction. Evaluation against five “gold-standard” tool lists showed major gains: approximately 100 additional tools were identified compared to each existing review-based, database-based, and Cochrane-curated gold standards. Eventually, a list of in total 514 tools was compiled. Two annotators verified all candidates within two days, demonstrating notable efficiency. A follow-up bibliometric analysis provides the first computational map of technology use in Cochrane evidence synthesis, revealing trends across time, domains, and regions.",
+      "year": "2025",
+      "published_date": "2025-11-10",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1101/2025.11.08.25339805",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1101/2025.11.08.25339805",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis literature review"
+    },
+    {
+      "title": "The experiences of emergency hospital care among adolescents and young adults with self-harm: A systematic review and thematic synthesis of qualitative evidence.",
+      "authors": [
+        "Yan Zhang",
+        "Yinying Zhang",
+        "Deying Hu",
+        "Yilan Liu",
+        "Xiaoping Ding",
+        "Ke-da Xu",
+        "M. Wu",
+        "Jiaqing Wang"
+      ],
+      "abstract": "QUESTION\nThe incidence of self-injurious behavior in adolescents and young adults is on the rise. Seeking care in the emergency department after self-injurious behavior is one way they signal for help. The purpose of this systematic evaluation was to synthesize the best available qualitative research evidence on young people's experiences of emergency department visits following self-harm behaviors and their need for emergency medical services.\n\n\nSTUDY SELECTION AND ANALYSIS\nEleven databases were retrieved with predefined search terms from database construction to February 4, 2022. Literature was screened according to inclusion and exclusion criteria and quality assessment.\n\n\nFINDINGS\nEleven studies yielded fifty-five findings that were summarized into eight categories and aggregated into three composite statements: (1) positive emergency department experience; (2) negative emergency department experience; and (3) desire for help.\n\n\nCONCLUSIONS\nYoung people with a history of self-injurious behavior have a mixed sense of experience in the emergency department. The sense of negative experience makes patients feel dissatisfied and disappointed with healthcare services, and positive experiences can help them seek further help. The emergency departments should improve the diagnosis and treatment model of self-injured adolescent patients to ensure that they receive effective and high-quality medical resources.",
+      "year": "2023",
+      "published_date": "2023-06-19",
+      "journal": "International Emergency Nursing",
+      "url": "https://www.semanticscholar.org/paper/626505077c84e7576049b0b886238007989a9731",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.ienj.2023.101297",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "The Biophilic School: A Critical Synthesis of Evidence-Based Systematic Literature Reviews",
+      "authors": [
+        "K. Fisher"
+      ],
+      "abstract": "Biophilic design emphasises human connections to nature to enhance health and well-being. In health and medical environments, the biophilic design hypothesis suggests improved healing and health outcomes when patients have a connection to nature. Emerging evidence indicates that if teachers and students experience a greater sense of health and well-being in the campus environment, they are likely to have better teaching and learning outcomes. To understand this at a deep level, a critical synthesis and analysis of some fifty systematic reviews outlines the significant emerging body of evidence in support of this approach. Systematic reviews are a fundamental basis for new research to be framed in the context of existing research findings within the evidence-based research methodology. Key outcomes of this critical synthesis review are that there is compelling evidence of some 70 health and well-being factors being improved though biophilic design. Also, organising an agreed taxonomy of biophilic design and health and well-being elements at a granular level would assist in simplifying and compiling the evidence of the benefits of such an approach to inform school funding, planning, design and operations authorities.",
+      "year": "2024",
+      "published_date": "2024-07-12",
+      "journal": "Architecture",
+      "url": "https://www.semanticscholar.org/paper/3fae68245d352ed7b19c05168aafd57353282101",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/architecture4030025",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Synthesis of the clinical utilities and issues of intraoperative imaging devices in clinical reports: a systematic review and thematic synthesis",
+      "authors": [
+        "Hiroyuki Suzuki",
+        "Y. Tsuboko",
+        "Manabu Tamura",
+        "Ken Masamune",
+        "Kiotaka Iwasaki"
+      ],
+      "abstract": "Intraoperative imaging devices (i-ID), such as intraoperative optical coherence tomography (iOCT), offer surgeons critical insights previously unobservable, enhancing surgical precision and safety. Despite their benefits, i-IDs present challenges that necessitate early identification and synthesis of clinical issues to promote safer surgical implementation. This study aims to explore the potential of Qualitative Evidence Synthesis (QES) for synthesising qualitative evidence from clinical reports regarding the clinical utility and issues associated with iOCT devices. In June 2022, we conducted a systematic literature search using PubMed, Web of Science, Embase, and the Cochrane Library for articles on iOCT for retinal surgery. Criteria included articles in English, with at least ten cases, and providing qualitative insights into iOCT’s utilities and issues. We performed thematic synthesis from the identified articles using qualitative data analysis software, beginning with initial coding of the ‘Results’ and ‘Discussion’ sections to create themes reflecting iOCT’s utilities and issues. The created themes were further refined through axial coding and were used to construct a model illustrating iOCT’s potential influence on patient outcomes. The reliability and validity of the themes were ensured through independent coding, expert consultations, and iterative revisions to achieve consensus among reviewers. The QES approach enabled systematic data extraction and synthesis, providing a comprehensive view of both the utilities and issues associated with iOCT. Our findings emphasise the significant role of iOCT in enhancing decision-making, specifically in membrane peeling tasks and in detecting preoperatively undetected conditions such as full-thickness macular holes. This study also revealed critical insights into the technical challenges associated with iOCT, including device malfunctions and procedural interruptions, which are vital for improving device safety and integration into surgical practice. The application of QES facilitated a thorough investigation into the clinical utilities and issues of iOCT, encouraging the application of this method in the ongoing evaluation of i-ID technologies. This initial experience with QES confirms its potential in synthesising qualitative clinical data and suggests its applicability to other i-ID modalities. This approach enhances the reliability of findings and provides a solid foundation for assessing clinical utilities and issues for policymakers and medical specialists.",
+      "year": "2025",
+      "published_date": "2025-02-10",
+      "journal": "BMC Medical Informatics and Decision Making",
+      "url": "https://www.semanticscholar.org/paper/965f7325de06914961faf00c0c5724108ac025b6",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s12911-025-02915-x",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "214a33a267e6fcc6e178e7de59f986520696ef14735b0ac05ab77c29588b9e52",
+  "elapsed_seconds": 17.574,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q198_schema_single_agent_20260724_024605.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

@@ -1,0 +1,244 @@
+{
+  "query_id": "Q076",
+  "query": "孤儿引用率（OR）与 ICP/ECP 之间存在哪些无法互相替代的信息内容？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "id": "gs_f8d3325e2b",
+      "title": "Service recovery by AI or human agents: do failure and strategy context matter?",
+      "abstract": "… of AI versus human service recovery as a function of service … of service recovery agent with the specific type of service failure … and their lack of expertise and background knowledge, …",
+      "authors": [
+        "A Fürst",
+        "L Trißler",
+        "R Friedrich",
+        "J Wirtz"
+      ],
+      "year": 2025,
+      "journal": "A Fürst, L Trißler, R Friedrich, J Wirtz - Journal of Service …, 2025 - emerald.com",
+      "citations": 20,
+      "url": "https://www.emerald.com/josm/article-abstract/36/3/390/1274568",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Researching outcomes from forensic services for people with intellectual or developmental disabilities: a systematic review, evidence synthesis and expert and patient/carer consultation",
+      "authors": [
+        "C. Morrissey",
+        "Nicole Geach",
+        "R. Alexander",
+        "V. Chester",
+        "J. Devapriam",
+        "C. Duggan",
+        "P. Langdon",
+        "B. Lindsay",
+        "J. McCarthy",
+        "D. Walker"
+      ],
+      "abstract": "Background: Inpatient services for people with intellectual and other types of developmental disabilities (IDD) who also have forensic or risk issues are largely provided in secure hospitals. Although this is a health service sector with high levels of expenditure, there is limited empirical information on patient outcomes from such services. In order for a future substantive longitudinal outcomes study in forensic IDD services to be informed and feasible, more needs to be understood about the outcome domains that are of relevance and importance and how they should be measured. A preliminary series of studies was therefore undertaken. Objectives: To synthesise evidence in relation to the outcome domains that have been researched in the existing literature from hospital and community forensic services for people with IDD, within the broad domains of service effectiveness, patient safety and patient experience. To identify a definitive framework of outcome domains (and associated measures and indicators) based both on this research evidence and on the views of patients, carers and clinicians. To synthesise the information gathered in order to inform design of future multisite longitudinal research in the sector. Design: Three linked studies were conducted. Stage 1 was a systematic review and evidence synthesis of outcome domains and measures as found within the forensic IDD literature. Stage 2 was a consultation exercise with 15 patients with IDD and six carers. Stage 3 was a modified Delphi consensus exercise with 15 clinicians and experts using the information gathered at stages 1 and 2. Results: At stage 1, 60 studies that researched a range of outcomes in forensic IDD services were identified from the literature. This resulted in the construction of an initial framework of outcome domains. The consultation with patients and carers at stage 2 added to these framework domains that related particularly to carer experience and the level of support post discharge in the community. The Delphi process at stage 3 confirmed the validity of the resulting framework for clinician. This survey also identified the outcome measures preferred by clinicians and those that are currently utilised in services. Thus, indicators of appropriate measures in some important domains were identified, although there was a paucity of measures in other domains. Conclusions: Together, these three linked studies led to the development of an evidence-based framework of key outcome domains and subdomains. A provisional list of associated measures and indicators was developed, although with the paucity of measures in some domains development of specific indicators may be required. With further refinement this could eventually be utilised by services and commissioners for comparative purposes, and in future empirical research on outcomes in forensic IDD services. An outline research proposal closely linked to recent policy initiatives was proposed. Limitations of the study include the relatively small number of carers and patients and range of experts consulted. Future work: This would comprise a national longitudinal study tracking IDD in patients through hospitalisation and discharge. Study registration: This study is registered as PROSPERO CRD42015016941. Funding: The National Institute for Health Research Health Services and Delivery Research programme.",
+      "year": "2017",
+      "published_date": "2017-01-24",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/793960e03a11923d5d34e1e4ed219ecaf739fd1a",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 17,
+      "source": "Semantic Scholar",
+      "doi": "10.3310/HSDR05030",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis survey"
+    },
+    {
+      "id": "gs_494002704a",
+      "title": "AI or Human? An Analysis of University Students' Awareness of Reference Services Agent",
+      "abstract": "… First, it finds that students tended to think the AI agent had better knowledge and ability to handle difficult questions of various subjects. This agrees with previous studies that manual …",
+      "authors": [
+        "D Wang",
+        "J Guo",
+        "K Zheng"
+      ],
+      "year": 2024,
+      "journal": "D Wang, J Guo, K Zheng - International Conference on Asian Digital …, 2024 - Springer",
+      "citations": 3,
+      "url": "https://link.springer.com/chapter/10.1007/978-981-96-0868-3_19",
+      "doi": "10.1007/978-981-96-0868-3_19D",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "wf_qk3e_000030688325",
+      "title": "Blaming yourself, your partner, or an unexpected event: Attribution biases and trust in a physical coordination task",
+      "abstract": "As robots enabled by artificial <span class='highlight'>intelligence</span> become more <span class='highlight'>agentic</span>, people may come to develop trust schemas based on a robot's actions and attribute blame to the robot as they would with a human  partner. Trust and blame have yet to be investigated during dynamic physical coordination tasks despite the potential ramifications for manufacturing and <span class='highlight'>service</span> industries that could benefit from effective  human–robot physical coordination. In anticipation of future human–robot work configurations, we developed a joint physical coordination task as a preliminary test environment for understanding trust  and blame in a work partner. Fifty‐five participants were asked to jointly balance and transport a weighted box along a fixed path, and we used this test environment to evaluate the impact of a  surprising event on trust in a work partner, and attribution of blame following a negative performance outcome. Results indicate that the group who experienced a surprising event compared to the group who did",
+      "authors": [
+        "Chi‐Ping Hsiung",
+        "Gabriel A. León",
+        "David Stinson",
+        "Erin K. Chiou"
+      ],
+      "year": 2023,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1002/hfm.20998",
+      "doi": "10.1002/hfm.20998",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "blame",
+        "human—robot",
+        "physical coordination",
+        "surprise",
+        "trust"
+      ],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Scoping Reviews and Systematic Reviews: Is It an Either/Or Question?",
+      "authors": [
+        "Stephanie Chang"
+      ],
+      "abstract": "Editorials2 October 2018Scoping Reviews and Systematic Reviews: Is It an Either/Or Question?Stephanie Chang, MD, MPHStephanie Chang, MD, MPHAgency for Healthcare Research and Quality, Rockville, Maryland (S.C.)Author, Article, and Disclosure Informationhttps://doi.org/10.7326/M18-2205 SectionsAboutFull TextPDF ToolsAdd to favoritesDownload CitationsTrack CitationsPermissions ShareFacebookTwitterLinkedInRedditEmail What has always bothered me about the term \"scoping review\" is that, despite a clear role in knowledge synthesis, the name alone implies that it is not a systematic review. A systematic review has a clear definition and methods. Ascribing a different name to scoping reviews implies that they do not meet the definition of a systematic review. Although many groups have published on methods, without universally agreed-on standards for what constitutes a scoping review, regional variation and individual interpretation allow for a wide range of methods and approaches. An article in this issue may begin to change this.Using ...References1. Moher D, Schulz KF, Simera I, Altman DG. Guidance for developers of health research reporting guidelines. PLoS Med. 2010;7:e1000217. [PMID: 20169112] doi:10.1371/journal.pmed.1000217 CrossrefMedlineGoogle Scholar2. Tricco AC, Lillie E, Zarin W, O'Brien KK, Colquhoun H, Levac D, et al. PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation. Ann Intern Med. 2018;169:467-73. doi:10.7326/M18-0850 LinkGoogle Scholar3. Liberati A, Altman DG, Tetzlaff J, Mulrow C, Gøtzsche PC, Ioannidis JP, et al. The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate health care interventions: explanation and elaboration. Ann Intern Med. 2009;151:W65-W94. [PMID: 19622512] LinkGoogle Scholar4. Whitlock EP, Lopez SA, Chang S, Helfand M, Eder M, Floyd N. AHRQ series paper 3: identifying, selecting, and refining topics for comparative effectiveness systematic reviews: AHRQ and the effective health-care program. J Clin Epidemiol. 2010;63:491-501. [PMID: 19540721] doi:10.1016/j.jclinepi.2009.03.008 CrossrefMedlineGoogle Scholar5. Eder M, Feightner A, Webber E, Guirguis-Blake J, Whitlock E. Developing and Selecting Topic Nominations for Systematic Reviews. Methods Guide for Comparative Effectiveness Reviews. AHRQ publication no. 12(13)-EHC153-EF. Rockville: Agency for Healthcare Research and Quality; November 2012. Accessed at https://effectivehealthcare.ahrq.gov/topics/methods-guidance-topic-nomination/methods on 15 August 2018. Google Scholar6. Chou R, Korthuis PT, Weimer M, Bougatsos C, Blazina I, Zakher B, et al. Medication-Assisted Treatment Models of Care for Opioid Use Disorder in Primary Care Settings. Technical brief no. 28. (Prepared by the Pacific Northwest Evidence-based Practice Center under contract no. 290-2015-00009-I.) AHRQ publication no. 16(17)-EHC039-EF. Rockville: Agency for Healthcare Research and Quality; December 2016. Accessed at https://effectivehealthcare.ahrq.gov/topics/opioid-use-disorder/technical-brief on 15 August 2018. Google Scholar7. Totten AM, Womack DM, Eden KB, McDonagh MS, Griffin JC, Grusing S, et al. Telehealth: Mapping the Evidence for Patient Outcomes From Systematic Reviews. Technical brief no. 26. (Prepared by the Pacific Northwest Evidence-based Practice Center under contract no. 290-2015-00009-I.) AHRQ publication no. 16-EHC034-EF. Rockville: Agency for Healthcare Research and Quality; June 2016. Accessed at https://effectivehealthcare.ahrq.gov/topics/telehealth/technical-brief on 15 August 2018. Google Scholar Author, Article, and Disclosure InformationAffiliations: Agency for Healthcare Research and Quality, Rockville, Maryland (S.C.)Disclosures: The author has disclosed no conflicts of interest. The form can be viewed at www.acponline.org/authors/icmje/ConflictOfInterestForms.do?msNum=M18-2205.Corresponding Author: Stephanie Chang, MD, MPH, Agency for Healthcare Research and Quality, 5600 Fishers Lane, Rockville, MD 20857; e-mail, stephanie.[email protected]hhs.gov.This article was published at Annals.org on 4 September 2018. PreviousarticleNextarticle Advertisement FiguresReferencesRelatedDetailsSee AlsoPRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation Andrea C. Tricco , Erin Lillie , Wasifa Zarin , Kelly K. O'Brien , Heather Colquhoun , Danielle Levac , David Moher , Micah D.J. Peters , Tanya Horsley , Laura Weeks , Susanne Hempel , Elie A. Akl , Christine Chang , Jessie McGowan , Lesley Stewart , Lisa Hartling , Adrian Aldcroft , Michael G. Wilson , Chantelle Garritty , Simon Lewin , Christina M. Godfrey , Marilyn T. Macdonald , Etienne V. Langlois , Karla Soares-Weiser , Jo Moriarty , Tammy Clifford , Özge Tunçalp , and Sharon E. Straus Metrics Cited byThe effect of audio on the experience in virtual reality: a scoping reviewCerebrospinal fluid findings of infant tuberculous meningitis: a scoping reviewHow missing evidence-based medicine indicators can inform COVID-19 vaccine distribution policies: a scoping review and calculation of indicators from data in randomised controlled trialsNursing Home-Sensitive Hospitalizations and the Relevance of Telemedicine: A Scoping ReviewIntimate Partner Violence Among Sexual Minority Women: A Scoping ReviewA SCOPING REVIEW OF THE RANGIFER TARANDUS INFECTIOUS DISEASE LITERATURE: GAP BETWEEN INFORMATION AND APPLICATIONPotential impacts of climate, land use and land cover changes on hydropower generation in West Africa: a reviewCharacterization of the Clinical Evidence Supporting Repository Corticotropin Injection for FDA-Approved IndicationsWorkplace productivity loss as a result of absenteeism and presenteeism in chronic and episodic migraine: a scoping reviewA scoping review of research on school-based outdoor education in the Nordic countriesCosts and Economic Impacts of Physician Continuous Professional Development: A Systematic Scoping ReviewBarriers and facilitators to attending dental care appointments among adults in low- and middle-income countries: a scoping review protocolHave (R)-[11C]PK11195 challengers fulfilled the promise? A scoping review of clinical TSPO PET studiesExploring the contribution of housing adaptations in supporting everyday life for people with dementia: a scoping reviewThe impact of school gardens on youth social and emotional learning: a scoping reviewContextualising clinical reasoning within the clinical swallow evaluation: A scoping review and expert consultationFood Insecurity in US Military VeteransWhat is known about the protective factors that promote LGBTI+ youth wellbeing? A scoping review protocolCraving and opioid use disorder: A scoping reviewWhat Does Head Impulse Testing Really Test?—ReplyHealth-related preferences of older patients with multimorbidity: the protocol for an evidence mapEvaluating the Diagnostic Accuracy of the Head-Impulse Test 2 October 2018Volume 169, Issue 7Page: 502-503KeywordsEvidence based medicineHealth care qualityHealth services researchInformation technologyOpioid use disorderResearch designResearch quality assessmentResearch reporting guidelinesSystematic reviewsTelemedicine ePublished: 4 September 2018 Issue Published: 2 October 2018 PDF downloadLoading ...",
+      "year": "2018",
+      "published_date": "2018-09-03",
+      "journal": "Annals of Internal Medicine",
+      "url": "https://doi.org/10.7326/m18-2205",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine",
+        "Systematic review",
+        "MEDLINE",
+        "Medical physics"
+      ],
+      "citations": 59,
+      "source": "OpenAlex",
+      "doi": "10.7326/m18-2205",
+      "open_access": false,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm literature review"
+    },
+    {
+      "title": "A Survey of Data Agents: Emerging Paradigm or Overstated Hype?",
+      "authors": [
+        "Yizhang Zhu",
+        "Liangwei Wang",
+        "Chenyu Yang",
+        "Xiaotian Lin",
+        "Boyan Li",
+        "Wei Zhou",
+        "Xinyu Liu",
+        "Zhangyang Peng",
+        "Tianqi Luo",
+        "Yu Li",
+        "Chengliang Chai",
+        "Chong Chen",
+        "Shimin Di",
+        "Ju Fan",
+        "Ji Sun",
+        "Nan Tang",
+        "F. Tsung",
+        "Jiannan Wang",
+        "Chenglin Wu",
+        "Yanwei Xu",
+        "Shaolei Zhang",
+        "Yong Zhang",
+        "Xuanhe Zhou",
+        "Guoliang Li",
+        "Yuyu Luo"
+      ],
+      "abstract": "The rapid advancement of large language models (LLMs) has spurred the emergence of data agents, autonomous systems designed to orchestrate Data + AI ecosystems for tackling complex data-related tasks. However, the term\"data agent\"currently suffers from terminological ambiguity and inconsistent adoption, conflating simple query responders with sophisticated autonomous architectures. This terminological ambiguity fosters mismatched user expectations, accountability challenges, and barriers to industry growth. Inspired by the SAE J3016 standard for driving automation, this survey introduces the first systematic hierarchical taxonomy for data agents, comprising six levels that delineate and trace progressive shifts in autonomy, from manual operations (L0) to a vision of generative, fully autonomous data agents (L5), thereby clarifying capability boundaries and responsibility allocation. Through this lens, we offer a structured review of existing research arranged by increasing autonomy, encompassing specialized data agents for data management, preparation, and analysis, alongside emerging efforts toward versatile, comprehensive systems with enhanced autonomy. We further analyze critical evolutionary leaps and technical gaps for advancing data agents, especially the ongoing L2-to-L3 transition, where data agents evolve from procedural execution to autonomous orchestration. Finally, we conclude with a forward-looking roadmap, envisioning proactive, generative data agents.",
+      "year": "2025",
+      "published_date": "2025-10-27",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/543000d31622fa79186133f51b5058c4c97e7b9d",
+      "arxiv_id": "2510.23587",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 15,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2510.23587",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent survey"
+    },
+    {
+      "title": "Platelet-rich fibrin as a hemostatic agent in dental extractions in patients taking anticoagulants or antiplatelet medication: a systematic review",
+      "authors": [
+        "M. Katz",
+        "M. Ooms",
+        "M. Heitzer",
+        "Tim Steiner",
+        "A. Bock",
+        "F. Peters",
+        "F. Hölzle",
+        "A. Modabber"
+      ],
+      "abstract": "The aim of this systematic review was to evaluate whether platelet-rich-fibrin (PRF) is effective in preventing postoperative bleeding after dental extractions in patients on anticoagulation or antiplatelet therapy compared to stitches alone and different hemostatic agents. This systematic review was conducted and reported according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA). The protocol was registered at the International Prospective Register of Systematic Reviews (PROSPERO) (registration number CRD42024562289). Two authors independently performed searches in several databases, including PubMed, EMBASE, Cochrane Library, and SCOPUS. In total, 789 studies were identified, of which 11 met the inclusion criteria after full-text screening. Four studies evaluated the efficiency of PRF in patients on antiplatelet therapy, and seven studies analyzed its hemostatic effect in patients on anticoagulants. All studies showed sufficient hemostasis when PRF was used, but due to heterogeneity meta-analysis was not possible. Despite the use of different protocols and control groups, PRF treatment seems to be superior to only stitches and inferior to chitosan dressings concerning the time of hemostasis. Additionally, PRF seems to be beneficial in terms of faster wound healing and less postoperative pain. PRF is known to enhance soft tissue healing and reduce postoperative pain. As a fully autologous platelet concentrate, it can support hemostasis after dental extractions in patients on antiplatelet or anticoagulation therapy. This systematic review aims to provide an update of the existing literature on PRF and its hemostatic capacity in patients with blood thinning medication.",
+      "year": "2024",
+      "published_date": "2024-10-10",
+      "journal": "Clinical Oral Investigations",
+      "url": "https://www.semanticscholar.org/paper/d95ce69c17bfdb2184b24886ed495f62ed1a72f8",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 6,
+      "source": "Semantic Scholar",
+      "doi": "10.1007/s00784-024-05983-x",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    },
+    {
+      "title": "Tools, techniques, methods, and processes for the detection and mitigation of fraudulent or erroneous data in evidence synthesis: a scoping review protocol.",
+      "authors": [
+        "T. Barker",
+        "G. McBride",
+        "A. Ross-White",
+        "D. Pollock",
+        "Cindy Stern",
+        "Sabira Hasanoff",
+        "R. Kanukula",
+        "Mafalda M Dias",
+        "A. Scott",
+        "E. Aromataris",
+        "Ashley Whitehorn",
+        "Jennifer Stone",
+        "Larissa Shamseer",
+        "P. Palmieri",
+        "M. Klugar",
+        "Z. Munn"
+      ],
+      "abstract": "OBJECTIVE\nThis scoping review aims to identify, catalogue, and characterize previously reported tools, techniques, methods, and processes that have been recommended or used by evidence synthesizers to detect fraudulent or erroneous data and mitigate its impact.\n\n\nINTRODUCTION\nDecision-making for policy and practice should always be underpinned by the best available evidence-typically peer-reviewed scientific literature. Evidence synthesis literature should be collated and organized using the appropriate evidence synthesis methodology, best exemplified by the role systematic reviews play in evidence-based health care. However, with the rise of \"predatory journals,\" fraudulent or erroneous data may be invading this literature, which may negatively affect evidence syntheses that use this data. This, in turn, may compromise decision-making processes.\n\n\nINCLUSION CRITERIA\nThis review will include peer-reviewed articles, commentaries, books, and editorials that describe at least 1 tool, technique, method, or process with the explicit purpose of identifying or mitigating the impact of fraudulent or erroneous data for any evidence synthesis, in any topic area. Manuals, handbooks, and guidance from major organizations, universities, and libraries will also be considered.\n\n\nMETHODS\nThis review will be conducted using the JBI methodology for scoping reviews and reported according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR). Databases and relevant organizational websites will be searched for eligible studies. Title and abstract, and subsequently full-text screening will be conducted in duplicate using Covidence. Data from identified full texts will be extracted using a pre-determined checklist, while the findings will be summarized descriptively and presented in tables.\n\n\nTHIS SCOPING REVIEW PROTOCOL WAS REGISTERED IN OPEN SCIENCE FRAMEWORK\nhttps://osf.io/u8yrn.",
+      "year": "2024",
+      "published_date": "2024-09-10",
+      "journal": "JBI Evidence Synthesis",
+      "url": "https://www.semanticscholar.org/paper/22a62795de37c9a7912af0b3fee86fbaff1baf57",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.11124/JBIES-24-00167",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    }
+  ],
+  "timestamp": "20260413_094647"
+}

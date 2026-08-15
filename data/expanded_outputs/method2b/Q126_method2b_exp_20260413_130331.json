@@ -1,0 +1,217 @@
+{
+  "query_id": "Q126",
+  "query": "When a multi-agent system synthesizes claims about cultural influence from citation network data, what grounding checks prevent fabricated edges?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Kelvin Wake-Aware Multi-Agent Network for Ship Kinematic Information Retrieval from Weak Optical Signatures",
+      "authors": [
+        "Borui Li",
+        "Baoxiang Huang",
+        "He Gao",
+        "Ge Chen"
+      ],
+      "abstract": "The Kelvin wake pattern in optical remote sensing imagery encodes essential information about a ship&amp;apos;s motion state, enabling the inversion of its velocity and heading. However, the inherently weak wake signature is often obscured by ocean background clutter. Under weak wake conditions, existing methods mainly rely on local frequency-domain analysis and fail to stably and reliably exploit wake structural information for accurate parameter retrieval. To overcome this limitation, we present the Wave-Aware Multi-Agent Network (WAMANet) and construct a novel agent framework designed for direct ship motion parameter retrieval. WAMANet integrates a Detection Agent and a Segmentation Agent to synergistically perceive the wake region by fusing the macro-scale Kelvin arm geometry with fine-grained wave structure details. This robust perceptual foundation feeds into a dedicated Parameterization Agent, which performs the final regression to invert the ship&amp;apos;s velocity and heading directly from the imagery. We evaluate the framework using two newly constructed benchmark datasets. Experimental results demonstrate that WAMANet achieves highly accurate inversion, with a mean absolute error (MAE) of 0.29 m/s for velocity, 6.33° for heading, and an R² score of 0.93 for both cases. This performance validates the proposed framework as an effective and reliable end-to-end solution for ship motion retrieval from optical imagery data.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2139/ssrn.6175591",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.6175591",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service full text retrieval"
+    },
+    {
+      "title": "LLM-Based Multi-Agent Blackboard System for Information Discovery in Data Science",
+      "authors": [
+        "Alireza Salemi",
+        "Mihir Parmar",
+        "Palash Goyal",
+        "Yiwen Song",
+        "Jinsung Yoon",
+        "Hamed Zamani",
+        "Tomas Pfister",
+        "Hamid Palangi"
+      ],
+      "abstract": "Advances in large language models (LLMs) have created new opportunities in data science, but their deployment is often limited by the challenge of finding relevant data in large data lakes. Existing methods struggle with this: both single- and multi-agent systems are quickly overwhelmed by large, heterogeneous files, and master-slave multi-agent systems rely on a rigid central controller that requires precise knowledge of each sub-agent's capabilities, which is not possible in large-scale settings where the main agent lacks full observability over sub-agents' knowledge and competencies. We propose a novel multi-agent paradigm inspired by the blackboard architecture for traditional AI models. In our framework, a central agent posts requests to a shared blackboard, and autonomous subordinate agents - either responsible for a partition of the data lake or retrieval from the web - volunteer to respond based on their capabilities. This design improves scalability and flexibility by removing the need for a central coordinator to know each agent's expertise or internal knowledge. We evaluate the approach on three benchmarks that require data discovery: KramaBench and modified versions of DSBench and DA-Code. Results show that the blackboard architecture substantially outperforms strong baselines, achieving 13%-57% relative improvements in end-to-end success and up to a 9% relative gain in data discovery F1 over the best baseline.",
+      "year": "2025",
+      "published_date": "2025-09-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2510.01285v2",
+      "arxiv_id": "2510.01285v2",
+      "keywords": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CL",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "SmartScan - Multi Agent AI System for ID data extraction in combination with OCR engine.",
+      "authors": [
+        "Meera Sawalkar",
+        "Prathamesh Gokulkar",
+        "Angel Londhe",
+        "Isha Badhe"
+      ],
+      "abstract": "Artificial Intelligence (AI) and Natural Language Processing (NLP) have transformed how enterprises handle vast amounts of unstructured financial documents such as invoices, receipts, and reports. Conventional OCR-based extraction systems, though functional, struggle with document diversity, semantic ambiguity, and the absence of reasoning. Recent advances in multimodal deep learning models such as LayoutLMv3, Donut, and LongFin have enabled deeper understanding of document structure and meaning. However, gaps remain in combining extraction accuracy with interpretability and user interaction. This paper presents a comprehensive survey of AI techniques applied to financial document intelligence and introduces our unique contribution: a full-stack, multi-agent financial assistant capable of intelligent extraction, validation, and conversational reasoning. The study consolidates findings from major research papers, explores theoretical foundations, evaluates datasets and models, and identifies challenges and opportunities for the future of explainable and interactive financial AI.\nIndex Terms—Financial AI, Document Understanding, Deep Learning, LayoutLM, Information Extraction, Donut, Conversational AI, Multi-Agent Systems.",
+      "year": "2025",
+      "published_date": "2025-11-15",
+      "journal": "International Journal For Multidisciplinary Research",
+      "url": "https://www.semanticscholar.org/paper/22691cc08659db504719986270db691547a0cc92",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.36948/ijfmr.2025.v07i06.60643",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "DevNous: An LLM-Based Multi-Agent System for Grounding IT Project Management in Unstructured Conversation",
+      "authors": [
+        "Stavros Doropoulos",
+        "Stavros Vologiannidis",
+        "Ioannis Magnisalis"
+      ],
+      "abstract": "The manual translation of unstructured team dialogue into the structured artifacts required for Information Technology (IT) project governance is a critical bottleneck in modern information systems management. We introduce DevNous, a Large Language Model-based (LLM) multi-agent expert system, to automate this unstructured-to-structured translation process. DevNous integrates directly into team chat environments, identifying actionable intents from informal dialogue and managing stateful, multi-turn workflows for core administrative tasks like automated task formalization and progress summary synthesis. To quantitatively evaluate the system, we introduce a new benchmark of 160 realistic, interactive conversational turns. The dataset was manually annotated with a multi-label ground truth and is publicly available. On this benchmark, DevNous achieves an exact match turn accuracy of 81.3\\% and a multiset F1-Score of 0.845, providing strong evidence for its viability. The primary contributions of this work are twofold: (1) a validated architectural pattern for developing ambient administrative agents, and (2) the introduction of the first robust empirical baseline and public benchmark dataset for this challenging problem domain.",
+      "year": "2025",
+      "published_date": "2025-08-12",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2508.08761v1",
+      "arxiv_id": "2508.08761v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis literature review"
+    },
+    {
+      "title": "INNV-39. INVESTIGATING MULTI-AGENT INTRATHECAL CHEMOTHERAPY AS A TREATMENT FOR PRIMARY AND SECONDARY CENTRAL NERVOUS SYSTEM LYMPHOMA: SAFETY AND EFFICACY RESULTS FROM AN INSTITUTIONAL COHORT STUDY",
+      "authors": [
+        "H. Wilding",
+        "A. Aastha",
+        "L. D. M. de Macêdo Filho",
+        "D. Bhanja",
+        "Madison Heebner",
+        "Shahbaz Khan",
+        "N. Mikolajewicz",
+        "V. Ignatchenko",
+        "T. Kislinger",
+        "M. Glantz",
+        "A. Mansouri"
+      ],
+      "abstract": "\n \n \n Despite exquisite responses to initial therapy for CNS lymphoma, relapse is common and overall responses are disappointing compared to non-CNS diffuse large B-cell lymphomas. Literature reports 1 and 3 year survival rates of 50% and 30-40% respectively, with standard treatment. Intravenous, high-dose-methotrexate-based therapies have become the standard of care, with many variations but no consensus. Incorporation of multi-agent intrathecal chemotherapy (MAITC) alongside systemic therapy is novel but not widely adopted. We report our institutional data on safety and efficacy of MAITC in CNS lymphoma.\n \n \n \n A retrospective review of patients with primary or secondary CNS lymphoma, treated with MAITC between August 2015 and December 2021, was conducted. Each cycle includes alternating combinations of 2-3 of the following drugs: methotrexate, rituximab, cytarabine, etoposide, topotecan, gemcitabine, and thiotepa, via ommaya reservoir. Log-rank tests and Cox regression were used to evaluate survival differences.\n \n \n \n 59 patients were reviewed (21 primary; 38 secondary CNS lymphoma). Median age at start of MAITC was 66 years (range 25-90). Only six patients received external beam radiation (EBRT). Median MAITC cycles was 8 (range 2-23). 76% of patients with primary and 66% with secondary CNS lymphoma were alive 1 year after starting MAITC. Of 37 eligible patients, 17 (46%) were alive 3 years after starting MAITC. After a median 19.2 months follow-up, median OS was not reached. No significant difference was noted in OS between primary and secondary CNS lymphoma. KPS > 80 was positively while leptomeningeal disease, secondary CNS lymphoma, and EBRT were negatively associated with OS. Ommaya-related infections occurred in 8 patients (13.5%); only 1 required removal.\n \n \n \n Based on our institutional data, MAITC can potentially offer a significant OS advantage with minimal safety concerns. Factors associated with poor survival were identified, which are being addressed in a larger dataset along with baseline CSF biomarkers.\n",
+      "year": "2023",
+      "published_date": "2023-11-01",
+      "journal": "Neuro-Oncology",
+      "url": "https://www.semanticscholar.org/paper/cde2677f784e489cbb3be8774919cb987dc5534e",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1093/neuonc/noad179.0628",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "What Do We Critique When We Critique Technology?",
+      "authors": [
+        "Ranjodh Singh Dhaliwal"
+      ],
+      "abstract": "Thinking about the state of technology today necessarily means thinking about a number of interrelated but distinct entities. Considering the nuts and bolts of a news story in which, say, some corporate machine vision technology was found to be racially discriminatory can often mean having to study business practices, data sciences, specific suites of tools that can lay a claim to the moniker of AI, assemblages of hardware and software, platform infrastructures with machines slotted away in hot data-center basements in tax havens, human-computer interactions and perceptions, and academic/industry discourses within any of the aforementioned, not to mention the geopolitical and historical situation of it all, which may further call into question where, say, “American” literature can uniquely intersect with technologies splayed awkwardly across, and not always along, the traditional geopolitical and cultural fault lines. In such a scenario, the flag of “Critical AI and (American) Literature,” by its very constitution, carries several sigils, including those of big data and literature and of computational culture and literature, as well as American studies and global technological sovereignties. Focused on the more critical end of these studies, this review brings together three new multiauthored books to ask what we critique when we critique technology today.Scholars interested in literature and technology—usually found in disciplines and departments such as languages and literatures, cultural studies, science studies, and media studies—have long been producing pathbreaking critical thought about various sociotechnical phenomena. From reading technologies themselves using literary critical methods—N. Katherine Hayles, Donna Haraway, Friedrich Kittler, Wendy Chun, Matthew Kirschenbaum, Rita Raley, Lisa Gitelman, and Alexander Galloway all come to mind here—to studying literary expressions of technological worlds (see, e.g., work by Fredric Jameson, Bruce Clark, Laura Otis, Steven Shaviro, Sherryl Vint, and Colin Milburn), literary criticism has been a bellwether of technology critique for several decades now. A brief look at such critique through the ages shows us the varied moods that orient studies of these technologies, with AI just being the latest in this series that once featured the internet, the personal computer, hypertext, cellphone, and metadata. Where there was once a utopian dream with the expansion of networks in the 1990s, or a reluctant acceptance that became a residual flicker of counterprogrammatic hope that technologies can be reappropriated by radical social forces in late 2010s, there is now, in critical work collected here, largely anger and disappointment. Every day, as news cycles tell tales of unchecked tech monopolies roughly intruding into our social, political, and psychic lives, and rarely for the good, these authors find themselves angry—really angry—about the state of our technologies and what they have wrought. On the one hand, such anger indexes our historical condition and informs our engagement with technology today. On the other hand, it forces us to ask what we are actually angry about, and what can be done instead.The primary example of this mood may be found in Your Computer Is on Fire, edited by Thomas S. Mullaney, Benjamin Peters, Mar Hicks, and Kavita Philip. This volume is a startlingly direct collection of essays that, for the most part, all do what they say; the overarching purpose of the volume is, in fact, a call to action that signals a diffused state of emergency in various corners of computational cultures (6). The three parts of the book—“Nothing Is Virtual,” “This Is an Emergency,” and “Where Will the Fire Spread?”—contain chapters that are thematically and methodologically varied but all united by their clear and accessible critiques that point out how inequalities and discriminations are enabled and exacerbated by technological systems today. To note a few, Nathan Ensmenger’s “The Cloud Is a Factory,” which uses Amazon as a case study for the infrastructural reinscription of older techniques of capital used by Sears and Standard Oil, is an excellent breakdown of the material behind the supposedly virtual cloud (29); Ben Peters’s “A Network Is Not a Network” accounts for the role of institutional behavior in the constitution of large-scale networks (71); Mar Hicks, through an analysis of gender discrimination in mid-twentieth-century technology labor sector, claims that “Sexism Is a Feature, Not a Bug” in tech economies and communities (135); Safiya Umoja Noble tells us that our robots aren’t neutral (199); Janet Abbate takes on tech sector’s consideration of coders using the pipeline model—the discourse that encourages getting more women and minorities to learn coding earlier and faster so as to facilitate a smoother and more expansive flow of more diverse labor into the infamously white and masculine technology sector—to show how “Coding Is Not Empowerment” (253); Ben Allen magisterially demonstrates how the same genre of technical hacks can be read as playful or criminal depending on power dynamics (273); and Paul Edwards studies platforms, which he calls fast infrastructures, as he takes up exemplars from South Africa and Kenya to suggest that these fleeting operational levers represent the next model of corporate infrastructural dominance (313). The volume, then, contains a series of related, but not necessarily coagulated, critiques of technology and its sociocultural conditions.Technoprecarious, collectively authored by the Precarity Lab (the contributing team comprises Cassius Adair, Iván Chaar López, Anna Watkins Fisher, Meryem Kamil, Cindy Lin, Silvia Lindtner, Lisa Nakamura, Cengiz Salman, Kalindi Vora, Jackie Wang, and McKenzie Wark) reads not like an edited collection but more like a short manifesto written by scholars with complementary orientations. The different sections of the book—among them “The Undergig,” “The Widening Gyre of Precarity,” “Automating Abandonment,” “Fantasies of Ability,” and“Dispossession by Surveillance”—come together to form a patchwork of commentaries, most well rooted in original cultural, sociotechnical, anthropological, and historical research, that all very playfully point out the exacerbation of precarity wrought by, with, and through digital technologies today. The titular technoprecarity, for the collective, is “the premature exposure to death and debility that working with or being subjected to digital technologies accelerates” (1). Technoprecarity here shows up in snippets that plug into work on surveillance, carceral systems, toxicity, and administrative failures, among other nodes of inquiry. The final two chapters feature a Haraway-esque hope for radical reappropriation listing the Detroit Digital Stewards Program, which features groups that help underprivileged communities gain access to technologies as tools of communication, and the use of open-source maps in Palestine as examples to be followed for practices of techno-oriented care (74–86). There is a sincere attempt here, not unlike the penultimate contribution in Your Computer Is on Fire, “How to Stop Worrying about Clean Signals and Start Loving the Noise” by Kavita Philip (363), to find a nugget or two of hope in the middle of the general condition of technoprecarity being described.Uncertain Archives: Critical Keywords for Big Data, edited by Nanna Bonde Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio, and Kristin Veel, is a six-hundred-page collection that features sixty-one keyword entries, altogether providing a Raymond Williams–style vocabulary for critical studies of data and AI. Considering big data as an uncertain archive—drawing from archival theory and critical data studies while thinking about the latent possibilities of aggregation as presented by big data today—the collection features short, punchy nuggets of wisdom that offer a polysemic understanding of the kinds of critical thought different disciplines can offer to studies of big data and AI at large. The entries vary widely in style, tone, content, and orientation. Overlapping questions of epistemologies (“Quantification” by Jacqueline Wernimont, “Ethics” by Louise Amoore, “Unpredictability” by Elena Esposito, “Remains” by Tonia Sutherland), alterity and discrimination (“Abuse” by Sarah Roberts, “(Mis)Gendering” by Os Keyes), power (“DNA” by Mél Hogan, “Instrumentality” by Luciana Parisi, “Organization” by Timon Beyes), aesthetics (“Demo” by Orit Halpern; a brilliant, poetic one on “Throbber” by Kristoffer Ørum; “Visualization” by Johanna Drucker), infrastructures (“Cooling” by Nicole Starosielski, “Supply Chain” by Miriam Posner, “Field” by Shannon Mattern), and socialities (“Values” by John S. Seberger and Geoffrey C. Bowker, “Proxies” by Wendy Hui Kyong Chun, Boaz Levin, and Vera Tollmann; “Self-Tracking” by Natasha Dow Schüll) all sit alongside questions near and dear to literary critical approaches (“Digital Humanities” by Roopika Risam, “File” by Craig Robertson, “Misreading” by Lisa Gitelman). In performing the immensely unenviable task of shepherding sixty-eight other scholars from across the world into one contained collection, the editors here provide a deliberately fragmented mise-en-scène of critical data studies as it unfolds across several corners of academia today. Juggling several different approaches, Uncertain Archives does not easily offer a shared through line. Nevertheless, it can be read as a collection trying to enumerate the various evaluative frameworks that can be applied to/in critical (big) data studies; most terms offered here—some of which are compressed versions based on the concepts outlined in the contributors’ monographs and articles—can be taken as pedagogical scaffolds or starting points for a broader set of research inquiries. And big data here shows up as nebulous and tentacular, both in its contemporary material reach and in its analytic demand for methodological diversity.Before returning to talk about criticism and technology at scale again by considering what this cluster teaches us methodologically, let us first consider something like a state-of-the-field snapshot, briefly analyzing the who, what, and how of technology criticism presented by this sample set of edited collections, which is admittedly numerically small by the of including more authors from across the is in their a of that all these three are united in their orientation. they all different Your Computer Is on Fire to one very but largely Uncertain Archives a of and is a manifesto that, uniquely and in one in they are all at the as all these together scholars of media studies, studies, digital studies, studies, science and technology studies, data and of science and cultural studies, and sciences, American studies, critical studies, studies, gender and studies, studies, critical studies, critical digital and with literary The that this of several shared and of the disciplines is in one of the that this of collected work set out to In the by edited and work within these including not the very are but the on and the collection of Digital all a expansion and On the one hand, this of edited the practices and of together different research that such can not to mention the new and kinds of that can On the other hand, the out of the from the in indexes the of the of with several and more having to into several one to the from is the study to one find in some of this a to the the and the Thinking with, of about, is well across these collected written by Precarity out by its as a form of the how have the our and to for our in to to and the and and The is a of but labor is to the task of In the there are of that The that can be and can the for new of and this of being a being very about its constitution as a the a in and and The the of the as a a about of as historical and to that the of precarity and expansion of and a critical consideration of Detroit as a both for a that it as the of American and for the are taken up in the to some of and in of late In other the is an by a that studies different kinds of but thinking with, as the books collected here has scholars using the of not as a to be from a not just thought about, but as something to be used and thought through the in question other parts of inquiry. contribution to this is something to be about what of work this to this critical within the broader of work technology and studies of technology often on the one hand, critiques of technological cultures and on the of technology and be literature, or other sociocultural the of literature and science a set of for approaches, in this by of the books are not of technology at the of with and both in with of the say, and approaches a distinct of work and these one can a work that from the and work that to to the of these the into the uses of by, say, the studies of literature or the use of virtual in is to talk about the machines is here of the late technology that technology is a lay the startlingly that the The the the systems that and the infrastructural and assemblages them into one in the late in the In other the of technology was a American with this the for and into one approaches today a to the of approaches and that this and that can be on to study our world by providing a of reading the for cultural, social, and in the of together by the books here, we can note a of the critical by as scholars today are studying technology as the aggregation of those that in this shows up as an that takes technology to techniques and sociocultural while not away from the for by Ben reading of in Your Computer Is on Fire and an excellent breakdown of by and of the Critical in Uncertain Archives used to be by earlier other these show how “the material as a one of a social and institutional the of several different in such as the here some of through an of analytic with care and it brings a new of the primary form of that are to and or often about within something of what in the technology is being actually and are has a that it is not and discrimination in tech to a is as in of about the in by the and forces of one may to that this or that technology is not Is it the the or the more the into and as Uncertain Archives we can roughly technology critique today through kinds of of critique as by scholars their at three kinds of The various of technology out by and of technological culture and the behind and in of these systems and that and the and the techniques and that the find different studying and them not in these but in other critical The work can easily flow that one specific and that is to be for working in other the of and social in American provide a to while the different into what always have been shared more and more today is starting to reach out to a general the from science books that versions of technological often and by examples of such critical work Safiya of and of all of which became for all the and are in this there is an for such us call it technology takes contemporary technological to task for their technology when it is has a different it is the of literary In historical literary criticism Raymond and Fredric critique can be as analyzing the and then, its is a material and not a a its scholars of science and technology very well that, in machines can be systems, and that both the machine and the are always at the same in fact, this was the taken by literary scholars such as and when first a claim on studying new technologies, with their on the that the is, in at its an of they from the material or the always end up in both at on in Uncertain Archives the of to be an and for the and of of from and contribution on the in the same volume, on the other hand, the the for what can be thought in the first be material in its and these review us to further and the different of technology while the of this in technology In fact, in its as the study of may be critique and this call is a to technology in its something an of may actually mean using the study of the to its original the of technology critique today us what is with contemporary technologies, and as the are often or it is what is being do we critique technologies themselves AI is when are we or in all find at them in these and when is a to that is or the of is all of the that be a from questions that can be such questions that the and the what we to do this not world role of AI as a technology be an case study all, within the work in this there is as about big and at as about or techniques with the AI. these books help us the AI one can and AI be the a of and hardware that on a specific of data and are often used to within a and sociocultural of computational about technology today can often be about computational which in can often mean about big which is distinct but often discourses of AI at large. it clear that AI is not a it shows up as a technical at these different technologies, computational infrastructures, big data and so a as by power Your Computer Is on Fire, Uncertain This is when shows AI to be a that on that it in the first This was in of AI in the and it is when the AI uses labor to its to be AI, or as Sarah us with contribution in Your Computer Is on Fire, AI Is a AI, it at the end of the is not just a technical it that can be used to and global And this reinscription is a to ask what is to be when AI is we in the of big and the by the Uncertain Archives that big data is a as all have always been In other these us how technical assemblages are not set in they in them a of that that cultural and is a of what comprises for that big or the tech sector, or at is this that the role of more literary in the of this with AI and the here several material of technological are on the On the one hand, scholars of are at can claim to to study the machine that is a On the other hand, we can study technical through literary critical in fact, the very to critique this of that is a a of material on the AI research has to be based on what tech to we all our analyzing and the of to that was in our research or but we have to all our thinking about and with to the tech with have on to the next role of sociocultural in technological discourse the of about AI on scholars of and a from in contribution to Your Computer Is on Fire about shows how of can be a that necessarily the and there are a number of that can the and social can not that several of AI critique today are of versions of but that we technology critiques about are to the the analytic of sociotechnical And the historical in critiques of technology and culture are not from of our world but within all, study the world more they in find as these in the middle of both and producing these like the one that not all hope is or so suggest the by these technology that a technological can a social as often by and often in these shows up as an operational in kinds of technological for when machines or are for on the is the by and today has different kinds of critique at all kinds of and note the by approaches is, all a very and the machines of which are for not often presented for general at not by very technology critique that is about the machines themselves is being at and this is a by critiques from and There are several that the of critical and both and technical in that can be used to the flag The often by have done all we can when we point out social and cultural by the that, for both and we have a of critical into technological systems Wendy Chun, Boaz Levin, and Vera point out in their Uncertain Archives contribution on techniques used by of corporate technologies be used to different to from in the same volume, one can how hope is the of this This of can be in of and the to mention two a uses machine to what is enabled by machine uses to how technologies their they use practices to our data while digital of in and like the of a research by of labor of review to the as is often done by the AI in these is used to on the of the to their in a of of and technical as by the of critical across the is fast a broader feature of technological critique as in these not always be a utopian for in its and for what often like not a an more about its is the critique does not end thought but they are actually and are all of so what do we do of technologies do we we this be technology critique when we critique we study several nodes and of cultural, social, political, and that And what is as a of such critique those in the cultural and new of and technologies, and alongside all techno-oriented critique ask questions that to different in technologies as scholars of science have technical are often just to social we as set a new genre of for the and of social that, the be but by a question to be in a they may a of often the that and we can always kinds of be the state of today. the here are any we may be like to and for all their and",
+      "year": "2023",
+      "published_date": "2023-03-17",
+      "journal": "American Literature",
+      "url": "https://doi.org/10.1215/00029831-10575091",
+      "arxiv_id": "",
+      "keywords": [
+        "Epistemology",
+        "Philosophy",
+        "Aesthetics",
+        "History",
+        "Sociology"
+      ],
+      "citations": 8,
+      "source": "OpenAlex",
+      "doi": "10.1215/00029831-10575091",
+      "open_access": false,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship literature review"
+    },
+    {
+      "id": "gs_f767c11b93",
+      "title": "A multi-agent based system with big data processing for enhanced supply chain agility",
+      "abstract": "… chain information technologies to multi-agent systems For the benefits of e-business to be fully materialised there is a need for information systems … enrich semantic web services with its …",
+      "authors": [
+        "M Giannakis",
+        "M Louis"
+      ],
+      "year": 2016,
+      "journal": "M Giannakis, M Louis - Journal of Enterprise Information …, 2016 - emerald.com",
+      "citations": 304,
+      "url": "https://www.emerald.com/jeim/article/29/5/706/197596",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "A multi-agent system to support evidence based medicine and clinical decision making via data sharing and data privacy",
+      "authors": [
+        "Hayden Wimmer",
+        "Victoria Yoon",
+        "Vijayan Sugumaran"
+      ],
+      "abstract": "",
+      "year": "2016",
+      "published_date": "2016-06-05",
+      "journal": "Decision Support Systems",
+      "url": "https://doi.org/10.1016/j.dss.2016.05.008",
+      "arxiv_id": "",
+      "keywords": [
+        "Data sharing",
+        "Health Insurance Portability and Accountability Act",
+        "Computer science",
+        "Health care",
+        "Software portability",
+        "Confidentiality",
+        "Information privacy",
+        "Data science"
+      ],
+      "citations": 61,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.dss.2016.05.008",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "timestamp": "20260413_130331"
+}

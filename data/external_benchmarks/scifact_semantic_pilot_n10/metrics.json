@@ -1,0 +1,153 @@
+{
+  "benchmark": "SciFact official dev",
+  "source": "C:\\Users\\10305\\文献\\研究情报助手\\data\\external_benchmarks\\scifact_semantic_pilot_n10\\scifact_semantic_pilot_outputs.json",
+  "note": "Small external pilot; official test labels and full leaderboard evaluation were not run.",
+  "label_distribution": {
+    "NEI": 3,
+    "SUPPORT": 4,
+    "CONTRADICT": 3
+  },
+  "v0": {
+    "field": "v0_label",
+    "n": 10,
+    "accuracy": 0.8,
+    "macro_f1": 0.8023809523809523,
+    "confusion": {
+      "SUPPORT": {
+        "SUPPORT": 3,
+        "CONTRADICT": 0,
+        "NEI": 1
+      },
+      "CONTRADICT": {
+        "SUPPORT": 0,
+        "CONTRADICT": 2,
+        "NEI": 1
+      },
+      "NEI": {
+        "SUPPORT": 0,
+        "CONTRADICT": 0,
+        "NEI": 3
+      }
+    }
+  },
+  "v2_reviewer": {
+    "field": "v2_reviewer_label",
+    "n": 10,
+    "accuracy": 0.6,
+    "macro_f1": 0.6031746031746033,
+    "confusion": {
+      "SUPPORT": {
+        "SUPPORT": 2,
+        "CONTRADICT": 1,
+        "NEI": 1
+      },
+      "CONTRADICT": {
+        "SUPPORT": 0,
+        "CONTRADICT": 2,
+        "NEI": 1
+      },
+      "NEI": {
+        "SUPPORT": 0,
+        "CONTRADICT": 1,
+        "NEI": 2
+      }
+    }
+  },
+  "v2_final": {
+    "field": "v2_final_label",
+    "n": 10,
+    "accuracy": 0.7,
+    "macro_f1": 0.6944444444444443,
+    "confusion": {
+      "SUPPORT": {
+        "SUPPORT": 2,
+        "CONTRADICT": 1,
+        "NEI": 1
+      },
+      "CONTRADICT": {
+        "SUPPORT": 0,
+        "CONTRADICT": 2,
+        "NEI": 1
+      },
+      "NEI": {
+        "SUPPORT": 0,
+        "CONTRADICT": 0,
+        "NEI": 3
+      }
+    }
+  },
+  "v0_to_v2_final_changes": 1,
+  "reviewer_to_final_changes": 1,
+  "per_record": [
+    {
+      "id": 1,
+      "gold": "NEI",
+      "v0": "NEI",
+      "reviewer": "NEI",
+      "final": "NEI"
+    },
+    {
+      "id": 3,
+      "gold": "SUPPORT",
+      "v0": "NEI",
+      "reviewer": "NEI",
+      "final": "NEI"
+    },
+    {
+      "id": 5,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "reviewer": "SUPPORT",
+      "final": "SUPPORT"
+    },
+    {
+      "id": 13,
+      "gold": "NEI",
+      "v0": "NEI",
+      "reviewer": "CONTRADICT",
+      "final": "NEI"
+    },
+    {
+      "id": 36,
+      "gold": "NEI",
+      "v0": "NEI",
+      "reviewer": "NEI",
+      "final": "NEI"
+    },
+    {
+      "id": 42,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "reviewer": "CONTRADICT",
+      "final": "CONTRADICT"
+    },
+    {
+      "id": 48,
+      "gold": "CONTRADICT",
+      "v0": "NEI",
+      "reviewer": "NEI",
+      "final": "NEI"
+    },
+    {
+      "id": 49,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "reviewer": "CONTRADICT",
+      "final": "CONTRADICT"
+    },
+    {
+      "id": 50,
+      "gold": "SUPPORT",
+      "v0": "SUPPORT",
+      "reviewer": "SUPPORT",
+      "final": "SUPPORT"
+    },
+    {
+      "id": 51,
+      "gold": "CONTRADICT",
+      "v0": "CONTRADICT",
+      "reviewer": "CONTRADICT",
+      "final": "CONTRADICT"
+    }
+  ]
+}

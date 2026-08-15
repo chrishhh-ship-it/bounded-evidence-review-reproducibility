@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "智慧情报服务系统最适合采用哪些自动评测指标？",
+  "effective_search_query": "智慧情报服务系统 自动评测指标",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "title:智慧城市教育公共服务评价指标体系研制|2017",
+    "doi:10.11946/cjstp.202411251288李涵霄，",
+    "title:政务微信公众号服务质量评价指标体系构建及实证研究|2016",
+    "title:医院信息化建设评价标准体系研究|2023",
+    "title:城乡融合发展视角下数字乡村评价指标体系构建|2021",
+    "title:国家智慧医疗评价指标体系的构建|2016",
+    "title:浅析政府网站“在线服务” 绩效评估指标的构建|2016",
+    "title:新时代教育评价改革效能的智慧监测: 一种自助平台的构想.|2025",
+    "title:我国医院智能化评价指标体系构建研究|2024",
+    "title:我国医院智慧化评价: 研究述评与展望|2024",
+    "title:research on the evaluation of the modernization level of scientific and technologicalâ information service ability under the empowerment of digital intelligence|2023",
+    "title:智慧製造成熟度指標|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "智慧城市教育公共服务评价指标体系研制",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "祝智庭， 余平 - 开放教育研究, 2017 - openedu.sou.edu.cn",
+      "doi": "",
+      "citations": 7,
+      "abstract": "… 指标的建立能够更好地引导教育应用的建设.与早期的教育信息化 评价指标不同,本文研究的内容 是在智慧城市整体框架下,智慧… 项城市公共服务来考虑,而评价的出发点也在于教育服务是否能够…"
+    },
+    {
+      "title": "科技期刊集群平台数字学术服务能力评价指标体系构建及实证研究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "李涵霄， 杜杏叶， 曹珂瑞 - 中国科技期刊研究, 2025 - cjstp.cn",
+      "doi": "10.11946/cjstp.202411251288李涵霄，",
+      "citations": 6,
+      "abstract": "… 资源;④数字技术与工具,包括数 字软件技术与科研辅助工具;⑤服务人员的专业技 能与经验智慧 . … 够为层次分析的决策过程提供模型构造,判断矩阵 生成,权重计算与自动修正等功能,被广泛应用…"
+    },
+    {
+      "title": "政务微信公众号服务质量评价指标体系构建及实证研究",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "李宗富， 张向先 - 图书情报工作, 2016",
+      "doi": "",
+      "citations": 4,
+      "abstract": ""
+    },
+    {
+      "title": "医院信息化建设评价标准体系研究",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "金琰， 杜贵鹃， 舒亚玲， 王艳清 - 医学信息学杂志, 2023 - yxxxx.ac.cn",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 互联互 通测评侧重于考察医院信息化建设的标准化水平, 评测医院各信息系统(平台)是否符合已 … 《公立医院高质量发 展评价指标》将电子病历分级评价,智慧服务评 估纳入智慧医院建设指标中.…"
+    },
+    {
+      "title": "城乡融合发展视角下数字乡村评价指标体系构建",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "马晓蕾， 云振宇， 张延龙， 丁瑶萍 - 中国农学通报, 2021 - rdi.cass.cn",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 出智慧城市评价共性指标,并在 结合乡村地域特点选取特色指标的… 覆盖率×2,市政管网管线智能 化监测管理率×2, 城市空气质量自动… 情报理论与实践,2019,42(7):113-118,125. [2] 陈伟清,赵文超,…"
+    },
+    {
+      "title": "国家智慧医疗评价指标体系的构建",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "钱海， 费科峰， 沈剑峰 - 中国医院, 2016",
+      "doi": "",
+      "citations": 1,
+      "abstract": ""
+    },
+    {
+      "title": "浅析政府网站“在线服务” 绩效评估指标的构建",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "吕小刚 - 经营管理者, 2016",
+      "doi": "",
+      "citations": 1,
+      "abstract": ""
+    },
+    {
+      "title": "新时代教育评价改革效能的智慧监测: 一种自助平台的构想.",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "朱德全 - e-Education Research, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 袁满足多元评价主体的价值诉求和发展 需要袁以服务教育评价改革效能智慧监测遥总之袁自助 型平台不仅突破和丰富教育评价改革效能监测指标 数据在采集处理和分析呈现上的时空限制与…"
+    },
+    {
+      "title": "我国医院智能化评价指标体系构建研究",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "刘智勇， 郭铭睿， 陈小杭， 龙婧， 彭昱欣 - 医学信息学杂志, 2024 - yxxxx.ac.cn",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 现有医院信息化建设是智慧医院建设的基础, 在维度划分,指标筛选等方面为医院智能化评价 体 系制定提供参考.本研究基于现有评价体系,探讨 医院智能化评价体系具体维度,项目和…"
+    },
+    {
+      "title": "我国医院智慧化评价: 研究述评与展望",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "张馨洋， 彭昱欣， 王琼， 刘智勇 - 医学信息学杂志, 2024 - yxxxx.ac.cn",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 总结国内外医院智慧化建设现状,我国医院智慧化评价体系及… 医院智慧化建设主要内容,系统分析 我国医院智慧化评 价指标体系… 还有机器人自动混合和管理化疗药物以及自 动药房系统,患者流量…"
+    },
+    {
+      "title": "Research on the Evaluation of the Modernization Level of Scientific and TechnologicalÂ Information Service Ability under the Empowerment of Digital Intelligence",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "W HUANG, Y LIU, P YANG - Scientific Information Research, 2023 - eng.kjqbyj.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 化 的科技情报服务系统,目标则是获取智慧化的科技 情报成果. … 数据的自动聚类,相近文献自动 分 析,关联性规则挖掘,文字的自动编辑… 4.2 科技情报服务能力现代化指标的筛选 本文通过专家问卷…"
+    },
+    {
+      "title": "智慧製造成熟度指標",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "SMM Indices - airitifile.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 程度,來判定智慧製造準備度.但相對的,它不是 一個直接的指標系統,無法對廠商智慧化各面向作出 … 覺察,使用大數據的理 由,自動演化系統,依分析結果即時修正能力,競爭情報大數據的有 效運用 …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q05_baseline_b_20260410_184848.md"
+}

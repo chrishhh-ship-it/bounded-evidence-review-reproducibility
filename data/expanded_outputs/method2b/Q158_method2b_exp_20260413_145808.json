@@ -1,0 +1,205 @@
+{
+  "query_id": "Q158",
+  "query": "What citation grounding checks are necessary before including a grey literature source in a biomedical systematic review?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "What are the Factors Influencing Service Provider Response to Working with Families Affected by Intimate Partner Violence and Abuse? A Qualitative Systematic Review of the Literature",
+      "authors": [
+        "Andrea Mayrhofer",
+        "H. Alderson",
+        "Kausiki Sarma",
+        "Caroline Jackson",
+        "P. Olive",
+        "Madalina Toma",
+        "Nushra Mansuri",
+        "Amy Waterfield",
+        "Sharon Crossen",
+        "Deborah Parker",
+        "Julien Forder",
+        "E. Kaner",
+        "Robin Miller",
+        "Mark Gabbay",
+        "Dorcas Akeju",
+        "Ruth McGovern"
+      ],
+      "abstract": "Intimate partner violence and abuse (IPVA) is a major public health issue with long-term negative impacts on abused adults and affected children. Addressing this complex problem requires a multi-agency response, but barriers to effective joint working remain. This review aimed to understand the factors that influence multi-agency response to families who experience IPVA and to their children. We undertook a qualitative systematic review of international literature via five electronic databases and supplemented the review by citation searches, online searches of grey literature, and hand searches of relevant journals. We analyzed data thematically. The 31 identified papers reported findings from 29 unique studies undertaken in six countries and drew on data from 1049 professionals across health care, social care, the police, courts, schools and voluntary organisations. The main factors influencing service provider response to IPVA were siloed approaches to IPVA, particularly the separation between adult and childrens services. This influenced assessment and response to risk. Risk was also a consideration when child-protection staff were expected to work with perpetrators in ‘family settings’, even in lower-risk cases. Multi-agency working facilitated information sharing between agencies, an understanding of each other’s remit, and building trust. Multi-agency collaboration needs to be supported by clear policies of interaction between agencies. Providers of child protection services, health, mental health, housing police and probation need to be supported by specialist training in IPVA, not only in high-risk cases, but also to relieve pressure on an already overstretched workforce.",
+      "year": "2024",
+      "published_date": "2024-10-09",
+      "journal": "Journal of Family Violence",
+      "url": "https://www.semanticscholar.org/paper/fbcc7df1aebe9d1c57e6f17092fc9a22beef754f",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.1007/s10896-024-00755-3",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant systematic review"
+    },
+    {
+      "title": "Automation of systematic reviews of biomedical literature: a scoping review of studies indexed in PubMed",
+      "authors": [
+        "Barbara Tóth",
+        "László Berek",
+        "L. Gulácsi",
+        "M. Péntek",
+        "Z. Zrubka"
+      ],
+      "abstract": "Background The demand for high-quality systematic literature reviews (SRs) for evidence-based medical decision-making is growing. SRs are costly and require the scarce resource of highly skilled reviewers. Automation technology has been proposed to save workload and expedite the SR workflow. We aimed to provide a comprehensive overview of SR automation studies indexed in PubMed, focusing on the applicability of these technologies in real world practice. Methods In November 2022, we extracted, combined, and ran an integrated PubMed search for SRs on SR automation. Full-text English peer-reviewed articles were included if they reported studies on SR automation methods (SSAM), or automated SRs (ASR). Bibliographic analyses and knowledge-discovery studies were excluded. Record screening was performed by single reviewers, and the selection of full text papers was performed in duplicate. We summarized the publication details, automated review stages, automation goals, applied tools, data sources, methods, results, and Google Scholar citations of SR automation studies. Results From 5321 records screened by title and abstract, we included 123 full text articles, of which 108 were SSAM and 15 ASR. Automation was applied for search (19/123, 15.4%), record screening (89/123, 72.4%), full-text selection (6/123, 4.9%), data extraction (13/123, 10.6%), risk of bias assessment (9/123, 7.3%), evidence synthesis (2/123, 1.6%), assessment of evidence quality (2/123, 1.6%), and reporting (2/123, 1.6%). Multiple SR stages were automated by 11 (8.9%) studies. The performance of automated record screening varied largely across SR topics. In published ASR, we found examples of automated search, record screening, full-text selection, and data extraction. In some ASRs, automation fully complemented manual reviews to increase sensitivity rather than to save workload. Reporting of automation details was often incomplete in ASRs. Conclusions Automation techniques are being developed for all SR stages, but with limited real-world adoption. Most SR automation tools target single SR stages, with modest time savings for the entire SR process and varying sensitivity and specificity across studies. Therefore, the real-world benefits of SR automation remain uncertain. Standardizing the terminology, reporting, and metrics of study reports could enhance the adoption of SR automation techniques in real-world practice.",
+      "year": "2024",
+      "published_date": "2024-07-08",
+      "journal": "Systematic Reviews",
+      "url": "https://www.semanticscholar.org/paper/13e68297dac3796bc41f39853f6a287a2471425b",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 29,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13643-024-02592-3",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    },
+    {
+      "title": "Health professionals' experience of teamwork education in acute hospital settings: a systematic review of qualitative literature.",
+      "authors": [
+        "Kylie Eddy",
+        "Zoe Jordan",
+        "Matthew Stephenson"
+      ],
+      "abstract": "Teamwork is seen as an important element of patient care in acute hospital settings. The complexity of the journey of care for patients highlights the need for health professionals to collaborate and communicate clearly with each other. Health organizations in western countries are committed to improving patient safety through education of staff and teamwork education programs have been integral to this focus. There are no current systematic reviews of the experience of health professionals who participate in teamwork education in acute hospital settings. The objective of this systematic review was to search for the best available evidence on the experiences of health professionals who participate in teamwork education in acute hospital settings. This review considered studies reporting on experiences of registered health professionals who work in acute hospitals. This included medical, nursing and midwifery and allied health professionals. The focus of the meta-synthesis was the experiences and reflections of health professionals who were involved in teamwork education in acute hospital settings. The geographical context for this review was acute hospitals in rural or metropolitan settings in Australia and overseas countries. The review focused on the experiences of health professionals who work in acute hospitals and participated in teamwork education programs. This review considered studies that focused on qualitative data including, but not limited to, designs such as phenomenology, grounded theory, ethnography, action research and feminist research.In the absence of research studies, other text such as opinion papers, discussion papers and reports were considered. Studies published in English and from 1990 to 2013 were included in this review. The literature search for relevant papers occurred between 13 September and 26 October 2013. A three-step search strategy was utilized in this review. The databases searched were PubMed, CINAHL, Embase and Scopus. The standardized critical appraisal tool the Joanna Briggs Institute Qualitative Assessment and Review Instrument (JBI-QARI) was used to assess the methodological quality of included papers. Data that included statements and text of interest was extracted from papers included in the study using the standardized data extraction tool from JBI-QARI. Qualitative research findings were pooled using JBI-QARI. This involved the aggregation and synthesis of findings to generate a set of statements that represented that aggregation. In total, 116 papers were selected for analysis of full text, 11 papers were selected for critical appraisal and seven papers were selected for data synthesis. This resulted in 44 findings. The findings were assigned to 16 categories based on identified similarities across the papers. The categories were integrated into six meta-syntheses. These were: Meta-synthesis One: It is important to recognize that organizational culture and expectations have an impact on health professionals' participation and experience of teamwork education. Meta-synthesis Two: Understanding how successful teams function is central to the development of teamwork education programs and the experience of participants. Meta-synthesis Three: A health professional's experience of teamwork education will be influenced by his/her starting point of learning. Meta-synthesis Four: Participants highly value teamwork education programs that are implemented by facilitators who create practical authentic learning opportunities and foster reflection and debriefing for participants. Meta-synthesis Five: High fidelity simulation used with specific communication strategies provides a powerful learning opportunity for health professions to practice teamwork skills. Meta-synthesis Six: Participants have increased confidence and are motivated to apply their newly learnt teamwork skills into their daily practice. The review identified qualitative evidence that can guide organizations and education facilitators in the development and implementation of teamwork education in acute hospital settings. Although the quality of the specific teamwork education programs was an important factor, there were a number of issues that also impacted on the experiences of health professionals who participated in teamwork education programs. These included the context that the program was delivered in, the diversity of health care teams, starting points of individual learners, the type of tools utilized in education programs, the levels of confidence and motivation of learners post training and the opportunity to transfer into practice new learning. Drawing from the synthesized findings of the review, recommendations for practice have been devised in order to guide the development and implementation of teamwork education in acute hospital settings and to improve the experience of participating health professionals. The Joanna Briggs Institute utilizes Grades of Recommendation to rate a health management strategy in terms of its desirable effects, evidence of adequate quality supporting its use, benefits of use, and the inclusion of patient experience, values and preferences. A strong recommendation has a Grade A and a weak recommendation has a Grade B. The FAME (Feasibility, Appropriateness, Meaningfulness and Effectiveness) scale was used to inform the strength of the following six recommendations for practice from the review: RECOMMENDATION ONE: All members of a team should be encouraged by their organization/managers to participate in teamwork education programs in order to foster a positive culture of learning and teamwork within the team.JBI Recommendation: Grade A. This recommendation is appropriate and applicable to all health professionals in acute hospital settings, is associated with positive experiences for participants of teamwork education programs and has a beneficial effect on participants. Facilitators of teamwork education programs should understand how successful teams function and consider these factors when planning or delivering training.JBI Recommendation: Grade A. This recommendation is associated with positive experiences for participants and creates a beneficial effect to the quality of a teamwork education program. Facilitators of teamwork education programs need to explore participant learning needs and their prior experiences of working in teams before implementing teamwork education programs.JBI Recommendation: Grade A. This recommendation creates a beneficial effect to the participants of teamwork education programs and to the quality of education provided by facilitators. Facilitators of teamwork education programs should provide learning opportunities that are practical, authentic to participants and foster constructive debriefing and reflection.JBI Recommendation: Grade A. This recommendation is applicable to all health professionals and circumstances in which teamwork education occurs, is associated with positive experiences and has a beneficial effect on participants. High fidelity simulation should be considered in acute hospitals for the training of teamwork skills in addition to clinical skills. Scenarios provide realistic opportunities for participants to practice communication strategies that enhance teamwork.JBI Recommendation: Grade A. This recommendation is applicable to all health professionals and circumstances in which teamwork education occurs and has a beneficial effect on participants of education programs. Team managers should harness the new confidence and motivation of staff around teamwork skills following participation in teamwork education programs and ensure that there are opportunities in the workplace to apply new skills and knowledge into daily practice.JBI Recommendation: Grade A. This recommendation is applicable to all health professionals and circumstances in which teamwork education occurs, is adaptable to a variety of circumstances and has a beneficial effect on health professional's daily practice of teamwork skills. In order to strengthen the evidence base about teamwork education in acute hospital settings there needs to be quantitative and qualitative research into:How organizations that have successfully embedded a culture of collaboration and safety in health teams have planned, implemented and evaluated teamwork education programs in acute hospital settings?What are the characteristics of teams that have led to successful participation in teamwork education and positive outcomes for team performance?What are the experiences, training and support provided to education facilitators who successfully implement teamwork education programs in acute hospitals?",
+      "year": "2016",
+      "published_date": "2016",
+      "journal": "JBI database of systematic reviews and implementation reports",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27532314/",
+      "arxiv_id": "",
+      "keywords": [
+        "Australia",
+        "Clinical Competence",
+        "Female",
+        "Health Personnel",
+        "Humans",
+        "Patient Care Team",
+        "Pregnancy",
+        "Qualitative Research"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.11124/JBISRIR-2016-1843",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "evidence grounded medical literature analysis"
+    },
+    {
+      "title": "Climate change adaptation in <scp>SIDS</scp>: A systematic review of the literature pre and post the <scp>IPCC</scp> Fifth Assessment Report",
+      "authors": [
+        "Stacy‐ann Robinson"
+      ],
+      "abstract": "AbstractThe Fifth Assessment Report (AR5) of the Intergovernmental Panel on Climate Change in 2014 was the most comprehensive to date. Yet it left several gaps with regards to the impacts, implications and responses to climate change in small island developing states (SIDS). SIDS are recognized as a special grouping of developing countries. Located in the Atlantic and Indian Oceans, Caribbean, and Pacific regions, they comprise 58 countries that are disproportionately vulnerable to climate change and its impacts. With adaptation to climate change viewed as a viable and necessary complement to mitigation, academic interest in adaptation in these complex geographies is increasing. Despite this, not enough is known about the body of knowledge relating to adaptation in SIDS. This article systematically reviews 208 articles, books, book chapters, conference papers, and notes, and synthesizes the nature and extent of the research evidence before and after AR5 (i.e., from 1990 to 2014, and from 2015 to 2018). It specifically explores shifts in (a) when, where and by what means knowledge is being produced (e.g., subject areas, methodologies), and the ways in which adaptation is being framed (i.e., conceptually, operationally), (b) the narratives, consensuses, and tensions across the key emerging themes in the literature, and (c) the knowledge gaps that exist. It also outlines a future research agenda, which is an important consideration not only for multi‐scale actors working to help solve the global climate challenge, but also for the scholars preparing the Small Islands Chapter of the Sixth Assessment Report due in 2021.This article is categorized under:\n\nClimate and Development &gt; Sustainability and Human Well‐Being\nVulnerability and Adaptation to Climate Change &gt; Learning from Cases and Analogies",
+      "year": "2020",
+      "published_date": "2020-5-19",
+      "journal": "WIREs Climate Change",
+      "url": "https://doi.org/10.1002/wcc.653",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 129,
+      "source": "CrossRef",
+      "doi": "10.1002/wcc.653",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm systematic review"
+    },
+    {
+      "title": "How do we study misogyny in the digital age? A systematic literature review using a computational linguistic approach",
+      "authors": [
+        "Lara Fontanella",
+        "Berta Chulvi",
+        "Elisa Ignazzi",
+        "A. Sarra",
+        "Alice Tontodimamma"
+      ],
+      "abstract": "Nowadays, despite centuries of striving for equality, women still face higher levels of discrimination compared to men in nearly every aspect of life. Recently, this systemic inequality has manifested in cyberspace through the proliferation of abusive content that is even more aggressive than what one would expect in the 21st century. Various research disciplines are now attempting to characterise this new manifestation of misogyny. The endeavour to comprehend this phenomenon has resulted in a significant increase in publications from several fields, including Social Sciences, Arts and Humanities, Psychology, and Computer Science. This paper presents a systematic review of multidisciplinary research on misogyny from the years 1990 to 2022, encompassing a total of 2830 articles retrieved from the Scopus database as of December 31, 2022. The literature is thoroughly analysed using three approaches: bibliometric analysis, topic detection, and qualitative analysis of the documents. The findings suggest that the analysis of online misogyny has been the primary driver behind the exponential growth in publications in this field. Additionally, the results of the topic analysis and topic interaction reveal a limited connection between the areas of knowledge that are necessary to fully grasp this complex phenomenon.",
+      "year": "2024",
+      "published_date": "2024-04-02",
+      "journal": "Humanities and Social Sciences Communications",
+      "url": "https://www.semanticscholar.org/paper/aa211982ba661c19c4f362226b17f649f1ff05dd",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 32,
+      "source": "Semantic Scholar",
+      "doi": "10.1057/s41599-024-02978-7",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Automating the Systematic Literature Review Process in Management Science Using Artificial Intelligence",
+      "authors": [
+        "Przemysław Tomczyk"
+      ],
+      "abstract": "ABSTRACT Systematic literature reviews (SLR) are essential for synthesizing research across disciplines, yet their manual execution is time-consuming and increasingly challenging due to the rapid proliferation of academic publications. This study examines the role of artificial intelligence (AI) in the SLR process within management sciences. Drawing on established SLR methodologies, particularly from health sciences where automation is widely applied, this research identifies AI’s role in contributing to key review stages, including literature identification, selection, data extraction, synthesis, and reporting. This study itself applied a systematic literature review methodology, querying Scopus and Web of Science, complemented by AI-based tools (Elicit and SciSpace) to extend coverage. Backward and forward citation searches were also conducted, resulting in a final sample of 93 publications. The findings from this sample suggest that AI enables researchers to shift roles from literature examiners to managers of the review process, overseeing AI tools executing repetitive and time-consuming tasks. However, despite the benefits of using AI in generating SLRs, its application in management research presents challenges, particularly in handling context-dependent and interpretative analyses. The study highlights both the transformative potential and the critical need for human oversight in AI-assisted reviews. Limitations include the reliance on existing automation techniques developed for health sciences and the exclusion of certain literature sources. Future research should explore AI’s effectiveness in managing SLRs, ethical considerations, and hybrid human–AI collaboration models. AI’s growing role in academic research entails the need to balance automation with scholarly rigor and methodological integrity.",
+      "year": "2025",
+      "published_date": "2025-06-01",
+      "journal": "Marketing of Scientific and Research Organizations",
+      "url": "https://www.semanticscholar.org/paper/e13ae872d92a5d4ecb7150e02aec1acb2c03ca16",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.2478/minib-2025-0007",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent literature review"
+    },
+    {
+      "title": "Generative Artificial Intelligence, Python, and Gathering Grey Literature for a Systematic Literature Review with Google’s Programmable Search Engine.",
+      "authors": [
+        "Cameron Frederick Atkinson"
+      ],
+      "abstract": "Abstract\n        Systematically gathering grey literature for use in a systematic literature review (SLR) is a challenging task, given the decentralised nature of online resources. Researchers, particularly those in the social sciences, often find themselves navigating government or non-government organisation websites, manually scouring repositories for documents relevant to their SLRs. This important stage is expensive in terms of time and resources required and, in many instances, difficult to repeat. This article introduces an innovative methodology to address these challenges, providing social science researchers with a systematic approach to gather grey literature for inclusion in SLRs. Utilising the computer programming language Python, this articles leverages Google’s API to create a programmable search engine, facilitating a systematic search for grey literature intended for inclusion in a SLR. A case study is presented to demonstrate the efficiency of this method in locating PDF documents, within which two examples are provided. In the first example, documents from Australian government websites ending in “gov.au” related to the topic of (“energy infrastructure” AND resilience) are sought. Secondly, “un.org” is added to illustrate how multiple websites can be searched. Highlighting the effectiveness of this approach, the study successfully locates 100 documents in just 7.5 seconds, automatically saving them into an Excel CSV file for further analysis. To the authors knowledge, this method represents an original approach in the systematic gathering of grey literature for SLRs and highlights the contribution of generative artificial intelligence systems such as ChatGPT 3.5 in assisting to script the necessary code for new SLR tools.",
+      "year": "2024",
+      "published_date": "2024-3-29",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-4007725/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-4007725/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent literature review"
+    },
+    {
+      "title": "Mitigating Bias and Hallucinations in LLMs through Prompt Engineering and Knowledge-Grounded Approaches in Healthcare Domain: A Systematic Literature Review",
+      "authors": [
+        "A.P.D. Ishadya",
+        "A. Withanaarachchi",
+        "S. Jayalal"
+      ],
+      "abstract": "Large Language Models (LLMs) are increasingly applied in healthcare for clinical decision support, patient communication, medical documentation, and research synthesis. However, their reliability is undermined by persistent risks of bias and hallucinations, which can result in misinformation, workflow disruption, and patient harm. This systematic literature review examines peer-reviewed studies published between 2021 and 2025 that focus on mitigating bias and hallucinations in healthcare LLMs. Thirty-four eligible studies were synthesized using thematic analysis across prompt engineering, knowledge-grounded approaches such as Retrieval-Augmented Generation (RAG) and the Model Context Protocol (MCP), evaluation metrics, and clinical applications. Results show that prompt engineering provides lightweight improvements but is highly dependent on prompt design, while RAG consistently enhances factual grounding though at increased computational cost. MCP emerges as a promising but underexplored tool for dynamic knowledge integration. The review highlights key trends including the shift toward hybrid strategies and domain-specific LLMs, while identifying major research gaps: the absence of unified mitigation frameworks, limited evidence on healthcare-specific prompt design, and a lack of practical deployment guidelines for clinical settings. By consolidating current evidence and outlining open challenges, this review contributes to the development of safe, fair, and trustworthy LLM adoption in healthcare.",
+      "year": "2025",
+      "published_date": "2025-12-16",
+      "journal": "2025 International Conference on Advances in Technology and Computing (ICATC)",
+      "url": "https://www.semanticscholar.org/paper/81f3e801b71357e4a64a03999470840955607cb3",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/ICATC68823.2025.11407841",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "evidence grounded medical literature analysis"
+    }
+  ],
+  "timestamp": "20260413_145808"
+}

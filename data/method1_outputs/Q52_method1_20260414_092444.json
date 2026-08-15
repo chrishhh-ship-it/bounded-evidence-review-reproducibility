@@ -1,0 +1,103 @@
+{
+  "baseline": "method1_pipeline",
+  "query": "当 writer 与 reviewer 使用相同底层模型时，对抗机制是否仍然有效？",
+  "effective_search_query": "writer reviewer same underlying model adversarial mechanism effectiveness",
+  "provider": "deepseek",
+  "model": "",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "doi:10.1109/mwc.016.2300600",
+    "doi:10.1109/tits.2021.3099477",
+    "doi:10.1109/mnet.120.2200086",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "doi:10.48550/arxiv.2306.16092",
+    "doi:10.1109/etfa54631.2023.10275362",
+    "doi:10.1016/j.crm.2021.100304",
+    "doi:10.1016/j.iotcps.2023.04.003",
+    "doi:10.11897/sp.j.1016.2025.01763",
+    "doi:10.1109/tnse.2022.3157274",
+    "doi:10.1109/tmc.2022.3199812",
+    "doi:10.48550/arxiv.1910.03581",
+    "doi:10.1109/tnse.2021.3077766",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.1109/jas.2021.1004132"
+  ],
+  "top_papers": [
+    {
+      "title": "数字孪生架构下基于GAN增强的多智能体深度强化学习边缘推理与异构资源协同优化",
+      "year": 2025,
+      "journal": "智能计算",
+      "source": "万方数据",
+      "doi": "10.11897/SP.J.1016.2025.01763",
+      "citations": 34,
+      "abstract": "边缘侧大模型应用正成为推动智能健康、智慧城市等领域智能化与数字化进程的关键驱动力.然而,大模型海量智能任务异构性和高动态网络的不可预测性,使得边缘设备有限的算力资源难以满足复杂推理任务对高效且可靠服务质量(Quality of <span class='highlight'>Service</span>,QoS)的需求.因此本文提出了一种基于生成对抗网络(Generative Adver-sarial Network,GAN)增强的多智能体深度强化学习( <span class='highlight'>Multi-Agent</span> Deep Reinforcement Learning,MADRL)的边缘推理与异构资源协同优化方法,以实现数字孪生(Digital Twin,DT)驱动的边缘侧大模型赋能系统中异构资源的动态负载均衡,确保推理任务高效性与可靠性.首先,本文构建并分析了 DT驱动的边缘侧大模型系统中的物理网络层和孪生网络层,并采用GAN实现对物理实体的孪生映射,从而对海量异构边缘数据进行分布式处理、生成与优化. 接着,利用MADRL算法来对系统中的异构资源进行综合量化与协同优化,并将边缘推理数据反馈至MADRL算法中以减少集中式训练过程中的数据通信开销.同时,借助于联邦学习,该架构能够实现多方知识共享,从而有效提升模型训练速度与性能.最后,仿真结果表明,该算法能够在动态复杂大模型赋能边缘系统环境中有效降低推理任务的时延和能耗,充分利用有限的系统资源,确保推理任务的高效性,并提升智能服务的质量.  complex inference tasks for efficient and reliable Quality of <span class='highlight'>Service</span>(QoS).Therefore,this paper propo"
+    },
+    {
+      "title": "FedMD: Heterogenous Federated Learning via Model Distillation",
+      "year": "2019",
+      "journal": "arXiv (Cornell University)",
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.1910.03581",
+      "citations": 480,
+      "abstract": "Federated learning enables the creation of a powerful centralized model without compromising data privacy of multiple participants. While successful, it does not incorporate the case where each participant independently designs its own model. Due to intellectual property concerns and heterogeneous nature of tasks and data, this is a widespread requirement in applications of federated learning to areas such as health care and AI as a service. In this work, we use transfer learning and knowledge distillation to develop a universal framework that enables federated learning when each agent owns not only their private data, but also uniquely designed models. We test our framework on the MNIST/FEMNIST dataset and the CIFAR10/CIFAR100 dataset and observe fast improvement across all participating "
+    },
+    {
+      "title": "Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model",
+      "year": "2023",
+      "journal": "arXiv (Cornell University)",
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2306.16092",
+      "citations": 90,
+      "abstract": "AI legal assistants based on Large Language Models (LLMs) can provide accessible legal consulting services, but the hallucination problem poses potential legal risks. This paper presents Chatlaw, an innovative legal assistant utilizing a Mixture-of-Experts (MoE) model and a multi-agent system to enhance the reliability and accuracy of AI-driven legal services. By integrating knowledge graphs with artificial screening, we construct a high-quality legal dataset to train the MoE model. This model utilizes different experts to address various legal issues, optimizing the accuracy of legal responses. Additionally, Standardized Operating Procedures (SOP), modeled after real law firm workflows, significantly reduce errors and hallucinations in legal services. Our MoE model outperforms GPT-4 in th"
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",
+      "year": "2023",
+      "journal": "Internet of Things and Cyber-Physical Systems",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.iotcps.2023.04.003",
+      "citations": 2286,
+      "abstract": "In recent years, artificial intelligence (AI) and machine learning have been transforming the landscape of scientific research. Out of which, the chatbot technology has experienced tremendous advancements in recent years, especially with ChatGPT emerging as a notable AI language model. This comprehensive review delves into the background, applications, key challenges, and future directions of ChatGPT. We begin by exploring its origins, development, and underlying technology, before examining its wide-ranging applications across industries such as customer service, healthcare, and education. We also highlight the critical challenges that ChatGPT faces, including ethical concerns, data biases, and safety issues, while discussing potential mitigation strategies. Finally, we envision the futur"
+    },
+    {
+      "title": "Event-Triggered Adaptive Fault-Tolerant Pinning Control for Cluster Consensus of Heterogeneous Nonlinear Multi-Agent Systems Under Aperiodic DoS Attacks",
+      "year": "2021",
+      "journal": "IEEE Transactions on Network Science and Engineering",
+      "source": "OpenAlex",
+      "doi": "10.1109/tnse.2021.3077766",
+      "citations": 173,
+      "abstract": "This paper presents an event-triggered cluster consensus scheme for heterogeneous nonlinear second-order multi-agent systems (MASs) subject to cyber attacks (i.e., aperiodic denial-of-service (DoS) attacks), actuator faults and integral quadratic constraints (IQCs) under directed communication topology containing a directed spanning tree. Based on local communication, an event-triggered adaptive fault-tolerant pinning control scheme is designed to achieve cluster consensus under simultaneous cyber attacks and actuator faults. The proposed control scheme does not require the communication topology to satisfy the in-degree balance between different clusters. Furthermore, the fault-tolerant control part only needs to estimate one parameter for each agent. Instead of requiring continuous infor"
+    },
+    {
+      "title": "Adaptive Memory Event-Triggered Observer-Based Control for Nonlinear Multi-Agent Systems Under DoS Attacks",
+      "year": "2021",
+      "journal": "IEEE/CAA Journal of Automatica Sinica",
+      "source": "OpenAlex",
+      "doi": "10.1109/jas.2021.1004132",
+      "citations": 111,
+      "abstract": "This paper investigates the event-triggered security consensus problem for nonlinear multi-agent systems (MASs) under denial-of-service (DoS) attacks over an undirected graph. A novel adaptive memory observer-based anti-disturbance control scheme is presented to improve the observer accuracy by adding a buffer for the system output measurements. Meanwhile, this control scheme can also provide more reasonable control signals when DoS attacks occur. To save network resources, an adaptive memory event-triggered mechanism (AMETM) is also proposed and Zeno behavior is excluded. It is worth mentioning that the AMETM's updates do not require global information. Then, the observer and controller gains are obtained by using the linear matrix inequality (LMI) technique. Finally, simulation examples "
+    },
+    {
+      "title": "Toward agentic ai networking in 6g: A generative foundation model-as-agent approach",
+      "year": 2025,
+      "journal": "Y Xiao, G Shi, P Zhang - IEEE Communications Magazine, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 55,
+      "abstract": "… challenges and requirements of agentic AI networking. We … rative learning, and knowledge transfer among AI agents. We … al services, which involve a much wider range of knowledge …"
+    }
+  ],
+  "elapsed_seconds": 82.245,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method1_outputs\\Q52_method1_20260414_092444.md"
+}

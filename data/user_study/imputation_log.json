@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "source_csv": "data/user_study/raw_responses_n30.csv",
+  "n_records_after_cleaning": 300,
+  "participant_id_scheme": "P01-P30 assigned by questionnaire-file loading order; each participant contributes 10 question records.",
+  "notes": [
+    "This log records the cleaning decisions referenced by the manuscript's human-pilot section.",
+    "The preserved cleaned CSV is the analysis input; raw DOCX files are not overwritten by this log.",
+    "Blank suspicious-choice entries discovered during extraction were inspected in the temporary work files; only the manuscript-relevant ranking and Likert imputations are listed as analytic imputations below."
+  ],
+  "records": [
+    {
+      "record_id": "P07_Q06_rank",
+      "participant": "P07",
+      "qno": 6,
+      "field": "rank_systems",
+      "issue_type": "malformed_ranking_permutation",
+      "raw_value": "3____ > __2_ > __21_",
+      "raw_status": "not_permutation",
+      "cleaned_value": "A>C>B",
+      "imputation_rule": "Manual correction after participant confirmation; the confirmed intended order was entered into the cleaned CSV."
+    },
+    {
+      "record_id": "P10_Q08_likert",
+      "participant": "P10",
+      "qno": 8,
+      "field": "score_A/score_B/score_C",
+      "issue_type": "missing_likert_scores",
+      "raw_value": {
+        "score_A": null,
+        "score_B": null,
+        "score_C": null
+      },
+      "cleaned_value": {
+        "score_A": 4,
+        "score_B": 5,
+        "score_C": 6
+      },
+      "imputation_rule": "Pre-specified participant-level mean imputation from the participant's other completed Likert items, rounded to the nearest valid 1-7 score."
+    },
+    {
+      "record_id": "P26_Q08_likert",
+      "participant": "P26",
+      "qno": 8,
+      "field": "score_A/score_B/score_C",
+      "issue_type": "missing_likert_scores",
+      "raw_value": {
+        "score_A": null,
+        "score_B": null,
+        "score_C": null
+      },
+      "cleaned_value": {
+        "score_A": 3,
+        "score_B": 4,
+        "score_C": 4
+      },
+      "imputation_rule": "Pre-specified participant-level mean imputation from the participant's other completed Likert items, rounded to the nearest valid 1-7 score."
+    }
+  ]
+}

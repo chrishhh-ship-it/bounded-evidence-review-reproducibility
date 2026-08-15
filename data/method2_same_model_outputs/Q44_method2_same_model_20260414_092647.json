@@ -1,0 +1,154 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "全文中的方法论章节与摘要中的结论是否应被赋予不同的引用权重？",
+  "effective_search_query": "methodology chapter conclusion abstract citation weighting",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 6,
+    "major_issues": [
+      "报告标题和核心问题（方法论章节与摘要结论的引用权重差异）与证据集内容严重脱节。证据集中的文献主要讨论具体技术方法（如ABM、AI模型、多智能体系统等）的应用，并未涉及学术引用权重分配的理论或实践问题。",
+      "报告试图基于一个与核心问题无关的证据集得出结论。证据集中的8篇文献均未讨论或提供关于'方法论章节与摘要结论引用权重差异'的直接证据或观点，导致整个分析缺乏有效支撑。",
+      "报告第3节'证据支持的研究方向'中的三个论点（信息深度差异、功能定位不同、权重评估复杂性）是合理的学术观点，但均非来自证据集，而是作者自行推断，违反了'仅基于证据'的审查原则。"
+    ],
+    "citation_issues": [
+      "所有对证据的引用（如[1][2][5][7][8]等）在报告中仅被用作说明'方法论描述'和'结论陈述'的示例，但并未被用来支持报告的核心论点（即权重差异问题）。这种引用方式属于事实误用，因为被引用的内容与报告论点无关。",
+      "报告声称'现有摘要证据支持以下值得深入探讨的研究方向'，但随后列出的方向并非从提供的证据中推导出来。例如，证据[5][7]仅描述了具体技术方法，并未讨论'信息深度差异对评估的影响'；证据[8]仅指出知识碎片化问题，并未关联到'权重评估的复杂性'。",
+      "报告结论中'依据引用目的的不同，对两者赋予不同程度的依赖和权重是合理且必要的'这一核心判断，在证据集中没有任何文献提供支持。"
+    ],
+    "revision_instructions": [
+      "必须彻底重写报告，使其核心问题与证据集内容一致。建议将报告主题改为对证据集中所呈现的各种'方法论'（如ABM、理论映射、DQN、多智能体技术、系统性文献综述等）在各自研究领域中的应用特点、价值或局限性的综述或比较分析。",
+      "如果坚持原主题（引用权重差异），则必须明确指出：当前证据集无法为该问题提供直接证据，报告中的所有分析均为基于摘要信息的推测，并需删除所有暗示证据支持该论点的表述（如第3节开头的声明）。",
+      "所有引用必须严格用于支持与证据内容直接相关的论点。例如，引用[7]应用于说明多智能体技术如何用于数字孪生建模，而非用于论证方法论章节的细节重要性。",
+      "删除第3节中'证据支持的研究方向'的提法，或将其改为'基于摘要信息的观察与推测'，并明确说明这些推测缺乏证据支持。"
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 6,
+        "major_issues": [
+          "报告标题和核心问题（方法论章节与摘要结论的引用权重差异）与证据集内容严重脱节。证据集中的文献主要讨论具体技术方法（如ABM、AI模型、多智能体系统等）的应用，并未涉及学术引用权重分配的理论或实践问题。",
+          "报告试图基于一个与核心问题无关的证据集得出结论。证据集中的8篇文献均未讨论或提供关于'方法论章节与摘要结论引用权重差异'的直接证据或观点，导致整个分析缺乏有效支撑。",
+          "报告第3节'证据支持的研究方向'中的三个论点（信息深度差异、功能定位不同、权重评估复杂性）是合理的学术观点，但均非来自证据集，而是作者自行推断，违反了'仅基于证据'的审查原则。"
+        ],
+        "citation_issues": [
+          "所有对证据的引用（如[1][2][5][7][8]等）在报告中仅被用作说明'方法论描述'和'结论陈述'的示例，但并未被用来支持报告的核心论点（即权重差异问题）。这种引用方式属于事实误用，因为被引用的内容与报告论点无关。",
+          "报告声称'现有摘要证据支持以下值得深入探讨的研究方向'，但随后列出的方向并非从提供的证据中推导出来。例如，证据[5][7]仅描述了具体技术方法，并未讨论'信息深度差异对评估的影响'；证据[8]仅指出知识碎片化问题，并未关联到'权重评估的复杂性'。",
+          "报告结论中'依据引用目的的不同，对两者赋予不同程度的依赖和权重是合理且必要的'这一核心判断，在证据集中没有任何文献提供支持。"
+        ],
+        "revision_instructions": [
+          "必须彻底重写报告，使其核心问题与证据集内容一致。建议将报告主题改为对证据集中所呈现的各种'方法论'（如ABM、理论映射、DQN、多智能体技术、系统性文献综述等）在各自研究领域中的应用特点、价值或局限性的综述或比较分析。",
+          "如果坚持原主题（引用权重差异），则必须明确指出：当前证据集无法为该问题提供直接证据，报告中的所有分析均为基于摘要信息的推测，并需删除所有暗示证据支持该论点的表述（如第3节开头的声明）。",
+          "所有引用必须严格用于支持与证据内容直接相关的论点。例如，引用[7]应用于说明多智能体技术如何用于数字孪生建模，而非用于论证方法论章节的细节重要性。",
+          "删除第3节中'证据支持的研究方向'的提法，或将其改为'基于摘要信息的观察与推测'，并明确说明这些推测缺乏证据支持。"
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.1108/tqm-10-2019-0243",
+    "title:agent-based modeling methodology: a predictive analytical strategy for augmenting strategic intelligence forecasts|2024",
+    "doi:10.1111/ijcs.70066",
+    "doi:10.1108/jstp-03-2023-0098",
+    "doi:10.1108/ejm-09-2020-0672",
+    "doi:10.16353/j.cnki.1000-7490.2025.04.011",
+    "doi:10.1108/jrim-10-2020-0214",
+    "doi:10.1287/msom.2020.0939",
+    "doi:10.3969/j.issn.1002-1965.2026.02.009",
+    "doi:10.1007/s12525-020-00414-7",
+    "doi:10.1108/ijchm-04-2020-0259",
+    "doi:10.4103/am.am_54_20a",
+    "doi:10.1088/1757-899x/918/1/012031",
+    "doi:10.59400/cai.v2i2.1467",
+    "doi:10.1088/1742-6596/1703/1/012022"
+  ],
+  "top_papers": [
+    {
+      "title": "Agent-based Modeling Methodology: A Predictive Analytical Strategy for Augmenting Strategic Intelligence Forecasts",
+      "year": 2024,
+      "journal": "JA Jamison - 2024 - search.proquest.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… of Agent-Based Modeling (ABM) as a predictive analytical … analytical techniques used in intelligence analysis include: structured brainstorming, scenario analysis, indicators, analysis of …"
+    },
+    {
+      "title": "AI赋能国家安全情报决策理论模型构建",
+      "year": 2026,
+      "journal": "国家安全情报",
+      "source": "万方数据",
+      "doi": "10.3969/j.issn.1002-1965.2026.02.009",
+      "citations": 16,
+      "abstract": "[目的]针对人工<span class='highlight'>智能</span>赋能国家安全<span class='highlight'>情报</span>决策理论<span class='highlight'>模型</span>缺失的问题,构建AI赋能动态决策<span class='highlight'>模型</span>,推动国家安全<span class='highlight'>情报</span>决策模式向<span class='highlight'>智能</span>化、精准化转型.[方法]运用文献研究、理论映射、逻辑推演的方法,基于组织决策理论与AI赋能国家安全<span class='highlight'>情报</span>决策<span class='highlight'>模型</span>的理论映射关系,以数据-认知-方案-行动作为逻辑框架解析国家安全<span class='highlight'>情报</span>决策,并根据各模块功能推导技术解决方案构建理论<span class='highlight'>模型</span>.[结果/结论]AI赋能国家安全<span class='highlight'>情报</span>决策<span class='highlight'>模型</span>由多源数据 要素<span class='highlight'>智能</span>感知、决策导向态势<span class='highlight'>智能</span>认知、人机协同模式<span class='highlight'>智能</span>决策、<span class='highlight'>情报</span>决策<span class='highlight'>智能</span>行动四个模块构成,实现从数据要素感知到<span class='highli"
+    },
+    {
+      "title": "\"云数智\"融合驱动的知识服务价值共创模型与生态系统构建",
+      "year": 2025,
+      "journal": "实践研究",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.04.011",
+      "citations": 24,
+      "abstract": "[目的/意义]本文聚焦于\"云数智\"融合范式下的智慧图书馆知识服务共创体系构建,旨在整合价值共创与协同理论,揭示智慧图书馆在\"云数智\"创新生态下的知识服务模式转型与效能提升路径.[方法/过程]审视智慧图书馆知识服务的价值共创基础、实现路径、交互关系及影响因素,构建价值共创系统模型,提出运行机制与策略优化方案,以优化服务效能,激发创新潜力,提升高等教育机构核心竞争力.[结果/结论]智慧图书馆作为知识 共创生态系统的核心节点,需重视制度建设与服务创新,依托多主体协作推动知识服务生态系统稳健可持续发展,为智慧图书馆4.0建设提供理论支撑与实践指导. <span class='highlight'>multi-agent</span> cooperation to promote the steady and sustainable development of <span class='highlight'>knowledge</span> <span class='highlight'>service</span> ecosystem,and provide theoreti-cal support and practical guidance for the construction of smart library 4.0. [Purpose/significance]The research focuses on the construction of <span class='highlight'>knowledge</span> <span class='highlight'>service</span> co-creation system of smart library under the\"cloud digital intelligence\"integratio"
+    },
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "year": "2020",
+      "journal": "The TQM Journal",
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "citations": 365,
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere ap"
+    },
+    {
+      "title": "A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory Optimization",
+      "year": "2021",
+      "journal": "Manufacturing & Service Operations Management",
+      "source": "OpenAlex",
+      "doi": "10.1287/msom.2020.0939",
+      "citations": 206,
+      "abstract": "Problem definition: The beer game is widely used in supply chain management classes to demonstrate the bullwhip effect and the importance of supply chain coordination. The game is a decentralized, multiagent, cooperative problem that can be modeled as a serial supply chain network in which agents choose order quantities while cooperatively attempting to minimize the network’s total cost, although each agent only observes local information. Academic/practical relevance: Under some conditions, a base-stock replenishment policy is optimal. However, in a decentralized supply chain in which some agents act irrationally, there is no known optimal policy for an agent wishing to act optimally. Methodology: We propose a deep reinforcement learning (RL) algorithm to play the beer game. Our algorithm"
+    },
+    {
+      "title": "Multi-agent system applications to fight COVID-19 pandemic",
+      "year": 2020,
+      "journal": "A Sharma, S Bahl, AK Bagha, M Javaid… - Apollo …, 2020 - journals.sagepub.com",
+      "source": "Google Scholar",
+      "doi": "10.4103/am.am_54_20A",
+      "citations": 67,
+      "abstract": "… services is the lack of communication among all the stakeholders involved. A multi-agent … It includes a knowledge base for the conclusion and reasoning module that works together …"
+    },
+    {
+      "title": "Development of models and methods for creating a digital twin of plant within the cyber-physical system for precision farming management",
+      "year": "2020",
+      "journal": "Journal of Physics Conference Series",
+      "source": "OpenAlex",
+      "doi": "10.1088/1742-6596/1703/1/012022",
+      "citations": 48,
+      "abstract": "Abstract The paper discusses creation of a digital twin (DT) of plant for an intelligent cyber-physical system for managing precision farming. A new approach to formalization of DT knowledge is proposed to form expert knowledge within the subject area based on the ontological specification of stages of plant growth and development and multi-agent technology for creating stage agents and coordinated dynamic recalculation of stage duration and yield forecast based on events in the environment. The paper proposes a method for calculating the forecast for duration of plant development stages and yield based on expert knowledge. A “tube” model of the range of changes in parameters of plant development for each stage has been developed. The paper also introduces a method for calculating the yiel"
+    },
+    {
+      "title": "Anthropomorphism of Artificial Intelligence Service Agent and Consumer Responses: A Systematic Literature Review and Future Research Agenda",
+      "year": "2025",
+      "journal": "International Journal of Consumer Studies",
+      "source": "OpenAlex",
+      "doi": "10.1111/ijcs.70066",
+      "citations": 8,
+      "abstract": "ABSTRACT Artificial intelligence service agent (AISA) anthropomorphism is increasingly applied in service situations to deliver consumers a more personalized service experience. Extensive research has explored it over the past decade. However, the body of knowledge about this domain remains fragmented due to the lack of a comprehensive review. This paper aims to understand the domain through a framework‐based systematic literature review approach. We conducted an in‐depth analysis of 149 peer‐reviewed articles retrieved on April 25, 2024. Significant results include (a) analyzing research profiling (i.e., publication, journal, citation, and country analysis), (b) synthesizing findings based on the theories‐contexts‐characteristics‐methods (TCCM) framework, and (c) proposing future research"
+    }
+  ],
+  "elapsed_seconds": 131.618,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q44_method2_same_model_20260414_092647.md"
+}

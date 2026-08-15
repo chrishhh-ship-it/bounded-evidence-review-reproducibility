@@ -1,0 +1,103 @@
+{
+  "baseline": "method1_pipeline",
+  "query": "如何构建面向智慧情报服务的 benchmark query set 与评测协议？",
+  "effective_search_query": "智慧情报服务 benchmark query set 评测协议 构建",
+  "provider": "deepseek",
+  "model": "",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "title:reliable collaborative conversational agent system based on llms and answer set programming|2025",
+    "title:agent-diff: benchmarking llm agents on enterprise api tasks via code execution with state-diff-based evaluation|2026",
+    "doi:10.5194/egusphere-egu26-22037",
+    "title:agentigraph: a multi-agent knowledge graph framework for interactive, domain-specific llm chatbots|2025",
+    "title:a multi-agent system enables versatile information extraction from the chemical literature|2025",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/tnse.2022.3157274",
+    "doi:10.1109/tmc.2022.3199812",
+    "doi:10.1287/msom.2020.0939",
+    "doi:10.1109/tvt.2021.3096928",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.1109/tits.2021.3099477",
+    "doi:10.1108/tqm-10-2019-0243",
+    "doi:10.1109/tsg.2020.2970755"
+  ],
+  "top_papers": [
+    {
+      "title": "Agent-Diff: Benchmarking LLM Agents on Enterprise API Tasks via Code Execution with State-Diff-Based Evaluation",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "We present Agent-Diff, a novel benchmarking framework for evaluating agentic Large Language Models (LLMs) on real-world productivity software API tasks via code execution. Agentic LLM performance varies due to differences in models, external tool access, prompt structures, and agentic frameworks. Benchmarks must make fundamental trade-offs between a sandboxed approach that controls for variation in software environments and more ecologically valid approaches employing real services. Agent-Diff attempts to capture the desirable features of both of these approaches by including access to the real API interfaces for software services while sandboxing the environment in which calls are made, processed, and evaluated. This approach relies on two key innovations. The first is a novel state-diff "
+    },
+    {
+      "title": "生成式人工智能驱动下智慧图书馆信息搜索的技术框架及服务模式研究",
+      "year": 2025,
+      "journal": "专栏:中国特色图书情报学",
+      "source": "万方数据",
+      "doi": "10.13530/j.cnki.jlis.2025041",
+      "citations": 52,
+      "abstract": "在生成式人工智能技术快速发展的背景下,用户的信息需求和信息行为日益多样化和复杂化,智慧图书馆的信息供给模式需要从\"被动响应\"转变为\"主动出击\"、从\"静态适配\"过渡到\"动态服务\".借助以大语言模型为代表的生成式人工智能技术强大的自然语言处理、多模态数据整合及知识生成能力,智慧图书馆信息搜索服务可以向个性化、精准化和智慧化服务模式转型.本文首先系统梳理传统信息检索、语义检索和GenAI驱动的生成式 信息搜索三种不同检索范式的功能及特征演变;其次,基于CASA范式和社会技术系统视角构建以大语言模型智能体为支撑的智慧图书馆生成式信息搜索技术框架,该框架支持多场景下人智协同的信息搜索认知构建;最后,从场景解构、关键支撑和服务目标三个角度提出了\"意图感知+认知建构+内容生成\"的智慧图书馆人智协同的信息搜索服务模式.本研究提出的技术框架和服务模式促进了信息服务从工具型向协同型的范式转变,强化了智慧图书馆 从工具型服务向认知增益型服务体系的转型,为未来智慧图书馆知识搜索体系的构建提供了新思路.图3.表2.参考文献37. query formulation,and result presentation.It then,drawing on the Computers Are Social Actors(CASA)paradigm and a sociotechnical system perspective,proposes an <span class='highlight'>LLM</span> <span class='highlight'>Agent</span> framework that orchestrates  the classical four <span class='highlight'>information</span> <span class='highli"
+    },
+    {
+      "title": "A Multi-Agent System Enables Versatile Information Extraction from the Chemical Literature",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "To fully expedite AI-powered chemical research, high-quality chemical databases are the foundation. Automatic extraction of chemical information from the literature is essential for constructing reaction databases, but it is currently limited by the multimodality and style variability of chemical information. In this work, we developed a multimodal large language model (MLLM)-based multi-agent system for robust and automated chemical information extraction. It utilizes the MLLM's strong reasoning capability to understand the structure of diverse chemical graphics and decompose the extraction task into sub-tasks. It then coordinates a set of specialized agents, each combining the capabilities of the MLLM with the precise, domain-specific strengths of dedicated tools and web services, to sol"
+    },
+    {
+      "title": "AGENTiGraph: A Multi-Agent Knowledge Graph Framework for Interactive, Domain-Specific LLM Chatbots",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "AGENTiGraph is a user-friendly, agent-driven system that enables intuitive interaction and management of domain-specific data through the manipulation of knowledge graphs in natural language. It gives non-technical users a complete, visual solution to incrementally build and refine their knowledge bases, allowing multi-round dialogues and dynamic updates without specialized query languages. The flexible design of AGENTiGraph, including intent classification, task planning, and automatic knowledge integration, ensures seamless reasoning between diverse tasks. Evaluated on a 3,500-query benchmark within an educational scenario, the system outperforms strong zero-shot baselines (achieving 95.12% classification accuracy, 90.45% execution success), indicating potential scalability to compliance"
+    },
+    {
+      "title": "Risk to Resilience: LLM-Driven Agentic AI for Natural Hazard Assessment and Decision Support",
+      "year": "2026",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.5194/egusphere-egu26-22037",
+      "citations": 0,
+      "abstract": "Recent advances in large language models (LLMs) are transforming how geoscientists interact with data, models, and decision-support systems. Beyond literature web search and text processing, LLMs now enable new forms of knowledge discovery, real-time analysis, and human–AI collaboration in natural hazards and climate-risk research. At the same time, the increasing availability of geospatial data, remote sensing images, and model outputs creates both opportunities and challenges for integrating text-as-data approaches into operational geoscientific workflows.We present a set of applied case studies demonstrating how LLM-driven assistant agents can be embedded into geoscientific systems to support flood risk assessment, hazard communication, and mitigation planning and decision. The demonstr"
+    },
+    {
+      "title": "Reliable Collaborative Conversational Agent System Based on LLMs and Answer Set Programming",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "As the Large-Language-Model-driven (LLM-driven) Artificial Intelligence (AI) bots became popular, people realized their strong potential in Task-Oriented Dialogue (TOD). However, bots relying wholly on LLMs are unreliable in their knowledge, and whether they can finally produce a correct outcome for the task is not guaranteed. The collaboration among these agents also remains a challenge, since the necessary information to convey is unclear, and the information transfer is by prompts: unreliable, and malicious knowledge is easy to inject. With the help of knowledge representation and reasoning tools such as Answer Set Programming (ASP), conversational agents can be built safely and reliably, and communication among the agents made more reliable as well. We propose a Manager-Customer-Servic"
+    },
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "year": "2020",
+      "journal": "The TQM Journal",
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "citations": 365,
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere ap"
+    },
+    {
+      "title": "Joint Secure Offloading and Resource Allocation for Vehicular Edge Computing Network: A Multi-Agent Deep Reinforcement Learning Approach",
+      "year": "2023",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2023.3242997",
+      "citations": 212,
+      "abstract": "The mobile edge computing (MEC) technology can simultaneously provide high-speed computing services for multiple vehicular users (VUs) in vehicular edge computing (VEC) networks. Nevertheless, due to the open feature of the wireless offloading channels and the high mobility of the vehicles, the security and stability of the offloading process would be seriously degraded. In this paper, by utilizing the physical layer security (PLS) technique and spectrum sharing architecture, we propose a deep reinforcement learning based joint secure offloading and resource allocation (SORA) scheme to improve the secrecy performance and resource efficiency of the multi-user VEC networks, where the VU offloading links share the frequency spectrum preoccupied with the vehicle-to-vehicle (V2V) communication "
+    }
+  ],
+  "elapsed_seconds": 83.517,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method1_outputs\\Q27_method1_20260410_215806.md"
+}

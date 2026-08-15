@@ -1,0 +1,217 @@
+{
+  "query_id": "Q082",
+  "query": "证据字典中「limitation」字段的提取质量如何影响综述报告中的局限性声明引用精度？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Exploring LLM-Based Agents for Root Cause Analysis",
+      "authors": [
+        "Devjeet Roy",
+        "Xuchao Zhang",
+        "Rashi Bhave",
+        "Chetan Bansal",
+        "Pedro Las-Casas",
+        "Rodrigo Fonseca",
+        "Saravan Rajmohan"
+      ],
+      "abstract": "The growing complexity of cloud based software systems has resulted in incident management becoming an integral part of the software development lifecycle. Root cause analysis (RCA), a critical part of the incident management process, is a demanding task for on-call engineers, requiring deep domain knowledge and extensive experience with a team’s specific services. Automation of RCA can result in significant savings of time, and ease the burden of incident management on on-call engineers. Recently, researchers have utilized Large Language Models (LLMs) to perform RCA, and have demonstrated promising results. However, these approaches are not able to dynamically collect additional diagnostic information such as incident related logs, metrics or databases, severely restricting their ability to diagnose root causes. In this work, we explore the use of LLM based agents for RCA to address this limitation. We present a thorough empirical evaluation of a ReAct agent equipped with retrieval tools, on an out-of-distribution dataset of production incidents collected at a large IT corporation. Results show that ReAct performs competitively with strong retrieval and reasoning baselines, but with highly increased factual accuracy. We then extend this evaluation by incorporating discussions associated with incident reports as additional inputs for the models, which surprisingly does not yield significant performance improvements. Lastly, we conduct a case study with a team at Microsoft to equip the ReAct agent with tools that give it access to external diagnostic services that are used by the team for manual RCA. Our results show how agents can overcome the limitations of prior work, and practical considerations for implementing such a system in practice.",
+      "year": "2024",
+      "published_date": "2024-07-10",
+      "journal": "OpenAlex",
+      "url": "https://doi.org/10.1145/3663529.3663841",
+      "arxiv_id": "",
+      "keywords": [
+        "Root cause analysis",
+        "Computer science",
+        "Root (linguistics)",
+        "Root cause",
+        "Engineering",
+        "Reliability engineering"
+      ],
+      "citations": 48,
+      "source": "OpenAlex",
+      "doi": "10.1145/3663529.3663841",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "wf_nytsqbxk202505002",
+      "title": "以AI塑形智慧图书馆:基于智能体的下一代图书馆服务平台",
+      "abstract": "[目的/意义]云计算时代提出的图书馆<span class='highlight'>服务</span>平台(LSP)未能实现其成为图书馆统一解决方案的承诺,在智慧图书馆时代又面临新的发展瓶颈.其相对刚性的架构、孤岛化的数据<span class='highlight'>模型</span>和有限的<span class='highlight'>智能</span>水平,难以满足现代用户对新型资源生态的获取,及主动式<span class='highlight'>服务</span>的迫切需求.本文旨在提出一种基于大语言<span class='highlight'>模型</span>(LLM)<span class='highlight'>智能</span><span class='highlight'>体</span>(Agent)的下一代LSP架构A-LSP,以解决现有LSP的局限性,并推动图书馆<span class='highlight'>服务</span>平台向人工<span class='highlight'>智能</span>时代转型 .[方法/过程]该架构引入了一个新的3层概念<span class='highlight'>模型</span>,包括实现标准化工具集成的MCP市场、负责编排调度的<span class='highlight'>智能</span><span class='highlight'>体</span>中间件,以及支持功能扩展的<span class='highlight'>智能</span><span class='highlight'>体</span>应用生态层.同时,文章面向未来图书馆提出了\"五大中心\"的建设需求框架,即智慧资源中心、智慧<span class='highlight'>服务</span>中心、智慧学习中心、智慧学术交流中心与智慧文化传承中心,以构建图书馆技术与业务融合的蓝图.[结果/结论]研究提出的A-LSP架构通过基于<span class='highlight'>模型</span>上下文协议(MCP)的API 封装,确保了对现有系统的后向兼容性,能够在不替换原有系统的基础上实施新的平台战略.这一基于<span class='highlight'>智能</span><span class='highlight'>体</span>的图书馆<span class='highlight'>服务</span>平台可以看成是现有LSP的重要升级,将驱动其从以资源管理为中心转向以<span class='highlight'>智能</span><span class='highlight'>体</span><span class='highlight'>服务</span>为中心,成为人工<span class='highlight'>智能</span>时代的图书馆<span class='highlight'>服务</span>平台. [Purpose/Significance]In the era of cloud computing,the Library Services Platform(LSP)failed to become a unified solution for libraries it promised to be.Now,it faces new development bottlenecks in  the era of smart libraries.Its relatively rigid architecture,isolated data models,and limited intelligence level make it difficult to meet modern users'urgent demands for access to new resource  ecosystems and proactive services.This limitation stems from the fact that existing LSPs are rooted in a resource management design philosophy.They lack native support for intelligence,personalization,and  ecosystem integration,which hinders their ability to serve as a core component in the construction of smart libraries.[Method/Process]The rapid development of large language model(LLM)technology is promoting  libraries to transition from digital intelligent phases into a new era of intelligent services.As AI agents are increasingly emerge as a core strategy for LLM applications,this paper proposes a",
+      "authors": [
+        "刘炜",
+        "张磊",
+        "嵇婷",
+        "陈晓扬"
+      ],
+      "year": 2025,
+      "journal": "智能体专题",
+      "citations": 34,
+      "url": "https://doi.org/10.13998/j.cnki.issn1002-1248.25-0379",
+      "doi": "10.13998/j.cnki.issn1002-1248.25-0379",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "智能体",
+        "智慧图书馆",
+        "图书馆服务平台",
+        "大语言模型",
+        "多智能体系统",
+        "模型上下文协议"
+      ],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "wf_ydtx202512005",
+      "title": "AI驱动的通感算一体化智能体通信网络架构与关键技术研究",
+      "abstract": "随着多智能体协同应用和具身智能终端的兴起,传统互联网和物联网架构在低时延、智能协同与安全可信等方面逐渐难以支撑新型智能体通信需求.基于此,提出一种人工智能驱动的通感算一体化智能体通信网络架构,在多域资源融合、智驱能力协同和异质业务承载的分层框架下,引入一体化设计与功能组件化、即插即用机制,将无线空口通感、多模态协同感知、端边云算力编排、全局安全管理等关键能力在内生AI的统一编排和动态调度下协同 运行,为6G时代面向车路协同、无人机编队、智慧制造等典型场景的智能网络演进与工程落地提供体系化技术路径. With the rise of <span class='highlight'>multi-agent</span> <span class='highlight'>collaborative</span> applications and embodied intelligent terminals,traditional Internet and Internet of Things architectures increasingly struggle to meet the requirements of  coordination layer,and a heterogeneous <span class='highlight'>service</span> bearing layer,the proposed architecture introduces unified design,functional modularization,and plug-and-play mechanisms.Wireless air-interface  emerging intelligent agent communications in terms of low latency,intelligent coordination,and security and trustworthiness.To address this limitation,this paper proposes an artificial intelligence-driven  integrated sensing-communication-computing architecture for intelligent agent communication networks.Under a hierarchical framework with a multi-domain resource fusion layer,an AI-driven capability  sensing-communication integration,multi-modal cooperative sensing,edge-cloud computing resource orchestration,and holistic security management are encapsulated as key capabilities that are jointly operated under the",
+      "authors": [
+        "张印科",
+        "任语铮",
+        "肖壹夫",
+        "马旭",
+        "张海君"
+      ],
+      "year": 2025,
+      "journal": "\"面向未来通信的通感算一体化关键技术及应用\"专题",
+      "citations": 31,
+      "url": "https://doi.org/10.3969/j.issn.1006-1010.20251024-0002",
+      "doi": "10.3969/j.issn.1006-1010.20251024-0002",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "智能体通信网络",
+        "通感算一体化",
+        "人工智能"
+      ],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "A Framework for Critically Assessing ChatGPT and Other Large Language Artificial Intelligence Model Applications in Health Care",
+      "authors": [
+        "Jonathan Ilicki"
+      ],
+      "abstract": "Large language models (LLMs) are pretrained artificial intelligence (AI) algorithms that can interpret text and generate human-like text in real time.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar Recent studies on LLMs (eg, PaLM and GPT-3.5) have found near-human performance on medical examinations and many possible future applications have been discussed, such as drafting discharge summaries, answering consultations, or generating lists of differential diagnosis.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar, 2Liévin V, Egeberg Hother C, Winther O. Can large language models reason about medical questions? Preprint. Posted online July 17, 2022. arXiv. 2207.08143. https://doi.org/10.48550/arXiv.2207.08143Google Scholar, 3Patel S.B. Lam K. ChatGPT: the future of discharge summaries?.Lancet Digit Health. 2023; 5: e107-e108Abstract Full Text Full Text PDF PubMed Scopus (84) Google Scholar, 4Hirosawa T. Harada Y. Yokose M. Sakamoto T. Kawamura R. Shimizu T. Diagnostic accuracy of differential-diagnosis lists generated by generative pretrained transformer 3 chatbot for clinical vignettes with common chief complaints: a pilot Study.Int J Environ Res Public Health. 2023; 20: 3378Crossref PubMed Scopus (20) Google Scholar, 5Gilson A. Safranek C.W. Huang T. et al.How does ChatGPT perform on the United States medical licensing examination? The implications of large language models for medical education and knowledge assessment.JMIR Med Educ. 2023; 9e45312Crossref PubMed Scopus (128) Google Scholar, 6Kung T.H. Cheatham M. Medenilla A. et al.Performance of ChatGPT on USMLE: potential for AI-assisted medical education using large language models.PLOS Digit Health. 2023; 2e0000198Crossref PubMed Google Scholar, 7Howard A. Hope W. Gerada A. ChatGPT and antimicrobial advice: the end of the consulting infection doctor?.Lancet Infect Dis. 2023; 23: 405-406Abstract Full Text Full Text PDF PubMed Scopus (24) Google Scholar Moreover, ChatGPT can already automatically generate empathetic responses to patients and seemingly genuine scientific abstracts.8Else H. Abstracts written by ChatGPT fool scientists.Nature. 2023; 613: 423Crossref PubMed Scopus (115) Google Scholar,9Goode J. A mental health tech company ran an AI experiment on real users. Nothing’s stopping apps from conducting more. NBC News.https://www.nbcnews.com/tech/internet/chatgpt-ai-experiment-mental-health-tech-app-koko-rcna65110Date accessed: January 19, 2023Google Scholar The number of possible applications is likely to continue to increase, especially with large public investments in health care AI and as LLMs' capabilities continue to improve.10Health Secretary announces £250 million investment in artificial intelligence.Gov.UK.https://www.gov.uk/government/news/health-secretary-announces-250-million-investment-in-artificial-intelligenceDate accessed: January 19, 2023Google Scholar,11Rosemain M. Rose M. France to spend $1.8 billion on AI to compete with U.S., China. Reuters Techonology News.https://www.reuters.com/article/us-france-tech-idUSKBN1H51XPDate accessed: January 19, 2023Google Scholar However, it can be challenging for clinicians with limited technical understanding to assess the feasibility of such applications.12Chen M. Zhang B. Cai Z. et al.Acceptance of clinical artificial intelligence among physicians and medical students: a systematic review with cross-sectional survey.Front Med (Lausanne). 2022; 9: 990604Crossref PubMed Scopus (12) Google Scholar This could result in focusing on unrealistic applications or neglecting promising ones. Frameworks have been developed to assist in assessing AI applications for specific domains, eg, for radiology.13Omoumi P. Ducarouge A. Tournier A. et al.To buy or not to buy-evaluating commercial AI solutions in radiology (the ECLAIR guidelines).Eur Radiol. 2021; 31: 3786-3796Crossref PubMed Scopus (54) Google Scholar However, no such framework exists for LLM applications. Therefore, this article posits a simple framework for nontechnical health care professionals for assessing the feasibility of potential LLM applications in health care. The framework consists of the following 4 steps:1.Determine the main source of health care data that the LLM uses2.Determine the intended recipient of the LLM’s output3.Combine the answers from (1) and (2) to identify a category4.Assess fundamental limitations for that category Determine whether the health care data that the LLM will use to reply to prompts comes from patients (eg, health data or medical records), health care providers (eg, information on procedures, medications, research or organizational information, such as opening hours), or payers (eg, information on reimbursement of procedures). Determine whether the main reader of the output of LLM is a patient, provider, or payer. Combine the answers from steps 1 and 2 in the LLM feasibility framework (Table 1) to identify which category the solution belongs to.Table 1LLM Feasibility Framework: Matrix for Determining Category of LLM ApplicationMain recipient of outputMain source of health care dataUsing patient data…Using provider data…Using payer data…… to highly automate summaries or explanations of…PatientsAdapting output (see examples) to, eg., individual patients’ health literacy, medical history, and current medicationsCategory 1Example: Patient’s own medical records (eg, discharge notes, laboratory results, investigations)Category 2Example: Provider information (eg, medications, treatments, preoperative processes)Category 3Example: Payer information (eg, coverage, explanation of health care system, available providers)ProvidersAdapting output (see examples) to, eg., providers’ specific clinical context, resources, or inquiryCategory 2Example: Pertinent patient information (eg, from medical records, laboratory results)Category 2Example: Relevant medical information (eg, merging local or international guidelines, research)Category 3Example: Relevant payer information (eg, reimbursement, quality measures, or coverage)PayersAdapting output (see examples) to, eg, payers’ specific rules on coverage, reimbursement, or quality measuresCategory 2Example: Relevant population data (eg, aggregate statistics from free text medical records)Category 3Example: Relevant provider information (eg, quality, efficiency or cost of providers/pathways)Category 3Example: Improving existing internal knowledge management systemsLLM, large language model. Open table in a new tab LLM, large language model. Table 2 describes categories and corresponding fundamental limitations, which can be used to assess the feasibility of a specific application. LLMs can be used in many different ways and are developing rapidly. However, some limitations are intrinsic to the AI model itself, which can be seen in the literature to date, and these are unlikely to change despite the rapid development. In brief, these limitations are as follows:i.Lack of understanding: LLMs lack a human-like understanding of the real-world phenomena that words describe and only process their semantic representation. This lack of understanding is highlighted by unpredictable illogical errors in reasoning in recent LLM studies.2Liévin V, Egeberg Hother C, Winther O. Can large language models reason about medical questions? Preprint. Posted online July 17, 2022. arXiv. 2207.08143. https://doi.org/10.48550/arXiv.2207.08143Google Scholar,5Gilson A. Safranek C.W. Huang T. et al.How does ChatGPT perform on the United States medical licensing examination? The implications of large language models for medical education and knowledge assessment.JMIR Med Educ. 2023; 9e45312Crossref PubMed Scopus (128) Google Scholar,14Rao A, Kim J, Kamineni M, Pang M, Lie W, Succi MD. Evaluating ChatGPT as an adjunct for radiologic decision-making. Preprint. Posted online February 7, 2023. medRxiv. 23285399. https://doi.org/10.1101/2023.02.02.23285399Google Scholar This lack of real-world understanding limits the extent to which LLMs can act autonomously without oversight and creates the need of control mechanisms to ensure the appropriateness of the output.ii.Lack of predictability: LLMs run the risk of creating “hallucinations” (text responses that are either nonsensical or unfaithful to the content they should use) and errors that are difficult to predict, which can entail patient risks.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar,4Hirosawa T. Harada Y. Yokose M. Sakamoto T. Kawamura R. Shimizu T. Diagnostic accuracy of differential-diagnosis lists generated by generative pretrained transformer 3 chatbot for clinical vignettes with common chief complaints: a pilot Study.Int J Environ Res Public Health. 2023; 20: 3378Crossref PubMed Scopus (20) Google Scholar,15Ji Z, Lee N, Frieske R, et al. Survey of hallucination in natural language generation. Preprint. Posted online February 8, 2022. arXiv. 2202.03629. https://doi.org/10.1145/3571730Google Scholar Manufacturers must ensure that a medical LLM software performs in a safe and predictable manner according to relevant legislation (eg, the Medical Device Regulation in Europe). Guaranteeing that a LLM does not create any hallucination is challenging. This risk can be partially mitigated by, for example, letting a clinician assess the output before it is acted on (to identify errors) or by forcing the LLM to reference external sources for the statements in its output (to allow comparisons with the original data that the output is based on).iii.Lack of empathy: Even if LLMs can generate seemingly empathetic responses, they cannot experience emotions or empathize with a patient when providing emotional support.16Montemayor C. Halpern J. Fairweather A. In principle obstacles for empathic AI: why we can’t replace human empathy in healthcare.AI Soc. 2022; 37: 1353-1359Crossref PubMed Scopus (8) Google Scholar Moreover, people may not perceive empathy as genuine when coming from an algorithm.17Morris R.R. Kouddous K. Kshirsagar R. Schueller S.M. Towards an artificially empathic conversational agent for mental health applications: system design and user perceptions.J Med Internet Res. 2018; 20: e10148Crossref PubMed Scopus (118) Google Scholar This may change over time but is currently a limitation in, for example, using unsupervised LLM output to provide patients with sensitive information.Table 2LLM Feasibility Framework: Limitations relevant for each categoryCategoryExample of healthcare data usedFundamental limitations relevant for categoryLack of understandingLack of predictabilityLack of empathy1: Output without clinical supervision-Patient health data: e.g. medical records, blood results, patient reported outcome measures, data from wearables✓✓✓2: Supervised output which can impact clinical decisions-Patient health data (as above)-Generic provider data: information about e.g. medications, treatments, procedures, research-Specific provider data: information about e.g. clinicians, opening hours, services provided✓✓3: Administrative output-Provider information (generic/specific as above)-Payer data: administrative data, process measures, reimbursement, costs✓LLM, Large language model. Open table in a new tab LLM, Large language model. The framework could be applied as follows: Imagine a LLM application that aims to improve patient adherence by adapting generic medication information (provider data) to patients (patient recipient) and different levels of health literacy. The combination of data and recipient places the application in category 2, and therefore it would be important to understand how the application addresses the lack of understanding and predictability by LLMs. This framework has several limitations. First, it is not exhaustive but is designed as a simple heuristic for an initial understanding of what fundamental limitations a LLM application may have. This framework does not replace a comprehensive assessment, which is needed before clinical implementation. Such an assessment will include several important aspects, such as interpretability of models (to what extent one can understand why they produce a certain result), which LLM is used, if the training data are sufficiently representative and of high quality, and whether the model has been fine-tuned to medical data. Second, it can only be used to identify potentially impractical solutions but not to confirm the feasibility of solutions. Last, despite incorporating limitations that seem fundamental, these may change as LLMs and social norms develop. Notwithstanding the abovementioned limitations, this framework aims to aid nontechnical health care professionals in critically assessing emerging LLM applications and ensuring their development into clinically safe and useful tools. LLMs have great potential to improve many parts of health care, but more research is needed to understand their performance, safety, and effect on health care systems. Finally, when addressing novel emerging technologies, keep Amara’s law in mind: “We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.”18Amara R. 1925-2017, American futurologist.in: Ratcliffe S. Oxford Essential Quotations.5th ed. Oxford University Press, 2016Google Scholar",
+      "year": "2023",
+      "published_date": "2023-05-18",
+      "journal": "Mayo Clinic Proceedings Digital Health",
+      "url": "https://doi.org/10.1016/j.mcpdig.2023.03.006",
+      "arxiv_id": "",
+      "keywords": [
+        "Preprint",
+        "Scopus",
+        "Artificial intelligence",
+        "English language",
+        "Language model",
+        "Computer science",
+        "Natural language processing",
+        "ENCODE"
+      ],
+      "citations": 19,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.mcpdig.2023.03.006",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Decentralized Continuification Control of Multi-Agent Systems via Distributed Density Estimation",
+      "authors": [
+        "Beniamino Di Lorenzo",
+        "Gian Carlo Maffettone",
+        "M. D. Bernardo"
+      ],
+      "abstract": "This letter introduces a novel decentralized implementation of a continuification-based strategy to control the density of large-scale multi-agent systems. While continuification methods effectively address micro-to-macro control problems by reformulating ordinary/stochastic differential equations (ODEs/SDEs) agent-based models into more tractable partial differential equations (PDEs), they traditionally require centralized knowledge of macroscopic state observables. We overcome this limitation by developing a distributed density estimation framework that combines kernel density estimation with PI consensus dynamics. Our approach enables agents to compute local density estimates and derive local control actions using only information from neighboring agents in a communication network. Numerical validations across multiple scenarios—including regulation, tracking, and time-varying communication topologies—confirm the effectiveness of the proposed approach. They also convincingly demonstrate that our decentralized implementation achieves performance comparable to centralized approaches while enhancing reliability and practical applicability.",
+      "year": "2025",
+      "published_date": "2025-03-18",
+      "journal": "IEEE Control Systems Letters",
+      "url": "https://www.semanticscholar.org/paper/cfb823c3ee97554f9745e386efadef2ab5775484",
+      "arxiv_id": "2503.14119",
+      "keywords": [
+        "Computer Science",
+        "Engineering"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/LCSYS.2025.3581877",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "Artificial Intelligence-Based Thematic Analysis of Biomedical Literature for Precision Nutrition.",
+      "authors": [
+        "Jon L Day",
+        "Jake R Beckman",
+        "Russell Nelson",
+        "Quinten Weeks",
+        "Joseph Dorta",
+        "Moussa Doumbia",
+        "Diana M Thomas"
+      ],
+      "abstract": "The scale of contemporary biomedical research challenges the ability of traditional reviews to preserve structural awareness across entire fields. This limitation is particularly consequential in precision nutrition, where feature selection and model interpretability depend on understanding how diverse and evolving data streams intersect to influence metabolic response. However, as literature volume grows, visibility across the full evidence landscape diminishes. To address this gap, we developed an end-to-end computational framework that ingests complete PubMed query results and organizes all returned abstracts into unsupervised thematic structures. Structured queries were programmatically executed, and abstracts were analyzed using complementary natural language processing approaches. To determine whether traditional reviews reflect the thematic distribution of primary research, review and nonreview subsets were clustered independently and compared using cluster-centroid cosine similarity heat maps. To demonstrate scalability under realistic precision nutrition integration demands, the framework mapped >385,000 abstracts spanning genetics and physical activity into stable thematic representations. Although clinically consolidated domains showed strong correspondence between review and primary research clusters, several mechanistic and genomics-focused areas demonstrated comparatively limited representation in review-derived structures. The full pipeline was operationalized in an interactive web-based application (https://medreview.streamlit.app/), enabling reproducible corpus-scale structural mapping and review-gap diagnostics without manual query navigation or programming. By transforming literature synthesis into scalable structural analysis, this framework provides a quantitative infrastructure for evidence-grounded modeling in precision nutrition research.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "The Journal of nutrition",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41819286/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1016/j.tjnut.2026.101472",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Kelvin Wake-Aware Multi-Agent Network for Ship Kinematic Information Retrieval from Weak Optical Signatures",
+      "authors": [
+        "Borui Li",
+        "Baoxiang Huang",
+        "He Gao",
+        "Ge Chen"
+      ],
+      "abstract": "The Kelvin wake pattern in optical remote sensing imagery encodes essential information about a ship&amp;apos;s motion state, enabling the inversion of its velocity and heading. However, the inherently weak wake signature is often obscured by ocean background clutter. Under weak wake conditions, existing methods mainly rely on local frequency-domain analysis and fail to stably and reliably exploit wake structural information for accurate parameter retrieval. To overcome this limitation, we present the Wave-Aware Multi-Agent Network (WAMANet) and construct a novel agent framework designed for direct ship motion parameter retrieval. WAMANet integrates a Detection Agent and a Segmentation Agent to synergistically perceive the wake region by fusing the macro-scale Kelvin arm geometry with fine-grained wave structure details. This robust perceptual foundation feeds into a dedicated Parameterization Agent, which performs the final regression to invert the ship&amp;apos;s velocity and heading directly from the imagery. We evaluate the framework using two newly constructed benchmark datasets. Experimental results demonstrate that WAMANet achieves highly accurate inversion, with a mean absolute error (MAE) of 0.29 m/s for velocity, 6.33° for heading, and an R² score of 0.93 for both cases. This performance validates the proposed framework as an effective and reliable end-to-end solution for ship motion retrieval from optical imagery data.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2139/ssrn.6175591",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.6175591",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service full text retrieval"
+    },
+    {
+      "title": "A multi-stage agentic AI system for extracting information from large digital archives: case study on the Czechoslovak year 1968 in CIA’s FOIA collection",
+      "authors": [
+        "Ján Cerný",
+        "Kiril Avramov",
+        "Liladhar R. Pendse"
+      ],
+      "abstract": "\n \n This study aims to design, implement and evaluate a conceptual multi-stage artificial intelligence (AI) system for the systematic analysis of large, unstructured digital archives. Using the 1968 Prague Spring and subsequent Soviet invasion of Czechoslovakia as a case study, the paper demonstrates how such a system can automate the extraction of historical intelligence from declassified documents, creating a time-resolved narrative from non-machine-readable sources.\n \n \n \n A multi-stage agentic system comprising eight specialized agents was developed to deconstruct the historical research workflow. The system was applied to the corpus of declassified President’s Daily Briefs from 1968 to 1969, sourced from the CIA’s FOIA Electronic Reading Room. The methodology integrates optical character recognition (OCR) and expert-guided prompt engineering and introduces a novel evaluation framework to quantitatively and qualitatively compare the performance of four distinct LLMs (GPT-5, Claude Sonnet 4.5, Grok 4 and Magistral Medium) across the 2,122-page corpus.\n \n \n \n The system produced three key outputs: a comprehensive monthly summary of intelligence reporting, a structured list of key named entities and a thematic quantification of the content. Critically, the comparative analysis reveals significant trade-offs in performance: GPT-5 achieved the highest output quality (F1 score: 0.731), while Claude Sonnet 4.5 offered superior cost-efficiency and processing speed. Moreover, Claude Sonnet 4.5 and Grok 4 demonstrated flawless operational stability, while Mistral Magistral Medium proved most effective at text reduction. These findings underscore that while AI enhances efficiency, expert human oversight remains essential for ensuring interpretive nuance.\n \n \n \n A primary limitation is the data acquisition process, due to the lack of a public API for the canonical data source, which affects long-term reproducibility. Furthermore, the reliance on OCR introduces a layer of potential error into the source text. The study implies that fully automated historical analysis is not yet fully feasible; rather, a human-in-the-loop, collaborative approach is essential for credible results.\n \n \n \n The proposed framework provides a replicable model for historians, archivists, librarians and intelligence analysts to unlock insights from vast, unstructured document collections. It streamlines labor-intensive tasks (e.g. data discovery, text extraction, summarization), allowing researchers to focus on higher-level analysis and interpretation.\n \n \n \n This paper’s primary novelty lies in presenting one of the first comprehensive frameworks for evaluating and benchmarking competing LLMs on complex historical analysis tasks using declassified intelligence documents. It moves beyond single-LLM case studies by offering a complete, end-to-end workflow that not only processes intelligence documents but also provides a replicable methodology for assessing the practical trade-offs (quality, cost and speed) between different AI models in a digital humanities’ context.\n",
+      "year": "2026",
+      "published_date": "2026-01-22",
+      "journal": "Electronic library",
+      "url": "https://www.semanticscholar.org/paper/ba0e2bacd045bab324ab4f9611ec56deb40f0685",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1108/el-06-2025-0272",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    }
+  ],
+  "timestamp": "20260412_235903"
+}

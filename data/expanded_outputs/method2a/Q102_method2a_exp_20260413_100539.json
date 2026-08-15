@@ -1,0 +1,199 @@
+{
+  "query_id": "Q102",
+  "query": "在扩展到 n≥200 查询时，如何设计分层抽样策略以确保覆盖不同语料覆盖率等级的查询？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment",
+      "authors": [
+        "Yuxing Lu",
+        "Jinzhuo Wang"
+      ],
+      "abstract": "Maintaining comprehensive and up-to-date knowledge graphs (KGs) is critical for modern AI systems, but manual curation struggles to scale with the rapid growth of scientific literature. This paper presents KARMA, a novel framework employing multi-agent large language models (LLMs) to automate KG enrichment through structured analysis of unstructured text. Our approach employs nine collaborative agents, spanning entity discovery, relation extraction, schema alignment, and conflict resolution that iteratively parse documents, verify extracted knowledge, and integrate it into existing graph structures while adhering to domain-specific schema. Experiments on 1,200 PubMed articles from three different domains demonstrate the effectiveness of KARMA in knowledge graph enrichment, with the identification of up to 38,230 new entities while achieving 83.1\\% LLM-verified correctness and reducing conflict edges by 18.6\\% through multi-layer assessments.",
+      "year": "2025",
+      "published_date": "2025-02-10",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/670a10114f5b29a289d2759005730125baac27ad",
+      "arxiv_id": "2502.06472",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 20,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2502.06472",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "Multi-agent Collaborative Perception for Robotic Fleet: A Systematic Review",
+      "authors": [
+        "Apoorv Singh",
+        "G. Raut",
+        "Alka Choudhary"
+      ],
+      "abstract": "Collaborative perception in multi-robot fleets is a way to incorporate the power of unity in robotic fleets. Collaborative perception refers to the collective ability of multiple entities or agents to share and integrate their sensory information for a more comprehensive understanding of their environment. In other words, it involves the collaboration and fusion of data from various sensors or sources to enhance perception and decision-making capabilities. By combining data from diverse sources, such as cameras, lidar, radar, or other sensors, the system can create a more accurate and robust representation of the environment. In this review paper, we have summarized findings from 20+ research papers on collaborative perception. Moreover, we discuss testing and evaluation frameworks commonly accepted in academia and industry for autonomous vehicles and autonomous mobile robots. Our experiments with the trivial perception module show an improvement of over 200% with collaborative perception compared to individual robot perception. Here's our GitHub repository that shows the benefits of collaborative perception: https://github.com/synapsemobility/synapseBEV",
+      "year": "2024",
+      "published_date": "2024-03-22",
+      "journal": "ECCV Workshops",
+      "url": "https://www.semanticscholar.org/paper/ffc4a7bcc559b5bc0d2118c3dd7ce49565810661",
+      "arxiv_id": "2405.15777",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 4,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2405.15777",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "EnEnv 1.0: Energy Grid Environment for Multi-Agent Reinforcement Learning Benchmarking",
+      "authors": [
+        "D. Bogucki",
+        "Lukasz Lepak",
+        "Sonam Parashar",
+        "B. Błachowski",
+        "Pawel Wawrzynski"
+      ],
+      "abstract": "Multi-agent reinforcement learning (MARL) offers prospects of efficient control in large distributed systems such as complex energy grids. The development of MARL algorithms is hampered by a scarcity of realistic benchmarks. In this paper, we introduce EnEnv 1.0 --- a simulation benchmark for MARL in modern energy grids. EnEnv 1.0 is a set of environments in which the energy grids are simulated with uncontrollable renewable energy sources, fossil fuel generators, and consumers. The role of learning agents is to control and coordinate batteries in a distributed Battery Energy Storage System (BESS) based on readouts such as weather forecasts and load demand forecasts. The energy grids in EnEnv 1.0 are based on standard test systems of different topological structures. These include the modified standard IEEE 33, Illinois 200, and PEGASE 89 bus systems. These networks are adjusted to serve as the MARL benchmark by introducing real weather observations, demand data for European locations, and software interfaces that enable coupling with a number of existing implementations of MARL algorithms, as well as single-agent reinforcement learning (SARL) algorithms. In the experimental study, we verify the performance of a catalog of MARL and SARL methods on EnEnv 1.0.",
+      "year": "2025",
+      "published_date": "2025-05-28",
+      "journal": "Adaptive Agents and Multi-Agent Systems",
+      "url": "https://www.semanticscholar.org/paper/91fcc7049a4ababc1fe6c3de9640ff00f3392b6c",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.5555/3709347.3743550",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "Multi-Agent Vulcan: An Information-Driven Multi-Agent Path Finding Approach",
+      "authors": [
+        "Jake Olkin",
+        "Viraj Parimi",
+        "Brian Williams"
+      ],
+      "abstract": "Scientists often search for phenomena of interest while exploring new environments. Autonomous vehicles are deployed to explore such areas where human-operated vehicles would be costly or dangerous. Online control of autonomous vehicles for information-gathering is called adaptive sampling and can be framed as a POMDP that uses information gain as its principal objective. While prior work focuses largely on single-agent scenarios, this paper confronts challenges unique to multi-agent adaptive sampling, such as avoiding redundant observations, preventing vehicle collision, and facilitating path planning under limited communication. We start with Multi-Agent Path Finding (MAPF) methods, which address collision avoidance by decomposing the MAPF problem into a series of single-agent path planning problems. We then present information-driven MAPF which addresses multi-agent information gain under limited communication. First, we introduce an admissible heuristic that relaxes mutual information gain to an additive function that can be evaluated as a set of independent single agent path planning problems. Second, we extend our approach to a distributed system that is robust to limited communication. When all agents are in range, the group plans jointly to maximize information. When some agents move out of range, communicating subgroups are formed and the subgroups plan independently. Since redundant observations are less likely when vehicles are far apart, this approach only incurs a small loss in information gain, resulting in an approach that gracefully transitions from full to partial communication. We evaluate our method against other adaptive sampling strategies across various scenarios, including real-world robotic applications. Our method was able to locate up to 200% more unique phenomena in certain scenarios, and each agent located its first unique phenomenon faster by up to 50%.",
+      "year": "2024",
+      "published_date": "2024-09-19",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2409.13065v1",
+      "arxiv_id": "2409.13065v1",
+      "keywords": [
+        "cs.MA",
+        "cs.RO"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service"
+    },
+    {
+      "title": "Multi-Agent Transfer Learning in Reinforcement Learning-Based Ride-Sharing Systems",
+      "authors": [
+        "Alberto Castagna",
+        "Ivana Dusparic"
+      ],
+      "abstract": "Reinforcement learning (RL) has been used in a range of simulated real-world tasks, e.g., sensor coordination, traffic light control, and on-demand mobility services. However, real world deployments are rare, as RL struggles with dynamic nature of real world environments, requiring time for learning a task and adapting to changes in the environment. Transfer Learning (TL) can help lower these adaptation times. In particular, there is a significant potential of applying TL in multi-agent RL systems, where multiple agents can share knowledge with each other, as well as with new agents that join the system. To obtain the most from inter-agent transfer, transfer roles (i.e., determining which agents act as sources and which as targets), as well as relevant transfer content parameters (e.g., transfer size) should be selected dynamically in each particular situation. As a first step towards fully dynamic transfers, in this paper we investigate the impact of TL transfer parameters with fixed source and target roles. Specifically, we label every agent-environment interaction with agent's epistemic confidence, and we filter the shared examples using varying threshold levels and sample sizes. We investigate impact of these parameters in two scenarios, a standard predator-prey RL benchmark and a simulation of a ride-sharing system with 200 vehicle agents and 10,000 ride-requests.",
+      "year": "2021",
+      "published_date": "2021-12-01",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2112.00424v1",
+      "arxiv_id": "2112.00424v1",
+      "keywords": [
+        "cs.LG",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "Are Pre-Service EFL Teachers Ready for AI-Assisted Assessment? The Role of Assessment Literacy in the Digital Era",
+      "authors": [
+        "Vina Ayuningtryas",
+        "I. Emaliana"
+      ],
+      "abstract": "Artificial Intelligence (AI) is transforming educational assessment, particularly in English as a Foreign Language (EFL) settings. As the use of AI is becoming increasingly rapid, pre-service teachers must become proficient with both Language Assessment Literacy (LAL) and preparation to utilize AI tools. Therefore, this study explored the relationship between LAL and AI-based assessment readiness among Indonesian EFL pre-service teachers. Adopting a mixed-method explanatory sequential research design, 200 respondents across 60 universities in Indonesia participated through a questionnaire survey followed by interviews with the highest and lowest AI readiness scores. The quantitative data found a significant moderate positive correlation, implying that higher LAL is associated with greater readiness to use AI-based assessment. Moreover, the descriptive data indicated that while most participants demonstrated high LAL, their AI readiness was only moderately high. Qualitative data revealed that the respondents with better LAL have critical views about practices when it comes to assessment. The research concluded that to effectively integrate AI into assessment practices, pre-service teachers not only need technology skills training but also a solid assessment knowledge. These results have implications for the curriculum in teacher education, for which there is demand for integrated frameworks that link assessment theory with ethical AI implementation.",
+      "year": "2025",
+      "published_date": "2025-09-30",
+      "journal": "PANYONARA: Journal of English Education",
+      "url": "https://www.semanticscholar.org/paper/7907476fb68d697db846a7f46a734185b37ba86d",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.19105/panyonara.v7i2.21416",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "Perception of AI-assisted health communication via ChatGPT in Hungary",
+      "authors": [
+        "Mariann Békésy",
+        "László Gulácsi",
+        "Dóra Szerencsés",
+        "O. Szigeti"
+      ],
+      "abstract": "\n \n This study explores Hungarian adults' perceptions of ChatGPT when used for health-related information seeking, focusing on demographic determinants of acceptance and the role of trust, digital familiarity, and perceived usefulness. The research contributes to the emerging discourse on public readiness for AI-assisted health communication in Central and Eastern Europe, a region underrepresented in international scholarship.\n \n \n \n A cross-sectional online survey was conducted with 200 Hungarians aged 40 and above, applying quota sampling. Attitudes were measured through five UTAUT-framed statements. Descriptive statistics, ANOVA and linear regression were used to assess the effects of gender, generation, and education on acceptance.\n \n \n \n Respondents viewed ChatGPT as helpful for promoting general health literacy but showed moderate hesitation about using it for personal health questions. Generational differences were substantial: Millennials showed the highest acceptance and intention to use, whereas Baby Boomers were significantly more cautious. Gender differences were negligible, and education level did not predict acceptance, suggesting that AI literacy rather than formal schooling shapes behavioral intention.\n \n \n \n For future research, we recommend repeating this survey with a larger sample size and including younger generations, especially those born into the digital age. Additionally, as there is no universally recognized, validated questionnaire specifically designed for evaluating ChatGPT or similar AI conversational models, further research should focus on developing and validating a more detailed and specific survey about ChatGPT.\n \n \n \n Results indicate that although ChatGPT is not perceived as a replacement for professional medical consultation, it may serve as a complementary digital resource to enhance societal health knowledge. The findings inform policy discussions on the responsible diffusion of AI in healthcare and highlight the importance of targeted AI literacy initiatives, especially for older users.\n \n \n \n This is one of the first empirical investigations into public perceptions of ChatGPT in a CEE healthcare context. It provides evidence that acceptance is primarily shaped by digital familiarity rather than education and offers actionable insights for health communication, technology-enabled patient education, and AI capacity-building strategies.\n",
+      "year": "2026",
+      "published_date": "2026-02-03",
+      "journal": "Asian Education and Development Studies",
+      "url": "https://www.semanticscholar.org/paper/edd19e4b1f0f0b2ef295b131d6fab8fc18e3302d",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1108/aeds-01-2025-0040",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "Show Your Work: Verbatim Evidence Requirements and Automated Assessment for Large Language Models in Biomedical Text Processing",
+      "authors": [
+        "Paul Windisch",
+        "Julia Weyrich",
+        "Fabio Dennstädt",
+        "Daniel R. Zwahlen",
+        "Robert Förster",
+        "Christina Schröder"
+      ],
+      "abstract": "Abstract\n                \n                  Purpose\n                  Large language models (LLMs) are used for biomedical text processing, but individual decisions are often hard to audit. We evaluated whether enforcing a mechanically checkable “show your work” quote affects accuracy, stability, and verifiability for trial eligibility-scope classification from abstracts.\n                \n                \n                  Methods\n                  We used 200 oncology randomized controlled trials (2005 - 2023) and provided models with only the title and abstract. Trials were labeled with whether they allowed for the inclusion of patients with localized and/or metastatic disease. Three flagship models (GPT-5.2, Gemini 3 Flash, Claude Opus 4.5) were queried with default settings in two independent conditions: label-only and label plus a verbatim supporting quote. Models could abstain if they deemed the abstract to not contain sufficient information. Each condition was repeated three times per abstract. Quotes were mechanically validated as exact substrings after whitespace normalization, and a separate judge step used an LLM to rate whether each quote supported the assigned label.\n                \n                \n                  Results\n                  Evidence requirements modestly reduced coverage (GPT-5.2 86.2% to 84.3%, Gemini 98.3% to 92.8%, Claude 96.0% to 94.5%) by increasing abstentions and, for Gemini, invalid outputs. Conditional macro-F1 remained high but changed by model (slight gains for GPT-5.2 and Gemini, decrease for Claude). Labels were stable across repetitions (Fleiss’ kappa 0.829 to 0.969). Mechanically valid quotes occurred in 83.3% to 91.2% of runs, yet only 48.0% to 78.8% of evidence-bearing predictions were judged semantically supported. Restricting to supported predictions increased macro-F1 at the cost of lower coverage.\n                \n                \n                  Conclusion\n                  Substring-verifiable quotes provide an automated audit trail and enable selective, higher-trust automation when applying LLMs to biomedical text processing. However, this approach introduces new failure modes and trades coverage for verifiability in a model-dependent way.",
+      "year": "2026",
+      "published_date": "2026-3-4",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.64898/2026.03.03.26346690",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.64898/2026.03.03.26346690",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    }
+  ],
+  "timestamp": "20260413_100539"
+}

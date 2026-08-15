@@ -1,0 +1,23 @@
+{
+  "baseline": "method1_pipeline",
+  "query": "Google Scholar、OpenAlex、CrossRef、Scopus 在智慧情报服务中各自适合承担什么角色？",
+  "effective_search_query": "Google Scholar OpenAlex CrossRef Scopus 智慧情报服务 角色",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 1,
+  "screened_count": 1,
+  "all_retrieved_ids": [
+    "title:基于citespace 的移动政务服务研究热点与主题演化|2023"
+  ],
+  "top_papers": [
+    {
+      "title": "基于CiteSpace 的移动政务服务研究热点与主题演化",
+      "year": 2023,
+      "journal": "吴私 - Operations Research and Fuzziology, 2023 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 聚类5为citizen relationship management (公民关系管理),其时间跨度为2010~2023年,表明 公民关系管理在移动政务服务中一直扮演着重要的角色,公民对政府的信任被广泛认为是促进民主…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method1_outputs\\Q12_method1_20260410_213617.md"
+}

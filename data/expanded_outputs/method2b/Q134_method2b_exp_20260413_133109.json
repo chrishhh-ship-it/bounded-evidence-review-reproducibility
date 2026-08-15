@@ -1,0 +1,236 @@
+{
+  "query_id": "Q134",
+  "query": "How should a synthesis agent handle citations to musical scores versus recordings of the same work in a musicology review?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "id": "gs_455d270f83",
+      "title": "Rethink literature review of design research in an age of AI–from 'secretary work'to scholarly synthesis of insight, frameworks, and foresight",
+      "abstract": ": its scholarly value lies not in the mere presence of text but in analytical judgment,  evidence–grounded evaluation, and rigorous reasoning. Classic guidance on critical reviewing",
+      "authors": [
+        "R Jiao"
+      ],
+      "year": 2026,
+      "journal": "Journal of Engineering Design",
+      "citations": 1,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/09544828.2026.2626883",
+      "doi": "10.1080/09544828.2026.2626883",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "How is Real World Evidence taught in Nursing? A Systematic review undertaking a narrative synthesis of the literature (Preprint)",
+      "authors": [
+        "Tristan Coombe",
+        "Lisa Burrows",
+        "Madison Milne-Ives",
+        "Edward Meinert"
+      ],
+      "abstract": "BACKGROUND\n                        Real World Evidence (RWE) comprises forms, methodologies and applications including data collected in naturally uncontrolled settings utilising non-interventional, non-controlled and non-experimental approaches.  RWE may overcome problems inherent with traditional research methodologies.  It more closely represents the real world and how interventions affect the patient experience and could be more suitable for assessing complex social interventions. Clinicians require the skills and knowledge to utilise it effectively and mitigate its disadvantages.  As Nurses are the largest group of healthcare professionals, exploring how to develop knowledge of RWE in nursing has a large potential benefit for research and care.\n                \n                                \n                    OBJECTIVE\n                        This systematic review (SR) aims to consider how RWE is taught within nursing and examine the benefits and outcomes of those teaching and learning activities.\n                \n                                \n                    METHODS\n                        An SR without Meta-Analysis narrative synthesis approach was conducted. MEDLINE (EBSCO), EMBASE (Ovid), PsycINFO, Cochrane, Web of Science, SCOPUS and IEEE were searched using free text terms and MeSH terms combined with Boolean operators associated with RWE forms, types and methodologies, teaching and nursing.  Final studies were appraised using MMAT and JBI tools.\n                \n                                \n                    RESULTS\n                        Kinaesthetic approaches, simulated learning, and case studies were undertaken in classroom and practice settings utilising real and simulated data, which may positively increase perceived satisfaction and knowledge with RWE.   Constructivism and experiential learning could be more suitable for RWE education with educators and students displaying increased positivity towards RWE compared with alternative pedagogical approaches.  Barriers to RWE education included negative educator and learner beliefs, organisational barriers and concerns regarding data security and confidentiality.  A majority of the studies were observational or descriptive and a number of areas of bias were identified during the appraisal process.\n                \n                                \n                    CONCLUSIONS\n                        Utilising a range of teaching and learning strategies in nursing that make learning relevant and meaningful may be important in RWE education.  More research is needed to develop further the definition, characteristics and applications of RWE, consider different pedagogical approaches and a wider range of RWE forms, methodologies and applications.",
+      "year": "2023",
+      "published_date": "2023-5-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2196/preprints.49164",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2196/preprints.49164",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "The feedback loop: A systematic review of how evaluation practices inform conversational agent design",
+      "authors": [
+        "Neşe Baz Aktaş",
+        "Adem Akbıyık"
+      ],
+      "abstract": "Abstract\n                Conversational Agents (CAs) have become increasingly integrated in our daily interactions. Despite this growing adoption, research on CA design remains fragmented, often lacking clear connections between design and its effects on user experience. Bridging perspectives from Human-Computer Interaction (HCI) and Information Systems (IS), this study provides a structured, design element-level synthesis of CA design practices and their effect on user experience. To do this, we systematically reviewed 97 empirical studies published in leading HCI and IS venues, following a rigorous three-stage methodology. Building on this, we proposed a CA design framework that identifies design dimensions and maps them with user outcomes to provide actionable guidance for practitioners. The resulting structured framework offers conceptual clarity and practical guidance, laying the groundwork for future empirical research and evidence-based design strategies in CA development.",
+      "year": "2025",
+      "published_date": "2025-9-29",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-7235054/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-7235054/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "The continuous improvement of digital assistance in the radiation oncologist's work: from web-based nomograms to the adoption of large-language models (LLMs). A systematic review by the young group of the Italian association of radiotherapy and clinical oncology (AIRO).",
+      "authors": [
+        "Antonio Piras",
+        "Ilaria Morelli",
+        "Riccardo Ray Colciago",
+        "Luca Boldrini",
+        "Andrea D'Aviero",
+        "Francesca De Felice",
+        "Roberta Grassi",
+        "Giuseppe Carlo Iorio",
+        "Silvia Longo",
+        "Federico Mastroleo",
+        "Isacco Desideri",
+        "Viola Salvestrini"
+      ],
+      "abstract": "Recently, the availability of online medical resources for radiation oncologists and trainees has significantly expanded, alongside the development of numerous artificial intelligence (AI)-based tools. This review evaluates the impact of web-based clinical decision-making tools in the clinical practice of radiation oncology. We searched databases, including PubMed, EMBASE, and Scopus, using keywords related to web-based clinical decision-making tools and radiation oncology, adhering to PRISMA guidelines. Out of 2161 identified manuscripts, 70 were ultimately included in our study. These papers all supported the evidence that web-based tools can be transversally integrated into multiple radiation oncology fields, with online applications available for dose and clinical calculations, staging and other multipurpose intents. Specifically, the possible benefit of web-based nomograms for educational purposes was investigated in 35 of the evaluated manuscripts. As regards to the applications of digital and AI-based tools to treatment planning, diagnosis, treatment strategy selection and follow-up adoption, a total of 35 articles were selected. More specifically, 19 articles investigated the role of these tools in heterogeneous cancer types, while nine and seven articles were related to breast and head & neck cancers, respectively. Our analysis suggests that employing web-based and AI tools offers promising potential to enhance the personalization of cancer treatment.",
+      "year": "2024",
+      "published_date": "2024",
+      "journal": "La Radiologia medica",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39397129/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Radiation Oncology",
+        "Nomograms",
+        "Internet",
+        "Artificial Intelligence",
+        "Italy",
+        "Clinical Decision-Making",
+        "Radiation Oncologists"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1007/s11547-024-01891-y",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models systematic review"
+    },
+    {
+      "title": "Tools, techniques, methods, and processes for the detection and mitigation of fraudulent or erroneous data in evidence synthesis: a scoping review protocol.",
+      "authors": [
+        "T. Barker",
+        "G. McBride",
+        "A. Ross-White",
+        "D. Pollock",
+        "Cindy Stern",
+        "Sabira Hasanoff",
+        "R. Kanukula",
+        "Mafalda M Dias",
+        "A. Scott",
+        "E. Aromataris",
+        "Ashley Whitehorn",
+        "Jennifer Stone",
+        "Larissa Shamseer",
+        "P. Palmieri",
+        "M. Klugar",
+        "Z. Munn"
+      ],
+      "abstract": "OBJECTIVE\nThis scoping review aims to identify, catalogue, and characterize previously reported tools, techniques, methods, and processes that have been recommended or used by evidence synthesizers to detect fraudulent or erroneous data and mitigate its impact.\n\n\nINTRODUCTION\nDecision-making for policy and practice should always be underpinned by the best available evidence-typically peer-reviewed scientific literature. Evidence synthesis literature should be collated and organized using the appropriate evidence synthesis methodology, best exemplified by the role systematic reviews play in evidence-based health care. However, with the rise of \"predatory journals,\" fraudulent or erroneous data may be invading this literature, which may negatively affect evidence syntheses that use this data. This, in turn, may compromise decision-making processes.\n\n\nINCLUSION CRITERIA\nThis review will include peer-reviewed articles, commentaries, books, and editorials that describe at least 1 tool, technique, method, or process with the explicit purpose of identifying or mitigating the impact of fraudulent or erroneous data for any evidence synthesis, in any topic area. Manuals, handbooks, and guidance from major organizations, universities, and libraries will also be considered.\n\n\nMETHODS\nThis review will be conducted using the JBI methodology for scoping reviews and reported according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR). Databases and relevant organizational websites will be searched for eligible studies. Title and abstract, and subsequently full-text screening will be conducted in duplicate using Covidence. Data from identified full texts will be extracted using a pre-determined checklist, while the findings will be summarized descriptively and presented in tables.\n\n\nTHIS SCOPING REVIEW PROTOCOL WAS REGISTERED IN OPEN SCIENCE FRAMEWORK\nhttps://osf.io/u8yrn.",
+      "year": "2024",
+      "published_date": "2024-09-10",
+      "journal": "JBI Evidence Synthesis",
+      "url": "https://www.semanticscholar.org/paper/22a62795de37c9a7912af0b3fee86fbaff1baf57",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.11124/JBIES-24-00167",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Prioritizing qualitative meta-synthesis findings in a mixed methods systematic review study: A description of the method",
+      "authors": [
+        "Robin Coatsworth-Puspoky",
+        "Wendy Duggleby",
+        "Sherry Dahlke",
+        "Kathleen F. Hunter"
+      ],
+      "abstract": "Aim(s)\n To describe a sequential mixed methods review method that prioritized synthesized qualitative evidence from primary studies to explain the complexities of older persons with multiple chronic conditions’ unplanned readmission experiences. \nBackground\n Segregated mixed methods review studies frequently prioritize quantitative evidence synthesis to examine the effectiveness of interventions; utilizing qualitative evidence to explain quantitative data. There is a lack of guidance about how to prioritize qualitative evidence. \nResults\n Five procedural steps were developed to prioritize qualitative evidence synthesis. In Step 1, research questions were developed. In Step 2, databases were searched, studies were mapped to their method (qualitative or quantitative) and appraised. In Step 3, meta-synthesis and applied thematic analysis were used to synthesize extracted qualitative evidence about the psychosocial processes and factors that influenced unplanned readmission. In Step 4, quantitative evidence was synthesized using vote counting to determine the factors influencing unplanned readmission. In Step 5, a matrix was used to compare, determine the agreement between the qualitative and quantitative evidence, juxtapose findings, and uphold validity. Factors were mapped to the model of psychosocial processes and analytic themes. \nConclusion\n Prioritizing qualitative evidence synthesis in a mixed methods review study prioritizes participants’ experiences, perspectives, and voices to understand complex clinical problems from participants who experienced the event. Synthesizing and integrating evidence facilitates the construction of holistic new understandings about phenomenon and expands mixed methods systematic review methods. \nImplications\n Prioritizing patients’ perspectives is useful for developing new client-centered interventions, establishing best practices for future reviews, generating theories, and expanding research methods.",
+      "year": "2025",
+      "published_date": "2025-01-01",
+      "journal": "Research Synthesis Methods",
+      "url": "https://www.semanticscholar.org/paper/5ef46272d73332703b8c6e55a4757d9a8f605d66",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1017/rsm.2024.8",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "The effect of digital health interventions in older adults with frailty: a systematic review and meta-analysis",
+      "authors": [
+        "Meng-Yao Liang",
+        "Jin Cui",
+        "Xin-Yi Fan",
+        "Jun-jie Zhang",
+        "Xiao-Ling Liu",
+        "Dong Liu"
+      ],
+      "abstract": "Background Frailty is prevalent among the elderly population and can lead to multiple negative health consequences. Objective This study compares the effects of digital interventions versus either non-digital interventions with the same content or routine treatment/care alone (or both) on improving physical function and frailty status in older adults, and clarifies the formal advantages and comprehensive benefits of digital interventions. Design Systematic review and meta-analysis of randomized controlled trials. Methods Systematic searches of the PubMed, Embase, Web of Science, CINAHL, PsycINFO, the Cochrane Library, and CNKI for publications archived in the database between its launch and January 16, 2025. The meta-analysis was performed using stata 15.0 and 16.0. We used the 2019 Revised version of the Cochrane risk-of-bias tool (RoB 2.0) to evaluate the study’s quality. Results 23 studies were conducted from 2007 to 2024 in 5 continents that investigated 3426 frail elderly participants were included in the review.The meta-analytic findings indicated superior efficacy in older adults with frailty for digital health interventions over control group on measures of the frailty scores (standardized mean difference (SMD)= -0.42, 95 % confidence intervals (CI) [-0.72, -0.12]; P = 0.006), grip strength (weighted mean difference (WMD)= 1.11, 95 % CI [0.09, 2.14]; P = 0.034), cognitive function (SMD= 0.12, 95 % CI [0.01, 0.24]; P = 0.038), and quality of life (SMD= 0.30, 95 % CI [0.11, 0.50]; P = 0.003). Subgroup analysis stratified by control group type revealed that the digital intervention combined with exercise group significantly improved frailty status (SMD= -0.52, 95 % CI[-0.96, -0.08]; P = 0.020), grip strength (WMD= 1.82, 95 % CI[0.53, 3.12]; P = 0.006), and cognitive function (SMD= 0.20, 95 % CI[0.04, 0.37]; P = 0.015) in elderly patients to a greater extent compared with the usual care group. There were no significant differences between digital health interventions and control groups on any of the remaining 5 comparisons: Timed Up and Go Test (WMD= -0.73, 95 % CI [-1.52, 0.06]; P = 0.07), gait speed (WMD= 0.02, 95 % CI [-0.05, 0.09]; P = 0.55), Short Physical Performance Battery (WMD = -0.17, 95 % CI [-1.14, 0.79]; P = 0.724), Sit-to-Stand Test (WMD = 0.19, 95 % CI [-0.69, 1.07]; P = 0.67), and depression (SMD = -0.21, 95 % CI [-0.47, 0.05]; P = 0.107). Meta-regression analyses revealed that covariates including sex distribution, country of origin, care setting, intervention type, intervention duration, and assessment methodology exhibited no significant moderating effects on grip strength, cognitive function, or quality of life outcomes. Conclusions The study results showed that frail elderly individuals who received digital health interventions improved their frailty status, grip strength, cognitive function, and quality of life. Furthermore, compared with the usual care group, the digital exercise intervention group showed superior effects on improving grip strength, frailty status, and cognitive function among frail elderly populations, suggesting that the \"digital intervention combined with exercise\" model should be prioritized for managing geriatric frailty in clinical practice. Future research should conduct more large-sample, homogeneous, high-quality clinical trials to more accurately verify the effects of core digital modules on frailty and physical function in the elderly. Registration Number CRD42024614928 (PROSPERO).",
+      "year": "2025",
+      "published_date": "2025-12-01",
+      "journal": "International Journal of Nursing Studies Advances",
+      "url": "https://www.semanticscholar.org/paper/6888247e5538b814813e34e2f03e886ea2a098c0",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.ijnsa.2025.100470",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis systematic review"
+    }
+  ],
+  "timestamp": "20260413_133109"
+}

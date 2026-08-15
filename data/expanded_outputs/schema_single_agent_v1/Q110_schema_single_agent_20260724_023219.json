@@ -1,0 +1,251 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q110",
+  "query": "当知识库更新频率高（每月新增文献 > 10%）时，冻结语料库基准的评估结论是否仍然有效？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q110_method1_exp_20260413_082110.json",
+  "same_query_evidence_ids": [
+    "doi:10.3389/fmed.2025.1523630",
+    "doi:10.1002/wcc.746",
+    "title:curating china's cultural revolution (1966-1976): cr/10 as a warburgian memory atlas and digital humanities interface|2021",
+    "doi:10.1016/j.eclinm.2020.100348",
+    "doi:10.48550/arxiv.1910.03581",
+    "doi:10.1002/ajae.12089",
+    "doi:10.3389/fpsyt.2020.00323",
+    "title:a knowledge enhanced generative conversational service agent|2017"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.3389/fmed.2025.1523630",
+    "doi:10.1002/wcc.746",
+    "title:curating china's cultural revolution (1966-1976): cr/10 as a warburgian memory atlas and digital humanities interface|2021",
+    "doi:10.1016/j.eclinm.2020.100348",
+    "doi:10.48550/arxiv.1910.03581",
+    "doi:10.1002/ajae.12089",
+    "doi:10.3389/fpsyt.2020.00323",
+    "title:a knowledge enhanced generative conversational service agent|2017"
+  ],
+  "top_papers": [
+    {
+      "title": "Publications of systematic review and meta-analysis in the indexed anesthesia journals: a 10-year bibliometric analysis",
+      "authors": [
+        "Zhi-yao Zou",
+        "Xiao-jing Huang",
+        "Jin-rui Song",
+        "Yun-tai Yao"
+      ],
+      "abstract": "Background Anesthesiology research is growing at a rapid pace. It is essential to understand the scope and trends over time to identify gaps and future areas for growth. Systematic reviews and meta-analyses (SRMA) are summaries of the best available evidence to address a specific research question via a comprehensive literature search, in-depth analyses, and synthesis of results. High-quality SRMA are increasingly used and play an essential role in medical research. Objective We aimed to explore the trends of SRMA in indexed anesthesia journals. Methods SRMA published in indexed anesthesia journals from 2013 to 2023 were retrieved from the Web of Science database. Data were presented via descriptive statistics. We used CiteSpace 6.1.R6 to analyze countries, institutions, journals, authors, and keywords through visual maps to explore the research hotspots and trends. The journal’s Journal Citation Reports partition, impact factor, annual publications, journals H-index, and a number of highly-cited papers were calculated in the WoS database. Results A total of 34 indexed anesthesia journals and 3,004 SRMA were included. The year 2021 was the year with the most SRMA (385/3,004). Out of the 3,004 SRMAs, 36 (0.03%) were highly cited papers, and 22 of the 36 highly cited papers focused on “pain management.” BRITISH JOURNAL OF ANAESTHESIA had the highest 5-year impact factor (9.6) in 2022 Journal Citation Reports, the most significant number of publications (268/3,004), the highest total number of citations (13,173/86,145), and the most significant number of SRMAs cited more than 100 (36/160). ANAESTHESIA achieved the highest impact factor in the 2022 Journal Citation Reports (10.7) and the highest average annual citations (58.82). PAIN had the highest number of highly cited papers (15/36). The United States of America was the most productive country, with 823/3,004 SRMAs. University Toronto had the highest number of publications (245/3,004). The most frequent of keywords was the topic “Pain Management” (1,622/29.1%). Conclusion This present study would be valuable to practitioners, academics, researchers, and students in understanding the dynamics of progress in anesthesiology.",
+      "year": "2025",
+      "published_date": "2025-05-07",
+      "journal": "Frontiers in Medicine",
+      "url": "https://www.semanticscholar.org/paper/976f90a26b4fd6001afeabdcacf5e0d726117da3",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.3389/fmed.2025.1523630",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "id": "wf_084f1699c9056898363393f5eed1e76d",
+      "title": "Linking climate change, environmental degradation, and migration: An update after 10 years",
+      "abstract": "and the scope of methods, stock of results and diversity of questions has widened. Based on the CLIMIG database—a <span class='highlight'>systematic</span> and analytic collection of scientific references published on migration   My <span class='highlight'>review</span> of the <span class='highlight'>literature</span> included publications up to 2009. Since then, the number of empirically based scientific publications on this topic has risen substantially to average 40 articles per year under: Vulnerability and <span class='highlight'>Adaptation</span> to <span class='highlight'>Climate</span> Change > Values‐Based Approach to Vulnerability and <span class='highlight'>Adaptation</span> Abstract In WIREs <span class='highlight'>Climate</span> Change, Issue 1(4), 2010, I suggested a typology of the data and methods used to assess links between <span class='highlight'>climate</span> change, environmental degradation and migration (Piguet, 2010). global overview of the state of research by identifying consensus and disagreements, revisiting methodological challenges and <span class='highlight'>mapping</span> current and future research questions. This article is categorized",
+      "authors": [
+        "Etienne Piguet"
+      ],
+      "year": 2022,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1002/wcc.746",
+      "doi": "10.1002/wcc.746",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "(climate) impacts",
+        "methodology",
+        "migration",
+        "vulnerability"
+      ],
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm literature review"
+    },
+    {
+      "title": "Curating China's Cultural Revolution (1966-1976): CR/10 as a Warburgian Memory Atlas and Digital Humanities Interface",
+      "authors": [
+        "Rongqian Ma"
+      ],
+      "abstract": "CR/10 is a digital oral history platform that aims to collect and preserve the cultural memories of China's Cultural Revolution (1966-1976). This paper discusses how CR/10 functions as a Warburgian memory atlas and shapes multifaceted narratives of the historical incident. Through ethnographic research and semi-structured interviews with users within and outside academia, I examined the usability of CR/10 among various user groups and proposed design opportunities to further empower the interface. This paper offered a strong case on the datafication of cultural memories among cultural heritage institutions and contributed to digital archiving scholarship with an innovative methodological lens.",
+      "year": "2021",
+      "published_date": "2021-04-04",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2104.01663v1",
+      "arxiv_id": "2104.01663v1",
+      "keywords": [
+        "cs.DL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "COVID-19: Reducing the risk of infection might increase the risk of intimate partner violence",
+      "authors": [
+        "Nicole van Gelder",
+        "Amber Peterman",
+        "Alina Potts",
+        "Meaghan O’Donnell",
+        "Kelly Thompson",
+        "Nilima D. Shah",
+        "Sabine Oertelt‐Prigione"
+      ],
+      "abstract": "The ongoing pandemic caused by SARS-CoV-2, the causal agent of the acute respiratory distress syndrome COVID-19, is placing unprecedented stress on healthcare systems and societies as a whole. The rapid spread of the virus in the absence of targeted therapies or a vaccine, is forcing countries to respond with strong preventative measures ranging from mitigation to containment. In extreme cases, quarantines are being imposed, limiting mobility to varying degrees. While quarantines are an effective measure of infection control, they can lead to significant social, economic and psychological consequences. Social distancing fosters isolation; exposes personal and collective vulnerabilities while limiting accessible and familiar support options. The inability to work has immediate economic repercussions and deprives many individuals of essential livelihoods and health care benefits. Psychological consequences may range from stress, frustration and anger to severe depression and post-traumatic stress disorder (PTSD). A recent review drawing on lessons from past pandemics shows the length of quarantine increases the risk for serious psychological consequences [1Brooks S.K. Webster R.K. Smith L.E. Woodland L. Wessely S. Greenberg N. et al.The psychological impact of quarantine and how to reduce it: rapid review of the evidence.Lancet. 2020; 395: 912-920Summary Full Text Full Text PDF PubMed Scopus (10176) Google Scholar]. A relevant, yet frequently ignored risk during a pandemic and its socially disrupting response, is the potential increase of intimate partner violence (IPV) [2Peterman A. Potts A. O'Donnell M. Thompson K. Shah N. Oertelt-Prigione S. et al.Pandemics and violence against women and children.Center Global Dev Work Paper 528. 2020; Google Scholar]. IPV is defined as physical, sexual, psychological, or economic violence that occurs between former or current intimate partners. While men can also be affected, IPV is a gendered phenomenon largely perpetrated against women by male partners [3Fulu E. Jewkes R. Roselli T. Garcia-Moreno G. on on behalf of the UN Multi-country Cross-sectional Study on Men and Violence research teamPrevalence of and factors associated with male perpetration of intimate partner violence: findings from the UN multi-country cross-sectional study on men and violence in Asia and the Pacific.Lancet Glob Health. 2013; 1: e187-e207Summary Full Text Full Text PDF PubMed Scopus (372) Google Scholar] and approximately one in three women worldwide will experience physical and/or sexual IPV in her lifetime [4Devries K.M. Mak J.Y. Garcia-Moreno C. Petzold M. Child J.C. Falder G. et al.Global health. The global prevalence of intimate partner violence against women.Science. 2013; 340: 1527-1528Crossref PubMed Scopus (1036) Google Scholar]. Many of the strategies employed in abusive relations overlap with the social measures imposed during quarantine. Next to physical and geographical isolation, IPV survivors describe social isolation (i.e., from family and friends), functional isolation (e.g., when peers or support systems appear to exist but are unreliable or have alliances with the perpetrator), surveillance, and control of daily activities [5Hagan Raghavan Doychak Functional isolation: understanding isolation in trafficking survivors.Sex Abuse. 2019; https://doi.org/10.1177/1079063219889059Crossref PubMed Scopus (16) Google Scholar]. During quarantine, measures intentionally imposed in an abusive partnership, may be enforced on a massive scale in the attempt to save lives. Isolation paired with greater exposure, psychological and economic stressors, as well as potential increases in negative coping mechanisms (i.e., excessive alcohol consumption) can trigger an unprecedented wave of IPV. Recent anecdotal reports from Australia, Brazil, China, and the United States already indicate increases in IPV due to quarantines [2Peterman A. Potts A. O'Donnell M. Thompson K. Shah N. Oertelt-Prigione S. et al.Pandemics and violence against women and children.Center Global Dev Work Paper 528. 2020; Google Scholar]. The global community should prepare for similar effects in other countries. While quarantines will protect people from SARS-CoV2 infection, immediate action is needed to mitigate against increases in IPV. Increase physicians’ and other frontline healthcare worker's awareness of the heightened risk of IPV during quarantine and support their ability to safely offer information and referral. Physicians and other frontline healthcare workers need to be trained to recognize signs of violence and individuals at risk and communicate with them following best practice to protect the safety, privacy and choice of the survivor [6World Health OrganizationHealth care for women subjected to intimate partner violence or sexual violence: a clinical handbook. WHO, 2014https://www.who.int/reproductivehealth/publications/violence/vaw-clinical-handbook/en/Google Scholar,7World Health OrganizationStrengthening health systems to respond to women subjected to intimate partner violence or sexual violence: a manual for health managers. WHO, 2017https://www.who.int/reproductivehealth/publications/violence/vaw-health-systems-manual/en/Google Scholar]. Standard intake forms for the assessment of women subjected to IPV or sexual assault should be made available to staff in units, clinics and community screening dedicated to the COVID-19 response. First responders need to be informed about increased risk and options for intervention. Responders at the frontlines should be offered adequate support in coping with their own traumatic experiences caring for severely ill patients during an outbreak and a rising number of patients exposed to IPV. Increase public awareness and understanding for the increased risk of IPV during quarantine and how to safely access support services. Although limited by quarantine, individuals will maintain contacts with their families, friends, coworkers and acquaintances. Non healthcare-related contacts represent the primary and most capillary detection system for IPV. Public media needs to raise awareness for the topic to sensitize the general population and share best practices. These include bystander approaches, offering supportive statements, and, accessing help on the behalf of a survivor, if consented to do so. Media should provide links to IPV services including hotlines and online/SMS channels for those who cannot speak safely by phone, especially while at home with abusers. Social networks, both formal and informal, can help decrease isolation and provide support in case of IPV [8Zapor H. Wolford-Clevenger C. Johnson D.M. The association between social support and stages of change in survivors of intimate partner violence.J Interpers Violence. 2015; 33: 1051-1070Crossref PubMed Scopus (33) Google Scholar]. Social media can aid in upholding a buddy system and emergency contacts. In times of social distancing, internet-based help platforms can effectively replace some conventional in-person support. All should have safety mechanisms to quickly exit the page and clear browsing history, as abusers may monitor phone and internet use. - Increase funding and service availability for protection needs during quarantine, including social protection, shelters and trauma-centered support for family members. Social and economic insecurity represent crucial barriers for vulnerable individuals when seeking help. Lack of social safety nets, due to e.g., school closures may increase the exposure of children to IPV, with harmful outcomes in the immediate term and later adulthood. Maintenance of social safety nets (e.g., paid sick leave, access to healthcare insurance) is of utmost importance in guaranteeing the independence needed to leave an abusive relationship. Support structures such as organizations supporting survivors, as well as shelters, need to remain available while quarantines are in place, and need to be prepared to respond more fully after containment measures end [9Selvaratnam T. Where can domestic violence victims turn during Covid-19?. New York Times, 2020, March 23https://www.nytimes.com/2020/03/23/opinion/covid-domestic-violence.htmlGoogle Scholar]. Quarantine, isolation and associated social, emotional and economic stressors increase the risk of IPV. Partner violence is a taboo topic, often considered a ‘private’ matter, with low political priority in many societies, even in times of relative stability. If we do not campaign aggressively to raise awareness and take swift action for IPV and other forms of interpersonal violence, detrimental effects on individuals, families and society will reverberate for decades. None.",
+      "year": "2020",
+      "published_date": "2020-04-01",
+      "journal": "EClinicalMedicine",
+      "url": "https://doi.org/10.1016/j.eclinm.2020.100348",
+      "arxiv_id": "",
+      "keywords": [
+        "Anger",
+        "Pandemic",
+        "Domestic violence",
+        "Medicine",
+        "Isolation (microbiology)",
+        "Traumatic stress",
+        "Social isolation",
+        "Social distance"
+      ],
+      "citations": 496,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.eclinm.2020.100348",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "FedMD: Heterogenous Federated Learning via Model Distillation",
+      "authors": [
+        "Daliang Li",
+        "Junpu Wang"
+      ],
+      "abstract": "Federated learning enables the creation of a powerful centralized model without compromising data privacy of multiple participants. While successful, it does not incorporate the case where each participant independently designs its own model. Due to intellectual property concerns and heterogeneous nature of tasks and data, this is a widespread requirement in applications of federated learning to areas such as health care and AI as a service. In this work, we use transfer learning and knowledge distillation to develop a universal framework that enables federated learning when each agent owns not only their private data, but also uniquely designed models. We test our framework on the MNIST/FEMNIST dataset and the CIFAR10/CIFAR100 dataset and observe fast improvement across all participating models. With 10 distinct participants, the final test accuracy of each model on average receives a 20% gain on top of what's possible without collaboration and is only a few percent lower than the performance each model would have obtained if all private datasets were pooled and made directly available for all participants.",
+      "year": "2019",
+      "published_date": "2019-10-08",
+      "journal": "arXiv (Cornell University)",
+      "url": "https://doi.org/10.48550/arxiv.1910.03581",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "MNIST database",
+        "Federated learning",
+        "Distillation",
+        "Transfer of learning",
+        "Artificial intelligence",
+        "Machine learning",
+        "Test (biology)"
+      ],
+      "citations": 480,
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.1910.03581",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Information and Communication Technologies to Provide Agricultural Advice to Smallholder Farmers: Experimental Evidence from Uganda",
+      "authors": [
+        "Björn Van Campenhout",
+        "David J. Spielman",
+        "Els Lecoutere"
+      ],
+      "abstract": "Agricultural advisory services generally rely on interpersonal knowledge transfers by agricultural extension agents who visit farmers to provide information. This approach is not always effective and has proved hard to scale sustainably, particularly in highly dispersed smallholder farming systems. Information and communication technologies (ICTs) have been advanced as a promising way to overcome many of the problems associated with conventional agricultural extension. We evaluate the effectiveness of an ICT‐mediated approach to deliver agricultural information in a field experiment conducted among small‐scale maize farmers in eastern Uganda. Three complementary technologies designed to address both informational and behavioral constraints to technical change are considered. First, we investigate the effectiveness of audiovisual messages (video) as a means of delivering information on input use and improved maize management practices to farmers. Second, we quantify the additional impact of complementing video with an interactive voice response (IVR) service. Third, we estimate the incremental effect of time‐sensitive short message services (SMS) messages designed to remind farmers about applying key practices at specific points during the season. We find that households that were shown a short video on how to become better maize farmers were performing significantly better on a knowledge test, more likely to apply recommended practices, and more likely to use fertilizer than households that did not view the video. These same households also reported maize yields about 10.5% higher than those that did not view the video. We find little evidence of an incremental effect of the IVR service or SMS reminders.",
+      "year": "2020",
+      "published_date": "2020-03-26",
+      "journal": "American Journal of Agricultural Economics",
+      "url": "https://doi.org/10.1002/ajae.12089",
+      "arxiv_id": "",
+      "keywords": [
+        "Business",
+        "Agriculture",
+        "Service (business)",
+        "Information and Communications Technology",
+        "Scale (ratio)",
+        "Agricultural extension",
+        "Key (lock)",
+        "Sustainability"
+      ],
+      "citations": 174,
+      "source": "OpenAlex",
+      "doi": "10.1002/ajae.12089",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "The Effects of Workplace Nature-Based Interventions on the Mental Health and Well-Being of Employees: A Systematic Review",
+      "authors": [
+        "Susan Gritzka",
+        "Tadhg MacIntyre",
+        "Denise Dörfel",
+        "Jordan L. Baker-Blanc",
+        "Giovanna Calogiuri"
+      ],
+      "abstract": "Mental health in the workplace is a societal challenge with serious economical and human costs. Most prevalent mental disorders in the workforce (e.g., depression), however, are preventable. There is widespread agreement about the favorable effects of nature exposure and consequently, nature-based interventions (NBI) in the workplace have been proposed as a cost-effective approach to promote good health among employees. The objective of the present study was to systematically review scientific evidence on the effectiveness of NBI to promote mental health and well-being among actual employees in actual workplace settings. The review was conducted and presented in accordance with the PRISMA guidelines. The literature search was performed on five databases (PubMed, Embase, CENTRAL, CINHAL, and PsycINFO), hand-searching of field-specific journals, and the reference lists of retrieved papers over the past 5 years up to November (13<sup>th</sup>, 2018). Studies were eligible for inclusion if they (<i>i)</i> were randomized or nonrandomized controlled trials; (<i>ii)</i> comprised samples of actual employees; (<i>iii)</i> implemented a workplace-based intervention with exposure to nature; (<i>iv)</i> included comparison conditions that displayed a clear contrast to NBIs; and (<i>v)</i> investigated the quantitative effects on mental health or well-being. No restrictions on type of employees or workplace, publication period, or language of the publication were set. Risk of bias was assessed using the Cochrane's RoB2 tool. Narrative synthesis was performed due to large heterogeneity in outcome variables. Of the 510 articles identified, 10 NBIs (nine papers) met the eligibility criteria. The outcomes were grouped in five categories: (<i>i)</i> mental health indices, (<i>ii)</i> cognitive ability, (<i>iii)</i> recovery and restoration, (<i>iv)</i> work and life satisfaction, and (<i>v)</i> psychophysiological indicators. Narrative synthesis indicates consistently positive effects on mental health indices and cognitive ability, while mixed results were found for the other outcome categories. Caution must be given when interpreting the current evidence in this emerging research field because of the diversity of NBIs and the overall high risk of bias in the individual studies. Although in this field often researchers have to balance scientific rigor and ecological validity, there is a need for large, well-designed and rigorously conducted trials grounded in contemporary theories.",
+      "year": "2020",
+      "published_date": "2020-04-28",
+      "journal": "Frontiers in Psychiatry",
+      "url": "https://doi.org/10.3389/fpsyt.2020.00323",
+      "arxiv_id": "",
+      "keywords": [
+        "PsycINFO",
+        "Mental health",
+        "Psychological intervention",
+        "Workforce",
+        "Inclusion (mineral)",
+        "MEDLINE",
+        "Systematic review",
+        "Psychology"
+      ],
+      "citations": 124,
+      "source": "OpenAlex",
+      "doi": "10.3389/fpsyt.2020.00323",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "id": "gs_766b546414",
+      "title": "A knowledge enhanced generative conversational service agent",
+      "abstract": "… ) to denote the knowledge paragraphs of one dialog obtained in knowledge aggregation phase. In this paper, the N is set to 10, which means the knowledge paragraph number of each …",
+      "authors": [
+        "Y Long",
+        "J Wang",
+        "Z Xu",
+        "Z Wang",
+        "B Wang"
+      ],
+      "year": 2017,
+      "journal": "Y Long, J Wang, Z Xu, Z Wang, B Wang… - Proceedings of the 6th …, 2017 - researchgate.net",
+      "citations": 63,
+      "url": "https://www.researchgate.net/profile/Zhen-Xu-43/publication/325215058_A_Knowledge_Enhanced_Generative_Conversational_Service_Agent/links/5afe3a33458515e9a576439e/A-Knowledge-Enhanced-Generative-Conversational-Service-Agent.pdf",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "8cf7101d1f9c2f6ed60a8f89964cbe35e194643b3814f3900bd62986f0bf86b1",
+  "elapsed_seconds": 16.751,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q110_schema_single_agent_20260724_023219.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

@@ -1,0 +1,222 @@
+{
+  "query_id": "Q17",
+  "query": "多智能协同系统生成的情报报告应如何组织结果、局限性与建议？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "6G Wireless Networks: Vision, Requirements, Architecture, and Key Technologies",
+      "authors": [
+        "Zhengquan Zhang",
+        "Yue Xiao",
+        "Zheng Ma",
+        "Ming Xiao",
+        "Zhiguo Ding",
+        "Xianfu Lei",
+        "George K. Karagiannidis",
+        "Pingzhi Fan"
+      ],
+      "abstract": "A key enabler for the intelligent information society of 2030, 6G networks are expected to provide performance superior to 5G and satisfy emerging services and applications. In this article, we present our vision of what 6G will be and describe usage scenarios and requirements for multi-terabyte per second (Tb/s) and intelligent 6G networks. We present a large-dimensional and autonomous network architecture that integrates space, air, ground, and underwater networks to provide ubiquitous and unlimited wireless connectivity. We also discuss artificial intelligence (AI) and machine learning [1], [2] for autonomous networks and innovative air-interface design. Finally, we identify several promising technologies for the 6G ecosystem, including terahertz (THz) communications, very-large-scale antenna arrays [i.e., supermassive (SM) multiple-input, multiple-output (MIMO)], large intelligent surfaces (LISs) and holographic beamforming (HBF), orbital angular momentum (OAM) multiplexing, laser and visible-light communications (VLC), blockchain-based spectrum sharing, quantum communications and computing, molecular communications, and the Internet of Nano-Things.",
+      "year": "2019",
+      "published_date": "2019-07-18",
+      "journal": "IEEE Vehicular Technology Magazine",
+      "url": "https://doi.org/10.1109/mvt.2019.2921208",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Wireless",
+        "Visible light communication",
+        "Key (lock)",
+        "Free-space optical communication",
+        "Telecommunications",
+        "Network architecture",
+        "Beamforming"
+      ],
+      "citations": 2428,
+      "source": "OpenAlex",
+      "doi": "10.1109/mvt.2019.2921208",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",
+      "authors": [
+        "Partha Pratim Ray"
+      ],
+      "abstract": "In recent years, artificial intelligence (AI) and machine learning have been transforming the landscape of scientific research. Out of which, the chatbot technology has experienced tremendous advancements in recent years, especially with ChatGPT emerging as a notable AI language model. This comprehensive review delves into the background, applications, key challenges, and future directions of ChatGPT. We begin by exploring its origins, development, and underlying technology, before examining its wide-ranging applications across industries such as customer service, healthcare, and education. We also highlight the critical challenges that ChatGPT faces, including ethical concerns, data biases, and safety issues, while discussing potential mitigation strategies. Finally, we envision the future of ChatGPT by exploring areas of further research and development, focusing on its integration with other technologies, improved human-AI interaction, and addressing the digital divide. This review offers valuable insights for researchers, developers, and stakeholders interested in the ever-evolving landscape of AI-driven conversational agents. This study explores the various ways ChatGPT has been revolutionizing scientific research, spanning from data processing and hypothesis generation to collaboration and public outreach. Furthermore, the paper examines the potential challenges and ethical concerns surrounding the use of ChatGPT in research, while highlighting the importance of striking a balance between AI-assisted innovation and human expertise. The paper presents several ethical issues in existing computing domain and how ChatGPT can invoke challenges to such notion. This work also includes some biases and limitations of ChatGPT. It is worth to note that despite of several controversies and ethical concerns, ChatGPT has attracted remarkable attentions from academia, research, and industries in a very short span of time.",
+      "year": "2023",
+      "published_date": "2023-01-01",
+      "journal": "Internet of Things and Cyber-Physical Systems",
+      "url": "https://doi.org/10.1016/j.iotcps.2023.04.003",
+      "arxiv_id": "",
+      "keywords": [
+        "Scope (computer science)",
+        "Engineering ethics",
+        "Data science",
+        "Computer science",
+        "Knowledge management",
+        "Management science",
+        "Engineering"
+      ],
+      "citations": 2286,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.iotcps.2023.04.003",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_c5c51d77f3",
+      "title": "Multi-agent systems: A survey",
+      "abstract": "… Multi Agent Learning (MAL) systems. The following challenges increase the complexity of adopting learning systems for … Mao, “Cross-clouds services autonomic management approach …",
+      "authors": [
+        "A Dorri",
+        "SS Kanhere",
+        "R Jurdak"
+      ],
+      "year": 2018,
+      "journal": "A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org",
+      "citations": 1529,
+      "url": "https://ieeexplore.ieee.org/abstract/document/8352646/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Electricity market design for the prosumer era",
+      "authors": [
+        "Yael Parag",
+        "Benjamin K. Sovacool"
+      ],
+      "abstract": "Prosumers are agents that both consume and produce energy. With the growth in small and medium-sized agents using solar photovoltaic panels, smart meters, vehicle-to-grid electric automobiles, home batteries and other ‘smart’ devices, prosuming offers the potential for consumers and vehicle owners to re-evaluate their energy practices. As the number of prosumers increases, the electric utility sector of today is likely to undergo significant changes over the coming decades, offering possibilities for greening of the system, but also bringing many unknowns and risks that need to be identified and managed. To develop strategies for the future, policymakers and planners need knowledge of how prosumers could be integrated effectively and efficiently into competitive electricity markets. Here we identify and discuss three promising potential prosumer markets related to prosumer grid integration, peer-to-peer models and prosumer community groups. We also caution against optimism by laying out a series of caveats and complexities. Small-scale renewable energy systems and smart technologies are enabling energy consumers to become producers and service providers as well. This Perspective explores this ‘prosumption’ phenomenon, highlighting three promising prosumer market models and the challenges for future implementation.",
+      "year": "2016",
+      "published_date": "2016-03-21",
+      "journal": "Nature Energy",
+      "url": "https://doi.org/10.1038/nenergy.2016.32",
+      "arxiv_id": "",
+      "keywords": [
+        "Prosumer",
+        "Renewable energy",
+        "Smart grid",
+        "Business",
+        "Environmental economics",
+        "Electricity",
+        "Photovoltaic system",
+        "Service provider"
+      ],
+      "citations": 1193,
+      "source": "OpenAlex",
+      "doi": "10.1038/nenergy.2016.32",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "AI-based chatbots in customer service and their effects on user compliance",
+      "authors": [
+        "Martin Adam",
+        "Michael Wessel",
+        "Alexander Benlian"
+      ],
+      "abstract": "Abstract Communicating with customers through live chat interfaces has become an increasingly popular means to provide real-time customer service in many e-commerce settings. Today, human chat service agents are frequently replaced by conversational software agents or chatbots, which are systems designed to communicate with human users by means of natural language often based on artificial intelligence (AI). Though cost- and time-saving opportunities triggered a widespread implementation of AI-based chatbots, they still frequently fail to meet customer expectations, potentially resulting in users being less inclined to comply with requests made by the chatbot. Drawing on social response and commitment-consistency theory, we empirically examine through a randomized online experiment how verbal anthropomorphic design cues and the foot-in-the-door technique affect user request compliance. Our results demonstrate that both anthropomorphism as well as the need to stay consistent significantly increase the likelihood that users comply with a chatbot’s request for service feedback. Moreover, the results show that social presence mediates the effect of anthropomorphic design cues on user compliance.",
+      "year": "2020",
+      "published_date": "2020-03-17",
+      "journal": "Electronic Markets",
+      "url": "https://doi.org/10.1007/s12525-020-00414-7",
+      "arxiv_id": "",
+      "keywords": [
+        "Chatbot",
+        "Consistency (knowledge bases)",
+        "Computer science",
+        "Compliance (psychology)",
+        "Customer service",
+        "Service (business)",
+        "Human–computer interaction",
+        "Dialog system"
+      ],
+      "citations": 1014,
+      "source": "OpenAlex",
+      "doi": "10.1007/s12525-020-00414-7",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Adoption of AI-based chatbots for hospitality and tourism",
+      "authors": [
+        "Rajasshrie Pillai",
+        "Brijesh Sivathanu"
+      ],
+      "abstract": "Purpose This study aims to investigate the customers’ behavioral intention and actual usage (AUE) of artificial intelligence (AI)-powered chatbots for hospitality and tourism in India by extending the technology adoption model (TAM) with context-specific variables. Design/methodology/approach To understand the customers’ behavioral intention and AUE of AI-powered chatbots for tourism, the mixed-method design was used whereby qualitative and quantitative techniques were combined. A total of 36 senior managers and executives from the travel agencies were interviewed and the analysis of interview data was done using NVivo 8.0 software. A total of 1,480 customers were surveyed and the partial least squares structural equation modeling technique was used for data analysis. Findings As per the results, the predictors of chatbot adoption intention (AIN) are perceived ease of use, perceived usefulness, perceived trust (PTR), perceived intelligence (PNT) and anthropomorphism (ANM). Technological anxiety (TXN) does not influence the chatbot AIN. Stickiness to traditional human travel agents negatively moderates the relation of AIN and AUE of chatbots in tourism and provides deeper insights into manager’s commitment to providing travel planning services using AI-based chatbots. Practical implications This research presents unique practical insights to the practitioners, managers and executives in the tourism industry, system designers and developers of AI-based chatbot technologies to understand the antecedents of chatbot adoption by travelers. TXN is a vital concern for the customers; so, designers and developers should ensure that chatbots are easily accessible, have a user-friendly interface, be more human-like and communicate in various native languages with the customers. Originality/value This study contributes theoretically by extending the TAM to provide better explanatory power with human–robot interaction context-specific constructs – PTR, PNT, ANM and TXN – to examine the customers’ chatbot AIN. This is the first step in the direction to empirically test and validate a theoretical model for chatbots’ adoption and usage, which is a disruptive technology in the hospitality and tourism sector in an emerging economy such as India.",
+      "year": "2020",
+      "published_date": "2020-09-10",
+      "journal": "International Journal of Contemporary Hospitality Management",
+      "url": "https://doi.org/10.1108/ijchm-04-2020-0259",
+      "arxiv_id": "",
+      "keywords": [
+        "Chatbot",
+        "Tourism",
+        "Hospitality",
+        "Context (archaeology)",
+        "Marketing",
+        "Knowledge management",
+        "Consumer behaviour",
+        "Computer science"
+      ],
+      "citations": 855,
+      "source": "OpenAlex",
+      "doi": "10.1108/ijchm-04-2020-0259",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "What factors contribute to the acceptance of artificial intelligence? A systematic review",
+      "authors": [
+        "Sage Kelly",
+        "Sherrie-Anne Kaye",
+        "Óscar Oviedo-Trespalacios"
+      ],
+      "abstract": "Artificial Intelligence (AI) agents are predicted to infiltrate most industries within the next decade, creating a personal, industrial, and social shift towards the new technology. As a result, there has been a surge of interest and research towards user acceptance of AI technology in recent years. However, the existing research appears dispersed and lacks systematic synthesis, limiting our understanding of user acceptance of AI technologies. To address this gap in the literature, we conducted a systematic review following the Preferred Reporting Items for Systematic Reviews and meta-Analysis guidelines using five databases: EBSCO host, Embase, Inspec (Engineering Village host), Scopus, and Web of Science. Papers were required to focus on both user acceptance and AI technology. Acceptance was defined as the behavioural intention or willingness to use, buy, or try a good or service. A total of 7912 articles were identified in the database search. Sixty articles were included in the review. Most studies (n = 31) did not define AI in their papers, and 38 studies did not define AI for their participants. The extended Technology Acceptance Model (TAM) was the most frequently used theory to assess user acceptance of AI technologies. Perceived usefulness, performance expectancy, attitudes, trust, and effort expectancy significantly and positively predicted behavioural intention, willingness, and use behaviour of AI across multiple industries. However, in some cultural scenarios, it appears that the need for human contact cannot be replicated or replaced by AI, no matter the perceived usefulness or perceived ease of use. Given that most of the methodological approaches present in the literature have relied on self-reported data, further research using naturalistic methods is needed to validate the theoretical model/s that best predict the adoption of AI technologies.",
+      "year": "2022",
+      "published_date": "2022-12-14",
+      "journal": "Telematics and Informatics",
+      "url": "https://doi.org/10.1016/j.tele.2022.101925",
+      "arxiv_id": "",
+      "keywords": [
+        "Expectancy theory",
+        "Scopus",
+        "Systematic review",
+        "Technology acceptance model",
+        "Computer science",
+        "Psychology",
+        "Usability",
+        "Knowledge management"
+      ],
+      "citations": 811,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.tele.2022.101925",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_1f5a3df578",
+      "title": "The next generation of research on IS use: A theoretical framework of delegation to and from agentic IS artifacts",
+      "abstract": "… This research has led to an interest in delegation of rights and responsibilities to information systems, such as when doctors rely on clinical decision support systems to provide …",
+      "authors": [
+        "A Baird",
+        "LM Maruping"
+      ],
+      "year": 2021,
+      "journal": "A Baird, LM Maruping - MIS quarterly, 2021 - misq.umn.edu",
+      "citations": 792,
+      "url": "https://misq.umn.edu/misq/article/45/1/315/1855",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "timestamp": "20260412_230443"
+}

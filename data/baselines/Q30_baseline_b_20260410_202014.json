@@ -1,0 +1,169 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "面向多智能协同情报服务，什么样的 query 最能区分单智能体与多智能体能力差异？",
+  "effective_search_query": "multi-agent intelligence collaborative query capability differentiation",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 21,
+  "all_retrieved_ids": [
+    "title:multi-agent collaboration mechanisms: a survey of llms|2025",
+    "title:internet of agents: weaving a web of heterogeneous agents for collaborative intelligence|2024",
+    "title:a comprehensive survey on multi-agent cooperative decision-making: scenarios, approaches, challenges and perspectives|2025",
+    "doi:10.1145/3746027.3754761",
+    "doi:10.1109/tits.2025.3553487",
+    "title:a collaborative multi-agent approach to retrieval-augmented generation across diverse data|2024",
+    "doi:10.1145/3711896.3737141",
+    "title:hawk: a hierarchical workflow framework for multi-agent collaboration|2025",
+    "title:collaborative search algorithm for multi-uavs under interference conditions: a multi-agent deep reinforcement learning approach|2025",
+    "doi:10.48550/arxiv.2506.10175",
+    "doi:10.48550/arxiv.2510.04488",
+    "doi:10.48550/arxiv.2511.01912",
+    "doi:10.1145/3755881.3755909x",
+    "title:multi-agent intelligence for multidisciplinary decision-making in gastrointestinal oncology|2025",
+    "doi:10.63278/jicrcr.vi.3390",
+    "doi:10.1109/etcom66606.2025.11436358",
+    "doi:10.1109/ricai68060.2025.11385199",
+    "title:multi-agent systems and social intelligence: a comprehensive survey on collaboration, communication, and emergent behaviors|2025",
+    "title:adaptive and knowledge-evolving multi-agent ai|2025",
+    "title:a multi-agent collaborative approach and system for industy-specific question answering tasks|2025",
+    "title:autonomous partner selection for cooperative multi-agent reinforcement learning|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "Multi-agent collaboration mechanisms: A survey of llms",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "KT Tran, D Dao, MD Nguyen, QV Pham… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 461,
+      "abstract": "… These LLM-based Multi-Agent Systems (MASs) enable groups of intelligent agents to coordinate and solve complex tasks collectively at scale, transitioning from isolated models to …"
+    },
+    {
+      "title": "Internet of agents: Weaving a web of heterogeneous agents for collaborative intelligence",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "W Chen, Z You, R Li, Y Guan, C Qian, C Zhao… - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 106,
+      "abstract": "… In this paper, we introduced IoA, a novel framework for LLM-based multi-agent collaboration inspired by the concept of the Internet. IoA addresses the limitations of existing …"
+    },
+    {
+      "title": "A comprehensive survey on multi-agent cooperative decision-making: Scenarios, approaches, challenges and perspectives",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "W Jin, H Du, B Zhao, X Tian, B Shi, G Yang - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 65,
+      "abstract": "… Figure 2: Illustration of our systematic review of multi-agent intelligent decision-making research. Compared to previous reviews, we have incorporated comprehensive introduction and …"
+    },
+    {
+      "title": "HM-RAG: Hierarchical Multi-Agent Multimodal Retrieval Augmented Generation",
+      "year": "2025",
+      "source": "Semantic Scholar",
+      "journal": "ACM Multimedia",
+      "doi": "10.1145/3746027.3754761",
+      "citations": 37,
+      "abstract": "While Retrieval-Augmented Generation (RAG) augments Large Language Models (LLMs) with external knowledge, conventional single-agent RAG remains fundamentally limited in resolving complex queries demanding coordinated reasoning across heterogeneous data ecosystems. We present HM-RAG, a novel Hierarchical Multi-agent Multimodal RAG framework that pioneers collaborative intelligence for dynamic knowledge synthesis across structured, unstructured, and graph-based data. The framework is composed of a three-tiered architecture with specialized agents: a Decomposition Agent that dissects complex queries into contextually coherent sub-tasks via semantic-aware query rewriting and schema-guided context augmentation; Multi-source Retrieval Agents that carry out parallel, modality-specific retrieval u"
+    },
+    {
+      "title": "Stackelberg Game-Based Multi-Agent Algorithm for Resource Allocation and Task Offloading in MEC-Enabled C-ITS",
+      "year": "2025",
+      "source": "Semantic Scholar",
+      "journal": "IEEE transactions on intelligent transportation systems (Print)",
+      "doi": "10.1109/TITS.2025.3553487",
+      "citations": 17,
+      "abstract": "The rapid advancement of sixth-generation (6G) networks and artificial intelligence technologies is leading to the emergence of collaborative intelligent transportation systems (C-ITS), which is regarded as an essential trend in the future of transportation. Integrating Internet of Things (IoT) with C-ITS is an efficient solution to provide real-time data collection and status monitoring for vehicles and infrastructures to improve the intelligence and reliability of C-ITS. In order to address the challenges of limited battery energy and low computing power of IoT nodes, integrating wireless power transfer (WPT) with mobile edge computing (MEC) is considered as a promising solution to improve their lifetime and computational capability for IoT nodes. In this paper, we investigate a distribu"
+    },
+    {
+      "title": "A collaborative multi-agent approach to retrieval-augmented generation across diverse data",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "A Salve, S Attar, M Deshmukh, S Shivpuje… - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 14,
+      "abstract": "… This work highlights the potential of multi-agent collaboration for enhancing retrieval-… of existing approaches and demonstrate how intelligent, specialized systems can enable more …"
+    },
+    {
+      "title": "Swarm Intelligence in Geo-Localization: A Multi-Agent Large Vision-Language Model Collaborative Framework",
+      "year": "2024",
+      "source": "Semantic Scholar",
+      "journal": "Knowledge Discovery and Data Mining",
+      "doi": "10.1145/3711896.3737141",
+      "citations": 9,
+      "abstract": "Visual geo-localization demands in-depth knowledge and advanced reasoning skills to associate images with precise real-world geo-graphic locations. Existing image database retrieval methods are limited by the impracticality of storing sufficient visual records of global landmarks. Recently, Large Vision-Language Models (LVLMs) have demonstrated the capability of geo-localization through Visual Question Answering (VQA), enabling a solution that does not require external geo-tagged image records. However, the performance of a single LVLM is still limited by its intrinsic knowledge and reasoning capabilities. To address these challenges, we introduce smileGeo, a novel visual geo-localization framework that leverages multiple Internet-enabled LVLM agents operating within an agent-based archite"
+    },
+    {
+      "title": "Hawk: A hierarchical workflow framework for multi-agent collaboration",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "Y Cheng, Y Xu, C Yu, Y Zhao - arXiv preprint arXiv:2507.04067, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 5,
+      "abstract": "… controllable technical solution for multi-agent collaboration, HAWK also … through CreAgentive, a multi-agent novel-generation … capabilities collectively enhance the system’s intelligence, …"
+    },
+    {
+      "title": "Collaborative search algorithm for multi-UAVs under interference conditions: a multi-agent deep reinforcement learning approach",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "W Wang, Y Chen, Y Zhang, Y Chen, Y Du - Drones, 2025 - mdpi.com",
+      "doi": "",
+      "citations": 5,
+      "abstract": "… [22] provided an intelligent collaborative task planning … scenario, and a multi-agent deep reinforcement learning method … Therefore, the utilization of t and t ′ is employed to differentiate …"
+    },
+    {
+      "title": "AURA: A Multi-Agent Intelligence Framework for Knowledge-Enhanced Cyber Threat Attribution",
+      "year": "2025",
+      "source": "Semantic Scholar",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2506.10175",
+      "citations": 4,
+      "abstract": "Effective attribution of Advanced Persistent Threats (APTs) increasingly hinges on the ability to correlate behavioral patterns and reason over complex, varied threat intelligence artifacts. We present AURA (Attribution Using Retrieval-Augmented Agents), a multi-agent, knowledge-enhanced framework for automated and interpretable APT attribution. AURA ingests diverse threat data including Tactics, Techniques, and Procedures (TTPs), Indicators of Compromise (IoCs), malware details, adversarial tools, and temporal information, which are processed through a network of collaborative agents. These agents are designed for intelligent query rewriting, context-enriched retrieval from structured threat knowledge bases, and natural language justification of attribution decisions. By combining Retriev"
+    },
+    {
+      "title": "Multi-Agent Collaborative Intelligence: Dual-Dial Control for Reliable LLM Reasoning",
+      "year": "2025",
+      "source": "Semantic Scholar",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2510.04488",
+      "citations": 2,
+      "abstract": "Multi-agent debate often wastes compute by using a fixed adversarial stance, aggregating without deliberation, or stopping on heuristics. We introduce MACI, an active controller with two independent dials that decouple information from behavior: an information dial that gates evidence by quality, and a behavior dial that schedules contentiousness from exploration to consolidation. A moderator tracks disagreement, overlap, evidence quality, and argument quality, and halts when gains plateau. We provide theory-lite guarantees for nonincreasing dispersion and provable termination, with a budget-feasible scheduler. Across clinical diagnosis and news-bias tasks, MACI improves accuracy and calibration while reducing tokens, and converts residual uncertainty into precision RAG plans that specify "
+    },
+    {
+      "title": "EvoMem: Improving Multi-Agent Planning with Dual-Evolving Memory",
+      "year": "2025",
+      "source": "Semantic Scholar",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2511.01912",
+      "citations": 2,
+      "abstract": "Planning has been a cornerstone of artificial intelligence for solving complex problems, and recent progress in LLM-based multi-agent frameworks have begun to extend this capability. However, the role of human-like memory within these frameworks remains largely unexplored. Understanding how agents coordinate through memory is critical for natural language planning, where iterative reasoning, constraint tracking, and error correction drive the success. Inspired by working memory model in cognitive psychology, we present EvoMem, a multi-agent framework built on a dual-evolving memory mechanism. The framework consists of three agents (Constraint Extractor, Verifier, and Actor) and two memory modules: Constraint Memory (CMem), which evolves across queries by storing task-specific rules and con"
+    },
+    {
+      "title": "Orion: A Multi-Agent Framework for Optimizing RAG Systems through Specialized Agent Collaboration",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "X Fang, L Xie, W Yang, T Zhang, R Zhang… - Proceedings of the 16th …, 2025 - dl.acm.org",
+      "doi": "10.1145/3755881.3755909X",
+      "citations": 1,
+      "abstract": "… intelligent model matching mechanism where the Query Complexity Evaluator analyzes query … Through the differentiated context formula, we can generate unique contextual …"
+    },
+    {
+      "title": "Multi-Agent Intelligence for Multidisciplinary Decision-Making in Gastrointestinal Oncology",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "R Zhang, J Wang, S Yang, M Bian, C Zhang… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… For instance, they are unable to differentiate between a … We introduce a Collaborative Multi-Agent Framework for GI … labor, we propose a collaborative Multi-Agent Framework (Figure 1) …"
+    },
+    {
+      "title": "Agentic Search Systems And Multi-Agent Intelligence Generation",
+      "year": "2025",
+      "source": "Semantic Scholar",
+      "journal": "Journal of International Crisis and Risk Communication Research",
+      "doi": "10.63278/jicrcr.vi.3390",
+      "citations": 0,
+      "abstract": "Contemporary information retrieval faces significant challenges as traditional keyword-based systems prove inadequate for complex analytical tasks. Agentic search represents a revolutionary departure from conventional document matching, establishing intelligent investigation platforms through sophisticated multi-agent collaboration. These platforms deploy specialized computational agents: Research Agents handle information discovery across diverse sources, Analysis Agents extract patterns and correlations, Domain Expert Agents contribute field-specific knowledge, while Quality Checker Agents validate findings. The query interpretation framework transcends simple keyword matching by analyzing problem structures through semantic processing and contextual recognition capabilities. Structured "
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q30_baseline_b_20260410_202014.md"
+}

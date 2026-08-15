@@ -1,0 +1,196 @@
+{
+  "query_id": "Q52",
+  "query": "如果 reviewer 发现 unsupported claim，应该由 reviser 修复还是回退到 evidence agent 重抽取？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Adversarial Multi-Agent System for Systematic Literature Reviews: Author–Reviewer Workflows with Verifiable Evidence and Critique Loops",
+      "authors": [
+        "Susan He"
+      ],
+      "abstract": "",
+      "year": "2026",
+      "published_date": "2026-2-14",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.55277/researchhub.srgxk071",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.55277/researchhub.srgxk071",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Towards Robust Fact-Checking: A Multi-Agent System with Advanced Evidence Retrieval",
+      "authors": [
+        "Tam Trinh",
+        "Manh Nguyen",
+        "Truong-Son Hy"
+      ],
+      "abstract": "The rapid spread of misinformation in the digital era poses significant challenges to public discourse, necessitating robust and scalable fact-checking solutions. Traditional human-led fact-checking methods, while credible, struggle with the volume and velocity of online content, prompting the integration of automated systems powered by Large Language Models (LLMs). However, existing automated approaches often face limitations, such as handling complex claims, ensuring source credibility, and maintaining transparency. This paper proposes a novel multi-agent system for automated fact-checking that enhances accuracy, efficiency, and explainability. The system comprises four specialized agents: an Input Ingestion Agent for claim decomposition, a Query Generation Agent for formulating targeted subqueries, an Evidence Retrieval Agent for sourcing credible evidence, and a Verdict Prediction Agent for synthesizing veracity judgments with human-interpretable explanations. Evaluated on benchmark datasets (FEVEROUS, HOVER, SciFact), the proposed system achieves a 12.3% improvement in Macro F1-score over baseline methods. The system effectively decomposes complex claims, retrieves reliable evidence from trusted sources, and generates transparent explanations for verification decisions. Our approach contributes to the growing field of automated fact-checking by providing a more accurate, efficient, and transparent verification methodology that aligns with human fact-checking practices while maintaining scalability for real-world applications. Our source code is available at https://github.com/HySonLab/FactAgent",
+      "year": "2025",
+      "published_date": "2025-06-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2506.17878v1",
+      "arxiv_id": "2506.17878v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "AdversarialCI: A Buyer-Adaptive Multi-Agent Framework for Evidence-Grounded Competitive Intelligence",
+      "authors": [
+        "Ajinkya Gajananrao Chintawar"
+      ],
+      "abstract": "Competitive intelligence (CI) tools in enterprise software procurement are predominantly static, producing generic battlecards that fail to account for individual buyer priorities. We introduce AdversarialCI, a domain-agnostic multi-agent framework that simulates an adversarial court proceeding between vendor advocate agents. Verdict dimensions are dynamically weighted by a structured buyer profile termed the \"plaintiff\".\n                The framework consists of three core components: (1) a multi-source evidence ingestion pipeline with automated verification and confidence scoring; (2) a three-round adversarial court simulation where LLM-powered advocates argue solely from verified evidence; and (3) a plaintiff-weighted judge that produces dimension-level verdicts, an overall winner, and a \"swing factor\"—the single buyer constraint most likely to change the outcome.\n                We demonstrate AdversarialCI in the database vendor selection domain across five vendors, achieving 87.9% accuracy against a manually curated ground truth dataset. Critically, the system produces different verdicts for different buyer profiles on identical vendor sets, validating that the framework is genuinely buyer-adaptive. This represents the first system to combine adversarial multi-agent simulation with plaintiff-specific verdict routing for competitive intelligence. The architecture effectively addresses the tendency of LLMs to generate unsupported claims by constraining agents to a verified evidence bank and making source citation mandatory .",
+      "year": "2026",
+      "published_date": "2026-2-24",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.14293/pr2199.003028.v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.14293/pr2199.003028.v1",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "policy intelligence AND evidence grounded writing"
+    },
+    {
+      "title": "A multi-agent system to support evidence based medicine and clinical decision making via data sharing and data privacy",
+      "authors": [
+        "Hayden Wimmer",
+        "Victoria Yoon",
+        "Vijayan Sugumaran"
+      ],
+      "abstract": "",
+      "year": "2016",
+      "published_date": "2016-06-05",
+      "journal": "Decision Support Systems",
+      "url": "https://doi.org/10.1016/j.dss.2016.05.008",
+      "arxiv_id": "",
+      "keywords": [
+        "Data sharing",
+        "Health Insurance Portability and Accountability Act",
+        "Computer science",
+        "Health care",
+        "Software portability",
+        "Confidentiality",
+        "Information privacy",
+        "Data science"
+      ],
+      "citations": 61,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.dss.2016.05.008",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Decision Support for Regeneration Mode of Old Community Under Multi-Agent Interaction: Evidence from China",
+      "authors": [
+        "Lingyan Li",
+        "Ze Yuwen",
+        "Jiaxin Zhu",
+        "Pingbo Li",
+        "Mimi Duan",
+        "Xiaotong Guo"
+      ],
+      "abstract": "",
+      "year": "2023",
+      "published_date": "2023",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2139/ssrn.4570595",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.4570595",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_a7db622d9a",
+      "title": "FactReview: Evidence-Grounded Reviews with Literature Positioning and Execution-Based Claim Verification",
+      "abstract": "needed for review lies in related work or released code. We present FactReview, an  evidence-grounded reviewing system that combines claim extraction, literature positioning, and",
+      "authors": [
+        "H Xu",
+        "L Yue",
+        "C Ouyang",
+        "L Zheng",
+        "S Pan",
+        "S Di"
+      ],
+      "year": 2026,
+      "journal": "arXiv preprint arXiv …",
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2604.04074",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "id": "gs_9e8ee2fe9a",
+      "title": "SciTrue: Evidence-Grounded Claim Verification in Science",
+      "abstract": "products now provide scientific summarisation, literature review, or evidence retrieval, often   to systematic review templates), and lack precise mappings between synthesized claims and",
+      "authors": [
+        "N Tan",
+        "M Li",
+        "M Gahegan"
+      ],
+      "year": 2026,
+      "journal": "Proceedings of the 19th Conference of …",
+      "citations": 0,
+      "url": "https://aclanthology.org/2026.eacl-demo.27/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "id": "gs_95f0c8e408",
+      "title": "ADMP-LS: Agent-Based Dialogue and Mining Platform for Evidence-Grounded QA, Extraction, and Literature Review in Life Science",
+      "abstract": "that streamlines literature review, facilitates evidencegrounded  capabilities: (i) literature  review via outline-based summaries  papers are collected via literature review and/or question",
+      "authors": [
+        "M Guo",
+        "Z Sun",
+        "S Xie",
+        "J Hu",
+        "S Sun",
+        "X Li"
+      ],
+      "year": 2025,
+      "journal": "… Conference on Data …",
+      "citations": 0,
+      "url": "https://ieeexplore.ieee.org/abstract/document/11415957/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    }
+  ],
+  "timestamp": "20260412_232744"
+}

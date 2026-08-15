@@ -1,0 +1,201 @@
+{
+  "query_id": "Q53",
+  "query": "planner agent 是否有必要独立存在，用于在写作前约束 claim-evidence 边界？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Towards Robust Fact-Checking: A Multi-Agent System with Advanced Evidence Retrieval",
+      "authors": [
+        "Tam Trinh",
+        "Manh Nguyen",
+        "Truong-Son Hy"
+      ],
+      "abstract": "The rapid spread of misinformation in the digital era poses significant challenges to public discourse, necessitating robust and scalable fact-checking solutions. Traditional human-led fact-checking methods, while credible, struggle with the volume and velocity of online content, prompting the integration of automated systems powered by Large Language Models (LLMs). However, existing automated approaches often face limitations, such as handling complex claims, ensuring source credibility, and maintaining transparency. This paper proposes a novel multi-agent system for automated fact-checking that enhances accuracy, efficiency, and explainability. The system comprises four specialized agents: an Input Ingestion Agent for claim decomposition, a Query Generation Agent for formulating targeted subqueries, an Evidence Retrieval Agent for sourcing credible evidence, and a Verdict Prediction Agent for synthesizing veracity judgments with human-interpretable explanations. Evaluated on benchmark datasets (FEVEROUS, HOVER, SciFact), the proposed system achieves a 12.3% improvement in Macro F1-score over baseline methods. The system effectively decomposes complex claims, retrieves reliable evidence from trusted sources, and generates transparent explanations for verification decisions. Our approach contributes to the growing field of automated fact-checking by providing a more accurate, efficient, and transparent verification methodology that aligns with human fact-checking practices while maintaining scalability for real-world applications. Our source code is available at https://github.com/HySonLab/FactAgent",
+      "year": "2025",
+      "published_date": "2025-06-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2506.17878v1",
+      "arxiv_id": "2506.17878v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "A multi-agent system to support evidence based medicine and clinical decision making via data sharing and data privacy",
+      "authors": [
+        "Hayden Wimmer",
+        "Victoria Yoon",
+        "Vijayan Sugumaran"
+      ],
+      "abstract": "",
+      "year": "2016",
+      "published_date": "2016-06-05",
+      "journal": "Decision Support Systems",
+      "url": "https://doi.org/10.1016/j.dss.2016.05.008",
+      "arxiv_id": "",
+      "keywords": [
+        "Data sharing",
+        "Health Insurance Portability and Accountability Act",
+        "Computer science",
+        "Health care",
+        "Software portability",
+        "Confidentiality",
+        "Information privacy",
+        "Data science"
+      ],
+      "citations": 61,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.dss.2016.05.008",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Understanding and Bridging the Planner-Coder Gap: A Systematic Study on the Robustness of Multi-Agent Systems for Code Generation",
+      "authors": [
+        "Zongyi Lyu",
+        "Songqiang Chen",
+        "Zhenlan Ji",
+        "Liwen Wang",
+        "Shuai Wang",
+        "Daoyuan Wu",
+        "Wenxuan Wang",
+        "Shing-Chi Cheung"
+      ],
+      "abstract": "Multi-agent systems (MASs) have emerged as a promising paradigm for automated code generation, demonstrating impressive performance on established benchmarks. Despite their prosperous development, the fundamental mechanisms underlying their robustness remain poorly understood, raising critical concerns for real-world deployment. This paper conducts a systematic empirical study to uncover the internal robustness flaws of MASs using a mutation-based methodology. By designing a testing pipeline incorporating semantic-preserving mutation operators and a novel fitness function, we assess mainstream MASs across multiple datasets and LLMs. Our findings reveal substantial robustness flaws: semantically equivalent inputs cause drastic performance drops, with MASs failing to solve 7.9\\%--83.3\\% of problems they initially resolved successfully. Through comprehensive failure analysis, we discover a fundamental cause underlying these robustness issues: the \\textit{planner-coder gap}, which accounts for 75.3\\% of failures. This gap arises from information loss in the multi-stage transformation process where planning agents decompose requirements into underspecified plans, and coding agents subsequently misinterpret intricate logic during code generation. Based on this formulated information transformation process, we propose a \\textit{repairing method} that mitigates information loss through multi-prompt generation and introduces a monitor agent to bridge the planner-coder gap. Evaluation shows that our repairing method effectively enhances the robustness of MASs by solving 40.0\\%--88.9\\% of identified failures. Our work uncovers critical robustness flaws in MASs and provides effective mitigation strategies, contributing essential insights for developing more reliable MASs for code generation.",
+      "year": "2025",
+      "published_date": "2025-10-12",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/1cb3a1f3dfd152365c1333815f49bfb3e2e7fa32",
+      "arxiv_id": "2510.10460",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "Decision Support for Regeneration Mode of Old Community Under Multi-Agent Interaction: Evidence from China",
+      "authors": [
+        "Lingyan Li",
+        "Ze Yuwen",
+        "Jiaxin Zhu",
+        "Pingbo Li",
+        "Mimi Duan",
+        "Xiaotong Guo"
+      ],
+      "abstract": "",
+      "year": "2023",
+      "published_date": "2023",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2139/ssrn.4570595",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.4570595",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_a7db622d9a",
+      "title": "FactReview: Evidence-Grounded Reviews with Literature Positioning and Execution-Based Claim Verification",
+      "abstract": "needed for review lies in related work or released code. We present FactReview, an  evidence-grounded reviewing system that combines claim extraction, literature positioning, and",
+      "authors": [
+        "H Xu",
+        "L Yue",
+        "C Ouyang",
+        "L Zheng",
+        "S Pan",
+        "S Di"
+      ],
+      "year": 2026,
+      "journal": "arXiv preprint arXiv …",
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2604.04074",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "id": "gs_9e8ee2fe9a",
+      "title": "SciTrue: Evidence-Grounded Claim Verification in Science",
+      "abstract": "products now provide scientific summarisation, literature review, or evidence retrieval, often   to systematic review templates), and lack precise mappings between synthesized claims and",
+      "authors": [
+        "N Tan",
+        "M Li",
+        "M Gahegan"
+      ],
+      "year": 2026,
+      "journal": "Proceedings of the 19th Conference of …",
+      "citations": 0,
+      "url": "https://aclanthology.org/2026.eacl-demo.27/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Adversarial Multi-Agent System for Systematic Literature Reviews: Author–Reviewer Workflows with Verifiable Evidence and Critique Loops",
+      "authors": [
+        "Susan He"
+      ],
+      "abstract": "",
+      "year": "2026",
+      "published_date": "2026-2-14",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.55277/researchhub.srgxk071",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.55277/researchhub.srgxk071",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "id": "gs_95f0c8e408",
+      "title": "ADMP-LS: Agent-Based Dialogue and Mining Platform for Evidence-Grounded QA, Extraction, and Literature Review in Life Science",
+      "abstract": "that streamlines literature review, facilitates evidencegrounded  capabilities: (i) literature  review via outline-based summaries  papers are collected via literature review and/or question",
+      "authors": [
+        "M Guo",
+        "Z Sun",
+        "S Xie",
+        "J Hu",
+        "S Sun",
+        "X Li"
+      ],
+      "year": 2025,
+      "journal": "… Conference on Data …",
+      "citations": 0,
+      "url": "https://ieeexplore.ieee.org/abstract/document/11415957/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    }
+  ],
+  "timestamp": "20260413_000502"
+}

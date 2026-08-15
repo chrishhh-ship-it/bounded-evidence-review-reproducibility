@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "面向智慧情报服务的自动报告写作，最稳妥的论文式行文结构是什么？",
+  "effective_search_query": "智慧情报服务 自动报告写作 论文结构",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "title:2019 年中国图书情报与档案管理领域研究热点回顾|2020",
+    "title:生成式人工智能辅助学科情报服务途径探析———以利用chatgpt 生成学科领域论文分析报告为例.|2025",
+    "title:情报3.0 时代科技情报服务能力构建|2017",
+    "title:基于科技论文中未来工作句集的学术创新构想话题自动生成方法研究|2021",
+    "doi:10.13718/j.cnki.jsjy.2021.04.006刘明，",
+    "title:英文科技论文撰写与投稿全流程解析及常见问题应对策略|2025",
+    "title:生成式人工智慧的發展及其在協助學術研究之應用實例.|2024",
+    "title:情报智能体——面向“十五五” 的科技情报工作新范式.|2024",
+    "title:基于人工智能的智慧教学体系构建研究——以中职《 数据库原理》 课程为例|2025",
+    "title:高校图书馆情报服务智库化探索与发展思考———以上海交通大学图书馆为例.|2025",
+    "title:基于智慧信息推送的个性化学习服务实证研究——以“文献选读与论文写作” 课程为例|2016",
+    "title:基于cnki 的情报学研究生学位论文研究|2016"
+  ],
+  "top_papers": [
+    {
+      "title": "2019 年中国图书情报与档案管理领域研究热点回顾",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "闫慧 - 情报资料工作, 2020 - qbzl.ruc.edu.cn",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… 馆学情报学;(4)智慧 图书馆建设与图书馆智慧服务;(5)服务国家… [结果/结论]论文认为图书情报 与档案管理学科坚持在贴近国家… 方向,知识结构 和培养方式上均正在实现数字化[10].中国的图书…"
+    },
+    {
+      "title": "生成式人工智能辅助学科情报服务途径探析———以利用ChatGPT 生成学科领域论文分析报告为例.",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "江珊， 常定姁， 张开阳， 龚芙蓉… - Journal of Academic …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 此外,尽管许多 数据库平台和分析工具已引入自动聚类和引文主题 … 目前,生成式人工智能在智慧 图书 馆框架构建[16-17],提升服务效率… 用于大规模数据 适用于多样化和非结构化 数据,功能丰富 …"
+    },
+    {
+      "title": "情报3.0 时代科技情报服务能力构建",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "李辉， 张惠娜， 付宏 - 2017 - books.google.com",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… ,情报2.0时代情报工作关注的数据 发生了很大的变化,以论文,专利数据为代表的结构化数据成为 主角, 这时的情报服务… 对象以及专家智慧 与机器智慧融合,全程介入情报服务的全流程;情报服务…"
+    },
+    {
+      "title": "基于科技论文中未来工作句集的学术创新构想话题自动生成方法研究",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "宋若璇， 钱力， 杜宇 - 数据分析与知识发现, 2021 - manu44.magtech.com.cn",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 往往较为直观明确,行文结构不 如科技文献复杂.因此,基于科技… 文献情报中心的科技大数 据中心 资源,采集相关领域论文集构建… 模块旨在服务于创新 构想话题的生成,需要从每篇论文中抽取出…"
+    },
+    {
+      "title": "智慧教育时代减轻教师教学负担的创新路径——基于自动出题与个性化写作的研究",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "刘明， 罗程丹， 袁桂琳 - 教师教育学报, 2021 - xbgjxt.swu.edu.cn",
+      "doi": "10.13718/j.cnki.jsjy.2021.04.006刘明，",
+      "citations": 0,
+      "abstract": "… ,让学习者能够获得适宜的个性化学习服务和美好的发展体验,使其由… 论文写作指导系统(EEJP),该 系统能对学习者的写作提供个性化指导,比如根据写作内容自动推荐写作结构与分步骤的写作…"
+    },
+    {
+      "title": "英文科技论文撰写与投稿全流程解析及常见问题应对策略",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "刘海宽， 李杰 - Advances in Education, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 根据英文论文结构阐述了各部分的写作要点,梳理了写作中语法,… 在写作中使用过去式来报告过去 发生的事情,如我们做了什么,某… 期刊都提供语言服务,也有不少机构能够提供润色服务,如LetPub…"
+    },
+    {
+      "title": "生成式人工智慧的發展及其在協助學術研究之應用實例.",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "龐佳， 陳昭宇， 邱蘊靜 - Journal of Education Research …, 2024 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 樣本,理解這些資料背 後的模式和結構,從而能夠產生全新的輸 … 解析 總結出研究背景,摘要,核心 問題等內 容,還能根據文本自動… 在學術寫作中,降低論文的重複率 是避免抄襲疑慮的重要步驟,有…"
+    },
+    {
+      "title": "情报智能体——面向“十五五” 的科技情报工作新范式.",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "刘细文， 付芸， 韦华楠 - … of Library & Information Science in …, 2024 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 改革开放后,计算机技术开 始出现和应用,中国开始建立论文数据库,… 情报需求 的结构化信息 ,从而便于后续的知识表示和情报分 析.这类智能体可以实现自动的知识图谱构建和主题 分类,为情报…"
+    },
+    {
+      "title": "基于人工智能的智慧教学体系构建研究——以中职《 数据库原理》 课程为例",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "刘宝龙 - Journal of Educational Innovation and Practice, 2025 - fcipub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 实验完成后,系统自动对比学生的实验结果与标准结果,分析实验… ,原理,方法)及其关联关系构建 成结构化的知识网络.例如,以“数据库… 2019年南国博览学术研讨会论文集(五). 临泽县职业技术教育…"
+    },
+    {
+      "title": "高校图书馆情报服务智库化探索与发展思考———以上海交通大学图书馆为例.",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "潘卫， 董珏， 王钧钰， 肖兰… - Journal of Academic …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 情报服务人员加入 团队,对该领域前沿报告的撰写提供科技论文… 健全治理结构与体系,从目标任务 设定,成果产出管 理,绩效考核… ,机器学习等构建全流程智慧情报管 理与服务平台或面向垂直领域…"
+    },
+    {
+      "title": "基于智慧信息推送的个性化学习服务实证研究——以“文献选读与论文写作” 课程为例",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "刁楠楠， 熊才平， 丁继红， 刘静 - 中国远程教育, 2016",
+      "doi": "",
+      "citations": 0,
+      "abstract": ""
+    },
+    {
+      "title": "基于CNKI 的情报学研究生学位论文研究",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "王达 - 宁波城市职业技术学院学报, 2016",
+      "doi": "",
+      "citations": 0,
+      "abstract": ""
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q16_baseline_b_20260410_190830.md"
+}

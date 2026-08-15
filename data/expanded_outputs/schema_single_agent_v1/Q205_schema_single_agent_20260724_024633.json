@@ -1,0 +1,251 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q205",
+  "query": "How should a multi-agent system synthesize evidence on carbon tax effectiveness when the corpus contains studies from jurisdictions with very different policy designs?",
+  "domain_id": "climate_policy_research",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q205_method1_exp_20260413_104529.json",
+  "same_query_evidence_ids": [
+    "doi:10.1142/s1464333225500085",
+    "doi:10.1108/el-06-2025-0272",
+    "title:towards robust fact-checking: a multi-agent system with advanced evidence retrieval|2025",
+    "doi:10.1002/cl2.1128",
+    "doi:10.69739/jece.v2i2.1238",
+    "doi:10.1093/heapol/czz055",
+    "doi:10.1681/asn.0000000000000166",
+    "doi:10.1186/s13750-023-00319-w"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.1142/s1464333225500085",
+    "doi:10.1108/el-06-2025-0272",
+    "title:towards robust fact-checking: a multi-agent system with advanced evidence retrieval|2025",
+    "doi:10.1002/cl2.1128",
+    "doi:10.69739/jece.v2i2.1238",
+    "doi:10.1093/heapol/czz055",
+    "doi:10.1681/asn.0000000000000166",
+    "doi:10.1186/s13750-023-00319-w"
+  ],
+  "top_papers": [
+    {
+      "title": "The Impact of Climate Policy on Vietnamese Firms’ Environmental Reporting: Evidence from Corporate Carbon Trading",
+      "authors": [
+        "Nguyen Tien Dat",
+        "T. Anh",
+        "N. Hồng"
+      ],
+      "abstract": "This paper investigates how climate policy influences corporate environmental reporting among Vietnamese firms involved in carbon trading. Using the 2016 Plan to implement the Paris Agreement as an exogenous policy shock, we employ a Difference-in-Differences (DiD) approach to identify causal effects. This method is appropriate as it helps mitigate endogeneity concerns by leveraging the parallel trends assumption, which is supported by robustness checks including parallel trend testing, propensity score matching, and placebo tests. The results reveal that climate policy significantly improves the quality of environmental disclosures by carbon trading firms. Moreover, the effect is more pronounced in provinces with stricter environmental regulation and among firms that demonstrate stronger green innovation efforts. These findings contribute to the emerging markets literature on climate policy by highlighting how institutional and innovation-related factors moderate policy effectiveness. From a policy perspective, the study offers evidence-based recommendations to enhance climate governance, particularly through incentivising green innovation and strengthening local regulatory capacity, to improve corporate transparency in environmental reporting.",
+      "year": "2025",
+      "published_date": "2025-07-10",
+      "journal": "Journal of Environmental Assessment Policy and Management",
+      "url": "https://www.semanticscholar.org/paper/940ffd70d3c13fb4848e8f6098599464f00835c8",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1142/s1464333225500085",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "policy intelligence evidence grounded writing"
+    },
+    {
+      "title": "A multi-stage agentic AI system for extracting information from large digital archives: case study on the Czechoslovak year 1968 in CIA’s FOIA collection",
+      "authors": [
+        "Ján Cerný",
+        "Kiril Avramov",
+        "Liladhar R. Pendse"
+      ],
+      "abstract": "\n \n This study aims to design, implement and evaluate a conceptual multi-stage artificial intelligence (AI) system for the systematic analysis of large, unstructured digital archives. Using the 1968 Prague Spring and subsequent Soviet invasion of Czechoslovakia as a case study, the paper demonstrates how such a system can automate the extraction of historical intelligence from declassified documents, creating a time-resolved narrative from non-machine-readable sources.\n \n \n \n A multi-stage agentic system comprising eight specialized agents was developed to deconstruct the historical research workflow. The system was applied to the corpus of declassified President’s Daily Briefs from 1968 to 1969, sourced from the CIA’s FOIA Electronic Reading Room. The methodology integrates optical character recognition (OCR) and expert-guided prompt engineering and introduces a novel evaluation framework to quantitatively and qualitatively compare the performance of four distinct LLMs (GPT-5, Claude Sonnet 4.5, Grok 4 and Magistral Medium) across the 2,122-page corpus.\n \n \n \n The system produced three key outputs: a comprehensive monthly summary of intelligence reporting, a structured list of key named entities and a thematic quantification of the content. Critically, the comparative analysis reveals significant trade-offs in performance: GPT-5 achieved the highest output quality (F1 score: 0.731), while Claude Sonnet 4.5 offered superior cost-efficiency and processing speed. Moreover, Claude Sonnet 4.5 and Grok 4 demonstrated flawless operational stability, while Mistral Magistral Medium proved most effective at text reduction. These findings underscore that while AI enhances efficiency, expert human oversight remains essential for ensuring interpretive nuance.\n \n \n \n A primary limitation is the data acquisition process, due to the lack of a public API for the canonical data source, which affects long-term reproducibility. Furthermore, the reliance on OCR introduces a layer of potential error into the source text. The study implies that fully automated historical analysis is not yet fully feasible; rather, a human-in-the-loop, collaborative approach is essential for credible results.\n \n \n \n The proposed framework provides a replicable model for historians, archivists, librarians and intelligence analysts to unlock insights from vast, unstructured document collections. It streamlines labor-intensive tasks (e.g. data discovery, text extraction, summarization), allowing researchers to focus on higher-level analysis and interpretation.\n \n \n \n This paper’s primary novelty lies in presenting one of the first comprehensive frameworks for evaluating and benchmarking competing LLMs on complex historical analysis tasks using declassified intelligence documents. It moves beyond single-LLM case studies by offering a complete, end-to-end workflow that not only processes intelligence documents but also provides a replicable methodology for assessing the practical trade-offs (quality, cost and speed) between different AI models in a digital humanities’ context.\n",
+      "year": "2026",
+      "published_date": "2026-01-22",
+      "journal": "Electronic library",
+      "url": "https://www.semanticscholar.org/paper/ba0e2bacd045bab324ab4f9611ec56deb40f0685",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1108/el-06-2025-0272",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "Towards Robust Fact-Checking: A Multi-Agent System with Advanced Evidence Retrieval",
+      "authors": [
+        "Tam Trinh",
+        "Manh Nguyen",
+        "Truong-Son Hy"
+      ],
+      "abstract": "The rapid spread of misinformation in the digital era poses significant challenges to public discourse, necessitating robust and scalable fact-checking solutions. Traditional human-led fact-checking methods, while credible, struggle with the volume and velocity of online content, prompting the integration of automated systems powered by Large Language Models (LLMs). However, existing automated approaches often face limitations, such as handling complex claims, ensuring source credibility, and maintaining transparency. This paper proposes a novel multi-agent system for automated fact-checking that enhances accuracy, efficiency, and explainability. The system comprises four specialized agents: an Input Ingestion Agent for claim decomposition, a Query Generation Agent for formulating targeted subqueries, an Evidence Retrieval Agent for sourcing credible evidence, and a Verdict Prediction Agent for synthesizing veracity judgments with human-interpretable explanations. Evaluated on benchmark datasets (FEVEROUS, HOVER, SciFact), the proposed system achieves a 12.3% improvement in Macro F1-score over baseline methods. The system effectively decomposes complex claims, retrieves reliable evidence from trusted sources, and generates transparent explanations for verification decisions. Our approach contributes to the growing field of automated fact-checking by providing a more accurate, efficient, and transparent verification methodology that aligns with human fact-checking practices while maintaining scalability for real-world applications. Our source code is available at https://github.com/HySonLab/FactAgent",
+      "year": "2025",
+      "published_date": "2025-06-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2506.17878v1",
+      "arxiv_id": "2506.17878v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "Editorial: Evidence synthesis for accelerated learning on climate solutions",
+      "authors": [
+        "Lea Berrang‐Ford",
+        "Friederike Döbbe",
+        "Ruth Garside",
+        "Neal Haddaway",
+        "William F. Lamb",
+        "Jan C. Minx",
+        "Wolfgang Viechtbauer",
+        "Vivian Welch",
+        "Howard White"
+      ],
+      "abstract": "By signing the Paris Agreement with the aim to limit global warming to well below 2°C relative to preindustrial levels, countries have committed to kickstart the age of climate solutions. This challenge should not be underestimated: It requires turning around a 270-year-old trajectory of CO2 emissions growth that started with the industrial revolution (Friedlingstein et al., 2019), and racing towards net zero emissions over the next 3–5 decades (IPCC, 2018). But that is not enough. Because anthropogenic carbon emissions have already caused consequential warming of about 1°C since preindustrial times, there is a further need to reduce vulnerabilities and adapt to climate impacts that cannot be avoided (IPCC, 2014, 2018). All parts of society and the economy will need to play their parts in the transformation towards a climate-resilient, net-zero emissions world. It requires nothing less than transformational policies at all levels of governance from local to national and international (IPCC 2014, 2018). Climate policies for mitigation and adaptation have to become the focus in science and policy if we are to have the slightest chance of living up to this challenge. Because there is no time left for trial and error and since resources for organising a transformation into a carbon-neutral world are inherently limited, decision-making on climate solutions needs to be based on the best available evidence. “Best” evidence should be rigorous, transparent, timely, efficient, and fit-for-purpose applying formal methods for evidence synthesis (Gough et al., 2017; Haddaway et al., 2020). Knowledge brokering (Pielke, 2007) on climate change is commonly undertaken through scientific assessments of the available scientific literature. Most prominently these assessments are undertaken by the Intergovernmental Panel on Climate Change (IPCC). Like many other global environmental assessments, IPCC assessments are diverse, large-scale, multistakeholder and intergovernmental processes (Kowarsch et al., 2017). Compared with systematic reviews and evidence (gap) maps (Saran & White, 2018), their scope is vast. IPCC assessments usually require the consideration of more or less the entire recent scientific literature on climate change that has emerged during an assessment cycle—only somewhat constrained by a government-approved outline that provides some thematic focus. Progress in IPCC assessments depends on a well-working evidence pyramid (Figure 1). There is no time within IPCC processes to systematically assess the vast amounts of primary research on climate change. The availability of rigorous evidence syntheses that assess the primary evidence is fundamental for learning (Berrang-Ford et al., 2015; Minx et al., 2017). The IPCC has made continuous progress in building up knowledge on forward-looking questions that emerge around understanding, dealing with and mitigating potentially severe, pervasive and irreversible climate impacts that could affect human and natural systems in the absence of an adequate human response. This knowledge has had a big impact on international climate policy. It is difficult to think of major milestones like the Kyoto Protocol or the Paris Agreement being achieved without the synthetic scientific inputs provided by the IPCC. Learning has been driven by structured, model-intercomparison exercises that provide the major backbone of the evidence synthesis tradition in climate change. Similar to systematic reviews, model intercomparison exercises set out clear protocols for systematically assessing evidence generated by ensembles of harmonised climate models on specific questions around climate science, impacts and vulnerability as well as mitigation and adaptation (Edwards, 2011; Eyring et al., 2016; O'Neill et al., 2016). These lines of synthetic evidence arising from model intercomparison exercises have been fundamental for progress in the science of climate change as well as IPCC assessment reports (Minx et al., 2019). However, progress on understanding climate solutions from IPCC assessments has been limited, despite climate solutions now being rolled out across the world, with varying degrees of ambition and success (Eskander & Fankhauser, 2020; Höhne et al., 2020). The root of the problem is a lack of rigorous evidence syntheses that assess progress and historical success and failures in the implementation of climate solutions (Berrang-Ford et al., 2015; Minx et al., 2017) and are designed to minimise the various sources of bias traditional literature reviews are commonly exposed to (Haddaway et al., 2020). Transparent evidence synthesis is particularly infrequent in climate research using qualitative research, largely due to the widespread perception in many social sciences that systematic approaches are highly positivist and lack the methodological flexibility needed for critical inductive inquiry. Yet qualitative research is critical for understanding the human dimensions of climate change, and we will need robust synthetic insights from the social sciences to comprehensively learn about climate solutions. Substantial work has already been undertaken to develop qualitative evidence synthesis and mixed methods synthesis methods in other topic areas dealing with complexity. There is an opportunity to adopt and adapt these systematic evidence synthesis approaches to bridge some of the epistemological concerns. Despite this, many reviews in this field frequently lack transparent methodology about their processes, and often withdraw from engaging with the broader need for generalizeable insight (Gough et al., 2017). Systematic review research, meanwhile, has struggled to respond to the scope and heterogeneity of the climate literature, in particular the central role of contextual and mediating factors in influencing climate solutions. Thus, a robust middle layer of the evidence pyramid is partially lacking. As shown in Figure 1, the result is a lack of learning in science and policy regarding what climate solutions work under what conditions, for whom, and why in climate change assessments and beyond (Berrang-Ford et al., 2015; Minx et al., 2017). It is of great importance to grow a rigorous evidence synthesis culture particularly in the social science of climate change. The Campbell Collaboration has therefore now established a new Climate Solutions Coordinating Group (CSCG) with the purpose of building a comprehensive evidence base on climate solutions. We are part of a growing international, multidisciplinary network of scholars committed to prepare and disseminate high quality systematic reviews and evidence and gap maps that help us better understand climate solutions. With our work we want to support better, evidence-based decisions by: (a) supporting rigorous synthesis of evidence on key questions; (b) further improving the quality of climate change research through critical appraisal of primary research; and (c) improving the efficiency of the scientific process through enhanced oversight of, and less duplication in, secondary research efforts. We further believe that our work strengthens the IPCC and other climate change assessments by supporting the completion of its evidence pyramid (see Figure 1). We are particularly interested in learning about what climate solutions work well under what conditions, for whom, and why. Climate change mitigation and adaptation solutions are the end-points of our interest, but we broadly invite contributions in the field of “climate change and society”. We believe that developing a sound understanding requires a diverse approach to evidence synthesis, including quantitative, qualitative and mixed-methods evidence (Kastner et al., 2016). We further seek evidence synthesis efforts at all levels, including systematic reviews, evidence and gap maps, systematic reviews, qualitative meta-synthesis, mega-maps as well as maps of maps (Saran & White, 2018). There are scholars in very different communities working on evidence synthesis in the field of climate. We try to represent those different communities in the governance structure of the group. The Editorial Board includes researchers with a background in IPCC or similar climate change assessments as well as scholars involved in the Campbell Collaboration, Cochrane and the Collaboration for Environmental Evidence. The methodological expertise spans from more traditional quantitative systematic reviews to qualitative evidence synthesis methods such as thematic synthesis, framework synthesis, evaluation assessment, and meta-ethnography. Similarly, the Advisory Board comprises senior management of major global environmental assessments such as IPCC, Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services or the United Nations Environment Programmes' Emissions Gap Reports as well as the above mentioned Collaborations. We aim to diversify the representation of marginalised groups in both Boards as CSCG matures. Working on a cross-cutting topic such as climate change provides many interfaces to the work by other Campbell Coordinating Groups. For example, it will be crucial to work closely with the International Development Coordinating Group as both discourses are closely intertwined in the context of international climate policy. Similar, the work by the Education Collaborating Group is relevant as the importance of civic engagement and education for organising transformative climate solutions is increasingly appreciated. Evidence synthesis on climate solutions will also require adjusting available to and developing new methods for the specific context and multidisciplinary structure of the climate discourse requiring regular engagement and cooperation with the Methods Coordinating Group. Finally, as probably true for all Coordinating Groups across Campbell, the work of the Knowledge Translation and Implmentation Coordinating Group that focuses on effective ways of communicating evidence to different audiences is of direct relevance to our work at science-policy interface. Part of our work will be to build more capacity for systematic reviews in the field of climate. For that we will provide training in evidence synthesis methodologies and specifically target climate change assessment communities around the IPCC. We will enhance our reach further through the provision of a set of freely available and open training resources. We recognise that access to free training and mentoring are important barriers to building capacity for evidence-informed decision-making (including evidence synthesis) in resource constrained contexts like the Global South. Our aim is, therefore, to provide accessible and functional training in climate evidence synthesis that works across settings (e.g., with low bandwidth internet). It is an exciting and important task to build a thriving (social science) community that tries to learn what climate solutions work under what conditions, for whom, and why, using rigorous systematic review and evidence (gap) map methodologies. Beyond the core remit of the group to promote rigorous evidence synthesis as an important pathway to more evidence-informed climate policy, CSCG will further try to advance evidence synthesis methodology more generally in four priority areas. Promote the adaptation and application of qualitative and mixed methods evidence synthesis methodologies: The social science of climate change provides a very diverse body of evidence. Only a small part of this literature is directly on impact evaluations of climate solutions based on experimental or quasiexperimental research designs (IPCC, 2014). In part, this is because climate solutions are conditional on individual and societal behaviours, institutional settings and governance structures that are impossible to fully comprehend in solely quantitative work. Qualitative evidence synthesis is also key to understanding stakeholder experience and attitudes, the feasibility and acceptability of policy proposals, as well as unintended consequences (Macura et al., 2019). In order to comprehensively learn from the available evidence on climate solutions, it is, therefore, vital to mirror the methodological diversity in primary evidence by promoting the application of the full breadth of qualitative and mixed methods evidence synthesis methodologies (Kastner et al., 2016). Encourage the development and application of novel evidence synthesis technology: Climate change is not only one of the most pressing policy issues of our time, but also a very prolific area of research with tens of thousands of studies being published every year. In such an age of big literature with a vast and fast-growing evidence base, traditional manual tools of evidence synthesis are being pushed to their limits (Callaghan et al., 2020; Minx et al., 2017; Nunez-Mir et al., 2016). As such, the field of climate is ideally suited to explore how technology can be used to streamline individual processes in evidence synthesis. The CSCG will therefore contribute to discussions and methodologies on automation and computer-assistance for systematic reviews and evidence and gap maps (Haddaway et al n.d.; Nakagawa et al., 2019; O'Connor et al., 2019; Tsafnat et al., 2014; Westgate et al., 2018) as well as broader global environmental assessments (Callaghan et al., 2020; Lamb et al., 2019). Integrating the evidence synthesis traditions of the climate and the systematic review communities: It is clear that comprehensive learning on climate solutions must be rooted in a systematic exploration of alternative future pathways as well as systematic evaluation of past policies. The CSCG brings together two evidence synthesis communities with complementary strengths in ex-ante and ex-post assessments of climate solutions. We are convinced that there is great scope for mutual learning and that sharing and integration of these distinct traditions will ultimately lift evidence synthesis and the resulting scientific policy advice to a higher level. Promote the application of formal assessment of confidence in evidence within syntheses of climate solutions: Assessment of uncertainty and confidence in evidence is a critical component of climate change assessments (Janzwood, 2020; Jonassen & Pielke, 2011; Mach et al., 2017; Petticrew & McCartney, 2017). Methods for uncertainty assessment are widely used in quantitative syntheses of climate projections, and detection and attribution of impacts. Lesser known and used are methods for formally assessing confidence in mixed-methods and qualitative evidence, which are used in the health sciences but rarely in climate research (Colvin et al., 2015; Lewin et al., 2018; Mach & Field, 2017; van Bavel et al., 2020). Learning on climate solutions must be underpinned by awareness of the evolving quality and reliability of our evidence base (Adler & Hirsch Hadorn, 2014; Aven, 2019). The CSCG will bring together expertise in systematic confidence assessment and climate solutions research to apply and promote robust confidence assessment within evidence syntheses for climate solutions. Climate change is one of the most pressing problems that humankind faces. We need to urgently and rapidly learn from the best available evidence on climate solutions. The CSCG warmly invites registrations and submissions to Campbell Systematic Reviews from climate experts across diverse disciplines and evidence synthesis practitioners.",
+      "year": "2020",
+      "published_date": "2020-12-01",
+      "journal": "Campbell Systematic Reviews",
+      "url": "https://doi.org/10.1002/cl2.1128",
+      "arxiv_id": "",
+      "keywords": [
+        "Greenhouse gas",
+        "Climate change",
+        "Climate policy",
+        "Corporate governance",
+        "Natural resource economics",
+        "Global warming",
+        "Transformational leadership",
+        "Political science"
+      ],
+      "citations": 17,
+      "source": "OpenAlex",
+      "doi": "10.1002/cl2.1128",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate governance systematic review automation"
+    },
+    {
+      "title": "Carbon Pricing and Green Growth: A Systematic Review of Policy Effectiveness, Design, and Equity",
+      "authors": [
+        "Enoch Nii-Okai",
+        "Alfred Yeboah",
+        "Emmanuel Kwasi Xonu",
+        "Ayodeji Olayode",
+        "Efe Nkem Osarodion",
+        "Gopal Fosu Oppong Wiafe",
+        "Albert Miezah Ackah",
+        "Benjamin Osaze Enobakhare"
+      ],
+      "abstract": "Climate change constitutes a major market failure because greenhouse gas emissions are not priced to reflect their social costs. Carbon pricing has become a central policy instrument, yet its effectiveness varies across contexts. This review evaluates the performance of carbon taxes and emissions trading systems by examining their environmental, economic, and equity outcomes. The analysis applies a systematic review framework covering peer-reviewed studies, meta-analyses, and international policy assessments published between 2008 and 2025. Evidence is synthesized across three dimensions: emissions reductions, innovation and structural change, and distributional impacts. The literature consistently shows that carbon pricing reduces emissions when price signals are strong, credible, and increase predictably over time. Jurisdictions with rising tax schedules or progressively tightening emissions caps achieve the most durable mitigation. Carbon pricing also stimulates low-carbon innovation and supports long-term structural change, especially when combined with complementary policies. Distributional outcomes vary, but equity improves significantly when revenues are returned through rebates or tax reductions. Overall effectiveness depends more on design quality and policy coherence than on whether pricing is delivered through taxes or trading systems. Credible long-term price paths, broad sectoral coverage, transparent governance, and equitable revenue use are essential conditions for achieving sustained environmental and socio-economic benefits.",
+      "year": "2025",
+      "published_date": "2025-11-29",
+      "journal": "Journal of Environment, Climate, and Ecology",
+      "url": "https://www.semanticscholar.org/paper/b37bb1fb3bd3c3b5f58be9b98ea3dd585c2429a1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.69739/jece.v2i2.1238",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate evidence review multi-agent systematic review"
+    },
+    {
+      "title": "The impacts of decentralization on health system equity, efficiency and resilience: a realist synthesis of the evidence",
+      "authors": [
+        "Ṣẹ̀yẹ Abímbọ́lá",
+        "Leonard Baatiema",
+        "Maryam Bigdeli"
+      ],
+      "abstract": "One constant refrain in evaluations and reviews of decentralization is that the results are mixed. But given that decentralization is a complex intervention or phenomenon, what is more important is to generate evidence to inform implementation strategies. We therefore synthesized evidence from the literature to understand why, how and under what circumstances decentralization influences health system equity, efficiency and resilience. In doing this, we adopted the realist approach to evidence synthesis and included quantitative and qualitative studies in high-, low- and middle-income countries that assessed the the impact of decentralization on health systems. We searched the Medline and Embase databases via Ovid, and the Cochrane library of systematic reviews and included 51 studies with data from 25 countries. We identified three mechanisms through which decentralization impacts on health system equity, efficiency and resilience: 'Voting with feet' (reflecting how decentralization either exacerbates or assuages the existing patterns of inequities in the distribution of people, resources and outcomes in a jurisdiction); 'Close to ground' (reflecting how bringing governance closer to the people allows for use of local initiative, information, feedback, input and control); and 'Watching the watchers' (reflecting mutual accountability and support relations between multiple centres of governance which are multiplied by decentralization, involving governments at different levels and also community health committees and health boards). We also identified institutional, socio-economic and geographic contextual factors that influence each of these mechanisms. By moving beyond findings that the effects of decentralization on health systems and outcomes are mixed, this review presents mechanisms and contextual factors to which policymakers and implementers need to pay attention in their efforts to maximize the positive and minimize the negative impact of decentralized governance.",
+      "year": "2019",
+      "published_date": "2019-05-31",
+      "journal": "Health Policy and Planning",
+      "url": "https://doi.org/10.1093/heapol/czz055",
+      "arxiv_id": "",
+      "keywords": [
+        "Decentralization",
+        "Accountability",
+        "Equity (law)",
+        "Corporate governance",
+        "Public economics",
+        "Business",
+        "Political science",
+        "Economics"
+      ],
+      "citations": 259,
+      "source": "OpenAlex",
+      "doi": "10.1093/heapol/czz055",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature?",
+      "authors": [
+        "Qiao Jin",
+        "Robert Leaman",
+        "Zhiyong Lu"
+      ],
+      "abstract": "ChatGPT, a general purpose chatbot developed by OpenAI, has been widely reported to have the potential to revolutionize how people interact with information online.1 Like other large language models (LLMs), ChatGPT has been trained on a large text corpus to predict probable words from the surrounding context. ChatGPT, however, has received substantial popular attention for generating human-like conversational responses, and new developments are occurring rapidly. The initial release in November 2022 used the model generative pretrained transformers (GPT)-3.5, and a version based on GPT-4.0 was released in March 2023. Recent work has discussed applications of ChatGPT for medical education and clinical decision support.2–4 However, health care professionals should be aware of the drawbacks and limitations—and potential capabilities—of using ChatGPT and similar LLMs to interact with medical knowledge. A significant issue with ChatGPT is its tendency to generate confident-sounding but fabricated responses, commonly known as “hallucination.” Although it can generate plausible-sounding text, ChatGPT does not consult any source of truth.1 Occasional incorrect or biased responses are, therefore, inevitable, and ChatGPT cannot faithfully cite sources to allow their evidence to be verified. For example, we prompted GPT-3.5–based ChatGPT to list possible mechanisms of AKI in patients with coronavirus disease 2019 (COVID-19), with references. ChatGPT produced a list of plausible mechanisms, each of which has been investigated in the literature (Figure 1A) but supported its claims with fabricated titles and irrelevant PubMed identifiers. ChatGPT using the GPT-4 model acknowledges that it cannot produce references and refuses to cite articles in the answer (Figure 1C)—a significant improvement—but leaves the difficult task of verification to the user. Consulting ChatGPT directly for medical information carries a significant risk of drawing incorrect conclusions, particularly for patients.Figure 1.: Seeking information related to COVID-19 from ChatGPT. (A) ChatGPT-3.5 fabricates the references for its claims. (B) When prompted with the title and abstract of relevant articles, ChatGPT-3.5 can summarize the aspects requested, including some valid in-line references. However, many details are inaccurate: Related mechanisms are not correctly grouped, contradicting evidence is not mentioned, some citations are missing, and a listed mechanism is not specific. Note that the complete response mentioned only three of five articles. (C) ChatGPT-4 acknowledges its drawback and refuses to cite source articles in the response, which makes the verification more difficult. (D) ChatGPT-4 with the web browsing plug-in summarizes information from the search engine, but it only finds two relevant articles and fails to systematically answer the question. Responses were collected from GPT-3.5–based ChatGPT on March 14, 2023, and GPT-4–based ChatGPT on May 15, 2023.However, LLMs such as ChatGPT may be better suited for text summarization than directly answering medical questions. Pilot studies have shown that LLMs can be effective at clinical reasoning, reading comprehension, and generating fluent summaries with high fidelity.5–7 Augmenting LLMs such as ChatGPT with a traditional literature search engine may therefore help address hallucination and enable the system to provide the user with comprehensive high-level summaries. For example, the new Bing provides ChatGPT-like interactive agents to help users create effective queries, identify relevant results, and summarize their content. In addition, ChatGPT recently introduced a plug-in that allows the model to search the web when generating responses (currently in limited beta test). Incorporating such features into medical literature search has the potential to streamline gathering and synthesizing evidence from the literature, improving patient care. Unfortunately, summaries generated by current LLMs such as ChatGPT also contain inaccuracies,8 in addition to practical issues such as limitations on the length of input text. To illustrate these problems, we prompted ChatGPT (model 3.5) to identify possible mechanisms of AKI in patients with COVID-19, using five manually chosen articles on the pathophysiology of AKI in COVID-19. Although ChatGPT’s summary (Figure 1B) generally reflects the mechanisms of AKI discussed by the articles, the response lists symptoms from only three of the five input studies and misses some important mechanisms mentioned repeatedly, such as hypoxia. Moreover, some citations are missing, contradicting evidence is not mentioned, similar mechanisms are not correctly grouped, and one of the mechanisms listed is less specific than the source. We also prompted ChatGPT (model 4), with the web browsing plug-in, to answer the same question (Figure 1D). In this case, ChatGPT provides summaries with relevant citations. However, the response is based on only two articles, without synthesizing the evidence, and thus fails to answer the question systematically. Generally speaking, retrieval-augmented LLMs reduces users' control over sources, leading to results that may not align with the user's criteria for the best information (e.g., most up-to-date). Summaries generated by LLMs can miss important ideas discussed by the input sources or contain assertions unsupported by the input sources. Because imprecise or incomplete information can lead to incorrect clinical decisions and patient harm, content generated by current LLMs, including ChatGPT, must be verified for accuracy and completeness before use. Further research on the faithfulness of LLM-generated summaries and automatic verification tools is also warranted to realize the full potential of LLMs to streamline evidence gathering and synthesis from the medical literature. Despite these limitations, the remarkable progress in AI and the rapid advancements in LLMs may have profound implications for medicine, from assisting medical education,2 to accelerating literature screening for systematic reviews,7,9 and supporting physicians in various clinical settings as generalist medical AI,4 among other possibilities. In addition to augmenting LLMs with retrieval results from a search engine, LLMs can also be taught to use biomedical domain-specific tools, such as the Web APIs of specialized databases, to provide improved access to biomedical information.10 In summary, although ChatGPT is not currently suitable for use as a literature search engine on its own, we envision that the proposed retrieve, summarize, and verify paradigm could greatly benefit biomedical information seeking. This approach leverages the impressive capability of LLMs to generate high-level summaries while minimizing the risk of directly using false or fabricated information by combining LLMs and search engines. It is important to note that although LLM technology is progressing rapidly, it has not yet matured enough for clinical use. Therefore, users must retain full responsibility for verifying the accuracy and reliability of its output.",
+      "year": "2023",
+      "published_date": "2023-05-31",
+      "journal": "Journal of the American Society of Nephrology",
+      "url": "https://doi.org/10.1681/asn.0000000000000166",
+      "arxiv_id": "",
+      "keywords": [
+        "Affect (linguistics)",
+        "Medicine",
+        "Psychology",
+        "Intensive care medicine",
+        "Computer science",
+        "Communication"
+      ],
+      "citations": 67,
+      "source": "OpenAlex",
+      "doi": "10.1681/asn.0000000000000166",
+      "open_access": false,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "Effects of mosquito control using the microbial agent Bacillus thuringiensis israelensis (Bti) on aquatic and terrestrial ecosystems: a systematic review",
+      "authors": [
+        "M. Land",
+        "M. Bundschuh",
+        "R. J. Hopkins",
+        "B. Poulin",
+        "B. Mckie"
+      ],
+      "abstract": "Background The bacterium Bacillus thuringiensis serovar israelensis (Bti) is commercially produced in various formulations for use as a larvicide worldwide, targeting especially the aquatic larval stage of mosquitoes. However, there is a concern that repeated Bti treatments may have both direct and indirect impacts on non-target organisms (NTOs) and the ecosystems they inhabit. This review evaluates the evidence for such impacts. Methods Literature was searched using six bibliographic databases, two search engines, and on specialist web sites. Eligibility screening was performed in two steps on (1) title/abstract, with consistency among reviewers assessed by double-screening 557 articles and (2) full text. Articles included after full text screening were critically appraised independently by two reviewers. Disagreements were reconciled through discussions. Key parameters of included studies are presented in narrative synthesis tables, including risk of bias assessments. Meta-analyses comparing treated with untreated ecosystems and using either the raw mean difference or log response ratio as effect size were performed. Review findings Ninety-five articles covering 282 case studies were included in the review. From these, we identified 119 different response variables, which were divided into nine outcome categories. Most studies investigated NTO abundance or life history (reproduction related outcomes), but diversity and community composition are also well represented as outcome categories. The studies are highly variable in methodology, rigor, and spatio-temporal scale, spanning 1 day to 21 years and from < 1m^2 to > 10,000 m^2. Our metanalyses revealed a consistent negative effect of Bti treatment on abundances of Chironomidae and Crustacea, and also on chironomid emergence, although from a more restricted set of studies and regions. For most remaining response variables, we judged meta-analysis unfeasible, due to low study numbers or insufficient reporting of methods and results. Conclusions There is now a significant body of studies documenting effects of mosquito control using Bti on NTOs or other ecosystem properties, especially associated with negative effects on Chironomidae, as apparent from our meta-analyses. Accordingly, we suggest the potential for negative NTO or other ecosystem effects of Bti treatment should not be discounted a priori. Once a decision to proceed with Bti treatment has been taken, priority should be given to a well-designed program of ongoing monitoring and assessment. The paucity of rigorous studies conducted with low bias risk for most response variables undermines our capacity for evaluating how common many of the effects documented might be. Future research would benefit from a rigorous and well-replicated approach to studying Bti impacts in semi-field mesocosms or in the field, combined with a greater rigor in reporting key methodological details. A greater focus is needed on understanding the environmental factors which regulate the wider effects of mosquito control using Bti on NTOs and ecosystems, to enhance our capacity for predicting where and when Bti is most likely to have additional, negative and indirect ecological impacts.",
+      "year": "2023",
+      "published_date": "2023-11-22",
+      "journal": "Environmental Evidence",
+      "url": "https://www.semanticscholar.org/paper/7c6fb570454d72573cbc2a9b8910edc2931ee12e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 25,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13750-023-00319-w",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "7b4512bace5ea2730aff05001d688841b200923011e0a99295d9c23916988770",
+  "elapsed_seconds": 14.883,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q205_schema_single_agent_20260724_024633.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

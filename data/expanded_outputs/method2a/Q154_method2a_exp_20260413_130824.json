@@ -1,0 +1,204 @@
+{
+  "query_id": "Q154",
+  "query": "How should a multi-agent synthesis pipeline handle citations when a claimed trend reverses depending on the start year of the analysis window?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Effects of mosquito control using the microbial agent Bacillus thuringiensis israelensis (Bti) on aquatic and terrestrial ecosystems: a systematic review",
+      "authors": [
+        "M. Land",
+        "M. Bundschuh",
+        "R. J. Hopkins",
+        "B. Poulin",
+        "B. Mckie"
+      ],
+      "abstract": "Background The bacterium Bacillus thuringiensis serovar israelensis (Bti) is commercially produced in various formulations for use as a larvicide worldwide, targeting especially the aquatic larval stage of mosquitoes. However, there is a concern that repeated Bti treatments may have both direct and indirect impacts on non-target organisms (NTOs) and the ecosystems they inhabit. This review evaluates the evidence for such impacts. Methods Literature was searched using six bibliographic databases, two search engines, and on specialist web sites. Eligibility screening was performed in two steps on (1) title/abstract, with consistency among reviewers assessed by double-screening 557 articles and (2) full text. Articles included after full text screening were critically appraised independently by two reviewers. Disagreements were reconciled through discussions. Key parameters of included studies are presented in narrative synthesis tables, including risk of bias assessments. Meta-analyses comparing treated with untreated ecosystems and using either the raw mean difference or log response ratio as effect size were performed. Review findings Ninety-five articles covering 282 case studies were included in the review. From these, we identified 119 different response variables, which were divided into nine outcome categories. Most studies investigated NTO abundance or life history (reproduction related outcomes), but diversity and community composition are also well represented as outcome categories. The studies are highly variable in methodology, rigor, and spatio-temporal scale, spanning 1 day to 21 years and from < 1m^2 to > 10,000 m^2. Our metanalyses revealed a consistent negative effect of Bti treatment on abundances of Chironomidae and Crustacea, and also on chironomid emergence, although from a more restricted set of studies and regions. For most remaining response variables, we judged meta-analysis unfeasible, due to low study numbers or insufficient reporting of methods and results. Conclusions There is now a significant body of studies documenting effects of mosquito control using Bti on NTOs or other ecosystem properties, especially associated with negative effects on Chironomidae, as apparent from our meta-analyses. Accordingly, we suggest the potential for negative NTO or other ecosystem effects of Bti treatment should not be discounted a priori. Once a decision to proceed with Bti treatment has been taken, priority should be given to a well-designed program of ongoing monitoring and assessment. The paucity of rigorous studies conducted with low bias risk for most response variables undermines our capacity for evaluating how common many of the effects documented might be. Future research would benefit from a rigorous and well-replicated approach to studying Bti impacts in semi-field mesocosms or in the field, combined with a greater rigor in reporting key methodological details. A greater focus is needed on understanding the environmental factors which regulate the wider effects of mosquito control using Bti on NTOs and ecosystems, to enhance our capacity for predicting where and when Bti is most likely to have additional, negative and indirect ecological impacts.",
+      "year": "2023",
+      "published_date": "2023-11-22",
+      "journal": "Environmental Evidence",
+      "url": "https://www.semanticscholar.org/paper/7c6fb570454d72573cbc2a9b8910edc2931ee12e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 25,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13750-023-00319-w",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    },
+    {
+      "title": "Understanding and Bridging the Planner-Coder Gap: A Systematic Study on the Robustness of Multi-Agent Systems for Code Generation",
+      "authors": [
+        "Zongyi Lyu",
+        "Songqiang Chen",
+        "Zhenlan Ji",
+        "Liwen Wang",
+        "Shuai Wang",
+        "Daoyuan Wu",
+        "Wenxuan Wang",
+        "Shing-Chi Cheung"
+      ],
+      "abstract": "Multi-agent systems (MASs) have emerged as a promising paradigm for automated code generation, demonstrating impressive performance on established benchmarks. Despite their prosperous development, the fundamental mechanisms underlying their robustness remain poorly understood, raising critical concerns for real-world deployment. This paper conducts a systematic empirical study to uncover the internal robustness flaws of MASs using a mutation-based methodology. By designing a testing pipeline incorporating semantic-preserving mutation operators and a novel fitness function, we assess mainstream MASs across multiple datasets and LLMs. Our findings reveal substantial robustness flaws: semantically equivalent inputs cause drastic performance drops, with MASs failing to solve 7.9\\%--83.3\\% of problems they initially resolved successfully. Through comprehensive failure analysis, we discover a fundamental cause underlying these robustness issues: the \\textit{planner-coder gap}, which accounts for 75.3\\% of failures. This gap arises from information loss in the multi-stage transformation process where planning agents decompose requirements into underspecified plans, and coding agents subsequently misinterpret intricate logic during code generation. Based on this formulated information transformation process, we propose a \\textit{repairing method} that mitigates information loss through multi-prompt generation and introduces a monitor agent to bridge the planner-coder gap. Evaluation shows that our repairing method effectively enhances the robustness of MASs by solving 40.0\\%--88.9\\% of identified failures. Our work uncovers critical robustness flaws in MASs and provides effective mitigation strategies, contributing essential insights for developing more reliable MASs for code generation.",
+      "year": "2025",
+      "published_date": "2025-10-12",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/1cb3a1f3dfd152365c1333815f49bfb3e2e7fa32",
+      "arxiv_id": "2510.10460",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "id": "gs_e862336fab",
+      "title": "MAD-CTI: Cyber threat intelligence analysis of the dark web using a multi-agent framework",
+      "abstract": "… multi-agent framework based on Large Language Models (LLM) … agent architecture to improve efficiency, scalability, and consistency. By utilizing state-of-the-art LLM models and agents…",
+      "authors": [
+        "S Shah",
+        "VK Madisetti"
+      ],
+      "year": 2025,
+      "journal": "S Shah, VK Madisetti - IEEE Access, 2025 - ieeexplore.ieee.org",
+      "citations": 10,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10908603/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Transforming Software Development: A Study on the Integration of Multi-Agent Systems and Large Language Models for Automatic Code Generation",
+      "authors": [
+        "Rolando Ramírez-Rueda",
+        "E. Benítez-Guerrero",
+        "Carmen Mezura-Godoy",
+        "E. Bárcenas"
+      ],
+      "abstract": "This paper explores the integration of Multi-Agent Systems (MAS) and Large Language Models (LLMs) for auto-matic code generation, addressing the limitations of traditional manual coding. By conducting a comprehensive review of existing literature and analyzing a practical case study, we demonstrate how MAS and LLMs can collaboratively enhance software development processes. The research focuses on the technical and theoretical challenges of this integration, highlighting the potential for improved productivity, adaptability, and quality in code generation. The findings contribute to AI-based software engineering by revealing new research directions in collective intelligence and automated programming.",
+      "year": "2024",
+      "published_date": "2024-10-28",
+      "journal": "2024 12th International Conference in Software Engineering Research and Innovation (CONISOFT)",
+      "url": "https://www.semanticscholar.org/paper/71b5327e2cbd2a7bce1141a77704a797a2c2e26b",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/CONISOFT63288.2024.00013",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "A Review of Support Tools for User-Centric Electric Vehicle Charging Management Based on Artificial Intelligence and Multi-Agent System Approaches",
+      "authors": [
+        "C. Veiga",
+        "João Soares",
+        "Carlos Ramos",
+        "J. Corchado",
+        "Ronaldo Mello",
+        "Rubipiara C. Fernandes",
+        "C. Dorneles"
+      ],
+      "abstract": "Due to the environmental impacts of greenhouse gas emissions from traditional combustion vehicles, governments worldwide are encouraging the transition to electric vehicles (EVs). However, as EV use increases, user-related charging challenges have become evident. To identify possible solutions to improve EV charging management from a user-centered perspective, a state-of-the-art study was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) methodology. Optimization systems and artificial intelligence (AI) methods applied to decision-making were compared and a growing trend towards the implementation of artificial intelligence in current applications was identified. This study investigates in more depth the application of AI in multi-agent systems for energy management in EV charging. It provides a critical review of charging stations, focusing on aggregator-based models that operate within a multi-agent system in smart grids. This analysis adopts the vehicle owner’s perspective and considers the charging duration of the EV as a parameter. This article identifies significant gaps in how existing research addresses individual electric vehicle users, noting a lack of consideration for energy management and system connectivity to support EV recharging locations. This work presents solutions to these gaps by using aggregators and multi-agent systems to represent charging stations, facilitate user access, and improve energy management.",
+      "year": "2025",
+      "published_date": "2025-11-26",
+      "journal": "Energies",
+      "url": "https://www.semanticscholar.org/paper/a32216aa0162c0910ee3cfc329701455299fec5c",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/en18236189",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "Research on Accounting Information Security Control Strategy under the Background of Digital Intelligence: Based on the Evolutionary Game Perspective of Multi-agent",
+      "authors": [
+        "Sishi Liu",
+        "Yaxu Yang",
+        "Jun-Cheng Chen"
+      ],
+      "abstract": "Accompanied by an increase in the level of mathematical intelligence, accounting information security is facing more and more challenges, including information leakage, data tampering and other issues. Therefore, it is imperative to strengthen accounting information security control. Firstly, through literature review and case analysis, this paper summarizes the challenges and problems faced by accounting information security under the background of digital intelligence. Secondly, based on the multi-agent evolutionary game theory, this paper analyzes the strategy selection rules of different subjects in accounting information security control, constructs the multi-agent strategy game matrix, and calculates the replication dynamic equation. Finally, combined with practical investigation, different scenarios are set up to carry out evolutionary analysis of the multi-agent strategy selection behavior under different circumstances. The results of this paper have certain theoretical and practical value for promoting the improvement of accounting information security control theory and practice.",
+      "year": "2024",
+      "published_date": "2024-04-26",
+      "journal": "Proceedings of the 5th International Conference on Computer Information and Big Data Applications",
+      "url": "https://www.semanticscholar.org/paper/cce365d83915cd29dd88b62a11f4dae949499561",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3671151.3671250",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service literature review"
+    },
+    {
+      "id": "gs_c8d390392b",
+      "title": "Decision support systems based on multi-agent simulation for spatial design and management of a built environment: the case study of hospitals",
+      "abstract": "… Decision Support Systems aim towards improving decision-… They assist decision makers in assessing to what extent the … a Multi-Agent Simulation approach to support Decision-Making …",
+      "authors": [
+        "D Esposito",
+        "D Schaumann",
+        "D Camarda"
+      ],
+      "year": 2020,
+      "journal": "D Esposito, D Schaumann, D Camarda… - … on Computational Science …, 2020 - Springer",
+      "citations": 13,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-58808-3_25",
+      "doi": "10.1007/978-3-030-58808-3_25D",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "A Literature Review on the State of the Art of Multi-agent Systems in Supply Chain Management",
+      "authors": [
+        "Alexandra Fiedler",
+        "Dirk Sackmann",
+        "Hans‐Dietrich Haasis"
+      ],
+      "abstract": "",
+      "year": "2019",
+      "published_date": "2019-01-01",
+      "journal": "Lecture notes in logistics",
+      "url": "https://doi.org/10.1007/978-3-030-29821-0_5",
+      "arxiv_id": "",
+      "keywords": [
+        "Supply chain",
+        "Robustness (evolution)",
+        "Supply chain management",
+        "Computer science",
+        "Risk analysis (engineering)",
+        "Minification",
+        "Process management",
+        "Management science"
+      ],
+      "citations": 3,
+      "source": "OpenAlex",
+      "doi": "10.1007/978-3-030-29821-0_5",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    }
+  ],
+  "timestamp": "20260413_130824"
+}

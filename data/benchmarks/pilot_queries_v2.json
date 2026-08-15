@@ -1,0 +1,362 @@
+[
+  {
+    "id": "Q01",
+    "category": "competitive_intelligence",
+    "query": "面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？",
+    "intent": "framework design"
+  },
+  {
+    "id": "Q02",
+    "category": "competitive_intelligence",
+    "query": "多智能体协同在竞争情报检索与证据聚合中的核心收益是什么？",
+    "intent": "benefit analysis"
+  },
+  {
+    "id": "Q03",
+    "category": "knowledge_service",
+    "query": "面向知识服务场景，单智能体与多智能体的信息服务差异体现在哪些指标上？",
+    "intent": "system comparison"
+  },
+  {
+    "id": "Q04",
+    "category": "knowledge_service",
+    "query": "如何为智慧情报服务设计 retrieval-evidence-writing 的多阶段工作流？",
+    "intent": "workflow design"
+  },
+  {
+    "id": "Q05",
+    "category": "evaluation",
+    "query": "智慧情报服务系统最适合采用哪些自动评测指标？",
+    "intent": "metric selection"
+  },
+  {
+    "id": "Q06",
+    "category": "evaluation",
+    "query": "引用准确率和 orphan citation rate 是否能作为智慧情报服务的核心指标？",
+    "intent": "metric justification"
+  },
+  {
+    "id": "Q07",
+    "category": "evaluation",
+    "query": "多智能协同系统的 reviewer agent 对最终报告质量能带来哪些可观察改进？",
+    "intent": "role analysis"
+  },
+  {
+    "id": "Q08",
+    "category": "evaluation",
+    "query": "evidence agent 对情报报告的证据覆盖率有何影响？",
+    "intent": "ablation"
+  },
+  {
+    "id": "Q09",
+    "category": "retrieval",
+    "query": "多智能协同驱动的情报服务在文献检索相关性方面有哪些优化策略？",
+    "intent": "retrieval optimization"
+  },
+  {
+    "id": "Q10",
+    "category": "retrieval",
+    "query": "如何评估智慧情报服务中 query expansion 的收益与风险？",
+    "intent": "query expansion analysis"
+  },
+  {
+    "id": "Q11",
+    "category": "retrieval",
+    "query": "多源文献检索在情报服务中的常见噪声类型是什么？",
+    "intent": "error taxonomy"
+  },
+  {
+    "id": "Q12",
+    "category": "retrieval",
+    "query": "Google Scholar、OpenAlex、CrossRef、Scopus 在智慧情报服务中各自适合承担什么角色？",
+    "intent": "source comparison"
+  },
+  {
+    "id": "Q13",
+    "category": "full_text",
+    "query": "全文证据相较于摘要级证据，在智慧情报服务中带来哪些质量提升？",
+    "intent": "fulltext value"
+  },
+  {
+    "id": "Q14",
+    "category": "full_text",
+    "query": "如果只能获取部分全文，智慧情报服务应如何进行风险提示与结论降级？",
+    "intent": "risk management"
+  },
+  {
+    "id": "Q15",
+    "category": "full_text",
+    "query": "全文阅读链路中最值得优先抽取的结构化证据有哪些？",
+    "intent": "evidence extraction"
+  },
+  {
+    "id": "Q16",
+    "category": "writing",
+    "query": "面向智慧情报服务的自动报告写作，最稳妥的论文式行文结构是什么？",
+    "intent": "writing structure"
+  },
+  {
+    "id": "Q17",
+    "category": "writing",
+    "query": "多智能协同系统生成的情报报告应如何组织结果、局限性与建议？",
+    "intent": "report structure"
+  },
+  {
+    "id": "Q18",
+    "category": "writing",
+    "query": "如何减少智慧情报服务自动报告中的夸大性 claim？",
+    "intent": "claim control"
+  },
+  {
+    "id": "Q19",
+    "category": "writing",
+    "query": "审稿循环在自动报告生成中应重点检查哪些高风险问题？",
+    "intent": "review checklist"
+  },
+  {
+    "id": "Q20",
+    "category": "writing",
+    "query": "面向可投稿论文，智慧情报服务实验结果应如何图表化展示？",
+    "intent": "figure design"
+  },
+  {
+    "id": "Q21",
+    "category": "agent_roles",
+    "query": "writer、reviewer、reviser 三角色分工如何影响最终情报报告质量？",
+    "intent": "role comparison"
+  },
+  {
+    "id": "Q22",
+    "category": "agent_roles",
+    "query": "screening agent 在多智能协同情报服务中的主要作用是什么？",
+    "intent": "role definition"
+  },
+  {
+    "id": "Q23",
+    "category": "agent_roles",
+    "query": "没有 reviewer 的多智能体流水线与带对抗审稿循环的流水线差异在哪里？",
+    "intent": "adversarial vs pipeline"
+  },
+  {
+    "id": "Q24",
+    "category": "agent_roles",
+    "query": "evidence agent 是否应该作为独立角色存在，而不是并入 writer agent？",
+    "intent": "role necessity"
+  },
+  {
+    "id": "Q25",
+    "category": "cost_efficiency",
+    "query": "多智能协同驱动的智慧情报服务在成本与质量之间的折中如何评估？",
+    "intent": "cost-quality tradeoff"
+  },
+  {
+    "id": "Q26",
+    "category": "cost_efficiency",
+    "query": "增加 agent 数量是否总能带来质量提升？",
+    "intent": "scaling analysis"
+  },
+  {
+    "id": "Q27",
+    "category": "benchmark",
+    "query": "如何构建面向智慧情报服务的 benchmark query set 与评测协议？",
+    "intent": "benchmark construction"
+  },
+  {
+    "id": "Q28",
+    "category": "benchmark",
+    "query": "人工标注在智慧情报服务 benchmark 中应优先覆盖哪些维度？",
+    "intent": "annotation design"
+  },
+  {
+    "id": "Q29",
+    "category": "benchmark",
+    "query": "哪些自动指标可以先行使用，以减少人工标注成本？",
+    "intent": "cheap automatic metrics"
+  },
+  {
+    "id": "Q30",
+    "category": "benchmark",
+    "query": "面向多智能协同情报服务，什么样的 query 最能区分单智能体与多智能体能力差异？",
+    "intent": "stress-test query design"
+  },
+  {
+    "id": "Q31",
+    "category": "competitive_intelligence",
+    "query": "多智能体情报系统如何应对竞争对手实时动态监测中的信息过载问题？",
+    "intent": "information overload handling"
+  },
+  {
+    "id": "Q32",
+    "category": "competitive_intelligence",
+    "query": "在多源竞争情报融合中，如何识别并过滤低可信度来源？",
+    "intent": "source credibility filtering"
+  },
+  {
+    "id": "Q33",
+    "category": "knowledge_service",
+    "query": "面向学术知识服务的智能体如何处理跨语言文献检索与摘要对齐？",
+    "intent": "cross-lingual alignment"
+  },
+  {
+    "id": "Q34",
+    "category": "knowledge_service",
+    "query": "知识服务系统在应对用户查询意图模糊时应采用哪些消歧策略？",
+    "intent": "intent disambiguation"
+  },
+  {
+    "id": "Q35",
+    "category": "evaluation",
+    "query": "如何设计一套能区分幻觉引用与合法推断性引用的自动评测流程？",
+    "intent": "hallucination vs inference discrimination"
+  },
+  {
+    "id": "Q36",
+    "category": "evaluation",
+    "query": "在情报服务评测中，模糊匹配阈值的选择对引用精度指标有何系统性影响？",
+    "intent": "fuzzy threshold sensitivity"
+  },
+  {
+    "id": "Q37",
+    "category": "evaluation",
+    "query": "多智能体协同系统的输出一致性如何通过多次重复运行来量化？",
+    "intent": "output consistency measurement"
+  },
+  {
+    "id": "Q38",
+    "category": "evaluation",
+    "query": "NLI探针在语义层面评测情报报告可信度时存在哪些已知局限性？",
+    "intent": "NLI evaluation limitations"
+  },
+  {
+    "id": "Q39",
+    "category": "retrieval",
+    "query": "在冻结语料库条件下，查询扩展是否仍能提升文献召回率？",
+    "intent": "frozen corpus query expansion"
+  },
+  {
+    "id": "Q40",
+    "category": "retrieval",
+    "query": "向量检索与关键词检索在学术情报服务中各有哪些不可替代的优势？",
+    "intent": "dense vs sparse retrieval tradeoffs"
+  },
+  {
+    "id": "Q41",
+    "category": "retrieval",
+    "query": "证据筛选智能体如何判断一篇论文摘要是否足以支撑某项具体论断？",
+    "intent": "abstract sufficiency judgment"
+  },
+  {
+    "id": "Q42",
+    "category": "retrieval",
+    "query": "多智能体信息服务中检索阶段的语料覆盖率如何影响后续报告质量？",
+    "intent": "coverage-quality relationship"
+  },
+  {
+    "id": "Q43",
+    "category": "full_text",
+    "query": "当全文不可获取时，多智能体系统应如何在报告中明确标注证据强度等级？",
+    "intent": "evidence strength annotation"
+  },
+  {
+    "id": "Q44",
+    "category": "full_text",
+    "query": "全文中的方法论章节与摘要中的结论是否应被赋予不同的引用权重？",
+    "intent": "section-level citation weighting"
+  },
+  {
+    "id": "Q45",
+    "category": "full_text",
+    "query": "如何量化全文获取率对情报报告孤儿引用率的边际影响？",
+    "intent": "fulltext access marginal effect"
+  },
+  {
+    "id": "Q46",
+    "category": "writing",
+    "query": "多智能体协同写作系统如何在保证引用准确的前提下控制报告篇幅？",
+    "intent": "length-accuracy tradeoff"
+  },
+  {
+    "id": "Q47",
+    "category": "writing",
+    "query": "在自动生成的情报报告中，结论性陈述与描述性陈述应如何区分标注？",
+    "intent": "claim type annotation"
+  },
+  {
+    "id": "Q48",
+    "category": "writing",
+    "query": "智能体写作系统对同一查询进行多次生成时，报告结构稳定性如何保证？",
+    "intent": "structural consistency across runs"
+  },
+  {
+    "id": "Q49",
+    "category": "writing",
+    "query": "对抗审稿循环在减少报告中过度概括性陈述方面有哪些可量化的证据？",
+    "intent": "overgeneralization reduction"
+  },
+  {
+    "id": "Q50",
+    "category": "writing",
+    "query": "修订智能体在执行受限修复时，如何避免引入新的语义错误？",
+    "intent": "constrained revision safety"
+  },
+  {
+    "id": "Q51",
+    "category": "agent_roles",
+    "query": "在六角色多智能体架构中，各角色的分工边界如何通过消融实验来验证必要性？",
+    "intent": "role necessity ablation"
+  },
+  {
+    "id": "Q52",
+    "category": "agent_roles",
+    "query": "当 writer 与 reviewer 使用相同底层模型时，对抗机制是否仍然有效？",
+    "intent": "same-model adversarial effectiveness"
+  },
+  {
+    "id": "Q53",
+    "category": "agent_roles",
+    "query": "证据智能体与写作智能体之间的上下文传递应包含哪些最小必要信息？",
+    "intent": "inter-agent context minimization"
+  },
+  {
+    "id": "Q54",
+    "category": "agent_roles",
+    "query": "审稿智能体的结构列表比对能力不足时，整体管线性能会如何系统性退化？",
+    "intent": "reviewer capability failure mode"
+  },
+  {
+    "id": "Q55",
+    "category": "cost_efficiency",
+    "query": "对抗审稿循环带来的质量提升是否能为其额外API调用成本提供充分的经济学辩护？",
+    "intent": "cost-benefit justification"
+  },
+  {
+    "id": "Q56",
+    "category": "cost_efficiency",
+    "query": "单次查询的API调用失败率如何影响多智能体情报服务的实际部署成本？",
+    "intent": "failure rate cost impact"
+  },
+  {
+    "id": "Q57",
+    "category": "benchmark",
+    "query": "冻结语料库基准设计中，语料规模下限应如何根据查询复杂度来确定？",
+    "intent": "corpus size threshold"
+  },
+  {
+    "id": "Q58",
+    "category": "benchmark",
+    "query": "情报服务基准中的查询难度分级（easy/medium/hard）应基于哪些可操作标准？",
+    "intent": "difficulty stratification criteria"
+  },
+  {
+    "id": "Q59",
+    "category": "benchmark",
+    "query": "跨领域扩展基准时，如何保证各领域的语料密度与查询设计具有可比性？",
+    "intent": "cross-domain comparability"
+  },
+  {
+    "id": "Q60",
+    "category": "benchmark",
+    "query": "多智能体情报系统的可重现性应如何通过基准协议来保障？",
+    "intent": "reproducibility protocol"
+  }
+]

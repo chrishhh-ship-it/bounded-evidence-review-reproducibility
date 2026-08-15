@@ -1,0 +1,90 @@
+{
+  "baseline": "method1_pipeline",
+  "query": "多智能协同系统的 reviewer agent 对最终报告质量能带来哪些可观察改进？",
+  "effective_search_query": "多智能协同系统 reviewer agent 报告质量 改进",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "title:科技大数据知识图谱构建方法及应用研究综述|2020",
+    "title:agent technology and its applications in scientific research.|2025",
+    "doi:10.11946/cjstp.202506080612艾莉莎，",
+    "title:review of cybersecurity technology hotspots in 2024|2025",
+    "title:多智能体协作驱动的审计问题定性法规推荐系统.|2026",
+    "title:基于大模型的ai 通话分析智能体研究与实现|2025",
+    "title:基于agent 服务的chatgpt 处理多方对话任务|2025",
+    "doi:10.13421/j.cnki.hjwsxzz.2025.10.003刘婕，",
+    "title:生成式ai 如何重构中小企业创新体系? 算法参与式知识创造, 创新能力与智能决策的链式机制检验|2025",
+    "doi:10.11946/cjstp.202506080612ai",
+    "title:大语言模型gpt 在医疗文本中的应用综述.|2025",
+    "title:balanced and coordinated regional economic development in china: insights from heterogeneous agent new keynesian models|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Agent Technology and Its Applications in Scientific Research.",
+      "year": 2025,
+      "journal": "L QIAN, Q WANG, Y LIU, Y ZHANG… - Journal of Library & …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… 多智能体的协作模式包括合作,竞争和协同竞 争:①合作型系统根据各… 逻辑,再调用 NeurIPS 风格自动评审系统评分,结合人类反馈迭代 改进,可基于实验数据和文献生成 8 页左右的结构化 报告. …"
+    },
+    {
+      "title": "科技期刊数智化平台建设创新方案及实测效果探析——以《 北京邮电大学学报》 为例",
+      "year": 2025,
+      "journal": "艾莉莎， 孙宇彤， 靳海灵， 马逍悦， 钟羽， 李博识… - 中国科技期刊研究, 2025 - cjstp.cn",
+      "doi": "10.11946/cjstp.202506080612艾莉莎，",
+      "citations": 2,
+      "abstract": "… 系统基于实验操作轨迹与环境参数,自动生成 结构化的实验报告,… 构智能体协同决策模型:王付宇 等[12] 研究表示,稿件分析Agent… 分析结果,系统生成审校 质量柱状图,饼状图等,给出改进建议(如…"
+    },
+    {
+      "title": "Analysis of innovative solutions and empirical results in building digital intelligence platforms for scientific journals: Taking Journal of Beijing University of Posts and …",
+      "year": 2025,
+      "journal": "AI Lisha, SUN Yutong, JIN Hailing, MA Xiaoyue… - Chinese Journal of …, 2025 - cjstp.cn",
+      "doi": "10.11946/cjstp.202506080612AI",
+      "citations": 0,
+      "abstract": "… 系统基于实验操作轨迹与环境参数,自动生成 结构化的实验报告,… 构智能体协同决策模型:王付宇 等[12] 研究表示,稿件分析Agent… 分析结果,系统生成审校 质量柱状图,饼状图等,给出改进建议(如…"
+    },
+    {
+      "title": "多智能体协作驱动的审计问题定性法规推荐系统.",
+      "year": 2026,
+      "journal": "徐超， 刘子硕， 周立云， 朱浩然… - Journal of Frontiers of …, 2026 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 基于多智能体(multiagent)结构的法规推荐系统,针对审计报告台… 最终目标的高质量实 现;AutoGen[12]则 专注于多个智能体之间… 通过多智能体协同的任务分解机制,实现了问题特 征解耦与多级…"
+    },
+    {
+      "title": "大语言模型GPT 在医疗文本中的应用综述.",
+      "year": 2025,
+      "journal": "田崇腾， 刘静， 王晓燕， 李明 - Journal of Frontiers of …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 互 动,从用户反馈中不断改进自身的回答质量.在这种框 架下,… ,利用人类标注者的知识来 训练 智能Agent,以促进其快速收敛.与之… 同时,强化学习增强的CoT样本选择策略, 可以根据每个医疗报告…"
+    },
+    {
+      "title": "基于Agent 服务的ChatGPT 处理多方对话任务",
+      "year": 2025,
+      "journal": "万静 - Software Engineering and Applications, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… (Action),这些部分协同工作,使Agent能够完成复杂任务. Agent功能通常被设计为一个智能体,能够 自主… 因此,对提示设计进行进一步的优化和改进,不仅有可能释放LLMs更高的性能,还能充分释放…"
+    },
+    {
+      "title": "基于大模型的AI 通话分析智能体研究与实现",
+      "year": 2025,
+      "journal": "廖红虹， 赵文博， 黄莉梅， 许健君， 郭昊淞… - Computer Science and …, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… -powered voice call analysis agent based on compliant telecom … 它具备多智能体协同,长短时 记忆,知识检索与流程编排等能力,… ,客户画像及风险预警等多维度数据报告,助力企业管理层实现了…"
+    },
+    {
+      "title": "生成式AI 如何重构中小企业创新体系? 算法参与式知识创造, 创新能力与智能决策的链式机制检验",
+      "year": 2025,
+      "journal": "淦伟翔， 肖梦非， 张乃千， 岳秋荧， 宋小琳 - 2025 - researchgate.net",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… ,转向以人机协同为特征的… ,多模态整合与情境理解能力[3].这些能力使生成式AI 不再局 限于执行 预设任务,而开始表现出“类认知系统”的特征,被部分学者界定为 “知识行动体”(knowledge agent)[…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method1_outputs\\Q07_method1_20260410_212744.md"
+}

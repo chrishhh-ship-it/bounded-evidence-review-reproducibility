@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-07-30T03:22:22.072965",
+  "providers": {
+    "single": "deepseek",
+    "arl_analyst": "deepseek",
+    "arl_critic": "kimi",
+    "arl_adjudicator": "deepseek"
+  },
+  "models": {
+    "single": "deepseek-v4-pro",
+    "arl_analyst": "deepseek-v4-pro",
+    "arl_critic": "moonshot-v1-32k",
+    "arl_adjudicator": "deepseek-v4-pro"
+  },
+  "temperature": 0.0,
+  "max_tokens": 12000,
+  "gold_source": "C:\\Users\\10305\\Downloads\\title_match_verified_key_20260730.csv",
+  "adjudication_overrides": {
+    "TM077": "match",
+    "TM189": "nonmatch"
+  },
+  "n": 2,
+  "results": [
+    {
+      "pair_id": "TM001",
+      "status": "failed",
+      "error": "SSLError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))"
+    },
+    {
+      "pair_id": "TM002",
+      "status": "failed",
+      "error": "SSLError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))"
+    }
+  ]
+}

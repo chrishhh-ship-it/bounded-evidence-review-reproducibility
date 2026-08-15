@@ -1,0 +1,256 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q248",
+  "query": "How should a synthesis agent handle citations when the corpus contains studies that use 'climate change' and 'climate variability' interchangeably?",
+  "domain_id": "climate_policy_research",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q248_method1_exp_20260413_121138.json",
+  "same_query_evidence_ids": [
+    "doi:10.1505/146554822835941913",
+    "doi:10.1088/2752-5295/ac4da2",
+    "doi:10.20944/preprints202011.0072.v1",
+    "doi:10.1681/asn.0000000000000166",
+    "doi:10.1002/ecs2.3286",
+    "doi:10.48550/arxiv.2407.12826",
+    "doi:10.46609/ijsser.2025.v10i11.022",
+    "doi:10.1080/17565529.2021.1911775"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.1505/146554822835941913",
+    "doi:10.1088/2752-5295/ac4da2",
+    "doi:10.20944/preprints202011.0072.v1",
+    "doi:10.1681/asn.0000000000000166",
+    "doi:10.1002/ecs2.3286",
+    "doi:10.48550/arxiv.2407.12826",
+    "doi:10.46609/ijsser.2025.v10i11.022",
+    "doi:10.1080/17565529.2021.1911775"
+  ],
+  "top_papers": [
+    {
+      "title": "Adjustments in Indigenous Peoples' Forest Use and Management in the Context of Climate Change: A Global Systematic Literature Review",
+      "authors": [
+        "T. Bauer"
+      ],
+      "abstract": "HIGHLIGHTS Role of Indigenous peoples in forest use and management and climate change debates is increasingly recognized. MCA associated publications on adaptation strategies, mostly related to NTFPs, with reactive measures, driven by Indigenous peoples, integrating TEK and climate sensitivity. MCA associated publications on mitigation strategies, mostly REDD+ projects, with proactive and external measures, largely omitting information on the sensitivity of the studied Indigenous group and involvement of TEK. Acknowledgement of Indigenous peoples, forest dependence, and TEK stronger in NAPs than in NDCs. Mitigation projects could likely benefit from a more inclusive approach by integrating sensitivity analysis and context-specific TEK. SUMMARY The global diversity of forest use and management responses of forest-dependent Indigenous peoples to climate change remains poorly understood and lacks synthesis. Yet, such knowledge is essential for informed policy decisions and inclusive mitigation strategies. Through a systematic literature review, forest-dependent Indigenous peoples' responses to climate change and extreme weather events were analysed, including the prevalence of the strategies, their drivers, the role of sensitivity to climate change and the integration of traditional ecological knowledge (TEK) in forest use and management. Also, an assessment was made of how forest dependence and traditional knowledge are acknowledged in Nationally Determined Contributions (NDCs) and National Adaptation Plans (NAPs). The results show knowledge clusters around coping and adaptation, mitigation, and joint strategies in North and South America and Asia. Multiple Correspondence Analysis showed that articles documenting adaptation strategies were associated to a reactive response time, Indigenous peoples as drivers and the integration of TEK and information on their climate sensitivity. The diversity of applied strategies found, mostly related to non-timber forest products (NTFPs), comprised ecologically sustainable and unsustainable practices. Mitigation strategies, mostly REDD+ projects, which were significantly associated with proactive and external initiatives, largely omitted information on the sensitivity of the studied Indigenous group and the involvement of traditional knowledge. Joint strategies seem to be a good compromise of participatory efforts and were largely linked to integrating Indigenous peoples' traditional knowledge. Knowledge gaps include evidence of forest-related resilient livelihood strategies. Future research should focus on participatory and sustainable climate measures, the role of TEK and the drivers for the success of forest-related climate responses, as well as the potential effectiveness of joint adaptation-mitigation measures for forest-dependent Indigenous peoples on a global scale. La diversité de l'utilisation des forêts et des réponses de gestion au changement climatique par les peuples Indigènes dépendantes de la forêt demeure peu comprise à l'échelle globale et n'a pas connu de synthèse à ce jour. Or, une telle connaissance est nécessaire pour informer les décisions de politique et les stratégies d'atténuation proportionnelle. Les réponses des peuples Indigènes dépendant de la forêt au changement climatique et aux évènements climatiques extrêmes ont été analysées à l'aide d'une étude systématique de la littérature, en incluant la prévalence des stratégies, des agents de celles-ci, le rôle de la sensibilité au changement climatique et à l'intégration de la connaissance écologique traditionnelle (TEK) dans l'utilisation et la gestion de la forêt. Une évaluation du degré auquel la dépendance à la forêt et la connaissance traditionnelle ont été reconnues dans les Contributions déterminées nationalement (NDCs) et les Plans d'adaptation nationaux a été également dressée. Les résultats indiquent des regroupements autour de l'adaptation et de la lutte, de l'atténuation et des stratégies jointes en Amérique du nord et du sud, et en Asie. Une analyse de correspondances multiples montrait que les articles documentant les stratégies d'adaptation étaient associés à un temps de réponse réactive, aux motivations des peuples autochtones à l'intégration de la TEK et de l'information sur leur sensibilité de ceux-ci au climat. La diversité des stratégies appliquées relevées, liées pour la plupart aux produits forestier non ligneux (PFNL), comprenaient des pratiques soutenables écologiquement, mais également non-durables. Les stratégies d'atténuation, pour la plupart des projets de la REDD+, étaient associées majoritairement à des initiatives extérieures et proactives, et laissaient majoritairement de côté les informations sur la sensibilité des groupes indigènes étudiés et sur la part faite aux connaissances traditionnelles. Les stratégies jointes semblent former un compromis acceptable des efforts participatifs et sont largement liées à une intégration de la connaissance traditionnelle des peuples Indigènes. Les hiatus dans la connaissance incluent le manque de preuves quant aux stratégies pour obtenir des revenus durables liés à la forêt. La recherche future devrait se concentrer sur des mesures climatiques participatives et durables, le rôle de la TEK et les motivations conduisant au succès des réponses climatiques, ainsi que sur l'efficacité potentielle de mesures jointes d'adaptation/atténuation pour les peuples Indigènes dépendantes de la forêt à l'échelle globale. La diversidad global del uso de los bosques y las respuestas de gestión de los Pueblos Indígenas dependientes de los bosques al cambio climático sigue siendo poco conocida y carece de síntesis. Sin embargo, este conocimiento es esencial para tomar decisiones políticas informadas y estrategias de mitigación inclusivas. El estudio hizo una revisión bibliográfica sistemática para analizar las respuestas de los Pueblos Indígenas dependientes de los bosques al cambio climático y a los fenómenos meteorológicos extremos, que incluyó la prevalencia de las estrategias, sus impulsores, el papel de la sensibilidad al cambio climático y la integración de los conocimientos ecológicos tradicionales (CET) en el uso y la gestión de los bosques. Asimismo, evaluó cómo se reconocen la dependencia de los bosques y los conocimientos tradicionales en las Contribuciones Determinadas a Nivel Nacional (CDN) y los Planes Nacionales de Adaptación (PNA). Los resultados muestran grupos de conocimientos similares en torno a las estrategias de respuesta y adaptación, mitigación y conjuntas en América del Norte y del Sur y en Asia. Un Análisis de Correspondencias Múltiples mostró que los artículos que documentaban las estrategias de adaptación estaban asociados a un tiempo de respuesta reactivo, a los Pueblos Indígenas como impulsores y a la integración de los CET y la información sobre su sensibilidad climática. La diversidad de las estrategias aplicadas encontradas, en su mayoría relacionadas con los productos forestales no maderables (PFNM), incluyó prácticas ecológicamente sostenibles y no sostenibles. Las estrategias de mitigación, en su mayoría proyectos REDD+, que se asociaron significativamente con iniciativas proactivas y externas, omitieron en gran medida la información sobre la sensibilidad del grupo Indígena estudiado y la participación del conocimiento tradicional. Las estrategias conjuntas parecen ser un buen compromiso a los esfuerzos participativos y están vinculadas en gran medida a la integración de los conocimientos tradicionales de los Pueblos Indígenas. Entre las lagunas de conocimiento están la evidencia sobre estrategias de medios de vida resilientes relacionadas con los bosques. La investigación futura debería centrarse en las medidas climáticas participativas y sostenibles, en el papel de los CET y en los factores impulsores de éxito en las respuestas climáticas relacionadas con los bosques, así como en la eficacia potencial a escala mundial de las medidas conjuntas de adaptación y mitigación para los Pueblos Indígenas dependientes de los bosques.",
+      "year": "2022",
+      "published_date": "2022-09-01",
+      "journal": "International forestry review",
+      "url": "https://www.semanticscholar.org/paper/72c968b7146e9b6f4b1f1cedb3f5c6bcb4106d23",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "Semantic Scholar",
+      "doi": "10.1505/146554822835941913",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis survey"
+    },
+    {
+      "title": "Reported evidence of greenness co-benefits on health, climate change mitigation, and adaptation: a systematic review of the literature",
+      "authors": [
+        "Pelin Kınay",
+        "John S Ji"
+      ],
+      "abstract": "Abstract\n               This systematic review aims to appraise the quality of evidence on greenness co-benefits of climate change and health. Although there is evidence of the co-benefits of greenness on climate change and health, the research is of poor quality when it comes to addressing the connections and identifying mediators of greenness and climate change mitigation associations. The evaluation sought to identify areas where there was little or no evidence to guide future research. Current published studies mainly cover six health outcome categories (birth outcomes, physical activity, mental wellbeing, obesity, mortality, and cognitive function). For adaptation, greenness and climate change, associated studies included (a) cooling down effects and urban heat island impacts, (b) air quality improvement, and (c) flood mitigation. For each outcome, we performed a systematic search of publications on Web of Science, PubMed, Google Scholar, and Science Direct databases from 2000 to July 2021. After retrieving records in which full papers were assessed and non-English articles were excluded, a total of 173 articles, including research articles and reviews, were chosen. To ascertain the strength of the evidence, all interventions were assessed using the GRADE approach. The quality of evidence ranged from moderate to high for most categories of health outcomes (birth outcomes, mental wellbeing, mortality). GRADE assessment provided low-quality evidence for studies on air quality, flood mitigation, physical activity, and obesity due to poor study design (observational or limited data) and high heterogeneity (some data provided variability), and the review concluded that there is insufficient evidence on firm recommendations for public health interventions. Due to a huge amount of low-quality evidence and several areas of overlapping study, this evaluation recognized the co-benefits of greenness on climate change and health as an understudied field and hence as a research gap. The evidentiary foundation for greenness-climate change mitigation links was generally weak. Future research on climate change greenness co-benefit interventions should pay special attention to flood prevention, air quality interactions, and health effects including physical activity and obesity.",
+      "year": "2022",
+      "published_date": "2022-6-28",
+      "journal": "Environmental Research: Climate",
+      "url": "https://doi.org/10.1088/2752-5295/ac4da2",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 7,
+      "source": "CrossRef",
+      "doi": "10.1088/2752-5295/ac4da2",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm systematic review"
+    },
+    {
+      "title": "Mobility and Health in the Context of Climate Change: A Systematic Literature Review and Meta-Synthesis of Policy Recommendations",
+      "authors": [
+        "Patricia Nayna Schwerdtle",
+        "Julia Stockemer",
+        "Kathryn Bowen",
+        "Rainer Sauerborn",
+        "Celia McMichael",
+        "Ina Danquah"
+      ],
+      "abstract": "Changing mobility patterns combined with changes in the climate present challenges and opportunities for global health, requiring effective, relevant and humane policy responses. This systematic literature review sought to synthesize the existing policy recommendations related to the literature examining the intersection of climate change, migration and health to strengthen the evidence-base. Systematic searches were conducted in four academic databases (PubMed, Ovid Medline, Global Health and Scopus) and Google Scholar for empirical studies published between 1990 &amp;ndash; 2020 that used any study design to investigate migration and health in the context of climate change. Studies underwent a two-stage protocol-based screening process and eligible studies were appraised for quality using a standardized mixed-methods tool. From the initial 2,425 hits, 68 articles were appraised for quality and included in the synthesis. Among the policy recommendations, six themes were discernible: (1) avoid the universal promotion of migration as an adaptive response to climate risk; (2) preserve cultural and social ties of mobile populations; (3) enable the participation of migrants in decision-making in sites of relocation and resettlement; (4) strengthen health systems and reduce barriers for migrants to access health care; (5) support and promote optimization of social determinants of migrant health; (6) integrate health into loss and damage assessments related to climate change. The results call for transformative policies that support the health and wellbeing of people engaging in, or affected by mobility responses, including those whose migration decisions and experiences are influenced by climate change, and to establish and develop inclusive migrant healthcare.",
+      "year": "2020",
+      "published_date": "2020-11-02",
+      "journal": "Preprints.org",
+      "url": "https://doi.org/10.20944/preprints202011.0072.v1",
+      "arxiv_id": "",
+      "keywords": [
+        "Systematic review",
+        "Context (archaeology)",
+        "Health care",
+        "Climate change",
+        "Health policy",
+        "Health promotion",
+        "Political science",
+        "Scopus"
+      ],
+      "citations": 2,
+      "source": "OpenAlex",
+      "doi": "10.20944/preprints202011.0072.v1",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis"
+    },
+    {
+      "title": "Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature?",
+      "authors": [
+        "Qiao Jin",
+        "Robert Leaman",
+        "Zhiyong Lu"
+      ],
+      "abstract": "ChatGPT, a general purpose chatbot developed by OpenAI, has been widely reported to have the potential to revolutionize how people interact with information online.1 Like other large language models (LLMs), ChatGPT has been trained on a large text corpus to predict probable words from the surrounding context. ChatGPT, however, has received substantial popular attention for generating human-like conversational responses, and new developments are occurring rapidly. The initial release in November 2022 used the model generative pretrained transformers (GPT)-3.5, and a version based on GPT-4.0 was released in March 2023. Recent work has discussed applications of ChatGPT for medical education and clinical decision support.2–4 However, health care professionals should be aware of the drawbacks and limitations—and potential capabilities—of using ChatGPT and similar LLMs to interact with medical knowledge. A significant issue with ChatGPT is its tendency to generate confident-sounding but fabricated responses, commonly known as “hallucination.” Although it can generate plausible-sounding text, ChatGPT does not consult any source of truth.1 Occasional incorrect or biased responses are, therefore, inevitable, and ChatGPT cannot faithfully cite sources to allow their evidence to be verified. For example, we prompted GPT-3.5–based ChatGPT to list possible mechanisms of AKI in patients with coronavirus disease 2019 (COVID-19), with references. ChatGPT produced a list of plausible mechanisms, each of which has been investigated in the literature (Figure 1A) but supported its claims with fabricated titles and irrelevant PubMed identifiers. ChatGPT using the GPT-4 model acknowledges that it cannot produce references and refuses to cite articles in the answer (Figure 1C)—a significant improvement—but leaves the difficult task of verification to the user. Consulting ChatGPT directly for medical information carries a significant risk of drawing incorrect conclusions, particularly for patients.Figure 1.: Seeking information related to COVID-19 from ChatGPT. (A) ChatGPT-3.5 fabricates the references for its claims. (B) When prompted with the title and abstract of relevant articles, ChatGPT-3.5 can summarize the aspects requested, including some valid in-line references. However, many details are inaccurate: Related mechanisms are not correctly grouped, contradicting evidence is not mentioned, some citations are missing, and a listed mechanism is not specific. Note that the complete response mentioned only three of five articles. (C) ChatGPT-4 acknowledges its drawback and refuses to cite source articles in the response, which makes the verification more difficult. (D) ChatGPT-4 with the web browsing plug-in summarizes information from the search engine, but it only finds two relevant articles and fails to systematically answer the question. Responses were collected from GPT-3.5–based ChatGPT on March 14, 2023, and GPT-4–based ChatGPT on May 15, 2023.However, LLMs such as ChatGPT may be better suited for text summarization than directly answering medical questions. Pilot studies have shown that LLMs can be effective at clinical reasoning, reading comprehension, and generating fluent summaries with high fidelity.5–7 Augmenting LLMs such as ChatGPT with a traditional literature search engine may therefore help address hallucination and enable the system to provide the user with comprehensive high-level summaries. For example, the new Bing provides ChatGPT-like interactive agents to help users create effective queries, identify relevant results, and summarize their content. In addition, ChatGPT recently introduced a plug-in that allows the model to search the web when generating responses (currently in limited beta test). Incorporating such features into medical literature search has the potential to streamline gathering and synthesizing evidence from the literature, improving patient care. Unfortunately, summaries generated by current LLMs such as ChatGPT also contain inaccuracies,8 in addition to practical issues such as limitations on the length of input text. To illustrate these problems, we prompted ChatGPT (model 3.5) to identify possible mechanisms of AKI in patients with COVID-19, using five manually chosen articles on the pathophysiology of AKI in COVID-19. Although ChatGPT’s summary (Figure 1B) generally reflects the mechanisms of AKI discussed by the articles, the response lists symptoms from only three of the five input studies and misses some important mechanisms mentioned repeatedly, such as hypoxia. Moreover, some citations are missing, contradicting evidence is not mentioned, similar mechanisms are not correctly grouped, and one of the mechanisms listed is less specific than the source. We also prompted ChatGPT (model 4), with the web browsing plug-in, to answer the same question (Figure 1D). In this case, ChatGPT provides summaries with relevant citations. However, the response is based on only two articles, without synthesizing the evidence, and thus fails to answer the question systematically. Generally speaking, retrieval-augmented LLMs reduces users' control over sources, leading to results that may not align with the user's criteria for the best information (e.g., most up-to-date). Summaries generated by LLMs can miss important ideas discussed by the input sources or contain assertions unsupported by the input sources. Because imprecise or incomplete information can lead to incorrect clinical decisions and patient harm, content generated by current LLMs, including ChatGPT, must be verified for accuracy and completeness before use. Further research on the faithfulness of LLM-generated summaries and automatic verification tools is also warranted to realize the full potential of LLMs to streamline evidence gathering and synthesis from the medical literature. Despite these limitations, the remarkable progress in AI and the rapid advancements in LLMs may have profound implications for medicine, from assisting medical education,2 to accelerating literature screening for systematic reviews,7,9 and supporting physicians in various clinical settings as generalist medical AI,4 among other possibilities. In addition to augmenting LLMs with retrieval results from a search engine, LLMs can also be taught to use biomedical domain-specific tools, such as the Web APIs of specialized databases, to provide improved access to biomedical information.10 In summary, although ChatGPT is not currently suitable for use as a literature search engine on its own, we envision that the proposed retrieve, summarize, and verify paradigm could greatly benefit biomedical information seeking. This approach leverages the impressive capability of LLMs to generate high-level summaries while minimizing the risk of directly using false or fabricated information by combining LLMs and search engines. It is important to note that although LLM technology is progressing rapidly, it has not yet matured enough for clinical use. Therefore, users must retain full responsibility for verifying the accuracy and reliability of its output.",
+      "year": "2023",
+      "published_date": "2023-05-31",
+      "journal": "Journal of the American Society of Nephrology",
+      "url": "https://doi.org/10.1681/asn.0000000000000166",
+      "arxiv_id": "",
+      "keywords": [
+        "Affect (linguistics)",
+        "Medicine",
+        "Psychology",
+        "Intensive care medicine",
+        "Computer science",
+        "Communication"
+      ],
+      "citations": 67,
+      "source": "OpenAlex",
+      "doi": "10.1681/asn.0000000000000166",
+      "open_access": false,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "Impacts of climate change on multiple use management of Bureau of Land Management land in the Intermountain West, USA",
+      "authors": [
+        "Elaine M. Brice",
+        "Brett A. Miller",
+        "Hongchao Zhang",
+        "Kirsten Goldstein",
+        "Scott N. Zimmer",
+        "Guenchik Grosklos",
+        "Patrick Belmont",
+        "Courtney G. Flint",
+        "Jennifer E. Givens",
+        "Peter B. Adler",
+        "Mark W. Brunson",
+        "Jordan W. Smith"
+      ],
+      "abstract": "Abstract Although natural resource managers are concerned about climate change, many are unable to adequately incorporate climate change science into their adaptation strategies or management plans, and are not always aware of or do not always employ the most current scientific knowledge. One of the most prominent natural resource management agencies in the United States is the Bureau of Land Management (BLM), which is tasked with managing over 248 million acres (&gt;1 million km 2 ) of public lands for multiple, often conflicting, uses. Climate change will affect the sustainability of many of these land uses and could further increase conflicts between them. As such, the purpose of our study was to determine the extent to which climate change will affect public land uses, and whether the BLM is managing for such predicted effects. To do so, we first conducted a systematic review of peer‐reviewed literature that discussed potential impacts of climate change on the multiple land uses the BLM manages in the Intermountain West, USA, and then expanded these results with a synthesis of projected vegetation changes. Finally, we conducted a content analysis of BLM Resource Management Plans in order to determine how climate change is explicitly addressed by BLM managers, and whether such plans reflect changes predicted by the scientific literature. We found that active resource use generally threatens intrinsic values such as conservation and ecosystem services on BLM land, and climate change is expected to exacerbate these threats in numerous ways. Additionally, our synthesis of vegetation modeling suggests substantial changes in vegetation due to climate change. However, BLM plans rarely referred to climate change explicitly and did not reflect the results of the literature review or vegetation model synthesis. Our results suggest there is a disconnect between management of BLM lands and the best available science on climate change. We recommend that the BLM actively integrates such research into on‐the‐ground management plans and activities, and that researchers studying the effects of climate change make a more robust effort to understand the practices and policies of public land management in order to effectively communicate the management significance of their findings.",
+      "year": "2020",
+      "published_date": "2020-11-01",
+      "journal": "Ecosphere",
+      "url": "https://doi.org/10.1002/ecs2.3286",
+      "arxiv_id": "",
+      "keywords": [
+        "Climate change",
+        "Environmental resource management",
+        "Land management",
+        "Natural resource management",
+        "Sustainability",
+        "Natural resource",
+        "Land use",
+        "Vegetation (pathology)"
+      ],
+      "citations": 30,
+      "source": "OpenAlex",
+      "doi": "10.1002/ecs2.3286",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis systematic review"
+    },
+    {
+      "title": "Assessing the Effectiveness of GPT-4o in Climate Change Evidence Synthesis and Systematic Assessments: Preliminary Insights",
+      "authors": [
+        "E. Joe",
+        "S. Koneru",
+        "Christine J Kirchhoff"
+      ],
+      "abstract": "In this research short, we examine the potential of using GPT-4o, a state-of-the-art large language model (LLM) to undertake evidence synthesis and systematic assessment tasks. Traditional workflows for such tasks involve large groups of domain experts who manually review and synthesize vast amounts of literature. The exponential growth of scientific literature and recent advances in LLMs provide an opportunity to complementing these traditional workflows with new age tools. We assess the efficacy of GPT-4o to do these tasks on a sample from the dataset created by the Global Adaptation Mapping Initiative (GAMI) where we check the accuracy of climate change adaptation related feature extraction from the scientific literature across three levels of expertise. Our results indicate that while GPT-4o can achieve high accuracy in low-expertise tasks like geographic location identification, their performance in intermediate and high-expertise tasks, such as stakeholder identification and assessment of depth of the adaptation response, is less reliable. The findings motivate the need for designing assessment workflows that utilize the strengths of models like GPT-4o while also providing refinements to improve their performance on these tasks.",
+      "year": "2024",
+      "published_date": "2024-07-02",
+      "journal": "CLIMATENLP",
+      "url": "https://www.semanticscholar.org/paper/de1bef9d368ebd1951c52bb3e4b34a50e33f1c5c",
+      "arxiv_id": "2407.12826",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2407.12826",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm literature review"
+    },
+    {
+      "title": "Net-Zero Economy and Climate Change Mitigation: Quantitative synthesis of the research through a comprehensive Bibliometric and Network Analysis",
+      "authors": [
+        "D. Raja",
+        "Hima Keerthi Raparla",
+        "Neel Mohan Lal",
+        "Manvik Anumalisetty"
+      ],
+      "abstract": "A bibliometric network analysis of worldwide research production on net-zero and decarbonization was conducted from 2015 to 2025, using 1884 records from the Scopus database. After applying strict screening based on cross-disciplinary and eligibility criteria, 1,292 studies were included in the study for bibliometric analysis. Analysis tools used for visualizing publication trends, best authors, institutions, and journals include VOSviewer and Bibliometrix (R). After the 2015 Paris Agreement, the number of publications in the field of sustainability and climate economics increased by an average annual growth rate of 20.89%. Using keyword co-occurrence mapping, three generic topics were identified: climate policy/mitigation, economic growth and carbon emissions, and a shift to renewable energy. These generic themes describe an intersection of environmental policy, economic modelling, and technological viability. China now dominates this literature because its global leadership in climate research has grown. Overall, this study empirically maps the intellectual and structural evolution of net-zero research. Future scholars and policymakers are provided with potential new avenues for sustainable development research.",
+      "year": "2025",
+      "published_date": "",
+      "journal": "International journal of social science and economic research",
+      "url": "https://www.semanticscholar.org/paper/bdacc2bd8888f78f00a72acbee6cd0920a7955e7",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.46609/ijsser.2025.v10i11.022",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis"
+    },
+    {
+      "id": "wf_61ab67efa72356623bcd61e1d75de1eb",
+      "title": "Reshaping ties to land: a systematic review of the psychosocial and cultural impacts of Pacific climate-related mobility",
+      "abstract": "understandings of well-being. This <span class='highlight'>systematic</span> qualitative <span class='highlight'>review</span> synthesizes the <span class='highlight'>literature</span> on the psychosocial and cultural impacts of climate-related mobility in the Pacific and outlines the methods employed in   disruptive movements caused significant stress, suggesting that Pacific conceptualisations of well-being and land should be considered when developing <span class='highlight'>climate</span> <span class='highlight'>policy</span>. ABSTRACT Global inaction on <span class='highlight'>climate</span> change is leading many Pacific peoples towards a reality separated from their ancestral lands. Yet, discussions of climate-related mobility often sideline Pacific  Research Guidelines and the Critical Appraisal Skills Programme. We conducted a thematic <span class='highlight'>synthesis</span> of qualitative findings, recognizing social factors influencing acculturation and relationship to land as  this field. We identified 36 relevant empirical studies from online databases and citations covering 28 cases of climate-related mobility. Our approach assessed studies against the Pacific Health",
+      "authors": [
+        "Yates Olivia E. T.",
+        "Manuela Sam",
+        "Neef Andreas",
+        "Groot Shiloh"
+      ],
+      "year": 2022,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1080/17565529.2021.1911775",
+      "doi": "10.1080/17565529.2021.1911775",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "Climate change",
+        "migration",
+        "displacement",
+        "Pacific",
+        "well-being",
+        "psychology",
+        "culture",
+        "relocation"
+      ],
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis systematic review"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "54e0d455f90e599eb17d17c5f37299cd848a0bef7058107f3d7b0bc26a8fdfea",
+  "elapsed_seconds": 14.269,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q248_schema_single_agent_20260724_024915.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

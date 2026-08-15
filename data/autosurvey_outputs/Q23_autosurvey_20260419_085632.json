@@ -1,0 +1,180 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "没有 reviewer 的多智能体流水线与带对抗审稿循环的流水线差异在哪里？",
+  "effective_search_query": "multi-agent pipeline without reviewer vs adversarial review loop pipeline differences",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "title:multi-agent systems for clinical decision support: a systematic review|2025",
+    "title:architectural review on multi agent knowledge management|2018",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.1109/access.2019.2902846",
+    "title:prorl agent: rollout-as-a-service for rl training of multi-turn llm agents|2026",
+    "doi:10.1145/3058592h",
+    "title:agentigraph: a multi-agent knowledge graph framework for interactive, domain-specific llm chatbots|2025",
+    "title:p1gpt: a multi-agent llm workflow module for multi-modal financial information analysis|2025",
+    "doi:10.1002/rnc.7128",
+    "doi:10.3390/jmmp4030089",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.1109/mwc.016.2300600",
+    "title:a multi-agent digital twin–enabled decision support system for sustainable and resilient supplier management|2024",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/twc.2023.3235997"
+  ],
+  "top_papers": [
+    {
+      "title": "Multi-agent systems for clinical decision support: A systematic review",
+      "year": 2025,
+      "journal": "AL Silveira, R da Rosa Righi, CA Da Costa - Applied Soft Computing, 2025 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… Multi-agent reinforcement learning (MARL), ontology-based medical knowledge … (LLMs) are increasingly applied in clinical decision support systems (CDSSs). Despite rapid advances, …"
+    },
+    {
+      "title": "Architectural review on Multi Agent Knowledge Management",
+      "year": "2018",
+      "journal": "OpenAlex",
+      "source": "OpenAlex",
+      "doi": "",
+      "citations": 6,
+      "abstract": "ABSTRACT: The importance of knowledge management is growing day by day. In current environment, handling and managing of fast growing knowledge is very difficult which results in consuming more time for knowledge serving and therefore degrading the overall productivity. Therefore decision of choosing Multi-Agent system for implementing enterprise Knowledge Management (KM) results in reducing the time overhead for serving the relevant knowledge to the end-user by automatic communication between the agents. The main aim of this paper is to propose knowledge management system architecture for multi agents that will be helpful in disseminating knowledge to public sector organizations in a better way and thus enhancing the productivity. The knowledge management system architecture described in "
+    },
+    {
+      "title": "Dynamic UAV Deployment for Differentiated Services: A Multi-Agent Imitation Learning Based Approach",
+      "year": "2021",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "source": "OpenAlex",
+      "doi": "10.1109/tmc.2021.3116236",
+      "citations": 117,
+      "abstract": "Unmanned Aerial Vehicles (UAVs) have been utilized to serve on-ground users with various services, e.g., computing, communication and caching, due to their mobility and flexibility. The main focus of many recent studies on UAVs is to deploy a set of homogeneous UAVs with identical capabilities controlled by one UAV owner/company to provide services. However, little attention has been paid to the issue of how to enable different UAV owners to provide services with differentiated service capabilities in a shared area. To address this issue, we propose a multi-agent imitation learning enabled UAV deployment approach to maximize both profits of UAV owners and utilities of on-ground users. Specially, a Markov game is formulated among UAV owners and we prove that a Nash equilibrium exists based "
+    },
+    {
+      "title": "Multi-Objective Workflow Scheduling With Deep-Q-Network-Based Multi-Agent Reinforcement Learning",
+      "year": "2019",
+      "journal": "IEEE Access",
+      "source": "OpenAlex",
+      "doi": "10.1109/access.2019.2902846",
+      "citations": 281,
+      "abstract": "Cloud Computing provides an effective platform for executing large-scale and complex workflow applications with a pay-as-you-go model. Nevertheless, various challenges, especially its optimal scheduling for multiple conflicting objectives, are yet to be addressed properly. The existing multi-objective workflow scheduling approaches are still limited in many ways, e.g., encoding is restricted by prior experts’ knowledge when handling a dynamic real-time problem, which strongly influences the performance of scheduling. In this paper, we apply a deep-Q-network model in a multi-agent reinforcement learning setting to guide the scheduling of multi-workflows over infrastructure-as-a-service clouds. To optimize multi-workflow completion time and user’s cost, we consider a Markov game model, which"
+    },
+    {
+      "title": "ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Multi-turn LLM agents are increasingly important for solving complex, interactive tasks, and reinforcement learning (RL) is a key ingredient for improving their long-horizon behavior. However, RL training requires generating large numbers of sandboxed rollout trajectories, and existing infrastructures often couple rollout orchestration with the training loop, making systems hard to migrate and maintain. Under the rollout-as-a-service philosophy, we present ProRL Agent , a scalable infrastructure that serves the full agentic rollout lifecycle through an API service. ProRL Agent also provides standardized and extensible sandbox environments that support diverse agentic tasks in rootless HPC settings. We validate ProRL Agent through RL training on software engineering, math, STEM, and coding "
+    },
+    {
+      "title": "Integrating reinforcement learning with multi-agent techniques for adaptive service composition",
+      "year": 2017,
+      "journal": "H Wang, X Chen, Q Wu, Q Yu, X Hu, Z Zheng… - ACM Transactions on …, 2017 - dl.acm.org",
+      "source": "Google Scholar",
+      "doi": "10.1145/3058592H",
+      "citations": 81,
+      "abstract": "… composition can optimize the system by dynamically choosing the best service without the complete knowledge about the environment. While the combination of agent technology and …"
+    },
+    {
+      "title": "AGENTiGraph: A Multi-Agent Knowledge Graph Framework for Interactive, Domain-Specific LLM Chatbots",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "AGENTiGraph is a user-friendly, agent-driven system that enables intuitive interaction and management of domain-specific data through the manipulation of knowledge graphs in natural language. It gives non-technical users a complete, visual solution to incrementally build and refine their knowledge bases, allowing multi-round dialogues and dynamic updates without specialized query languages. The flexible design of AGENTiGraph, including intent classification, task planning, and automatic knowledge integration, ensures seamless reasoning between diverse tasks. Evaluated on a 3,500-query benchmark within an educational scenario, the system outperforms strong zero-shot baselines (achieving 95.12% classification accuracy, 90.45% execution success), indicating potential scalability to compliance"
+    },
+    {
+      "title": "P1GPT: a multi-agent LLM workflow module for multi-modal financial information analysis",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Recent advances in large language models (LLMs) have enabled multi-agent reasoning systems capable of collaborative decision-making. However, in financial analysis, most frameworks remain narrowly focused on either isolated single-agent predictors or loosely connected analyst ensembles, and they lack a coherent reasoning workflow that unifies diverse data modalities. We introduce P1GPT, a layered multi-agent LLM framework for multi-modal financial information analysis and interpretable trading decision support. Unlike prior systems that emulate trading teams through role simulation, P1GPT implements a structured reasoning pipeline that systematically fuses technical, fundamental, and news-based insights through coordinated agent communication and integration-time synthesis. Backtesting on "
+    },
+    {
+      "title": "Bipartite containment of heterogeneous multi‐agent systems under denial‐of‐service attacks: A historical information‐based control scheme",
+      "year": "2023",
+      "journal": "International Journal of Robust and Nonlinear Control",
+      "source": "OpenAlex",
+      "doi": "10.1002/rnc.7128",
+      "citations": 10,
+      "abstract": "Abstract A distributed control scheme based on historical information is designed to solve the problem of stable control of multi‐agent systems under denial of service (DoS) attacks in this article. It achieves the control objective of bipartite output containment control, that is, the output states of the followers smoothly enter the target area. The control scheme updates the states of followers through historical information in the control protocol when agents are subjected to DoS attacks. A distributed state observer with a storage module is designed to efficiently estimate the state of followers and store the observed information as history information. The historical information of control protocol calls is not necessarily the real state information in the existence of DoS attacks. C"
+    },
+    {
+      "title": "Simulation of Smart Factory Processes Applying Multi-Agent-Systems—A Knowledge Management Perspective",
+      "year": "2020",
+      "journal": "Journal of Manufacturing and Materials Processing",
+      "source": "OpenAlex",
+      "doi": "10.3390/jmmp4030089",
+      "citations": 20,
+      "abstract": "The implementation of Industry 4.0 and smart factory concepts changes the ways of manufacturing and production and requires the combination and interaction of different technologies and systems. The need for rapid implementation is steadily increasing as customers demand individualized products which are only possible if the production unit is smart and flexible. However, an existing factory cannot be transformed easily into a smart factory, especially not during operational mode. Therefore, designers and engineers require solutions which help to simulate the aspired change beforehand, thus running realistic pre-tests without disturbing operations and production. New product lines may also be tested beforehand. Data and the deduced knowledge are key factors of the said transformation. One "
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "A multi-agent digital twin–enabled decision support system for sustainable and resilient supplier management",
+      "year": 2024,
+      "journal": "YL Li, YP Tsang, CH Wu, CKM Lee - Computers & industrial engineering, 2024 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 61,
+      "abstract": "… decision-making under uncertainty. This paper introduces a digitally enabled decision support … The system leverages stratified fuzzy decision-making techniques to account for the …"
+    },
+    {
+      "title": "Joint Secure Offloading and Resource Allocation for Vehicular Edge Computing Network: A Multi-Agent Deep Reinforcement Learning Approach",
+      "year": "2023",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2023.3242997",
+      "citations": 212,
+      "abstract": "The mobile edge computing (MEC) technology can simultaneously provide high-speed computing services for multiple vehicular users (VUs) in vehicular edge computing (VEC) networks. Nevertheless, due to the open feature of the wireless offloading channels and the high mobility of the vehicles, the security and stability of the offloading process would be seriously degraded. In this paper, by utilizing the physical layer security (PLS) technique and spectrum sharing architecture, we propose a deep reinforcement learning based joint secure offloading and resource allocation (SORA) scheme to improve the secrecy performance and resource efficiency of the multi-user VEC networks, where the VU offloading links share the frequency spectrum preoccupied with the vehicle-to-vehicle (V2V) communication "
+    },
+    {
+      "title": "Energy Efficient Computation Offloading in Aerial Edge Networks With Multi-Agent Cooperation",
+      "year": "2023",
+      "journal": "IEEE Transactions on Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/twc.2023.3235997",
+      "citations": 153,
+      "abstract": "With the high flexibility of supporting resource-intensive and time-sensitive applications, unmanned aerial vehicle (UAV)-assisted mobile edge computing (MEC) is proposed as an innovational paradigm to support the mobile users (MUs). As a promising technology, digital twin (DT) is capable of timely mapping the physical entities to virtual models, and reflecting the MEC network state in real-time. In this paper, we first propose an MEC network with multiple movable UAVs and one DT-empowered ground base station to enhance the MEC service for MUs. Considering the limited energy resource of both MUs and UAVs, we formulate an online problem of resource scheduling to minimize the weighted energy consumption of them. To tackle the difficulty of the combinational problem, we formulate it as a Mark"
+    }
+  ],
+  "outline": "# A Comparative Survey of Multi-Agent Pipelines: Architectures Without Reviewers Versus Adversarial Review Cycles\n\n## 1. Introduction and Foundational Concepts\n*This section introduces the core problem of comparing multi-agent pipelines, defines key terms such as \"reviewer-free\" pipelines, \"adversarial-reviewer cycles,\" and core pipeline components (e.g., planning, retrieval, execution agents). It establishes the survey's scope, comparative framework, and relevance to broader multi-agent system architectures and application domains like smart cities, communications, and knowledge management.*\n\n### 1.1 Defining Multi-Agent Pipelines and Core Components\n*This subsection establishes foundational definitions, introducing the concept of a multi-agent pipeline as a structured sequence of specialized agents (e.g., planning, retrieval, execution) collaborating to complete complex tasks. It clarifies core terminology and architectural components common to both paradigms under comparison.*\n\n### 1.2 The Reviewer-Free and Adversarial-Review Pipeline Paradigms\n*This subsection formally defines and contrasts the two central pipeline architectures: \"reviewer-free\" pipelines that execute tasks through direct agent coordination without explicit critique loops, and pipelines with \"adversarial-review cycles\" that incorporate dedicated reviewer agents for iterative output refinement and robustness enhancement.*\n\n### 1.3 Scope, Framework, and Motivations for Comparison\n*This subsection outlines the survey's comparative framework, specifying the key dimensions (e.g., performance, robustness, adaptability) for analysis. It motivates the comparison by highlighting its relevance to critical application domains such as smart manufacturing, secure communications, and knowledge management, as illustrated by the candidate papers.*\n\n## 2. Architectures and Methodologies for Reviewer-Free Pipelines\n*This section analyzes the design, coordination mechanisms, and learning approaches (e.g., multi-agent reinforcement learning, imitation learning) in pipelines that operate without explicit critique or review loops. It reviews their application in areas such as collaborative decision-support, workflow scheduling, UAV deployment, and supplier selection, focusing on integrated evaluation and direct task execution.*\n\n### 2.1 Design Principles and Coordination Mechanisms\n*Examines the foundational architectures of reviewer-free pipelines, focusing on how agents are organized (e.g., hierarchical, decentralized) and the coordination protocols (e.g., consensus, market-based mechanisms) that enable direct task execution without explicit critique loops, as seen in UAV deployment and workflow scheduling systems.*\n\n### 2.2 Learning and Optimization Methodologies\n*Reviews the core learning approaches, such as multi-agent reinforcement learning (MARL) and imitation learning, used to train agents in these pipelines. It analyzes how these methods handle integrated evaluation and optimization of objectives like profit, energy efficiency, and security without adversarial review cycles.*\n\n### 2.3 Application Domains and Integrated Evaluation\n*Surveys key application areas, including UAV deployment, cloud workflow scheduling, vehicular edge computing, and supplier selection, highlighting how reviewer-free pipelines perform direct task execution and integrated multi-objective evaluation in these dynamic, real-world environments.*\n\n### 2.4 Infrastructure and Scalability Considerations\n*Discusses the supporting infrastructures and scalability challenges for reviewer-free pipelines, covering topics like rollout-as-a-service platforms for RL training and knowledge graph frameworks that enable efficient, large-scale agent coordination and execution without iterative review.*\n\n## 3. Integration and Impact of Adversarial Review Cycles\n*This section examines how adversarial or critique-based feedback loops are implemented within agent pipelines, analyzing the role of explicit reviewer agents in refining outputs, enhancing robustness, security, and adaptation. It explores connections to emerging training infrastructures and uses examples from domains like 6G systems and secure offloading to illustrate their impact.*\n\n### 3.1 Architectures and Mechanisms for Adversarial Review Cycles\n*This subsection details the structural implementation of adversarial or critique-based feedback loops within multi-agent pipelines. It examines the design of explicit reviewer agents, their interaction protocols with primary task agents (e.g., planners, executors), and the mechanisms for iterative refinement, such as closed-loop feedback compensators and iterative critique-generation.*\n\n### 3.2 Enhancing Robustness, Security, and Adaptation\n*This subsection analyzes the functional impact of adversarial review cycles, focusing on how they improve system robustness against disturbances (e.g., DoS attacks), enhance security in sensitive operations (e.g., secure offloading), and enable adaptive responses in dynamic environments (e.g., 6G networks, edge computing), as evidenced by the candidate papers.*\n\n### 3.3 Integration with Emerging Training and Infrastructure Paradigms\n*This subsection explores the synergy between adversarial review pipelines and modern training infrastructures, such as rollout-as-a-service platforms and digital twin environments. It discusses how these infrastructures support the scalable training and deployment of complex, review-driven agent systems for long-horizon tasks.*\n\n## 4. Comparative Analysis, Applications, and Challenges\n*This section synthesizes the key differences between the two paradigms in terms of performance, efficiency, robustness, scalability, stability, and suitability for various application domains. It discusses current limitations and common challenges, such as scalability and knowledge integration.*\n\n### 4.1 Comparative Performance and Robustness Across Domains\n*This subsection synthesizes key differences in performance metrics (e.g., task success rate, secrecy rate) and robustness (e.g., to adversarial conditions or incomplete information) between reviewer-free and adversarial-review pipelines, drawing on applications like secure offloading, UAV deployment, and workflow scheduling.*\n\n### 4.2 Efficiency, Scalability, and Stability Trade-offs\n*This subsection analyzes the trade-offs in computational efficiency, system scalability, and learning stability between the two paradigms, discussing how integrated execution in reviewer-free systems compares to the iterative refinement loops of adversarial-review cycles.*\n\n### 4.3 Application-Specific Suitability and Current Limitations\n*This subsection evaluates the suitability of each pipeline architecture for different domains (e.g., 6G communications, knowledge management, edge computing) and outlines common limitations, such as challenges in knowledge integration, dependency on training data, and handling dynamic, multi-objective tasks.*\n\n## 5. Future Research Directions\n*This section outlines future research trends, including the role of Large Language Models (LLMs), scalable training infrastructures, the integration of digital twins, and advanced reinforcement learning techniques to address existing challenges and advance both pipeline paradigms.*\n\n### 5.1 The Role of LLMs and Advanced Agent Architectures\n*This subsection explores future research on leveraging Large Language Models (LLMs) to enhance both reviewer-free and adversarial-review pipelines, focusing on improving agent reasoning, planning, and multi-modal data fusion. It examines trends in creating structured, multi-agent LLM workflows for complex domains like finance and communications, and the development of specialized agents for retrieval, evaluation, and synthesis to address current limitations in logical reasoning and knowledge integration.*\n\n### 5.2 Scalable Training Infrastructures and Simulation Platforms\n*This subsection discusses emerging infrastructures and platforms, such as rollout-as-a-service, designed to support the efficient training and evaluation of multi-agent pipelines. It covers research directions in creating standardized, extensible sandbox environments for reinforcement learning, enabling scalable simulation of complex, long-horizon tasks while decoupling orchestration from training loops to improve system maintainability and migration.*\n\n### 5.3 Integration of Digital Twins and Real-Time Adaptation\n*This subsection outlines research on integrating digital twin technology with multi-agent pipelines to enable real-time modeling, simulation, and optimization of physical systems. It focuses on future work using digital twins for dynamic resource allocation, secure offloading, and network management in domains like edge computing and 6G, enhancing pipeline adaptability, security, and decision-making under uncertainty.*\n\n### 5.4 Advanced Multi-Agent Reinforcement Learning Techniques\n*This subsection examines future advancements in multi-agent reinforcement learning (MARL) algorithms, such as deep Q-networks and multi-objective optimization, to address challenges in coordination, stability, and scalability within both pipeline paradigms. It highlights research directions for handling dynamic, high-dimensional state spaces and conflicting objectives in applications like workflow scheduling and secure vehicular networks.*",
+  "cited_ids": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    12,
+    14,
+    15
+  ],
+  "elapsed_seconds": 414.606,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q23_autosurvey_20260419_085632.md"
+}

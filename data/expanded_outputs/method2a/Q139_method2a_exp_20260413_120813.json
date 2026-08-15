@@ -1,0 +1,239 @@
+{
+  "query_id": "Q139",
+  "query": "What minimum human evaluation sample size is needed to calibrate automatic metrics for a DH literature synthesis system?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "A framework for human evaluation of large language models in healthcare derived from literature review",
+      "authors": [
+        "Thomas Yu Chow Tam",
+        "Sonish Sivarajkumar",
+        "S. Kapoor",
+        "Alisa V. Stolyar",
+        "Katelyn Polanska",
+        "Karleigh R. McCarthy",
+        "Hunter Osterhoudt",
+        "Xizhi Wu",
+        "Shyam Visweswaran",
+        "S. Fu",
+        "Piyush Mathur",
+        "Giovanni E. Cacciamani",
+        "Cong Sun",
+        "Yifan Peng",
+        "Yanshan Wang"
+      ],
+      "abstract": "With generative artificial intelligence (GenAI), particularly large language models (LLMs), continuing to make inroads in healthcare, assessing LLMs with human evaluations is essential to assuring safety and effectiveness. This study reviews existing literature on human evaluation methodologies for LLMs in healthcare across various medical specialties and addresses factors such as evaluation dimensions, sample types and sizes, selection, and recruitment of evaluators, frameworks and metrics, evaluation process, and statistical analysis type. Our literature review of 142 studies shows gaps in reliability, generalizability, and applicability of current human evaluation practices. To overcome such significant obstacles to healthcare LLM developments and deployments, we propose QUEST, a comprehensive and practical framework for human evaluation of LLMs covering three phases of workflow: Planning, Implementation and Adjudication, and Scoring and Review. QUEST is designed with five proposed evaluation principles: Quality of Information, Understanding and Reasoning, Expression Style and Persona, Safety and Harm, and Trust and Confidence.",
+      "year": "2024",
+      "published_date": "2024-05-04",
+      "journal": "npj Digital Medicine",
+      "url": "https://www.semanticscholar.org/paper/a8d23d47b617f345a8fb3587d23edd83fcb53c55",
+      "arxiv_id": "2405.02559",
+      "keywords": [
+        "Computer Science",
+        "Medicine"
+      ],
+      "citations": 227,
+      "source": "Semantic Scholar",
+      "doi": "10.1038/s41746-024-01258-7",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models literature review"
+    },
+    {
+      "title": "What is a heat wave: A survey and literature synthesis of heat wave definitions across the United States",
+      "authors": [
+        "Erin L. Bunting",
+        "Vasily Tolmanov",
+        "David Keellings"
+      ],
+      "abstract": "Heat waves are the last extreme weather events without a formal, on the books, definition. Instead, across the U.S. those working on extreme heat event management, forecasting, and planning are using differing definitions in their work. With such differing definitions being used there are widespread impacts including some to human and environmental health, natural resource management, and long-term emergency management planning. For instance, when should heat advisories for vulnerable populations be released when an event impacts a region using multiple definitions? There are concrete and justifiable reasons for the lack of a formal heat wave definition including, at its simplest, differences in what temperature is extreme enough, compared to the region’s climatological regimens, to be deemed as an extreme heat event or heat wave. This study looks for patterns and commonalities in emergency managers and climatologists, those most commonly addressing or planning for such events, definition of heat wave events through a review of the literature and widespread survey across the United States. Through a short 11-questions survey and subsequent text mining, we find widespread variability in the common heat wave definitions but a consistent pattern of core key term usage including aspects of heat duration, extreme temperature, and humidity. However, we also see little to no usage of non-climatological variables such as exposure, vulnerability, population, and land cover/land use.",
+      "year": "2024",
+      "published_date": "2024-09-05",
+      "journal": "PLOS Climate",
+      "url": "https://www.semanticscholar.org/paper/85c15024dc344146362050e52e766177ec168078",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 9,
+      "source": "Semantic Scholar",
+      "doi": "10.1371/journal.pclm.0000468",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis survey"
+    },
+    {
+      "title": "A Research Protocol for a Systematic Review of Automatic Literature Screening in Medical Evidence Synthesis",
+      "authors": [
+        "Yuelun Zhang",
+        "Siyu Liang",
+        "Yunying Feng",
+        "Qing Wang",
+        "Feng Sun",
+        "Shi Chen",
+        "Yiying Yang",
+        "Xin He",
+        "Huijuan Zhu",
+        "Hui Pan"
+      ],
+      "abstract": "Abstract\n        Background: Systematic review is an indispensable tool for optimal evidence collection and evaluation in evidence-based medicine. However, the explosive increase of the original literatures makes it difficult to accomplish critical appraisal and regular update. Artificial intelligence (AI) algorithms have been applied to automate the literature screening procedure in medical systematic reviews. In these studies, different algorithms were used and results with great variance were reported. It is therefore imperative to systematically review and analyse the developed automatic methods for literature screening and their effectiveness reported in current studies.Methods: An electronic search will be conducted using PubMed, Embase and IEEE Xplore Digital Library databases, as well as literatures found through supplementary search in Google scholar, on automatic methods for literature screening in systematic reviews. Two reviewers will independently conduct the primary screening of the articles and data extraction, in which nonconformities will be solved by discussion with a methodologist. Data will be extracted from eligible studies, including the basic characteristics of study, the information of training set and validation set, the function and performance of AI algorithms, and summarised in a table. The risk of bias and applicability of the eligible studies will be assessed by the two reviewers independently based on Quality Assessment of Diagnostic Accuracy Studies (QUADAS-2). Quantitative analyses, if appropriate, will also be performed.Discussion: Automating systematic review process is of great help in reducing workload in evidence-based practice. Results from this systematic review will provide essential summary of the current development of AI algorithms for automatic literature screening in medical evidence synthesis, and help to inspire further studies in this field. Registration: PROSPERO registration number CRD42020170815 (28 April 2020).",
+      "year": "2020",
+      "published_date": "2020-8-25",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-62316/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-62316/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Development and evaluation of an automatic text annotation system for supporting digital humanities research",
+      "authors": [
+        "Chih-Ming Chen",
+        "Yung-Ting Chen",
+        "Chen-Yu Liu"
+      ],
+      "abstract": "\nPurpose\nAn automatic text annotation system (ATAS) that can collect resources from different databases through Linked Data (LD) for automatically annotating ancient texts was developed in this study to support digital humanities research. It allows the humanists referring to resources from diverse databases when interpreting ancient texts as well as provides a friendly text annotation reader for humanists interpreting ancient text through reading. The paper aims to discuss whether the ATAS is helpful to support digital humanities research or not.\n\n\nDesign/methodology/approach\nBased on the quasi-experimental design, the ATAS developed in this study and MARKUS semi-ATAS were compared whether the significant differences in the reading effectiveness and technology acceptance for supporting humanists interpreting ancient text of the Ming dynasty’s collections existed or not. Additionally, lag sequential analysis was also used to analyze users’ operation behaviors on the ATAS. A semi-structured in-depth interview was also applied to understand users’ opinions and perception of using the ATAS to interpret ancient texts through reading.\n\n\nFindings\nThe experimental results reveal that the ATAS has higher reading effectiveness than MARKUS semi-ATAS, but not reaching the statistically significant difference. The technology acceptance of the ATAS is significantly higher than that of MARKUS semi-ATAS. Particularly, the function comparison of the two systems shows that the ATAS presents more perceived ease of use on the functions of term search, connection to source websites and adding annotation than MARKUS semi-ATAS. Furthermore, the reading interface of ATAS is simple and understandable and is more suitable for reading than MARKUS semi-ATAS. Among all the considered LD sources, Moedict, which is an online Chinese dictionary, was confirmed as the most helpful one.\n\n\nResearch limitations/implications\nThis study adopted Jieba Chinese parser to perform the word segmentation process based on a parser lexicon for the Chinese ancient texts of the Ming dynasty’s collections. The accuracy of word segmentation to a lexicon-based Chinese parser is limited due to ignoring the grammar and semantics of ancient texts. Moreover, the original parser lexicon used in Jieba Chinese parser only contains the modern words. This will reduce the accuracy of word segmentation for Chinese ancient texts. The two limitations that affect Jieba Chinese parser to correctly perform the word segmentation process for Chinese ancient texts will significantly affect the effectiveness of using ATAS to support digital humanities research. This study thus proposed a practicable scheme by adding new terms into the parser lexicon based on humanists’ self-judgment to improve the accuracy of word segmentation of Jieba Chinese parser.\n\n\nPractical implications\nAlthough some digital humanities platforms have been successfully developed to support digital humanities research for humanists, most of them have still not provided a friendly digital reading environment to support humanists on interpreting texts. For this reason, this study developed an ATAS that can automatically retrieve LD sources from different databases on the Internet to supply rich annotation information on reading texts to help humanists interpret texts. This study brings digital humanities research to a new ground.\n\n\nOriginality/value\nThis study proposed a novel ATAS that can automatically annotate useful information on an ancient text to increase the readability of the ancient text based on LD sources from different databases, thus helping humanists obtain a deeper and broader understanding in the ancient text. Currently, there is no this kind of tool developed for humanists to support digital humanities research.\n",
+      "year": "2019",
+      "published_date": "2019-09-16",
+      "journal": "Library hi tech",
+      "url": "https://www.semanticscholar.org/paper/b95989deca9ce4043f34a024c59082bc0c68fcac",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 13,
+      "source": "Semantic Scholar",
+      "doi": "10.1108/LHT-10-2017-0219",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    },
+    {
+      "title": "ChatPLUG: Open-Domain Generative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human",
+      "authors": [
+        "Junfeng Tian",
+        "Hehong Chen",
+        "Guohai Xu",
+        "Ming Yan",
+        "Xing Gao",
+        "Jianhai Zhang",
+        "Chenliang Li",
+        "Jiayi Liu",
+        "Wenshen Xu",
+        "Haiyang Xu",
+        "Qi Qian",
+        "Wei Wang",
+        "Qinghao Ye",
+        "Jiejing Zhang",
+        "Ji Zhang",
+        "Fei Huang",
+        "Jingren Zhou"
+      ],
+      "abstract": "In this paper, we present ChatPLUG, a Chinese open-domain dialogue system for digital human applications that instruction finetunes on a wide range of dialogue tasks in a unified internet-augmented format. Different from other open-domain dialogue models that focus on large-scale pre-training and scaling up model size or dialogue corpus, we aim to build a powerful and practical dialogue system for digital human with diverse skills and good multi-task generalization by internet-augmented instruction tuning. To this end, we first conduct large-scale pre-training on both common document corpus and dialogue data with curriculum learning, so as to inject various world knowledge and dialogue abilities into ChatPLUG. Then, we collect a wide range of dialogue tasks spanning diverse features of knowledge, personality, multi-turn memory, and empathy, on which we further instruction tune \\modelname via unified natural language instruction templates. External knowledge from an internet search is also used during instruction finetuning for alleviating the problem of knowledge hallucinations. We show that \\modelname outperforms state-of-the-art Chinese dialogue systems on both automatic and human evaluation, and demonstrates strong multi-task generalization on a variety of text understanding and generation tasks. In addition, we deploy \\modelname to real-world applications such as Smart Speaker and Instant Message applications with fast inference. Our models and code will be made publicly available on ModelScope: https://modelscope.cn/models/damo/ChatPLUG-3.7B and Github: https://github.com/X-PLUG/ChatPLUG .",
+      "year": "2023",
+      "published_date": "2023-04-16",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2304.07849v3",
+      "arxiv_id": "2304.07849v3",
+      "keywords": [
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models full text retrieval"
+    },
+    {
+      "title": "Just energy business needed! How to achieve a just energy transition by engaging energy companies in reaching climate neutrality: (re)conceptualising energy law for energy corporations",
+      "authors": [
+        "Maciej M. Sokołowski",
+        "Madeline Taylor"
+      ],
+      "abstract": "AbstractPublic administration and energy regulators provide policy and economic support to achieve climate neutrality; however, the role of key stakeholders in energy transition, such as energy companies, is critical to a just energy transition. Corporate voluntary incentives to guide, support and pressure companies to disclose their climate-related risks are becoming commonplace internationally. Yet, formal legal frameworks to engage energy companies in reaching net zero emissions have largely been confined to financial risk disclosure and voluntary regulation. In this context, the article offers a normative solution that enables the effective implementation of obligations imposed on energy companies related to the 2050 energy transformation, addressing the concept of 'energy-just companies'. It also proposes the management of this process by illustrating a different, proactive approach to the role of effective obligations in the transformation process based on a novel understanding of energy law principles. These legal solutions consist of 'corporate energy transformation plans' based on energy justice applied by energy companies.Keywords: energy justiceenergy-just companiesenergy lawenergy transitionclimate neutralitycorporate energy transformation plansenergy regulationnet-zero Disclosure statementNo potential conflict of interest was reported by the author.Notes1 Laura A Locke, 'California's Energy Crisis: Power's on – But the Cost!' (Time, [2001]) <https://content.time.com/time/subscriber/article/0,33009,1001557,00.html> accessed 14 November 20222 Maciej M Sokołowski, 'Balancing Energy Regulation: A Day-Watchman Approach' in Robert Grzeszczak (ed), Economic Freedom and Market Regulation: In Search of Proper Balance (Nomos 2020) 1673 Raphael J Heffron, 'Energy Law in Crisis: An Energy Justice Revolution Needed' (2022) 15 The Journal of World Energy Law & Business 167, at 1694 Ibid 169–705 Ibid 1726 See Raphael J Heffron, 'Applying Energy Justice into the Energy Transition' (2022) 156 Renewable and Sustainable Energy Reviews 1119367 Raphael J Heffron and Darren McCauley, 'The Concept of Energy Justice Across the Disciplines' (2017) 105 Energy Policy 6588 See Yuwan Duan and Xuemei Jiang, 'Pollution Haven or Pollution Halo? A Re-Evaluation on the Role of Multinational Enterprises in Global CO2 Emissions' (2021) 97 Energy Economics 105181; Raphael J Heffron, 'Energy Multinationals Challenged by the Growth of Human Rights' (2021) 6 Nature Energy 8499 See Nur Firdaus and Akihisa Mori, 'Stranded Assets and Sustainable Energy Transition: A Systematic and Critical Review of Incumbents' Response' (2023) 73 Energy for Sustainable Development 76; Michael Kattirtzi, Ioanna Ketsopoulou and Jim Watson, 'Incumbents in Transition? The Role of the \"Big Six\" Energy Companies in the UK' (2021) 148 Energy Policy 111927; Susan Mühlemeier, 'Dinosaurs in Transition? A Conceptual Exploration of Local Incumbents in the Swiss and German Energy Transition' (2019) 31 Environmental Innovation and Societal Transitions 126; Gregor Kungl, 'Stewards or Sticklers for Change? Incumbent Energy Providers and the Politics of the German Energy Transition' (2015) 8 Energy Research & Social Science 1310 See Vasudha Chhotray, 'Extractive Regimes in the Coal Heartlands of India: Difficult Questions for a Just Energy Transition' in Prakash Kashwan (ed), Climate Justice in India (Cambridge UP 2023); Kelli F Roemer and Julia H Haggerty, 'The Energy Transition as Fiscal Rupture: Public Services and Resilience Pathways in a Coal Company Town' (2022) 91 Energy Research & Social Science 102752; Micah Carper, 'From the Ruhr Valley to Ramp Hollow: Lessons for America from Germany's Just Energy Transition' (2022) 35 Tulane Environmental Law Journal 91; David Gibbs and Paul D Jensen, 'Chasing after the Wind? Green Economy Strategies, Path Creation and Transitions in the Offshore Wind Industry' (2022) 56 Regional Studies 167111 See Ramona Hägele, Gabriela I Iacobuţă and James Tops, 'Addressing Climate Goals and the SDGs through a Just Energy Transition? Empirical Evidence from Germany and South Africa' (2022) 19 Journal of Integrative Environmental Sciences 85; Roman Vakulchuk, Indra Overland and Beni Suryadi, 'ASEAN's Energy Transition: How to Attract More Investment in Renewable Energy' [2022] Energy, Ecology and Environment 1; Ortzi Akizu and others, 'Tracing the Emerging Energy Transitions in the Global North and the Global South' (2017) 42 International Journal of Hydrogen Energy 1804512 See Mostafa Mahmud Naser and Prafula Pearce, 'Evolution of the International Climate Change Policy and Processes: UNFCCC to Paris Agreement' in H. H. Shugart (ed.), Oxford Research Encyclopedia of Environmental Science (OUP 2022); Antonio Mele, Elena Paglialunga and Giorgia Sforna, 'Climate Cooperation from Kyoto to Paris: What Can Be Learnt from the CDM Experience?' (2021) 75 Socio-Economic Planning Sciences 100942; David Held and Charles Roger, 'Three Models of Global Climate Governance: From Kyoto to Paris and Beyond' (2018) 9 Global Policy 527; Jonathan Pickering and others, 'The Impact of the US Retreat from the Paris Agreement: Kyoto Revisited?' (2018) 18(7) Climate Policy 81813 Madeleine Wahlund and Jenny Palm, 'The Role of Energy Democracy and Energy Citizenship for Participatory Energy Transitions: A Comprehensive Review' (2022) 87 Energy Research & Social Science 102482, at 1014 Kexiang Hu and others, 'Achieving Energy Transition in OECD Economies: Discovering the Moderating Roles of Environmental Governance' (2022) 168 Renewable and Sustainable Energy Reviews 11280815 Heffron and McCauley (n 7)16 Ibid17 Maciej M Sokołowski and Raphael J Heffron, 'Defining and Conceptualising Energy Policy Failure: The When, Where, Why, and How – the Search for the Just Solutions' (2022) 161 Energy Policy 11274518 Jose Vega-Araujo and Raphael J Heffron, 'Assessing Elements of Energy Justice in Colombia: A Case Study on Transmission Infrastructure in La Guajira' (2022) 91 Energy Research & Social Science 10268819 See Raphael J Heffron, 'The Application of Distributive Justice to Energy Taxation Utilising Sovereign Wealth Funds' (2018) 122 Energy Policy 64920 Adam Mayer, Maria Claudia Lopez and Emilio F Moran, 'Uncompensated Losses and Damaged Livelihoods: Restorative and Distributional Injustices in Brazilian Hydropower' (2022) 167 Energy Policy 11304821 M Hazrati and Raphael J Heffron, 'Conceptualising Restorative Justice in the Energy Transition: Changing the Perspectives of Fossil Fuels' (2021) 78 Energy Research & Social Science 10211522 Darren McCauley and Raphael Heffron, 'Just Transition: Integrating Climate, Energy and Environmental Justice' (2018) 119 Energy Policy 1, at 523 Maciej M Sokołowski and Satoshi Kurokawa, 'Energy Justice in Japan's Energy Transition: Pillars of Just 2050 Carbon Neutrality' (2022) 15 Journal of World Energy Law & Business 183, at 18824 Raphael J Heffron, 'Energy Law for Decommissioning in the Energy Sector in the 21st Century' (2018) 11(3) The Journal of World Energy Law & Business 189, at 19025 See Sokołowski and Heffron (n 17); Darren McCauley and others, 'Energy Justice in the Arctic: Implications for Energy Infrastructural Development in the Arctic' (2016) 16 Energy Research & Social Science 141; Shankar Sankaran and Janet McIntyre-Mills, 'Energy Justice in Renewable Energy Projects: How Learning about Indigenous Knowledge Systems Could Inform Systemic Practice' (2022) 39 Systems Research and Behavioral Science 96226 Eva Heiskanen and others, 'Incumbent Energy Companies Navigating Energy Transitions: Strategic Action or Bricolage?' (2018) 28 Environmental Innovation and Societal Transitions 57, at 57; see Veit Bürger and others, 'Third Party Access to District Heating Systems – Challenges for the Practical Implementation' (2019) 132 Energy Policy 88127 Jessica Lagerstedt Wadin, Kajsa Ahlgren and Lars Bengtsson, 'Joint Business Model Innovation for Sustainable Transformation of Industries – A Large Multinational Utility in Alliance with a Small Solar Energy Company' (2017) 160 Journal of Cleaner Production 139, at 13928 See Jakub Sokołowski and others, 'Energy Poverty Between Energy Paradigms in Poland' in George Jiglau and others (eds), Perspectives on Energy Poverty in Post-Communist Europe (Routledge 2020)29 Maria-Jose Manjon, Amparo Merino and Iain Cairns, 'Tackling Energy Poverty through Social Intrapreneurship in Large-Scale Energy Companies' (2021) 17 Social Enterprise Journal 604, at 61730 Vega-Araujo and Heffron (n 18); see Pia-Johanna Schweizer and Jana Bovet, 'The Potential of Public Participation to Facilitate Infrastructure Decision-Making: Lessons from the German and European Legal Planning System for Electricity Grid Expansion' (2016) 42 Utilities Policy 64, at 6831 See Maciej M Sokołowski, 'Discovering the New Renewable Legal Order in Poland: With or Without Wind?' (2017) 106 Energy Policy at 68-74, doi.org/10.1016/j.enpol.2017.03.033; Maciej M Sokolowski, 'Renewable Energy Communities in the Law of the EU, Australia, and New Zealand' (2019) 28(2) European Energy and Environmental Law Review at 34-4632 See Sokołowski and Heffron (n 17)33 See Sandra Cassotta, Maciej M. Sokolowski, 'Regulatory Models of Community Energy (CE) in a Multi-Regulatory Approach: Juxtaposing the Global, the EU, the Japanese and Swedish Cases', (2022), 31, European Energy and Environmental Law Review, Issue 3, pp. 189-19934 Paris Agreement to the United Nations Framework Convention on Climate Change 2015 (adopted on 12 December 2015, entered into force on 4 November 2016)35 See Article 6 of the Paris Agreement (2015)36 See Silvana Secinaro and others, 'Impact of Climate Change Mitigation Policies on Corporate Financial Performance: Evidence-Based on European Publicly Listed Firms' (2020) 27 Corporate Social Responsibility and Environmental Management 2491, at 249737 EU–Japan Centre for Industrial Cooperation, 'Case Studies: EU–Japan Industrial Cooperation for Decarbonization' (2022) <www.eu-japan.eu/climate> accessed 7 March 202238 See Maciej M Sokołowski, Energy Transition of the Electricity Sectors in the European Union and Japan: Regulatory Models and Legislative Solutions (Palgrave Macmillan 2022) 339 World Business Council for Sustainable Development, The Business of Climate Recovery: Accelerating Accountability, Ambition and Action (2022) <www.wbcsd.org/Overview/Policy-Advocacy-and-Member-Mobilization-PAMM/Resources/Business-of-Climate-Recovery-Accelerating-Accountability-Ambition-and-Action> accessed 14 November 202240 The World Business Council for Sustainable Development consists of a wide range of multinational corporations with 5% of its members drawn from the oil and gas sector and 5% from the electricity sector41 World Business Council for Sustainable Development, 'The Business of Climate Recovery: Accelerating Accountability, Ambition and Action' (2022) <www.wbcsd.org/Overview/Policy-Advocacy-and-Member-Mobilization-PAMM/Resources/Business-of-Climate-Recovery-Accelerating-Accountability-Ambition-and-Action> accessed 14 November 202242 Arie Freiberg, Regulation in Australia (The Federation Press, 2017); Maciej M Sokołowski, Regulation in the European Electricity Sector (Routledge 2016)43 Jacqueline Peel, Jan McDonald and Lee Godden, Environmental Law (2nd edn, OUP 2019) 12144 Freiberg (n 40), 20845 Julia Black, 'Critical Reflections on Regulation' (2002) 27 Australian Journal of Legal Philosophy 146 Jacqueline Peel and others, 'Corproate Energy Transition' (2020) <https://law.unimelb.edu.au/__data/assets/pdf_file/0018/3500460/Corporate-Energy-Transition-Report.pdf> accessed 6 November 202247 Raphael J Heffron and others, 'The Identification and Impact of Justice Risks to Commercial Risks in the Energy Sector: Post COVID-19 and for the Energy Transition' (2021) 39(4) Journal of Energy & Natural Resources Law 43948 Minister for the Environment v Sharma (No 2) [2022] FCAFC 6549 IPCC, Working Group III Summary For Policymakers (2022) <www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SPM.pdf> accessed 3 November 2022, 3250 Julia Black, 'Regulatory Conversations' (2002) 29(1) Journal of Law and Society 163, at 170; Madeline Taylor and Tina Soliman Hunter, Agricultural Land Use and Natural Gas Extraction Conflicts (Routledge, 2018)51 Freiberg (n 40), 1052 Taylor and Soliman Hunter (n 48), 4653 IPCC (n 47), 5254 Transition Plan Taskforce, 'Consultation: The Transition Plan Taskforce Disclosure Framework' (2022) <https://transitiontaskforce.net/wp-content/uploads/2022/11/TPT-Disclosure-Framework.pdf> accessed 14 November 2022, 1055 Ibid, 856 Ibid57 Transition Plan Taskforce, Consultation: The Transition Plan Taskforce Implementation Guidance (2022) < https://transitiontaskforce.net/wp-content/uploads/2022/11/TPT-Implementation-Guidance-1.pdf> accessed 14 November 2022, 858 José Célio Silveira Andrade and José Antônio Puppim de Oliveira, 'The Role of the Private Sector in Global Climate and Energy Governance' (2014) 130 Journal of Business Ethics 37559 TCFC, Status Report 2020 (2020) <https://assets.bbhub.io/company/sites/60/2022/10/2022-TCFD-Status-Report.pdf> accessed 2 November 202260 APRA, Prudential Practice Guide CPG 229 Climate Change Financial Risks (2021) <www.apra.gov.au/sites/default/files/2021-11/Final%20Prudential%20Practice%20Guide%20CPG%20229%20Climate%20Change%20Financial%20Risks.pdf> accessed 10 November 2022, 1961 United Nations, 'Appendix 2: Terms of Reference for the High-Level Expert Group on the Net-Zero Emissions Commitments of Non-State Entities' (2022) <www.un.org/sites/un2.un.org/files/expert_group_terms_of_reference.pdf> accessed 15 November 202262 Linking corporate energy transition plans to a just transition is discussed below in subsection 3.463 US Securities and Exchange Commission, 'The Enhancement and Standardization of Climate-Related Disclosures for Investors' (2022) <www.sec.gov/rules/proposed/2022/33-11042.pdf> accessed 2 November 202264 Commission Delegated Regulation (EU) 2021/2139 of 4 June 2021 supplementing Regulation (EU) 2020/852 of the European Parliament and of the Council by establishing the technical screening criteria for determining the conditions under which an economic activity qualifies as contributing substantially to climate change mitigation or climate change adaptation and for determining whether that economic activity causes no significant harm to any of the other environmental objectives, OJ L 442, 9 December 202165 Transition Plan Taskforce, 'Implementation Guidance' (n 55)66 Jacqueline Peel and others, 'Governing the Energy Transition: The Role of Corporate Law Tools' (2019) 36 Environmental and Planning Law Journal 45967 Silveira Andrade and Puppim de Oliveira (n 56)68 IEA, 'World Energy Outlook' (2022) <https://iea.blob.core.windows.net/assets/830fe099-5530-48f2-a7c1-11f35d510983/WorldEnergyOutlook2022.pdf> accessed 14 November 202269 The First Movers Coalition commits to decarbonising seven 'hard to abate' industrial sectors accounting for 30% of global emissions committed to by 50 companies. See We Forum, First Movers Coalition (2022) <www.weforum.org/first-movers-coalition> accessed 14 November 202270 Mission Possible Partnership, Net-Zero Steel Initiative (2022) <https://missionpossiblepartnership.org/action-sectors/steel/> accessed 14 November 202271 Mission Possible Partnership, Concrete Action for Climate (2021) <https://missionpossiblepartnership.org/wp-content/uploads/2021/09/MPP-Concrete-2-pager-4-Aug-2021.pdf> accessed 14 November 202272 Silveira Andrade and Puppim de Oliveira (n 56), 38273 Zdravka Tzankova, 'Public Policy Spillovers from Private Energy Governance: New Opportunities for the Political Acceleration of Renewable Energy Transitions' (2020) 67 Energy Research & Social Science 1, at 374 BP, Shell, Glencore, BHP, Unilever, Woodside, Santos, and Incitec Pivot are examples of companies committing to permit investors a vote on their transition plans at Annual General Meetings or at other intervals. See IGCC, 'Corporate Climate Transition Plan: A Guide to Investor Expectations' (2022) <https://igcc.org.au/wp-content/uploads/2022/03/IGCC-corporate-transition-plan-investor-expectations.pdf> accessed 15 November 202275 Other partners in the Alliance for Industry Decarbonisation are Siemens Energy, Enel Green Power, TAQA Arabia, Eni, Technip Energies, EDF Renewables, JSW, Tata Steel, Sable Chemicals, Tatanga Energy, Roland Berger, Repsol, Equinor and TAQA76 IGCC (n 72), 877 Ibid78 Climate Action 100+, 'Net Zero Company Benchmark' (2021) <www.climateaction100.org/wp-content/uploads/2021/10/V1.1-Disclosure-Framework-assessment-methodology-Oct21.pdf> accessed 14 November 202279 Petronas, 'Petronas Integrated Report 2021' (2021) <www.petronas.com/integrated-report-2021/> accessed 15 Novemeber 202280 Equinor, 'Energy Transition Plan' (2022) <https://cdn.sanity.io/files/h61q9gi9/global/6a64fb766c58f70ef37807deca2ee036a3f4096b.pdf?energy-transition-plan-2022-equinor.pdf> accessed 15 November 202281 BP, 'Net Zero from Ambition to Action' (2022) <www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/investors/bp-net-zero-report-2022.pdf> accessed 15 November 202282 Climate Action 100+, 'Net Zero Company Benchmark Interim Assessments October 2022' (2022) <www.climateaction100.org/wp-content/uploads/2022/10/October-2022-Benchmark-interim-assessments_public-summary_Final_13Oct22.pdf> accessed 15 November 2022, 983 ILO, 'Climate Change and Financing a Just Transition' (2022) <www.ilo.org/empent/areas/social-finance/WCMS_825124/lang--en/index.htm> accessed 15 November 202284 Paris Agreement, opened for signature 22 April 2016, 3156 UNTS 88 (entered into force 4 November 2016)85 Brendan Curran and others, 'Making Transition Plans Just: How to Embed the Just Transition into Financial Sector Net Zero Plans' (2022) <www.lse.ac.uk/granthaminstitute/publication/making-transition-plans-just-how-to-embed-the-just-transition-into-financial-sector-net-zero-plans/> accessed 15 November 2022, 686 Raphael Heffron, Darren McCauley, and Benjamin Sovacool, 'Resolving Society's Energy Trilemma through the Energy Justice Metric' (2015) 87 Energy Policy 168; Madeline Taylor and Susanne Taylor, 'Applying Energy Justice Principles: A Case Study of Solar Energy in Vanuatu' (2022) 15(3) Journal of World Energy Law and Business 19387 Climate Action 100+, 'Net Zero Company Benchmark Interim Assessments' (n 80), 2988 Curran and others (n 83), 289 Scotland's Just Transition Commission90 EU Just Transition Mechanism91 Canada's Just Transition Consultation92 Denmark's Oil & Gas Phase Out Plan93 Spain's Just Transition Agreements for Coal94 India's Skills Council for Green Jobs95 UK Green Jobs Task Force96 Sokołowski, 'Balancing Energy Regulation' (n 2) 167",
+      "year": "2023",
+      "published_date": "2023-04-03",
+      "journal": "Journal of Energy & Natural Resources Law",
+      "url": "https://doi.org/10.1080/02646811.2023.2190691",
+      "arxiv_id": "",
+      "keywords": [
+        "Energy law",
+        "Energy balance",
+        "Context (archaeology)",
+        "Business",
+        "Energy market",
+        "Energy transition",
+        "Energy policy",
+        "Efficient energy use"
+      ],
+      "citations": 13,
+      "source": "OpenAlex",
+      "doi": "10.1080/02646811.2023.2190691",
+      "open_access": false,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval systematic review"
+    },
+    {
+      "title": "ResearchPilot: A Local-First Multi-Agent System for Literature Synthesis and Related Work Drafting",
+      "authors": [
+        "Peng Zhang"
+      ],
+      "abstract": "ResearchPilot is an open-source, self-hostable multi-agent system for literature-review assistance. Given a natural-language research question, it retrieves papers from Semantic Scholar and arXiv, extracts structured findings from paper abstracts, synthesizes cross-paper patterns, and drafts a citation-aware related-work section. The system combines FastAPI, Next.js, DSPy, SQLite, and Qdrant in a local-first architecture that supports bring-your-own-key model access and remote-or-local embeddings. This paper describes the system design, typed agent interfaces, persistence and history-search mechanisms, and the engineering tradeoffs involved in building a transparent research assistant. Rather than claiming algorithmic novelty, we present ResearchPilot as a systems contribution and evaluate it through automated tests and end-to-end local runs. We discuss limitations including external API rate limits, abstract-only extraction, incomplete corpus coverage, and the lack of citation verification.",
+      "year": "2026",
+      "published_date": "2026-03-15",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/d832f04fd4950a30e1719cdd4c319557010abe9f",
+      "arxiv_id": "2603.14629",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "End-to-End Reliability of Automated Systems for Diagnostic Data Extraction: A Benchmark Study in Uro-Oncologic Evidence Synthesis",
+      "authors": [
+        "Matthias May",
+        "Julio Ruben Rodas Garzaro",
+        "Anton Kravchuk",
+        "Christian Gilfrich",
+        "Gregor Donabauer",
+        "Samy Ateia",
+        "Udo Kruschwitz",
+        "Maximilian Haas",
+        "Christoph Eckl",
+        "Maximilian Burger"
+      ],
+      "abstract": "Abstract\n                \n                  Background\n                  Automated systems, including large language models, are increasingly used to support data extraction in diagnostic systematic reviews. However, their reliability, safety, and repeatability under realistic extraction conditions remain insufficiently characterized.\n                \n                \n                  Objective\n                  To benchmark the end-to-end reliability of automated systems for extracting diagnostic accuracy data from published uro-oncologic studies, with a focus on correctness, abstention behavior in non-derivable scenarios, repeatability across repeated runs, and operational efficiency.\n                \n                \n                  Methods\n                  This prospective, protocol-driven benchmarking study evaluates a purpose-built extraction system (MedNuggetizer) and three contemporary large language models. Systems are applied to a fixed corpus of published full-text PDFs and publicly available supplementary material reporting on Uromonitor and urine cytology for bladder cancer detection. A locked, uniform extraction prompt is used across all systems. The primary endpoint is dataset-run correctness, defined as either exact extraction of the complete 2-by-2 diagnostic table or correct declaration of non-derivability. A non-inferiority design with an exact one-sided binomial test is employed. Secondary endpoints include hallucination behavior on pre-specified sentinel datasets, repeatability across repeated runs, fidelity of derived diagnostic metrics, and execution time compared with human extraction.\n                \n                \n                  Results\n                  The study is powered for a non-inferiority margin of 5 percentage points relative to a predefined correctness threshold of 95 percent. Twenty independent runs per system are performed, yielding 320 dataset-run observations. Primary inference is conducted at the run level, with consensus-level results reported as supportive robustness analyses.\n                \n                \n                  Conclusions\n                  This protocol establishes a conservative and reproducible framework for evaluating automated systems used in diagnostic evidence synthesis. By integrating correctness, abstention, repeatability, and safety into a single end-to-end evaluation, the study addresses key methodological gaps in the clinical assessment of generative AI tools.",
+      "year": "2025",
+      "published_date": "2025-12-31",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.64898/2025.12.24.25342959",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.64898/2025.12.24.25342959",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    }
+  ],
+  "timestamp": "20260413_120813"
+}

@@ -1,0 +1,522 @@
+{
+  "analysis_version": "2026-07-24-v3",
+  "corpus": "data\\frozen_corpus_multidomain_v1.json",
+  "corpus_records": 3011,
+  "canonical_queries_per_config": {
+    "M1": 251,
+    "M2a": 251,
+    "M2b": 251,
+    "M2c": 251
+  },
+  "paired_query_comparisons": [
+    {
+      "comparison": "M2a-M1",
+      "metric": "citation_precision",
+      "n_pairs": 251,
+      "mean_M1": 0.6184547524188959,
+      "mean_challenger": 0.6236198064883323,
+      "mean_difference": 0.0051650540694365395,
+      "median_difference": 0.0,
+      "bca95_low": -0.007171314741035856,
+      "bca95_high": 0.02067174714361186,
+      "wilcoxon_statistic": 6784.0,
+      "p_raw": 0.4967113625989096,
+      "p_bh_fdr": 0.5880031101139849
+    },
+    {
+      "comparison": "M2a-M1",
+      "metric": "bibliography_match_rate",
+      "n_pairs": 251,
+      "mean_M1": 0.6185258964143426,
+      "mean_challenger": 0.6242174160500854,
+      "mean_difference": 0.005691519635742743,
+      "median_difference": 0.0,
+      "bca95_low": -0.006545247581104155,
+      "bca95_high": 0.021129766647694937,
+      "wilcoxon_statistic": 6588.0,
+      "p_raw": 0.42391930854599036,
+      "p_bh_fdr": 0.5880031101139849
+    },
+    {
+      "comparison": "M2a-M1",
+      "metric": "orphan_rate",
+      "n_pairs": 251,
+      "mean_M1": 0.38595617529880477,
+      "mean_challenger": 0.37749003984063745,
+      "mean_difference": -0.00846613545816733,
+      "median_difference": 0.0,
+      "bca95_low": -0.02440239043824701,
+      "bca95_high": 0.0034860557768924302,
+      "wilcoxon_statistic": 6727.0,
+      "p_raw": 0.40051795900298237,
+      "p_bh_fdr": 0.5880031101139849
+    },
+    {
+      "comparison": "M2b-M1",
+      "metric": "citation_precision",
+      "n_pairs": 251,
+      "mean_M1": 0.6184547524188959,
+      "mean_challenger": 0.6265177385695314,
+      "mean_difference": 0.008062986150635552,
+      "median_difference": 0.0,
+      "bca95_low": -0.006781514186209712,
+      "bca95_high": 0.024174232597747463,
+      "wilcoxon_statistic": 6502.0,
+      "p_raw": 0.2758777805285223,
+      "p_bh_fdr": 0.5880031101139849
+    },
+    {
+      "comparison": "M2b-M1",
+      "metric": "bibliography_match_rate",
+      "n_pairs": 251,
+      "mean_M1": 0.6185258964143426,
+      "mean_challenger": 0.6258537279453614,
+      "mean_difference": 0.007327831531018783,
+      "median_difference": 0.0,
+      "bca95_low": -0.0074806452587044955,
+      "bca95_high": 0.023477518497438815,
+      "wilcoxon_statistic": 6699.5,
+      "p_raw": 0.3837787348023821,
+      "p_bh_fdr": 0.5880031101139849
+    },
+    {
+      "comparison": "M2b-M1",
+      "metric": "orphan_rate",
+      "n_pairs": 251,
+      "mean_M1": 0.38595617529880477,
+      "mean_challenger": 0.3789840637450199,
+      "mean_difference": -0.0069721115537848604,
+      "median_difference": 0.0,
+      "bca95_low": -0.023406374501992032,
+      "bca95_high": 0.007470119521912351,
+      "wilcoxon_statistic": 6909.0,
+      "p_raw": 0.522669431212431,
+      "p_bh_fdr": 0.5880031101139849
+    },
+    {
+      "comparison": "M2c-M1",
+      "metric": "citation_precision",
+      "n_pairs": 251,
+      "mean_M1": 0.6184547524188959,
+      "mean_challenger": 0.5509628154050464,
+      "mean_difference": -0.06749193701384938,
+      "median_difference": -0.017857142857142905,
+      "bca95_low": -0.1102315265844388,
+      "bca95_high": -0.02797535906710586,
+      "wilcoxon_statistic": 13049.5,
+      "p_raw": 0.019833963085168244,
+      "p_bh_fdr": 0.0892528338832571
+    },
+    {
+      "comparison": "M2c-M1",
+      "metric": "bibliography_match_rate",
+      "n_pairs": 251,
+      "mean_M1": 0.6185258964143426,
+      "mean_challenger": 0.6135458167330677,
+      "mean_difference": -0.0049800796812749,
+      "median_difference": 0.0,
+      "bca95_low": -0.029382470119521914,
+      "bca95_high": 0.018426294820717132,
+      "wilcoxon_statistic": 13232.0,
+      "p_raw": 0.6037623276706036,
+      "p_bh_fdr": 0.6037623276706036
+    },
+    {
+      "comparison": "M2c-M1",
+      "metric": "orphan_rate",
+      "n_pairs": 251,
+      "mean_M1": 0.38595617529880477,
+      "mean_challenger": 0.7201195219123506,
+      "mean_difference": 0.3341633466135458,
+      "median_difference": 0.375,
+      "bca95_low": 0.3042828685258964,
+      "bca95_high": 0.3645418326693227,
+      "wilcoxon_statistic": 834.0,
+      "p_raw": 8.472226027210894e-39,
+      "p_bh_fdr": 7.625003424489805e-38
+    }
+  ],
+  "deterministic_release_gate_summary": {
+    "M1": {
+      "n": 251,
+      "pass_n": 15,
+      "pass_rate": 0.05976095617529881,
+      "block_n": 236
+    },
+    "M2a": {
+      "n": 251,
+      "pass_n": 20,
+      "pass_rate": 0.0796812749003984,
+      "block_n": 231
+    },
+    "M2b": {
+      "n": 251,
+      "pass_n": 17,
+      "pass_rate": 0.06772908366533864,
+      "block_n": 234
+    },
+    "M2c": {
+      "n": 251,
+      "pass_n": 0,
+      "pass_rate": 0.0,
+      "block_n": 251
+    }
+  },
+  "human_study": {
+    "n_participants": 30,
+    "n_questions": 10,
+    "n_response_rows": 300,
+    "n_ordinal_observations": 900,
+    "model": "Ordinal GEE with participant clusters, exchangeable within-participant correlation, and question fixed effects",
+    "descriptive": {
+      "A": {
+        "label": "M1",
+        "mean": 3.9433333333333334,
+        "sd": 1.3952099932650202,
+        "rank_first_n": 89,
+        "rank_first_pct": 0.2966666666666667,
+        "most_suspicious_n": 118,
+        "most_suspicious_pct": 0.3933333333333333
+      },
+      "B": {
+        "label": "M2b",
+        "mean": 4.116666666666666,
+        "sd": 1.438733959740969,
+        "rank_first_n": 86,
+        "rank_first_pct": 0.2866666666666667,
+        "most_suspicious_n": 102,
+        "most_suspicious_pct": 0.34
+      },
+      "C": {
+        "label": "M2a",
+        "mean": 4.266666666666667,
+        "sd": 1.3983586492487006,
+        "rank_first_n": 125,
+        "rank_first_pct": 0.4166666666666667,
+        "most_suspicious_n": 80,
+        "most_suspicious_pct": 0.26666666666666666
+      }
+    },
+    "ordinal_gee_contrasts": [
+      {
+        "contrast": "B vs A",
+        "log_odds": 0.21911126694947977,
+        "odds_ratio": 1.2449697929723045,
+        "se": 0.24272450197827453,
+        "z": 0.9027158987397642,
+        "p": 0.36667669624469446,
+        "ci95_low": 0.7736553746569099,
+        "ci95_high": 2.003411126175984
+      },
+      {
+        "contrast": "C vs A",
+        "log_odds": 0.4109381271595814,
+        "odds_ratio": 1.508232035071035,
+        "se": 0.2569617711668932,
+        "z": 1.5992189238635135,
+        "p": 0.10977196693353344,
+        "ci95_low": 0.9114605698513335,
+        "ci95_high": 2.4957348094449636
+      },
+      {
+        "contrast": "C vs B",
+        "log_odds": 0.19182686021010162,
+        "odds_ratio": 1.211460746746477,
+        "se": 0.2426888150249127,
+        "z": 0.7904231605828642,
+        "p": 0.4292806806581779,
+        "ci95_low": 0.7528846747916468,
+        "ci95_high": 1.9493518596505968
+      }
+    ],
+    "stimulus_metric_correlations": {
+      "citation_precision": {
+        "spearman_rho": 0.15089100676099956,
+        "spearman_p": 0.4260790570673151,
+        "pearson_r": 0.11045006711600083,
+        "pearson_p": 0.5612157556077187
+      },
+      "bibliography_match_rate": {
+        "spearman_rho": 0.15089100676099956,
+        "spearman_p": 0.4260790570673151,
+        "pearson_r": 0.11045006711600083,
+        "pearson_p": 0.5612157556077187
+      },
+      "orphan_rate": {
+        "spearman_rho": -0.16892405253574716,
+        "spearman_p": 0.37220133800326005,
+        "pearson_r": -0.14347180271765186,
+        "pearson_p": 0.4494319701150935
+      },
+      "source_length_chars": {
+        "spearman_rho": 0.0779858346089726,
+        "spearman_p": 0.6820841783269648,
+        "pearson_r": 0.036214436682236575,
+        "pearson_p": 0.8493183026175795
+      }
+    }
+  },
+  "claim_support_audit": {
+    "scope": "Stratified 50-pair audit of citation-bearing claims from M1 and M2a; not a prevalence estimate and not a CSC audit.",
+    "n_pairs": 50,
+    "methods": {
+      "M1": {
+        "n": 25,
+        "majority_label_distribution": {
+          "E": 12,
+          "C": 4,
+          "N": 9
+        },
+        "entailed_rate": 0.48
+      },
+      "M2a": {
+        "n": 25,
+        "majority_label_distribution": {
+          "C": 8,
+          "N": 7,
+          "E": 10
+        },
+        "entailed_rate": 0.4
+      }
+    },
+    "majority_distribution": {
+      "E": 22,
+      "C": 12,
+      "N": 16
+    },
+    "fleiss_kappa_3": 0.8535,
+    "pairwise_kappa": {
+      "coder_a_vs_coder_b": 0.7782,
+      "coder_a_vs_coder_c": 0.9377,
+      "coder_b_vs_coder_c": 0.8443
+    },
+    "kappa_majority_vs_auto": 0.3381
+  },
+  "threshold_sensitivity": [
+    {
+      "threshold": 0.6,
+      "config": "M1",
+      "n": 251,
+      "citation_precision_mean": 0.6234348321001708,
+      "bibliography_match_rate_mean": 0.6235059760956175,
+      "orphan_rate_mean": 0.3809760956175299
+    },
+    {
+      "threshold": 0.6,
+      "config": "M2a",
+      "n": 251,
+      "citation_precision_mean": 0.6285998861696073,
+      "bibliography_match_rate_mean": 0.6291974957313603,
+      "orphan_rate_mean": 0.37250996015936255
+    },
+    {
+      "threshold": 0.6,
+      "config": "M2b",
+      "n": 251,
+      "citation_precision_mean": 0.6319958262189338,
+      "bibliography_match_rate_mean": 0.6313318155947638,
+      "orphan_rate_mean": 0.37350597609561753
+    },
+    {
+      "threshold": 0.6,
+      "config": "M2c",
+      "n": 251,
+      "citation_precision_mean": 0.5526228419654714,
+      "bibliography_match_rate_mean": 0.6165338645418327,
+      "orphan_rate_mean": 0.7191235059760956
+    },
+    {
+      "threshold": 0.72,
+      "config": "M1",
+      "n": 251,
+      "citation_precision_mean": 0.6184547524188959,
+      "bibliography_match_rate_mean": 0.6185258964143426,
+      "orphan_rate_mean": 0.38595617529880477
+    },
+    {
+      "threshold": 0.72,
+      "config": "M2a",
+      "n": 251,
+      "citation_precision_mean": 0.6236198064883323,
+      "bibliography_match_rate_mean": 0.6242174160500854,
+      "orphan_rate_mean": 0.37749003984063745
+    },
+    {
+      "threshold": 0.72,
+      "config": "M2b",
+      "n": 251,
+      "citation_precision_mean": 0.6265177385695314,
+      "bibliography_match_rate_mean": 0.6258537279453614,
+      "orphan_rate_mean": 0.3789840637450199
+    },
+    {
+      "threshold": 0.72,
+      "config": "M2c",
+      "n": 251,
+      "citation_precision_mean": 0.5509628154050464,
+      "bibliography_match_rate_mean": 0.6135458167330677,
+      "orphan_rate_mean": 0.7201195219123506
+    },
+    {
+      "threshold": 0.8,
+      "config": "M1",
+      "n": 251,
+      "citation_precision_mean": 0.6153244166192373,
+      "bibliography_match_rate_mean": 0.6155378486055777,
+      "orphan_rate_mean": 0.3889442231075697
+    },
+    {
+      "threshold": 0.8,
+      "config": "M2a",
+      "n": 251,
+      "citation_precision_mean": 0.6206317586795673,
+      "bibliography_match_rate_mean": 0.6212293682413205,
+      "orphan_rate_mean": 0.3804780876494024
+    },
+    {
+      "threshold": 0.8,
+      "config": "M2b",
+      "n": 251,
+      "citation_precision_mean": 0.6235296907607665,
+      "bibliography_match_rate_mean": 0.6228656801365965,
+      "orphan_rate_mean": 0.38197211155378485
+    },
+    {
+      "threshold": 0.8,
+      "config": "M2c",
+      "n": 251,
+      "citation_precision_mean": 0.5473107569721115,
+      "bibliography_match_rate_mean": 0.6105577689243028,
+      "orphan_rate_mean": 0.7216135458167331
+    },
+    {
+      "threshold": 0.9,
+      "config": "M1",
+      "n": 251,
+      "citation_precision_mean": 0.6148264086511098,
+      "bibliography_match_rate_mean": 0.6150398406374502,
+      "orphan_rate_mean": 0.3894422310756972
+    },
+    {
+      "threshold": 0.9,
+      "config": "M2a",
+      "n": 251,
+      "citation_precision_mean": 0.6201337507114398,
+      "bibliography_match_rate_mean": 0.620731360273193,
+      "orphan_rate_mean": 0.3809760956175299
+    },
+    {
+      "threshold": 0.9,
+      "config": "M2b",
+      "n": 251,
+      "citation_precision_mean": 0.623031682792639,
+      "bibliography_match_rate_mean": 0.622367672168469,
+      "orphan_rate_mean": 0.38247011952191234
+    },
+    {
+      "threshold": 0.9,
+      "config": "M2c",
+      "n": 251,
+      "citation_precision_mean": 0.5466467463479415,
+      "bibliography_match_rate_mean": 0.6100597609561753,
+      "orphan_rate_mean": 0.7221115537848606
+    },
+    {
+      "threshold": 1.0,
+      "config": "M1",
+      "n": 251,
+      "citation_precision_mean": 0.6138303927148548,
+      "bibliography_match_rate_mean": 0.6140438247011952,
+      "orphan_rate_mean": 0.3904382470119522
+    },
+    {
+      "threshold": 1.0,
+      "config": "M2a",
+      "n": 251,
+      "citation_precision_mean": 0.6191377347751849,
+      "bibliography_match_rate_mean": 0.619735344336938,
+      "orphan_rate_mean": 0.38197211155378485
+    },
+    {
+      "threshold": 1.0,
+      "config": "M2b",
+      "n": 251,
+      "citation_precision_mean": 0.6225336748245115,
+      "bibliography_match_rate_mean": 0.6218696642003415,
+      "orphan_rate_mean": 0.38296812749003983
+    },
+    {
+      "threshold": 1.0,
+      "config": "M2c",
+      "n": 251,
+      "citation_precision_mean": 0.5466467463479415,
+      "bibliography_match_rate_mean": 0.6100597609561753,
+      "orphan_rate_mean": 0.7221115537848606
+    }
+  ],
+  "schema_matched_single_agent": {
+    "analysis_version": "2026-07-24-schema-baseline-v3",
+    "n_queries": 251,
+    "provider_models": [
+      {
+        "provider": "deepseek",
+        "model": "deepseek-chat"
+      }
+    ],
+    "decoding": {
+      "max_tokens": 3000,
+      "temperature": 0.3
+    },
+    "unique_prompt_hashes": 251,
+    "citation_precision_mean": 1.0,
+    "bibliography_match_rate_mean": 1.0,
+    "orphan_rate_mean": 0.05029880478087649,
+    "release_pass_n": 197,
+    "release_pass_rate": 0.7848605577689243,
+    "release_block_n": 54,
+    "elapsed_seconds": {
+      "mean": 19.431593625498007,
+      "median": 18.343,
+      "min": 11.107,
+      "max": 37.448
+    },
+    "scope_note": "The source M1 query-specific top-paper sidecars and fixed identifiers were reused. Retrieval was not rerun. Provider-side immutable model snapshot identifiers were unavailable; the authors confirmed alias continuity, and alias, decoding parameters, dates, and prompt hashes are preserved."
+  },
+  "external_bibliography_verification": {
+    "inventory": {
+      "occurrences": 3004,
+      "unique": 454
+    },
+    "verified_unique_rows": 454,
+    "status_distribution": {
+      "verified_genuine_but_unretrieved": 436,
+      "unresolved_external": 12,
+      "probable_genuine_requires_manual_check": 6
+    },
+    "interpretation": "verified_genuine_but_unretrieved means a high-similarity registry match outside the query evidence set. unresolved_external does not prove nonexistence or fabrication."
+  },
+  "title_match_blind_validation_packet": {
+    "n_pairs": 320,
+    "seed": 20260724,
+    "gold_distribution": {
+      "nonmatch": 160,
+      "match": 160
+    },
+    "domain_distribution": {
+      "biomedical_evidence_synthesis": 60,
+      "multi_agent_information_services": 142,
+      "digital_humanities": 62,
+      "climate_policy_research": 56
+    },
+    "positive_source": "Canonical M1 bibliography entries matched at >=0.90 to their own query-specific preserved evidence titles.",
+    "negative_source": "Different titles from frozen_corpus_multidomain_v1.json, selected for high lexical similarity while excluding the true evidence title.",
+    "use": "Two coders independently label match/nonmatch. Keep the gold key hidden until coding is complete; then report coder agreement and precision/recall/F1 by language/domain and threshold.",
+    "warning": "The packet is ready for blinded human validation, but no validation result exists until both independent coding files are completed."
+  },
+  "limitations": [
+    "The deterministic release gate is applied to final archived reports; pre-revision LLM reviewer item-level flags were not preserved.",
+    "The 50-pair claim-support audit covers M1 and M2a only and does not estimate claim-support coverage.",
+    "The 320-pair blinded match/non-match packet has been prepared, but its independent human coding is still pending.",
+    "The provider did not expose immutable model snapshot identifiers; alias continuity was confirmed by the authors and the alias, decoding parameters, prompt hashes, and dates were preserved."
+  ]
+}

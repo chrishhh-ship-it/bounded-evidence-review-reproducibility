@@ -1,0 +1,458 @@
+{
+  "title_threshold": {
+    "source_gold": "data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\first_independent_coding_20260730\\TITLE_MATCH_FIRST_INDEPENDENT_BASELINE_20260730.csv",
+    "source_details": "data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\full_20260730_034303\\title_match_single_vs_arl_results.csv",
+    "n": 320,
+    "gold_distribution": {
+      "nonmatch": 168,
+      "match": 152
+    },
+    "overall": [
+      {
+        "threshold": 0.6,
+        "n": 320,
+        "predicted_match": 263,
+        "tp": 152,
+        "fp": 111,
+        "fn": 0,
+        "tn": 57,
+        "precision": 0.5779467680608364,
+        "recall": 1.0,
+        "f1": 0.7325301204819276,
+        "accuracy": 0.653125
+      },
+      {
+        "threshold": 0.65,
+        "n": 320,
+        "predicted_match": 231,
+        "tp": 152,
+        "fp": 79,
+        "fn": 0,
+        "tn": 89,
+        "precision": 0.658008658008658,
+        "recall": 1.0,
+        "f1": 0.7937336814621411,
+        "accuracy": 0.753125
+      },
+      {
+        "threshold": 0.7,
+        "n": 320,
+        "predicted_match": 203,
+        "tp": 152,
+        "fp": 51,
+        "fn": 0,
+        "tn": 117,
+        "precision": 0.7487684729064039,
+        "recall": 1.0,
+        "f1": 0.856338028169014,
+        "accuracy": 0.840625
+      },
+      {
+        "threshold": 0.72,
+        "n": 320,
+        "predicted_match": 197,
+        "tp": 152,
+        "fp": 45,
+        "fn": 0,
+        "tn": 123,
+        "precision": 0.7715736040609137,
+        "recall": 1.0,
+        "f1": 0.8710601719197707,
+        "accuracy": 0.859375
+      },
+      {
+        "threshold": 0.75,
+        "n": 320,
+        "predicted_match": 197,
+        "tp": 152,
+        "fp": 45,
+        "fn": 0,
+        "tn": 123,
+        "precision": 0.7715736040609137,
+        "recall": 1.0,
+        "f1": 0.8710601719197707,
+        "accuracy": 0.859375
+      },
+      {
+        "threshold": 0.8,
+        "n": 320,
+        "predicted_match": 180,
+        "tp": 152,
+        "fp": 28,
+        "fn": 0,
+        "tn": 140,
+        "precision": 0.8444444444444444,
+        "recall": 1.0,
+        "f1": 0.9156626506024096,
+        "accuracy": 0.9125
+      },
+      {
+        "threshold": 0.85,
+        "n": 320,
+        "predicted_match": 164,
+        "tp": 152,
+        "fp": 12,
+        "fn": 0,
+        "tn": 156,
+        "precision": 0.926829268292683,
+        "recall": 1.0,
+        "f1": 0.9620253164556963,
+        "accuracy": 0.9625
+      },
+      {
+        "threshold": 0.9,
+        "n": 320,
+        "predicted_match": 160,
+        "tp": 151,
+        "fp": 9,
+        "fn": 1,
+        "tn": 159,
+        "precision": 0.94375,
+        "recall": 0.993421052631579,
+        "f1": 0.967948717948718,
+        "accuracy": 0.96875
+      },
+      {
+        "threshold": 0.95,
+        "n": 320,
+        "predicted_match": 160,
+        "tp": 151,
+        "fp": 9,
+        "fn": 1,
+        "tn": 159,
+        "precision": 0.94375,
+        "recall": 0.993421052631579,
+        "f1": 0.967948717948718,
+        "accuracy": 0.96875
+      }
+    ],
+    "high_score_nonmatches": 9,
+    "boundary": "Sensitivity analysis on the final independent human benchmark; it does not establish a universal optimal threshold."
+  },
+  "deduplicated_output_distributions": {
+    "selection_rule": "For each query/configuration, retain the latest timestamped preserved Markdown output; retry and regeneration files remain archived but are not independent rows.",
+    "summaries": [
+      {
+        "config": "M1",
+        "raw_files": 416,
+        "deduplicated_queries": 251,
+        "bibliography_entries": {
+          "mean": 7.904382470119522,
+          "sd": 0.8711031610156595,
+          "median": 8.0,
+          "q1": 8.0,
+          "q3": 8.0,
+          "min": 0.0,
+          "max": 8.0
+        },
+        "citations_per_output": {
+          "mean": 47.322709163346616,
+          "sd": 13.028102019522096,
+          "median": 46.0,
+          "q1": 39.0,
+          "q3": 55.0,
+          "min": 22.0,
+          "max": 106.0
+        },
+        "output_length_chars": {
+          "mean": 1870.7131474103585,
+          "sd": 303.3112153983993,
+          "median": 1865.0,
+          "q1": 1668.0,
+          "q3": 2048.0,
+          "min": 1174.0,
+          "max": 3381.0
+        },
+        "citation_density_per_bib": {
+          "mean": 5.912298387096774,
+          "sd": 1.6292555488314895,
+          "median": 5.75,
+          "q1": 4.875,
+          "q3": 6.875,
+          "min": 2.75,
+          "max": 13.25
+        }
+      },
+      {
+        "config": "M2a",
+        "raw_files": 414,
+        "deduplicated_queries": 251,
+        "bibliography_entries": {
+          "mean": 7.964143426294821,
+          "sd": 0.5086346069101212,
+          "median": 8.0,
+          "q1": 8.0,
+          "q3": 8.0,
+          "min": 0.0,
+          "max": 8.0
+        },
+        "citations_per_output": {
+          "mean": 52.62948207171315,
+          "sd": 15.832187698820315,
+          "median": 51.0,
+          "q1": 41.0,
+          "q3": 62.0,
+          "min": 17.0,
+          "max": 111.0
+        },
+        "output_length_chars": {
+          "mean": 1664.6852589641435,
+          "sd": 315.31953403148475,
+          "median": 1671.0,
+          "q1": 1398.0,
+          "q3": 1888.5,
+          "min": 970.0,
+          "max": 2863.0
+        },
+        "citation_density_per_bib": {
+          "mean": 6.5851428571428565,
+          "sd": 1.9790222472209582,
+          "median": 6.375,
+          "q1": 5.125,
+          "q3": 7.75,
+          "min": 2.125,
+          "max": 13.875
+        }
+      },
+      {
+        "config": "M2b",
+        "raw_files": 373,
+        "deduplicated_queries": 251,
+        "bibliography_entries": {
+          "mean": 7.940239043824701,
+          "sd": 0.5730744651696514,
+          "median": 8.0,
+          "q1": 8.0,
+          "q3": 8.0,
+          "min": 0.0,
+          "max": 8.0
+        },
+        "citations_per_output": {
+          "mean": 51.52589641434263,
+          "sd": 15.48503557287574,
+          "median": 50.0,
+          "q1": 41.0,
+          "q3": 59.5,
+          "min": 17.0,
+          "max": 99.0
+        },
+        "output_length_chars": {
+          "mean": 1509.231075697211,
+          "sd": 286.58222273971955,
+          "median": 1493.0,
+          "q1": 1302.0,
+          "q3": 1700.0,
+          "min": 818.0,
+          "max": 2270.0
+        },
+        "citation_density_per_bib": {
+          "mean": 6.463214285714285,
+          "sd": 1.9486955314888772,
+          "median": 6.375,
+          "q1": 5.125,
+          "q3": 7.5,
+          "min": 2.125,
+          "max": 12.375
+        }
+      },
+      {
+        "config": "M2c",
+        "raw_files": 410,
+        "deduplicated_queries": 251,
+        "bibliography_entries": {
+          "mean": 8.0,
+          "sd": 0.0,
+          "median": 8.0,
+          "q1": 8.0,
+          "q3": 8.0,
+          "min": 8.0,
+          "max": 8.0
+        },
+        "citations_per_output": {
+          "mean": 4.442231075697211,
+          "sd": 2.6891726241337572,
+          "median": 4.0,
+          "q1": 3.0,
+          "q3": 6.0,
+          "min": 0.0,
+          "max": 17.0
+        },
+        "output_length_chars": {
+          "mean": 744.0398406374502,
+          "sd": 93.93784331340859,
+          "median": 728.0,
+          "q1": 683.0,
+          "q3": 788.0,
+          "min": 550.0,
+          "max": 1142.0
+        },
+        "citation_density_per_bib": {
+          "mean": 0.5552788844621513,
+          "sd": 0.33614657801671965,
+          "median": 0.5,
+          "q1": 0.375,
+          "q3": 0.75,
+          "min": 0.0,
+          "max": 2.125
+        }
+      }
+    ]
+  },
+  "human_study_sensitivity": {
+    "primary_complete_case": {
+      "n_response_rows": 298,
+      "n_ordinal_observations": 894,
+      "n_participants": 30,
+      "descriptive": {
+        "M1": {
+          "n": 298,
+          "mean": 3.946308724832215,
+          "sd": 1.3988221832411942
+        },
+        "M2b": {
+          "n": 298,
+          "mean": 4.114093959731544,
+          "sd": 1.4426416162348445
+        },
+        "M2a": {
+          "n": 298,
+          "mean": 4.261744966442953,
+          "sd": 1.3993551817311707
+        }
+      },
+      "contrasts": [
+        {
+          "contrast": "M2b vs M1",
+          "log_odds": 0.21170545753082293,
+          "odds_ratio": 1.2357838406440698,
+          "se": 0.2432225883243366,
+          "z": 0.8704185700405191,
+          "p": 0.38407170199322915,
+          "ci95_low": 0.7671976522396583,
+          "ci95_high": 1.9905713949186468
+        },
+        {
+          "contrast": "M2a vs M1",
+          "log_odds": 0.40013008263062544,
+          "odds_ratio": 1.4920187707448678,
+          "se": 0.25810166363819054,
+          "z": 1.5502809125303887,
+          "p": 0.12107410661746883,
+          "ci95_low": 0.8996502717693551,
+          "ci95_high": 2.474428210727802
+        },
+        {
+          "contrast": "M2a vs M2b",
+          "log_odds": 0.1884246250998025,
+          "odds_ratio": 1.2073460759668557,
+          "se": 0.244267930235287,
+          "z": 0.7713850316670946,
+          "p": 0.44047874463649306,
+          "ci95_low": 0.748008813620957,
+          "ci95_high": 1.9487531705625414
+        }
+      ],
+      "stimulus_metric_correlations": {
+        "n_stimuli": 30,
+        "citation_precision": {
+          "spearman_rho": 0.15458519702746462,
+          "spearman_p": 0.4147057452624675,
+          "pearson_r": 0.11623326983978156,
+          "pearson_p": 0.5407606539750247
+        },
+        "orphan_rate": {
+          "spearman_rho": -0.17321862350116235,
+          "spearman_p": 0.35998710526143296,
+          "pearson_r": -0.1488896720182153,
+          "pearson_p": 0.4323116539802906
+        },
+        "source_length_chars": {
+          "spearman_rho": 0.08129180986939244,
+          "spearman_p": 0.6693486877387952,
+          "pearson_r": 0.05160078565887252,
+          "pearson_p": 0.7865447860562746
+        }
+      }
+    },
+    "sensitivity_imputed": {
+      "n_response_rows": 300,
+      "n_ordinal_observations": 900,
+      "n_participants": 30,
+      "descriptive": {
+        "M1": {
+          "n": 300,
+          "mean": 3.9433333333333334,
+          "sd": 1.3952099932650202
+        },
+        "M2b": {
+          "n": 300,
+          "mean": 4.116666666666666,
+          "sd": 1.438733959740969
+        },
+        "M2a": {
+          "n": 300,
+          "mean": 4.266666666666667,
+          "sd": 1.3983586492487006
+        }
+      },
+      "contrasts": [
+        {
+          "contrast": "M2b vs M1",
+          "log_odds": 0.21911126694947977,
+          "odds_ratio": 1.2449697929723045,
+          "se": 0.24272450197827453,
+          "z": 0.9027158987397642,
+          "p": 0.36667669624469446,
+          "ci95_low": 0.7736553746569099,
+          "ci95_high": 2.003411126175984
+        },
+        {
+          "contrast": "M2a vs M1",
+          "log_odds": 0.4109381271595814,
+          "odds_ratio": 1.508232035071035,
+          "se": 0.2569617711668932,
+          "z": 1.5992189238635135,
+          "p": 0.10977196693353344,
+          "ci95_low": 0.9114605698513335,
+          "ci95_high": 2.4957348094449636
+        },
+        {
+          "contrast": "M2a vs M2b",
+          "log_odds": 0.19182686021010162,
+          "odds_ratio": 1.211460746746477,
+          "se": 0.2426888150249127,
+          "z": 0.7904231605828642,
+          "p": 0.4292806806581779,
+          "ci95_low": 0.7528846747916468,
+          "ci95_high": 1.9493518596505968
+        }
+      ],
+      "stimulus_metric_correlations": {
+        "n_stimuli": 30,
+        "citation_precision": {
+          "spearman_rho": 0.15089100676099956,
+          "spearman_p": 0.4260790570673151,
+          "pearson_r": 0.11045006711600083,
+          "pearson_p": 0.5612157556077187
+        },
+        "orphan_rate": {
+          "spearman_rho": -0.16892405253574716,
+          "spearman_p": 0.37220133800326005,
+          "pearson_r": -0.14347180271765186,
+          "pearson_p": 0.4494319701150935
+        },
+        "source_length_chars": {
+          "spearman_rho": 0.0779858346089726,
+          "spearman_p": 0.6820841783269648,
+          "pearson_r": 0.036214436682236575,
+          "pearson_p": 0.8493183026175795
+        }
+      }
+    },
+    "excluded_rows": [
+      "P10_Q08",
+      "P26_Q08"
+    ],
+    "interpretation": "Complete-case results are primary; prespecified participant-mean imputation is reported only as a sensitivity analysis."
+  }
+}

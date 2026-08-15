@@ -1,0 +1,119 @@
+{
+  "baseline": "method2_adversarial_multi_agent",
+  "query": "面向多智能协同情报服务，什么样的 query 最能区分单智能体与多智能体能力差异？",
+  "effective_search_query": "multi-agent intelligence collaborative query capability differentiation",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "kimi",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds": 1,
+  "review_feedback": {
+    "overall_score": 8,
+    "major_issues": [],
+    "citation_issues": [],
+    "revision_instructions": [
+      "在第4部分“摘要级证据的局限”中，建议增加对摘要信息可能存在的偏差或局限性的讨论，例如摘要可能无法全面反映全文内容，或者作者可能在摘要中强调研究的积极结果而忽略负面发现。",
+      "在第5部分“谨慎结论”中，可以进一步强调结论的谨慎性，明确指出这些结论是基于有限的摘要信息得出的，可能需要更多的全文内容来验证。",
+      "考虑在报告中增加一个部分，讨论如何通过实验设计或案例研究来进一步验证区分单智能体与多智能体能力的查询特征。"
+    ],
+    "accept_without_revision": false
+  },
+  "all_retrieved_ids": [
+    "doi:10.48550/arxiv.2306.16092",
+    "title:multi-agent intelligence for multidisciplinary decision-making in gastrointestinal oncology|2025",
+    "title:mad-cti: cyber threat intelligence analysis of the dark web using a multi-agent framework|2025",
+    "doi:10.2478/amns-2024-1757",
+    "title:cogsearch: a cognitive-aligned multi-agent framework for proactive decision support in e-commerce search|2026",
+    "doi:10.1080/00207543.2016.1251624y",
+    "title:maca: a multi-agent reinforcement learning platform for collective intelligence|2019",
+    "title:distributed artificial intelligence with multi-agent systems for mec|2019",
+    "doi:10.1016/j.future.2017.05.046",
+    "doi:10.2174/9789815165791123010010",
+    "doi:10.2139/ssrn.5350715",
+    "doi:10.1109/mwc.016.2300600",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/tvt.2021.3096928",
+    "doi:10.1109/comst.2023.3338153"
+  ],
+  "top_papers": [
+    {
+      "title": "Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model",
+      "year": "2023",
+      "journal": "arXiv (Cornell University)",
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2306.16092",
+      "citations": 90,
+      "abstract": "AI legal assistants based on Large Language Models (LLMs) can provide accessible legal consulting services, but the hallucination problem poses potential legal risks. This paper presents Chatlaw, an innovative legal assistant utilizing a Mixture-of-Experts (MoE) model and a multi-agent system to enhance the reliability and accuracy of AI-driven legal services. By integrating knowledge graphs with artificial screening, we construct a high-quality legal dataset to train the MoE model. This model utilizes different experts to address various legal issues, optimizing the accuracy of legal responses. Additionally, Standardized Operating Procedures (SOP), modeled after real law firm workflows, significantly reduce errors and hallucinations in legal services. Our MoE model outperforms GPT-4 in th"
+    },
+    {
+      "title": "MAD-CTI: Cyber threat intelligence analysis of the dark web using a multi-agent framework",
+      "year": 2025,
+      "journal": "S Shah, VK Madisetti - IEEE Access, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 10,
+      "abstract": "… multi-agent framework based on Large Language Models (LLM) … agent architecture to improve efficiency, scalability, and consistency. By utilizing state-of-the-art LLM models and agents…"
+    },
+    {
+      "title": "Multi-Agent Intelligence for Multidisciplinary Decision-Making in Gastrointestinal Oncology",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Multimodal clinical reasoning in the field of gastrointestinal (GI) oncology necessitates the integrated interpretation of endoscopic imagery, radiological data, and biochemical markers. Despite the evident potential exhibited by Multimodal Large Language Models (MLLMs), they frequently encounter challenges such as context dilution and hallucination when confronted with intricate, heterogeneous medical histories. In order to address these limitations, a hierarchical Multi-Agent Framework is proposed, which emulates the collaborative workflow of a human Multidisciplinary Team (MDT). The system attained a composite expert evaluation score of 4.60/5.00, thereby demonstrating a substantial improvement over the monolithic baseline. It is noteworthy that the agent-based architecture yielded the "
+    },
+    {
+      "title": "CogSearch: A Cognitive-Aligned Multi-Agent Framework for Proactive Decision Support in E-Commerce Search",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Modern e-commerce search engines, largely rooted in passive retrieval-and-ranking models, frequently fail to support complex decision-making, leaving users overwhelmed by cognitive friction. In this paper, we introduce CogSearch, a novel cognitive-oriented multi-agent framework that reimagines e-commerce search as a proactive decision support system. By synergizing four specialized agents, CogSearch mimics human cognitive workflows: it decomposes intricate user intents, fuses heterogeneous knowledge across internal and external sources, and delivers highly actionable insights. Our offline benchmarks validate CogSearch's excellence in consultative and complex search scenarios. Extensive online A/B testing on JD.com demonstrates the system's transformative impact: it reduced decision costs b"
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "A cross-enterprise collaborative production scheduling decision support algorithm with multi-agent support",
+      "year": "2024",
+      "journal": "Applied Mathematics and Nonlinear Sciences",
+      "source": "CrossRef",
+      "doi": "10.2478/amns-2024-1757",
+      "citations": 2,
+      "abstract": "Abstract\n                  This study harnesses the capabilities of intelligent agent technology to develop a framework for cross-enterprise collaborative production scheduling decision-making. It conducts a comprehensive examination of the business processes and production scheduling decisions encapsulated within this framework. The research begins by pinpointing the challenges inherent in cross-enterprise collaborative production scheduling. Subsequently, it introduces a genetic algorithm tailored for agent-based decision-making in this context and delineates its algorithmic parameters. The effectiveness of this approach is validated through a series of simulation experiments focused on a case study of cross-enterprise collaborative production scheduling from an agent-oriented perspectiv"
+    },
+    {
+      "title": "Multi-Agent Based Decision Support Systems",
+      "year": "2023",
+      "journal": "Reinventing Technological Innovations with Artificial Intelligence",
+      "source": "CrossRef",
+      "doi": "10.2174/9789815165791123010010",
+      "citations": 0,
+      "abstract": "Multi-Agent-Based Decision Support Systems (MADSS) have emerged as\npowerful tools for facilitating decision-making in complex and dynamic environments.\nThis chapter provides an overview of MADSS, highlighting their fundamental\nconcepts, key components, and applications. MADSS leverage the principles of multi-agent systems, artificial intelligence, and decision support systems to enable\ncollaborative decision-making among multiple autonomous agents. The chapter begins\nby introducing the concept of multi-agent systems, emphasizing the advantages they\noffer in terms of adaptability, flexibility, and scalability. It then explores the integration\nof decision support systems within this framework, enabling agents to make informed\ndecisions by analyzing vast amounts of data, evaluating various al"
+    },
+    {
+      "title": "Maca: a multi-agent reinforcement learning platform for collective intelligence",
+      "year": 2019,
+      "journal": "F Gao, S Chen, M Li, B Huang - … Engineering and Service …, 2019 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 16,
+      "abstract": "… in collective intelligence field… multi-agent reinforcement training platform called MaCA was built to improve reinforcement learning effectiveness for heterogeneous collective cooperative …"
+    }
+  ],
+  "elapsed_seconds": 123.885,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_outputs\\Q30_method2_20260410_230619.md"
+}

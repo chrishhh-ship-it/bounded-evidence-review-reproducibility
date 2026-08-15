@@ -1,0 +1,129 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "多源文献检索在情报服务中的常见噪声类型是什么？",
+  "effective_search_query": "多源文献检索 情报服务 噪声类型",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds": 1,
+  "review_feedback": {
+    "overall_score": 3,
+    "major_issues": [
+      "报告核心问题：证据集中没有任何文献直接或间接讨论'多源文献检索在情报服务中的常见噪声类型'。所有文献均聚焦于人工智能/智能体赋能情报服务、知识服务或相关领域的转型、框架与路径，与检索噪声主题无关。",
+      "报告内容与证据严重脱节：报告第2节'核心主题与证据'中推断的四种噪声类型（信息过载、数据融合噪声、智能体检索不确定性、意图感知偏差）均无任何证据支持。证据[1][2][3][4][5][6]仅描述了AI赋能情报的愿景、挑战或技术框架，并未提及这些挑战是'噪声'或其具体类型。",
+      "报告结论无效：基于不相关的证据集，报告得出的'间接推断'和'潜在噪声来源'结论缺乏逻辑基础和证据支撑，属于无依据的推测。",
+      "报告结构误导：报告以'基于摘要级证据的初步分析'为名，但实际并未对查询主题进行任何有效分析，因为提供的证据集完全不包含相关信息。"
+    ],
+    "citation_issues": [
+      "所有引用均为无效引用：报告在推断噪声类型时引用的证据[1]-[6]，均被错误地用于支持一个它们并未讨论的主题。例如，引用[1]讨论AI赋能情报的高效收集，但未提及信息过载是'噪声'；引用[6]讨论LLM智能体使用外部知识源，但未提及检索不确定性是'噪声'。",
+      "引用与主张不匹配：报告第2节中每一项'噪声类型'的陈述后所附的引用，均不能作为该陈述的证据。",
+      "未正确标注证据局限性：报告第4节指出证据'间接性'、'细节缺失'等，但根本问题是证据完全无关，而非细节不足。"
+    ],
+    "revision_instructions": [
+      "必须重写报告核心内容：鉴于证据集与查询主题完全无关，报告应明确指出：'基于提供的证据集，无法回答查询问题。所提供的8篇文献均未涉及多源文献检索在情报服务中的噪声类型。'",
+      "删除所有关于噪声类型的推断与分析：第2节'核心主题与证据'、第3节'证据支持的研究方向'及第5节'谨慎结论'中所有关于噪声类型的讨论必须全部删除，因为它们缺乏证据支持。",
+      "修正报告结论：结论应明确指出本次检索失败，并建议扩大检索范围或使用更相关的关键词（如'信息检索噪声'、'数据清洗'、'信息过滤'等）重新检索。",
+      "调整报告结构：保留第1节'检索与筛选概览'，但需修改表述，明确指出证据集不相关。第4节'摘要级证据的局限'应修改为对证据集主题不相关的说明。"
+    ],
+    "accept_without_revision": false
+  },
+  "all_retrieved_ids": [
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.11968/tsyqb.1003-6938.2025001",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "title:building a secure agentic ai application leveraging a2a protocol|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.19678/j.issn.1000-3428.0069471"
+  ],
+  "top_papers": [
+    {
+      "title": "人工智能赋能情报服务与决策:内涵、逻辑与路径",
+      "year": 2025,
+      "journal": "专题:人工智能赋能情报服务研究",
+      "source": "万方数据",
+      "doi": "10.11968/tsyqb.1003-6938.2025001",
+      "citations": 52,
+      "abstract": "文章聚焦于人工<span class='highlight'>智能</span>赋能<span class='highlight'>情报</span><span class='highlight'>服务</span>与决策的宏观认知概念、内涵与框架,旨在从内涵、逻辑与路径三个层面进行深入探讨.首先,明确了人工<span class='highlight'>智能</span>在<span class='highlight'>情报</span><span class='highlight'>服务</span>中的内涵,指出其通过<span class='highlight'>智能</span>化手段实现<span class='highlight'>情报</span>的高效收集、深度处理、精准分析及快速传递;其次,剖析了人工<span class='highlight'>智能</span>赋能<span class='highlight'>情报</span><span class='highlight'>服务</span>与决策的内在逻辑,包括融合创新、场景驱动和战略引领三大要素;最后,探索了人工<span class='highlight'>智能</span>赋能<span class='highlight'>情报</span><span class='highlight'>服务</span>的具体路径,包括<span class='highlight'>情报</span>感知及数智赋能的智慧响应体系构建、 场景化适配的智慧问答交互范式创新、<span class='highlight'>智能</span>化<span class='highlight'>情报</span>决策系统的内容构建与优化以及应用导向的\"智慧+\"<span class='highlight'>情报</"
+    },
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    },
+    {
+      "title": "生成式人工智能驱动下智慧图书馆信息搜索的技术框架及服务模式研究",
+      "year": 2025,
+      "journal": "专栏:中国特色图书情报学",
+      "source": "万方数据",
+      "doi": "10.13530/j.cnki.jlis.2025041",
+      "citations": 52,
+      "abstract": "在生成式人工智能技术快速发展的背景下,用户的信息需求和信息行为日益多样化和复杂化,智慧图书馆的信息供给模式需要从\"被动响应\"转变为\"主动出击\"、从\"静态适配\"过渡到\"动态服务\".借助以大语言模型为代表的生成式人工智能技术强大的自然语言处理、多模态数据整合及知识生成能力,智慧图书馆信息搜索服务可以向个性化、精准化和智慧化服务模式转型.本文首先系统梳理传统信息检索、语义检索和GenAI驱动的生成式 信息搜索三种不同检索范式的功能及特征演变;其次,基于CASA范式和社会技术系统视角构建以大语言模型智能体为支撑的智慧图书馆生成式信息搜索技术框架,该框架支持多场景下人智协同的信息搜索认知构建;最后,从场景解构、关键支撑和服务目标三个角度提出了\"意图感知+认知建构+内容生成\"的智慧图书馆人智协同的信息搜索服务模式.本研究提出的技术框架和服务模式促进了信息服务从工具型向协同型的范式转变,强化了智慧图书馆 从工具型服务向认知增益型服务体系的转型,为未来智慧图书馆知识搜索体系的构建提供了新思路.图3.表2.参考文献37. query formulation,and result presentation.It then,drawing on the Computers Are Social Actors(CASA)paradigm and a sociotechnical system perspective,proposes an <span class='highlight'>LLM</span> <span class='highlight'>Agent</span> framework that orchestrates  the classical four <span class='highlight'>information</span> <span class='highli"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "生成式人工智能赋能课堂教学的形态层级与进阶路径",
+      "year": 2025,
+      "journal": "课程与教学",
+      "source": "万方数据",
+      "doi": "10.13811/j.cnki.eer.2025.06.010",
+      "citations": 193,
+      "abstract": "生成式人工智能深度赋能课堂教学,既是技术演进的必然趋势,也是教育高质量发展的内在需求.文章系统阐释了不同赋能形态的内涵特征与内在关联,构建了生成式人工智能赋能课堂教学的形态层级框架并提供了典型示例.该框架包括四个逐级递进、相互关联的层级:\"劳动替代与任务辅助\"作为基础形态,聚焦基础性教学任务的工具赋能;\"能力增强与边界拓展\"作为初级形态,致力于提升教学效能与拓展教学边界,提供多样化服务赋能;\" 人机协同与创新激活\"作为中级形态,强调人机深度协作与教学创新能力的激发,实现具有协同意识的智能主体赋能;\"认知融通与思维塑造\"作为高级形态,着眼于教学智慧的深度融合与高阶思维的培养,实现多元智能体共生的融合赋能.基于生成式人工智能赋能课堂教学的形态演进所呈现的层次性与纵深性特征,文章进一步提出实现层级进阶的系统化路径,包括政策指引与制度保障、素养提升与观念完善、价值重塑与技术突破. The innovative integration and deep empowerment of generative artificial <span class='highlight'>intelligence</span>(AI)with classroom teaching represent both an inevitable trend in technological evolution and an intrinsic  boundaries,thus providing diversified <span class='highlight'>service</span> empowerment;\"human-machine collaboration and innovation activation\"as the intermediate form,emphasizing dee"
+    },
+    {
+      "title": "The Role Of Agentic Ai And Generative Ai In Transforming Modern Banking Services",
+      "year": 2025,
+      "journal": "A Todupunuri - American Journal of AI Cyber Computing Management, 2025 - ajaccm.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 67,
+      "abstract": "… There is a marked gap in the existing knowledge of the application of agentic AI to support decision-making, but literature also reveals a considerable advancement in applying AI in the …"
+    }
+  ],
+  "elapsed_seconds": 146.068,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q11_method2_same_model_20260411_125801.md"
+}

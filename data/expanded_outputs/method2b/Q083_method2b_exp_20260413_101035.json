@@ -1,0 +1,189 @@
+{
+  "query_id": "Q083",
+  "query": "从摘要提取的方法论字段（methodology）与从全文提取的实验细节之间存在哪些系统性差异？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "id": "gs_ffaa36a06c",
+      "title": "Agent-based Modeling Methodology: A Predictive Analytical Strategy for Augmenting Strategic Intelligence Forecasts",
+      "abstract": "… of Agent-Based Modeling (ABM) as a predictive analytical … analytical techniques used in intelligence analysis include: structured brainstorming, scenario analysis, indicators, analysis of …",
+      "authors": [
+        "JA Jamison"
+      ],
+      "year": 2024,
+      "journal": "JA Jamison - 2024 - search.proquest.com",
+      "citations": 2,
+      "url": "https://search.proquest.com/openview/f3a9d859bfe11d998762483948b15670/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_397ebbc64b",
+      "title": "Critical digital humanities: the search for a methodology",
+      "abstract": "a minor area or a subfield of the digital humanities, this book offers a vital and, more important,  a critical digital humanities that emerges from the specific affordances and limitations of",
+      "authors": [
+        "JE Dobson"
+      ],
+      "year": 2019,
+      "journal": "NA",
+      "citations": 192,
+      "url": "https://books.google.com/books?hl=en&lr=&id=sg2ODwAAQBAJ&oi=fnd&pg=PP7&dq=digital+humanities&ots=GSHBsf7xHf&sig=icsXpnpeE04wUzYM0MYQi0rS440",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    },
+    {
+      "title": "Analysing use of evidence in public policymaking processes: a theory-grounded content analysis methodology",
+      "authors": [
+        "Itzhak Yanovitzky",
+        "Matthew Weber"
+      ],
+      "abstract": "A broad range of methodologies is routinely employed to track and analyse use of research evidence in public policymaking. However, available methods and tools are mostly equipped to track ‘evidence’ but are less equipped to capture and represent ‘use’ of evidence. In particular, existing methods overlook policymakers’ frequent use of evidence for political persuasion and bargaining. Drawing on established theories and research tools from the field of persuasive communication, we developed a content analysis instrument for tracking and analysing policymakers’ use of evidence based on the information contained in policy documents. We provide a specific example of applying this tool and demonstrate how it may be used to generate rich and nuanced insights regarding the scope, nature, and timing of policymakers’ evidence use at different levels and phases of the public policymaking process. We conclude with a discussion of potential strengths and limitations and offer recommendations regarding the optimal application of this methodology.",
+      "year": "2020",
+      "published_date": "2020-2",
+      "journal": "Evidence &amp; Policy",
+      "url": "https://doi.org/10.1332/174426418x15378680726175",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 30,
+      "source": "CrossRef",
+      "doi": "10.1332/174426418x15378680726175",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "evidence grounded medical literature analysis"
+    },
+    {
+      "title": "Towards a standardized methodology and dataset for evaluating LLM-based digital forensic timeline analysis",
+      "authors": [
+        "Hudan Studiawan",
+        "Frank Breitinger",
+        "Mark Scanlon"
+      ],
+      "abstract": "",
+      "year": "2025",
+      "published_date": "2025-10",
+      "journal": "Forensic Science International: Digital Investigation",
+      "url": "https://doi.org/10.1016/j.fsidi.2025.301982",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.1016/j.fsidi.2025.301982",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis"
+    },
+    {
+      "title": "Systematic Literature Review Methodology and Enabling Systems",
+      "authors": [
+        "Isha Sharma",
+        "Surabhi Sangal"
+      ],
+      "abstract": "The exponential rise in academic publications has made synthesizing knowledge and identifying research gaps increasingly challenging. The Systematic Literature Review (SLR) offers a rigorous, transparent, and reproducible approach to evidence synthesis. This chapter discusses the methodological foundations and digital systems that support SLRs, distinguishing them from narrative and scoping reviews. It details key phases such as question formulation, protocol design, search, screening, data extraction, quality appraisal, and synthesis, referencing frameworks like PRISMA 2020. Additionally, it explores the role of AI-driven tools (e.g., EPPI-Reviewer, DistillerSR, Covidence, Rayyan) in improving efficiency and scalability. The chapter concludes with challenges, ethical concerns, and future directions, emphasizing AI integration and living review methodologies.",
+      "year": "2026",
+      "published_date": "2026-2-13",
+      "journal": "Innovative Approaches to Social Research Challenges",
+      "url": "https://doi.org/10.4018/979-8-3373-6410-0.ch008",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.4018/979-8-3373-6410-0.ch008",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Ethical and Moral Evaluation of African Digital Humanities: Methodology and Preliminary Results",
+      "authors": [
+        "Kartikay Chadha",
+        "Joan Bartlett"
+      ],
+      "abstract": "This poster presents the preliminary findings of ongoing doctoral research examining the information behavior of scholars of African digital humanities (ADH). The study focuses on ethical and moral considerations in developing digital visualization tools such as GIS maps and 3D visuals showcasing information on sensitive topics such as slavery. This research employs a qualitative analysis of data collected through in-depth, semi-structured interviews aiming to 1) identify the challenges faced by scholars of African origin/descent in developing or using such visualization tools and 2) record their recommendations to address such challenges. Analyses of the first five interviews reveal prominent challenges faced by participants, including lack of technical skills, usability issues, content-related complexity, and the representation of primary source material. To overcome these challenges, the participants recommend collaboration, inclusive research designs, and involvement of community members. The five pilot interviews have allowed adjustments to the interview guide for an additional 10--13 prospective participants. This work aims to produce a guide for digital humanities scholars and professional web developers on designing efficient websites that showcase the results of historical research in an ethical and morally considerate manner.",
+      "year": "2024",
+      "published_date": "2024-12-16",
+      "journal": "ACM/IEEE Joint Conference on Digital Libraries",
+      "url": "https://www.semanticscholar.org/paper/f6dde83a3ec706b15e98bb762a1cbcc37068f4ed",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3677389.3702592",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    },
+    {
+      "title": "Adoption of AI-based chatbots for hospitality and tourism",
+      "authors": [
+        "Rajasshrie Pillai",
+        "Brijesh Sivathanu"
+      ],
+      "abstract": "Purpose This study aims to investigate the customers’ behavioral intention and actual usage (AUE) of artificial intelligence (AI)-powered chatbots for hospitality and tourism in India by extending the technology adoption model (TAM) with context-specific variables. Design/methodology/approach To understand the customers’ behavioral intention and AUE of AI-powered chatbots for tourism, the mixed-method design was used whereby qualitative and quantitative techniques were combined. A total of 36 senior managers and executives from the travel agencies were interviewed and the analysis of interview data was done using NVivo 8.0 software. A total of 1,480 customers were surveyed and the partial least squares structural equation modeling technique was used for data analysis. Findings As per the results, the predictors of chatbot adoption intention (AIN) are perceived ease of use, perceived usefulness, perceived trust (PTR), perceived intelligence (PNT) and anthropomorphism (ANM). Technological anxiety (TXN) does not influence the chatbot AIN. Stickiness to traditional human travel agents negatively moderates the relation of AIN and AUE of chatbots in tourism and provides deeper insights into manager’s commitment to providing travel planning services using AI-based chatbots. Practical implications This research presents unique practical insights to the practitioners, managers and executives in the tourism industry, system designers and developers of AI-based chatbot technologies to understand the antecedents of chatbot adoption by travelers. TXN is a vital concern for the customers; so, designers and developers should ensure that chatbots are easily accessible, have a user-friendly interface, be more human-like and communicate in various native languages with the customers. Originality/value This study contributes theoretically by extending the TAM to provide better explanatory power with human–robot interaction context-specific constructs – PTR, PNT, ANM and TXN – to examine the customers’ chatbot AIN. This is the first step in the direction to empirically test and validate a theoretical model for chatbots’ adoption and usage, which is a disruptive technology in the hospitality and tourism sector in an emerging economy such as India.",
+      "year": "2020",
+      "published_date": "2020-09-10",
+      "journal": "International Journal of Contemporary Hospitality Management",
+      "url": "https://doi.org/10.1108/ijchm-04-2020-0259",
+      "arxiv_id": "",
+      "keywords": [
+        "Chatbot",
+        "Tourism",
+        "Hospitality",
+        "Context (archaeology)",
+        "Marketing",
+        "Knowledge management",
+        "Consumer behaviour",
+        "Computer science"
+      ],
+      "citations": 855,
+      "source": "OpenAlex",
+      "doi": "10.1108/ijchm-04-2020-0259",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "authors": [
+        "Pavitra Dhamija",
+        "Surajit Bag"
+      ],
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere application of a concept will not furnish real output until and unless its performance is reviewed systematically. Technological changes are dynamic and advancing at a rapid rate. Subsequently, it becomes highly crucial to understand that where have the people reached with respect to artificial intelligence research. The present article aims to review significant work by eminent researchers towards artificial intelligence in the form of top contributing universities, authors, keywords, funding sources, journals and citation statistics. Design/methodology/approach As rightly remarked by past researchers that reviewing is learning from experience, research team has reviewed (by applying systematic literature review through bibliometric analysis) the concept of artificial intelligence in this article. A sum of 1,854 articles extracted from Scopus database for the year 2018–2019 (31st of May) with selected keywords (artificial intelligence, genetic algorithms, agent-based systems, expert systems, big data analytics and operations management) along with certain filters (subject–business, management and accounting; language-English; document–article, article in press, review articles and source-journals). Findings Results obtained from cluster analysis focus on predominant themes for present as well as future researchers in the area of artificial intelligence. Emerged clusters include Cluster 1: Artificial Intelligence and Optimization; Cluster 2: Industrial Engineering/Research and Automation; Cluster 3: Operational Performance and Machine Learning; Cluster 4: Sustainable Supply Chains and Sustainable Development; Cluster 5: Technology Adoption and Green Supply Chain Management and Cluster 6: Internet of Things and Reverse Logistics. Originality/value The result of review of selected studies is in itself a unique contribution and a food for thought for operations managers and policy makers.",
+      "year": "2020",
+      "published_date": "2020-03-06",
+      "journal": "The TQM Journal",
+      "url": "https://doi.org/10.1108/tqm-10-2019-0243",
+      "arxiv_id": "",
+      "keywords": [
+        "Artificial intelligence",
+        "Computer science",
+        "Analytics",
+        "Big data",
+        "Knowledge management",
+        "Data science",
+        "Data mining"
+      ],
+      "citations": 365,
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "timestamp": "20260413_101035"
+}

@@ -1,0 +1,219 @@
+{
+  "query_id": "Q173",
+  "query": "When a synthesis agent reports a pooled effect size from a frozen corpus, what corpus-incompleteness disclaimer is required?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "What is a heat wave: A survey and literature synthesis of heat wave definitions across the United States",
+      "authors": [
+        "Erin L. Bunting",
+        "Vasily Tolmanov",
+        "David Keellings"
+      ],
+      "abstract": "Heat waves are the last extreme weather events without a formal, on the books, definition. Instead, across the U.S. those working on extreme heat event management, forecasting, and planning are using differing definitions in their work. With such differing definitions being used there are widespread impacts including some to human and environmental health, natural resource management, and long-term emergency management planning. For instance, when should heat advisories for vulnerable populations be released when an event impacts a region using multiple definitions? There are concrete and justifiable reasons for the lack of a formal heat wave definition including, at its simplest, differences in what temperature is extreme enough, compared to the region’s climatological regimens, to be deemed as an extreme heat event or heat wave. This study looks for patterns and commonalities in emergency managers and climatologists, those most commonly addressing or planning for such events, definition of heat wave events through a review of the literature and widespread survey across the United States. Through a short 11-questions survey and subsequent text mining, we find widespread variability in the common heat wave definitions but a consistent pattern of core key term usage including aspects of heat duration, extreme temperature, and humidity. However, we also see little to no usage of non-climatological variables such as exposure, vulnerability, population, and land cover/land use.",
+      "year": "2024",
+      "published_date": "2024-09-05",
+      "journal": "PLOS Climate",
+      "url": "https://www.semanticscholar.org/paper/85c15024dc344146362050e52e766177ec168078",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 9,
+      "source": "Semantic Scholar",
+      "doi": "10.1371/journal.pclm.0000468",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis survey"
+    },
+    {
+      "title": "Effects of mosquito control using the microbial agent Bacillus thuringiensis israelensis (Bti) on aquatic and terrestrial ecosystems: a systematic review",
+      "authors": [
+        "M. Land",
+        "M. Bundschuh",
+        "R. J. Hopkins",
+        "B. Poulin",
+        "B. Mckie"
+      ],
+      "abstract": "Background The bacterium Bacillus thuringiensis serovar israelensis (Bti) is commercially produced in various formulations for use as a larvicide worldwide, targeting especially the aquatic larval stage of mosquitoes. However, there is a concern that repeated Bti treatments may have both direct and indirect impacts on non-target organisms (NTOs) and the ecosystems they inhabit. This review evaluates the evidence for such impacts. Methods Literature was searched using six bibliographic databases, two search engines, and on specialist web sites. Eligibility screening was performed in two steps on (1) title/abstract, with consistency among reviewers assessed by double-screening 557 articles and (2) full text. Articles included after full text screening were critically appraised independently by two reviewers. Disagreements were reconciled through discussions. Key parameters of included studies are presented in narrative synthesis tables, including risk of bias assessments. Meta-analyses comparing treated with untreated ecosystems and using either the raw mean difference or log response ratio as effect size were performed. Review findings Ninety-five articles covering 282 case studies were included in the review. From these, we identified 119 different response variables, which were divided into nine outcome categories. Most studies investigated NTO abundance or life history (reproduction related outcomes), but diversity and community composition are also well represented as outcome categories. The studies are highly variable in methodology, rigor, and spatio-temporal scale, spanning 1 day to 21 years and from < 1m^2 to > 10,000 m^2. Our metanalyses revealed a consistent negative effect of Bti treatment on abundances of Chironomidae and Crustacea, and also on chironomid emergence, although from a more restricted set of studies and regions. For most remaining response variables, we judged meta-analysis unfeasible, due to low study numbers or insufficient reporting of methods and results. Conclusions There is now a significant body of studies documenting effects of mosquito control using Bti on NTOs or other ecosystem properties, especially associated with negative effects on Chironomidae, as apparent from our meta-analyses. Accordingly, we suggest the potential for negative NTO or other ecosystem effects of Bti treatment should not be discounted a priori. Once a decision to proceed with Bti treatment has been taken, priority should be given to a well-designed program of ongoing monitoring and assessment. The paucity of rigorous studies conducted with low bias risk for most response variables undermines our capacity for evaluating how common many of the effects documented might be. Future research would benefit from a rigorous and well-replicated approach to studying Bti impacts in semi-field mesocosms or in the field, combined with a greater rigor in reporting key methodological details. A greater focus is needed on understanding the environmental factors which regulate the wider effects of mosquito control using Bti on NTOs and ecosystems, to enhance our capacity for predicting where and when Bti is most likely to have additional, negative and indirect ecological impacts.",
+      "year": "2023",
+      "published_date": "2023-11-22",
+      "journal": "Environmental Evidence",
+      "url": "https://www.semanticscholar.org/paper/7c6fb570454d72573cbc2a9b8910edc2931ee12e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 25,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13750-023-00319-w",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    },
+    {
+      "title": "What is the efficacy of dietary, nutraceutical, and probiotic interventions for the management of gastroesophageal reflux disease symptoms? A systematic literature review and meta-analysis.",
+      "authors": [
+        "Zoe Martin",
+        "Georgia Spry",
+        "Jen Hoult",
+        "Isabella R Maimone",
+        "Xueying Tang",
+        "Megan Crichton",
+        "Skye Marshall"
+      ],
+      "abstract": "Treatments for Gastroesophageal Reflux Disease (GERD) symptoms include pharmaceutical, surgical, dietary, and lifestyle behaviors; however, dietary interventions lack evidence synthesis. What is the effect of dietary, probiotic, and nutraceutical interventions on GERD symptoms, with or without pharmaceutical therapy, in adults with a history of GERD or functional dyspepsia compared to no intervention, placebo, or usual care? A systematic review and meta-analysis was performed according to PRISMA. The search strategy was implemented in MEDLINE, CINAHL, CENTRAL, and Embase on the 28th October 2020 and updated to 27th July 2021. Intervention studies were eligible if they evaluated the effect of a dietary, nutraceutical, or probiotic intervention on GERD symptoms in adults with a history of GERD or functional dyspepsia. The internal validity of studies was assessed using the Academy Quality Criteria Checklist; Review Manager software was used to perform meta-analysis; and certainty in the body of evidence was assessed using GRADE. 6,608 study records were retrieved from the search, with 21 studies (n = 24 highly heterogenous intervention groups) included (n = 10 restrictive dietary interventions; n = 3 non-restrictive dietary interventions; n = 8 nutraceutical interventions; and n = 3 probiotic interventions). GERD symptoms were clinically and statistically improved by a test-based elimination diet (n = 1 study), low nickel diet (n = 1 study), probiotic yoghurt (n = 1 study), psyllium husk (n = 1 study), prickly pear and olive leaf extract supplement (n = 1 study), and melatonin, amino acid and b-group vitamin supplement (n = 1 study) according to qualitative synthesis. Ginger-containing supplements could be meta-analyzed, and improved incidence of GERD symptom alleviation (n = 2 studies, OR: 7.50 [95%CI: 3.62-15.54], GRADE: high). No clinically and/or statistically significant effects were found for the remaining n = 16 highly heterogenous interventions. Evidence to guide the dietary management of GERD symptoms is limited in scope, quality, and feasibility. Based on the limited evidence available, dietary GERD management should be long-term, individualized, and consider both dietary restrictions and/or additions. CRD42021224082.",
+      "year": "2022",
+      "published_date": "2022",
+      "journal": "Clinical nutrition ESPEN",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36513474/",
+      "arxiv_id": "",
+      "keywords": [
+        "Adult",
+        "Humans",
+        "Dyspepsia",
+        "Probiotics",
+        "Gastroesophageal Reflux",
+        "Dietary Supplements",
+        "Diet",
+        "Pharmaceutical Preparations"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1016/j.clnesp.2022.09.015",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Interventions to improve referrals from primary care to outpatient specialist services for chronic conditions: a systematic review and framework synthesis update",
+      "authors": [
+        "Layla Bolton Saghdaoui",
+        "S. Lampridou",
+        "S. Tavares",
+        "Rachael Lear",
+        "Alun Davies",
+        "Mary Wells",
+        "Sarah Onida"
+      ],
+      "abstract": "Prior systematic reviews highlight that accessing specialist healthcare to treat chronic conditions can be obstructed by variations in referral rates, inappropriate referrals, and poor communication. Structured referral proformas, peer feedback, and educational interventions involving specialists have been identified as successful strategies for improving referral rates and appropriateness. However, the success of such interventions is often dependent on specific clinical contexts, and little is known about the practicalities of implementation. Additionally, with advancements in healthcare delivery, such as e-referral systems, there is a need to explore new interventions and how they address barriers to referral. This systematic review evaluated the updated evidence exploring interventions aiming to improve rates and/or appropriateness of referral from primary care to specialist services in patients with chronic conditions.Five academic databases were searched (CINAHL, MEDLINE, Embase, British Nursing Index, and Public Health Database), and studies published in English between 2013 and 2023 were included. The Joanna Briggs Institute’s appraisal tool was used to assess the quality of studies, and a narrative synthesis was conducted using the TiDiER framework (template for intervention description and replication). Eighteen full-text publications and five abstracts were included. A behavioral theory or framework for intervention development was used in seven studies. All interventions were based on primary care, and thirteen studies evaluated a multi-component intervention. Process and system changes were most commonly used to improve referral, including electronic health systems, referral algorithms, collaborative working, and patient direct access. Interventions targeted at patients were the least common. Staff education was often used in addition to process and system changes. When used alone, referral algorithms and staff education were less effective at improving referral rates or appropriateness. Implementation barriers included time constraints, logistical issues, and patients/staff preconceived perceptions of referral necessity. Unsurprisingly, the success of interventions aimed at improving referral practices is based on contextual circumstances, and as with previous reviews, there is no one-size-fits-all approach.Given the challenges highlighted in this review, multi-component interventions addressing referral barriers in both primary and secondary care appear to be a successful way to improve referral practices. PROSPERO CRD42023480493",
+      "year": "2025",
+      "published_date": "2025-05-09",
+      "journal": "Systematic Reviews",
+      "url": "https://www.semanticscholar.org/paper/248f02623e84150c4ff8bad62a61038922b2d66b",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13643-025-02841-z",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "ResearchPilot: A Local-First Multi-Agent System for Literature Synthesis and Related Work Drafting",
+      "authors": [
+        "Peng Zhang"
+      ],
+      "abstract": "ResearchPilot is an open-source, self-hostable multi-agent system for literature-review assistance. Given a natural-language research question, it retrieves papers from Semantic Scholar and arXiv, extracts structured findings from paper abstracts, synthesizes cross-paper patterns, and drafts a citation-aware related-work section. The system combines FastAPI, Next.js, DSPy, SQLite, and Qdrant in a local-first architecture that supports bring-your-own-key model access and remote-or-local embeddings. This paper describes the system design, typed agent interfaces, persistence and history-search mechanisms, and the engineering tradeoffs involved in building a transparent research assistant. Rather than claiming algorithmic novelty, we present ResearchPilot as a systems contribution and evaluate it through automated tests and end-to-end local runs. We discuss limitations including external API rate limits, abstract-only extraction, incomplete corpus coverage, and the lack of citation verification.",
+      "year": "2026",
+      "published_date": "2026-03-15",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/d832f04fd4950a30e1719cdd4c319557010abe9f",
+      "arxiv_id": "2603.14629",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "id": "wf_qk3e_000035073481",
+      "title": "When affordances are not universal: The negative compatibility effect is modulated by task type and spatial association",
+      "abstract": "Humans prepare motor actions when perceiving objects that afford specific behaviors, highlighting the tight link between perception and action. For example, seeing a graspable object like a mug can  trigger hand movements aligned to its handle – a phenomenon known as the object affordance effect. Vainio et al. (Quarterly Journal of Experimental Psychology64, 1094–1110, 2011) demonstrated this can  produce a negative compatibility effect (NCE). This occurs when a spatially compatible prime object eliciting an affordance (e.g., a mug), but to be ignored, precedes a target requiring a spatial response.  Given that task demands shape response execution (e.g., Schöpper & Frings, Attention, Perception & Psychophysics, 86, 171–185, 2024), we hypothesized that the effect of affordance would vary accordingly.  In Experiment 1, participants performed three tasks: arrow direction discrimination, shape discrimination, and circle localization. In all tasks, the time interval between the affordance object (a mug)",
+      "authors": [
+        "Belgüzar Nilay Türkan",
+        "Lars-Michael Schöpper",
+        "Lari Vainio",
+        "Christian Frings"
+      ],
+      "year": 2026,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.3758/s13414-025-03202-7",
+      "doi": "10.3758/s13414-025-03202-7",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "Motor inhibition-facilitation",
+        "Affordance",
+        "Task dependency",
+        "Stimulus—response compatibility",
+        "Spatial associations"
+      ],
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND research synthesis"
+    },
+    {
+      "title": "Empathy in Social Entrepreneurship: Evidence from a Systematic Review with Structured Narrative Synthesis",
+      "authors": [
+        "Alireza Kheirabadi"
+      ],
+      "abstract": "AbstractBackground: Empathy is often treated as a personal resource that should support social entrepreneurship. Still, the literature uses “empathy” in non-equivalent ways, and many studies embed it inside intention models rather than measuring it as an independent construct. This review synthesizes the empirical evidence while keeping those operational differences explicit.Methods: We conducted a systematic review with structured narrative synthesis. The protocol was registered in Prospective Register of Systematic Reviews (PROSPERO). Scopus and PubMed were searched from inception up to January 2024 (English-language records). Quantitative studies were included if they assessed empathy and social entrepreneurship or closely related outcomes. Data were extracted into a standardized table, and empathy operationalization was coded as embedded, independent, or both. Outcomes were grouped as intention-focused versus broader endpoints. We used narrative synthesis because studies differed in measures, outcome definitions, and reporting, with many estimating indirect pathways in structural models. Methodological quality was appraised using the Joanna Briggs Institute checklist for analytical cross-sectional studies.Results: Twenty-five reports contributed 26 study entries. Most studies were cross-sectional surveys and focused on social entrepreneurial intention. When empathy was embedded within intention models, its direct association with intention was often model-dependent, with feasibility and normative pathways playing a prominent role. Recurring mediators included social entrepreneurial self-efficacy and moral obligation, while perceived social support and creativity appeared in a smaller subset. Evidence beyond intention was limited and heterogeneous, spanning control and feasibility-related outcomes, nascent behavior, implementation, and performance-oriented indicators. Quality appraisal suggested that measurement and statistical methods were generally acceptable, although confounding control was often limited or incompletely specified.Conclusion: Empathy appears relevant to social entrepreneurship, but it does not behave as a uniform predictor across operationalizations and models. Future work would benefit from clearer measurement choices, stronger confound handling, designs that move beyond single-wave self-report data, and more behavioral and implementation-oriented outcomes.Keywords: empathy; social entrepreneurship; social entrepreneurial intention; social entrepreneurial self-efficacy; moral obligation; perceived social support; structured narrative synthesis; Theory of Planned Behavior",
+      "year": "2025",
+      "published_date": "2025-12-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.31219/osf.io/v2byr_v3",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.31219/osf.io/v2byr_v3",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "INNV-39. INVESTIGATING MULTI-AGENT INTRATHECAL CHEMOTHERAPY AS A TREATMENT FOR PRIMARY AND SECONDARY CENTRAL NERVOUS SYSTEM LYMPHOMA: SAFETY AND EFFICACY RESULTS FROM AN INSTITUTIONAL COHORT STUDY",
+      "authors": [
+        "H. Wilding",
+        "A. Aastha",
+        "L. D. M. de Macêdo Filho",
+        "D. Bhanja",
+        "Madison Heebner",
+        "Shahbaz Khan",
+        "N. Mikolajewicz",
+        "V. Ignatchenko",
+        "T. Kislinger",
+        "M. Glantz",
+        "A. Mansouri"
+      ],
+      "abstract": "\n \n \n Despite exquisite responses to initial therapy for CNS lymphoma, relapse is common and overall responses are disappointing compared to non-CNS diffuse large B-cell lymphomas. Literature reports 1 and 3 year survival rates of 50% and 30-40% respectively, with standard treatment. Intravenous, high-dose-methotrexate-based therapies have become the standard of care, with many variations but no consensus. Incorporation of multi-agent intrathecal chemotherapy (MAITC) alongside systemic therapy is novel but not widely adopted. We report our institutional data on safety and efficacy of MAITC in CNS lymphoma.\n \n \n \n A retrospective review of patients with primary or secondary CNS lymphoma, treated with MAITC between August 2015 and December 2021, was conducted. Each cycle includes alternating combinations of 2-3 of the following drugs: methotrexate, rituximab, cytarabine, etoposide, topotecan, gemcitabine, and thiotepa, via ommaya reservoir. Log-rank tests and Cox regression were used to evaluate survival differences.\n \n \n \n 59 patients were reviewed (21 primary; 38 secondary CNS lymphoma). Median age at start of MAITC was 66 years (range 25-90). Only six patients received external beam radiation (EBRT). Median MAITC cycles was 8 (range 2-23). 76% of patients with primary and 66% with secondary CNS lymphoma were alive 1 year after starting MAITC. Of 37 eligible patients, 17 (46%) were alive 3 years after starting MAITC. After a median 19.2 months follow-up, median OS was not reached. No significant difference was noted in OS between primary and secondary CNS lymphoma. KPS > 80 was positively while leptomeningeal disease, secondary CNS lymphoma, and EBRT were negatively associated with OS. Ommaya-related infections occurred in 8 patients (13.5%); only 1 required removal.\n \n \n \n Based on our institutional data, MAITC can potentially offer a significant OS advantage with minimal safety concerns. Factors associated with poor survival were identified, which are being addressed in a larger dataset along with baseline CSF biomarkers.\n",
+      "year": "2023",
+      "published_date": "2023-11-01",
+      "journal": "Neuro-Oncology",
+      "url": "https://www.semanticscholar.org/paper/cde2677f784e489cbb3be8774919cb987dc5534e",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1093/neuonc/noad179.0628",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    }
+  ],
+  "timestamp": "20260413_162122"
+}

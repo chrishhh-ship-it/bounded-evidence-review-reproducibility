@@ -1,0 +1,223 @@
+{
+  "query_id": "Q171",
+  "query": "What are the evidence requirements for choosing a fixed-effects versus random-effects model in an automated meta-analysis synthesis?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Transforming Evidence Synthesis: A Systematic Review of the Evolution of Automated Meta-Analysis in the Age of AI",
+      "authors": [
+        "Lingbo Li",
+        "A. Mathrani",
+        "Teo Sušnjak"
+      ],
+      "abstract": "Exponential growth in scientific literature has heightened the demand for efficient evidence-based synthesis, driving the rise of the field of Automated Meta-analysis (AMA) powered by natural language processing and machine learning. This PRISMA systematic review introduces a structured framework for assessing the current state of AMA, based on screening 978 papers from 2006 to 2024, and analyzing 54 studies across diverse domains. Findings reveal a predominant focus on automating data processing (57%), such as extraction and statistical modeling, while only 17% address advanced synthesis stages. Just one study (2%) explored preliminary full-process automation, highlighting a critical gap that limits AMA's capacity for comprehensive synthesis. Despite recent breakthroughs in large language models (LLMs) and advanced AI, their integration into statistical modeling and higher-order synthesis, such as heterogeneity assessment and bias evaluation, remains underdeveloped. This has constrained AMA's potential for fully autonomous meta-analysis. From our dataset spanning medical (67%) and non-medical (33%) applications, we found that AMA has exhibited distinct implementation patterns and varying degrees of effectiveness in actually improving efficiency, scalability, and reproducibility. While automation has enhanced specific meta-analytic tasks, achieving seamless, end-to-end automation remains an open challenge. As AI systems advance in reasoning and contextual understanding, addressing these gaps is now imperative. Future efforts must focus on bridging automation across all meta-analysis stages, refining interpretability, and ensuring methodological robustness to fully realize AMA's potential for scalable, domain-agnostic synthesis.",
+      "year": "2025",
+      "published_date": "2025-04-28",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/cbc9b68c69c564c285f97e4891835ae41cd8fa29",
+      "arxiv_id": "2504.20113",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2504.20113",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "Accelerating Evidence Synthesis: A BERT-Assisted Workflow for Meta-Analyses of Radiotherapy Complications in Nasopharyngeal Carcinoma",
+      "authors": [
+        "Tsair-Fwu Lee",
+        "Wen-Ping Yun",
+        "Hung-Wei Hsu",
+        "Jyun-Jie Wu",
+        "Ya-Shin Kuan",
+        "Yi-Lun Liao",
+        "C. Wuu",
+        "Liyun Chang",
+        "Yang-Wei Hsieh",
+        "Pei-Ju Chao"
+      ],
+      "abstract": "Background/Objectives: This study developed and evaluated a BERT-assisted literature screening workflow to support meta-analyses of postradiotherapy complications in nasopharyngeal carcinoma patients. The aim was to automate key screening steps to improve downstream screening efficiency and consistency, while minimizing time and bias during manual reviews. Materials and Methods: A bidirectional encoder representations from transformers (BERT) model was integrated into a standard systematic review pipeline for studies on postradiotherapy complications in nasopharyngeal carcinoma. The workflow combined automated BERT-based classification with manual verification and followed PRISMA and PICOS guidelines for literature identification, screening, and eligibility assessment. Model training involved hyperparameter tuning and comparison of different optimizers to maximize screening performance against a manually curated reference set, with particular attention to discrimination (AUC) and processing time. Results: From an initial corpus of 6496 records, the combined automated and manual workflow identified 23 eligible studies for meta-analysis. The included studies showed substantial heterogeneity (I2 = 86.85%), supporting the use of a random-effects model to pool outcomes. The BERT model optimized with an Adagrad optimizer achieved an AUC of 0.77 for relevant-study classification and reduced screening time to 1142 s. To demonstrate the workflow’s utility, a downstream meta-analysis was conducted using the identified studies. As a downstream application based on the identified studies, a quantitative synthesis was conducted, in which (meta-analysis of the 23 included studies), a random forest model—evaluated across those studies—achieved an AUC of 0.92 under a fixed-effect analysis for predicting postradiotherapy complications. Conclusions: Integrating BERT into the literature screening phase of meta-analysis for postradiotherapy nasopharyngeal carcinoma complications markedly improved screening efficiency while maintaining acceptable classification performance. This workflow demonstrates the feasibility of transformer-based assistance for systematic reviews and provides a foundation for developing disease-specific, AI-augmented evidence synthesis pipelines in oncology.",
+      "year": "2026",
+      "published_date": "2026-03-01",
+      "journal": "Reports",
+      "url": "https://www.semanticscholar.org/paper/c447e19c9add9eff42fda5e20e05b225b4b7d518",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/reports9010090",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Model‐Based Network Meta‐Analysis: A Framework for Evidence Synthesis of Clinical Trial Data",
+      "authors": [
+        "D. Mawdsley",
+        "M. Bennetts",
+        "S. Dias",
+        "M. Boucher",
+        "N. Welton"
+      ],
+      "abstract": "Model‐based meta‐analysis (MBMA) is increasingly used in drug development to inform decision‐making and future trial designs, through the use of complex dose and/or time course models. Network meta‐analysis (NMA) is increasingly being used by reimbursement agencies to estimate a set of coherent relative treatment effects for multiple treatments that respect the randomization within the trials. However, NMAs typically either consider different doses completely independently or lump them together, with few examples of models for dose. We propose a framework, model‐based network meta‐analysis (MBNMA), that combines both approaches, that respects randomization, and allows estimation and prediction for multiple agents and a range of doses, using plausible physiological dose‐response models. We illustrate our approach with an example comparing the efficacies of triptans for migraine relief. This uses a binary endpoint, although we note that the model can be easily modified for other outcome types.",
+      "year": "2016",
+      "published_date": "2016-05-19",
+      "journal": "CPT: Pharmacometrics & Systems Pharmacology",
+      "url": "https://www.semanticscholar.org/paper/219f66a0f5b742312e7b8bc20308579fb960cd3e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "citations": 124,
+      "source": "Semantic Scholar",
+      "doi": "10.1002/psp4.12091",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Eligibility-Aware Evidence Synthesis: An Agentic Framework for Clinical Trial Meta-Analysis",
+      "authors": [
+        "Yao Zhao",
+        "Zhiyue Zhang",
+        "Yanxun Xu"
+      ],
+      "abstract": "Clinical evidence synthesis requires identifying relevant trials from large registries and aggregating results that account for population differences. While recent LLM-based approaches have automated components of systematic review, they do not support end-to-end evidence synthesis. Moreover, conventional meta-analysis weights studies by statistical precision without considering clinical compatibility reflected in eligibility criteria. We propose EligMeta, an agentic framework that integrates automated trial discovery with eligibility-aware meta-analysis, translating natural-language queries into reproducible trial selection and incorporating eligibility alignment into study weighting to produce cohort-specific pooled estimates. EligMeta employs a hybrid architecture separating LLM-based reasoning from deterministic execution: LLMs generate interpretable rules from natural-language queries and perform schema-constrained parsing of trial metadata, while all logical operations, weight computations, and statistical pooling are executed deterministically to ensure reproducibility. The framework structures eligibility criteria and computes similarity-based study weights reflecting population alignment between target and comparator trials. In a gastric cancer landscape analysis, EligMeta reduced 4,044 candidate trials to 39 clinically relevant studies through rule-based filtering, recovering all 13 guideline-cited trials. In an olaparib adverse events meta-analysis across four trials, eligibility-aware weighting shifted the pooled risk ratio from 2.18 (95% CI: 1.71-2.79) under conventional Mantel-Haenszel estimation to 1.97 (95% CI: 1.76-2.20), demonstrating quantifiable impact of incorporating eligibility alignment. EligMeta bridges automated trial discovery with eligibility-aware meta-analysis, providing a scalable and reproducible framework for evidence synthesis in precision medicine.",
+      "year": "2026",
+      "published_date": "2026-04-03",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2604.02678v1",
+      "arxiv_id": "2604.02678v1",
+      "keywords": [
+        "stat.ME",
+        "cs.AI",
+        "stat.AP"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "clinical evidence review multi-agent"
+    },
+    {
+      "title": "Effects of antioxidant consumption on physical rehabilitation variables and quality of life in people with osteoarthritis: Protocol for a systematic review with meta-analysis",
+      "authors": [
+        "Cristóbal Riquelme-Hernández",
+        "J. P. Reyes-Barría",
+        "Abner Vargas",
+        "Luz Ortiz",
+        "Caroline Yans",
+        "Iván Cuyul-Vásquez",
+        "Daniel Reyes-Molina",
+        "Rafael Zapata-Lamana",
+        "Carolina Muñoz Pérez",
+        "I. Cigarroa"
+      ],
+      "abstract": "\n Introduction Antioxidants have emerged as potentially beneficial options. Present in both foods and supplements, these molecules can neutralize free radicals and modulate inflammatory processes, both of which are implicated in the pathophysiology of osteoarthritis. Although the results of antioxidants have been promising, the current evidence remains heterogeneous and sometimes inconsistent. Therefore, it is necessary to integrate and critically analyze the available data. Objective This systematic review protocol with meta-analysis aims to describe the methodology necessary to analyze the effects of antioxidant intervention compared with usual medical care on pain, physical function, and quality of life in people with osteoarthritis. Methods In conducting this literature synthesis, a comprehensive search will be executed across the Medline databases via PubMed, Scopus, Web of Sciences, ScienceDirect, and EBSCO to identify randomized clinical trials that satisfy the predetermined eligibility criteria. Primary outcomes, including pain, physical function, and quality of life, and secondary outcomes, such as clinical modifications, will be analyzed. The quality of the selected studies will be evaluated using the ROB-2 risk of bias tool, and the certainty of the evidence will be assessed through the GRADE method. A meta-analysis will be conducted using either a fixed- or random-effects model, depending on the degree of heterogeneity. Heterogeneity will be assessed using the I\n 2\n statistic. If the outcome assessment method is homogeneous, the mean difference (MD) with a 95% confidence interval will be utilized; otherwise, the standardized mean difference (SMD) will be employed to calculate the effect size. Discussion Osteoarthritis imposes a substantial clinical and socioeconomic burden, and antioxidants are increasingly recognized as potential adjuvants owing to their safety and anti-inflammatory properties. The findings of this systematic review and meta-analysis based on this protocol will aid in determining the extent of the impact of antioxidant consumption in pertinent clinical practice.\n PROSPERO registration:\n CRD420251035393\n",
+      "year": "2025",
+      "published_date": "2025-12-09",
+      "journal": "F1000Research",
+      "url": "https://www.semanticscholar.org/paper/96bd3d9d51c61f9ff362787ccd275d10b790ebd6",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.12688/f1000research.173013.1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Intersex people or khunthā in the Middle East – How they are perceived, accepted, & treated: qualitative evidence synthesis & framework analysis",
+      "authors": [
+        "Alexander Woodman"
+      ],
+      "abstract": "ABSTRACT In Islamic fiqh (jurisprudence), an intersex person is called a khunthā. This research aimed to synthesise the existing literature exploring data on khunthā in the Middle East on how they are perceived, accepted, and treated. Qualitative Evidence Synthesis and Framework Analysis. Five electronic literature databases were searched, covering the fields of healthcare sciences, ethics, and religion from 2016 to 2022. Guided by the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA), six studies were selected for final review and framework analysis. The framework analysis (FA) of included studies resulted in three themes and nine sub-themes: 1) ‘Gender manifestation’ - (i) Parental role and influence, (ii) Health outcomes of experiments, (iii) Socio-cultural prejudice; 2) ‘Physicians as decision makers’ - (i) Experiments vs. knowledge, (ii) Intersex vs. khunthā vs. DSD, (iii) Fixing dysfunctional gender; 3) ‘Islamic bioethics’ - (i) Legal and financial importance of gender, (ii) Scientific evidence vs. symbols, (iii) Medical ethics. Parents and physicians’ decisions are heavily influenced by socio-cultural attitudes about sex and gender, with a lack of sensibility for intersex persons at the later stages of their lives, and attempts to conceal this ‘imperfection’ by ‘fixing dysfunctional gender’.",
+      "year": "2024",
+      "published_date": "2024-05-01",
+      "journal": "Psychology &amp; Sexuality",
+      "url": "https://www.semanticscholar.org/paper/3c9d3967eceb1b340e002e1af923b3631e7e4c1b",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1080/19419899.2024.2347963",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Real-World Evidence of the Clinical and Economic Impact of Long-Acting Injectable Versus Oral Antipsychotics Among Patients with Schizophrenia in the United States: A Systematic Review and Meta-Analysis.",
+      "authors": [
+        "Dee Lin",
+        "Philippe Thompson-Leduc",
+        "Isabelle Ghelerter",
+        "Ha Nguyen",
+        "Marie-Hélène Lafeuille",
+        "Carmela Benson",
+        "Panagiotis Mavros",
+        "Patrick Lefebvre"
+      ],
+      "abstract": "Long-acting injectable (LAI) antipsychotics, compared with oral antipsychotics (OA), have been found to significantly improve patient outcomes, including reduced hospitalizations and emergency room (ER) admissions and increased medication adherence among adult patients with schizophrenia. In turn, the clinical benefits achieved may translate into lower economic burden. Real-world evidence of the comparative effectiveness of LAI is needed to understand the potential benefits of LAI outside of the context of clinical trials. This study aimed to provide a comprehensive synthesis of recent published real-world studies comparing healthcare utilization, costs, and adherence between patients with schizophrenia treated with LAI versus OA in the United States. In this systematic literature review, MEDLINE A total of 1083 articles were identified by the electronic literature search, and two publications were manually added subsequently. Among the 57 publications meeting the inclusion criteria, 25 provided sufficient information for inclusion in the meta-analyses. Compared with patients treated with OA, patients initiated on LAI had lower odds of hospitalization (odds ratio [OR] 0.62, 95% confidence interval [CI] 0.54-0.71, n = 7), fewer hospitalizations (incidence rate ratio [IRR] [95% CI] 0.75 [0.65-0.88], n = 9), and fewer ER admissions (IRR [95% CI] 0.86 [0.77-0.97], n = 6). The initiation of LAI was associated with higher per-patient-per-year (PPPY) pharmacy costs (mean difference [MD] [95% CI] $5603 [3799-7407], n = 6), which was offset by lower PPPY medical costs (MD [95% CI] - $5404 [- 7745 to - 3064], n = 6), resulting in no significant net difference in PPPY total all-cause healthcare costs between patients treated with LAI and those treated with OA (MD [95% CI] $327 [- 1565 to 2219], n = 7). Patients initiated on LAI also had higher odds of being adherent to their medication (PDC ≥ 80%; OR [95% CI] 1.89 [1.52-2.35], n = 9). A sensitivity analysis on a subset of publications evaluating PP1M found results similar to those of the main analysis conducted at the LAI class level. Based on multiple studies with varying sub-types of patient populations with schizophrenia in the United States published in the last decade, this meta-analysis demonstrated that LAI antipsychotics were associated with improved medication adherence and significant clinical benefit such as reduced hospitalizations and ER admissions compared with OA. The lower medical costs offset the higher pharmacy costs, resulting in a non-significant difference in total healthcare costs. Taken together, these findings provide strong evidence on the clinical and economic benefits of LAI compared with OA for the treatment of schizophrenia in the real world.",
+      "year": "2021",
+      "published_date": "2021",
+      "journal": "CNS drugs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33909272/",
+      "arxiv_id": "",
+      "keywords": [
+        "Antipsychotic Agents",
+        "Delayed-Action Preparations",
+        "Emergency Service, Hospital",
+        "Health Care Costs",
+        "Hospitalization",
+        "Humans",
+        "Injections",
+        "Medication Adherence"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1007/s40263-021-00815-y",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "The presence and potential impact of psychological safety in the healthcare setting: an evidence synthesis",
+      "authors": [
+        "K. Grailey",
+        "E. Murray",
+        "T. Reader",
+        "S. Brett"
+      ],
+      "abstract": "Introduction Psychological safety is the shared belief that the team is safe for interpersonal risk taking. Its presence improves innovation and error prevention. This evidence synthesis had 3 objectives: explore the current literature regarding psychological safety, identify methods used in its assessment and investigate for evidence of consequences of a psychologically safe environment. Methods We searched multiple trial registries through December 2018. All studies addressing psychological safety within healthcare workers were included and reviewed for methodological limitations. A thematic analysis approach explored the presence of psychological safety. Content analysis was utilised to evaluate potential consequences. Results We included 62 papers from 19 countries. The thematic analysis demonstrated high and low levels of psychological safety both at the individual level in study participants and across the studies themselves. There was heterogeneity in responses across all studies, limiting generalisable conclusions about the overall presence of psychological safety. A wide range of methods were used. Twenty-five used qualitative methodology, predominantly semi-structured interviews. Thirty quantitative or mixed method studies used surveys. Ten studies inferred that low psychological safety negatively impacted patient safety. Nine demonstrated a significant relationship between psychological safety and team outcomes. The thematic analysis allowed the development of concepts beyond the content of the original studies. This analytical process provided a wealth of information regarding facilitators and barriers to psychological safety and the development of a model demonstrating the influence of situational context. Discussion This evidence synthesis highlights that whilst there is a positive and demonstrable presence of psychological safety within healthcare workers worldwide, there is room for improvement. The variability in methods used demonstrates scope to harmonise this. We draw attention to potential consequences of both high and low psychological safety. We provide novel information about the influence of situational context on an individual’s psychological safety and offer more detail about the facilitators and barriers to psychological safety than seen in previous reviews. There is a risk of participation bias - centres involved in safety research may be more aligned to these ideals. The data in this synthesis are useful for institutions looking to improve psychological safety by providing a framework from which modifiable factors can be identified.",
+      "year": "2021",
+      "published_date": "2021-08-05",
+      "journal": "BMC Health Services Research",
+      "url": "https://www.semanticscholar.org/paper/dcadab90e5858320cda37456394a6dadeda83f03",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 149,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s12913-021-06740-6",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    }
+  ],
+  "timestamp": "20260413_135805"
+}

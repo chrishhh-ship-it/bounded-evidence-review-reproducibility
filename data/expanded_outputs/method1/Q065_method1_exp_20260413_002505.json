@@ -1,0 +1,220 @@
+{
+  "query_id": "Q065",
+  "query": "如何在不增加 API 调用次数的前提下，同时提升文献综述的覆盖率和引用精确率？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Agent-Diff: Benchmarking LLM Agents on Enterprise API Tasks via Code Execution with State-Diff-Based Evaluation",
+      "authors": [
+        "Hubert M. Pysklo",
+        "Artem Zhuravel",
+        "Patrick D. Watson"
+      ],
+      "abstract": "We present Agent-Diff, a novel benchmarking framework for evaluating agentic Large Language Models (LLMs) on real-world productivity software API tasks via code execution. Agentic LLM performance varies due to differences in models, external tool access, prompt structures, and agentic frameworks. Benchmarks must make fundamental trade-offs between a sandboxed approach that controls for variation in software environments and more ecologically valid approaches employing real services. Agent-Diff attempts to capture the desirable features of both of these approaches by including access to the real API interfaces for software services while sandboxing the environment in which calls are made, processed, and evaluated. This approach relies on two key innovations. The first is a novel state-diff contract, which separates process from outcome - rather than fuzzy trace or parameter matching, we define task success as whether the expected change in environment state was achieved. The second is a novel sandbox built on containerized replicas of enterprise APIs, allowing all models to interact with the same service interfaces through code execution. This enables controlled evaluation against a common set of state-diff contracts while preserving the structure of real-world API interaction. Using the Agent-Diff framework, we provide benchmarks for nine LLMs across 224 tasks utilizing enterprise software workflows. In addition, we evaluate the robustness of the framework with ablation experiments to assess the contribution of access to API documentation on benchmark performance. Code and data: https://github.com/agent-diff-bench/agent-diff.",
+      "year": "2026",
+      "published_date": "2026-02-11",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2602.11224v2",
+      "arxiv_id": "2602.11224v2",
+      "keywords": [
+        "cs.SE",
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "A Review of Microsoft Academic Services for Science of Science Studies",
+      "authors": [
+        "Kuansan Wang",
+        "Z. Shen",
+        "Chiyuan Huang",
+        "Chieh‐Han Wu",
+        "Darrin Eide",
+        "Yuxiao Dong",
+        "Junjie Qian",
+        "Anshul Kanakia",
+        "Alvin Chen",
+        "Richard Rogahn"
+      ],
+      "abstract": "Since the relaunch of Microsoft Academic Services (MAS) 4 years ago, scholarly communications have undergone dramatic changes: more ideas are being exchanged online, more authors are sharing their data, and more software tools used to make discoveries and reproduce the results are being distributed openly. The sheer amount of information available is overwhelming for individual humans to keep up and digest. In the meantime, artificial intelligence (AI) technologies have made great strides and the cost of computing has plummeted to the extent that it has become practical to employ intelligent agents to comprehensively collect and analyze scholarly communications. MAS is one such effort and this paper describes its recent progresses since the last disclosure. As there are plenty of independent studies affirming the effectiveness of MAS, this paper focuses on the use of three key AI technologies that underlies its prowess in capturing scholarly communications with adequate quality and broad coverage: (1) natural language understanding in extracting factoids from individual articles at the web scale, (2) knowledge assisted inference and reasoning in assembling the factoids into a knowledge graph, and (3) a reinforcement learning approach to assessing scholarly importance for entities participating in scholarly communications, called the saliency, that serves both as an analytic and a predictive metric in MAS. These elements enhance the capabilities of MAS in supporting the studies of science of science based on the GOTO principle, i.e., good and open data with transparent and objective methodologies. The current direction of development and how to access the regularly updated data and tools from MAS, including the knowledge graph, a REST API and a website, are also described.",
+      "year": "2019",
+      "published_date": "2019-12-03",
+      "journal": "Frontiers in Big Data",
+      "url": "https://doi.org/10.3389/fdata.2019.00045",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "World Wide Web",
+        "Data science",
+        "Scholarly communication",
+        "Inference",
+        "Artificial intelligence",
+        "Publishing"
+      ],
+      "citations": 144,
+      "source": "OpenAlex",
+      "doi": "10.3389/fdata.2019.00045",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_88bf2a71fd",
+      "title": "Agent kb: Leveraging cross-domain experience for agentic problem solving",
+      "abstract": "… As artificial intelligence advances, language agents are … We propose the Agent Knowledge Base (AGENT KB), a hierarchical … All services used in this work rely on third-party API calls to …",
+      "authors": [
+        "X Tang",
+        "T Qin",
+        "T Peng",
+        "Z Zhou",
+        "D Shao",
+        "T Du"
+      ],
+      "year": 2025,
+      "journal": "X Tang, T Qin, T Peng, Z Zhou, D Shao, T Du… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "citations": 50,
+      "url": "https://arxiv.org/abs/2507.06229",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Short Research on Voice Control System Based on Artificial Intelligence Assistant",
+      "authors": [
+        "Tae-Kook Kim"
+      ],
+      "abstract": "This paper proposes a voice control system based on artificial intelligence (AI) assistant. The AI assistant system using Google Assistant, a representative service of open API artificial intelligence, and the conditional auto-run system, IFTTT(IF This, Then That) was designed. It cost-effectively implemented the system using Raspberry Pi, voice recognition module, and open software. The proposed system is expected to be applied to various control systems based on voice recognition.",
+      "year": "2020",
+      "published_date": "2020-01-01",
+      "journal": "2020 International Conference on Electronics, Information, and Communication (ICEIC)",
+      "url": "https://doi.org/10.1109/iceic49074.2020.9051160",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Raspberry pi",
+        "Control (management)",
+        "Software",
+        "Control system",
+        "Speaker recognition",
+        "Artificial intelligence",
+        "Voice command device"
+      ],
+      "citations": 25,
+      "source": "OpenAlex",
+      "doi": "10.1109/iceic49074.2020.9051160",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant"
+    },
+    {
+      "title": "AutoMisty: A Multi-Agent LLM Framework for Automated Code Generation in the Misty Social Robot",
+      "authors": [
+        "Xiao Wang",
+        "Lu Dong",
+        "Sahana Rangasrinivasan",
+        "Ifeoma Nwogu",
+        "Srirangaraj Setlur",
+        "Venugopal Govindaraju"
+      ],
+      "abstract": "The social robot’s open API allows users to customize open-domain interactions. However, it remains inaccessible to those without programming experience. We introduce AutoMisty, the first LLM-powered multi-agent framework that converts natural-language commands into executable Misty robot code by decomposing high-level instructions, generating sub-task code, and integrating everything into a deployable program. Each agent employs a two-layer optimization mechanism: first, a self-reflective loop that instantly validates and automatically executes the generated code, regenerating whenever errors emerge; second, human review for refinement and final approval, ensuring alignment with user preferences and preventing error propagation. To evaluate AutoMisty’s effectiveness, we designed a benchmark task set spanning four levels of complexity and conducted experiments in a real Misty robot environment. Extensive evaluations demonstrate that AutoMisty not only consistently generates high-quality code but also enables precise code control, significantly outperforming direct reasoning with ChatGPT-4o and ChatGPT-o1. All code, optimized APIs, and experimental videos will be publicly released through the webpage: AutoMisty.",
+      "year": "2025",
+      "published_date": "2025-03-09",
+      "journal": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+      "url": "https://www.semanticscholar.org/paper/5406ab3a490ade1a141eccedf7f1f69582ab2f5d",
+      "arxiv_id": "2503.06791",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/IROS60139.2025.11247695",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "Parrot: Efficient Serving of LLM-based Applications with Semantic Variable",
+      "authors": [
+        "Chaofan Lin",
+        "Zhenhua Han",
+        "C. R. Zhang",
+        "Yuqing Yang",
+        "Fan Yang",
+        "Chen Chen",
+        "Lili Qiu"
+      ],
+      "abstract": "The rise of large language models (LLMs) has enabled LLM-based applications (a.k.a. AI agents or co-pilots), a new software paradigm that combines the strength of LLM and conventional software. Diverse LLM applications from different tenants could design complex workflows using multiple LLM requests to accomplish one task. However, they have to use the over-simplified request-level API provided by today's public LLM services, losing essential application-level information. Public LLM services have to blindly optimize individual LLM requests, leading to sub-optimal end-to-end performance of LLM applications. This paper introduces Parrot, an LLM service system that focuses on the end-to-end experience of LLM-based applications. Parrot proposes Semantic Variable, a unified abstraction to expose application-level knowledge to public LLM services. A Semantic Variable annotates an input/output variable in the prompt of a request, and creates the data pipeline when connecting multiple LLM requests, providing a natural way to program LLM applications. Exposing Semantic Variables to the public LLM service allows it to perform conventional data flow analysis to uncover the correlation across multiple LLM requests. This correlation opens a brand-new optimization space for the end-to-end performance of LLM-based applications. Extensive evaluations demonstrate that Parrot can achieve up to an order-of-magnitude improvement for popular and practical use cases of LLM applications.",
+      "year": "2024",
+      "published_date": "2024-05-30",
+      "journal": "arXiv (Cornell University)",
+      "url": "https://doi.org/10.48550/arxiv.2405.19888",
+      "arxiv_id": "",
+      "keywords": [
+        "Variable (mathematics)",
+        "Computer science",
+        "Mathematics"
+      ],
+      "citations": 5,
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2405.19888",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "wf_jzgc202532047",
+      "title": "基于大语言模型的桌面教学助理系统设计与应用研究",
+      "abstract": "随着大语言模型(Large Language Model,LLM)在教育领域的快速普及,高校教师在备课、作业批改与个性化反馈等环节面临显著的效率压力.现有研究表明生成式人工智能可有效提升教学效率,但在数据安全、工具集成与使用门槛等方面仍存在挑战.本文设计并实现了一个本地化桌面智能助教系统,采用 Electron+Quasar架构实现跨平台图形界面,整合 SQLite数据库、文档处理引擎与LLM  API接口,支持教学计划生成、作业批改与任务调度等核心功能.实验验证,该系统在试点课程中使备课时间平均减少 38%,作业批改时间减少 46%,同时保持教师对反馈质量的可控性,为高校智能教辅工具的本地化部署提供了可行方案. personalized feedback.Existing <span class='highlight'>research</span> indicates that generative artificial <span class='highlight'>intelligence</span> can effectively improve teaching efficiency,but there are still challenges in terms of data security,tool integration,and  usage barriers.This article designs and implements a localized desktop intelligent teaching <span class='highlight'>assistant</span> system,using Electron+Quasar architecture to achieve cross platform graphical interface, With the rapid popularization of Large Language Models(LLMs)in the field of education,university teachers are facing significant efficiency pressures in lesson preparation,homework grading,and  integrating SQLite database,document processing engine,and LLM API interface,supporting core functions such as teaching plan generation,homework grading,and task scheduling.Experimental verification shows that  the system has reduced the average preparation time by 38%and homework correction time by 46%in pilot courses,while maintaining the controllability of teachers'feedback quality,providing a feasible",
+      "authors": [
+        "郑伊轮",
+        "闫利霞"
+      ],
+      "year": 2025,
+      "journal": "价值技术融合发展",
+      "citations": 4,
+      "url": "https://doi.org/10.3969/j.issn.1006-4311.2025.32.047",
+      "doi": "10.3969/j.issn.1006-4311.2025.32.047",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "大语言模型",
+        "智能教学助理",
+        "桌面应用",
+        "作业自动批改",
+        "教学计划生成"
+      ],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant"
+    },
+    {
+      "title": "ResearchPilot: A Local-First Multi-Agent System for Literature Synthesis and Related Work Drafting",
+      "authors": [
+        "Peng Zhang"
+      ],
+      "abstract": "ResearchPilot is an open-source, self-hostable multi-agent system for literature-review assistance. Given a natural-language research question, it retrieves papers from Semantic Scholar and arXiv, extracts structured findings from paper abstracts, synthesizes cross-paper patterns, and drafts a citation-aware related-work section. The system combines FastAPI, Next.js, DSPy, SQLite, and Qdrant in a local-first architecture that supports bring-your-own-key model access and remote-or-local embeddings. This paper describes the system design, typed agent interfaces, persistence and history-search mechanisms, and the engineering tradeoffs involved in building a transparent research assistant. Rather than claiming algorithmic novelty, we present ResearchPilot as a systems contribution and evaluate it through automated tests and end-to-end local runs. We discuss limitations including external API rate limits, abstract-only extraction, incomplete corpus coverage, and the lack of citation verification.",
+      "year": "2026",
+      "published_date": "2026-03-15",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/d832f04fd4950a30e1719cdd4c319557010abe9f",
+      "arxiv_id": "2603.14629",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    }
+  ],
+  "timestamp": "20260413_002505"
+}

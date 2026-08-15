@@ -1,0 +1,902 @@
+[
+  {
+    "condition": "V0",
+    "qid": "Q31",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q31_v23v0_20260725_091600.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q32",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q32_v23v0_20260725_091528.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q33",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q33_v23v0_20260725_091737.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q34",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q34_v23v0_20260725_091810.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q35",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q35_v23v0_20260725_091737.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q36",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q36_v23v0_20260725_091756.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q37",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q37_v23v0_20260725_091827.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q38",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.375,
+    "release": "block",
+    "reasons": "uncited_bibliography_entry",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q38_v23v0_20260725_091813.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q39",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.125,
+    "release": "block",
+    "reasons": "uncited_bibliography_entry",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q39_v23v0_20260725_091836.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q40",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q40_v23v0_20260725_091900.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q41",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q41_v23v0_20260725_091900.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q42",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q42_v23v0_20260725_091919.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q43",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q43_v23v0_20260725_091931.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q44",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q44_v23v0_20260725_091958.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q45",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q45_v23v0_20260725_091949.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q46",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q46_v23v0_20260725_091959.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q47",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q47_v23v0_20260725_092014.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q48",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q48_v23v0_20260725_092046.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q49",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q49_v23v0_20260725_092040.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q50",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q50_v23v0_20260725_092044.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q51",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q51_v23v0_20260725_092106.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q52",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q52_v23v0_20260725_092124.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q53",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q53_v23v0_20260725_092144.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q54",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q54_v23v0_20260725_092130.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q55",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q55_v23v0_20260725_092144.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q56",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.375,
+    "release": "block",
+    "reasons": "uncited_bibliography_entry",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q56_v23v0_20260725_092223.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q57",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q57_v23v0_20260725_092229.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q58",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q58_v23v0_20260725_092240.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q59",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q59_v23v0_20260725_092252.md"
+  },
+  {
+    "condition": "V0",
+    "qid": "Q60",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v0_baseline\\Q60_v23v0_20260725_092314.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q31",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q31_v23v1_20260725_092951.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q32",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q32_v23v1_20260725_093001.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q33",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q33_v23v1_20260725_093010.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q34",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q34_v23v1_20260725_093010.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q35",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q35_v23v1_20260725_093117.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q36",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q36_v23v1_20260725_093151.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q37",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q37_v23v1_20260725_093146.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q38",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q38_v23v1_20260725_093106.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q39",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q39_v23v1_20260725_093312.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q40",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q40_v23v1_20260725_093335.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q41",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q41_v23v1_20260725_093319.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q42",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q42_v23v1_20260725_093340.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q43",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q43_v23v1_20260725_093522.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q44",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q44_v23v1_20260725_093458.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q45",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q45_v23v1_20260725_093618.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q46",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q46_v23v1_20260725_093540.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q47",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q47_v23v1_20260725_093733.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q48",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q48_v23v1_20260725_093702.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q49",
+    "citation_precision": 0.875,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.125,
+    "release": "block",
+    "reasons": "unresolved_in_text_citation",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q49_v23v1_20260725_093721.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q50",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q50_v23v1_20260725_093753.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q51",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q51_v23v1_20260725_093847.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q52",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q52_v23v1_20260725_093854.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q53",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q53_v23v1_20260725_093919.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q54",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q54_v23v1_20260725_093859.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q55",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q55_v23v1_20260725_094023.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q56",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q56_v23v1_20260725_094019.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q57",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q57_v23v1_20260725_094008.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q58",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q58_v23v1_20260725_094126.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q59",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q59_v23v1_20260725_094230.md"
+  },
+  {
+    "condition": "V1",
+    "qid": "Q60",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v1_self_critique\\Q60_v23v1_20260725_094223.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q31",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q31_v23v2_20260725_093244_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q32",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q32_v23v2_20260725_093233_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q33",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q33_v23v2_20260725_093254_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q34",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q34_v23v2_20260725_093250_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q35",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q35_v23v2_20260725_093530_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q36",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q36_v23v2_20260725_093625_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q37",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q37_v23v2_20260725_093604_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q38",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q38_v23v2_20260725_093404_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q39",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q39_v23v2_20260725_093715_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q40",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q40_v23v2_20260725_093835_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q41",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q41_v23v2_20260725_093841_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q42",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q42_v23v2_20260725_093906_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q43",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q43_v23v2_20260725_094006_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q44",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q44_v23v2_20260725_094032_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q45",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q45_v23v2_20260725_094203_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q46",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q46_v23v2_20260725_094148_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q47",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q47_v23v2_20260725_094401_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q48",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q48_v23v2_20260725_094327_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q49",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q49_v23v2_20260725_094428_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q50",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q50_v23v2_20260725_094518_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q51",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q51_v23v2_20260725_094532_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q52",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q52_v23v2_20260725_094600_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q53",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q53_v23v2_20260725_094700_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q54",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q54_v23v2_20260725_094721_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q55",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q55_v23v2_20260725_094820_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q56",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q56_v23v2_20260725_094844_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q57",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q57_v23v2_20260725_094843_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q58",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q58_v23v2_20260725_095002_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q59",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q59_v23v2_20260725_095200_final.md"
+  },
+  {
+    "condition": "V2",
+    "qid": "Q60",
+    "citation_precision": 1.0,
+    "bibliography_match_rate": 1.0,
+    "orphan_rate": 0.0,
+    "release": "pass",
+    "reasons": "",
+    "path": "data\\expanded_outputs\\semantic_v23_v2_arl\\Q60_v23v2_20260725_095218_final.md"
+  }
+]

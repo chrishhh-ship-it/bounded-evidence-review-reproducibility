@@ -1,0 +1,143 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "多智能协同系统的 reviewer agent 对最终报告质量能带来哪些可观察改进？",
+  "effective_search_query": "multi-agent systems, reviewer agent, report quality, performance improvement",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 13,
+  "all_retrieved_ids": [
+    "doi:10.1007/s10462-021-10097-xa",
+    "doi:10.1080/22348972.2017.1348890j",
+    "doi:10.1080/21642583.2019.1695689y",
+    "title:mascem: optimizing the performance of a multi-agent system|2016",
+    "title:marg: multi-agent review generation for scientific papers|2024",
+    "title:multi-agent system for microgrids: design, optimization and performance.|2020",
+    "title:applications of multi-agent systems from the perspective of construction management: a literature review|2022",
+    "title:a systematic literature review in multi-agent systems: patterns and trends|2019",
+    "doi:10.1080/0951192x.2021.1901312z",
+    "doi:10.1504/ijcat.2016.080485t",
+    "title:enhancing llms for impression generation in radiology reports through a multi-agent system|2024",
+    "title:multi-agent system for automated code reviews|2025",
+    "title:automating scientific evaluation: a multi-agent framework for transparent and trustworthy peer review|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Consensus in multi-agent systems: a review",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "A Amirkhani, AH Barshooi - Artificial Intelligence Review, 2022 - Springer",
+      "doi": "10.1007/s10462-021-10097-xA",
+      "citations": 517,
+      "abstract": "… , in this section, the modeling of system agents by nonlinear kinematics and dynamics has been addressed. Actually, there are many systems (eg, the dynamics of helicopters and car-…"
+    },
+    {
+      "title": "Multi-agent systems and their applications",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "J Xie, CC Liu - Journal of International Council on Electrical …, 2017 - Taylor & Francis",
+      "doi": "10.1080/22348972.2017.1348890J",
+      "citations": 204,
+      "abstract": "… products and services that improve the operating efficiency of … The multi-agent based UFLS scheme has two types of agents… multi-agent platforms, frameworks, and simulators is reported…"
+    },
+    {
+      "title": "A survey of the consensus for multi-agent systems",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "Y Li, C Tan - Systems Science & Control Engineering, 2019 - Taylor & Francis",
+      "doi": "10.1080/21642583.2019.1695689Y",
+      "citations": 183,
+      "abstract": "… This paper comprehensively reviews the state-of-the-art … asynchronous parallel activities between agents. Its loosely coupled … multi-agent system is investigated to improve the system …"
+    },
+    {
+      "title": "MASCEM: Optimizing the performance of a multi-agent system",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "G Santos, T Pinto, I Praça, Z Vale - Energy, 2016 - Elsevier",
+      "doi": "",
+      "citations": 115,
+      "abstract": "… The worldwide electricity market restructuring has been conducted to potentiate the increase in … This paper presents a new, enhanced version of MASCEM (Multi-Agent System for …"
+    },
+    {
+      "title": "Marg: Multi-agent review generation for scientific papers",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "M D'Arcy, T Hope, L Birnbaum, D Downey - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 106,
+      "abstract": "… architecture is formulated as follows: We define an agent as one … To automatically evaluate the quality of generated reviews, … in a performance improvement; instead, the use of multiple …"
+    },
+    {
+      "title": "Multi-agent system for microgrids: design, optimization and performance.",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "K Tazi, FM Abbou, F Abdi - Artificial Intelligence Review, 2020 - researchgate.net",
+      "doi": "",
+      "citations": 90,
+      "abstract": "… and improving the operation of microgrids. They are autonomous systems, where agents … Unlike other reviews, this paper throws light on the following perspectives of MAS design: (1) …"
+    },
+    {
+      "title": "Applications of multi-agent systems from the perspective of construction management: A literature review",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "L Xiang, Y Tan, G Shen, X Jin - Engineering, Construction and …, 2022 - emerald.com",
+      "doi": "",
+      "citations": 45,
+      "abstract": "… the supply chain and the improvement of project performance are identified from the … reviews. The search terms in the current study were “agent-based modelling” or “multi-agent system…"
+    },
+    {
+      "title": "A systematic literature review in multi-agent systems: Patterns and trends",
+      "year": 2019,
+      "source": "Google Scholar",
+      "journal": "M Falco, G Robiolo - 2019 XLV Latin American Computing …, 2019 - ieeexplore.ieee.org",
+      "doi": "",
+      "citations": 29,
+      "abstract": "… Over twenty years ago, agents and Multi-Agent Systems (… From this search, we obtain systematic reviews and books that … in force in the industry, and increase not only the amount of …"
+    },
+    {
+      "title": "A smart reporting framework as an application of multi-agent system in machining industry",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "Z Yahouni, A Ladj, F Belkadi, O Meski… - International Journal of …, 2021 - Taylor & Francis",
+      "doi": "10.1080/0951192X.2021.1901312Z",
+      "citations": 22,
+      "abstract": "… on reporting services where agents … reporting system devoted to assist operational management actors in manufacturing companies in making effective decisions to improve the quality …"
+    },
+    {
+      "title": "QM4MAS: a quality model for multi-agent systems",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "T Marir, F Mokhati… - International …, 2016 - inderscienceonline.com",
+      "doi": "10.1504/IJCAT.2016.080485T",
+      "citations": 14,
+      "abstract": "… In order to define and assess multi-agent applications quality, we propose an overall quality … Hence, a modular development of agents can significantly increase its quality. Table 3 gives …"
+    },
+    {
+      "title": "Enhancing LLMs for Impression Generation in Radiology Reports through a Multi-Agent System",
+      "year": "2024",
+      "source": "arXiv",
+      "journal": "arXiv Preprint",
+      "doi": "",
+      "citations": 0,
+      "abstract": "This study introduces \"RadCouncil,\" a multi-agent Large Language Model (LLM) framework designed to enhance the generation of impressions in radiology reports from the finding section. RadCouncil comprises three specialized agents: 1) a \"Retrieval\" Agent that identifies and retrieves similar reports from a vector database, 2) a \"Radiologist\" Agent that generates impressions based on the finding section of the given report plus the exemplar reports retrieved by the Retrieval Agent, and 3) a \"Reviewer\" Agent that evaluates the generated impressions and provides feedback. The performance of RadCouncil was evaluated using both quantitative metrics (BLEU, ROUGE, BERTScore) and qualitative criteria assessed by GPT-4, using chest X-ray as a case study. Experiment results show improvements in RadCo"
+    },
+    {
+      "title": "MULTI-AGENT SYSTEM FOR AUTOMATED CODE REVIEWS",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "S Premasundera - 2025 - trepo.tuni.fi",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… agent. This thesis addresses these limitations by proposing a … demonstrate that multi-agent consensus can improve the … overall structure of the report. It assisted in refining grammar, …"
+    },
+    {
+      "title": "Automating Scientific Evaluation: A Multi-Agent Framework for Transparent and Trustworthy Peer Review",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "S Ma, S Guan, Q Ni - IFAC-PapersOnLine, 2025 - Elsevier",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… multi-agent collaboration, knowledge-grounded reasoning, and blockchain verification. Autonomous agents—representing authors, reviewers, … and multi-agent systems remains largely …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q07_baseline_b_20260410_185320.md"
+}

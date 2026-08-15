@@ -1,0 +1,103 @@
+{
+  "baseline": "method4_cot_citation",
+  "query": "Google Scholar、OpenAlex、CrossRef、Scopus 在智慧情报服务中各自适合承担什么角色？",
+  "query_id": "Q12",
+  "effective_search_query": "Google Scholar OpenAlex CrossRef Scopus 智慧情报服务 角色 适用性",
+  "provider": "deepseek",
+  "model": null,
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "doi:10.1016/j.eclinm.2020.100348",
+    "doi:10.1016/j.mcpdig.2023.03.006",
+    "doi:10.1016/s2666-5247(24)00104-6",
+    "doi:10.1016/j.tele.2022.101925",
+    "doi:10.1109/access.2021.3074962",
+    "doi:10.1108/tqm-10-2019-0243",
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    },
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "Importance of investing time and money in integrating large language model-based agents into outbreak analytics pipelines",
+      "year": "2024",
+      "journal": "The Lancet Microbe",
+      "source": "OpenAlex",
+      "doi": "10.1016/s2666-5247(24)00104-6",
+      "citations": 8,
+      "abstract": "Outbreaks such as mpox and COVID-19 underscore the need for swift, evidence-based responses to limit their spread and save lives. Such evidence should be generated in real time. Generating these insights requires synthesis of many different sources of information and a combination of multiple distinct analytical techniques, from basic descriptive analysis to complex dynamic models.1Polonsky JA Baidjoe A Kamvar ZN et al.Outbreak analytics: a developing data science for informing the response to emerging pathogens.Philos Trans R Soc Lond B Biol Sci. 2019; 37420180276Crossref PubMed Scopus (99) Google Scholar Timely generation of policy-relevant evidence relies on skilled staff and prebuilt outbreak analytics pipelines, alongside rapid literature reviews and ad-hoc data curation processes. Al"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "A Framework for Critically Assessing ChatGPT and Other Large Language Artificial Intelligence Model Applications in Health Care",
+      "year": "2023",
+      "journal": "Mayo Clinic Proceedings Digital Health",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.mcpdig.2023.03.006",
+      "citations": 19,
+      "abstract": "Large language models (LLMs) are pretrained artificial intelligence (AI) algorithms that can interpret text and generate human-like text in real time.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar Recent studies on LLMs (eg, PaLM and GPT-3.5) have found near-human performance on medical examinations and many possible future applications have been discussed, such as drafting discharge summaries, answering consultations, or generating lists of differential diagnosis.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2"
+    },
+    {
+      "title": "What factors contribute to the acceptance of artificial intelligence? A systematic review",
+      "year": "2022",
+      "journal": "Telematics and Informatics",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.tele.2022.101925",
+      "citations": 811,
+      "abstract": "Artificial Intelligence (AI) agents are predicted to infiltrate most industries within the next decade, creating a personal, industrial, and social shift towards the new technology. As a result, there has been a surge of interest and research towards user acceptance of AI technology in recent years. However, the existing research appears dispersed and lacks systematic synthesis, limiting our understanding of user acceptance of AI technologies. To address this gap in the literature, we conducted a systematic review following the Preferred Reporting Items for Systematic Reviews and meta-Analysis guidelines using five databases: EBSCO host, Embase, Inspec (Engineering Village host), Scopus, and Web of Science. Papers were required to focus on both user acceptance and AI technology. Acceptance"
+    }
+  ],
+  "elapsed_seconds": 119.843,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method4_outputs\\Q12_method4_20260414_113801.md"
+}

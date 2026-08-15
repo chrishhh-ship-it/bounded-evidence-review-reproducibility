@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "没有 reviewer 的多智能体流水线与带对抗审稿循环的流水线差异在哪里？",
+  "effective_search_query": "multi-agent pipeline, adversarial review cycle, comparison, differences",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "title:marg: multi-agent review generation for scientific papers|2024",
+    "doi:10.1145/3708320m",
+    "title:combating adversarial attacks with multi-agent debate|2024",
+    "title:training language models to critique with multi-agent feedback|2024",
+    "title:a survey on agent workflow–status and future|2025",
+    "title:an outlook on the opportunities and challenges of multi-agent ai systems|2025",
+    "title:a review of adversarial behaviour in distributed multi-agent optimisation|2018",
+    "title:beyond pipelines: a survey of the paradigm shift toward model-native agentic ai|2025",
+    "title:security considerations for multi-agent systems|2026",
+    "title:tamas: benchmarking adversarial risks in multi-agent llm systems|2025",
+    "title:towards unifying quantitative security benchmarking for multi agent systems|2025",
+    "title:a review of multi-agent ai systems for biological and clinical data analysis|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "Marg: Multi-agent review generation for scientific papers",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "M D'Arcy, T Hope, L Birnbaum, D Downey - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 106,
+      "abstract": "… multi-agent groups to generate different kinds of review comments. The task prompt given to the leader agent is different … methods that we compare against our multi-agent approach. We …"
+    },
+    {
+      "title": "Adversarial machine learning attacks and defences in multi-agent reinforcement learning",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "M Standen, J Kim, C Szabo - ACM Computing Surveys, 2025 - dl.acm.org",
+      "doi": "10.1145/3708320M",
+      "citations": 69,
+      "abstract": "… an adversary that may be able to mix a different medication … phase of the machine learning pipeline, and its main purpose is … observe some key similarities and differences between the …"
+    },
+    {
+      "title": "Combating adversarial attacks with multi-agent debate",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "S Chern, Z Fan, A Liu - arXiv preprint arXiv:2401.05998, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 25,
+      "abstract": "… In Section 3 we discuss our adversarial prompt design to attack different LLM agents, and compare output toxicity of model variants with different training and fine-tuning approaches. …"
+    },
+    {
+      "title": "Training language models to critique with multi-agent feedback",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "T Lan, W Zhang, C Lyu, S Li, C Xu, H Huang… - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 24,
+      "abstract": "… a novel data generation pipeline, named MultiCritique, that … Compared to their work, we explicitly evaluate the quality of … , we use eleven LLMs with different capabilities to generate …"
+    },
+    {
+      "title": "A survey on agent workflow–status and future",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "C Yu, Z Cheng, H Cui, Y Gao, Z Luo… - … Intelligence and Big …, 2025 - ieeexplore.ieee.org",
+      "doi": "",
+      "citations": 21,
+      "abstract": "… Adversarial data poisoning attacks pose a significant threat to LLM-based AI … multi-agent system, we need to consider the issues of cooperation [46] and competition [47] among different …"
+    },
+    {
+      "title": "An outlook on the opportunities and challenges of multi-agent ai systems",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "F Tian, A Luo, J Du, X Xian, R Specht, G Wang… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 15,
+      "abstract": "… environments where MAS from different systems can communicate … In this example, we illustrate that multi-agent pipelines can … agents, even without adversarial intent. Unlike traditional …"
+    },
+    {
+      "title": "A review of adversarial behaviour in distributed multi-agent optimisation",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "F Fanitabasi - 2018 IEEE/ACM International Conference on …, 2018 - ieeexplore.ieee.org",
+      "doi": "",
+      "citations": 6,
+      "abstract": "… environment, or have their own adversary model with different sets of assumptions about … and comparison of different studies and findings challenging. This paper presents a review of …"
+    },
+    {
+      "title": "Beyond pipelines: A survey of the paradigm shift toward model-native agentic ai",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "J Sang, J Xiao, J Han, J Chen, X Chen, S Wei… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 5,
+      "abstract": "… internalization of agentic capabilities like Multi-agent collaboration and Reflection, alongside … Compared with pipeline-based systems, model-native Deep Research agents demonstrate …"
+    },
+    {
+      "title": "Security Considerations for Multi-agent Systems",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "T Nguyen, M Ndebugre, D Arremsetty - arXiv preprint arXiv:2603.09002, 2026 - arxiv.org",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… Multi-agent architectures with agents possessing different tool … Adversarial prompt injection artificially inflates agent … Downstream agents in multi-agent pipelines may not detect that …"
+    },
+    {
+      "title": "TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "I Kavathekar, H Jain, A Rathod, P Kumaraguru… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… components across the agentic pipeline, including the … metric to evaluate and compare multi-agent systems, guiding the … systematically evaluate how different system configurations and …"
+    },
+    {
+      "title": "Towards Unifying Quantitative Security Benchmarking for Multi Agent Systems",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "G Sharma, V Kulkarni, M King, K Huang - arXiv preprint arXiv:2507.21146, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… multi-agent pipelines with hooks to inject adversarial inputs. … Outcomes By running different multi-agent systems through … Comparison: How do different LLMs as agent cores compare …"
+    },
+    {
+      "title": "A Review of Multi-Agent AI Systems for Biological and Clinical Data Analysis",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "J Spieser, A Balapour, J Meller, KC Patra… - Methods and …, 2026 - researchgate.net",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… proof-of-concept multi-agent pipeline, which previously might … be crucial for comparing different approaches and tracking … testing, symbolic checks, and adversarial simulations will be an …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q23_baseline_b_20260410_200833.md"
+}

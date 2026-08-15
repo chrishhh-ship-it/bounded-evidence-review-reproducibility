@@ -1,0 +1,40 @@
+{
+  "n": 2,
+  "gold_counts": {
+    "nonmatch": 1,
+    "match": 1
+  },
+  "single_agent": {
+    "accuracy": 1.0,
+    "match_precision": 1.0,
+    "match_recall": 1.0,
+    "match_f1": 1.0,
+    "nonmatch_precision": 1.0,
+    "nonmatch_recall": 1.0,
+    "nonmatch_f1": 1.0,
+    "macro_f1": 1.0,
+    "errors": 0
+  },
+  "arl": {
+    "accuracy": 1.0,
+    "match_precision": 1.0,
+    "match_recall": 1.0,
+    "match_f1": 1.0,
+    "nonmatch_precision": 1.0,
+    "nonmatch_recall": 1.0,
+    "nonmatch_f1": 1.0,
+    "macro_f1": 1.0,
+    "errors": 0
+  },
+  "delta_arl_minus_single": {
+    "accuracy": 0.0,
+    "macro_f1": 0.0,
+    "errors": 0
+  },
+  "paired_comparison": {
+    "arl_correct_single_wrong": 0,
+    "single_correct_arl_wrong": 0,
+    "exact_mcnemar_p": 1.0
+  },
+  "interpretation": "ARL is supported as an incremental structural-title-audit method only if its gold-referenced performance exceeds the single-agent baseline under the same inputs and the paired comparison is substantively and statistically persuasive."
+}

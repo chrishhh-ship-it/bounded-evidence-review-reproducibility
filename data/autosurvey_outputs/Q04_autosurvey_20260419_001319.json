@@ -1,0 +1,177 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "如何为智慧情报服务设计 retrieval-evidence-writing 的多阶段工作流？",
+  "effective_search_query": "智慧情报服务 retrieval-evidence-writing 多阶段工作流 设计",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.2139/ssrn.6386988",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.1002/ajae.12089",
+    "title:thoraxagent: an intelligent agent-based decision support system for chest radiography analysis with cross-modal dynamic retrieval|2026",
+    "title:evidence-based knowledge synthesis and hypothesis validation: navigating biomedical knowledge bases via explainable ai and agentic systems|2025",
+    "doi:10.3390/children4020009",
+    "title:ai agents for organizational knowledge retrieval and sharing: a systematic literature review|2025",
+    "title:beyond retrieval-ranking: a multi-agent cognitive decision framework for e-commerce search|2025",
+    "doi:10.1016/s2666-5247(24)00104-6",
+    "doi:10.1016/j.dss.2016.05.008",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "doi:10.1007/978-3-031-89424-4_14",
+    "doi:10.5220/0013721400004000",
+    "doi:10.5191/jiaee.2018.25303",
+    "doi:10.1109/mwc.016.2300600"
+  ],
+  "top_papers": [
+    {
+      "title": "Agentic Retrieval-Augmented Generation Systems for Medical Decision Support: A Comprehensive Survey",
+      "year": "2026",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.6386988",
+      "citations": 0,
+      "abstract": "The introduction of Agentic Retrieval-Augmented Generation Technology is a breakthrough in the field of Medical Artificial Intelligence, allowing autonomous agents to coordinate complex clinical workflows, integrate evidence into the patient’s care cycle, and supply decision-making support to health care professionals and patients. In this manuscript, we will offer a comprehensive analysis of the architectures of Agentic RAG technology and its numerous applications and approaches within healthcare. More specifically, we will systematically evaluate the various types of multi-agentic systems that may be employed for specific professional and clinical tasks, such as diagnostic reasoning, medical question answering, report generation, drug discovery, and optimizing overall healthcare delivery"
+    },
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "Information and Communication Technologies to Provide Agricultural Advice to Smallholder Farmers: Experimental Evidence from Uganda",
+      "year": "2020",
+      "journal": "American Journal of Agricultural Economics",
+      "source": "OpenAlex",
+      "doi": "10.1002/ajae.12089",
+      "citations": 174,
+      "abstract": "Agricultural advisory services generally rely on interpersonal knowledge transfers by agricultural extension agents who visit farmers to provide information. This approach is not always effective and has proved hard to scale sustainably, particularly in highly dispersed smallholder farming systems. Information and communication technologies (ICTs) have been advanced as a promising way to overcome many of the problems associated with conventional agricultural extension. We evaluate the effectiveness of an ICT‐mediated approach to deliver agricultural information in a field experiment conducted among small‐scale maize farmers in eastern Uganda. Three complementary technologies designed to address both informational and behavioral constraints to technical change are considered. First, we inve"
+    },
+    {
+      "title": "ThoraxAgent: An Intelligent Agent-Based Decision Support System for Chest Radiography Analysis with Cross-Modal Dynamic Retrieval",
+      "year": 2026,
+      "journal": "X Liu, W Liu, R Zeng - Expert Systems with Applications, 2026 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… To address these challenges, this study presents ThoraxAgent, an intelligent agent-based decision-support framework for chest radiography analysis and structured EMR generation. …"
+    },
+    {
+      "title": "Evidence-based knowledge synthesis and hypothesis validation: Navigating biomedical knowledge bases via explainable ai and agentic systems",
+      "year": 2025,
+      "journal": "AR Pelletier, J Ramirez, BS Sankar, I Adam… - Journal of Visualized …, 2025 - app.jove.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 5,
+      "abstract": "… the appropriate LLM service for the use case, among commercial LLM services or services from a local model running on the user's device. Ensure a minimum of one LLM service is …"
+    },
+    {
+      "title": "Evidence-Based Psychological Interventions for the Management of Pediatric Chronic Pain: New Directions in Research and Clinical Practice",
+      "year": "2017",
+      "journal": "Children",
+      "source": "OpenAlex",
+      "doi": "10.3390/children4020009",
+      "citations": 96,
+      "abstract": "Over the past 20 years our knowledge about evidence-based psychological interventions for pediatric chronic pain has dramatically increased. Overall, the evidence in support of psychological interventions for pediatric chronic pain is strong, demonstrating positive psychological and behavioral effects for a variety of children with a range of pain conditions. However, wide scale access to effective psychologically-based pain management treatments remains a challenge for many children who suffer with pain. Increasing access to care and reducing persistent biomedical biases that inhibit attainment of psychological services are a central focus of current pain treatment interventions. Additionally, as the number of evidence-based treatments increase, tailoring treatments to a child or family's"
+    },
+    {
+      "title": "AI Agents for Organizational Knowledge Retrieval and Sharing: A Systematic Literature Review",
+      "year": 2025,
+      "journal": "SR Anjelia, DI Sensuse, S Lusa - International Journal of Advances in Data …, 2025 - ijadis.net",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 2,
+      "abstract": "… that are integrated into organizational systems (such as CRM or financial services) and perform AI functions for collective learning, automation, and decision support [38], [39], [40], [41], […"
+    },
+    {
+      "title": "Beyond Retrieval-Ranking: A Multi-Agent Cognitive Decision Framework for E-Commerce Search",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "The retrieval-ranking paradigm has long dominated e-commerce search, but its reliance on query-item matching fundamentally misaligns with multi-stage cognitive decision processes of platform users. This misalignment introduces critical limitations: semantic gaps in complex queries, high decision costs due to cross-platform information foraging, and the absence of professional shopping guidance. To address these issues, we propose a Multi-Agent Cognitive Decision Framework (MACDF), which shifts the paradigm from passive retrieval to proactive decision support. Extensive offline evaluations demonstrate MACDF's significant improvements in recommendation accuracy and user satisfaction, particularly for complex queries involving negation, multi-constraint, or reasoning demands. Online A/B testi"
+    },
+    {
+      "title": "Importance of investing time and money in integrating large language model-based agents into outbreak analytics pipelines",
+      "year": "2024",
+      "journal": "The Lancet Microbe",
+      "source": "OpenAlex",
+      "doi": "10.1016/s2666-5247(24)00104-6",
+      "citations": 8,
+      "abstract": "Outbreaks such as mpox and COVID-19 underscore the need for swift, evidence-based responses to limit their spread and save lives. Such evidence should be generated in real time. Generating these insights requires synthesis of many different sources of information and a combination of multiple distinct analytical techniques, from basic descriptive analysis to complex dynamic models.1Polonsky JA Baidjoe A Kamvar ZN et al.Outbreak analytics: a developing data science for informing the response to emerging pathogens.Philos Trans R Soc Lond B Biol Sci. 2019; 37420180276Crossref PubMed Scopus (99) Google Scholar Timely generation of policy-relevant evidence relies on skilled staff and prebuilt outbreak analytics pipelines, alongside rapid literature reviews and ad-hoc data curation processes. Al"
+    },
+    {
+      "title": "A multi-agent system to support evidence based medicine and clinical decision making via data sharing and data privacy",
+      "year": "2016",
+      "journal": "Decision Support Systems",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.dss.2016.05.008",
+      "citations": 61,
+      "abstract": ""
+    },
+    {
+      "title": "生成式人工智能驱动下智慧图书馆信息搜索的技术框架及服务模式研究",
+      "year": 2025,
+      "journal": "专栏:中国特色图书情报学",
+      "source": "万方数据",
+      "doi": "10.13530/j.cnki.jlis.2025041",
+      "citations": 52,
+      "abstract": "在生成式人工智能技术快速发展的背景下,用户的信息需求和信息行为日益多样化和复杂化,智慧图书馆的信息供给模式需要从\"被动响应\"转变为\"主动出击\"、从\"静态适配\"过渡到\"动态服务\".借助以大语言模型为代表的生成式人工智能技术强大的自然语言处理、多模态数据整合及知识生成能力,智慧图书馆信息搜索服务可以向个性化、精准化和智慧化服务模式转型.本文首先系统梳理传统信息检索、语义检索和GenAI驱动的生成式 信息搜索三种不同检索范式的功能及特征演变;其次,基于CASA范式和社会技术系统视角构建以大语言模型智能体为支撑的智慧图书馆生成式信息搜索技术框架,该框架支持多场景下人智协同的信息搜索认知构建;最后,从场景解构、关键支撑和服务目标三个角度提出了\"意图感知+认知建构+内容生成\"的智慧图书馆人智协同的信息搜索服务模式.本研究提出的技术框架和服务模式促进了信息服务从工具型向协同型的范式转变,强化了智慧图书馆 从工具型服务向认知增益型服务体系的转型,为未来智慧图书馆知识搜索体系的构建提供了新思路.图3.表2.参考文献37. query formulation,and result presentation.It then,drawing on the Computers Are Social Actors(CASA)paradigm and a sociotechnical system perspective,proposes an <span class='highlight'>LLM</span> <span class='highlight'>Agent</span> framework that orchestrates  the classical four <span class='highlight'>information</span> <span class='highli"
+    },
+    {
+      "title": "Agentic AI in XML-Based Information Retrieval Systems for Collaboration and Decision Support",
+      "year": "2025",
+      "journal": "Sustainable Artificial Intelligence-Powered Applications",
+      "source": "CrossRef",
+      "doi": "10.1007/978-3-031-89424-4_14",
+      "citations": 0,
+      "abstract": ""
+    },
+    {
+      "title": "Exploring Customer Service Agent Preferences for Conversational and Keyword-Based Information Retrieval",
+      "year": "2025",
+      "journal": "Proceedings of the 17th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
+      "source": "CrossRef",
+      "doi": "10.5220/0013721400004000",
+      "citations": 0,
+      "abstract": ""
+    },
+    {
+      "title": "Knowledge of Extension Agents regarding Professionalization of Extension Services: Evidence from South West Nigeria",
+      "year": "2018",
+      "journal": "Journal of International Agricultural and Extension Education",
+      "source": "OpenAlex",
+      "doi": "10.5191/jiaee.2018.25303",
+      "citations": 10,
+      "abstract": "The study examined the knowledge of agriculture extension agents on professionalization in South West Nigeria. This was borne out of the need to improve and ensure a viable, effective and vibrant extension and advisory service delivery in the area. 301 public and 55 private extension agents were selected through a two-staged sampling procedure. A questionnaire was used to obtain data on their socio-economic characteristics, knowledge on professionalization and its components, these being analyzed using descriptive, t-test and tobit regression analyses. The results showed that the agricultural agents in the public and private extension organizations had a basic knowledge on the concept of professionalization and its components of accreditation, registration and certification. However, dispa"
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    }
+  ],
+  "outline": "# 面向智慧情报服务的检索-证据-写作多阶段工作流设计研究\n\n## 1. 引言：智慧情报服务的内涵与工作流范式转型\n*本节界定智慧情报服务的核心概念，阐述在生成式人工智能驱动下，情报服务从传统线性、被动响应流程向以检索、证据整合、写作为核心的主动、动态、认知增益型服务范式转型的必然性与核心挑战。*\n\n### 1.1 智慧情报服务的核心内涵与范式演进\n*界定智慧情报服务的概念，阐述其在生成式人工智能驱动下，从“智能+情报”的工具辅助模式向“智能即情报”的深度融合与认知增益模式演进的核心特征。*\n\n### 1.2 从被动响应到主动认知：工作流范式转型的驱动与必然性\n*分析传统线性情报服务流程的局限性，阐述在复杂信息环境和动态用户需求下，向以检索、证据整合、写作为核心的主动、动态工作流范式转型的技术驱动因素与内在必然性。*\n\n### 1.3 检索-证据-写作工作流：新范式的核心架构与价值主张\n*概述以检索、证据融合、生成为核心阶段的新型工作流基本架构，阐明其在提升情报服务的精准性、动态性、可解释性及决策支持深度方面的核心价值与目标。*\n\n### 1.4 范式转型面临的核心挑战与关键问题\n*系统分析实现上述工作流范式转型所面临的核心挑战，包括多源异构数据的协同感知与融合、工作流动态编排的复杂性、生成结果的可靠性验证以及人机协同机制的设计等关键问题。*\n\n## 2. 理论基石与架构范式：从检索到智能体协同的演进\n*本节梳理从传统信息检索、语义检索到生成式搜索的范式演变，系统分析以多智能体认知框架为核心的工作流架构，探讨其作为协调多阶段任务、实现任务分解与流程编排的理论模型。*\n\n### 2.1 信息检索范式的演进：从传统匹配到生成式搜索\n*梳理从基于关键词匹配的传统信息检索、到理解语义的语义检索、再到由生成式人工智能驱动的生成式搜索（如GenAI搜索）的技术演变路径，分析各范式的核心特征、能力边界及其对情报工作流效率与认知深度的提升作用。*\n\n### 2.2 多智能体协同架构的理论模型与核心机制\n*以多智能体认知框架（如基于LLM的智能体系统）为核心，系统分析其作为协调检索、证据整合、写作等多阶段任务的理论模型，探讨智能体在任务分解、流程编排、记忆、规划与反思等关键机制中的作用。*\n\n### 2.3 智能体增强的检索与知识集成范式\n*阐述如何将多智能体系统与检索增强生成（RAG）等技术深度结合，形成“智能体化RAG”（Agentic RAG）等新范式，以实现动态、跨模态的主动检索、多源证据的协同感知与融合，为后续的推理与生成奠定结构化知识基础。*\n\n## 3. 核心组件与实现：智能检索、证据融合与生成式驱动\n*本节详细阐述工作流的核心技术组件，包括智能检索（如动态跨模态检索）、多源证据的协同感知、融合与验证，以及如何利用生成式模型和智能体系统（如Agentic RAG）实现从证据到结构化输出的自动化与决策支持。*\n\n### 3.1 智能检索：从静态查询到动态跨模态感知\n*阐述智能检索作为工作流基础组件的演进，重点分析动态查询优化、跨模态（如文本、图像、视频）检索技术，以及如何利用大语言模型进行意图理解与上下文感知，以实现对多源异构情报数据的精准、主动获取。*\n\n### 3.2 证据的协同感知、融合与验证机制\n*探讨多源证据（如学术文献、领域报告、实时数据）的协同感知框架，分析证据对齐、冲突消解、可信度评估等融合技术，并讨论基于溯源和逻辑推理的证据验证方法，以确保输入生成阶段的信息质量与可靠性。*\n\n### 3.3 生成式驱动与智能体协同：从证据到结构化输出\n*分析如何利用生成式模型（如大语言模型）与多智能体系统（如Agentic RAG）将融合后的证据转化为结构化情报产出（如分析报告、决策建议）。重点阐述智能体在任务规划、流程编排、内容生成与迭代修正中的协同机制，实现自动化与决策支持。*\n\n## 4. 领域应用、评估与实施挑战\n*本节通过医疗、农业、组织知识管理等领域的实证案例，评估不同工作流设计的有效性，并系统分析其在数据整合、隐私保护、领域适配性、可扩展性、可解释性以及人机协同等方面的关键挑战与实施障碍。*\n\n### 4.1 领域应用实证：从医疗诊断到农业知识服务\n*结合候选文献，分析检索-证据-写作工作流在医疗（如Agentic RAG用于临床决策支持、ThoraxAgent用于胸片分析）、农业（如ICT驱动的农业信息咨询）以及组织知识管理（如智慧图书馆服务）等具体领域的应用模式与效能，展示其解决领域特定问题的能力。*\n\n### 4.2 效能评估框架与实证发现\n*探讨如何评估多阶段工作流在提升情报服务质量（如准确性、时效性、认知增益）方面的有效性，总结不同应用案例中的评估指标（如诊断准确性、信息采纳率、用户满意度）与关键发现，并指出评估方法的局限性。*\n\n### 4.3 核心实施挑战与障碍分析\n*系统剖析工作流落地面临的多维度挑战，包括多源异构数据整合、领域知识适配与模型微调、隐私与安全（尤其在医疗领域）、系统可扩展性与实时性、输出结果的可解释性与可信度，以及人机协同中的职责界定与交互设计难题。*\n\n### 4.4 迈向稳健部署：挑战应对策略展望\n*基于前述挑战，初步探讨可能的应对方向与策略，如采用模块化与可插拔架构增强适配性、发展联邦学习与隐私计算技术、构建人机回环与验证机制以保障可靠性与可解释性，为克服实施障碍提供思路。*\n\n## 5. 未来方向与开放问题\n*本节讨论工作流效能的评估方法，识别大语言模型深度集成等新兴趋势，并展望在可扩展性、偏见控制以及以证据为中心的人机协作等方面存在的开放研究问题。*\n\n### 5.1 工作流效能评估：从检索质量到决策影响的综合度量\n*讨论如何构建多维度、可量化的评估体系，以衡量检索-证据-写作工作流的整体效能，包括检索的准确性与召回率、证据融合的可信度、生成内容的忠实性与实用性，以及最终对情报分析或决策支持的增益效果。*\n\n### 5.2 大语言模型深度集成与智能体协同的新兴趋势\n*分析大语言模型从工具到核心智能体的角色演变，探讨其与检索、规划、记忆、评估等模块深度集成所形成的自主、协同工作流新范式，及其在提升任务分解、推理和自适应能力方面的潜力。*\n\n### 5.3 开放挑战：可扩展性、偏见控制与人机协同\n*系统阐述该工作流范式在走向实际应用时面临的核心开放问题，包括处理大规模多源异构数据的可扩展性、缓解模型与数据中的偏见以确保公平可信、以及设计以证据为中心、权责清晰的高效人机协同机制。*",
+  "cited_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    11,
+    12,
+    15
+  ],
+  "elapsed_seconds": 340.2,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q04_autosurvey_20260419_001319.md"
+}

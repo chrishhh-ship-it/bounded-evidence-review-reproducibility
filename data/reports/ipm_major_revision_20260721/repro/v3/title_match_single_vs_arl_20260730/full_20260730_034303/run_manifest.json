@@ -1,0 +1,1310 @@
+{
+  "started_at": "2026-07-30T03:43:03.372506",
+  "providers": {
+    "single": "deepseek",
+    "arl_analyst": "deepseek",
+    "arl_critic": "kimi",
+    "arl_adjudicator": "deepseek"
+  },
+  "models": {
+    "single": "deepseek-v4-pro",
+    "arl_analyst": "deepseek-v4-pro",
+    "arl_critic": "moonshot-v1-32k",
+    "arl_adjudicator": "deepseek-v4-pro"
+  },
+  "temperature": 0.0,
+  "max_tokens": 12000,
+  "gold_source": "C:\\Users\\10305\\Downloads\\title_match_verified_key_20260730.csv",
+  "adjudication_overrides": {
+    "TM077": "match",
+    "TM189": "nonmatch"
+  },
+  "n": 320,
+  "results": [
+    {
+      "pair_id": "TM003",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM001",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM004",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM002",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM006",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM007",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM008",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM009",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM005",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM010",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM011",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM012",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM014",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM013",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM016",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM015",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM018",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM019",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM017",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM020",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM023",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM021",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM022",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM024",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM027",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM028",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM025",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM029",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM031",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM030",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM026",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM033",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM032",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM034",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM036",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM035",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM037",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM040",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM038",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM039",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM042",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM041",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM044",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM045",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM046",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM043",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM048",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM050",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM049",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM047",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM052",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM051",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM054",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM053",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM055",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM058",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM056",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM057",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM059",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM061",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM062",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM060",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM063",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM064",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM066",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM067",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM065",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM068",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM069",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM072",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM070",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM071",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM073",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM074",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM075",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM076",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM077",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM080",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM078",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM079",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM081",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM083",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM082",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM084",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM085",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM086",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM088",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM087",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM089",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM091",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM090",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM092",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM093",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM094",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM096",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM095",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM097",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM099",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM098",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM101",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM100",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM103",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM102",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM104",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM105",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM106",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM107",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM108",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM110",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM111",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM109",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM114",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM113",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM112",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM115",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM118",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM116",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM119",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM117",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM120",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM121",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM122",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM123",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM125",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM124",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM126",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM127",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM130",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM128",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM129",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM131",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM133",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM134",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM132",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM135",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM136",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM137",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM138",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM139",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM141",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM140",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM142",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM143",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM145",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM144",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM147",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM146",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM149",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM148",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM150",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM152",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM153",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM151",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM154",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM156",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM157",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM155",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM158",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM159",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM160",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM161",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM162",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM163",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM164",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM165",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM166",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM167",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM169",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM170",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM168",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM171",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM174",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM173",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM172",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM175",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM176",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM178",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM177",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM179",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM180",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM181",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM182",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM183",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM184",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM185",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM186",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM188",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM187",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM189",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM190",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM191",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM193",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM192",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM194",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM195",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM196",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM197",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM198",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM199",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM200",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM201",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM202",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM203",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM204",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM206",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM205",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM207",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM208",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM210",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM209",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM211",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM212",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM213",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM214",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM215",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM216",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM217",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM218",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM219",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM220",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM223",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM221",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM222",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM224",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM226",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM225",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM227",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM228",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM229",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM232",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM231",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM230",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM233",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM234",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM236",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM235",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM237",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM239",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM241",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM238",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM242",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM243",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM240",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM244",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM246",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM247",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM245",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM248",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM249",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM250",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM251",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM252",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM253",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM254",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM256",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM257",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM255",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM258",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM260",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM259",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM261",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM262",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM265",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM264",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM266",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM263",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM269",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM268",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM267",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM270",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM271",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM274",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM273",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM272",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM275",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM276",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM277",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM278",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM281",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM279",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM282",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM280",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM283",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM287",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM285",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM284",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM286",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM288",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM289",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM291",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM292",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM290",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM293",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM294",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM295",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM296",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM297",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM298",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM299",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM300",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM301",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM303",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM305",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM302",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM304",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM306",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM309",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM307",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM308",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM310",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM311",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM312",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM313",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM315",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM316",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM314",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM317",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM318",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM320",
+      "status": "completed"
+    },
+    {
+      "pair_id": "TM319",
+      "status": "completed"
+    }
+  ],
+  "finished_at": "2026-07-30T04:09:41.327105",
+  "status": "complete",
+  "result_csv": "C:\\Users\\10305\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\full_20260730_034303\\title_match_single_vs_arl_results.csv",
+  "raw_jsonl": "C:\\Users\\10305\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\full_20260730_034303\\title_match_single_vs_arl_raw.jsonl",
+  "metrics_json": "C:\\Users\\10305\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\full_20260730_034303\\TITLE_MATCH_SINGLE_VS_ARL_METRICS.json"
+}

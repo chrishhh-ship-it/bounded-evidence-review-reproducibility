@@ -1,0 +1,203 @@
+{
+  "query_id": "Q10",
+  "query": "如何评估智慧情报服务中 query expansion 的收益与风险？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Multi-Agent-Based Information Retrieval System Using Information Scent in Query Log Mining for Effective Web Search",
+      "authors": [
+        "Suruchi Chawla"
+      ],
+      "abstract": "This chapter explains the multi-agent system for effective information retrieval using information scent in query log mining. The precision of search results is low due to difficult to infer the information need of the small size search query and therefore information need of the user is not satisfied effectively. Information Scent is used for modeling the information need of user web search session and clustering is performed to identify the similar information need sessions. Hyper Link-Induced Topic Search (HITS) is executed on clusters to generate the Hubs and authorities for web page recommendations to users who search with similar intents. This multi-agent system based on clustered query sessions uses query operations like expansion and recommendation to infer the information need of user search queries and recommends Hubs and authorities for effective web search.",
+      "year": "2018",
+      "published_date": "2018",
+      "journal": "Information Retrieval and Management",
+      "url": "https://doi.org/10.4018/978-1-5225-5191-1.ch012",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.4018/978-1-5225-5191-1.ch012",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service full text retrieval"
+    },
+    {
+      "title": "LitMOF: An LLM Multi-Agent for Literature-Validated Metal-Organic Frameworks Database Correction and Expansion",
+      "authors": [
+        "Honghui Kim",
+        "Dohoon Kim",
+        "Jihan Kim"
+      ],
+      "abstract": "Metal-organic framework (MOF) databases have grown rapidly through experimental deposition and large-scale literature extraction, but recent analyses show that nearly half of their entries contain substantial structural errors. These inaccuracies propagate through high-throughput screening and machine-learning workflows, limiting the reliability of data-driven MOF discovery. Correcting such errors is exceptionally difficult because true repairs require integrating crystallographic files, synthesis descriptions, and contextual evidence scattered across the literature. Here we introduce LitMOF, a large language model-driven multi-agent framework that validates crystallographic information directly from the original literature and cross-validates it with database entries to repair structural errors. Applying LitMOF to the experimental MOF database (the CSD MOF Subset), we constructed LitMOF-DB, a curated set of 186,773 computation-ready structures, including the successful repair of 8,771 invalid entries, which accounts for 65.3% of the not-computation-ready MOFs in the latest CoRE MOF database. Additionally, the system uncovered 12,646 experimentally reported MOFs absent from existing resources, substantially expanding the known experimental design space. Using direct air capture screening as a case study, we demonstrate that structural errors severely distort predicted adsorption energies and CO2/H2O selectivity, leading to systematic misranking of materials, false positives, and the omission of high-performance candidates. This work establishes a scalable pathway toward self-correcting scientific databases and a generalizable paradigm for LLM-driven curation in materials science.",
+      "year": "2025",
+      "published_date": "2025-12-01",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2512.01693v2",
+      "arxiv_id": "2512.01693v2",
+      "keywords": [
+        "cs.DB",
+        "cond-mat.mtrl-sci"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "id": "wf_qhbhyjjz-e202103013",
+      "title": "Climate change and its association with the expansion of vectors and vector-borne diseases in the Hindu Kush Himalayan region:A systematic synthesis of the literature",
+      "abstract": "the <span class='highlight'>literature</span> for empiric associations between the <span class='highlight'>climate</span> variables and specific VBDs and their vectors in the HKH region.We conducted a systematic <span class='highlight'>synthesis</span> of the published <span class='highlight'>literature</span> on <span class='highlight'>climate</span>  Observed weather and projected <span class='highlight'>climate</span> change suggest an increase in the transmission of vector-borne diseases (VBDs) in the Hindu Kush Himalayan(HKH) region.In this study,we systematically explore  relative humidity,etc.This systematic review allowed us to identify the most significant variables to be considered for evidence-based trend estimates of the effects of <span class='highlight'>climate</span> change on VBDs and their  vectors in the HKH region.This evidence-based trend was set into the context of <span class='highlight'>climate</span> change as well as the observed expansion of VBDs and disease vectors in the HKH region.The geographic range of VBDs  expanded into previously considered non-endemic areas of highlands (mountains) in the HKH region.Based on scarce,but clear evidence of a positive relationship of most <span class='highlight'>climate</span> variables and VBDs and the",
+      "authors": [],
+      "year": 2021,
+      "journal": "Impacts of climate change",
+      "citations": 12,
+      "url": "https://www.wanfangdata.com.cn/periodical/detail?id=qhbhyjjz-e202103013",
+      "doi": "",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "Chikungunya",
+        "Dengue",
+        "Filariasis",
+        "High altitude",
+        "Himalayas",
+        "Leishmaniasis",
+        "Mountain",
+        "Mosquito",
+        "Malaria",
+        "Sandfly"
+      ],
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis"
+    },
+    {
+      "title": "Comparative Energy Transition Policy: How Exposure, Policy Vulnerability and Trust Affect Popular Acceptance of Policy Expansion",
+      "authors": [
+        "L. Schaffer",
+        "Zsuzsanna B. Magyar"
+      ],
+      "abstract": "Abstract This article examines how exposure to energy transition and climate policy vulnerability influence popular support for more ambitious climate policy. Moreover, it explores whether this relationship depends on a person’s generalized and political trust. Comparing data from surveys in Germany and Switzerland, the findings reveal that perceived exposure to energy transition positively influences climate policy support, while individual climate policy vulnerability decreases it. For individuals with higher levels of trust, exposure helps enhance the positive effect (subjective exposure) or dampen the negative effect (policy vulnerability). These results underscore the importance of incorporating trust and subjective perceptions into climate policy frameworks.",
+      "year": "2024",
+      "published_date": "2024-04-25",
+      "journal": "Journal of Comparative Policy Analysis",
+      "url": "https://www.semanticscholar.org/paper/919355d4bbfcacfb3104ffc9738676b566e4cd44",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "Semantic Scholar",
+      "doi": "10.1080/13876988.2024.2331166",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval survey"
+    },
+    {
+      "title": "Converting Natural Language to Query Languages Using Large Language Models: A Systematic Literature Review",
+      "authors": [
+        "R. Lima",
+        "Kamila Cardoso Vasconcelos",
+        "Eloisa Mendonça Gadelha"
+      ],
+      "abstract": "The task of converting natural language commands into query languages (NL-to-QL) has gained attention due to its potential to improve data accessibility for non-technical users. Although several studies have explored rule-based and sequence-to-sequence models, there is still a lack of a literature review that presents the impact of using large language models (LLMs) on this task. As an output of a systematic literature review, this paper examines how recent studies have utilized LLMs by applying fine-tuning or prompt engineering techniques to address this task. Presenting a compilation of methods, architectures, and techniques, as well as evaluation metrics, datasets, and benchmarks applied, including the available competitions and educational platforms, it provides a comprehensive overview of NL-to-QL conversion, mapping current advancements, future research directions, and remaining challenges, including issues with schema generalization, query interpretability, and hallucination mitigation.",
+      "year": "2025",
+      "published_date": "2025-11-10",
+      "journal": "Brazilian Symposium on Multimedia and the Web",
+      "url": "https://www.semanticscholar.org/paper/7a5eab1275e97312fd2be8ee7f779dd928272dd2",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.5753/webmedia.2025.15123",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "title": "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing",
+      "authors": [
+        "Naeimeh Nourmohammadi",
+        "Md Meem Hossain",
+        "The Anh Han",
+        "Safina Showkat Ara",
+        "Zia Ush Shamszaman"
+      ],
+      "abstract": "Large language models (LLMs) show promise for healthcare question answering, but clinical use is limited by weak verification, insufficient evidence grounding, and unreliable confidence signalling. We propose a multi-agent medical QA framework that combines complementary LLMs with evidence retrieval, uncertainty estimation, and bias checks to improve answer reliability. Our approach has two phases. First, we fine-tune three representative LLM families (GPT, LLaMA, and DeepSeek R1) on MedQuAD-derived medical QA data (20k+ question-answer pairs across multiple NIH domains) and benchmark generation quality. DeepSeek R1 achieves the strongest scores (ROUGE-1 0.536 +- 0.04; ROUGE-2 0.226 +-0.03; BLEU 0.098 -+ 0.018) and substantially outperforms the specialised biomedical baseline BioGPT in zero-shot evaluation. Second, we implement a modular multi-agent pipeline in which a Clinical Reasoning agent (fine-tuned LLaMA) produces structured explanations, an Evidence Retrieval agent queries PubMed to ground responses in recent literature, and a Refinement agent (DeepSeek R1) improves clarity and factual consistency; an optional human validation path is triggered for high-risk or high-uncertainty cases. Safety mechanisms include Monte Carlo dropout and perplexity-based uncertainty scoring, plus lexical and sentiment-based bias detection supported by LIME/SHAP-based analyses. In evaluation, the full system achieves 87% accuracy with relevance around 0.80, and evidence augmentation reduces uncertainty (perplexity 4.13) compared to base responses, with mean end-to-end latency of 36.5 seconds under the reported configuration. Overall, the results indicate that agent specialisation and verification layers can mitigate key single-model limitations and provide a practical, extensible design for evidence-based and bias-aware medical AI.",
+      "year": "2026",
+      "published_date": "2026-02-15",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2602.14158v1",
+      "arxiv_id": "2602.14158v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "clinical evidence review multi-agent"
+    },
+    {
+      "title": "Query-driven Document-level Scientific Evidence Extraction from Biomedical Studies",
+      "authors": [
+        "Massimiliano Pronesti",
+        "Joao Bettencourt-Silva",
+        "Paul Flanagan",
+        "Alessandra Pascale",
+        "Oisin Redmond",
+        "Anya Belz",
+        "Yufang Hou"
+      ],
+      "abstract": "Extracting scientific evidence from biomedical studies for clinical research questions (e.g., Does stem cell transplantation improve quality of life in patients with medically refractory Crohn's disease compared to placebo?) is a crucial step in synthesising biomedical evidence. In this paper, we focus on the task of document-level scientific evidence extraction for clinical questions with conflicting evidence. To support this task, we create a dataset called CochraneForest, leveraging forest plots from Cochrane systematic reviews. It comprises 202 annotated forest plots, associated clinical research questions, full texts of studies, and study-specific conclusions. Building on CochraneForest, we propose URCA (Uniform Retrieval Clustered Augmentation), a retrieval-augmented generation framework designed to tackle the unique challenges of evidence extraction. Our experiments show that URCA outperforms the best existing methods by up to 10.3% in F1 score on this task. However, the results also underscore the complexity of CochraneForest, establishing it as a challenging testbed for advancing automated evidence synthesis systems.",
+      "year": "2025",
+      "published_date": "2025-05-09",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2505.06186v3",
+      "arxiv_id": "2505.06186v3",
+      "keywords": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded"
+    },
+    {
+      "title": "Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?",
+      "authors": [
+        "Shuai Wang",
+        "Harrisen Scells",
+        "Bevan Koopman",
+        "Guido Zuccon"
+      ],
+      "abstract": "Systematic reviews are comprehensive reviews of the literature for a highly focused research question. These reviews are often treated as the highest form of evidence in evidence-based medicine, and are the key strategy to answer research questions in the medical field. To create a high-quality systematic review, complex Boolean queries are often constructed to retrieve studies for the review topic. However, it often takes a long time for systematic review researchers to construct a high quality systematic review Boolean query, and often the resulting queries are far from effective. Poor queries may lead to biased or invalid reviews, because they missed to retrieve key evidence, or to extensive increase in review costs, because they retrieved too many irrelevant studies. Recent advances in Transformer-based generative models have shown great potential to effectively follow instructions from users and generate answers based on the instructions being made. In this paper, we investigate the effectiveness of the latest of such models, ChatGPT, in generating effective Boolean queries for systematic review literature search. Through a number of extensive experiments on standard test collections for the task, we find that ChatGPT is capable of generating queries that lead to high search precision, although trading-off this for recall. Overall, our study demonstrates the potential of ChatGPT in generating effective Boolean queries for systematic review literature search. The ability of ChatGPT to follow complex instructions and generate queries with high precision makes it a valuable tool for researchers conducting systematic reviews, particularly for rapid reviews where time is a constraint and often trading-off higher precision for lower recall is acceptable.",
+      "year": "2023",
+      "published_date": "2023-02-03",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2302.03495v3",
+      "arxiv_id": "2302.03495v3",
+      "keywords": [
+        "cs.IR",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    }
+  ],
+  "timestamp": "20260412_225253"
+}

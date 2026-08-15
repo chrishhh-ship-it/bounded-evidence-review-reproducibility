@@ -1,0 +1,212 @@
+{
+  "query_id": "Q157",
+  "query": "How should a multi-agent literature synthesis system document its search strategy to meet PRISMA 2020 reporting requirements?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "ResearchPilot: A Local-First Multi-Agent System for Literature Synthesis and Related Work Drafting",
+      "authors": [
+        "Peng Zhang"
+      ],
+      "abstract": "ResearchPilot is an open-source, self-hostable multi-agent system for literature-review assistance. Given a natural-language research question, it retrieves papers from Semantic Scholar and arXiv, extracts structured findings from paper abstracts, synthesizes cross-paper patterns, and drafts a citation-aware related-work section. The system combines FastAPI, Next.js, DSPy, SQLite, and Qdrant in a local-first architecture that supports bring-your-own-key model access and remote-or-local embeddings. This paper describes the system design, typed agent interfaces, persistence and history-search mechanisms, and the engineering tradeoffs involved in building a transparent research assistant. Rather than claiming algorithmic novelty, we present ResearchPilot as a systems contribution and evaluate it through automated tests and end-to-end local runs. We discuss limitations including external API rate limits, abstract-only extraction, incomplete corpus coverage, and the lack of citation verification.",
+      "year": "2026",
+      "published_date": "2026-03-15",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/d832f04fd4950a30e1719cdd4c319557010abe9f",
+      "arxiv_id": "2603.14629",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Hybridization of Metaheuristic and Multi-Agent System for solving the tourist trip design problem : A literature review",
+      "authors": [
+        "Simon Franck Crepin",
+        "Shohei Yokoyama"
+      ],
+      "abstract": "Metaheuristics are methods that allow finding admissible solutions for combinatorial optimization problems such as the Tourist Trip Design Problem (TTDS) while efficiently using computational resources. They can be hybridized with Multi-Agent Systems (MAS), where agent behaviors can be adapted to improve the spectrum of optimization, the quality and type of solutions. This paper reviews existing hybridization architectures and explores their potential to create autonomous and distributed systems for search space exploration. A multi-agent, multi-objective approach of the TTDS, part of the routing class, generalized from the Traveling Salesman Problems (TSP) is proposed to expand its usage to a larger class of domains, with the goal of enabling real-time resolution and better understanding of complex dynamic environments.",
+      "year": "2025",
+      "published_date": "2025-11-02",
+      "journal": "Proceedings of the 1st ACM SIGSPATIAL International Workshop on Generative and Agentic AI for Multi-Modality Space-Time Intelligence",
+      "url": "https://www.semanticscholar.org/paper/51ab88a54945f72181d9aa705738d7ea3d97dbff",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3764915.3770720",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "An Introduction to Scoping Reviews",
+      "authors": [
+        "Susanne Mak",
+        "Aliki Thomas"
+      ],
+      "abstract": "The number of medical education scoping reviews has been on the rise for the past few decades.1 A recent bibliometric analysis of knowledge syntheses, published in 14 core health professions education (HPE) journals, from 1999 to 2019, identified scoping reviews as the second most prevalent type of knowledge synthesis.2 Researchers use scoping reviews to map the depth and breadth of emerging areas in medical education,2-4 allowing them to include different forms of literature and thus not be limited to peer-reviewed literature.4-6 Scoping review teams must use a systematic and rigorous approach to produce a synthesis of the common concepts identified in the diverse existing literature.Why choose a scoping review over another knowledge synthesis approach? A 2020 paper by Peters and colleagues outlined reasons for conducting a scoping review and highlighted 6 key reasons (Box 1).4 The selection of a knowledge synthesis approach depends on the nature of the research question and the aims of the project. Examples of research questions could be: “What is known about professional identity and professional identity formation in the rehabilitation professions”7 or “How is clinical reasoning described in the HPE literature?”8 The amount of existing literature in the area of interest is also an important consideration. A scoping review method requires sufficient existing literature on the topic. Consider a topic such as clinical reasoning, which has been explored with different methods and in different professions.8 A scoping review could be useful for providing a map of what has been studied about the topic (eg, purpose or goal of reasoning, reasoning performance).8 The findings of such a scoping review would allow a reader to understand the scope of the existing studies and what the authors learned about the topic, as well as to identify gaps in the literature and their recommendations for future areas of scholarship.8 The example with Dr. Smith (Box 2) illustrates how conducting a scoping review will allow her to develop an understanding of the concepts of interprofessional education related to her speciality, setting, and trainee level, as well as to determine future lines of inquiry. Therefore, scoping review methods are well-suited to investigate questions of an exploratory nature and can be a starting point for other empirical inquiries.It is important to note that there are misconceptions about scoping reviews.4 One common misconception is that they are viewed as less rigorous, quicker, or easier to implement than other forms of reviews. However, as with any review, a research team that conducts a scoping review in a thoughtful and rigorous manner will ensure a strong contribution to the field of study.3Scoping reviews are aligned with HPE interpretivist and constructivist paradigms, which derive from an epistemological foundation that disputes an absolute truth. Rather, it embraces the creation of new knowledge through the connections between the research team, the team's knowledge and past experiences, the data, and the topic of interest.9 Therefore, an iterative approach is used, in which inclusion criteria may be refined during the processes of screening abstracts and full-text papers for inclusion and data analysis.A researcher who decides to conduct a scoping review should consider the epistemological foundations of this type of review and reflect on the alignment between their own worldviews and those of scoping review methods. The iterative and flexible nature of a scoping review aligns well with the constructivist and interpretivist paradigms that are at the core of several qualitative traditions.2,9,10 Therefore, a researcher who embraces other paradigms (eg positivist) should consider exercising reflexivity throughout the research process to ensure their perspectives and methods align with the paradigms of a scoping review.2,9,10The epistemological foundation of scoping reviews allows for selection and inclusion of articles from a broad array of literature types (eg, grey literature); as such, it is not limited to peer-reviewed literature.9 The methodological approach of scoping reviews enables the research team to cast a wide net, to capture all the literature available on a given topic (breadth), and therefore, to map and synthesize the literature on the topic of interest. However, the breadth captured by scoping reviews will also produce findings that may be more nuanced. Thus, a team approach to data analysis will be essential to identify the patterns and divergences in the codes and categories.The subjective nature of scoping reviews also means that researchers are required to make decisions based on defensible arguments aligned with the subjectivist nature of the review.2,10 For example, during data analysis, researchers often reflect on their own perspectives and beliefs on a topic and how this may shape their interpretation of the data extracted from the literature. Therefore, researchers who conduct scoping reviews need to engage in reflexivity throughout the process to question their own decisions and how they arrived at those decisions.2,9Scoping reviews offer several advantages. First, a scoping review produces a synthesis of an existing and evolving body of literature to determine gaps in the literature and identify areas for future empirical work.4 The iterative nature of scoping reviews, aligned with the interpretivist and constructivist paradigms of qualitative HPE approaches,9 is well-suited to the exploratory research questions often posed in this field. Due to this orientation, scoping reviews allow the inclusion of different types of literature. While scoping reviews do include original studies that yield empirical evidence, they may also include grey literature such as dissertations, papers in practice journals, editorials, position statements, and websites.2,4Scoping reviews also provide an opportunity for stakeholder consultation, such as with practitioners, students, and educators, depending on the topic of the review. While stakeholder consultation is optional for a scoping review, stakeholders can be involved throughout the review by offering their perspectives as well as input on additional information sources.6 The research team may also meet with stakeholders to: (1) confirm findings from the review; (2) identify issues not reported in the literature; and (3) orient the direction of future empirical inquiry. Hence, a stakeholder consultation brings an additional dimension to the review process by allowing the research team to tailor its review to the needs of relevant stakeholders. Doing so may facilitate uptake of the review findings by individuals most likely to use the results in future studies.A final strength of scoping reviews is the existence of multiple methodological frameworks that have evolved from and expanded upon Arksey and O'Malley's seminal paper on scoping reviews.4 Papers describing various methods and reporting guidance are available to aid researchers in conducting a scoping review.4Despite these strengths, researchers need to be aware of several challenges and potential pitfalls in the use of scoping reviews. One challenge is selecting terms for a comprehensive search strategy, especially when the literature is emerging and less well-known. In this case, the terms may not be indexed as Medical Subject Headings and may be difficult to find in the published literature.3 Another challenge to a comprehensive search strategy is that some topics are ill-defined, which can lead to different terms and definitions for the same topic. Clinical reasoning is an example of a topic for which multiple terms are used.8 Critical thinking, expert reasoning, reasoning, and reasoning skills are some of the many terms used to describe clinical reasoning.8 Further refinement of the topic would be required to conduct a review.Scoping reviews are also resource intensive.10 For example, a high yield on the number of possible papers may require more reviewers and more time dedicated to decisions regarding which papers to include or exclude. Decisions on the data to be extracted can also require discussion. During the analysis phase, the heterogeneity of the data and team members' differing perspectives will likely require reflection and discussion to allow for collaborative decision-making and to produce meaningful results.3A final challenge is the possible misconceptions related to the purpose, scope, and rigor of scoping reviews. These misconceptions may result in teams viewing a scoping review as a quick review, that is, rapid and simple to execute and less rigorous.3 However, our experience in conducting multiple scoping reviews in the field2,7,8,11 has taught us that they are far from quick or easy. They often require that teams spend much time reflecting, communicating, and iteratively reviewing the data to ensure the process is rigorous and that the results will make a meaningful contribution to our knowledge of the topic.A scoping review requires a research team with the necessary expertise and the right tools. Librarians are key members of scoping review teams. Their expertise is crucial for building a comprehensive search strategy that captures seminal articles and beyond4,12 and sets the stage for the subsequent review steps. A content expert is also a valuable team member who contributes to the team's overall understanding of the breadth and depth of the topic, selection of the terms and keywords for the search strategy, and creation of the data extraction form. A team member with methodological expertise in conducting scoping reviews can help determine whether a scoping review best aligns with the research question and then guide the team throughout the stages of the review process. This may include decisions regarding the membership of the team and use of methods to ensure rigor, such as the processes for developing a form for data extraction. Content experts may also help to interpret findings following data analysis or propose an alternate approach to data analysis.Tools can assist in different phases of a scoping review, such as with organizing references, identifying duplicates, and providing ways to document the team's justifications for including or excluding papers for the review. For instance, Rayyan is a free mobile and web application that can facilitate study selection between different reviewers on the research team. Rayyan provides a user-friendly interface that tracks decisions about including or excluding a paper, with space for clear, concise decision justifications. This application also allows for multiple individuals to collaborate on the study selection process while blinding reviewers to each other's inclusion and exclusion decisions. Covidence, often used for systematic reviews, provides similar features and can also be used for scoping reviews. Qualitative data analysis software, such as NVivo, is useful at the analysis stage to help identify patterns. NVivo is a commercial qualitative data analysis software that can analyze data from data extraction forms. Other qualitative data analysis software programs offer similar functions and additional features, such as real-time collaboration and web-based formats.Conducting a scoping review takes time.3,10 Sufficient time is needed to read each title and abstract and to determine whether the paper meets the inclusion criteria for study selection. Concurrently, the research team will need time to discuss which aspects of the paper to extract, and subsequently, to create a data extraction form that reflects those aspects of interest. For included papers, the reviewer(s) will need time to read each paper in full to identify the excerpts of text to include in the data extraction form. In addition, for both the study selection and data extraction phases, time is needed for reviewers to engage in calibration exercises: meetings between reviewers to ensure their mutual understanding of the inclusion criteria and the categories on the data extraction form, to discuss reviewers' discrepancies in study selection and data extraction,3,5,6,9 and to reach a level of agreement of 90% or higher.11At least 2 reviewers are needed to perform independent reviews of titles, abstracts, and full papers; a third reviewer may be needed to resolve disagreements. However, if having 2 reviewers is not feasible, one reviewer can conduct the independent review, with a second reviewer verifying a portion of the papers. Sufficient human resources are needed so that a scoping review can be conducted in a timely manner; otherwise, the findings of the search strategy may become outdated. If this occurs, the search strategy will need to be rerun to capture any papers that were published after the time limits of the original search strategy.Scoping reviews aim to answer questions that are often exploratory in nature, such as descriptions of professional identity and clinical reasoning, and require the use of synthesis methods. Scoping reviews include different types of literature and cast a wide net for mapping the literature. Unlike many other synthesis review types, scoping reviews offer the opportunity to engage stakeholders in the review process. However, creating a comprehensive search strategy and having sufficient resources add challenges to a scoping review. It is critical that those who decide to conduct a scoping review do so thoughtfully, while considering both their research question, the resources available to them, and the epistemological paradigm to which they will adhere.",
+      "year": "2022",
+      "published_date": "2022-10-01",
+      "journal": "Journal of Graduate Medical Education",
+      "url": "https://doi.org/10.4300/jgme-d-22-00620.1",
+      "arxiv_id": "",
+      "keywords": [
+        "Systematic review",
+        "Grey literature",
+        "Knowledge translation",
+        "Knowledge management",
+        "Computer science",
+        "Engineering ethics",
+        "MEDLINE",
+        "Data science"
+      ],
+      "citations": 124,
+      "source": "OpenAlex",
+      "doi": "10.4300/jgme-d-22-00620.1",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Biomedical reasoning in action: Multi-agent System for Auditable Biomedical Evidence Synthesis",
+      "authors": [
+        "Oskar Wysocki",
+        "Magdalena Wysocka",
+        "Mauricio Jacobo",
+        "Harriet Unsworth",
+        "André Freitas"
+      ],
+      "abstract": "We present M-Reason, a demonstration system for transparent, agent-based reasoning and evidence integration in the biomedical domain, with a focus on cancer research. M-Reason leverages recent advances in large language models (LLMs) and modular agent orchestration to automate evidence retrieval, appraisal, and synthesis across diverse biomedical data sources. Each agent specializes in a specific evidence stream, enabling parallel processing and fine-grained analysis. The system emphasizes explainability, structured reporting, and user auditability, providing complete traceability from source evidence to final conclusions. We discuss critical tradeoffs between agent specialization, system complexity, and resource usage, as well as the integration of deterministic code for validation. An open, interactive user interface allows researchers to directly observe, explore and evaluate the multi-agent workflow. Our evaluation demonstrates substantial gains in efficiency and output consistency, highlighting M-Reason's potential as both a practical tool for evidence synthesis and a testbed for robust multi-agent LLM systems in scientific research, available at https://m-reason.digitalecmt.com.",
+      "year": "2025",
+      "published_date": "2025-10-06",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2510.05335v1",
+      "arxiv_id": "2510.05335v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models"
+    },
+    {
+      "title": "Multi-agent system implementation in demand response: A literature review and bibliometric evaluation",
+      "authors": [
+        "Benjamin Oluwamuyiwa Olorunfemi",
+        "Nnamdi Nwulu"
+      ],
+      "abstract": "&lt;abstract&gt; &lt;p&gt;This research provides a comprehensive literature overview and bibliometric evaluation of multi-agent system (MAS) implementation in energy demand response (DR) to identify gaps. The review encompasses 39 relevant papers from searches in three academic databases, focusing on studies published from 2012 to the middle of 2023. The review includes MAS frameworks, optimization algorithms, communication protocols, market structures and evaluation methodologies. Bibliometric analysis of 587 documents from the search on the Scopus database identified prolific authors, influential articles and collaborative networks within the field. The findings reveal growing research interest in implementing an MAS for DR, focusing on integrating intelligent agents into electricity grids to enable effective load management and enhance grid stability. Additionally, the review outlines potential research directions, including exploring advanced MAS techniques, interoperability challenges, policy implications and the integration of renewable energy sources.&lt;/p&gt; &lt;/abstract&gt;",
+      "year": "2023",
+      "published_date": "2023-01-01",
+      "journal": "AIMS energy",
+      "url": "https://doi.org/10.3934/energy.2023054",
+      "arxiv_id": "",
+      "keywords": [
+        "Scopus",
+        "Demand response",
+        "Interoperability",
+        "Computer science",
+        "Renewable energy",
+        "Field (mathematics)",
+        "Bibliometrics",
+        "Knowledge management"
+      ],
+      "citations": 2,
+      "source": "OpenAlex",
+      "doi": "10.3934/energy.2023054",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Bridging Literature and the Universe Via A Multi-Agent Large Language Model System",
+      "authors": [
+        "Xiaowen Zhang",
+        "Zhenyu Bi",
+        "Patrick Lachance",
+        "Xuan Wang",
+        "Tiziana Di Matteo",
+        "Rupert A. C. Croft"
+      ],
+      "abstract": "As cosmological simulations and their associated software become increasingly complex, physicists face the challenge of searching through vast amounts of literature and user manuals to extract simulation parameters from dense academic papers, each using different models and formats. Translating these parameters into executable scripts remains a time-consuming and error-prone process. To improve efficiency in physics research and accelerate the cosmological simulation process, we introduce SimAgents, a multi-agent system designed to automate both parameter configuration from the literature and preliminary analysis for cosmology research. SimAgents is powered by specialized LLM agents capable of physics reasoning, simulation software validation, and tool execution. These agents collaborate through structured communication, ensuring that extracted parameters are physically meaningful, internally consistent, and software-compliant. We also construct a cosmological parameter extraction evaluation dataset by collecting over 40 simulations in published papers from Arxiv and leading journals that cover diverse simulation types. Experiments on the dataset demonstrate a strong performance of SimAgents, highlighting its effectiveness and potential to accelerate scientific research for physicists. Our demonstration video is available at: https://youtu.be/w1zLpm_CaWA. The complete system and dataset are publicly available at https://github.com/xwzhang98/SimAgents.",
+      "year": "2025",
+      "published_date": "2025-07-11",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2507.08958v2",
+      "arxiv_id": "2507.08958v2",
+      "keywords": [
+        "astro-ph.IM",
+        "astro-ph.CO",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "ScholarGenie: A Multi-Agentic System for Automated Literature Summarization and Presentation Generation",
+      "authors": [
+        "A. S",
+        "Gnanamoorthi P V",
+        "J. G. B. Patturose",
+        "R. Priscilla"
+      ],
+      "abstract": "ScholarGenie is a multi-agent framework designed to automate the academic literature review process by integrating paper retrieval, semantic summarization, and slide deck generation into a unified system. Based on modular agent based orchestration using CrewAI and LangChain, ScholarGenie deploys specialized agents that collectively manage document search, context-aware summarization, and automated content formatting. This architecture reduces the dependency on manual effort and accelerates research workflows, particularly in educational and time constrained environments. Using large language models for understanding and synthesis, the system produces structured summaries and concise presentations tailored to user intent. ScholarGenie is evaluated on multiple research topics, demonstrating up to a 80% reduction in the processing time of the literature with output quality comparable to expert-curated summaries. This study highlights the role of agentic AI systems in redefining early-stage research productivity through scalable and autonomous academic content generation.",
+      "year": "2025",
+      "published_date": "2025-11-14",
+      "journal": "2025 International Conference on Advances in Next-Gen Computer Science (ICANCS)",
+      "url": "https://www.semanticscholar.org/paper/4e24fbbe3f3a50780dd0e6e546c6965ff4a70243",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/ICANCS65819.2025.11376736",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Multi-Agent AI Systems in Healthcare: Systematic Evidence Synthesis Via PRISMA of Clinical Decision Support Systems, Robotic Interventions, and Critical Care",
+      "authors": [
+        "Oto Peter Ode",
+        "Ndukwe Chika Kalu",
+        "Saleh Abbas",
+        "Arslan Arshad",
+        "Adagboyi Isaac Inalegwu",
+        "Konstantin Koshechkin"
+      ],
+      "abstract": "Abstract: Multi-agent artificial intelligence systems (MAS) is transforming the healthcare sector by enabling intelligent decision-making, robotic interventions, and critical care management. Despite growing interest, a comprehensive synthesis of their real-world applications, performance, and limitations is lacking. This systematic review aims to evaluate the deployment of MAS in healthcare across three key domains: Clinical Decision Support Systems (CDSS), Robotic Interventions, and Critical Care Monitoring. It also addresses ethical and legal considerations, offers a comparative framework, and identifies research gaps. A systematic search of PubMed, IEEE Xplore, Scopus, and Web of Science was conducted following PRISMA guidelines. A total of 150 records were retrieved. After duplicate removal and screening, 32 studies met inclusion criteria. The Joanna Briggs Institute (JBI) Critical Appraisal Checklist guided quality assessment. Data were extracted using a structured form and organized by topic. Among the 32 studies included, 12 focused on MAS-based CDSS, 11 on robotic interventions, and 9 on MAS in critical care. Most MAS demonstrated improved diagnostic accuracy, aided real-time decision support, and enhanced patient monitoring. However, over 60% involved practical models and lacked clinical validation. Ethical concerns, particularly around autonomy, data privacy, transparency, and legal accountability were sometimes overlooked. Only 7 studies discussed ethical or legal implications in depth. A comparative framework was developed, comparing MAS tools based on scalability, clinical validation, autonomy, human-AI interaction, and data transparency. No doubt, MAS hold transformative potential across healthcare domains. However, real-world deployment remains unclear. Greater emphasis on clinical validation, ethical design, and regulatory frameworks is needed. This review provides suggestions for future research and responsible adoption of MAS in healthcare.",
+      "year": "2025",
+      "published_date": "2025-06-19",
+      "journal": "International Journal of Latest Technology in Engineering Management &amp; Applied Science",
+      "url": "https://www.semanticscholar.org/paper/fe07442a7eb33396064eb4d2400ea3464a03cd29",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.51583/ijltemas.2025.140500080",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    }
+  ],
+  "timestamp": "20260413_092224"
+}

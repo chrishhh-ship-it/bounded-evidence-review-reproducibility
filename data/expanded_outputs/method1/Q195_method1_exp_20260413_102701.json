@@ -1,0 +1,216 @@
+{
+  "query_id": "Q195",
+  "query": "How should an automated synthesis pipeline handle the citation of retracted papers that remain in the frozen corpus?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Transforming Evidence Synthesis: A Systematic Review of the Evolution of Automated Meta-Analysis in the Age of AI",
+      "authors": [
+        "Lingbo Li",
+        "A. Mathrani",
+        "Teo Sušnjak"
+      ],
+      "abstract": "Exponential growth in scientific literature has heightened the demand for efficient evidence-based synthesis, driving the rise of the field of Automated Meta-analysis (AMA) powered by natural language processing and machine learning. This PRISMA systematic review introduces a structured framework for assessing the current state of AMA, based on screening 978 papers from 2006 to 2024, and analyzing 54 studies across diverse domains. Findings reveal a predominant focus on automating data processing (57%), such as extraction and statistical modeling, while only 17% address advanced synthesis stages. Just one study (2%) explored preliminary full-process automation, highlighting a critical gap that limits AMA's capacity for comprehensive synthesis. Despite recent breakthroughs in large language models (LLMs) and advanced AI, their integration into statistical modeling and higher-order synthesis, such as heterogeneity assessment and bias evaluation, remains underdeveloped. This has constrained AMA's potential for fully autonomous meta-analysis. From our dataset spanning medical (67%) and non-medical (33%) applications, we found that AMA has exhibited distinct implementation patterns and varying degrees of effectiveness in actually improving efficiency, scalability, and reproducibility. While automation has enhanced specific meta-analytic tasks, achieving seamless, end-to-end automation remains an open challenge. As AI systems advance in reasoning and contextual understanding, addressing these gaps is now imperative. Future efforts must focus on bridging automation across all meta-analysis stages, refining interpretability, and ensuring methodological robustness to fully realize AMA's potential for scalable, domain-agnostic synthesis.",
+      "year": "2025",
+      "published_date": "2025-04-28",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/cbc9b68c69c564c285f97e4891835ae41cd8fa29",
+      "arxiv_id": "2504.20113",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2504.20113",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "The presence and potential impact of psychological safety in the healthcare setting: an evidence synthesis",
+      "authors": [
+        "K. Grailey",
+        "E. Murray",
+        "T. Reader",
+        "S. Brett"
+      ],
+      "abstract": "Introduction Psychological safety is the shared belief that the team is safe for interpersonal risk taking. Its presence improves innovation and error prevention. This evidence synthesis had 3 objectives: explore the current literature regarding psychological safety, identify methods used in its assessment and investigate for evidence of consequences of a psychologically safe environment. Methods We searched multiple trial registries through December 2018. All studies addressing psychological safety within healthcare workers were included and reviewed for methodological limitations. A thematic analysis approach explored the presence of psychological safety. Content analysis was utilised to evaluate potential consequences. Results We included 62 papers from 19 countries. The thematic analysis demonstrated high and low levels of psychological safety both at the individual level in study participants and across the studies themselves. There was heterogeneity in responses across all studies, limiting generalisable conclusions about the overall presence of psychological safety. A wide range of methods were used. Twenty-five used qualitative methodology, predominantly semi-structured interviews. Thirty quantitative or mixed method studies used surveys. Ten studies inferred that low psychological safety negatively impacted patient safety. Nine demonstrated a significant relationship between psychological safety and team outcomes. The thematic analysis allowed the development of concepts beyond the content of the original studies. This analytical process provided a wealth of information regarding facilitators and barriers to psychological safety and the development of a model demonstrating the influence of situational context. Discussion This evidence synthesis highlights that whilst there is a positive and demonstrable presence of psychological safety within healthcare workers worldwide, there is room for improvement. The variability in methods used demonstrates scope to harmonise this. We draw attention to potential consequences of both high and low psychological safety. We provide novel information about the influence of situational context on an individual’s psychological safety and offer more detail about the facilitators and barriers to psychological safety than seen in previous reviews. There is a risk of participation bias - centres involved in safety research may be more aligned to these ideals. The data in this synthesis are useful for institutions looking to improve psychological safety by providing a framework from which modifiable factors can be identified.",
+      "year": "2021",
+      "published_date": "2021-08-05",
+      "journal": "BMC Health Services Research",
+      "url": "https://www.semanticscholar.org/paper/dcadab90e5858320cda37456394a6dadeda83f03",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 149,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s12913-021-06740-6",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "How is Real World Evidence taught in Nursing? A Systematic review undertaking a narrative synthesis of the literature (Preprint)",
+      "authors": [
+        "Tristan Coombe",
+        "Lisa Burrows",
+        "Madison Milne-Ives",
+        "Edward Meinert"
+      ],
+      "abstract": "BACKGROUND\n                        Real World Evidence (RWE) comprises forms, methodologies and applications including data collected in naturally uncontrolled settings utilising non-interventional, non-controlled and non-experimental approaches.  RWE may overcome problems inherent with traditional research methodologies.  It more closely represents the real world and how interventions affect the patient experience and could be more suitable for assessing complex social interventions. Clinicians require the skills and knowledge to utilise it effectively and mitigate its disadvantages.  As Nurses are the largest group of healthcare professionals, exploring how to develop knowledge of RWE in nursing has a large potential benefit for research and care.\n                \n                                \n                    OBJECTIVE\n                        This systematic review (SR) aims to consider how RWE is taught within nursing and examine the benefits and outcomes of those teaching and learning activities.\n                \n                                \n                    METHODS\n                        An SR without Meta-Analysis narrative synthesis approach was conducted. MEDLINE (EBSCO), EMBASE (Ovid), PsycINFO, Cochrane, Web of Science, SCOPUS and IEEE were searched using free text terms and MeSH terms combined with Boolean operators associated with RWE forms, types and methodologies, teaching and nursing.  Final studies were appraised using MMAT and JBI tools.\n                \n                                \n                    RESULTS\n                        Kinaesthetic approaches, simulated learning, and case studies were undertaken in classroom and practice settings utilising real and simulated data, which may positively increase perceived satisfaction and knowledge with RWE.   Constructivism and experiential learning could be more suitable for RWE education with educators and students displaying increased positivity towards RWE compared with alternative pedagogical approaches.  Barriers to RWE education included negative educator and learner beliefs, organisational barriers and concerns regarding data security and confidentiality.  A majority of the studies were observational or descriptive and a number of areas of bias were identified during the appraisal process.\n                \n                                \n                    CONCLUSIONS\n                        Utilising a range of teaching and learning strategies in nursing that make learning relevant and meaningful may be important in RWE education.  More research is needed to develop further the definition, characteristics and applications of RWE, consider different pedagogical approaches and a wider range of RWE forms, methodologies and applications.",
+      "year": "2023",
+      "published_date": "2023-5-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2196/preprints.49164",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2196/preprints.49164",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Understanding the Corpus of Mobile Payment Services Research: An Analysis of the Literature Using Co-Citation Analysis and Social Network Analysis",
+      "authors": [
+        "Surabhi Verma",
+        "Sushil S. Chaurasia",
+        "Vibhav Singh"
+      ],
+      "abstract": "Mobile Payment Services have evolved in the past 20 years, attracting the attention of international practitioners and research scholars. Although several review and analyses of literature have been conducted to examine the multiple dimensions of mobile payment services, no co-citation analysis has been conducted to examine and understand the knowledge structures involved in mobile payment services studies. Therefore in order to fill this research gap, this research article analyses the corpus of mobile payment services research published from 1997 to June 2017 using Bibliometric and Social Network Analysis (SNA) methods to develop an intellectual structure of mobile payment services research. All data source documents (406 articles and 3,424 citations) were obtained from Web of Knowledge (WoK) database. A co-citation analysis was used to analyse mobile payment services data. Factor analysis, citation and co-citation analysis, multidimensional scaling and centrality measurement are applied to the mobile payment services dataset using UCINET to identify the core influential articles in the field. This study identifies seven core clusters of mobile payment services research that centre around (1) Adoption and usage; (2) Trust, risk and security; (3) Application; (4) Scheme; (5) Protocol; (6) Architecture; (7) Mobile payment corporation. The findings of this research study provide core knowledge and directions for practitioners and researchers interested in the mobile payment services field.",
+      "year": "2020",
+      "published_date": "2020-2-28",
+      "journal": "Journal of Information Systems and Technology Management",
+      "url": "https://doi.org/10.4301/s1807-1775202017002",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "CrossRef",
+      "doi": "10.4301/s1807-1775202017002",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant literature review"
+    },
+    {
+      "title": "End-to-End Reliability of Automated Systems for Diagnostic Data Extraction: A Benchmark Study in Uro-Oncologic Evidence Synthesis",
+      "authors": [
+        "Matthias May",
+        "Julio Ruben Rodas Garzaro",
+        "Anton Kravchuk",
+        "Christian Gilfrich",
+        "Gregor Donabauer",
+        "Samy Ateia",
+        "Udo Kruschwitz",
+        "Maximilian Haas",
+        "Christoph Eckl",
+        "Maximilian Burger"
+      ],
+      "abstract": "Abstract\n                \n                  Background\n                  Automated systems, including large language models, are increasingly used to support data extraction in diagnostic systematic reviews. However, their reliability, safety, and repeatability under realistic extraction conditions remain insufficiently characterized.\n                \n                \n                  Objective\n                  To benchmark the end-to-end reliability of automated systems for extracting diagnostic accuracy data from published uro-oncologic studies, with a focus on correctness, abstention behavior in non-derivable scenarios, repeatability across repeated runs, and operational efficiency.\n                \n                \n                  Methods\n                  This prospective, protocol-driven benchmarking study evaluates a purpose-built extraction system (MedNuggetizer) and three contemporary large language models. Systems are applied to a fixed corpus of published full-text PDFs and publicly available supplementary material reporting on Uromonitor and urine cytology for bladder cancer detection. A locked, uniform extraction prompt is used across all systems. The primary endpoint is dataset-run correctness, defined as either exact extraction of the complete 2-by-2 diagnostic table or correct declaration of non-derivability. A non-inferiority design with an exact one-sided binomial test is employed. Secondary endpoints include hallucination behavior on pre-specified sentinel datasets, repeatability across repeated runs, fidelity of derived diagnostic metrics, and execution time compared with human extraction.\n                \n                \n                  Results\n                  The study is powered for a non-inferiority margin of 5 percentage points relative to a predefined correctness threshold of 95 percent. Twenty independent runs per system are performed, yielding 320 dataset-run observations. Primary inference is conducted at the run level, with consensus-level results reported as supportive robustness analyses.\n                \n                \n                  Conclusions\n                  This protocol establishes a conservative and reproducible framework for evaluating automated systems used in diagnostic evidence synthesis. By integrating correctness, abstention, repeatability, and safety into a single end-to-end evaluation, the study addresses key methodological gaps in the clinical assessment of generative AI tools.",
+      "year": "2025",
+      "published_date": "2025-12-31",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.64898/2025.12.24.25342959",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.64898/2025.12.24.25342959",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "RETRACTED: Integrating hyperreal literature with CALL in English language curriculum for engineering studies in India: an empirical study of the impact on students’ learning",
+      "authors": [
+        "A. K. Ajeesh",
+        "S. Rukmini"
+      ],
+      "abstract": "Purpose Scholarship on language teacher knowledge and critical digital literacy. Using a grounded theory approach, semi-structured online presentations of students, classroom observations and their responses to multimedia tools such as movies and literature were analysed. As part of the study, 150 students pursuing undergraduate degree in engineering were assigned two assignments involving science fiction movies and hyperreal literature as part of an experiential strategy. A survey was conducted before and after the study to evaluate the change in students’ perception towards the use of technology and multimedia in language classrooms as well as their awareness of technological dependency in the postmodern world. The findings show that student cognition of AI and technological dependency is a complex and emergent system, and that, despite current literacy education scholarship stressing digital literacy as a social and critical praxis, technology is treated in a mostly functional, rather than a critical manner in a standard university language classroom. The results of this study suggest that the disadvantages of a realistic approach to teaching digital composition can be avoided by creating other forms of educational materials that adhere to critical digital literacies sense, such as posthuman literary works and science fiction film. Design/methodology/approach This study is primarily qualitative and empirical, focussing on the analysis of student responses to classroom assignments and semi-structured online presentations and responses to multimedia tools such as movies and online literature. A pilot study was performed among the engineering students of Vellore Institute of Technology, Vellore, India, to better understand engineering students’ perceptions and attitudes towards teaching English as a second language using emerging technology, with the aim of improving language abilities, writing skills, imagination and overall personality. One hundred and fifty (150) students were assigned two assignments as part of an experiential strategy. Owing to the COVID-19 pandemic, Microsoft Teams was used as the platform for assessment and observation. As part of their learning challenge, students were required to watch the movies “Her”, “Interstellar” and “Bandersnatch” and write a technical report outlining some of the major observations on technology and AI. Secondly, as part of their learning challenge, students were required to read Oliver Sacks’ “The Machine Stops” and comment on his perspectives on technological dependency. This was supplemented by assessment tests and assignments focussing on the digital nature of the global education system. Another survey was conducted at the end of the study to evaluate the change in students’ perception towards the use of technology and multimedia in language classrooms as well as their awareness of technological dependency in the postmodern world. Owing to the posthuman and hyperreal nature of the movies and texts, students were introduced to the theories of Marshall McLuhan and Jean Baudrillard to better understand the chosen works. Findings In the posthuman era, where digital technologies are at their peak, English language teachers select appropriate teaching resource materials based on the needs of the students and do their utmost to combine them with technology to make their teaching more engaging and efficient. Thanks to the current craze for Digital Humanities, not just English language teaching but also literature classroom teaching has experienced several paradigm shifts. This has raised the need for English teachers and professionals on the job market. Given this context, and in particular, to raise knowledge among engineering students of their critical position in the literary job sector, two tasks were assigned to students in the Language Classroom. These tasks included integrating technology into language studies and literature, instilling imagination, honing literary skills and facilitating the development of a comprehensive approach to life and potential endeavours. Originality/value As evident from the study and literature review, the introduction of emerging technology in Language Classrooms has grown in popularity, but it has yet to be incorporated into Language Classrooms that focus on the comprehensive development of students, especially in India. Furthermore, proof of interactions between digital learning and teaching practices and anticipated results, effects and impacts was gathered to make the Language Classroom more social, inspiring and engaging, but little more. As a result, we see a lot of potential for research in this field, particularly concerning the most recent language studies advancements about Digital Humanities.",
+      "year": "2021",
+      "published_date": "2021-11-15",
+      "journal": "World Journal of Engineering",
+      "url": "https://doi.org/10.1108/wje-07-2021-0393",
+      "arxiv_id": "",
+      "keywords": [
+        "Curriculum",
+        "Experiential learning",
+        "Pedagogy",
+        "Mathematics education",
+        "Scholarship",
+        "Empirical research",
+        "Psychology",
+        "Computer science"
+      ],
+      "citations": 5,
+      "source": "OpenAlex",
+      "doi": "10.1108/wje-07-2021-0393",
+      "open_access": false,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship literature review"
+    },
+    {
+      "title": "Machines in the Margins: A Systematic Review of Automated Content Generation for Wikipedia",
+      "authors": [
+        "Neal Reeves",
+        "Elena Simperl"
+      ],
+      "abstract": "Wikipedia is among the largest examples of collective intelligence on the Web with over 61 million articles covering over 320 languages. Although edited and maintained by an active workforce of human volunteers, Wikipedia is highly reliant on automated bots to fill gaps in its human workforce. As well as administrative and governance tasks, these bots also play a role in generating content, although to date such agents represent the smallest proportion of bots. While there has been considerable analysis of bots and their activity in Wikipedia, such work captures only automated agents that have been actively deployed to Wikipedia and fails to capture the methods that have been proposed to generate Wikipedia content in the wider literature. In this paper, we conduct a systematic literature review to explore how researchers have operationalised and evaluated automated content-generation agents for Wikipedia. We identify the scope of these generation methods, the techniques and models used, the source content used for generation and the evaluation methodologies which support generation processes. We also explore implications of our findings to CSCW, User Generated Content and Wikipedia, as well as research directions for future development. To the best of our knowledge, we are among the first to review the potential contributions of this understudied form of AI support for the Wikipedia community beyond the implementation of bots.",
+      "year": "2025",
+      "published_date": "2025-09-26",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2509.22443v1",
+      "arxiv_id": "2509.22443v1",
+      "keywords": [
+        "cs.HC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent"
+    }
+  ],
+  "timestamp": "20260413_102701"
+}

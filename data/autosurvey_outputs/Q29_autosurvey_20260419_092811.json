@@ -1,0 +1,181 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "哪些自动指标可以先行使用，以减少人工标注成本？",
+  "effective_search_query": "automatic metrics, human annotation cost reduction",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.5194/egusphere-egu26-2819",
+    "title:optimizing service operations via llm-powered multi-agent simulation|2026",
+    "title:service recovery by ai or human agents: do failure and strategy context matter?|2025",
+    "doi:10.1016/j.jretai.2025.03.003",
+    "doi:10.1287/msom.2020.0939",
+    "doi:10.2139/ssrn.6130946",
+    "title:decision science in the agentic era: research frontiers on agentic ai and human-agent collaboration|2026",
+    "title:synergizing human-ai agency: a guide of 23 heuristics for service co-creation with llm-based agents|2023",
+    "doi:10.1016/j.artint.2016.07.002",
+    "title:impact of human and ai-agent services on customer learning, immersion and loyalty: the role of interactivity|2025",
+    "doi:10.1007/978-3-031-89424-4.pdfckk",
+    "doi:10.1007/s12525-020-00414-7",
+    "title:from human experts to ai agents: agentic ai for knowledge-intense problem-solving in logistics?|2025",
+    "doi:10.1007/978-981-96-0868-3_19d",
+    "title:llm-agent interactions on markets with information asymmetries|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "Climate Service Recipes: automatic multi-hazard climate information workflow generation using agentic Large Language Models (LLMs) and knowledge graphs",
+      "year": "2026",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.5194/egusphere-egu26-2819",
+      "citations": 0,
+      "abstract": "Climate Service Recipes (HACID-CSR) is an agentic system designed to assist providers of climate services in developing their advice for a wide range of clients. HACID-CSR guides providers by navigating the large and ever-increasing corpus of knowledge as well as an area without established standards and with limited access to scientific experts. It automatically generates detailed workflows (or “recipes”) by leveraging both a large language model’s internal reasoning and contextual knowledge from a domain knowledge graph for climate services (CS-DKG). The CS-DKG is an expert-curated ontology of climate service concepts with mapped relationships between climate variables, emission scenarios, indices, hazards, sectors, and key datasets (CORDEX, CMIP5, UKCP18), built as part of the Horizon E"
+    },
+    {
+      "title": "Optimizing Service Operations via LLM-Powered Multi-Agent Simulation",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Service system performance depends on how participants respond to design choices, but modeling these responses is hard due to the complexity of human behavior. We introduce an LLM-powered multi-agent simulation (LLM-MAS) framework for optimizing service operations. We pose the problem as stochastic optimization with decision-dependent uncertainty: design choices are embedded in prompts and shape the distribution of outcomes from interacting LLM-powered agents. By embedding key numerical information in prompts and extracting it from LLM-generated text, we model this uncertainty as a controlled Markov chain. We develop an on-trajectory learning algorithm that, on a single simulation run, simultaneously constructs zeroth-order gradient estimates and updates design parameters to optimize stead"
+    },
+    {
+      "title": "Service recovery by AI or human agents: do failure and strategy context matter?",
+      "year": 2025,
+      "journal": "A Fürst, L Trißler, R Friedrich, J Wirtz - Journal of Service …, 2025 - emerald.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 20,
+      "abstract": "… of AI versus human service recovery as a function of service … of service recovery agent with the specific type of service failure … and their lack of expertise and background knowledge, …"
+    },
+    {
+      "title": "Artificial intelligence versus human service agents: How their presence shapes consumer information privacy concerns",
+      "year": "2025",
+      "journal": "Journal of Retailing",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.jretai.2025.03.003",
+      "citations": 10,
+      "abstract": "Service agents act on behalf of retailers to interact with consumers. Agents’ service delivery requires information from consumers, which may raise consumers’ concerns about their information privacy. While previous research has linked service agents’ presence to perceptions of being watched, little is known about how artificial intelligence (AI) (vs. human) agents’ passive or mere presence affects consumer information privacy concerns—a gap this research aims to address. In a series of experimental studies and drawing on reactance theory, we find that consumers express lesser privacy concerns in the presence of AI (vs. human) service agents, which in turn leads to a greater willingness to share personal information and increased intention to engage with the retailer. To explain this effec"
+    },
+    {
+      "title": "A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory Optimization",
+      "year": "2021",
+      "journal": "Manufacturing & Service Operations Management",
+      "source": "OpenAlex",
+      "doi": "10.1287/msom.2020.0939",
+      "citations": 206,
+      "abstract": "Problem definition: The beer game is widely used in supply chain management classes to demonstrate the bullwhip effect and the importance of supply chain coordination. The game is a decentralized, multiagent, cooperative problem that can be modeled as a serial supply chain network in which agents choose order quantities while cooperatively attempting to minimize the network’s total cost, although each agent only observes local information. Academic/practical relevance: Under some conditions, a base-stock replenishment policy is optimal. However, in a decentralized supply chain in which some agents act irrationally, there is no known optimal policy for an agent wishing to act optimally. Methodology: We propose a deep reinforcement learning (RL) algorithm to play the beer game. Our algorithm"
+    },
+    {
+      "title": "Human-in-Command: Governing Agentic AI in Customer Service",
+      "year": "2026",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.6130946",
+      "citations": 0,
+      "abstract": "The rapid integration of autonomous and generative artificial intelligence into the customer service and support sector has fundamentally altered the relationship between human agents and technological systems. As organizations shift from simple rule-based automation to semi-autonomous \"agentic\" AI, the requirement for effective human oversight has moved from a technical best practice to a critical governance and regulatory mandate. This research explores the \"Human-in-Command\" (HIC) framework as the definitive model for maintaining organizational accountability, ensuring ethical alignment, and mitigating the risks associated with algorithmic bias and automation complacency. Through a comprehensive literature review, the report traces the theoretical evolution of human-automation interacti"
+    },
+    {
+      "title": "Decision Science in the Agentic Era: Research Frontiers on Agentic AI and Human-Agent Collaboration",
+      "year": 2026,
+      "journal": "Y Zhang, T Sun - Available at SSRN 6111886, 2026 - papers.ssrn.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… Building on recent discussions of “agentic AI” (eg, IBM 2025b), we define agentic AI as AI … to genuinely agentic systems rather than ever more sophisticated forms of decision support. …"
+    },
+    {
+      "title": "Synergizing human-AI agency: a guide of 23 heuristics for service co-creation with LLM-based agents",
+      "year": 2023,
+      "journal": "Q Zheng, Z Xu, A Choudhry, Y Chen, Y Li… - arXiv preprint arXiv …, 2023 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 17,
+      "abstract": "… how service providers desire, understand, and interact with LLM-based AI output. We ask: How can we support non-AI domain experts in service co-creation with LLM-based agents? To …"
+    },
+    {
+      "title": "Artificial cognition for social human–robot interaction: An implementation",
+      "year": "2016",
+      "journal": "Artificial Intelligence",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.artint.2016.07.002",
+      "citations": 380,
+      "abstract": "Human–Robot Interaction challenges Artificial Intelligence in many regards: dynamic, partially unknown environments that were not originally designed for robots; a broad variety of situations with rich semantics to understand and interpret; physical interactions with humans that requires fine, low-latency yet socially acceptable control strategies; natural and multi-modal communication which mandates common-sense knowledge and the representation of possibly divergent mental models. This article is an attempt to characterise these challenges and to exhibit a set of key decisional issues that need to be addressed for a cognitive robot to successfully share space and tasks with a human. We identify first the needed individual and collaborative cognitive skills: geometric reasoning and situati"
+    },
+    {
+      "title": "Impact of human and AI-agent services on customer learning, immersion and loyalty: the role of interactivity",
+      "year": 2025,
+      "journal": "R Chatterjee, SR George, JS Verma… - Journal of Service …, 2025 - emerald.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… -agent service (HAS) and artificial intelligence-agent service (… loyalty (CLY) within online service interactions. Additionally, the … and service providers share resources and knowledge …"
+    },
+    {
+      "title": "The Power of Agentic AI: Redefining Human Life and Decision-Making",
+      "year": 2025,
+      "journal": "CKK Reddy, S Joseph, H Joshi, S Doss, M Ouaissa - DOI, 2025 - Springer",
+      "source": "Google Scholar",
+      "doi": "10.1007/978-3-031-89424-4.pdfCKK",
+      "citations": 2,
+      "abstract": "… for Collaboration and Decision Support” presents a new strategy for enhancing information retrieval (IR) systems, which combines dynamic feedback mechanisms, agentic artificial …"
+    },
+    {
+      "title": "AI-based chatbots in customer service and their effects on user compliance",
+      "year": "2020",
+      "journal": "Electronic Markets",
+      "source": "OpenAlex",
+      "doi": "10.1007/s12525-020-00414-7",
+      "citations": 1014,
+      "abstract": "Abstract Communicating with customers through live chat interfaces has become an increasingly popular means to provide real-time customer service in many e-commerce settings. Today, human chat service agents are frequently replaced by conversational software agents or chatbots, which are systems designed to communicate with human users by means of natural language often based on artificial intelligence (AI). Though cost- and time-saving opportunities triggered a widespread implementation of AI-based chatbots, they still frequently fail to meet customer expectations, potentially resulting in users being less inclined to comply with requests made by the chatbot. Drawing on social response and commitment-consistency theory, we empirically examine through a randomized online experiment how ver"
+    },
+    {
+      "title": "From human experts to AI agents: Agentic AI for knowledge-intense problem-solving in logistics?",
+      "year": 2025,
+      "journal": "G Neumann - … European Conference on Knowledge Management …, 2025 - opus4.kobv.de",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… is knowledge-based and knowledge-creating. Because of this, Knowledge Management … task-oriented AI to intelligent agents or agentic AI allowing for autonomous, goaldriven decision-…"
+    },
+    {
+      "title": "AI or Human? An Analysis of University Students' Awareness of Reference Services Agent",
+      "year": 2024,
+      "journal": "D Wang, J Guo, K Zheng - International Conference on Asian Digital …, 2024 - Springer",
+      "source": "Google Scholar",
+      "doi": "10.1007/978-981-96-0868-3_19D",
+      "citations": 3,
+      "abstract": "… First, it finds that students tended to think the AI agent had better knowledge and ability to handle difficult questions of various subjects. This agrees with previous studies that manual …"
+    },
+    {
+      "title": "LLM-Agent Interactions on Markets with Information Asymmetries",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "As AI agents increasingly act on behalf of human stakeholders in economic settings, understanding their behavior in complex market environments becomes critical. This article examines how Large Language Models coordinate on markets that are characterized by information asymmetries and in which providers of services have incentives to exploit that asymmetry for their own economic gain. To that end, we conduct simulations with GPT-5.1 agents in credence goods markets, manipulating the institutional framework (free market, verifiability, liability), LLM agent's social preferences (default, self-interested, inequity-averse, efficiency-loving), and reputation mechanisms across one-shot and repeated 16-round interactions. In one-shot settings, LLM agents largely fail to establish cooperation, wi"
+    }
+  ],
+  "outline": "# Automated Metrics for Reducing Manual Annotation Costs in AI-Enhanced Service Systems: A Comprehensive Survey\n\n## 1. Introduction: The Need and Challenge for Automated Metrics\n*This section introduces the high cost and scalability limitations of manual annotation in evaluating AI-enhanced service systems, including human-agent collaboration and autonomous agentic systems. It establishes the survey's rationale and scope for identifying reliable, preliminary automated metrics to reduce dependency on human labeling.*\n\n### 1.1 The Escalating Cost and Scalability Crisis of Manual Annotation\n*This subsection outlines the significant financial, temporal, and operational burdens of manual annotation for evaluating complex AI-enhanced service systems, highlighting its unsuitability for scaling with autonomous and agentic AI deployments as discussed in contemporary literature.*\n\n### 1.2 Defining the Evaluation Landscape: From Task Automation to Agentic Systems\n*This subsection establishes the scope of systems requiring evaluation, tracing the evolution from simple chatbots to autonomous, goal-driven agentic AI in knowledge-intensive domains like customer service and logistics, thereby framing the specific challenges for assessment.*\n\n### 1.3 The Imperative for Preliminary Automated Metrics\n*This subsection articulates the core rationale for identifying reliable automated indicators, arguing that such metrics are essential for early-stage system validation, continuous monitoring, and reducing over-reliance on costly human labeling before full-scale deployment.*\n\n### 1.4 Survey Scope and Rationale: Bridging Evaluation Gaps\n*This subsection details the survey's specific aim to catalog and analyze candidate automated metrics that can serve as proxies for service quality, collaboration efficacy, and reasoning ability in human-agent and autonomous systems, setting the stage for the subsequent review.*\n\n## 2. Theoretical Foundations and Foundational Automated Metrics\n*This section reviews the evolution from static AI and task-oriented automation to autonomous, goal-driven agentic systems. It examines core automated metrics derived from historical human-automation interaction models, cognitive systems research, and artificial cognition, focusing on foundational indicators like task performance, reasoning, and situation assessment.*\n\n### 2.1 Evolution from Task-Oriented to Agentic AI Systems\n*This subsection traces the conceptual and technological shift from static, rule-based automation to autonomous, goal-driven agentic AI, as discussed in foundational literature. It establishes the context for why new automated metrics are needed to evaluate these more complex, reasoning-based systems.*\n\n### 2.2 Foundational Metrics from Human-Automation Interaction Models\n*This subsection examines core automated metrics derived from historical and contemporary models of human-machine teaming and collaboration. It focuses on foundational indicators like task performance, reliability, and compliance, which serve as initial benchmarks for system evaluation before human annotation.*\n\n### 2.3 Cognitive Metrics for Reasoning and Situation Assessment\n*This subsection reviews automated metrics inspired by cognitive systems research and artificial cognition, focusing on proxies for reasoning, perspective-taking, and situation assessment. These metrics evaluate an AI system's ability to interpret dynamic environments and make context-aware decisions, reducing the need for manual evaluation of cognitive processes.*\n\n## 3. Contemporary Methods and Proxy Metrics for System Evaluation\n*This section surveys modern methods and heuristic metrics for generating synthetic data and evaluating system behavior. It covers agent-based simulation, reinforcement learning, LLM-powered multi-agent systems, and interaction-based metrics for assessing service co-creation, customer immersion, and interactivity as proxies for collaboration and service quality.*\n\n### 3.1 Agent-Based Simulation and Reinforcement Learning for Synthetic Evaluation\n*This subsection examines methods like LLM-powered multi-agent simulation and deep reinforcement learning for generating synthetic behavioral data and optimizing system performance, enabling the evaluation of service operations and agent policies without extensive human annotation.*\n\n### 3.2 Agentic Systems and Automated Workflow Generation\n*This subsection covers systems that leverage agentic LLMs and domain knowledge graphs to automatically generate and validate complex workflows or \"recipes,\" using structured knowledge and reasoning as proxies for expert assessment and reducing the need for manual process design.*\n\n### 3.3 Interaction-Based Heuristics for Service Co-Creation and Quality\n*This subsection surveys heuristic and proxy metrics derived from system interactions, such as measures of co-creation, customer immersion, and interactivity, which can indicate collaboration quality and service outcomes in human-AI or fully AI-agent service contexts.*\n\n## 4. Structured Approaches and Comparative Performance Indicators\n*This section examines structured, rule-based approaches for automated validation, including the use of domain-specific knowledge graphs and automatically generated workflows. It also synthesizes research on measurable differences in consumer responses to AI versus human agents, identifying behavioral and perceptual metrics that can signal service quality without direct human labeling.*\n\n### 4.1 Rule-Based Validation with Knowledge Graphs and Automated Workflows\n*This subsection examines structured, automated validation methods that leverage domain-specific knowledge graphs and agentic systems to generate and verify detailed workflows, reducing the need for manual process annotation.*\n\n### 4.2 Comparative Behavioral Metrics: AI vs. Human Agent Interactions\n*This subsection synthesizes research on measurable differences in consumer behavioral responses—such as information sharing and compliance—when interacting with AI versus human agents, identifying these as proxy indicators for service quality.*\n\n### 4.3 Perceptual and Trust-Based Proxy Indicators\n*This subsection analyzes automated metrics derived from user perceptions, including privacy concerns, perceived agent power, and trust, which can signal system performance and ethical alignment without direct human labeling of outcomes.*\n\n## 5. Synthesis, Deployment Framework, and Future Directions\n*This section synthesizes the surveyed metrics into a practical framework for selection, validation, and deployment, discussing integration with human oversight models (e.g., Human-in-Command). It concludes by addressing the limitations, ethical considerations (e.g., user compliance, market manipulation), and outlining future research directions for automated metric development and governance.*\n\n### 5.1 A Practical Framework for Metric Selection, Validation, and Deployment\n*Synthesizes the surveyed automated metrics into a structured framework, outlining criteria and steps for selecting context-appropriate metrics, validating them against limited human-labeled benchmarks, and deploying them within operational AI service systems.*\n\n### 5.2 Integration with Human Oversight and Governance Models\n*Discusses how automated metrics can be integrated into human oversight frameworks like Human-in-Command, focusing on maintaining accountability, defining escalation triggers, and balancing automation efficiency with necessary human intervention for ethical and reliable system governance.*\n\n### 5.3 Limitations, Risks, and Ethical Considerations\n*Addresses the limitations of proxy automated metrics, including risks of bias propagation, manipulation in economic simulations, and unintended effects on user behavior and compliance, while outlining ethical guardrails for their responsible application.*\n\n### 5.4 Future Research Directions and Governance\n*Outlines key future research avenues, including developing metrics for complex multi-agent coordination, improving the robustness of simulation-based evaluation, and establishing governance standards for the development and audit of automated evaluation metrics in agentic systems.*",
+  "cited_ids": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    15
+  ],
+  "elapsed_seconds": 316.861,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q29_autosurvey_20260419_092811.md"
+}

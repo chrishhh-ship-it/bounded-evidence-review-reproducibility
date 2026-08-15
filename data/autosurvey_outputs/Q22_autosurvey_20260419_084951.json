@@ -1,0 +1,178 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "screening agent 在多智能协同情报服务中的主要作用是什么？",
+  "effective_search_query": "screening agent, multi-agent collaboration, intelligence services, role",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.1109/tvt.2021.3096928",
+    "title:impact of human and ai-agent services on customer learning, immersion and loyalty: the role of interactivity|2025",
+    "title:multi-agent intelligence for multidisciplinary decision-making in gastrointestinal oncology|2025",
+    "title:distributed artificial intelligence with multi-agent systems for mec|2019",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.48550/arxiv.2306.16092",
+    "title:mad-cti: cyber threat intelligence analysis of the dark web using a multi-agent framework|2025",
+    "doi:10.1109/tvt.2020.3002983",
+    "doi:10.1016/j.tra.2020.01.007",
+    "title:the multi-agent system in web services|2024",
+    "doi:10.1080/00207543.2016.1251624y",
+    "title:multi-agent-based simulation of intelligent network system|2023",
+    "title:maca: a multi-agent reinforcement learning platform for collective intelligence|2019",
+    "doi:10.13374/j.issn2095-9389.2025.06.25.002"
+  ],
+  "top_papers": [
+    {
+      "title": "The Role of Participatory Approaches in Modern Agricultural Extension: Bridging Knowledge Gaps for Sustainable Farming Practices",
+      "year": "2025",
+      "journal": "Journal of Experimental Agriculture International",
+      "source": "OpenAlex",
+      "doi": "10.9734/jeai/2025/v47i23281",
+      "citations": 49,
+      "abstract": "Participatory approaches in agricultural extension have revolutionized knowledge dissemination by fostering collaborative learning, farmer empowerment, and the co-creation of context-specific innovations. Unlike traditional top-down extension models, participatory methodologies emphasize mutual learning, where farmers, researchers, and extension agents engage in dynamic exchanges to develop adaptive and sustainable agricultural practices. These approaches have proven effective in promoting climate-smart agriculture, integrated pest management, soil and water conservation, and agroecological transitions, ensuring resilience in the face of environmental and socio-economic challenges. The implementation of participatory extension faces significant barriers, including institutional rigidity, p"
+    },
+    {
+      "title": "Multi-Agent Deep Reinforcement Learning for Computation Offloading and Interference Coordination in Small Cell Networks",
+      "year": "2021",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2021.3096928",
+      "citations": 149,
+      "abstract": "Integrating mobile edge computing (MEC) with small cell networks has been conceived as a promising solution to provide pervasive computing services. However, the interactions among small cells due to inter-cell interference, the diverse application-specific requirements, as well as the highly dynamic wireless environment make it challenging to design an optimal computation offloading scheme. In this paper, we focus on the joint design of computation offloading and interference coordination for edge intelligence empowered small cell networks. To this end, we propose a distributed multi-agent deep reinforcement learning (DRL) scheme with the objective of minimizing the overall energy consumption while ensuring the latency requirements. Specifically, we exploit the collaboration among small c"
+    },
+    {
+      "title": "Impact of human and AI-agent services on customer learning, immersion and loyalty: the role of interactivity",
+      "year": 2025,
+      "journal": "R Chatterjee, SR George, JS Verma… - Journal of Service …, 2025 - emerald.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… -agent service (HAS) and artificial intelligence-agent service (… loyalty (CLY) within online service interactions. Additionally, the … and service providers share resources and knowledge …"
+    },
+    {
+      "title": "Multi-Agent Intelligence for Multidisciplinary Decision-Making in Gastrointestinal Oncology",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Multimodal clinical reasoning in the field of gastrointestinal (GI) oncology necessitates the integrated interpretation of endoscopic imagery, radiological data, and biochemical markers. Despite the evident potential exhibited by Multimodal Large Language Models (MLLMs), they frequently encounter challenges such as context dilution and hallucination when confronted with intricate, heterogeneous medical histories. In order to address these limitations, a hierarchical Multi-Agent Framework is proposed, which emulates the collaborative workflow of a human Multidisciplinary Team (MDT). The system attained a composite expert evaluation score of 4.60/5.00, thereby demonstrating a substantial improvement over the monolithic baseline. It is noteworthy that the agent-based architecture yielded the "
+    },
+    {
+      "title": "Distributed artificial intelligence with multi-agent systems for MEC",
+      "year": 2019,
+      "journal": "T Leppanen - 2019 28th International Conference on Computer …, 2019 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 14,
+      "abstract": "… as a multi-agent system. MEC system management services and application execution components are designed as software agents, facilitating distributed artificial intelligence …"
+    },
+    {
+      "title": "Dynamic UAV Deployment for Differentiated Services: A Multi-Agent Imitation Learning Based Approach",
+      "year": "2021",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "source": "OpenAlex",
+      "doi": "10.1109/tmc.2021.3116236",
+      "citations": 117,
+      "abstract": "Unmanned Aerial Vehicles (UAVs) have been utilized to serve on-ground users with various services, e.g., computing, communication and caching, due to their mobility and flexibility. The main focus of many recent studies on UAVs is to deploy a set of homogeneous UAVs with identical capabilities controlled by one UAV owner/company to provide services. However, little attention has been paid to the issue of how to enable different UAV owners to provide services with differentiated service capabilities in a shared area. To address this issue, we propose a multi-agent imitation learning enabled UAV deployment approach to maximize both profits of UAV owners and utilities of on-ground users. Specially, a Markov game is formulated among UAV owners and we prove that a Nash equilibrium exists based "
+    },
+    {
+      "title": "Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model",
+      "year": "2023",
+      "journal": "arXiv (Cornell University)",
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2306.16092",
+      "citations": 90,
+      "abstract": "AI legal assistants based on Large Language Models (LLMs) can provide accessible legal consulting services, but the hallucination problem poses potential legal risks. This paper presents Chatlaw, an innovative legal assistant utilizing a Mixture-of-Experts (MoE) model and a multi-agent system to enhance the reliability and accuracy of AI-driven legal services. By integrating knowledge graphs with artificial screening, we construct a high-quality legal dataset to train the MoE model. This model utilizes different experts to address various legal issues, optimizing the accuracy of legal responses. Additionally, Standardized Operating Procedures (SOP), modeled after real law firm workflows, significantly reduce errors and hallucinations in legal services. Our MoE model outperforms GPT-4 in th"
+    },
+    {
+      "title": "MAD-CTI: Cyber threat intelligence analysis of the dark web using a multi-agent framework",
+      "year": 2025,
+      "journal": "S Shah, VK Madisetti - IEEE Access, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 10,
+      "abstract": "… multi-agent framework based on Large Language Models (LLM) … agent architecture to improve efficiency, scalability, and consistency. By utilizing state-of-the-art LLM models and agents…"
+    },
+    {
+      "title": "Multi-Agent Deep Reinforcement Learning-Based Flexible Satellite Payload for Mobile Terminals",
+      "year": "2020",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2020.3002983",
+      "citations": 74,
+      "abstract": "Information dissemination in mobile networks turns out to be a problem when the network is sparse. Mobile networks begin to establish a separate cluster attributable to the limited communication range of terminals. The multi-beam satellite communication systems can play a significant role in providing direct-to-user satellite mobile services and connecting the separated clusters. This paper focuses on how to efficiently schedule limited satellite-based radio resources to enhance transmission efficiency and meet the requested traffic with low complexity. Taking the inter-beam interference and resource utilization variance into consideration, we build a game-theoretic based model for bandwidth allocation in the forward link. As the size of satellite beams increases, the size of the action sp"
+    },
+    {
+      "title": "The role of information availability to passengers in public transport disruptions: An agent-based simulation approach",
+      "year": "2020",
+      "journal": "Transportation Research Part A Policy and Practice",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.tra.2020.01.007",
+      "citations": 60,
+      "abstract": "In public transport disruptions, a key relation between the services of operating company and passengers’ satisfaction is the disseminated information. This paper proposes rigorous mathematical descriptions to describe the effects of information availability to passengers, including the user equilibrium and non-equilibrium solutions. The information availability in disruption is summarised in a “who-when-where-what” four-dimensional framework. Based on different information, passengers’ behaviours are assumed and simulated to evaluate the benefits of information availability in public transport disruption. An agent-based micro-simulation model (MATSim) is applied for the city of Zürich, Switzerland, for the benefit of activity-based simulation in a multi-modal network. We use an existing d"
+    },
+    {
+      "title": "The Multi-Agent System in Web Services",
+      "year": 2024,
+      "journal": "NM Ibrahim, MF Hassan… - International Journal on …, 2024 - journals.iium.edu.my",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… JADE), which was used to create a multi-agent system for the agent-based MOM framework that has been presented. The creation of the multi-agent systems was facilitated by the JADE …"
+    },
+    {
+      "title": "Cloud computing and its impact on service level: a multi-agent simulation model",
+      "year": 2017,
+      "journal": "Y Yu, RQ Cao, D Schniederjans - International Journal of …, 2017 - Taylor & Francis",
+      "source": "Google Scholar",
+      "doi": "10.1080/00207543.2016.1251624Y",
+      "citations": 54,
+      "abstract": "… and (3) business intelligence (BI) collaborative planning, forecasting and replenishment. In addition, we use multi-agent-based simulation to analyse how each level of collaboration (…"
+    },
+    {
+      "title": "Multi-agent-based simulation of intelligent network system",
+      "year": 2023,
+      "journal": "PM Tshakwanda, ST Arzo… - 2023 IEEE 13th annual …, 2023 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 12,
+      "abstract": "… intelligence to create beyond 5G (B5G) and 6G intelligent networks. The emergence of new forms of services … a variety of intelligent services and applications, is driving the need for an …"
+    },
+    {
+      "title": "Maca: a multi-agent reinforcement learning platform for collective intelligence",
+      "year": 2019,
+      "journal": "F Gao, S Chen, M Li, B Huang - … Engineering and Service …, 2019 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 16,
+      "abstract": "… in collective intelligence field… multi-agent reinforcement training platform called MaCA was built to improve reinforcement learning effectiveness for heterogeneous collective cooperative …"
+    },
+    {
+      "title": "基于大语言模型的政务智能化应用:技术现状、挑战与未来展望",
+      "year": 2026,
+      "journal": "信息工程·控制科学与工程",
+      "source": "万方数据",
+      "doi": "10.13374/j.issn2095-9389.2025.06.25.002",
+      "citations": 15,
+      "abstract": "随着数字化转型的加速,大语言模型作为人工智能领域的前沿技术,在政务智能化转型中发挥了关键作用.本文系统性调研了大语言模型在政务领域的应用现状,从技术架构、方法路径到实际效能进行了深入分析.文章重点探讨了政务大模型在智能问答、公文处理、决策支持及城市治理等场景中的具体应用,并总结了\"预训练+领域微调\"范式、提示词设计、知识库构建及AI智能体协同机制对传统政务模式的创新改造.研究发现,大语言模型显著 提升了政务服务效率与质量,同时促进了跨部门数据融合与流程再造.然而,数据安全、模型可解释性以及伦理风险等问题仍构成制约技术进一步落地的关键挑战.本文结合理论分析与实践案例,提出了面向政务服务优化、性能持续优化、多模态数据处理能力、政产学研用协同合作及监管体系完善的未来发展方向,为政务智能化转型提供理论与实践参考. input formulations to guide models toward outputs compliant with governmental standards,<span class='highlight'>knowledge</span> augmentation methods that integrate domain-specific governmental expertise to strengthen model  capabilities,and <span class='highlight'>multi-agent</span> collaboration frameworks that enable the coordinated execution o f complex administrative tasks.The observations indicate that the\"pre-training+domain-specif"
+    }
+  ],
+  "outline": "# The Role of Screening Agents in Multi-Agent Collaborative Intelligence Services: A Comprehensive Survey\n\n## 1. Introduction and Foundational Concepts\n*This section introduces the problem of information quality and decision-making in multi-agent collaborative intelligence services. It defines core concepts, including multi-agent systems, collaborative intelligence, and the specific role of \"screening agents,\" establishing the operational context and scope of the survey.*\n\n### 1.1 The Imperative for Information Quality in Multi-Agent Collaborative Systems\n*This subsection introduces the core problem of managing information overload, noise, and unreliability within distributed multi-agent systems, highlighting how poor data quality directly undermines collective decision-making, service reliability, and system efficiency, thereby establishing the necessity for dedicated screening mechanisms.*\n\n### 1.2 Foundational Concepts: Multi-Agent Systems and Collaborative Intelligence\n*This subsection defines the key building blocks, including multi-agent systems (MAS), their characteristics of autonomy and interaction, and the paradigm of collaborative intelligence where agents pool knowledge and capabilities to solve complex problems beyond individual capacity.*\n\n### 1.3 Defining the Screening Agent: Role and Operational Context\n*This subsection formally defines the \"screening agent\" as a specialized agent within a MAS, detailing its primary mandate to filter, verify, and curate information and agent outputs to ensure quality, reduce interference, and manage knowledge flow, thereby setting the scope for its analysis in subsequent sections.*\n\n## 2. Core Functions and Mechanisms of Screening Agents\n*This section details the primary technical roles and methodologies of screening agents, focusing on core functions such as information filtering, data verification, knowledge curation, and the management of interference within collaborative networks.*\n\n### 2.1 Information Filtering and Quality Assurance\n*This subsection details the mechanisms by which screening agents filter, prioritize, and assess the quality of incoming data streams within a multi-agent system, focusing on techniques to mitigate noise, redundancy, and low-relevance information to ensure downstream agents receive high-fidelity inputs.*\n\n### 2.2 Knowledge Curation and Verification\n*This subsection examines the role of screening agents in verifying data credibility, cross-referencing information sources, and curating structured knowledge, as exemplified by systems that integrate knowledge graphs and expert models to reduce errors and hallucinations in critical domains like legal services.*\n\n### 2.3 Interference and Conflict Management\n*This subsection analyzes how screening agents manage interference and coordinate actions among heterogeneous agents to optimize system-wide performance, drawing on methodologies from domains like wireless networks where agents collaboratively adjust strategies to mitigate inter-cell interference and balance resource allocation.*\n\n## 3. Screening for Resource Optimization and Service Coordination\n*This section examines how screening agents enable dynamic resource allocation, task scheduling, and coordination among heterogeneous agents. It analyzes applications in domains like UAV deployment, telecommunications, satellite networks, and transport management.*\n\n### 3.1 Dynamic Resource Allocation and Task Scheduling\n*This subsection details how screening agents facilitate intelligent resource distribution and task sequencing in heterogeneous multi-agent systems, using mechanisms like multi-agent reinforcement learning to optimize objectives such as energy efficiency and latency in domains like mobile edge computing and satellite networks.*\n\n### 3.2 Coordination and Interference Management in Shared Environments\n*This subsection examines the role of screening agents in managing coordination challenges, such as inter-agent interference and competition, to enable stable and efficient service provision. It covers applications in shared infrastructure like small cell networks and airspace for UAVs, where agents must adapt strategies based on partial information.*\n\n### 3.3 Application-Specific Optimization in Networked and Mobility Systems\n*This subsection analyzes concrete implementations of screening agents for service optimization in specific domains, including UAV deployment for differentiated services, satellite payload management for mobile terminals, and information dissemination in public transport networks, highlighting how screening improves system utility and user satisfaction.*\n\n## 4. Application Domains and Performance Impacts\n*This section analyzes concrete implementations and evaluates how screening agents enhance decision-making and service efficiency across various fields, such as healthcare, customer service, business intelligence, network management, and public administration.*\n\n### 4.1 Healthcare and Clinical Decision Support\n*This subsection examines implementations of screening agents in medical domains, such as oncology, where they filter and verify multimodal data (e.g., imagery, biomarkers) to reduce errors and enhance the accuracy of collaborative diagnostic frameworks, directly improving clinical reasoning and patient outcomes.*\n\n### 4.2 Network and Telecommunications Management\n*This subsection analyzes the role of screening agents in optimizing resource allocation and managing interference within dynamic networks, including satellite systems and small cell networks, where they improve transmission efficiency, service coordination, and quality of service through intelligent filtering and scheduling.*\n\n### 4.3 Public Service and Transport Systems\n*This subsection explores applications in public administration, focusing on transport disruption management, where screening agents curate and disseminate critical information to passengers, enabling efficient within-day replanning and improving system resilience and user satisfaction during service interruptions.*\n\n### 4.4 Business Intelligence and Collaborative Planning\n*This subsection reviews the integration of screening agents in business and service operations, such as collaborative planning and cloud service management, where they filter and verify data streams to enhance decision-making, optimize service levels, and support efficient resource forecasting and replenishment.*\n\n## 5. Architectural Integration, Challenges, and Future Directions\n*This section synthesizes architectural patterns for integrating screening agents, discusses implementation barriers (e.g., scalability, security, interpretability, system integration, and agent training), and outlines emerging research trends for advancing trustworthy and capable multi-agent intelligence systems.*\n\n### 5.1 Architectural Patterns for Integrating Screening Agents\n*This subsection synthesizes common system architectures for embedding screening agents, such as hierarchical frameworks, decentralized peer-to-peer networks, and hybrid models, drawing on examples from legal AI, healthcare MDTs, and network management.*\n\n### 5.2 Key Implementation Challenges and Barriers\n*This subsection discusses critical barriers to deploying screening agents, including scalability in dynamic environments, security and trust in collaborative decisions, interpretability of agent actions, system integration complexities, and the demands of agent training.*\n\n### 5.3 Emerging Trends and Future Research Directions\n*This subsection outlines forward-looking research themes for advancing screening agents, such as combining imitation learning with multi-agent systems, enhancing knowledge graph integration, developing standardized protocols for agent coordination, and improving robustness against adversarial interference.*",
+  "cited_ids": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    12,
+    15
+  ],
+  "elapsed_seconds": 249.069,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q22_autosurvey_20260419_084951.md"
+}

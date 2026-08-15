@@ -1,0 +1,236 @@
+{
+  "query_id": "Q159",
+  "query": "How does the choice between forward and backward citation searching affect the fabrication residual in automated evidence synthesis?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "How is Real World Evidence taught in Nursing? A Systematic review undertaking a narrative synthesis of the literature (Preprint)",
+      "authors": [
+        "Tristan Coombe",
+        "Lisa Burrows",
+        "Madison Milne-Ives",
+        "Edward Meinert"
+      ],
+      "abstract": "BACKGROUND\n                        Real World Evidence (RWE) comprises forms, methodologies and applications including data collected in naturally uncontrolled settings utilising non-interventional, non-controlled and non-experimental approaches.  RWE may overcome problems inherent with traditional research methodologies.  It more closely represents the real world and how interventions affect the patient experience and could be more suitable for assessing complex social interventions. Clinicians require the skills and knowledge to utilise it effectively and mitigate its disadvantages.  As Nurses are the largest group of healthcare professionals, exploring how to develop knowledge of RWE in nursing has a large potential benefit for research and care.\n                \n                                \n                    OBJECTIVE\n                        This systematic review (SR) aims to consider how RWE is taught within nursing and examine the benefits and outcomes of those teaching and learning activities.\n                \n                                \n                    METHODS\n                        An SR without Meta-Analysis narrative synthesis approach was conducted. MEDLINE (EBSCO), EMBASE (Ovid), PsycINFO, Cochrane, Web of Science, SCOPUS and IEEE were searched using free text terms and MeSH terms combined with Boolean operators associated with RWE forms, types and methodologies, teaching and nursing.  Final studies were appraised using MMAT and JBI tools.\n                \n                                \n                    RESULTS\n                        Kinaesthetic approaches, simulated learning, and case studies were undertaken in classroom and practice settings utilising real and simulated data, which may positively increase perceived satisfaction and knowledge with RWE.   Constructivism and experiential learning could be more suitable for RWE education with educators and students displaying increased positivity towards RWE compared with alternative pedagogical approaches.  Barriers to RWE education included negative educator and learner beliefs, organisational barriers and concerns regarding data security and confidentiality.  A majority of the studies were observational or descriptive and a number of areas of bias were identified during the appraisal process.\n                \n                                \n                    CONCLUSIONS\n                        Utilising a range of teaching and learning strategies in nursing that make learning relevant and meaningful may be important in RWE education.  More research is needed to develop further the definition, characteristics and applications of RWE, consider different pedagogical approaches and a wider range of RWE forms, methodologies and applications.",
+      "year": "2023",
+      "published_date": "2023-5-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2196/preprints.49164",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2196/preprints.49164",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "The presence and potential impact of psychological safety in the healthcare setting: an evidence synthesis",
+      "authors": [
+        "K. Grailey",
+        "E. Murray",
+        "T. Reader",
+        "S. Brett"
+      ],
+      "abstract": "Introduction Psychological safety is the shared belief that the team is safe for interpersonal risk taking. Its presence improves innovation and error prevention. This evidence synthesis had 3 objectives: explore the current literature regarding psychological safety, identify methods used in its assessment and investigate for evidence of consequences of a psychologically safe environment. Methods We searched multiple trial registries through December 2018. All studies addressing psychological safety within healthcare workers were included and reviewed for methodological limitations. A thematic analysis approach explored the presence of psychological safety. Content analysis was utilised to evaluate potential consequences. Results We included 62 papers from 19 countries. The thematic analysis demonstrated high and low levels of psychological safety both at the individual level in study participants and across the studies themselves. There was heterogeneity in responses across all studies, limiting generalisable conclusions about the overall presence of psychological safety. A wide range of methods were used. Twenty-five used qualitative methodology, predominantly semi-structured interviews. Thirty quantitative or mixed method studies used surveys. Ten studies inferred that low psychological safety negatively impacted patient safety. Nine demonstrated a significant relationship between psychological safety and team outcomes. The thematic analysis allowed the development of concepts beyond the content of the original studies. This analytical process provided a wealth of information regarding facilitators and barriers to psychological safety and the development of a model demonstrating the influence of situational context. Discussion This evidence synthesis highlights that whilst there is a positive and demonstrable presence of psychological safety within healthcare workers worldwide, there is room for improvement. The variability in methods used demonstrates scope to harmonise this. We draw attention to potential consequences of both high and low psychological safety. We provide novel information about the influence of situational context on an individual’s psychological safety and offer more detail about the facilitators and barriers to psychological safety than seen in previous reviews. There is a risk of participation bias - centres involved in safety research may be more aligned to these ideals. The data in this synthesis are useful for institutions looking to improve psychological safety by providing a framework from which modifiable factors can be identified.",
+      "year": "2021",
+      "published_date": "2021-08-05",
+      "journal": "BMC Health Services Research",
+      "url": "https://www.semanticscholar.org/paper/dcadab90e5858320cda37456394a6dadeda83f03",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 149,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s12913-021-06740-6",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature?",
+      "authors": [
+        "Qiao Jin",
+        "Robert Leaman",
+        "Zhiyong Lu"
+      ],
+      "abstract": "ChatGPT, a general purpose chatbot developed by OpenAI, has been widely reported to have the potential to revolutionize how people interact with information online.1 Like other large language models (LLMs), ChatGPT has been trained on a large text corpus to predict probable words from the surrounding context. ChatGPT, however, has received substantial popular attention for generating human-like conversational responses, and new developments are occurring rapidly. The initial release in November 2022 used the model generative pretrained transformers (GPT)-3.5, and a version based on GPT-4.0 was released in March 2023. Recent work has discussed applications of ChatGPT for medical education and clinical decision support.2–4 However, health care professionals should be aware of the drawbacks and limitations—and potential capabilities—of using ChatGPT and similar LLMs to interact with medical knowledge. A significant issue with ChatGPT is its tendency to generate confident-sounding but fabricated responses, commonly known as “hallucination.” Although it can generate plausible-sounding text, ChatGPT does not consult any source of truth.1 Occasional incorrect or biased responses are, therefore, inevitable, and ChatGPT cannot faithfully cite sources to allow their evidence to be verified. For example, we prompted GPT-3.5–based ChatGPT to list possible mechanisms of AKI in patients with coronavirus disease 2019 (COVID-19), with references. ChatGPT produced a list of plausible mechanisms, each of which has been investigated in the literature (Figure 1A) but supported its claims with fabricated titles and irrelevant PubMed identifiers. ChatGPT using the GPT-4 model acknowledges that it cannot produce references and refuses to cite articles in the answer (Figure 1C)—a significant improvement—but leaves the difficult task of verification to the user. Consulting ChatGPT directly for medical information carries a significant risk of drawing incorrect conclusions, particularly for patients.Figure 1.: Seeking information related to COVID-19 from ChatGPT. (A) ChatGPT-3.5 fabricates the references for its claims. (B) When prompted with the title and abstract of relevant articles, ChatGPT-3.5 can summarize the aspects requested, including some valid in-line references. However, many details are inaccurate: Related mechanisms are not correctly grouped, contradicting evidence is not mentioned, some citations are missing, and a listed mechanism is not specific. Note that the complete response mentioned only three of five articles. (C) ChatGPT-4 acknowledges its drawback and refuses to cite source articles in the response, which makes the verification more difficult. (D) ChatGPT-4 with the web browsing plug-in summarizes information from the search engine, but it only finds two relevant articles and fails to systematically answer the question. Responses were collected from GPT-3.5–based ChatGPT on March 14, 2023, and GPT-4–based ChatGPT on May 15, 2023.However, LLMs such as ChatGPT may be better suited for text summarization than directly answering medical questions. Pilot studies have shown that LLMs can be effective at clinical reasoning, reading comprehension, and generating fluent summaries with high fidelity.5–7 Augmenting LLMs such as ChatGPT with a traditional literature search engine may therefore help address hallucination and enable the system to provide the user with comprehensive high-level summaries. For example, the new Bing provides ChatGPT-like interactive agents to help users create effective queries, identify relevant results, and summarize their content. In addition, ChatGPT recently introduced a plug-in that allows the model to search the web when generating responses (currently in limited beta test). Incorporating such features into medical literature search has the potential to streamline gathering and synthesizing evidence from the literature, improving patient care. Unfortunately, summaries generated by current LLMs such as ChatGPT also contain inaccuracies,8 in addition to practical issues such as limitations on the length of input text. To illustrate these problems, we prompted ChatGPT (model 3.5) to identify possible mechanisms of AKI in patients with COVID-19, using five manually chosen articles on the pathophysiology of AKI in COVID-19. Although ChatGPT’s summary (Figure 1B) generally reflects the mechanisms of AKI discussed by the articles, the response lists symptoms from only three of the five input studies and misses some important mechanisms mentioned repeatedly, such as hypoxia. Moreover, some citations are missing, contradicting evidence is not mentioned, similar mechanisms are not correctly grouped, and one of the mechanisms listed is less specific than the source. We also prompted ChatGPT (model 4), with the web browsing plug-in, to answer the same question (Figure 1D). In this case, ChatGPT provides summaries with relevant citations. However, the response is based on only two articles, without synthesizing the evidence, and thus fails to answer the question systematically. Generally speaking, retrieval-augmented LLMs reduces users' control over sources, leading to results that may not align with the user's criteria for the best information (e.g., most up-to-date). Summaries generated by LLMs can miss important ideas discussed by the input sources or contain assertions unsupported by the input sources. Because imprecise or incomplete information can lead to incorrect clinical decisions and patient harm, content generated by current LLMs, including ChatGPT, must be verified for accuracy and completeness before use. Further research on the faithfulness of LLM-generated summaries and automatic verification tools is also warranted to realize the full potential of LLMs to streamline evidence gathering and synthesis from the medical literature. Despite these limitations, the remarkable progress in AI and the rapid advancements in LLMs may have profound implications for medicine, from assisting medical education,2 to accelerating literature screening for systematic reviews,7,9 and supporting physicians in various clinical settings as generalist medical AI,4 among other possibilities. In addition to augmenting LLMs with retrieval results from a search engine, LLMs can also be taught to use biomedical domain-specific tools, such as the Web APIs of specialized databases, to provide improved access to biomedical information.10 In summary, although ChatGPT is not currently suitable for use as a literature search engine on its own, we envision that the proposed retrieve, summarize, and verify paradigm could greatly benefit biomedical information seeking. This approach leverages the impressive capability of LLMs to generate high-level summaries while minimizing the risk of directly using false or fabricated information by combining LLMs and search engines. It is important to note that although LLM technology is progressing rapidly, it has not yet matured enough for clinical use. Therefore, users must retain full responsibility for verifying the accuracy and reliability of its output.",
+      "year": "2023",
+      "published_date": "2023-05-31",
+      "journal": "Journal of the American Society of Nephrology",
+      "url": "https://doi.org/10.1681/asn.0000000000000166",
+      "arxiv_id": "",
+      "keywords": [
+        "Affect (linguistics)",
+        "Medicine",
+        "Psychology",
+        "Intensive care medicine",
+        "Computer science",
+        "Communication"
+      ],
+      "citations": 67,
+      "source": "OpenAlex",
+      "doi": "10.1681/asn.0000000000000166",
+      "open_access": false,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "The effects and safety of testosterone replacement therapy for men with hypogonadism: the TestES evidence synthesis and economic evaluation.",
+      "authors": [
+        "M. Cruickshank",
+        "Jemma Hudson",
+        "Rodolfo Hernández",
+        "M. Aceves-Martins",
+        "R. Quinton",
+        "K. Gillies",
+        "Lorna Aucott",
+        "Charlotte Kennedy",
+        "Paul Manson",
+        "N. Oliver",
+        "Frederick Wu",
+        "Siladitya Bhattacharya",
+        "W. Dhillo",
+        "C. Jayasena",
+        "Miriam Brazzelli"
+      ],
+      "abstract": "Background\nLow levels of testosterone cause male hypogonadism, which is associated with sexual dysfunction, tiredness and reduced muscle strength and quality of life. Testosterone replacement therapy is commonly used for ameliorating symptoms of male hypogonadism, but there is uncertainty about the magnitude of its effects and its cardiovascular and cerebrovascular safety.\n\n\nAims of the research\nThe primary aim was to evaluate the safety of testosterone replacement therapy. We also assessed the clinical and cost-effectiveness of testosterone replacement therapy for men with male hypogonadism, and the existing qualitative evidence on men's experience and acceptability of testosterone replacement therapy.\n\n\nDesign\nEvidence synthesis and individual participant data meta-analysis of effectiveness and safety, qualitative evidence synthesis and model-based cost-utility analysis.\n\n\nData sources\nMajor electronic databases were searched from 1992 to February 2021 and were restricted to English-language publications.\n\n\nMethods\nWe conducted a systematic review with meta-analysis of individual participant data according to current methodological standards. Evidence was considered from placebo-controlled randomised controlled trials assessing the effects of any formulation of testosterone replacement therapy in men with male hypogonadism. Primary outcomes were mortality and cardiovascular and cerebrovascular events. Data were extracted by one reviewer and cross-checked by a second reviewer. The risk of bias was assessed using the Cochrane Risk of Bias tool. We performed one-stage meta-analyses using the acquired individual participant data and two-stage meta-analyses to integrate the individual participant data with data extracted from eligible studies that did not provide individual participant data. A decision-analytic Markov model was developed to evaluate the cost per quality-adjusted life-years of the use of testosterone replacement therapy in cohorts of patients of different starting ages.\n\n\nResults\nWe identified 35 trials (5601 randomised participants). Of these, 17 trials (3431 participants) provided individual participant data. There were too few deaths to assess mortality. There was no difference between the testosterone replacement therapy group (120/1601, 7.5%) and placebo group (110/1519, 7.2%) in the incidence of cardiovascular and/or cerebrovascular events (13 studies, odds ratio 1.07, 95% confidence interval 0.81 to 1.42; p = 0.62). Testosterone replacement therapy improved quality of life and sexual function in almost all patient subgroups. In the testosterone replacement therapy group, serum testosterone was higher while serum cholesterol, triglycerides, haemoglobin and haematocrit were all lower. We identified several themes from five qualitative studies showing how symptoms of low testosterone affect men's lives and their experience of treatment. The cost-effectiveness of testosterone replacement therapy was dependent on whether uncertain effects on all-cause mortality were included in the model, and on the approach used to estimate the health state utility increment associated with testosterone replacement therapy, which might have been driven by improvements in symptoms such as sexual dysfunction and low mood.\n\n\nLimitations\nA meaningful evaluation of mortality was hampered by the limited number of defined events. Definition and reporting of cardiovascular and cerebrovascular events and methods for testosterone measurement varied across trials.\n\n\nConclusions\nOur findings do not support a relationship between testosterone replacement therapy and cardiovascular/cerebrovascular events in the short-to-medium term. Testosterone replacement therapy improves sexual function and quality of life without adverse effects on blood pressure, serum lipids or glycaemic markers.\n\n\nFuture work\nRigorous long-term evidence assessing the safety of testosterone replacement therapy and subgroups most benefiting from treatment is needed.\n\n\nStudy registration\nThe study is registered as PROSPERO CRD42018111005.\n\n\nFunding\nThis award was funded by the National Institute for Health and Care Research (NIHR) Health Technology Assessment programme (NIHR award ref: 17/68/01) and is published in full in Health Technology Assessment; Vol. 28, No. 43. See the NIHR Funding and Awards website for further award information.",
+      "year": "2024",
+      "published_date": "2024-08-01",
+      "journal": "Health Technology Assessment",
+      "url": "https://www.semanticscholar.org/paper/ab90f1932f643a1685c37e4efe358282a371379e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 10,
+      "source": "Semantic Scholar",
+      "doi": "10.3310/JRYT3981",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Transforming Evidence Synthesis: A Systematic Review of the Evolution of Automated Meta-Analysis in the Age of AI",
+      "authors": [
+        "Lingbo Li",
+        "A. Mathrani",
+        "Teo Sušnjak"
+      ],
+      "abstract": "Exponential growth in scientific literature has heightened the demand for efficient evidence-based synthesis, driving the rise of the field of Automated Meta-analysis (AMA) powered by natural language processing and machine learning. This PRISMA systematic review introduces a structured framework for assessing the current state of AMA, based on screening 978 papers from 2006 to 2024, and analyzing 54 studies across diverse domains. Findings reveal a predominant focus on automating data processing (57%), such as extraction and statistical modeling, while only 17% address advanced synthesis stages. Just one study (2%) explored preliminary full-process automation, highlighting a critical gap that limits AMA's capacity for comprehensive synthesis. Despite recent breakthroughs in large language models (LLMs) and advanced AI, their integration into statistical modeling and higher-order synthesis, such as heterogeneity assessment and bias evaluation, remains underdeveloped. This has constrained AMA's potential for fully autonomous meta-analysis. From our dataset spanning medical (67%) and non-medical (33%) applications, we found that AMA has exhibited distinct implementation patterns and varying degrees of effectiveness in actually improving efficiency, scalability, and reproducibility. While automation has enhanced specific meta-analytic tasks, achieving seamless, end-to-end automation remains an open challenge. As AI systems advance in reasoning and contextual understanding, addressing these gaps is now imperative. Future efforts must focus on bridging automation across all meta-analysis stages, refining interpretability, and ensuring methodological robustness to fully realize AMA's potential for scalable, domain-agnostic synthesis.",
+      "year": "2025",
+      "published_date": "2025-04-28",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/cbc9b68c69c564c285f97e4891835ae41cd8fa29",
+      "arxiv_id": "2504.20113",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2504.20113",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "An AI-Driven Live Systematic Reviews in the Brain-Heart Interconnectome: Minimizing Research Waste and Advancing Evidence Synthesis",
+      "authors": [
+        "Arya Rahgozar",
+        "P. Mortezaagha",
+        "Jodi Edwards",
+        "Douglas Manuel",
+        "Jessie McGowen",
+        "Merrick Zwarenstein",
+        "Dean A. Fergusson",
+        "Andrea C. Tricco",
+        "Kelly Cobey",
+        "Margaret Sampson",
+        "M. King",
+        "Dawn P. Richards",
+        "Alexandra M. Bodnaruc",
+        "David Moher"
+      ],
+      "abstract": "The Brain-Heart Interconnectome (BHI) combines neurology and cardiology but is hindered by inefficiencies in evidence synthesis, poor adherence to quality standards, and research waste. To address these challenges, we developed an AI-driven system to enhance systematic reviews in the BHI domain. The system integrates automated detection of Population, Intervention, Comparator, Outcome, and Study design (PICOS), semantic search using vector embeddings, graph-based querying, and topic modeling to identify redundancies and underexplored areas. Core components include a Bi-LSTM model achieving 87% accuracy for PICOS compliance, a study design classifier with 95.7% accuracy, and Retrieval-Augmented Generation (RAG) with GPT-3.5, which outperformed GPT-4 for graph-based and topic-driven queries. The system provides real-time updates, reducing research waste through a living database and offering an interactive interface with dashboards and conversational AI. While initially developed for BHI, the system's adaptable architecture enables its application across various biomedical fields, supporting rigorous evidence synthesis, efficient resource allocation, and informed clinical decision-making.",
+      "year": "2025",
+      "published_date": "2025-01-25",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/2568a5905c4e2542396fde71bf7f362517f7cf6a",
+      "arxiv_id": "2501.17181",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2501.17181",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Intersex people or khunthā in the Middle East – How they are perceived, accepted, & treated: qualitative evidence synthesis & framework analysis",
+      "authors": [
+        "Alexander Woodman"
+      ],
+      "abstract": "ABSTRACT In Islamic fiqh (jurisprudence), an intersex person is called a khunthā. This research aimed to synthesise the existing literature exploring data on khunthā in the Middle East on how they are perceived, accepted, and treated. Qualitative Evidence Synthesis and Framework Analysis. Five electronic literature databases were searched, covering the fields of healthcare sciences, ethics, and religion from 2016 to 2022. Guided by the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA), six studies were selected for final review and framework analysis. The framework analysis (FA) of included studies resulted in three themes and nine sub-themes: 1) ‘Gender manifestation’ - (i) Parental role and influence, (ii) Health outcomes of experiments, (iii) Socio-cultural prejudice; 2) ‘Physicians as decision makers’ - (i) Experiments vs. knowledge, (ii) Intersex vs. khunthā vs. DSD, (iii) Fixing dysfunctional gender; 3) ‘Islamic bioethics’ - (i) Legal and financial importance of gender, (ii) Scientific evidence vs. symbols, (iii) Medical ethics. Parents and physicians’ decisions are heavily influenced by socio-cultural attitudes about sex and gender, with a lack of sensibility for intersex persons at the later stages of their lives, and attempts to conceal this ‘imperfection’ by ‘fixing dysfunctional gender’.",
+      "year": "2024",
+      "published_date": "2024-05-01",
+      "journal": "Psychology &amp; Sexuality",
+      "url": "https://www.semanticscholar.org/paper/3c9d3967eceb1b340e002e1af923b3631e7e4c1b",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1080/19419899.2024.2347963",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    }
+  ],
+  "timestamp": "20260413_132256"
+}

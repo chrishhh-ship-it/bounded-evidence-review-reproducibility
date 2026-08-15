@@ -1,0 +1,154 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "多智能体协同系统的输出一致性如何通过多次重复运行来量化？",
+  "effective_search_query": "多智能体系统 协同控制 输出一致性 重复运行 量化",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 6,
+    "major_issues": [
+      "报告声称基于8篇文献摘要分析，但实际有效引用的证据不足。证据[2][3][4][5][6][7][8]的摘要中缺乏具体的方法论、关键主张或度量标准（在提供的证据中标记为'N/A'或空白），无法支持报告中关于'协同学习'、'知识迁移'、'协议'等具体技术要点的论述。报告将这些文献作为支持性证据引用，但证据本身内容空泛，导致分析缺乏实质依据。",
+      "报告结论'无法直接回答'研究问题，但正文中却提出了三个'研究方向'（性能指标的统计分析、协作过程的稳定性评估、协议与架构的基础作用）。这些方向在提供的证据中缺乏直接支持，尤其是证据[1]仅涉及资源利用率和任务响应时间，未提及'多次重复运行'或'一致性量化'；其他证据更无相关内容。这造成了结论与正文分析之间的逻辑矛盾。",
+      "报告对证据[1]的解读存在过度推断。证据[1]明确指出其度量标准为'资源利用率, 任务响应时间'，并未涉及'输出一致性'或'重复运行'。报告却提出'理论上，一个输出一致性高的系统，其性能指标（如响应时间）在多次运行中的波动应较小'，并将此作为潜在关联方向。这一推断超出了证据[1]所提供信息的范围，属于无证据支持的推测。"
+    ],
+    "citation_issues": [
+      "报告正文中频繁使用证据编号（如[1][2][3]等）进行引用，但许多引用并不准确或缺乏对应内容。例如，在'核心主题与证据'部分，论述'协同学习与知识迁移[3]'，但证据[3]的方法论描述仅为'generative foundation model-as-agent approach, collaborative learning, knowledge transfer among AI agents'，是通用术语罗列，无具体方法或与一致性量化的关联。",
+      "参考文献列表格式不统一，部分条目信息不全（如证据[4][5][6]等仅显示为arXiv预印本，无具体标题；证据[8]期刊名不完整）。报告正文引用与参考文献列表需确保信息对应且完整。",
+      "报告将证据[6][7][8]列为支持'多智能体协同系统在多个领域的应用及其价值'的引用，但证据[6]的关键主张和方法论均未提供，证据[7]和[8]虽有部分关键主张，但同样缺乏与方法论或度量标准相关的具体内容，无法有效支撑报告的论述。"
+    ],
+    "revision_instructions": [
+      "严格依据提供的证据内容进行修订。删除所有无证据支持的推断和论述，特别是关于'研究方向'的整个第3部分，以及第2部分中'输出一致性的潜在关联指标'的推测性段落。",
+      "重写核心分析部分。明确指出：在提供的8条证据中，仅证据[1]提供了具体的度量标准（资源利用率、任务响应时间），但该证据未涉及'输出一致性'或'多次重复运行'。其他证据的摘要中缺乏关键主张、方法论或度量标准的具体信息，因此无法用于支持任何关于量化方法的具体分析。",
+      "调整结论。应基于证据缺失的事实，明确指出：基于提供的摘要证据集，无法对'多智能体协同系统的输出一致性如何通过多次重复运行来量化'这一问题进行有意义的分析，因为证据集中缺乏直接相关的量化方法、实验设计或度量标准描述。",
+      "修正引用。确保正文中的每一次引用都精确对应证据中实际存在的信息。对于证据[2][3][4][5][6][7][8]，若其摘要中未提供与查询问题相关的内容，则不应在分析中将其作为支持性引用，或应明确指出其信息缺失。"
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 6,
+        "major_issues": [
+          "报告声称基于8篇文献摘要分析，但实际有效引用的证据不足。证据[2][3][4][5][6][7][8]的摘要中缺乏具体的方法论、关键主张或度量标准（在提供的证据中标记为'N/A'或空白），无法支持报告中关于'协同学习'、'知识迁移'、'协议'等具体技术要点的论述。报告将这些文献作为支持性证据引用，但证据本身内容空泛，导致分析缺乏实质依据。",
+          "报告结论'无法直接回答'研究问题，但正文中却提出了三个'研究方向'（性能指标的统计分析、协作过程的稳定性评估、协议与架构的基础作用）。这些方向在提供的证据中缺乏直接支持，尤其是证据[1]仅涉及资源利用率和任务响应时间，未提及'多次重复运行'或'一致性量化'；其他证据更无相关内容。这造成了结论与正文分析之间的逻辑矛盾。",
+          "报告对证据[1]的解读存在过度推断。证据[1]明确指出其度量标准为'资源利用率, 任务响应时间'，并未涉及'输出一致性'或'重复运行'。报告却提出'理论上，一个输出一致性高的系统，其性能指标（如响应时间）在多次运行中的波动应较小'，并将此作为潜在关联方向。这一推断超出了证据[1]所提供信息的范围，属于无证据支持的推测。"
+        ],
+        "citation_issues": [
+          "报告正文中频繁使用证据编号（如[1][2][3]等）进行引用，但许多引用并不准确或缺乏对应内容。例如，在'核心主题与证据'部分，论述'协同学习与知识迁移[3]'，但证据[3]的方法论描述仅为'generative foundation model-as-agent approach, collaborative learning, knowledge transfer among AI agents'，是通用术语罗列，无具体方法或与一致性量化的关联。",
+          "参考文献列表格式不统一，部分条目信息不全（如证据[4][5][6]等仅显示为arXiv预印本，无具体标题；证据[8]期刊名不完整）。报告正文引用与参考文献列表需确保信息对应且完整。",
+          "报告将证据[6][7][8]列为支持'多智能体协同系统在多个领域的应用及其价值'的引用，但证据[6]的关键主张和方法论均未提供，证据[7]和[8]虽有部分关键主张，但同样缺乏与方法论或度量标准相关的具体内容，无法有效支撑报告的论述。"
+        ],
+        "revision_instructions": [
+          "严格依据提供的证据内容进行修订。删除所有无证据支持的推断和论述，特别是关于'研究方向'的整个第3部分，以及第2部分中'输出一致性的潜在关联指标'的推测性段落。",
+          "重写核心分析部分。明确指出：在提供的8条证据中，仅证据[1]提供了具体的度量标准（资源利用率、任务响应时间），但该证据未涉及'输出一致性'或'多次重复运行'。其他证据的摘要中缺乏关键主张、方法论或度量标准的具体信息，因此无法用于支持任何关于量化方法的具体分析。",
+          "调整结论。应基于证据缺失的事实，明确指出：基于提供的摘要证据集，无法对'多智能体协同系统的输出一致性如何通过多次重复运行来量化'这一问题进行有意义的分析，因为证据集中缺乏直接相关的量化方法、实验设计或度量标准描述。",
+          "修正引用。确保正文中的每一次引用都精确对应证据中实际存在的信息。对于证据[2][3][4][5][6][7][8]，若其摘要中未提供与查询问题相关的内容，则不应在分析中将其作为支持性引用，或应明确指出其信息缺失。"
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.11968/tsyqb.1003-6938.2025001",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "title:building a secure agentic ai application leveraging a2a protocol|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.19678/j.issn.1000-3428.0069471"
+  ],
+  "top_papers": [
+    {
+      "title": "空天地一体化算力网络资源调度机制",
+      "year": 2025,
+      "journal": "空天地一体化算力网络",
+      "source": "万方数据",
+      "doi": "10.19678/j.issn.1000-3428.0069471",
+      "citations": 45,
+      "abstract": "为满足卫星数据处理、车辆远程控制等快速响应和大范围覆盖的应用场景需求,聚焦于采用分层控制和人工智能技术的方法,设计一种空天地一体化算力网络资源调度机制.将空天地网络划分为3个域,分别部署域控制器,负责本地域的资源管理,同时通过卫星和无人机的覆盖范围进行地面区域划分,确保地面区域能够得到有效的服务保障,以实现高效的数据传输和任务处理.为了优化空天地算力网络资源利用率,引入多智能体强化学习算法,对 不同场景下产生的计算任务进行实时处理,将每个域控制器视为具备任务调度和资源分配能力的智能体,在满足时延和能耗的约束下,通过协同学习和分布式决策实现计算任务智能调度和高效分配.实验结果表明,该机制能够有效提高资源利用率和缩短任务响应时间. achieve effective <span class='highlight'>service</span> guarantees,efficient data transmission,and task processing.A <span class='highlight'>multi-agent</span> reinforcement learning-based scheduling algorithm is proposed to optimize resource utilization in  hierarchical control and artificial <span class='highlight'>intelligence</span> technology to design a resource scheduling mechanism for space-air-ground integrated computing power networks.Air,space,and ground networks ar"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "Toward agentic ai networking in 6g: A generative foundation model-as-agent approach",
+      "year": 2025,
+      "journal": "Y Xiao, G Shi, P Zhang - IEEE Communications Magazine, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 55,
+      "abstract": "… challenges and requirements of agentic AI networking. We … rative learning, and knowledge transfer among AI agents. We … al services, which involve a much wider range of knowledge …"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "Building a secure agentic AI application leveraging A2A protocol",
+      "year": 2025,
+      "journal": "I Habler, K Huang, VS Narajala, P Kulkarni - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 52,
+      "abstract": "… Applications of agent communication range across enterprise knowledge management, customer service, supply chain management, healthcare, smart grids, autonomous vehicles, e-…"
+    },
+    {
+      "title": "Agent kb: Leveraging cross-domain experience for agentic problem solving",
+      "year": 2025,
+      "journal": "X Tang, T Qin, T Peng, Z Zhou, D Shao, T Du… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 50,
+      "abstract": "… As artificial intelligence advances, language agents are … We propose the Agent Knowledge Base (AGENT KB), a hierarchical … All services used in this work rely on third-party API calls to …"
+    },
+    {
+      "title": "The Role Of Agentic Ai And Generative Ai In Transforming Modern Banking Services",
+      "year": 2025,
+      "journal": "A Todupunuri - American Journal of AI Cyber Computing Management, 2025 - ajaccm.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 67,
+      "abstract": "… There is a marked gap in the existing knowledge of the application of agentic AI to support decision-making, but literature also reveals a considerable advancement in applying AI in the …"
+    },
+    {
+      "title": "Next-generation agentic AI for transforming healthcare",
+      "year": "2025",
+      "journal": "Informatics and Health",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.infoh.2025.03.001",
+      "citations": 66,
+      "abstract": "Artificial Intelligence (AI) is transforming the healthcare landscape, yet many current applications remain narrowly task-specific, constrained by data complexity and inherent biases. This paper explores the emergence of next generation \"agentic AI\" systems, characterized by advanced autonomy, adaptability, scalability, and probabilistic reasoning, which address critical challenges in medical management. These systems enhance various aspects of healthcare, including diagnostics, clinical decision support, treatment planning, patient monitoring, administrative operations, drug discovery, and robotic-assisted surgery. Powered by multimodal AI, agentic systems integrate diverse data sources, iteratively refine outputs, and leverage vast knowledge bases to deliver context-aware, patient-centri"
+    }
+  ],
+  "elapsed_seconds": 163.789,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q37_method2_same_model_20260414_001456.md"
+}

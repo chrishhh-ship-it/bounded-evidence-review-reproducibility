@@ -1,0 +1,143 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "面向多智能协同情报服务，什么样的 query 最能区分单智能体与多智能体能力差异？",
+  "effective_search_query": "multi-agent intelligence collaborative query capability differentiation",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 13,
+  "all_retrieved_ids": [
+    "title:multi-agent collaboration mechanisms: a survey of llms|2025",
+    "title:internet of agents: weaving a web of heterogeneous agents for collaborative intelligence|2024",
+    "title:a comprehensive survey on multi-agent cooperative decision-making: scenarios, approaches, challenges and perspectives|2025",
+    "title:a collaborative multi-agent approach to retrieval-augmented generation across diverse data|2024",
+    "title:hawk: a hierarchical workflow framework for multi-agent collaboration|2025",
+    "title:collaborative search algorithm for multi-uavs under interference conditions: a multi-agent deep reinforcement learning approach|2025",
+    "doi:10.1145/3755881.3755909x",
+    "title:multi-agent intelligence for multidisciplinary decision-making in gastrointestinal oncology|2025",
+    "title:aura: a multi-agent intelligence framework for knowledge-enhanced cyber threat attribution|2025",
+    "title:multi-agent systems and social intelligence: a comprehensive survey on collaboration, communication, and emergent behaviors|2025",
+    "title:adaptive and knowledge-evolving multi-agent ai|2025",
+    "title:a multi-agent collaborative approach and system for industy-specific question answering tasks|2025",
+    "title:autonomous partner selection for cooperative multi-agent reinforcement learning|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "Multi-agent collaboration mechanisms: A survey of llms",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "KT Tran, D Dao, MD Nguyen, QV Pham… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 461,
+      "abstract": "… These LLM-based Multi-Agent Systems (MASs) enable groups of intelligent agents to coordinate and solve complex tasks collectively at scale, transitioning from isolated models to …"
+    },
+    {
+      "title": "Internet of agents: Weaving a web of heterogeneous agents for collaborative intelligence",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "W Chen, Z You, R Li, Y Guan, C Qian, C Zhao… - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 106,
+      "abstract": "… In this paper, we introduced IoA, a novel framework for LLM-based multi-agent collaboration inspired by the concept of the Internet. IoA addresses the limitations of existing …"
+    },
+    {
+      "title": "A comprehensive survey on multi-agent cooperative decision-making: Scenarios, approaches, challenges and perspectives",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "W Jin, H Du, B Zhao, X Tian, B Shi, G Yang - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 65,
+      "abstract": "… Figure 2: Illustration of our systematic review of multi-agent intelligent decision-making research. Compared to previous reviews, we have incorporated comprehensive introduction and …"
+    },
+    {
+      "title": "A collaborative multi-agent approach to retrieval-augmented generation across diverse data",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "A Salve, S Attar, M Deshmukh, S Shivpuje… - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "doi": "",
+      "citations": 14,
+      "abstract": "… This work highlights the potential of multi-agent collaboration for enhancing retrieval-… of existing approaches and demonstrate how intelligent, specialized systems can enable more …"
+    },
+    {
+      "title": "Hawk: A hierarchical workflow framework for multi-agent collaboration",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "Y Cheng, Y Xu, C Yu, Y Zhao - arXiv preprint arXiv:2507.04067, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 5,
+      "abstract": "… controllable technical solution for multi-agent collaboration, HAWK also … through CreAgentive, a multi-agent novel-generation … capabilities collectively enhance the system’s intelligence, …"
+    },
+    {
+      "title": "Collaborative search algorithm for multi-UAVs under interference conditions: a multi-agent deep reinforcement learning approach",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "W Wang, Y Chen, Y Zhang, Y Chen, Y Du - Drones, 2025 - mdpi.com",
+      "doi": "",
+      "citations": 5,
+      "abstract": "… [22] provided an intelligent collaborative task planning … scenario, and a multi-agent deep reinforcement learning method … Therefore, the utilization of t and t ′ is employed to differentiate …"
+    },
+    {
+      "title": "Orion: A Multi-Agent Framework for Optimizing RAG Systems through Specialized Agent Collaboration",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "X Fang, L Xie, W Yang, T Zhang, R Zhang… - Proceedings of the 16th …, 2025 - dl.acm.org",
+      "doi": "10.1145/3755881.3755909X",
+      "citations": 1,
+      "abstract": "… intelligent model matching mechanism where the Query Complexity Evaluator analyzes query … Through the differentiated context formula, we can generate unique contextual …"
+    },
+    {
+      "title": "Multi-Agent Intelligence for Multidisciplinary Decision-Making in Gastrointestinal Oncology",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "R Zhang, J Wang, S Yang, M Bian, C Zhang… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… For instance, they are unable to differentiate between a … We introduce a Collaborative Multi-Agent Framework for GI … labor, we propose a collaborative Multi-Agent Framework (Figure 1) …"
+    },
+    {
+      "title": "AURA: A Multi-Agent Intelligence Framework for Knowledge-Enhanced Cyber Threat Attribution",
+      "year": "2025",
+      "source": "arXiv",
+      "journal": "arXiv Preprint",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Effective attribution of Advanced Persistent Threats (APTs) increasingly hinges on the ability to correlate behavioral patterns and reason over complex, varied threat intelligence artifacts. We present AURA (Attribution Using Retrieval-Augmented Agents), a multi-agent, knowledge-enhanced framework for automated and interpretable APT attribution. AURA ingests diverse threat data including Tactics, Techniques, and Procedures (TTPs), Indicators of Compromise (IoCs), malware details, adversarial tools, and temporal information, which are processed through a network of collaborative agents. These agents are designed for intelligent query rewriting, context-enriched retrieval from structured threat knowledge bases, and natural language justification of attribution decisions. By combining Retriev"
+    },
+    {
+      "title": "Multi-Agent Systems and Social Intelligence: A Comprehensive Survey on Collaboration, Communication, and Emergent Behaviors",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "Z Deng, X Li, Z Bi, Y Lei, J Xu, T Wang… - … (December 23, 2025), 2025 - papers.ssrn.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… A fascinating phenomenon in cooperative multi-agent learning is the emergence of role specialization, where agents spontaneously develop differentiated behaviors that complement …"
+    },
+    {
+      "title": "Adaptive and Knowledge-Evolving Multi-Agent AI",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "VY Pragathy, SJV KS, P Aruna… - 2025 Innovations in …, 2025 - ieeexplore.ieee.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… multi-agent settings, RL plays a crucial role in fostering cooperation, competition and coordination among agents, making it essential for developing intelligent … and cooperative decision-…"
+    },
+    {
+      "title": "A Multi-Agent Collaborative Approach and System for Industy-Specific Question Answering Tasks",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "Y Wang, M Yang, X Shi, Y Zhang… - 2025 IEEE …, 2025 - ieeexplore.ieee.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… Our system employs a sophisticated multi-agent collaboration … We have developed an intelligent command construction … We present a Modular Multi-Agent Collaborative System …"
+    },
+    {
+      "title": "Autonomous Partner Selection for Cooperative Multi-Agent Reinforcement Learning",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "R Tang, B Luo, Y Cui - … of the AAAI Conference on Artificial Intelligence, 2026 - ojs.aaai.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… We sought to demonstrate the efficacy of information distillation and tendency differentiation … APS-w/o-infor and that of excluding tendency differentiation as APS-w/o-contra, respectively…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q30_baseline_b_20260410_202043.md"
+}

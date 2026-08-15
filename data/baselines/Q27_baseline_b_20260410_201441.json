@@ -1,0 +1,23 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "如何构建面向智慧情报服务的 benchmark query set 与评测协议？",
+  "effective_search_query": "智慧情报服务 benchmark query set 评测协议 构建",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 1,
+  "all_retrieved_ids": [
+    "title:analysis of progress in data mining of scientific literature using large language models.|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Analysis of Progress in Data Mining of Scientific Literature Using Large Language Models.",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "CAI Yiran, HU Zhengyin… - Journal of Library & …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 3,
+      "abstract": "… 据治理体系,建立完善的数据使用协议与知识产权保 护规则,在平衡… 大模型驱动的学术文本挖掘 : 推理端指 令策略构建及能力评测[J]… : 以中国科学院文献情报中心智慧服务平台建设为 例[J]. 图书…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q27_baseline_b_20260410_201441.md"
+}

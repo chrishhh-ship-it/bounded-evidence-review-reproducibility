@@ -1,0 +1,150 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "当全文不可获取时，多智能体系统应如何在报告中明确标注证据强度等级？",
+  "effective_search_query": "多智能体系统 证据强度等级 标注 全文不可获取",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 8,
+    "major_issues": [
+      "报告第2节声称文献[2]的摘要直接声明未明确说明证据强度标注方法，但证据显示文献[2]的Key claim为'当全文不可获取时，本文未明确说明多智能体系统应如何在报告中明确标注证据强度等级'。这并非摘要的直接声明，而是证据集中提供的Key claim，报告应更准确地表述这一信息的来源性质。",
+      "报告第3节提出的'证据支持的研究方向'（外部知识整合与验证、协同学习与分布式共识、概率推理与不确定性量化）是基于摘要中提及的智能体系统一般能力（如[3]的外部知识源、[2][7]的协同学习、[6]的概率推理）进行的推断。这些推断本身合理，但报告应更明确地指出，这些方向与'证据强度等级标注'的直接关联在提供的摘要证据中并未被任何文献明确建立或讨论，属于基于一般能力的外推，而非对研究问题的直接回答。"
+    ],
+    "citation_issues": [
+      "报告第1节声明'未获取或阅读任何全文[1][2][3][4][5][6][7][8]'，此声明与证据集状态一致，但引用格式上，将方法声明与文献列表用相同编号混合引用略显冗余。更清晰的写法可考虑将方法声明与后续具体分析引文区分开。",
+      "报告第2节在论述'证据强度标注的明确缺失'时，引用[1][2][3][4][5][6][7][8]作为支持。此引用是恰当的，但可以更精确地指出，例如[5]的Limitation提到'full text not available for detailed methodology on evidence strength annotation'，这直接支持了'缺失'的论点。报告虽提及[5]的内容，但未在引用中突出此直接相关的局限性陈述。"
+    ],
+    "revision_instructions": [
+      "修正第2节关于文献[2]的表述，明确指出'未明确说明'是其Key claim中的内容，而非摘要本身的直接声明。建议改为：'文献[2]的关键主张（Key claim）明确指出，当全文不可获取时，该研究未说明多智能体系统应如何标注证据强度等级。'",
+      "在第3节开头或每个研究方向论述后，增加说明性语句，强调这些方向是基于智能体系统一般能力的合理推测，但在所提供的摘要证据中，没有任何文献将这些具体能力与'证据强度等级标注'这一特定报告规范问题直接联系起来。例如，可添加：'需注意，上述方向是基于智能体系统通用能力的推断，在所审查的摘要中，并无文献明确探讨如何将这些能力转化为具体的证据强度标注协议或方法。'",
+      "优化第1节的引用表述，使方法声明部分的引用更简洁。例如，可考虑将'未获取或阅读任何全文[1][2][3][4][5][6][7][8]'简化为'未获取或阅读任何全文（所有文献）'，因为在上下文中已明确基于全部8篇文献。",
+      "在第2节论述'证据强度标注的明确缺失'时，可更明确地引用文献[5]的Limitation字段，以加强论证。例如：'文献[5]亦指出，全文不可获取导致无法获知其关于证据强度标注的方法论细节（参见其Limitation），这进一步印证了相关具体方法的缺失。'"
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 8,
+        "major_issues": [
+          "报告第2节声称文献[2]的摘要直接声明未明确说明证据强度标注方法，但证据显示文献[2]的Key claim为'当全文不可获取时，本文未明确说明多智能体系统应如何在报告中明确标注证据强度等级'。这并非摘要的直接声明，而是证据集中提供的Key claim，报告应更准确地表述这一信息的来源性质。",
+          "报告第3节提出的'证据支持的研究方向'（外部知识整合与验证、协同学习与分布式共识、概率推理与不确定性量化）是基于摘要中提及的智能体系统一般能力（如[3]的外部知识源、[2][7]的协同学习、[6]的概率推理）进行的推断。这些推断本身合理，但报告应更明确地指出，这些方向与'证据强度等级标注'的直接关联在提供的摘要证据中并未被任何文献明确建立或讨论，属于基于一般能力的外推，而非对研究问题的直接回答。"
+        ],
+        "citation_issues": [
+          "报告第1节声明'未获取或阅读任何全文[1][2][3][4][5][6][7][8]'，此声明与证据集状态一致，但引用格式上，将方法声明与文献列表用相同编号混合引用略显冗余。更清晰的写法可考虑将方法声明与后续具体分析引文区分开。",
+          "报告第2节在论述'证据强度标注的明确缺失'时，引用[1][2][3][4][5][6][7][8]作为支持。此引用是恰当的，但可以更精确地指出，例如[5]的Limitation提到'full text not available for detailed methodology on evidence strength annotation'，这直接支持了'缺失'的论点。报告虽提及[5]的内容，但未在引用中突出此直接相关的局限性陈述。"
+        ],
+        "revision_instructions": [
+          "修正第2节关于文献[2]的表述，明确指出'未明确说明'是其Key claim中的内容，而非摘要本身的直接声明。建议改为：'文献[2]的关键主张（Key claim）明确指出，当全文不可获取时，该研究未说明多智能体系统应如何标注证据强度等级。'",
+          "在第3节开头或每个研究方向论述后，增加说明性语句，强调这些方向是基于智能体系统一般能力的合理推测，但在所提供的摘要证据中，没有任何文献将这些具体能力与'证据强度等级标注'这一特定报告规范问题直接联系起来。例如，可添加：'需注意，上述方向是基于智能体系统通用能力的推断，在所审查的摘要中，并无文献明确探讨如何将这些能力转化为具体的证据强度标注协议或方法。'",
+          "优化第1节的引用表述，使方法声明部分的引用更简洁。例如，可考虑将'未获取或阅读任何全文[1][2][3][4][5][6][7][8]'简化为'未获取或阅读任何全文（所有文献）'，因为在上下文中已明确基于全部8篇文献。",
+          "在第2节论述'证据强度标注的明确缺失'时，可更明确地引用文献[5]的Limitation字段，以加强论证。例如：'文献[5]亦指出，全文不可获取导致无法获知其关于证据强度标注的方法论细节（参见其Limitation），这进一步印证了相关具体方法的缺失。'"
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.11968/tsyqb.1003-6938.2025001",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "title:building a secure agentic ai application leveraging a2a protocol|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.19678/j.issn.1000-3428.0069471"
+  ],
+  "top_papers": [
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "空天地一体化算力网络资源调度机制",
+      "year": 2025,
+      "journal": "空天地一体化算力网络",
+      "source": "万方数据",
+      "doi": "10.19678/j.issn.1000-3428.0069471",
+      "citations": 45,
+      "abstract": "为满足卫星数据处理、车辆远程控制等快速响应和大范围覆盖的应用场景需求,聚焦于采用分层控制和人工智能技术的方法,设计一种空天地一体化算力网络资源调度机制.将空天地网络划分为3个域,分别部署域控制器,负责本地域的资源管理,同时通过卫星和无人机的覆盖范围进行地面区域划分,确保地面区域能够得到有效的服务保障,以实现高效的数据传输和任务处理.为了优化空天地算力网络资源利用率,引入多智能体强化学习算法,对 不同场景下产生的计算任务进行实时处理,将每个域控制器视为具备任务调度和资源分配能力的智能体,在满足时延和能耗的约束下,通过协同学习和分布式决策实现计算任务智能调度和高效分配.实验结果表明,该机制能够有效提高资源利用率和缩短任务响应时间. achieve effective <span class='highlight'>service</span> guarantees,efficient data transmission,and task processing.A <span class='highlight'>multi-agent</span> reinforcement learning-based scheduling algorithm is proposed to optimize resource utilization in  hierarchical control and artificial <span class='highlight'>intelligence</span> technology to design a resource scheduling mechanism for space-air-ground integrated computing power networks.Air,space,and ground networks ar"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "The Role Of Agentic Ai And Generative Ai In Transforming Modern Banking Services",
+      "year": 2025,
+      "journal": "A Todupunuri - American Journal of AI Cyber Computing Management, 2025 - ajaccm.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 67,
+      "abstract": "… There is a marked gap in the existing knowledge of the application of agentic AI to support decision-making, but literature also reveals a considerable advancement in applying AI in the …"
+    },
+    {
+      "title": "Next-generation agentic AI for transforming healthcare",
+      "year": "2025",
+      "journal": "Informatics and Health",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.infoh.2025.03.001",
+      "citations": 66,
+      "abstract": "Artificial Intelligence (AI) is transforming the healthcare landscape, yet many current applications remain narrowly task-specific, constrained by data complexity and inherent biases. This paper explores the emergence of next generation \"agentic AI\" systems, characterized by advanced autonomy, adaptability, scalability, and probabilistic reasoning, which address critical challenges in medical management. These systems enhance various aspects of healthcare, including diagnostics, clinical decision support, treatment planning, patient monitoring, administrative operations, drug discovery, and robotic-assisted surgery. Powered by multimodal AI, agentic systems integrate diverse data sources, iteratively refine outputs, and leverage vast knowledge bases to deliver context-aware, patient-centri"
+    },
+    {
+      "title": "Toward agentic ai networking in 6g: A generative foundation model-as-agent approach",
+      "year": 2025,
+      "journal": "Y Xiao, G Shi, P Zhang - IEEE Communications Magazine, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 55,
+      "abstract": "… challenges and requirements of agentic AI networking. We … rative learning, and knowledge transfer among AI agents. We … al services, which involve a much wider range of knowledge …"
+    },
+    {
+      "title": "Building a secure agentic AI application leveraging A2A protocol",
+      "year": 2025,
+      "journal": "I Habler, K Huang, VS Narajala, P Kulkarni - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 52,
+      "abstract": "… Applications of agent communication range across enterprise knowledge management, customer service, supply chain management, healthcare, smart grids, autonomous vehicles, e-…"
+    }
+  ],
+  "elapsed_seconds": 146.941,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q43_method2_same_model_20260414_092410.md"
+}

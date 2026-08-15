@@ -1,0 +1,240 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q37",
+  "query": "对抗审稿循环的增益应优先通过哪些 paired 实验与显著性检验来验证？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q37_method1_exp_20260412_233858.json",
+  "same_query_evidence_ids": [
+    "doi:10.1016/j.eclinm.2020.100348",
+    "title:wikiautogen: towards multi-modal wikipedia-style article generation|2025",
+    "doi:10.12732/ijam.v38i6s.399",
+    "doi:10.70994/jjdms.10995.11009",
+    "title:battleagentbench: a benchmark for evaluating cooperation and competition capabilities of language models in multi-agent systems|2024",
+    "doi:10.1101/2024.05.17.24307411",
+    "doi:10.1101/2023.06.07.23291119",
+    "doi:10.1101/2024.10.28.24316263"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.1016/j.eclinm.2020.100348",
+    "title:wikiautogen: towards multi-modal wikipedia-style article generation|2025",
+    "doi:10.12732/ijam.v38i6s.399",
+    "doi:10.70994/jjdms.10995.11009",
+    "title:battleagentbench: a benchmark for evaluating cooperation and competition capabilities of language models in multi-agent systems|2024",
+    "doi:10.1101/2024.05.17.24307411",
+    "doi:10.1101/2023.06.07.23291119",
+    "doi:10.1101/2024.10.28.24316263"
+  ],
+  "top_papers": [
+    {
+      "title": "COVID-19: Reducing the risk of infection might increase the risk of intimate partner violence",
+      "authors": [
+        "Nicole van Gelder",
+        "Amber Peterman",
+        "Alina Potts",
+        "Meaghan O’Donnell",
+        "Kelly Thompson",
+        "Nilima D. Shah",
+        "Sabine Oertelt‐Prigione"
+      ],
+      "abstract": "The ongoing pandemic caused by SARS-CoV-2, the causal agent of the acute respiratory distress syndrome COVID-19, is placing unprecedented stress on healthcare systems and societies as a whole. The rapid spread of the virus in the absence of targeted therapies or a vaccine, is forcing countries to respond with strong preventative measures ranging from mitigation to containment. In extreme cases, quarantines are being imposed, limiting mobility to varying degrees. While quarantines are an effective measure of infection control, they can lead to significant social, economic and psychological consequences. Social distancing fosters isolation; exposes personal and collective vulnerabilities while limiting accessible and familiar support options. The inability to work has immediate economic repercussions and deprives many individuals of essential livelihoods and health care benefits. Psychological consequences may range from stress, frustration and anger to severe depression and post-traumatic stress disorder (PTSD). A recent review drawing on lessons from past pandemics shows the length of quarantine increases the risk for serious psychological consequences [1Brooks S.K. Webster R.K. Smith L.E. Woodland L. Wessely S. Greenberg N. et al.The psychological impact of quarantine and how to reduce it: rapid review of the evidence.Lancet. 2020; 395: 912-920Summary Full Text Full Text PDF PubMed Scopus (10176) Google Scholar]. A relevant, yet frequently ignored risk during a pandemic and its socially disrupting response, is the potential increase of intimate partner violence (IPV) [2Peterman A. Potts A. O'Donnell M. Thompson K. Shah N. Oertelt-Prigione S. et al.Pandemics and violence against women and children.Center Global Dev Work Paper 528. 2020; Google Scholar]. IPV is defined as physical, sexual, psychological, or economic violence that occurs between former or current intimate partners. While men can also be affected, IPV is a gendered phenomenon largely perpetrated against women by male partners [3Fulu E. Jewkes R. Roselli T. Garcia-Moreno G. on on behalf of the UN Multi-country Cross-sectional Study on Men and Violence research teamPrevalence of and factors associated with male perpetration of intimate partner violence: findings from the UN multi-country cross-sectional study on men and violence in Asia and the Pacific.Lancet Glob Health. 2013; 1: e187-e207Summary Full Text Full Text PDF PubMed Scopus (372) Google Scholar] and approximately one in three women worldwide will experience physical and/or sexual IPV in her lifetime [4Devries K.M. Mak J.Y. Garcia-Moreno C. Petzold M. Child J.C. Falder G. et al.Global health. The global prevalence of intimate partner violence against women.Science. 2013; 340: 1527-1528Crossref PubMed Scopus (1036) Google Scholar]. Many of the strategies employed in abusive relations overlap with the social measures imposed during quarantine. Next to physical and geographical isolation, IPV survivors describe social isolation (i.e., from family and friends), functional isolation (e.g., when peers or support systems appear to exist but are unreliable or have alliances with the perpetrator), surveillance, and control of daily activities [5Hagan Raghavan Doychak Functional isolation: understanding isolation in trafficking survivors.Sex Abuse. 2019; https://doi.org/10.1177/1079063219889059Crossref PubMed Scopus (16) Google Scholar]. During quarantine, measures intentionally imposed in an abusive partnership, may be enforced on a massive scale in the attempt to save lives. Isolation paired with greater exposure, psychological and economic stressors, as well as potential increases in negative coping mechanisms (i.e., excessive alcohol consumption) can trigger an unprecedented wave of IPV. Recent anecdotal reports from Australia, Brazil, China, and the United States already indicate increases in IPV due to quarantines [2Peterman A. Potts A. O'Donnell M. Thompson K. Shah N. Oertelt-Prigione S. et al.Pandemics and violence against women and children.Center Global Dev Work Paper 528. 2020; Google Scholar]. The global community should prepare for similar effects in other countries. While quarantines will protect people from SARS-CoV2 infection, immediate action is needed to mitigate against increases in IPV. Increase physicians’ and other frontline healthcare worker's awareness of the heightened risk of IPV during quarantine and support their ability to safely offer information and referral. Physicians and other frontline healthcare workers need to be trained to recognize signs of violence and individuals at risk and communicate with them following best practice to protect the safety, privacy and choice of the survivor [6World Health OrganizationHealth care for women subjected to intimate partner violence or sexual violence: a clinical handbook. WHO, 2014https://www.who.int/reproductivehealth/publications/violence/vaw-clinical-handbook/en/Google Scholar,7World Health OrganizationStrengthening health systems to respond to women subjected to intimate partner violence or sexual violence: a manual for health managers. WHO, 2017https://www.who.int/reproductivehealth/publications/violence/vaw-health-systems-manual/en/Google Scholar]. Standard intake forms for the assessment of women subjected to IPV or sexual assault should be made available to staff in units, clinics and community screening dedicated to the COVID-19 response. First responders need to be informed about increased risk and options for intervention. Responders at the frontlines should be offered adequate support in coping with their own traumatic experiences caring for severely ill patients during an outbreak and a rising number of patients exposed to IPV. Increase public awareness and understanding for the increased risk of IPV during quarantine and how to safely access support services. Although limited by quarantine, individuals will maintain contacts with their families, friends, coworkers and acquaintances. Non healthcare-related contacts represent the primary and most capillary detection system for IPV. Public media needs to raise awareness for the topic to sensitize the general population and share best practices. These include bystander approaches, offering supportive statements, and, accessing help on the behalf of a survivor, if consented to do so. Media should provide links to IPV services including hotlines and online/SMS channels for those who cannot speak safely by phone, especially while at home with abusers. Social networks, both formal and informal, can help decrease isolation and provide support in case of IPV [8Zapor H. Wolford-Clevenger C. Johnson D.M. The association between social support and stages of change in survivors of intimate partner violence.J Interpers Violence. 2015; 33: 1051-1070Crossref PubMed Scopus (33) Google Scholar]. Social media can aid in upholding a buddy system and emergency contacts. In times of social distancing, internet-based help platforms can effectively replace some conventional in-person support. All should have safety mechanisms to quickly exit the page and clear browsing history, as abusers may monitor phone and internet use. - Increase funding and service availability for protection needs during quarantine, including social protection, shelters and trauma-centered support for family members. Social and economic insecurity represent crucial barriers for vulnerable individuals when seeking help. Lack of social safety nets, due to e.g., school closures may increase the exposure of children to IPV, with harmful outcomes in the immediate term and later adulthood. Maintenance of social safety nets (e.g., paid sick leave, access to healthcare insurance) is of utmost importance in guaranteeing the independence needed to leave an abusive relationship. Support structures such as organizations supporting survivors, as well as shelters, need to remain available while quarantines are in place, and need to be prepared to respond more fully after containment measures end [9Selvaratnam T. Where can domestic violence victims turn during Covid-19?. New York Times, 2020, March 23https://www.nytimes.com/2020/03/23/opinion/covid-domestic-violence.htmlGoogle Scholar]. Quarantine, isolation and associated social, emotional and economic stressors increase the risk of IPV. Partner violence is a taboo topic, often considered a ‘private’ matter, with low political priority in many societies, even in times of relative stability. If we do not campaign aggressively to raise awareness and take swift action for IPV and other forms of interpersonal violence, detrimental effects on individuals, families and society will reverberate for decades. None.",
+      "year": "2020",
+      "published_date": "2020-04-01",
+      "journal": "EClinicalMedicine",
+      "url": "https://doi.org/10.1016/j.eclinm.2020.100348",
+      "arxiv_id": "",
+      "keywords": [
+        "Anger",
+        "Pandemic",
+        "Domestic violence",
+        "Medicine",
+        "Isolation (microbiology)",
+        "Traumatic stress",
+        "Social isolation",
+        "Social distance"
+      ],
+      "citations": 496,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.eclinm.2020.100348",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "WikiAutoGen: Towards Multi-Modal Wikipedia-Style Article Generation",
+      "authors": [
+        "Zhongyu Yang",
+        "Jun Chen",
+        "Dannong Xu",
+        "Junjie Fei",
+        "Xiaoqian Shen",
+        "Liangbing Zhao",
+        "Chun-Mei Feng",
+        "Mohamed Elhoseiny"
+      ],
+      "abstract": "Knowledge discovery and collection are intelligence-intensive tasks that traditionally require significant human effort to ensure high-quality outputs. Recent research has explored multi-agent frameworks for automating Wikipedia-style article generation by retrieving and synthesizing information from the internet. However, these methods primarily focus on text-only generation, overlooking the importance of multimodal content in enhancing informativeness and engagement. In this work, we introduce WikiAutoGen, a novel system for automated multimodal Wikipedia-style article generation. Unlike prior approaches, WikiAutoGen retrieves and integrates relevant images alongside text, enriching both the depth and visual appeal of generated content. To further improve factual accuracy and comprehensiveness, we propose a multi-perspective self-reflection mechanism, which critically assesses retrieved content from diverse viewpoints to enhance reliability, breadth, and coherence, etc. Additionally, we introduce WikiSeek, a benchmark comprising Wikipedia articles with topics paired with both textual and image-based representations, designed to evaluate multimodal knowledge generation on more challenging topics. Experimental results show that WikiAutoGen outperforms previous methods by 8%-29% on our WikiSeek benchmark, producing more accurate, coherent, and visually enriched Wikipedia-style articles. Our code and examples are available at https://wikiautogen.github.io/",
+      "year": "2025",
+      "published_date": "2025-03-24",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/d6f12d83ccf1d8201922fd63e37679188e9043c2",
+      "arxiv_id": "2503.19065",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "\"AGENTIC AI–DRIVEN DECISION-SUPPORT FRAMEWORK FOR CLIMATE-RESPONSIVE AGRICULTURAL ADAPTATION USING REINFORCEMENT LEARNING”",
+      "authors": [
+        "Sandeep Kumar Vishwakarma"
+      ],
+      "abstract": "Climate variability is very sensitive to agriculture that interferes with crop productivity, resources management and sustainability. Conventional decision support systems (DSS) have brought meaningful understandings but this is constrained by its static and rule-based structures that cannot hold up well in a dynamic and uncertain climatic environment. To help fill that gap, this paper offers an agentic AI-based decision-support approach to climate adaptation in agriculture that combines reinforcement learning (RL), digital twins, and multi-agent reasoning. The framework was also derived and validated with regard to climate, soil, and crop datasets and tested by a digital twin simulation environment. Agents at the reinforcement learning were trained under Deep Q-Learning, Proximal Policy Optimization, and Actor Critic algorithms and Proximal Policy Optimization proved to converge faster and illustrated relative stability. The results indicate drastic increases in the yield of crops under normal and stressful conditions, improved water-use efficiency, and optimized fertilizer use and by increasing use of biochar and recycling water, the carbon footprint can be reduced relative to the usual DSS. In addition, the Agentic AI layer provided pipeline flexibility with respect to changes in policy like water-use limitations, resulting in a reduced recalibration time and increase in the adaptability index. The comparative analysis, against the conventional models of DSS, assures that the proposed framework can both balance productivity and sustainability and continue being robust in a wide range of climatic conditions. The significance of observed improvements was proved by statistical validation with ANOVA and paired t-tests (p &lt; 0.05). These results imply that reinforcement learning and digital twin integration with Agentic AI offers a high capacity and robust channel towards future climate change-resistant agriculture decision-making.",
+      "year": "2025",
+      "published_date": "2025-10-15",
+      "journal": "International Journal of Applied Mathematics",
+      "url": "https://doi.org/10.12732/ijam.v38i6s.399",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.12732/ijam.v38i6s.399",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Digital Pathways to Inclusion: Tribal, Rural, and Grassroots Development in India’s Technology Driven Era",
+      "authors": [
+        "Aayurshi Sahay",
+        "Joseph Marianus Kujur"
+      ],
+      "abstract": "This paper examines how Information and Communication Technologies (ICTs) are reshaping development outcomes in India’s rural and tribal regions, where historical marginalization, infrastructural deficits, and socio-cultural complexity continue to impede equitable access to public services and markets. Anchored in ICT4D theory and institutional, socio-cultural, and localization frameworks, the study conceptualizes digital transformation not as a purely technological process but as one embedded within intersecting hierarchies of caste, tribe, gender, literacy, governance capacity, and trust. The purpose of the paper is to evaluate the developmental contribution of ICTs, identify structural and cultural barriers to digital adoption, analyse sectoral and tribal-specific illustrations, and propose an equity-oriented research and policy agenda. Using a systematic literature review methodology, the study synthesizes multi-sectoral scholarship across agriculture, health, education, governance, financial inclusion, and community media to uncover thematic patterns shaping technology adoption. Findings reveal that ICTs have expanded access to information, markets, welfare delivery, learning resources, and healthcare—evident in interventions such as e-Choupal, Digital Green, DIKSHA, eSanjeevani, Kudumbashree, and tribal-focused platforms like CGNet Swara. Yet these benefits remain uneven due to persistent connectivity gaps, linguistic barriers, gendered device access, socio-political exclusions, and low institutional trust, particularly within tribal communities. The analysis shows that digital interventions succeed when mediated by trusted intermediaries, aligned with local sociolinguistic ecologies, and embedded within community knowledge systems; conversely, poorly localized or top-down systems risk reinforcing existing inequalities. The paper argues that technology alone cannot drive development—rather, ICTs act as amplifiers of pre-existing social conditions and deliver impact only when paired with culturally grounded design, inclusive governance, and long-term community engagement. Implications highlight the need for participatory ICT models, decentralized data governance, intersectional inclusion strategies, and deeper research into emerging technologies such as AI, IoT, and blockchain in rural contexts. Overall, the study contends that India’s digital future must prioritize development-led technology that centres community agency, linguistic diversity, and institutional equity to ensure that rural and tribal populations are not left behind in an increasingly digital nation.",
+      "year": "2025",
+      "published_date": "2025-12-05",
+      "journal": "Jharkhand Journal of Development and Management Studies",
+      "url": "https://www.semanticscholar.org/paper/f05c1da380c3f9b66e90380cfa85e8d9fc5902a3",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.70994/jjdms.10995.11009",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant systematic review"
+    },
+    {
+      "title": "BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems",
+      "authors": [
+        "Wei Wang",
+        "Dan Zhang",
+        "Tao Feng",
+        "Boyan Wang",
+        "Jie Tang"
+      ],
+      "abstract": "Large Language Models (LLMs) are becoming increasingly powerful and capable of handling complex tasks, e.g., building single agents and multi-agent systems. Compared to single agents, multi-agent systems have higher requirements for the collaboration capabilities of language models. Many benchmarks are proposed to evaluate their collaborative abilities. However, these benchmarks lack fine-grained evaluations of LLM collaborative capabilities. Additionally, multi-agent collaborative and competitive scenarios are ignored in existing works. To address these two problems, we propose a benchmark, called BattleAgentBench, which defines seven sub-stages of three varying difficulty levels and conducts a fine-grained evaluation of language models in terms of single-agent scenario navigation capabilities, paired-agent task execution abilities, and multi-agent collaboration and competition capabilities. We conducted extensive evaluations on leading four closed-source and seven open-source models. Experimental results indicate that API-based models perform excellently on simple tasks but open-source small models struggle with simple tasks. Regarding difficult tasks that require collaborative and competitive abilities, although API-based models have demonstrated some collaborative capabilities, there is still enormous room for improvement.",
+      "year": "2024",
+      "published_date": "2024-08-28",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2408.15971v1",
+      "arxiv_id": "2408.15971v1",
+      "keywords": [
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system benchmark"
+    },
+    {
+      "title": "Evaluation of large language model performance on the Biomedical Language Understanding and Reasoning Benchmark",
+      "authors": [
+        "Hui Feng",
+        "Francesco Ronzano",
+        "J. Lafleur",
+        "Matthew Garber",
+        "Rodrigo José de Oliveira",
+        "Kathryn Rough",
+        "K. Roth",
+        "Jay Nanavati",
+        "Khaldoun Zine",
+        "El Abidine",
+        "C. Mack"
+      ],
+      "abstract": "Background: The ability of large language models (LLMs) to interpret and generate human-like text has been accompanied with speculation about their application in medicine and clinical research. There is limited data available to inform evidence-based decisions on the appropriateness for specific use cases. Methods: We evaluated and compared four general-purpose LLMs (GPT-4, GPT-3.5-turbo, Flan-T5-XXL, and Zephyr-7B-Beta) and a healthcare-specific LLM (MedLLaMA-13B) on a set of 13 datasets - referred to as the Biomedical Language Understanding and Reasoning Benchmark (BLURB) - covering six commonly needed medical natural language processing tasks: named entity recognition (NER); relation extraction; population, interventions, comparators, and outcomes (PICO); sentence similarity; document classification; and question-answering. All models were evaluated without modification. Model performance was assessed according to a range of prompting strategies (formalised as a systematic, reusable prompting framework) and relied on the standard, task-specific evaluation metrics defined by BLURB. Results: Across all tasks, GPT-4 outperformed other LLMs, followed by Flan-T5-XXL and GPT-3.5- turbo, then Zephyr-7b-Beta and MedLLaMA-13B. The most performant prompts for GPT-4 and Flan-T5-XXL both outperformed the previously-reported best results for the PubMedQA task. The domain-specific MedLLaMA-13B achieved lower scores for most tasks except for question-answering tasks. We observed a substantial impact of strategically editing the prompt describing the task and a consistent improvement in performance when including examples semantically similar to the input text in the prompt. Conclusion: These results provide evidence of the potential LLMs may have for medical application and highlight the importance of robust evaluation before adopting LLMs for any specific use cases. Continuing to explore how these emerging technologies can be adapted for the healthcare setting, paired with human expertise, and enhanced through quality control measures will be important research to allow responsible innovation with LLMs in the medical area.",
+      "year": "2024",
+      "published_date": "2024-05-17",
+      "journal": "medRxiv",
+      "url": "https://www.semanticscholar.org/paper/b8f3e8b85bef7b0abb187ca4cbcca677cccbcb44",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.1101/2024.05.17.24307411",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Fostering transparent medical image AI via an image-text foundation model grounded in medical literature",
+      "authors": [
+        "Chanwoo Kim",
+        "Soham U. Gadgil",
+        "Alex J. DeGrave",
+        "Zhuo Ran Cai",
+        "Roxana Daneshjou",
+        "Su-In Lee"
+      ],
+      "abstract": "Abstract\n                \n                  Building trustworthy and transparent image-based medical AI systems requires the ability to interrogate data and models at all stages of the development pipeline: from training models to post-deployment monitoring. Ideally, the data and associated AI systems could be described using terms already familiar to physicians, but this requires medical datasets densely annotated with semantically meaningful concepts. Here, we present a foundation model approach, named MONET (\n                  M\n                  edical c\n                  ON\n                  cept r\n                  ET\n                  riever), which learns how to connect medical images with text and generates dense concept annotations to enable tasks in AI transparency from model auditing to model interpretation. Dermatology provides a demanding use case for the versatility of MONET, due to the heterogeneity in diseases, skin tones, and imaging modalities. We trained MONET on the basis of 105,550 dermatological images paired with natural language descriptions from a large collection of medical literature. MONET can accurately annotate concepts across dermatology images as verified by board-certified dermatologists, outperforming supervised models built on previously concept-annotated dermatology datasets. We demonstrate how MONET enables AI transparency across the entire AI development pipeline from dataset auditing to model auditing to building inherently interpretable models.",
+      "year": "2023",
+      "published_date": "2023-6-12",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1101/2023.06.07.23291119",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 7,
+      "source": "CrossRef",
+      "doi": "10.1101/2023.06.07.23291119",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "evidence grounded medical literature analysis"
+    },
+    {
+      "title": "Fine-tuned large language models for answering questions about full-text biomedical research studies",
+      "authors": [
+        "Kaiming Tao",
+        "Jinru Zhou",
+        "Zachary A. Osman",
+        "Vineet Ahluwalia",
+        "Chiara Sabatti",
+        "Robert W. Shafer"
+      ],
+      "abstract": "ABSTRACT\n                \n                  Background\n                  Few studies have explored the degree to which fine-tuning a large-language model (LLM) can improve its ability to answer a specific set of questions about a research study.\n                \n                \n                  Methods\n                  We created an instruction set comprising 250 marked-down studies of HIV drug resistance, 16 questions per study, answers to each question, and explanations for each answer. The questions were broadly relevant to studies of pathogenic human viruses including whether a study reported viral genetic sequences and the demographics and antiviral treatments of the persons from whom sequences were obtained. We fine-tuned GPT-4o-mini (GPT-4o), Llama3.1-8B-Instruct (Llama3.1-8B), and Llama3.1-70B-Instruct (Llama3.1-70B) using a quantized low rank adapter (QLoRA). We assessed the accuracy, precision, and recall of each base and fine-tuned model in answering the same questions on a test set comprising 120 different studies. Paired t-tests and Wilcoxon signed-rank tests were used to compare base models to one another, fine-tuned models to their respective base model, and the fine-tuned models to one another.\n                \n                \n                  Results\n                  Prior to fine-tuning, GPT-4o displayed significantly greater performance than both Llama3.1-70B and Llama3.1-8B due to its greater precision compared with Llama3.1-70B and greater precision and recall compared with Llama3.1-8B; there was no difference in performance between Llama3.1-70B and Llama3.1-8B. After fine-tuning, both GPT-4o and Llama3.1-70B, but not Llama3.1-8B, displayed significantly improved performance compared with their base models. The improved performance of GPT-4o resulted from a mean 6% increased precision and 9% increased recall; the improved performance of Llama3.1-70B resulted from a 15% increased precision. After fine-tuning, Llama3.1-70B significantly outperformed Llama3.1-8B but did not perform as well as the fine-tuned GPT-4o model which displayed superior recall.\n                \n                \n                  Conclusion\n                  Fine-tuning GPT-4o and Llama3.1-70B, but not the smaller Llama3.1-8B, led to marked improvement in answering specific questions about research papers. The process we describe will be useful to researchers studying other medical domains.\n                \n                \n                  AUTHOR SUMMARY\n                  Addressing key biomedical questions often requires systematically reviewing data from numerous studies—a process that demands time and expertise. Large language models (LLMs) have shown potential in screening papers and summarizing their content. However, few research groups have fine-tuned these models to enhance their performance in specialized biomedical domains. In this study, we fine-tuned three LLMs to answer questions about studies on the subject of HIV drug resistance including one proprietary LLM (GPT-4o-mini) and two open-source LLMs (Llama3.1-Instruct-70B and Llama 3.1-Instruct-8B). To fine-tune the models, we used an instruction set comprising 250 studies of HIV drug resistance and selected 16 questions covering whether studies included viral genetic sequences, patient demographics, and antiviral treatments. We then tested the models on 120 independent research studies. Our results showed that fine-tuning GPT-4o-mini and Llama3.1-Instruct-70B significantly improved their ability to answer domain-specific questions, while the smaller Llama3.1-Instruct-8B model was not improved. The process we described offers a roadmap for researchers in other fields and represents a step in our attempt towards developing an LLM capable of answering questions about research studies across a range of pathogenic human viruses.",
+      "year": "2024",
+      "published_date": "2024-10-30",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1101/2024.10.28.24316263",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "CrossRef",
+      "doi": "10.1101/2024.10.28.24316263",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models full text retrieval"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "0520bdc6018ab76da7f8423129ea391d7549040e0a0d17d7cde1f9a4df5ba98c",
+  "elapsed_seconds": 14.956,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q37_schema_single_agent_20260724_022809.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

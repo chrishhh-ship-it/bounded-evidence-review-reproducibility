@@ -1,0 +1,243 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q22",
+  "query": "screening agent 在多智能协同情报服务中的主要作用是什么？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q22_method1_exp_20260412_231356.json",
+  "same_query_evidence_ids": [
+    "doi:10.48550/arxiv.2306.16092",
+    "doi:10.48550/arxiv.2505.20310",
+    "title:a multi-agent rhizomatic pipeline for non-linear literature analysis|2026",
+    "doi:10.3390/mps9020033",
+    "title:litmof: an llm multi-agent for literature-validated metal-organic frameworks database correction and expansion|2025",
+    "doi:10.51583/ijltemas.2025.140500080",
+    "doi:10.1186/s13750-023-00319-w",
+    "title:lattereview: a multi-agent framework for systematic review automation using large language models|2025"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.48550/arxiv.2306.16092",
+    "doi:10.48550/arxiv.2505.20310",
+    "title:a multi-agent rhizomatic pipeline for non-linear literature analysis|2026",
+    "doi:10.3390/mps9020033",
+    "title:litmof: an llm multi-agent for literature-validated metal-organic frameworks database correction and expansion|2025",
+    "doi:10.51583/ijltemas.2025.140500080",
+    "doi:10.1186/s13750-023-00319-w",
+    "title:lattereview: a multi-agent framework for systematic review automation using large language models|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model",
+      "authors": [
+        "Jiaxi Cui",
+        "Ning, Munan",
+        "Zongjian Li",
+        "Bohua Chen",
+        "Yan Yang",
+        "Li, Hao",
+        "Ling, Bin",
+        "Tian, Yonghong",
+        "Yuan Li"
+      ],
+      "abstract": "AI legal assistants based on Large Language Models (LLMs) can provide accessible legal consulting services, but the hallucination problem poses potential legal risks. This paper presents Chatlaw, an innovative legal assistant utilizing a Mixture-of-Experts (MoE) model and a multi-agent system to enhance the reliability and accuracy of AI-driven legal services. By integrating knowledge graphs with artificial screening, we construct a high-quality legal dataset to train the MoE model. This model utilizes different experts to address various legal issues, optimizing the accuracy of legal responses. Additionally, Standardized Operating Procedures (SOP), modeled after real law firm workflows, significantly reduce errors and hallucinations in legal services. Our MoE model outperforms GPT-4 in the Lawbench and Unified Qualification Exam for Legal Professionals by 7.73% in accuracy and 11 points, respectively, and also surpasses other models in multiple dimensions during real-case consultations, demonstrating our robust capability for legal consultation.",
+      "year": "2023",
+      "published_date": "2023-06-28",
+      "journal": "arXiv (Cornell University)",
+      "url": "https://doi.org/10.48550/arxiv.2306.16092",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Domain (mathematical analysis)",
+        "Language model",
+        "Data science",
+        "Quality (philosophy)",
+        "Data modeling",
+        "Information retrieval",
+        "Data model (GIS)"
+      ],
+      "citations": 90,
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2306.16092",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Manalyzer: End-to-end Automated Meta-analysis with Multi-agent System",
+      "authors": [
+        "Wanghan Xu",
+        "Wenlong Zhang",
+        "Fenghua Ling",
+        "Ben Fei",
+        "Yusong Hu",
+        "Fangxuan Ren",
+        "Jintai Lin",
+        "Wanli Ouyang",
+        "Lei Bai"
+      ],
+      "abstract": "Meta-analysis is a systematic research methodology that synthesizes data from multiple existing studies to derive comprehensive conclusions. This approach not only mitigates limitations inherent in individual studies but also facilitates novel discoveries through integrated data analysis. Traditional meta-analysis involves a complex multi-stage pipeline including literature retrieval, paper screening, and data extraction, which demands substantial human effort and time. However, while LLM-based methods can accelerate certain stages, they still face significant challenges, such as hallucinations in paper screening and data extraction. In this paper, we propose a multi-agent system, Manalyzer, which achieves end-to-end automated meta-analysis through tool calls. The hybrid review, hierarchical extraction, self-proving, and feedback checking strategies implemented in Manalyzer significantly alleviate these two hallucinations. To comprehensively evaluate the performance of meta-analysis, we construct a new benchmark comprising 729 papers across 3 domains, encompassing text, image, and table modalities, with over 10,000 data points. Extensive experiments demonstrate that Manalyzer achieves significant performance improvements over the LLM baseline in multi meta-analysis tasks. Project page: https://black-yt.github.io/meta-analysis-page/ .",
+      "year": "2025",
+      "published_date": "2025-05-22",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/e540e5f7c227e366184b63e2124a0ea05d7cd708",
+      "arxiv_id": "2505.20310",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2505.20310",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "A Multi-Agent Rhizomatic Pipeline for Non-Linear Literature Analysis",
+      "authors": [
+        "Julio C. Serrano",
+        "Joonas Kevari",
+        "Rumy Narayan"
+      ],
+      "abstract": "Systematic literature reviews in the social sciences overwhelmingly follow arborescent logics -- hierarchical keyword filtering, linear screening, and taxonomic classification -- that suppress the lateral connections, ruptures, and emergent patterns characteristic of complex research landscapes. This research note presents the Rhizomatic Research Agent (V3), a multi-agent computational pipeline grounded in Deleuzian process-relational ontology, designed to conduct non-linear literature analysis through 12 specialized agents operating across a seven-phase architecture. The system was developed in response to the methodological groundwork established by (Narayan2023), who employed rhizomatic inquiry in her doctoral research on sustainable energy transitions but relied on manual, researcher-driven exploration. The Rhizomatic Research Agent operationalizes the six principles of the rhizome -- connection, heterogeneity, multiplicity, asignifying rupture, cartography, and decalcomania -- into an automated pipeline integrating large language model (LLM) orchestration, dual-source corpus ingestion from OpenAlex and arXiv, SciBERT semantic topography, and dynamic rupture detection protocols. Preliminary deployment demonstrates the system's capacity to surface cross-disciplinary convergences and structural research gaps that conventional review methods systematically overlook. The pipeline is open-source and extensible to any phenomenon zone where non-linear knowledge mapping is required.",
+      "year": "2026",
+      "published_date": "2026-03-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.28336v2",
+      "arxiv_id": "2603.28336v2",
+      "keywords": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "A Review of Multi-Agent AI Systems for Biological and Clinical Data Analysis.",
+      "authors": [
+        "Jackson Spieser",
+        "Ali Balapour",
+        "Jarek Meller",
+        "Krushna C Patra",
+        "Behrouz Shamsaei"
+      ],
+      "abstract": "This review evaluates the emerging paradigm of multi-agent systems (MASs) for biomedical and clinical data analysis, focusing on their ability to overcome the reasoning and reliability limitations of standalone large language models (LLMs). We synthesize findings from recent architectural frameworks, specifically LangGraph, CrewAI, and the Model Context Protocol (MCP), to examine how specialized agent teams divide labor, utilize precision tools, and cross-verify outputs. We find that MAS architectures yield significant performance gains in various domains: recent implementations improved oncology decision-making accuracy from 30.3% to 87.2% and reached a peak of 93.2% accuracy on USMLE-style benchmarks through simulated clinical evolution. In clinical trial matching, multi-agent frameworks achieved 87.3% accuracy and enhanced clinician screening efficiency by 42.6% (",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "Methods and protocols",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41874150/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.3390/mps9020033",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "LitMOF: An LLM Multi-Agent for Literature-Validated Metal-Organic Frameworks Database Correction and Expansion",
+      "authors": [
+        "Honghui Kim",
+        "Dohoon Kim",
+        "Jihan Kim"
+      ],
+      "abstract": "Metal-organic framework (MOF) databases have grown rapidly through experimental deposition and large-scale literature extraction, but recent analyses show that nearly half of their entries contain substantial structural errors. These inaccuracies propagate through high-throughput screening and machine-learning workflows, limiting the reliability of data-driven MOF discovery. Correcting such errors is exceptionally difficult because true repairs require integrating crystallographic files, synthesis descriptions, and contextual evidence scattered across the literature. Here we introduce LitMOF, a large language model-driven multi-agent framework that validates crystallographic information directly from the original literature and cross-validates it with database entries to repair structural errors. Applying LitMOF to the experimental MOF database (the CSD MOF Subset), we constructed LitMOF-DB, a curated set of 186,773 computation-ready structures, including the successful repair of 8,771 invalid entries, which accounts for 65.3% of the not-computation-ready MOFs in the latest CoRE MOF database. Additionally, the system uncovered 12,646 experimentally reported MOFs absent from existing resources, substantially expanding the known experimental design space. Using direct air capture screening as a case study, we demonstrate that structural errors severely distort predicted adsorption energies and CO2/H2O selectivity, leading to systematic misranking of materials, false positives, and the omission of high-performance candidates. This work establishes a scalable pathway toward self-correcting scientific databases and a generalizable paradigm for LLM-driven curation in materials science.",
+      "year": "2025",
+      "published_date": "2025-12-01",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2512.01693v2",
+      "arxiv_id": "2512.01693v2",
+      "keywords": [
+        "cs.DB",
+        "cond-mat.mtrl-sci"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Multi-Agent AI Systems in Healthcare: Systematic Evidence Synthesis Via PRISMA of Clinical Decision Support Systems, Robotic Interventions, and Critical Care",
+      "authors": [
+        "Oto Peter Ode",
+        "Ndukwe Chika Kalu",
+        "Saleh Abbas",
+        "Arslan Arshad",
+        "Adagboyi Isaac Inalegwu",
+        "Konstantin Koshechkin"
+      ],
+      "abstract": "Abstract: Multi-agent artificial intelligence systems (MAS) is transforming the healthcare sector by enabling intelligent decision-making, robotic interventions, and critical care management. Despite growing interest, a comprehensive synthesis of their real-world applications, performance, and limitations is lacking. This systematic review aims to evaluate the deployment of MAS in healthcare across three key domains: Clinical Decision Support Systems (CDSS), Robotic Interventions, and Critical Care Monitoring. It also addresses ethical and legal considerations, offers a comparative framework, and identifies research gaps. A systematic search of PubMed, IEEE Xplore, Scopus, and Web of Science was conducted following PRISMA guidelines. A total of 150 records were retrieved. After duplicate removal and screening, 32 studies met inclusion criteria. The Joanna Briggs Institute (JBI) Critical Appraisal Checklist guided quality assessment. Data were extracted using a structured form and organized by topic. Among the 32 studies included, 12 focused on MAS-based CDSS, 11 on robotic interventions, and 9 on MAS in critical care. Most MAS demonstrated improved diagnostic accuracy, aided real-time decision support, and enhanced patient monitoring. However, over 60% involved practical models and lacked clinical validation. Ethical concerns, particularly around autonomy, data privacy, transparency, and legal accountability were sometimes overlooked. Only 7 studies discussed ethical or legal implications in depth. A comparative framework was developed, comparing MAS tools based on scalability, clinical validation, autonomy, human-AI interaction, and data transparency. No doubt, MAS hold transformative potential across healthcare domains. However, real-world deployment remains unclear. Greater emphasis on clinical validation, ethical design, and regulatory frameworks is needed. This review provides suggestions for future research and responsible adoption of MAS in healthcare.",
+      "year": "2025",
+      "published_date": "2025-06-19",
+      "journal": "International Journal of Latest Technology in Engineering Management &amp; Applied Science",
+      "url": "https://www.semanticscholar.org/paper/fe07442a7eb33396064eb4d2400ea3464a03cd29",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.51583/ijltemas.2025.140500080",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "Effects of mosquito control using the microbial agent Bacillus thuringiensis israelensis (Bti) on aquatic and terrestrial ecosystems: a systematic review",
+      "authors": [
+        "M. Land",
+        "M. Bundschuh",
+        "R. J. Hopkins",
+        "B. Poulin",
+        "B. Mckie"
+      ],
+      "abstract": "Background The bacterium Bacillus thuringiensis serovar israelensis (Bti) is commercially produced in various formulations for use as a larvicide worldwide, targeting especially the aquatic larval stage of mosquitoes. However, there is a concern that repeated Bti treatments may have both direct and indirect impacts on non-target organisms (NTOs) and the ecosystems they inhabit. This review evaluates the evidence for such impacts. Methods Literature was searched using six bibliographic databases, two search engines, and on specialist web sites. Eligibility screening was performed in two steps on (1) title/abstract, with consistency among reviewers assessed by double-screening 557 articles and (2) full text. Articles included after full text screening were critically appraised independently by two reviewers. Disagreements were reconciled through discussions. Key parameters of included studies are presented in narrative synthesis tables, including risk of bias assessments. Meta-analyses comparing treated with untreated ecosystems and using either the raw mean difference or log response ratio as effect size were performed. Review findings Ninety-five articles covering 282 case studies were included in the review. From these, we identified 119 different response variables, which were divided into nine outcome categories. Most studies investigated NTO abundance or life history (reproduction related outcomes), but diversity and community composition are also well represented as outcome categories. The studies are highly variable in methodology, rigor, and spatio-temporal scale, spanning 1 day to 21 years and from < 1m^2 to > 10,000 m^2. Our metanalyses revealed a consistent negative effect of Bti treatment on abundances of Chironomidae and Crustacea, and also on chironomid emergence, although from a more restricted set of studies and regions. For most remaining response variables, we judged meta-analysis unfeasible, due to low study numbers or insufficient reporting of methods and results. Conclusions There is now a significant body of studies documenting effects of mosquito control using Bti on NTOs or other ecosystem properties, especially associated with negative effects on Chironomidae, as apparent from our meta-analyses. Accordingly, we suggest the potential for negative NTO or other ecosystem effects of Bti treatment should not be discounted a priori. Once a decision to proceed with Bti treatment has been taken, priority should be given to a well-designed program of ongoing monitoring and assessment. The paucity of rigorous studies conducted with low bias risk for most response variables undermines our capacity for evaluating how common many of the effects documented might be. Future research would benefit from a rigorous and well-replicated approach to studying Bti impacts in semi-field mesocosms or in the field, combined with a greater rigor in reporting key methodological details. A greater focus is needed on understanding the environmental factors which regulate the wider effects of mosquito control using Bti on NTOs and ecosystems, to enhance our capacity for predicting where and when Bti is most likely to have additional, negative and indirect ecological impacts.",
+      "year": "2023",
+      "published_date": "2023-11-22",
+      "journal": "Environmental Evidence",
+      "url": "https://www.semanticscholar.org/paper/7c6fb570454d72573cbc2a9b8910edc2931ee12e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 25,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13750-023-00319-w",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    },
+    {
+      "id": "gs_a6a2a585f5",
+      "title": "LatteReview: a multi-agent framework for systematic review automation using large language models",
+      "abstract": "review workflow for title and abstract screening with two junior reviewer agents (round A)  followed by concept extraction by a senior and more powerful reviewer agent (round B).",
+      "authors": [
+        "P Rouzrokh",
+        "B Khosravi",
+        "P Rouzrokh"
+      ],
+      "year": 2025,
+      "journal": "arXiv preprint arXiv …",
+      "citations": 7,
+      "url": "https://arxiv.org/abs/2501.05468",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation AND reviewer agent"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "6b4b349a7f0bb9e80d481db2e1527e0675283ceb2e9ddf1711886c3c7c68c409",
+  "elapsed_seconds": 26.278,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q22_schema_single_agent_20260724_022725.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

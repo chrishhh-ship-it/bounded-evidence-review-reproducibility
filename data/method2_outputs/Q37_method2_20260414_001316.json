@@ -1,0 +1,144 @@
+{
+  "baseline": "method2_adversarial_multi_agent",
+  "query": "多智能体协同系统的输出一致性如何通过多次重复运行来量化？",
+  "effective_search_query": "多智能体系统 协同控制 输出一致性 重复运行 量化",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "kimi",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 7,
+    "major_issues": [
+      "The draft report does not provide any direct evidence or methodology from the literature to quantify the output consistency of multi-agent systems through repeated runs."
+    ],
+    "citation_issues": [
+      "The draft report cites the sources correctly, but it does not utilize the evidence from the sources to answer the research query directly."
+    ],
+    "revision_instructions": [
+      "The draft should include a more detailed analysis of the methodologies and metrics used in the cited literature to see if they can indirectly inform the research query on quantifying output consistency.",
+      "The draft should explicitly state the limitations of the current analysis based on abstract-level evidence and suggest ways to overcome these limitations, such as full-text analysis or additional literature search.",
+      "The draft should provide a clearer conclusion that directly addresses the research query, even if the current evidence is insufficient, by suggesting potential directions for future research or analysis."
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 7,
+        "major_issues": [
+          "The draft report does not provide any direct evidence or methodology from the literature to quantify the output consistency of multi-agent systems through repeated runs."
+        ],
+        "citation_issues": [
+          "The draft report cites the sources correctly, but it does not utilize the evidence from the sources to answer the research query directly."
+        ],
+        "revision_instructions": [
+          "The draft should include a more detailed analysis of the methodologies and metrics used in the cited literature to see if they can indirectly inform the research query on quantifying output consistency.",
+          "The draft should explicitly state the limitations of the current analysis based on abstract-level evidence and suggest ways to overcome these limitations, such as full-text analysis or additional literature search.",
+          "The draft should provide a clearer conclusion that directly addresses the research query, even if the current evidence is insufficient, by suggesting potential directions for future research or analysis."
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "doi:10.11968/tsyqb.1003-6938.2025001",
+    "doi:10.13530/j.cnki.jlis.2025041",
+    "title:building a secure agentic ai application leveraging a2a protocol|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.19678/j.issn.1000-3428.0069471"
+  ],
+  "top_papers": [
+    {
+      "title": "空天地一体化算力网络资源调度机制",
+      "year": 2025,
+      "journal": "空天地一体化算力网络",
+      "source": "万方数据",
+      "doi": "10.19678/j.issn.1000-3428.0069471",
+      "citations": 45,
+      "abstract": "为满足卫星数据处理、车辆远程控制等快速响应和大范围覆盖的应用场景需求,聚焦于采用分层控制和人工智能技术的方法,设计一种空天地一体化算力网络资源调度机制.将空天地网络划分为3个域,分别部署域控制器,负责本地域的资源管理,同时通过卫星和无人机的覆盖范围进行地面区域划分,确保地面区域能够得到有效的服务保障,以实现高效的数据传输和任务处理.为了优化空天地算力网络资源利用率,引入多智能体强化学习算法,对 不同场景下产生的计算任务进行实时处理,将每个域控制器视为具备任务调度和资源分配能力的智能体,在满足时延和能耗的约束下,通过协同学习和分布式决策实现计算任务智能调度和高效分配.实验结果表明,该机制能够有效提高资源利用率和缩短任务响应时间. achieve effective <span class='highlight'>service</span> guarantees,efficient data transmission,and task processing.A <span class='highlight'>multi-agent</span> reinforcement learning-based scheduling algorithm is proposed to optimize resource utilization in  hierarchical control and artificial <span class='highlight'>intelligence</span> technology to design a resource scheduling mechanism for space-air-ground integrated computing power networks.Air,space,and ground networks ar"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "Toward agentic ai networking in 6g: A generative foundation model-as-agent approach",
+      "year": 2025,
+      "journal": "Y Xiao, G Shi, P Zhang - IEEE Communications Magazine, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 55,
+      "abstract": "… challenges and requirements of agentic AI networking. We … rative learning, and knowledge transfer among AI agents. We … al services, which involve a much wider range of knowledge …"
+    },
+    {
+      "title": "Agent kb: Leveraging cross-domain experience for agentic problem solving",
+      "year": 2025,
+      "journal": "X Tang, T Qin, T Peng, Z Zhou, D Shao, T Du… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 50,
+      "abstract": "… As artificial intelligence advances, language agents are … We propose the Agent Knowledge Base (AGENT KB), a hierarchical … All services used in this work rely on third-party API calls to …"
+    },
+    {
+      "title": "The Role Of Agentic Ai And Generative Ai In Transforming Modern Banking Services",
+      "year": 2025,
+      "journal": "A Todupunuri - American Journal of AI Cyber Computing Management, 2025 - ajaccm.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 67,
+      "abstract": "… There is a marked gap in the existing knowledge of the application of agentic AI to support decision-making, but literature also reveals a considerable advancement in applying AI in the …"
+    },
+    {
+      "title": "Next-generation agentic AI for transforming healthcare",
+      "year": "2025",
+      "journal": "Informatics and Health",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.infoh.2025.03.001",
+      "citations": 66,
+      "abstract": "Artificial Intelligence (AI) is transforming the healthcare landscape, yet many current applications remain narrowly task-specific, constrained by data complexity and inherent biases. This paper explores the emergence of next generation \"agentic AI\" systems, characterized by advanced autonomy, adaptability, scalability, and probabilistic reasoning, which address critical challenges in medical management. These systems enhance various aspects of healthcare, including diagnostics, clinical decision support, treatment planning, patient monitoring, administrative operations, drug discovery, and robotic-assisted surgery. Powered by multimodal AI, agentic systems integrate diverse data sources, iteratively refine outputs, and leverage vast knowledge bases to deliver context-aware, patient-centri"
+    },
+    {
+      "title": "Building a secure agentic AI application leveraging A2A protocol",
+      "year": 2025,
+      "journal": "I Habler, K Huang, VS Narajala, P Kulkarni - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 52,
+      "abstract": "… Applications of agent communication range across enterprise knowledge management, customer service, supply chain management, healthcare, smart grids, autonomous vehicles, e-…"
+    }
+  ],
+  "elapsed_seconds": 148.146,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_outputs\\Q37_method2_20260414_001316.md"
+}

@@ -1,0 +1,63 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "如何减少智慧情报服务自动报告中的夸大性 claim？",
+  "effective_search_query": "智慧情报服务 自动报告 夸大性 claim 减少",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 5,
+  "all_retrieved_ids": [
+    "doi:10.14092/j.cnki.cn11-3956/c.2025.03.009陈俊秀，",
+    "title:招投标业务智慧报表体系建设及系统应用研究|2023",
+    "title:智慧立案的研究进展, 挑战与未来展望|2025",
+    "title:民航地勤服务|2021",
+    "title:供水香港: 地緣政治, 水務建設與農業發展(1940–1970 年代)|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "生成式人工智能时代情报安全分层治理机制研究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "陈俊秀， 徐玉琴 - 华北电力大学学报(社会科学版), 2025 - hbdldxxbskb.ncepujournal.com",
+      "doi": "10.14092/j.cnki.cn11-3956/c.2025.03.009陈俊秀，",
+      "citations": 0,
+      "abstract": "… [7] 社会智慧化的根本在于服务智慧化,随着人工智能技术的发展… 语言模型技术实现相关违法犯罪 情报的自动抓取,精准识别与… 科学性与有效性,进而减少案 件侦破时间,提高诉讼效率,更好地服务…"
+    },
+    {
+      "title": "招投标业务智慧报表体系建设及系统应用研究",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "邹凌 - Modern Management, 2023 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 性,积极贯彻落实数字化转型工作部署,打造服务电网的现代智慧… 类分析模型;分析报告自动生成 该环节负责分析报告的生成和展示,… 省去了企业不同层级之间权限沟通的麻烦,减少了总管理员的…"
+    },
+    {
+      "title": "智慧立案的研究进展, 挑战与未来展望",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "林雨鑫 - Open Journal of Legal Science, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 探讨了智慧立案的核心功能及应用场景,如智能识别与自动审查,… 报告也会标注在立案通知上,辅助 法官做出补正或不予立案决定. … 完整性校验任务的准确率中可以有效增强了智慧立案的可靠性. …"
+    },
+    {
+      "title": "民航地勤服务",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "汤黎， 江群 - 2021 - books.google.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 本套教材汇集来自全国的骨干 教师和一线专家的智慧与心血,… 这种方式的好处是大大减少 了建筑 费用,并有着不受限制的扩展… 非常见的问题;自动语音应答则由旅客根据自动语 音提示进行操作,…"
+    },
+    {
+      "title": "供水香港: 地緣政治, 水務建設與農業發展(1940–1970 年代)",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "李家翹 - 2025 - books.google.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 創建150週年而開展的研究項目,其後何佩然再根據研究報告… 的水務工程,發揮了港人的高度智慧 .過去五十 年的建樹尤為突出,驕… 香港,但同時也不必誇大香港的特殊性(exceptionalism),失卻香港…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q18_baseline_b_20260410_191139.md"
+}

@@ -1,0 +1,25 @@
+{
+  "design": "matched (same underlying B0 claim traced into B2 and B3), not independent per-condition sampling",
+  "n_anchor_claims": 50,
+  "n_items_total": 150,
+  "removed_in_B2": 0,
+  "removed_in_B3": 0,
+  "exact_index_match_B2": 50,
+  "exact_index_match_B3": 50,
+  "seed": 20260724,
+  "labels": [
+    "SUPPORTED",
+    "PARTIAL",
+    "CONTRADICTED",
+    "INSUFFICIENT",
+    "REMOVED (pre-filled, do not edit)"
+  ],
+  "instructions": "Two coders independently fill the verdict column for every item except pre-marked REMOVED rows, without consulting each other or the gold key. Judge only whether evidence_snippets (the FULL abstract text, matching what the generation models saw -- not truncated) supports the specific claim_text. After both are complete, merge with the gold key to recover condition identity, compute Fleiss'/Cohen's kappa, then CSP per condition among non-removed items, and report the removal rate per condition separately as its own outcome (a condition should not look better on CSP merely by deleting the claims it could not support).",
+  "known_limitations": [
+    "claim_text unit is a citation-bearing sentence, not a verified atomic proposition; compound sentences remain compound",
+    "match_type=partial_overlap items (see gold key) are the reviewer's best-effort correspondence, not a guaranteed same-claim match; analysis should report results with and without partial-overlap items included",
+    "CSC (coverage over ALL verifiable claims, cited or not) is not computed by this packet and requires a separate full-text claim extraction pass",
+    "B2 and B3 are not a matched experimental contrast (different source draft, temperature, and call count); this packet measures CSP per condition as generated, not an isolated causal effect of role separation"
+  ],
+  "status": "packet generated, independent human coding not yet performed"
+}

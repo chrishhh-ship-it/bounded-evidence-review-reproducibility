@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "多源文献检索在情报服务中的常见噪声类型是什么？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q11_baseline_a_20260410_185957.md"
+}

@@ -1,0 +1,215 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q04",
+  "query": "如何为智慧情报服务设计 retrieval-evidence-writing 的多阶段工作流？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q04_method1_exp_20260412_224354.json",
+  "same_query_evidence_ids": [
+    "doi:10.34133/csbj.0018",
+    "title:jarvis: an evidence-grounded retrieval system for interpretable deceptive reviews adjudication|2026",
+    "title:towards robust fact-checking: a multi-agent system with advanced evidence retrieval|2025",
+    "title:seal-tag: self-tag evidence aggregation with probabilistic circuits for pii-safe retrieval-augmented generation|2026",
+    "doi:10.31662/jmaj.2025-0443",
+    "doi:10.1101/2025.10.17.25338266",
+    "doi:10.1101/2024.12.02.24318184",
+    "doi:10.24176/pro.v7i2.11444"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.34133/csbj.0018",
+    "title:jarvis: an evidence-grounded retrieval system for interpretable deceptive reviews adjudication|2026",
+    "title:towards robust fact-checking: a multi-agent system with advanced evidence retrieval|2025",
+    "title:seal-tag: self-tag evidence aggregation with probabilistic circuits for pii-safe retrieval-augmented generation|2026",
+    "doi:10.31662/jmaj.2025-0443",
+    "doi:10.1101/2025.10.17.25338266",
+    "doi:10.1101/2024.12.02.24318184",
+    "doi:10.24176/pro.v7i2.11444"
+  ],
+  "top_papers": [
+    {
+      "id": "gs_3552c66c8c",
+      "title": "MedDiscover: A Domain-Specific Retrieval-Augmented Generation Framework for Evidence-Grounded Knowledge Extraction in Metabolomics",
+      "abstract": "(synthetic QA with retrievability metadata). Retrieval-augmented generation (RAG) inference  retrieves top k contexts and uses an evidence-grounded  by an extensive literature review,",
+      "authors": [
+        "V Patel",
+        "E Jolkver",
+        "A Schwerk"
+      ],
+      "year": 2026,
+      "journal": "Computational and Structural …",
+      "citations": 0,
+      "url": "https://spj.science.org/doi/abs/10.34133/csbj.0018",
+      "doi": "10.34133/csbj.0018",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "id": "gs_ddcee371fc",
+      "title": "JARVIS: An Evidence-Grounded Retrieval System for Interpretable Deceptive Reviews Adjudication",
+      "abstract": ", an evidence-grounded adjudication system that integrates multimodal retrieval, heterogeneous  evidence graph expansion, and LLM-based reasoning for deceptive review detection.",
+      "authors": [
+        "N Lu",
+        "L Li",
+        "Y Hu",
+        "R Lin",
+        "S Xu"
+      ],
+      "year": 2026,
+      "journal": "arXiv preprint arXiv:2602.12941",
+      "citations": 0,
+      "url": "https://arxiv.org/abs/2602.12941",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Towards Robust Fact-Checking: A Multi-Agent System with Advanced Evidence Retrieval",
+      "authors": [
+        "Tam Trinh",
+        "Manh Nguyen",
+        "Truong-Son Hy"
+      ],
+      "abstract": "The rapid spread of misinformation in the digital era poses significant challenges to public discourse, necessitating robust and scalable fact-checking solutions. Traditional human-led fact-checking methods, while credible, struggle with the volume and velocity of online content, prompting the integration of automated systems powered by Large Language Models (LLMs). However, existing automated approaches often face limitations, such as handling complex claims, ensuring source credibility, and maintaining transparency. This paper proposes a novel multi-agent system for automated fact-checking that enhances accuracy, efficiency, and explainability. The system comprises four specialized agents: an Input Ingestion Agent for claim decomposition, a Query Generation Agent for formulating targeted subqueries, an Evidence Retrieval Agent for sourcing credible evidence, and a Verdict Prediction Agent for synthesizing veracity judgments with human-interpretable explanations. Evaluated on benchmark datasets (FEVEROUS, HOVER, SciFact), the proposed system achieves a 12.3% improvement in Macro F1-score over baseline methods. The system effectively decomposes complex claims, retrieves reliable evidence from trusted sources, and generates transparent explanations for verification decisions. Our approach contributes to the growing field of automated fact-checking by providing a more accurate, efficient, and transparent verification methodology that aligns with human fact-checking practices while maintaining scalability for real-world applications. Our source code is available at https://github.com/HySonLab/FactAgent",
+      "year": "2025",
+      "published_date": "2025-06-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2506.17878v1",
+      "arxiv_id": "2506.17878v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "SEAL-Tag: Self-Tag Evidence Aggregation with Probabilistic Circuits for PII-Safe Retrieval-Augmented Generation",
+      "authors": [
+        "Jin Xie",
+        "Songze Li",
+        "Guang Cheng"
+      ],
+      "abstract": "Retrieval-Augmented Generation (RAG) systems introduce a critical vulnerability: contextual leakage, where adversaries exploit instruction-following to exfiltrate Personally Identifiable Information (PII) via adaptive extraction. Current defenses force a rigid trade-off between semantic utility and latency. We present SEAL-Tag, a privacy-preserving runtime environment that resolves this via a Verify-then-Route paradigm. SEAL-Tag introduces the SEAL-Probe protocol, transforming auditing into a structured tool-use operation where the model generates a verifiable PII-Evidence Table (PET) alongside its draft. To adjudicate this evidence, we employ a Probabilistic Circuit (PC) that enforces verifiable logical constraints for robust decision-making. To overcome the privacy\"Cold Start\"problem, we introduce the S0--S6 Anchored Synthesis Pipeline, generating high-fidelity, provenanced RAG interactions. We pair this with a Two-Stage Curriculum that first optimizes for entity detection before aligning the model to the rigorous audit protocol. Our evaluation demonstrates that SEAL-Tag establishes a new Pareto frontier, reducing adaptive leakage by over 8$\\times$ while matching the utility and speed of unsafe baselines.",
+      "year": "2026",
+      "published_date": "2026-03-18",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/efa807c72aa5e71fc570762d3f19650cba113c94",
+      "arxiv_id": "2603.17292",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Artificial Intelligence in Medical Writing: Is It an Exception to Evidence-Based Medicine?",
+      "authors": [],
+      "abstract": "",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "JMA Journal",
+      "url": "https://doi.org/10.31662/jmaj.2025-0443",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.31662/jmaj.2025-0443",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "policy intelligence evidence grounded writing"
+    },
+    {
+      "title": "Augmenting Large Language Models and Retrieval-Augmented Generation with an Evidence-Based Medicine-Enabled Agent System",
+      "authors": [
+        "Yi Yu",
+        "Lingli Li",
+        "Yaqin Li"
+      ],
+      "abstract": "Abstract\n                \n                  Importanc\n                  Large language models (LLMs) with retrieval-augmented generation (RAG) show promise for clinical decision support. However, their application is constrained by limited &amp; outdated vector databases, suboptimal evidence retrieval and poor contextual continuity.\n                \n                \n                  Objective\n                  To develop and evaluate a novel LLM-based agent that integrates Evidence-Based Medicine (EBM) principles and contextual conversation capabilities in answering clinical questions.\n                \n                \n                  Design, Setting and Participants\n                  The agent for clinical decision making was developed and evaluated between July 1, 2024, and July 31, 2025. The system incorporated an EBM-enabled workflow, a memory module and Thought-Action-Observation (TAO) loops. Evaluation 1 assessed the system’s performance on 150 initial clinical questions across 15 cancer types. Evaluation 2 involved 45 multi-turn dialogue tasks (across 3 types). Baselines were state-of-the-art traditional RAG method and commercial LLMs with plugins. All generated responses across both evaluations were independently rated by 3 experts with over five years of clinical experience. The study was performed at West China Medical Center.\n                \n                \n                  Main Outcomes and Measures\n                  Each response in evaluation 1 was classified into one of three predefined categories—correct, inaccurate, or wrong. As for evaluation 2, tasks were deemed successful when previous conversation is remembered and answer is correct, otherwise the task was considered unsuccessful.\n                \n                \n                  Results\n                  In evaluation 1, EBMChat generated the highest proportion of accurate responses (89% vs 78% for the best baseline method). The superior performance of EBMChat was associated with its ability to retrieve optimal evidence, demonstrated by significantly higher evidence hierarchy (100% vs 17.5% RCT-level or above), stricter evidence timeliness (within 5 years vs from the 1980s onwards), and more comprehensive retrieval (median of 693 vs 267 items/question). Regarding evaluation 2, EBMChat successfully completed 93% of the tasks. In contrast, GPT-4.1 with plugins (Web Search) achieved a success rate of only 31%. This performance gap was attributed to EBM-enabled workflow, memory module and TAO loops, which ensure robust contextual conversation capabilities.\n                \n                \n                  Conclusion and Relevanc\n                  EBMChat identifies appropriate evidence by effectively balancing timeliness, hierarchy, and relevance. Meanwhile, its enhanced conversational capabilities facilitate the preservation of contextual data, enabling users to explore clinical problems more deeply or comprehensively in multi-turn dialogues. Our findings underscore that the effective promotion of clinical practice by AI requires deeper integration of core medical principles into the technology itself, rather than direct application of general-purpose AI tools.",
+      "year": "2025",
+      "published_date": "2025-10-20",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1101/2025.10.17.25338266",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1101/2025.10.17.25338266",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models full text retrieval"
+    },
+    {
+      "title": "Next Generation Evidence: High-Precision Information Retrieval for Rapid Clinical Guideline Updates",
+      "authors": [
+        "Florian Borchert",
+        "P. Wullenweber",
+        "A. Oeser",
+        "N. Kreuzberger",
+        "T. Karge",
+        "T. Langer",
+        "N. Skoetz",
+        "L. H. Wieler",
+        "M.-P. Schapranow",
+        "B. Arnrich"
+      ],
+      "abstract": "Delays in translating new medical evidence into clinical practice hinder patient access to the best available treatments. Our data reveals an average delay of nine years from the initiation of human research to its adoption in clinical guidelines, with 1.7-3.0 years lost between trial publication and guideline updates. A substantial part of these delays stems from slow, manual processes in updating clinical guidelines, which rely on time-intensive evidence synthesis workflows. The Next Generation Evidence (NGE) system addresses this challenge by harnessing state-of-the-art biomedical Natural Language Processing (NLP) methods. This novel system integrates diverse evidence sources, such as clinical trial reports and digital guidelines, enabling automated, data-driven analyses of the time it takes for research findings to inform clinical practice. The NGE system accelerates guideline updates by employing precision-focused literature search filters tailored specifically for guideline maintenance. In benchmarking against two German oncology guidelines, these filters demonstrate exceptional precision in identifying pivotal publications for guideline updates. By streamlining evidence synthesis, NGE has the potential to deliver faster updates, improve guideline responsiveness, and enhance patient access to state-of-the-art treatments.",
+      "year": "2024",
+      "published_date": "2024-12-03",
+      "journal": "medRxiv",
+      "url": "https://www.semanticscholar.org/paper/cf69f48c51f2d16fac83e047e76a6af0830c5e4d",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1101/2024.12.02.24318184",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "HOW ARTIFICIAL INTELLIGENCE (AI) SUPPORTS UNDERGRADUATE STUDENTS’ ACADEMIC WRITING: EVIDENCE FROM INDONESIA",
+      "authors": [
+        "Sri Wahyuningsih"
+      ],
+      "abstract": "Academic writing plays a crucial role in academics including undergraduate students. In addition, the development of technology provides effectiveness for them in the process of academic writing. The present study unravels undergraduate students’ voices on how artificial intelligence (AI) supports their academic writing including kinds of AI applications mostly used by them in enhancing academic writing and challenges in using AI. Anchoring in a qualitative research method, the data of this study were gathered from in-depth interviews with six students at an Indonesian higher education. The findings of the study revealed that AI applications are used to support students’ academic writing. Some AI applications they use include translation tools such as Google Translate, paraphrasing tools such as Quillbot, grammar and spelling checkers such as Grammarly, plagiarism checkers such as Turnitin, and reference management software such as Mendeley and Zotero. Furthermore, they reported that AI could enhance their academic writing by providing better organization, efficiency, consistency, and accuracy. However, critical thinking skills cannot be developed by AI applications. Thus, the finding of the study offers an implication that students can utilize these AI applications to support their work and they should actively participate in the process of academic writing.",
+      "year": "2024",
+      "published_date": "2024-7-29",
+      "journal": "Prominent",
+      "url": "https://doi.org/10.24176/pro.v7i2.11444",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.24176/pro.v7i2.11444",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "policy intelligence AND evidence grounded writing"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "1e16fb0b251b9e659626dedc8e35269a2768b5f9c80fffc2e63b9a1801d2f74a",
+  "elapsed_seconds": 16.393,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q04_schema_single_agent_20260724_022611.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "引用准确率和 orphan citation rate 是否能作为智慧情报服务的核心指标？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q06_baseline_a_20260410_184926.md"
+}

@@ -1,0 +1,70 @@
+{
+  "asqa": {
+    "n_pairs": 40,
+    "citation_index_validity": {
+      "mean_v0": 1.0,
+      "mean_v2": 1.0,
+      "mean_diff_v2_minus_v0": 0.0,
+      "n_pairs_improved": 0,
+      "n_pairs_worsened": 0,
+      "n_pairs_unchanged": 40,
+      "wilcoxon_note": "scipy unavailable or all pairs tied; report descriptive only"
+    },
+    "sentence_citation_coverage": {
+      "mean_v0": 0.7837499999999998,
+      "mean_v2": 0.9337500000000001,
+      "mean_diff_v2_minus_v0": 0.15000000000000002,
+      "n_pairs_improved": 14,
+      "n_pairs_worsened": 2,
+      "n_pairs_unchanged": 24,
+      "wilcoxon_statistic": 11.0,
+      "wilcoxon_p_two_sided": 0.0029700010983635967,
+      "bh_fdr": {
+        "p": 0.0029700010983635967,
+        "rank": 3,
+        "bh_critical": 0.05000000000000001,
+        "significant_after_fdr": true
+      }
+    }
+  },
+  "qampari": {
+    "n_pairs": 40,
+    "citation_index_validity": {
+      "mean_v0": 0.75,
+      "mean_v2": 0.975,
+      "mean_diff_v2_minus_v0": 0.225,
+      "n_pairs_improved": 9,
+      "n_pairs_worsened": 0,
+      "n_pairs_unchanged": 31,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_p_two_sided": 0.002699796063260186,
+      "bh_fdr": {
+        "p": 0.002699796063260186,
+        "rank": 1,
+        "bh_critical": 0.016666666666666666,
+        "significant_after_fdr": true
+      }
+    },
+    "sentence_citation_coverage": {
+      "mean_v0": 0.7416666666666667,
+      "mean_v2": 0.9666666666666666,
+      "mean_diff_v2_minus_v0": 0.225,
+      "n_pairs_improved": 9,
+      "n_pairs_worsened": 0,
+      "n_pairs_unchanged": 31,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_p_two_sided": 0.002699796063260186,
+      "bh_fdr": {
+        "p": 0.002699796063260186,
+        "rank": 2,
+        "bh_critical": 0.03333333333333333,
+        "significant_after_fdr": true
+      }
+    }
+  },
+  "_fdr_summary": {
+    "family_size": 3,
+    "q_threshold": 0.05,
+    "any_significant_after_fdr": true
+  }
+}

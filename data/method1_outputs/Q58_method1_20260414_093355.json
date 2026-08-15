@@ -1,0 +1,103 @@
+{
+  "baseline": "method1_pipeline",
+  "query": "情报服务基准中的查询难度分级（easy/medium/hard）应基于哪些可操作标准？",
+  "effective_search_query": "情报服务 查询难度分级 标准 easy medium hard",
+  "provider": "deepseek",
+  "model": "",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "all_retrieved_ids": [
+    "doi:10.1002/ajae.12089",
+    "doi:10.1016/j.procs.2019.02.029",
+    "title:prorl agent: rollout-as-a-service for rl training of multi-turn llm agents|2026",
+    "title:optimizing service operations via llm-powered multi-agent simulation|2026",
+    "doi:10.1038/nenergy.2016.32",
+    "title:reliable collaborative conversational agent system based on llms and answer set programming|2025",
+    "title:control at stake: evaluating the security landscape of llm-driven email agents|2025",
+    "title:pact: a contract-theoretic framework for pricing agentic ai services powered by large language models|2025",
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001"
+  ],
+  "top_papers": [
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "Information and Communication Technologies to Provide Agricultural Advice to Smallholder Farmers: Experimental Evidence from Uganda",
+      "year": "2020",
+      "journal": "American Journal of Agricultural Economics",
+      "source": "OpenAlex",
+      "doi": "10.1002/ajae.12089",
+      "citations": 174,
+      "abstract": "Agricultural advisory services generally rely on interpersonal knowledge transfers by agricultural extension agents who visit farmers to provide information. This approach is not always effective and has proved hard to scale sustainably, particularly in highly dispersed smallholder farming systems. Information and communication technologies (ICTs) have been advanced as a promising way to overcome many of the problems associated with conventional agricultural extension. We evaluate the effectiveness of an ICT‐mediated approach to deliver agricultural information in a field experiment conducted among small‐scale maize farmers in eastern Uganda. Three complementary technologies designed to address both informational and behavioral constraints to technical change are considered. First, we inve"
+    },
+    {
+      "title": "Development of a Knowledge Base in the “Smart Farming” System for Agricultural Enterprise Management",
+      "year": "2019",
+      "journal": "Procedia Computer Science",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.procs.2019.02.029",
+      "citations": 56,
+      "abstract": "Increasing the efficiency of agricultural production is a very important task. To solve this problem, it is proposed to use the “Smart Farming” cloud system for precision farming management. The novelty of the proposed approach lies in using the knowledge base and multi-agent technology to develop coordinated decisions on management of agricultural enterprises. The paper focuses on development of the knowledge base in the \"Smart Farming\" system on precision agriculture. Information storage is organized in the form of a semantic network of concepts and relations on the \"All about the concept\" principle in a single repository, which facilitates the work of farmers with this resource. The paper covers storage, editing, verification, and visualization of knowledge representation about the doma"
+    },
+    {
+      "title": "ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Multi-turn LLM agents are increasingly important for solving complex, interactive tasks, and reinforcement learning (RL) is a key ingredient for improving their long-horizon behavior. However, RL training requires generating large numbers of sandboxed rollout trajectories, and existing infrastructures often couple rollout orchestration with the training loop, making systems hard to migrate and maintain. Under the rollout-as-a-service philosophy, we present ProRL Agent , a scalable infrastructure that serves the full agentic rollout lifecycle through an API service. ProRL Agent also provides standardized and extensible sandbox environments that support diverse agentic tasks in rootless HPC settings. We validate ProRL Agent through RL training on software engineering, math, STEM, and coding "
+    },
+    {
+      "title": "Optimizing Service Operations via LLM-Powered Multi-Agent Simulation",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Service system performance depends on how participants respond to design choices, but modeling these responses is hard due to the complexity of human behavior. We introduce an LLM-powered multi-agent simulation (LLM-MAS) framework for optimizing service operations. We pose the problem as stochastic optimization with decision-dependent uncertainty: design choices are embedded in prompts and shape the distribution of outcomes from interacting LLM-powered agents. By embedding key numerical information in prompts and extracting it from LLM-generated text, we model this uncertainty as a controlled Markov chain. We develop an on-trajectory learning algorithm that, on a single simulation run, simultaneously constructs zeroth-order gradient estimates and updates design parameters to optimize stead"
+    },
+    {
+      "title": "Electricity market design for the prosumer era",
+      "year": "2016",
+      "journal": "Nature Energy",
+      "source": "OpenAlex",
+      "doi": "10.1038/nenergy.2016.32",
+      "citations": 1193,
+      "abstract": "Prosumers are agents that both consume and produce energy. With the growth in small and medium-sized agents using solar photovoltaic panels, smart meters, vehicle-to-grid electric automobiles, home batteries and other ‘smart’ devices, prosuming offers the potential for consumers and vehicle owners to re-evaluate their energy practices. As the number of prosumers increases, the electric utility sector of today is likely to undergo significant changes over the coming decades, offering possibilities for greening of the system, but also bringing many unknowns and risks that need to be identified and managed. To develop strategies for the future, policymakers and planners need knowledge of how prosumers could be integrated effectively and efficiently into competitive electricity markets. Here w"
+    },
+    {
+      "title": "Reliable Collaborative Conversational Agent System Based on LLMs and Answer Set Programming",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "As the Large-Language-Model-driven (LLM-driven) Artificial Intelligence (AI) bots became popular, people realized their strong potential in Task-Oriented Dialogue (TOD). However, bots relying wholly on LLMs are unreliable in their knowledge, and whether they can finally produce a correct outcome for the task is not guaranteed. The collaboration among these agents also remains a challenge, since the necessary information to convey is unclear, and the information transfer is by prompts: unreliable, and malicious knowledge is easy to inject. With the help of knowledge representation and reasoning tools such as Answer Set Programming (ASP), conversational agents can be built safely and reliably, and communication among the agents made more reliable as well. We propose a Manager-Customer-Servic"
+    }
+  ],
+  "elapsed_seconds": 84.192,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method1_outputs\\Q58_method1_20260414_093355.md"
+}

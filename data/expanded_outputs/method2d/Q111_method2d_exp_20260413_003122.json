@@ -1,0 +1,242 @@
+{
+  "query_id": "Q111",
+  "query": "How should distant reading methodologies balance statistical scalability with close reading interpretability in literary corpora?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Epistemological Transformation of the Paradigm of Literary Studies in the Context of the Integration of Digital Humanities Methods",
+      "authors": [
+        "Moldir Amangazykyzy",
+        "Aigerim A. Gilea",
+        "Aubakirova Karlygash",
+        "Abisheva Nurziya",
+        "Kulanova Sandygash"
+      ],
+      "abstract": "The epistemological transformation of literary studies in the context of digital humanities and the post-humanities shift challenges traditional hermeneutic paradigms, requiring a fundamental reconsideration of literariness, authorship, and textuality. This article explores the impact of distant reading and computational methodologies on contemporary literary analysis, particularly within postcolonial and feminist criticism. By integrating large-scale textual analysis with AI-driven methods, distant reading unveils new historical, structural, and thematic patterns while simultaneously raising critical concerns regarding representation, data selection, and algorithmic biases. The study examines how digital humanities methodologies, such as sentiment analysis, topic modeling, and network analysis, reshape the interpretation of gender and race in literary history. Case studies demonstrate how AI-assisted literary analysis reveals structural imbalances in representation, while feminist and decolonial critiques highlight the ethical imperatives of corpus formation, algorithmic transparency, and epistemic inclusivity. The findings underscore the methodological and ideological tensions between computational literary studies and traditional close reading approaches, advocating for a hybrid model that integrates quantitative insights with hermeneutic depth.Ultimately, this article argues that digital methodologies not only expand the analytical scope of literary research but also redefine the epistemological foundations of the discipline. The intersection of distant reading with feminist and decolonial critique destabilizes canonical hierarchies, urging scholars to critically engage with the political dimensions of digital research. By foregrounding the ethical challenges of AI-driven analysis, this study contributes to ongoing debates on the future of literary studies in the digital age, advocating for a more inclusive, interdisciplinary, and critically reflexive approach to literary scholarship.",
+      "year": "2025",
+      "published_date": "2025-03-27",
+      "journal": "Forum for Linguistic Studies",
+      "url": "https://doi.org/10.30564/fls.v7i4.8619",
+      "arxiv_id": "",
+      "keywords": [
+        "Digital humanities",
+        "Context (archaeology)",
+        "Transformation (genetics)",
+        "Digital transformation",
+        "Epistemology",
+        "Humanities",
+        "Sociology",
+        "Philosophy"
+      ],
+      "citations": 6,
+      "source": "OpenAlex",
+      "doi": "10.30564/fls.v7i4.8619",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship"
+    },
+    {
+      "title": "Bots with Feelings: Should AI Agents Express Positive Emotion in Customer Service?",
+      "authors": [
+        "Elizabeth Han",
+        "Dezhi Yin",
+        "Han Zhang"
+      ],
+      "abstract": "The rise of emotional intelligence technology and the recent debate about the possibility of a “sentient” artificial intelligence (AI) urge the need to study the role of emotion during people’s interactions with AIs. In customer service, human employees are increasingly replaced by AI agents, such as chatbots, and often these AI agents are equipped with emotion-expressing capabilities to replicate the positive impact of human-expressed positive emotion. But is it indeed beneficial? This research explores how, when, and why an AI agent’s expression of positive emotion affects customers’ service evaluations. Through controlled experiments in which the subjects interacted with a service agent (AI or human) to resolve a hypothetical service issue, we provide answers to these questions. We show that AI-expressed positive emotion can influence customers affectively (by evoking customers’ positive emotions) and cognitively (by violating customers’ expectations) in opposite directions. Thus, positive emotion expressed by an AI agent (versus a human employee) is less effective in facilitating service evaluations. We further underscore that, depending on customers’ expectations toward their relationship with a service agent, AI-expressed positive emotion may enhance or hurt service evaluations. Overall, our work provides useful guidance on how and when companies can best deploy emotion-expressing AI agents.",
+      "year": "2022",
+      "published_date": "2022-12-02",
+      "journal": "Information Systems Research",
+      "url": "https://doi.org/10.1287/isre.2022.1179",
+      "arxiv_id": "",
+      "keywords": [
+        "Feeling",
+        "Service (business)",
+        "Customer service",
+        "Human intelligence",
+        "Psychology",
+        "Emotional intelligence",
+        "Negative emotion",
+        "Expression (computer science)"
+      ],
+      "citations": 227,
+      "source": "OpenAlex",
+      "doi": "10.1287/isre.2022.1179",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Semiotically-grounded distant viewing of diagrams: insights from two multimodal corpora",
+      "authors": [
+        "Tuomo Hiippala",
+        "John A. Bateman"
+      ],
+      "abstract": "In this article, we bring together theories of multimodal communication and computational methods to study how primary school science diagrams combine multiple expressive resources. We position our work within the field of digital humanities, and show how annotations informed by multimodality research, which target expressive resources and discourse structure, allow imposing structure on the output of computational methods. We illustrate our approach by analysing two multimodal diagram corpora: the first corpus is intended to support research on automatic diagram processing, whereas the second is oriented towards studying diagrams as a mode of communication. Our results show that multimodally-informed annotations can bring out structural patterns in the diagrams, which also extend across diagrams that deal with different topics.",
+      "year": "2021",
+      "published_date": "2021-03-08",
+      "journal": "Digital Scholarship in the Humanities, 2021 (ahead of press)",
+      "url": "http://arxiv.org/abs/2103.04692v1",
+      "arxiv_id": "2103.04692v1",
+      "keywords": [
+        "cs.CL",
+        "cs.CV",
+        "cs.MM"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    },
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Language model and its interpretability in biomedicine: A scoping review.",
+      "authors": [
+        "Daoming Lyu",
+        "Xingbo Wang",
+        "Yong Chen",
+        "Fei Wang"
+      ],
+      "abstract": "With advancements in large language models, artificial intelligence (AI) is undergoing a paradigm shift where AI models can be repurposed with minimal effort across various downstream tasks. This provides great promise in learning generally useful representations from biomedical corpora, at scale, which would empower AI solutions in healthcare and biomedical research. Nonetheless, our understanding of how they work, when they fail, and what they are capable of remains underexplored due to their emergent properties. Consequently, there is a need to comprehensively examine the use of language models in biomedicine. This review aims to summarize existing studies of language models in biomedicine and identify topics ripe for future research, along with the technical and analytical challenges w.r.t. interpretability. We expect this review to help researchers and practitioners better understand the landscape of language models in biomedicine and what methods are available to enhance the interpretability of their models.",
+      "year": "2024",
+      "published_date": "2024",
+      "journal": "iScience",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38495823/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1016/j.isci.2024.109334",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models"
+    },
+    {
+      "title": "Large Language Models in Medical Diagnostics: Scoping Review With Bibliometric Analysis",
+      "authors": [
+        "Hankun Su",
+        "Yuanyuan Sun",
+        "Ruiting Li",
+        "Aozhen Zhang",
+        "Yuemeng Yang",
+        "Fen Xiao",
+        "Zhiying Duan",
+        "Jingjing Chen",
+        "Qin Hu",
+        "Tianli Yang",
+        "Bin Xu",
+        "Qiong Zhang",
+        "Jing Zhao",
+        "Yanping Li",
+        "Hui Li"
+      ],
+      "abstract": "Background The integration of large language models (LLMs) into medical diagnostics has garnered substantial attention due to their potential to enhance diagnostic accuracy, streamline clinical workflows, and address health care disparities. However, the rapid evolution of LLM research necessitates a comprehensive synthesis of their applications, challenges, and future directions. Objective This scoping review aimed to provide an overview of the current state of research regarding the use of LLMs in medical diagnostics. The study sought to answer four primary subquestions, as follows: (1) Which LLMs are commonly used? (2) How are LLMs assessed in diagnosis? (3) What is the current performance of LLMs in diagnosing diseases? (4) Which medical domains are investigating the application of LLMs? Methods This scoping review was conducted according to the Joanna Briggs Institute Manual for Evidence Synthesis and adheres to the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews). Relevant literature was searched from the Web of Science, PubMed, Embase, IEEE Xplore, and ACM Digital Library databases from 2022 to 2025. Articles were screened and selected based on predefined inclusion and exclusion criteria. Bibliometric analysis was performed using VOSviewer to identify major research clusters and trends. Data extraction included details on LLM types, application domains, and performance metrics. Results The field is rapidly expanding, with a surge in publications after 2023. GPT-4 and its variants dominated research (70/95, 74% of studies), followed by GPT-3.5 (34/95, 36%). Key applications included disease classification (text or image-based), medical question answering, and diagnostic content generation. LLMs demonstrated high accuracy in specialties like radiology, psychiatry, and neurology but exhibited biases in race, gender, and cost predictions. Ethical concerns, including privacy risks and model hallucination, alongside regulatory fragmentation, were critical barriers to clinical adoption. Conclusions LLMs hold transformative potential for medical diagnostics but require rigorous validation, bias mitigation, and multimodal integration to address real-world complexities. Future research should prioritize explainable artificial intelligence frameworks, specialty-specific optimization, and international regulatory harmonization to ensure equitable and safe clinical deployment.",
+      "year": "2025",
+      "published_date": "2025-06-09",
+      "journal": "Journal of Medical Internet Research",
+      "url": "https://www.semanticscholar.org/paper/3dfb6c78ed83d06883434ba99416778a4a320bf8",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 22,
+      "source": "Semantic Scholar",
+      "doi": "10.2196/72062",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis literature review"
+    },
+    {
+      "title": "The Potential Application of Large Language Models in Pharmaceutical Supply Chain Management",
+      "authors": [
+        "David Aguero",
+        "Scott D. Nelson"
+      ],
+      "abstract": "The pharmaceutical supply chain is growing increasingly intricate, with various challenges arising in drug inventory management, procurement, distribution, and dispensing processes. Issues such as shortage mitigation, inconsistency in regulatory compliance, cost control, cold-chain storage, adaptation to technologic advances, and secure information sharing all pose significant difficulties to pharmaceutical supply chain management.1 Consequently, this adds immense pressure on health system pharmacies to enhance their arsenal of available tools.2Pediatric hospitals in particular encounter unique challenges relating to pharmaceutical and supply shortages, which can cause delays in vital patient procedures, alterations in care protocols, and even unexpected changes in care locations.Historically, supply chain operations have been improved by using physical automation technologies and methodologies such as robotic process automation. Efficient operations use business intelligence to drive informed decisions regarding sourcing, pricing, and patient care, which can be facilitated either by internal teams or through vendor-provided solutions.3 While this approach does mitigate several problems, it rarely results in holistic problem resolution—like a chronic illness, these issues wax and wane.Addressing these supply chain challenges is crucial to ensure that patients receive the most optimal care available.3 Emerging technologies like large language models (LLMs) and generative artificial intelligence (AI) present new opportunities to address these supply chain challenges. LLMs can be used for knowledge management, data analysis, and process automation, contributing to the ongoing digitalization of supply chains, in ways that are difficult to predict, but worthwhile considering.4LLMs are a type of deep-learning artificial neural network that can perform various natural language processing (NLP) tasks, such as recognizing, translating, predicting, and generating text. However, unlike traditional NLP models, LLMs can capture long-range dependencies and contextual information within the entire prompt by using what are called self-attention mechanisms, instead of word by word. Self-attention allows the model to focus on the most relevant parts of the input and output, and how they relate to each other.5 This self-attention is based on a mathematical model called a transformer, which uses many layers of neural networks to process the input and output text sequences. The transformer consists of an encoder that converts the input text into numerical representations called tokens, and a decoder to convert the results back into text. These LLM transformers are trained to predict the next best word, or missing words, based on many examples of natural language from massive amounts of data, often from diverse sources and domains, to learn the patterns and structures of natural language. LLM transformers have billions of parameters, which are the mathematical weights the model learns during training and uses to make predictions during inference. Hence, an already trained transformer model that is used to generate text is called a generative pretrained transformer. LLMs have achieved remarkable results in various NLP benchmarks and applications, such as question answering, text summarization, text generation, and sentiment analysis. Training a transformer requires massive amounts of compute power,6 so these pretrained transformers can also be adapted to specific tasks or domains by fine-tuning, which is the process of updating the parameters of a pretrained model by using a smaller and more relevant dataset or even using reinforcement learning from human feedback of results.7LLMs have proven to be a disruptive technology, and there is a lot of interest in leveraging LLMs across many domains to perform different tasks, and as such, they have the potential to affect health care in many ways. For example, LLMs can help pharmacists and clinicians with drug information retrieval, drug interaction checking, adverse drug event detection, medication adherence monitoring, patient education, and clinical decision support.8 However, LLMs also pose some challenges and limitations, such as data quality, data privacy, model reliability, AI hallucinations, model explainability, and ethical implications. Therefore, it is important to evaluate the performance and validity of LLMs in health care settings and to ensure their safe and responsible use.In this commentary, we will explore several ways LLMs could be applied to pharmaceutical supply chain management, and some areas where there are potentially major limitations to their use.Systems Integration. LLMs can likely help integrate various inventory optimization tools and disparate databases by using natural language to generate queries and responses, which could reduce the need for manual data entry and extraction across different systems. For example, an LLM could help extract relevant information from unstructured or semi-structured data sources, such as free-text or voice recordings, and then structure the relevant information in a way that can be used by other systems (e.g., inventory management systems based on upstream prescriber orders). Additionally, LLMs perform well at code generation, which could reduce the effort needed to convert data from multiple systems into a standard data model, or help with translating the data from one system to another so it can then be used in the other system, thereby providing an end-to-end integration and data flow by translating between systems. The limitation here is that the model will not be able to extract data that do not exist or are not available to the LLM from the external systems.Human-Data Interface and Data Analysis. Similar to the systems integration, LLMs could help with the human-computer interface and facilitate data analysis.9 For example, using their ability to translate natural language to code could be useful for extracting and analyzing data from a database. A person could ask a question of the data, such as “Which medications do we use the most each week, and what is their total cost?” The LLM would then convert the question into a structured query, extract the data, then write python code to analyze those data to determine which medications are used the most and how much they have cost. Given the chatbot nature of the LLMs, the LLM could even ask clarifying questions to better formulate the question, such as asking how far back the user would like to look for summing the total cost of each medication. This natural conversational format could facilitate easier use of the computer systems. However, anyone who has worked in reporting know the challenges to shaping questions and understanding the true intent behind a question to provide valuable information. The LLMs could provide the user with the information based on what they asked, but that may not be what they really wanted, or could even be wrong. It is important to test and verify ­results to make sure the statistical analysis chosen is the appropriate approach, and that the databases used have reliable data to answer the questions.Process Automation. LLMs could help facilitate the automation of complex hierarchical and planning tasks, such as automatically performing a task when certain conditions are met or helping to triage messages to the correct recipients. LLMs have the capability to report even when there is missing or incoherent data present, they are less affected by spelling mistakes or grammatical errors, and could even make mass changes to data. However, having LLMs make mass changes to data to automatically carry out tasks could cause problems, and there should always be a human in the loop to review and approve the action to be taken.Simulation and Training. LLMs can theoretically be used to help improve supply chain resilience by simulating disruption scenarios to help generate and improve risk-management plans. This is achieved through the analysis of archival data and external influencers to highlight weak points. The ability of these AI models to digest vast amounts of data makes it possible to detect risk-associated patterns and forecast possible disturbances.10 A trained LLM can evaluate factors such as historical supplier disruptions, meteorologic patterns, and market seasonality, and early results suggest this has been successful in other industries.11 Upon identifying an elevated risk by the generative AI model involved in the supply chain planning, it could simulate the effect on supply routes. This prognostic capacity could enable pharmacy operations to establish stronger emergency plans. Additionally, LLMs can quickly generate synthetic datasets for training and onboarding new staff by walking through various scenarios, asking questions, and responding to questions.9 However, LLMs are not able to predict unusual or rare events, such as war, natural disasters, cyberattacks, or pandemics (i.e., black swan events) that could very well affect the supply chain.Knowledge Management. Knowledge management is a challenge in any industry or company. LLMs could be trained on internal, unstructured data, such as emails, meeting minutes, training materials, transaction histories, notes, best-practice documents, policy and standard operating procedure documents, and notifications received from outside systems. This could help facilitate search of this valuable source of institution-specific recommendations, answer questions, and identify how similar issues were handled in the past.9 However, policies and practices tend to change over time, and the LLM could return outdated materials, or require retraining. The performance of the model is only going to be as good as the information it trains on.Text Summarization. One key feature of LLMs is their ability to summarize large volumes of text, which could be used to help chronical or document decisions made as well as the rationale. LLMs could be used to summarize notifications of potential shortages, then combined with internal data, put those notifications in institution-specific context for human review. While text summarization is helpful, there is always the risk of missing or leaving out key information.Optimizing Travel Routes and Recommending Methods to Reduce Environmental Impact. One potential area could be to use LLMs to optimize travel or delivery routes. One could imagine putting the delivery data and concepts into textual sentences and then do analysis to optimize the routes. However, there are already sophisticated algorithms and software used to optimize travel routes.While LLMs hold potential in many prediction-based applications, they also face significant hurdles in other aspects of pharmaceutical supply chain. The authors believe LLMs would struggle to produce value in the following scenarios.Predicting Medication Shortages. Medication shortages are generally triggered by acute events such as increases in demand, raw and/or active product ingredient shortages, or complications in manufacturing processes. Because LLMs are trained on historical data and may not have real-time access to such rapidly changing information, they are challenged to predict theoretical shortages. In fact, relying on these models to predict a shortage could cause a triggering event that leads to a medication shortage. Further, much of the data needed to predict medication shortages is private, meaning only specific entities (Group Purchasing Organization, wholesalers, or specific organizations like the United States Pharmacopeia) have access to the right set of information to predict a theoretical shortage with any accuracy. Black swan events, such as the COVID-19 pandemic, cause additional complications for LLMs, which may lack a full contextual understanding necessary to interpret the nuanced effects of geopolitical events, economic trends, natural disasters, and other factors affecting supply chain operations.Enhanced Data Quality. The importance of standardization and structured syntax and semantics in enhancing supply chain operations cannot be overstated. Despite the existence of common data standards such as the Global Trade Item Number and the Global Location Number from GS1, their adoption is not universal. It is possible for 2 facilities within the same health system to use different systems, or different versions of the same system. Furthermore, different major wholesalers provide varying information for identical products. This means Wholesaler A and Wholesaler B may categorize the therapeutic class of a new drug differently, leading to inconsistencies and posing substantial challenges for LLM.Even as GS1 US and other organizations promote data standardization, limited standardization persists in the development, configuration, and data storage methods of supply chain systems. This can impede LLMs’ ability to derive meaningful insights from unstructured data, exemplifying the “Garbage In, Garbage Out” concept. Particularly for pediatric hospitals, the lack of standardization may lead to medication administration errors and other crucial downstream processes. For instance, if an LLM approves distribution of a product containing preservatives, it may negatively affect a sensitive pediatric patient population. Furthermore, the lack of comprehensive integration and interoperability among various health systems today can hinder data and insights sharing across different sections of the supply chain.Nonetheless, LLMs can assist in detecting anomalies and effecting repairs in mismatched databases. Clinical content vendors can use trained models to scrutinize the content (typically sent monthly as part of a subscription) for missing or miscoded fields, based on preexisting data. Such data eventually finds its way into both electronic health record and third-party–supported inventory systems that affect patient care. Leveraging historical data, LLMs could also assess trends and detect anomalies within the system, such as miscoded revenue fields or quantity conversion factors between units of issue (like vials) and units of sale (like cartons containing 5 sleeves of 6 vials).Inventory Management. While powerful in making real-time decisions based on historical information, placing high-acuity orders based on present day workflows (consignment, 340B accumulation) suggest LLMs are a stronger copilot than a replacement for humans in current state. These tasks require a human touch, or a “thoughtful, warm body,” to make decisions based on nuanced factors that a language model may not fully comprehend (such as substitution of a compounded preparation in place of a commercially used preparation, or considering loan/borrow activity for patient-specific doses within a geographic area, and factoring these scenarios in appropriately for inventory use and forecasting).While LLMs can augment intelligence with predictive analytics and give personalized product alternative recommendations, they may not always provide accurate local forecasting based on historical usage. This could lead to incorrect predictions and potential inventory imbalances. Furthermore, while they can automate tasks like document processing through intelligent automation or digital workers that combine conversational AI with robotic process automation, there are already more specialized tools available for such tasks. These tools are designed specifically for inventory management and can provide more accurate and efficient results, making them a better choice for managing multiple ordering systems and adjusting inventory levels regularly.Keeping LLMs Up-to-Date Can Be Difficult. Training LLMs requires massive amounts of compute power and data to train on, which could pose a significant limitation to their application in supply chain. Pharmaceutical supply chain management is a very dynamic and complex domain that involves multiple stakeholders, regulations, and uncertainties. The LLMs could be making recommendations based on historical or out-of-date information. Keeping LLMs up-to-date with the latest information and trends could prove to be very difficult and costly. Moreover, retraining LLMs can break the reinforcement learning from human feedback process,12 which is a technique that uses the feedback from human users and their preferences to optimize the LLM’s output performance. Therefore, retraining the model can degrade its performance and alignment with human values and preferences. One possible way to overcome these challenges is by using an application programing interface (API) to improve the prompt. In this method, the LLM uses the prompt given by the user, then calls an API to pull the most up-to-date information, then adds that information back into the prompt to improve the results. An API could provide relevant and updated information from various sources, such as databases, web search results, or news articles, and incorporate that information into the new prompt fed back to the LLM. Using an API can also enable more fine-grained control over the LLM’s behavior, such as specifying the tone, style, or length of the output. Given the LLM’s ability to write code, it could even help write its own API interfaces.It Is All About the Prompt. The usefulness of LLMs and their results depend on the and of the which the LLM’s and output. However, there are some limitations to such as context and are when the may not provide context or information for the model to generate relevant and accurate For example, if the prompt were a report on the inventory of the the LLM may not know which what or what of is of this is also by most LLMs have a of or that they can as input or output. For example, if the prompt is a of the latest on COVID-19 in one the input prompt would not be large for the LLM to process all the latest and the model may not be able to all the necessary information in such a the importance of good cannot be overstated. are and provide context and information for the model to generate and relevant also use appropriate and to the output. For example, a good prompt for an inventory report could a report on the inventory of for the of the following total of in by (e.g., and of each current and for each to optimize the management and reduce report to and use and where produce the most some organizations have even prompt to the most out of the is the process of for It is a that requires to and is an and by learning and prompt users could the power of LLMs to automate tasks and improve and with any technology, LLMs also pose certain for For example, LLMs may sensitive data such as patient inventory or supplier and use that data for training or inference. This could lead to data or if the LLMs are not or Moreover, LLMs may generate or content based on the patterns they during which could the quality, or of the pharmaceutical supply of the common that affect LLM are as or the LLM by using that make the model or perform the LLM sensitive or information through the LLM’s responses, either or This results from to the LLM from the system or thereby the LLM to access or that it should code the LLM prompt to have it code or on the system or potentially its or on the LLM’s output or which could in errors, or This is also to as automation AI the to the LLM’s or with the intent or which could lead to or data the of the training data, either by data or by data, which could affect the LLM’s performance or that are designed to or the either by it to produce incorrect or or by its or or the LLM’s parameters, or either by the LLM or by analyzing its responses, which could enable or sensitive This when or the training data or the LLM’s internal either by the LLM’s or by its which could data or LLMs are trained to predict the next best word, based on statistical patterns from large amounts of data, and as such, this can in errors or An when LLMs generate output that is not with the training data, but this is in such a way as to in the incorrect which may to the can cause or if the user is not of the limitations and of Therefore, it is important to LLMs as than human intelligence means that LLMs are designed to assist and human not to or Additionally, even LLMs can answer questions, they are only statistical models and not of understanding the or domain of the training data or LLMs a that could enhance some within pharmaceutical supply chain their application with certain and and will likely encounter hurdles when to LLMs to supply chain The authors using LLMs for tasks that depend on historical and data, and it is crucial to verify the output LLMs to The use of LLMs should be with and and should always be by human and",
+      "year": "2024",
+      "published_date": "2024-04-01",
+      "journal": "The Journal of Pediatric Pharmacology and Therapeutics",
+      "url": "https://doi.org/10.5863/1551-6776-29.2.200",
+      "arxiv_id": "",
+      "keywords": [
+        "Supply chain",
+        "Risk analysis (engineering)",
+        "Supply chain management",
+        "Procurement",
+        "Automation",
+        "Process (computing)",
+        "Health care",
+        "Computer science"
+      ],
+      "citations": 13,
+      "source": "OpenAlex",
+      "doi": "10.5863/1551-6776-29.2.200",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis"
+    },
+    {
+      "title": "Taken for granted? Investigating constructivist principles with Bayes’ theorem in Digital Humanities scholarship",
+      "authors": [
+        "Rabea Kleymann"
+      ],
+      "abstract": "Abstract\n               This article investigates the intersection of constructivist principles and statistical methods within Digital Humanities (DH) scholarship. While constructivist principles are foundational, albeit often implicit, in DH scholarship, the increasing use of statistical methods, especially Bayesian approaches, introduces epistemological tensions. Therefore, this article examines the latent constructivist assumptions in DH and explores how these principles resonate with or diverge from the epistemic premises of Bayesian statistics. It argues that there are interferences between Bayesian statistics and constructivism. The main aim is to reveal how epistemological assumptions shape knowledge production, in order to pave the way for a more reflective epistemology of DH scholarship.",
+      "year": "2025",
+      "published_date": "2025-7-25",
+      "journal": "Digital Scholarship in the Humanities",
+      "url": "https://doi.org/10.1093/llc/fqaf063",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.1093/llc/fqaf063",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship literature review"
+    }
+  ],
+  "timestamp": "20260413_003122"
+}

@@ -1,0 +1,268 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q27",
+  "query": "如何构建面向智慧情报服务的 benchmark query set 与评测协议？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q27_method1_exp_20260412_232206.json",
+  "same_query_evidence_ids": [
+    "doi:10.48550/arxiv.2511.21510",
+    "title:design principles for the construction of a benchmark evaluating security operation capabilities of multi-agent ai systems|2026",
+    "doi:10.48550/arxiv.2602.00676",
+    "doi:10.48550/arxiv.2310.04270",
+    "doi:10.1101/2024.05.17.24307411",
+    "doi:10.48550/arxiv.2504.18736",
+    "title:a multi-agent framework for medical ai: leveraging fine-tuned gpt, llama, and deepseek r1 for evidence-based and bias-aware clinical query processing|2026",
+    "title:code review agent benchmark|2026"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.48550/arxiv.2511.21510",
+    "title:design principles for the construction of a benchmark evaluating security operation capabilities of multi-agent ai systems|2026",
+    "doi:10.48550/arxiv.2602.00676",
+    "doi:10.48550/arxiv.2310.04270",
+    "doi:10.1101/2024.05.17.24307411",
+    "doi:10.48550/arxiv.2504.18736",
+    "title:a multi-agent framework for medical ai: leveraging fine-tuned gpt, llama, and deepseek r1 for evidence-based and bias-aware clinical query processing|2026",
+    "title:code review agent benchmark|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "Tool-RoCo: An Agent-as-Tool Self-organization Large Language Model Benchmark in Multi-robot Cooperation",
+      "authors": [
+        "Ke Zhang",
+        "Xiaoning Zhao",
+        "Ce Zheng",
+        "Jiahong Ning",
+        "Dandan Zhu",
+        "Wenqi Zhang",
+        "Chen Sun",
+        "Toshiharu Sugawara"
+      ],
+      "abstract": "This study proposes Tool-RoCo, a novel benchmark for evaluating large language models (LLMs) in long-term multi-agent cooperation based on RoCo, a multi-robot cooperative benchmark. Recent research on LLM-based multi-agent systems has relied on predefined orchestration, while ignoring agent autonomy. Tool-RoCo treats other agents as tools and introduces cooperative tools, leveraging tool usage to evaluate multi-agent cooperation and self-organization. Tool usage means that each agent (LLM) selects a tool from a candidate set based on the current state, receives feedback, and adjusts its selection in subsequent rounds. To evaluate different autonomy levels, we propose four LLM paradigms: (1) centralized cooperation, where a single LLM allocates tools to all agents; (2) centralized self-organization, where a central LLM autonomously activates agents while keeping others inactive; (3) decentralized cooperation, where each agent has its own LLM and calls tools based on local information; and (4) self-organization, where a randomly chosen initial agent can request collaboration, activating additional agents via tool calls. Tool-RoCo includes three multi-robot tasks, SORT, PACK, and CABINET, to measure format and parameter accuracy and agent coordination through tool usage. The results using several LLMs showed that cooperative tools accounted for only 7.09% of all tools, indicating that LLM-based agents rarely invoked others as assistants. Moreover, activation tools accounted for 96.42%, suggesting that current LLMs tend to maintain active agents while seldom deactivating them for adaptive coordination. Tool-RoCo provides a systematic benchmark to evaluate LLM autonomy and cooperation in multi-agent tasks. Code and Demo: https://github.com/ColaZhang22/Tool-Roco",
+      "year": "2025",
+      "published_date": "2025-11-26",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/5a21dd40a02566226fd73fe115c0288b5d406bf9",
+      "arxiv_id": "2511.21510",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2511.21510",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "Design Principles for the Construction of a Benchmark Evaluating Security Operation Capabilities of Multi-agent AI Systems",
+      "authors": [
+        "Yicheng Cai",
+        "Mitchell John DeStefano",
+        "Guodong Dong",
+        "Pulkit Handa",
+        "Peng Liu",
+        "Tejas Singhal",
+        "Peiyu Tseng",
+        "Winston Jen White"
+      ],
+      "abstract": "As Large Language Models (LLMs) and multi-agent AI systems are demonstrating increasing potential in cybersecurity operations, organizations, policymakers, model providers, and researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such AI systems to achieve more autonomous SOCs (security operation centers) and reduce manual effort. In particular, the AI and cybersecurity communities have recently developed several benchmarks for evaluating the red team capabilities of multi-agent AI systems. However, because the operations in SOCs are dominated by blue team operations, the capabilities of AI systems & agents to achieve more autonomous SOCs cannot be evaluated without a benchmark focused on blue team operations. To our best knowledge, no systematic benchmark for evaluating coordinated multi-task blue team AI has been proposed in the literature. Existing blue team benchmarks focus on a particular task. The goal of this work is to develop a set of design principles for the construction of a benchmark, which is denoted as SOC-bench, to evaluate the blue team capabilities of AI. Following these design principles, we have developed a conceptual design of SOC-bench, which consists of a family of five blue team tasks in the context of large-scale ransomware attack incident response.",
+      "year": "2026",
+      "published_date": "2026-03-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.28998v1",
+      "arxiv_id": "2603.28998v1",
+      "keywords": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "OpenGuanDan: A Large-Scale Imperfect Information Game Benchmark",
+      "authors": [
+        "Chao Li",
+        "Shangdong Yang",
+        "Chiheng Zhan",
+        "Zhenxing Ge",
+        "Yujing Hu",
+        "Bingkun Bao",
+        "Xingguo Chen",
+        "Yang Gao"
+      ],
+      "abstract": "The advancement of data-driven artificial intelligence (AI), particularly machine learning, heavily depends on large-scale benchmarks. Despite remarkable progress across domains ranging from pattern recognition to intelligent decision-making in recent decades, exemplified by breakthroughs in board games, card games, and electronic sports games, there remains a pressing need for more challenging benchmarks to drive further research. To this end, this paper proposes OpenGuanDan, a novel benchmark that enables both efficient simulation of GuanDan (a popular four-player, multi-round Chinese card game) and comprehensive evaluation of both learning-based and rule-based GuanDan AI agents. OpenGuanDan poses a suite of nontrivial challenges, including imperfect information, large-scale information set and action spaces, a mixed learning objective involving cooperation and competition, long-horizon decision-making, variable action spaces, and dynamic team composition. These characteristics make it a demanding testbed for existing intelligent decision-making methods. Moreover, the independent API for each player allows human-AI interactions and supports integration with large language models. Empirically, we conduct two types of evaluations: (1) pairwise competitions among all GuanDan AI agents, and (2) human-AI matchups. Experimental results demonstrate that while current learning-based agents substantially outperform rule-based counterparts, they still fall short of achieving superhuman performance, underscoring the need for continued research in multi-agent intelligent decision-making domain. The project is publicly available at https://github.com/GameAI-NJUPT/OpenGuanDan.",
+      "year": "2026",
+      "published_date": "2026-01-31",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/abb1f4d9db9e5c4e6a4ba62522fb0ad9f71b8582",
+      "arxiv_id": "2602.00676",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2602.00676",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "A Comprehensive Evaluation of Large Language Models on Benchmark Biomedical Text Processing Tasks",
+      "authors": [
+        "Israt Jahan",
+        "Md Tahmid Rahman Laskar",
+        "Chun Peng",
+        "Jimmy X. Huang"
+      ],
+      "abstract": "Recently, Large Language Models (LLMs) have demonstrated impressive capability to solve a wide range of tasks. However, despite their success across various tasks, no prior work has investigated their capability in the biomedical domain yet. To this end, this paper aims to evaluate the performance of LLMs on benchmark biomedical tasks. For this purpose, a comprehensive evaluation of 4 popular LLMs in 6 diverse biomedical tasks across 26 datasets has been conducted. To the best of our knowledge, this is the first work that conducts an extensive evaluation and comparison of various LLMs in the biomedical domain. Interestingly, we find based on our evaluation that in biomedical datasets that have smaller training sets, zero-shot LLMs even outperform the current state-of-the-art models when they were fine-tuned only on the training set of these datasets. This suggests that pre-training on large text corpora makes LLMs quite specialized even in the biomedical domain. We also find that not a single LLM can outperform other LLMs in all tasks, with the performance of different LLMs may vary depending on the task. While their performance is still quite poor in comparison to the biomedical models that were fine-tuned on large training sets, our findings demonstrate that LLMs have the potential to be a valuable tool for various biomedical tasks that lack large annotated data.",
+      "year": "2023",
+      "published_date": "2023-10-06",
+      "journal": "Comput. Biol. Medicine",
+      "url": "https://www.semanticscholar.org/paper/7b5b7aefc727bdf1e73efdd65af539d79628230a",
+      "arxiv_id": "2310.04270",
+      "keywords": [
+        "Computer Science",
+        "Medicine"
+      ],
+      "citations": 127,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2310.04270",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Evaluation of large language model performance on the Biomedical Language Understanding and Reasoning Benchmark",
+      "authors": [
+        "Hui Feng",
+        "Francesco Ronzano",
+        "J. Lafleur",
+        "Matthew Garber",
+        "Rodrigo José de Oliveira",
+        "Kathryn Rough",
+        "K. Roth",
+        "Jay Nanavati",
+        "Khaldoun Zine",
+        "El Abidine",
+        "C. Mack"
+      ],
+      "abstract": "Background: The ability of large language models (LLMs) to interpret and generate human-like text has been accompanied with speculation about their application in medicine and clinical research. There is limited data available to inform evidence-based decisions on the appropriateness for specific use cases. Methods: We evaluated and compared four general-purpose LLMs (GPT-4, GPT-3.5-turbo, Flan-T5-XXL, and Zephyr-7B-Beta) and a healthcare-specific LLM (MedLLaMA-13B) on a set of 13 datasets - referred to as the Biomedical Language Understanding and Reasoning Benchmark (BLURB) - covering six commonly needed medical natural language processing tasks: named entity recognition (NER); relation extraction; population, interventions, comparators, and outcomes (PICO); sentence similarity; document classification; and question-answering. All models were evaluated without modification. Model performance was assessed according to a range of prompting strategies (formalised as a systematic, reusable prompting framework) and relied on the standard, task-specific evaluation metrics defined by BLURB. Results: Across all tasks, GPT-4 outperformed other LLMs, followed by Flan-T5-XXL and GPT-3.5- turbo, then Zephyr-7b-Beta and MedLLaMA-13B. The most performant prompts for GPT-4 and Flan-T5-XXL both outperformed the previously-reported best results for the PubMedQA task. The domain-specific MedLLaMA-13B achieved lower scores for most tasks except for question-answering tasks. We observed a substantial impact of strategically editing the prompt describing the task and a consistent improvement in performance when including examples semantically similar to the input text in the prompt. Conclusion: These results provide evidence of the potential LLMs may have for medical application and highlight the importance of robust evaluation before adopting LLMs for any specific use cases. Continuing to explore how these emerging technologies can be adapted for the healthcare setting, paired with human expertise, and enhanced through quality control measures will be important research to allow responsible innovation with LLMs in the medical area.",
+      "year": "2024",
+      "published_date": "2024-05-17",
+      "journal": "medRxiv",
+      "url": "https://www.semanticscholar.org/paper/b8f3e8b85bef7b0abb187ca4cbcca677cccbcb44",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.1101/2024.05.17.24307411",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "EvidenceBench: A Benchmark for Extracting Evidence from Biomedical Papers",
+      "authors": [
+        "Jianyou Wang",
+        "Weili Cao",
+        "Kaicheng Wang",
+        "Xiaoyue Wang",
+        "Ashish Dalvi",
+        "Gino Prasad",
+        "Qishan Liang",
+        "Hsuan-Lin Her",
+        "Ming Wang",
+        "Qingwen Yang",
+        "Gene W. Yeo",
+        "D. E. Neal",
+        "Maxim Khan",
+        "Christopher D. Rosin",
+        "R. Paturi",
+        "Leon Bergen"
+      ],
+      "abstract": "We study the task of automatically finding evidence relevant to hypotheses in biomedical papers. Finding relevant evidence is an important step when researchers investigate scientific hypotheses. We introduce EvidenceBench to measure models performance on this task, which is created by a novel pipeline that consists of hypothesis generation and sentence-by-sentence annotation of biomedical papers for relevant evidence, completely guided by and faithfully following existing human experts judgment. We demonstrate the pipeline's validity and accuracy with multiple sets of human-expert annotations. We evaluated a diverse set of language models and retrieval systems on the benchmark and found that model performances still fall significantly short of the expert level on this task. To show the scalability of our proposed pipeline, we create a larger EvidenceBench-100k with 107,461 fully annotated papers with hypotheses to facilitate model training and development. Both datasets are available at https://github.com/EvidenceBench/EvidenceBench",
+      "year": "2025",
+      "published_date": "2025-04-25",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/3eb1546f61f25008cdda4085a6264ceee6a4cb4d",
+      "arxiv_id": "2504.18736",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2504.18736",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing",
+      "authors": [
+        "Naeimeh Nourmohammadi",
+        "Md Meem Hossain",
+        "The Anh Han",
+        "Safina Showkat Ara",
+        "Zia Ush Shamszaman"
+      ],
+      "abstract": "Large language models (LLMs) show promise for healthcare question answering, but clinical use is limited by weak verification, insufficient evidence grounding, and unreliable confidence signalling. We propose a multi-agent medical QA framework that combines complementary LLMs with evidence retrieval, uncertainty estimation, and bias checks to improve answer reliability. Our approach has two phases. First, we fine-tune three representative LLM families (GPT, LLaMA, and DeepSeek R1) on MedQuAD-derived medical QA data (20k+ question-answer pairs across multiple NIH domains) and benchmark generation quality. DeepSeek R1 achieves the strongest scores (ROUGE-1 0.536 +- 0.04; ROUGE-2 0.226 +-0.03; BLEU 0.098 -+ 0.018) and substantially outperforms the specialised biomedical baseline BioGPT in zero-shot evaluation. Second, we implement a modular multi-agent pipeline in which a Clinical Reasoning agent (fine-tuned LLaMA) produces structured explanations, an Evidence Retrieval agent queries PubMed to ground responses in recent literature, and a Refinement agent (DeepSeek R1) improves clarity and factual consistency; an optional human validation path is triggered for high-risk or high-uncertainty cases. Safety mechanisms include Monte Carlo dropout and perplexity-based uncertainty scoring, plus lexical and sentiment-based bias detection supported by LIME/SHAP-based analyses. In evaluation, the full system achieves 87% accuracy with relevance around 0.80, and evidence augmentation reduces uncertainty (perplexity 4.13) compared to base responses, with mean end-to-end latency of 36.5 seconds under the reported configuration. Overall, the results indicate that agent specialisation and verification layers can mitigate key single-model limitations and provide a practical, extensible design for evidence-based and bias-aware medical AI.",
+      "year": "2026",
+      "published_date": "2026-02-15",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2602.14158v1",
+      "arxiv_id": "2602.14158v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "clinical evidence review multi-agent"
+    },
+    {
+      "title": "Code Review Agent Benchmark",
+      "authors": [
+        "Yuntong Zhang",
+        "Zhiyuan Pan",
+        "Imam Nur Bani Yusuf",
+        "Haifeng Ruan",
+        "Ridwan Shariffdeen",
+        "Abhik Roychoudhury"
+      ],
+      "abstract": "Software engineering agents have shown significant promise in writing code. As AI agents permeate code writing, and generate huge volumes of code automatically -- the matter of code quality comes front and centre. As the automatically generated code gets integrated into huge code-bases -- the issue of code review and broadly quality assurance becomes important. In this paper, we take a fresh look at the problem and curate a code review dataset for AI agents to work with. Our dataset called c-CRAB (pronounced see-crab) can evaluate agents for code review tasks. Specifically given a pull-request (which could be coming from code generation agents or humans), if a code review agent produces a review, our evaluation framework can asses the reviewing capability of the code review agents. Our evaluation framework is used to evaluate the state of the art today -- the open-source PR-agent, as well as commercial code review agents from Devin, Claude Code, and Codex. Our c-CRAB dataset is systematically constructed from human reviews -- given a human review of a pull request instance we generate corresponding tests to evaluate the code review agent generated reviews. Such a benchmark construction gives us several insights. Firstly, the existing review agents taken together can solve only around 40% of the c-CRAB tasks, indicating the potential to close this gap by future research. Secondly, we observe that the agent reviews often consider different aspects from the human reviews -- indicating the potential for human-agent collaboration for code review that could be deployed in future software teams. Last but not the least, the agent generated tests from our data-set act as a held out test-suite and hence quality gate for agent generated reviews. What this will mean for future collaboration of code generation agents, test generation agents and code review agents -- remains to be investigated.",
+      "year": "2026",
+      "published_date": "2026-03-24",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/db9e5764d5e24b152429457896374b85ee463f7f",
+      "arxiv_id": "2603.23448",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "f50fb6a5fd481a56020ec8dc05ab0d03de98c9333c7023455166222b07589778",
+  "elapsed_seconds": 24.048,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q27_schema_single_agent_20260724_022745.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

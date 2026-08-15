@@ -1,0 +1,25 @@
+{
+  "protocol": "semantic_arl_v2_3",
+  "design": "matched (same V0 anchor claim traced into V1 and V2), gate-admitted only",
+  "n_anchor_claims": 60,
+  "n_items_total": 180,
+  "removed_in_V1": 5,
+  "removed_in_V2": 2,
+  "gate_admitted_queries": {
+    "V0": 27,
+    "V1": 29,
+    "V2": 30
+  },
+  "seed": 20260725,
+  "labels": [
+    "SUPPORTED",
+    "PARTIAL",
+    "CONTRADICTED",
+    "INSUFFICIENT",
+    "REMOVED (pre-filled)"
+  ],
+  "evidence_unavailable_mapping": "EVIDENCE_UNAVAILABLE is an internal system-generation status (used by the V1/V2 Reviewer prompts to decide HEDGE_UNAVAILABLE vs REMOVE at generation time), not a human coding label. When a coder's evidence_snippets cell is empty or shows no usable abstract text, the coder must select INSUFFICIENT. There is no separate EVIDENCE_UNAVAILABLE option in the coder-facing packet.",
+  "removed_row_prefill_note": "The 7 REMOVED rows (V1: 5, V2: 2, all tracing to anchor query Q49) have their verdict cell pre-filled with 'REMOVED' by this script, not left blank. Coders must not edit these cells; they are excluded from CSP/CSC scoring and counted separately as the false-removal-rate denominator.",
+  "pre_registered_significance_test": "Paired Wilcoxon on CSP (V2 vs V0, V2 vs V1), Benjamini-Hochberg corrected, q<0.05, set in semantic_arl_v2_3_protocol_freeze_20260725.md BEFORE this packet was built.",
+  "status": "packet generated, independent human coding not yet performed"
+}

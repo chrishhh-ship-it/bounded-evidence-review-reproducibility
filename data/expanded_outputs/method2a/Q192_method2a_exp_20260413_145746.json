@@ -1,0 +1,215 @@
+{
+  "query_id": "Q192",
+  "query": "What citation practices allow biomedical knowledge graphs to distinguish asserted facts from computationally inferred facts?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Building evidence-based knowledge graphs from full-text literature for disease-specific biomedical reasoning",
+      "authors": [
+        "Chang Zong",
+        "Sicheng Lv",
+        "Si-tu Xue",
+        "Huilin Zheng",
+        "Jian Wan",
+        "Lei Zhang"
+      ],
+      "abstract": "Biomedical knowledge resources often either preserve evidence as unstructured text or compress it into flat triples that omit study design, provenance, and quantitative support. Here we present EvidenceNet, a framework and dataset for building disease-specific knowledge graphs from full-text biomedical literature. EvidenceNet uses a large language model (LLM)-assisted pipeline to extract experimentally grounded findings as structured evidence nodes, normalize biomedical entities, score evidence quality, and connect evidence records through typed semantic relations. We release two resources: EvidenceNet-HCC with 7,872 evidence records, 10,328 graph nodes, and 49,756 edges, and EvidenceNet-CRC with 6,622 records, 8,795 nodes, and 39,361 edges. Technical validation shows high component fidelity, including 98.3% field-level extraction accuracy, 100.0% high-confidence entity-link accuracy, 87.5% fusion integrity, and 90.0% semantic relation-type accuracy. In downstream evaluation, EvidenceNet improves internal and external retrieval-augmented question answering and retains structural signal for future link prediction and target prioritization. These results establish EvidenceNet as a disease-specific resource for evidence-aware biomedical reasoning and hypothesis generation.",
+      "year": "2026",
+      "published_date": "2026-03-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.28325v2",
+      "arxiv_id": "2603.28325v2",
+      "keywords": [
+        "cs.CE",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models"
+    },
+    {
+      "title": "Improving the effectiveness of agricultural extension services in supporting farmers to adapt to climate change: Insights from northeastern Ghana",
+      "authors": [
+        "Philip Antwi‐Agyei",
+        "Lindsay C. Stringer"
+      ],
+      "abstract": "The importance of extension services in helping smallholder farmers to address the many challenges of agricultural production cannot be over-emphasized. However, relatively few studies have been conducted that investigate how the capacities of agricultural extension agents can be built to more effectively assist smallholder farmers in managing climate risks and impacts. As climate change is a key threat to smallholder food production, addressing this issue is increasingly important. This paper aims to identify how agricultural extension agents in Ghana can better support smallholder farmers in navigating and addressing the effects of climate change on food production. It asks: (i) what are the sources of information used by agricultural extension agents in Ghana’s Upper East region? (ii) what are the capacity building needs of agricultural extension agents for effective communication of climate information for building resilient agricultural systems? (iii) what are the key barriers to successful extension outcomes for climate change adaptation? The paper uses a mixed methods approach including three regional stakeholder workshops, expert interviews and surveys with 32 agricultural extension agents in northeastern Ghana. Results addressing question (i) indicated that radios and television are the dominant sources of climate information for agricultural extension agents in the Upper East region. Findings targeting question (ii) identified capacity building needs such as developing extension agents’ technical skills, improving communication skills, improving knowledge and use of climate smart agricultural interventions such as soil moisture conservation methods, and training on information communication technologies (ICT) to deliver extension advice on climate change. Other needs included developing skills in field demonstration and project monitoring and evaluation. Addressing question (iii), key barriers confronted by agricultural extension agents in the delivery of extension on climate change included lack of transportation facilities for extension agents, lack of appropriate extension materials, high agricultural extension agent to farmer ratios, and inadequate funds to implement adaptation practices. Wider barriers reducing the effectiveness of extension efforts included farmer resistance to change and complex land tenure arrangements that do not allow investment. Periodic workshops should be organised for agricultural extension agents on the use of ICT to deliver extension services, whilst encouraging the use of audio-visuals in extension delivery. These efforts should be supported by regular assessments of extension agents’ capacity building needs.",
+      "year": "2021",
+      "published_date": "2021-01-01",
+      "journal": "Climate Risk Management",
+      "url": "https://doi.org/10.1016/j.crm.2021.100304",
+      "arxiv_id": "",
+      "keywords": [
+        "Climate change",
+        "Agriculture",
+        "Agricultural extension",
+        "Business",
+        "Climate change adaptation",
+        "Natural resource economics",
+        "Agricultural economics",
+        "Geography"
+      ],
+      "citations": 279,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.crm.2021.100304",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "GAPMAP: Mapping Scientific Knowledge Gaps in Biomedical Literature Using Large Language Models",
+      "authors": [
+        "Nourah M. Salem",
+        "Elizabeth K. White",
+        "M. Bada",
+        "Lawrence Hunter"
+      ],
+      "abstract": "Scientific progress is driven by the deliberate articulation of what remains unknown. This study investigates the ability of large language models (LLMs) to identify research knowledge gaps in the biomedical literature. We define two categories of knowledge gaps: explicit gaps, clear declarations of missing knowledge; and implicit gaps, context-inferred missing knowledge. While prior work has focused mainly on explicit gap detection, we extend this line of research by addressing the novel task of inferring implicit gaps. We conducted two experiments on almost 1500 documents across four datasets, including a manually annotated corpus of biomedical articles. We benchmarked both closed-weight models (from OpenAI) and open-weight models (Llama and Gemma 2) under paragraph-level and full-paper settings. To address the reasoning of implicit gaps inference, we introduce \\textbf{\\small TABI}, a Toulmin-Abductive Bucketed Inference scheme that structures reasoning and buckets inferred conclusion candidates for validation. Our results highlight the robust capability of LLMs in identifying both explicit and implicit knowledge gaps. This is true for both open- and closed-weight models, with larger variants often performing better. This suggests a strong ability of LLMs for systematically identifying candidate knowledge gaps, which can support early-stage research formulation, policymakers, and funding decisions. We also report observed failure modes and outline directions for robust deployment, including domain adaptation, human-in-the-loop verification, and benchmarking across open- and closed-weight models.",
+      "year": "2025",
+      "published_date": "2025-10-29",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/3a23073654ab2404900c4bcc49840c2522a2a60f",
+      "arxiv_id": "2510.25055",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2510.25055",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "title": "Time to challenge the spurious hierarchy of systematic over narrative reviews?",
+      "authors": [
+        "Trisha Greenhalgh",
+        "Sally Thorne",
+        "Kirsti Malterud"
+      ],
+      "abstract": "Cynthia Mulrow's important paper calling for literature reviews to be undertaken more systematically (and hence be more informative and reliable) is now 30 years old.1 A recent paper in BMC Medical Research Methodology compared the proportion of reviews that were systematic (as opposed to narrative) in five leading biomedical journals.2 The authors found significant diversity: from New England Journal of Medicine (0%) and Lancet (11%) to Annals of Internal Medicine (72%). Systematic reviews were assumed by the authors to be superior because they are (i) more likely to have a focused research question, (ii) more methodologically explicit and (iii) less likely to be biased than narrative reviews. This stance reflects the raison d’être of the Cochrane Collaboration, whose use of explicit and auditable quality criteria for undertaking systematic reviews has inspired a weighty methodological handbook,3 numerous tools and checklists4, 5 and structured reporting criteria.6 There is strong emphasis on methodological reproducibility, with the implication that a different review team, using the same search criteria, quality checklists and synthesis tools, should obtain the same result.3 Yet leading medical journals regularly publish clinical topic reviews that may lack a focused research question, methods section or statement on how studies were selected and analysed (see for example7-9). These narrative reviews typically draw on expert opinion by deliberately recruiting leading names in the field (eg “The aim of this Commission is to provide the strongest evidence base through involvement of experts from a wide cross-section of disciplines…”—page 1953, emphasis added8). Reviews crafted through the experience and judgement of experts are often viewed as untrustworthy (“eminence-based” is a pejorative term). Yet the classical definition of the EBM as “the conscientious, explicit, and judicious use of current best evidence …” (page 71, emphasis added)10 suggests a key role for judgement in the selection and interpretation of evidence. In short, there appears to be a growing divergence between the assumed “hierarchy” of evidence in secondary research, which defines systematic reviews as superior,11 and what some leading academic journals view as a state-of-the-art (that is, expert-led narrative) review. We believe this is partly because the systematic review format has been erroneously defined as a universal gold standard and partly because the term “narrative review” is frequently misunderstood, misapplied and unfairly dismissed. Systematic reviews in the Cochrane sense use a highly technical approach to identification, appraisal and synthesis of evidence and typically (although not invariably) privilege randomised controlled trials or previous systematic reviews over other forms of evidence.11 This may be entirely appropriate—especially when the primary purpose is to answer a very specific question about how to treat a particular disease in a particular target group. But the doctor in the clinic, the nurse on the ward or the social worker in the community will encounter patients with a wide diversity of health states, cultural backgrounds, illnesses, sufferings and resources.12 And those who gather around the policymaking table will find multiple calls on their attention—including burden of need, local availability of different treatments, personal testimony, strength of public opinion and budgetary realities. To produce a meaningful synthesis of research evidence relevant to such complex situations, the reviewer must (i) incorporate a broad range of knowledge sources and strategies for knowing and (ii) undertake multi-level interpretation using creativity and judgement.12, 13 We align with previous authors, who, drawing on Wittgenstein, distinguish between puzzles or problems that require data (for which a conventional systematic review, with meta-analysis where appropriate, may be the preferred methodology) and those that require clarification and insight (for which a more interpretive and discursive synthesis of existing literature is needed).14, 15 Below, we explore both strengths, limitations and conceptual confusions of systematic and narrative reviews. We consider three questions: what makes a review systematic; what is a narrative review and whether these different kinds of review should be viewed as competing or complementary. The defining characteristic of a systematic review in the Cochrane sense is the use of a predetermined structured method to search, screen, select, appraise and summarise study findings to answer a narrowly focused research question.3, 16 Using an exhaustive search methodology, the reviewer extracts all possibly relevant primary studies, and then limits the dataset using explicit inclusion and exclusion criteria. The review focus is highly circumscribed and quality criteria are tightly enforced. Typically, a body of hundreds or thousands of potential studies identified in the initial search is whittled down to a mere handful before the reviewer even begins to consider what they collectively mean. The term “systematic” is thus by no means synonymous with “high-quality”. Rather, it can be viewed as a set of methodologies characterised by tight focus, exhaustive search, high rejection-to-inclusion ratio and an emphasis on technical rather than interpretive synthesis methods. The conflation of the quality of a review with the assiduousness of such tasks as searching, applying inclusion and exclusion criteria, creating tables of extracted data and mathematically summing effect sizes (rather than, for example, with the level of critical analysis of the papers’ unstated assumptions and discussion sections) has, we believe, led to a proliferation of systematic reviews that represent aggregations of findings within the narrow body of work that has met the authors’ eligibility criteria.17-19 Such studies may sometimes add value, especially when additional meta-analysis confirms whether a clinically significant effect is or is not also statistically significant.20 But sometimes, the term “systematic review” allows a data aggregation to claim a more privileged position within the knowledge hierarchy than it actually deserves.11 We acknowledge that the science of systematic review within the Cochrane and Campbell Collaborations is evolving to embrace a wider range of primary studies and methodologies, with recommended procedures for sampling, assessment and synthesis of evidence compliant with the question asked and the context explored. The adjective “systematic” is thus coming to acquire a broader meaning in terms of the transparency and appropriateness of methods, rather than signifying strict adherence to a particular pre-defined tool or checklist or a privileging of randomised trials (see for example methodological work by Lewin et al,21 Petticrew et al22 and Pluye et al23-25). All these approaches, however, remain focused on answering a relatively narrow question that is predefined at the outset and with a primary focus on the extraction, tabulation and summation of empirical data. A narrative review is a scholarly summary along with interpretation and critique.26 It can be conducted using a number of distinctive methodologies. While principles and procedures may diverge from the classic methodology of systematic review, they are not unsystematic (in the sense of being ad hoc or careless), and may certainly be conducted and presented in a systematic way, depending on purpose, method and context. Different kinds of reviews offer different kinds of truth: the conventional systematic review with meta-analysis deals in probabilistic (typically, Bayesian) truth; it is concerned mainly with producing generalisable “facts” to aid prediction. The narrative review, in contrast, deals in plausible truth. Its goal is an authoritative argument, based on informed wisdom that is convincing to an audience of fellow experts. To that end, the author of a narrative review must authentically represent in the written product both the underpinning evidence (including but not limited to primary research) and how this evidence has been drawn upon and drawn together to inform the review's conclusions. A hermeneutic review takes as its reference point the notion of verstehen, or the process of creating an interpretive understanding.14 It capitalises on the continual deepening of insight that can be obtained by critical reflection on particular elements of a dataset—in this case, individual primary studies—in the context of a wider body of work. It may or may not define its reference body of studies using systematic search methods and inclusion/exclusion criteria, but its primary focus is on the essential tasks of induction and interpretation in relation to the defined sample for the purpose of advancing theoretical understanding.17 A realist review considers the “generative causality,” in which particular mechanisms (for example, peer influence) produce particular outcomes (for example, smoking cessation) in some circumstances (for example, when societal disapproval of smoking is high) but not others (for example, in cultures where smoking is still widely viewed as a mark of sophistication).27 A meta-narrative review maps the storyline of a research tradition over time.28 Shifting the focus away from comparing findings of studies published at different times, it orients critical reflection to discern how ideas have waxed and waned within different scholarly communities at different points in the development of thinking (see an early example of how the term “diffusion of innovations” was differently defined and explored in different academic disciplines29). Each of these forms of narrative review (along with other specialist approaches to combining primary studies in qualitative research30, 31) reflects an explicit lens that is expected to shape the understandings that will arise from the review process, through analysis and synthesis processes that may be highly systematic. Narrative reviews also include a number of more generic styles such as integrative32, 33 and critical,34 the former being the approach generally taken by narrative reviews in clinical journals. All these approaches play an important role in expanding our understanding not only of the topic in question but also of the reasons why it has been studied in a particular way, the interpretations that have been variously made with respect to what we know about it, and the nature of the knowledge base that informs or might inform clinical practice. Because hermeneutic, realist and meta-narrative reviews have explicit methodologies and accepted standards and criteria for judging their quality,14, 27, 28 a minority of scholars include such approaches within the (broadly defined) category of systematic reviews. However, we have had experience of journal editors rejecting reviews based on these techniques on the grounds that they were “not systematic”. Also of note is the emergence of “how-to” guides for narrative reviews, which (misleadingly in our view) exhort the reviewer to focus carefully on such tasks as starting with an explicit search strategy and defining strict inclusion and exclusion criteria for primary studies.35, 36 In other words, the boundaries between systematic and narrative reviews are both fuzzy and contested. The conflation of “systematic” with superior quality (and “narrative” with inferior quality) has played a major role in the muddying of methodological waters in secondary research. This implicit evidence hierarchy (or pyramid) elevates the mechanistic processes of exhaustive search, wide exclusion and mathematical averaging over the thoughtful, in-depth, critically reflective processes of engagement with ideas. The emphasis on thinking and interpretation in narrative review has prompted some authors to use the term “evidence-informed” rather than “evidence-based”15, 37: the narrative review is both less and more than a methods-driven exercise in extracting and summating data. Training in systematic reviews has produced a generation of scholars who are skilled in the technical tasks of searching, sorting, checking against inclusion criteria, tabulating extracted data and generating “grand means” and confidence intervals.3 These skills are important, but as the recent article by Faggion et al illustrates, critics may incorrectly assume that they override and make redundant the generation of understanding. To the extent that the term “systematic review” privileges only that which is common in the findings amongst a rigidly defined subset of the available body of work, we risk losing sight of the marvellous diversities and variations that ought to intrigue us. In excluding those aspects of scholarship, systematic reviews hold the potential to significantly skew our knowledge landscape. While there are occasions when systematic review is the ideal approach to answering specific types of question, the absence of thoughtful, interpretive critical reflection can render such products hollow, misleading and potentially harmful. The argument that systematic reviews are less biased than narrative reviews begs the question of what we mean by bias. Bias is an epidemiological construct, which refers to something that distorts the objective comparisons between groups.20 It presupposes the dispassionate, instrumental and universal “view from nowhere” that has long defined the scientific method.38 When we speak of interpretation, we refer to an analysis that is necessarily perspectival, with the interpreter transparently positioned in order that the reader can understand why this particular perspective, selection process and interpretive methodology was selected in relation to the question at hand.14, 17, 29, 37, 39 Systematic and transparent reflection upon and sharing of such aspects of the research process adds to the scientific quality of interpretive research. The question of whether “systematic” review techniques can eliminate bias in secondary research is in any case questionable. The privileging of freedom from bias over relevance of question and findings wrongly assumes that how the topic is framed, and which questions should be explored is somehow self-evident. A recent review of systematic reviews generated by a national knowledge centre to inform policymaking in Norway showed that in most cases, the evidence base addressed only a fraction of relevant policy questions.40 More generally, there is growing evidence that the science of systematic reviews is becoming increasingly distorted by commercial and other conflicts of interest, leading to reviews, which—often despite ticking the boxes on various quality checklists—are unnecessary, misleading or partisan.19, 41 The holy grail of a comprehensive database of unambiguous and unbiased evidence summaries (in pursuit of which the Cochrane Collaboration was founded42) continues to recede into the future. A legitimate criticism of narrative reviews is that they may “cherry pick” evidence to bolster a particular perspective. But this must be weighed against the counter-argument that the narrative reviewer selects evidence judiciously and purposively with an eye to what is relevant for key policy questions—including the question of which future research programmes should be funded. Whilst we accept that narrative reviews can be performed well or badly, we believe the undervaluing of such reviews is a major contributor to research waste. In the absence of an interpretive overview of a topic that clearly highlights the state of knowledge, ignorance and uncertainty (explaining how we know what we know, and where the intriguing unanswered questions lie), research funding will continue to be ploughed into questions that are of limited importance, and which have often already been answered.40 This principle was illustrated in a recent hermeneutic review of telehealth in heart failure by one of us.43 It identified 7 systematic reviews of systematic reviews, 32 systematic reviews (including 17 meta-analyses) covering hundreds of primary studies, as well as six mega-trials—almost all of which had concluded that more research (addressing the same narrow question with yet more randomised trials intended to establish an effect size for telehealth) was needed. The hermeneutic approach revealed numerous questions that had remained under-explored as researchers had pursued this narrow question—including the complex and changing nature of the co-morbidities and social determinants associated with heart failure, the varied experiences and priorities of patients with heart failure, the questionable nature of up-titration as a guiding principle in heart failure management, and the numerous organisational, regulatory and policy-level complexities associated with introducing telehealth programmes. The review concluded that: “The limited adoption of telehealth for heart failure has complex clinical, professional and institutional causes, which are unlikely to be elucidated by adding more randomised trials of technology-on versus technology-off to an already-crowded literature. An alternative approach is proposed, based on naturalistic study designs, application of social and organisational theory, and co-design of new service models based on socio-technical principles” (page 156). As many authors and journal editors are well aware, the narrative review is not a poor cousin of the systematic review but a different and potentially complementary form of scholarship.22, 44 Nevertheless, the simplistic hierarchy “systematic review good; narrative review less good” persists in some circles. The under-acknowledged limitations of systematic reviews, along with missed opportunities for undertaking and using narrative reviews to extend understanding within a field, risks legitimising and perpetuating a narrow and unexciting research agenda and contributing to research waste. We call upon policymakers and clinicians (who seek to ensure that their decisions are evidence-based, but who may have been seduced by a spurious hierarchy of secondary evidence) and on research commissioners (whose decisions will shape the generation of the future evidence base) to re-evaluate the low status currently afforded to narrative reviews. TG was invited to submit a paper on a topic of her choice to EJCI by the editor. She suggested this topic to ST and KM and wrote an initial outline for the paper. All authors then contributed iteratively and equally to the development of ideas and refinement of the paper.",
+      "year": "2018",
+      "published_date": "2018-03-26",
+      "journal": "European Journal of Clinical Investigation",
+      "url": "https://doi.org/10.1111/eci.12931",
+      "arxiv_id": "",
+      "keywords": [
+        "Spurious relationship",
+        "Narrative",
+        "Hierarchy",
+        "Narrative review",
+        "Systematic review",
+        "MEDLINE",
+        "Psychology",
+        "Computer science"
+      ],
+      "citations": 1032,
+      "source": "OpenAlex",
+      "doi": "10.1111/eci.12931",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded"
+    },
+    {
+      "title": "A retrieval-augmented knowledge mining method with deep thinking LLMs for biomedical research and clinical support",
+      "authors": [
+        "Yichun Feng",
+        "Jiawei Wang",
+        "Ruikun He",
+        "Lu Zhou",
+        "Yixue Li"
+      ],
+      "abstract": "Abstract Background Knowledge graphs and large language models (LLMs) are key tools for biomedical knowledge integration and reasoning, facilitating structured organization of scientific articles and discovery of complex semantic relationships. However, current methods face challenges: knowledge graph construction is limited by complex terminology, data heterogeneity, and rapid knowledge evolution, while LLMs show limitations in retrieval and reasoning, making it difficult to uncover cross-document associations and reasoning pathways. Results We propose a pipeline that uses LLMs to construct a Biomedical Stratified Knowledge Graph (BioStrataKG) from large-scale articles and builds the Biomedical Cross-Document Question Answering Dataset (BioCDQA) to evaluate latent knowledge retrieval and multihop reasoning. We then introduce Integrated and Progressive Retrieval-Augmented Reasoning (IP-RAR) to enhance retrieval accuracy and knowledge reasoning. IP-RAR maximizes information recall through integrated reasoning-based retrieval and refines knowledge via progressive reasoning-based generation, using self-reflection to achieve deep thinking and precise contextual understanding. Experiments show that IP-RAR improves document retrieval F1 score by 20% and answer generation accuracy by 25% over existing methods. Conclusions The IP-RAR helps doctors efficiently integrate treatment evidence to inform the development of personalized medication plans and enables researchers to analyze advancements and research gaps, accelerating the hypothesis generation phase of scientific discovery and decision-making.",
+      "year": "2025",
+      "published_date": "2025-01-06",
+      "journal": "GigaScience",
+      "url": "https://www.semanticscholar.org/paper/92cc6bf77207eda90f128d1497cddf4a4e06d1aa",
+      "arxiv_id": "2503.23029",
+      "keywords": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.1093/gigascience/giaf109",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "From Chaos to Clarity: Schema-Constrained AI for Auditable Biomedical Evidence Extraction from Full-Text PDFs",
+      "authors": [
+        "Pouria Mortezaagha",
+        "Joseph Shaw",
+        "Bowen Sun",
+        "Arya Rahgozar"
+      ],
+      "abstract": "Biomedical evidence synthesis relies on accurate extraction of methodological, laboratory, and outcome variables from full-text research articles, yet these variables are embedded in complex scientific PDFs that make manual abstraction time-consuming and difficult to scale. Existing document AI systems remain limited by OCR errors, long-document fragmentation, constrained throughput, and insufficient auditability for high-stakes synthesis. We present a schema-constrained AI extraction system that transforms full-text biomedical PDFs into structured, analysis-ready records by explicitly restricting model inference through typed schemas, controlled vocabularies, and evidence-gated decisions. Documents are ingested using resume-aware hashing, partitioned into caption-aware page-level chunks, and processed asynchronously under explicit concurrency controls. Chunk-level outputs are deterministically merged into study-level records using conflict-aware consolidation, set-based aggregation, and sentence-level provenance to support traceability and post-hoc audit. Evaluated on a corpus of studies on direct oral anticoagulant level measurement, the pipeline processed all documents without manual intervention, maintained stable throughput under service constraints, and exhibited strong internal consistency across document chunks. Iterative schema refinement substantially improved extraction fidelity for synthesis-critical variables, including assay classification, outcome definitions, follow-up duration, and timing of measurement. These results demonstrate that schema-constrained, provenance-aware extraction enables scalable and auditable transformation of heterogeneous scientific PDFs into structured evidence, aligning modern document AI with the transparency and reliability requirements of biomedical evidence synthesis.",
+      "year": "2025",
+      "published_date": "2025-12-31",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2601.14267v1",
+      "arxiv_id": "2601.14267v1",
+      "keywords": [
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded"
+    },
+    {
+      "title": "Artificial Intelligence Tools in Biomedical Research: Part 1—Literature Search and Knowledge Mining",
+      "authors": [
+        "Chandan K. Sen"
+      ],
+      "abstract": "The exponential growth of biomedical literature has rendered traditional search methods inadequate. Artificial intelligence (AI) tools have emerged and are developing as transformative solutions for literature search and knowledge mining. This first article of a series, intended to address different components of biomedical research, provides a comprehensive analysis of recent advancements, practical applications, and challenges in deploying AI for biomedical research. The objective of this work is to synthesize the evolution, capabilities, and limitations of AI-driven tools for literature discovery, summarization, and evidence synthesis, offering actionable insights for researchers across disciplines. AI tools have progressed from keyword-based retrieval to semantic and multimodal approaches. Platforms such as Elicit, BioGPT, and PubTator 3.0 enable rapid extraction of gene–disease associations and evidence-based insights, while ResearchRabbit and Connected Papers visualize citation networks. Systematic review tools like Rayyan and Covidence reduce screening time by up to 50%. Variability in output quality, risk of hallucination, and lack of algorithmic transparency pose challenges. Open-source solutions (e.g., BioGPT, DeepChem) and explainability-focused tools (e.g., Scite.ai) offer promising pathways to mitigate these concerns. AI-driven literature workflows can accelerate hypothesis generation, systematic reviews, and translational research. However, close human expert oversight remains indispensable to ensure rigor and interpretive accuracy. These technologies are not a passing trend; they are forging the contours of tomorrow’s research landscape. The peril lies as much in reckless adoption as in willful oblivion. This editorial serves as a general roadmap for integrating trustworthy AI tools into biomedical research, fostering high-impact innovation. Antioxid. Redox Signal. 44, 1–10.",
+      "year": "2025",
+      "published_date": "2025-12-11",
+      "journal": "Antioxidants and Redox Signaling",
+      "url": "https://www.semanticscholar.org/paper/2601989b8d5774c3d0d56d4f0f5aeff7bdf5c3f0",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1177/15230864251405885",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded literature review"
+    },
+    {
+      "id": "gs_d24f6cc283",
+      "title": "Using the Semantic Web in digital humanities: Shift from data publishing to data-analysis and serendipitous knowledge discovery",
+      "abstract": "Digital Humanities research has started to shift the focus to providing the user with integrated  tools for solving research  for the human to solve problems but are used for finding research",
+      "authors": [
+        "E Hyvönen"
+      ],
+      "year": 2020,
+      "journal": "Semantic Web",
+      "citations": 152,
+      "url": "https://journals.sagepub.com/doi/abs/10.3233/SW-190386",
+      "doi": "10.3233/SW-190386",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND research synthesis"
+    }
+  ],
+  "timestamp": "20260413_145746"
+}

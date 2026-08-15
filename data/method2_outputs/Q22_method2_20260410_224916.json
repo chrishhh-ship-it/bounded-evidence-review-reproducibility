@@ -1,0 +1,119 @@
+{
+  "baseline": "method2_adversarial_multi_agent",
+  "query": "screening agent 在多智能协同情报服务中的主要作用是什么？",
+  "effective_search_query": "screening agent, multi-agent collaboration, intelligence services, role",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "kimi",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds": 1,
+  "review_feedback": {
+    "overall_score": 8,
+    "major_issues": [],
+    "citation_issues": [],
+    "revision_instructions": [
+      "在第2节中，提到'筛选智能体'在不同领域的具体作用时，建议明确区分哪些作用是直接从摘要中得出的结论，哪些是基于摘要内容的合理推断，以增强报告的准确性和透明度。",
+      "在第4节中，提到摘要分析的局限性时，建议增加对摘要信息可能带来的偏差或误解的讨论，例如，摘要可能过度简化或选择性地呈现研究结果，这可能影响对'筛选智能体'作用的全面理解。",
+      "在第5节中，给出结论时，建议强调结论的初步性和假设性，明确指出这些结论是基于有限的摘要信息得出的，可能需要通过阅读全文和获取更多实证数据来进一步验证。"
+    ],
+    "accept_without_revision": false
+  },
+  "all_retrieved_ids": [
+    "doi:10.9734/jeai/2025/v47i23281",
+    "doi:10.1109/tvt.2021.3096928",
+    "title:impact of human and ai-agent services on customer learning, immersion and loyalty: the role of interactivity|2025",
+    "title:multi-agent intelligence for multidisciplinary decision-making in gastrointestinal oncology|2025",
+    "title:distributed artificial intelligence with multi-agent systems for mec|2019",
+    "doi:10.1109/tmc.2021.3116236",
+    "doi:10.48550/arxiv.2306.16092",
+    "title:mad-cti: cyber threat intelligence analysis of the dark web using a multi-agent framework|2025",
+    "doi:10.1109/tvt.2020.3002983",
+    "doi:10.1016/j.tra.2020.01.007",
+    "title:the multi-agent system in web services|2024",
+    "doi:10.1080/00207543.2016.1251624y",
+    "title:multi-agent-based simulation of intelligent network system|2023",
+    "title:maca: a multi-agent reinforcement learning platform for collective intelligence|2019",
+    "doi:10.13374/j.issn2095-9389.2025.06.25.002"
+  ],
+  "top_papers": [
+    {
+      "title": "MAD-CTI: Cyber threat intelligence analysis of the dark web using a multi-agent framework",
+      "year": 2025,
+      "journal": "S Shah, VK Madisetti - IEEE Access, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 10,
+      "abstract": "… multi-agent framework based on Large Language Models (LLM) … agent architecture to improve efficiency, scalability, and consistency. By utilizing state-of-the-art LLM models and agents…"
+    },
+    {
+      "title": "基于大语言模型的政务智能化应用:技术现状、挑战与未来展望",
+      "year": 2026,
+      "journal": "信息工程·控制科学与工程",
+      "source": "万方数据",
+      "doi": "10.13374/j.issn2095-9389.2025.06.25.002",
+      "citations": 15,
+      "abstract": "随着数字化转型的加速,大语言模型作为人工智能领域的前沿技术,在政务智能化转型中发挥了关键作用.本文系统性调研了大语言模型在政务领域的应用现状,从技术架构、方法路径到实际效能进行了深入分析.文章重点探讨了政务大模型在智能问答、公文处理、决策支持及城市治理等场景中的具体应用,并总结了\"预训练+领域微调\"范式、提示词设计、知识库构建及AI智能体协同机制对传统政务模式的创新改造.研究发现,大语言模型显著 提升了政务服务效率与质量,同时促进了跨部门数据融合与流程再造.然而,数据安全、模型可解释性以及伦理风险等问题仍构成制约技术进一步落地的关键挑战.本文结合理论分析与实践案例,提出了面向政务服务优化、性能持续优化、多模态数据处理能力、政产学研用协同合作及监管体系完善的未来发展方向,为政务智能化转型提供理论与实践参考. input formulations to guide models toward outputs compliant with governmental standards,<span class='highlight'>knowledge</span> augmentation methods that integrate domain-specific governmental expertise to strengthen model  capabilities,and <span class='highlight'>multi-agent</span> collaboration frameworks that enable the coordinated execution o f complex administrative tasks.The observations indicate that the\"pre-training+domain-specif"
+    },
+    {
+      "title": "Maca: a multi-agent reinforcement learning platform for collective intelligence",
+      "year": 2019,
+      "journal": "F Gao, S Chen, M Li, B Huang - … Engineering and Service …, 2019 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 16,
+      "abstract": "… in collective intelligence field… multi-agent reinforcement training platform called MaCA was built to improve reinforcement learning effectiveness for heterogeneous collective cooperative …"
+    },
+    {
+      "title": "Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model",
+      "year": "2023",
+      "journal": "arXiv (Cornell University)",
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2306.16092",
+      "citations": 90,
+      "abstract": "AI legal assistants based on Large Language Models (LLMs) can provide accessible legal consulting services, but the hallucination problem poses potential legal risks. This paper presents Chatlaw, an innovative legal assistant utilizing a Mixture-of-Experts (MoE) model and a multi-agent system to enhance the reliability and accuracy of AI-driven legal services. By integrating knowledge graphs with artificial screening, we construct a high-quality legal dataset to train the MoE model. This model utilizes different experts to address various legal issues, optimizing the accuracy of legal responses. Additionally, Standardized Operating Procedures (SOP), modeled after real law firm workflows, significantly reduce errors and hallucinations in legal services. Our MoE model outperforms GPT-4 in th"
+    },
+    {
+      "title": "Multi-agent-based simulation of intelligent network system",
+      "year": 2023,
+      "journal": "PM Tshakwanda, ST Arzo… - 2023 IEEE 13th annual …, 2023 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 12,
+      "abstract": "… intelligence to create beyond 5G (B5G) and 6G intelligent networks. The emergence of new forms of services … a variety of intelligent services and applications, is driving the need for an …"
+    },
+    {
+      "title": "Multi-Agent Intelligence for Multidisciplinary Decision-Making in Gastrointestinal Oncology",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Multimodal clinical reasoning in the field of gastrointestinal (GI) oncology necessitates the integrated interpretation of endoscopic imagery, radiological data, and biochemical markers. Despite the evident potential exhibited by Multimodal Large Language Models (MLLMs), they frequently encounter challenges such as context dilution and hallucination when confronted with intricate, heterogeneous medical histories. In order to address these limitations, a hierarchical Multi-Agent Framework is proposed, which emulates the collaborative workflow of a human Multidisciplinary Team (MDT). The system attained a composite expert evaluation score of 4.60/5.00, thereby demonstrating a substantial improvement over the monolithic baseline. It is noteworthy that the agent-based architecture yielded the "
+    },
+    {
+      "title": "The Multi-Agent System in Web Services",
+      "year": 2024,
+      "journal": "NM Ibrahim, MF Hassan… - International Journal on …, 2024 - journals.iium.edu.my",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… JADE), which was used to create a multi-agent system for the agent-based MOM framework that has been presented. The creation of the multi-agent systems was facilitated by the JADE …"
+    },
+    {
+      "title": "Multi-Agent Deep Reinforcement Learning for Computation Offloading and Interference Coordination in Small Cell Networks",
+      "year": "2021",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2021.3096928",
+      "citations": 149,
+      "abstract": "Integrating mobile edge computing (MEC) with small cell networks has been conceived as a promising solution to provide pervasive computing services. However, the interactions among small cells due to inter-cell interference, the diverse application-specific requirements, as well as the highly dynamic wireless environment make it challenging to design an optimal computation offloading scheme. In this paper, we focus on the joint design of computation offloading and interference coordination for edge intelligence empowered small cell networks. To this end, we propose a distributed multi-agent deep reinforcement learning (DRL) scheme with the objective of minimizing the overall energy consumption while ensuring the latency requirements. Specifically, we exploit the collaboration among small c"
+    }
+  ],
+  "elapsed_seconds": 109.541,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_outputs\\Q22_method2_20260410_224916.md"
+}

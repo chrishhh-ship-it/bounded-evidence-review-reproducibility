@@ -1,0 +1,232 @@
+{
+  "query_id": "Q218",
+  "query": "How should a multi-agent system synthesize evidence from both peer-reviewed studies and grey literature reports (IEA, IRENA) without conflating their authority levels?",
+  "domain_id": "climate_policy_research",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages.",
+      "authors": [
+        "Qusai Khraisha",
+        "Sophie Put",
+        "Johanna Kappenberg",
+        "Azza Warraitch",
+        "Kristin Hadfield"
+      ],
+      "abstract": "Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour-intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehensively evaluated against humans, and no study has tested Generative Pre-Trained Transformer (GPT)-4, the biggest LLM so far. This pre-registered study uses a \"human-out-of-the-loop\" approach to evaluate GPT-4's capability in title/abstract screening, full-text review and data extraction across various literature types and languages. Although GPT-4 had accuracy on par with human performance in some tasks, results were skewed by chance agreement and dataset imbalance. Adjusting for these caused performance scores to drop across all stages: for data extraction, performance was moderate, and for screening, it ranged from none in highly balanced literature datasets (~1:1) to moderate in those datasets where the ratio of inclusion to exclusion in studies was imbalanced (~1:3). When screening full-text literature using highly reliable prompts, GPT-4's performance was more robust, reaching \"human-like\" levels. Although our findings indicate that, currently, substantial caution should be exercised if LLMs are being used to conduct systematic reviews, they also offer preliminary evidence that, for certain review tasks delivered under specific conditions, LLMs can rival human performance.",
+      "year": "2024",
+      "published_date": "2024",
+      "journal": "Research synthesis methods",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38484744/",
+      "arxiv_id": "",
+      "keywords": [
+        "Algorithms",
+        "Information Storage and Retrieval",
+        "Reproducibility of Results",
+        "Systematic Reviews as Topic",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1002/jrsm.1715",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent literature review"
+    },
+    {
+      "title": "LLM-Based Multi-Agent Systems for Code Generation: A Multi-Vocal Literature Review ⋆",
+      "authors": [
+        "Zeeshan Rasheed",
+        "Waseem Muhammad",
+        "Kai-Kristian Kemell",
+        "Mika Saari",
+        "Pekka Abrahamsson"
+      ],
+      "abstract": "Large Language Models (LLMs) have enabled multi-agent systems to perform autonomous code generation for complex tasks. Despite the recent growth in research and industrial applications in this area, there is little work on synthesizing evidence from both academic and industrial sources to capture the current state of research on LLM-based multi-agent systems for code generation. To this end, we conducted a Multi-Vocal Literature Review (MLR), combining insights from both academia and industry, including peer-reviewed studies and grey literature. The aim of this study is to systematically synthesize and analyze existing knowledge on LLM-based multi-agent systems for code generation. Specifically, the review examines the motivations for their use, employed benchmarks and models, key challenges, proposed solutions, and potential directions for future research. We selected and reviewed 114 studies, and the key findings are: 1) the identified reasons for adopting multi-agent systems for code generation were classified into nine categories; 2) the models and evaluation benchmarks utilized across the studies were systematically analyzed to provide a structured overview of commonly adopted LLM configurations and assessment practices; 3) the reported challenges and corresponding solutions were synthesized into six main categories and 26 subcategories; and 4) future research directions were identified and organized into six main categories and 18 subcategories. The results of this MLR will assist researchers and practitioners in pursuing further studies and supporting the real-world adoption of multi-agent systems in industrial settings.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2139/ssrn.6328882",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.6328882",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "AmpAgent: An LLM-based Multi-Agent System for Multi-stage Amplifier Schematic Design from Literature for Process and Performance Porting",
+      "authors": [
+        "Chengjie Liu",
+        "Weiyu Chen",
+        "Anlan Peng",
+        "Yuan Du",
+        "Li Du",
+        "Jun Yang"
+      ],
+      "abstract": "Multi-stage amplifiers are widely applied in analog circuits. However, their large number of components, complex transfer functions, and intricate pole-zero distributions necessitate extensive manpower for derivation and param sizing to ensure their stability. In order to achieve efficient derivation of the transfer function and simplify the difficulty of circuit design, we propose AmpAgent: a multi-agent system based on large language models (LLMs) for efficiently designing such complex amplifiers from literature with process and performance porting. AmpAgent is composed of three agents: Literature Analysis Agent, Mathematics Reasoning Agent and Device Sizing Agent. They are separately responsible for retrieving key information (e.g. formulas and transfer functions) from the literature, decompose the whole circuit's design problem by deriving the key formulas, and address the decomposed problem iteratively.   AmpAgent was employed in the schematic design of seven types of multi-stage amplifiers with different compensation techniques. In terms of design efficiency, AmpAgent has reduced the number of iterations by 1.32$ \\sim $4${\\times}$ and execution time by 1.19$ \\sim $2.99${\\times}$ compared to conventional optimization algorithms, with a success rate increased by 1.03$ \\sim $6.79${\\times}$. In terms of circuit performance, it has improved by 1.63$ \\sim $27.25${\\times}$ compared to the original literature. The findings suggest that LLMs could play a crucial role in the field of complex analog circuit schematic design, as well as process and performance porting.",
+      "year": "2024",
+      "published_date": "2024-09-23",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2409.14739v1",
+      "arxiv_id": "2409.14739v1",
+      "keywords": [
+        "cs.ET",
+        "eess.SY"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature?",
+      "authors": [
+        "Qiao Jin",
+        "Robert Leaman",
+        "Zhiyong Lu"
+      ],
+      "abstract": "ChatGPT, a general purpose chatbot developed by OpenAI, has been widely reported to have the potential to revolutionize how people interact with information online.1 Like other large language models (LLMs), ChatGPT has been trained on a large text corpus to predict probable words from the surrounding context. ChatGPT, however, has received substantial popular attention for generating human-like conversational responses, and new developments are occurring rapidly. The initial release in November 2022 used the model generative pretrained transformers (GPT)-3.5, and a version based on GPT-4.0 was released in March 2023. Recent work has discussed applications of ChatGPT for medical education and clinical decision support.2–4 However, health care professionals should be aware of the drawbacks and limitations—and potential capabilities—of using ChatGPT and similar LLMs to interact with medical knowledge. A significant issue with ChatGPT is its tendency to generate confident-sounding but fabricated responses, commonly known as “hallucination.” Although it can generate plausible-sounding text, ChatGPT does not consult any source of truth.1 Occasional incorrect or biased responses are, therefore, inevitable, and ChatGPT cannot faithfully cite sources to allow their evidence to be verified. For example, we prompted GPT-3.5–based ChatGPT to list possible mechanisms of AKI in patients with coronavirus disease 2019 (COVID-19), with references. ChatGPT produced a list of plausible mechanisms, each of which has been investigated in the literature (Figure 1A) but supported its claims with fabricated titles and irrelevant PubMed identifiers. ChatGPT using the GPT-4 model acknowledges that it cannot produce references and refuses to cite articles in the answer (Figure 1C)—a significant improvement—but leaves the difficult task of verification to the user. Consulting ChatGPT directly for medical information carries a significant risk of drawing incorrect conclusions, particularly for patients.Figure 1.: Seeking information related to COVID-19 from ChatGPT. (A) ChatGPT-3.5 fabricates the references for its claims. (B) When prompted with the title and abstract of relevant articles, ChatGPT-3.5 can summarize the aspects requested, including some valid in-line references. However, many details are inaccurate: Related mechanisms are not correctly grouped, contradicting evidence is not mentioned, some citations are missing, and a listed mechanism is not specific. Note that the complete response mentioned only three of five articles. (C) ChatGPT-4 acknowledges its drawback and refuses to cite source articles in the response, which makes the verification more difficult. (D) ChatGPT-4 with the web browsing plug-in summarizes information from the search engine, but it only finds two relevant articles and fails to systematically answer the question. Responses were collected from GPT-3.5–based ChatGPT on March 14, 2023, and GPT-4–based ChatGPT on May 15, 2023.However, LLMs such as ChatGPT may be better suited for text summarization than directly answering medical questions. Pilot studies have shown that LLMs can be effective at clinical reasoning, reading comprehension, and generating fluent summaries with high fidelity.5–7 Augmenting LLMs such as ChatGPT with a traditional literature search engine may therefore help address hallucination and enable the system to provide the user with comprehensive high-level summaries. For example, the new Bing provides ChatGPT-like interactive agents to help users create effective queries, identify relevant results, and summarize their content. In addition, ChatGPT recently introduced a plug-in that allows the model to search the web when generating responses (currently in limited beta test). Incorporating such features into medical literature search has the potential to streamline gathering and synthesizing evidence from the literature, improving patient care. Unfortunately, summaries generated by current LLMs such as ChatGPT also contain inaccuracies,8 in addition to practical issues such as limitations on the length of input text. To illustrate these problems, we prompted ChatGPT (model 3.5) to identify possible mechanisms of AKI in patients with COVID-19, using five manually chosen articles on the pathophysiology of AKI in COVID-19. Although ChatGPT’s summary (Figure 1B) generally reflects the mechanisms of AKI discussed by the articles, the response lists symptoms from only three of the five input studies and misses some important mechanisms mentioned repeatedly, such as hypoxia. Moreover, some citations are missing, contradicting evidence is not mentioned, similar mechanisms are not correctly grouped, and one of the mechanisms listed is less specific than the source. We also prompted ChatGPT (model 4), with the web browsing plug-in, to answer the same question (Figure 1D). In this case, ChatGPT provides summaries with relevant citations. However, the response is based on only two articles, without synthesizing the evidence, and thus fails to answer the question systematically. Generally speaking, retrieval-augmented LLMs reduces users' control over sources, leading to results that may not align with the user's criteria for the best information (e.g., most up-to-date). Summaries generated by LLMs can miss important ideas discussed by the input sources or contain assertions unsupported by the input sources. Because imprecise or incomplete information can lead to incorrect clinical decisions and patient harm, content generated by current LLMs, including ChatGPT, must be verified for accuracy and completeness before use. Further research on the faithfulness of LLM-generated summaries and automatic verification tools is also warranted to realize the full potential of LLMs to streamline evidence gathering and synthesis from the medical literature. Despite these limitations, the remarkable progress in AI and the rapid advancements in LLMs may have profound implications for medicine, from assisting medical education,2 to accelerating literature screening for systematic reviews,7,9 and supporting physicians in various clinical settings as generalist medical AI,4 among other possibilities. In addition to augmenting LLMs with retrieval results from a search engine, LLMs can also be taught to use biomedical domain-specific tools, such as the Web APIs of specialized databases, to provide improved access to biomedical information.10 In summary, although ChatGPT is not currently suitable for use as a literature search engine on its own, we envision that the proposed retrieve, summarize, and verify paradigm could greatly benefit biomedical information seeking. This approach leverages the impressive capability of LLMs to generate high-level summaries while minimizing the risk of directly using false or fabricated information by combining LLMs and search engines. It is important to note that although LLM technology is progressing rapidly, it has not yet matured enough for clinical use. Therefore, users must retain full responsibility for verifying the accuracy and reliability of its output.",
+      "year": "2023",
+      "published_date": "2023-05-31",
+      "journal": "Journal of the American Society of Nephrology",
+      "url": "https://doi.org/10.1681/asn.0000000000000166",
+      "arxiv_id": "",
+      "keywords": [
+        "Affect (linguistics)",
+        "Medicine",
+        "Psychology",
+        "Intensive care medicine",
+        "Computer science",
+        "Communication"
+      ],
+      "citations": 67,
+      "source": "OpenAlex",
+      "doi": "10.1681/asn.0000000000000166",
+      "open_access": false,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "Adversarial Multi-Agent System for Systematic Literature Reviews: Author–Reviewer Workflows with Verifiable Evidence and Critique Loops",
+      "authors": [
+        "Susan He"
+      ],
+      "abstract": "",
+      "year": "2026",
+      "published_date": "2026-2-14",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.55277/researchhub.srgxk071",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.55277/researchhub.srgxk071",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Bridging Literature and the Universe Via A Multi-Agent Large Language Model System",
+      "authors": [
+        "Xiaowen Zhang",
+        "Zhenyu Bi",
+        "Patrick Lachance",
+        "Xuan Wang",
+        "Tiziana Di Matteo",
+        "Rupert A. C. Croft"
+      ],
+      "abstract": "As cosmological simulations and their associated software become increasingly complex, physicists face the challenge of searching through vast amounts of literature and user manuals to extract simulation parameters from dense academic papers, each using different models and formats. Translating these parameters into executable scripts remains a time-consuming and error-prone process. To improve efficiency in physics research and accelerate the cosmological simulation process, we introduce SimAgents, a multi-agent system designed to automate both parameter configuration from the literature and preliminary analysis for cosmology research. SimAgents is powered by specialized LLM agents capable of physics reasoning, simulation software validation, and tool execution. These agents collaborate through structured communication, ensuring that extracted parameters are physically meaningful, internally consistent, and software-compliant. We also construct a cosmological parameter extraction evaluation dataset by collecting over 40 simulations in published papers from Arxiv and leading journals that cover diverse simulation types. Experiments on the dataset demonstrate a strong performance of SimAgents, highlighting its effectiveness and potential to accelerate scientific research for physicists. Our demonstration video is available at: https://youtu.be/w1zLpm_CaWA. The complete system and dataset are publicly available at https://github.com/xwzhang98/SimAgents.",
+      "year": "2025",
+      "published_date": "2025-07-11",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2507.08958v2",
+      "arxiv_id": "2507.08958v2",
+      "keywords": [
+        "astro-ph.IM",
+        "astro-ph.CO",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "INNV-39. INVESTIGATING MULTI-AGENT INTRATHECAL CHEMOTHERAPY AS A TREATMENT FOR PRIMARY AND SECONDARY CENTRAL NERVOUS SYSTEM LYMPHOMA: SAFETY AND EFFICACY RESULTS FROM AN INSTITUTIONAL COHORT STUDY",
+      "authors": [
+        "H. Wilding",
+        "A. Aastha",
+        "L. D. M. de Macêdo Filho",
+        "D. Bhanja",
+        "Madison Heebner",
+        "Shahbaz Khan",
+        "N. Mikolajewicz",
+        "V. Ignatchenko",
+        "T. Kislinger",
+        "M. Glantz",
+        "A. Mansouri"
+      ],
+      "abstract": "\n \n \n Despite exquisite responses to initial therapy for CNS lymphoma, relapse is common and overall responses are disappointing compared to non-CNS diffuse large B-cell lymphomas. Literature reports 1 and 3 year survival rates of 50% and 30-40% respectively, with standard treatment. Intravenous, high-dose-methotrexate-based therapies have become the standard of care, with many variations but no consensus. Incorporation of multi-agent intrathecal chemotherapy (MAITC) alongside systemic therapy is novel but not widely adopted. We report our institutional data on safety and efficacy of MAITC in CNS lymphoma.\n \n \n \n A retrospective review of patients with primary or secondary CNS lymphoma, treated with MAITC between August 2015 and December 2021, was conducted. Each cycle includes alternating combinations of 2-3 of the following drugs: methotrexate, rituximab, cytarabine, etoposide, topotecan, gemcitabine, and thiotepa, via ommaya reservoir. Log-rank tests and Cox regression were used to evaluate survival differences.\n \n \n \n 59 patients were reviewed (21 primary; 38 secondary CNS lymphoma). Median age at start of MAITC was 66 years (range 25-90). Only six patients received external beam radiation (EBRT). Median MAITC cycles was 8 (range 2-23). 76% of patients with primary and 66% with secondary CNS lymphoma were alive 1 year after starting MAITC. Of 37 eligible patients, 17 (46%) were alive 3 years after starting MAITC. After a median 19.2 months follow-up, median OS was not reached. No significant difference was noted in OS between primary and secondary CNS lymphoma. KPS > 80 was positively while leptomeningeal disease, secondary CNS lymphoma, and EBRT were negatively associated with OS. Ommaya-related infections occurred in 8 patients (13.5%); only 1 required removal.\n \n \n \n Based on our institutional data, MAITC can potentially offer a significant OS advantage with minimal safety concerns. Factors associated with poor survival were identified, which are being addressed in a larger dataset along with baseline CSF biomarkers.\n",
+      "year": "2023",
+      "published_date": "2023-11-01",
+      "journal": "Neuro-Oncology",
+      "url": "https://www.semanticscholar.org/paper/cde2677f784e489cbb3be8774919cb987dc5534e",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1093/neuonc/noad179.0628",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Analysing the synergies between Multi-agent Systems and Digital Twins: A systematic literature review",
+      "authors": [
+        "Elena Pretel",
+        "Alejandro Moya",
+        "Elena Navarro",
+        "Víctor López‐Jaquero",
+        "Pascual González"
+      ],
+      "abstract": ": Digital Twins (DTs) are used to augment physical entities by exploiting assorted computational approaches applied to the virtual twin counterpart. A DT is generally described as a physical entity, its virtual counterpart, and the data connections between them. Multi-Agent Systems (MAS) paradigm is alike DTs in many ways. Agents of MAS are entities operating and interacting in a specific environment, while exploring and collecting data to solve some tasks. : This paper presents the results of a systematic literature review (SLR) focused on the analysis of current proposals exploiting the synergies of DTs and MAS. This research aims to synthesize studies that focus on the use of MAS to support DTs development and MAS that exploit DTs, paving the way for future research. : A SLR methodology was used to conduct a detailed study analysis of 64 primary studies out of a total of 220 studies that were initially identified. This SLR analyses three research questions related to the synergies between MAS and DT. : The most relevant findings of this SLR and their implications for further research are the following: i) most of the analyzed proposals design digital shadows rather than DT; ii) they do not fully support the properties expected from a DT; iii) most of the MAS properties have not fully exploited for the development of DT; iv) ontologies are frequently used for specifying semantic models of the physical twin. : Based on the results of this SLR, our conclusions for the community are presented in a research agenda that highlights the need of innovative theoretical proposals and design frameworks that guide the development of DT. They should be defined exploiting the properties of MAS to unleash the full potential of DT. Finally, ontologies for machine learning models should be designed for its use in DT.",
+      "year": "2024",
+      "published_date": "2024-06-01",
+      "journal": "Information and Software Technology",
+      "url": "https://doi.org/10.1016/j.infsof.2024.107503",
+      "arxiv_id": "",
+      "keywords": [
+        "Systematic review",
+        "Computer science",
+        "Psychology",
+        "Political science",
+        "MEDLINE"
+      ],
+      "citations": 23,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.infsof.2024.107503",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    }
+  ],
+  "timestamp": "20260413_104037"
+}

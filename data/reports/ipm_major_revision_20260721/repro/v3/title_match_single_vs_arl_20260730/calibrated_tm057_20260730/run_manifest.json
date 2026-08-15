@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "pair_id": "TM057",
+  "historical_result_preserved": true,
+  "historical_arl_label": "nonmatch",
+  "calibrated_arl_label": "match",
+  "gold_label": "match",
+  "providers": {
+    "single": "deepseek",
+    "analyst": "deepseek",
+    "critic": "kimi",
+    "adjudicator": "deepseek"
+  },
+  "models": {
+    "single": "deepseek-v4-pro",
+    "analyst": "deepseek-v4-pro",
+    "critic": "moonshot-v1-32k",
+    "adjudicator": "deepseek-v4-pro"
+  },
+  "temperature": 0.0,
+  "rule_sha256": "743b3a0d0dd3abdbe73c2d6759d2daa36a766bb3ca5e5125baa2dfed1d6a64d3",
+  "result_file": "C:\\Users\\10305\\文献\\研究情报助手\\data\\reports\\ipm_major_revision_20260721\\repro\\v3\\title_match_single_vs_arl_20260730\\calibrated_tm057_20260730\\TM057_calibrated_recheck.json"
+}

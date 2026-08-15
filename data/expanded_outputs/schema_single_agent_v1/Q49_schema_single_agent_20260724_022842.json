@@ -1,0 +1,253 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q49",
+  "query": "为了避免 AI 风格过强，自动写作中哪些自我总结句式应优先删除或改写？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q49_method1_exp_20260412_235849.json",
+  "same_query_evidence_ids": [
+    "doi:10.1007/s12525-020-00414-7",
+    "doi:10.1108/ijchm-04-2020-0259",
+    "doi:10.3390/app12178427",
+    "doi:10.1287/isre.2022.1179",
+    "doi:10.1177/10946705221120232tw",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.1561/9781680835533",
+    "doi:10.1109/comst.2023.3338153"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.1007/s12525-020-00414-7",
+    "doi:10.1108/ijchm-04-2020-0259",
+    "doi:10.3390/app12178427",
+    "doi:10.1287/isre.2022.1179",
+    "doi:10.1177/10946705221120232tw",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.1561/9781680835533",
+    "doi:10.1109/comst.2023.3338153"
+  ],
+  "top_papers": [
+    {
+      "title": "AI-based chatbots in customer service and their effects on user compliance",
+      "authors": [
+        "Martin Adam",
+        "Michael Wessel",
+        "Alexander Benlian"
+      ],
+      "abstract": "Abstract Communicating with customers through live chat interfaces has become an increasingly popular means to provide real-time customer service in many e-commerce settings. Today, human chat service agents are frequently replaced by conversational software agents or chatbots, which are systems designed to communicate with human users by means of natural language often based on artificial intelligence (AI). Though cost- and time-saving opportunities triggered a widespread implementation of AI-based chatbots, they still frequently fail to meet customer expectations, potentially resulting in users being less inclined to comply with requests made by the chatbot. Drawing on social response and commitment-consistency theory, we empirically examine through a randomized online experiment how verbal anthropomorphic design cues and the foot-in-the-door technique affect user request compliance. Our results demonstrate that both anthropomorphism as well as the need to stay consistent significantly increase the likelihood that users comply with a chatbot’s request for service feedback. Moreover, the results show that social presence mediates the effect of anthropomorphic design cues on user compliance.",
+      "year": "2020",
+      "published_date": "2020-03-17",
+      "journal": "Electronic Markets",
+      "url": "https://doi.org/10.1007/s12525-020-00414-7",
+      "arxiv_id": "",
+      "keywords": [
+        "Chatbot",
+        "Consistency (knowledge bases)",
+        "Computer science",
+        "Compliance (psychology)",
+        "Customer service",
+        "Service (business)",
+        "Human–computer interaction",
+        "Dialog system"
+      ],
+      "citations": 1014,
+      "source": "OpenAlex",
+      "doi": "10.1007/s12525-020-00414-7",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Adoption of AI-based chatbots for hospitality and tourism",
+      "authors": [
+        "Rajasshrie Pillai",
+        "Brijesh Sivathanu"
+      ],
+      "abstract": "Purpose This study aims to investigate the customers’ behavioral intention and actual usage (AUE) of artificial intelligence (AI)-powered chatbots for hospitality and tourism in India by extending the technology adoption model (TAM) with context-specific variables. Design/methodology/approach To understand the customers’ behavioral intention and AUE of AI-powered chatbots for tourism, the mixed-method design was used whereby qualitative and quantitative techniques were combined. A total of 36 senior managers and executives from the travel agencies were interviewed and the analysis of interview data was done using NVivo 8.0 software. A total of 1,480 customers were surveyed and the partial least squares structural equation modeling technique was used for data analysis. Findings As per the results, the predictors of chatbot adoption intention (AIN) are perceived ease of use, perceived usefulness, perceived trust (PTR), perceived intelligence (PNT) and anthropomorphism (ANM). Technological anxiety (TXN) does not influence the chatbot AIN. Stickiness to traditional human travel agents negatively moderates the relation of AIN and AUE of chatbots in tourism and provides deeper insights into manager’s commitment to providing travel planning services using AI-based chatbots. Practical implications This research presents unique practical insights to the practitioners, managers and executives in the tourism industry, system designers and developers of AI-based chatbot technologies to understand the antecedents of chatbot adoption by travelers. TXN is a vital concern for the customers; so, designers and developers should ensure that chatbots are easily accessible, have a user-friendly interface, be more human-like and communicate in various native languages with the customers. Originality/value This study contributes theoretically by extending the TAM to provide better explanatory power with human–robot interaction context-specific constructs – PTR, PNT, ANM and TXN – to examine the customers’ chatbot AIN. This is the first step in the direction to empirically test and validate a theoretical model for chatbots’ adoption and usage, which is a disruptive technology in the hospitality and tourism sector in an emerging economy such as India.",
+      "year": "2020",
+      "published_date": "2020-09-10",
+      "journal": "International Journal of Contemporary Hospitality Management",
+      "url": "https://doi.org/10.1108/ijchm-04-2020-0259",
+      "arxiv_id": "",
+      "keywords": [
+        "Chatbot",
+        "Tourism",
+        "Hospitality",
+        "Context (archaeology)",
+        "Marketing",
+        "Knowledge management",
+        "Consumer behaviour",
+        "Computer science"
+      ],
+      "citations": 855,
+      "source": "OpenAlex",
+      "doi": "10.1108/ijchm-04-2020-0259",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Using Chatbots as AI Conversational Partners in Language Learning",
+      "authors": [
+        "Jose Belda-Medina",
+        "José Ramón Calvo‐Ferrer"
+      ],
+      "abstract": "Recent advances in Artificial Intelligence (AI) and machine learning have paved the way for the increasing adoption of chatbots in language learning. Research published to date has mostly focused on chatbot accuracy and chatbot–human communication from students’ or in-service teachers’ perspectives. This study aims to examine the knowledge, level of satisfaction and perceptions concerning the integration of conversational AI in language learning among future educators. In this mixed method research based on convenience sampling, 176 undergraduates from two educational settings, Spain (n = 115) and Poland (n = 61), interacted autonomously with three conversational agents (Replika, Kuki, Wysa) over a four-week period. A learning module about Artificial Intelligence and language learning was specifically designed for this research, including an ad hoc model named the Chatbot–Human Interaction Satisfaction Model (CHISM), which was used by teacher candidates to evaluate different linguistic and technological features of the three conversational agents. Quantitative and qualitative data were gathered through a pre-post-survey based on the CHISM and the TAM2 (technology acceptance) models and a template analysis (TA), and analyzed through IBM SPSS 22 and QDA Miner software. The analysis yielded positive results regarding perceptions concerning the integration of conversational agents in language learning, particularly in relation to perceived ease of use (PeU) and attitudes (AT), but the scores for behavioral intention (BI) were more moderate. The findings also unveiled some gender-related differences regarding participants’ satisfaction with chatbot design and topics of interaction.",
+      "year": "2022",
+      "published_date": "2022-08-24",
+      "journal": "Applied Sciences",
+      "url": "https://doi.org/10.3390/app12178427",
+      "arxiv_id": "",
+      "keywords": [
+        "Chatbot",
+        "Computer science",
+        "Perception",
+        "Psychology",
+        "Language acquisition",
+        "IBM",
+        "Artificial intelligence",
+        "Natural language processing"
+      ],
+      "citations": 253,
+      "source": "OpenAlex",
+      "doi": "10.3390/app12178427",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Bots with Feelings: Should AI Agents Express Positive Emotion in Customer Service?",
+      "authors": [
+        "Elizabeth Han",
+        "Dezhi Yin",
+        "Han Zhang"
+      ],
+      "abstract": "The rise of emotional intelligence technology and the recent debate about the possibility of a “sentient” artificial intelligence (AI) urge the need to study the role of emotion during people’s interactions with AIs. In customer service, human employees are increasingly replaced by AI agents, such as chatbots, and often these AI agents are equipped with emotion-expressing capabilities to replicate the positive impact of human-expressed positive emotion. But is it indeed beneficial? This research explores how, when, and why an AI agent’s expression of positive emotion affects customers’ service evaluations. Through controlled experiments in which the subjects interacted with a service agent (AI or human) to resolve a hypothetical service issue, we provide answers to these questions. We show that AI-expressed positive emotion can influence customers affectively (by evoking customers’ positive emotions) and cognitively (by violating customers’ expectations) in opposite directions. Thus, positive emotion expressed by an AI agent (versus a human employee) is less effective in facilitating service evaluations. We further underscore that, depending on customers’ expectations toward their relationship with a service agent, AI-expressed positive emotion may enhance or hurt service evaluations. Overall, our work provides useful guidance on how and when companies can best deploy emotion-expressing AI agents.",
+      "year": "2022",
+      "published_date": "2022-12-02",
+      "journal": "Information Systems Research",
+      "url": "https://doi.org/10.1287/isre.2022.1179",
+      "arxiv_id": "",
+      "keywords": [
+        "Feeling",
+        "Service (business)",
+        "Customer service",
+        "Human intelligence",
+        "Psychology",
+        "Emotional intelligence",
+        "Negative emotion",
+        "Expression (computer science)"
+      ],
+      "citations": 227,
+      "source": "OpenAlex",
+      "doi": "10.1287/isre.2022.1179",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_9668d976c1",
+      "title": "Do you mind if I ask you a personal question? How AI service agents alter consumer self-disclosure",
+      "abstract": "… by focusing on an AI agent (ie, in the absence of a human agent). We conducted an experiment similar to a mental counseling service and examined whether an AI agent’s perceived …",
+      "authors": [
+        "TW Kim",
+        "L Jiang",
+        "A Duhachek"
+      ],
+      "year": 2022,
+      "journal": "TW Kim, L Jiang, A Duhachek… - Journal of Service …, 2022 - journals.sagepub.com",
+      "citations": 181,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/10946705221120232",
+      "doi": "10.1177/10946705221120232TW",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_f95d8dcfd3",
+      "title": "A survey of ai agent protocols",
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …",
+      "authors": [
+        "Y Yang",
+        "H Chai",
+        "Y Song",
+        "S Qi",
+        "M Wen",
+        "N Li"
+      ],
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "citations": 156,
+      "url": "https://arxiv.org/abs/2504.16736",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Neural Approaches to Conversational AI",
+      "authors": [
+        "Jianfeng Gao",
+        "Michel Galley",
+        "Lihong Li"
+      ],
+      "abstract": "This monograph is the first survey of neural approaches to conversational AI that targets Natural Language Processing and Information Retrieval audiences. It provides a comprehensive survey of the neural approaches to conversational AI that have been developed in the last few years, covering QA, task-oriented and social bots with a unified view of optimal decision making. The authors draw connections between modern neural approaches and traditional approaches, allowing readers to better understand why and how the research has evolved and to shed light on how they can move forward. They also present state-of-the-art approaches to training dialogue agents using both supervised and reinforcement learning. Finally, the authors sketch out the landscape of conversational systems developed in the research community and released in industry, demonstrating via case studies the progress that has been made and the challenges that are still being faced. Neural Approaches to Conversational AI is a valuable resource for students, researchers, and software developers. It provides a unified view, as well as a detailed presentation of the important ideas and insights needed to understand and create modern dialogue agents that will be instrumental to making world knowledge and services accessible to millions of users in ways that seem natural and intuitive.",
+      "year": "2019",
+      "published_date": "2019-01-01",
+      "journal": "now publishers, Inc. eBooks",
+      "url": "https://doi.org/10.1561/9781680835533",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Sketch",
+        "Presentation (obstetrics)",
+        "Task (project management)",
+        "Natural (archaeology)",
+        "Artificial intelligence",
+        "Resource (disambiguation)",
+        "Data science"
+      ],
+      "citations": 117,
+      "source": "OpenAlex",
+      "doi": "10.1561/9781680835533",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "AI-Enhanced Cloud-Edge-Terminal Collaborative Network: Survey, Applications, and Future Directions",
+      "authors": [
+        "Huixian Gu",
+        "Liqiang Zhao",
+        "Zhu Han",
+        "Gan Zheng",
+        "Shenghui Song"
+      ],
+      "abstract": "The cloud-edge-terminal collaborative network (CETCN) is considered as a novel paradigm for emerging applications owing to its huge potential in providing low-latency and ultra-reliable computing services. However, achieving such benefits is very challenging due to the heterogeneous computing power of terminal devices and the complex environment faced by the CETCN. In particular, the high-dimensional and dynamic environment states cause difficulties for the CETCN to make efficient decisions in terms of task offloading, collaborative caching and mobility management. To this end, artificial intelligence (AI), especially deep reinforcement learning (DRL) has been proven effective in solving sequential decision-making problems in various domains, and offers a promising solution for the above-mentioned issues due to several reasons. Firstly, accurate modelling of the CETCN, which is difficult to obtain for real-world applications, is not required for the DRL-based method. Secondly, DRL can effectively respond to high-dimensional and dynamic tasks through iterative interactions with the environment. Thirdly, due to the complexity of tasks and the differences in resource supply among different vendors, collaboration is required between different vendors to complete tasks. The multi-agent DRL (MADRL) methods are very effective in solving collaborative tasks, where the collaborative tasks can be jointly completed by cloud, edge and terminal devices which provided by different vendors. This survey provides a comprehensive overview regarding the applications of DRL and MADRL in the context of CETCN. The first part of this survey provides a depth overview of the key concepts of the CETCN and the mathematical underpinnings of both DRL and MADRL. Then, we highlight the applications of RL algorithms in solving various challenges within CETCN, such as task offloading, resource allocation, caching and mobility management. In addition, we extend discussion to explore how DRL and MADRL are making inroads into emerging CETCN scenarios like intelligent transportation system (ITS), the industrial Internet of Things (IIoT), smart health and digital agriculture. Furthermore, security considerations related to the application of DRL within CETCN are addressed, along with an overview of existing standards that pertain to edge intelligence. Finally, we list several lessons learned in this evolving field and outline future research opportunities and challenges that are critical for the development of the CETCN. We hope this survey will attract more researchers to investigate scalable and decentralized AI algorithms for the design of CETCN.",
+      "year": "2023",
+      "published_date": "2023-12-01",
+      "journal": "IEEE Communications Surveys & Tutorials",
+      "url": "https://doi.org/10.1109/comst.2023.3338153",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Cloud computing",
+        "Terminal (telecommunication)",
+        "Edge computing",
+        "Reinforcement learning",
+        "Enhanced Data Rates for GSM Evolution",
+        "Task (project management)",
+        "Context (archaeology)"
+      ],
+      "citations": 70,
+      "source": "OpenAlex",
+      "doi": "10.1109/comst.2023.3338153",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "fa0b926b9f37c309406ac75f48be8e5ac005426c007734fd1067ffbae1c867e1",
+  "elapsed_seconds": 18.948,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q49_schema_single_agent_20260724_022842.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

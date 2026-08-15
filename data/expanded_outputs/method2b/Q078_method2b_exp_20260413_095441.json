@@ -1,0 +1,221 @@
+{
+  "query_id": "Q078",
+  "query": "段落完整率（SC）作为结构指标在多智能体管线评估中的作用和局限性是什么？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "reviser_provider": "deepseek",
+  "reviser_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Large language models in systematic review and meta-analysis of surgical treatments for vaginal vault prolapse.",
+      "authors": [
+        "Yunjeong Park",
+        "Hyun-Soo Zhang",
+        "Sang Wook Bai"
+      ],
+      "abstract": "Systematic reviews provide the highest level of evidence but remain resource-intensive. We evaluated the performance of a large language model (LLM; ChatGPT, OpenAI) in a PRISMA-guided review of randomized controlled trials on vaginal vault prolapse surgery. Prompts were carefully designed to minimize errors, and outputs were verified. Each task was completed within minutes. For title/abstract screening, recall was 69.8% and precision 85.7% (κ = 0.77); full-text agreement 94.1-100% (κ = 0.82-1); data extraction accuracy 87.5-99.7%. From 18 RCTs (1668 women), sacrocolpopexy (SC) showed higher anatomic success than sacrospinous fixation (SSF) (OR 1.42, 95% CI 0.71-2.84). Transvaginal mesh improved 3-year objective success compared with SSF (OR 1.84, 95% CI 1.13-2.99) but had higher reoperation rates (5-16% vs 2-4%) than SC. We did not find conclusive evidence that any single technique is superior; most comparisons were underpowered, with wide confidence intervals and substantial heterogeneity. All LLM-derived statistical results were identical to those from conventional R analyses, confirming robustness. Validated LLM workflows can enable more efficient and scalable evidence synthesis.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "NPJ digital medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41714807/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1038/s41746-026-02431-w",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models systematic review"
+    },
+    {
+      "title": "Mapping the Collaboration between Crowdsourcing and Large Language Models: A Fine-Grained Survey",
+      "authors": [
+        "Chunli Lv",
+        "Cheng Shen",
+        "Miao Xie"
+      ],
+      "abstract": "With the widespread application of Large Language Models (LLMs) in Natural Language Processing (NLP), their collaboration with crowdsourcing is becoming increasingly close. Traditional crowdsourcing models primarily undertake foundational tasks such as data collection and annotation. However, with the rapid advancements in LLMs technology, their capabilities in handling complex tasks have significantly improved. LLMs can now feedback to crowdsourcing platforms by generating tasks, verifying results and providing feedback, reshaping the core workflows of the crowdsourcing ecosystem and enhancing task design and operational efficiency. At the same time, the unique strengths of crowdsourcing in harnessing human knowledge and judgment offer crucial support for LLMs training and optimization. This is especially evident in key processes such as large-scale training data construction, human preference alignment, and model performance evaluation. As a result, the relationship between LLMs and crowdsourcing has evolved from a one-way dependency into a dynamic, collaborative, and mutually beneficial paradigm of human–AI integration. In this context, this paper presents the first comprehensive survey that spans both the LLMs and crowdsourcing domains. It aims to systematically review and analyze how LLMs empower crowdsourcing processes in areas such as task execution and quality control, while also examining the essential role of crowdsourcing in model training, feedback alignment, and evaluation. Furthermore, it identifies key challenges in current research and applications, and explores future directions for advancing human–AI collaborative intelligence and developing governance mechanisms for crowdsourcing. The papers surveyed in this work are available at: https://github.com/Ikaros-sc/crowdsourcing.",
+      "year": "2026",
+      "published_date": "2026-1-13",
+      "journal": "Crowdsourcing - Innovations in Digital Collaboration [Working Title]",
+      "url": "https://doi.org/10.5772/intechopen.1013999",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.5772/intechopen.1013999",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm survey"
+    },
+    {
+      "title": "6G Wireless Networks: Vision, Requirements, Architecture, and Key Technologies",
+      "authors": [
+        "Zhengquan Zhang",
+        "Yue Xiao",
+        "Zheng Ma",
+        "Ming Xiao",
+        "Zhiguo Ding",
+        "Xianfu Lei",
+        "George K. Karagiannidis",
+        "Pingzhi Fan"
+      ],
+      "abstract": "A key enabler for the intelligent information society of 2030, 6G networks are expected to provide performance superior to 5G and satisfy emerging services and applications. In this article, we present our vision of what 6G will be and describe usage scenarios and requirements for multi-terabyte per second (Tb/s) and intelligent 6G networks. We present a large-dimensional and autonomous network architecture that integrates space, air, ground, and underwater networks to provide ubiquitous and unlimited wireless connectivity. We also discuss artificial intelligence (AI) and machine learning [1], [2] for autonomous networks and innovative air-interface design. Finally, we identify several promising technologies for the 6G ecosystem, including terahertz (THz) communications, very-large-scale antenna arrays [i.e., supermassive (SM) multiple-input, multiple-output (MIMO)], large intelligent surfaces (LISs) and holographic beamforming (HBF), orbital angular momentum (OAM) multiplexing, laser and visible-light communications (VLC), blockchain-based spectrum sharing, quantum communications and computing, molecular communications, and the Internet of Nano-Things.",
+      "year": "2019",
+      "published_date": "2019-07-18",
+      "journal": "IEEE Vehicular Technology Magazine",
+      "url": "https://doi.org/10.1109/mvt.2019.2921208",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Wireless",
+        "Visible light communication",
+        "Key (lock)",
+        "Free-space optical communication",
+        "Telecommunications",
+        "Network architecture",
+        "Beamforming"
+      ],
+      "citations": 2428,
+      "source": "OpenAlex",
+      "doi": "10.1109/mvt.2019.2921208",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",
+      "authors": [
+        "Partha Pratim Ray"
+      ],
+      "abstract": "In recent years, artificial intelligence (AI) and machine learning have been transforming the landscape of scientific research. Out of which, the chatbot technology has experienced tremendous advancements in recent years, especially with ChatGPT emerging as a notable AI language model. This comprehensive review delves into the background, applications, key challenges, and future directions of ChatGPT. We begin by exploring its origins, development, and underlying technology, before examining its wide-ranging applications across industries such as customer service, healthcare, and education. We also highlight the critical challenges that ChatGPT faces, including ethical concerns, data biases, and safety issues, while discussing potential mitigation strategies. Finally, we envision the future of ChatGPT by exploring areas of further research and development, focusing on its integration with other technologies, improved human-AI interaction, and addressing the digital divide. This review offers valuable insights for researchers, developers, and stakeholders interested in the ever-evolving landscape of AI-driven conversational agents. This study explores the various ways ChatGPT has been revolutionizing scientific research, spanning from data processing and hypothesis generation to collaboration and public outreach. Furthermore, the paper examines the potential challenges and ethical concerns surrounding the use of ChatGPT in research, while highlighting the importance of striking a balance between AI-assisted innovation and human expertise. The paper presents several ethical issues in existing computing domain and how ChatGPT can invoke challenges to such notion. This work also includes some biases and limitations of ChatGPT. It is worth to note that despite of several controversies and ethical concerns, ChatGPT has attracted remarkable attentions from academia, research, and industries in a very short span of time.",
+      "year": "2023",
+      "published_date": "2023-01-01",
+      "journal": "Internet of Things and Cyber-Physical Systems",
+      "url": "https://doi.org/10.1016/j.iotcps.2023.04.003",
+      "arxiv_id": "",
+      "keywords": [
+        "Scope (computer science)",
+        "Engineering ethics",
+        "Data science",
+        "Computer science",
+        "Knowledge management",
+        "Management science",
+        "Engineering"
+      ],
+      "citations": 2286,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.iotcps.2023.04.003",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_c5c51d77f3",
+      "title": "Multi-agent systems: A survey",
+      "abstract": "… Multi Agent Learning (MAL) systems. The following challenges increase the complexity of adopting learning systems for … Mao, “Cross-clouds services autonomic management approach …",
+      "authors": [
+        "A Dorri",
+        "SS Kanhere",
+        "R Jurdak"
+      ],
+      "year": 2018,
+      "journal": "A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org",
+      "citations": 1529,
+      "url": "https://ieeexplore.ieee.org/abstract/document/8352646/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Electricity market design for the prosumer era",
+      "authors": [
+        "Yael Parag",
+        "Benjamin K. Sovacool"
+      ],
+      "abstract": "Prosumers are agents that both consume and produce energy. With the growth in small and medium-sized agents using solar photovoltaic panels, smart meters, vehicle-to-grid electric automobiles, home batteries and other ‘smart’ devices, prosuming offers the potential for consumers and vehicle owners to re-evaluate their energy practices. As the number of prosumers increases, the electric utility sector of today is likely to undergo significant changes over the coming decades, offering possibilities for greening of the system, but also bringing many unknowns and risks that need to be identified and managed. To develop strategies for the future, policymakers and planners need knowledge of how prosumers could be integrated effectively and efficiently into competitive electricity markets. Here we identify and discuss three promising potential prosumer markets related to prosumer grid integration, peer-to-peer models and prosumer community groups. We also caution against optimism by laying out a series of caveats and complexities. Small-scale renewable energy systems and smart technologies are enabling energy consumers to become producers and service providers as well. This Perspective explores this ‘prosumption’ phenomenon, highlighting three promising prosumer market models and the challenges for future implementation.",
+      "year": "2016",
+      "published_date": "2016-03-21",
+      "journal": "Nature Energy",
+      "url": "https://doi.org/10.1038/nenergy.2016.32",
+      "arxiv_id": "",
+      "keywords": [
+        "Prosumer",
+        "Renewable energy",
+        "Smart grid",
+        "Business",
+        "Environmental economics",
+        "Electricity",
+        "Photovoltaic system",
+        "Service provider"
+      ],
+      "citations": 1193,
+      "source": "OpenAlex",
+      "doi": "10.1038/nenergy.2016.32",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "AI-based chatbots in customer service and their effects on user compliance",
+      "authors": [
+        "Martin Adam",
+        "Michael Wessel",
+        "Alexander Benlian"
+      ],
+      "abstract": "Abstract Communicating with customers through live chat interfaces has become an increasingly popular means to provide real-time customer service in many e-commerce settings. Today, human chat service agents are frequently replaced by conversational software agents or chatbots, which are systems designed to communicate with human users by means of natural language often based on artificial intelligence (AI). Though cost- and time-saving opportunities triggered a widespread implementation of AI-based chatbots, they still frequently fail to meet customer expectations, potentially resulting in users being less inclined to comply with requests made by the chatbot. Drawing on social response and commitment-consistency theory, we empirically examine through a randomized online experiment how verbal anthropomorphic design cues and the foot-in-the-door technique affect user request compliance. Our results demonstrate that both anthropomorphism as well as the need to stay consistent significantly increase the likelihood that users comply with a chatbot’s request for service feedback. Moreover, the results show that social presence mediates the effect of anthropomorphic design cues on user compliance.",
+      "year": "2020",
+      "published_date": "2020-03-17",
+      "journal": "Electronic Markets",
+      "url": "https://doi.org/10.1007/s12525-020-00414-7",
+      "arxiv_id": "",
+      "keywords": [
+        "Chatbot",
+        "Consistency (knowledge bases)",
+        "Computer science",
+        "Compliance (psychology)",
+        "Customer service",
+        "Service (business)",
+        "Human–computer interaction",
+        "Dialog system"
+      ],
+      "citations": 1014,
+      "source": "OpenAlex",
+      "doi": "10.1007/s12525-020-00414-7",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Adoption of AI-based chatbots for hospitality and tourism",
+      "authors": [
+        "Rajasshrie Pillai",
+        "Brijesh Sivathanu"
+      ],
+      "abstract": "Purpose This study aims to investigate the customers’ behavioral intention and actual usage (AUE) of artificial intelligence (AI)-powered chatbots for hospitality and tourism in India by extending the technology adoption model (TAM) with context-specific variables. Design/methodology/approach To understand the customers’ behavioral intention and AUE of AI-powered chatbots for tourism, the mixed-method design was used whereby qualitative and quantitative techniques were combined. A total of 36 senior managers and executives from the travel agencies were interviewed and the analysis of interview data was done using NVivo 8.0 software. A total of 1,480 customers were surveyed and the partial least squares structural equation modeling technique was used for data analysis. Findings As per the results, the predictors of chatbot adoption intention (AIN) are perceived ease of use, perceived usefulness, perceived trust (PTR), perceived intelligence (PNT) and anthropomorphism (ANM). Technological anxiety (TXN) does not influence the chatbot AIN. Stickiness to traditional human travel agents negatively moderates the relation of AIN and AUE of chatbots in tourism and provides deeper insights into manager’s commitment to providing travel planning services using AI-based chatbots. Practical implications This research presents unique practical insights to the practitioners, managers and executives in the tourism industry, system designers and developers of AI-based chatbot technologies to understand the antecedents of chatbot adoption by travelers. TXN is a vital concern for the customers; so, designers and developers should ensure that chatbots are easily accessible, have a user-friendly interface, be more human-like and communicate in various native languages with the customers. Originality/value This study contributes theoretically by extending the TAM to provide better explanatory power with human–robot interaction context-specific constructs – PTR, PNT, ANM and TXN – to examine the customers’ chatbot AIN. This is the first step in the direction to empirically test and validate a theoretical model for chatbots’ adoption and usage, which is a disruptive technology in the hospitality and tourism sector in an emerging economy such as India.",
+      "year": "2020",
+      "published_date": "2020-09-10",
+      "journal": "International Journal of Contemporary Hospitality Management",
+      "url": "https://doi.org/10.1108/ijchm-04-2020-0259",
+      "arxiv_id": "",
+      "keywords": [
+        "Chatbot",
+        "Tourism",
+        "Hospitality",
+        "Context (archaeology)",
+        "Marketing",
+        "Knowledge management",
+        "Consumer behaviour",
+        "Computer science"
+      ],
+      "citations": 855,
+      "source": "OpenAlex",
+      "doi": "10.1108/ijchm-04-2020-0259",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "timestamp": "20260413_095441"
+}

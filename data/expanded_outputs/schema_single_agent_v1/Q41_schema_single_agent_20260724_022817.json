@@ -1,0 +1,248 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q41",
+  "query": "在冻结语料设置下，reranking agent 应优先优化相关性、可引用性还是摘要质量？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q41_method1_exp_20260412_234636.json",
+  "same_query_evidence_ids": [
+    "title:multi-agent systems: a survey|2018",
+    "title:a multi-agent based system with big data processing for enhanced supply chain agility|2016",
+    "doi:10.1109/access.2019.2902846",
+    "doi:10.1109/tits.2023.3242997",
+    "title:resource allocation and service provisioning in multi-agent cloud robotics: a comprehensive survey|2021",
+    "doi:10.1109/tnse.2021.3077766",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.1109/tvt.2022.3173057"
+  ],
+  "all_retrieved_ids": [
+    "title:multi-agent systems: a survey|2018",
+    "title:a multi-agent based system with big data processing for enhanced supply chain agility|2016",
+    "doi:10.1109/access.2019.2902846",
+    "doi:10.1109/tits.2023.3242997",
+    "title:resource allocation and service provisioning in multi-agent cloud robotics: a comprehensive survey|2021",
+    "doi:10.1109/tnse.2021.3077766",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.1109/tvt.2022.3173057"
+  ],
+  "top_papers": [
+    {
+      "id": "gs_c5c51d77f3",
+      "title": "Multi-agent systems: A survey",
+      "abstract": "… Multi Agent Learning (MAL) systems. The following challenges increase the complexity of adopting learning systems for … Mao, “Cross-clouds services autonomic management approach …",
+      "authors": [
+        "A Dorri",
+        "SS Kanhere",
+        "R Jurdak"
+      ],
+      "year": 2018,
+      "journal": "A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org",
+      "citations": 1529,
+      "url": "https://ieeexplore.ieee.org/abstract/document/8352646/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_f767c11b93",
+      "title": "A multi-agent based system with big data processing for enhanced supply chain agility",
+      "abstract": "… chain information technologies to multi-agent systems For the benefits of e-business to be fully materialised there is a need for information systems … enrich semantic web services with its …",
+      "authors": [
+        "M Giannakis",
+        "M Louis"
+      ],
+      "year": 2016,
+      "journal": "M Giannakis, M Louis - Journal of Enterprise Information …, 2016 - emerald.com",
+      "citations": 304,
+      "url": "https://www.emerald.com/jeim/article/29/5/706/197596",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Multi-Objective Workflow Scheduling With Deep-Q-Network-Based Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Yuandou Wang",
+        "Hang Liu",
+        "Wanbo Zheng",
+        "Yunni Xia",
+        "Yawen Li",
+        "Peng Chen",
+        "Kunyin Guo",
+        "Hong Xie"
+      ],
+      "abstract": "Cloud Computing provides an effective platform for executing large-scale and complex workflow applications with a pay-as-you-go model. Nevertheless, various challenges, especially its optimal scheduling for multiple conflicting objectives, are yet to be addressed properly. The existing multi-objective workflow scheduling approaches are still limited in many ways, e.g., encoding is restricted by prior experts’ knowledge when handling a dynamic real-time problem, which strongly influences the performance of scheduling. In this paper, we apply a deep-Q-network model in a multi-agent reinforcement learning setting to guide the scheduling of multi-workflows over infrastructure-as-a-service clouds. To optimize multi-workflow completion time and user’s cost, we consider a Markov game model, which takes the number of workflow applications and heterogeneous virtual machines as state input and the maximum completion time and cost as rewards. The game model is capable of seeking for correlated equilibrium between make-span and cost criteria without prior experts’ knowledge and converges to the correlated equilibrium policy in a dynamic real-time environment. To validate our proposed approach, we conduct extensive case studies based on multiple well-known scientific workflow templates and Amazon EC2 cloud. The experimental results clearly suggest that our proposed approach outperforms traditional ones, e.g., non-dominated sorting genetic algorithm-II, multi-objective particle swarm optimization, and game-theoretic-based greedy algorithms, in terms of optimality of scheduling plans generated.",
+      "year": "2019",
+      "published_date": "2019-01-01",
+      "journal": "IEEE Access",
+      "url": "https://doi.org/10.1109/access.2019.2902846",
+      "arxiv_id": "",
+      "keywords": [
+        "Reinforcement learning",
+        "Computer science",
+        "Workflow",
+        "Scheduling (production processes)",
+        "Distributed computing",
+        "Q-learning",
+        "Artificial intelligence",
+        "Computer network"
+      ],
+      "citations": 281,
+      "source": "OpenAlex",
+      "doi": "10.1109/access.2019.2902846",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Joint Secure Offloading and Resource Allocation for Vehicular Edge Computing Network: A Multi-Agent Deep Reinforcement Learning Approach",
+      "authors": [
+        "Ying Ju",
+        "Yuchao Chen",
+        "Zhiwei Cao",
+        "Lei Liu",
+        "Qingqi Pei",
+        "Ming Xiao",
+        "Kaoru Ota",
+        "Mianxiong Dong",
+        "Victor C. M. Leung"
+      ],
+      "abstract": "The mobile edge computing (MEC) technology can simultaneously provide high-speed computing services for multiple vehicular users (VUs) in vehicular edge computing (VEC) networks. Nevertheless, due to the open feature of the wireless offloading channels and the high mobility of the vehicles, the security and stability of the offloading process would be seriously degraded. In this paper, by utilizing the physical layer security (PLS) technique and spectrum sharing architecture, we propose a deep reinforcement learning based joint secure offloading and resource allocation (SORA) scheme to improve the secrecy performance and resource efficiency of the multi-user VEC networks, where the VU offloading links share the frequency spectrum preoccupied with the vehicle-to-vehicle (V2V) communication links. We use Wyner’s wiretap coding scheme to obtain the achievable secrecy rate and guarantee that confidential information cannot be decoded by multiple mobile eavesdroppers. We aim at minimizing the system processing delay while securing the wireless offloading process, by jointly optimizing the transmit power, the frequency spectrum selection and the computation resource allocation. We formulate the optimization problem as a multi-agent collaborative optimal decision problem and solve it with a double deep Q-learning algorithm. Besides, we set a punishment mechanism for the rate degradation to guarantee the communication quality of each V2V link. Simulation results demonstrate that multiple VU agents adopting the SORA scheme can rapidly adapt to the highly dynamic VEC networks and cooperate to improve the system delay performance while increasing the secrecy probability.",
+      "year": "2023",
+      "published_date": "2023-02-10",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "url": "https://doi.org/10.1109/tits.2023.3242997",
+      "arxiv_id": "",
+      "keywords": [
+        "Reinforcement learning",
+        "Computer science",
+        "Joint (building)",
+        "Resource allocation",
+        "Distributed computing",
+        "Artificial intelligence",
+        "Edge computing",
+        "Enhanced Data Rates for GSM Evolution"
+      ],
+      "citations": 212,
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2023.3242997",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_9002d267da",
+      "title": "Resource allocation and service provisioning in multi-agent cloud robotics: A comprehensive survey",
+      "abstract": "… and service provisioning policies for multi-agent cloud robotics. To the best of our knowledge, … on resource allocation and service provisioning problem in multiagent cloud robotics. This …",
+      "authors": [
+        "M Afrin",
+        "J Jin",
+        "A Rahman",
+        "A Rahman"
+      ],
+      "year": 2021,
+      "journal": "M Afrin, J Jin, A Rahman, A Rahman… - … Surveys & Tutorials, 2021 - ieeexplore.ieee.org",
+      "citations": 211,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9360855/",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Event-Triggered Adaptive Fault-Tolerant Pinning Control for Cluster Consensus of Heterogeneous Nonlinear Multi-Agent Systems Under Aperiodic DoS Attacks",
+      "authors": [
+        "Xiang‐Gui Guo",
+        "Pei-Ming Liu",
+        "Jianliang Wang",
+        "Choon Ki Ahn"
+      ],
+      "abstract": "This paper presents an event-triggered cluster consensus scheme for heterogeneous nonlinear second-order multi-agent systems (MASs) subject to cyber attacks (i.e., aperiodic denial-of-service (DoS) attacks), actuator faults and integral quadratic constraints (IQCs) under directed communication topology containing a directed spanning tree. Based on local communication, an event-triggered adaptive fault-tolerant pinning control scheme is designed to achieve cluster consensus under simultaneous cyber attacks and actuator faults. The proposed control scheme does not require the communication topology to satisfy the in-degree balance between different clusters. Furthermore, the fault-tolerant control part only needs to estimate one parameter for each agent. Instead of requiring continuous information on its neighbors to determine the trigger instants as in the previous literature, an event-triggered mechanism that does not require periodic sampling of neighbors' information is developed to save network resources, and the Zeno behavior is excluded. Finally, a simulation example confirms the effectiveness and superiority of the proposed control scheme.",
+      "year": "2021",
+      "published_date": "2021-04-01",
+      "journal": "IEEE Transactions on Network Science and Engineering",
+      "url": "https://doi.org/10.1109/tnse.2021.3077766",
+      "arxiv_id": "",
+      "keywords": [
+        "Aperiodic graph",
+        "Computer science",
+        "Multi-agent system",
+        "Denial-of-service attack",
+        "Distributed computing",
+        "Fault tolerance",
+        "Control theory (sociology)",
+        "Network topology"
+      ],
+      "citations": 173,
+      "source": "OpenAlex",
+      "doi": "10.1109/tnse.2021.3077766",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_f95d8dcfd3",
+      "title": "A survey of ai agent protocols",
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …",
+      "authors": [
+        "Y Yang",
+        "H Chai",
+        "Y Song",
+        "S Qi",
+        "M Wen",
+        "N Li"
+      ],
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "citations": 156,
+      "url": "https://arxiv.org/abs/2504.16736",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Federated Multi-Agent Deep Reinforcement Learning for Resource Allocation of Vehicle-to-Vehicle Communications",
+      "authors": [
+        "Xiang Li",
+        "Lingyun Lu",
+        "Wei Ni",
+        "Abbas Jamalipour",
+        "Dalin Zhang",
+        "Haifeng Du"
+      ],
+      "abstract": "Dynamic topology, fast-changing channels and the time sensitivity of safety-related services present challenges to the status quo of resource allocation for cellular-underlaying vehicle-to-vehicle (V2V) communications. In this paper, we investigate a novel federated multi-agent deep reinforcement learning (FedMARL) approach for the decentralized joint optimization of channel selection and power control for V2V communication. The approach takes advantage of both deep reinforcement learning (DRL) and federated learning (FL), satisfying the reliability and delay requirements of V2V communication while maximizing the transmit rates of cellular links. Specifically, we elaborately construct individual V2V agent implement by the dueling double deep Q-network (D3QN), and design the reward function to train V2V agents collaboratively. As a result, each agent individually optimizes channel selection and power level based on its local observations, including the instantaneous channel state information (CSI) of corresponding V2V link, the instantaneous co-channel interference from the cellular link, the previous channels selections of nearby V2V pairs, and the queue backlog at the V2V transmitter. Another important aspect is that we incorporate FL to alleviate the training instability problem induced by cooperative multi-agent environment. The local DRL models of different V2V agents are federated periodically, addressing the limitations of partial observability on the entire network status for individual agent, and accelerating the training process of multi-agent learning. Validated via simulations, the proposed FedMARL scheme shows superiority to the baselines in terms of the cellular sum-rate and the V2V packet delivery rate.",
+      "year": "2022",
+      "published_date": "2022-05-06",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "url": "https://doi.org/10.1109/tvt.2022.3173057",
+      "arxiv_id": "",
+      "keywords": [
+        "Reinforcement learning",
+        "Computer science",
+        "Network packet",
+        "Channel (broadcasting)",
+        "Computer network",
+        "Resource allocation",
+        "Distributed computing",
+        "Artificial intelligence"
+      ],
+      "citations": 154,
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2022.3173057",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "7266cadcbfd7644393bd49606bd123908aa3f3a54113b6ed20648373b87670bc",
+  "elapsed_seconds": 13.791,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q41_schema_single_agent_20260724_022817.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

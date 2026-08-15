@@ -1,0 +1,692 @@
+{
+    "schema_version":  "1.0",
+    "generated_at":  "2026-04-29",
+    "description":  "Per-configuration run manifest for the IPM submission. Each entry binds a reported configuration to its corpus snapshot (SHA-256), model providers, decoding parameters, output directory, evaluation command, and reproduced metrics. See README_REPRODUCE.md for the canonical reproduction procedure.",
+    "corpora":  {
+                    "pilot_mas_513":  {
+                                          "path":  "data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json",
+                                          "sha256":  "1a146fe065f2f99e6521f19db2c9d36245767def2cca4fb2a4b5c5d33a80288e",
+                                          "size_bytes":  855680,
+                                          "n_papers":  513,
+                                          "domain":  "multi_agent_information_services",
+                                          "use":  "Pilot benchmark (Q01-Q30, Q31-Q60); AutoSurvey-comparison snapshot."
+                                      },
+                    "multidomain_expanded_3011":  {
+                                                      "path":  "data/frozen_corpus_multidomain_v1.json",
+                                                      "sha256":  "e0182eacde3b779ea0aac13415625a807488ad942e7d097d9cc349bc0a7bff84",
+                                                      "size_bytes":  6718112,
+                                                      "n_papers":  3011,
+                                                      "domains":  [
+                                                                      "multi_agent_information_services",
+                                                                      "digital_humanities",
+                                                                      "biomedical_evidence_synthesis",
+                                                                      "climate_policy_research"
+                                                                  ],
+                                                      "use":  "Expanded multi-domain benchmark (n=251)."
+                                                  }
+                },
+    "global_settings":  {
+                            "fuzzy_match_threshold_tau":  0.72,
+                            "evidence_dictionary_size_k_evidence":  8,
+                            "screening_top_k_screen":  15,
+                            "max_arl_rounds":  2,
+                            "seed":  null,
+                            "seed_note":  "DeepSeek and Kimi APIs do not expose a seed parameter; OpenAI\u0027s seed parameter is documented as best-effort and was not pinned in this study. All system outputs R_{c,q} are preserved verbatim under data/expanded_outputs/\u003cconfig\u003e/ and data/baselines/ so the reported metrics are reproducible from the stored outputs even though end-to-end re-generation from the raw API would not be byte-identical."
+                        },
+    "configurations":  [
+                           {
+                               "config_id":  "baseline_a",
+                               "label_in_paper":  "Baseline A (Zero-Shot)",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "deepseek",
+                                                            "model":  "deepseek-chat"
+                                                        }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.3,
+                                                "top_p":  null,
+                                                "max_tokens_writer":  4096,
+                                                "note":  "top_p left at provider default (1.0); no explicit seed."
+                                            },
+                               "evidence_state":  "none",
+                               "outputs_dir":  "data/baselines/",
+                               "outputs_pattern":  "Q*_baseline_a_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/baselines --tag baseline_a --query-ids Q01-Q30",
+                               "metrics_reproduced":  {
+                                                          "ICP":  0.000,
+                                                          "ECP":  0.000,
+                                                          "Orphan":  0.000,
+                                                          "n_queries":  30
+                                                      },
+                               "corpus":  "data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json",
+                               "corpus_sha256":  "1a146fe065f2f99e6521f19db2c9d36245767def2cca4fb2a4b5c5d33a80288e",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/baselines --tag baseline_a --query-ids Q01-Q30",
+                               "output_dir":  "data/baselines/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.3,
+                                                   "top_p":  null,
+                                                   "max_tokens_writer":  4096,
+                                                   "note":  "top_p left at provider default (1.0); no explicit seed."
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "baseline_b",
+                               "label_in_paper":  "Baseline B (RAG)",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "deepseek",
+                                                            "model":  "deepseek-chat"
+                                                        }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.3,
+                                                "top_p":  null,
+                                                "max_tokens_writer":  4096,
+                                                "note":  "Top-15 retrieved abstracts attached to prompt; one-shot generation."
+                                            },
+                               "evidence_state":  "candidate (top-15 retrieved abstracts attached as context)",
+                               "outputs_dir":  "data/baselines/",
+                               "outputs_pattern":  "Q*_baseline_b_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/baselines --tag baseline_b --query-ids Q01-Q30",
+                               "metrics_reproduced":  {
+                                                          "ICP":  0.000,
+                                                          "ECP":  0.000,
+                                                          "Orphan":  0.067,
+                                                          "n_queries":  30
+                                                      },
+                               "corpus":  "data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json",
+                               "corpus_sha256":  "1a146fe065f2f99e6521f19db2c9d36245767def2cca4fb2a4b5c5d33a80288e",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/baselines --tag baseline_b --query-ids Q01-Q30",
+                               "output_dir":  "data/baselines/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.3,
+                                                   "top_p":  null,
+                                                   "max_tokens_writer":  4096,
+                                                   "note":  "Top-15 retrieved abstracts attached to prompt; one-shot generation."
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "method1_pilot",
+                               "label_in_paper":  "Core workflow (Method 1), pilot (n=30)",
+                               "model":  {
+                                             "retrieval_helper":  {
+                                                                      "provider":  "deepseek",
+                                                                      "model":  "deepseek-chat"
+                                                                  },
+                                             "screening":  {
+                                                               "provider":  "deepseek",
+                                                               "model":  "deepseek-chat"
+                                                           },
+                                             "extraction":  {
+                                                                "provider":  "deepseek",
+                                                                "model":  "deepseek-chat"
+                                                            },
+                                             "synthesis":  {
+                                                               "provider":  "deepseek",
+                                                               "model":  "deepseek-chat"
+                                                           }
+                                         },
+                               "decoding":  {
+                                                "retrieval_helper_temperature":  0.1,
+                                                "screening_temperature":  0.1,
+                                                "extraction_temperature":  0.1,
+                                                "synthesis_temperature":  0.3,
+                                                "top_p":  null,
+                                                "note":  "Per-stage temperatures fixed in scripts/batch_run_method1.py. screen top-k=15, evidence top-k=8."
+                                            },
+                               "evidence_state":  "bounded E_q (k_evidence=8) from pilot 513-paper corpus",
+                               "outputs_dir":  "data/method1_outputs/",
+                               "outputs_pattern":  "Q*_method1_*.md (Q01-Q30 subset)",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method1_outputs --tag method1 --query-ids Q01-Q30",
+                               "metrics_reproduced":  {
+                                                          "ICP":  0.573,
+                                                          "ECP":  0.554,
+                                                          "Orphan":  0.417,
+                                                          "n_queries":  30
+                                                      },
+                               "corpus":  "data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json",
+                               "corpus_sha256":  "1a146fe065f2f99e6521f19db2c9d36245767def2cca4fb2a4b5c5d33a80288e",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method1_outputs --tag method1 --query-ids Q01-Q30",
+                               "output_dir":  "data/method1_outputs/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "retrieval_helper_temperature":  0.1,
+                                                   "screening_temperature":  0.1,
+                                                   "extraction_temperature":  0.1,
+                                                   "synthesis_temperature":  0.3,
+                                                   "top_p":  null,
+                                                   "note":  "Per-stage temperatures fixed in scripts/batch_run_method1.py. screen top-k=15, evidence top-k=8."
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "method2a_pilot",
+                               "label_in_paper":  "Cross-model constrained review (Method 2a), pilot (n=30)",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "deepseek",
+                                                            "model":  "deepseek-chat"
+                                                        },
+                                             "reviewer":  {
+                                                              "provider":  "kimi",
+                                                              "model":  "moonshot-v1-32k"
+                                                          },
+                                             "reviser":  {
+                                                             "provider":  "deepseek",
+                                                             "model":  "deepseek-chat"
+                                                         }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.1,
+                                                "reviewer_temperature":  0.2,
+                                                "reviser_temperature":  0.2,
+                                                "top_p":  null,
+                                                "note":  "Per-stage temperatures fixed in scripts/batch_run_method2.py."
+                                            },
+                               "evidence_state":  "bounded E_q shared across writer/reviewer/reviser",
+                               "outputs_dir":  "data/method2_outputs/",
+                               "outputs_pattern":  "Q*_method2_*.md (Q01-Q30, cross-model condition)",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method2_outputs --tag method2 --query-ids Q01-Q30",
+                               "metrics_reproduced":  {
+                                                          "ICP":  1.000,
+                                                          "ECP":  1.000,
+                                                          "Orphan":  0.004,
+                                                          "n_queries":  30
+                                                      },
+                               "corpus":  "data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json",
+                               "corpus_sha256":  "1a146fe065f2f99e6521f19db2c9d36245767def2cca4fb2a4b5c5d33a80288e",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method2_outputs --tag method2 --query-ids Q01-Q30",
+                               "output_dir":  "data/method2_outputs/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.1,
+                                                   "reviewer_temperature":  0.2,
+                                                   "reviser_temperature":  0.2,
+                                                   "top_p":  null,
+                                                   "note":  "Per-stage temperatures fixed in scripts/batch_run_method2.py."
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "method2b_pilot",
+                               "label_in_paper":  "Same-model constrained review (Method 2b), pilot (n=30)",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "deepseek",
+                                                            "model":  "deepseek-chat"
+                                                        },
+                                             "reviewer":  {
+                                                              "provider":  "deepseek",
+                                                              "model":  "deepseek-chat"
+                                                          },
+                                             "reviser":  {
+                                                             "provider":  "deepseek",
+                                                             "model":  "deepseek-chat"
+                                                         }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.1,
+                                                "reviewer_temperature":  0.2,
+                                                "reviser_temperature":  0.2,
+                                                "top_p":  null,
+                                                "note":  "Per-stage temperatures fixed in scripts/batch_run_method2_same_model.py."
+                                            },
+                               "evidence_state":  "bounded E_q shared across writer/reviewer/reviser",
+                               "outputs_dir":  "data/method2_same_model_outputs/",
+                               "outputs_pattern":  "Q*_method2_same_model_*.md (Q01-Q30)",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method2_same_model_outputs --tag method2_same_model --query-ids Q01-Q30",
+                               "metrics_reproduced":  {
+                                                          "ICP":  1.000,
+                                                          "ECP":  1.000,
+                                                          "Orphan":  0.017,
+                                                          "n_queries":  30
+                                                      },
+                               "corpus":  "data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json",
+                               "corpus_sha256":  "1a146fe065f2f99e6521f19db2c9d36245767def2cca4fb2a4b5c5d33a80288e",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method2_same_model_outputs --tag method2_same_model --query-ids Q01-Q30",
+                               "output_dir":  "data/method2_same_model_outputs/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.1,
+                                                   "reviewer_temperature":  0.2,
+                                                   "reviser_temperature":  0.2,
+                                                   "top_p":  null,
+                                                   "note":  "Per-stage temperatures fixed in scripts/batch_run_method2_same_model.py."
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "method1_expanded",
+                               "label_in_paper":  "Method 1 on expanded benchmark (n=251)",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "deepseek",
+                                                            "model":  "deepseek-chat"
+                                                        }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.1,
+                                                "synthesis_temperature":  0.3,
+                                                "top_p":  null,
+                                                "note":  "Per-stage temperatures inherited from batch_run_method1.py."
+                                            },
+                               "evidence_state":  "bounded E_q (k_evidence=8) from 3,011-paper multi-domain corpus",
+                               "outputs_dir":  "data/expanded_outputs/method1/",
+                               "outputs_pattern":  "Q*_method1_exp_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/expanded_outputs/method1 --tag method1 --query-ids Q01-Q251",
+                               "metrics_reproduced":  {
+                                                          "CP":  0.618,
+                                                          "BMR":  0.619,
+                                                          "CUR":  0.386,
+                                                          "AbsCov":  0.949,
+                                                          "n_queries":  251
+                                                      },
+                               "corpus":  "data/frozen_corpus_multidomain_v1.json",
+                               "corpus_sha256":  "e0182eacde3b779ea0aac13415625a807488ad942e7d097d9cc349bc0a7bff84",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/expanded_outputs/method1 --tag method1 --query-ids Q01-Q251",
+                               "output_dir":  "data/expanded_outputs/method1/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.1,
+                                                   "synthesis_temperature":  0.3,
+                                                   "top_p":  null,
+                                                   "note":  "Per-stage temperatures inherited from batch_run_method1.py."
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "method2a_expanded",
+                               "label_in_paper":  "Cross-model ARL on expanded benchmark (M2a, n=251)",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "deepseek",
+                                                            "model":  "deepseek-chat"
+                                                        },
+                                             "reviewer":  {
+                                                              "provider":  "kimi",
+                                                              "model":  "moonshot-v1-32k"
+                                                          },
+                                             "reviser":  {
+                                                             "provider":  "deepseek",
+                                                             "model":  "deepseek-chat"
+                                                         }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.1,
+                                                "reviewer_temperature":  0.2,
+                                                "reviser_temperature":  0.2,
+                                                "top_p":  null
+                                            },
+                               "evidence_state":  "bounded E_q shared across roles, multi-domain corpus",
+                               "outputs_dir":  "data/expanded_outputs/method2a/",
+                               "outputs_pattern":  "Q*_method2a_exp_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/expanded_outputs/method2a --tag method2 --query-ids Q01-Q251",
+                               "metrics_reproduced":  {
+                                                          "CP":  0.624,
+                                                          "BMR":  0.624,
+                                                          "CUR":  0.377,
+                                                          "AbsCov":  0.949,
+                                                          "n_queries":  251
+                                                      },
+                               "corpus":  "data/frozen_corpus_multidomain_v1.json",
+                               "corpus_sha256":  "e0182eacde3b779ea0aac13415625a807488ad942e7d097d9cc349bc0a7bff84",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/expanded_outputs/method2a --tag method2 --query-ids Q01-Q251",
+                               "output_dir":  "data/expanded_outputs/method2a/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.1,
+                                                   "reviewer_temperature":  0.2,
+                                                   "reviser_temperature":  0.2,
+                                                   "top_p":  null
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "method2b_expanded",
+                               "label_in_paper":  "Same-model ARL on expanded benchmark (M2b, n=251)",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "deepseek",
+                                                            "model":  "deepseek-chat"
+                                                        },
+                                             "reviewer":  {
+                                                              "provider":  "deepseek",
+                                                              "model":  "deepseek-chat"
+                                                          },
+                                             "reviser":  {
+                                                             "provider":  "deepseek",
+                                                             "model":  "deepseek-chat"
+                                                         }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.1,
+                                                "reviewer_temperature":  0.2,
+                                                "reviser_temperature":  0.2,
+                                                "top_p":  null
+                                            },
+                               "evidence_state":  "bounded E_q shared across roles, multi-domain corpus",
+                               "outputs_dir":  "data/expanded_outputs/method2b/",
+                               "outputs_pattern":  "Q*_method2b_exp_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/expanded_outputs/method2b --tag method2_same_model --query-ids Q01-Q251",
+                               "metrics_reproduced":  {
+                                                          "CP":  0.627,
+                                                          "BMR":  0.626,
+                                                          "CUR":  0.379,
+                                                          "AbsCov":  0.949,
+                                                          "n_queries":  251
+                                                      },
+                               "corpus":  "data/frozen_corpus_multidomain_v1.json",
+                               "corpus_sha256":  "e0182eacde3b779ea0aac13415625a807488ad942e7d097d9cc349bc0a7bff84",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/expanded_outputs/method2b --tag method2_same_model --query-ids Q01-Q251",
+                               "output_dir":  "data/expanded_outputs/method2b/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.1,
+                                                   "reviewer_temperature":  0.2,
+                                                   "reviser_temperature":  0.2,
+                                                   "top_p":  null
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "method2c_expanded",
+                               "label_in_paper":  "Weak-capacity ARL on expanded benchmark (M2c, n=251)",
+                               "implementation_id":  "method2d",
+                               "implementation_id_note":  "The configuration is labelled M2c throughout the paper to keep the pilot-to-expanded numbering contiguous; the on-disk identifier is method2d, retained verbatim in the released code and outputs to preserve reproducibility.",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "openai",
+                                                            "model":  "gpt-4o-mini"
+                                                        },
+                                             "reviewer":  {
+                                                              "provider":  "openai",
+                                                              "model":  "gpt-4o-mini"
+                                                          },
+                                             "reviser":  {
+                                                             "provider":  "openai",
+                                                             "model":  "gpt-4o-mini"
+                                                         }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.1,
+                                                "reviewer_temperature":  0.2,
+                                                "reviser_temperature":  0.2,
+                                                "top_p":  null,
+                                                "max_tokens_reviewer":  1200,
+                                                "note":  "Reviewer output budget capped at 1,200 tokens, limiting list-comparison depth (see paper Section 4.1)."
+                                            },
+                               "evidence_state":  "bounded E_q, multi-domain corpus, weak reviewer",
+                               "outputs_dir":  "data/expanded_outputs/method2d/",
+                               "outputs_pattern":  "Q*_method2d_exp_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/expanded_outputs/method2d --tag method2c --query-ids Q01-Q251",
+                               "metrics_reproduced":  {
+                                                          "CP":  0.615,
+                                                          "BMR":  0.614,
+                                                          "CUR":  0.720,
+                                                          "AbsCov":  0.949,
+                                                          "n_queries":  251
+                                                      },
+                               "corpus":  "data/frozen_corpus_multidomain_v1.json",
+                               "corpus_sha256":  "e0182eacde3b779ea0aac13415625a807488ad942e7d097d9cc349bc0a7bff84",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/expanded_outputs/method2d --tag method2c --query-ids Q01-Q251",
+                               "output_dir":  "data/expanded_outputs/method2d/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.1,
+                                                   "reviewer_temperature":  0.2,
+                                                   "reviser_temperature":  0.2,
+                                                   "top_p":  null,
+                                                   "max_tokens_reviewer":  1200,
+                                                   "note":  "Reviewer output budget capped at 1,200 tokens, limiting list-comparison depth (see paper Section 4.1)."
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "method3_self_critique",
+                               "label_in_paper":  "Self-critique control (Method 3), n=60",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "deepseek",
+                                                            "model":  "deepseek-chat"
+                                                        },
+                                             "self_critic":  {
+                                                                 "provider":  "deepseek",
+                                                                 "model":  "deepseek-chat"
+                                                             }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.1,
+                                                "critic_temperature":  0.2,
+                                                "top_p":  null
+                                            },
+                               "evidence_state":  "bounded E_q, single-agent self-critique (no role separation)",
+                               "outputs_dir":  "data/method3_outputs/",
+                               "outputs_pattern":  "Q*_method3_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method3_outputs --tag method3 --query-ids Q01-Q60",
+                               "metrics_reproduced":  {
+                                                          "ICP":  0.967,
+                                                          "Orphan":  0.035,
+                                                          "n_queries":  60
+                                                      },
+                               "corpus":  "data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json",
+                               "corpus_sha256":  "1a146fe065f2f99e6521f19db2c9d36245767def2cca4fb2a4b5c5d33a80288e",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method3_outputs --tag method3 --query-ids Q01-Q60",
+                               "output_dir":  "data/method3_outputs/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.1,
+                                                   "critic_temperature":  0.2,
+                                                   "top_p":  null
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "method4_cot_verification",
+                               "label_in_paper":  "CoT verification control (Method 4), n=60",
+                               "model":  {
+                                             "writer":  {
+                                                            "provider":  "deepseek",
+                                                            "model":  "deepseek-chat"
+                                                        },
+                                             "cot_verifier":  {
+                                                                  "provider":  "deepseek",
+                                                                  "model":  "deepseek-chat"
+                                                              }
+                                         },
+                               "decoding":  {
+                                                "writer_temperature":  0.1,
+                                                "verifier_temperature":  0.1,
+                                                "top_p":  null
+                                            },
+                               "evidence_state":  "bounded E_q, chain-of-thought per-citation verification (no role separation)",
+                               "outputs_dir":  "data/method4_outputs/",
+                               "outputs_pattern":  "Q*_method4_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method4_outputs --tag method4 --query-ids Q01-Q60",
+                               "metrics_reproduced":  {
+                                                          "ICP":  0.950,
+                                                          "Orphan":  0.073,
+                                                          "n_queries":  60
+                                                      },
+                               "corpus":  "data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json",
+                               "corpus_sha256":  "1a146fe065f2f99e6521f19db2c9d36245767def2cca4fb2a4b5c5d33a80288e",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json --dir data/method4_outputs --tag method4 --query-ids Q01-Q60",
+                               "output_dir":  "data/method4_outputs/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "writer_temperature":  0.1,
+                                                   "verifier_temperature":  0.1,
+                                                   "top_p":  null
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "autosurvey_controlled",
+                               "label_in_paper":  "AutoSurvey (controlled corpus condition)",
+                               "model":  {
+                                             "autosurvey_default":  {
+                                                                        "provider":  "openai",
+                                                                        "model":  "gpt-4o-mini"
+                                                                    }
+                                         },
+                               "decoding":  {
+                                                "note":  "AutoSurvey defaults preserved; not modified by this study."
+                                            },
+                               "evidence_state":  "controlled: AutoSurvey forced to operate over the same 3,011-paper bounded corpus and pilot 30 queries",
+                               "outputs_dir":  "data/autosurvey_outputs/",
+                               "outputs_pattern":  "Q*_autosurvey_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/autosurvey_outputs --tag autosurvey --query-ids Q01-Q30",
+                               "metrics_reproduced":  {
+                                                          "CP":  1.000,
+                                                          "Orphan":  0.000,
+                                                          "BMR":  1.000,
+                                                          "AbsCov":  0.978,
+                                                          "n_queries":  30
+                                                      },
+                               "corpus":  "data/frozen_corpus_multidomain_v1.json",
+                               "corpus_sha256":  "e0182eacde3b779ea0aac13415625a807488ad942e7d097d9cc349bc0a7bff84",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/autosurvey_outputs --tag autosurvey --query-ids Q01-Q30",
+                               "output_dir":  "data/autosurvey_outputs/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "note":  "AutoSurvey defaults preserved; not modified by this study."
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "autosurvey_native",
+                               "label_in_paper":  "AutoSurvey (native pipeline w/ CHECK_CITATION)",
+                               "model":  {
+                                             "autosurvey_default":  {
+                                                                        "provider":  "openai",
+                                                                        "model":  "gpt-4o-mini"
+                                                                    }
+                                         },
+                               "decoding":  {
+                                                "note":  "AutoSurvey defaults preserved."
+                                            },
+                               "evidence_state":  "native: AutoSurvey runs its own retrieval; structural metrics computed against the audit pipeline only.",
+                               "outputs_dir":  "data/autosurvey_native_outputs/",
+                               "outputs_pattern":  "Q*_autosurvey_native_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/autosurvey_native_outputs --tag autosurvey_native --query-ids Q01-Q30",
+                               "metrics_reproduced":  {
+                                                          "CP":  1.000,
+                                                          "Orphan":  0.008,
+                                                          "BMR":  1.000,
+                                                          "AbsCov":  0.956,
+                                                          "n_queries":  30
+                                                      },
+                               "corpus":  "data/frozen_corpus_multidomain_v1.json",
+                               "corpus_sha256":  "e0182eacde3b779ea0aac13415625a807488ad942e7d097d9cc349bc0a7bff84",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/autosurvey_native_outputs --tag autosurvey_native --query-ids Q01-Q30",
+                               "output_dir":  "data/autosurvey_native_outputs/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "note":  "AutoSurvey defaults preserved."
+                                               },
+                               "top_p":  null
+                           },
+                           {
+                               "config_id":  "autosurvey_native_nocheck",
+                               "label_in_paper":  "AutoSurvey (native, CHECK_CITATION disabled, n=5)",
+                               "model":  {
+                                             "autosurvey_default":  {
+                                                                        "provider":  "openai",
+                                                                        "model":  "gpt-4o-mini"
+                                                                    }
+                                         },
+                               "decoding":  {
+                                                "note":  "AutoSurvey defaults; CHECK_CITATION post-hoc step explicitly disabled."
+                                            },
+                               "evidence_state":  "native, no post-hoc citation check (illustrative subset, n=5)",
+                               "outputs_dir":  "data/autosurvey_native_outputs/",
+                               "outputs_pattern":  "Q*_autosurvey_native_nocheck_*.md",
+                               "evaluation_command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/autosurvey_native_outputs --tag autosurvey_native_nocheck --query-ids Q01-Q05",
+                               "metrics_reproduced":  {
+                                                          "CP":  1.000,
+                                                          "Orphan":  0.013,
+                                                          "BMR":  1.000,
+                                                          "AbsCov":  0.960,
+                                                          "n_queries":  5
+                                                      },
+                               "corpus":  "data/frozen_corpus_multidomain_v1.json",
+                               "corpus_sha256":  "e0182eacde3b779ea0aac13415625a807488ad942e7d097d9cc349bc0a7bff84",
+                               "threshold_tau":  0.72,
+                               "command":  "python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir data/autosurvey_native_outputs --tag autosurvey_native_nocheck --query-ids Q01-Q05",
+                               "output_dir":  "data/autosurvey_native_outputs/",
+                               "seed":  null,
+                               "model_version":  "API model alias as recorded at run time; exact provider-side snapshot not exposed",
+                               "temperature":  {
+                                                   "note":  "AutoSurvey defaults; CHECK_CITATION post-hoc step explicitly disabled."
+                                               },
+                               "top_p":  null
+                           }
+                       ],
+    "human_pilot":  {
+                        "n_participants":  30,
+                        "n_questions_per_participant":  10,
+                        "n_total_records_after_cleaning":  300,
+                        "raw_responses_csv":  "data/user_study/raw_responses_n30.csv",
+                        "questionnaire_template":  "data/user_study/用户研究问卷.docx",
+                        "answer_key":  "data/user_study/answer_key.json",
+                        "imputation_log":  "data/user_study/imputation_log.json",
+                        "extraction_script":  "scripts/parse_new_questionnaires.py",
+                        "analysis_script":  "scripts/analyze_user_study.py",
+                        "metrics_reproduced":  {
+                                                   "M2a_rank1_pct":  0.417,
+                                                   "M2a_avg_rank":  1.86,
+                                                   "M2a_mean_score":  4.27,
+                                                   "M2a_sd":  1.40,
+                                                   "M2a_most_suspicious_pct":  0.267,
+                                                   "M1_rank1_pct":  0.297,
+                                                   "M1_avg_rank":  2.10,
+                                                   "M1_mean_score":  3.94,
+                                                   "M1_sd":  1.40,
+                                                   "M1_most_suspicious_pct":  0.393,
+                                                   "M2b_rank1_pct":  0.287,
+                                                   "M2b_avg_rank":  2.04,
+                                                   "M2b_mean_score":  4.12,
+                                                   "M2b_sd":  1.44,
+                                                   "M2b_most_suspicious_pct":  0.340
+                                               }
+                    },
+    "bilingual_retrieval_ablation":  {
+                                         "n_queries":  30,
+                                         "results_file":  "data/bilingual_exp/retrieval_metrics_agg.json",
+                                         "metrics_reproduced":  {
+                                                                    "BCU_pct":  6.78,
+                                                                    "CLG_pct":  80.25,
+                                                                    "C3_avg_corpus_size":  19.6
+                                                                }
+                                     }
+}

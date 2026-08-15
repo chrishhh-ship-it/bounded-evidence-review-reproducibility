@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "screening agent 在多智能协同情报服务中的主要作用是什么？",
+  "effective_search_query": "screening agent, multi-agent collaboration, intelligence services, role",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "title:multi-agent collaboration mechanisms: a survey of llms|2025",
+    "title:multi-agent collaboration: harnessing the power of intelligent llm agents|2023",
+    "title:using a multi-agent system and artificial intelligence for monitoring and improving the cloud performance and security|2018",
+    "title:multi-agent risks from advanced ai|2025",
+    "title:open challenges in multi-agent security: towards secure systems of interacting ai agents|2025",
+    "title:multi-agent systems and decentralized artificial superintelligence|2017",
+    "doi:10.2478/jaiscr-2021-0008.pdfn",
+    "doi:10.1145/3745238.3745531x",
+    "title:review of autonomous and collaborative agentic ai and multi-agent systems for enterprise applications|2025",
+    "title:intelligent data fusion and multi-agent coordination for target allocation|2020",
+    "doi:10.1145/3712170.3712181j",
+    "title:agentic search systems and multi-agent intelligence generation.|2025"
+  ],
+  "top_papers": [
+    {
+      "title": "Multi-agent collaboration mechanisms: A survey of llms",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "KT Tran, D Dao, MD Nguyen, QV Pham… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 461,
+      "abstract": "… role of collaboration. Then, in Section 4, we present an extensive review of LLM-based multi-agent collaborative … system’s adaptability by testing the limits of each agent’s capabilities. In …"
+    },
+    {
+      "title": "Multi-agent collaboration: Harnessing the power of intelligent llm agents",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "Y Talebirad, A Nadiri - arXiv preprint arXiv:2306.03314, 2023 - arxiv.org",
+      "doi": "",
+      "citations": 450,
+      "abstract": "… Feedback mechanisms play a pivotal role in multi-agent systems, enabling agents to learn from … It can use a plugin that simulates different architectural designs to test their performance …"
+    },
+    {
+      "title": "Using a multi-agent system and artificial intelligence for monitoring and improving the cloud performance and security",
+      "year": 2018,
+      "source": "Google Scholar",
+      "journal": "D Grzonka, A Jakóbik, J Kołodziej, S Pllana - Future generation computer …, 2018 - Elsevier",
+      "doi": "",
+      "citations": 151,
+      "abstract": "… In this paper, we present a novel Multi-Agent System based Cloud Monitoring (MAS-CM) … and security of tasks gathering, scheduling and execution processes in large-scale service-…"
+    },
+    {
+      "title": "Multi-agent risks from advanced ai",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "L Hammond, A Chan, J Clifton… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 144,
+      "abstract": "… Full details of author roles are available in Appendix A. … of models; testing for new or improved dangerous capabilities in … in a zero-shot interaction, posing risks in multi-agent settings. …"
+    },
+    {
+      "title": "Open challenges in multi-agent security: Towards secure systems of interacting ai agents",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "CS de Witt - arXiv preprint arXiv:2505.02077, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 45,
+      "abstract": "… -based red-teaming for hybrid systems focuses on testing … testing agents employ multi-agent architectures that distribute specialized penetration testing functions across collaborative AI …"
+    },
+    {
+      "title": "Multi-agent systems and decentralized artificial superintelligence",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "S Ponomarev, AE Voronkov - arXiv preprint arXiv:1702.08529, 2017 - arxiv.org",
+      "doi": "",
+      "citations": 40,
+      "abstract": "… of tasks involves assigning roles to each of the agents, the … interaction and cooperation of a small number of intelligent … More information about the expert mode of the results testing …"
+    },
+    {
+      "title": "A survey on multi-agent based collaborative intrusion detection systems",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "N Bougueroua, S Mazouzi, M Belaoued… - … of Artificial Intelligence …, 2021 - sciendo.com",
+      "doi": "10.2478/jaiscr-2021-0008.pdfN",
+      "citations": 31,
+      "abstract": "… An agent, which plays several roles, is … test data from the root node of the DT can be organized with the same structure as the training data [172]. The test is performed with the same test …"
+    },
+    {
+      "title": "A survey of multi-ai agent collaboration: Theories, technologies and applications",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "X Zhang, X Dong, Y Wang, D Zhang… - … and Artificial Intelligence, 2025 - dl.acm.org",
+      "doi": "10.1145/3745238.3745531X",
+      "citations": 17,
+      "abstract": "… , orchestration, and testing of agent based systems. The … as single deployment function, low collaboration efficiency, formation of … Multi agent collaboration can effectively overcome the …"
+    },
+    {
+      "title": "Review of autonomous and collaborative agentic AI and multi-agent systems for enterprise applications",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "S Joshi - 2025 - philarchive.org",
+      "doi": "",
+      "citations": 13,
+      "abstract": "… and the redefinition of human-AI collaboration. As these systems … of Agentic AI and multi-agent systems in enterprise contexts. … collaboration can involve: • Specialized Roles: Each agent …"
+    },
+    {
+      "title": "Intelligent data fusion and multi-agent coordination for target allocation",
+      "year": 2020,
+      "source": "Google Scholar",
+      "journal": "S Noh - Electronics, 2020 - mdpi.com",
+      "doi": "",
+      "citations": 11,
+      "abstract": "… The role of data fusion enables intelligent agents in uncertain … The scenario panel presenting the interaction of the agents … The intelligent simulator can ultimately provide a test bed for …"
+    },
+    {
+      "title": "Exploration, Collaboration, and Applications in Multi-Agent Reinforcement Learning",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "J Chen - ACM SIGMETRICS Performance Evaluation Review, 2025 - dl.acm.org",
+      "doi": "10.1145/3712170.3712181J",
+      "citations": 2,
+      "abstract": "… Specifically, these documents emphasize the role of decision-making in areas such as … the ability to effectively test algorithms in complex multi-agent tasks. Consequently, current …"
+    },
+    {
+      "title": "Agentic Search Systems And Multi-Agent Intelligence Generation.",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "AR Buvanachandran - Journal of International Crisis & Risk …, 2025 - search.ebscohost.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… accountable for analytical investigations, because their role is to verify validity of conclusions… Multi-agent frameworks create collaborative intelligence networks that surpass conventional …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q22_baseline_b_20260410_200555.md"
+}

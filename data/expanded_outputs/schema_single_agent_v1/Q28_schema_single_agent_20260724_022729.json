@@ -1,0 +1,262 @@
+{
+  "baseline": "schema_matched_single_agent_v1",
+  "query_id": "Q28",
+  "query": "人工标注在智慧情报服务 benchmark 中应优先覆盖哪些维度？",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "source_evidence_sidecar": "data\\expanded_outputs\\method1\\Q28_method1_exp_20260412_232349.json",
+  "same_query_evidence_ids": [
+    "doi:10.48550/arxiv.2511.07685",
+    "doi:10.48550/arxiv.2510.14240",
+    "doi:10.48550/arxiv.2511.21510",
+    "doi:10.1109/iclad65226.2025.00033",
+    "title:design principles for the construction of a benchmark evaluating security operation capabilities of multi-agent ai systems|2026",
+    "doi:10.21203/rs.3.rs-8606053/v1",
+    "doi:10.48550/arxiv.2602.00676",
+    "title:rethinking failure attribution in multi-agent systems: a multi-perspective benchmark and evaluation|2026"
+  ],
+  "all_retrieved_ids": [
+    "doi:10.48550/arxiv.2511.07685",
+    "doi:10.48550/arxiv.2510.14240",
+    "doi:10.48550/arxiv.2511.21510",
+    "doi:10.1109/iclad65226.2025.00033",
+    "title:design principles for the construction of a benchmark evaluating security operation capabilities of multi-agent ai systems|2026",
+    "doi:10.21203/rs.3.rs-8606053/v1",
+    "doi:10.48550/arxiv.2602.00676",
+    "title:rethinking failure attribution in multi-agent systems: a multi-perspective benchmark and evaluation|2026"
+  ],
+  "top_papers": [
+    {
+      "title": "ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents",
+      "authors": [
+        "Manasi Sharma",
+        "Chen Bo Calvin Zhang",
+        "Chaithanya Bandi",
+        "Clinton Wang",
+        "Ankit Aich",
+        "Huy Nghiem",
+        "Tahseen Rabbani",
+        "Ye Htet",
+        "Brian Jang",
+        "Sumana Basu",
+        "Aishwarya H. Balwani",
+        "Denis Peskoff",
+        "Marcos Ayestaran",
+        "Sean M. Hendryx",
+        "Brad Kenstler",
+        "Bing Liu"
+      ],
+      "abstract": "Deep Research (DR) is an emerging agent application that leverages large language models (LLMs) to address open-ended queries. It requires the integration of several capabilities, including multi-step reasoning, cross-document synthesis, and the generation of evidence-backed, long-form answers. Evaluating DR remains challenging because responses are lengthy and diverse, admit many valid solutions, and often depend on dynamic information sources. We introduce ResearchRubrics, a standardized benchmark for DR built with over 2,800+ hours of human labor that pairs realistic, domain-diverse prompts with 2,500+ expert-written, fine-grained rubrics to assess factual grounding, reasoning soundness, and clarity. We also propose a new complexity framework for categorizing DR tasks along three axes: conceptual breadth, logical nesting, and exploration. In addition, we develop human and model-based evaluation protocols that measure rubric adherence for DR agents. We evaluate several state-of-the-art DR systems and find that even leading agents like Gemini's DR and OpenAI's DR achieve under 68% average compliance with our rubrics, primarily due to missed implicit context and inadequate reasoning about retrieved information. Our results highlight the need for robust, scalable assessment of deep research capabilities, to which end we release ResearchRubrics(including all prompts, rubrics, and evaluation code) to facilitate progress toward well-justified research assistants.",
+      "year": "2025",
+      "published_date": "2025-11-10",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/8bd46c6cd215b8e24a5c561df8e21499d0dcbcbf",
+      "arxiv_id": "2511.07685",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 27,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2511.07685",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild",
+      "authors": [
+        "Jiayu Wang",
+        "Yifei Ming",
+        "Riya Dulepet",
+        "Qinglin Chen",
+        "Austin Xu",
+        "Zixuan Ke",
+        "Frederic Sala",
+        "Aws Albarghouthi",
+        "Caiming Xiong",
+        "Shafiq Joty"
+      ],
+      "abstract": "Deep research -- producing comprehensive, citation-grounded reports by searching and synthesizing information from hundreds of live web sources -- marks an important frontier for agentic systems. To rigorously evaluate this ability, four principles are essential: tasks should be (1) user-centric, reflecting realistic information needs, (2) dynamic, requiring up-to-date information beyond parametric knowledge, (3) unambiguous, ensuring consistent interpretation across users, and (4) multi-faceted and search-intensive, requiring search over numerous web sources and in-depth analysis. Existing benchmarks fall short of these principles, often focusing on narrow domains or posing ambiguous questions that hinder fair comparison. Guided by these principles, we introduce LiveResearchBench, a benchmark of 100 expert-curated tasks spanning daily life, enterprise, and academia, each requiring extensive, dynamic, real-time web search and synthesis. Built with over 1,500 hours of human labor, LiveResearchBench provides a rigorous basis for systematic evaluation. To evaluate citation-grounded long-form reports, we introduce DeepEval, a comprehensive suite covering both content- and report-level quality, including coverage, presentation, citation accuracy and association, consistency and depth of analysis. DeepEval integrates four complementary evaluation protocols, each designed to ensure stable assessment and high agreement with human judgments. Using LiveResearchBench and DeepEval, we conduct a comprehensive evaluation of 17 frontier deep research systems, including single-agent web search, single-agent deep research, and multi-agent systems. Our analysis reveals current strengths, recurring failure modes, and key system components needed to advance reliable, insightful deep research. Our code is available at: https://github.com/SalesforceAIResearch/LiveResearchBench.",
+      "year": "2025",
+      "published_date": "2025-10-16",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/420629313afc5c694bdef50dfcc54b8e6a173f6f",
+      "arxiv_id": "2510.14240",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 16,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2510.14240",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant systematic review"
+    },
+    {
+      "title": "Tool-RoCo: An Agent-as-Tool Self-organization Large Language Model Benchmark in Multi-robot Cooperation",
+      "authors": [
+        "Ke Zhang",
+        "Xiaoning Zhao",
+        "Ce Zheng",
+        "Jiahong Ning",
+        "Dandan Zhu",
+        "Wenqi Zhang",
+        "Chen Sun",
+        "Toshiharu Sugawara"
+      ],
+      "abstract": "This study proposes Tool-RoCo, a novel benchmark for evaluating large language models (LLMs) in long-term multi-agent cooperation based on RoCo, a multi-robot cooperative benchmark. Recent research on LLM-based multi-agent systems has relied on predefined orchestration, while ignoring agent autonomy. Tool-RoCo treats other agents as tools and introduces cooperative tools, leveraging tool usage to evaluate multi-agent cooperation and self-organization. Tool usage means that each agent (LLM) selects a tool from a candidate set based on the current state, receives feedback, and adjusts its selection in subsequent rounds. To evaluate different autonomy levels, we propose four LLM paradigms: (1) centralized cooperation, where a single LLM allocates tools to all agents; (2) centralized self-organization, where a central LLM autonomously activates agents while keeping others inactive; (3) decentralized cooperation, where each agent has its own LLM and calls tools based on local information; and (4) self-organization, where a randomly chosen initial agent can request collaboration, activating additional agents via tool calls. Tool-RoCo includes three multi-robot tasks, SORT, PACK, and CABINET, to measure format and parameter accuracy and agent coordination through tool usage. The results using several LLMs showed that cooperative tools accounted for only 7.09% of all tools, indicating that LLM-based agents rarely invoked others as assistants. Moreover, activation tools accounted for 96.42%, suggesting that current LLMs tend to maintain active agents while seldom deactivating them for adaptive coordination. Tool-RoCo provides a systematic benchmark to evaluate LLM autonomy and cooperation in multi-agent tasks. Code and Demo: https://github.com/ColaZhang22/Tool-Roco",
+      "year": "2025",
+      "published_date": "2025-11-26",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/5a21dd40a02566226fd73fe115c0288b5d406bf9",
+      "arxiv_id": "2511.21510",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2511.21510",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "ASIC-Agent: An Autonomous Multi-Agent System for ASIC Design with Benchmark Evaluation",
+      "authors": [
+        "Ahmed Allam",
+        "Youssef Mansour",
+        "Mohamed Shalan"
+      ],
+      "abstract": "",
+      "year": "2025",
+      "published_date": "2025-6-26",
+      "journal": "2025 IEEE International Conference on LLM-Aided Design (ICLAD)",
+      "url": "https://doi.org/10.1109/iclad65226.2025.00033",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.1109/iclad65226.2025.00033",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service benchmark"
+    },
+    {
+      "title": "Design Principles for the Construction of a Benchmark Evaluating Security Operation Capabilities of Multi-agent AI Systems",
+      "authors": [
+        "Yicheng Cai",
+        "Mitchell John DeStefano",
+        "Guodong Dong",
+        "Pulkit Handa",
+        "Peng Liu",
+        "Tejas Singhal",
+        "Peiyu Tseng",
+        "Winston Jen White"
+      ],
+      "abstract": "As Large Language Models (LLMs) and multi-agent AI systems are demonstrating increasing potential in cybersecurity operations, organizations, policymakers, model providers, and researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such AI systems to achieve more autonomous SOCs (security operation centers) and reduce manual effort. In particular, the AI and cybersecurity communities have recently developed several benchmarks for evaluating the red team capabilities of multi-agent AI systems. However, because the operations in SOCs are dominated by blue team operations, the capabilities of AI systems & agents to achieve more autonomous SOCs cannot be evaluated without a benchmark focused on blue team operations. To our best knowledge, no systematic benchmark for evaluating coordinated multi-task blue team AI has been proposed in the literature. Existing blue team benchmarks focus on a particular task. The goal of this work is to develop a set of design principles for the construction of a benchmark, which is denoted as SOC-bench, to evaluate the blue team capabilities of AI. Following these design principles, we have developed a conceptual design of SOC-bench, which consists of a family of five blue team tasks in the context of large-scale ransomware attack incident response.",
+      "year": "2026",
+      "published_date": "2026-03-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.28998v1",
+      "arxiv_id": "2603.28998v1",
+      "keywords": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "Population-dependent agent performance in non-transitive games: a multi-agent Rock--Paper--Scissors benchmark",
+      "authors": [
+        "Ou Deng",
+        "Jianting Xu",
+        "Shoji Nishimura",
+        "Atsushi Ogihara",
+        "Qun Jin"
+      ],
+      "abstract": "Abstract\n                Non-transitive environments complicate the notion of a single ''best'' strategy: performance depends on the opponent population, and rankings are meaningful only relative to a specified opponent pool and protocol. We present a reproducible multi-agent benchmark for iterated Rock--Paper--Scissors and evaluate 54 agents from 18 archetypes---deep recurrent and transformer sequence models, actor--critic reinforcement learners, Bayesian/Markov predictors, classical classifiers, and rule-based baselines---in 500-round double round-robin tournaments across 10 random seeds. To support auditability, we define a simple regret certificate: a Lipschitz-type inequality that upper-bounds a best-response payoff gap using the $\\ell_1$ discrepancy between an agent's predicted action distribution and an empirical estimate of the opponent's action distribution, computable online from logged predictions. Our experiments indicate that (i) recurrent predictors tend to achieve the highest and most stable scores, primarily by exploiting predictable opponents; (ii) rankings shift notably with the opponent pool (Spearman $\\rho = 0.65$ between two evaluation rosters), with the top-ranked method changing across configurations; and (iii) the induced meta-game exhibits substantial non-transitivity, including 177 detected three-cycles in the pairwise payoff matrix. Under our 500-round online update budget and short-context design, transformer agents are competitive but do not outperform tuned recurrent baselines, which may reflect an inductive-bias mismatch in short-horizon adversarial play. Our code and analysis pipeline provide an extensible testbed for studying population-dependent evaluation and learning dynamics in canonical non-transitive games.",
+      "year": "2026",
+      "published_date": "2026-1-30",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-8606053/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-8606053/v1",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service benchmark"
+    },
+    {
+      "title": "OpenGuanDan: A Large-Scale Imperfect Information Game Benchmark",
+      "authors": [
+        "Chao Li",
+        "Shangdong Yang",
+        "Chiheng Zhan",
+        "Zhenxing Ge",
+        "Yujing Hu",
+        "Bingkun Bao",
+        "Xingguo Chen",
+        "Yang Gao"
+      ],
+      "abstract": "The advancement of data-driven artificial intelligence (AI), particularly machine learning, heavily depends on large-scale benchmarks. Despite remarkable progress across domains ranging from pattern recognition to intelligent decision-making in recent decades, exemplified by breakthroughs in board games, card games, and electronic sports games, there remains a pressing need for more challenging benchmarks to drive further research. To this end, this paper proposes OpenGuanDan, a novel benchmark that enables both efficient simulation of GuanDan (a popular four-player, multi-round Chinese card game) and comprehensive evaluation of both learning-based and rule-based GuanDan AI agents. OpenGuanDan poses a suite of nontrivial challenges, including imperfect information, large-scale information set and action spaces, a mixed learning objective involving cooperation and competition, long-horizon decision-making, variable action spaces, and dynamic team composition. These characteristics make it a demanding testbed for existing intelligent decision-making methods. Moreover, the independent API for each player allows human-AI interactions and supports integration with large language models. Empirically, we conduct two types of evaluations: (1) pairwise competitions among all GuanDan AI agents, and (2) human-AI matchups. Experimental results demonstrate that while current learning-based agents substantially outperform rule-based counterparts, they still fall short of achieving superhuman performance, underscoring the need for continued research in multi-agent intelligent decision-making domain. The project is publicly available at https://github.com/GameAI-NJUPT/OpenGuanDan.",
+      "year": "2026",
+      "published_date": "2026-01-31",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/abb1f4d9db9e5c4e6a4ba62522fb0ad9f71b8582",
+      "arxiv_id": "2602.00676",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2602.00676",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "Rethinking Failure Attribution in Multi-Agent Systems: A Multi-Perspective Benchmark and Evaluation",
+      "authors": [
+        "Yeonjun In",
+        "Mehrab Tanjim",
+        "Jayakumar Subramanian",
+        "Sungchul Kim",
+        "Uttaran Bhattacharya",
+        "Wonjoong Kim",
+        "Sangwu Park",
+        "Somdeb Sarkhel",
+        "Chanyoung Park"
+      ],
+      "abstract": "Failure attribution is essential for diagnosing and improving multi-agent systems (MAS), yet existing benchmarks and methods largely assume a single deterministic root cause for each failure. In practice, MAS failures often admit multiple plausible attributions due to complex inter-agent dependencies and ambiguous execution trajectories. We revisit MAS failure attribution from a multi-perspective standpoint and propose multi-perspective failure attribution, a practical paradigm that explicitly accounts for attribution ambiguity. To support this setting, we introduce MP-Bench, the first benchmark designed for multi-perspective failure attribution in MAS, along with a new evaluation protocol tailored to this paradigm. Through extensive experiments, we find that prior conclusions suggesting LLMs struggle with failure attribution are largely driven by limitations in existing benchmark designs. Our results highlight the necessity of multi-perspective benchmarks and evaluation protocols for realistic and reliable MAS debugging.",
+      "year": "2026",
+      "published_date": "2026-03-26",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.25001v1",
+      "arxiv_id": "2603.25001v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system benchmark"
+    }
+  ],
+  "evidence_records": 8,
+  "max_tokens": 3000,
+  "temperature": 0.3,
+  "prompt_sha256": "c2c76bde4c0f8817284cb6888025e226178b32ba876f20bec6de8ea48fa8ddbe",
+  "elapsed_seconds": 17.387,
+  "output_markdown": "data\\expanded_outputs\\schema_single_agent_v1\\Q28_schema_single_agent_20260724_022729.md",
+  "scope_note": "Same query-specific screened records and fixed numeric identifiers as the archived M1 evidence state; one synthesis call, no role decomposition and no reviewer/reviser."
+}

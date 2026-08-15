@@ -1,0 +1,3 @@
+﻿pair_id,query_id,domain,gold_label,single_label,arl_analyst_label,arl_critic_label,arl_final_label,single_correct,arl_correct,reference_string,candidate_evidence_title,elapsed_seconds
+TM001,Q181,biomedical_evidence_synthesis,nonmatch,nonmatch,nonmatch,nonmatch,nonmatch,True,True,"Strategies used for childhood chronic functional constipation: the SUCCESS evidence synthesis.. Health technology assessment (Winchester, England). 2024.",Evidence Synthesis Methods,39.353
+TM002,Q89,multi_agent_information_services,match,match,match,match,match,True,True,What factors contribute to the acceptance of artificial intelligence? A systematic review. Telematics and Informatics. 2022.,What factors contribute to the acceptance of artificial intelligence? A systematic review,61.658

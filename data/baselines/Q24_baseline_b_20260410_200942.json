@@ -1,0 +1,123 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "evidence agent 是否应该作为独立角色存在，而不是并入 writer agent？",
+  "effective_search_query": "evidence agent writer agent 独立角色 合并",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 11,
+  "all_retrieved_ids": [
+    "doi:10.3724/sp.j.1041.2026.0634陈岩，",
+    "title:do insurance brokers or agents provide superior claim service quality?: empirical evidence on automobile liability insurance in taiwan|2017",
+    "title:公司目的變革對董事會多元化的影響趨勢—以美國為中心|2022",
+    "title:保險經代人能否提供較佳的理賠服務品質?: 台灣汽車責任保險實證|2017",
+    "title:beyond direct generation: a decomposed approach to well-crafted screenwriting with llms|2025",
+    "title:全球客家研究的實踐與發展|2021",
+    "title:a narrative inquiry into the effects of ib philosophy on the training of pre-service ibdp chinese b teachers|2022",
+    "title:建基於漢字與漢語結構的中文二語閱讀理論|2021",
+    "doi:10.3724/sp.j.1041.2026.0634c",
+    "title:the integrated advertising agency value innovation: from a digital transformation perspective|2024",
+    "title:western influence and the place of music in the works of shen congwen|2016"
+  ],
+  "top_papers": [
+    {
+      "title": "探索顿悟问题解决的微观动态神经加工模式",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "陈岩， 李瑛， 刘冠雄， 于全磊， 梁正， 陈石， 赵庆柏 - 心理学报, 2026 - journal.psych.ac.cn",
+      "doi": "10.3724/SP.J.1041.2026.0634陈岩，",
+      "citations": 2,
+      "abstract": ": 研究采用脑电微状态分析, 探索复合远距离联想任务中顿悟问题解决的微观动态神经加工模式. 主要结果表明: 在问题呈现初期, 相比于未解决条件, 顿悟解决和非顿悟解决均表现出更高频率的…"
+    },
+    {
+      "title": "Do Insurance Brokers or Agents Provide Superior Claim Service Quality?: Empirical Evidence on Automobile Liability Insurance in Taiwan",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "L Chun-Ting, W Jui-Yun… - NTU Management …, 2017 - search.proquest.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… or agent is significantly higher than that by the direct writer … 方面,主要係指扮演保險仲介角色 的獨立代理人與保險經紀人.其中,… -Döppner (2010) 即將此兩類通路合併,本文也延續此種處理方 …"
+    },
+    {
+      "title": "公司目的變革對董事會多元化的影響趨勢—以美國為中心",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "林鈺棋 - 2022 - tdr.lib.ntu.edu.tw",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 第五章研究近期美國董事會多元化之發展情形,首先說明公司目的的討論與董 事會多元化之間 的關聯,接著區分法律面與市場面探討不同角色推動董事會多 元化之舉措,包括背景,行動內容及…"
+    },
+    {
+      "title": "保險經代人能否提供較佳的理賠服務品質?: 台灣汽車責任保險實證",
+      "year": 2017,
+      "source": "Google Scholar",
+      "journal": "劉俊廷， 吳瑞雲， 江朝峰 - 臺大管理論叢, 2017 - review.management.ntu.edu.tw",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… We find no evidence of the existence of a significant … 方面,主要係指扮演保險仲介角色的獨立 代理人與保險經紀人.其中,兩… -Döppner (2010) 即將此兩類通路合併,本文也延續此種處理方 式,將…"
+    },
+    {
+      "title": "Beyond Direct Generation: A Decomposed Approach to Well-Crafted Screenwriting with LLMs",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "H Lei, S Zong, Z Li, Z Zhou, H Liu, L Yu - arXiv preprint arXiv:2510.23163, 2025 - arxiv.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… reverse synthesis to resemble a realistic writer’s brief, while … of a weapon or evidence often delivers crucial information. 4). … :戏点往往围绕角色之间的冲突,角色内心的挣扎,或角色与环境/…"
+    },
+    {
+      "title": "全球客家研究的實踐與發展",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "張維安， 簡美玲， 黃賢強， 李秀珍， 黃麗萍， 周錦宏… - 2021 - books.google.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 出版的風潮裡,扮演重要的領頭羊角色,值得關注. 第三章<Hakka Studies … 合併在屏東大學裡面 ,最初設有客家文化 研究所,後來合併在文化創意產業學系(含碩士班)中成為客家文化組,後來再獨立…"
+    },
+    {
+      "title": "A Narrative Inquiry Into the Effects of IB Philosophy on the Training of Pre-service IBDP Chinese B Teachers",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "KY Tse - 2022 - search.proquest.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 懷疑是批判性思考重要的角色. 9 13. 教育不是給腦袋灌輸知識,而是發展一個全人的心智,即具… 故此教育的角色是教導一個人能和 平地與自己相處,推而廣之能和平地在任何地方與任何人相處.這…"
+    },
+    {
+      "title": "建基於漢字與漢語結構的中文二語閱讀理論",
+      "year": 2021,
+      "source": "Google Scholar",
+      "journal": "戴浩一 - 臺大華語文學習與科技, 2021 - journal.tcsl.ntu.edu.tw",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 第一,筆畫簡單的獨體字可以詞根(root)的角色與另外一個獨體字… 兩個[字]可以依據不同結構關係 合併成一個[詞].例如,[高山]與[… 兩個[字]也可以利用並列結構合併成一個[詞].並列結構的基本判斷…"
+    },
+    {
+      "title": "The micro-dynamic neural processing model of insight problem-solving",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "C Yan, LI Ying, LIU Guanxiong, YU Quanlei… - Acta Psychologica …, 2026 - sciengine.com",
+      "doi": "10.3724/SP.J.1041.2026.0634C",
+      "citations": 0,
+      "abstract": "Creative problem-solving relies upon distinct processes of reasoning and insight. Accumulating empirical evidence has demonstrated that insight, rather than manifesting as a transient ‘…"
+    },
+    {
+      "title": "The Integrated Advertising Agency Value Innovation: From a Digital Transformation Perspective",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "JKH Liao - 2024 - search.proquest.com",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 這三 個元素在設計思考過程中擔任極為關鍵的角色,突顯了一位優秀的設計思考者必須同時擁有 [科技的詮釋者(洞見)], [人性的引領者(觀察)]以及[感性的創造者與品味的營造者 (同理心)]的角色.…"
+    },
+    {
+      "title": "Western influence and the place of music in the works of Shen Congwen",
+      "year": 2016,
+      "source": "Google Scholar",
+      "journal": "Q He - 2016 - era.ed.ac.uk",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… Finally, according to the evidence uncovered in my research, this thesis will propose a comparative study between possible Western sources of influence and Shen’s ideas on music, …"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q24_baseline_b_20260410_200942.md"
+}

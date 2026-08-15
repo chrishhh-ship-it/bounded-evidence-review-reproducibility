@@ -1,0 +1,133 @@
+{
+  "baseline": "retrieval_single_agent",
+  "query": "审稿循环在自动报告生成中应重点检查哪些高风险问题？",
+  "effective_search_query": "审稿循环 自动报告生成 高风险问题 检查",
+  "provider": "deepseek",
+  "model": "",
+  "retrieved_count": 12,
+  "all_retrieved_ids": [
+    "doi:10.11946/cjstp.202502210144周濛，",
+    "title:基于nlp 的辅助审稿系统设计与开发实践|2024",
+    "title:基于大模型的智能抄清: 事件要点抽取与报告生成.|2023",
+    "title:金属检验工艺与报告自动生成技术研究|2025",
+    "title:面向企业的报告自动生成方法研究综述|2022",
+    "title:基于模板的产业发展布局与创新资源智能分析报告生成方法研究|2025",
+    "doi:10.11946/cjstp.202506240737赵显嵩，",
+    "title:双重预防机制下安全检查电子化管理体系构建研究|2025",
+    "doi:10.3969/j.issn.1005-8451.2026.02.12?viewtype=html吴爽，",
+    "title:基于知识图谱技术的风险作业智能化管理研究|2022",
+    "title:多光谱复合防伪图像检测报告生成技术研究|2025",
+    "doi:10.3969/j.issn.1005-2542.2022.01.016刘俊卿，"
+  ],
+  "top_papers": [
+    {
+      "title": "生成式人工智能介入学术出版的负面连锁效应与规制进路",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "周濛， 龚紫钰 - 中国科技期刊研究, 2025 - cjstp.cn",
+      "doi": "10.11946/cjstp.202502210144周濛，",
+      "citations": 6,
+      "abstract": "… 问题已被研究得较为全 面,但AI 审稿,AI 编校,AI 同行评审等问题… 既能避免窒息技术红利, 又可从 源头防范认知错误循环的风险. … 的提供 商或部署商对于AI高风险事件的报告与纠正义务, 同时涉及…"
+    },
+    {
+      "title": "基于NLP 的辅助审稿系统设计与开发实践",
+      "year": 2024,
+      "source": "Google Scholar",
+      "journal": "乔宝榆 - 中国科技期刊研究, 2024 - cjstp.cn",
+      "doi": "",
+      "citations": 4,
+      "abstract": "… 的审稿专家画像库,并基于该专家画像库,实现初步送审意见生成,… 强等问题,因此利用人工智能作为 辅助工具实 现智能辅助审稿具有… 数据格式的统一,数据范围合理性检查,数据一致性 验证,异常值…"
+    },
+    {
+      "title": "基于大模型的智能抄清: 事件要点抽取与报告生成.",
+      "year": 2023,
+      "source": "Google Scholar",
+      "journal": "曾文龙， 刘丹， 张超 - Cyber Security & Data Governance, 2023 - search.ebscohost.com",
+      "doi": "",
+      "citations": 1,
+      "abstract": "… 处理和 分析, 以识别可能的威胁和风险, 智能Ê清可以快速抽 取关键… 生成 模型的方法首先将原始 文本编码为向量, 然后通过循环 … 与LM 性的 问题, 使模型生成的文ß 更精准, 错误更少, § 量 更高. …"
+    },
+    {
+      "title": "金属检验工艺与报告自动生成技术研究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "洪兵， 夏鹏， 张仁珊， 王雨萌， 娄德涵 - Mechanical Engineering and …, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 报告生成效率较低的问题,本研究创新性地提出了基于参数化模板库与三层防错校验机制的报告 自动生成… 的数据,系统会以醒目的红色高亮进行提示,显著标识潜在风险,有效减少人工复核成本并…"
+    },
+    {
+      "title": "面向企业的报告自动生成方法研究综述",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "冯灿锐， 安建业， 刘志勇 - Computer Science and Application, 2022 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 研究表明:基于模板与智能化的报告生成方法具有程式化,精度高,适应… 基于模板的报告生成方法 主要是从以往问题中构造出模板,然后把模板… 替换循环神经网络,提升了自动生成的金融报告质量. …"
+    },
+    {
+      "title": "基于模板的产业发展布局与创新资源智能分析报告生成方法研究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "陈晓玲， 孙晓丽， 张慧杰， 娄鑫 - Computer Science and Application, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 报告生成方式存在效率低下,质量参差不齐,知识利用率不高等问题,本研究探索基于模板的智能 报告生成… 了可扩展的智能模板体系,实现了高质量报告自动生成与可视化呈现.一是跨领域知识迁移…"
+    },
+    {
+      "title": "学术撤稿风险智能预警研究: 基于大语言模型的混合增强检测框架",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "赵显嵩， 陈晓晖， 陆晔， 杨茗， 林原 - 中国科技期刊研究, 2025 - cjstp.cn",
+      "doi": "10.11946/cjstp.202506240737赵显嵩，",
+      "citations": 0,
+      "abstract": "… 对潜在问题论文的预判 能力,精准识别撤稿风险,通过缩短从风险… 最终生成的撤稿原因汇总及分布 如图2 所示, 主要的撤稿原因与… 与处理在图像问题中最为高 频,涉及造假或失实,数据问题则涵盖…"
+    },
+    {
+      "title": "双重预防机制下安全检查电子化管理体系构建研究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "王楠楠 - Management Science and Engineering, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… ,存在存储成本高,信息追溯难,人工核对效率低等问题;电子文件分散… 例如,高风险区域需加密检查 ,低风险区域可适度放宽,避免传统检查… 上级检查通知/检查单/整改单,日常工作台账, 问题整改报告 …"
+    },
+    {
+      "title": "铁路内部审计作业质量管控平台设计与应用",
+      "year": 2026,
+      "source": "Google Scholar",
+      "journal": "吴爽， 冉昕， 樊永明， 罗华， 尹皎 - 铁路计算机应用, 2026 - tljsjyy.xml-journal.net",
+      "doi": "10.3969/j.issn.1005-8451.2026.02.12?viewType=HTML吴爽，",
+      "citations": 0,
+      "abstract": "… +会议纪 要自动生成”;工作底稿模块内置“问题描述−证据 附件−… 引擎,对审计组报告 进行合规性 检查,自动识别“问题定性不准确” … 技术解决传 统循环神经网络的长距离依赖衰减问题,使超过500 …"
+    },
+    {
+      "title": "基于知识图谱技术的风险作业智能化管理研究",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "赵丹， 杨辉， 罗舒元， 郭丽雪 - Computer Science and Application, 2022 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 据国务院安全生产委员会历年安全生产大检查情况通报显示,2007… 图谱中或目标数据中给出用户 问题的答案.答案经过关联分析,还… 条,生成32,212个风险作业信息知识节点,135,351条关系数据. …"
+    },
+    {
+      "title": "多光谱复合防伪图像检测报告生成技术研究",
+      "year": 2025,
+      "source": "Google Scholar",
+      "journal": "张霞， 曹鹏 - Software Engineering and Applications, 2025 - hanspub.org",
+      "doi": "",
+      "citations": 0,
+      "abstract": "… 针对解决这一问题,本文提出了一种基于Qt框架的多光谱复合… 在实现过程中,首先检查两张图像 的尺寸是否相同,若不同则改变… 为了测试本系统的稳定性,在开机后,使用循环的方式对各功能进行…"
+    },
+    {
+      "title": "基于智能分析引擎的静脉血栓风险管理系统",
+      "year": 2022,
+      "source": "Google Scholar",
+      "journal": "刘俊卿， 王洪涛， 周霏 - 系统管理学报, 2022 - xtglxb.sjtu.edu.cn",
+      "doi": "10.3969/j.issn.1005-2542.2022.01.016刘俊卿，",
+      "citations": 0,
+      "abstract": "… 问题.因此,急需设计建设一套基于智 能分析引擎的集VTE 评估量表生成,评估,治疗, 统计功能于 一体的院内静脉血栓栓塞风险… 系统中医疗文书,诊 断,手术,检查检验,医嘱等相关高危致病信息,将…"
+    }
+  ],
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q19_baseline_b_20260410_195857.md"
+}

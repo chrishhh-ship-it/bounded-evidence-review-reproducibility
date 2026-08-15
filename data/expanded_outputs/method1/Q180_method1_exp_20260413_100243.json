@@ -1,0 +1,226 @@
+{
+  "query_id": "Q180",
+  "query": "How should a multi-agent pipeline flag and handle RCT abstracts that omit primary outcome results?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "INNV-39. INVESTIGATING MULTI-AGENT INTRATHECAL CHEMOTHERAPY AS A TREATMENT FOR PRIMARY AND SECONDARY CENTRAL NERVOUS SYSTEM LYMPHOMA: SAFETY AND EFFICACY RESULTS FROM AN INSTITUTIONAL COHORT STUDY",
+      "authors": [
+        "H. Wilding",
+        "A. Aastha",
+        "L. D. M. de Macêdo Filho",
+        "D. Bhanja",
+        "Madison Heebner",
+        "Shahbaz Khan",
+        "N. Mikolajewicz",
+        "V. Ignatchenko",
+        "T. Kislinger",
+        "M. Glantz",
+        "A. Mansouri"
+      ],
+      "abstract": "\n \n \n Despite exquisite responses to initial therapy for CNS lymphoma, relapse is common and overall responses are disappointing compared to non-CNS diffuse large B-cell lymphomas. Literature reports 1 and 3 year survival rates of 50% and 30-40% respectively, with standard treatment. Intravenous, high-dose-methotrexate-based therapies have become the standard of care, with many variations but no consensus. Incorporation of multi-agent intrathecal chemotherapy (MAITC) alongside systemic therapy is novel but not widely adopted. We report our institutional data on safety and efficacy of MAITC in CNS lymphoma.\n \n \n \n A retrospective review of patients with primary or secondary CNS lymphoma, treated with MAITC between August 2015 and December 2021, was conducted. Each cycle includes alternating combinations of 2-3 of the following drugs: methotrexate, rituximab, cytarabine, etoposide, topotecan, gemcitabine, and thiotepa, via ommaya reservoir. Log-rank tests and Cox regression were used to evaluate survival differences.\n \n \n \n 59 patients were reviewed (21 primary; 38 secondary CNS lymphoma). Median age at start of MAITC was 66 years (range 25-90). Only six patients received external beam radiation (EBRT). Median MAITC cycles was 8 (range 2-23). 76% of patients with primary and 66% with secondary CNS lymphoma were alive 1 year after starting MAITC. Of 37 eligible patients, 17 (46%) were alive 3 years after starting MAITC. After a median 19.2 months follow-up, median OS was not reached. No significant difference was noted in OS between primary and secondary CNS lymphoma. KPS > 80 was positively while leptomeningeal disease, secondary CNS lymphoma, and EBRT were negatively associated with OS. Ommaya-related infections occurred in 8 patients (13.5%); only 1 required removal.\n \n \n \n Based on our institutional data, MAITC can potentially offer a significant OS advantage with minimal safety concerns. Factors associated with poor survival were identified, which are being addressed in a larger dataset along with baseline CSF biomarkers.\n",
+      "year": "2023",
+      "published_date": "2023-11-01",
+      "journal": "Neuro-Oncology",
+      "url": "https://www.semanticscholar.org/paper/cde2677f784e489cbb3be8774919cb987dc5534e",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1093/neuonc/noad179.0628",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Analysing the synergies between Multi-agent Systems and Digital Twins: A systematic literature review",
+      "authors": [
+        "Elena Pretel",
+        "Alejandro Moya",
+        "Elena Navarro",
+        "Víctor López‐Jaquero",
+        "Pascual González"
+      ],
+      "abstract": ": Digital Twins (DTs) are used to augment physical entities by exploiting assorted computational approaches applied to the virtual twin counterpart. A DT is generally described as a physical entity, its virtual counterpart, and the data connections between them. Multi-Agent Systems (MAS) paradigm is alike DTs in many ways. Agents of MAS are entities operating and interacting in a specific environment, while exploring and collecting data to solve some tasks. : This paper presents the results of a systematic literature review (SLR) focused on the analysis of current proposals exploiting the synergies of DTs and MAS. This research aims to synthesize studies that focus on the use of MAS to support DTs development and MAS that exploit DTs, paving the way for future research. : A SLR methodology was used to conduct a detailed study analysis of 64 primary studies out of a total of 220 studies that were initially identified. This SLR analyses three research questions related to the synergies between MAS and DT. : The most relevant findings of this SLR and their implications for further research are the following: i) most of the analyzed proposals design digital shadows rather than DT; ii) they do not fully support the properties expected from a DT; iii) most of the MAS properties have not fully exploited for the development of DT; iv) ontologies are frequently used for specifying semantic models of the physical twin. : Based on the results of this SLR, our conclusions for the community are presented in a research agenda that highlights the need of innovative theoretical proposals and design frameworks that guide the development of DT. They should be defined exploiting the properties of MAS to unleash the full potential of DT. Finally, ontologies for machine learning models should be designed for its use in DT.",
+      "year": "2024",
+      "published_date": "2024-06-01",
+      "journal": "Information and Software Technology",
+      "url": "https://doi.org/10.1016/j.infsof.2024.107503",
+      "arxiv_id": "",
+      "keywords": [
+        "Systematic review",
+        "Computer science",
+        "Psychology",
+        "Political science",
+        "MEDLINE"
+      ],
+      "citations": 23,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.infsof.2024.107503",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning Based Fully Decentralized Dynamic Time Division Configuration for 5G and B5G Network.",
+      "authors": [
+        "Xiangyu Chen",
+        "Gang Chuai",
+        "Weidong Gao"
+      ],
+      "abstract": "Future network services must adapt to the highly dynamic uplink and downlink traffic. To fulfill this requirement, the 3rd Generation Partnership Project (3GPP) proposed dynamic time division duplex (D-TDD) technology in Long Term Evolution (LTE) Release 11. Afterward, the 3GPP RAN#86 meeting clarified that 5G NR needs to support dynamic adjustment of the duplex pattern (transmission direction) in the time domain. Although 5G NR provides a more flexible duplex pattern, how to configure an effective duplex pattern according to services traffic is still an open research area. In this research, we propose a distributed multi-agent deep reinforcement learning (MARL) based decentralized D-TDD configuration method. First, we model a D-TDD configuration problem as a dynamic programming problem. Given the buffer length of all UE, we model the D-TDD configuration policy as a conditional probability distribution. Our goal is to find a D-TDD configuration policy that maximizes the expected discount return of all UE's sum rates. Second, in order to reduce signaling overhead, we design a fully decentralized solution with distributed MARL technology. Each agent in MARL makes decisions only based on local observations. We regard each base station (BS) as an agent, and each agent configures uplink and downlink time slot ratio according to length of intra-BS user (UE) queue buffer. Third, in order to solve the problem of overall system revenue caused by the lack of global information in MARL, we apply leniency control and binary LSTM (BLSTM) based auto-encoder. Leniency controller effectively controls Q-value estimation process in MARL according to Q-value and current network conditions, and auto-encoder makes up for the defect that leniency control cannot handle complex environments and high-dimensional data. Through the parallel distributed training, the global D-TDD policy is obtained. This method deploys the MARL algorithm on the Mobile Edge Computing (MEC) server of each BS and uses the storage and computing capabilities of the server for distributed training. The simulation results show that the proposed distributed MARL converges stably in various environments, and performs better than distributed deep reinforcement algorithm.",
+      "year": "2022",
+      "published_date": "2022",
+      "journal": "Sensors (Basel, Switzerland)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35270890/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.3390/s22051746",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service"
+    },
+    {
+      "title": "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing",
+      "authors": [
+        "Naeimeh Nourmohammadi",
+        "Md Meem Hossain",
+        "The Anh Han",
+        "Safina Showkat Ara",
+        "Zia Ush Shamszaman"
+      ],
+      "abstract": "Large language models (LLMs) show promise for healthcare question answering, but clinical use is limited by weak verification, insufficient evidence grounding, and unreliable confidence signalling. We propose a multi-agent medical QA framework that combines complementary LLMs with evidence retrieval, uncertainty estimation, and bias checks to improve answer reliability. Our approach has two phases. First, we fine-tune three representative LLM families (GPT, LLaMA, and DeepSeek R1) on MedQuAD-derived medical QA data (20k+ question-answer pairs across multiple NIH domains) and benchmark generation quality. DeepSeek R1 achieves the strongest scores (ROUGE-1 0.536 +- 0.04; ROUGE-2 0.226 +-0.03; BLEU 0.098 -+ 0.018) and substantially outperforms the specialised biomedical baseline BioGPT in zero-shot evaluation. Second, we implement a modular multi-agent pipeline in which a Clinical Reasoning agent (fine-tuned LLaMA) produces structured explanations, an Evidence Retrieval agent queries PubMed to ground responses in recent literature, and a Refinement agent (DeepSeek R1) improves clarity and factual consistency; an optional human validation path is triggered for high-risk or high-uncertainty cases. Safety mechanisms include Monte Carlo dropout and perplexity-based uncertainty scoring, plus lexical and sentiment-based bias detection supported by LIME/SHAP-based analyses. In evaluation, the full system achieves 87% accuracy with relevance around 0.80, and evidence augmentation reduces uncertainty (perplexity 4.13) compared to base responses, with mean end-to-end latency of 36.5 seconds under the reported configuration. Overall, the results indicate that agent specialisation and verification layers can mitigate key single-model limitations and provide a practical, extensible design for evidence-based and bias-aware medical AI.",
+      "year": "2026",
+      "published_date": "2026-02-15",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2602.14158v1",
+      "arxiv_id": "2602.14158v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "clinical evidence review multi-agent"
+    },
+    {
+      "title": "Multi-Agent Systems and Blockchain: Results from a Systematic Literature Review",
+      "authors": [
+        "Davide Calvaresi",
+        "Alevtina Dubovitskaya",
+        "Jean-Paul Calbimonte",
+        "Kuldar Taveter",
+        "Michael Schumacher"
+      ],
+      "abstract": "",
+      "year": "2018",
+      "published_date": "2018-01-01",
+      "journal": "Lecture notes in computer science",
+      "url": "https://doi.org/10.1007/978-3-319-94580-4_9",
+      "arxiv_id": "",
+      "keywords": [
+        "Scope (computer science)",
+        "Computer science",
+        "Blockchain",
+        "Data science",
+        "Accountability",
+        "Systematic review",
+        "Risk analysis (engineering)",
+        "Management science"
+      ],
+      "citations": 99,
+      "source": "OpenAlex",
+      "doi": "10.1007/978-3-319-94580-4_9",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "A Systematic Literature Review in Multi-Agent Systems: Patterns and Trends",
+      "authors": [
+        "Mariana Falco",
+        "Gabriela Robiolo"
+      ],
+      "abstract": "Multi-Agent Systems became a powerful solution to model and solve problems in complex and dynamic environments. While research in this area grew exponentially before 2009, there is a need to understand the status quo of the field from 2009 to June 2017 in order to comprehend the general evolution. The results of a SLR related to Multi-Agent Systems, its applications and research gaps, following Kitchenham and Wholin guidelines are presented in this paper. From the analysis of279 papers (out of3522 candidates), our findings suggest that: a) there is a general decreasing trend of publications (but it is increasing for specific domains), b) only 15% of the papers portrayed a real case study, c) the top 20 were formed by 67 authors, d) the papers were mostly published in journals and conferences, e) there is no unified methodology or framework, f) the top 3 application domains were transport/traffic, healthcare/biology, and logistics/manufacturing, g) MAS interact with different disciplines like machine learning. Finally, the MAS community should work together to close the gaps and unify the field, bridging with other disciplines and industry.",
+      "year": "2019",
+      "published_date": "2019-09-01",
+      "journal": "OpenAlex",
+      "url": "https://doi.org/10.1109/clei47609.2019.235098",
+      "arxiv_id": "",
+      "keywords": [
+        "Status quo",
+        "Computer science",
+        "Bridging (networking)",
+        "Field (mathematics)",
+        "Order (exchange)",
+        "Work (physics)",
+        "Data science",
+        "Multi-agent system"
+      ],
+      "citations": 17,
+      "source": "OpenAlex",
+      "doi": "10.1109/clei47609.2019.235098",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "A Dynamic and Adaptable Service Composition Architecture in the Cloud Based on a Multi-Agent System",
+      "authors": [
+        "Abdelhak Merizig",
+        "Okba Kazar",
+        "Maite Lopez-Sanchez"
+      ],
+      "abstract": "Nowadays, service composition is one of the major problems in the Cloud due to the exceptional growth in the number of services deployed by providers. Recently, atomic services have been found to be unable to deal with all client requirements. Traditional service composition gives the clients a composite service without non-functional parameters. To respond to both functional and non-functional parameters, we need a service composition. Since web services cannot communicate with each other or participate dynamically to handle changes service parameters in service composition, this issue has led us to use a dynamic entity represented by an agent based on dynamic architecture. This work proposes an agent-based architecture with a new cooperation protocol that can offer an automatic and adaptable service composition by providing a composite service with the maximum quality of service. The implementation of this model has been provided in order to evaluate the authors' system. The obtained results demonstrate the effectiveness of their proposed system.",
+      "year": "2018",
+      "published_date": "2018-1-1",
+      "journal": "International Journal of Information Technology and Web Engineering",
+      "url": "https://doi.org/10.4018/ijitwe.2018010104",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 12,
+      "source": "CrossRef",
+      "doi": "10.4018/ijitwe.2018010104",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Evaluating routing stability and coordination in swarm-based multi-agent task-oriented dialogue systems.",
+      "authors": [
+        "Abuzar Khan",
+        "Fahad Masood",
+        "Abid Iqbal",
+        "Ahmad Junaid",
+        "Saad Arif",
+        "Mohammed Al-Naeem",
+        "Ghassan Husnain",
+        "Ali Saeed Alzahrani"
+      ],
+      "abstract": "Conversational systems are becoming a primary interface for services and enterprise automation, and rapid market growth is pushing deployments into safety- and cost-sensitive settings. Reliability remains a bottleneck when interactions span multiple domains: an orchestrator must choose the next specialist, maintain shared dialogue state, and recover from mistakes before they cascade across handoffs. Despite rising interest in swarm-like multi-agent designs, orchestration is rarely evaluated with coordination-centric metrics, making it hard to compare routing policies beyond surface fluency. We present an evaluation-first pipeline for multi-domain task-oriented dialogue on MultiWOZ 2.2 that decouples routing from generation and exposes measurable failure modes. A DeBERTa-based router selects domain specialists, while a FLAN-T5 generator produces structured actions and belief-state updates under a shared memory interface. The protocol tracks delegation correctness, slot-progress coverage, switching and bouncing instability, loop behavior, and recovery after misroutes, and it links early-turn errors to downstream collapse using cascading-error attribution. We further introduce stress tests that simulate reformulation, long-horizon corrections, and tool-latency delays to probe robustness beyond static annotations. Across routing variants, confidence-aware gating yields the strongest stability improvement, achieving routing accuracy of 0.77 while substantially reducing handoff churn, with switching 0.11 and bounce 0.01, relative to a learned baseline with 0.65 accuracy, switching 0.44, and bounce 0.09. At the same time, confidence gating can trade progress for precision when it suppresses belief updates, highlighting an accuracy-progress tension that is important for deployment tuning. Diagnostic summaries identify misrouting and empty-state updates as dominant contributors, while looping is comparatively rare. Finally, applying the same evaluation to SGD shows that coordination challenges persist under schema shift. Overall, the proposed metrics and implementation blueprint provide a reproducible basis for diagnosing coordination failures and selecting orchestration policies for deployment.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "Scientific reports",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772010/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1038/s41598-026-42158-y",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service"
+    }
+  ],
+  "timestamp": "20260413_100243"
+}

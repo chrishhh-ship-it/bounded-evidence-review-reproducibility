@@ -1,0 +1,235 @@
+{
+  "query_id": "Q245",
+  "query": "What citation frameworks allow a synthesis to integrate quantitative emissions modeling with qualitative governance analysis?",
+  "domain_id": "climate_policy_research",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Large Language Models in Sustainable Energy Systems: A Systematic Review on Modeling, Optimization, Governance, and Alignment to Sustainable Development Goals",
+      "authors": [
+        "T. Alka",
+        "M. Suresh",
+        "Santanu Mandal",
+        "Walter Leal Filho",
+        "R. Raman"
+      ],
+      "abstract": "Sustainable energy systems (SESs) support intelligent modeling, automation, and governance that enable energy access, infrastructure innovation, and climate resilience. Despite their potential, their integration with large language models (LLMs) raises concerns regarding energy intensity, transparency, equity, and regulation. This study adopts a mixed-methods review combining a BERTopic-based thematic analysis and case-based synthesis to examine applications of LLMs in energy modeling, optimization, etc., and to assess their alignment with the United Nations Sustainable Development Goals. These applications support SDG 7 (Affordable and Clean Energy) by improving access to energy knowledge and decision support, SDG 9 (Industry, Innovation and Infrastructure) through intelligent and scalable digital infrastructure, and SDG 13 (Climate Action) by climate-responsive planning and operational efficiency. The findings reveal that modular, agent-based LLM workflows enhance energy modeling and regulatory compliance. However, sustainability trade-offs necessitate responsible Artificial Intelligence (AI) governance emphasizing transparency, ethical design, and inclusivity. This review informs policy and practice by suggesting that LLMs offer potential value for sustainable energy application deployment within responsible AI governance frameworks that emphasize ethical design, accountability, and equitable access. The study provides future research directions using the ADO (antecedents–decisions–outcomes) framework, emphasizing regulatory readiness, ethical design, and inclusive governance aligned with SDGs 7, 9, and 13, among others.",
+      "year": "2026",
+      "published_date": "2026-03-23",
+      "journal": "Energies",
+      "url": "https://www.semanticscholar.org/paper/60122d1ca030a97aba7fba220b0ba2dd9bb76859",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/en19061588",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate governance systematic review automation benchmark"
+    },
+    {
+      "title": "What are the Factors Influencing Service Provider Response to Working with Families Affected by Intimate Partner Violence and Abuse? A Qualitative Systematic Review of the Literature",
+      "authors": [
+        "Andrea Mayrhofer",
+        "H. Alderson",
+        "Kausiki Sarma",
+        "Caroline Jackson",
+        "P. Olive",
+        "Madalina Toma",
+        "Nushra Mansuri",
+        "Amy Waterfield",
+        "Sharon Crossen",
+        "Deborah Parker",
+        "Julien Forder",
+        "E. Kaner",
+        "Robin Miller",
+        "Mark Gabbay",
+        "Dorcas Akeju",
+        "Ruth McGovern"
+      ],
+      "abstract": "Intimate partner violence and abuse (IPVA) is a major public health issue with long-term negative impacts on abused adults and affected children. Addressing this complex problem requires a multi-agency response, but barriers to effective joint working remain. This review aimed to understand the factors that influence multi-agency response to families who experience IPVA and to their children. We undertook a qualitative systematic review of international literature via five electronic databases and supplemented the review by citation searches, online searches of grey literature, and hand searches of relevant journals. We analyzed data thematically. The 31 identified papers reported findings from 29 unique studies undertaken in six countries and drew on data from 1049 professionals across health care, social care, the police, courts, schools and voluntary organisations. The main factors influencing service provider response to IPVA were siloed approaches to IPVA, particularly the separation between adult and childrens services. This influenced assessment and response to risk. Risk was also a consideration when child-protection staff were expected to work with perpetrators in ‘family settings’, even in lower-risk cases. Multi-agency working facilitated information sharing between agencies, an understanding of each other’s remit, and building trust. Multi-agency collaboration needs to be supported by clear policies of interaction between agencies. Providers of child protection services, health, mental health, housing police and probation need to be supported by specialist training in IPVA, not only in high-risk cases, but also to relieve pressure on an already overstretched workforce.",
+      "year": "2024",
+      "published_date": "2024-10-09",
+      "journal": "Journal of Family Violence",
+      "url": "https://www.semanticscholar.org/paper/fbcc7df1aebe9d1c57e6f17092fc9a22beef754f",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.1007/s10896-024-00755-3",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant systematic review"
+    },
+    {
+      "title": "Net-Zero Economy and Climate Change Mitigation: Quantitative synthesis of the research through a comprehensive Bibliometric and Network Analysis",
+      "authors": [
+        "D. Raja",
+        "Hima Keerthi Raparla",
+        "Neel Mohan Lal",
+        "Manvik Anumalisetty"
+      ],
+      "abstract": "A bibliometric network analysis of worldwide research production on net-zero and decarbonization was conducted from 2015 to 2025, using 1884 records from the Scopus database. After applying strict screening based on cross-disciplinary and eligibility criteria, 1,292 studies were included in the study for bibliometric analysis. Analysis tools used for visualizing publication trends, best authors, institutions, and journals include VOSviewer and Bibliometrix (R). After the 2015 Paris Agreement, the number of publications in the field of sustainability and climate economics increased by an average annual growth rate of 20.89%. Using keyword co-occurrence mapping, three generic topics were identified: climate policy/mitigation, economic growth and carbon emissions, and a shift to renewable energy. These generic themes describe an intersection of environmental policy, economic modelling, and technological viability. China now dominates this literature because its global leadership in climate research has grown. Overall, this study empirically maps the intellectual and structural evolution of net-zero research. Future scholars and policymakers are provided with potential new avenues for sustainable development research.",
+      "year": "2025",
+      "published_date": "",
+      "journal": "International journal of social science and economic research",
+      "url": "https://www.semanticscholar.org/paper/bdacc2bd8888f78f00a72acbee6cd0920a7955e7",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.46609/ijsser.2025.v10i11.022",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis"
+    },
+    {
+      "title": "Frameworks to assess health systems governance: a systematic review",
+      "authors": [
+        "Thidar Pyone",
+        "Helen Smith",
+        "Nynke van den Broek"
+      ],
+      "abstract": "Governance of the health system is a relatively new concept and there are gaps in understanding what health system governance is and how it could be assessed. We conducted a systematic review of the literature to describe the concept of governance and the theories underpinning as applied to health systems; and to identify which frameworks are available and have been applied to assess health systems governance. Frameworks were reviewed to understand how the principles of governance might be operationalized at different levels of a health system. Electronic databases and web portals of international institutions concerned with governance were searched for publications in English for the period January 1994 to February 2016. Sixteen frameworks developed to assess governance in the health system were identified and are described. Of these, six frameworks were developed based on theories from new institutional economics; three are primarily informed by political science and public management disciplines; three arise from the development literature and four use multidisciplinary approaches. Only five of the identified frameworks have been applied. These used the principal-agent theory, theory of common pool resources, North's institutional analysis and the cybernetics theory. Governance is a practice, dependent on arrangements set at political or national level, but which needs to be operationalized by individuals at lower levels in the health system; multi-level frameworks acknowledge this. Three frameworks were used to assess governance at all levels of the health system. Health system governance is complex and difficult to assess; the concept of governance originates from different disciplines and is multidimensional. There is a need to validate and apply existing frameworks and share lessons learnt regarding which frameworks work well in which settings. A comprehensive assessment of governance could enable policy makers to prioritize solutions for problems identified as well as replicate and scale-up examples of good practice.",
+      "year": "2017",
+      "published_date": "2017-01-30",
+      "journal": "Health Policy and Planning",
+      "url": "https://doi.org/10.1093/heapol/czx007",
+      "arxiv_id": "",
+      "keywords": [
+        "Operationalization",
+        "Corporate governance",
+        "Project governance",
+        "Health informatics",
+        "Multidisciplinary approach",
+        "Multi-level governance",
+        "Health administration",
+        "Conceptual framework"
+      ],
+      "citations": 149,
+      "source": "OpenAlex",
+      "doi": "10.1093/heapol/czx007",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system systematic review"
+    },
+    {
+      "title": "The Systematic Review Toolbox: keeping up to date with tools to support evidence synthesis",
+      "authors": [
+        "E. Johnson",
+        "Hannah O'Keefe",
+        "A. Sutton",
+        "C. Marshall"
+      ],
+      "abstract": "Background The Systematic Review (SR) Toolbox was developed in 2014 to collate tools that can be used to support the systematic review process. Since its inception, the breadth of evidence synthesis methodologies has expanded greatly. This work describes the process of updating the SR Toolbox in 2022 to reflect these changes in evidence synthesis methodology. We also briefly analysed included tools and guidance to identify any potential gaps in what is currently available to researchers. Methods We manually extracted all guidance and software tools contained within the SR Toolbox in February 2022. A single reviewer, with a second checking a proportion, extracted and analysed information from records contained within the SR Toolbox using Microsoft Excel. Using this spreadsheet and Microsoft Access, the SR Toolbox was updated to reflect expansion of evidence synthesis methodologies and brief analysis conducted. Results The updated version of the SR Toolbox was launched on 13 May 2022, with 235 software tools and 112 guidance documents included. Regarding review families, most software tools ( N = 223) and guidance documents ( N = 78) were applicable to systematic reviews. However, there were fewer tools and guidance documents applicable to reviews of reviews ( N = 66 and N = 22, respectively), while qualitative reviews were less served by guidance documents ( N = 19). In terms of review production stages, most guidance documents surrounded quality assessment ( N = 70), while software tools related to searching and synthesis ( N = 84 and N = 82, respectively). There appears to be a paucity of tools and guidance relating to stakeholder engagement ( N = 2 and N = 3, respectively). Conclusions The SR Toolbox provides a platform for those undertaking evidence syntheses to locate guidance and software tools to support different aspects of the review process across multiple review types. However, this work has also identified potential gaps in guidance and software that could inform future research.",
+      "year": "2022",
+      "published_date": "2022-12-01",
+      "journal": "Systematic Reviews",
+      "url": "https://www.semanticscholar.org/paper/bc9b49388b204b167e3efeda32b5b1d6836d01d7",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 28,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13643-022-02122-z",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Understanding the perspectives of recruiters is key to improving randomised controlled trial enrolment: a qualitative evidence synthesis",
+      "authors": [
+        "N. Farrar",
+        "D. Elliott",
+        "C. Houghton",
+        "M. Jepson",
+        "N. Mills",
+        "S. Paramasivan",
+        "Lucy A. Plumb",
+        "J. Wade",
+        "Bridget Young",
+        "J. Donovan",
+        "L. Rooshenas"
+      ],
+      "abstract": "Background Recruiting patients to randomised controlled trials (RCTs) is often reported to be challenging, and the evidence base for effective interventions that could be used by staff (recruiters) undertaking recruitment is lacking. Although the experiences and perspectives of recruiters have been widely reported, an evidence synthesis is required in order to inform the development of future interventions. This paper aims to address this by systematically searching and synthesising the evidence on recruiters’ perspectives and experiences of recruiting patients into RCTs.  Methods A qualitative evidence synthesis (QES) following Thomas and Harden’s approach to thematic synthesis was conducted. The Ovid MEDLINE, CINAHL, EMBASE, PsycInfo, Cochrane Central Register of Controlled Trials, ORRCA and Web of Science electronic databases were searched. Studies were sampled to ensure that the focus of the research was aligned with the phenomena of interest of the QES, their methodological relevance to the QES question, and to include variation across the clinical areas of the studies. The GRADE CERQual framework was used to assess confidence in the review findings. Results In total, 9316 studies were identified for screening, which resulted in 128 eligible papers. The application of the QES sampling strategy resulted in 30 papers being included in the final analysis. Five overlapping themes were identified which highlighted the complex manner in which recruiters experience RCT recruitment: (1) recruiting to RCTs in a clinical environment, (2) enthusiasm for the RCT, (3) making judgements about whether to approach a patient, (4) communication challenges, (5) interplay between recruiter and professional roles. Conclusions This QES identified factors which contribute to the complexities that recruiters can face in day-to-day clinical settings, and the influence recruiters and non-recruiting healthcare professionals have on opportunities afforded to patients for RCT participation. It has reinforced the importance of considering the clinical setting in its entirety when planning future RCTs and indicated the need to better normalise and support research if it is to become part of day-to-day practice. Trial registration PROSPERO CRD42020141297 (registered 11/02/2020).",
+      "year": "2022",
+      "published_date": "2022-10-20",
+      "journal": "Trials",
+      "url": "https://www.semanticscholar.org/paper/97a24b1e97db10bac6156bbc980b9a4468bcec92",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 17,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13063-022-06818-4",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "The experiences of emergency hospital care among adolescents and young adults with self-harm: A systematic review and thematic synthesis of qualitative evidence.",
+      "authors": [
+        "Yan Zhang",
+        "Yinying Zhang",
+        "Deying Hu",
+        "Yilan Liu",
+        "Xiaoping Ding",
+        "Ke-da Xu",
+        "M. Wu",
+        "Jiaqing Wang"
+      ],
+      "abstract": "QUESTION\nThe incidence of self-injurious behavior in adolescents and young adults is on the rise. Seeking care in the emergency department after self-injurious behavior is one way they signal for help. The purpose of this systematic evaluation was to synthesize the best available qualitative research evidence on young people's experiences of emergency department visits following self-harm behaviors and their need for emergency medical services.\n\n\nSTUDY SELECTION AND ANALYSIS\nEleven databases were retrieved with predefined search terms from database construction to February 4, 2022. Literature was screened according to inclusion and exclusion criteria and quality assessment.\n\n\nFINDINGS\nEleven studies yielded fifty-five findings that were summarized into eight categories and aggregated into three composite statements: (1) positive emergency department experience; (2) negative emergency department experience; and (3) desire for help.\n\n\nCONCLUSIONS\nYoung people with a history of self-injurious behavior have a mixed sense of experience in the emergency department. The sense of negative experience makes patients feel dissatisfied and disappointed with healthcare services, and positive experiences can help them seek further help. The emergency departments should improve the diagnosis and treatment model of self-injured adolescent patients to ensure that they receive effective and high-quality medical resources.",
+      "year": "2023",
+      "published_date": "2023-06-19",
+      "journal": "International Emergency Nursing",
+      "url": "https://www.semanticscholar.org/paper/626505077c84e7576049b0b886238007989a9731",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.ienj.2023.101297",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "\"I Cannot Recognize My Body\": Experiences and Perceptions of Patients Living With Frozen Shoulder: A Qualitative Systematic Review With Meta-synthesis and Meta-summary.",
+      "authors": [
+        "M. Crestani",
+        "Chad Cook",
+        "Chiara Leuci",
+        "Letizia Carletto",
+        "Fabiola Garzonio",
+        "A. Palese",
+        "Rachel Chester",
+        "L. de Baets",
+        "Marialuisa Gandolfi",
+        "G. Rossettini",
+        "Fabrizio Brindisino"
+      ],
+      "abstract": "OBJECTIVE: To systematically synthesize and summarize findings from qualitative studies exploring the perceptions and experiences of individuals living with frozen shoulder. DESIGN: Systematic review of qualitative studies. LITERATURE SEARCH: The search strategy was conducted in June and updated in November 2024. We searched the following databases: CINAHL (Cumulative Index to Nursing and Allied Health Literature), Cochrane Library, EMBASE, PEDro (Physiotherapy Evidence Database), PsycINFO, MEDLINE (Medical Literature Analysis and Retrieval System Online), Scopus, SPORTDiscus, and Web of Science. STUDY SELECTION CRITERIA: We included qualitative primary studies or mixed-methods studies that (1) clearly identified qualitative data; (2) were published in English or Italian; (3) involved participants aged ≥16 years; and (4) investigated participants' experiences living with frozen shoulder, regardless of phase, intervention type, or publication date. DATA SYNTHESIS: Sandelowski and Barroso's methodology was followed for meta-synthesis and meta-summary. The Confidence in the Evidence from Reviews of Qualitative Research approach evaluated the certainty of the results. RESULTS: Nine studies, comprising 116 participants, were included. One hundred fifty-seven target findings were extracted, analyzed, synthesized, and grouped into 12 categories and 5 main themes: (1) \"I cannot recognize my body,\" (2) \"Frozen shoulder is hindering my life,\" (3) \"Frozen shoulder is affecting my psychological well-being,\" (4) \"Navigating recovery,\" and (5) \"Regaining control of my life after frozen shoulder.\" The critical appraisal indicated moderate methodological quality, and there was a moderate level of confidence that the findings effectively captured the patient experience of frozen shoulder. CONCLUSION: Frozen shoulder affects people's physical function, emotional well-being, and daily life, underscoring the need for a patient-centered approach. Integrating these perspectives into clinical practice can enhance health care strategies and support recovery. J Orthop Sports Phys Ther 2025;55(9):1-16. Epub 30 July 2025. doi:10.2519/jospt.2025.13432.",
+      "year": "2025",
+      "published_date": "2025-07-30",
+      "journal": "Journal of Orthopaedic and Sports Physical Therapy",
+      "url": "https://www.semanticscholar.org/paper/0e207650d4807f59b5f0ebeaf500bbe4cbbf6a7b",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 4,
+      "source": "Semantic Scholar",
+      "doi": "10.2519/jospt.2025.13432",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    }
+  ],
+  "timestamp": "20260413_120612"
+}

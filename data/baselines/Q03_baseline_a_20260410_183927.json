@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "面向知识服务场景，单智能体与多智能体的信息服务差异体现在哪些指标上？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q03_baseline_a_20260410_183927.md"
+}

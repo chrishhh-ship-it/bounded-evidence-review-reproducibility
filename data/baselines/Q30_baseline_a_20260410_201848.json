@@ -1,0 +1,7 @@
+{
+  "baseline": "single_agent",
+  "query": "面向多智能协同情报服务，什么样的 query 最能区分单智能体与多智能体能力差异？",
+  "provider": "deepseek",
+  "model": "",
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\baselines\\Q30_baseline_a_20260410_201848.md"
+}

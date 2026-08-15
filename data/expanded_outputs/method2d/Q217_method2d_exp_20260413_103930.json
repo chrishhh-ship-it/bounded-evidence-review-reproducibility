@@ -1,0 +1,220 @@
+{
+  "query_id": "Q217",
+  "query": "What citation framework allows a synthesis to distinguish 'observed reductions' from 'projected reductions' in renewable energy adoption studies?",
+  "domain_id": "climate_policy_research",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Just energy business needed! How to achieve a just energy transition by engaging energy companies in reaching climate neutrality: (re)conceptualising energy law for energy corporations",
+      "authors": [
+        "Maciej M. Sokołowski",
+        "Madeline Taylor"
+      ],
+      "abstract": "AbstractPublic administration and energy regulators provide policy and economic support to achieve climate neutrality; however, the role of key stakeholders in energy transition, such as energy companies, is critical to a just energy transition. Corporate voluntary incentives to guide, support and pressure companies to disclose their climate-related risks are becoming commonplace internationally. Yet, formal legal frameworks to engage energy companies in reaching net zero emissions have largely been confined to financial risk disclosure and voluntary regulation. In this context, the article offers a normative solution that enables the effective implementation of obligations imposed on energy companies related to the 2050 energy transformation, addressing the concept of 'energy-just companies'. It also proposes the management of this process by illustrating a different, proactive approach to the role of effective obligations in the transformation process based on a novel understanding of energy law principles. These legal solutions consist of 'corporate energy transformation plans' based on energy justice applied by energy companies.Keywords: energy justiceenergy-just companiesenergy lawenergy transitionclimate neutralitycorporate energy transformation plansenergy regulationnet-zero Disclosure statementNo potential conflict of interest was reported by the author.Notes1 Laura A Locke, 'California's Energy Crisis: Power's on – But the Cost!' (Time, [2001]) <https://content.time.com/time/subscriber/article/0,33009,1001557,00.html> accessed 14 November 20222 Maciej M Sokołowski, 'Balancing Energy Regulation: A Day-Watchman Approach' in Robert Grzeszczak (ed), Economic Freedom and Market Regulation: In Search of Proper Balance (Nomos 2020) 1673 Raphael J Heffron, 'Energy Law in Crisis: An Energy Justice Revolution Needed' (2022) 15 The Journal of World Energy Law & Business 167, at 1694 Ibid 169–705 Ibid 1726 See Raphael J Heffron, 'Applying Energy Justice into the Energy Transition' (2022) 156 Renewable and Sustainable Energy Reviews 1119367 Raphael J Heffron and Darren McCauley, 'The Concept of Energy Justice Across the Disciplines' (2017) 105 Energy Policy 6588 See Yuwan Duan and Xuemei Jiang, 'Pollution Haven or Pollution Halo? A Re-Evaluation on the Role of Multinational Enterprises in Global CO2 Emissions' (2021) 97 Energy Economics 105181; Raphael J Heffron, 'Energy Multinationals Challenged by the Growth of Human Rights' (2021) 6 Nature Energy 8499 See Nur Firdaus and Akihisa Mori, 'Stranded Assets and Sustainable Energy Transition: A Systematic and Critical Review of Incumbents' Response' (2023) 73 Energy for Sustainable Development 76; Michael Kattirtzi, Ioanna Ketsopoulou and Jim Watson, 'Incumbents in Transition? The Role of the \"Big Six\" Energy Companies in the UK' (2021) 148 Energy Policy 111927; Susan Mühlemeier, 'Dinosaurs in Transition? A Conceptual Exploration of Local Incumbents in the Swiss and German Energy Transition' (2019) 31 Environmental Innovation and Societal Transitions 126; Gregor Kungl, 'Stewards or Sticklers for Change? Incumbent Energy Providers and the Politics of the German Energy Transition' (2015) 8 Energy Research & Social Science 1310 See Vasudha Chhotray, 'Extractive Regimes in the Coal Heartlands of India: Difficult Questions for a Just Energy Transition' in Prakash Kashwan (ed), Climate Justice in India (Cambridge UP 2023); Kelli F Roemer and Julia H Haggerty, 'The Energy Transition as Fiscal Rupture: Public Services and Resilience Pathways in a Coal Company Town' (2022) 91 Energy Research & Social Science 102752; Micah Carper, 'From the Ruhr Valley to Ramp Hollow: Lessons for America from Germany's Just Energy Transition' (2022) 35 Tulane Environmental Law Journal 91; David Gibbs and Paul D Jensen, 'Chasing after the Wind? Green Economy Strategies, Path Creation and Transitions in the Offshore Wind Industry' (2022) 56 Regional Studies 167111 See Ramona Hägele, Gabriela I Iacobuţă and James Tops, 'Addressing Climate Goals and the SDGs through a Just Energy Transition? Empirical Evidence from Germany and South Africa' (2022) 19 Journal of Integrative Environmental Sciences 85; Roman Vakulchuk, Indra Overland and Beni Suryadi, 'ASEAN's Energy Transition: How to Attract More Investment in Renewable Energy' [2022] Energy, Ecology and Environment 1; Ortzi Akizu and others, 'Tracing the Emerging Energy Transitions in the Global North and the Global South' (2017) 42 International Journal of Hydrogen Energy 1804512 See Mostafa Mahmud Naser and Prafula Pearce, 'Evolution of the International Climate Change Policy and Processes: UNFCCC to Paris Agreement' in H. H. Shugart (ed.), Oxford Research Encyclopedia of Environmental Science (OUP 2022); Antonio Mele, Elena Paglialunga and Giorgia Sforna, 'Climate Cooperation from Kyoto to Paris: What Can Be Learnt from the CDM Experience?' (2021) 75 Socio-Economic Planning Sciences 100942; David Held and Charles Roger, 'Three Models of Global Climate Governance: From Kyoto to Paris and Beyond' (2018) 9 Global Policy 527; Jonathan Pickering and others, 'The Impact of the US Retreat from the Paris Agreement: Kyoto Revisited?' (2018) 18(7) Climate Policy 81813 Madeleine Wahlund and Jenny Palm, 'The Role of Energy Democracy and Energy Citizenship for Participatory Energy Transitions: A Comprehensive Review' (2022) 87 Energy Research & Social Science 102482, at 1014 Kexiang Hu and others, 'Achieving Energy Transition in OECD Economies: Discovering the Moderating Roles of Environmental Governance' (2022) 168 Renewable and Sustainable Energy Reviews 11280815 Heffron and McCauley (n 7)16 Ibid17 Maciej M Sokołowski and Raphael J Heffron, 'Defining and Conceptualising Energy Policy Failure: The When, Where, Why, and How – the Search for the Just Solutions' (2022) 161 Energy Policy 11274518 Jose Vega-Araujo and Raphael J Heffron, 'Assessing Elements of Energy Justice in Colombia: A Case Study on Transmission Infrastructure in La Guajira' (2022) 91 Energy Research & Social Science 10268819 See Raphael J Heffron, 'The Application of Distributive Justice to Energy Taxation Utilising Sovereign Wealth Funds' (2018) 122 Energy Policy 64920 Adam Mayer, Maria Claudia Lopez and Emilio F Moran, 'Uncompensated Losses and Damaged Livelihoods: Restorative and Distributional Injustices in Brazilian Hydropower' (2022) 167 Energy Policy 11304821 M Hazrati and Raphael J Heffron, 'Conceptualising Restorative Justice in the Energy Transition: Changing the Perspectives of Fossil Fuels' (2021) 78 Energy Research & Social Science 10211522 Darren McCauley and Raphael Heffron, 'Just Transition: Integrating Climate, Energy and Environmental Justice' (2018) 119 Energy Policy 1, at 523 Maciej M Sokołowski and Satoshi Kurokawa, 'Energy Justice in Japan's Energy Transition: Pillars of Just 2050 Carbon Neutrality' (2022) 15 Journal of World Energy Law & Business 183, at 18824 Raphael J Heffron, 'Energy Law for Decommissioning in the Energy Sector in the 21st Century' (2018) 11(3) The Journal of World Energy Law & Business 189, at 19025 See Sokołowski and Heffron (n 17); Darren McCauley and others, 'Energy Justice in the Arctic: Implications for Energy Infrastructural Development in the Arctic' (2016) 16 Energy Research & Social Science 141; Shankar Sankaran and Janet McIntyre-Mills, 'Energy Justice in Renewable Energy Projects: How Learning about Indigenous Knowledge Systems Could Inform Systemic Practice' (2022) 39 Systems Research and Behavioral Science 96226 Eva Heiskanen and others, 'Incumbent Energy Companies Navigating Energy Transitions: Strategic Action or Bricolage?' (2018) 28 Environmental Innovation and Societal Transitions 57, at 57; see Veit Bürger and others, 'Third Party Access to District Heating Systems – Challenges for the Practical Implementation' (2019) 132 Energy Policy 88127 Jessica Lagerstedt Wadin, Kajsa Ahlgren and Lars Bengtsson, 'Joint Business Model Innovation for Sustainable Transformation of Industries – A Large Multinational Utility in Alliance with a Small Solar Energy Company' (2017) 160 Journal of Cleaner Production 139, at 13928 See Jakub Sokołowski and others, 'Energy Poverty Between Energy Paradigms in Poland' in George Jiglau and others (eds), Perspectives on Energy Poverty in Post-Communist Europe (Routledge 2020)29 Maria-Jose Manjon, Amparo Merino and Iain Cairns, 'Tackling Energy Poverty through Social Intrapreneurship in Large-Scale Energy Companies' (2021) 17 Social Enterprise Journal 604, at 61730 Vega-Araujo and Heffron (n 18); see Pia-Johanna Schweizer and Jana Bovet, 'The Potential of Public Participation to Facilitate Infrastructure Decision-Making: Lessons from the German and European Legal Planning System for Electricity Grid Expansion' (2016) 42 Utilities Policy 64, at 6831 See Maciej M Sokołowski, 'Discovering the New Renewable Legal Order in Poland: With or Without Wind?' (2017) 106 Energy Policy at 68-74, doi.org/10.1016/j.enpol.2017.03.033; Maciej M Sokolowski, 'Renewable Energy Communities in the Law of the EU, Australia, and New Zealand' (2019) 28(2) European Energy and Environmental Law Review at 34-4632 See Sokołowski and Heffron (n 17)33 See Sandra Cassotta, Maciej M. Sokolowski, 'Regulatory Models of Community Energy (CE) in a Multi-Regulatory Approach: Juxtaposing the Global, the EU, the Japanese and Swedish Cases', (2022), 31, European Energy and Environmental Law Review, Issue 3, pp. 189-19934 Paris Agreement to the United Nations Framework Convention on Climate Change 2015 (adopted on 12 December 2015, entered into force on 4 November 2016)35 See Article 6 of the Paris Agreement (2015)36 See Silvana Secinaro and others, 'Impact of Climate Change Mitigation Policies on Corporate Financial Performance: Evidence-Based on European Publicly Listed Firms' (2020) 27 Corporate Social Responsibility and Environmental Management 2491, at 249737 EU–Japan Centre for Industrial Cooperation, 'Case Studies: EU–Japan Industrial Cooperation for Decarbonization' (2022) <www.eu-japan.eu/climate> accessed 7 March 202238 See Maciej M Sokołowski, Energy Transition of the Electricity Sectors in the European Union and Japan: Regulatory Models and Legislative Solutions (Palgrave Macmillan 2022) 339 World Business Council for Sustainable Development, The Business of Climate Recovery: Accelerating Accountability, Ambition and Action (2022) <www.wbcsd.org/Overview/Policy-Advocacy-and-Member-Mobilization-PAMM/Resources/Business-of-Climate-Recovery-Accelerating-Accountability-Ambition-and-Action> accessed 14 November 202240 The World Business Council for Sustainable Development consists of a wide range of multinational corporations with 5% of its members drawn from the oil and gas sector and 5% from the electricity sector41 World Business Council for Sustainable Development, 'The Business of Climate Recovery: Accelerating Accountability, Ambition and Action' (2022) <www.wbcsd.org/Overview/Policy-Advocacy-and-Member-Mobilization-PAMM/Resources/Business-of-Climate-Recovery-Accelerating-Accountability-Ambition-and-Action> accessed 14 November 202242 Arie Freiberg, Regulation in Australia (The Federation Press, 2017); Maciej M Sokołowski, Regulation in the European Electricity Sector (Routledge 2016)43 Jacqueline Peel, Jan McDonald and Lee Godden, Environmental Law (2nd edn, OUP 2019) 12144 Freiberg (n 40), 20845 Julia Black, 'Critical Reflections on Regulation' (2002) 27 Australian Journal of Legal Philosophy 146 Jacqueline Peel and others, 'Corproate Energy Transition' (2020) <https://law.unimelb.edu.au/__data/assets/pdf_file/0018/3500460/Corporate-Energy-Transition-Report.pdf> accessed 6 November 202247 Raphael J Heffron and others, 'The Identification and Impact of Justice Risks to Commercial Risks in the Energy Sector: Post COVID-19 and for the Energy Transition' (2021) 39(4) Journal of Energy & Natural Resources Law 43948 Minister for the Environment v Sharma (No 2) [2022] FCAFC 6549 IPCC, Working Group III Summary For Policymakers (2022) <www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SPM.pdf> accessed 3 November 2022, 3250 Julia Black, 'Regulatory Conversations' (2002) 29(1) Journal of Law and Society 163, at 170; Madeline Taylor and Tina Soliman Hunter, Agricultural Land Use and Natural Gas Extraction Conflicts (Routledge, 2018)51 Freiberg (n 40), 1052 Taylor and Soliman Hunter (n 48), 4653 IPCC (n 47), 5254 Transition Plan Taskforce, 'Consultation: The Transition Plan Taskforce Disclosure Framework' (2022) <https://transitiontaskforce.net/wp-content/uploads/2022/11/TPT-Disclosure-Framework.pdf> accessed 14 November 2022, 1055 Ibid, 856 Ibid57 Transition Plan Taskforce, Consultation: The Transition Plan Taskforce Implementation Guidance (2022) < https://transitiontaskforce.net/wp-content/uploads/2022/11/TPT-Implementation-Guidance-1.pdf> accessed 14 November 2022, 858 José Célio Silveira Andrade and José Antônio Puppim de Oliveira, 'The Role of the Private Sector in Global Climate and Energy Governance' (2014) 130 Journal of Business Ethics 37559 TCFC, Status Report 2020 (2020) <https://assets.bbhub.io/company/sites/60/2022/10/2022-TCFD-Status-Report.pdf> accessed 2 November 202260 APRA, Prudential Practice Guide CPG 229 Climate Change Financial Risks (2021) <www.apra.gov.au/sites/default/files/2021-11/Final%20Prudential%20Practice%20Guide%20CPG%20229%20Climate%20Change%20Financial%20Risks.pdf> accessed 10 November 2022, 1961 United Nations, 'Appendix 2: Terms of Reference for the High-Level Expert Group on the Net-Zero Emissions Commitments of Non-State Entities' (2022) <www.un.org/sites/un2.un.org/files/expert_group_terms_of_reference.pdf> accessed 15 November 202262 Linking corporate energy transition plans to a just transition is discussed below in subsection 3.463 US Securities and Exchange Commission, 'The Enhancement and Standardization of Climate-Related Disclosures for Investors' (2022) <www.sec.gov/rules/proposed/2022/33-11042.pdf> accessed 2 November 202264 Commission Delegated Regulation (EU) 2021/2139 of 4 June 2021 supplementing Regulation (EU) 2020/852 of the European Parliament and of the Council by establishing the technical screening criteria for determining the conditions under which an economic activity qualifies as contributing substantially to climate change mitigation or climate change adaptation and for determining whether that economic activity causes no significant harm to any of the other environmental objectives, OJ L 442, 9 December 202165 Transition Plan Taskforce, 'Implementation Guidance' (n 55)66 Jacqueline Peel and others, 'Governing the Energy Transition: The Role of Corporate Law Tools' (2019) 36 Environmental and Planning Law Journal 45967 Silveira Andrade and Puppim de Oliveira (n 56)68 IEA, 'World Energy Outlook' (2022) <https://iea.blob.core.windows.net/assets/830fe099-5530-48f2-a7c1-11f35d510983/WorldEnergyOutlook2022.pdf> accessed 14 November 202269 The First Movers Coalition commits to decarbonising seven 'hard to abate' industrial sectors accounting for 30% of global emissions committed to by 50 companies. See We Forum, First Movers Coalition (2022) <www.weforum.org/first-movers-coalition> accessed 14 November 202270 Mission Possible Partnership, Net-Zero Steel Initiative (2022) <https://missionpossiblepartnership.org/action-sectors/steel/> accessed 14 November 202271 Mission Possible Partnership, Concrete Action for Climate (2021) <https://missionpossiblepartnership.org/wp-content/uploads/2021/09/MPP-Concrete-2-pager-4-Aug-2021.pdf> accessed 14 November 202272 Silveira Andrade and Puppim de Oliveira (n 56), 38273 Zdravka Tzankova, 'Public Policy Spillovers from Private Energy Governance: New Opportunities for the Political Acceleration of Renewable Energy Transitions' (2020) 67 Energy Research & Social Science 1, at 374 BP, Shell, Glencore, BHP, Unilever, Woodside, Santos, and Incitec Pivot are examples of companies committing to permit investors a vote on their transition plans at Annual General Meetings or at other intervals. See IGCC, 'Corporate Climate Transition Plan: A Guide to Investor Expectations' (2022) <https://igcc.org.au/wp-content/uploads/2022/03/IGCC-corporate-transition-plan-investor-expectations.pdf> accessed 15 November 202275 Other partners in the Alliance for Industry Decarbonisation are Siemens Energy, Enel Green Power, TAQA Arabia, Eni, Technip Energies, EDF Renewables, JSW, Tata Steel, Sable Chemicals, Tatanga Energy, Roland Berger, Repsol, Equinor and TAQA76 IGCC (n 72), 877 Ibid78 Climate Action 100+, 'Net Zero Company Benchmark' (2021) <www.climateaction100.org/wp-content/uploads/2021/10/V1.1-Disclosure-Framework-assessment-methodology-Oct21.pdf> accessed 14 November 202279 Petronas, 'Petronas Integrated Report 2021' (2021) <www.petronas.com/integrated-report-2021/> accessed 15 Novemeber 202280 Equinor, 'Energy Transition Plan' (2022) <https://cdn.sanity.io/files/h61q9gi9/global/6a64fb766c58f70ef37807deca2ee036a3f4096b.pdf?energy-transition-plan-2022-equinor.pdf> accessed 15 November 202281 BP, 'Net Zero from Ambition to Action' (2022) <www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/investors/bp-net-zero-report-2022.pdf> accessed 15 November 202282 Climate Action 100+, 'Net Zero Company Benchmark Interim Assessments October 2022' (2022) <www.climateaction100.org/wp-content/uploads/2022/10/October-2022-Benchmark-interim-assessments_public-summary_Final_13Oct22.pdf> accessed 15 November 2022, 983 ILO, 'Climate Change and Financing a Just Transition' (2022) <www.ilo.org/empent/areas/social-finance/WCMS_825124/lang--en/index.htm> accessed 15 November 202284 Paris Agreement, opened for signature 22 April 2016, 3156 UNTS 88 (entered into force 4 November 2016)85 Brendan Curran and others, 'Making Transition Plans Just: How to Embed the Just Transition into Financial Sector Net Zero Plans' (2022) <www.lse.ac.uk/granthaminstitute/publication/making-transition-plans-just-how-to-embed-the-just-transition-into-financial-sector-net-zero-plans/> accessed 15 November 2022, 686 Raphael Heffron, Darren McCauley, and Benjamin Sovacool, 'Resolving Society's Energy Trilemma through the Energy Justice Metric' (2015) 87 Energy Policy 168; Madeline Taylor and Susanne Taylor, 'Applying Energy Justice Principles: A Case Study of Solar Energy in Vanuatu' (2022) 15(3) Journal of World Energy Law and Business 19387 Climate Action 100+, 'Net Zero Company Benchmark Interim Assessments' (n 80), 2988 Curran and others (n 83), 289 Scotland's Just Transition Commission90 EU Just Transition Mechanism91 Canada's Just Transition Consultation92 Denmark's Oil & Gas Phase Out Plan93 Spain's Just Transition Agreements for Coal94 India's Skills Council for Green Jobs95 UK Green Jobs Task Force96 Sokołowski, 'Balancing Energy Regulation' (n 2) 167",
+      "year": "2023",
+      "published_date": "2023-04-03",
+      "journal": "Journal of Energy & Natural Resources Law",
+      "url": "https://doi.org/10.1080/02646811.2023.2190691",
+      "arxiv_id": "",
+      "keywords": [
+        "Energy law",
+        "Energy balance",
+        "Context (archaeology)",
+        "Business",
+        "Energy market",
+        "Energy transition",
+        "Energy policy",
+        "Efficient energy use"
+      ],
+      "citations": 13,
+      "source": "OpenAlex",
+      "doi": "10.1080/02646811.2023.2190691",
+      "open_access": false,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval systematic review"
+    },
+    {
+      "title": "What determines local attitudes towards Jordan’s renewable energy transition? Evidence from household surveys",
+      "authors": [
+        "S. Weko",
+        "Esther Schuch"
+      ],
+      "abstract": "ABSTRACT The potential for renewable energy to encourage sustainable development raises high hopes for the future among countries in the Global South. However, there has been less research on how energy transitions are perceived outside of the Global North and democratic contexts. This paper explores attitudes towards the energy transition in Jordan, where expert interviews reveal that a strong renewable energy industry has emerged from top-down government efforts to reduce energy dependency and costs. We perform an in-person household survey with 320 respondents in areas with different transition risks and benefits, and then test a series of hypotheses using regression analysis. In the four communities surveyed, income stress and climate concern influence attitudes, as well as perceptions of community benefits. National-level concerns also matter, including energy dependency and energy costs for all Jordanians. Our results highlight the importance of context: findings from the North are not universal and understanding transitions in the Global South requires studying them in their own right. Policy insights Jordanian policymakers should reverse their policy of blocking renewables to avoid public backlash. Jordanian policymakers and funders should promote projects in communities with high economic dependence on the fossil fuel industry to ensure local support in areas facing transition risks. Policymakers should highlight collective, not just individual benefits of transitions, as perceptions of community and country benefits increase support. Policymakers in highly energy-dependent countries like Jordan should frame renewables as an answer to local and national challenges such as high energy prices. Actors wishing to promote clean energy support in different contexts should investigate local dynamics to build communication strategies that frame transitions appropriately.",
+      "year": "2024",
+      "published_date": "2024-05-19",
+      "journal": "Climate Policy",
+      "url": "https://www.semanticscholar.org/paper/9dfb01d753d8d3e5aa6f927ed606ed5ea72140bf",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "Semantic Scholar",
+      "doi": "10.1080/14693062.2024.2353146",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval survey"
+    },
+    {
+      "title": "Interventions to improve referrals from primary care to outpatient specialist services for chronic conditions: a systematic review and framework synthesis update",
+      "authors": [
+        "Layla Bolton Saghdaoui",
+        "S. Lampridou",
+        "S. Tavares",
+        "Rachael Lear",
+        "Alun Davies",
+        "Mary Wells",
+        "Sarah Onida"
+      ],
+      "abstract": "Prior systematic reviews highlight that accessing specialist healthcare to treat chronic conditions can be obstructed by variations in referral rates, inappropriate referrals, and poor communication. Structured referral proformas, peer feedback, and educational interventions involving specialists have been identified as successful strategies for improving referral rates and appropriateness. However, the success of such interventions is often dependent on specific clinical contexts, and little is known about the practicalities of implementation. Additionally, with advancements in healthcare delivery, such as e-referral systems, there is a need to explore new interventions and how they address barriers to referral. This systematic review evaluated the updated evidence exploring interventions aiming to improve rates and/or appropriateness of referral from primary care to specialist services in patients with chronic conditions.Five academic databases were searched (CINAHL, MEDLINE, Embase, British Nursing Index, and Public Health Database), and studies published in English between 2013 and 2023 were included. The Joanna Briggs Institute’s appraisal tool was used to assess the quality of studies, and a narrative synthesis was conducted using the TiDiER framework (template for intervention description and replication). Eighteen full-text publications and five abstracts were included. A behavioral theory or framework for intervention development was used in seven studies. All interventions were based on primary care, and thirteen studies evaluated a multi-component intervention. Process and system changes were most commonly used to improve referral, including electronic health systems, referral algorithms, collaborative working, and patient direct access. Interventions targeted at patients were the least common. Staff education was often used in addition to process and system changes. When used alone, referral algorithms and staff education were less effective at improving referral rates or appropriateness. Implementation barriers included time constraints, logistical issues, and patients/staff preconceived perceptions of referral necessity. Unsurprisingly, the success of interventions aimed at improving referral practices is based on contextual circumstances, and as with previous reviews, there is no one-size-fits-all approach.Given the challenges highlighted in this review, multi-component interventions addressing referral barriers in both primary and secondary care appear to be a successful way to improve referral practices. PROSPERO CRD42023480493",
+      "year": "2025",
+      "published_date": "2025-05-09",
+      "journal": "Systematic Reviews",
+      "url": "https://www.semanticscholar.org/paper/248f02623e84150c4ff8bad62a61038922b2d66b",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13643-025-02841-z",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Organizational citizenship behaviour roles in the energy transition: a narrative review from a Malaysian perspective",
+      "authors": [
+        "Mohd Faiz Abu Bakkar",
+        "A. H. Jaaffar",
+        "Nurshahirah Abd Majid"
+      ],
+      "abstract": "Purpose\nThis study aims to review recent conceptualizations and theories of organizational citizenship behaviour (OCB) and its role in the energy transition from Malaysia’s perspective. It examines how factors of OCB, such as individual values, attitudes, motivations, leadership style, organizational culture and policies, affect the energy transition process. The research findings have implications for future studies on energy transition, highlighting the role of OCB in shaping the country’s strategies, addressing challenges and contributing to the transition process.\n\nDesign/methodology/approach\nThis study conducts a narrative review of past literature and documents OCB in the context of energy transition; factors influencing OCB (individual, organizational and external factors); OCB in the context of energy transition; and insights into energy transition in Malaysian organizations.\n\nFindings\nThis study finds support in the literature for the impact of OCB on energy transition efforts from the Malaysian perspective. OCB, which extends beyond formal role expectations, can significantly support the effective implementation of energy policies and contribute to organizational objectives. By encouraging OCB within organizations, Malaysia can facilitate the adoption of renewable energy and energy efficiency practices, thereby playing a crucial role in reducing dependence on fossil fuels and advancing the energy transition, instilling hope for a more sustainable future.\n\nOriginality/value\nThis study encourages future research to explore the relationship between discussed variables and their impact on OCB, which is crucial for organizational policies aimed at advancing the energy transition in Malaysia. These findings contribute to the growing body of knowledge on OCB within the context of energy transition and provide a foundation for further related research.\n",
+      "year": "2025",
+      "published_date": "2025-03-03",
+      "journal": "International Journal of Energy Sector Management",
+      "url": "https://www.semanticscholar.org/paper/d5f3c815e561386c710d8c6bca76cc253d48b73c",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1108/ijesm-09-2024-0008",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval literature review"
+    },
+    {
+      "title": "Renewable Energy Transition In Sub-Saharan Africa: Legal Prospects, Challenges And Strategic Pathways For Nigeria",
+      "authors": [
+        "Oluwatosin Kate Olanrewaju-Elufowoju",
+        "O. Omoniyi",
+        "Tamunoipirinye Royal Banigo"
+      ],
+      "abstract": "The transition to renewable energy is gaining global momentum as countries striveto address climate change, ensure energy security, and achieve sustainabledevelopment. In Sub-Saharan Africa, however, the shift from fossil fuels to cleanerenergy sources remains uneven, with numerous structural, legal, and institutionalchallenges impeding progress. This paper critically examines the legal prospectsand barriers surrounding renewable energy adoption in the region, with aparticular focus on Nigeria the continent’s most populous nation and one of itslargest oil producers. Drawing on comparative legal analysis and policy evaluation,the study explores how existing legal frameworks either promote or hinderrenewable energy development. It further identifies gaps in regulation, inadequateenforcement mechanisms, and the absence of coherent energy transition policies askey obstacles. The paper proposes strategic legal reforms tailored to Nigeria’ssocio-economic and environmental needs, emphasising the need for clearlegislation, robust institutional support, and targeted incentives to attractinvestment in clean energy. By aligning national energy laws with global bestpractices, Nigeria and its Sub-Saharan counterparts can accelerate the shift towardsustainable energy systems. This study contributes to the broader discourse onenvironmental governance and energy justice in the Global South, offeringpractical legal pathways for a just and inclusive energy transition.",
+      "year": "2025",
+      "published_date": "2025-12-22",
+      "journal": "Journal of Sustainable Development Law and Policy",
+      "url": "https://www.semanticscholar.org/paper/03632f402236424c4aaa4c500a93d249f4c55acf",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "Semantic Scholar",
+      "doi": "10.4314/jsdlp.v17i1.25",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval benchmark"
+    },
+    {
+      "title": "Adapting biodiversity conservation in agriculture and forestry to projected climate change in temperate and boreal regions: A synthesis",
+      "authors": [
+        "A. Hämäläinen",
+        "Lina Widenfalk",
+        "Malin Undin",
+        "E. Öckinger",
+        "Adam Felton",
+        "Meelis Seedre",
+        "Anna Filyushkina",
+        "Thomas Ranius"
+      ],
+      "abstract": "Climate change creates new challenges for biodiversity conservation. Numerous conservation approaches have been advocated in response and there is a need to compile these into a readily accessible format. We systematically searched scientific literature to summarize recommendations that previous review papers have given for conserving biodiversity in the face of both direct and indirect effects of climate change. As indirect effects of climate change, we considered altered land management and habitat loss, increased disturbances and extreme events, and pests and invasive species. We included recommendations targeting production landscapes dominated by agriculture or forestry in temperate and boreal regions. We found 285 relevant reviews, which in turn cited 874 original research papers as support for the recommendations given. Of the summarized recommendations, 35 % considered direct and 58 % indirect effects of climate change, while 7 % considered both. Indirect effects were considered more frequently in recommendations applicable to agriculture than forestry dominated landscapes. Frequent recommendations were increasing landscape habitat diversity or connectivity, mitigating habitat deterioration, restoring degraded habitats, and adapting management methods in both forestry and agriculture. Most of the recommendations were similar to or consistent with traditional conservation practices, while novel, climate-change specific recommendations were less frequent. We conclude that there is a wealth of research on how to maintain biodiversity in agriculture and forestry dominated landscapes in a world with a warming climate. The summarized recommendations provide a starting point for planning conservation, and the attached database with all considered reviews and original research papers can be used as a source for evidence-based management.",
+      "year": "2026",
+      "published_date": "2026-02-01",
+      "journal": "Land Use Policy",
+      "url": "https://www.semanticscholar.org/paper/fe90ea7ae3625eac04dce27eca266f8c92c1da86",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.landusepol.2025.107873",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis"
+    },
+    {
+      "title": "Clean energy transition in rural Bangladesh: Challenges in adoption and impact",
+      "authors": [
+        "M. Rahman",
+        "Md. Hayder Khan Sujan",
+        "M. Alam",
+        "S. Akter"
+      ],
+      "abstract": "ABSTRACT At the household level, the solar photovoltaic (PV) system is an off-grid clean energy source with significant poverty reduction potential, thereby contributing to the attainment of several sustainable development goals. Nevertheless, there has been limited adoption of renewable or clean energy technologies in Bangladesh. At present, renewable energy sources account for only 3% of the country’s electricity generation. This study thus investigates the drivers of solar PV adoption and the impact of this on household income and poverty in Bangladesh. We present an econometric analysis of data from the International Food Policy Research Institute’s Bangladesh Integrated Household Survey, 2020. Our findings indicate that only 5.51% of the sample households adopted solar PV, with the likelihood of adoption 3.8% higher in households with a mobile phone, 1.7% higher in households with internet access, and 2.8% higher among homeowners. However, the government’s programs to expand the electricity grid made the delivery of solar PV by partner organizations less competitive. Our analysis reveals that the adoption of solar PV has a positive effect on household income of between 9.31% and 13.50%. The poverty gap is likely to decrease by around 20% to 26% due to adoption. These findings are pertinent to ongoing policy development efforts targeted at increasing the adoption of renewable energy to meet the sustainable development goals. Solar PV information could be potentially disseminated through mass media and modern communication technologies that require internet access. Furthermore, increasing the installation of solar PV systems in rented houses may promote the adoption of solar PV. It is imperative to implement policies that provide incentives for the installation and utilization of solar PV.",
+      "year": "2024",
+      "published_date": "2024-10-25",
+      "journal": "Energy Sources Part B Economics Planning and Policy",
+      "url": "https://www.semanticscholar.org/paper/d516df6d64a46a75122522eb6018edb03033ecfe",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1080/15567249.2024.2420338",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval survey"
+    },
+    {
+      "id": "wf_24506eb8fdb7a86b05fa96808613eff4",
+      "title": "Bioclimatic architecture in thermal energy efficiency of sustainable urban residential buildings in developing countries: A synthesis review in Iran",
+      "abstract": "assessments of contemporary urban residential buildings. A <span class='highlight'>systematic</span> <span class='highlight'>synthesis</span> <span class='highlight'>review</span> method alongside thematic analysis screened 573 articles sourced from Scopus and Google Scholar between 2010 and 2024,  different data ranging from <span class='highlight'>climate</span>, architecture, construction, urban planning to individual behavior and <span class='highlight'>policy</span>, economics, etc. However, the envelope is the priority of most contemporary assessments.  create a knowledge base accumulated from the overlap of bioclimatic architectural strategies and alternative sustainability strategies considered in Iranian <span class='highlight'>literature</span> within the scope of thermal energy  resulting in the <span class='highlight'>synthesis</span> and categorization of 111 articles. The <span class='highlight'>synthesis</span> demonstrated that, a limited number of studies have directly addressed the application of bioclimatic architectural strategies in  Reliable research results that support energy efficiency polices for urban residential buildings, especially in developing countries like Iran, are crucial for tackling national and international",
+      "authors": [
+        "Rizi, Sayed Mohammad Mousavi",
+        "Aminsharei, Farham",
+        "Lamea, Mohsen",
+        "Ghazimoradi, Mostafa"
+      ],
+      "year": 2025,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1016/j.rser.2025.115743",
+      "doi": "10.1016/j.rser.2025.115743",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "Bioclimatic architecture",
+        "Energy efficiency",
+        "Sustainable residential",
+        "Synthesis review",
+        "Developing countries",
+        "MULTIOBJECTIVE OPTIMIZATION",
+        "HIGHRISE BUILDINGS",
+        "PERFORMANCE",
+        "CONSUMPTION",
+        "DESIGN",
+        "MODEL",
+        "COLD",
+        "HOT",
+        "STRATEGIES",
+        "IMPACTS"
+      ],
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis systematic review"
+    }
+  ],
+  "timestamp": "20260413_103930"
+}

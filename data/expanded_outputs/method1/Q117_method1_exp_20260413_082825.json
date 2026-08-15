@@ -1,0 +1,208 @@
+{
+  "query_id": "Q117",
+  "query": "When synthesizing evidence from corpus studies with conflicting periodization claims, how should a multi-agent pipeline handle citation attribution?",
+  "domain_id": "digital_humanities",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Towards Robust Fact-Checking: A Multi-Agent System with Advanced Evidence Retrieval",
+      "authors": [
+        "Tam Trinh",
+        "Manh Nguyen",
+        "Truong-Son Hy"
+      ],
+      "abstract": "The rapid spread of misinformation in the digital era poses significant challenges to public discourse, necessitating robust and scalable fact-checking solutions. Traditional human-led fact-checking methods, while credible, struggle with the volume and velocity of online content, prompting the integration of automated systems powered by Large Language Models (LLMs). However, existing automated approaches often face limitations, such as handling complex claims, ensuring source credibility, and maintaining transparency. This paper proposes a novel multi-agent system for automated fact-checking that enhances accuracy, efficiency, and explainability. The system comprises four specialized agents: an Input Ingestion Agent for claim decomposition, a Query Generation Agent for formulating targeted subqueries, an Evidence Retrieval Agent for sourcing credible evidence, and a Verdict Prediction Agent for synthesizing veracity judgments with human-interpretable explanations. Evaluated on benchmark datasets (FEVEROUS, HOVER, SciFact), the proposed system achieves a 12.3% improvement in Macro F1-score over baseline methods. The system effectively decomposes complex claims, retrieves reliable evidence from trusted sources, and generates transparent explanations for verification decisions. Our approach contributes to the growing field of automated fact-checking by providing a more accurate, efficient, and transparent verification methodology that aligns with human fact-checking practices while maintaining scalability for real-world applications. Our source code is available at https://github.com/HySonLab/FactAgent",
+      "year": "2025",
+      "published_date": "2025-06-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2506.17878v1",
+      "arxiv_id": "2506.17878v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system literature review"
+    },
+    {
+      "title": "Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature?",
+      "authors": [
+        "Qiao Jin",
+        "Robert Leaman",
+        "Zhiyong Lu"
+      ],
+      "abstract": "ChatGPT, a general purpose chatbot developed by OpenAI, has been widely reported to have the potential to revolutionize how people interact with information online.1 Like other large language models (LLMs), ChatGPT has been trained on a large text corpus to predict probable words from the surrounding context. ChatGPT, however, has received substantial popular attention for generating human-like conversational responses, and new developments are occurring rapidly. The initial release in November 2022 used the model generative pretrained transformers (GPT)-3.5, and a version based on GPT-4.0 was released in March 2023. Recent work has discussed applications of ChatGPT for medical education and clinical decision support.2–4 However, health care professionals should be aware of the drawbacks and limitations—and potential capabilities—of using ChatGPT and similar LLMs to interact with medical knowledge. A significant issue with ChatGPT is its tendency to generate confident-sounding but fabricated responses, commonly known as “hallucination.” Although it can generate plausible-sounding text, ChatGPT does not consult any source of truth.1 Occasional incorrect or biased responses are, therefore, inevitable, and ChatGPT cannot faithfully cite sources to allow their evidence to be verified. For example, we prompted GPT-3.5–based ChatGPT to list possible mechanisms of AKI in patients with coronavirus disease 2019 (COVID-19), with references. ChatGPT produced a list of plausible mechanisms, each of which has been investigated in the literature (Figure 1A) but supported its claims with fabricated titles and irrelevant PubMed identifiers. ChatGPT using the GPT-4 model acknowledges that it cannot produce references and refuses to cite articles in the answer (Figure 1C)—a significant improvement—but leaves the difficult task of verification to the user. Consulting ChatGPT directly for medical information carries a significant risk of drawing incorrect conclusions, particularly for patients.Figure 1.: Seeking information related to COVID-19 from ChatGPT. (A) ChatGPT-3.5 fabricates the references for its claims. (B) When prompted with the title and abstract of relevant articles, ChatGPT-3.5 can summarize the aspects requested, including some valid in-line references. However, many details are inaccurate: Related mechanisms are not correctly grouped, contradicting evidence is not mentioned, some citations are missing, and a listed mechanism is not specific. Note that the complete response mentioned only three of five articles. (C) ChatGPT-4 acknowledges its drawback and refuses to cite source articles in the response, which makes the verification more difficult. (D) ChatGPT-4 with the web browsing plug-in summarizes information from the search engine, but it only finds two relevant articles and fails to systematically answer the question. Responses were collected from GPT-3.5–based ChatGPT on March 14, 2023, and GPT-4–based ChatGPT on May 15, 2023.However, LLMs such as ChatGPT may be better suited for text summarization than directly answering medical questions. Pilot studies have shown that LLMs can be effective at clinical reasoning, reading comprehension, and generating fluent summaries with high fidelity.5–7 Augmenting LLMs such as ChatGPT with a traditional literature search engine may therefore help address hallucination and enable the system to provide the user with comprehensive high-level summaries. For example, the new Bing provides ChatGPT-like interactive agents to help users create effective queries, identify relevant results, and summarize their content. In addition, ChatGPT recently introduced a plug-in that allows the model to search the web when generating responses (currently in limited beta test). Incorporating such features into medical literature search has the potential to streamline gathering and synthesizing evidence from the literature, improving patient care. Unfortunately, summaries generated by current LLMs such as ChatGPT also contain inaccuracies,8 in addition to practical issues such as limitations on the length of input text. To illustrate these problems, we prompted ChatGPT (model 3.5) to identify possible mechanisms of AKI in patients with COVID-19, using five manually chosen articles on the pathophysiology of AKI in COVID-19. Although ChatGPT’s summary (Figure 1B) generally reflects the mechanisms of AKI discussed by the articles, the response lists symptoms from only three of the five input studies and misses some important mechanisms mentioned repeatedly, such as hypoxia. Moreover, some citations are missing, contradicting evidence is not mentioned, similar mechanisms are not correctly grouped, and one of the mechanisms listed is less specific than the source. We also prompted ChatGPT (model 4), with the web browsing plug-in, to answer the same question (Figure 1D). In this case, ChatGPT provides summaries with relevant citations. However, the response is based on only two articles, without synthesizing the evidence, and thus fails to answer the question systematically. Generally speaking, retrieval-augmented LLMs reduces users' control over sources, leading to results that may not align with the user's criteria for the best information (e.g., most up-to-date). Summaries generated by LLMs can miss important ideas discussed by the input sources or contain assertions unsupported by the input sources. Because imprecise or incomplete information can lead to incorrect clinical decisions and patient harm, content generated by current LLMs, including ChatGPT, must be verified for accuracy and completeness before use. Further research on the faithfulness of LLM-generated summaries and automatic verification tools is also warranted to realize the full potential of LLMs to streamline evidence gathering and synthesis from the medical literature. Despite these limitations, the remarkable progress in AI and the rapid advancements in LLMs may have profound implications for medicine, from assisting medical education,2 to accelerating literature screening for systematic reviews,7,9 and supporting physicians in various clinical settings as generalist medical AI,4 among other possibilities. In addition to augmenting LLMs with retrieval results from a search engine, LLMs can also be taught to use biomedical domain-specific tools, such as the Web APIs of specialized databases, to provide improved access to biomedical information.10 In summary, although ChatGPT is not currently suitable for use as a literature search engine on its own, we envision that the proposed retrieve, summarize, and verify paradigm could greatly benefit biomedical information seeking. This approach leverages the impressive capability of LLMs to generate high-level summaries while minimizing the risk of directly using false or fabricated information by combining LLMs and search engines. It is important to note that although LLM technology is progressing rapidly, it has not yet matured enough for clinical use. Therefore, users must retain full responsibility for verifying the accuracy and reliability of its output.",
+      "year": "2023",
+      "published_date": "2023-05-31",
+      "journal": "Journal of the American Society of Nephrology",
+      "url": "https://doi.org/10.1681/asn.0000000000000166",
+      "arxiv_id": "",
+      "keywords": [
+        "Affect (linguistics)",
+        "Medicine",
+        "Psychology",
+        "Intensive care medicine",
+        "Computer science",
+        "Communication"
+      ],
+      "citations": 67,
+      "source": "OpenAlex",
+      "doi": "10.1681/asn.0000000000000166",
+      "open_access": false,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "AdversarialCI: A Buyer-Adaptive Multi-Agent Framework for Evidence-Grounded Competitive Intelligence",
+      "authors": [
+        "Ajinkya Gajananrao Chintawar"
+      ],
+      "abstract": "Competitive intelligence (CI) tools in enterprise software procurement are predominantly static, producing generic battlecards that fail to account for individual buyer priorities. We introduce AdversarialCI, a domain-agnostic multi-agent framework that simulates an adversarial court proceeding between vendor advocate agents. Verdict dimensions are dynamically weighted by a structured buyer profile termed the \"plaintiff\".\n                The framework consists of three core components: (1) a multi-source evidence ingestion pipeline with automated verification and confidence scoring; (2) a three-round adversarial court simulation where LLM-powered advocates argue solely from verified evidence; and (3) a plaintiff-weighted judge that produces dimension-level verdicts, an overall winner, and a \"swing factor\"—the single buyer constraint most likely to change the outcome.\n                We demonstrate AdversarialCI in the database vendor selection domain across five vendors, achieving 87.9% accuracy against a manually curated ground truth dataset. Critically, the system produces different verdicts for different buyer profiles on identical vendor sets, validating that the framework is genuinely buyer-adaptive. This represents the first system to combine adversarial multi-agent simulation with plaintiff-specific verdict routing for competitive intelligence. The architecture effectively addresses the tendency of LLMs to generate unsupported claims by constraining agents to a verified evidence bank and making source citation mandatory .",
+      "year": "2026",
+      "published_date": "2026-2-24",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.14293/pr2199.003028.v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.14293/pr2199.003028.v1",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "policy intelligence AND evidence grounded writing"
+    },
+    {
+      "title": "SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation",
+      "authors": [
+        "Ines Besrour",
+        "Jingbo He",
+        "Tobias Schreieder",
+        "Michael Farber"
+      ],
+      "abstract": "We present SQuAI (https://squai.scads.ai/), a scalable and trustworthy multi-agent retrieval-augmented generation (RAG) framework for scientific question answering (QA) with large language models (LLMs). SQuAI addresses key limitations of existing RAG systems in the scholarly domain, where complex, open-domain questions demand accurate answers, explicit claims with citations, and retrieval across millions of scientific documents. Built on over 2.3 million full-text papers from arXiv.org, SQuAI employs four collaborative agents to decompose complex questions into sub-questions, retrieve targeted evidence via hybrid sparse-dense retrieval, and adaptively filter documents to improve contextual relevance. To ensure faithfulness and traceability, SQuAI integrates in-line citations for each generated claim and provides supporting sentences from the source documents. Our system improves faithfulness, answer relevance, and contextual relevance by up to +0.088 (12%) over a strong RAG baseline. We further release a benchmark of 1,000 scientific question-answer-evidence triplets to support reproducibility. With transparent reasoning, verifiable citations, and domain-wide scalability, SQuAI demonstrates how multi-agent RAG enables more trustworthy scientific QA with LLMs.",
+      "year": "2025",
+      "published_date": "2025-10-17",
+      "journal": "International Conference on Information and Knowledge Management",
+      "url": "https://www.semanticscholar.org/paper/d6c3fe64cef9add8f0d4069d0b13d8c5638f1abb",
+      "arxiv_id": "2510.15682",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3746252.3761471",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system full text retrieval"
+    },
+    {
+      "title": "Multi-Agent Systems Should be Treated as Principal-Agent Problems",
+      "authors": [
+        "Paulius Rauba",
+        "Simonas Cepenas",
+        "Mihaela van der Schaar"
+      ],
+      "abstract": "Consider a multi-agent systems setup in which a principal (a supervisor agent) assigns subtasks to specialized agents and aggregates their responses into a single system-level output. A core property of such systems is information asymmetry: agents observe task-specific information, produce intermediate reasoning traces, and operate with different context windows. In isolation, such asymmetry is not problematic, since agents report truthfully to the principal when incentives are fully aligned. However, this assumption breaks down when incentives diverge. Recent evidence suggests that LLM-based agents can acquire their own goals, such as survival or self-preservation, a phenomenon known as scheming, and may deceive humans or other agents. This leads to agency loss: a gap between the principal's intended outcome and the realized system behavior. Drawing on core ideas from microeconomic theory, we argue that these characteristics, information asymmetry and misaligned goals, are best studied through the lens of principal-agent problems. We explain why multi-agent systems, both human-to-LLM and LLM-to-LLM, naturally induce information asymmetry under this formulation, and we use scheming, where LLM agents pursue covert goals, as a concrete case study. We show that recently introduced terminology used to describe scheming, such as covert subversion or deferred subversion, corresponds to well-studied concepts in the mechanism design literature, which not only characterizes the problem but also prescribes concrete mitigation strategies. More broadly, we argue for applying tools developed to study human agent behavior to the analysis of non-human agents.",
+      "year": "2026",
+      "published_date": "2026-01-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2601.23211v1",
+      "arxiv_id": "2601.23211v1",
+      "keywords": [
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis literature review"
+    },
+    {
+      "title": "BIOGEN: Evidence-Grounded Multi-Agent Reasoning Framework for Transcriptomic Interpretation in Antimicrobial Resistance",
+      "authors": [
+        "Elias Hossain",
+        "Mehrdad Shoeibi",
+        "Ivan Garibay",
+        "Niloofar Yousefi"
+      ],
+      "abstract": "Interpreting gene clusters from RNA sequencing (RNA-seq) remains challenging, especially in antimicrobial resistance studies where mechanistic insight is important for hypothesis generation. Existing pathway enrichment methods can summarize co-expressed modules, but they often provide limited cluster-specific explanations and weak connections to supporting literature. We present BIOGEN, an evidence-grounded multi-agent framework for post hoc interpretation of RNA-seq transcriptional modules. BIOGEN combines biomedical retrieval, structured reasoning, and multi-critic verification to generate traceable cluster-level explanations with explicit evidence and confidence labels. On a primary Salmonella enterica dataset, BIOGEN achieved strong biological grounding, including BERTScore 0.689, Semantic Alignment Score 0.715, KEGG Functional Similarity 0.342, and a hallucination rate of 0.000, compared with 0.100 for an LLM-only baseline. Across four additional bacterial RNA-seq datasets, BIOGEN also maintained zero hallucination under the same fixed pipeline. In comparisons with representative open-source agentic AI baselines, BIOGEN was the only framework that consistently preserved zero hallucination across all five datasets. These findings suggest that retrieval alone is not enough for reliable biological interpretation, and that evidence-grounded orchestration is important for transparent and source-traceable transcriptomic reasoning.",
+      "year": "2025",
+      "published_date": "2025-10-17",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2510.16082v5",
+      "arxiv_id": "2510.16082v5",
+      "keywords": [
+        "q-bio.QM",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "evidence grounded medical literature analysis"
+    },
+    {
+      "title": "Empathy in Social Entrepreneurship: Evidence from a Systematic Review with Structured Narrative Synthesis",
+      "authors": [
+        "Alireza Kheirabadi"
+      ],
+      "abstract": "AbstractBackground: Empathy is often treated as a personal resource that should support social entrepreneurship. Still, the literature uses “empathy” in non-equivalent ways, and many studies embed it inside intention models rather than measuring it as an independent construct. This review synthesizes the empirical evidence while keeping those operational differences explicit.Methods: We conducted a systematic review with structured narrative synthesis. The protocol was registered in Prospective Register of Systematic Reviews (PROSPERO). Scopus and PubMed were searched from inception up to January 2024 (English-language records). Quantitative studies were included if they assessed empathy and social entrepreneurship or closely related outcomes. Data were extracted into a standardized table, and empathy operationalization was coded as embedded, independent, or both. Outcomes were grouped as intention-focused versus broader endpoints. We used narrative synthesis because studies differed in measures, outcome definitions, and reporting, with many estimating indirect pathways in structural models. Methodological quality was appraised using the Joanna Briggs Institute checklist for analytical cross-sectional studies.Results: Twenty-five reports contributed 26 study entries. Most studies were cross-sectional surveys and focused on social entrepreneurial intention. When empathy was embedded within intention models, its direct association with intention was often model-dependent, with feasibility and normative pathways playing a prominent role. Recurring mediators included social entrepreneurial self-efficacy and moral obligation, while perceived social support and creativity appeared in a smaller subset. Evidence beyond intention was limited and heterogeneous, spanning control and feasibility-related outcomes, nascent behavior, implementation, and performance-oriented indicators. Quality appraisal suggested that measurement and statistical methods were generally acceptable, although confounding control was often limited or incompletely specified.Conclusion: Empathy appears relevant to social entrepreneurship, but it does not behave as a uniform predictor across operationalizations and models. Future work would benefit from clearer measurement choices, stronger confound handling, designs that move beyond single-wave self-report data, and more behavioral and implementation-oriented outcomes.Keywords: empathy; social entrepreneurship; social entrepreneurial intention; social entrepreneurial self-efficacy; moral obligation; perceived social support; structured narrative synthesis; Theory of Planned Behavior",
+      "year": "2025",
+      "published_date": "2025-12-22",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.31219/osf.io/v2byr_v3",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.31219/osf.io/v2byr_v3",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Multi-Objective Workflow Scheduling With Deep-Q-Network-Based Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Yuandou Wang",
+        "Hang Liu",
+        "Wanbo Zheng",
+        "Yunni Xia",
+        "Yawen Li",
+        "Peng Chen",
+        "Kunyin Guo",
+        "Hong Xie"
+      ],
+      "abstract": "Cloud Computing provides an effective platform for executing large-scale and complex workflow applications with a pay-as-you-go model. Nevertheless, various challenges, especially its optimal scheduling for multiple conflicting objectives, are yet to be addressed properly. The existing multi-objective workflow scheduling approaches are still limited in many ways, e.g., encoding is restricted by prior experts’ knowledge when handling a dynamic real-time problem, which strongly influences the performance of scheduling. In this paper, we apply a deep-Q-network model in a multi-agent reinforcement learning setting to guide the scheduling of multi-workflows over infrastructure-as-a-service clouds. To optimize multi-workflow completion time and user’s cost, we consider a Markov game model, which takes the number of workflow applications and heterogeneous virtual machines as state input and the maximum completion time and cost as rewards. The game model is capable of seeking for correlated equilibrium between make-span and cost criteria without prior experts’ knowledge and converges to the correlated equilibrium policy in a dynamic real-time environment. To validate our proposed approach, we conduct extensive case studies based on multiple well-known scientific workflow templates and Amazon EC2 cloud. The experimental results clearly suggest that our proposed approach outperforms traditional ones, e.g., non-dominated sorting genetic algorithm-II, multi-objective particle swarm optimization, and game-theoretic-based greedy algorithms, in terms of optimality of scheduling plans generated.",
+      "year": "2019",
+      "published_date": "2019-01-01",
+      "journal": "IEEE Access",
+      "url": "https://doi.org/10.1109/access.2019.2902846",
+      "arxiv_id": "",
+      "keywords": [
+        "Reinforcement learning",
+        "Computer science",
+        "Workflow",
+        "Scheduling (production processes)",
+        "Distributed computing",
+        "Q-learning",
+        "Artificial intelligence",
+        "Computer network"
+      ],
+      "citations": 281,
+      "source": "OpenAlex",
+      "doi": "10.1109/access.2019.2902846",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "timestamp": "20260413_082825"
+}

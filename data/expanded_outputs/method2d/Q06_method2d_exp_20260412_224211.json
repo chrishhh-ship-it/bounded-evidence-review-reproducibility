@@ -1,0 +1,209 @@
+{
+  "query_id": "Q06",
+  "query": "引用准确率和 orphan citation rate 是否能作为智慧情报服务的核心指标？",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "openai",
+  "writer_model": "gpt-4o-mini",
+  "reviewer_provider": "openai",
+  "reviewer_model": "gpt-4o-mini",
+  "reviser_provider": "openai",
+  "reviser_model": "gpt-4o-mini",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "LITERAS: Biomedical literature review and citation retrieval agents",
+      "authors": [
+        "A. Gorenshtein",
+        "Kamel Shihada",
+        "M. Sorka",
+        "Dvir Aran",
+        "S. Shelly"
+      ],
+      "abstract": "BACKGROUND\nExisting tools for reference retrieval using large language models (LLMs) frequently generate inaccurate, gray literature or fabricated citations, leading to poor accuracy. In this study, we aim to address this gap by developing a highly accurate reference retrieval system focusing on the precision and reliability of citations across five medical fields.\n\n\nMETHODS\nWe developed open-source multi-AI agent, literature review, and citation retrieval agents (LITERAS) designed to generate literature review drafts with accurate and confirmable citations. LITERAS integrates a search through the largest biomedical literature database (MEDLINE) via PubMed's application programming interface and bidirectional inter-agent communication to enhance citation accuracy and reliability. To evaluate its performance, we compared LITERAS to state-of-the-art LLMs, Sonar and Sonar-Pro by Perplexity AI. The evaluation covered five distinct medical disciplines Oncology, Cardiology, Rheumatology, Psychiatry, and Infectious Diseases/Public Health, focusing on the credibility, precision, and confirmation of citations, as well as the overall quality of the referenced sources.\n\n\nRESULTS\nLITERAS achieved near-perfect citation accuracy (i.e., whether references match real publications) at 99.82 %, statistically indistinguishable from Sonar (100.00 %, p = 0.065) and Sonar-Pro (99.93 %, p = 0.074). When focusing on referencing accuracy (the consistency between in-text citation details and metadata), LITERAS (96.81 %) significantly outperformed Sonar (89.07 %, p < 0.001) and matched Sonar-Pro (96.33 %, p = 0.139). Notably, LITERAS exclusively relied on Q1-Q2, peer-reviewed journals (0 % nonacademic content), whereas Sonar contained 35.60 % (p < 0.01) nonacademic sources, and Sonar-Pro used 6.47 % (p < 0.001). However, Sonar-Pro cited higher-impact journals than LITERAS (median impact factor (IF) = 14.70 vs LITERAS 3.70, p < 0.001). LITERAS's multi-agent loop (2.2 ± 1.34 iterations per query) minimized hallucinations and consistently prioritized recent articles (IQR = 2023-2024). The field-specific analysis demonstrated the oncology field with the largest IF discrepancies (Sonar-Pro 42.1 vs LITERAS 4.3, p < 0.001), reflecting Sonar-Pro's preference for major consortium guidelines and high-impact meta-analyses.\n\n\nCONCLUSION\nLITERAS demonstrated significantly higher retrieval of recent academic journal articles and generating longer summary report compared to academic search LLMs approaches in literature review tasks. This work provides insights into improving the reliability of AI-assisted literature review systems.",
+      "year": "2025",
+      "published_date": "2025-05-17",
+      "journal": "Comput. Biol. Medicine",
+      "url": "https://www.semanticscholar.org/paper/a9ddffc92014f55ed8f9de7e27f2baf6a85644c4",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.compbiomed.2025.110363",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Understanding the Corpus of Mobile Payment Services Research: An Analysis of the Literature Using Co-Citation Analysis and Social Network Analysis",
+      "authors": [
+        "Surabhi Verma",
+        "Sushil S. Chaurasia",
+        "Vibhav Singh"
+      ],
+      "abstract": "Mobile Payment Services have evolved in the past 20 years, attracting the attention of international practitioners and research scholars. Although several review and analyses of literature have been conducted to examine the multiple dimensions of mobile payment services, no co-citation analysis has been conducted to examine and understand the knowledge structures involved in mobile payment services studies. Therefore in order to fill this research gap, this research article analyses the corpus of mobile payment services research published from 1997 to June 2017 using Bibliometric and Social Network Analysis (SNA) methods to develop an intellectual structure of mobile payment services research. All data source documents (406 articles and 3,424 citations) were obtained from Web of Knowledge (WoK) database. A co-citation analysis was used to analyse mobile payment services data. Factor analysis, citation and co-citation analysis, multidimensional scaling and centrality measurement are applied to the mobile payment services dataset using UCINET to identify the core influential articles in the field. This study identifies seven core clusters of mobile payment services research that centre around (1) Adoption and usage; (2) Trust, risk and security; (3) Application; (4) Scheme; (5) Protocol; (6) Architecture; (7) Mobile payment corporation. The findings of this research study provide core knowledge and directions for practitioners and researchers interested in the mobile payment services field.",
+      "year": "2020",
+      "published_date": "2020-2-28",
+      "journal": "Journal of Information Systems and Technology Management",
+      "url": "https://doi.org/10.4301/s1807-1775202017002",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "CrossRef",
+      "doi": "10.4301/s1807-1775202017002",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant literature review"
+    },
+    {
+      "title": "Unraveling the Ai2 Asta Scholarly Research Assistant Citation System",
+      "authors": [
+        "Enrique Orduña-Malea",
+        "Carlos Lopezosa"
+      ],
+      "abstract": "Despite the growing integration of Deep Research tools into academic workflows, empirical evidence on the operation, stability, and potential biases of their citation systems remains scarce. This study addresses this gap by evaluating the intensity, consistency, and bibliographic characteristics of references cited in the literature reports generated by Ai2 Asta, with the aim of understanding how its citation system operates and assessing its implications for scholarly communication. To this end, ten domain-specific queries were submitted to Asta’s Summarise Literature feature, and two independent rounds of data collection were conducted. From each report, in-text citations, cited references, as well as other metrics related to the response process were extracted and examined. The results reveal high citation intensity, with reports integrating numerous in-text citations grounded in retrieved evidence and a diverse yet concentrated set of venues. However, notable instability is observed in the composition of cited references across identical queries, alongside a lack of concordance between retrieved documents and those ultimately cited, suggesting additional opaque selection mechanisms during report generation. These findings indicate that, while Ai2 Asta produces well-structured and quality reports, its instability and opacity in the citation process pose challenges in quantitative science studies due to their lack of reproducibility and transparency. Despite the restricted number of queries and disciplinary scope, the results offer valuable insights for researchers, bibliometricians, developers, and research evaluators seeking to understand, use or regulate AI-based scholarly assistants responsibly.",
+      "year": "2025",
+      "published_date": "2025-12-24",
+      "journal": "Revista Panamericana de Comunicación",
+      "url": "https://doi.org/10.21555/rpc.v7i2.3675",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21555/rpc.v7i2.3675",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant"
+    },
+    {
+      "title": "Specialty-Specific Citation-Enabled AI Clinical Decision Support System for Craniofacial Surgery: Development of CASPER.",
+      "authors": [
+        "Berk B Ozmen",
+        "Nishant Singh",
+        "Kavach Shah",
+        "Ibrahim Berber",
+        "Eugene Pinsky",
+        "Graham S Schwarz"
+      ],
+      "abstract": "Craniofacial surgery requires synthesis of complex, multidisciplinary knowledge, yet specialty-specific decision support tools are lacking. Retrieval-augmented generation (RAG) offers an opportunity to create transparent, evidence-based artificial intelligence (AI) systems tailored to surgical practice. The authors developed CASPER, a domain-specific, multimodal RAG system with text and image analysis capabilities, built with RAPTOR hierarchical architecture and a knowledge base of 8561 open-access craniofacial surgery articles (2000-2025). The system retrieved and synthesized peer-reviewed literature in response to 25 clinical questions spanning craniofacial subspecialties. Performance was evaluated using semantic similarity (SEM-eval) to retrieved documents, manual content coverage review, and manual citation accuracy verification. CASPER achieved strong alignment with supporting literature (mean SEM-eval 0.89±0.04; range: 0.81-0.96), integrating an average of 7.8 sources per query. Highest performance was observed in pediatric airway (0.93), facial trauma (0.93), and oncologic surgery (0.95), with top scores for Pierre-Robin mandibular distraction (0.96) and orbital floor fracture management (0.95). Lower scores occurred in complex or emerging domains such as Le Fort III contraindications (0.81) and facial feminization planning (0.81). Manual review confirmed that CASPER maintained high content coverage across scenarios, with citations consistently accurate and directly supportive of system outputs. CASPER is the first citation-enabled AI system for craniofacial surgery and demonstrates expert-comparable reasoning across diverse clinical scenarios. By delivering transparent, evidence-grounded recommendations, CASPER has the potential to enhance surgical planning, improve decision-making consistency, and accelerate knowledge translation in both clinical practice and surgical education.",
+      "year": "",
+      "published_date": "",
+      "journal": "The Journal of craniofacial surgery",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41433337/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Decision Support Systems, Clinical",
+        "Artificial Intelligence",
+        "Knowledge Bases",
+        "Craniofacial Abnormalities"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1097/SCS.0000000000012279",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "ILCiteR: Evidence-grounded Interpretable Local Citation Recommendation",
+      "authors": [
+        "Sayar Ghosh Roy",
+        "Jiawei Han"
+      ],
+      "abstract": "Existing Machine Learning approaches for local citation recommendation directly map or translate a query, which is typically a claim or an entity mention, to citation-worthy research papers. Within such a formulation, it is challenging to pinpoint why one should cite a specific research paper for a particular query, leading to limited recommendation interpretability. To alleviate this, we introduce the evidence-grounded local citation recommendation task, where the target latent space comprises evidence spans for recommending specific papers. Using a distantly-supervised evidence retrieval and multi-step re-ranking framework, our proposed system, ILCiteR, recommends papers to cite for a query grounded on similar evidence spans extracted from the existing research literature. Unlike past formulations that simply output recommendations, ILCiteR retrieves ranked lists of evidence span and recommended paper pairs. Secondly, previously proposed neural models for citation recommendation require expensive training on massive labeled data, ideally after every significant update to the pool of candidate papers. In contrast, ILCiteR relies solely on distant supervision from a dynamic evidence database and pre-trained Transformer-based Language Models without any model training. We contribute a novel dataset for the evidence-grounded local citation recommendation task and demonstrate the efficacy of our proposed conditional neural rank-ensembling approach for re-ranking evidence spans.",
+      "year": "2024",
+      "published_date": "2024-03-13",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2403.08737v1",
+      "arxiv_id": "2403.08737v1",
+      "keywords": [
+        "cs.IR",
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "evidence grounded medical literature analysis"
+    },
+    {
+      "title": "CSMeD: Bridging the Dataset Gap in Automated Citation Screening for Systematic Literature Reviews",
+      "authors": [
+        "Wojciech Kusa",
+        "Oscar E. Mendoza",
+        "Matthias Samwald",
+        "Petr Knoth",
+        "Allan Hanbury"
+      ],
+      "abstract": "Systematic literature reviews (SLRs) play an essential role in summarising, synthesising and validating scientific evidence. In recent years, there has been a growing interest in using machine learning techniques to automate the identification of relevant studies for SLRs. However, the lack of standardised evaluation datasets makes comparing the performance of such automated literature screening systems difficult. In this paper, we analyse the citation screening evaluation datasets, revealing that many of the available datasets are either too small, suffer from data leakage or have limited applicability to systems treating automated literature screening as a classification task, as opposed to, for example, a retrieval or question-answering task. To address these challenges, we introduce CSMeD, a meta-dataset consolidating nine publicly released collections, providing unified access to 325 SLRs from the fields of medicine and computer science. CSMeD serves as a comprehensive resource for training and evaluating the performance of automated citation screening models. Additionally, we introduce CSMeD-FT, a new dataset designed explicitly for evaluating the full text publication screening task. To demonstrate the utility of CSMeD, we conduct experiments and establish baselines on new datasets.",
+      "year": "2023",
+      "published_date": "2023-11-21",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2311.12474v1",
+      "arxiv_id": "2311.12474v1",
+      "keywords": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    },
+    {
+      "title": "Role of artificial intelligence in operations environment: a review and bibliometric analysis",
+      "authors": [
+        "Pavitra Dhamija",
+        "Surajit Bag"
+      ],
+      "abstract": "Purpose “Technological intelligence” is the capacity to appreciate and adapt technological advancements, and “artificial intelligence” is the key to achieve persuasive operational transformations in majority of contemporary organizational set-ups. Implicitly, artificial intelligence (the philosophies of machines to think, behave and perform either same or similar to humans) has knocked the doors of business organizations as an imperative activity. Artificial intelligence, as a discipline, initiated by scientist John McCarthy and formally publicized at Dartmouth Conference in 1956, now occupies a central stage for many organizations. Implementation of artificial intelligence provides competitive edge to an organization with a definite augmentation in its social and corporate status. Mere application of a concept will not furnish real output until and unless its performance is reviewed systematically. Technological changes are dynamic and advancing at a rapid rate. Subsequently, it becomes highly crucial to understand that where have the people reached with respect to artificial intelligence research. The present article aims to review significant work by eminent researchers towards artificial intelligence in the form of top contributing universities, authors, keywords, funding sources, journals and citation statistics. Design/methodology/approach As rightly remarked by past researchers that reviewing is learning from experience, research team has reviewed (by applying systematic literature review through bibliometric analysis) the concept of artificial intelligence in this article. A sum of 1,854 articles extracted from Scopus database for the year 2018–2019 (31st of May) with selected keywords (artificial intelligence, genetic algorithms, agent-based systems, expert systems, big data analytics and operations management) along with certain filters (subject–business, management and accounting; language-English; document–article, article in press, review articles and source-journals). Findings Results obtained from cluster analysis focus on predominant themes for present as well as future researchers in the area of artificial intelligence. Emerged clusters include Cluster 1: Artificial Intelligence and Optimization; Cluster 2: Industrial Engineering/Research and Automation; Cluster 3: Operational Performance and Machine Learning; Cluster 4: Sustainable Supply Chains and Sustainable Development; Cluster 5: Technology Adoption and Green Supply Chain Management and Cluster 6: Internet of Things and Reverse Logistics. Originality/value The result of review of selected studies is in itself a unique contribution and a food for thought for operations managers and policy makers.",
+      "year": "2020",
+      "published_date": "2020-03-06",
+      "journal": "The TQM Journal",
+      "url": "https://doi.org/10.1108/tqm-10-2019-0243",
+      "arxiv_id": "",
+      "keywords": [
+        "Artificial intelligence",
+        "Computer science",
+        "Analytics",
+        "Big data",
+        "Knowledge management",
+        "Data science",
+        "Data mining"
+      ],
+      "citations": 365,
+      "source": "OpenAlex",
+      "doi": "10.1108/tqm-10-2019-0243",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "ResearchPilot: A Local-First Multi-Agent System for Literature Synthesis and Related Work Drafting",
+      "authors": [
+        "Peng Zhang"
+      ],
+      "abstract": "ResearchPilot is an open-source, self-hostable multi-agent system for literature-review assistance. Given a natural-language research question, it retrieves papers from Semantic Scholar and arXiv, extracts structured findings from paper abstracts, synthesizes cross-paper patterns, and drafts a citation-aware related-work section. The system combines FastAPI, Next.js, DSPy, SQLite, and Qdrant in a local-first architecture that supports bring-your-own-key model access and remote-or-local embeddings. This paper describes the system design, typed agent interfaces, persistence and history-search mechanisms, and the engineering tradeoffs involved in building a transparent research assistant. Rather than claiming algorithmic novelty, we present ResearchPilot as a systems contribution and evaluate it through automated tests and end-to-end local runs. We discuss limitations including external API rate limits, abstract-only extraction, incomplete corpus coverage, and the lack of citation verification.",
+      "year": "2026",
+      "published_date": "2026-03-15",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/d832f04fd4950a30e1719cdd4c319557010abe9f",
+      "arxiv_id": "2603.14629",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    }
+  ],
+  "timestamp": "20260412_224211"
+}

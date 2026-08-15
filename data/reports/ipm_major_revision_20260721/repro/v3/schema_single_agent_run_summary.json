@@ -1,0 +1,28 @@
+{
+  "analysis_version": "2026-07-24-schema-baseline-v3",
+  "n_queries": 251,
+  "provider_models": [
+    {
+      "provider": "deepseek",
+      "model": "deepseek-chat"
+    }
+  ],
+  "decoding": {
+    "max_tokens": 3000,
+    "temperature": 0.3
+  },
+  "unique_prompt_hashes": 251,
+  "citation_precision_mean": 1.0,
+  "bibliography_match_rate_mean": 1.0,
+  "orphan_rate_mean": 0.05029880478087649,
+  "release_pass_n": 197,
+  "release_pass_rate": 0.7848605577689243,
+  "release_block_n": 54,
+  "elapsed_seconds": {
+    "mean": 19.431593625498007,
+    "median": 18.343,
+    "min": 11.107,
+    "max": 37.448
+  },
+  "scope_note": "The source M1 query-specific top-paper sidecars and fixed identifiers were reused. Retrieval was not rerun. Provider-side immutable model snapshot identifiers were unavailable; the authors confirmed alias continuity, and alias, decoding parameters, dates, and prompt hashes are preserved."
+}

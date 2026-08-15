@@ -1,0 +1,156 @@
+{
+  "baseline": "method2_adversarial_same_model",
+  "query": "情报服务基准中的查询难度分级（easy/medium/hard）应基于哪些可操作标准？",
+  "effective_search_query": "情报服务 查询难度分级 标准 easy medium hard",
+  "writer_provider": "deepseek",
+  "reviewer_provider": "deepseek",
+  "reviser_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_model": "deepseek-chat",
+  "reviser_model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "retrieved_count": 15,
+  "screened_count": 8,
+  "review_rounds_requested": 1,
+  "review_rounds_completed": 1,
+  "review_feedback": {
+    "overall_score": 6,
+    "major_issues": [
+      "报告声称基于证据集分析，但提出的四个研究方向（任务场景复杂度、智能体能力层级、系统协作复杂度、可靠性安全要求）缺乏直接证据支持。证据集中没有任何文献明确讨论或定义查询难度分级标准，报告将这些间接特征推论为分级标准，超出了证据范围。",
+      "报告将不同领域的研究（如粮食安全应急、科研知识服务、邮件代理安全）的挑战普遍化为情报服务查询难度分级的理论基础，但未论证这些领域特定挑战与通用情报服务查询难度分级的直接相关性，存在过度泛化风险。",
+      "结论部分声称‘无法直接提取出一套成熟的、可操作的标准’，但整个报告却在构建具体的分级维度（如Easy/Medium/Hard对应不同能力层级），这存在逻辑矛盾。报告应更严格地停留在证据所支持的‘挑战描述’层面，而非推断‘分级标准’。"
+    ],
+    "citation_issues": [
+      "引用[4]（AI Agent Protocols Survey）支持‘智能体作为外部大脑解决复杂问题’的论述是合理的，但将其直接关联到查询难度与‘任务场景复杂性、所需智能体能力层级’的分级标准，该文献摘要未提供此类关联证据。",
+      "引用[6]（LLM-Powered Multi-Agent Simulation）讨论人类行为建模的复杂性，但报告将其引申为‘涉及深层人类行为模拟的查询难度更高’，这是推断，原文摘要未将建模挑战与查询难度分级相关联。",
+      "引用[7]（Reliable Collaborative Conversational Agent System）指出LLM在知识和结果上的不可靠性以及协作挑战，但报告将其转化为‘对可靠性要求高的查询难度更高’，原文未提出此类分级标准。",
+      "引用[8]（Security of LLM-Driven Email Agents）仅关注电子邮件代理的安全评估，未涉及情报服务查询难度分级。报告将其安全考量纳入潜在分级标准，缺乏直接证据支持，属于领域外推。"
+    ],
+    "revision_instructions": [
+      "严格限定结论于证据直接支持的内容：明确指出所有文献均未提供查询难度分级的具体标准，仅能总结智能化情报服务面临的通用挑战（如处理复杂场景、不确定性、协作、可靠性问题），但不可将这些挑战直接转化为分级维度。",
+      "删除或大幅弱化‘研究方向’部分：现有证据不足以支持提出具体的分级探索方向。若保留，应明确说明这些方向是基于文献挑战的‘推测’或‘未来可能考虑的因素’，而非证据支持的结论。",
+      "调整论述逻辑，避免从‘挑战’直接跳跃到‘分级标准’：报告结构应清晰分为两部分：1) 证据显示的情报服务智能化趋势与挑战；2) 基于这些挑战，未来研究‘可能’如何考虑难度分级，但强调当前证据不足。",
+      "修正引用表述：确保所有引用仅用于支持文献中明确提出的观点（如智能体能力、协作挑战、可靠性问题），不得用于支持分级标准的具体推断。在引用时注明文献的原始上下文（如[7]讨论的是对话系统的可靠性，而非情报查询难度）。"
+    ],
+    "accept_without_revision": false
+  },
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "overall_score": 6,
+        "major_issues": [
+          "报告声称基于证据集分析，但提出的四个研究方向（任务场景复杂度、智能体能力层级、系统协作复杂度、可靠性安全要求）缺乏直接证据支持。证据集中没有任何文献明确讨论或定义查询难度分级标准，报告将这些间接特征推论为分级标准，超出了证据范围。",
+          "报告将不同领域的研究（如粮食安全应急、科研知识服务、邮件代理安全）的挑战普遍化为情报服务查询难度分级的理论基础，但未论证这些领域特定挑战与通用情报服务查询难度分级的直接相关性，存在过度泛化风险。",
+          "结论部分声称‘无法直接提取出一套成熟的、可操作的标准’，但整个报告却在构建具体的分级维度（如Easy/Medium/Hard对应不同能力层级），这存在逻辑矛盾。报告应更严格地停留在证据所支持的‘挑战描述’层面，而非推断‘分级标准’。"
+        ],
+        "citation_issues": [
+          "引用[4]（AI Agent Protocols Survey）支持‘智能体作为外部大脑解决复杂问题’的论述是合理的，但将其直接关联到查询难度与‘任务场景复杂性、所需智能体能力层级’的分级标准，该文献摘要未提供此类关联证据。",
+          "引用[6]（LLM-Powered Multi-Agent Simulation）讨论人类行为建模的复杂性，但报告将其引申为‘涉及深层人类行为模拟的查询难度更高’，这是推断，原文摘要未将建模挑战与查询难度分级相关联。",
+          "引用[7]（Reliable Collaborative Conversational Agent System）指出LLM在知识和结果上的不可靠性以及协作挑战，但报告将其转化为‘对可靠性要求高的查询难度更高’，原文未提出此类分级标准。",
+          "引用[8]（Security of LLM-Driven Email Agents）仅关注电子邮件代理的安全评估，未涉及情报服务查询难度分级。报告将其安全考量纳入潜在分级标准，缺乏直接证据支持，属于领域外推。"
+        ],
+        "revision_instructions": [
+          "严格限定结论于证据直接支持的内容：明确指出所有文献均未提供查询难度分级的具体标准，仅能总结智能化情报服务面临的通用挑战（如处理复杂场景、不确定性、协作、可靠性问题），但不可将这些挑战直接转化为分级维度。",
+          "删除或大幅弱化‘研究方向’部分：现有证据不足以支持提出具体的分级探索方向。若保留，应明确说明这些方向是基于文献挑战的‘推测’或‘未来可能考虑的因素’，而非证据支持的结论。",
+          "调整论述逻辑，避免从‘挑战’直接跳跃到‘分级标准’：报告结构应清晰分为两部分：1) 证据显示的情报服务智能化趋势与挑战；2) 基于这些挑战，未来研究‘可能’如何考虑难度分级，但强调当前证据不足。",
+          "修正引用表述：确保所有引用仅用于支持文献中明确提出的观点（如智能体能力、协作挑战、可靠性问题），不得用于支持分级标准的具体推断。在引用时注明文献的原始上下文（如[7]讨论的是对话系统的可靠性，而非情报查询难度）。"
+        ],
+        "accept_without_revision": false
+      }
+    }
+  ],
+  "all_retrieved_ids": [
+    "doi:10.1002/ajae.12089",
+    "doi:10.1016/j.procs.2019.02.029",
+    "title:prorl agent: rollout-as-a-service for rl training of multi-turn llm agents|2026",
+    "title:optimizing service operations via llm-powered multi-agent simulation|2026",
+    "doi:10.1038/nenergy.2016.32",
+    "title:reliable collaborative conversational agent system based on llms and answer set programming|2025",
+    "title:control at stake: evaluating the security landscape of llm-driven email agents|2025",
+    "title:pact: a contract-theoretic framework for pricing agentic ai services powered by large language models|2025",
+    "doi:10.13811/j.cnki.eer.2025.06.010",
+    "title:a survey of ai agent protocols|2025",
+    "doi:10.19318/j.cnki.issn.2096-1634.2025.01.01",
+    "doi:10.3772/j.issn.1000-0135.2025.01.001",
+    "doi:10.16353/j.cnki.1000-7490.2025.01.003",
+    "title:the role of agentic ai and generative ai in transforming modern banking services|2025",
+    "doi:10.1016/j.infoh.2025.03.001"
+  ],
+  "top_papers": [
+    {
+      "title": "基于大模型智能体的粮食安全应急情报体系构建研究",
+      "year": 2025,
+      "journal": "专题二",
+      "source": "万方数据",
+      "doi": "10.16353/j.cnki.1000-7490.2025.01.003",
+      "citations": 74,
+      "abstract": "[目的/意义]粮食安全是国家安全的基础和重要内容,应急情报体系是应急管理的重要支撑,构建粮食安全应急情报体系能够为应对粮食安全突发事件提供科学的解决方案和高效的运作保障.[方法/过程]首先,阐释相关概念,概述现有研究;其次,在粮食安全应急情报需求分析基础上,提炼体系关键要素,并结合云边端架构,对情报服务化、LBA平台架构及组织架构进行详细论述;最后,阐述基于LBA的粮食安全应急情报体系的模式运作 流程.[结果/结论]依托于LBA的粮食安全应急情报体系智能聚合情报服务、智慧适应多主体需求、智能辅助应急决策,既为粮食安全应急管理提供全生命周期情报支持,又奠定LBA在应急情报领域的研究基础,进而为促进应急管理现代化、维护国家粮食安全做出贡献. aggregates <span class='highlight'>intelligence</span> services,intelligently adapts to <span class='highlight'>multi-agent</span> needs,and intelligently assists emergency decision-making.It not only provides full-life cycle <span class='highlight'>intelligence</span> support for food security  [Purpose/significance]Food security is the foundation and important content of national security.The emergency <span class='highlight'>intelligence</span> system is an important su"
+    },
+    {
+      "title": "智能情报技术:内涵、边界与体系",
+      "year": 2025,
+      "journal": "专题",
+      "source": "万方数据",
+      "doi": "10.3772/j.issn.1000-0135.2025.01.001",
+      "citations": 78,
+      "abstract": "<span class='highlight'>情报</span>工作正经历着从传统模式向<span class='highlight'>智能</span>化模式的深刻转型.从早期的<span class='highlight'>智能</span>检索到当前的<span class='highlight'>大</span><span class='highlight'>模型</span>驱动的<span class='highlight'>智能</span><span class='highlight'>情报</span>理解,<span class='highlight'>情报</span>技术已逐步从\"<span class='highlight'>智能</span>+<span class='highlight'>情报</span>\"和\"<span class='highlight'>智能</span>for<span class='highlight'>情报</span>\"等演化为\"<span class='highlight'>智能</span>即<span class='highlight'>情报</span>\"和\"<span class='highlight'>情报</span>即<span class='highlight'>智能</span>\"的新模式.本文详细探讨了<span class='highlight'>智能</span><span class='highlight'>情报</span>技术的概念、技术边界及其<span class='highlight'>体</span>系建构,提出了面向数智时代的<span class='highlight'>智能</span><span class='highlight'>情报</span>技术<span "
+    },
+    {
+      "title": "智能体赋能科研知识服务的路径解析",
+      "year": 2025,
+      "journal": "\"人工智能\"专栏",
+      "source": "万方数据",
+      "doi": "10.19318/j.cnki.issn.2096-1634.2025.01.01",
+      "citations": 91,
+      "abstract": "[目的/意义]探索科研知识<span class='highlight'>服务</span><span class='highlight'>体</span>系如何借助<span class='highlight'>智能</span><span class='highlight'>体</span>从被动支撑向主动<span class='highlight'>服务</span>转型,对推动科研创新与知识<span class='highlight'>服务</span>的深度融合具有重要意义.[方法/过程]本文立足于<span class='highlight'>智能</span><span class='highlight'>体</span>的运行逻辑,以\"场景驱动—能力转化—赋能<span class='highlight'>服务</span>\"为研究维度,系统解构了<span class='highlight'>智能</span><span class='highlight'>体</span>适用于解决的科学研究问题场景和实现方式,并提炼出其共性关键能力;同时结合科研知识<span class='highlight'>服务</span>的现有能力,进一步分析该技术助力知识<span class='highlight'>服务</span>嵌入式融入科研创新的应用潜力及发展路径.[结果/ 结论]<span class='highlight'>智能</span><span class='highlight'>体</span>有潜力将知识对象结构化、语义化和关联化,并进一步转化为可交互、可计算的知识<span class='highlight'>服务</span>,从而显著提升知识<span class='highlight'>服务</span>的<span class='hig"
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Multi-turn LLM agents are increasingly important for solving complex, interactive tasks, and reinforcement learning (RL) is a key ingredient for improving their long-horizon behavior. However, RL training requires generating large numbers of sandboxed rollout trajectories, and existing infrastructures often couple rollout orchestration with the training loop, making systems hard to migrate and maintain. Under the rollout-as-a-service philosophy, we present ProRL Agent , a scalable infrastructure that serves the full agentic rollout lifecycle through an API service. ProRL Agent also provides standardized and extensible sandbox environments that support diverse agentic tasks in rootless HPC settings. We validate ProRL Agent through RL training on software engineering, math, STEM, and coding "
+    },
+    {
+      "title": "Optimizing Service Operations via LLM-Powered Multi-Agent Simulation",
+      "year": "2026",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "Service system performance depends on how participants respond to design choices, but modeling these responses is hard due to the complexity of human behavior. We introduce an LLM-powered multi-agent simulation (LLM-MAS) framework for optimizing service operations. We pose the problem as stochastic optimization with decision-dependent uncertainty: design choices are embedded in prompts and shape the distribution of outcomes from interacting LLM-powered agents. By embedding key numerical information in prompts and extracting it from LLM-generated text, we model this uncertainty as a controlled Markov chain. We develop an on-trajectory learning algorithm that, on a single simulation run, simultaneously constructs zeroth-order gradient estimates and updates design parameters to optimize stead"
+    },
+    {
+      "title": "Reliable Collaborative Conversational Agent System Based on LLMs and Answer Set Programming",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "As the Large-Language-Model-driven (LLM-driven) Artificial Intelligence (AI) bots became popular, people realized their strong potential in Task-Oriented Dialogue (TOD). However, bots relying wholly on LLMs are unreliable in their knowledge, and whether they can finally produce a correct outcome for the task is not guaranteed. The collaboration among these agents also remains a challenge, since the necessary information to convey is unclear, and the information transfer is by prompts: unreliable, and malicious knowledge is easy to inject. With the help of knowledge representation and reasoning tools such as Answer Set Programming (ASP), conversational agents can be built safely and reliably, and communication among the agents made more reliable as well. We propose a Manager-Customer-Servic"
+    },
+    {
+      "title": "Control at Stake: Evaluating the Security Landscape of LLM-Driven Email Agents",
+      "year": "2025",
+      "journal": "arXiv Preprint",
+      "source": "arXiv",
+      "doi": "",
+      "citations": 0,
+      "abstract": "The increasing capabilities of LLMs have led to the rapid proliferation of LLM agent apps, where developers enhance LLMs with access to external resources to support complex task execution. Among these, LLM email agent apps represent one of the widely used categories, as email remains a critical communication medium for users. LLM email agents are capable of managing and responding to email using LLM-driven reasoning and autonomously executing user instructions via external email APIs (e.g., send email). However, despite their growing deployment and utility, the security mechanism of LLM email agent apps remains underexplored. Currently, there is no comprehensive study into the potential security risk within these agent apps and their broader implications.   In this paper, we conduct the f"
+    }
+  ],
+  "elapsed_seconds": 155.385,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\method2_same_model_outputs\\Q58_method2_same_model_20260414_102251.md"
+}

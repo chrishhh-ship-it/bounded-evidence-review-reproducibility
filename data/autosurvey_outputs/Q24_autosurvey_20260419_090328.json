@@ -1,0 +1,177 @@
+{
+  "baseline": "autosurvey_corpus_controlled",
+  "query": "evidence agent 是否应该作为独立角色存在，而不是并入 writer agent？",
+  "effective_search_query": "evidence agent writer agent 独立角色 合并",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "corpus_mode": "frozen_topic_run",
+  "comparison_mode": "corpus_controlled_external_system",
+  "retrieved_count": 15,
+  "all_retrieved_ids": [
+    "doi:10.1016/j.dss.2016.05.008",
+    "doi:10.2139/ssrn.4570595",
+    "title:a survey of ai agent protocols|2025",
+    "title:toward agentic ai networking in 6g: a generative foundation model-as-agent approach|2025",
+    "title:llm agents for smart city management: enhancing decision support through multi-agent ai systems|2025",
+    "title:agent kb: leveraging cross-domain experience for agentic problem solving|2025",
+    "doi:10.1109/mwc.016.2300600",
+    "title:a multi-agent digital twin–enabled decision support system for sustainable and resilient supplier management|2024",
+    "doi:10.17048/am.2020.122",
+    "doi:10.1109/tits.2023.3242997",
+    "doi:10.1109/twc.2023.3235997",
+    "doi:10.48550/arxiv.2306.16092",
+    "doi:10.1080/19488289.2016.1248802",
+    "title:llm-powered ai agent systems and their applications in industry|2025",
+    "doi:10.1109/tvt.2022.3173057"
+  ],
+  "top_papers": [
+    {
+      "title": "A multi-agent system to support evidence based medicine and clinical decision making via data sharing and data privacy",
+      "year": "2016",
+      "journal": "Decision Support Systems",
+      "source": "OpenAlex",
+      "doi": "10.1016/j.dss.2016.05.008",
+      "citations": 61,
+      "abstract": ""
+    },
+    {
+      "title": "Decision Support for Regeneration Mode of Old Community Under Multi-Agent Interaction: Evidence from China",
+      "year": "2023",
+      "journal": "CrossRef",
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.4570595",
+      "citations": 0,
+      "abstract": ""
+    },
+    {
+      "title": "A survey of ai agent protocols",
+      "year": 2025,
+      "journal": "Y Yang, H Chai, Y Song, S Qi, M Wen, N Li… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 156,
+      "abstract": "… deployment of LLM agents across diverse industries, including customer service, content … as an \"external brain\" to augment agent knowledge and tackle complex real-world problems …"
+    },
+    {
+      "title": "Toward agentic ai networking in 6g: A generative foundation model-as-agent approach",
+      "year": 2025,
+      "journal": "Y Xiao, G Shi, P Zhang - IEEE Communications Magazine, 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 55,
+      "abstract": "… challenges and requirements of agentic AI networking. We … rative learning, and knowledge transfer among AI agents. We … al services, which involve a much wider range of knowledge …"
+    },
+    {
+      "title": "LLM agents for smart city management: Enhancing decision support through multi-agent AI systems",
+      "year": 2025,
+      "journal": "A Kalyuzhnaya, S Mityagin, E Lutsenko, A Getmanov… - Smart Cities, 2025 - mdpi.com",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 53,
+      "abstract": "… the use of an intelligent decision support system in urban environment … smart city management lies in its demonstration of how an LLM-based multi-agent system can solve specific smart …"
+    },
+    {
+      "title": "Agent kb: Leveraging cross-domain experience for agentic problem solving",
+      "year": 2025,
+      "journal": "X Tang, T Qin, T Peng, Z Zhou, D Shao, T Du… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 50,
+      "abstract": "… As artificial intelligence advances, language agents are … We propose the Agent Knowledge Base (AGENT KB), a hierarchical … All services used in this work rely on third-party API calls to …"
+    },
+    {
+      "title": "Large Language Model Enhanced Multi-Agent Systems for 6G Communications",
+      "year": "2024",
+      "journal": "IEEE Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/mwc.016.2300600",
+      "citations": 86,
+      "abstract": "The rapid development of the large language model (LLM) presents huge opportunities for 6G communications – for example, network optimization and management – by allowing users to input task requirements to LLMs with natural language. However, directly applying native LLMs in 6G encounters various challenges, such as a lack of communication data and knowledge, and limited logical reasoning, evaluation, and refinement abilities. Integrating LLMs with the capabilities of retrieval, planning, memory, evaluation, and reflection in agents can greatly enhance the potential of LLMs for 6G communications. To this end, we propose CommLLM, a multi-agent system with customized communication knowledge and tools for solving communication-related tasks using natural language. This system consists of thr"
+    },
+    {
+      "title": "A multi-agent digital twin–enabled decision support system for sustainable and resilient supplier management",
+      "year": 2024,
+      "journal": "YL Li, YP Tsang, CH Wu, CKM Lee - Computers & industrial engineering, 2024 - Elsevier",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 61,
+      "abstract": "… decision-making under uncertainty. This paper introduces a digitally enabled decision support … The system leverages stratified fuzzy decision-making techniques to account for the …"
+    },
+    {
+      "title": "Multi-Agent based Intelligent Decision Support Systems for Cancer Classification",
+      "year": "2021",
+      "journal": "Agria Média 2020 és ICI-16 Információ- és Oktatástechnológiai konferencia",
+      "source": "CrossRef",
+      "doi": "10.17048/am.2020.122",
+      "citations": 0,
+      "abstract": "There is evidence that early detection of cancer diseases can improve the treatment and increase the survival rate of patients. This paper presents an efficient CAD system for cancer diseases diagnosis by gene expression profiles of DNA microarray datasets. The proposed CAD system combines Intelligent Decision Support System (IDSS) and Multi-Agent (MA) system. The IDSS represents the backbone of the entire CAD system. It consists of two main phases; feature selection/reduction phase and a classification phase. In the feature selection/reduction phase, eight diverse methods are developed. While, in the classification phase, three evolutionary machine learning algorithms are employed. On the other hand, the MA system manages the entire operation of the CAD system. It first initializes severa"
+    },
+    {
+      "title": "Joint Secure Offloading and Resource Allocation for Vehicular Edge Computing Network: A Multi-Agent Deep Reinforcement Learning Approach",
+      "year": "2023",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "source": "OpenAlex",
+      "doi": "10.1109/tits.2023.3242997",
+      "citations": 212,
+      "abstract": "The mobile edge computing (MEC) technology can simultaneously provide high-speed computing services for multiple vehicular users (VUs) in vehicular edge computing (VEC) networks. Nevertheless, due to the open feature of the wireless offloading channels and the high mobility of the vehicles, the security and stability of the offloading process would be seriously degraded. In this paper, by utilizing the physical layer security (PLS) technique and spectrum sharing architecture, we propose a deep reinforcement learning based joint secure offloading and resource allocation (SORA) scheme to improve the secrecy performance and resource efficiency of the multi-user VEC networks, where the VU offloading links share the frequency spectrum preoccupied with the vehicle-to-vehicle (V2V) communication "
+    },
+    {
+      "title": "Energy Efficient Computation Offloading in Aerial Edge Networks With Multi-Agent Cooperation",
+      "year": "2023",
+      "journal": "IEEE Transactions on Wireless Communications",
+      "source": "OpenAlex",
+      "doi": "10.1109/twc.2023.3235997",
+      "citations": 153,
+      "abstract": "With the high flexibility of supporting resource-intensive and time-sensitive applications, unmanned aerial vehicle (UAV)-assisted mobile edge computing (MEC) is proposed as an innovational paradigm to support the mobile users (MUs). As a promising technology, digital twin (DT) is capable of timely mapping the physical entities to virtual models, and reflecting the MEC network state in real-time. In this paper, we first propose an MEC network with multiple movable UAVs and one DT-empowered ground base station to enhance the MEC service for MUs. Considering the limited energy resource of both MUs and UAVs, we formulate an online problem of resource scheduling to minimize the weighted energy consumption of them. To tackle the difficulty of the combinational problem, we formulate it as a Mark"
+    },
+    {
+      "title": "Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model",
+      "year": "2023",
+      "journal": "arXiv (Cornell University)",
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2306.16092",
+      "citations": 90,
+      "abstract": "AI legal assistants based on Large Language Models (LLMs) can provide accessible legal consulting services, but the hallucination problem poses potential legal risks. This paper presents Chatlaw, an innovative legal assistant utilizing a Mixture-of-Experts (MoE) model and a multi-agent system to enhance the reliability and accuracy of AI-driven legal services. By integrating knowledge graphs with artificial screening, we construct a high-quality legal dataset to train the MoE model. This model utilizes different experts to address various legal issues, optimizing the accuracy of legal responses. Additionally, Standardized Operating Procedures (SOP), modeled after real law firm workflows, significantly reduce errors and hallucinations in legal services. Our MoE model outperforms GPT-4 in th"
+    },
+    {
+      "title": "A data-rich agent-based decision support model for hospital consolidation",
+      "year": "2016",
+      "journal": "Journal of Enterprise Transformation",
+      "source": "OpenAlex",
+      "doi": "10.1080/19488289.2016.1248802",
+      "citations": 15,
+      "abstract": "In the complex space of the healthcare system, we need tools that help decision makers to interactively and inexpensively eliminate infeasible approaches prior to executing expensive changes, and focus on only the most promising strategies. A data-rich agent-based decision support model in the context of hospital consolidation is introduced to address a variety of scenarios. By “rich,” we mean extensive rule sets and information sources: these include agents' financial statements, operational performance, as well as a detailed set of strategic objectives. An application of this model is to analyze hospitals' merger and acquisition activities in New York City based on overarching characteristics for the 5,000+ hospitals nationwide. The model is accompanied by a large-scale interactive visua"
+    },
+    {
+      "title": "LLM-powered AI agent systems and their applications in industry",
+      "year": 2025,
+      "journal": "G Liang, Q Tong - 2025 IEEE World AI IoT Congress (AIIoT), 2025 - ieeexplore.ieee.org",
+      "source": "Google Scholar",
+      "doi": "",
+      "citations": 33,
+      "abstract": "… agent systems from the pre-LLM era to current LLM-powered architectures. We categorize agent … systems, highlighting applications across customer service, software development, …"
+    },
+    {
+      "title": "Federated Multi-Agent Deep Reinforcement Learning for Resource Allocation of Vehicle-to-Vehicle Communications",
+      "year": "2022",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2022.3173057",
+      "citations": 154,
+      "abstract": "Dynamic topology, fast-changing channels and the time sensitivity of safety-related services present challenges to the status quo of resource allocation for cellular-underlaying vehicle-to-vehicle (V2V) communications. In this paper, we investigate a novel federated multi-agent deep reinforcement learning (FedMARL) approach for the decentralized joint optimization of channel selection and power control for V2V communication. The approach takes advantage of both deep reinforcement learning (DRL) and federated learning (FL), satisfying the reliability and delay requirements of V2V communication while maximizing the transmit rates of cellular links. Specifically, we elaborately construct individual V2V agent implement by the dueling double deep Q-network (D3QN), and design the reward function"
+    }
+  ],
+  "outline": "# The Role of Evidence Agents in Multi-Agent AI Systems: A Survey on Architectural Independence and Specialization\n\n## 1. Introduction and Problem Definition\n*This section introduces the core debate on whether evidence-handling functions should be a distinct agent role (an independent evidence agent) or integrated within writer/decision agents. It frames the problem within the broader evolution of multi-agent systems and their applications in complex decision-making domains such as healthcare, communications, logistics, and smart cities.*\n\n### 1.1 The Rise of Specialized Agents in Complex Decision-Making Systems\n*This subsection introduces the trend toward agent specialization in multi-agent AI systems, highlighting how complex domains like healthcare, communications, and urban management drive the need for dedicated functional roles. It uses papers on medical IDSS, smart city management, and hospital consolidation to illustrate the prevalence of systems where distinct agents handle specific tasks like data retrieval, analysis, and planning.*\n\n### 1.2 Framing the Core Architectural Debate: Integration vs. Specialization\n*This subsection explicitly defines the central research question: whether evidence-handling (data retrieval, verification, synthesis) should be a distinct \"evidence agent\" or an integrated function of a \"writer/decision agent.\" It frames this debate within the context of system efficiency, reliability, and scalability, referencing challenges noted in LLM-enhanced systems for 6G and UAV networks where evidence quality directly impacts decision outcomes.*\n\n### 1.3 Domain-Specific Motivations and Problem Scope\n*This subsection outlines the critical requirements from various application domains that motivate this architectural debate. It discusses how needs for evidence fidelity (medical diagnosis), real-time accuracy (V2V communications, edge computing), and security (federated learning) create tensions that influence the design choice between integrated and specialized evidence management, setting the stage for the survey's analysis.*\n\n## 2. Theoretical Foundations and Architectural Paradigms\n*This section reviews theoretical arguments for agent specialization, including modularity, separation of concerns, and the \"external brain\" paradigm. It analyzes and contrasts different multi-agent architectural patterns from the literature, comparing systems with dedicated retrieval/evaluation agents against those where the writer/planner agent subsumes these functions.*\n\n### 2.1 Theoretical Underpinnings of Agent Specialization\n*This subsection reviews core theoretical arguments for functional specialization in multi-agent systems, including principles of modularity, separation of concerns, and the \"external brain\" paradigm. It discusses how these concepts support the creation of dedicated agents for specific tasks like evidence retrieval and evaluation, potentially enhancing system robustness, maintainability, and performance.*\n\n### 2.2 Architectural Patterns for Evidence Handling\n*This subsection analyzes and contrasts prevalent multi-agent architectural patterns from the literature. It compares integrated architectures, where a writer/planner agent internally manages evidence functions, against specialized architectures featuring distinct retrieval or evaluation agents, using examples from domains like communications and legal AI to illustrate the spectrum of design choices.*\n\n### 2.3 Role Specialization in Domain-Specific System Designs\n*This subsection examines how the theoretical paradigms and architectural patterns manifest in the design of systems for specific application domains, such as secure communications, edge computing, and decision support. It analyzes how domain requirements (e.g., for security, real-time processing, or accuracy) influence the decision to implement specialized evidence agents or integrated functions.*\n\n## 3. Empirical Applications and Domain-Specific Analysis\n*This section examines real-world implementations and case studies from diverse domains (e.g., decision support, secure communications, medical diagnosis, legal AI, edge computing, resilient supply chains, and networking). It analyzes how domain-specific requirements for evidence fidelity, accuracy, and security influence the architectural choice between integrated and specialized evidence management.*\n\n### 3.1 Decision Support Systems in Healthcare and Logistics\n*This subsection analyzes case studies in domains like medical diagnosis (e.g., cancer classification) and resilient supply chain management, where evidence fidelity and accuracy are paramount. It examines how specialized agents for data retrieval, feature selection, and uncertainty modeling are architected to meet stringent domain requirements, contrasting them with more integrated approaches.*\n\n### 3.2 Secure and Efficient Communications in Edge Computing Networks\n*This subsection reviews implementations in vehicular, aerial, and 6G communication networks, where evidence security, real-time processing, and resource efficiency are critical. It explores how architectural choices for evidence handling—such as dedicated agents for secure offloading, resource allocation, or knowledge retrieval—are driven by domain-specific challenges like mobility, open channels, and energy constraints.*\n\n### 3.3 Urban Management and Smart City Applications\n*This subsection examines the role of evidence agents in smart city management systems, where evidence must be integrated from diverse, heterogeneous urban data sources. It analyzes how LLM-enhanced multi-agent systems structure evidence retrieval, planning, and evaluation to support complex, cross-domain decision-making, highlighting the trade-offs between specialized and generalist agent designs.*\n\n## 4. Synthesis, Trade-offs, and Design Criteria\n*This section synthesizes findings from the theoretical and empirical analyses to weigh the trade-offs of architectural choices. It consolidates arguments for and against independent evidence agents and proposes criteria for their design in system architectures.*\n\n### 4.1 Synthesizing the Core Trade-offs: Integration vs. Specialization\n*This subsection consolidates the primary arguments for and against independent evidence agents, synthesizing findings from theoretical paradigms and empirical case studies. It directly compares the trade-offs, such as system coherence and reduced coordination overhead of integrated agents versus the enhanced evidence fidelity, security, and modularity offered by specialized agents.*\n\n### 4.2 Domain-Informed Design Criteria for Evidence Agent Implementation\n*This subsection proposes concrete design criteria derived from the analysis of domain-specific requirements. It outlines key factors—such as evidence complexity, security-criticality, real-time processing needs, and system scalability—that should guide the architectural decision to integrate or specialize evidence-handling functions.*\n\n### 4.3 Architectural Patterns and Coordination Mechanisms for Specialized Systems\n*This subsection examines practical design patterns for systems that employ independent evidence agents, drawing on case studies like CommLLM and FedMARL. It focuses on the necessary coordination, communication, and knowledge-sharing mechanisms between evidence agents and writer/decision agents to ensure system efficacy and coherence.*\n\n## 5. Open Challenges and Future Research Directions\n*This section outlines open research challenges and future directions based on the surveyed literature. Key areas include agent coordination, knowledge transfer, system integration, and addressing the complexities of knowledge base integration in systems with specialized evidence agents.*\n\n### 5.1 Coordination and Communication Overhead in Multi-Agent Evidence Systems\n*This subsection discusses the challenge of managing communication and coordination overhead when evidence handling is delegated to a specialized agent. It examines issues like latency, consensus-building, and protocol design, drawing on examples from communication networks (e.g., CommLLM) and vehicular edge computing where real-time, secure coordination is critical.*\n\n### 5.2 Knowledge Transfer, Consistency, and Hallucination Mitigation\n*This subsection explores the difficulties of ensuring consistent, accurate knowledge transfer between a specialized evidence agent and downstream writer/decision agents. It addresses the persistent risk of hallucination and evidence corruption, analyzing mitigation strategies from domains like legal AI (e.g., Chatlaw) and medical diagnosis that rely on high-fidelity knowledge graphs and structured workflows.*\n\n### 5.3 System Integration and Scalability with Heterogeneous Knowledge Bases\n*This subsection outlines the integration challenges of embedding a specialized evidence agent into larger, heterogeneous systems. It focuses on scalability, interoperability with diverse and dynamic knowledge sources (e.g., in hospital consolidation or cancer classification systems), and the computational complexity of maintaining a unified, accessible evidence pool for multiple consuming agents.*\n\n### 5.4 Adaptive and Resilient Evidence Management in Dynamic Environments\n*This subsection identifies future research needs for evidence agents to operate in highly dynamic and adversarial environments, such as aerial edge networks or secure vehicular systems. It focuses on enabling adaptive evidence retrieval, real-time credibility assessment, and resilient operation despite network volatility or security threats to the evidence pipeline.*",
+  "cited_ids": [
+    5,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "elapsed_seconds": 427.42,
+  "output_markdown": "C:\\Users\\10305\\文献\\研究情报助手\\data\\autosurvey_outputs\\Q24_autosurvey_20260419_090328.md"
+}
