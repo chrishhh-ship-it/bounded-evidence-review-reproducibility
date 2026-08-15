@@ -12,7 +12,7 @@ new licence.
 | Normalized bibliographic records | Freeze the query-specific evidence states | Metadata originated from services identified in each record, including Crossref, OpenAlex, Semantic Scholar, arXiv, PubMed, Google Scholar, Wanfang, and Scopus. No ownership over source metadata is asserted. |
 | ALCE-derived ASQA and QAMPARI materials | External citation-structure evaluation | Users must follow the upstream ALCE and underlying dataset licences and citation requirements. |
 | SciFact-derived materials | External claim-verification evaluation | Users must follow the upstream SciFact licence and citation requirements. |
-| Human-study tables | Reproduce aggregate and sensitivity analyses | Direct identifiers and unnecessary local metadata were removed; reuse remains subject to applicable ethics and data-protection requirements. |
+| Human-study analysis table | Reproduce aggregate and sensitivity analyses | Only pseudonymous participant IDs and analysis variables are deposited. Direct identifiers, questionnaire file names, and redundant raw display fields are excluded; reuse remains subject to applicable ethics and data-protection requirements. |
 
 ## Upstream resources
 

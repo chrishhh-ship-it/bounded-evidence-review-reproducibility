@@ -10,7 +10,7 @@ from typing import Any
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_INPUT = PROJECT_ROOT / "data" / "user_study" / "raw_responses_n30.csv"
+DEFAULT_INPUT = PROJECT_ROOT / "data" / "user_study" / "analysis_responses_n30.csv"
 
 SYSTEM_LABELS = {
     "A": "Core CDMA without ARL (M1)",
@@ -114,13 +114,13 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
             "Analyze the cleaned 30-participant user-study CSV. This script is "
-            "read-only by default and never overwrites raw_responses.csv."
+            "read-only by default and never overwrites the deposited analysis table."
         )
     )
     parser.add_argument(
         "--input",
         default=str(DEFAULT_INPUT),
-        help="Cleaned user-study CSV to analyze (default: data/user_study/raw_responses_n30.csv).",
+        help="Anonymized analysis-ready CSV (default: data/user_study/analysis_responses_n30.csv).",
     )
     parser.add_argument(
         "--summary-json",

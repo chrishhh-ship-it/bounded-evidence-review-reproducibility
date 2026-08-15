@@ -1,6 +1,6 @@
 # Anonymous reproducibility package
 
-Version: 2026-08-14 review snapshot
+Version: 2026-08-15 review snapshot
 
 This archive reproduces the reported analyses from preserved outputs. It does
 not promise byte-identical regeneration of API responses because provider-side
@@ -14,7 +14,7 @@ randomness remains possible even at temperature zero and no seed was exposed.
 - final threshold, one-output-per-query distribution, and complete-case
   sensitivity analyses;
 - external ALCE and SciFact benchmark outputs and analysis artifacts;
-- anonymized human-study responses and the formal imputation log;
+- an anonymized, analysis-ready human-study table and the formal imputation log;
 - anonymized query-construction provenance record;
 - SHA-256 and byte-size manifest for every deposited file other than the
   manifest itself.
@@ -43,6 +43,10 @@ for the reported analyses, their derived per-query evaluation tables, and a
 cryptographic manifest. Historical retries remain archived; analyses that
 require one row per query use the documented deterministic deduplication rule.
 
+The human-study deposit excludes participant names, local questionnaire file
+names, and redundant raw display fields. The retained anonymized fields are the
+complete inputs used for the reported ranking, rating, and suspicion analyses.
+
 The principal reproducibility claim is analysis reproducibility from the
 preserved outputs. Provider-backed scripts are included for protocol
 inspection and prospective reruns, but they require users' own API credentials
@@ -64,6 +68,10 @@ On Windows, clone or extract the repository to a short path such as
 `C:\ipmrep`. Deeply nested checkout paths can exceed legacy Windows path
 limits. Paths stored inside preserved JSON records use the neutral
 `<USER_ROOT>` placeholder and are not required by the analysis scripts.
+
+The repository also fixes text files to LF through `.gitattributes`. Reviewers
+can verify the existing package without rewriting it by running
+`python scripts/build_manifest.py --verify-only`.
 
 ## Licence and upstream data
 
