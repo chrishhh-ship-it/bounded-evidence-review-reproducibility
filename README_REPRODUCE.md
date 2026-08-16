@@ -21,8 +21,23 @@ For the exact versions used in the verification run, see
 The commands below reproduce analyses from preserved outputs. They do not
 promise byte-identical regeneration of hosted-model responses. Scripts that
 call model providers require the user's own credentials and may be affected by
-provider-side model updates. On Windows, use a short checkout path such as
-`C:\ipmrep` to avoid legacy path-length failures.
+provider-side model updates.
+
+**Windows checkout note.** Several files under `data/reports/.../repro/v3/`
+have long nested paths. Git for Windows disables long-path support by default,
+so a plain `git clone` can silently fail to check out some of these files
+(you may see `Filename too long` errors during clone, or a later
+`build_manifest.py --verify-only` failure that looks like a missing file but
+is actually a failed local checkout). Before cloning on Windows, run:
+
+```bash
+git config --global core.longpaths true
+```
+
+Using a short checkout path such as `C:\ipmrep` further reduces the risk but
+is not a substitute for the setting above, since the long segments live
+inside the repository's own directory structure, not just in the checkout
+root.
 
 ## Required Files
 

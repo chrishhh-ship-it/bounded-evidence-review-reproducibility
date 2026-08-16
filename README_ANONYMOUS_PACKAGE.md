@@ -64,10 +64,17 @@ python -m pip install -r requirements.txt
 clean-room verification run. It is an environment snapshot rather than a
 promise that hosted model endpoints remain unchanged.
 
-On Windows, clone or extract the repository to a short path such as
-`C:\ipmrep`. Deeply nested checkout paths can exceed legacy Windows path
-limits. Paths stored inside preserved JSON records use the neutral
-`<USER_ROOT>` placeholder and are not required by the analysis scripts.
+On Windows, run `git config --global core.longpaths true` before cloning, and
+clone or extract the repository to a short path such as `C:\ipmrep`. Several
+files under `data/reports/.../repro/v3/` have long nested paths; without the
+`core.longpaths` setting, `git clone` can silently fail to check some of them
+out (visible as `Filename too long` errors), which then makes
+`build_manifest.py --verify-only` report those files as missing even though
+they exist in the repository. A short checkout root reduces but does not
+eliminate this risk, since the long path segments are inside the repository's
+own directory structure. Paths stored inside preserved JSON records use the
+neutral `<USER_ROOT>` placeholder and are not required by the analysis
+scripts.
 
 The repository also fixes text files to LF through `.gitattributes`. Reviewers
 can verify the existing package without rewriting it by running
@@ -84,6 +91,11 @@ new rights over third-party bibliographic records or benchmark data.
 This repository is prepared for double-blind peer review. Local account names,
 absolute workstation paths, credentials, and contributor-role identifiers have
 been removed. Scholarly bibliographic metadata is retained as research data and
-may contain author names already present in the underlying publications. Raw
-proprietary-source exports, provider credentials, and immutable provider-side
-snapshot identifiers are not included.
+may contain author names already present in the underlying publications; where
+a retrieved record's listed author matched a name on this manuscript's own
+author list, that specific author-name field was replaced with
+`[author redacted for double-blind review]` in this snapshot (10 files, 64
+occurrences, corrected 2026-08-16) while every other field (title, abstract,
+identifiers, citation counts) was left unchanged so that structural metrics
+remain reproducible. Raw proprietary-source exports, provider credentials, and
+immutable provider-side snapshot identifiers are not included.
