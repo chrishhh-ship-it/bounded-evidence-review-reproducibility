@@ -8,7 +8,8 @@ randomness remains possible even at temperature zero and no seed was exposed.
 
 ## Included
 
-- frozen normalized corpus and benchmark query sets;
+- frozen normalized corpus and benchmark query sets, including the independent
+  EN01--EN50 English stress-test source set;
 - structural evaluation and statistical-analysis scripts;
 - final human title-identity and matched semantic-audit artifacts;
 - final threshold, one-output-per-query distribution, and complete-case
@@ -51,6 +52,18 @@ The principal reproducibility claim is analysis reproducibility from the
 preserved outputs. Provider-backed scripts are included for protocol
 inspection and prospective reruns, but they require users' own API credentials
 and may not reproduce historical generations byte for byte.
+
+## Independent English stress-test set
+
+`data/benchmarks/english_queries_benchmark.json` contains a separate,
+purpose-built 50-query English stress-test set that is not part of the
+251-query expanded benchmark. The records are identified as EN01--EN50 and
+cover four domains: multi-agent information services (13), climate-policy
+research (13), digital humanities (12), and biomedical evidence synthesis
+(12). Exact query-string comparison against
+`data/benchmarks/benchmark_all_queries.json` gives zero overlap. The file is
+included as the source definition of this independent stress test; it should
+not be interpreted as an English-language subset of the expanded benchmark.
 
 ## Setup and path note
 

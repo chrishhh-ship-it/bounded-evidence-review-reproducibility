@@ -46,6 +46,16 @@ Core corpora:
 - Pilot MAS corpus: `data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json`
 - Expanded multi-domain corpus: `data/frozen_corpus_multidomain_v1.json`
 
+Benchmark query definitions:
+
+- Expanded 251-query benchmark: `data/benchmarks/benchmark_all_queries.json`
+- Independent 50-query English stress test (EN01--EN50): `data/benchmarks/english_queries_benchmark.json`
+
+The English file is a separate, purpose-built 50-query English stress-test set
+that is not part of the 251-query expanded benchmark. It has no exact
+query-string overlap with `benchmark_all_queries.json` and is not an English
+subset of that benchmark.
+
 Run manifest and checksums:
 
 - `data/manifests/run_manifest.json`
