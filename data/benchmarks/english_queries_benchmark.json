@@ -1,0 +1,502 @@
+[
+  {
+    "id": "EN01",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "framework_design",
+    "query": "How can multi-agent systems be architected to maintain evidence traceability in competitive intelligence workflows?",
+    "intent": "framework design",
+    "difficulty": 2
+  },
+  {
+    "id": "EN02",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "literature_synthesis",
+    "query": "What are the core benefits of role-separated agent architectures for automated literature synthesis and citation management?",
+    "intent": "benefit analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN03",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "evaluation",
+    "query": "How should citation precision and orphan citation rate be measured in AI-generated scientific reviews?",
+    "intent": "metric design",
+    "difficulty": 2
+  },
+  {
+    "id": "EN04",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "retrieval",
+    "query": "What retrieval-augmented generation strategies most effectively reduce hallucinated citations in long-form knowledge synthesis?",
+    "intent": "comparative analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "EN05",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "adversarial_review",
+    "query": "How does adversarial review between writer and reviewer agents improve structural integrity of synthesized documents?",
+    "intent": "mechanism analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN06",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "knowledge_service",
+    "query": "What distinguishes single-agent from multi-agent information retrieval pipelines in terms of evidence accountability?",
+    "intent": "comparative analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN07",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "pipeline_design",
+    "query": "How can constraint-based review loops enforce citation admissibility constraints in AI-assisted literature review generation?",
+    "intent": "system design",
+    "difficulty": 3
+  },
+  {
+    "id": "EN08",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "evaluation",
+    "query": "What empirical evidence exists for the effectiveness of cross-model versus same-model review in citation verification tasks?",
+    "intent": "empirical review",
+    "difficulty": 3
+  },
+  {
+    "id": "EN09",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "intelligence_service",
+    "query": "How do knowledge graph construction and multi-agent coordination interact in enterprise intelligence platforms?",
+    "intent": "integration analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN10",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "workflow",
+    "query": "What role does evidence screening and bounded evidence sets play in reducing fabrication in AI synthesis workflows?",
+    "intent": "mechanism analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "EN11",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "scalability",
+    "query": "How do multi-agent information retrieval systems scale to large corpora while preserving citation accuracy?",
+    "intent": "scalability analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN12",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "trust",
+    "query": "What factors determine user trust in AI-generated literature reviews and how can structural auditability address them?",
+    "intent": "user trust",
+    "difficulty": 2
+  },
+  {
+    "id": "EN13",
+    "domain_id": "multi_agent_information_services",
+    "domain_name": "Multi-Agent Information Services",
+    "lang": "en",
+    "category": "comparison",
+    "query": "How does retrieval-augmented synthesis compare to end-to-end language model generation for citation-traceable scientific writing?",
+    "intent": "comparative analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "EN14",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "text_analysis",
+    "query": "How are computational methods applied to large-scale historical text corpora for knowledge extraction and synthesis?",
+    "intent": "method survey",
+    "difficulty": 2
+  },
+  {
+    "id": "EN15",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "nlp",
+    "query": "What natural language processing techniques are most effective for entity recognition in digitised archival materials?",
+    "intent": "technique survey",
+    "difficulty": 2
+  },
+  {
+    "id": "EN16",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "citation_practice",
+    "query": "How do citation practices in digital humanities scholarship differ from natural sciences in terms of traceability standards?",
+    "intent": "comparative analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN17",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "information_retrieval",
+    "query": "What are the challenges of applying information retrieval models to multilingual humanities corpora?",
+    "intent": "challenge analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN18",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "knowledge_graph",
+    "query": "How can knowledge graphs represent historical relationships and support digital humanities research workflows?",
+    "intent": "application analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN19",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "literature_review",
+    "query": "What automated methods have been proposed for literature review generation in humanities research contexts?",
+    "intent": "survey",
+    "difficulty": 2
+  },
+  {
+    "id": "EN20",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "linked_data",
+    "query": "How does linked open data infrastructure support citation verification and provenance tracking in digital scholarship?",
+    "intent": "infrastructure analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "EN21",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "ocr",
+    "query": "What are the current limitations of optical character recognition for historical documents and how do they affect downstream analysis?",
+    "intent": "limitation analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN22",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "topic_modelling",
+    "query": "How are topic modelling techniques applied to track conceptual evolution in large textual archives over time?",
+    "intent": "method analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN23",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "evaluation",
+    "query": "What metrics are appropriate for evaluating the quality and accuracy of AI-generated summaries of historical source materials?",
+    "intent": "evaluation design",
+    "difficulty": 3
+  },
+  {
+    "id": "EN24",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "annotation",
+    "query": "How do crowdsourced annotation platforms address reliability and inter-annotator agreement in humanities text labelling tasks?",
+    "intent": "methodology review",
+    "difficulty": 2
+  },
+  {
+    "id": "EN25",
+    "domain_id": "digital_humanities",
+    "domain_name": "Digital Humanities",
+    "lang": "en",
+    "category": "preservation",
+    "query": "What computational approaches support long-term digital preservation and findability of scholarly cultural heritage materials?",
+    "intent": "survey",
+    "difficulty": 2
+  },
+  {
+    "id": "EN26",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "systematic_review",
+    "query": "How can AI-assisted systematic review pipelines ensure that all included citations are traceable to retrieved evidence sources?",
+    "intent": "method design",
+    "difficulty": 3
+  },
+  {
+    "id": "EN27",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "hallucination",
+    "query": "What is the prevalence of hallucinated citations in large language model outputs for biomedical literature synthesis tasks?",
+    "intent": "empirical survey",
+    "difficulty": 3
+  },
+  {
+    "id": "EN28",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "meta_analysis",
+    "query": "How do automated meta-analysis tools extract and aggregate effect sizes from primary biomedical studies?",
+    "intent": "method survey",
+    "difficulty": 2
+  },
+  {
+    "id": "EN29",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "factuality",
+    "query": "How is factual consistency evaluated in AI-generated biomedical summaries and what benchmarks exist for this task?",
+    "intent": "benchmark review",
+    "difficulty": 2
+  },
+  {
+    "id": "EN30",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "evidence_grading",
+    "query": "What frameworks are used to grade the quality of evidence in clinical guideline development and how can AI assist this process?",
+    "intent": "framework review",
+    "difficulty": 2
+  },
+  {
+    "id": "EN31",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "nlp_biomedicine",
+    "query": "What are the current state-of-the-art NLP models for biomedical named entity recognition and relation extraction?",
+    "intent": "technology survey",
+    "difficulty": 2
+  },
+  {
+    "id": "EN32",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "bias_detection",
+    "query": "How can machine learning methods detect reporting bias and publication bias in biomedical evidence synthesis?",
+    "intent": "method review",
+    "difficulty": 3
+  },
+  {
+    "id": "EN33",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "prisma",
+    "query": "How do PRISMA guidelines shape the structure of systematic reviews and what computational tools support PRISMA compliance?",
+    "intent": "guideline analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN34",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "retrieval_augmented",
+    "query": "How does retrieval-augmented generation compare to fine-tuned biomedical language models for evidence-based question answering?",
+    "intent": "comparative analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "EN35",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "claim_verification",
+    "query": "What approaches exist for automatically verifying biomedical claims against primary literature using natural language inference?",
+    "intent": "method survey",
+    "difficulty": 3
+  },
+  {
+    "id": "EN36",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "screening",
+    "query": "How can active learning reduce the screening burden in systematic review title and abstract triage workflows?",
+    "intent": "efficiency analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN37",
+    "domain_id": "biomedical_evidence_synthesis",
+    "domain_name": "Biomedical Evidence Synthesis",
+    "lang": "en",
+    "category": "data_extraction",
+    "query": "What machine learning approaches automate structured data extraction from randomised controlled trial reports?",
+    "intent": "automation review",
+    "difficulty": 2
+  },
+  {
+    "id": "EN38",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "mitigation",
+    "query": "What does the recent literature say about the effectiveness of carbon pricing mechanisms for achieving national emission reduction targets?",
+    "intent": "evidence synthesis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN39",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "adaptation",
+    "query": "How do climate adaptation policies address equity and justice concerns in vulnerable communities according to current research?",
+    "intent": "policy analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN40",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "modelling",
+    "query": "How are integrated assessment models used to evaluate the co-benefits of climate mitigation policies for air quality and public health?",
+    "intent": "method review",
+    "difficulty": 3
+  },
+  {
+    "id": "EN41",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "uncertainty",
+    "query": "How is scientific uncertainty communicated in IPCC assessment reports and what are its implications for policy design?",
+    "intent": "communication analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN42",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "renewable_energy",
+    "query": "What evidence exists on the barriers to scaling renewable energy deployment in developing economies?",
+    "intent": "barrier analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "EN43",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "net_zero",
+    "query": "How do net-zero pledges by national governments align with modelled pathways to limit warming to 1.5 degrees Celsius?",
+    "intent": "gap analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "EN44",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "loss_damage",
+    "query": "What is the current state of research on loss and damage finance mechanisms for climate-vulnerable nations?",
+    "intent": "survey",
+    "difficulty": 2
+  },
+  {
+    "id": "EN45",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "social_tipping",
+    "query": "How do social tipping points interact with policy interventions to accelerate low-carbon transitions?",
+    "intent": "mechanism analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "EN46",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "forest_carbon",
+    "query": "What does empirical evidence say about the effectiveness of REDD+ programmes in reducing deforestation and forest degradation?",
+    "intent": "effectiveness review",
+    "difficulty": 2
+  },
+  {
+    "id": "EN47",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "just_transition",
+    "query": "How do just transition frameworks address the socioeconomic impacts of phasing out fossil fuel industries in affected regions?",
+    "intent": "policy review",
+    "difficulty": 2
+  },
+  {
+    "id": "EN48",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "ndcs",
+    "query": "What factors explain variation in the ambition and credibility of nationally determined contributions under the Paris Agreement?",
+    "intent": "comparative analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "EN49",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "stranded_assets",
+    "query": "How does the risk of stranded fossil fuel assets affect national climate policy ambition and financial sector stability?",
+    "intent": "risk analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "EN50",
+    "domain_id": "climate_policy_research",
+    "domain_name": "Climate Policy Research",
+    "lang": "en",
+    "category": "geoengineering",
+    "query": "What are the governance challenges of solar radiation management proposals and how does the literature assess their risks?",
+    "intent": "governance review",
+    "difficulty": 3
+  }
+]
