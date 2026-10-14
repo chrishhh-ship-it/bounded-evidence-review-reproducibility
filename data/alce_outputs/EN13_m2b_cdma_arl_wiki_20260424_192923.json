@@ -1,0 +1,54 @@
+{
+  "qid": "EN13",
+  "condition": "m2b_cdma_arl",
+  "query": "How does retrieval-augmented synthesis compare to end-to-end language model generation for citation-traceable scientific writing?",
+  "domain": "Multi-Agent Information Services",
+  "category": "comparison",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 4,
+  "eq_titles": [
+    "Generative AI",
+    "Augmentative and alternative communication",
+    "Embodied cognition",
+    "Sanskrit"
+  ],
+  "top_papers": [
+    {
+      "title": "Generative AI",
+      "abstract": "Generative artificial intelligence, commonly known as generative AI or GenAI, is a subfield of artificial intelligence that uses generative models to generate text, images, videos, audio, software code (vibe coding) or other forms of data. These models learn the underlying patterns and structures of their training data, and use them to generate new data in response to input, which often takes the form of natural language prompts.\nThe prevalence of generative AI tools has increased significantly "
+    },
+    {
+      "title": "Augmentative and alternative communication",
+      "abstract": "Augmentative and alternative communication (AAC) encompasses the communication methods used to supplement or replace speech or writing for those with impairments in the production or comprehension of spoken or written language. AAC is used by those with a wide range of speech and language impairments, including developmental disabilities such as  cerebral palsy, intellectual disability and autism, and acquired conditions such as amyotrophic lateral sclerosis and Parkinson's disease. AAC can be a"
+    },
+    {
+      "title": "Embodied cognition",
+      "abstract": "Embodied cognition represents a diverse group of theories which investigate how cognition is shaped by the bodily state and capacities of the organism. These embodied factors include the motor system, the perceptual system, bodily interactions with the environment (situatedness), and the assumptions about the world that shape the functional structure of the brain and body of the organism. Embodied cognition suggests that these elements are essential to a wide spectrum of cognitive functions, suc"
+    },
+    {
+      "title": "Sanskrit",
+      "abstract": "Sanskrit (; stem form संस्कृत; nominal singular संस्कृतम्, saṃskṛtam,) is a classical language belonging to the Indo-Aryan branch of the Indo-European languages. It arose in South Asia after its predecessor languages had diffused there from the northwest in the late Bronze Age. Sanskrit is the sacred language of Hinduism, the language of classical Hindu philosophy, and of historical texts of Buddhism and Jainism. It was a link language in ancient and medieval South Asia, and upon transmission of"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Generative_AI",
+    "wiki:Augmentative_and_alternative_communication",
+    "wiki:Embodied_cognition",
+    "wiki:Sanskrit"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN13_m2b_cdma_arl_wiki_20260424_192923.md"
+}

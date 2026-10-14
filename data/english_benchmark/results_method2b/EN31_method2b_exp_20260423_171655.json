@@ -1,0 +1,238 @@
+{
+  "query_id": "EN31",
+  "query": "What are the current state-of-the-art NLP models for biomedical named entity recognition and relation extraction?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Integrating deep learning architectures for enhanced biomedical relation extraction: a pipeline approach",
+      "authors": [
+        "M. Janina Sarol",
+        "Gibong Hong",
+        "Evan Guerra",
+        "Halil Kilicoglu"
+      ],
+      "abstract": "Biomedical relation extraction from scientific publications is a key task in biomedical natural language processing (NLP) and can facilitate the creation of large knowledge bases, enable more efficient knowledge discovery, and accelerate evidence synthesis. In this paper, building upon our previous effort in the BioCreative VIII BioRED Track, we propose an enhanced end-to-end pipeline approach for biomedical relation extraction (RE) and novelty detection (ND) that effectively leverages existing datasets and integrates state-of-the-art deep learning methods. Our pipeline consists of four tasks performed sequentially: named entity recognition (NER), entity linking (EL), RE, and ND. We trained models using the BioRED benchmark corpus that was the basis of the shared task. We explored several methods for each task and combinations thereof: for NER, we compared a BERT-based sequence labeling model that uses the BIO scheme with a span classification model. For EL, we trained a convolutional neural network model for diseases and chemicals and used an existing tool, PubTator 3.0, for mapping other entity types. For RE and ND, we adapted the BERT-based, sentence-bound PURE model to bidirectional and document-level extraction. We also performed extensive hyperparameter tuning to improve model performance. We obtained our best performance using BERT-based models for NER, RE, and ND, and the hybrid approach for EL. Our enhanced and optimized pipeline showed substantial improvement compared to our shared task submission, NER: 93.53 (+3.09), EL: 83.87 (+9.73), RE: 46.18 (+15.67), and ND: 38.86 (+14.9). While the performances of the NER and EL models are reasonably high, RE and ND tasks remain challenging at the document level. Further enhancements to the dataset could enable more accurate and useful models for practical use. We provide our models and code at https://github.com/janinaj/e2eBioMedRE/. Database URL: https://github.com/janinaj/e2eBioMedRE/.",
+      "year": "2024",
+      "published_date": "2024-01-01",
+      "journal": "Database",
+      "url": "https://doi.org/10.1093/database/baae079",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Named-entity recognition",
+        "Pipeline (software)",
+        "Artificial intelligence",
+        "Relationship extraction",
+        "Convolutional neural network",
+        "Benchmark (surveying)",
+        "Task (project management)"
+      ],
+      "citations": 5,
+      "source": "OpenAlex",
+      "doi": "10.1093/database/baae079",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "A Benchmark Evaluation of Multilingual Large Language Models for Arabic Cross-Lingual Named-Entity Recognition",
+      "authors": [
+        "Mashael Al-Duwais",
+        "Hend Al-Khalifa",
+        "Abdulmalik Al-Salman"
+      ],
+      "abstract": "Multilingual large language models (MLLMs) have demonstrated remarkable performance across a wide range of cross-lingual Natural Language Processing (NLP) tasks. The emergence of MLLMs made it possible to achieve knowledge transfer from high-resource to low-resource languages. Several MLLMs have been released for cross-lingual transfer tasks. However, no systematic evaluation comparing all models for Arabic cross-lingual Named-Entity Recognition (NER) is available. This paper presents a benchmark evaluation to empirically investigate the performance of the state-of-the-art multilingual large language models for Arabic cross-lingual NER. Furthermore, we investigated the performance of different MLLMs adaptation methods to better model the Arabic language. An error analysis of the different adaptation methods is presented. Our experimental results indicate that GigaBERT outperforms other models for Arabic cross-lingual NER, while language-adaptive pre-training (LAPT) proves to be the most effective adaptation method across all datasets. Our findings highlight the importance of incorporating language-specific knowledge to enhance the performance in distant language pairs like English and Arabic.",
+      "year": "2024",
+      "published_date": "2024-9-9",
+      "journal": "Electronics",
+      "url": "https://doi.org/10.3390/electronics13173574",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 5,
+      "source": "CrossRef",
+      "doi": "10.3390/electronics13173574",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Retrieval augmented generation based dynamic prompting for few-shot biomedical named entity recognition using large language models",
+      "authors": [
+        "Yao Ge",
+        "Sudeshna Das",
+        "Yuting Guo",
+        "Abeed Sarker"
+      ],
+      "abstract": "Abstract\n        Biomedical named entity recognition (NER) is a high-utility natural language processing (NLP) task, and large language models (LLMs) show promise particularly in few-shot settings (i.e., limited training data). In this article, we address the performance challenges of LLMs for few-shot biomedical NER by investigating a dynamic prompting strategy involving retrieval-augmented generation (RAG). In our approach, the annotated in-context learning examples are selected based on their similarities with the input texts, and the prompt is dynamically updated for each instance during inference. We implemented and optimized static and dynamic prompt engineering techniques and evaluated them on five biomedical NER datasets. Static prompting with structured components increased average F 1-scores by 12% for GPT-4, and 11% for GPT-3.5 and LLaMA 3-70B, relative to basic static prompting. Dynamic prompting further improved performance, with TF-IDF and SBERT retrieval methods yielding the best results, improving average F 1-scores by 7.3% and 5.6% in 5-shot and 10-shot settings, respectively. These findings highlight the utility of contextually adaptive prompts via RAG for biomedical NER.",
+      "year": "2025",
+      "published_date": "2025-8-25",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-7216581/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-7216581/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models full text retrieval"
+    },
+    {
+      "title": "Improving Automatic Evaluation of Large Language Models (LLMs) in Biomedical Relation Extraction via LLMs-as-the-Judge",
+      "authors": [
+        "Md Tahmid Rahman Laskar",
+        "Israt Jahan",
+        "Elham Dolatabadi",
+        "Chun Peng",
+        "Enamul Hoque",
+        "Jimmy X. Huang"
+      ],
+      "abstract": "Large Language Models (LLMs) have demonstrated impressive performance in biomedical relation extraction, even in zero-shot scenarios. However, evaluating LLMs in this task remains challenging due to their ability to generate human-like text, often producing synonyms or abbreviations of gold-standard answers, making traditional automatic evaluation metrics unreliable. On the other hand, while human evaluation is more reliable, it is costly and time-consuming, making it impractical for real-world applications. This paper investigates the use of LLMs-as-the-Judge as an alternative evaluation method for biomedical relation extraction. We benchmark 8 LLMs as judges to evaluate the responses generated by 5 other LLMs across 3 biomedical relation extraction datasets. Unlike other text-generation tasks, we observe that LLM-based judges perform quite poorly (usually below 50% accuracy) in the biomedical relation extraction task. Our findings reveal that it happens mainly because relations extracted by LLMs do not adhere to any standard format. To address this, we propose structured output formatting for LLM-generated responses that helps LLM-Judges to improve their performance by about 15% (on average). We also introduce a domain adaptation technique to further enhance LLM-Judge performance by effectively transferring knowledge between datasets. We release both our human-annotated and LLM-annotated judgment data (36k samples in total) for public use here: https://github.com/tahmedge/llm_judge_biomedical_re.",
+      "year": "2025",
+      "published_date": "2025-06-01",
+      "journal": "Annual Meeting of the Association for Computational Linguistics",
+      "url": "https://www.semanticscholar.org/paper/54f041b59396840c23557ce76d6f777f3cc143f4",
+      "arxiv_id": "2506.00777",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2506.00777",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Quantized Large Language Models in Biomedical Natural Language Processing: Evaluation and Recommendation",
+      "authors": [
+        "Zaifu Zhan",
+        "Shuang Zhou",
+        "Min Zeng",
+        "Kai Yu",
+        "Meijia Song",
+        "Xiaoyin Chen",
+        "Jun Wang",
+        "Yu Hou",
+        "Rui Zhang"
+      ],
+      "abstract": "Large language models have demonstrated remarkable capabilities in biomedical natural language processing, yet their rapid growth in size and computational requirements present a major barrier to adoption in healthcare settings where data privacy precludes cloud deployment and resources are limited. In this study, we systematically evaluated the impact of quantization on 12 state-of-the-art large language models, including both general-purpose and biomedical-specific models, across eight benchmark datasets covering four key tasks: named entity recognition, relation extraction, multi-label classification, and question answering. We show that quantization substantially reduces GPU memory requirements-by up to 75%-while preserving model performance across diverse tasks, enabling the deployment of 70B-parameter models on 40GB consumer-grade GPUs. In addition, domain-specific knowledge and responsiveness to advanced prompting methods are largely maintained. These findings provide significant practical and guiding value, highlighting quantization as a practical and effective strategy for enabling the secure, local deployment of large yet high-capacity language models in biomedical contexts, bridging the gap between technical advances in AI and real-world clinical translation.",
+      "year": "2025",
+      "published_date": "2025-09-04",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/63644288a4e2100be08dfd3f950f2a327f7fa274",
+      "arxiv_id": "2509.04534",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2509.04534",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Circular business models for electric vehicle lithium-ion batteries: An analysis of current practices of vehicle manufacturers and policies in the EU",
+      "authors": [
+        "Levke Albertsen",
+        "Jessika Luth Richter",
+        "Philip Peck",
+        "Carl Dalhammar",
+        "Andrius Plepys"
+      ],
+      "abstract": "With the burgeoning transition towards electrified vehicle fleets, lithium-ion batteries (LIBs) have come into focus for different stakeholders due to high costs, supply risks, production-related resource and energy demands and environmental concerns. Circular business models (CBMs) and Circular Economy (CE) strategies to slow and close resource loops are discussed as potential solutions. With a focus on circular business model elements and influencing factors, this research reviews literature on CE strategies for LIBs and benchmarks their current adoption amongst European vehicle manufacturers. These were identified by analysing companies’ websites and interviewing representatives from six companies. In addition, observation of a single manufacturer revealed further context-specific and internal factors. Finally, it reviews the external policy drivers and barriers for CE strategies for LIBs and discusses how policy can be further developed. The results demonstrate that many manufacturers are pursuing CE strategies, mostly focussed on repair, refurbishing, and repurposing. Variation in the operationalisation appears to be linked to the degree of manufacturer involvement, indicating that CBMs are context-specific and dependant on internal factors. All CBMs were found to require close collaboration between different stakeholders to build trust and reduce uncertainties. The necessity to design for disassembly and to build expertise to thoroughly diagnose the state of health of LIBs to enable life extending CBMs was highlighted. While the late 2020 proposal for new EU legislation for batteries contains ambitious new requirements that will incentivise CE strategies, there is still a need to consider further policy development to ensure adherence to the waste hierarchy.",
+      "year": "2021",
+      "published_date": "2021-05-26",
+      "journal": "Resources Conservation and Recycling",
+      "url": "https://doi.org/10.1016/j.resconrec.2021.105658",
+      "arxiv_id": "",
+      "keywords": [
+        "Electric vehicle",
+        "Current (fluid)",
+        "Lithium (medication)",
+        "Business",
+        "Business model",
+        "Automotive engineering",
+        "Engineering",
+        "Waste management"
+      ],
+      "citations": 186,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.resconrec.2021.105658",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval literature review"
+    },
+    {
+      "title": "Exploring the synergies between collaborative robotics, digital twins, augmentation, and industry 5.0 for smart manufacturing: A state-of-the-art review",
+      "authors": [
+        "Muhammad Hamza Zafar",
+        "Even Falkenberg Langås",
+        "Filippo Sanfilippo"
+      ],
+      "abstract": "Industry 5.0 aims at establishing an inclusive, smart and sustainable production process that encourages human creativity and expertise by leveraging enhanced automation and machine intelligence. Collaborative robotics, or “cobotics”,is a major enabling technology of Industry 5.0, which aspires at improving human dexterity by elevating robots to extensions of human capabilities and, ultimately, even as team members. A pivotal element that has the potential to operate as an interface for the teaming aspiration of Industry 5.0 is the adoption of novel technologies such as virtual reality (VR), augmented reality (AR), mixed reality (MR) and haptics, together known as “augmentation”. Industry 5.0 also benefit from Digital Twins (DTs), which are digital representations of a physical assets that serves as their counterpart — or twins. Another essential component of Industry 5.0 is artificial intelligence (AI), which has the potential to create a more intelligent and efficient manufacturing process. In this study, a systematic review of the state of the art is presented to explore the synergies between cobots, DTs, augmentation, and Industry 5.0 for smart manufacturing. To the best of the author’s knowledge, this is the first attempt in the literature to provide a comprehensive review of the synergies between the various components of Industry 5.0. This work aims at increasing the global efforts to realize the large variety of application possibilities offered by Industry 5.0 and to provide an up-to-date reference as a stepping-stone for new research and development within this field.",
+      "year": "2024",
+      "published_date": "2024-04-06",
+      "journal": "Robotics and Computer-Integrated Manufacturing",
+      "url": "https://doi.org/10.1016/j.rcim.2024.102769",
+      "arxiv_id": "",
+      "keywords": [
+        "Industry 4.0",
+        "Automation",
+        "Robotics",
+        "Process (computing)",
+        "Augmented reality",
+        "Variety (cybernetics)",
+        "Manufacturing",
+        "Artificial intelligence"
+      ],
+      "citations": 237,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.rcim.2024.102769",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent literature review"
+    },
+    {
+      "title": "Evaluation of large language model performance on the Biomedical Language Understanding and Reasoning Benchmark",
+      "authors": [
+        "Hui Feng",
+        "Francesco Ronzano",
+        "J. Lafleur",
+        "Matthew Garber",
+        "Rodrigo José de Oliveira",
+        "Kathryn Rough",
+        "K. Roth",
+        "Jay Nanavati",
+        "Khaldoun Zine",
+        "El Abidine",
+        "C. Mack"
+      ],
+      "abstract": "Background: The ability of large language models (LLMs) to interpret and generate human-like text has been accompanied with speculation about their application in medicine and clinical research. There is limited data available to inform evidence-based decisions on the appropriateness for specific use cases. Methods: We evaluated and compared four general-purpose LLMs (GPT-4, GPT-3.5-turbo, Flan-T5-XXL, and Zephyr-7B-Beta) and a healthcare-specific LLM (MedLLaMA-13B) on a set of 13 datasets - referred to as the Biomedical Language Understanding and Reasoning Benchmark (BLURB) - covering six commonly needed medical natural language processing tasks: named entity recognition (NER); relation extraction; population, interventions, comparators, and outcomes (PICO); sentence similarity; document classification; and question-answering. All models were evaluated without modification. Model performance was assessed according to a range of prompting strategies (formalised as a systematic, reusable prompting framework) and relied on the standard, task-specific evaluation metrics defined by BLURB. Results: Across all tasks, GPT-4 outperformed other LLMs, followed by Flan-T5-XXL and GPT-3.5- turbo, then Zephyr-7b-Beta and MedLLaMA-13B. The most performant prompts for GPT-4 and Flan-T5-XXL both outperformed the previously-reported best results for the PubMedQA task. The domain-specific MedLLaMA-13B achieved lower scores for most tasks except for question-answering tasks. We observed a substantial impact of strategically editing the prompt describing the task and a consistent improvement in performance when including examples semantically similar to the input text in the prompt. Conclusion: These results provide evidence of the potential LLMs may have for medical application and highlight the importance of robust evaluation before adopting LLMs for any specific use cases. Continuing to explore how these emerging technologies can be adapted for the healthcare setting, paired with human expertise, and enhanced through quality control measures will be important research to allow responsible innovation with LLMs in the medical area.",
+      "year": "2024",
+      "published_date": "2024-05-17",
+      "journal": "medRxiv",
+      "url": "https://www.semanticscholar.org/paper/b8f3e8b85bef7b0abb187ca4cbcca677cccbcb44",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.1101/2024.05.17.24307411",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    }
+  ],
+  "timestamp": "20260423_171655"
+}

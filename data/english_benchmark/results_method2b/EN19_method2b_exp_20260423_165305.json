@@ -1,0 +1,214 @@
+{
+  "query_id": "EN19",
+  "query": "What automated methods have been proposed for literature review generation in humanities research contexts?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Machines in the Margins: A Systematic Review of Automated Content Generation for Wikipedia",
+      "authors": [
+        "Neal Reeves",
+        "Elena Simperl"
+      ],
+      "abstract": "Wikipedia is among the largest examples of collective intelligence on the Web with over 61 million articles covering over 320 languages. Although edited and maintained by an active workforce of human volunteers, Wikipedia is highly reliant on automated bots to fill gaps in its human workforce. As well as administrative and governance tasks, these bots also play a role in generating content, although to date such agents represent the smallest proportion of bots. While there has been considerable analysis of bots and their activity in Wikipedia, such work captures only automated agents that have been actively deployed to Wikipedia and fails to capture the methods that have been proposed to generate Wikipedia content in the wider literature. In this paper, we conduct a systematic literature review to explore how researchers have operationalised and evaluated automated content-generation agents for Wikipedia. We identify the scope of these generation methods, the techniques and models used, the source content used for generation and the evaluation methodologies which support generation processes. We also explore implications of our findings to CSCW, User Generated Content and Wikipedia, as well as research directions for future development. To the best of our knowledge, we are among the first to review the potential contributions of this understudied form of AI support for the Wikipedia community beyond the implementation of bots.",
+      "year": "2025",
+      "published_date": "2025-09-26",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2509.22443v1",
+      "arxiv_id": "2509.22443v1",
+      "keywords": [
+        "cs.HC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent"
+    },
+    {
+      "title": "A Research Protocol for a Systematic Review of Automatic Literature Screening in Medical Evidence Synthesis",
+      "authors": [
+        "Yuelun Zhang",
+        "Siyu Liang",
+        "Yunying Feng",
+        "Qing Wang",
+        "Feng Sun",
+        "Shi Chen",
+        "Yiying Yang",
+        "Xin He",
+        "Huijuan Zhu",
+        "Hui Pan"
+      ],
+      "abstract": "Abstract\n        Background: Systematic review is an indispensable tool for optimal evidence collection and evaluation in evidence-based medicine. However, the explosive increase of the original literatures makes it difficult to accomplish critical appraisal and regular update. Artificial intelligence (AI) algorithms have been applied to automate the literature screening procedure in medical systematic reviews. In these studies, different algorithms were used and results with great variance were reported. It is therefore imperative to systematically review and analyse the developed automatic methods for literature screening and their effectiveness reported in current studies.Methods: An electronic search will be conducted using PubMed, Embase and IEEE Xplore Digital Library databases, as well as literatures found through supplementary search in Google scholar, on automatic methods for literature screening in systematic reviews. Two reviewers will independently conduct the primary screening of the articles and data extraction, in which nonconformities will be solved by discussion with a methodologist. Data will be extracted from eligible studies, including the basic characteristics of study, the information of training set and validation set, the function and performance of AI algorithms, and summarised in a table. The risk of bias and applicability of the eligible studies will be assessed by the two reviewers independently based on Quality Assessment of Diagnostic Accuracy Studies (QUADAS-2). Quantitative analyses, if appropriate, will also be performed.Discussion: Automating systematic review process is of great help in reducing workload in evidence-based practice. Results from this systematic review will provide essential summary of the current development of AI algorithms for automatic literature screening in medical evidence synthesis, and help to inspire further studies in this field. Registration: PROSPERO registration number CRD42020170815 (28 April 2020).",
+      "year": "2020",
+      "published_date": "2020-8-25",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-62316/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-62316/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Transformer and Large Language Models for Automatic Multiple-Choice Question Generation: A Systematic Literature Review",
+      "authors": [
+        "Halim Wildan Awalurahman",
+        "Rizal Fathoni Aji",
+        "Indra Budi"
+      ],
+      "abstract": "Developing multiple-choice questions manually requires a lot of time and effort. Automatic multiple-choice question generation is one of the solutions to alleviate the problem. The research in automatic multiple-choice question generation has been growing with the recent use of Transformer and Large-Language Models. However, existing literature reviews have not thoroughly covered the recent advances in methods and evaluation conducted on the multiple-choice question generation domain. This research conducted a systematic literature review on multiple-choice question generation using Transformer and Large Language Models. This research aims to discover recent methods and evaluation strategies that have been used in the domain. We obtained 28 primary studies. We presented a taxonomy covering strategy of using the Transformer and Large Language Models for multiple-choice question generation, including fine-tuning and prompt engineering with zero-shot, few-shot, chain-of-thought, and retrieval augmented generation. Primary studies used either or both automatic and manual evaluation for the generated questions from Transformer and LLM. We found that studies are still primarily in English, with few studies utilizing learning components such as learning objective, limited use of chain-of-thought, retrieval augmented generation, and open problem in automatic evaluation.",
+      "year": "2025",
+      "published_date": "",
+      "journal": "IEEE Access",
+      "url": "https://www.semanticscholar.org/paper/66f9b4eb12067236fc5b4c6cbfab7e7fc1f5feea",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 6,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/ACCESS.2025.3590423",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models literature review"
+    },
+    {
+      "title": "The Impact and Value of Research in the Arts and Humanities - A Systematic Literature Review",
+      "authors": [
+        "C. Bloch",
+        "Alan Irwin",
+        "E. K. Schmidt",
+        "Anna Vigsø Pedersen",
+        "Amalie Due Svendsen"
+      ],
+      "abstract": "Research and research policy have increasingly directed attention towards issues concerning the impact of research. This focus appears to be driven by a range of factors, including: the wish to demonstrate accountability with regard to public funding, the need to measure and benchmark research quality, and a growing interest in understanding and documenting the connection between research and its societal use (Penfield et al., 2014). Research in the Arts and Humanities (A&H) is no exception from this trend, stimulating considerable debate over the impact of A&H research, as well as on how this impact can be demonstrated (Pedersen et al., 2020; Reale et al., 2018).\nAt the same time, there is a lack of consensus on how valuation and impact in A&H can be understood and measured. Indeed, some scholars question whether the ‘impact’ concept is even appropriate in terms of capturing how A&H research matters for society (Belfiore, 2015; Collini, 2012). In contrast to disciplines within Science, Technology, Engineering and Mathematics (STEM), the societal impact of A&H research may be more difficult to grasp. Hence, a better understanding of the nature of A&H research, as well as how value creation takes place, are central to an appreciation of research impact in A&H and the factors that can promote or hinder it.\nThe Danish Centre for Studies in Research and Research Policy (CFA) at Aarhus University has undertaken a study of existing knowledge about the societal impact of Arts and Humanities research. The goal of this study is to review and synthesise work on the impact of A&H research, including how this impact can be conceptualised and the role of funding and evaluation in promoting this research and its impact. The study was funded by the Augustinus Foundation. This study is based on a systematic literature review as well as insights drawn directly from experts in the field of societal impact, A&H researchers and other key stakeholders.",
+      "year": "2025",
+      "published_date": "2025-10-01",
+      "journal": "CFA Scientific Reports",
+      "url": "https://www.semanticscholar.org/paper/b83c926c6cf407efc1505ad813e1ad9e649d8ddd",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.7146/cfasr.v16i2.162827",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities literature review automation benchmark"
+    },
+    {
+      "title": "A Literature Review and Conceptual Agent-Based Model for Marine Litter Reduction in Small Coastal Communities: A Case Study of Pulau Buluh",
+      "authors": [
+        "Dimas Akmarul Putera",
+        "Nofias Fajri",
+        "Tania Alda",
+        "Abdul Mutalib Bin Leman"
+      ],
+      "abstract": "Marine litter has emerged as a critical environmental challenge for small coastal communities, including Pulau Buluh in Batam City, Indonesia, where limited infrastructure and public awareness hinder effective waste management. While various policy interventions have been proposed, few studies have explored simulation-based approaches to inform decision-making in such localized contexts. This paper presents a literature review and conceptual framework for applying Multi-Agent System (MAS) modelling to support marine litter reduction strategies in small island settings. The review synthesizes prior research on MAS applications in environmental policy and community behaviour modelling, identifying a gap in coastal and tourism-based waste contexts. Based on the findings, a causal loop diagram (CLD) and agent interaction model are developed, highlighting key agents such as residents, tourists, local government, waste banks, and cleaning services. The framework is designed to be implemented in AnyLogic to simulate policy scenarios involving public education campaigns, incentive systems, and waste collection optimization. This study contributes a foundational model for MAS-based analysis of marine litter management, offering a novel direction for participatory policy design in environmentally vulnerable island communities.",
+      "year": "2025",
+      "published_date": "2025-12-01",
+      "journal": "IOP Conference Series: Earth and Environment",
+      "url": "https://www.semanticscholar.org/paper/542d7f2653f25e922b3c4f3cd500ce4b6a579f0e",
+      "arxiv_id": "",
+      "keywords": [
+        "Physics"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1088/1755-1315/1559/1/012048",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Error rates of data processing methods in clinical research: A systematic review and meta-analysis of manuscripts identified through PubMed",
+      "authors": [
+        "Maryam Y. Garza",
+        "T. Williams",
+        "Song Ounpraseuth",
+        "Zhuopei Hu",
+        "Jeannette Lee",
+        "Jessica N. Snowden",
+        "Anita C. Walden",
+        "Alan E. Simon",
+        "Lori A. Devlin",
+        "Leslie W. Young",
+        "Meredith N. Zozus"
+      ],
+      "abstract": "BACKGROUND\nIn clinical research, prevention of data errors is paramount to ensuring reproducibility of trial results and the safety and efficacy of the resulting interventions. Over the last 40 years, empirical assessments of data accuracy in clinical research have been reported, however, there has been little systematic synthesis of these results. Although notable exceptions exist, little evidence exists regarding the relative accuracy of different data processing methods.\n\n\nMETHODS\nA systematic review of the literature identified through PubMed was performed to identify studies that evaluated the quality of data obtained through data processing methods typically used in clinical trials. Quantitative information on data accuracy was abstracted from the manuscripts and pooled. Meta-analysis of single proportions based on the Freeman-Tukey transformation method and the generalized linear mixed model approach were used to derive an overall estimate of error rates across data processing methods used in each study for comparison.\n\n\nRESULTS\nA total of 93 papers (published from 1978 to 2008) meeting our inclusion criteria were categorized according to their data processing methods. The accuracy associated with data processing methods varied widely, with error rates ranging from 2 errors per 10,000 fields to 2,784 errors per 10,000 fields. MRA was associated with both high and highly variable error rates, having a pooled error rate of 6.57% (95% CI: 5.51, 7.72). In comparison, the pooled error rates for optical scanning, single-data entry, and double-data entry methods were 0.74% (0.21, 1.60), 0.29% (0.24, 0.35) and 0.14% (0.08, 0.20), respectively.\n\n\nCONCLUSIONS\nData processing methods may explain a significant amount of the variability in data accuracy. MRA error rates, for example, were high enough to impact decisions made using the data and could necessitate increases in sample sizes to preserve statistical power. Thus, the choice of data processing methods can likely impact process capability and, ultimately, the validity of trial results.",
+      "year": "2024",
+      "published_date": "2024-12-04",
+      "journal": "Int. J. Medical Informatics",
+      "url": "https://www.semanticscholar.org/paper/feeb694fd8a90bfeed46d8c9081ffc91b9e60b11",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "citations": 17,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.ijmedinf.2024.105749",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "LLM-Based Multi-Agent Systems for Code Generation: A Multi-Vocal Literature Review ⋆",
+      "authors": [
+        "Zeeshan Rasheed",
+        "Waseem Muhammad",
+        "Kai-Kristian Kemell",
+        "Mika Saari",
+        "Pekka Abrahamsson"
+      ],
+      "abstract": "Large Language Models (LLMs) have enabled multi-agent systems to perform autonomous code generation for complex tasks. Despite the recent growth in research and industrial applications in this area, there is little work on synthesizing evidence from both academic and industrial sources to capture the current state of research on LLM-based multi-agent systems for code generation. To this end, we conducted a Multi-Vocal Literature Review (MLR), combining insights from both academia and industry, including peer-reviewed studies and grey literature. The aim of this study is to systematically synthesize and analyze existing knowledge on LLM-based multi-agent systems for code generation. Specifically, the review examines the motivations for their use, employed benchmarks and models, key challenges, proposed solutions, and potential directions for future research. We selected and reviewed 114 studies, and the key findings are: 1) the identified reasons for adopting multi-agent systems for code generation were classified into nine categories; 2) the models and evaluation benchmarks utilized across the studies were systematically analyzed to provide a structured overview of commonly adopted LLM configurations and assessment practices; 3) the reported challenges and corresponding solutions were synthesized into six main categories and 26 subcategories; and 4) future research directions were identified and organized into six main categories and 18 subcategories. The results of this MLR will assist researchers and practitioners in pursuing further studies and supporting the real-world adoption of multi-agent systems in industrial settings.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2139/ssrn.6328882",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.6328882",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "AI-Based Automated Speech Therapy Tools for persons with Speech Sound Disorders: A Systematic Literature Review",
+      "authors": [
+        "Chinmoy Deka",
+        "Abhishek Shrivastava",
+        "Ajish K. Abraham",
+        "Saurabh Nautiyal",
+        "Praveen Chauhan"
+      ],
+      "abstract": "This paper presents a systematic literature review of published studies on AI-based automated speech therapy tools for persons with speech sound disorders (SSD). The COVID-19 pandemic has initiated the requirement for automated speech therapy tools for persons with SSD making speech therapy accessible and affordable. However, there are no guidelines for designing such automated tools and their required degree of automation compared to human experts. In this systematic review, we followed the PRISMA framework to address four research questions: 1) what types of SSD do AI-based automated speech therapy tools address, 2) what is the level of autonomy achieved by such tools, 3) what are the different modes of intervention, and 4) how effective are such tools in comparison with human experts. An extensive search was conducted on digital libraries to find research papers relevant to our study from 2007 to 2022. The results show that AI-based automated speech therapy tools for persons with SSD are increasingly gaining attention among researchers. Articulation disorders were the most frequently addressed SSD based on the reviewed papers. Further, our analysis shows that most researchers proposed fully automated tools without considering the role of other stakeholders. Our review indicates that mobile-based and gamified applications were the most frequent mode of intervention. The results further show that only a few studies compared the effectiveness of such tools compared to expert Speech-Language Pathologists (SLP). Our paper presents the state-of-the-art in the field, contributes significant insights based on the research questions, and provides suggestions for future research directions.",
+      "year": "2022",
+      "published_date": "2022-04-21",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2204.10325v2",
+      "arxiv_id": "2204.10325v2",
+      "keywords": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent survey"
+    }
+  ],
+  "timestamp": "20260423_165305"
+}

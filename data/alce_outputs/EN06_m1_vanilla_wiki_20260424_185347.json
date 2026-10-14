@@ -1,0 +1,27 @@
+{
+  "qid": "EN06",
+  "condition": "m1_vanilla",
+  "query": "What distinguishes single-agent from multi-agent information retrieval pipelines in terms of evidence accountability?",
+  "domain": "Multi-Agent Information Services",
+  "category": "knowledge_service",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 1,
+  "eq_titles": [
+    "Wikipedia: What distinguishes single-agent from mul"
+  ],
+  "top_papers": [
+    {
+      "title": "Wikipedia: What distinguishes single-agent from mul",
+      "abstract": ""
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Wikipedia:_What_distinguishes_single-agent_from_mul"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN06_m1_vanilla_wiki_20260424_185347.md"
+}

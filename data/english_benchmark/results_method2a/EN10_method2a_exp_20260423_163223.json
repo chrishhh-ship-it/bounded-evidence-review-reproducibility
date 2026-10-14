@@ -1,0 +1,231 @@
+{
+  "query_id": "EN10",
+  "query": "What role does evidence screening and bounded evidence sets play in reducing fabrication in AI synthesis workflows?",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Enhancing Evidence Synthesis Efficiency: Leveraging Large Language Models and Agentic Workflows for Optimized Literature Screening",
+      "authors": [
+        "Bing Hu",
+        "Emmalie Tomini",
+        "Tricia Corrin",
+        "K. Pussegoda",
+        "Elias Sandner",
+        "Andre Henriques",
+        "Alice Simniceanu",
+        "Luca Fontana",
+        "A. Wagner",
+        "S. Brazeau",
+        "Lisa A Waddell"
+      ],
+      "abstract": "Public health events of international concern highlight the need for up‐to‐date evidence curated using sustainable processes that are accessible. In development of the Global Repository of Epidemiological Parameters (grEPI) we explore the performance of an agentic‐AI assisted pipeline (GREP‐Agent) for screening evidence which capitalizes on recent advancements in large language models (LLMs).",
+      "year": "2025",
+      "published_date": "2025-10-21",
+      "journal": "Cochrane evidence synthesis and methods",
+      "url": "https://www.semanticscholar.org/paper/21b72ee40b703b459ce02ab83cbb98d67d39000e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1002/cesm.70042",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Multi-Agent AI Systems in Healthcare: Systematic Evidence Synthesis Via PRISMA of Clinical Decision Support Systems, Robotic Interventions, and Critical Care",
+      "authors": [
+        "Oto Peter Ode",
+        "Ndukwe Chika Kalu",
+        "Saleh Abbas",
+        "Arslan Arshad",
+        "Adagboyi Isaac Inalegwu",
+        "Konstantin Koshechkin"
+      ],
+      "abstract": "Abstract: Multi-agent artificial intelligence systems (MAS) is transforming the healthcare sector by enabling intelligent decision-making, robotic interventions, and critical care management. Despite growing interest, a comprehensive synthesis of their real-world applications, performance, and limitations is lacking. This systematic review aims to evaluate the deployment of MAS in healthcare across three key domains: Clinical Decision Support Systems (CDSS), Robotic Interventions, and Critical Care Monitoring. It also addresses ethical and legal considerations, offers a comparative framework, and identifies research gaps. A systematic search of PubMed, IEEE Xplore, Scopus, and Web of Science was conducted following PRISMA guidelines. A total of 150 records were retrieved. After duplicate removal and screening, 32 studies met inclusion criteria. The Joanna Briggs Institute (JBI) Critical Appraisal Checklist guided quality assessment. Data were extracted using a structured form and organized by topic. Among the 32 studies included, 12 focused on MAS-based CDSS, 11 on robotic interventions, and 9 on MAS in critical care. Most MAS demonstrated improved diagnostic accuracy, aided real-time decision support, and enhanced patient monitoring. However, over 60% involved practical models and lacked clinical validation. Ethical concerns, particularly around autonomy, data privacy, transparency, and legal accountability were sometimes overlooked. Only 7 studies discussed ethical or legal implications in depth. A comparative framework was developed, comparing MAS tools based on scalability, clinical validation, autonomy, human-AI interaction, and data transparency. No doubt, MAS hold transformative potential across healthcare domains. However, real-world deployment remains unclear. Greater emphasis on clinical validation, ethical design, and regulatory frameworks is needed. This review provides suggestions for future research and responsible adoption of MAS in healthcare.",
+      "year": "2025",
+      "published_date": "2025-06-19",
+      "journal": "International Journal of Latest Technology in Engineering Management &amp; Applied Science",
+      "url": "https://www.semanticscholar.org/paper/fe07442a7eb33396064eb4d2400ea3464a03cd29",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.51583/ijltemas.2025.140500080",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "An AI-Driven Live Systematic Reviews in the Brain-Heart Interconnectome: Minimizing Research Waste and Advancing Evidence Synthesis",
+      "authors": [
+        "Arya Rahgozar",
+        "P. Mortezaagha",
+        "Jodi Edwards",
+        "Douglas Manuel",
+        "Jessie McGowen",
+        "Merrick Zwarenstein",
+        "Dean A. Fergusson",
+        "Andrea C. Tricco",
+        "Kelly Cobey",
+        "Margaret Sampson",
+        "M. King",
+        "Dawn P. Richards",
+        "Alexandra M. Bodnaruc",
+        "David Moher"
+      ],
+      "abstract": "The Brain-Heart Interconnectome (BHI) combines neurology and cardiology but is hindered by inefficiencies in evidence synthesis, poor adherence to quality standards, and research waste. To address these challenges, we developed an AI-driven system to enhance systematic reviews in the BHI domain. The system integrates automated detection of Population, Intervention, Comparator, Outcome, and Study design (PICOS), semantic search using vector embeddings, graph-based querying, and topic modeling to identify redundancies and underexplored areas. Core components include a Bi-LSTM model achieving 87% accuracy for PICOS compliance, a study design classifier with 95.7% accuracy, and Retrieval-Augmented Generation (RAG) with GPT-3.5, which outperformed GPT-4 for graph-based and topic-driven queries. The system provides real-time updates, reducing research waste through a living database and offering an interactive interface with dashboards and conversational AI. While initially developed for BHI, the system's adaptable architecture enables its application across various biomedical fields, supporting rigorous evidence synthesis, efficient resource allocation, and informed clinical decision-making.",
+      "year": "2025",
+      "published_date": "2025-01-25",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/2568a5905c4e2542396fde71bf7f362517f7cf6a",
+      "arxiv_id": "2501.17181",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2501.17181",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Automation of literature screening using machine learning in medical evidence synthesis: a diagnostic test accuracy systematic review protocol",
+      "authors": [
+        "Yuelun Zhang",
+        "Siyu Liang",
+        "Yunying Feng",
+        "Qing Wang",
+        "F. Sun",
+        "Shi Chen",
+        "Yiying Yang",
+        "Xin He",
+        "Huijuan Zhu",
+        "Hui Pan"
+      ],
+      "abstract": "Background Systematic review is an indispensable tool for optimal evidence collection and evaluation in evidence-based medicine. However, the explosive increase of the original literatures makes it difficult to accomplish critical appraisal and regular update. Artificial intelligence (AI) algorithms have been applied to automate the literature screening procedure in medical systematic reviews. In these studies, different algorithms were used and results with great variance were reported. It is therefore imperative to systematically review and analyse the developed automatic methods for literature screening and their effectiveness reported in current studies. Methods An electronic search will be conducted using PubMed, Embase, ACM Digital Library, and IEEE Xplore Digital Library databases, as well as literatures found through supplementary search in Google scholar, on automatic methods for literature screening in systematic reviews. Two reviewers will independently conduct the primary screening of the articles and data extraction, in which nonconformities will be solved by discussion with a methodologist. Data will be extracted from eligible studies, including the basic characteristics of study, the information of training set and validation set, and the function and performance of AI algorithms, and summarised in a table. The risk of bias and applicability of the eligible studies will be assessed by the two reviewers independently based on Quality Assessment of Diagnostic Accuracy Studies (QUADAS-2). Quantitative analyses, if appropriate, will also be performed. Discussion Automating systematic review process is of great help in reducing workload in evidence-based practice. Results from this systematic review will provide essential summary of the current development of AI algorithms for automatic literature screening in medical evidence synthesis and help to inspire further studies in this field. Systematic review registration PROSPERO CRD42020170815 (28 April 2020).",
+      "year": "2022",
+      "published_date": "2022-01-15",
+      "journal": "Systematic Reviews",
+      "url": "https://www.semanticscholar.org/paper/ed19019b82088a6e560ebdeadb19b72a915bb2c4",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 40,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13643-021-01881-5",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis",
+      "authors": [
+        "Björn Nykvist",
+        "Biljana Macura",
+        "Maria Xylia",
+        "Erik Olsson"
+      ],
+      "abstract": "In this paper we show that OpenAI’s Large Language Model (LLM) GPT perform remarkably well when used for title and abstract eligibility screening of scientific articles and within a (systematic) literature review workflow. We evaluated GPT on screening data from a systematic review study on electric vehicle charging infrastructure demand with almost 12,000 records using the same eligibility criteria as human screeners. We tested 3 different versions of this model that were tasked to distinguishing between relevant and irrelevant content by responding with a relevance probability between 0 and 1. For the latest GPT-4 model (tested in November 2023) and probability cutoff 0.5 the recall rate is 100%, meaning no relevant papers were missed and using this mode for screening would have saved 50% of the time that would otherwise be spent on manual screening. Experimenting with a higher cut of threshold can save more time. With threshold chosen so that recall is still above 95% for GPT-4 (where up to 5% of relevant papers might be missed), the model could save 75% of the time spent on manual screening. If automation technologies can replicate manual screening by human experts with effectiveness, accuracy, and precision, the work and cost savings are significant. Furthermore, the value of a comprehensive list of relevant literature, rather quickly available at the start of a research project, is hard to understate. However, as this study only evaluated the performance on one systematic review and one prompt, we caution that more test and methodological development is needed, and outline the next steps to properly evaluate rigor and effectiveness of LLMs for eligibility screening.",
+      "year": "2025",
+      "published_date": "2025-04-23",
+      "journal": "Environmental Evidence",
+      "url": "https://www.semanticscholar.org/paper/d7327fdeb93156500f92613f12dce65230193227",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13750-025-00360-x",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Tools, techniques, methods, and processes for the detection and mitigation of fraudulent or erroneous data in evidence synthesis: a scoping review protocol.",
+      "authors": [
+        "T. Barker",
+        "G. McBride",
+        "A. Ross-White",
+        "D. Pollock",
+        "Cindy Stern",
+        "Sabira Hasanoff",
+        "R. Kanukula",
+        "Mafalda M Dias",
+        "A. Scott",
+        "E. Aromataris",
+        "Ashley Whitehorn",
+        "Jennifer Stone",
+        "Larissa Shamseer",
+        "P. Palmieri",
+        "M. Klugar",
+        "Z. Munn"
+      ],
+      "abstract": "OBJECTIVE\nThis scoping review aims to identify, catalogue, and characterize previously reported tools, techniques, methods, and processes that have been recommended or used by evidence synthesizers to detect fraudulent or erroneous data and mitigate its impact.\n\n\nINTRODUCTION\nDecision-making for policy and practice should always be underpinned by the best available evidence-typically peer-reviewed scientific literature. Evidence synthesis literature should be collated and organized using the appropriate evidence synthesis methodology, best exemplified by the role systematic reviews play in evidence-based health care. However, with the rise of \"predatory journals,\" fraudulent or erroneous data may be invading this literature, which may negatively affect evidence syntheses that use this data. This, in turn, may compromise decision-making processes.\n\n\nINCLUSION CRITERIA\nThis review will include peer-reviewed articles, commentaries, books, and editorials that describe at least 1 tool, technique, method, or process with the explicit purpose of identifying or mitigating the impact of fraudulent or erroneous data for any evidence synthesis, in any topic area. Manuals, handbooks, and guidance from major organizations, universities, and libraries will also be considered.\n\n\nMETHODS\nThis review will be conducted using the JBI methodology for scoping reviews and reported according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR). Databases and relevant organizational websites will be searched for eligible studies. Title and abstract, and subsequently full-text screening will be conducted in duplicate using Covidence. Data from identified full texts will be extracted using a pre-determined checklist, while the findings will be summarized descriptively and presented in tables.\n\n\nTHIS SCOPING REVIEW PROTOCOL WAS REGISTERED IN OPEN SCIENCE FRAMEWORK\nhttps://osf.io/u8yrn.",
+      "year": "2024",
+      "published_date": "2024-09-10",
+      "journal": "JBI Evidence Synthesis",
+      "url": "https://www.semanticscholar.org/paper/22a62795de37c9a7912af0b3fee86fbaff1baf57",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.11124/JBIES-24-00167",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "The role of implementation in generalisability: A synthesis of evidence on targeted educational instruction and a new randomised trial",
+      "authors": [
+        "Noam Angrist",
+        "Rachael Meager"
+      ],
+      "abstract": "Targeted instruction is one of the most effective educational interventions in low- and middle-income countries, yet the reported impacts of this approach vary, from 0.07 to 0.78 standard deviations (SDs) across contexts. We study this variation and the contextual factors associated with it by combining an evidence aggregation covering 10 study arms with a new randomised trial. The results show that two factors explain most of the heterogeneity in reported effects: the degree of implementation (intention-to-treat or treatment-on-the-treated effects) and the instruction delivery model (teachers or volunteers). Accounting for these implementation factors enables substantial generalisation of effect sizes across contexts. We introduce a new Bayesian model which incorporates implementation information into the evidence aggregation process. The results show that targeted instruction can deliver 0.39 SD improvements in learning on average when taken up, and 0.80 SD gains when implemented with high fidelity, explaining the upper range of effects in the literature. Given the central role of implementation identified in our synthesis, we conduct a new randomised trial to increase programme fidelity in Botswana. The results show additional 0.22 SD gains relative to standard implementation, revealing concrete mechanisms to enhance implementation and achieve the largest frontier effects identified in the literature.",
+      "year": "2022",
+      "published_date": "2022-9-30",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.51744/cswp4",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "CrossRef",
+      "doi": "10.51744/cswp4",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Review for \"Enhancing Evidence Synthesis Efficiency: Leveraging Large Language Models and Agentic Workflows for Optimized Literature Screening\"",
+      "authors": [
+        "Claire Khouja"
+      ],
+      "abstract": "",
+      "year": "2025",
+      "published_date": "2025-5-20",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1002/cesm.70042/v1/review1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1002/cesm.70042/v1/review1",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models literature review"
+    }
+  ],
+  "timestamp": "20260423_163223"
+}

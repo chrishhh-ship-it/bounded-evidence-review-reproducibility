@@ -1,0 +1,210 @@
+{
+  "query_id": "EN04",
+  "query": "What retrieval-augmented generation strategies most effectively reduce hallucinated citations in long-form knowledge synthesis?",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+      "authors": [
+        "L. M. Amugongo",
+        "Pietro Mascheroni",
+        "Steve Brooks",
+        "Stefan Doering",
+        "Jan Seidel"
+      ],
+      "abstract": "Large Language Models (LLMs) have demonstrated promising capabilities to solve complex tasks in critical sectors such as healthcare. However, LLMs are limited by their training data which is often outdated, the tendency to generate inaccurate (“hallucinated”) content and a lack of transparency in the content they generate. To address these limitations, retrieval augmented generation (RAG) grounds the responses of LLMs by exposing them to external knowledge sources. However, in the healthcare domain there is currently a lack of systematic understanding of which datasets, RAG methodologies and evaluation frameworks are available. This review aims to bridge this gap by assessing RAG-based approaches employed by LLMs in healthcare, focusing on the different steps of retrieval, augmentation and generation. Additionally, we identify the limitations, strengths and gaps in the existing literature. Our synthesis shows that 78.9% of studies used English datasets and 21.1% of the datasets are in Chinese. We find that a range of techniques are employed RAG-based LLMs in healthcare, including Naive RAG, Advanced RAG, and Modular RAG. Surprisingly, proprietary models such as GPT-3.5/4 are the most used for RAG applications in healthcare. We find that there is a lack of standardised evaluation frameworks for RAG-based applications. In addition, the majority of the studies do not assess or address ethical considerations related to RAG in healthcare. It is important to account for ethical challenges that are inherent when AI systems are implemented in the clinical setting. Lastly, we highlight the need for further research and development to ensure responsible and effective adoption of RAG in the medical domain.",
+      "year": "2025",
+      "published_date": "2025-06-01",
+      "journal": "PLOS Digital Health",
+      "url": "https://www.semanticscholar.org/paper/5879575701b9b65b5cc56c00d9eebbfa219e0428",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 107,
+      "source": "Semantic Scholar",
+      "doi": "10.1371/journal.pdig.0000877",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models systematic review"
+    },
+    {
+      "title": "Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need?",
+      "authors": [
+        "Junchi Yu",
+        "Yujie Liu",
+        "Jindong Gu",
+        "Philip H. S. Torr",
+        "Dongzhan Zhou"
+      ],
+      "abstract": "Retrieval-Augmented Generation (RAG) based on knowledge graphs (KGs) enhances large language models (LLMs) by providing structured and interpretable external knowledge. However, existing KG-based RAG methods struggle to retrieve accurate and diverse information from text-rich KGs for complex real-world queries. Process Reward Models (PRMs) offer a way to align the retrieval process of KG-based RAG with query-specific knowledge requirements, but they heavily rely on process-level supervision signals that are expensive and hard to obtain on KGs. To address this challenge, we propose GraphFlow, a framework that efficiently retrieves accurate and diverse knowledge required for real-world queries from text-rich KGs. GraphFlow employs a transition-based flow matching objective to jointly optimize a retrieval policy and a flow estimator. The flow estimator factorizes the reward of the retrieval outcome into the intermediate retrieval states. Such reward factorization guides the retrieval policy to retrieve candidates from KGs in proportion to their reward. This allows GraphFlow to explore high-quality regions of KGs that yield diverse and relevant results. We evaluate GraphFlow on the STaRK benchmark, which includes real-world queries from multiple domains over text-rich KGs. GraphFlow outperforms strong KG-RAG baselines, including GPT-4o, by 10% on average in hit rate and recall. It also shows strong generalization to unseen KGs, demonstrating its effectiveness and robustness.",
+      "year": "2025",
+      "published_date": "2025-10-18",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/6d95d447814f7733da50d81d82b345aa40c6de2a",
+      "arxiv_id": "2510.16582",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2510.16582",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval full text retrieval"
+    },
+    {
+      "id": "gs_3552c66c8c",
+      "title": "MedDiscover: A Domain-Specific Retrieval-Augmented Generation Framework for Evidence-Grounded Knowledge Extraction in Metabolomics",
+      "abstract": "(synthetic QA with retrievability metadata). Retrieval-augmented generation (RAG) inference  retrieves top k contexts and uses an evidence-grounded  by an extensive literature review,",
+      "authors": [
+        "V Patel",
+        "E Jolkver",
+        "A Schwerk"
+      ],
+      "year": 2026,
+      "journal": "Computational and Structural …",
+      "citations": 0,
+      "url": "https://spj.science.org/doi/abs/10.34133/csbj.0018",
+      "doi": "10.34133/csbj.0018",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Improving large language model applications in biomedicine with retrieval-augmented generation: a systematic review, meta-analysis, and clinical development guidelines.",
+      "authors": [
+        "Siru Liu",
+        "Allison B McCoy",
+        "Adam Wright"
+      ],
+      "abstract": "The objectives of this study are to synthesize findings from recent research of retrieval-augmented generation (RAG) and large language models (LLMs) in biomedicine and provide clinical development guidelines to improve effectiveness. We conducted a systematic literature review and a meta-analysis. The report was created in adherence to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 analysis. Searches were performed in 3 databases (PubMed, Embase, PsycINFO) using terms related to \"retrieval augmented generation\" and \"large language model,\" for articles published in 2023 and 2024. We selected studies that compared baseline LLM performance with RAG performance. We developed a random-effect meta-analysis model, using odds ratio as the effect size. Among 335 studies, 20 were included in this literature review. The pooled effect size was 1.35, with a 95% confidence interval of 1.19-1.53, indicating a statistically significant effect (P = .001). We reported clinical tasks, baseline LLMs, retrieval sources and strategies, as well as evaluation methods. Building on our literature review, we developed Guidelines for Unified Implementation and Development of Enhanced LLM Applications with RAG in Clinical Settings to inform clinical applications using RAG. Overall, RAG implementation showed a 1.35 odds ratio increase in performance compared to baseline LLMs. Future research should focus on (1) system-level enhancement: the combination of RAG and agent, (2) knowledge-level enhancement: deep integration of knowledge into LLM, and (3) integration-level enhancement: integrating RAG systems within electronic health records.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Journal of the American Medical Informatics Association : JAMIA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39812777/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Information Storage and Retrieval",
+        "Natural Language Processing",
+        "Programming Languages",
+        "Large Language Models"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1093/jamia/ocaf008",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models systematic review"
+    },
+    {
+      "title": "Benchmarking retrieval-augmented large language models in biomedical NLP: Application, robustness, and self-awareness",
+      "authors": [
+        "Mingchen Li",
+        "Zaifu Zhan",
+        "Han Yang",
+        "Yongkang Xiao",
+        "Huixue Zhou",
+        "Jiatan Huang",
+        "Rui Zhang"
+      ],
+      "abstract": "To reduce hallucinations in large language models (LLMs), retrieval-augmented LLMs (RALs) retrieve supporting knowledge from external databases. However, their performance on biomedical natural language processing (NLP) tasks remains underexplored. We introduce Biomedical Retrieval-Augmented Generation Benchmark, a comprehensive evaluation framework assessing RALs across five biomedical NLP tasks and 11 datasets, using four testbeds: unlabeled robustness, counterfactual robustness, diverse robustness, and self-awareness. To improve RALs’ robustness and negative awareness, we propose a detect-and-correct strategy and a contrastive learning approach. Experimental results show that RALs generally outperform standard LLMs on most biomedical tasks, but still struggle with robustness and self-awareness, particularly under counterfactual and diverse scenarios. Our proposed methods significantly improve performance in robustness to unlabeled and counterfactual data, and increase the model’s ability to detect and avoid incorrect predictions. These findings highlight key limitations in current RALs and underscore the need for continued refinement to ensure reliability and accuracy in high-stakes biomedical applications.",
+      "year": "2025",
+      "published_date": "2025-11-21",
+      "journal": "Science Advances",
+      "url": "https://www.semanticscholar.org/paper/ab1dec4a495d584612d919c53802f23d277686b9",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.1126/sciadv.adr1443",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "MedRAGChecker: Claim-Level Verification for Biomedical Retrieval-Augmented Generation",
+      "authors": [
+        "Yuelyu Ji",
+        "M. Kwak",
+        "Hang Zhang",
+        "Xizhi Wu",
+        "Chenyu Li",
+        "Yanshan Wang"
+      ],
+      "abstract": "Biomedical retrieval-augmented generation (RAG) can ground LLM answers in medical literature, yet long-form outputs often contain isolated unsupported or contradictory claims with safety implications. We introduce MedRAGChecker, a claim-level verification and diagnostic framework for biomedical RAG. Given a question, retrieved evidence, and a generated answer, MedRAGChecker decomposes the answer into atomic claims and estimates claim support by combining evidence-grounded natural language inference (NLI) with biomedical knowledge-graph (KG) consistency signals. Aggregating claim decisions yields answer-level diagnostics that help disentangle retrieval and generation failures, including faithfulness, under-evidence, contradiction, and safety-critical error rates. To enable scalable evaluation, we distill the pipeline into compact biomedical models and use an ensemble verifier with class-specific reliability weighting. Experiments on four biomedical QA benchmarks show that MedRAGChecker reliably flags unsupported and contradicted claims and reveals distinct risk profiles across generators, particularly on safety-critical biomedical relations.",
+      "year": "2026",
+      "published_date": "2026-01-10",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/f431f33224310d45fd80933a21d44c1464ceb873",
+      "arxiv_id": "2601.06519",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2601.06519",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges",
+      "authors": [
+        "Andrew Brown",
+        "Muhammad Roman",
+        "Barry Devereux"
+      ],
+      "abstract": "Background: Retrieval-augmented generation (RAG) aims to reduce hallucinations and outdated knowledge by grounding LLM outputs in retrieved evidence, but empirical results are scattered across tasks, systems, and metrics, limiting cumulative insight. Objective: We aimed to synthesise empirical evidence on RAG effectiveness versus parametric-only baselines, map datasets/architectures/evaluation practices, and surface limitations and research gaps. Methods: This systematic review was conducted and reported in accordance with PRISMA 2020. We searched the ACM Digital Library, IEEE Xplore, Scopus, ScienceDirect, and DBLP; all sources were last searched on 13 May 2025. This included studies from January 2020–May 2025 that addressed RAG or similar retrieval-supported systems producing text output, met citation thresholds (≥15 for 2025; ≥30 for 2024 or earlier), and offered original contributions; excluded non-English items, irrelevant works, duplicates, and records without accessible full text. Bias was appraised with a brief checklist; screening used one reviewer with an independent check and discussion. LLM suggestions were advisory only; 2025 citation thresholds were adjusted to limit citation-lag. We used a descriptive approach to synthesise the results, organising studies by themes aligned to RQ1–RQ4 and reporting summary counts/frequencies; no meta-analysis was undertaken due to heterogeneity of designs and metrics. Results: We included 128 studies spanning knowledge-intensive tasks (35/128; 27.3%), open-domain QA (20/128; 15.6%), software engineering (13/128; 10.2%), and medical domains (11/128; 8.6%). Methods have shifted from DPR+seq2seq baselines to modular, policy-driven RAG with hybrid/structure-aware retrieval, uncertainty-triggered loops, memory, and emerging multimodality. Evaluation remains overlap-heavy (EM/F1), with increasing use of retrieval diagnostics (e.g., Recall@k, MRR@k), human judgements, and LLM-as-judge protocols. Efficiency and security (poisoning, leakage, jailbreaks) are growing concerns. Discussion: Evidence supports a shift to modular, policy-driven RAG, combining hybrid/structure-aware retrieval, uncertainty-aware control, memory, and multimodality, to improve grounding and efficiency. To advance from prototypes to dependable systems, we recommend: (i) holistic benchmarks pairing quality with cost/latency and safety, (ii) budget-aware retrieval/tool-use policies, and (iii) provenance-aware pipelines that expose uncertainty and deliver traceable evidence. We note the evidence base may be affected by citation-lag from the inclusion thresholds and by English-only, five-library coverage. Funding: Advanced Research and Engineering Centre. Registration: Not registered.",
+      "year": "2025",
+      "published_date": "2025-08-08",
+      "journal": "Big Data and Cognitive Computing",
+      "url": "https://www.semanticscholar.org/paper/7477bccbe3683c49a9d6c50f901569d87ca07ce5",
+      "arxiv_id": "2508.06401",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 15,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2508.06401",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system full text retrieval"
+    },
+    {
+      "title": "Knowledge Augmented Finetuning Matters in both RAG and Agent Based Dialog Systems",
+      "authors": [
+        "Yucheng Cai",
+        "Yuxuan Wu",
+        "Yi Huang",
+        "Junlan Feng",
+        "Zhijian Ou"
+      ],
+      "abstract": "Large language models (LLMs) have recently been applied to dialog systems. Despite making progress, LLMs are prone to errors in knowledge-intensive scenarios. Recently, approaches based on retrieval augmented generation (RAG) and agent have emerged to improve the factual accuracy by enhancing the LLMs with knowledge retrieved from external knowledge bases (KBs). This is mostly implemented by prompting the LLMs with instructions, examples and the retrieved knowledge. However, LLMs may have difficulty using the retrieved knowledge effectively for response generation, because they are not well trained to do such generation for specific domains. To mitigate this problem, we propose to finetune the LLMs in the RAG-based and agent-based systems with domain-specific data, together with domain-specific external knowledge, which is called knowledge augmented finetuning (KAFT). We base our study on the MobileCS2 dataset, a real-life customer service dialog dataset that features intensive knowledge interactions, to systematically compare the prompting and KAFT techniques in the RAG-based and agent-based systems. Experiment results show that KAFT substantially surpasses prompting in both RAG and agent systems, particularly in terms of factual accuracy. To the best of our knowledge, this paper represents the first solid empirical work to investigate the KAFT idea.",
+      "year": "2025",
+      "published_date": "2025-06-28",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2506.22852v1",
+      "arxiv_id": "2506.22852v1",
+      "keywords": [
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "timestamp": "20260423_161931"
+}

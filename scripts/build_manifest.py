@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "MANIFEST_SHA256.csv"
 SUMMARY = ROOT / "MANIFEST_SUMMARY.json"
 IGNORED_DIRS = {".git", ".venv", "venv", "__pycache__"}
-IGNORED_NAMES = {MANIFEST.name}
+IGNORED_NAMES = {".DS_Store"}
 IGNORED_SUFFIXES = {".pyc", ".pyo"}
 
 
@@ -32,7 +32,7 @@ def deposited_files() -> list[Path]:
         rel = path.relative_to(ROOT)
         if any(part in IGNORED_DIRS for part in rel.parts):
             continue
-        if path.name in IGNORED_NAMES or path.suffix.lower() in IGNORED_SUFFIXES:
+        if path == MANIFEST or path.name in IGNORED_NAMES or path.suffix.lower() in IGNORED_SUFFIXES:
             continue
         files.append(path)
     return sorted(files, key=lambda p: p.relative_to(ROOT).as_posix())
@@ -57,10 +57,13 @@ def write_summary(created: str, source_snapshot: str) -> None:
         files = deposited_files()
         current = (len(files), sum(path.stat().st_size for path in files))
         payload = {
+            "version": "2026-10-14 (v4, R2 GitHub deposit)",
             "created_utc": created,
             "source_snapshot": source_snapshot,
             "file_count_excluding_manifest": current[0],
             "total_bytes_excluding_manifest": current[1],
+            "source_package_record": "provenance/IMPORT_V4_R2_20261014.json",
+            "source_package_manifest": "provenance/source_package_v4/MANIFEST_SHA256.csv",
             "manifest_scope": (
                 "All deposited files except MANIFEST_SHA256.csv; excludes Git metadata, "
                 "virtual environments, Python bytecode, and cache directories."
@@ -125,7 +128,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--source-snapshot",
-        default="5753face6a9d2d0cd4a3fc573537f914928e657c",
+        default="IPM_ANON_REPRO_PACKAGE_v4_R2_20261014.zip",
         help="Commit or archive identifier from which this review snapshot was repaired.",
     )
     args = parser.parse_args()

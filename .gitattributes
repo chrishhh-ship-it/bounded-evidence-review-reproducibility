@@ -1,4 +1,5 @@
-* text=auto eol=lf
+# Preserve deposited bytes so SHA-256 checks match every checkout.
+* -text
 
 *.png binary
 *.jpg binary

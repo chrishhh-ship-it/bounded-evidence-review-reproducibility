@@ -1,0 +1,60 @@
+{
+  "qid": "EN48",
+  "condition": "m2a_cdma_arl",
+  "query": "What factors explain variation in the ambition and credibility of nationally determined contributions under the Paris Agreement?",
+  "domain": "Climate Policy Research",
+  "category": "ndcs",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "European Union",
+    "Vietnam War",
+    "Soviet–Afghan War",
+    "List of Latin phrases (full)",
+    "Franciscus Patricius"
+  ],
+  "top_papers": [
+    {
+      "title": "European Union",
+      "abstract": "The European Union (EU) is a political and economic union of 27 member states that are located primarily in Europe. The supranational union has a total area of 4,233,255 km2 (1,634,469 sq mi), an estimated population of approximately 451 million (2025), and the EU member states generated a nominal gross domestic product (GDP) of around €18.802 trillion (2025), accounting for approximately one sixth of global economic output. The EU is often described as a sui generis political entity combining c"
+    },
+    {
+      "title": "Vietnam War",
+      "abstract": "The Vietnam War (1 November 1955 – 30 April 1975) was an armed conflict in Vietnam, Laos, and Cambodia fought between North Vietnam (Democratic Republic of Vietnam) and South Vietnam (Republic of Vietnam) and their allies. North Vietnam was supported by the Soviet Union and China, while South Vietnam was supported by the United States and other anti-communist nations. The conflict was the second of the Indochina wars and a proxy war of the Cold War between the Soviet Union and US. The Vietnam Wa"
+    },
+    {
+      "title": "Soviet–Afghan War",
+      "abstract": "The Soviet–Afghan War took place in Afghanistan from December 1979 to February 1989. Marking the beginning of the 47-year-long Afghan conflict, it saw the Soviet Union and the Afghan military fight against the rebelling Afghan mujahideen, aided by Pakistan. While they were backed by various countries and organizations, the majority of the mujahideen's support came from Pakistan, the United States (as part of Operation Cyclone), the United Kingdom, China, Iran, and the Arab states of the Persian "
+    },
+    {
+      "title": "List of Latin phrases (full)",
+      "abstract": "This article lists direct English translations of common Latin phrases. Some of the phrases are themselves translations of Greek phrases."
+    },
+    {
+      "title": "Franciscus Patricius",
+      "abstract": "Franciscus Patricius (Croatian: Franjo Petriš or Frane Petrić; Italian: Francesco Patrizi; 25 April 1529 – 6 February 1597) was a philosopher and scientist from the Republic of Venice. A native of Cres, he was a defender of Platonism and an opponent of Aristotelianism.\nHis national origin differs in sources, and he is described both as Croatian and as Italian. In Croatia he is mostly referred to as Franjo Petriš or Frane Petrić (sometimes Petris, Petrišević and Petričević)."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:European_Union",
+    "wiki:Vietnam_War",
+    "wiki:Soviet–Afghan_War",
+    "wiki:List_of_Latin_phrases_(full)",
+    "wiki:Franciscus_Patricius"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN48_m2a_cdma_arl_wiki_20260424_193059.md"
+}

@@ -1,0 +1,60 @@
+{
+  "qid": "EN32",
+  "condition": "m2a_cdma_arl",
+  "query": "How can machine learning methods detect reporting bias and publication bias in biomedical evidence synthesis?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "bias_detection",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Machine learning",
+    "Deep learning",
+    "Meta-analysis",
+    "List of datasets for machine-learning research",
+    "Systematic review"
+  ],
+  "top_papers": [
+    {
+      "title": "Machine learning",
+      "abstract": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit programming language instructions. Within a subdiscipline of machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.\nStatistics and m"
+    },
+    {
+      "title": "Deep learning",
+      "abstract": "In machine learning, deep learning (DL) focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training\" them to process data. The adjective \"deep\" refers to the use of multiple layers (ranging from three to several hundred or thousands) in the network. Methods used can be supervised, semi-supervised"
+    },
+    {
+      "title": "Meta-analysis",
+      "abstract": "Meta-analysis is a method of synthesis of quantitative data from multiple independent studies addressing a common research question. An important part of this method involves computing a combined effect size across all of the studies. As such, this statistical approach involves extracting effect sizes and variance measures from various studies. By combining these effect sizes the statistical power is improved and can resolve uncertainties or discrepancies found in individual studies."
+    },
+    {
+      "title": "List of datasets for machine-learning research",
+      "abstract": "These datasets are used in machine learning (ML) research and have been cited in peer-reviewed academic journals. Datasets are an integral part of the field of machine learning. Major advances in this field can result from advances in learning algorithms (such as deep learning), computer hardware, and, less intuitively, the availability of high-quality training datasets. High-quality labeled training datasets for supervised and semi-supervised machine-learning algorithms are usually difficult an"
+    },
+    {
+      "title": "Systematic review",
+      "abstract": "A systematic review is a scholarly synthesis of the evidence on a clearly presented topic using critical methods to identify, define and assess research on the topic. A systematic review extracts and interprets data from published studies on the topic (in the scientific literature), then analyzes, describes, critically appraises and summarizes interpretations into a refined evidence-based conclusion. For example, a systematic review of randomized controlled trials is a way of summarizing and imp"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Machine_learning",
+    "wiki:Deep_learning",
+    "wiki:Meta-analysis",
+    "wiki:List_of_datasets_for_machine-learning_research",
+    "wiki:Systematic_review"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN32_m2a_cdma_arl_wiki_20260424_192922.md"
+}

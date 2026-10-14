@@ -1,0 +1,246 @@
+{
+  "query_id": "EN27",
+  "query": "What is the prevalence of hallucinated citations in large language model outputs for biomedical literature synthesis tasks?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "The emergence of large language models as tools in literature reviews: a large language model-assisted systematic review.",
+      "authors": [
+        "Dmitry Scherbakov",
+        "Nina Hubig",
+        "Vinita Jansari",
+        "Alexander Bakumenko",
+        "Leslie A Lenert"
+      ],
+      "abstract": "This study aims to summarize the usage of large language models (LLMs) in the process of creating a scientific review by looking at the methodological papers that describe the use of LLMs in review automation and the review papers that mention they were made with the support of LLMs. The search was conducted in June 2024 in PubMed, Scopus, Dimensions, and Google Scholar by human reviewers. Screening and extraction process took place in Covidence with the help of LLM add-on based on the OpenAI GPT-4o model. ChatGPT and Scite.ai were used in cleaning the data, generating the code for figures, and drafting the manuscript. Of the 3788 articles retrieved, 172 studies were deemed eligible for the final review. ChatGPT and GPT-based LLM emerged as the most dominant architecture for review automation (n = 126, 73.2%). A significant number of review automation projects were found, but only a limited number of papers (n = 26, 15.1%) were actual reviews that acknowledged LLM usage. Most citations focused on the automation of a particular stage of review, such as Searching for publications (n = 60, 34.9%) and Data extraction (n = 54, 31.4%). When comparing the pooled performance of GPT-based and BERT-based models, the former was better in data extraction with a mean precision of 83.0% (SD = 10.4) and a recall of 86.0% (SD = 9.8). Our LLM-assisted systematic review revealed a significant number of research projects related to review automation using LLMs. Despite limitations, such as lower accuracy of extraction for numeric data, we anticipate that LLMs will soon change the way scientific reviews are conducted.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Journal of the American Medical Informatics Association : JAMIA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40332983/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Systematic Reviews as Topic",
+        "Review Literature as Topic",
+        "Programming Languages",
+        "Information Storage and Retrieval",
+        "Large Language Models"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1093/jamia/ocaf063",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models systematic review"
+    },
+    {
+      "id": "gs_e49226a4ed",
+      "title": "From promise to practice: challenges and pitfalls in the evaluation of large language models for data extraction in evidence synthesis",
+      "abstract": "large language models (LLMs) has led to the exploration of their use in evidence synthesis   ,6–9 statistical analysis8 and writing plain language summaries.10 Of these tasks, data",
+      "authors": [
+        "G Gartlehner",
+        "L Kahwati"
+      ],
+      "year": 2025,
+      "journal": "BMJ Evidence-Based …",
+      "citations": 24,
+      "url": "https://ebm.bmj.com/content/30/6/385.abstract",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "Evaluation of large language model performance on the Biomedical Language Understanding and Reasoning Benchmark",
+      "authors": [
+        "Hui Feng",
+        "Francesco Ronzano",
+        "J. Lafleur",
+        "Matthew Garber",
+        "Rodrigo José de Oliveira",
+        "Kathryn Rough",
+        "K. Roth",
+        "Jay Nanavati",
+        "Khaldoun Zine",
+        "El Abidine",
+        "C. Mack"
+      ],
+      "abstract": "Background: The ability of large language models (LLMs) to interpret and generate human-like text has been accompanied with speculation about their application in medicine and clinical research. There is limited data available to inform evidence-based decisions on the appropriateness for specific use cases. Methods: We evaluated and compared four general-purpose LLMs (GPT-4, GPT-3.5-turbo, Flan-T5-XXL, and Zephyr-7B-Beta) and a healthcare-specific LLM (MedLLaMA-13B) on a set of 13 datasets - referred to as the Biomedical Language Understanding and Reasoning Benchmark (BLURB) - covering six commonly needed medical natural language processing tasks: named entity recognition (NER); relation extraction; population, interventions, comparators, and outcomes (PICO); sentence similarity; document classification; and question-answering. All models were evaluated without modification. Model performance was assessed according to a range of prompting strategies (formalised as a systematic, reusable prompting framework) and relied on the standard, task-specific evaluation metrics defined by BLURB. Results: Across all tasks, GPT-4 outperformed other LLMs, followed by Flan-T5-XXL and GPT-3.5- turbo, then Zephyr-7b-Beta and MedLLaMA-13B. The most performant prompts for GPT-4 and Flan-T5-XXL both outperformed the previously-reported best results for the PubMedQA task. The domain-specific MedLLaMA-13B achieved lower scores for most tasks except for question-answering tasks. We observed a substantial impact of strategically editing the prompt describing the task and a consistent improvement in performance when including examples semantically similar to the input text in the prompt. Conclusion: These results provide evidence of the potential LLMs may have for medical application and highlight the importance of robust evaluation before adopting LLMs for any specific use cases. Continuing to explore how these emerging technologies can be adapted for the healthcare setting, paired with human expertise, and enhanced through quality control measures will be important research to allow responsible innovation with LLMs in the medical area.",
+      "year": "2024",
+      "published_date": "2024-05-17",
+      "journal": "medRxiv",
+      "url": "https://www.semanticscholar.org/paper/b8f3e8b85bef7b0abb187ca4cbcca677cccbcb44",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.1101/2024.05.17.24307411",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "CARDBiomedBench: a benchmark for evaluating the performance of large language models in biomedical research.",
+      "authors": [
+        "Owen Bianchi",
+        "Maya Willey",
+        "Chelsea X. Alvarado",
+        "Benjamin P. Danek",
+        "M. Khani",
+        "Nicole Kuznetsov",
+        "Anant Dadu",
+        "S. Shah",
+        "M. Koretsky",
+        "Mary B Makarious",
+        "Cory A Weller",
+        "K. Levine",
+        "Sungwon Kim",
+        "Paige Jarreau",
+        "Dan Vitale",
+        "Elise Marsan",
+        "H. Iwaki",
+        "H. Leonard",
+        "Sara Bandres-Ciga",
+        "A. Singleton",
+        "Mike A. Nalls",
+        "Shekoofeh Mokhtari",
+        "Daniel Khashabi",
+        "F. Faghri"
+      ],
+      "abstract": "Although large language models (LLMs) have the potential to transform biomedical research, their ability to reason accurately across complex, data-rich domains remains unproven. To address this research gap, we introduce CARDBiomedBench, a large-scale question-and-answer benchmark for evaluating LLMs in biomedical science. This pilot release focuses on neurodegenerative disease research, a field requiring the integration of genomics, pharmacology, and statistical reasoning. CARDBiomedBench includes more than 68 000 curated question-answer pairs generated through expert annotation and structured data augmentation. The questions spanned ten biological categories and nine reasoning types, based on publicly available resources, such as genome-wide association studies, summary data-based mendelian randomisation results, and regulatory drug databases. We assessed model responses using BioScore, a rubric-based evaluation system that measures response accuracy (response quality rate, RQR) and the ability to abstain from incorrect answers (safety rate). Testing 18 state-of-the-art LLMs revealed considerable gaps. Claude-3.5-Sonnet achieved high caution but low accuracy (safety rate 75%, RQR 24%), whereas GPT-4.1 showed the opposite trade-off (safety rate 7%, RQR 51%). No model showed a successful balance of both metrics. CARDBiomedBench provides a new standard for benchmarking biomedical LLMs, revealing key limitations in existing models and offering a scalable path towards safer, more effective artificial intelligence systems in scientific research.",
+      "year": "2026",
+      "published_date": "2026-01-01",
+      "journal": "The Lancet Digital Health",
+      "url": "https://www.semanticscholar.org/paper/370f63b19521e2449adb17e0dc90364f3fc3bc4a",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.landig.2025.100943",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Importance of investing time and money in integrating large language model-based agents into outbreak analytics pipelines",
+      "authors": [
+        "Albert Jan van Hoek",
+        "Sebastian Funk",
+        "Stefan Flasche",
+        "Billy J. Quilty",
+        "Esther van Kleef",
+        "Anton Camacho",
+        "Adam J. Kucharski"
+      ],
+      "abstract": "Outbreaks such as mpox and COVID-19 underscore the need for swift, evidence-based responses to limit their spread and save lives. Such evidence should be generated in real time. Generating these insights requires synthesis of many different sources of information and a combination of multiple distinct analytical techniques, from basic descriptive analysis to complex dynamic models.1Polonsky JA Baidjoe A Kamvar ZN et al.Outbreak analytics: a developing data science for informing the response to emerging pathogens.Philos Trans R Soc Lond B Biol Sci. 2019; 37420180276Crossref PubMed Scopus (99) Google Scholar Timely generation of policy-relevant evidence relies on skilled staff and prebuilt outbreak analytics pipelines, alongside rapid literature reviews and ad-hoc data curation processes. Although these workflows are constantly improving, they continue to involve several time-intensive manual tasks such as abstract selection and data extraction, cleaning, and merging. Performing subsequent research and writing up results are also time intensive. At some instances, specific skills such as coding are required. In particular, multiple governments or organisations require regular situational updates against a background of changing data and epidemic dynamics, creating major bottlenecks in the ability to deliver analysis at scale. To improve and enhance the efficiency of real-time outbreak analytics and to reduce the number of potential bottlenecks, considerable opportunity to make use of newly emerging large language models (LLMs) exists. Recently, several advanced LLMs have become available, including GPT-4 from OpenAI and Gemini from Google. These LLMs are equipped with capabilities such as generating and interpreting text, writing and executing code, performing analytical tasks, and processing images. Integration of LLMs within outbreak analytic workflows can be achieved both directly and indirectly. The direct approach would be for analysts to interact with LLMs directly to assist in writing codes for analysis or to provide tailored feedback on written text, similar to the common tools currently available. The indirect approach would involve having the analyst interact with specialised LLM-based agents. LLM-based agents are computer programs that can deploy multiple LLMs with specific roles and specialisations to perform dedicated tasks, similar to how human teams divide projects on the basis of the experience and knowledge of the team members.2Xi Z Chen W Guo X et al.The rise and potential of large language model based agents: a survey.arXiv. 2023; (preprint)https://arxiv.org/abs/2309.07864Google Scholar Such agents can perform tasks to achieve specific goals, either on their own or collaboratively with other agents, with the outputs of one agent’s task becoming an input for the next agent or in dialogue with the analyst. We observe several key advantages in utilising specialised LLM-based agents. A primary advantage of using LLM-based agents, compared with using LLMs directly through prompting, lies in their ability to formalise LLM team interactions, enabling optimisation of workflows and quality control to enhance consistency and reproducibility. Furthermore, using multiple agents allows for more review steps before presenting the answer to the analyst, which can yield a higher-quality output than that obtained using direct prompting. Moreover, simultaneous deployment of LLM-based agents allows multiple tasks to be performed simultaneously and at scale. Through collaboration, multiple agents could complete more complex tasks. Finally, LLM agents, equipped with memory capabilities, enhance their performance over time by learning from their previous experience to accomplish tasks more effectively. Given these characteristics and the anticipated increasing capabilities of LLMs, developing several specifically defined LLM-based agents as part of the outbreak analytics pipeline has considerable potential for improving its efficiency. Once developed and tested, these workflows can be scaled and replicated globally, providing round-the-clock operation and support and creating a more equitable distribution of analytical knowledge and expertise. However, as with all new technologies, the integration of these new LLMs should be approached with caution. Pilot studies, real-world testing, and validation against established benchmarks are necessary to understand the limitations of the models; learn about their stability and costs; acquire experience with optimal use; learn all ethical implications; and develop consistency, trust, and acceptance. This learning will also allow for implementation of necessary governance structures and oversight to prevent misuse or unintended consequences, as misinterpretation of data or failure to capture nuances could lead to erroneous conclusions or recommendations, having serious consequences. Furthermore, integrating the use of LLMs will require training of staff and adaptation of hardware and software infrastructures to support these pipelines. Although LLMs in outbreak responses can lead to important efficiency gains in time and quality, this article is not a call for all tasks to be replaced by LLM agents. A sufficiently nuanced interpretation of outbreak data is difficult, with profound consequences, for which human skill, responsibility, and input are key. Therefore, creating an environment in which skilled staff can focus more of their time on these problems is crucial. Cautious use of this approach might also empower less technically trained staff to solve these problems. We declare no competing interests. During the preparation of this manuscript, the author used OpenAI GPT-4 using GPT “Academic Assistant Pro” to generate an initial sketch draft based on an extended outline with relevant topics in bullet points produced by the main author. After using this tool/service, the authors substantially reworked and edited the content and then performed an AI check for grammar and spelling of a near final version. The authors take full responsibility for the content of the publication.",
+      "year": "2024",
+      "published_date": "2024-05-17",
+      "journal": "The Lancet Microbe",
+      "url": "https://doi.org/10.1016/s2666-5247(24)00104-6",
+      "arxiv_id": "",
+      "keywords": [
+        "Analytics",
+        "Data science",
+        "Computer science",
+        "Situation awareness",
+        "Big data",
+        "Workflow",
+        "Dashboard",
+        "Engineering"
+      ],
+      "citations": 8,
+      "source": "OpenAlex",
+      "doi": "10.1016/s2666-5247(24)00104-6",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Optimal strategies for adapting open-source large language models for clinical information extraction: a benchmarking study in the context of ulcerative colitis research",
+      "authors": [
+        "R. P. Yim",
+        "MS Anna L. Silverman",
+        "MD Shan Wang",
+        "P. V. A. Rudrapatna"
+      ],
+      "abstract": "Background: Closed-source large language models (LLMs) like GPT-4o have shown promise for clinical information extraction but are potentially limited by cost, data security concerns, and inflexibility. Open-source models have emerged as an attractive alternative, with many LLM adaptation strategies developed in the literature. However, it is currently unclear what adaptation strategies are optimal, and how they ultimately compare to closed-source models. Methods: We studied the effects of three common LLM adaptation strategies: chain-of-thought prompting, few-shot prompting, and fine-tuning. Our target for information extraction was the Mayo Endoscopic Subscore (MES). We applied those strategies in all combinations to six open-source models (8-70 billion parameters) using an annotated set of colonoscopy procedure reports from two centers: the University of California, San Francisco (N=608) and San Francisco General Hospital (N=217). We analyzed the relationship of these strategies to several performance metrics with a mixed-effects model, accounting for the variability between centers and LLMs. GPT-4o was not subject to QLoRA due to its closed-source nature but was used as a comparator in our benchmarks. We also provide in-depth commentary on the cost-effectiveness of these open-source LLMs and GPT-4o for MES extraction. Results: Across adaptation strategies, QLoRA statistically (p<0.001) improves the performance of open-source LLMs by 8.3-15.6 percentage points across accuracy, precision and recall. However, GPT-4o with prompt engineering is superior to the best open-source model by a margin of 2.5-5.4%. Yet, a simple cost-effectiveness analysis suggests that GPT-4o is expensive compared to open-source models. Conclusion: GPT-4o is currently the most performant LLM for MES extraction . If unavailable, open-source models optimized with QLoRA are a competitive alternative. However, our results also suggest that current instruction-following LLMs including GPT-4o do not fully follow user-provided instructions, leaving room for improvement. More work is needed to achieve consistent, near-perfect performance in clinical information extraction by LLMs.",
+      "year": "2024",
+      "published_date": "2024-11-07",
+      "journal": "medRxiv",
+      "url": "https://www.semanticscholar.org/paper/62722a27b44552e42df9e589aec32412a4d87386",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1101/2024.11.06.24316817",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "title": "LitBench: A Graph-Centric Large Language Model Benchmarking Tool For Literature Tasks",
+      "authors": [
+        "Andreas A. Varvarigos",
+        "Ali Maatouk",
+        "Jiasheng Zhang",
+        "Ngoc Bui",
+        "Jialin Chen",
+        "L. Tassiulas",
+        "Rex Ying"
+      ],
+      "abstract": "While large language models (LLMs) have become the de facto framework for literature-related tasks, they still struggle to function as domain-specific literature agents due to their inability to connect pieces of knowledge and reason across domain-specific contexts, terminologies, and nomenclatures. This challenge underscores the need for a tool that facilitates such domain-specific adaptation and enables rigorous benchmarking across literature tasks. To that end, we introduce LitBench, a benchmarking tool designed to enable the development and evaluation of domain-specific LLMs tailored to literature-related tasks. At its core, LitBench uses a data curation process that generates domain-specific literature sub-graphs and constructs training and evaluation datasets based on the textual attributes of the resulting nodes and edges. The tool is designed for flexibility, supporting the curation of literature graphs across any domain chosen by the user, whether high-level fields or specialized interdisciplinary areas. In addition to dataset curation, LitBench defines a comprehensive suite of literature tasks, ranging from node and edge level analyses to advanced applications such as related work generation. These tasks enable LLMs to internalize domain-specific knowledge and relationships embedded in the curated graph during training, while also supporting rigorous evaluation of model performance. Our results show that small domain-specific LLMs trained and evaluated on LitBench datasets achieve competitive performance compared to state-of-the-art models like GPT-4o and DeepSeek-R1. To enhance accessibility and ease of use, we open-source the tool along with an AI agent tool that streamlines data curation, model training, and evaluation.",
+      "year": "2026",
+      "published_date": "2026-02-10",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/24425a9c777d2b633f9678ee057f9aed68f00e20",
+      "arxiv_id": "2603.00051",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2603.00051",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "title": "Can large language models serve as digital assistants for medical undergraduates? – A bibliometric mapping and scoping analysis of the medical-education literature",
+      "authors": [
+        "Hong Wang",
+        "Wenhui Shan",
+        "Ruoyan Liu",
+        "Zhening Wang"
+      ],
+      "abstract": "Objective Since the public release of ChatGPT in late 2022, large language models (LLMs) have been rapidly adopted in medical education, and the emergence of the free and open-source Chinese model DeepSeek in 2025 has further accelerated local uptake. However, their academic impact and measurable outcomes remain unclear. This study aims to conduct a comprehensive bibliometric analysis of literature from 1999 to 2025, mapping the evolution, thematic landscape and emerging frontiers of LLM-assisted medical education, with particular attention to the post-ChatGPT phenomenon represented by DeepSeek, in order to clarify current research status and inform future directions for educators and policymakers. Methods English-language articles and reviews (1999–23/03/2025) were retrieved from the Web of Science Core Collection. Publication trends, co-authorships, co-citations, burst keywords and thematic clusters were analysed with CiteSpace 6.4.R1, R-bibliometrix and VOSviewer 1.6.20. Results The analysis revealed a sharp growth in publications after 2022, coinciding with the release of ChatGPT, with the United States, China and Canada emerging as leading contributors. Influential institutions included Mayo Clinic, University of Toronto and Karolinska Institutet. Research hotspots clustered around generative artificial intelligence (AI) applications, machine learning, simulation-based training and blended learning. Recent bursts of keywords such as ‘DeepSeek’ indicate expanding regional engagement and diversification of AI tools. Conclusions Large language model research in medical education is transitioning from exploratory commentaries to more applied and empirical investigations. While open-source models offer opportunities for broader access, critical challenges remain regarding measurable educational outcomes, ethical frameworks and global equity. Addressing these gaps through rigorous outcome-based studies and cross-institutional collaboration will be essential for the sustainable integration of LLMs into medical curricula.",
+      "year": "2025",
+      "published_date": "2025-05-01",
+      "journal": "Digital Health",
+      "url": "https://www.semanticscholar.org/paper/b4eb5238261fd286d482f18366d78bbefc07e9e3",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1177/20552076251390280",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis literature review"
+    }
+  ],
+  "timestamp": "20260423_170527"
+}

@@ -1,0 +1,60 @@
+{
+  "qid": "EN14",
+  "condition": "m2a_cdma_arl",
+  "query": "How are computational methods applied to large-scale historical text corpora for knowledge extraction and synthesis?",
+  "domain": "Digital Humanities",
+  "category": "text_analysis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Computational creativity",
+    "Machine learning",
+    "Social network analysis",
+    "List of datasets for machine-learning research",
+    "Optical character recognition"
+  ],
+  "top_papers": [
+    {
+      "title": "Computational creativity",
+      "abstract": "Computational creativity (also known as artificial creativity, mechanical creativity, creative computing or creative computation) is a multidisciplinary endeavour that is located at the intersection of the fields of artificial intelligence, cognitive psychology, philosophy, and the arts (e.g., computational art as part of computational culture).\nIs the application of computer systems to emulate human-like creative processes, facilitating the generation of artistic and design outputs that mimic i"
+    },
+    {
+      "title": "Machine learning",
+      "abstract": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit programming language instructions. Within a subdiscipline of machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.\nStatistics and m"
+    },
+    {
+      "title": "Social network analysis",
+      "abstract": "Social network analysis (SNA) is the process of investigating social structures through the use of networks and graph theory. It characterizes networked structures in terms of nodes (individual actors, people, or things within the network) and the ties, edges, or links (relationships or interactions) that connect them. Examples of social structures commonly visualized through social network analysis include social media networks, meme proliferation, information circulation, friendship and acquai"
+    },
+    {
+      "title": "List of datasets for machine-learning research",
+      "abstract": "These datasets are used in machine learning (ML) research and have been cited in peer-reviewed academic journals. Datasets are an integral part of the field of machine learning. Major advances in this field can result from advances in learning algorithms (such as deep learning), computer hardware, and, less intuitively, the availability of high-quality training datasets. High-quality labeled training datasets for supervised and semi-supervised machine-learning algorithms are usually difficult an"
+    },
+    {
+      "title": "Optical character recognition",
+      "abstract": "Optical character recognition (OCR) or optical character reader is the electronic or mechanical conversion of images of typed, handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document, a scene photo (for example the text on signs and billboards in a landscape photo) or from subtitle text superimposed on an image (for example: from a television broadcast).\nWidely used as a form of data entry from printed paper data records – whether passport do"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Computational_creativity",
+    "wiki:Machine_learning",
+    "wiki:Social_network_analysis",
+    "wiki:List_of_datasets_for_machine-learning_research",
+    "wiki:Optical_character_recognition"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN14_m2a_cdma_arl_wiki_20260424_192730.md"
+}

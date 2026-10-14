@@ -1,0 +1,212 @@
+{
+  "query_id": "EN13",
+  "query": "How does retrieval-augmented synthesis compare to end-to-end language model generation for citation-traceable scientific writing?",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Listen to the Context: Towards Faithful Large Language Models for Retrieval Augmented Generation on Climate Questions",
+      "authors": [
+        "David Thulke",
+        "Jakob Kemmler",
+        "Christian Dugast",
+        "Hermann Ney"
+      ],
+      "abstract": "",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Proceedings of the 2nd Workshop on Natural Language Processing Meets Climate Change (ClimateNLP 2025)",
+      "url": "https://doi.org/10.18653/v1/2025.climatenlp-1.17",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.18653/v1/2025.climatenlp-1.17",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm full text retrieval"
+    },
+    {
+      "title": "MSR1 Development of a Retrieval-Augmented Generation Pipeline Leveraging Large Language Models to Support Evidence Synthesis",
+      "authors": [
+        "C Perera",
+        "L Heron",
+        "A Hirst"
+      ],
+      "abstract": "",
+      "year": "2024",
+      "published_date": "2024-12",
+      "journal": "Value in Health",
+      "url": "https://doi.org/10.1016/j.jval.2024.10.2236",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1016/j.jval.2024.10.2236",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    },
+    {
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "authors": [
+        "Yunfan Gao",
+        "Yun Xiong",
+        "Xinyu Gao",
+        "Kangxiang Jia",
+        "Jinliu Pan",
+        "Yuxi Bi",
+        "Yi Dai",
+        "Jiawei Sun",
+        "Haofen Wang",
+        "Wang, Haofen"
+      ],
+      "abstract": "Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval, the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces up-to-date evaluation framework and benchmark. At the end, this article delineates the challenges currently faced and points out prospective avenues for research and development.",
+      "year": "2023",
+      "published_date": "2023-12-18",
+      "journal": "arXiv (Cornell University)",
+      "url": "https://doi.org/10.48550/arxiv.2312.10997",
+      "arxiv_id": "",
+      "keywords": [
+        "Credibility",
+        "Computer science",
+        "Modular design",
+        "Benchmark (surveying)",
+        "Data science",
+        "Domain (mathematical analysis)",
+        "Language model",
+        "Artificial intelligence"
+      ],
+      "citations": 616,
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2312.10997",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+      "authors": [
+        "L. M. Amugongo",
+        "Pietro Mascheroni",
+        "Steve Brooks",
+        "Stefan Doering",
+        "Jan Seidel"
+      ],
+      "abstract": "Large Language Models (LLMs) have demonstrated promising capabilities to solve complex tasks in critical sectors such as healthcare. However, LLMs are limited by their training data which is often outdated, the tendency to generate inaccurate (“hallucinated”) content and a lack of transparency in the content they generate. To address these limitations, retrieval augmented generation (RAG) grounds the responses of LLMs by exposing them to external knowledge sources. However, in the healthcare domain there is currently a lack of systematic understanding of which datasets, RAG methodologies and evaluation frameworks are available. This review aims to bridge this gap by assessing RAG-based approaches employed by LLMs in healthcare, focusing on the different steps of retrieval, augmentation and generation. Additionally, we identify the limitations, strengths and gaps in the existing literature. Our synthesis shows that 78.9% of studies used English datasets and 21.1% of the datasets are in Chinese. We find that a range of techniques are employed RAG-based LLMs in healthcare, including Naive RAG, Advanced RAG, and Modular RAG. Surprisingly, proprietary models such as GPT-3.5/4 are the most used for RAG applications in healthcare. We find that there is a lack of standardised evaluation frameworks for RAG-based applications. In addition, the majority of the studies do not assess or address ethical considerations related to RAG in healthcare. It is important to account for ethical challenges that are inherent when AI systems are implemented in the clinical setting. Lastly, we highlight the need for further research and development to ensure responsible and effective adoption of RAG in the medical domain.",
+      "year": "2025",
+      "published_date": "2025-06-01",
+      "journal": "PLOS Digital Health",
+      "url": "https://www.semanticscholar.org/paper/5879575701b9b65b5cc56c00d9eebbfa219e0428",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 107,
+      "source": "Semantic Scholar",
+      "doi": "10.1371/journal.pdig.0000877",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models systematic review"
+    },
+    {
+      "title": "Improving large language model applications in biomedicine with retrieval-augmented generation: a systematic review, meta-analysis, and clinical development guidelines.",
+      "authors": [
+        "Siru Liu",
+        "Allison B McCoy",
+        "Adam Wright"
+      ],
+      "abstract": "The objectives of this study are to synthesize findings from recent research of retrieval-augmented generation (RAG) and large language models (LLMs) in biomedicine and provide clinical development guidelines to improve effectiveness. We conducted a systematic literature review and a meta-analysis. The report was created in adherence to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 analysis. Searches were performed in 3 databases (PubMed, Embase, PsycINFO) using terms related to \"retrieval augmented generation\" and \"large language model,\" for articles published in 2023 and 2024. We selected studies that compared baseline LLM performance with RAG performance. We developed a random-effect meta-analysis model, using odds ratio as the effect size. Among 335 studies, 20 were included in this literature review. The pooled effect size was 1.35, with a 95% confidence interval of 1.19-1.53, indicating a statistically significant effect (P = .001). We reported clinical tasks, baseline LLMs, retrieval sources and strategies, as well as evaluation methods. Building on our literature review, we developed Guidelines for Unified Implementation and Development of Enhanced LLM Applications with RAG in Clinical Settings to inform clinical applications using RAG. Overall, RAG implementation showed a 1.35 odds ratio increase in performance compared to baseline LLMs. Future research should focus on (1) system-level enhancement: the combination of RAG and agent, (2) knowledge-level enhancement: deep integration of knowledge into LLM, and (3) integration-level enhancement: integrating RAG systems within electronic health records.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Journal of the American Medical Informatics Association : JAMIA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39812777/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Information Storage and Retrieval",
+        "Natural Language Processing",
+        "Programming Languages",
+        "Large Language Models"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1093/jamia/ocaf008",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models systematic review"
+    },
+    {
+      "title": "SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation",
+      "authors": [
+        "Ines Besrour",
+        "Jingbo He",
+        "Tobias Schreieder",
+        "Michael Farber"
+      ],
+      "abstract": "We present SQuAI (https://squai.scads.ai/), a scalable and trustworthy multi-agent retrieval-augmented generation (RAG) framework for scientific question answering (QA) with large language models (LLMs). SQuAI addresses key limitations of existing RAG systems in the scholarly domain, where complex, open-domain questions demand accurate answers, explicit claims with citations, and retrieval across millions of scientific documents. Built on over 2.3 million full-text papers from arXiv.org, SQuAI employs four collaborative agents to decompose complex questions into sub-questions, retrieve targeted evidence via hybrid sparse-dense retrieval, and adaptively filter documents to improve contextual relevance. To ensure faithfulness and traceability, SQuAI integrates in-line citations for each generated claim and provides supporting sentences from the source documents. Our system improves faithfulness, answer relevance, and contextual relevance by up to +0.088 (12%) over a strong RAG baseline. We further release a benchmark of 1,000 scientific question-answer-evidence triplets to support reproducibility. With transparent reasoning, verifiable citations, and domain-wide scalability, SQuAI demonstrates how multi-agent RAG enables more trustworthy scientific QA with LLMs.",
+      "year": "2025",
+      "published_date": "2025-10-17",
+      "journal": "International Conference on Information and Knowledge Management",
+      "url": "https://www.semanticscholar.org/paper/d6c3fe64cef9add8f0d4069d0b13d8c5638f1abb",
+      "arxiv_id": "2510.15682",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3746252.3761471",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system full text retrieval"
+    },
+    {
+      "title": "SCIGENT: Multi-agent for End-to-end Question Answering on Scientific Knowledge Graph",
+      "authors": [
+        "Dieu-Hien Nguyen",
+        "Nguyen-Khang Le",
+        "Shinobu Hasegawa",
+        "Minh Le Nguyen"
+      ],
+      "abstract": "Effective question answering over scientific literature demands up-to-date knowledge, a challenge exacerbated by the rapid growth of publications. Traditional Retrieval-Augmented Generation (RAG) methods, reliant on text-based retrieval, struggle with structured knowledge inherent in knowledge graphs. We introduce Scigent, a multi-agent platform for end-to-end question answering over scientific knowledge graphs, addressing the challenge of dynamic entity resolution and SPARQL query translation from raw user queries. Unlike traditional methods, Scigent operates in open-ended scenarios, resolving entities and relationships in real-time. Alongside this, we present Scigent-QA, a benchmark built on DBLP and ORKG knowledge graphs, to evaluate end-to-end question-answering systems. This benchmark provides a comprehensive testbed for assessing real-world applicability and robustness. Additionally, we release a full pipeline for constructing and continuously updating scientific knowledge graphs, ensuring the system remains current with emerging publications. This work advances knowledge-driven AI, enabling robust and scalable solutions for complex scientific queries. Empirical results demonstrate that Scigent, when used with popular large language models, achieves up to 65 % accuracy on the end-to-end evaluation of Scigent-QA, proving its practicality for real-world applications.",
+      "year": "2025",
+      "published_date": "2025-11-06",
+      "journal": "International Conference on Knowledge and Systems Engineering",
+      "url": "https://www.semanticscholar.org/paper/3452f0c5f51685c00c46abe043e7536aaafb97e8",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/KSE68178.2025.11309536",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system full text retrieval"
+    },
+    {
+      "title": "A Survey on Retrieval-Augmented Text Generation for Large Language Models",
+      "authors": [
+        "Yizheng Huang",
+        "Jimmy Xiangji Huang"
+      ],
+      "abstract": "Retrieval-Augmented Generation (RAG) merges information retrieval (IR) techniques with deep learning advancements to address the static limitations of large language models (LLMs) by enabling the dynamic integration of up-to-date external information. This methodology, focusing primarily on the text domain, provides a cost-effective solution to the generation of plausible but possibly incorrect responses by LLMs, thereby enhancing the accuracy and reliability of their outputs through the use of real-world data. As RAG grows in complexity and incorporates multiple concepts that can influence its performance, this paper organizes the RAG paradigm into four categories: pre-retrieval, retrieval, post-retrieval, and generation, offering a detailed perspective from the retrieval viewpoint. It outlines RAG’s mechanics and discusses the field’s progression through the analysis of significant studies. Additionally, the paper introduces evaluation methods for RAG, addressing the challenges faced and proposing future research directions. By offering an organized framework and categorization, the study aims to consolidate existing research on RAG, clarify its technological underpinnings, and highlight its potential to broaden the adaptability and applications of LLMs.",
+      "year": "2026",
+      "published_date": "2026-4-9",
+      "journal": "ACM Computing Surveys",
+      "url": "https://doi.org/10.1145/3805774",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1145/3805774",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models full text retrieval"
+    }
+  ],
+  "timestamp": "20260423_163801"
+}

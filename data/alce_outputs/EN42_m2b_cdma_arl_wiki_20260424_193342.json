@@ -1,0 +1,60 @@
+{
+  "qid": "EN42",
+  "condition": "m2b_cdma_arl",
+  "query": "What evidence exists on the barriers to scaling renewable energy deployment in developing economies?",
+  "domain": "Climate Policy Research",
+  "category": "renewable_energy",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 5,
+  "eq_titles": [
+    "Developing country",
+    "Renewable energy commercialization",
+    "Energy policy of the United Kingdom",
+    "Climate change",
+    "Sustainable energy"
+  ],
+  "top_papers": [
+    {
+      "title": "Developing country",
+      "abstract": "A developing country is a country with a less-developed industrial base and a lower Human Development Index (HDI) relative to developed countries. However, this definition is not universally agreed upon. There is also no clear agreement on which countries fit this category. The terms low-and middle-income country (LMIC) and newly emerging economy (NEE) are often used interchangeably but they refer only to the economy of the countries."
+    },
+    {
+      "title": "Renewable energy commercialization",
+      "abstract": "Renewable energy commercialization involves the deployment of three generations of renewable energy technologies dating back more than 100 years. First-generation technologies, which are already mature and economically competitive, include biomass, hydroelectricity, geothermal power and heat. Second-generation technologies are market-ready and are being deployed at the present time; they include solar heating, photovoltaics, wind power, solar thermal power stations, and modern forms of bioenergy"
+    },
+    {
+      "title": "Energy policy of the United Kingdom",
+      "abstract": "The energy policy of the United Kingdom refers to the United Kingdom's efforts towards reducing energy intensity, reducing energy poverty, and maintaining energy supply reliability. The United Kingdom has had success in this, though energy intensity remains high. There is an ambitious goal to reduce carbon dioxide emissions in future years, but it is unclear whether the programmes in place are sufficient to achieve this objective. Regarding energy self-sufficiency, UK policy does not address thi"
+    },
+    {
+      "title": "Climate change",
+      "abstract": "Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution. Fossil fuel use, deforestation, and some agricultural and industrial practices rele"
+    },
+    {
+      "title": "Sustainable energy",
+      "abstract": "Energy is sustainable if it \"meets the needs of the present without compromising the ability of future generations to meet their own needs.\" Definitions of sustainable energy usually look at its effects on the environment, the economy, and society. These impacts range from greenhouse gas emissions and air pollution to energy poverty and toxic waste. Renewable energy sources such as wind, hydro, solar, and geothermal energy can cause environmental damage but are generally far more sustainable tha"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Developing_country",
+    "wiki:Renewable_energy_commercialization",
+    "wiki:Energy_policy_of_the_United_Kingdom",
+    "wiki:Climate_change",
+    "wiki:Sustainable_energy"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN42_m2b_cdma_arl_wiki_20260424_193342.md"
+}

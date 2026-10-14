@@ -1,0 +1,51 @@
+{
+  "qid": "EN12",
+  "condition": "m1_vanilla",
+  "query": "What factors determine user trust in AI-generated literature reviews and how can structural auditability address them?",
+  "domain": "Multi-Agent Information Services",
+  "category": "trust",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "AI safety",
+    "Wikipedia",
+    "Artificial intelligence in mental health",
+    "Algorithmic amplification",
+    "Algorithmic bias"
+  ],
+  "top_papers": [
+    {
+      "title": "AI safety",
+      "abstract": "AI safety is an interdisciplinary field focused on preventing accidents, misuse, or other harmful consequences arising from artificial intelligence systems. It encompasses AI alignment (which aims to ensure AI systems behave as intended), monitoring AI systems for risks, and enhancing their robustness. The field is particularly concerned with existential risks posed by advanced AI models.\nBeyond technical research, AI safety involves developing norms and policies that promote safety, including a"
+    },
+    {
+      "title": "Wikipedia",
+      "abstract": "Wikipedia is a free online encyclopedia written and maintained by a community of volunteers, known as Wikipedians, through open collaboration and the wiki software MediaWiki. Founded by Jimmy Wales and Larry Sanger in 2001, Wikipedia has been hosted since 2003 by the Wikimedia Foundation, an American nonprofit organization funded mainly by donations from readers. Wikipedia is the largest and most-read reference work in history.\nInitially available only in English, as of 2026, Wikipedia has grown"
+    },
+    {
+      "title": "Artificial intelligence in mental health",
+      "abstract": "Artificial intelligence in mental health refers to the application of artificial intelligence (AI), computational technologies and algorithms to support the understanding, diagnosis, and treatment of mental health disorders. In the context of mental health, AI is considered a component of digital healthcare, with the objective of improving accessibility and accuracy and addressing the growing prevalence of mental health concerns. Applications of AI in this field include the identification and di"
+    },
+    {
+      "title": "Algorithmic amplification",
+      "abstract": "Algorithmic amplification is the process by which automated ranking and recommendation systems on digital platforms increase the visibility of certain content beyond its initial audience. Major platforms including Facebook, YouTube, TikTok, and X (formerly Twitter) use such systems to determine what appears in users' feeds and search results. The term is used in research on social media and digital media regulation to describe how platform design choices influence the distribution of online info"
+    },
+    {
+      "title": "Algorithmic bias",
+      "abstract": "Algorithmic bias describes systematic and repeatable harmful tendency in a computerized sociotechnical system to create \"unfair\" outcomes, such as \"privileging\" one category over another in ways that may or may not be different from the intended function of the algorithm.\nBias can emerge from many factors, including intentionally biased design decisions or the unintended or unanticipated use or decisions relating to the way data is coded, collected, selected or used to train the algorithm. For e"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:AI_safety",
+    "wiki:Wikipedia",
+    "wiki:Artificial_intelligence_in_mental_health",
+    "wiki:Algorithmic_amplification",
+    "wiki:Algorithmic_bias"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN12_m1_vanilla_wiki_20260424_185452.md"
+}

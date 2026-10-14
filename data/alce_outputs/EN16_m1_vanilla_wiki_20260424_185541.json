@@ -1,0 +1,51 @@
+{
+  "qid": "EN16",
+  "condition": "m1_vanilla",
+  "query": "How do citation practices in digital humanities scholarship differ from natural sciences in terms of traceability standards?",
+  "domain": "Digital Humanities",
+  "category": "citation_practice",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "Humanities",
+    "Open science",
+    "History of science",
+    "Academic journal",
+    "Music theory"
+  ],
+  "top_papers": [
+    {
+      "title": "Humanities",
+      "abstract": "Humanities are academic disciplines that study aspects of human society and culture, including certain fundamental questions asked by humans. During the Renaissance, the term \"humanities\" referred to the study of classical literature and language, as opposed to the study of religion, or \"divinity\". The study of the humanities was a key part of the secular curriculum in universities at the time. Today, the humanities are more frequently defined as any fields of study outside of natural sciences, "
+    },
+    {
+      "title": "Open science",
+      "abstract": "Open science (also known as open research) is the movement to make scientific research, including publications, data, physical samples, software, and models, transparent and accessible to all levels of society through collaborative networks. This encompasses practices such as publishing open research, campaigning for open access, encouraging scientists to practice open-notebook science (such as openly sharing data and code), broader dissemination and public engagement in science, and generally m"
+    },
+    {
+      "title": "History of science",
+      "abstract": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during the Scientific Revolution.\nThe earliest roots of scientific thinking and practice can be traced to A"
+    },
+    {
+      "title": "Academic journal",
+      "abstract": "An academic journal or scholarly journal is a periodical publication in which scholarship relating to a particular academic discipline is published. They serve as permanent and transparent forums for the dissemination, scrutiny, and discussion of research. Unlike professional magazines or trade magazines, the articles are mostly written by researchers rather than staff writers employed by the journal. They nearly universally require peer review for research articles or other scrutiny from contem"
+    },
+    {
+      "title": "Music theory",
+      "abstract": "Music theory is the study of theoretical frameworks for understanding the practices and possibilities of music. The Oxford Companion to Music describes three interrelated uses of the term \"music theory\": The first refers to the \"rudiments\" needed to understand music notation such as key signatures, time signatures, and rhythmic notation; the second is a study of scholars' views on music from antiquity to the present; the third is a sub-topic of musicology that \"seeks to define processes and gene"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Humanities",
+    "wiki:Open_science",
+    "wiki:History_of_science",
+    "wiki:Academic_journal",
+    "wiki:Music_theory"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN16_m1_vanilla_wiki_20260424_185541.md"
+}

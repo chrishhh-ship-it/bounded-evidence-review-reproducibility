@@ -1,0 +1,213 @@
+{
+  "query_id": "EN17",
+  "query": "What are the challenges of applying information retrieval models to multilingual humanities corpora?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Typological Challenges for the Application of Multilingual Language Models in the Digital Humanities",
+      "authors": [
+        "Marcell Richard Fekete",
+        "Johannes Bjerva",
+        "Lisa Beinborn"
+      ],
+      "abstract": "",
+      "year": "2023",
+      "published_date": "2023-11-30",
+      "journal": "Multilingual Digital Humanities",
+      "url": "https://doi.org/10.4324/9781003393696-13",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.4324/9781003393696-13",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models"
+    },
+    {
+      "title": "What are the Factors Influencing Service Provider Response to Working with Families Affected by Intimate Partner Violence and Abuse? A Qualitative Systematic Review of the Literature",
+      "authors": [
+        "Andrea Mayrhofer",
+        "H. Alderson",
+        "Kausiki Sarma",
+        "Caroline Jackson",
+        "P. Olive",
+        "Madalina Toma",
+        "Nushra Mansuri",
+        "Amy Waterfield",
+        "Sharon Crossen",
+        "Deborah Parker",
+        "Julien Forder",
+        "E. Kaner",
+        "Robin Miller",
+        "Mark Gabbay",
+        "Dorcas Akeju",
+        "Ruth McGovern"
+      ],
+      "abstract": "Intimate partner violence and abuse (IPVA) is a major public health issue with long-term negative impacts on abused adults and affected children. Addressing this complex problem requires a multi-agency response, but barriers to effective joint working remain. This review aimed to understand the factors that influence multi-agency response to families who experience IPVA and to their children. We undertook a qualitative systematic review of international literature via five electronic databases and supplemented the review by citation searches, online searches of grey literature, and hand searches of relevant journals. We analyzed data thematically. The 31 identified papers reported findings from 29 unique studies undertaken in six countries and drew on data from 1049 professionals across health care, social care, the police, courts, schools and voluntary organisations. The main factors influencing service provider response to IPVA were siloed approaches to IPVA, particularly the separation between adult and childrens services. This influenced assessment and response to risk. Risk was also a consideration when child-protection staff were expected to work with perpetrators in ‘family settings’, even in lower-risk cases. Multi-agency working facilitated information sharing between agencies, an understanding of each other’s remit, and building trust. Multi-agency collaboration needs to be supported by clear policies of interaction between agencies. Providers of child protection services, health, mental health, housing police and probation need to be supported by specialist training in IPVA, not only in high-risk cases, but also to relieve pressure on an already overstretched workforce.",
+      "year": "2024",
+      "published_date": "2024-10-09",
+      "journal": "Journal of Family Violence",
+      "url": "https://www.semanticscholar.org/paper/fbcc7df1aebe9d1c57e6f17092fc9a22beef754f",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.1007/s10896-024-00755-3",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant systematic review"
+    },
+    {
+      "title": "Are AI agents the new machine translation frontier? Challenges and opportunities of single- and multi-agent systems for multilingual digital communication",
+      "authors": [
+        "Vicent Briva-Iglesias"
+      ],
+      "abstract": "The rapid evolution of artificial intelligence (AI) has introduced AI agents as a disruptive paradigm across various industries, yet their application in machine translation (MT) remains underexplored. This paper describes and analyses the potential of single- and multi-agent systems for MT, reflecting on how they could enhance multilingual digital communication. While single-agent systems are well-suited for simpler translation tasks, multi-agent systems, which involve multiple specialized AI agents collaborating in a structured manner, may offer a promising solution for complex scenarios requiring high accuracy, domain-specific knowledge, and contextual awareness. To demonstrate the feasibility of multi-agent workflows in MT, we are conducting a pilot study in legal MT. The study employs a multi-agent system involving four specialized AI agents for (i) translation, (ii) adequacy review, (iii) fluency review, and (iv) final editing. Our findings suggest that multi-agent systems may have the potential to significantly improve domain-adaptability and contextual awareness, with superior translation quality to traditional MT or single-agent systems. This paper also sets the stage for future research into multi-agent applications in MT, integration into professional translation workflows, and shares a demo of the system analyzed in the paper.",
+      "year": "2025",
+      "published_date": "2025-04-17",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2504.12891v1",
+      "arxiv_id": "2504.12891v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.ET",
+        "cs.HC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "The Potential Application of Large Language Models in Pharmaceutical Supply Chain Management",
+      "authors": [
+        "David Aguero",
+        "Scott D. Nelson"
+      ],
+      "abstract": "The pharmaceutical supply chain is growing increasingly intricate, with various challenges arising in drug inventory management, procurement, distribution, and dispensing processes. Issues such as shortage mitigation, inconsistency in regulatory compliance, cost control, cold-chain storage, adaptation to technologic advances, and secure information sharing all pose significant difficulties to pharmaceutical supply chain management.1 Consequently, this adds immense pressure on health system pharmacies to enhance their arsenal of available tools.2Pediatric hospitals in particular encounter unique challenges relating to pharmaceutical and supply shortages, which can cause delays in vital patient procedures, alterations in care protocols, and even unexpected changes in care locations.Historically, supply chain operations have been improved by using physical automation technologies and methodologies such as robotic process automation. Efficient operations use business intelligence to drive informed decisions regarding sourcing, pricing, and patient care, which can be facilitated either by internal teams or through vendor-provided solutions.3 While this approach does mitigate several problems, it rarely results in holistic problem resolution—like a chronic illness, these issues wax and wane.Addressing these supply chain challenges is crucial to ensure that patients receive the most optimal care available.3 Emerging technologies like large language models (LLMs) and generative artificial intelligence (AI) present new opportunities to address these supply chain challenges. LLMs can be used for knowledge management, data analysis, and process automation, contributing to the ongoing digitalization of supply chains, in ways that are difficult to predict, but worthwhile considering.4LLMs are a type of deep-learning artificial neural network that can perform various natural language processing (NLP) tasks, such as recognizing, translating, predicting, and generating text. However, unlike traditional NLP models, LLMs can capture long-range dependencies and contextual information within the entire prompt by using what are called self-attention mechanisms, instead of word by word. Self-attention allows the model to focus on the most relevant parts of the input and output, and how they relate to each other.5 This self-attention is based on a mathematical model called a transformer, which uses many layers of neural networks to process the input and output text sequences. The transformer consists of an encoder that converts the input text into numerical representations called tokens, and a decoder to convert the results back into text. These LLM transformers are trained to predict the next best word, or missing words, based on many examples of natural language from massive amounts of data, often from diverse sources and domains, to learn the patterns and structures of natural language. LLM transformers have billions of parameters, which are the mathematical weights the model learns during training and uses to make predictions during inference. Hence, an already trained transformer model that is used to generate text is called a generative pretrained transformer. LLMs have achieved remarkable results in various NLP benchmarks and applications, such as question answering, text summarization, text generation, and sentiment analysis. Training a transformer requires massive amounts of compute power,6 so these pretrained transformers can also be adapted to specific tasks or domains by fine-tuning, which is the process of updating the parameters of a pretrained model by using a smaller and more relevant dataset or even using reinforcement learning from human feedback of results.7LLMs have proven to be a disruptive technology, and there is a lot of interest in leveraging LLMs across many domains to perform different tasks, and as such, they have the potential to affect health care in many ways. For example, LLMs can help pharmacists and clinicians with drug information retrieval, drug interaction checking, adverse drug event detection, medication adherence monitoring, patient education, and clinical decision support.8 However, LLMs also pose some challenges and limitations, such as data quality, data privacy, model reliability, AI hallucinations, model explainability, and ethical implications. Therefore, it is important to evaluate the performance and validity of LLMs in health care settings and to ensure their safe and responsible use.In this commentary, we will explore several ways LLMs could be applied to pharmaceutical supply chain management, and some areas where there are potentially major limitations to their use.Systems Integration. LLMs can likely help integrate various inventory optimization tools and disparate databases by using natural language to generate queries and responses, which could reduce the need for manual data entry and extraction across different systems. For example, an LLM could help extract relevant information from unstructured or semi-structured data sources, such as free-text or voice recordings, and then structure the relevant information in a way that can be used by other systems (e.g., inventory management systems based on upstream prescriber orders). Additionally, LLMs perform well at code generation, which could reduce the effort needed to convert data from multiple systems into a standard data model, or help with translating the data from one system to another so it can then be used in the other system, thereby providing an end-to-end integration and data flow by translating between systems. The limitation here is that the model will not be able to extract data that do not exist or are not available to the LLM from the external systems.Human-Data Interface and Data Analysis. Similar to the systems integration, LLMs could help with the human-computer interface and facilitate data analysis.9 For example, using their ability to translate natural language to code could be useful for extracting and analyzing data from a database. A person could ask a question of the data, such as “Which medications do we use the most each week, and what is their total cost?” The LLM would then convert the question into a structured query, extract the data, then write python code to analyze those data to determine which medications are used the most and how much they have cost. Given the chatbot nature of the LLMs, the LLM could even ask clarifying questions to better formulate the question, such as asking how far back the user would like to look for summing the total cost of each medication. This natural conversational format could facilitate easier use of the computer systems. However, anyone who has worked in reporting know the challenges to shaping questions and understanding the true intent behind a question to provide valuable information. The LLMs could provide the user with the information based on what they asked, but that may not be what they really wanted, or could even be wrong. It is important to test and verify ­results to make sure the statistical analysis chosen is the appropriate approach, and that the databases used have reliable data to answer the questions.Process Automation. LLMs could help facilitate the automation of complex hierarchical and planning tasks, such as automatically performing a task when certain conditions are met or helping to triage messages to the correct recipients. LLMs have the capability to report even when there is missing or incoherent data present, they are less affected by spelling mistakes or grammatical errors, and could even make mass changes to data. However, having LLMs make mass changes to data to automatically carry out tasks could cause problems, and there should always be a human in the loop to review and approve the action to be taken.Simulation and Training. LLMs can theoretically be used to help improve supply chain resilience by simulating disruption scenarios to help generate and improve risk-management plans. This is achieved through the analysis of archival data and external influencers to highlight weak points. The ability of these AI models to digest vast amounts of data makes it possible to detect risk-associated patterns and forecast possible disturbances.10 A trained LLM can evaluate factors such as historical supplier disruptions, meteorologic patterns, and market seasonality, and early results suggest this has been successful in other industries.11 Upon identifying an elevated risk by the generative AI model involved in the supply chain planning, it could simulate the effect on supply routes. This prognostic capacity could enable pharmacy operations to establish stronger emergency plans. Additionally, LLMs can quickly generate synthetic datasets for training and onboarding new staff by walking through various scenarios, asking questions, and responding to questions.9 However, LLMs are not able to predict unusual or rare events, such as war, natural disasters, cyberattacks, or pandemics (i.e., black swan events) that could very well affect the supply chain.Knowledge Management. Knowledge management is a challenge in any industry or company. LLMs could be trained on internal, unstructured data, such as emails, meeting minutes, training materials, transaction histories, notes, best-practice documents, policy and standard operating procedure documents, and notifications received from outside systems. This could help facilitate search of this valuable source of institution-specific recommendations, answer questions, and identify how similar issues were handled in the past.9 However, policies and practices tend to change over time, and the LLM could return outdated materials, or require retraining. The performance of the model is only going to be as good as the information it trains on.Text Summarization. One key feature of LLMs is their ability to summarize large volumes of text, which could be used to help chronical or document decisions made as well as the rationale. LLMs could be used to summarize notifications of potential shortages, then combined with internal data, put those notifications in institution-specific context for human review. While text summarization is helpful, there is always the risk of missing or leaving out key information.Optimizing Travel Routes and Recommending Methods to Reduce Environmental Impact. One potential area could be to use LLMs to optimize travel or delivery routes. One could imagine putting the delivery data and concepts into textual sentences and then do analysis to optimize the routes. However, there are already sophisticated algorithms and software used to optimize travel routes.While LLMs hold potential in many prediction-based applications, they also face significant hurdles in other aspects of pharmaceutical supply chain. The authors believe LLMs would struggle to produce value in the following scenarios.Predicting Medication Shortages. Medication shortages are generally triggered by acute events such as increases in demand, raw and/or active product ingredient shortages, or complications in manufacturing processes. Because LLMs are trained on historical data and may not have real-time access to such rapidly changing information, they are challenged to predict theoretical shortages. In fact, relying on these models to predict a shortage could cause a triggering event that leads to a medication shortage. Further, much of the data needed to predict medication shortages is private, meaning only specific entities (Group Purchasing Organization, wholesalers, or specific organizations like the United States Pharmacopeia) have access to the right set of information to predict a theoretical shortage with any accuracy. Black swan events, such as the COVID-19 pandemic, cause additional complications for LLMs, which may lack a full contextual understanding necessary to interpret the nuanced effects of geopolitical events, economic trends, natural disasters, and other factors affecting supply chain operations.Enhanced Data Quality. The importance of standardization and structured syntax and semantics in enhancing supply chain operations cannot be overstated. Despite the existence of common data standards such as the Global Trade Item Number and the Global Location Number from GS1, their adoption is not universal. It is possible for 2 facilities within the same health system to use different systems, or different versions of the same system. Furthermore, different major wholesalers provide varying information for identical products. This means Wholesaler A and Wholesaler B may categorize the therapeutic class of a new drug differently, leading to inconsistencies and posing substantial challenges for LLM.Even as GS1 US and other organizations promote data standardization, limited standardization persists in the development, configuration, and data storage methods of supply chain systems. This can impede LLMs’ ability to derive meaningful insights from unstructured data, exemplifying the “Garbage In, Garbage Out” concept. Particularly for pediatric hospitals, the lack of standardization may lead to medication administration errors and other crucial downstream processes. For instance, if an LLM approves distribution of a product containing preservatives, it may negatively affect a sensitive pediatric patient population. Furthermore, the lack of comprehensive integration and interoperability among various health systems today can hinder data and insights sharing across different sections of the supply chain.Nonetheless, LLMs can assist in detecting anomalies and effecting repairs in mismatched databases. Clinical content vendors can use trained models to scrutinize the content (typically sent monthly as part of a subscription) for missing or miscoded fields, based on preexisting data. Such data eventually finds its way into both electronic health record and third-party–supported inventory systems that affect patient care. Leveraging historical data, LLMs could also assess trends and detect anomalies within the system, such as miscoded revenue fields or quantity conversion factors between units of issue (like vials) and units of sale (like cartons containing 5 sleeves of 6 vials).Inventory Management. While powerful in making real-time decisions based on historical information, placing high-acuity orders based on present day workflows (consignment, 340B accumulation) suggest LLMs are a stronger copilot than a replacement for humans in current state. These tasks require a human touch, or a “thoughtful, warm body,” to make decisions based on nuanced factors that a language model may not fully comprehend (such as substitution of a compounded preparation in place of a commercially used preparation, or considering loan/borrow activity for patient-specific doses within a geographic area, and factoring these scenarios in appropriately for inventory use and forecasting).While LLMs can augment intelligence with predictive analytics and give personalized product alternative recommendations, they may not always provide accurate local forecasting based on historical usage. This could lead to incorrect predictions and potential inventory imbalances. Furthermore, while they can automate tasks like document processing through intelligent automation or digital workers that combine conversational AI with robotic process automation, there are already more specialized tools available for such tasks. These tools are designed specifically for inventory management and can provide more accurate and efficient results, making them a better choice for managing multiple ordering systems and adjusting inventory levels regularly.Keeping LLMs Up-to-Date Can Be Difficult. Training LLMs requires massive amounts of compute power and data to train on, which could pose a significant limitation to their application in supply chain. Pharmaceutical supply chain management is a very dynamic and complex domain that involves multiple stakeholders, regulations, and uncertainties. The LLMs could be making recommendations based on historical or out-of-date information. Keeping LLMs up-to-date with the latest information and trends could prove to be very difficult and costly. Moreover, retraining LLMs can break the reinforcement learning from human feedback process,12 which is a technique that uses the feedback from human users and their preferences to optimize the LLM’s output performance. Therefore, retraining the model can degrade its performance and alignment with human values and preferences. One possible way to overcome these challenges is by using an application programing interface (API) to improve the prompt. In this method, the LLM uses the prompt given by the user, then calls an API to pull the most up-to-date information, then adds that information back into the prompt to improve the results. An API could provide relevant and updated information from various sources, such as databases, web search results, or news articles, and incorporate that information into the new prompt fed back to the LLM. Using an API can also enable more fine-grained control over the LLM’s behavior, such as specifying the tone, style, or length of the output. Given the LLM’s ability to write code, it could even help write its own API interfaces.It Is All About the Prompt. The usefulness of LLMs and their results depend on the and of the which the LLM’s and output. However, there are some limitations to such as context and are when the may not provide context or information for the model to generate relevant and accurate For example, if the prompt were a report on the inventory of the the LLM may not know which what or what of is of this is also by most LLMs have a of or that they can as input or output. For example, if the prompt is a of the latest on COVID-19 in one the input prompt would not be large for the LLM to process all the latest and the model may not be able to all the necessary information in such a the importance of good cannot be overstated. are and provide context and information for the model to generate and relevant also use appropriate and to the output. For example, a good prompt for an inventory report could a report on the inventory of for the of the following total of in by (e.g., and of each current and for each to optimize the management and reduce report to and use and where produce the most some organizations have even prompt to the most out of the is the process of for It is a that requires to and is an and by learning and prompt users could the power of LLMs to automate tasks and improve and with any technology, LLMs also pose certain for For example, LLMs may sensitive data such as patient inventory or supplier and use that data for training or inference. This could lead to data or if the LLMs are not or Moreover, LLMs may generate or content based on the patterns they during which could the quality, or of the pharmaceutical supply of the common that affect LLM are as or the LLM by using that make the model or perform the LLM sensitive or information through the LLM’s responses, either or This results from to the LLM from the system or thereby the LLM to access or that it should code the LLM prompt to have it code or on the system or potentially its or on the LLM’s output or which could in errors, or This is also to as automation AI the to the LLM’s or with the intent or which could lead to or data the of the training data, either by data or by data, which could affect the LLM’s performance or that are designed to or the either by it to produce incorrect or or by its or or the LLM’s parameters, or either by the LLM or by analyzing its responses, which could enable or sensitive This when or the training data or the LLM’s internal either by the LLM’s or by its which could data or LLMs are trained to predict the next best word, based on statistical patterns from large amounts of data, and as such, this can in errors or An when LLMs generate output that is not with the training data, but this is in such a way as to in the incorrect which may to the can cause or if the user is not of the limitations and of Therefore, it is important to LLMs as than human intelligence means that LLMs are designed to assist and human not to or Additionally, even LLMs can answer questions, they are only statistical models and not of understanding the or domain of the training data or LLMs a that could enhance some within pharmaceutical supply chain their application with certain and and will likely encounter hurdles when to LLMs to supply chain The authors using LLMs for tasks that depend on historical and data, and it is crucial to verify the output LLMs to The use of LLMs should be with and and should always be by human and",
+      "year": "2024",
+      "published_date": "2024-04-01",
+      "journal": "The Journal of Pediatric Pharmacology and Therapeutics",
+      "url": "https://doi.org/10.5863/1551-6776-29.2.200",
+      "arxiv_id": "",
+      "keywords": [
+        "Supply chain",
+        "Risk analysis (engineering)",
+        "Supply chain management",
+        "Procurement",
+        "Automation",
+        "Process (computing)",
+        "Health care",
+        "Computer science"
+      ],
+      "citations": 13,
+      "source": "OpenAlex",
+      "doi": "10.5863/1551-6776-29.2.200",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis"
+    },
+    {
+      "id": "gs_a6157f8f58",
+      "title": "A systematic mapping review of algorithms for the detection of rhymes, from early digital humanities projects to the rise of large language models",
+      "abstract": "of the input distribution; the model can then create new rhymes , given 452 that large language  models released since we did  as good poetry as does a fine-tuned GPT-3 model [29]. 454",
+      "authors": [
+        "DG Brown",
+        "R Hutchinson",
+        "CE Lamb"
+      ],
+      "year": 2024,
+      "journal": "NA",
+      "citations": 4,
+      "url": "https://uwspace.uwaterloo.ca/items/a9e33e46-dbeb-4081-b6a6-ba1de95eff4f",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "id": "gs_e49226a4ed",
+      "title": "From promise to practice: challenges and pitfalls in the evaluation of large language models for data extraction in evidence synthesis",
+      "abstract": "large language models (LLMs) has led to the exploration of their use in evidence synthesis   ,6–9 statistical analysis8 and writing plain language summaries.10 Of these tasks, data",
+      "authors": [
+        "G Gartlehner",
+        "L Kahwati"
+      ],
+      "year": 2025,
+      "journal": "BMJ Evidence-Based …",
+      "citations": 24,
+      "url": "https://ebm.bmj.com/content/30/6/385.abstract",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "Optimal strategies for adapting open-source large language models for clinical information extraction: a benchmarking study in the context of ulcerative colitis research",
+      "authors": [
+        "R. P. Yim",
+        "MS Anna L. Silverman",
+        "MD Shan Wang",
+        "P. V. A. Rudrapatna"
+      ],
+      "abstract": "Background: Closed-source large language models (LLMs) like GPT-4o have shown promise for clinical information extraction but are potentially limited by cost, data security concerns, and inflexibility. Open-source models have emerged as an attractive alternative, with many LLM adaptation strategies developed in the literature. However, it is currently unclear what adaptation strategies are optimal, and how they ultimately compare to closed-source models. Methods: We studied the effects of three common LLM adaptation strategies: chain-of-thought prompting, few-shot prompting, and fine-tuning. Our target for information extraction was the Mayo Endoscopic Subscore (MES). We applied those strategies in all combinations to six open-source models (8-70 billion parameters) using an annotated set of colonoscopy procedure reports from two centers: the University of California, San Francisco (N=608) and San Francisco General Hospital (N=217). We analyzed the relationship of these strategies to several performance metrics with a mixed-effects model, accounting for the variability between centers and LLMs. GPT-4o was not subject to QLoRA due to its closed-source nature but was used as a comparator in our benchmarks. We also provide in-depth commentary on the cost-effectiveness of these open-source LLMs and GPT-4o for MES extraction. Results: Across adaptation strategies, QLoRA statistically (p<0.001) improves the performance of open-source LLMs by 8.3-15.6 percentage points across accuracy, precision and recall. However, GPT-4o with prompt engineering is superior to the best open-source model by a margin of 2.5-5.4%. Yet, a simple cost-effectiveness analysis suggests that GPT-4o is expensive compared to open-source models. Conclusion: GPT-4o is currently the most performant LLM for MES extraction . If unavailable, open-source models optimized with QLoRA are a competitive alternative. However, our results also suggest that current instruction-following LLMs including GPT-4o do not fully follow user-provided instructions, leaving room for improvement. More work is needed to achieve consistent, near-perfect performance in clinical information extraction by LLMs.",
+      "year": "2024",
+      "published_date": "2024-11-07",
+      "journal": "medRxiv",
+      "url": "https://www.semanticscholar.org/paper/62722a27b44552e42df9e589aec32412a4d87386",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1101/2024.11.06.24316817",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "title": "Revisiting Task-Oriented Dataset Search in the Era of Large Language Models: Challenges, Benchmark, and Solution",
+      "authors": [
+        "Zixin Wei",
+        "Yucan Guo",
+        "Jinyang Li",
+        "Xiaolin Han",
+        "Xiaolong Jin",
+        "Chenhao Ma"
+      ],
+      "abstract": "The search for suitable datasets is the critical\"first step\"in data-driven research, but it remains a great challenge. Researchers often need to search for datasets based on high-level task descriptions. However, existing search systems struggle with this task due to ambiguous user intent, task-to-dataset mapping and benchmark gaps, and entity ambiguity. To address these challenges, we introduce KATS, a novel end-to-end system for task-oriented dataset search from unstructured scientific literature. KATS consists of two key components, i.e., offline knowledge base construction and online query processing. The sophisticated offline pipeline automatically constructs a high-quality, dynamically updatable task-dataset knowledge graph by employing a collaborative multi-agent framework for information extraction, thereby filling the task-to-dataset mapping gap. To further address the challenge of entity ambiguity, a unique semantic-based mechanism is used for task entity linking and dataset entity resolution. For online retrieval, KATS utilizes a specialized hybrid query engine that combines vector search with graph-based ranking to generate highly relevant results. Additionally, we introduce CS-TDS, a tailored benchmark suite for evaluating task-oriented dataset search systems, addressing the critical gap in standardized evaluation. Experiments on our benchmark suite show that KATS significantly outperforms state-of-the-art retrieval-augmented generation frameworks in both effectiveness and efficiency, providing a robust blueprint for the next generation of dataset discovery systems.",
+      "year": "2025",
+      "published_date": "2025-12-17",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/cd6ed6620434589e36b52f2b2feea19cc79471d1",
+      "arxiv_id": "2512.15363",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2512.15363",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    }
+  ],
+  "timestamp": "20260423_164620"
+}

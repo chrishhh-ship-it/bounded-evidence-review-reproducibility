@@ -1,0 +1,27 @@
+{
+  "qid": "EN36",
+  "condition": "m1_vanilla",
+  "query": "How can active learning reduce the screening burden in systematic review title and abstract triage workflows?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "screening",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 1,
+  "eq_titles": [
+    "Wikipedia: How can active learning reduce the scree"
+  ],
+  "top_papers": [
+    {
+      "title": "Wikipedia: How can active learning reduce the scree",
+      "abstract": ""
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Wikipedia:_How_can_active_learning_reduce_the_scree"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN36_m1_vanilla_wiki_20260424_185926.md"
+}

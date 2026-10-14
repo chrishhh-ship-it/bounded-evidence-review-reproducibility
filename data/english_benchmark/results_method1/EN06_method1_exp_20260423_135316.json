@@ -1,0 +1,197 @@
+{
+  "query_id": "EN06",
+  "query": "What distinguishes single-agent from multi-agent information retrieval pipelines in terms of evidence accountability?",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "From single-agent to multi-agent: a comprehensive review of LLM-based legal agents",
+      "authors": [
+        "S. Yang",
+        "Zhen Yang",
+        "Yutong Liu",
+        "Hongtao Wang"
+      ],
+      "abstract": "With the growing application of artificial intelligence (AI) in the legal domain, large language model (LLM)-based legal agents have achieved remarkable progress. This survey provides a comprehensive review of the applications and developments of LLM-driven agents in law. Firstly, we outline the core legal tasks, including legal information retrieval, question answering, judgment prediction, and legal text generation, along with the corresponding evaluation benchmarks. Then, we analyze the technical challenges faced by both single-agent and multi-agent systems in legal scenarios and summarize the prevailing research methods. Finally, we discuss future directions for legal agents, including enhancing single-agent trustworthiness through explainability, boosting multi-agent efficiency with collaborative AI techniques, enabling cross-jurisdictional interoperability via legal knowledge graphs, and establishing ethical governance with quantifiable metrics. By synthesizing existing research, this survey aims to offer theoretical insights and practical guidance for the sustainable advancement of legal agents.",
+      "year": "2025",
+      "published_date": "2025-11-18",
+      "journal": "AI Agent",
+      "url": "https://www.semanticscholar.org/paper/56a22c84eff8daf77026636242a23bc361d1c569",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.20517/aiagent.2025.06",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service literature review"
+    },
+    {
+      "title": "Kelvin Wake-Aware Multi-Agent Network for Ship Kinematic Information Retrieval from Weak Optical Signatures",
+      "authors": [
+        "Borui Li",
+        "Baoxiang Huang",
+        "He Gao",
+        "Ge Chen"
+      ],
+      "abstract": "The Kelvin wake pattern in optical remote sensing imagery encodes essential information about a ship&amp;apos;s motion state, enabling the inversion of its velocity and heading. However, the inherently weak wake signature is often obscured by ocean background clutter. Under weak wake conditions, existing methods mainly rely on local frequency-domain analysis and fail to stably and reliably exploit wake structural information for accurate parameter retrieval. To overcome this limitation, we present the Wave-Aware Multi-Agent Network (WAMANet) and construct a novel agent framework designed for direct ship motion parameter retrieval. WAMANet integrates a Detection Agent and a Segmentation Agent to synergistically perceive the wake region by fusing the macro-scale Kelvin arm geometry with fine-grained wave structure details. This robust perceptual foundation feeds into a dedicated Parameterization Agent, which performs the final regression to invert the ship&amp;apos;s velocity and heading directly from the imagery. We evaluate the framework using two newly constructed benchmark datasets. Experimental results demonstrate that WAMANet achieves highly accurate inversion, with a mean absolute error (MAE) of 0.29 m/s for velocity, 6.33° for heading, and an R² score of 0.93 for both cases. This performance validates the proposed framework as an effective and reliable end-to-end solution for ship motion retrieval from optical imagery data.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2139/ssrn.6175591",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2139/ssrn.6175591",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service full text retrieval"
+    },
+    {
+      "title": "Systematic Failures in Collective Reasoning under Distributed Information in Multi-Agent LLMs",
+      "authors": [
+        "Yuxuan Li",
+        "Aoi Naito",
+        "Hirokazu Shirado"
+      ],
+      "abstract": "Multi-agent systems built on large language models (LLMs) are expected to enhance decision-making by pooling distributed information, yet systematically evaluating this capability has remained challenging. We introduce HiddenBench, a 65-task benchmark grounded in the Hidden Profile paradigm, which isolates collective reasoning under distributed information from individual reasoning ability. Evaluating 15 frontier LLMs, we find that multi-agent LLMs achieve only 30.1% accuracy under distributed information, compared to 80.7% accuracy for single agents given complete information. We trace this gap to a systematic failure mode: agents cannot recognize or act under latent information asymmetry-they fail to reason about what others might know but have not yet expressed, leading to premature convergence on shared evidence while critical distributed facts remain unexplored. These failures persist across prompting strategies, communication depths, and group sizes-and worsen as groups scale. While some models (e.g., Gemini-2.5-Flash/Pro) outperform others, neither model scale nor individual reasoning accuracy reliably predicts collective performance. Our results identify failures in collective information exploration in decision-making as a key limitation of multi-agent LLMs, and provide a theory-grounded, reproducible framework for diagnosing collective reasoning failures.",
+      "year": "2025",
+      "published_date": "2025-05-15",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2505.11556v3",
+      "arxiv_id": "2505.11556v3",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service benchmark"
+    },
+    {
+      "title": "Multi-Agent-Based Information Retrieval System Using Information Scent in Query Log Mining for Effective Web Search",
+      "authors": [
+        "Suruchi Chawla"
+      ],
+      "abstract": "This chapter explains the multi-agent system for effective information retrieval using information scent in query log mining. The precision of search results is low due to difficult to infer the information need of the small size search query and therefore information need of the user is not satisfied effectively. Information Scent is used for modeling the information need of user web search session and clustering is performed to identify the similar information need sessions. Hyper Link-Induced Topic Search (HITS) is executed on clusters to generate the Hubs and authorities for web page recommendations to users who search with similar intents. This multi-agent system based on clustered query sessions uses query operations like expansion and recommendation to infer the information need of user search queries and recommends Hubs and authorities for effective web search.",
+      "year": "2018",
+      "published_date": "2018",
+      "journal": "Information Retrieval and Management",
+      "url": "https://doi.org/10.4018/978-1-5225-5191-1.ch012",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.4018/978-1-5225-5191-1.ch012",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service full text retrieval"
+    },
+    {
+      "title": "LLM-Based Multi-Agent Blackboard System for Information Discovery in Data Science",
+      "authors": [
+        "Alireza Salemi",
+        "Mihir Parmar",
+        "Palash Goyal",
+        "Yiwen Song",
+        "Jinsung Yoon",
+        "Hamed Zamani",
+        "Tomas Pfister",
+        "Hamid Palangi"
+      ],
+      "abstract": "Advances in large language models (LLMs) have created new opportunities in data science, but their deployment is often limited by the challenge of finding relevant data in large data lakes. Existing methods struggle with this: both single- and multi-agent systems are quickly overwhelmed by large, heterogeneous files, and master-slave multi-agent systems rely on a rigid central controller that requires precise knowledge of each sub-agent's capabilities, which is not possible in large-scale settings where the main agent lacks full observability over sub-agents' knowledge and competencies. We propose a novel multi-agent paradigm inspired by the blackboard architecture for traditional AI models. In our framework, a central agent posts requests to a shared blackboard, and autonomous subordinate agents - either responsible for a partition of the data lake or retrieval from the web - volunteer to respond based on their capabilities. This design improves scalability and flexibility by removing the need for a central coordinator to know each agent's expertise or internal knowledge. We evaluate the approach on three benchmarks that require data discovery: KramaBench and modified versions of DSBench and DA-Code. Results show that the blackboard architecture substantially outperforms strong baselines, achieving 13%-57% relative improvements in end-to-end success and up to a 9% relative gain in data discovery F1 over the best baseline.",
+      "year": "2025",
+      "published_date": "2025-09-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2510.01285v2",
+      "arxiv_id": "2510.01285v2",
+      "keywords": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CL",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "Multi-Agent AI Systems in Healthcare: Systematic Evidence Synthesis Via PRISMA of Clinical Decision Support Systems, Robotic Interventions, and Critical Care",
+      "authors": [
+        "Oto Peter Ode",
+        "Ndukwe Chika Kalu",
+        "Saleh Abbas",
+        "Arslan Arshad",
+        "Adagboyi Isaac Inalegwu",
+        "Konstantin Koshechkin"
+      ],
+      "abstract": "Abstract: Multi-agent artificial intelligence systems (MAS) is transforming the healthcare sector by enabling intelligent decision-making, robotic interventions, and critical care management. Despite growing interest, a comprehensive synthesis of their real-world applications, performance, and limitations is lacking. This systematic review aims to evaluate the deployment of MAS in healthcare across three key domains: Clinical Decision Support Systems (CDSS), Robotic Interventions, and Critical Care Monitoring. It also addresses ethical and legal considerations, offers a comparative framework, and identifies research gaps. A systematic search of PubMed, IEEE Xplore, Scopus, and Web of Science was conducted following PRISMA guidelines. A total of 150 records were retrieved. After duplicate removal and screening, 32 studies met inclusion criteria. The Joanna Briggs Institute (JBI) Critical Appraisal Checklist guided quality assessment. Data were extracted using a structured form and organized by topic. Among the 32 studies included, 12 focused on MAS-based CDSS, 11 on robotic interventions, and 9 on MAS in critical care. Most MAS demonstrated improved diagnostic accuracy, aided real-time decision support, and enhanced patient monitoring. However, over 60% involved practical models and lacked clinical validation. Ethical concerns, particularly around autonomy, data privacy, transparency, and legal accountability were sometimes overlooked. Only 7 studies discussed ethical or legal implications in depth. A comparative framework was developed, comparing MAS tools based on scalability, clinical validation, autonomy, human-AI interaction, and data transparency. No doubt, MAS hold transformative potential across healthcare domains. However, real-world deployment remains unclear. Greater emphasis on clinical validation, ethical design, and regulatory frameworks is needed. This review provides suggestions for future research and responsible adoption of MAS in healthcare.",
+      "year": "2025",
+      "published_date": "2025-06-19",
+      "journal": "International Journal of Latest Technology in Engineering Management &amp; Applied Science",
+      "url": "https://www.semanticscholar.org/paper/fe07442a7eb33396064eb4d2400ea3464a03cd29",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.51583/ijltemas.2025.140500080",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "The Impact of Strategies and Information in Model Checking for Multi-Agent Systems",
+      "authors": [
+        "Vadim Malvone"
+      ],
+      "abstract": "System correctness is one of the most crucial and challenging objectives in software and hardware systems. With the increasing evolution of connected and distributed systems, ensuring their correctness requires the use of formal verification for multi-agent systems. In this paper, we present a summary of certain results on model checking for multi-agent systems that derive from the selection of strategies and information for agents. Additionally, we discuss some open directions for future research.",
+      "year": "2023",
+      "published_date": "2023-10-03",
+      "journal": "EPTCS 391, 2023, pp. 63-70",
+      "url": "http://arxiv.org/abs/2310.02342v1",
+      "arxiv_id": "2310.02342v1",
+      "keywords": [
+        "cs.LO",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service"
+    },
+    {
+      "title": "Multi-Agent Retrieval Augmented Generation for Clinical Decision Support: A Systematic Review and Integrative Conceptual Framework",
+      "authors": [
+        "Tarisai Mugambiwa",
+        "Belinda Ndlovu"
+      ],
+      "abstract": "Multi agent retrieval augmented generation (RAG) systems are increasingly explored as advanced architectures for clinical decision support combining information retrieval, reasoning and verification through coordinated agent interactions. This study systematically reviews applications of agentic and multi agent RAG in clinical decision support systems (CDSS) and synthesizes an integrative conceptual framework linking technical design to technology adoption considerations. Following PRISMA guidelines, searches were conducted from PubMed, IEEE Xplore and ScienceDirect using structured Boolean strings combining terms for multi agent architectures, RAG and CDSS.The search yielded 12 studies published between 2020 and 2025 that met the inclusion criteria. The review synthesises evidence on multi agent role configurations retrieval and reasoning strategies, verification mechanisms and reported clinical contexts. Across studies, dominant challenges include data and corpus limitations retrieval quality dependency, limited clinical validation and computational overhead, alongside governance concerns such as privacy, bias and accountability. Building on the synthesis, we propose a four-agent CDSS framework retriever, reasoner, verifier, safety and map its deployment determinants to Technology Acceptance Model constructs perceived usefulness, perceived ease of use, trust and diffusion of Innovations attributes. The review concludes with design-oriented recommendations for safer, explainable, and adoption-ready multi-agent RAG CDSS, particularly for low-resource contexts.",
+      "year": "2026",
+      "published_date": "2026-2-4",
+      "journal": "Journal of Applied Informatics and Computing",
+      "url": "https://doi.org/10.30871/jaic.v10i1.11900",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.30871/jaic.v10i1.11900",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    }
+  ],
+  "timestamp": "20260423_135316"
+}

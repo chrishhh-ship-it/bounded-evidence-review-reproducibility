@@ -33,3 +33,9 @@ and score fields were unaffected and are preserved in full here.
 
 `imputation_log.json` records the three documented cleaning decisions. No
 additional values were reconstructed for this public snapshot.
+
+For compatibility with the supplied R2 scripts, `raw_responses_n30.csv` contains
+the same anonymous 300-row, 10-field table as `analysis_responses_n30.csv`.
+The name is retained for script compatibility; this public file does not include
+original questionnaire filenames or direct identifiers. All retained analysis
+fields are identical to those in the supplied v4 archive.

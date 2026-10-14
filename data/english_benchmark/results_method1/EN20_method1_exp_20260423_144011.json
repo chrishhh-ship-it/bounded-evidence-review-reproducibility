@@ -1,0 +1,192 @@
+{
+  "query_id": "EN20",
+  "query": "How does linked open data infrastructure support citation verification and provenance tracking in digital scholarship?",
+  "domain_id": "digital_humanities",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Members of Parliament in Finland Knowledge Graph and Its Linked Open Data Service",
+      "authors": [
+        "Petri Leskinen",
+        "Eero Hyvönen",
+        "Jouni Tuominen"
+      ],
+      "abstract": "This paper presents a prosopographical knowledge graph describing the Members of Parliament in Finland and related actors in politics, extracted from the databases and textual descriptions of the Parliament of Finland. The data has been interlinked internally and enriched with data linking to external data sources according to the 5-star Linked Data model. The data has been published together with its schema for better re-usability and is validated using ShEx. The knowledge graph presented is integrated with another knowledge graph about over 900 000 parliamentary plenary speeches in Finland (1907–) to form a larger parliamentary LOD publication FinnParla of the Parliament of Finland. The data is being used for Digital Humanities research on parliamentary networks, culture, and language.",
+      "year": "2021",
+      "published_date": "2021-08-31",
+      "journal": "Studies on the semantic web",
+      "url": "https://doi.org/10.3233/ssw210049",
+      "arxiv_id": "",
+      "keywords": [
+        "Parliament",
+        "Prosopography",
+        "Schema (genetic algorithms)",
+        "Graph",
+        "Computer science",
+        "Politics",
+        "Knowledge graph",
+        "Political science"
+      ],
+      "citations": 10,
+      "source": "OpenAlex",
+      "doi": "10.3233/ssw210049",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "id": "wf_31922a68eb40911fca655e4a3c6296cc",
+      "title": "Open scholarship in Australia: A review of needs, barriers, and opportunities",
+      "abstract": "Open scholarship encompasses open access, open data, open source software, open educational resources, and all other forms of openness in the scholarly and <span class='highlight'>research</span> environment, using <span class='highlight'>digital</span> or  with emphasis on the <span class='highlight'>humanities</span>. This involves a review of global, institutional, systemic, and financial obstacles, followed by a <span class='highlight'>synthesis</span> of how these barriers are influenced at diverse stakeholder   sustain access to publicly funded <span class='highlight'>research</span> as journal, monograph, and open scholarship costs continue to rise. Those in academia voice concerns about the lack of appropriate open scholarship  infrastructure and recognition for the adoption of open practices. Limited access to credible <span class='highlight'>research</span> has led, in some cases, to public misunderstanding about legitimacy in online sources. This article, therefore , represents an urgent call for more empirical <span class='highlight'>research</span> around `missed opportunities' to promote open scholarship. Only by better understanding barriers and needs across the university landscape can",
+      "authors": [
+        "Arthur, Paul Longley",
+        "Hearn, Lydia",
+        "Montgomery, Lucy",
+        "Craig, Hugh",
+        "Arbuckle, Alyssa",
+        "Siemens, Ray"
+      ],
+      "year": 2021,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1093/llc/fqaa063",
+      "doi": "10.1093/llc/fqaa063",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [],
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND research synthesis"
+    },
+    {
+      "title": "Data in context: How digital transformation can support human reasoning in cyber-physical production systems",
+      "authors": [
+        "Romy Müller",
+        "Franziska Kessler",
+        "David W. Humphrey",
+        "Julian Rahm"
+      ],
+      "abstract": "In traditional production plants, current technologies do not provide sufficient context to support information integration and interpretation. Digital transformation technologies have the potential to support contextualization, but it is unclear how this can be achieved. The present article reviews psychological literature in four areas relevant to contextualization: information sampling, integration, categorization, and causal reasoning. Characteristic biases and limitations of human information processing are discussed. Based on this literature, we derive functional requirements for digital transformation technologies, focusing on the cognitive activities they should support. We then present a selection of technologies that have the potential to foster contextualization. These technologies enable the modelling of system relations, the integration of data from different sources, and the connection of the present situation with historical data. We illustrate how these technologies can support contextual reasoning and highlight challenges that should be addressed when designing human-technology cooperation in cyber-physical production systems.",
+      "year": "2021",
+      "published_date": "2021-03-31",
+      "journal": "Future Internet 13(6) (2021) 156",
+      "url": "http://arxiv.org/abs/2103.17095v1",
+      "arxiv_id": "2103.17095v1",
+      "keywords": [
+        "cs.HC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities literature review automation"
+    },
+    {
+      "title": "Scanning the Digital: Using Survey Data to Support Digital Scholarship Initiatives at the University of Mississippi",
+      "authors": [
+        "Abigail R Norris",
+        "A. Clemons",
+        "A. Watson"
+      ],
+      "abstract": "Digital scholarship (the use of digital technology in research or teaching applications) is a new and growing field but many Mississippi libraries, including the University of Mississippi, are not officially supporting digital scholarship. To change this, librarians at the University of Mississippi sent out an online survey to faculty, staff, postdocs, and graduate students in order to gauge their interest in and experience with digital scholarship methods and tools and how the library can best support digital scholarship on campus. The results showed a wide variety of interest and expertise across several fields, mostly in the humanities, with important data and suggestions for future digital scholarship initiatives. The authors hope to use this data to improve digital scholarship support at the university library, and to offer it as a template to other libraries interested in digital scholarship that do not yet have a formal program of support.",
+      "year": "2023",
+      "published_date": "2023-05-01",
+      "journal": "Southeastern librarian",
+      "url": "https://www.semanticscholar.org/paper/55e82fbada103829a39eabf00c6258b6aefbbb8d",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.32727/19.2023.3",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "Revisiting Doctoral Liminality in the Era of Artificial Intelligence (AI) and Digital Scholarship: Implications for Research Integrity and Supervision",
+      "authors": [
+        "Abuya Joshua Olang'o"
+      ],
+      "abstract": "Doctoral education is undergoing profound transformation due to the rapid integration of artificial intelligence (AI) and digital technologies; however, this shift has introduced significant challenges related to research competence, supervision, and research integrity. Despite the growing use of AI-assisted research tools, there remains limited empirical understanding of how these technologies interact with doctoral students’ transitional (liminal) experiences and institutional support systems to influence ethical research outcomes. In particular, concerns have emerged regarding the potential for AI misuse, weakened critical thinking, and gaps in supervisory guidance, raising critical questions about how doctoral training systems can effectively sustain research quality and integrity in the digital era. This study addresses this gap by providing a rigorous empirical and theoretical examination of doctoral liminality within the context of AI and digital scholarship. Specifically, it investigates how doctoral liminality, digital research environments, AI tool usage, and supervisory support influence research competence and responsible research conduct. Adopting a quantitative cross-sectional design, data were collected from 320 doctoral students across selected universities in Kenya and analyzed using Partial Least Squares Structural Equation Modeling (PLS-SEM). The results reveal a robust and well-fitting model with strong explanatory power (R² = 0.62 for research competence; R² = 0.55 for research integrity). AI tool usage emerged as the strongest predictor of research competence (β = 0.36, p < 0.001), followed by doctoral liminality, digital research environment, and supervisory support. Research competence, in turn, exhibited a strong positive effect on responsible research conduct (β = 0.74, p < 0.001), confirming its central role as a pathway to ethical research behavior. Furthermore, research competence significantly mediates the relationship between technological and developmental factors and research integrity, while supervisory support plays both a direct and moderating role in enhancing the effective and ethical use of AI tools. By integrating technological, institutional, and behavioral perspectives, this study advances the conceptualization of doctoral liminality in the digital era. It contributes to emerging scholarship on AI-enabled research and provides policy-relevant insights for strengthening doctoral supervision, embedding AI governance, and promoting competence-based approaches to research integrity in increasingly digitized academic environments.",
+      "year": "2026",
+      "published_date": "",
+      "journal": "International journal of research and scientific innovation",
+      "url": "https://www.semanticscholar.org/paper/aa5010f748f3eb7d21950906405ae913c778ad9e",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.51244/ijrsi.2026.1303000126",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "7. The Evaluation and Peer Review of Digital Scholarship in the Humanities",
+      "authors": [
+        "Julianne Nyhan"
+      ],
+      "abstract": "In this chapter, Nyhan explores the history of evaluative assessment methods for digital scholarship in the humanities. Starting from the origin of humanities computing in 1949, Nyhan surveys recorded conversations of the humanities computing community concerning peer review and evaluation, adopting a broad definition of digital scholarship as including not only digital or digitally-derived scholarship but also scholarship that has been published digitally. Her findings highlight an overall mixed experience of, and attitude towards, peer review and formal evaluation. Not only was the use of computer for research as well as publishing work on a digital platform considered problematic before the 1990s, there were also concerns about the implementation of peer review and how it could be organised. Nyhan views the eventual consensus that emerged on the importance of formal evaluation as having been accelerated by the gradual acceptance of digital publication, digital humanities and institutionalisation itself. Nyhan concludes that the inauspicious reception digital scholarship has received is linked to the ambivalence towards the evaluation of digital scholarship; she suggests that our approaches towards the latter can reveal the evolving disciplinary identity of the digital humanities.",
+      "year": "2020",
+      "published_date": "2020-1-30",
+      "journal": "Digital Technology and the Practices of Humanities Research",
+      "url": "https://doi.org/10.11647/obp.0192.07",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.11647/obp.0192.07",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    },
+    {
+      "title": "From OCR to Analysis: Tracking Correction Provenance in Digital Humanities Pipelines",
+      "authors": [
+        "Haoze Guo",
+        "Ziqi Wei"
+      ],
+      "abstract": "Optical Character Recognition (OCR) is a critical but error-prone stage in digital humanities text pipelines. While OCR correction improves usability for downstream NLP tasks, common workflows often overwrite intermediate decisions, obscuring how textual transformations affect scholarly interpretation. We present a provenance-aware framework for OCR-corrected humanities corpora that records correction lineage at the span level, including edit type, correction source, confidence, and revision status. Using a pilot corpus of historical texts, we compare downstream named entity extraction across raw OCR, fully corrected text, and provenance-filtered corrections. Our results show that correction pathways can substantially alter extracted entities and document-level interpretations, while provenance signals help identify unstable outputs and prioritize human review. We argue that provenance should be treated as a first-class analytical layer in NLP for digital humanities, supporting reproducibility, source criticism, and uncertainty-aware interpretation.",
+      "year": "2026",
+      "published_date": "2026-03-01",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2603.00884v3",
+      "arxiv_id": "2603.00884v3",
+      "keywords": [
+        "cs.HC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities literature review automation full text retrieval"
+    },
+    {
+      "title": "Wikidata Visualization for Event and Temporal Data Exploration in Digital Humanities and Cultural Heritage",
+      "authors": [
+        "Go Sugimoto",
+        "Victor de Boer",
+        "Jacco van Ossenbruggen"
+      ],
+      "abstract": "Temporal data are crucial in many research activities within Digital Humanities (DH) and Cultural Heritage (CH). At the same time, there is a growing need for visualization tools to explore events in Linked Data (LD). This article investigates LD visualization tools that address event data in association with temporal data for research purposes in DH and CH. We analyze the availability of Wikidata visualization tools capable of handling event data for DH and CH research and propose ways to improve visualization tools to better represent temporal data in Wikidata. We identified 14 requirements based on principles from the information visualization domain, as well as an analysis of previous studies and existing tools. We design and develop a Wikidata-centric tool to meet these requirements. This tool is then evaluated through focus groups and questionnaires with DH and CH experts. The results of the evaluation show overall positive feedback and highlight the implicit need and value of visualization tools that handle events in Wikidata for research in DH and CH. In addition, they indicate the improved accessibility and visualization capabilities of Wikidata through the seven time-related functionalities of the tool.",
+      "year": "2025",
+      "published_date": "2025-12-11",
+      "journal": "Semantic Web: – Interoperability, Usability, Applicability",
+      "url": "https://www.semanticscholar.org/paper/6942a05c3640c0a31a59f43a0c43ca195e1a4f56",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1177/22104968251395606",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    }
+  ],
+  "timestamp": "20260423_144011"
+}

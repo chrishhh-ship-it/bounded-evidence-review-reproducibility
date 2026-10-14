@@ -16,7 +16,7 @@ jobs:
       - name: Verify manifest without rewriting it
         run: python scripts/build_manifest.py --verify-only
       - name: Compile Python sources
-        run: python -m compileall -q modules scripts
+        run: python -m compileall -q modules scripts historical_generation_protocols data/reports/r2_numeric_audit_20260928 data/reports/r2_provenance_audit_20261014
       - name: Parse deposited JSON files
         shell: python
         run: |
@@ -29,3 +29,27 @@ jobs:
           print(f"parsed_json_files={len(paths)}")
       - name: Reproduce human-study descriptive statistics
         run: python scripts/analyze_user_study.py
+      - name: Recompute R2 provenance and compare archived results
+        shell: python
+        run: |
+          import json
+          import subprocess
+          import sys
+          import tempfile
+          from pathlib import Path
+
+          audit = Path("data/reports/r2_provenance_audit_20261014")
+          for script, output in [
+              ("export_pools_and_gate_reasons.py", "pools_and_gate_reasons.json"),
+              ("bib_line_provenance_check.py", "bib_line_provenance_check.json"),
+          ]:
+              expected = json.loads((audit / output).read_text(encoding="utf-8-sig"))
+              subprocess.run([sys.executable, str(audit / script)], check=True)
+              actual = json.loads((audit / output).read_text(encoding="utf-8-sig"))
+              assert actual == expected, output
+          with tempfile.TemporaryDirectory() as directory:
+              output = Path(directory) / "screened_recover.json"
+              subprocess.run([sys.executable, str(audit / "screened_recover.py"), str(output)], check=True)
+              expected = json.loads((audit / "screened_recover_rerun.json").read_text(encoding="utf-8-sig"))
+              assert json.loads(output.read_text(encoding="utf-8-sig")) == expected
+          print("R2 provenance outputs match the archived JSON records.")

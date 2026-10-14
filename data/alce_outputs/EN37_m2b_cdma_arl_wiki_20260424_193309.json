@@ -1,0 +1,60 @@
+{
+  "qid": "EN37",
+  "condition": "m2b_cdma_arl",
+  "query": "What machine learning approaches automate structured data extraction from randomised controlled trial reports?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "data_extraction",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 5,
+  "eq_titles": [
+    "Systematic review",
+    "Meta-analysis",
+    "Algorithmic amplification",
+    "Timeline of computing 2020–present",
+    "Timeline of biotechnology"
+  ],
+  "top_papers": [
+    {
+      "title": "Systematic review",
+      "abstract": "A systematic review is a scholarly synthesis of the evidence on a clearly presented topic using critical methods to identify, define and assess research on the topic. A systematic review extracts and interprets data from published studies on the topic (in the scientific literature), then analyzes, describes, critically appraises and summarizes interpretations into a refined evidence-based conclusion. For example, a systematic review of randomized controlled trials is a way of summarizing and imp"
+    },
+    {
+      "title": "Meta-analysis",
+      "abstract": "Meta-analysis is a method of synthesis of quantitative data from multiple independent studies addressing a common research question. An important part of this method involves computing a combined effect size across all of the studies. As such, this statistical approach involves extracting effect sizes and variance measures from various studies. By combining these effect sizes the statistical power is improved and can resolve uncertainties or discrepancies found in individual studies."
+    },
+    {
+      "title": "Algorithmic amplification",
+      "abstract": "Algorithmic amplification is the process by which automated ranking and recommendation systems on digital platforms increase the visibility of certain content beyond its initial audience. Major platforms including Facebook, YouTube, TikTok, and X (formerly Twitter) use such systems to determine what appears in users' feeds and search results. The term is used in research on social media and digital media regulation to describe how platform design choices influence the distribution of online info"
+    },
+    {
+      "title": "Timeline of computing 2020–present",
+      "abstract": "This article presents a detailed timeline of events in the history of computing from 2020 to the present. For narratives explaining the overall developments, see the history of computing.\nSignificant events in computing include events relating directly or indirectly to software, hardware and wetware."
+    },
+    {
+      "title": "Timeline of biotechnology",
+      "abstract": "The historical application of biotechnology throughout time is provided below in chronological order.\nThese discoveries, inventions and modifications are evidence of the application of biotechnology since before the common era and describe notable events in the research, development and regulation of biotechnology."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Systematic_review",
+    "wiki:Meta-analysis",
+    "wiki:Algorithmic_amplification",
+    "wiki:Timeline_of_computing_2020–present",
+    "wiki:Timeline_of_biotechnology"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN37_m2b_cdma_arl_wiki_20260424_193309.md"
+}

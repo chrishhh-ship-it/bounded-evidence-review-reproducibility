@@ -1,0 +1,60 @@
+{
+  "qid": "EN28",
+  "condition": "m2b_cdma_arl",
+  "query": "How do automated meta-analysis tools extract and aggregate effect sizes from primary biomedical studies?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "meta_analysis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 5,
+  "eq_titles": [
+    "Meta-analysis",
+    "Systematic review",
+    "Aspirin",
+    "Big data",
+    "Alzheimer's disease"
+  ],
+  "top_papers": [
+    {
+      "title": "Meta-analysis",
+      "abstract": "Meta-analysis is a method of synthesis of quantitative data from multiple independent studies addressing a common research question. An important part of this method involves computing a combined effect size across all of the studies. As such, this statistical approach involves extracting effect sizes and variance measures from various studies. By combining these effect sizes the statistical power is improved and can resolve uncertainties or discrepancies found in individual studies."
+    },
+    {
+      "title": "Systematic review",
+      "abstract": "A systematic review is a scholarly synthesis of the evidence on a clearly presented topic using critical methods to identify, define and assess research on the topic. A systematic review extracts and interprets data from published studies on the topic (in the scientific literature), then analyzes, describes, critically appraises and summarizes interpretations into a refined evidence-based conclusion. For example, a systematic review of randomized controlled trials is a way of summarizing and imp"
+    },
+    {
+      "title": "Aspirin",
+      "abstract": "Aspirin () is the genericized trademark for acetylsalicylic acid (ASA), a nonsteroidal anti-inflammatory drug (NSAID) used to reduce pain, fever, and inflammation, and as an antithrombotic. Aspirin is used to treat inflammatory conditions including Kawasaki disease, pericarditis, and rheumatic fever.\nAspirin is also used long-term to help prevent further heart attacks, ischaemic strokes, and blood clots in people at high risk. For pain or fever, effects typically begin within 30 minutes."
+    },
+    {
+      "title": "Big data",
+      "abstract": "Big data primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries (rows) offers greater statistical power, while data with higher complexity (more attributes or columns) may lead to a higher false discovery rate.\nBig data analysis challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating, information privacy, and data sources. Big data was origina"
+    },
+    {
+      "title": "Alzheimer's disease",
+      "abstract": "Alzheimer's disease (AD) is a neurodegenerative disease and is the most common form of dementia, accounting for around 60–70% of cases. The most common early symptom is difficulty in remembering recent events. As the disease advances, symptoms can include problems with language, disorientation (including easily getting lost), mood swings, loss of motivation, self-neglect, and behavioral issues. As a person's condition declines, they often withdraw from family and society."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Meta-analysis",
+    "wiki:Systematic_review",
+    "wiki:Aspirin",
+    "wiki:Big_data",
+    "wiki:Alzheimer's_disease"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN28_m2b_cdma_arl_wiki_20260424_193202.md"
+}

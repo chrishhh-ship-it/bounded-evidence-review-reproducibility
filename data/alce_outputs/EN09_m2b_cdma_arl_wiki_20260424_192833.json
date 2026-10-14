@@ -1,0 +1,60 @@
+{
+  "qid": "EN09",
+  "condition": "m2b_cdma_arl",
+  "query": "How do knowledge graph construction and multi-agent coordination interact in enterprise intelligence platforms?",
+  "domain": "Multi-Agent Information Services",
+  "category": "intelligence_service",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 5,
+  "eq_titles": [
+    "Artificial intelligence",
+    "Collective intelligence",
+    "Glossary of artificial intelligence",
+    "Internet of things",
+    "War on drugs"
+  ],
+  "top_papers": [
+    {
+      "title": "Artificial intelligence",
+      "abstract": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\nHigh-pr"
+    },
+    {
+      "title": "Collective intelligence",
+      "abstract": "Collective intelligence (CI) or group intelligence (GI) is the emergent ability of groups, whether composed of humans alone, animals, or networks of humans and artificial agents, to solve problems, make decisions, or generate knowledge more effectively than individuals alone, through either cooperation or by aggregation of diverse information, perspectives, and behaviors. The term swarm intelligence (SI) is sometimes used interchangeably with collective intelligence but is simply one instance of"
+    },
+    {
+      "title": "Glossary of artificial intelligence",
+      "abstract": "This glossary of artificial intelligence is a list of definitions of terms and concepts relevant to the study of artificial intelligence (AI), its subdisciplines, and related fields. Related glossaries include Glossary of computer science, Glossary of robotics, Glossary of machine vision, and Glossary of logic."
+    },
+    {
+      "title": "Internet of things",
+      "abstract": "Internet of things (IoT) describes physical objects that are embedded with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the Internet or other communication networks. The field of IoT encompasses electronics, communication, and computer science engineering. \"Internet of things\" has been considered a misnomer because most devices do not need to be connected to the public Internet; they only need to be connected to "
+    },
+    {
+      "title": "War on drugs",
+      "abstract": "The war on drugs, sometimes referred to in the 21st century as the war on cartels in contexts of military intervention and counterterrorism, is a global anti-narcotics campaign led by the United States federal government, ramped up after 9/11, including drug prohibition and foreign assistance, with the aim of reducing the illegal drug trade in the US. The initiative's efforts includes policies intended to discourage the production, distribution, and consumption of psychoactive drugs that the par"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Artificial_intelligence",
+    "wiki:Collective_intelligence",
+    "wiki:Glossary_of_artificial_intelligence",
+    "wiki:Internet_of_things",
+    "wiki:War_on_drugs"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN09_m2b_cdma_arl_wiki_20260424_192833.md"
+}

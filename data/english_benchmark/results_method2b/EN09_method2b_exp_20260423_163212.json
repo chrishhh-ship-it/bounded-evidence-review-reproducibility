@@ -1,0 +1,212 @@
+{
+  "query_id": "EN09",
+  "query": "How do knowledge graph construction and multi-agent coordination interact in enterprise intelligence platforms?",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Autonomous Digital Twin of Enterprise: Method and Toolset for Knowledge-Based Multi-Agent Adaptive Management of Tasks and Resources in Real Time",
+      "authors": [
+        "Vladimir Galuzin",
+        "Anastasia Galitskaya",
+        "Sergey Grachev",
+        "Vladimir Larukhin",
+        "Dmitry Novichkov",
+        "Petr Skobelev",
+        "Alexey Zhilyaev"
+      ],
+      "abstract": "Digital twins of complex technical objects are widely applied for various domains, rapidly becoming smart, cognitive and autonomous. However, the problem of digital twins for autonomous management of enterprise resources is still not fully researched. In this paper, an autonomous digital twin of enterprise is introduced to provide knowledge-based multi-agent adaptive allocation, scheduling, optimization, monitoring and control of tasks and resources in real time, synchronized with employees’ plans, preferences and competencies via mobile devices. The main requirements for adaptive resource management are analyzed. The authors propose formalized ontological and multi-agent models for developing the autonomous digital twin of enterprise. A method and software toolset for designing the autonomous digital twin of enterprise, applicable for both operational management of tasks and resources and what-if simulations, are developed. The validation of developed methods and toolsets for IT service desk has proved increase in efficiency, as well as savings in time and costs of deliveries for various applications. The paper also outlines a plan for future research, as well as a number of new potential business applications.",
+      "year": "2022",
+      "published_date": "2022-05-12",
+      "journal": "Mathematics",
+      "url": "https://doi.org/10.3390/math10101662",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Enterprise software",
+        "Scheduling (production processes)",
+        "Knowledge management",
+        "Process management",
+        "Operations management",
+        "Engineering"
+      ],
+      "citations": 22,
+      "source": "OpenAlex",
+      "doi": "10.3390/math10101662",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Multi-Agent Deep Reinforcement Learning for Computation Offloading and Interference Coordination in Small Cell Networks",
+      "authors": [
+        "Xiaoyan Huang",
+        "Supeng Leng",
+        "Sabita Maharjan",
+        "Yan Zhang"
+      ],
+      "abstract": "Integrating mobile edge computing (MEC) with small cell networks has been conceived as a promising solution to provide pervasive computing services. However, the interactions among small cells due to inter-cell interference, the diverse application-specific requirements, as well as the highly dynamic wireless environment make it challenging to design an optimal computation offloading scheme. In this paper, we focus on the joint design of computation offloading and interference coordination for edge intelligence empowered small cell networks. To this end, we propose a distributed multi-agent deep reinforcement learning (DRL) scheme with the objective of minimizing the overall energy consumption while ensuring the latency requirements. Specifically, we exploit the collaboration among small cell base station (SBS) agents to adaptively adjust their strategies, considering computation offloading, channel allocation, power control, and computation resource allocation. Further, to decrease the computation complexity and signaling overhead of the training process, we design a federated DRL scheme which only requires SBS agents to share their model parameters instead of local training data. Numerical results demonstrate that our proposed schemes can significantly reduce the energy consumption and effectively guarantee the latency requirements compared with the benchmark schemes.",
+      "year": "2021",
+      "published_date": "2021-08-24",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "url": "https://doi.org/10.1109/tvt.2021.3096928",
+      "arxiv_id": "",
+      "keywords": [
+        "Computation offloading",
+        "Computer science",
+        "Reinforcement learning",
+        "Distributed computing",
+        "Mobile edge computing",
+        "Small cell",
+        "Computer network",
+        "Overhead (engineering)"
+      ],
+      "citations": 149,
+      "source": "OpenAlex",
+      "doi": "10.1109/tvt.2021.3096928",
+      "open_access": false,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Evaluating routing stability and coordination in swarm-based multi-agent task-oriented dialogue systems.",
+      "authors": [
+        "Abuzar Khan",
+        "Fahad Masood",
+        "Abid Iqbal",
+        "Ahmad Junaid",
+        "Saad Arif",
+        "Mohammed Al-Naeem",
+        "Ghassan Husnain",
+        "Ali Saeed Alzahrani"
+      ],
+      "abstract": "Conversational systems are becoming a primary interface for services and enterprise automation, and rapid market growth is pushing deployments into safety- and cost-sensitive settings. Reliability remains a bottleneck when interactions span multiple domains: an orchestrator must choose the next specialist, maintain shared dialogue state, and recover from mistakes before they cascade across handoffs. Despite rising interest in swarm-like multi-agent designs, orchestration is rarely evaluated with coordination-centric metrics, making it hard to compare routing policies beyond surface fluency. We present an evaluation-first pipeline for multi-domain task-oriented dialogue on MultiWOZ 2.2 that decouples routing from generation and exposes measurable failure modes. A DeBERTa-based router selects domain specialists, while a FLAN-T5 generator produces structured actions and belief-state updates under a shared memory interface. The protocol tracks delegation correctness, slot-progress coverage, switching and bouncing instability, loop behavior, and recovery after misroutes, and it links early-turn errors to downstream collapse using cascading-error attribution. We further introduce stress tests that simulate reformulation, long-horizon corrections, and tool-latency delays to probe robustness beyond static annotations. Across routing variants, confidence-aware gating yields the strongest stability improvement, achieving routing accuracy of 0.77 while substantially reducing handoff churn, with switching 0.11 and bounce 0.01, relative to a learned baseline with 0.65 accuracy, switching 0.44, and bounce 0.09. At the same time, confidence gating can trade progress for precision when it suppresses belief updates, highlighting an accuracy-progress tension that is important for deployment tuning. Diagnostic summaries identify misrouting and empty-state updates as dominant contributors, while looping is comparatively rare. Finally, applying the same evaluation to SGD shows that coordination challenges persist under schema shift. Overall, the proposed metrics and implementation blueprint provide a reproducible basis for diagnosing coordination failures and selecting orchestration policies for deployment.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "Scientific reports",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772010/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1038/s41598-026-42158-y",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service"
+    },
+    {
+      "title": "Exploring Rural Tourism Innovation through Statistical Analysis and Model Prediction: Modeling of Knowledge Sharing and Absorption Capacity in Multi-agent Collaboration",
+      "authors": [
+        "Lihui Huang",
+        "Yubing Zhang",
+        "Shuzhi Yu",
+        "Cheng Wang",
+        "Muhammad Shahid Khan",
+        "Yaxin Wang"
+      ],
+      "abstract": "Purpose- This study investigates the relationship between external knowledge resources (tourist innovation participation and local villagers' knowledge sharing) and the innovation performance of rural tourism enterprises. It examines enterprise knowledge absorption capacity's mediating and moderating roles in these relationships. Design/Methodology/approach- A comprehensive literature review in knowledge management, rural tourism, and innovation management was conducted to develop a conceptual model based on the Resource-Based View (RBV) and Absorptive Capacity Theory. The study surveyed 361 rural tourism enterprises in Conghua District, Guangzhou, China, and used Partial Least Squares Structural Equation Modeling (PLS-SEM) for analysis. Findings- The study found that knowledge shared by tourists and villagers is crucial for the innovation performance of rural tourism enterprises. Tourist innovation participation directly and significantly enhances innovation performance. Enterprise knowledge absorption capacity is critical in mediating the impact of external knowledge resources, particularly in fully mediating the effect of villagers' knowledge sharing on innovation performance. As a moderating variable, knowledge absorption capacity significantly influences the impact of diverse and dynamic tourist-contributed knowledge on innovation performance, amplifying the effects of tourist innovation participation. Originality/Value- This study integrates knowledge management, resource - based view, and absorptive capacity theories, achieving three key theoretical breakthroughs. It constructs a dual - path absorption framework, challenging the traditional unitary view of absorptive capacity by differentiating knowledge absorption paths for tourist - sourced explicit knowledge and villager - sourced tacit knowledge. Then, it integrates the resource - based view with knowledge management, demonstrating the complementary nature of villagers' culturally unique knowledge and tourists' market - agile knowledge, thus expanding the application of the resource - based view in rural tourism. Finally, it proposes the concept of heterogeneity - driven innovation, highlighting the importance of matching knowledge types with absorption processes, and introducing a contingency perspective to absorptive capacity research.",
+      "year": "2025",
+      "published_date": "2025-04-25",
+      "journal": "Proceedings of the 2025 International Conference on Digital Economy and Information Systems",
+      "url": "https://www.semanticscholar.org/paper/77aa902aeb20166992a8e1a809ccad09828d3811",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3745133.3745222",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service survey"
+    },
+    {
+      "title": "Subjective Knowledge and Reasoning about Agents in Multi-Agent Systems",
+      "authors": [
+        "Shikha Singh",
+        "Deepak Khemani"
+      ],
+      "abstract": "Though a lot of work in multi-agent systems is focused on reasoning about knowledge and beliefs of artificial agents, an explicit representation and reasoning about the presence/absence of agents, especially in the scenarios where agents may be unaware of other agents joining in or going offline in a multi-agent system, leading to partial knowledge/asymmetric knowledge of the agents is mostly overlooked by the MAS community. Such scenarios lay the foundations of cases where an agent can influence other agents' mental states by (mis)informing them about the presence/absence of collaborators or adversaries. In this paper, we investigate how Kripke structure-based epistemic models can be extended to express the above notion based on an agent's subjective knowledge and we discuss the challenges that come along.",
+      "year": "2020",
+      "published_date": "2020-01-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2001.08016v1",
+      "arxiv_id": "2001.08016v1",
+      "keywords": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "Trustworthy Agentic AI: A Survey and Taxonomy of Secure Coordination and Hallucination Mitigation in Multi-Agent Large Language Model Systems",
+      "authors": [
+        "Tharakesvulu Vangalapat",
+        "Samreen Iftekhar Shaikh"
+      ],
+      "abstract": "Background:\nLarge language model (LLM)-based agentic systems are evolving beyond single-turn generators into autonomous, toolusing, multi-agent workflows with persistent memory and self-directed planning. When these agents collaborate,\nhallucinations no longer remain local; they can propagate across agent boundaries and trigger real-world operational\nfailures.\n Objective:\nThis paper provides a structured foundation for building secure, reliable, and hallucination-resilient agentic AI by\nsurveying failure modes and proposing a layered trust taxonomy with enforceable controls.\n Methods:\nWe reviewed literature on LLM reasoning, retrieval-augmented generation (RAG), hallucination detection, multi-agent\nframeworks, and AI governance (including zero-trust security principles) and catalogued failure modes across reliability\nand security dimensions.\n Results:\nWe present a seven-layer trust taxonomy spanning identity, planning, communication, memory, retrieval, execution,\nand oversight. From this taxonomy, we derive six reusable secure-coordination design patterns and propose a model-agnostic\nreference architecture for auditable, policy-enforced agentic workflows.\n Conclusion:\nTrustworthiness in agentic AI is fundamentally a system property, not merely a model property. The proposed\ntaxonomy and design patterns provide practical, implementation-independent guidance for securing multi-agent LLM\ndeployments in research and high-assurance enterprise contexts.\n Plain Language Summary:\nAI systems built from large language models can now plan tasks, use tools, and work together as teams of specialized\nagents. This collaboration creates new dangers: when one agent fabricates information, the other agents may act on it as\nthough it were true, spreading errors throughout the system. This paper maps where trust breaks down, from agent identity\nand message passing to memory and tool use, and proposes design rules and a system blueprint for more reliable and secure\nAI teams. agentic AI, multi-agent systems, trustworthy AI, hallucination mitigation, retrieval-augmented generation, tool\nuse, zero trust, AI governance.",
+      "year": "2026",
+      "published_date": "2026-02-27",
+      "journal": "International Journal of Innovative Science and Research Technology",
+      "url": "https://www.semanticscholar.org/paper/761294afe54faa72133e8635b64350b31f4d866c",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.38124/ijisrt/26feb1090",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate evidence review multi-agent literature review"
+    },
+    {
+      "id": "gs_3113900fee",
+      "title": "Multi agent system: concepts, platforms and applications in power systems",
+      "abstract": "… information. However, MAS can be made more robust by creating backup agents which can deliver the same service if the … Section 2 defines multi agent system and its basic concept, its …",
+      "authors": [
+        "A Sujil",
+        "J Verma",
+        "R Kumar"
+      ],
+      "year": 2018,
+      "journal": "A Sujil, J Verma, R Kumar - Artificial Intelligence Review, 2018 - Springer",
+      "citations": 101,
+      "url": "https://link.springer.com/article/10.1007/s10462-016-9520-8",
+      "doi": "10.1007/s10462-016-9520-8A",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "IM-Chat: A multi-agent LLM framework integrating tool-calling and diffusion modeling for knowledge transfer in injection molding industry",
+      "authors": [
+        "Junhyeong Lee",
+        "Joon-Young Kim",
+        "H. Kim",
+        "Inhyo Lee",
+        "Seunghwa Ryu"
+      ],
+      "abstract": "The injection molding industry faces critical challenges in preserving and transferring field knowledge, particularly as experienced workers retire and multilingual barriers hinder effective communication. This study introduces IM-Chat, a multi-agent framework based on large language models (LLMs), designed to facilitate knowledge transfer in injection molding. IM-Chat integrates both limited documented knowledge (e.g., troubleshooting tables, manuals) and extensive field data modeled through a data-driven process condition generator that infers optimal manufacturing settings from environmental inputs such as temperature and humidity, enabling robust and context-aware task resolution. By adopting a retrieval-augmented generation (RAG) strategy and tool-calling agents within a modular architecture, IM-Chat ensures adaptability without the need for fine-tuning. Performance was assessed across 100 single-tool and 60 hybrid tasks for GPT-4o, GPT-4o-mini, and GPT-3.5-turbo by domain experts using a 10-point rubric focused on relevance and correctness, and was further supplemented by automated evaluation using GPT-4o guided by a domain-adapted instruction prompt. The evaluation results indicate that more capable models tend to achieve higher accuracy, particularly in complex, tool-integrated scenarios. In addition, compared with the fine-tuned single-agent LLM, IM-Chat demonstrated superior accuracy, particularly in quantitative reasoning, and greater scalability in handling multiple information sources. Overall, these findings demonstrate the viability of multi-agent LLM systems for industrial knowledge workflows and establish IM-Chat as a scalable and generalizable approach to AI-assisted decision support in manufacturing.",
+      "year": "2025",
+      "published_date": "2025-07-21",
+      "journal": "Journal of manufacturing systems",
+      "url": "https://www.semanticscholar.org/paper/bfd2c87b878c268d50e6b23574f42d3d15fd82f8",
+      "arxiv_id": "2507.15268",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.jmsy.2025.11.007",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    }
+  ],
+  "timestamp": "20260423_163212"
+}

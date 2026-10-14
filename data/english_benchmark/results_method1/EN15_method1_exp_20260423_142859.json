@@ -1,0 +1,220 @@
+{
+  "query_id": "EN15",
+  "query": "What natural language processing techniques are most effective for entity recognition in digitised archival materials?",
+  "domain_id": "digital_humanities",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "A Benchmark Evaluation of Multilingual Large Language Models for Arabic Cross-Lingual Named-Entity Recognition",
+      "authors": [
+        "Mashael Al-Duwais",
+        "Hend Al-Khalifa",
+        "Abdulmalik Al-Salman"
+      ],
+      "abstract": "Multilingual large language models (MLLMs) have demonstrated remarkable performance across a wide range of cross-lingual Natural Language Processing (NLP) tasks. The emergence of MLLMs made it possible to achieve knowledge transfer from high-resource to low-resource languages. Several MLLMs have been released for cross-lingual transfer tasks. However, no systematic evaluation comparing all models for Arabic cross-lingual Named-Entity Recognition (NER) is available. This paper presents a benchmark evaluation to empirically investigate the performance of the state-of-the-art multilingual large language models for Arabic cross-lingual NER. Furthermore, we investigated the performance of different MLLMs adaptation methods to better model the Arabic language. An error analysis of the different adaptation methods is presented. Our experimental results indicate that GigaBERT outperforms other models for Arabic cross-lingual NER, while language-adaptive pre-training (LAPT) proves to be the most effective adaptation method across all datasets. Our findings highlight the importance of incorporating language-specific knowledge to enhance the performance in distant language pairs like English and Arabic.",
+      "year": "2024",
+      "published_date": "2024-9-9",
+      "journal": "Electronics",
+      "url": "https://doi.org/10.3390/electronics13173574",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 5,
+      "source": "CrossRef",
+      "doi": "10.3390/electronics13173574",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Quantized Large Language Models in Biomedical Natural Language Processing: Evaluation and Recommendation",
+      "authors": [
+        "Zaifu Zhan",
+        "Shuang Zhou",
+        "Min Zeng",
+        "Kai Yu",
+        "Meijia Song",
+        "Xiaoyin Chen",
+        "Jun Wang",
+        "Yu Hou",
+        "Rui Zhang"
+      ],
+      "abstract": "Large language models have demonstrated remarkable capabilities in biomedical natural language processing, yet their rapid growth in size and computational requirements present a major barrier to adoption in healthcare settings where data privacy precludes cloud deployment and resources are limited. In this study, we systematically evaluated the impact of quantization on 12 state-of-the-art large language models, including both general-purpose and biomedical-specific models, across eight benchmark datasets covering four key tasks: named entity recognition, relation extraction, multi-label classification, and question answering. We show that quantization substantially reduces GPU memory requirements-by up to 75%-while preserving model performance across diverse tasks, enabling the deployment of 70B-parameter models on 40GB consumer-grade GPUs. In addition, domain-specific knowledge and responsiveness to advanced prompting methods are largely maintained. These findings provide significant practical and guiding value, highlighting quantization as a practical and effective strategy for enabling the secure, local deployment of large yet high-capacity language models in biomedical contexts, bridging the gap between technical advances in AI and real-world clinical translation.",
+      "year": "2025",
+      "published_date": "2025-09-04",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/63644288a4e2100be08dfd3f950f2a327f7fa274",
+      "arxiv_id": "2509.04534",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2509.04534",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Retrieval augmented generation based dynamic prompting for few-shot biomedical named entity recognition using large language models",
+      "authors": [
+        "Yao Ge",
+        "Sudeshna Das",
+        "Yuting Guo",
+        "Abeed Sarker"
+      ],
+      "abstract": "Abstract\n        Biomedical named entity recognition (NER) is a high-utility natural language processing (NLP) task, and large language models (LLMs) show promise particularly in few-shot settings (i.e., limited training data). In this article, we address the performance challenges of LLMs for few-shot biomedical NER by investigating a dynamic prompting strategy involving retrieval-augmented generation (RAG). In our approach, the annotated in-context learning examples are selected based on their similarities with the input texts, and the prompt is dynamically updated for each instance during inference. We implemented and optimized static and dynamic prompt engineering techniques and evaluated them on five biomedical NER datasets. Static prompting with structured components increased average F 1-scores by 12% for GPT-4, and 11% for GPT-3.5 and LLaMA 3-70B, relative to basic static prompting. Dynamic prompting further improved performance, with TF-IDF and SBERT retrieval methods yielding the best results, improving average F 1-scores by 7.3% and 5.6% in 5-shot and 10-shot settings, respectively. These findings highlight the utility of contextually adaptive prompts via RAG for biomedical NER.",
+      "year": "2025",
+      "published_date": "2025-8-25",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-7216581/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-7216581/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models full text retrieval"
+    },
+    {
+      "title": "A Literature Review of Textual Cyber Abuse Detection Using Cutting‐Edge Natural Language Processing Techniques: Language Models and Large Language Models",
+      "authors": [
+        "J. A. Diaz-Garcia",
+        "João Paulo Carvalho"
+      ],
+      "abstract": "The success of social media platforms has facilitated the emergence of various forms of online abuse within digital communities. This abuse manifests in multiple ways, including hate speech, cyberbullying, emotional abuse, grooming, and shame sexting or sextortion. In this paper, we present a comprehensive analysis of the different forms of abuse prevalent in social media, with a particular focus on how emerging technologies, such as Language Models (LMs) and Large Language Models (LLMs), are reshaping both the detection and generation of abusive content within these networks. We delve into the mechanisms through which social media abuse is perpetuated, exploring the psychological and social impact. To achieve this, we conducted a literature review based on PRISMA methodology, deriving key insights in the field of cyber abuse detection. Additionally, we examine the dual role of advanced language models—highlighting their potential to enhance automated detection systems for abusive behavior while also acknowledging their capacity to generate harmful content. This paper contributes to the ongoing discourse on online safety and ethics by offering both theoretical and practical insights into the evolving landscape of cyber abuse, as well as the technological innovations that simultaneously mitigate and exacerbate it. The findings support platform administrators and policymakers in developing more effective moderation strategies, conducting comprehensive risk assessments, and integrating AI responsibly to create safer digital environments.",
+      "year": "2025",
+      "published_date": "2025-06-27",
+      "journal": "WIREs Data. Mining. Knowl. Discov.",
+      "url": "https://www.semanticscholar.org/paper/7f2eede1ea4fec0bafd407ad52d6d3261fd82188",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 9,
+      "source": "Semantic Scholar",
+      "doi": "10.1002/widm.70029",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models literature review"
+    },
+    {
+      "title": "The Potential Application of Large Language Models in Pharmaceutical Supply Chain Management",
+      "authors": [
+        "David Aguero",
+        "Scott D. Nelson"
+      ],
+      "abstract": "The pharmaceutical supply chain is growing increasingly intricate, with various challenges arising in drug inventory management, procurement, distribution, and dispensing processes. Issues such as shortage mitigation, inconsistency in regulatory compliance, cost control, cold-chain storage, adaptation to technologic advances, and secure information sharing all pose significant difficulties to pharmaceutical supply chain management.1 Consequently, this adds immense pressure on health system pharmacies to enhance their arsenal of available tools.2Pediatric hospitals in particular encounter unique challenges relating to pharmaceutical and supply shortages, which can cause delays in vital patient procedures, alterations in care protocols, and even unexpected changes in care locations.Historically, supply chain operations have been improved by using physical automation technologies and methodologies such as robotic process automation. Efficient operations use business intelligence to drive informed decisions regarding sourcing, pricing, and patient care, which can be facilitated either by internal teams or through vendor-provided solutions.3 While this approach does mitigate several problems, it rarely results in holistic problem resolution—like a chronic illness, these issues wax and wane.Addressing these supply chain challenges is crucial to ensure that patients receive the most optimal care available.3 Emerging technologies like large language models (LLMs) and generative artificial intelligence (AI) present new opportunities to address these supply chain challenges. LLMs can be used for knowledge management, data analysis, and process automation, contributing to the ongoing digitalization of supply chains, in ways that are difficult to predict, but worthwhile considering.4LLMs are a type of deep-learning artificial neural network that can perform various natural language processing (NLP) tasks, such as recognizing, translating, predicting, and generating text. However, unlike traditional NLP models, LLMs can capture long-range dependencies and contextual information within the entire prompt by using what are called self-attention mechanisms, instead of word by word. Self-attention allows the model to focus on the most relevant parts of the input and output, and how they relate to each other.5 This self-attention is based on a mathematical model called a transformer, which uses many layers of neural networks to process the input and output text sequences. The transformer consists of an encoder that converts the input text into numerical representations called tokens, and a decoder to convert the results back into text. These LLM transformers are trained to predict the next best word, or missing words, based on many examples of natural language from massive amounts of data, often from diverse sources and domains, to learn the patterns and structures of natural language. LLM transformers have billions of parameters, which are the mathematical weights the model learns during training and uses to make predictions during inference. Hence, an already trained transformer model that is used to generate text is called a generative pretrained transformer. LLMs have achieved remarkable results in various NLP benchmarks and applications, such as question answering, text summarization, text generation, and sentiment analysis. Training a transformer requires massive amounts of compute power,6 so these pretrained transformers can also be adapted to specific tasks or domains by fine-tuning, which is the process of updating the parameters of a pretrained model by using a smaller and more relevant dataset or even using reinforcement learning from human feedback of results.7LLMs have proven to be a disruptive technology, and there is a lot of interest in leveraging LLMs across many domains to perform different tasks, and as such, they have the potential to affect health care in many ways. For example, LLMs can help pharmacists and clinicians with drug information retrieval, drug interaction checking, adverse drug event detection, medication adherence monitoring, patient education, and clinical decision support.8 However, LLMs also pose some challenges and limitations, such as data quality, data privacy, model reliability, AI hallucinations, model explainability, and ethical implications. Therefore, it is important to evaluate the performance and validity of LLMs in health care settings and to ensure their safe and responsible use.In this commentary, we will explore several ways LLMs could be applied to pharmaceutical supply chain management, and some areas where there are potentially major limitations to their use.Systems Integration. LLMs can likely help integrate various inventory optimization tools and disparate databases by using natural language to generate queries and responses, which could reduce the need for manual data entry and extraction across different systems. For example, an LLM could help extract relevant information from unstructured or semi-structured data sources, such as free-text or voice recordings, and then structure the relevant information in a way that can be used by other systems (e.g., inventory management systems based on upstream prescriber orders). Additionally, LLMs perform well at code generation, which could reduce the effort needed to convert data from multiple systems into a standard data model, or help with translating the data from one system to another so it can then be used in the other system, thereby providing an end-to-end integration and data flow by translating between systems. The limitation here is that the model will not be able to extract data that do not exist or are not available to the LLM from the external systems.Human-Data Interface and Data Analysis. Similar to the systems integration, LLMs could help with the human-computer interface and facilitate data analysis.9 For example, using their ability to translate natural language to code could be useful for extracting and analyzing data from a database. A person could ask a question of the data, such as “Which medications do we use the most each week, and what is their total cost?” The LLM would then convert the question into a structured query, extract the data, then write python code to analyze those data to determine which medications are used the most and how much they have cost. Given the chatbot nature of the LLMs, the LLM could even ask clarifying questions to better formulate the question, such as asking how far back the user would like to look for summing the total cost of each medication. This natural conversational format could facilitate easier use of the computer systems. However, anyone who has worked in reporting know the challenges to shaping questions and understanding the true intent behind a question to provide valuable information. The LLMs could provide the user with the information based on what they asked, but that may not be what they really wanted, or could even be wrong. It is important to test and verify ­results to make sure the statistical analysis chosen is the appropriate approach, and that the databases used have reliable data to answer the questions.Process Automation. LLMs could help facilitate the automation of complex hierarchical and planning tasks, such as automatically performing a task when certain conditions are met or helping to triage messages to the correct recipients. LLMs have the capability to report even when there is missing or incoherent data present, they are less affected by spelling mistakes or grammatical errors, and could even make mass changes to data. However, having LLMs make mass changes to data to automatically carry out tasks could cause problems, and there should always be a human in the loop to review and approve the action to be taken.Simulation and Training. LLMs can theoretically be used to help improve supply chain resilience by simulating disruption scenarios to help generate and improve risk-management plans. This is achieved through the analysis of archival data and external influencers to highlight weak points. The ability of these AI models to digest vast amounts of data makes it possible to detect risk-associated patterns and forecast possible disturbances.10 A trained LLM can evaluate factors such as historical supplier disruptions, meteorologic patterns, and market seasonality, and early results suggest this has been successful in other industries.11 Upon identifying an elevated risk by the generative AI model involved in the supply chain planning, it could simulate the effect on supply routes. This prognostic capacity could enable pharmacy operations to establish stronger emergency plans. Additionally, LLMs can quickly generate synthetic datasets for training and onboarding new staff by walking through various scenarios, asking questions, and responding to questions.9 However, LLMs are not able to predict unusual or rare events, such as war, natural disasters, cyberattacks, or pandemics (i.e., black swan events) that could very well affect the supply chain.Knowledge Management. Knowledge management is a challenge in any industry or company. LLMs could be trained on internal, unstructured data, such as emails, meeting minutes, training materials, transaction histories, notes, best-practice documents, policy and standard operating procedure documents, and notifications received from outside systems. This could help facilitate search of this valuable source of institution-specific recommendations, answer questions, and identify how similar issues were handled in the past.9 However, policies and practices tend to change over time, and the LLM could return outdated materials, or require retraining. The performance of the model is only going to be as good as the information it trains on.Text Summarization. One key feature of LLMs is their ability to summarize large volumes of text, which could be used to help chronical or document decisions made as well as the rationale. LLMs could be used to summarize notifications of potential shortages, then combined with internal data, put those notifications in institution-specific context for human review. While text summarization is helpful, there is always the risk of missing or leaving out key information.Optimizing Travel Routes and Recommending Methods to Reduce Environmental Impact. One potential area could be to use LLMs to optimize travel or delivery routes. One could imagine putting the delivery data and concepts into textual sentences and then do analysis to optimize the routes. However, there are already sophisticated algorithms and software used to optimize travel routes.While LLMs hold potential in many prediction-based applications, they also face significant hurdles in other aspects of pharmaceutical supply chain. The authors believe LLMs would struggle to produce value in the following scenarios.Predicting Medication Shortages. Medication shortages are generally triggered by acute events such as increases in demand, raw and/or active product ingredient shortages, or complications in manufacturing processes. Because LLMs are trained on historical data and may not have real-time access to such rapidly changing information, they are challenged to predict theoretical shortages. In fact, relying on these models to predict a shortage could cause a triggering event that leads to a medication shortage. Further, much of the data needed to predict medication shortages is private, meaning only specific entities (Group Purchasing Organization, wholesalers, or specific organizations like the United States Pharmacopeia) have access to the right set of information to predict a theoretical shortage with any accuracy. Black swan events, such as the COVID-19 pandemic, cause additional complications for LLMs, which may lack a full contextual understanding necessary to interpret the nuanced effects of geopolitical events, economic trends, natural disasters, and other factors affecting supply chain operations.Enhanced Data Quality. The importance of standardization and structured syntax and semantics in enhancing supply chain operations cannot be overstated. Despite the existence of common data standards such as the Global Trade Item Number and the Global Location Number from GS1, their adoption is not universal. It is possible for 2 facilities within the same health system to use different systems, or different versions of the same system. Furthermore, different major wholesalers provide varying information for identical products. This means Wholesaler A and Wholesaler B may categorize the therapeutic class of a new drug differently, leading to inconsistencies and posing substantial challenges for LLM.Even as GS1 US and other organizations promote data standardization, limited standardization persists in the development, configuration, and data storage methods of supply chain systems. This can impede LLMs’ ability to derive meaningful insights from unstructured data, exemplifying the “Garbage In, Garbage Out” concept. Particularly for pediatric hospitals, the lack of standardization may lead to medication administration errors and other crucial downstream processes. For instance, if an LLM approves distribution of a product containing preservatives, it may negatively affect a sensitive pediatric patient population. Furthermore, the lack of comprehensive integration and interoperability among various health systems today can hinder data and insights sharing across different sections of the supply chain.Nonetheless, LLMs can assist in detecting anomalies and effecting repairs in mismatched databases. Clinical content vendors can use trained models to scrutinize the content (typically sent monthly as part of a subscription) for missing or miscoded fields, based on preexisting data. Such data eventually finds its way into both electronic health record and third-party–supported inventory systems that affect patient care. Leveraging historical data, LLMs could also assess trends and detect anomalies within the system, such as miscoded revenue fields or quantity conversion factors between units of issue (like vials) and units of sale (like cartons containing 5 sleeves of 6 vials).Inventory Management. While powerful in making real-time decisions based on historical information, placing high-acuity orders based on present day workflows (consignment, 340B accumulation) suggest LLMs are a stronger copilot than a replacement for humans in current state. These tasks require a human touch, or a “thoughtful, warm body,” to make decisions based on nuanced factors that a language model may not fully comprehend (such as substitution of a compounded preparation in place of a commercially used preparation, or considering loan/borrow activity for patient-specific doses within a geographic area, and factoring these scenarios in appropriately for inventory use and forecasting).While LLMs can augment intelligence with predictive analytics and give personalized product alternative recommendations, they may not always provide accurate local forecasting based on historical usage. This could lead to incorrect predictions and potential inventory imbalances. Furthermore, while they can automate tasks like document processing through intelligent automation or digital workers that combine conversational AI with robotic process automation, there are already more specialized tools available for such tasks. These tools are designed specifically for inventory management and can provide more accurate and efficient results, making them a better choice for managing multiple ordering systems and adjusting inventory levels regularly.Keeping LLMs Up-to-Date Can Be Difficult. Training LLMs requires massive amounts of compute power and data to train on, which could pose a significant limitation to their application in supply chain. Pharmaceutical supply chain management is a very dynamic and complex domain that involves multiple stakeholders, regulations, and uncertainties. The LLMs could be making recommendations based on historical or out-of-date information. Keeping LLMs up-to-date with the latest information and trends could prove to be very difficult and costly. Moreover, retraining LLMs can break the reinforcement learning from human feedback process,12 which is a technique that uses the feedback from human users and their preferences to optimize the LLM’s output performance. Therefore, retraining the model can degrade its performance and alignment with human values and preferences. One possible way to overcome these challenges is by using an application programing interface (API) to improve the prompt. In this method, the LLM uses the prompt given by the user, then calls an API to pull the most up-to-date information, then adds that information back into the prompt to improve the results. An API could provide relevant and updated information from various sources, such as databases, web search results, or news articles, and incorporate that information into the new prompt fed back to the LLM. Using an API can also enable more fine-grained control over the LLM’s behavior, such as specifying the tone, style, or length of the output. Given the LLM’s ability to write code, it could even help write its own API interfaces.It Is All About the Prompt. The usefulness of LLMs and their results depend on the and of the which the LLM’s and output. However, there are some limitations to such as context and are when the may not provide context or information for the model to generate relevant and accurate For example, if the prompt were a report on the inventory of the the LLM may not know which what or what of is of this is also by most LLMs have a of or that they can as input or output. For example, if the prompt is a of the latest on COVID-19 in one the input prompt would not be large for the LLM to process all the latest and the model may not be able to all the necessary information in such a the importance of good cannot be overstated. are and provide context and information for the model to generate and relevant also use appropriate and to the output. For example, a good prompt for an inventory report could a report on the inventory of for the of the following total of in by (e.g., and of each current and for each to optimize the management and reduce report to and use and where produce the most some organizations have even prompt to the most out of the is the process of for It is a that requires to and is an and by learning and prompt users could the power of LLMs to automate tasks and improve and with any technology, LLMs also pose certain for For example, LLMs may sensitive data such as patient inventory or supplier and use that data for training or inference. This could lead to data or if the LLMs are not or Moreover, LLMs may generate or content based on the patterns they during which could the quality, or of the pharmaceutical supply of the common that affect LLM are as or the LLM by using that make the model or perform the LLM sensitive or information through the LLM’s responses, either or This results from to the LLM from the system or thereby the LLM to access or that it should code the LLM prompt to have it code or on the system or potentially its or on the LLM’s output or which could in errors, or This is also to as automation AI the to the LLM’s or with the intent or which could lead to or data the of the training data, either by data or by data, which could affect the LLM’s performance or that are designed to or the either by it to produce incorrect or or by its or or the LLM’s parameters, or either by the LLM or by analyzing its responses, which could enable or sensitive This when or the training data or the LLM’s internal either by the LLM’s or by its which could data or LLMs are trained to predict the next best word, based on statistical patterns from large amounts of data, and as such, this can in errors or An when LLMs generate output that is not with the training data, but this is in such a way as to in the incorrect which may to the can cause or if the user is not of the limitations and of Therefore, it is important to LLMs as than human intelligence means that LLMs are designed to assist and human not to or Additionally, even LLMs can answer questions, they are only statistical models and not of understanding the or domain of the training data or LLMs a that could enhance some within pharmaceutical supply chain their application with certain and and will likely encounter hurdles when to LLMs to supply chain The authors using LLMs for tasks that depend on historical and data, and it is crucial to verify the output LLMs to The use of LLMs should be with and and should always be by human and",
+      "year": "2024",
+      "published_date": "2024-04-01",
+      "journal": "The Journal of Pediatric Pharmacology and Therapeutics",
+      "url": "https://doi.org/10.5863/1551-6776-29.2.200",
+      "arxiv_id": "",
+      "keywords": [
+        "Supply chain",
+        "Risk analysis (engineering)",
+        "Supply chain management",
+        "Procurement",
+        "Automation",
+        "Process (computing)",
+        "Health care",
+        "Computer science"
+      ],
+      "citations": 13,
+      "source": "OpenAlex",
+      "doi": "10.5863/1551-6776-29.2.200",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis"
+    },
+    {
+      "title": "GujiBERT and GujiGPT: Construction of Intelligent Information Processing Foundation Language Models for Ancient Texts",
+      "authors": [
+        "Dongbo Wang",
+        "Chang Liu",
+        "Zhixiao Zhao",
+        "Si Shen",
+        "Liu Liu",
+        "Bin Li",
+        "Haotian Hu",
+        "Mengcheng Wu",
+        "Litao Lin",
+        "Xue Zhao",
+        "Xiyu Wang"
+      ],
+      "abstract": "In the context of the rapid development of large language models, we have meticulously trained and introduced the GujiBERT and GujiGPT language models, which are foundational models specifically designed for intelligent information processing of ancient texts. These models have been trained on an extensive dataset that encompasses both simplified and traditional Chinese characters, allowing them to effectively handle various natural language processing tasks related to ancient books, including but not limited to automatic sentence segmentation, punctuation, word segmentation, part-of-speech tagging, entity recognition, and automatic translation. Notably, these models have exhibited exceptional performance across a range of validation tasks using publicly available datasets. Our research findings highlight the efficacy of employing self-supervised methods to further train the models using classical text corpora, thus enhancing their capability to tackle downstream tasks. Moreover, it is worth emphasizing that the choice of font, the scale of the corpus, and the initial model selection all exert significant influence over the ultimate experimental outcomes. To cater to the diverse text processing preferences of researchers in digital humanities and linguistics, we have developed three distinct categories comprising a total of nine model variations. We believe that by sharing these foundational language models specialized in the domain of ancient texts, we can facilitate the intelligent processing and scholarly exploration of ancient literary works and, consequently, contribute to the global dissemination of China's rich and esteemed traditional culture in this new era.",
+      "year": "2023",
+      "published_date": "2023-07-11",
+      "journal": "arXiv (Cornell University)",
+      "url": "https://doi.org/10.48550/arxiv.2307.05354",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Natural language processing",
+        "Context (archaeology)",
+        "Sentence",
+        "Artificial intelligence",
+        "Language model",
+        "Segmentation",
+        "Punctuation"
+      ],
+      "citations": 11,
+      "source": "OpenAlex",
+      "doi": "10.48550/arxiv.2307.05354",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+      "authors": [
+        "L. M. Amugongo",
+        "Pietro Mascheroni",
+        "Steve Brooks",
+        "Stefan Doering",
+        "Jan Seidel"
+      ],
+      "abstract": "Large Language Models (LLMs) have demonstrated promising capabilities to solve complex tasks in critical sectors such as healthcare. However, LLMs are limited by their training data which is often outdated, the tendency to generate inaccurate (“hallucinated”) content and a lack of transparency in the content they generate. To address these limitations, retrieval augmented generation (RAG) grounds the responses of LLMs by exposing them to external knowledge sources. However, in the healthcare domain there is currently a lack of systematic understanding of which datasets, RAG methodologies and evaluation frameworks are available. This review aims to bridge this gap by assessing RAG-based approaches employed by LLMs in healthcare, focusing on the different steps of retrieval, augmentation and generation. Additionally, we identify the limitations, strengths and gaps in the existing literature. Our synthesis shows that 78.9% of studies used English datasets and 21.1% of the datasets are in Chinese. We find that a range of techniques are employed RAG-based LLMs in healthcare, including Naive RAG, Advanced RAG, and Modular RAG. Surprisingly, proprietary models such as GPT-3.5/4 are the most used for RAG applications in healthcare. We find that there is a lack of standardised evaluation frameworks for RAG-based applications. In addition, the majority of the studies do not assess or address ethical considerations related to RAG in healthcare. It is important to account for ethical challenges that are inherent when AI systems are implemented in the clinical setting. Lastly, we highlight the need for further research and development to ensure responsible and effective adoption of RAG in the medical domain.",
+      "year": "2025",
+      "published_date": "2025-06-01",
+      "journal": "PLOS Digital Health",
+      "url": "https://www.semanticscholar.org/paper/5879575701b9b65b5cc56c00d9eebbfa219e0428",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 107,
+      "source": "Semantic Scholar",
+      "doi": "10.1371/journal.pdig.0000877",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models systematic review"
+    },
+    {
+      "title": "A Systematic Literature Review on Using Natural Language Processing in Software Requirements Engineering",
+      "authors": [
+        "Sabina-Cristiana Necula",
+        "Florin Dumitriu",
+        "Valerică Greavu-Șerban"
+      ],
+      "abstract": "This systematic literature review examines the integration of natural language processing (NLP) in software requirements engineering (SRE) from 1991 to 2023. Focusing on the enhancement of software requirement processes through technological innovation, this study spans an extensive array of scholarly articles, conference papers, and key journal and conference reports, including data from Scopus, IEEE Xplore, ACM Digital Library, and Clarivate. Our methodology employs both quantitative bibliometric tools, like keyword trend analysis and thematic mapping, and qualitative content analysis to provide a robust synthesis of current trends and future directions. Reported findings underscore the essential roles of advanced computational techniques like machine learning, deep learning, and large language models in refining and automating SRE tasks. This review highlights the progressive adoption of these technologies in response to the increasing complexity of software systems, emphasizing their significant potential to enhance the accuracy and efficiency of requirement engineering practices while also pointing to the challenges of integrating artificial intelligence (AI) and NLP into existing SRE workflows. The systematic exploration of both historical contributions and emerging trends offers new insights into the dynamic interplay between technological advances and their practical applications in SRE.",
+      "year": "2024",
+      "published_date": "2024-05-24",
+      "journal": "Electronics",
+      "url": "https://www.semanticscholar.org/paper/663d4558886990f93778e844537c384f99dc85c6",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 44,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/electronics13112055",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis literature review"
+    }
+  ],
+  "timestamp": "20260423_142859"
+}

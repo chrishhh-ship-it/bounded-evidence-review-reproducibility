@@ -1,0 +1,36 @@
+{
+  "qid": "EN01",
+  "condition": "m2a_cdma_arl",
+  "query": "How can multi-agent systems be architected to maintain evidence traceability in competitive intelligence workflows?",
+  "domain": "Multi-Agent Information Services",
+  "category": "framework_design",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 1,
+  "eq_titles": [
+    "Reliability engineering"
+  ],
+  "top_papers": [
+    {
+      "title": "Reliability engineering",
+      "abstract": "Reliability engineering is a sub-discipline of systems engineering that emphasizes the ability of equipment to function without failure. Reliability is defined as the probability that a product, system, or service will perform its intended function adequately for a specified period of time; or will operate in a defined environment without failure. Reliability is closely related to availability, which is typically described as the ability of a component or system to function at a specified moment"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Reliability_engineering"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN01_m2a_cdma_arl_wiki_20260424_192527.md"
+}

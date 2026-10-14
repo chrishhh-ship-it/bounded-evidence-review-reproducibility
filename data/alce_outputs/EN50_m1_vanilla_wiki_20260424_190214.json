@@ -1,0 +1,51 @@
+{
+  "qid": "EN50",
+  "condition": "m1_vanilla",
+  "query": "What are the governance challenges of solar radiation management proposals and how does the literature assess their risks?",
+  "domain": "Climate Policy Research",
+  "category": "geoengineering",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "Solar radiation modification",
+    "Geoengineering",
+    "Climate change",
+    "Colonization of Mars",
+    "Renewable energy"
+  ],
+  "top_papers": [
+    {
+      "title": "Solar radiation modification",
+      "abstract": "Solar radiation modification (SRM), also called solar geoengineering, is a group of large-scale approaches to reduce global warming by increasing the amount of sunlight that is reflected away from Earth and back to outer space. It is not intended to replace efforts to reduce greenhouse gas emissions, but rather to complement them as a potential way to limit global warming. SRM is a form of geoengineering.\nThe most-researched SRM method is stratospheric aerosol injection (SAI), in which small ref"
+    },
+    {
+      "title": "Geoengineering",
+      "abstract": "Geoengineering (also known as climate engineering or climate intervention) is the deliberate large-scale interventions in the Earth’s climate system intended to counteract human-caused climate change. The term commonly encompasses two broad categories: large-scale carbon dioxide removal (CDR) and solar radiation modification (SRM). CDR involves techniques to remove carbon dioxide from the atmosphere and is generally considered a form of  climate change mitigation. SRM aims to reduce global warmi"
+    },
+    {
+      "title": "Climate change",
+      "abstract": "Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution. Fossil fuel use, deforestation, and some agricultural and industrial practices rele"
+    },
+    {
+      "title": "Colonization of Mars",
+      "abstract": "The colonization of Mars is the proposed process of establishing permanent human settlements on the planet Mars. While most colonization concepts focus on settling, colonization is a broader ethical concept. International space law has limited colonization, and national space programs have avoided it, instead focusing on human mission to Mars for exploring the planet. The settlement of Mars would require the migration of humans to the planet, the establishment of a permanent human presence, and "
+    },
+    {
+      "title": "Renewable energy",
+      "abstract": "Renewable energy (also called green energy) is energy made from renewable natural resources that are replenished on a human timescale. The most widely used renewable energy types are solar energy, wind power, and hydropower. Bioenergy and geothermal power are also significant in some countries. Renewable energy installations can be large or small and are suited for both urban and rural areas."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Solar_radiation_modification",
+    "wiki:Geoengineering",
+    "wiki:Climate_change",
+    "wiki:Colonization_of_Mars",
+    "wiki:Renewable_energy"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN50_m1_vanilla_wiki_20260424_190214.md"
+}

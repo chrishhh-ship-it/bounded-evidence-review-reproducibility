@@ -1,0 +1,30 @@
+{
+  "cells": 519,
+  "passed": 519,
+  "failed": [],
+  "tables_with_numeric_cell_checks": [
+    "tab:alce_structural",
+    "tab:arch_compare",
+    "tab:autosurvey_comparison",
+    "tab:bilingual_retrieval",
+    "tab:corpus",
+    "tab:cost",
+    "tab:english_results",
+    "tab:expanded_domain_breakdown",
+    "tab:expanded_results",
+    "tab:external_semantic_audits",
+    "tab:human_eval",
+    "tab:local_nli_audit",
+    "tab:main_results",
+    "tab:matched_reanalysis",
+    "tab:matched_semantic_audit",
+    "tab:output_distributions",
+    "tab:per_category",
+    "tab:pilot_ext",
+    "tab:source_provenance",
+    "tab:taxonomy",
+    "tab:title_identity_audit",
+    "tab:title_threshold_sensitivity",
+    "tab:wiki_validation"
+  ]
+}

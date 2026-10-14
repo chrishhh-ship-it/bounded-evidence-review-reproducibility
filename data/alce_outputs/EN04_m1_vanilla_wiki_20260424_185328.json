@@ -1,0 +1,27 @@
+{
+  "qid": "EN04",
+  "condition": "m1_vanilla",
+  "query": "What retrieval-augmented generation strategies most effectively reduce hallucinated citations in long-form knowledge synthesis?",
+  "domain": "Multi-Agent Information Services",
+  "category": "retrieval",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 1,
+  "eq_titles": [
+    "Facial recognition system"
+  ],
+  "top_papers": [
+    {
+      "title": "Facial recognition system",
+      "abstract": "A facial recognition system is a technology potentially capable of matching a human face from a digital image or a video frame against a database of faces. Such a system is typically employed to authenticate users through ID verification services, and works by pinpointing and measuring facial features from a given image.\nDevelopment on similar systems began in the 1960s as a form of computer application. Since their inception, facial recognition systems have seen wider uses in recent times on sm"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Facial_recognition_system"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN04_m1_vanilla_wiki_20260424_185328.md"
+}

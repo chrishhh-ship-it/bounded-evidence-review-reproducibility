@@ -1,0 +1,51 @@
+{
+  "qid": "EN08",
+  "condition": "m1_vanilla",
+  "query": "What empirical evidence exists for the effectiveness of cross-model versus same-model review in citation verification tasks?",
+  "domain": "Multi-Agent Information Services",
+  "category": "evaluation",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "Elaboration likelihood model",
+    "Hofstede's cultural dimensions theory",
+    "Creativity",
+    "Inquiry-based learning",
+    "Philosophy of science"
+  ],
+  "top_papers": [
+    {
+      "title": "Elaboration likelihood model",
+      "abstract": "The elaboration likelihood model (ELM) of persuasion is a dual process theory describing the change of attitudes. The ELM was developed by Richard E. Petty and John Cacioppo in 1986. The model aims to explain different ways of processing stimuli, why they are used, and their outcomes on attitude change. The ELM proposes two major routes to persuasion: the central route and the peripheral route."
+    },
+    {
+      "title": "Hofstede's cultural dimensions theory",
+      "abstract": "Hofstede's cultural dimensions theory is a framework for cross-cultural psychology, developed by Geert Hofstede. It shows the effects of a society's culture on the values of its members, and how these values relate to behavior, using a structure derived from factor analysis.\n\nHofstede developed his original model as a result of using factor analysis to examine the results of a worldwide survey of employee values by International Business Machines between 1967 and 1973. It has been refined since."
+    },
+    {
+      "title": "Creativity",
+      "abstract": "Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination. The products of creativity may be classified as either intangible or physical. Intangible products of creativity include ideas, scientific theories, literary works, musical compositions, and jokes. Physical products of creativity include inventions, dishes or meals, pieces of jewelry, costumes, and paintings."
+    },
+    {
+      "title": "Inquiry-based learning",
+      "abstract": "Inquiry-based learning (also spelled as enquiry-based learning in British English) is a form of active learning that starts by posing questions, problems or scenarios. It contrasts with traditional education, which generally relies on the teacher presenting facts and their knowledge about the subject. Inquiry-based learning is often assisted by a facilitator rather than a lecturer. Inquirers will identify and research issues and questions to develop knowledge or solutions."
+    },
+    {
+      "title": "Philosophy of science",
+      "abstract": "Philosophy of science is the branch of philosophy concerned with the foundations, methods, and implications of science. Amongst its central questions are the difference between science and non-science, the reliability of scientific theories, and the ultimate purpose and meaning of science as a human endeavour. Philosophy of science focuses on metaphysical, epistemic and semantic aspects of scientific practice, and overlaps with metaphysics, ontology, logic, and epistemology, for example, when it"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Elaboration_likelihood_model",
+    "wiki:Hofstede's_cultural_dimensions_theory",
+    "wiki:Creativity",
+    "wiki:Inquiry-based_learning",
+    "wiki:Philosophy_of_science"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN08_m1_vanilla_wiki_20260424_185408.md"
+}

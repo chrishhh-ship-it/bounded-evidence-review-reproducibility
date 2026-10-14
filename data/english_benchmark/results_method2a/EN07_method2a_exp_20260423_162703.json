@@ -1,0 +1,237 @@
+{
+  "query_id": "EN07",
+  "query": "How can constraint-based review loops enforce citation admissibility constraints in AI-assisted literature review generation?",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "CYBERSECURITY IN INDUSTRIAL CONTROL SYSTEMS: A SYSTEMATIC LITERATURE REVIEW ON AI-BASED THREAT DETECTION FOR SCADA AND IOT NETWORKS",
+      "authors": [
+        "Ammar Bajwa",
+        "Aleem Al Razee Tonoy",
+        "Sohel Rana",
+        "Ishtiaque Ahmed"
+      ],
+      "abstract": "The increasing integration of Industrial Control Systems (ICS) with Internet of Things (IoT) technologies and Supervisory Control and Data Acquisition (SCADA) networks has brought unparalleled efficiency and automation to critical infrastructure sectors, including energy, water, manufacturing, and transportation. However, this digital convergence has also significantly expanded the cyber threat landscape, making ICS more vulnerable to sophisticated cyberattacks. This systematic literature review critically examines the role of Artificial Intelligence (AI)-based techniques in enhancing threat detection capabilities across SCADA and IoT-enabled ICS environments. Following PRISMA guidelines, 162 peer-reviewed articles published between 2015 and 2024 were analyzed to identify prevailing trends, methodologies, and performance outcomes in AI-driven threat detection. The review highlights the adoption of machine learning (ML), deep learning (DL), and hybrid AI models for anomaly detection, intrusion detection, and malware classification, with particular focus on real-time data analytics and predictive capabilities. Among the reviewed studies, neural networks, support vector machines, and ensemble models were frequently applied, achieving detection accuracies exceeding 90% in simulated and real-world ICS environments. Additionally, the review uncovers sector-specific vulnerabilities, including protocol-level weaknesses (e.g., Modbus, DNP3), data imbalance challenges, and adversarial attack risks in deep learning models. This study provides an integrative view of the AI-cybersecurity nexus in industrial systems and offers future research directions for building resilient, adaptive, and intelligent security frameworks for critical infrastructures.",
+      "year": "2025",
+      "published_date": "2025-01-01",
+      "journal": "ASRC Procedia: Global Perspectives in Science and Scholarship",
+      "url": "https://www.semanticscholar.org/paper/1e167f2c2e379a0494201f9ec24da609187b9478",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.63125/1cr1kj17",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship literature review"
+    },
+    {
+      "title": "Accelerating Evidence Synthesis in Observational Studies: A Living NLP-Assisted Intelligent Systematic Literature Review System (Preprint)",
+      "authors": [
+        "Jingcheng Du"
+      ],
+      "abstract": "BACKGROUND\n                        Systematic literature review (SLR), a robust method to identify and summarize evidence from published sources, is considered as a complex, time-consuming, labor-intensive and expensive task.\n                \n                                \n                    OBJECTIVE\n                        To present a solution based on Natural Language Processing (NLP) that accelerates and streamlines the SLR process for observational studies using real world data.\n                \n                                \n                    METHODS\n                        We followed an agile software development and iterative software engineering methodology to build a customized intelligent end-to-end living NLP-assisted solution for observational SLR tasks. Multiple machine learning-based NLP algorithms were adopted to automate article screening and data element extraction processes. The NLP prediction results can be further reviewed and verified by domain experts, following the human-in-the-loop design. The system integrates Explainable AI (XAI) to provide evidence to NLP algorithms and add transparency to extracted literature data elements. The system was developed based on three existing SLR projects of observational studies, including the epidemiology studies of human papillomavirus-associated diseases, the disease burden of pneumococcal diseases, and cost-effectiveness studies of pneumococcal vaccines.\n                \n                                \n                    RESULTS\n                        Our Intelligent SLR Platform, covers major SLR steps, including study protocol setting, literature retrieval, abstract screening, full-text screening, data element extraction from full-text articles, results summary, and data visualization. The NLP algorithms have achieved 0.86 to 0.90 accuracy scores on article screening tasks (framed as text classification tasks) and 0.57 to 0.89 macro-average F1 scores on data element extraction tasks (framed as named entity recognition tasks).\n                \n                                \n                    CONCLUSIONS\n                        Cutting-edge NLP algorithms expedite SLR for observational studies, thus allowing scientists to have more time to focus on the quality of data and the synthesis of evidence in observational studies. Aligning the living systematic literature review concept, the system has the potential to update literature data and enable scientists to easily stay current with the literature related to observational studies prospectively and continuously.",
+      "year": "2023",
+      "published_date": "2023-11-17",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.2196/preprints.54653",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.2196/preprints.54653",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis literature review"
+    },
+    {
+      "title": "Applications of Agent-Based Methods in Multi-Energy Systems—A Systematic Literature Review",
+      "authors": [
+        "Ruiqiu Yao",
+        "Yukun Hu",
+        "Liz Varga"
+      ],
+      "abstract": "The need for a greener and more sustainable energy system evokes a need for more extensive energy system transition research. The penetration of distributed energy resources and Internet of Things technologies facilitate energy system transition towards the next generation of energy system concepts. The next generation of energy system concepts include “integrated energy system”, “multi-energy system”, or “smart energy system”. These concepts reveal that future energy systems can integrate multiple energy carriers with autonomous intelligent decision making. There are noticeable trends in using the agent-based method in research of energy systems, including multi-energy system transition simulation with agent-based modeling (ABM) and multi-energy system management with multi-agent system (MAS) modeling. The need for a comprehensive review of the applications of the agent-based method motivates this review article. Thus, this article aims to systematically review the ABM and MAS applications in multi-energy systems with publications from 2007 to the end of 2021. The articles were sorted into MAS and ABM applications based on the details of agent implementations. MAS application papers in building energy systems, district energy systems, and regional energy systems are reviewed with regard to energy carriers, agent control architecture, optimization algorithms, and agent development environments. ABM application papers in behavior simulation and policy-making are reviewed with regard to the agent decision-making details and model objectives. In addition, the potential future research directions in reinforcement learning implementation and agent control synchronization are highlighted. The review shows that the agent-based method has great potential to contribute to energy transition studies with its plug-and-play ability and distributed decision-making process.",
+      "year": "2023",
+      "published_date": "2023-03-04",
+      "journal": "Energies",
+      "url": "https://doi.org/10.3390/en16052456",
+      "arxiv_id": "",
+      "keywords": [
+        "Multi-agent system",
+        "Computer science",
+        "Energy (signal processing)",
+        "Implementation",
+        "Energy engineering",
+        "Distributed generation",
+        "Systems engineering",
+        "Energy management"
+      ],
+      "citations": 33,
+      "source": "OpenAlex",
+      "doi": "10.3390/en16052456",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Can Generative Artificial Intelligence be a Good Teaching Assistant? - An Empirical Analysis Based on Generative AI-Assisted Teaching",
+      "authors": [
+        "Qianwen Tang",
+        "Wenbo Deng",
+        "Yidan Huang",
+        "Shuai Wang",
+        "Hao Zhang"
+      ],
+      "abstract": "Generative Artificial Intelligence (AI) shows promise in enhancing personalised learning and improving educational efficiency. However, its integration into education raises concerns about misinformation and over‐reliance, particularly among adolescents. Teacher supervision plays a critical role in mitigating these risks and ensuring the effective use of Generative AI in classrooms. Despite the growing interest in Generative AI, there is limited empirical research on its actual impact and the role of teacher oversight.The purpose of this study is to systematically assess the role of Generative AI in classroom teaching, with a specific focus on how teacher supervision shapes its effectiveness.This study employed a quasi‐experimental design to examine differences in learning outcomes among students under three instructional methods: traditional computer‐assisted teaching, Generative AI‐assisted teaching without teacher supervision and Generative AI‐assisted teaching with teacher supervision. The study was implemented in the context of a two‐week Information Science and Technology course in a middle school, involving three classes with 45, 41 and 45 students, respectively. To ensure consistency in teaching styles, all classes were taught by the same experienced teacher. Data collection included a knowledge test to assess knowledge mastery, as well as questionnaires to measure learning satisfaction and engagement. The collected data were analysed using one‐way ANOVA to compare the effectiveness of the three teaching methods.Compared with traditional computer‐assisted teaching, Generative AI‐assisted teaching can significantly enhance students' learning satisfaction, but can not improve their learning engagement and knowledge mastery level. Furthermore, in the process of Generative AI‐assisted teaching, teacher supervision can significantly increase students' learning engagement and knowledge mastery compared with situations without teacher supervision. This study indicated Generative AI's potential as an educational tool and underscored the essential role of teacher supervision.This study fills a critical gap by providing empirical evidence on how Generative AI and teacher supervision interact to improve classroom learning outcomes. It shows that Generative AI's potential to enhance learning outcomes is significantly amplified with teacher oversight.",
+      "year": "2025",
+      "published_date": "2025-05-05",
+      "journal": "Journal of Computer Assisted Learning",
+      "url": "https://www.semanticscholar.org/paper/711ee72bca4a56a16f049b63fad82a15881f3328",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 19,
+      "source": "Semantic Scholar",
+      "doi": "10.1111/jcal.70027",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant"
+    },
+    {
+      "title": "Contributions and Risks of Artificial Intelligence (AI) in Building Smarter Cities: Insights from a Systematic Review of the Literature",
+      "authors": [
+        "Tan Yiğitcanlar",
+        "Kevin C. Desouza",
+        "Luke Butler",
+        "Farnoosh Roozkhosh"
+      ],
+      "abstract": "Artificial intelligence (AI) is one of the most disruptive technologies of our time. Interest in the use of AI for urban innovation continues to grow. Particularly, the rise of smart cities—urban locations that are enabled by community, technology, and policy to deliver productivity, innovation, livability, wellbeing, sustainability, accessibility, good governance, and good planning—has increased the demand for AI-enabled innovations. There is, nevertheless, no scholarly work that provides a comprehensive review on the topic. This paper generates insights into how AI can contribute to the development of smarter cities. A systematic review of the literature is selected as the methodologic approach. Results are categorized under the main smart city development dimensions, i.e., economy, society, environment, and governance. The findings of the systematic review containing 93 articles disclose that: (a) AI in the context of smart cities is an emerging field of research and practice. (b) The central focus of the literature is on AI technologies, algorithms, and their current and prospective applications. (c) AI applications in the context of smart cities mainly concentrate on business efficiency, data analytics, education, energy, environmental sustainability, health, land use, security, transport, and urban management areas. (d) There is limited scholarly research investigating the risks of wider AI utilization. (e) Upcoming disruptions of AI in cities and societies have not been adequately examined. Current and potential contributions of AI to the development of smarter cities are outlined in this paper to inform scholars of prospective areas for further research.",
+      "year": "2020",
+      "published_date": "2020-03-20",
+      "journal": "Energies",
+      "url": "https://doi.org/10.3390/en13061473",
+      "arxiv_id": "",
+      "keywords": [
+        "Context (archaeology)",
+        "Corporate governance",
+        "Sustainability",
+        "Smart city",
+        "Systematic review",
+        "Productivity",
+        "Applications of artificial intelligence",
+        "Big data"
+      ],
+      "citations": 498,
+      "source": "OpenAlex",
+      "doi": "10.3390/en13061473",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate governance systematic review automation"
+    },
+    {
+      "title": "Human-centred learning analytics and AI in education: A systematic literature review",
+      "authors": [
+        "Riordan Alfredo",
+        "Vanessa Echeverría",
+        "Yueqiao Jin",
+        "Lixiang Yan",
+        "Zachari Swiecki",
+        "Dragan Gašević",
+        "Roberto Martínez‐Maldonado"
+      ],
+      "abstract": "The rapid expansion of Learning Analytics (LA) and Artificial Intelligence in Education (AIED) offers new scalable, data-intensive systems but raises concerns about data privacy and agency. Excluding stakeholders—like students and teachers—from the design process can potentially lead to mistrust and inadequately aligned tools. Despite a shift towards human-centred design in recent LA and AIED research, there remain gaps in our understanding of the importance of human control, safety, reliability, and trustworthiness in the design and implementation of these systems. We conducted a systematic literature review to explore these concerns and gaps. We analysed 108 papers to provide insights about i) the current state of human-centred LA/AIED research; ii) the extent to which educational stakeholders have contributed to the design process of human-centred LA/AIED systems; iii) the current balance between human control and computer automation of such systems; and iv) the extent to which safety, reliability and trustworthiness have been considered in the literature. Results indicate some consideration of human control in LA/AIED system design, but limited end-user involvement in actual design. Based on these findings, we recommend: 1) carefully balancing stakeholders' involvement in designing and deploying LA/AIED systems throughout all design phases 2) actively involving target end-users, especially students, to delineate the balance between human control and automation, and 3) exploring safety, reliability, and trustworthiness as principles in future human-centred LA/AIED systems.",
+      "year": "2024",
+      "published_date": "2024-03-13",
+      "journal": "Computers and Education Artificial Intelligence",
+      "url": "https://doi.org/10.1016/j.caeai.2024.100215",
+      "arxiv_id": "",
+      "keywords": [
+        "Analytics",
+        "Automation",
+        "Systematic review",
+        "Computer science",
+        "Knowledge management",
+        "Control (management)",
+        "Agency (philosophy)",
+        "Data science"
+      ],
+      "citations": 128,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.caeai.2024.100215",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent literature review"
+    },
+    {
+      "title": "Machine learning in transfusion medicine: A scoping review",
+      "authors": [
+        "Suzanne Maynard",
+        "Joseph Farrington",
+        "Samah Alimam",
+        "Hayley G. Evans",
+        "Kezhi Li",
+        "Wai Keong Wong",
+        "Simon Stanworth"
+      ],
+      "abstract": "Blood transfusion is a routine medical procedure in hospitals with over 2 million blood products transfused in the UK every year at a cost of over £300 million and a median national rate of 34 packed red cells per 1000 population in Europe.1, 2 A blood transfusion can be life-saving but can also cause harm.3 Repeated studies have demonstrated a gap between recommended blood use and clinical practice.4, 5 National challenges with blood stock shortages highlight the need to optimize our current approach to identify who requires and benefits from blood components.6 Recent advances in digital technology offer a wealth of new tools, which can help improve clinical practice as well as improving both the equality and equity of healthcare. Patient Public Involvement groups consistently support better use of data and better understanding of how it might improve efficiencies, prioritizing the need for healthcare professionals to engage with research optimizing use of data. Machine learning (ML) is a subfield of artificial intelligence (AI), which offers the ability to integrate complex and varied data types and could support clinician decision-making, aid personalized care, and, with additional work, improve patient outcomes.7, 8 This field is a rapidly advancing one, which has the potential to revolutionize patient blood management (PBM). Successful implementation of ML to support clinical workflows requires collaboration between computer scientists and clinicians. Key features of ML have been described elsewhere, which support informed interpretation of the literature.9, 10 The majority of work applying ML to healthcare uses supervised learning whereby the model is trained on input features and labeled output features to enable predictions on unseen examples (Figure 1).11 Model performance evaluation uses metrics, which summarize prediction quality, for example, the area under the receiver operating characteristic curve (AUROC) for classification models. The two other main categories of ML approaches are unsupervised learning, which identifies patterns in unlabeled data (e.g., finding clusters of similar patients), and reinforcement learning, an approach to learning how to act through trial and error. To be useful in practice, models need to be validated and integrated into a clinical workflow, where capacity constraints and users ignoring alerts may limit the impact of even a perfectly performing model.12 The purpose of this review is to collate the breadth of literature of ML in transfusion medicine, describing current trends and capturing key methodological approaches, adding to the recognized need for up-to-date discussion of the challenges and potential solutions to the prospective implementation of ML in transfusion medicine.13 The review aimed to report on original research articles, using ML approaches with a focus on transfusion medicine. We followed the approaches of a scoping review used by Cochrane from the Canadian Institutes of Health Research, defined as “exploratory projects that systematically map the literature available on a topic, identifying key concepts, theories, sources of evidence, and gaps in the research.”14 Eligibility for studies was defined by blood transfusion in humans (or the support of transfusion) as the main outcome. There were no restrictions on year of publication, publication status, or language. We excluded studies using linear or logistic regression (LR) primarily for statistical inference and/or to construct a predictive risk score. This exclusion is consistent with a recent systematic review on the impact of ML on patient care.15 When considering inventory management in a hospital blood bank, we focused on recent work using patient data from electronic health records and, therefore, excluded research that predicted future demand based solely on historic demand. As it is common in ML and computer science to submit full-length works to top tier conferences instead of journals, where reports met all other criteria, conference articles were included as full text (n = 3). We searched the Clarivate Web of Science database on January 4, 2023 with the following search terms: [TS = (machine learning OR artificial intelligence OR forecast* OR algorithm OR prediction model OR predictive model OR neural network)] AND TS = {transfus* OR blood product OR blood bank OR [reaction NEAR (blood OR transfus*)]}. We reviewed the lists of publications in the literature and consulted with all authors. Additional citation search was performed and relevant reports were added, which were not captured in the initial Web of Science search. The title and abstract screen were conducted in duplicate (SM and JF). Differences were resolved by consensus or with a third reviewer, to arrive at the final set for full-text review. Where the same work was published in more than one journal (i.e., not a true duplicate, but papers aimed at different audiences), we selected the journal with a medical focus where possible for inclusion in the summary tables and figures. Data were extracted in duplicate (SM and JF), with discrepancies resolved by a third reviewer. Results were presented descriptively. Initial clinical categories were defined and agreed based on understanding of the literature and were further refined following title and abstract screening. We extracted information on clinical applications, data sources, and ML methods. The research team also predefined a range of factors identified as important when considering the methodology and exploring the opportunities and limitations of translating ML models to a healthcare setting.16-18 Meta-analysis of the results was not undertaken due to the wide range of different tasks, variability in definitions for similar tasks, and reporting heterogeneity. A total of 4504 publications were retrieved using the described search strategy performed on January 4, 2023 (Figure 2). Initial screening returned 107 citations, and 93 articles were selected for inclusion in the study following full-text review, including the addition of two articles identified through citation searching. Overall, 16 studies eligible for full-text review were excluded: Three were duplicates captured through alternative journal publications, three did not meet ML criteria, transfusion was not the main outcome for seven, and the full-text article was not available for two studies. One article was removed due to subsequent publication retraction. The temporal distribution of 93 included publications is shown in Figure 3. There is a clear trend toward increasing frequency of publications over time with 56% (52/93) of the articles published in the last 3 years. The majority of studies were focused on prediction of transfusion (58%) with other key areas of ML application identified within transfusion safety (22%), hospital blood bank (10%), and supporting transfusion decisions (10%) (Figure 4A). Within prediction of transfusion (Figure 4B), a significant majority of studies were in the setting of surgery (61% 33/54), followed by trauma (24% 13/54). In the remaining eight studies, ML was deployed in the setting of obstetrics, gastrointestinal bleeding, and hemato/oncology, and in three studies applied more broadly to all inpatients and intensive care, captured as “other hospital settings.” The objectives, sample size, and key findings of all studies within these broad categories of clinical settings are provided in Table 1 and more detailed methodological considerations in Table 2. Overall clinical applications, trends, and a summary of main findings are discussed in more detail under the relevant subheading below. 220 (AAA) c.175 (non-AAA) Overall, the most common countries for identified studies are the United States (44), followed by China (16), Europe (12), and Canada (6). The range of sample sizes reported in the studies varied from 41 to more than 4 million (Table 1). Packed red blood cells (PRBCs) were the focus of approximately half of the studies (46/93), with most of the remainder considering either multiple blood products (22%) or not specifying the blood products (22%). Five studies (5%) considered only platelets, and two studies (2%) considered only plasma. The majority of identified studies employed ML to predict transfusion related to a specific specialty or procedure, notably within orthopedics,19-25 cardiac surgery,26-30 spinal surgery,31-34 and liver transplant,35-37 focusing on a specific procedure or a variety within that specialty (Table 2). A small number of studies consider procedures from multiple specialties38-44 with Walczak and Velanovich43 including 56 different surgeries from the publicly available United States National Surgical Quality Improvement Program (NSQIP). Their use of single models to predict transfusions for a wide variety of surgical procedures could provide a much simpler approach rather than individual models for each surgical procedure. Some researchers interrogated models to identify features to help predict PRBC transfusion22, 32, 34, 36 or the decision to transfuse44 as examples of hypothesis generation from ML. Five studies developed online risk calculators and web apps based on their models.24, 30, 32, 45, 46 Gurm et al.30 highlighted that previous simplified noncomputerized tools need no longer be the limit to what can be utilized in clinical medicine; however, a recent systematic review concluded that the resultant clinical prediction models for blood transfusion in elective surgery are of a high risk of bias and often fail to adhere to reporting standards, emphasizing caution before application to clinical practice.47 There is an extensive body of literature developing risk scores for transfusion in trauma patients, and multiple reviews suggest further model development and/or validation is required.48-51 Two key challenges with trauma are the potentially large requirements of blood for a small proportion of patients52 and the importance of a fast response.53 The activation of the massive transfusion protocol (MTP) is resource intensive and may result in product wastage in cases of false positive activation.54 The ability to predict future transfusion requirements prior to hospital arrival can support triage decisions and help to ensure that blood products are available when required on arrival.55-57 When making predictions using data collected at the hospital, research has focused on four related prediction tasks: predicting transfusion,58, 59 the number of units transfused,60 activation of the MTP,54 and/or massive transfusion.58, 61-63 The model developed by Mina et al.54 to predict MTP activation was integrated into a smartphone application, externally validated and an implementation and prospective validation study was conducted at the initial site. Clinicians informed of the model's prediction made better decisions in the prospective validation study.54, 64, 65 This is a key demonstration of how we expect such models will eventually be used in practice: supplementing rather than replacing clinical judgment. Demand for blood components and associated morbidity and mortality are significant in obstetrics, gastrointestinal bleeding, and hemato/oncology1, 5, 66; however, ML for prediction of transfusion in these settings is underrepresented comprising a total of 5 of 54 studies, none of which have undergone prospective validation or implementation at the time of writing. The studies exploring gastrointestinal bleeding demonstrate benefits of using large, publicly available data sets, able to externally validate models.67, 68 Given the availability of the data, these tasks could be developed into benchmarks, enabling different research teams to compare the performance of new approaches. Interestingly, Levi et al.67 apply their model to support triage: predicting which patients do not require transfusion (suggesting no ongoing bleeding) and, therefore, may avoid admission to intensive care unit (ICU). Shung et al.68 highlight the potential impact of alert fatigue in the context of repeated predictions on a problem with relatively low frequency. Lee et al.69 and Ghassemi et al.70 predict blood transfusion within the ICU, respectively, demonstrating the inadequacy of hemoglobin measurement alone as a determinate of transfusion and that general patient state representations could be used to better predict platelet and plasma transfusions. Review of all studies suggested that task-specific performance of ML for predicting transfusion need is frequently reported with AUROC >0.8 (Table 1). In 13 studies that reported a direct task-matched comparison of ML to LR models, LR matched or outperformed ML in 54% (Table 1). However, in additional seven studies, ML was reported to demonstrate measurable clinical improvements such as cost savings or performance over current scoring systems (Table 1). Beyond prediction of the likelihood of transfusion, ML can identify inappropriate transfusions, recognize patient groups by predicted transfusion outcomes, and enable precise dosing of blood products in efforts to reduce iron overload.71, 72 Through the analysis of existing clinical trials data, ML enabled estimates of the causal effect of preoperative plasma transfusion on perioperative bleeding in patients with a high International Normalized Ratio test result73 and of different ratios of platelets and plasma relative to PRBC on mortality and hemostasis in trauma patients.74 Bruun-Rasmussen et al.75 used ML to emulate a randomized controlled trial in the context of sex-matched transfusion policy. Ngufor et al.76 take a key step toward personalized medicine, clustering patients using unsupervised ML to determine whether they will benefit from plasma transfusion. Models to identify inappropriate transfusions may reduce the labor required for retrospective quality control77 and support local efforts to reduce unnecessary orders and transfusions.78 It may also be possible to identify situations where ongoing transfusion is futile, but this has proved challenging.79 Identified studies in this category were divided into hemovigilance and laboratory support in the Blood Bank. ML has been applied primarily to enhance the ability to detect and predict acute transfusion reactions (ATRs) and adverse transfusion events. Novel information retrieval methods, such as natural language processing (NLP), when applied to electronic health records (EHRs) have demonstrated underreporting by clinicians and the potential to improve detection.80-82 Alternatively, Roubinian et al.83 and Nguyen et al.84 incorporated novel biomarkers into classification models and decision tree analysis, respectively. While the focus of ML is on prediction, and a causal relationship cannot be assumed of the covariates found to have high predictive value, identification of novel risk factors for hypothesis generation and further research can be useful as seen in transfusion-associated lung injury (TRALI)85 and in transfusion-associated that and are for clinicians in et focus on when adverse transfusion, through use of In a laboratory of studies the use of ML to blood identification including two to help reactions where in interpretation et and et learning as a novel approach to of red blood to predict red quality prior to transfusion. The availability of has the development of models to blood product demand and based on patient data in addition to demand A model in a Canadian hospital for PRBC wastage and and it is common for models to be into to the potential benefits of In addition to studies supporting two studies the use of ML to wastage in a hospital blood bank by predicting and identifying patterns associated with of the methodology of identified studies are in Table 2. of all studies were data were from in defined as hospital data that were collected research or data sources included research and laboratory research data. but two papers used supervised learning, only four papers used unsupervised learning methods. of the papers used reinforcement In Table we supervised ML into three broad methods, neural and other methods. We these groups in the a study used an of from more than one of these the are as been used in that models were included in of the studies and neural in of the studies. A common approach by of the studies is to compare different ML available in such as A small number of papers novel ML including the use of a model to provide a in and using in the of information to a model to red quality on eight studies reported the results of prospective evaluation or four their models on collected one conducted a in which predictions were in time for evaluation but not used for and three implementation as of 93 A majority of studies included an outcome performance defined as a logistic or linear regression a reported for the same or a current Where as with prediction, to a reporting was reporting including and were utilized in only studies within predicting transfusion. of the work transfusion reactions or adverse within the transfusion safety of hemovigilance reported in with a recognized Data were to be available in of studies and in only which will limit future ability to and the work performed to et provided their full data protocol as an electronic an supporting and in the field of ML in transfusion is rapidly with as by the number of However, our review also clear challenges and of studies are single and have no prospective validation or ML model and data are made available for and is of methods, with performing models often selected from a trial of Where ML performance are often the caution in interpretation of that models can performance as to current As within predicting transfusion, ML not offer over LR when task-specific performance is and the in the clinical potential of ML tasks, reporting and methodology While prospective of a model within the clinical and subsequent evaluation of in key performance is in ML. findings of prospective and are consistent with of the field where a and researchers are and to help this A workflow, as developed in recent as a for the potential impact of a model may help to for prospective Data were extracted from or from medical in three of the four studies where predictions were made in as of a or a 93 the remaining required data to be into a smartphone The may initial to such challenges in different but is a risk of data and a limit on the and types of data that can be and Recent in such as may to the development of systems that can support and integrate data from with clinical and (or of the problem at in transfusion practice, in prediction where the outcome to could Models may and predictions by patient which are considered to be This problem may be in validation of models the use different or considered the of this review, it may be of to review studies where the of for example, and features as a of the or where are in more to for of an approach could to as the large, used for ML are also well to key performance an need in transfusion by which to relevant following transfusion in a While practice the of trained models, may to new on local data. of a model into the may patterns that have been (e.g., which are and how It is to the predictions of a deployed model to ensure that predictions and The ability to and models using and/or more recent offers potential of predictive over historic simplified scores and prediction in these enabling models to new clinical trends and performance as to current practice in an To our this review is the to collate the literature on a wide range of of ML in transfusion medicine. analysis the work of and who articles of ML applied to bleeding and from a search. We have captured information on areas of to clinicians and and by review of ongoing challenges in the interpretation and of we also offer suggested for future reporting and study has a number of The of and use of reporting of results and interpretation as well as for researchers to and validate be to provide work as an online and common definitions and following reporting it to compare and identify for prospective validation and subsequent in setting to an of the the of publications captured broad search it was the of this review to to multiple and we that relevant studies may have been review was performed in efforts to studies might benefit from more focused reviews on selected in transfusion medicine. we apply the outcome of to identify studies to support we recognize that the of well this such as of (e.g., and iron and that these areas in future studies. As the body of literature of ML in transfusion and will the potential for more focused systematic This review to the studies and reviews to engage clinicians new to the of There has been a of the literature in recent the and toward the application of ML in transfusion medicine. However, challenges and limitations to data quality and to reporting and of be on consistent of and prospective validation with comparison to current practice of future studies. This study was by the Blood and in Data the for in and the The are of the and not of the or the of Health and The have no of In Table 2 of the main we supervised learning into three broad methods, neural and other methods. classification and regression tree a single decision and that an of in (e.g., or (e.g., and of of by and neural in which each input from every in the and alternative that have been developed for different types of input data including neural for and neural (e.g., the for final category that are not based on decision and are not neural including linear models (e.g., logistic regression and linear support and",
+      "year": "2023",
+      "published_date": "2023-11-10",
+      "journal": "Transfusion",
+      "url": "https://doi.org/10.1111/trf.17582",
+      "arxiv_id": "",
+      "keywords": [
+        "Transfusion medicine",
+        "Medicine",
+        "Intensive care medicine",
+        "MEDLINE",
+        "Blood transfusion",
+        "Computer science",
+        "Surgery",
+        "Chemistry"
+      ],
+      "citations": 35,
+      "source": "OpenAlex",
+      "doi": "10.1111/trf.17582",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models full text retrieval"
+    },
+    {
+      "title": "Agentic AI Frameworks in SMMEs: A Systematic Literature Review of Ecosystemic Interconnected Agents",
+      "authors": [
+        "Peter Adebowale Olujimi",
+        "Pius Adewale Owolawi",
+        "Refilwe Constance Mogase",
+        "Etienne Van Wyk"
+      ],
+      "abstract": "This study examines the application of agentic artificial intelligence (AI) frameworks within small, medium, and micro-enterprises (SMMEs), highlighting how interconnected autonomous agents improve operational efficiency and adaptability. Using the PRISMA 2020 framework, this study systematically identified, screened, and analyzed 66 studies, including peer-reviewed and credible gray literature, published between 2019 and 2024, to assess agentic AI frameworks in SMMEs. Recognizing the constraints faced by SMMEs, such as limited scalability, high operational demands, and restricted access to advanced technologies, the review synthesizes existing research to highlight the characteristics, implementations, and impacts of agentic AI in task automation, decision-making, and ecosystem-wide collaboration. The results demonstrate the potential of agentic AI to address technological, ethical, and infrastructure barriers while promoting innovation, scalability, and competitiveness. This review contributes to the understanding of agentic AI frameworks by offering practical insights and setting the groundwork for further research into their applications in SMMEs’ dynamic and resource-constrained economic environments.",
+      "year": "2025",
+      "published_date": "2025-06-11",
+      "journal": "AI",
+      "url": "https://doi.org/10.3390/ai6060123",
+      "arxiv_id": "",
+      "keywords": [
+        "Business"
+      ],
+      "citations": 15,
+      "source": "OpenAlex",
+      "doi": "10.3390/ai6060123",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent"
+    }
+  ],
+  "timestamp": "20260423_162703"
+}

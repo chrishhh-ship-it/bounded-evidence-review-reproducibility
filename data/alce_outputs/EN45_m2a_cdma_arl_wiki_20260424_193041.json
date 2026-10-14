@@ -1,0 +1,60 @@
+{
+  "qid": "EN45",
+  "condition": "m2a_cdma_arl",
+  "query": "How do social tipping points interact with policy interventions to accelerate low-carbon transitions?",
+  "domain": "Climate Policy Research",
+  "category": "social_tipping",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Climate change",
+    "Greenhouse gas emissions",
+    "Social media",
+    "Effects of climate change",
+    "Woody plant encroachment"
+  ],
+  "top_papers": [
+    {
+      "title": "Climate change",
+      "abstract": "Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution. Fossil fuel use, deforestation, and some agricultural and industrial practices rele"
+    },
+    {
+      "title": "Greenhouse gas emissions",
+      "abstract": "Greenhouse gas emissions (GHG emissions) from human activities intensify the greenhouse effect which contributes to climate change. Carbon dioxide (CO2) from burning fossil fuels (such as coal, oil, and natural gas) is the main cause of climate change. The largest annual emissions are from China followed by the United States, which has higher emissions per capita. The main producers fueling the emissions globally are large oil and gas companies."
+    },
+    {
+      "title": "Social media",
+      "abstract": "Social media are new media technologies that facilitate the creation, sharing and aggregation of content (such as ideas, interests, and other forms of expression) amongst virtual communities and networks. Common features include:\n\nOnline platforms enable users to create and share content and participate in social networking.\nUser-generated content such as text posts or comments, digital photos or videos, and data generated through online interactions.\nService specific profiles that are designed "
+    },
+    {
+      "title": "Effects of climate change",
+      "abstract": "Effects of climate change are well documented and growing for Earth's natural environment and human societies. Changes to the climate system include an overall warming trend, changes to precipitation patterns, and more extreme weather. As the climate changes it impacts the natural environment with effects such as more intense forest fires, thawing permafrost, and desertification. These changes impact ecosystems and societies, and can become irreversible once tipping points are crossed."
+    },
+    {
+      "title": "Woody plant encroachment",
+      "abstract": "Woody plant encroachment (also called  woody encroachment, bush encroachment, shrub encroachment, shrubification, woody plant proliferation, or bush thickening) is a natural phenomenon characterised by the area expansion and density increase of woody plants, bushes and shrubs, at the expense of the herbaceous layer, grasses and forbs. It refers to the expansion of native plants and not the spread of alien invasive species. Woody encroachment is observed across different ecosystems and with diffe"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Climate_change",
+    "wiki:Greenhouse_gas_emissions",
+    "wiki:Social_media",
+    "wiki:Effects_of_climate_change",
+    "wiki:Woody_plant_encroachment"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN45_m2a_cdma_arl_wiki_20260424_193041.md"
+}

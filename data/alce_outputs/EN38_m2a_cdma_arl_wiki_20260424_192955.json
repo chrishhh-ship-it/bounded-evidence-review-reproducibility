@@ -1,0 +1,60 @@
+{
+  "qid": "EN38",
+  "condition": "m2a_cdma_arl",
+  "query": "What does the recent literature say about the effectiveness of carbon pricing mechanisms for achieving national emission reduction targets?",
+  "domain": "Climate Policy Research",
+  "category": "mitigation",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Carbon emission trading",
+    "Climate change mitigation",
+    "European Union Emissions Trading System",
+    "Economic analysis of climate change",
+    "Carbon capture and storage"
+  ],
+  "top_papers": [
+    {
+      "title": "Carbon emission trading",
+      "abstract": "Carbon emission trading (also called carbon market, emission trading scheme (ETS) or cap and trade) is a type of emissions trading scheme designed for carbon dioxide (CO2) and other greenhouse gases (GHGs). A form of carbon pricing, its purpose is to limit climate change by creating a market with limited allowances for emissions. Carbon emissions trading is a common method that countries use to attempt to meet their pledges under the Paris Agreement, with schemes operational in China, the Europe"
+    },
+    {
+      "title": "Climate change mitigation",
+      "abstract": "Climate change mitigation, also called climate change decarbonisation, is an action to limit the greenhouse gases in the atmosphere that cause climate change. Climate change mitigation actions include conserving energy and replacing fossil fuels with clean energy sources. Secondary mitigation strategies include changes to land use and removing carbon dioxide (CO2) from the atmosphere. 2022 assessments emphasize that global greenhouse gas emissions must peak before 2025 and decline by about 43% b"
+    },
+    {
+      "title": "European Union Emissions Trading System",
+      "abstract": "The European Union Emissions Trading System (EU ETS) is a carbon emission trading scheme (or cap and trade scheme) that began in 2005 and is intended to lower greenhouse gas emissions in the EU. Cap and trade schemes limit emissions of specified pollutants over an area and make polluters pay for their pollution, requiring them to buy allowances to emit enough to cover their emissions, from the EU or from other companies. The money is channeled to environmental and social goals. As of 2026 the ET"
+    },
+    {
+      "title": "Economic analysis of climate change",
+      "abstract": "Economic analysis of climate change uses economic tools and models to calculate the scale and distribution of damages caused by climate change. It can also give guidance for the best policies for mitigation and adaptation to climate change from an economic perspective. There are many economic models and frameworks. For example, in a cost–benefit analysis, the trade offs between climate change impacts, adaptation, and mitigation are made explicit."
+    },
+    {
+      "title": "Carbon capture and storage",
+      "abstract": "Carbon capture and storage (CCS) is a process by which carbon dioxide (CO2) from industrial installations or natural sources is separated before it is released into the atmosphere, then transported to a long-term storage location. The CO2 is captured from a large point source, such as a natural gas processing plant and is typically stored in a deep geological formation. Around 80% of the CO2 captured annually is used for enhanced oil recovery (EOR), a process by which CO2 is injected into partia"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Carbon_emission_trading",
+    "wiki:Climate_change_mitigation",
+    "wiki:European_Union_Emissions_Trading_System",
+    "wiki:Economic_analysis_of_climate_change",
+    "wiki:Carbon_capture_and_storage"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN38_m2a_cdma_arl_wiki_20260424_192955.md"
+}

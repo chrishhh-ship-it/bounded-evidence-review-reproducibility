@@ -1,0 +1,42 @@
+{
+  "qid": "EN18",
+  "condition": "m2a_cdma_arl",
+  "query": "How can knowledge graphs represent historical relationships and support digital humanities research workflows?",
+  "domain": "Digital Humanities",
+  "category": "knowledge_graph",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 2,
+  "eq_titles": [
+    "Data and information visualization",
+    "Geographic information system"
+  ],
+  "top_papers": [
+    {
+      "title": "Data and information visualization",
+      "abstract": "Data and information visualization (data viz/vis or info viz/vis) is the practice of designing and creating graphic or visual representations of quantitative and qualitative data and information with the help of static, dynamic or interactive visual items. These visualizations are intended to help a target audience visually explore and discover, quickly understand, interpret and gain important insights into otherwise difficult-to-identify structures, relationships, correlations, local and global"
+    },
+    {
+      "title": "Geographic information system",
+      "abstract": "A geographic information system (GIS) consists of integrated computer hardware and software that store, manage, analyze, edit, output, and visualize geographic data. Much of this often happens within a spatial database; however, this is not essential to meet the definition of a GIS. In a broader sense, one may consider such a system also to include human users and support staff, procedures and workflows, the body of knowledge of relevant concepts and methods, and institutional organizations.\nThe"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Data_and_information_visualization",
+    "wiki:Geographic_information_system"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN18_m2a_cdma_arl_wiki_20260424_192801.md"
+}

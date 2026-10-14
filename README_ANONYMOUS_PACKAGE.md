@@ -1,114 +1,12 @@
 # Anonymous reproducibility package
 
-Version: 2026-08-15 review snapshot
+Version: 2026-10-14 (v4, R2 GitHub deposit)
 
-This archive reproduces the reported analyses from preserved outputs. It does
-not promise byte-identical regeneration of API responses because provider-side
-randomness remains possible even at temperature zero and no seed was exposed.
+See `README_R2_ADDENDUM.md` for the new R2 materials, verified analysis
+entrypoints, and the adaptations made for this public repository.
 
-## Included
+This archive reproduces the reported analyses from preserved outputs. It excludes manuscript-author identities, affiliations, personal contact details, API keys, credentials, internal model-generated provisional keys, and abandoned smoke runs.
 
-- frozen normalized corpus and benchmark query sets, including the independent
-  EN01--EN50 English stress-test source set;
-- structural evaluation and statistical-analysis scripts;
-- final human title-identity and matched semantic-audit artifacts;
-- final threshold, one-output-per-query distribution, and complete-case
-  sensitivity analyses;
-- external ALCE and SciFact benchmark outputs and analysis artifacts;
-- an anonymized, analysis-ready human-study table and the formal imputation log;
-- anonymized query-construction provenance record;
-- SHA-256 and byte-size manifest for every deposited file other than the
-  manifest itself.
+Included materials comprise the frozen normalized corpus, benchmark queries, historical prompt and role-script snapshots, structural and statistical analysis scripts, final human title-identity and matched semantic-audit artifacts, external ALCE and SciFact artifacts, anonymized human-study responses, an anonymized query-protocol confirmation, and a SHA-256 manifest.
 
-## Excluded
-
-- API keys, browser profiles, account credentials, and local environment files;
-- raw proprietary-source exports; only normalized redistributable records are
-  included;
-- internal model-generated provisional coding keys and abandoned smoke runs;
-- coder workbooks containing unnecessary local-document metadata. The final
-  machine-readable human results and adjudication records are retained.
-
-## Core commands
-
-Run from the archive root:
-
-```bash
-python scripts/evaluate_metrics.py --corpus data/frozen_corpus_multidomain_v1.json --dir PATH_TO_PRESERVED_OUTPUTS --tag method1 --query-ids Q01-Q251
-python scripts/final_revision_analyses_20260812.py
-```
-
-The complete historical commands and expected values are in
-`README_REPRODUCE.md`. The package includes the expanded preserved outputs used
-for the reported analyses, their derived per-query evaluation tables, and a
-cryptographic manifest. Historical retries remain archived; analyses that
-require one row per query use the documented deterministic deduplication rule.
-
-The human-study deposit excludes participant names, local questionnaire file
-names, and redundant raw display fields. The retained anonymized fields are the
-complete inputs used for the reported ranking, rating, and suspicion analyses.
-
-The principal reproducibility claim is analysis reproducibility from the
-preserved outputs. Provider-backed scripts are included for protocol
-inspection and prospective reruns, but they require users' own API credentials
-and may not reproduce historical generations byte for byte.
-
-## Independent English stress-test set
-
-`data/benchmarks/english_queries_benchmark.json` contains a separate,
-purpose-built 50-query English stress-test set that is not part of the
-251-query expanded benchmark. The records are identified as EN01--EN50 and
-cover four domains: multi-agent information services (13), climate-policy
-research (13), digital humanities (12), and biomedical evidence synthesis
-(12). Exact query-string comparison against
-`data/benchmarks/benchmark_all_queries.json` gives zero overlap. The file is
-included as the source definition of this independent stress test; it should
-not be interpreted as an English-language subset of the expanded benchmark.
-
-## Setup and path note
-
-Install the analysis dependencies with:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-`requirements-lock.txt` records the exact dependency versions used for the
-clean-room verification run. It is an environment snapshot rather than a
-promise that hosted model endpoints remain unchanged.
-
-On Windows, run `git config --global core.longpaths true` before cloning, and
-clone or extract the repository to a short path such as `C:\ipmrep`. Several
-files under `data/reports/.../repro/v3/` have long nested paths; without the
-`core.longpaths` setting, `git clone` can silently fail to check some of them
-out (visible as `Filename too long` errors), which then makes
-`build_manifest.py --verify-only` report those files as missing even though
-they exist in the repository. A short checkout root reduces but does not
-eliminate this risk, since the long path segments are inside the repository's
-own directory structure. Paths stored inside preserved JSON records use the
-neutral `<USER_ROOT>` placeholder and are not required by the analysis
-scripts.
-
-The repository also fixes text files to LF through `.gitattributes`. Reviewers
-can verify the existing package without rewriting it by running
-`python scripts/build_manifest.py --verify-only`.
-
-## Licence and upstream data
-
-The code licence and the boundaries for third-party data are documented in
-`LICENSE` and `DATA_SOURCES_AND_LICENSES.md`. The code licence does not grant
-new rights over third-party bibliographic records or benchmark data.
-
-## Access boundary
-
-This repository is prepared for double-blind peer review. Local account names,
-absolute workstation paths, credentials, and contributor-role identifiers have
-been removed. Scholarly bibliographic metadata is retained as research data and
-may contain author names already present in the underlying publications; where
-a retrieved record's listed author matched a name on this manuscript's own
-author list, that specific author-name field was replaced with
-`[author redacted for double-blind review]` in this snapshot (10 files, 64
-occurrences, corrected 2026-08-16) while every other field (title, abstract,
-identifiers, citation counts) was left unchanged so that structural metrics
-remain reproducible. Raw proprietary-source exports, provider credentials, and
-immutable provider-side snapshot identifiers are not included.
+Core commands and expected values are documented in `README_REPRODUCE.md`. API-backed responses are not promised to regenerate byte-identically because provider-side randomness may remain possible at temperature zero. The ZIP is intended for upload as editor-accessible Supplementary Material S1 during double-anonymized review.

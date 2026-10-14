@@ -1,0 +1,48 @@
+{
+  "qid": "EN11",
+  "condition": "m2b_cdma_arl",
+  "query": "How do multi-agent information retrieval systems scale to large corpora while preserving citation accuracy?",
+  "domain": "Multi-Agent Information Services",
+  "category": "scalability",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 3,
+  "eq_titles": [
+    "Large language model",
+    "Machine learning",
+    "Generative AI"
+  ],
+  "top_papers": [
+    {
+      "title": "Large language model",
+      "abstract": "A large language model (LLM) is a neural network trained on a vast amount of text for natural language processing tasks, especially language generation. LLMs can generate, summarize, translate and parse text in many contexts, and are a foundational technology behind modern chatbots. Biased or inaccurate training data can make an LLM's output less reliable. \nAs of 2024, the largest and most capable LLMs are all based on transformer architectures, which, according to the 2017 paper Attention Is Al"
+    },
+    {
+      "title": "Machine learning",
+      "abstract": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit programming language instructions. Within a subdiscipline of machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.\nStatistics and m"
+    },
+    {
+      "title": "Generative AI",
+      "abstract": "Generative artificial intelligence, commonly known as generative AI or GenAI, is a subfield of artificial intelligence that uses generative models to generate text, images, videos, audio, software code (vibe coding) or other forms of data. These models learn the underlying patterns and structures of their training data, and use them to generate new data in response to input, which often takes the form of natural language prompts.\nThe prevalence of generative AI tools has increased significantly "
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Large_language_model",
+    "wiki:Machine_learning",
+    "wiki:Generative_AI"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN11_m2b_cdma_arl_wiki_20260424_192855.md"
+}

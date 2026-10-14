@@ -1,0 +1,1080 @@
+{
+  "summary": {
+    "method1": {
+      "n": 50,
+      "icp_mean": 100.0,
+      "ecp_mean": 97.0,
+      "orphan_mean": 0.0
+    },
+    "method2a": {
+      "n": 50,
+      "icp_mean": 100.0,
+      "ecp_mean": 97.9,
+      "orphan_mean": 0.0
+    },
+    "method2b": {
+      "n": 50,
+      "icp_mean": 99.2,
+      "ecp_mean": 96.8,
+      "orphan_mean": 0.8
+    }
+  },
+  "detail": {
+    "method1": {
+      "EN01": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN02": {
+        "icp": 100.0,
+        "ecp": 75.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN03": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN04": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN05": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN06": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN07": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN08": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN09": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN10": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN11": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN12": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN13": {
+        "icp": 100.0,
+        "ecp": 62.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN14": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN15": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN16": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN17": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN18": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN19": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN20": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN21": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN22": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN23": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN24": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN25": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN26": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN27": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN28": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN29": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN30": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN31": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN32": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN33": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN34": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN35": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN36": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN37": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN38": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN39": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN40": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN41": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN42": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN43": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN44": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN45": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN46": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN47": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN48": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN49": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN50": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      }
+    },
+    "method2a": {
+      "EN01": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN02": {
+        "icp": 100.0,
+        "ecp": 75.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN03": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN04": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN05": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN06": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN07": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN08": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN09": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN10": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN11": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN12": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN13": {
+        "icp": 100.0,
+        "ecp": 83.3,
+        "orphan": 0.0,
+        "n_intext": 6,
+        "n_bib": 8
+      },
+      "EN14": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN15": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN16": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN17": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN18": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN19": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN20": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN21": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 4,
+        "n_bib": 8
+      },
+      "EN22": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN23": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN24": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN25": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN26": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN27": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN28": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN29": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN30": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN31": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN32": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN33": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN34": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN35": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN36": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN37": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN38": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN39": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN40": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 7,
+        "n_bib": 8
+      },
+      "EN41": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN42": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN43": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN44": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN45": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN46": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN47": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN48": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN49": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN50": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      }
+    },
+    "method2b": {
+      "EN01": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN02": {
+        "icp": 100.0,
+        "ecp": 75.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN03": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN04": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN05": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN06": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN07": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN08": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN09": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN10": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN11": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN12": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN13": {
+        "icp": 100.0,
+        "ecp": 62.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN14": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN15": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN16": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN17": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN18": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN19": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN20": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN21": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 4,
+        "n_bib": 8
+      },
+      "EN22": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN23": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN24": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN25": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN26": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN27": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN28": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN29": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN30": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN31": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN32": {
+        "icp": 62.5,
+        "ecp": 62.5,
+        "orphan": 37.5,
+        "n_intext": 8,
+        "n_bib": 5
+      },
+      "EN33": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN34": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN35": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN36": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN37": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN38": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN39": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN40": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN41": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN42": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN43": {
+        "icp": 100.0,
+        "ecp": 87.5,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN44": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN45": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN46": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN47": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN48": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN49": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      },
+      "EN50": {
+        "icp": 100.0,
+        "ecp": 100.0,
+        "orphan": 0.0,
+        "n_intext": 8,
+        "n_bib": 8
+      }
+    }
+  }
+}

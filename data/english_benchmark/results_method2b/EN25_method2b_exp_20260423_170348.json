@@ -1,0 +1,180 @@
+{
+  "query_id": "EN25",
+  "query": "What computational approaches support long-term digital preservation and findability of scholarly cultural heritage materials?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "The visual side of digital humanities: a survey on topics, researchers, and epistemic cultures",
+      "authors": [
+        "Sander Münster",
+        "Melissa Terras"
+      ],
+      "abstract": "Abstract\n               Although the digital humanities have traditionally been conceived as a text-based discipline, both digital visualization techniques as well as visual analysis are increasingly used for research in various humanities disciplines. Since there are several overlaps in epistemic cultures of visually oriented and digitally supported research in art and architectural history studies, museology, and archaeology, as well as cultural heritage, we introduce ‘visual digital humanities’ as novel ‘umbrella’ term to cover research approaches in the digital humanities that are dependent on both consuming and producing pictorial, rather than textual, information to answer their humanities research questions. This article aims to determine this particular field of research in terms of (1) research topics, (2) disciplinary standards, and (3) a scholarly culture as well as (4) researchers’ habits and backgrounds. This study is intended to highlight a scope of phenomena and aspects of relevance. Information is gathered by interviews with researchers at London universities and workshops held in Germany and Sweden.",
+      "year": "2019",
+      "published_date": "2019-5-5",
+      "journal": "Digital Scholarship in the Humanities",
+      "url": "https://doi.org/10.1093/llc/fqz022",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 31,
+      "source": "CrossRef",
+      "doi": "10.1093/llc/fqz022",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "Narrating Ancient Roman Heritage through Drawings and Digital Architectural Representation: From Historical Archives, UAV and LIDAR to Virtual-Visual Storytelling and HBIM Projects",
+      "authors": [
+        "F. Banfi",
+        "S. Roascio",
+        "A. Mandelli",
+        "C. Stanga"
+      ],
+      "abstract": "One of the main objectives of today’s archaeological sites and museums is the development of research, understood as the interpretation and contextualisation of tangible and intangible cultural heritage to broaden the knowledge and accessibility of archaeological parks often unknown to visitors and the public on a large scale. In this perspective, the Appia Antica Archaeological Park aims to support research in digitising infrastructures and archaeological contexts of high historical and cultural value to plan short- and medium-term preservation and maintenance projects. In this context, unmanned aerial vehicles (UAVs) are tools with enormous potential in survey, inspection and digitisation, providing the basis for the subsequent phases of data interpretation, representation and material analysis. Thanks to the photorealistic reconstruction of dense structure from motion (DSfM) in the application of structural inspections, today it is possible to intercept the geometry and material conditions of small, medium and large structures, reducing the costs of inspections, limiting the interruption of the public and providing professionals and visitors with a better volumetric understanding of the system. However, inserting information that gradually accumulates throughout the process requires advanced 3D digital representation techniques, such as HBIM (historic building information modelling), scan-to-BIM approach and interactive forms, such as virtual and augmented reality (VR-AR). For these reasons, this study summarises the experience and lessons learned from the UAV inspection of three research case studies at archaeological, architectural, and infrastructure scales to increase awareness of the Roman-built heritage.",
+      "year": "2023",
+      "published_date": "2023-01-11",
+      "journal": "Drones",
+      "url": "https://www.semanticscholar.org/paper/f71fdeb49321216bd091fa0a0b8dc25aeebee9d8",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 22,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/drones7010051",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis survey"
+    },
+    {
+      "title": "Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities",
+      "authors": [
+        "Lise Jaillant",
+        "Katherine Aske"
+      ],
+      "abstract": "Innovative technologies are improving the accessibility, preservation, and searchability of born-digital and digitised records. In particular, Artificial Intelligence is opening new opportunities for archivists and researchers. However, the experience of scholars (particularly humanities scholars) and other users remain understudied. This article asks how and why researchers and general users are, or are not, using computational methods. This research is informed by an open-call survey, completed by 22 individuals, and semi-structured interviews with 33 professionals, including archivists, librarians, digital humanists, literary scholars, historians, and computer scientists. Drawing on these results, this article offers an analysis of user experiences of computational research methods applied to digitised and born-digital archives. With a focus on humanities and social science researchers, this article also discusses users who resist this kind of research, perhaps because they lack the skills necessary to engage with these materials at scale, or because they prefer to use more traditional methods, such as close reading and historical analysis. Here, we explore the uses of computational and more “traditional” research methodologies applied to digital records. We also make a series of recommendations to elevate users’ computational skills but also to improve the digital infrastructure to make archives more accessible and usable.",
+      "year": "2024",
+      "published_date": "2024-01-06",
+      "journal": "ACM Journal on Computing and Cultural Heritage",
+      "url": "https://www.semanticscholar.org/paper/6c0cd22e9f3dc78f4e13234e9f00b602c1ede15d",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 15,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3631125",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis survey"
+    },
+    {
+      "title": "Should we really ‘hermeneutise’ the Digital Humanities? A plea for the epistemic productivity of a ‘cultural technique of flattening’ in the Humanities.",
+      "authors": [
+        "Sybille Krämer"
+      ],
+      "abstract": "Why are the Digital Humanities a genuine part of the Humanities? Attempts are currently being made by arguing that computational methods are at the same time hermeneutic procedures (‘screwmeneutics’, ‘hermenumericals’): computation and hermeneutics were mixed. In criticizing this fusion of ‘literacy’ and ‘numeracy’, it is argued that what really connects the classical Humanities and the Digital Humanities is methodologically based on the ‘cultural technique of flattening’ and not on hermeneutics. The projection of spatial and non-spatial relations onto the artificial flatness of inscribed and illustrated surfaces forms a first-order epistemic and cultural potential in the history of the Humanities: diagrammatic reasoning, the visualizing potential of writings, lists, tables, diagrams, and maps, the sorting function of alphabetically ordered knowledge corpora have always shaped and determined basic scholarly work. It is this ‘diagrammatical’ dimension to which the Digital Humanities are linked to Humanities in general. The metamorphosis of texts, pictures, and music into the surface configurations of machine-analyzable data corpora opens up the possibility of revealing latent and implicit patterns of cultural artifacts, and practices that mostly are not accessible to human perception. The quantifying, computational methods of the Digital Humanities operate like computer-generated microscopes and telescopes into the cultural heritage, ongoing cultural practices, and even the culturally unconscious.",
+      "year": "2023",
+      "published_date": "2023-01-30",
+      "journal": "Journal of Cultural Analytics",
+      "url": "https://www.semanticscholar.org/paper/fe02b866804681e3bbdb27e097f0f2a58e867369",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.22148/001c.55592",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    },
+    {
+      "title": "Digital Preservation and Language Technology Integration for Full-Text Retrieval of Old Arewa Kingdom Manuscripts",
+      "authors": [
+        "Dada Kayode Sunday John"
+      ],
+      "abstract": "The manuscript heritage of the Old Arewa Kingdom in Northern Nigeria forms a significant intellectual archive reflecting centuries of Islamic scholarship, governance, and cultural life in West Africa. These manuscripts appear in multiple scripts and languages, including Arabic, Hausa Ajami, Fulfulde Ajami, Kanuri, and Roman-script Hausa. Although digitisation initiatives have expanded across Nigerian archival institutions, most collections remain accessible mainly as image archives with limited search capability. This study examines the implementation of digital preservation and language technologies required for full-text retrieval in institutions preserving Old Arewa manuscripts. A survey of national, state, and university repositories shows that while basic digitisation tools are widely adopted, key components for searchable repositories remain underdeveloped. Optical Character Recognition (OCR) for Arabic and Ajami scripts, multilingual metadata systems, and Unicode-compliant infrastructures are insufficiently implemented. The study argues that sustainable preservation requires moving from image-based digitisation to integrated digital ecosystems combining Unicode standardization, AI-assisted text recognition, and multilingual metadata frameworks.",
+      "year": "2026",
+      "published_date": "2026-3-21",
+      "journal": "Informatics Studies",
+      "url": "https://doi.org/10.65408/cird230128",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.65408/cird230128",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models full text retrieval"
+    },
+    {
+      "title": "Technological Trends In Digital And Interactive Media For Heritage Design: A Systematic Literature Review",
+      "authors": [
+        "Eizaveta Yvier",
+        "Tsokur Eizstvkov"
+      ],
+      "abstract": "The rapid evolution of digital and interactive media has transformed approaches to heritage design, enabling new ways to preserve, interpret, and engage with cultural assets. This study systematically reviews technological trends in digital and interactive media that support heritage design, emphasizing their implications for graphic design, digital humanities, and cultural communication. A systematic literature review (SLR) was conducted following PRISMA guidelines, supported by PICOS and SPIDER frameworks to ensure methodological rigor and transparency. Relevant studies were retrieved from leading academic databases, including Scopus, Web of Science, and IEEE Xplore, with inclusion and exclusion criteria based on publication type, relevance, and thematic alignment. An initial pool of 87 records was identified, from which 40 studies were finally included after applying quality and eligibility screening. The synthesis identifies five dominant technological directions: immersive technologies (virtual and augmented reality), interactive installations, gamification, artificial intelligence-driven visualization, and participatory digital platforms. These approaches illustrate how heritage design is evolving from static documentation toward dynamic, user-centered, and interdisciplinary experiences. The findings also highlight challenges in accessibility, cultural sensitivity, and sustainable technological integration. Compared with previous reviews in digital heritage and media studies, this work contributes a more design-centered perspective by mapping the convergence between interactive engagement and computational innovation. The study’s novelty lies in its interdisciplinary synthesis that connects visual communication theory with technological practices, offering a conceptual foundation for future research in digital heritage design. Overall, this review clarifies current research trajectories, identifies underexplored gaps, and proposes directions for advancing inclusive and culturally responsive design strategies.",
+      "year": "2025",
+      "published_date": "2025-10-28",
+      "journal": "International Journal of Graphic Design",
+      "url": "https://www.semanticscholar.org/paper/5cead6c43012ed0cb411e27d10b0416e7ad7ecfe",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.51903/ijgd.v3i2.3100",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities literature review automation benchmark"
+    },
+    {
+      "title": "Digital Humanities and disability: A systematic literature review of cultural accessibility for people with disability",
+      "authors": [
+        "Maria Pirrone",
+        "Marco Centorrino",
+        "Antonino Galletta",
+        "Christian Sicari",
+        "Massimo Villari"
+      ],
+      "abstract": "AbstractIn recent times, Digital Humanities (DH), together with the discoveries of Information and Communications Technology, have enabled the rediscovery and usability of cultural content with the support of various technologies. However, it was found that not everyone is able to access web platforms or visit cultural sites easily. In particular, the epidemiological Covid-19 crisis has highlighted the retrograde state of culture in terms of accessibility and usability, conditioned by the physical and web browsing limitations that for years weighed on people with disabilities. Therefore, it was decided to investigate how DH might support the cultural accessibility of people with disabilities. In particular, it was decided to carry out a systematic review of the cultural innovations of DH together with a survey on disability and supporting technologies in order to present how to improve the quality of the cultural experience of such a target. This study proceeded with the research and selection of literature on the subject of DH and disability, with the selection, analysis, and correlation of the scientific works included. The reference time frame includes the works produced between 2018 and 2022 consulted on main databases such as Scopus and Web of Science (WoS), screened using the Preferred Reporting Items for Systematic reviews and Meta-Analyses Statement.",
+      "year": "2022",
+      "published_date": "2022-7-30",
+      "journal": "Digital Scholarship in the Humanities",
+      "url": "https://doi.org/10.1093/llc/fqac045",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 11,
+      "source": "CrossRef",
+      "doi": "10.1093/llc/fqac045",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship systematic review"
+    },
+    {
+      "title": "Design, Digital Humanities, and Information Visualization for Cultural Heritage",
+      "authors": [
+        "R. Trocchianesi",
+        "Letizia Bollini"
+      ],
+      "abstract": "In this essay, we are interested in investigating some of the possible relations between design and digital humanities. In particular, we analyze the contribution that communication and interface design can bring to digital humanities. In a scene currently characterized by a heterogeneous set of activities and humanistic, technological, and cultural studies, the involvement of design seems confined to the development of digital instruments in accessing, exploring, and manipulating cultural data. How can design and the humanities work in an interdisciplinary way in order to shape new digital means to explore humanistic content? This essay presents four case studies (three of them developed by the authors), each of which suggests some methods and tools focused on the interdisciplinary relationships of scholars. The findings are both models of collaboration and models of digital architecture (data visualization) and showcase applied digital interactive platforms that present several paths to discovering different levels of content in the fields of art, psychology, literature, and history. In conclusion, this essay presents a manifesto focusing on ten points of virtuous relation between design humanities and the field of information visualization.",
+      "year": "2023",
+      "published_date": "2023-11-01",
+      "journal": "Multimodal Technologies and Interaction",
+      "url": "https://www.semanticscholar.org/paper/479a39c5e4d0278d3e755119b0e852a3e2b70f4f",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 10,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/mti7110102",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    }
+  ],
+  "timestamp": "20260423_170348"
+}

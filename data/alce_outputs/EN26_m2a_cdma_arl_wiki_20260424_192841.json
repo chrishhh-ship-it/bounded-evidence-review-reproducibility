@@ -1,0 +1,60 @@
+{
+  "qid": "EN26",
+  "condition": "m2a_cdma_arl",
+  "query": "How can AI-assisted systematic review pipelines ensure that all included citations are traceable to retrieved evidence sources?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "systematic_review",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Timeline of computing 2020–present",
+    "Situation awareness",
+    "Computer security",
+    "3D printing",
+    "Slavery in the United States"
+  ],
+  "top_papers": [
+    {
+      "title": "Timeline of computing 2020–present",
+      "abstract": "This article presents a detailed timeline of events in the history of computing from 2020 to the present. For narratives explaining the overall developments, see the history of computing.\nSignificant events in computing include events relating directly or indirectly to software, hardware and wetware."
+    },
+    {
+      "title": "Situation awareness",
+      "abstract": "Situation awareness or situational awareness, is the understanding of an environment, its elements, and how it changes with respect to time or other factors.  It is also defined as the perception of the elements in the environment considering time and space, the understanding of their meaning, and the prediction of their status in the near future. It is also defined as adaptive, externally-directed consciousness focused on acquiring knowledge about a dynamic task environment and directed action "
+    },
+    {
+      "title": "Computer security",
+      "abstract": "Computer security (also cybersecurity, digital security, or information technology (IT) security) is a subdiscipline within the field of information security. It focuses on protecting computer software, systems, and networks from threats that can lead to unauthorized information disclosure, theft, or damage to hardware, software, or data, as well as to the disruption or misdirection of the services they provide.\nThe growing significance of computer security reflects the increasing dependence on "
+    },
+    {
+      "title": "3D printing",
+      "abstract": "3D printing, also called additive manufacturing, is the construction of a three-dimensional object from a CAD model or a digital 3D model. It can be done in a variety of processes in which material is deposited, joined or solidified under computer control, with the material being added together (e.g. plastics, liquids, or powder grains being fused), typically layer by layer.\nIn the 1980s, 3D printing techniques were considered suitable only for the production of functional or aesthetic prototype"
+    },
+    {
+      "title": "Slavery in the United States",
+      "abstract": "The legal institution of human chattel slavery, comprising the enslavement primarily of Africans and African Americans, was prevalent in the United States of America from its founding in 1776 until 1865, predominantly in the South. Slavery was found throughout European colonization in the Americas. From 1526, during the early colonial period, it was practiced in what became Britain's colonies, including the Thirteen Colonies that formed the United States. Under the law, children were born into s"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Timeline_of_computing_2020–present",
+    "wiki:Situation_awareness",
+    "wiki:Computer_security",
+    "wiki:3D_printing",
+    "wiki:Slavery_in_the_United_States"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN26_m2a_cdma_arl_wiki_20260424_192841.md"
+}

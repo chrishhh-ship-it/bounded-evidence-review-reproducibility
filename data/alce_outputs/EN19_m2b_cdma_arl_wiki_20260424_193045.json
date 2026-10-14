@@ -1,0 +1,60 @@
+{
+  "qid": "EN19",
+  "condition": "m2b_cdma_arl",
+  "query": "What automated methods have been proposed for literature review generation in humanities research contexts?",
+  "domain": "Digital Humanities",
+  "category": "literature_review",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 5,
+  "eq_titles": [
+    "Generation Z in the United States",
+    "Creativity",
+    "Social network analysis",
+    "Turing test",
+    "Chatbot"
+  ],
+  "top_papers": [
+    {
+      "title": "Generation Z in the United States",
+      "abstract": "Generation Z (or Gen Z for short), colloquially known as Zoomers, is the demographic cohort succeeding Millennials and preceding Generation Alpha.\nMembers of Generation Z, were born between the mid-to-late 1990s and the early 2010s, with the generation typically being defined as those born from 1997 to 2012. In other words, the first wave came of age during the latter half of the second decade of the twenty-first century, a time of significant demographic change due to declining birthrates, popu"
+    },
+    {
+      "title": "Creativity",
+      "abstract": "Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination. The products of creativity may be classified as either intangible or physical. Intangible products of creativity include ideas, scientific theories, literary works, musical compositions, and jokes. Physical products of creativity include inventions, dishes or meals, pieces of jewelry, costumes, and paintings."
+    },
+    {
+      "title": "Social network analysis",
+      "abstract": "Social network analysis (SNA) is the process of investigating social structures through the use of networks and graph theory. It characterizes networked structures in terms of nodes (individual actors, people, or things within the network) and the ties, edges, or links (relationships or interactions) that connect them. Examples of social structures commonly visualized through social network analysis include social media networks, meme proliferation, information circulation, friendship and acquai"
+    },
+    {
+      "title": "Turing test",
+      "abstract": "The Turing test, originally called the imitation game by Alan Turing in 1949, is a test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human. In the test, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, "
+    },
+    {
+      "title": "Chatbot",
+      "abstract": "A chatbot (originally chatterbot) is a software application or web interface designed to converse through text or speech. Modern chatbots are typically online and use generative artificial intelligence systems that are capable of maintaining a conversation with a user in natural language and simulating the way a human would behave as a conversational partner. Such chatbots often use deep learning and natural language processing. Simpler chatbots have existed for decades."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Generation_Z_in_the_United_States",
+    "wiki:Creativity",
+    "wiki:Social_network_analysis",
+    "wiki:Turing_test",
+    "wiki:Chatbot"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN19_m2b_cdma_arl_wiki_20260424_193045.md"
+}

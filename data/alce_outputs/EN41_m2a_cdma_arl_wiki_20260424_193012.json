@@ -1,0 +1,60 @@
+{
+  "qid": "EN41",
+  "condition": "m2a_cdma_arl",
+  "query": "How is scientific uncertainty communicated in IPCC assessment reports and what are its implications for policy design?",
+  "domain": "Climate Policy Research",
+  "category": "uncertainty",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Second presidency of Donald Trump",
+    "Climate change",
+    "Solar radiation modification",
+    "Public opinion on climate change",
+    "Kyoto Protocol"
+  ],
+  "top_papers": [
+    {
+      "title": "Second presidency of Donald Trump",
+      "abstract": "Donald Trump's second and current tenure as the president of the United States began upon his inauguration as the 47th president on January 20, 2025. Trump, a Republican, previously served as the 45th president from 2017 to 2021. He lost re-election to Democratic nominee Joe Biden in 2020, and then won against Democratic nominee Kamala Harris in 2024. Trump is the second former U.S. president to return to office."
+    },
+    {
+      "title": "Climate change",
+      "abstract": "Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution. Fossil fuel use, deforestation, and some agricultural and industrial practices rele"
+    },
+    {
+      "title": "Solar radiation modification",
+      "abstract": "Solar radiation modification (SRM), also called solar geoengineering, is a group of large-scale approaches to reduce global warming by increasing the amount of sunlight that is reflected away from Earth and back to outer space. It is not intended to replace efforts to reduce greenhouse gas emissions, but rather to complement them as a potential way to limit global warming. SRM is a form of geoengineering.\nThe most-researched SRM method is stratospheric aerosol injection (SAI), in which small ref"
+    },
+    {
+      "title": "Public opinion on climate change",
+      "abstract": "Public opinion on climate change is related to a broad set of variables, including the effects of sociodemographic, political, cultural, economic, and environmental factors as well as media coverage and interaction with different news and social media. International public opinion on climate change shows a majority viewing the crisis as an emergency.\nPublic opinion polling is an important part of studying climate communication and how to improve climate action. Evidence of public opinion can hel"
+    },
+    {
+      "title": "Kyoto Protocol",
+      "abstract": "The Kyoto Protocol (Japanese: 京都議定書, Hepburn: Kyōto Giteisho) was an international treaty which extended the 1992 United Nations Framework Convention on Climate Change (UNFCCC) that commits state parties to reduce greenhouse gas emissions, based on the scientific consensus that global warming is occurring and that human-made CO2 emissions are driving it. The Kyoto Protocol was adopted in Kyoto, Japan, on 11 December 1997 and entered into force on 16 February 2005. There were 192 parties (Canada "
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Second_presidency_of_Donald_Trump",
+    "wiki:Climate_change",
+    "wiki:Solar_radiation_modification",
+    "wiki:Public_opinion_on_climate_change",
+    "wiki:Kyoto_Protocol"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN41_m2a_cdma_arl_wiki_20260424_193012.md"
+}

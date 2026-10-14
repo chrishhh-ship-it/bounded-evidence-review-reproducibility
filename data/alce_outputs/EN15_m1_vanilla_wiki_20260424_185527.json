@@ -1,0 +1,51 @@
+{
+  "qid": "EN15",
+  "condition": "m1_vanilla",
+  "query": "What natural language processing techniques are most effective for entity recognition in digitised archival materials?",
+  "domain": "Digital Humanities",
+  "category": "nlp",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "Native Americans in the United States",
+    "Jeremy Bentham",
+    "Sikhism",
+    "Digital self-determination",
+    "List of Italian inventions and discoveries"
+  ],
+  "top_papers": [
+    {
+      "title": "Native Americans in the United States",
+      "abstract": "Native Americans (also called Indians, American Indians, First Americans, and Indigenous Americans) are the Indigenous peoples of the United States, particularly of the lower 48 states and Alaska. They may also include any Americans whose origins lie in any of the Indigenous peoples of North or South America. The United States Census Bureau publishes data about \"American Indians and Alaska Natives\", whom it defines as anyone \"having origins in any of the original peoples of North and South Ameri"
+    },
+    {
+      "title": "Jeremy Bentham",
+      "abstract": "Jeremy Bentham (; 4 February 1747/8 O.S. [15 February 1748 N.S.] – 6 June 1832) was an English philosopher, jurist, and social reformer regarded as the founder of modern utilitarianism.\nBentham defined as the \"fundamental axiom\" of his philosophy the principle that \"it is the greatest happiness of the greatest number that is the measure of right and wrong\". He became a leading theorist in Anglo-American philosophy of law, and a political radical whose ideas influenced the development of welfaris"
+    },
+    {
+      "title": "Sikhism",
+      "abstract": "Sikhism, also known as Sikhi, is an Indian religion and philosophy that originated in the Punjab region of the Indian subcontinent around the end of the 15th century CE. It is one of the most recently founded major religions and is followed by 25–30 million adherents, known as Sikhs.\nSikhism developed from the spiritual teachings of Guru Nanak (1469–1539), the faith's first guru, and the nine Sikh gurus who succeeded him. The tenth guru, Guru Gobind Singh (1666–1708), named the Guru Granth Sahib"
+    },
+    {
+      "title": "Digital self-determination",
+      "abstract": "Digital self-determination is a multidisciplinary concept derived from the legal concept of self-determination and applied to the digital sphere, to address the unique challenges to individual and collective agency and autonomy arising with increasing digitalization of many aspects of society and daily life."
+    },
+    {
+      "title": "List of Italian inventions and discoveries",
+      "abstract": "Italian inventions and discoveries are objects, processes or techniques invented, innovated or discovered, partially or entirely, by Italians.\nItalian people – living in the Italic peninsula or abroad – have been throughout history the source of important inventions and innovations in the fields of writing, calendar, mechanical and civil engineering, musical notation, celestial observation, perspective, warfare, long distance communication, storage and production of energy, modern medicine, poly"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Native_Americans_in_the_United_States",
+    "wiki:Jeremy_Bentham",
+    "wiki:Sikhism",
+    "wiki:Digital_self-determination",
+    "wiki:List_of_Italian_inventions_and_discoveries"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN15_m1_vanilla_wiki_20260424_185527.md"
+}

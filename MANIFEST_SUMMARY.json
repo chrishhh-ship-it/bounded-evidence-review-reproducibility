@@ -1,7 +1,10 @@
 {
-  "created_utc": "2026-08-17T04:00:57+00:00",
-  "source_snapshot": "75b1a9685345c3898c6027c2c01487cbeec38c3f-en50fix-20260817",
-  "file_count_excluding_manifest": 5981,
-  "total_bytes_excluding_manifest": 202088728,
+  "version": "2026-10-14 (v4, R2 GitHub deposit)",
+  "created_utc": "2026-10-14T14:22:50+00:00",
+  "source_snapshot": "IPM_ANON_REPRO_PACKAGE_v4_R2_20261014.zip",
+  "file_count_excluding_manifest": 6667,
+  "total_bytes_excluding_manifest": 215688395,
+  "source_package_record": "provenance/IMPORT_V4_R2_20261014.json",
+  "source_package_manifest": "provenance/source_package_v4/MANIFEST_SHA256.csv",
   "manifest_scope": "All deposited files except MANIFEST_SHA256.csv; excludes Git metadata, virtual environments, Python bytecode, and cache directories."
 }

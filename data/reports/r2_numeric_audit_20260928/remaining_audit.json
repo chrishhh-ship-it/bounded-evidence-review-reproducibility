@@ -1,0 +1,68 @@
+{
+  "wiki": {
+    "m1_vanilla": {
+      "n": 50,
+      "icp": 0.9,
+      "ecp": 1.0,
+      "or": 0.155
+    },
+    "m2a_cdma_arl": {
+      "n": 50,
+      "icp": 0.84,
+      "ecp": 1.0,
+      "or": 0.198
+    },
+    "m2b_cdma_arl": {
+      "n": 50,
+      "icp": 0.96,
+      "ecp": 1.0,
+      "or": 0.096
+    }
+  },
+  "autosurvey": {
+    "controlled": {
+      "n": 30,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.0
+    },
+    "native": {
+      "n": 30,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.007671228341242688
+    },
+    "nocheck": {
+      "n": 5,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.01276595744680851
+    }
+  },
+  "corpus_counts": {
+    "biomedical_evidence_synthesis": {
+      "papers": 788,
+      "abstracts": 714,
+      "queries": 46,
+      "fulltexts": 0
+    },
+    "climate_policy_research": {
+      "papers": 511,
+      "abstracts": 439,
+      "queries": 49,
+      "fulltexts": 0
+    },
+    "digital_humanities": {
+      "papers": 641,
+      "abstracts": 523,
+      "queries": 46,
+      "fulltexts": 13
+    },
+    "multi_agent_information_services": {
+      "papers": 1071,
+      "abstracts": 906,
+      "queries": 110,
+      "fulltexts": 96
+    }
+  }
+}

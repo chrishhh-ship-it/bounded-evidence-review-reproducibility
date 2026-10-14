@@ -1,0 +1,60 @@
+{
+  "qid": "EN35",
+  "condition": "m2b_cdma_arl",
+  "query": "What approaches exist for automatically verifying biomedical claims against primary literature using natural language inference?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "claim_verification",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 5,
+  "eq_titles": [
+    "Scientific method",
+    "Consciousness",
+    "Race (human categorization)",
+    "Discrimination based on skin tone",
+    "Crowdsourcing"
+  ],
+  "top_papers": [
+    {
+      "title": "Scientific method",
+      "abstract": "The scientific method is an empirical method for acquiring knowledge through careful observation, rigorous skepticism, hypothesis testing, and experimental validation. Developed from ancient and medieval practices, it acknowledges that cognitive assumptions can distort the interpretation of the observation. The scientific method has characterized science since at least the 17th century. Scientific inquiry includes creating a testable hypothesis through inductive reasoning, testing it through exp"
+    },
+    {
+      "title": "Consciousness",
+      "abstract": "Consciousness is being aware of something internal to one's self or of states or objects in one's external environment. It has been the topic of extensive explanations, analyses, and debate among philosophers, scientists, and theologians for millennia. There is no consensus on what exactly needs to be studied, or even if consciousness can be considered a scientific concept. In some explanations, it is synonymous with mind, while in others it is considered an aspect of it."
+    },
+    {
+      "title": "Race (human categorization)",
+      "abstract": "Race is a categorization of humans based on shared physical or social qualities into groups generally viewed as distinct within a given society. The term came into common usage during the 16th century, when it was used to refer to groups of various kinds, including those characterized by close kinship relations. By the 17th century, the term began to refer to physical (phenotypical) traits, and then later national affiliations or perceived ancestry. Modern science regards race as a social constr"
+    },
+    {
+      "title": "Discrimination based on skin tone",
+      "abstract": "Discrimination based on skin tone, also known as colorism, shadeism or pigmentocracy, is a form of prejudice and discrimination in which individuals of the same race receive benefits or disadvantages based on their skin tone. More specifically, colorism is the process of discrimination that marginalizes darker-skinned people over their lighter-skinned counterparts. Historically, colorism on a global scale has colonial roots, ranging from early class hierarchies in Asia to its impact on Latinos a"
+    },
+    {
+      "title": "Crowdsourcing",
+      "abstract": "Crowdsourcing involves a large group of dispersed participants contributing or producing goods or services—including ideas, votes, micro-tasks, and finances—for payment or as volunteers. Contemporary crowdsourcing often involves digital platforms to attract and divide work between participants to achieve a cumulative result. Crowdsourcing is not limited to online activity, however, and there are various historical examples of crowdsourcing. The word crowdsourcing is a portmanteau of \"crowd\" and "
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Scientific_method",
+    "wiki:Consciousness",
+    "wiki:Race_(human_categorization)",
+    "wiki:Discrimination_based_on_skin_tone",
+    "wiki:Crowdsourcing"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN35_m2b_cdma_arl_wiki_20260424_193256.md"
+}

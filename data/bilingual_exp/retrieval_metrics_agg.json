@@ -1,0 +1,40 @@
+{
+  "overall": {
+    "bcu_pct": 6.778,
+    "clg_pct": 80.2457,
+    "zlg_pct": 9.7543,
+    "size_zh": 1.7667,
+    "size_en": 17.8333,
+    "size_union": 19.6,
+    "acr_zh": 0.1497,
+    "acr_en": 0.5923,
+    "acr_union": 0.5914,
+    "dcr_zh": 0.4333,
+    "dcr_en": 0.6449,
+    "dcr_union": 0.6555,
+    "src_div_zh": 0.4667,
+    "src_div_en": 2.4,
+    "src_div_union": 2.4,
+    "cn_ratio_union": 0.0975,
+    "n": 30
+  },
+  "multi_agent_information_services": {
+    "bcu_pct": 6.778,
+    "clg_pct": 80.2457,
+    "zlg_pct": 9.7543,
+    "size_zh": 1.7667,
+    "size_en": 17.8333,
+    "size_union": 19.6,
+    "acr_zh": 0.1497,
+    "acr_en": 0.5923,
+    "acr_union": 0.5914,
+    "dcr_zh": 0.4333,
+    "dcr_en": 0.6449,
+    "dcr_union": 0.6555,
+    "src_div_zh": 0.4667,
+    "src_div_en": 2.4,
+    "src_div_union": 2.4,
+    "cn_ratio_union": 0.0975,
+    "n": 30
+  }
+}

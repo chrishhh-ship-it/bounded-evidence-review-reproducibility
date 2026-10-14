@@ -1,0 +1,200 @@
+{
+  "query_id": "EN11",
+  "query": "How do multi-agent information retrieval systems scale to large corpora while preserving citation accuracy?",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Development of a Large Language Model-based Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments",
+      "authors": [
+        "Seungjun Han",
+        "Wongyung Choi"
+      ],
+      "abstract": "Emergency department (ED) overcrowding and the complexity of rapid decision-making in critical care settings pose significant challenges to healthcare systems worldwide. While clinical decision support systems (CDSS) have shown promise, the integration of large language models (LLMs) offers new possibilities for enhancing triage accuracy and clinical decision-making. This study presents an LLM-driven CDSS designed to assist ED physicians and nurses in patient triage, treatment planning, and overall emergency care management.   We developed a multi-agent CDSS utilizing Llama-3-70b as the base LLM, orchestrated by CrewAI and Langchain. The system comprises four AI agents emulating key ED roles: Triage Nurse, Emergency Physician, Pharmacist, and ED Coordinator. It incorporates the Korean Triage and Acuity Scale (KTAS) for triage assessment and integrates with the RxNorm API for medication management.   The model was evaluated using the Asclepius dataset, with performance assessed by a clinical emergency medicine specialist. The CDSS demonstrated high accuracy in triage decision-making compared to the baseline of a single-agent system. Furthermore, the system exhibited strong performance in critical areas, including primary diagnosis, critical findings identification, disposition decision-making, treatment planning, and resource allocation.   Our multi-agent CDSS demonstrates significant potential for supporting comprehensive emergency care management. By leveraging state-of-the-art AI technologies, this system offers a scalable and adaptable tool that could enhance emergency medical care delivery, potentially alleviating ED overcrowding and improving patient outcomes. This work contributes to the growing field of AI applications in emergency medicine and offers a promising direction for future research and clinical implementation.",
+      "year": "2024",
+      "published_date": "2024-08-14",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2408.07531v2",
+      "arxiv_id": "2408.07531v2",
+      "keywords": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Beyond Rule-Based Workflows: An Information-Flow-Orchestrated Multi-Agents Paradigm via Agent-to-Agent Communication from CORAL",
+      "authors": [
+        "Xinxing Ren",
+        "Quagmire Zang",
+        "Caelum Forder",
+        "Suman Deb",
+        "Ahsen Tahir",
+        "Roman J. Georgio",
+        "Peter Carroll",
+        "Zekun Guo"
+      ],
+      "abstract": "Most existing Large Language Model (LLM)-based Multi-Agent Systems (MAS) rely on predefined workflows, where human engineers enumerate task states in advance and specify routing rules and contextual injections accordingly. Such workflow-driven designs are essentially rule-based decision trees, which suffer from two fundamental limitations: they require substantial manual effort to anticipate and encode possible task states, and they cannot exhaustively cover the state space of complex real-world tasks. To address these issues, we propose an Information-Flow-Orchestrated Multi-Agent Paradigm via Agent-to-Agent (A2A) Communication from CORAL, in which a dedicated information flow orchestrator continuously monitors task progress and dynamically coordinates other agents through the A2A toolkit using natural language, without relying on predefined workflows. We evaluate our approach on the general-purpose benchmark GAIA, using the representative workflow-based MAS OWL as the baseline while controlling for agent roles and underlying models. Under the pass@1 setting, our method achieves 63.64% accuracy, outperforming OWL's 55.15% by 8.49 percentage points with comparable token consumption. Further case-level analysis shows that our paradigm enables more flexible task monitoring and more robust handling of edge cases. Our implementation is publicly available at: https://github.com/Coral-Protocol/Beyond-Rule-Based-Workflows",
+      "year": "2026",
+      "published_date": "2026-01-14",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2601.09883v1",
+      "arxiv_id": "2601.09883v1",
+      "keywords": [
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service benchmark"
+    },
+    {
+      "title": "Knowledge-Aware Iterative Retrieval for Multi-Agent Systems",
+      "authors": [
+        "Seyoung Song"
+      ],
+      "abstract": "We introduce a novel large language model (LLM)-driven agent framework, which iteratively refines queries and filters contextual evidence by leveraging dynamically evolving knowledge. A defining feature of the system is its decoupling of external sources from an internal knowledge cache that is progressively updated to guide both query generation and evidence selection. This design mitigates bias-reinforcement loops and enables dynamic, trackable search exploration paths, thereby optimizing the trade-off between exploring diverse information and maintaining accuracy through autonomous agent decision-making. Our approach is evaluated on a broad range of open-domain question answering benchmarks, including multi-step tasks that mirror real-world scenarios where integrating information from multiple sources is critical, especially given the vulnerabilities of LLMs that lack explicit reasoning or planning capabilities. The results show that the proposed system not only outperforms single-step baselines regardless of task difficulty but also, compared to conventional iterative retrieval methods, demonstrates pronounced advantages in complex tasks through precise evidence-based reasoning and enhanced efficiency. The proposed system supports both competitive and collaborative sharing of updated context, enabling multi-agent extension. The benefits of multi-agent configurations become especially prominent as task difficulty increases. The number of convergence steps scales with task difficulty, suggesting cost-effective scalability.",
+      "year": "2025",
+      "published_date": "2025-03-17",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2503.13275v2",
+      "arxiv_id": "2503.13275v2",
+      "keywords": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "DR − CoT: A Multi-Agent Framework for Enhanced Reasoning in Large Language Models",
+      "authors": [
+        "Hasim Ali",
+        "Pamir Ghosh",
+        "Abhijith Sharma"
+      ],
+      "abstract": "In the world of artificial intelligence (AI), the ability of large language models (LLMs) to reason through natural language has become a game-changer. This ability allows AI systems to understand complex questions, make decisions, and extract useful insights from vast amounts of data, transforming industries like customer service, education, and healthcare. One of the toughest challenges is enabling AI systems to answer multi-hop questions, which require pulling information from multiple sources to connect the pulled information and provide an accurate answer. Answering such questions, involve relationships between different pieces of data is far more complicated than simply retrieving a single fact of one-hop query. Despite significant progress, there are still hurdles in getting AI to balance how it retrieves information, reasons through it, and generates accurate answers. To tackle these challenges, we introduce DR-CoT, a dynamic rephrasing-based multi-agent framework designed to boost the reasoning abilities of LLMs in answering complex, multi-hop questions. Our approach breaks down difficult queries into simpler, step-by-step sub-questions, refining them along the way with targeted keyword searches and validation to fill in any missing links. This method ensures a smooth, efficient, and more accurate reasoning process, making it easier for AI to handle complex tasks. DR-CoT offers a promising path toward more intuitive, effective, and scalable AI systems that can reason like humans. Experiments on benchmark datasets demonstrate significant performance gains, with improved answer accuracy and robustness for real-world applications. This research advances intelligent QA systems, paving the way for reliable AI in fields like education and healthcare, while addressing retrieval errors and strengthening capabilities for complex reasoning processes.",
+      "year": "2025",
+      "published_date": "2025-03-06",
+      "journal": "International Conference on Recent Advances in Information Technology",
+      "url": "https://www.semanticscholar.org/paper/e77745f08ae324f8aa720ee3406310a9b54d2b1a",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/RAIT65068.2025.11088893",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant benchmark"
+    },
+    {
+      "title": "SLA Management in Reconfigurable Multi-Agent RAG: A Systems Approach to Question Answering",
+      "authors": [
+        "Michael Iannelli",
+        "Sneha Kuchipudi",
+        "Vera Dvorak"
+      ],
+      "abstract": "Retrieval Augmented Generation (RAG) enables Large Language Models (LLMs) to generalize to new information by decoupling reasoning capabilities from static knowledge bases. Traditional RAG enhancements have explored vertical scaling-assigning subtasks to specialized modules-and horizontal scaling-replicating tasks across multiple agents-to improve performance. However, real-world applications impose diverse Service Level Agreements (SLAs) and Quality of Service (QoS) requirements, involving trade-offs among objectives such as reducing cost, ensuring answer quality, and adhering to specific operational constraints.   In this work, we present a systems-oriented approach to multi-agent RAG tailored for real-world Question Answering (QA) applications. By integrating task-specific non-functional requirements-such as answer quality, cost, and latency-into the system, we enable dynamic reconfiguration to meet diverse SLAs. Our method maps these Service Level Objectives (SLOs) to system-level parameters, allowing the generation of optimal results within specified resource constraints.   We conduct a case study in the QA domain, demonstrating how dynamic re-orchestration of a multi-agent RAG system can effectively manage the trade-off between answer quality and cost. By adjusting the system based on query intent and operational conditions, we systematically balance performance and resource utilization. This approach allows the system to meet SLOs for various query types, showcasing its practicality for real-world applications.",
+      "year": "2024",
+      "published_date": "2024-12-07",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2412.06832v2",
+      "arxiv_id": "2412.06832v2",
+      "keywords": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL",
+        "cs.DC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "Building custom, adaptive and heterogeneous multi-agent systems for semantic information retrieval using organizational-multi-agent systems engineering, O-MaSE",
+      "authors": [
+        "Gaurav Kant Shankhdhar",
+        "Manuj Darbari"
+      ],
+      "abstract": "",
+      "year": "2016",
+      "published_date": "2016-9",
+      "journal": "2016 2nd International Conference on Advances in Computing, Communication, &amp; Automation (ICACCA) (Fall)",
+      "url": "https://doi.org/10.1109/icaccaf.2016.7748985",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "CrossRef",
+      "doi": "10.1109/icaccaf.2016.7748985",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service full text retrieval"
+    },
+    {
+      "title": "A Multi-Agent Perspective on Modern Information Retrieval",
+      "authors": [
+        "Haya Nachimovsky",
+        "Moshe Tennenholtz",
+        "Oren Kurland"
+      ],
+      "abstract": "The rise of large language models (LLMs) has introduced a new era in information retrieval (IR), where queries and documents that were once assumed to be generated exclusively by humans can now also be created by automated agents. These agents can formulate queries, generate documents, and perform ranking. This shift challenges some long-standing IR paradigms and calls for a reassessment of both theoretical frameworks and practical methodologies. We advocate for a multi-agent perspective to better capture the complex interactions between query agents, document agents, and ranker agents. Through empirical exploration of various multi-agent retrieval settings, we reveal the significant impact of these interactions on system performance. Our findings underscore the need to revisit classical IR paradigms and develop new frameworks for more effective modeling and evaluation of modern retrieval systems.",
+      "year": "2025",
+      "published_date": "2025-02-20",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2502.14796v1",
+      "arxiv_id": "2502.14796v1",
+      "keywords": [
+        "cs.IR"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service"
+    },
+    {
+      "title": "Systematic Failures in Collective Reasoning under Distributed Information in Multi-Agent LLMs",
+      "authors": [
+        "Yuxuan Li",
+        "Aoi Naito",
+        "Hirokazu Shirado"
+      ],
+      "abstract": "Multi-agent systems built on large language models (LLMs) are expected to enhance decision-making by pooling distributed information, yet systematically evaluating this capability has remained challenging. We introduce HiddenBench, a 65-task benchmark grounded in the Hidden Profile paradigm, which isolates collective reasoning under distributed information from individual reasoning ability. Evaluating 15 frontier LLMs, we find that multi-agent LLMs achieve only 30.1% accuracy under distributed information, compared to 80.7% accuracy for single agents given complete information. We trace this gap to a systematic failure mode: agents cannot recognize or act under latent information asymmetry-they fail to reason about what others might know but have not yet expressed, leading to premature convergence on shared evidence while critical distributed facts remain unexplored. These failures persist across prompting strategies, communication depths, and group sizes-and worsen as groups scale. While some models (e.g., Gemini-2.5-Flash/Pro) outperform others, neither model scale nor individual reasoning accuracy reliably predicts collective performance. Our results identify failures in collective information exploration in decision-making as a key limitation of multi-agent LLMs, and provide a theory-grounded, reproducible framework for diagnosing collective reasoning failures.",
+      "year": "2025",
+      "published_date": "2025-05-15",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2505.11556v3",
+      "arxiv_id": "2505.11556v3",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent information service benchmark"
+    }
+  ],
+  "timestamp": "20260423_163626"
+}

@@ -1,0 +1,220 @@
+{
+  "query_id": "EN46",
+  "query": "What does empirical evidence say about the effectiveness of REDD+ programmes in reducing deforestation and forest degradation?",
+  "domain_id": "climate_policy_research",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Does the household clean energy transition benefit the mental health of the elderly in rural China? Evidence from China health and retirement longitudinal study.",
+      "authors": [
+        "H. Yin",
+        "Ling Han",
+        "Li Yan",
+        "Chenhao Liu"
+      ],
+      "abstract": "Clean energy transition has become a key strategy in combating global air pollution. In 2017, China launched its \"coal-to-gas\" policy, which provided subsidies to households for their clean energy transition. While debates on this policy focus mainly on safety and cost concerns, few studies have examined the causal relationship between energy transition and its health benefits, particularly mental health. Using data from the China Health and Retirement Longitudinal Survey (CHARLS), this paper employs a difference-in-differences (DID) approach to estimate the impact of the \"coal-to-gas\" policy on the mental health of the rural elderly in China. The findings indicate that the policy significantly improved the cognitive status of the elderly, especially episodic memory, which saw a 10.4% increase relative to the sample mean. The policy also significantly boosted the proportion of households using clean cooking fuels by 5.8%. Further analysis suggests that the improved sleep quality from reduced indoor air pollution by household energy transition, as a mechanism, could explain these results. This study provides a timely assessment of the policy's effectiveness, highlighting the importance of indoor air pollution control by household energy transition.",
+      "year": "2024",
+      "published_date": "2024-12-01",
+      "journal": "Environment International",
+      "url": "https://www.semanticscholar.org/paper/3ae5f4fb53d29fec836b42f36015b0a523a40d1e",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.envint.2024.109186",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval survey"
+    },
+    {
+      "title": "Assessing the Effectiveness of GPT-4o in Climate Change Evidence Synthesis and Systematic Assessments: Preliminary Insights",
+      "authors": [
+        "E. Joe",
+        "S. Koneru",
+        "Christine J Kirchhoff"
+      ],
+      "abstract": "In this research short, we examine the potential of using GPT-4o, a state-of-the-art large language model (LLM) to undertake evidence synthesis and systematic assessment tasks. Traditional workflows for such tasks involve large groups of domain experts who manually review and synthesize vast amounts of literature. The exponential growth of scientific literature and recent advances in LLMs provide an opportunity to complementing these traditional workflows with new age tools. We assess the efficacy of GPT-4o to do these tasks on a sample from the dataset created by the Global Adaptation Mapping Initiative (GAMI) where we check the accuracy of climate change adaptation related feature extraction from the scientific literature across three levels of expertise. Our results indicate that while GPT-4o can achieve high accuracy in low-expertise tasks like geographic location identification, their performance in intermediate and high-expertise tasks, such as stakeholder identification and assessment of depth of the adaptation response, is less reliable. The findings motivate the need for designing assessment workflows that utilize the strengths of models like GPT-4o while also providing refinements to improve their performance on these tasks.",
+      "year": "2024",
+      "published_date": "2024-07-02",
+      "journal": "CLIMATENLP",
+      "url": "https://www.semanticscholar.org/paper/de1bef9d368ebd1951c52bb3e4b34a50e33f1c5c",
+      "arxiv_id": "2407.12826",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2407.12826",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm literature review"
+    },
+    {
+      "title": "Adjustments in Indigenous Peoples' Forest Use and Management in the Context of Climate Change: A Global Systematic Literature Review",
+      "authors": [
+        "T. Bauer"
+      ],
+      "abstract": "HIGHLIGHTS Role of Indigenous peoples in forest use and management and climate change debates is increasingly recognized. MCA associated publications on adaptation strategies, mostly related to NTFPs, with reactive measures, driven by Indigenous peoples, integrating TEK and climate sensitivity. MCA associated publications on mitigation strategies, mostly REDD+ projects, with proactive and external measures, largely omitting information on the sensitivity of the studied Indigenous group and involvement of TEK. Acknowledgement of Indigenous peoples, forest dependence, and TEK stronger in NAPs than in NDCs. Mitigation projects could likely benefit from a more inclusive approach by integrating sensitivity analysis and context-specific TEK. SUMMARY The global diversity of forest use and management responses of forest-dependent Indigenous peoples to climate change remains poorly understood and lacks synthesis. Yet, such knowledge is essential for informed policy decisions and inclusive mitigation strategies. Through a systematic literature review, forest-dependent Indigenous peoples' responses to climate change and extreme weather events were analysed, including the prevalence of the strategies, their drivers, the role of sensitivity to climate change and the integration of traditional ecological knowledge (TEK) in forest use and management. Also, an assessment was made of how forest dependence and traditional knowledge are acknowledged in Nationally Determined Contributions (NDCs) and National Adaptation Plans (NAPs). The results show knowledge clusters around coping and adaptation, mitigation, and joint strategies in North and South America and Asia. Multiple Correspondence Analysis showed that articles documenting adaptation strategies were associated to a reactive response time, Indigenous peoples as drivers and the integration of TEK and information on their climate sensitivity. The diversity of applied strategies found, mostly related to non-timber forest products (NTFPs), comprised ecologically sustainable and unsustainable practices. Mitigation strategies, mostly REDD+ projects, which were significantly associated with proactive and external initiatives, largely omitted information on the sensitivity of the studied Indigenous group and the involvement of traditional knowledge. Joint strategies seem to be a good compromise of participatory efforts and were largely linked to integrating Indigenous peoples' traditional knowledge. Knowledge gaps include evidence of forest-related resilient livelihood strategies. Future research should focus on participatory and sustainable climate measures, the role of TEK and the drivers for the success of forest-related climate responses, as well as the potential effectiveness of joint adaptation-mitigation measures for forest-dependent Indigenous peoples on a global scale. La diversité de l'utilisation des forêts et des réponses de gestion au changement climatique par les peuples Indigènes dépendantes de la forêt demeure peu comprise à l'échelle globale et n'a pas connu de synthèse à ce jour. Or, une telle connaissance est nécessaire pour informer les décisions de politique et les stratégies d'atténuation proportionnelle. Les réponses des peuples Indigènes dépendant de la forêt au changement climatique et aux évènements climatiques extrêmes ont été analysées à l'aide d'une étude systématique de la littérature, en incluant la prévalence des stratégies, des agents de celles-ci, le rôle de la sensibilité au changement climatique et à l'intégration de la connaissance écologique traditionnelle (TEK) dans l'utilisation et la gestion de la forêt. Une évaluation du degré auquel la dépendance à la forêt et la connaissance traditionnelle ont été reconnues dans les Contributions déterminées nationalement (NDCs) et les Plans d'adaptation nationaux a été également dressée. Les résultats indiquent des regroupements autour de l'adaptation et de la lutte, de l'atténuation et des stratégies jointes en Amérique du nord et du sud, et en Asie. Une analyse de correspondances multiples montrait que les articles documentant les stratégies d'adaptation étaient associés à un temps de réponse réactive, aux motivations des peuples autochtones à l'intégration de la TEK et de l'information sur leur sensibilité de ceux-ci au climat. La diversité des stratégies appliquées relevées, liées pour la plupart aux produits forestier non ligneux (PFNL), comprenaient des pratiques soutenables écologiquement, mais également non-durables. Les stratégies d'atténuation, pour la plupart des projets de la REDD+, étaient associées majoritairement à des initiatives extérieures et proactives, et laissaient majoritairement de côté les informations sur la sensibilité des groupes indigènes étudiés et sur la part faite aux connaissances traditionnelles. Les stratégies jointes semblent former un compromis acceptable des efforts participatifs et sont largement liées à une intégration de la connaissance traditionnelle des peuples Indigènes. Les hiatus dans la connaissance incluent le manque de preuves quant aux stratégies pour obtenir des revenus durables liés à la forêt. La recherche future devrait se concentrer sur des mesures climatiques participatives et durables, le rôle de la TEK et les motivations conduisant au succès des réponses climatiques, ainsi que sur l'efficacité potentielle de mesures jointes d'adaptation/atténuation pour les peuples Indigènes dépendantes de la forêt à l'échelle globale. La diversidad global del uso de los bosques y las respuestas de gestión de los Pueblos Indígenas dependientes de los bosques al cambio climático sigue siendo poco conocida y carece de síntesis. Sin embargo, este conocimiento es esencial para tomar decisiones políticas informadas y estrategias de mitigación inclusivas. El estudio hizo una revisión bibliográfica sistemática para analizar las respuestas de los Pueblos Indígenas dependientes de los bosques al cambio climático y a los fenómenos meteorológicos extremos, que incluyó la prevalencia de las estrategias, sus impulsores, el papel de la sensibilidad al cambio climático y la integración de los conocimientos ecológicos tradicionales (CET) en el uso y la gestión de los bosques. Asimismo, evaluó cómo se reconocen la dependencia de los bosques y los conocimientos tradicionales en las Contribuciones Determinadas a Nivel Nacional (CDN) y los Planes Nacionales de Adaptación (PNA). Los resultados muestran grupos de conocimientos similares en torno a las estrategias de respuesta y adaptación, mitigación y conjuntas en América del Norte y del Sur y en Asia. Un Análisis de Correspondencias Múltiples mostró que los artículos que documentaban las estrategias de adaptación estaban asociados a un tiempo de respuesta reactivo, a los Pueblos Indígenas como impulsores y a la integración de los CET y la información sobre su sensibilidad climática. La diversidad de las estrategias aplicadas encontradas, en su mayoría relacionadas con los productos forestales no maderables (PFNM), incluyó prácticas ecológicamente sostenibles y no sostenibles. Las estrategias de mitigación, en su mayoría proyectos REDD+, que se asociaron significativamente con iniciativas proactivas y externas, omitieron en gran medida la información sobre la sensibilidad del grupo Indígena estudiado y la participación del conocimiento tradicional. Las estrategias conjuntas parecen ser un buen compromiso a los esfuerzos participativos y están vinculadas en gran medida a la integración de los conocimientos tradicionales de los Pueblos Indígenas. Entre las lagunas de conocimiento están la evidencia sobre estrategias de medios de vida resilientes relacionadas con los bosques. La investigación futura debería centrarse en las medidas climáticas participativas y sostenibles, en el papel de los CET y en los factores impulsores de éxito en las respuestas climáticas relacionadas con los bosques, así como en la eficacia potencial a escala mundial de las medidas conjuntas de adaptación y mitigación para los Pueblos Indígenas dependientes de los bosques.",
+      "year": "2022",
+      "published_date": "2022-09-01",
+      "journal": "International forestry review",
+      "url": "https://www.semanticscholar.org/paper/72c968b7146e9b6f4b1f1cedb3f5c6bcb4106d23",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "Semantic Scholar",
+      "doi": "10.1505/146554822835941913",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis survey"
+    },
+    {
+      "title": "The rise of AI-assisted instructional leadership: empirical survey of generative AI integration in school leadership and management work",
+      "authors": [
+        "I. Berkovich"
+      ],
+      "abstract": "This study examined the rising importance of generative artificial intelligence (GenAI) in school leadership. Research in educational leadership and management must change to keep up with how digital technology continues to influence organisational procedures and human relationships in organisations in the 21st century. The study explores two key questions: (a) at what stage of adopting innovation are school leaders currently in their use of GenAI (innovators, early adopters, early majority, late majority, or laggards) and (b) which domains of their school leadership work (managerial, instructional, social, political, or moral) are most influenced by their use of GenAI? Data were collected through an online survey of 302 Israeli school leaders (coordinators, subject heads, department heads, school counsellors, vice-principals, principals, etc.). A series of descriptive analyses were conducted to examine the research questions. The findings indicate that currently about 50% of the school leaders in the sample are at the early majority stage of adopting GenAI technology, about to cross into the late majority stage. The results also indicate the rise of AI-assisted instructional leadership above all other domains of school leadership work. Additional analyses indicate some patterns of integration and usage relate to seniority and role type. The study expands our understanding of the rapidly growing effect of GenAI in school leadership in general and AI-assisted instructional leadership in particular. These insights contribute to the limited research on GenAI’s integration into school leadership by offering some of the missing empirical evidence on the scope and direction of the phenomenon.",
+      "year": "2025",
+      "published_date": "2025-07-30",
+      "journal": "Frontiers in Education",
+      "url": "https://www.semanticscholar.org/paper/1f6b411d2fee382a6d88eebf72413c330fb2c182",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 13,
+      "source": "Semantic Scholar",
+      "doi": "10.3389/feduc.2025.1643023",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "Communicating diagnostic uncertainty in the acute and emergency medical setting: A systematic review and ethical analysis of the empirical literature.",
+      "authors": [
+        "J. Hart",
+        "C. Cox",
+        "I. Kuhn",
+        "Z. Fritz"
+      ],
+      "abstract": "BACKGROUND\ndiagnostic uncertainty is ubiquitous. Its communication to patients requires further investigation.\n\n\nAIMS\nTo determine: 1) What is known about how and why diagnostic uncertainty is communicated in acute care; 2) evidence of the effects of (not) communicating diagnostic uncertainty in the acute setting; 3) associated ethical issues.\n\n\nMETHODS\nsystematic review of Medline, Web of Science and SCOPUS for (acute or emergency care) AND (diagnostic uncertainty) AND (ethics OR behaviours). Critical interpretive synthesis and ethical analysis were conducted.\n\n\nRESULTS AND CONCLUSION\nNine studies (primarily surveys and interviews) were identified. Doctors are not trained in communicating diagnostic uncertainty and perceive it to have negative effects on patients; however not communicating diagnostic uncertainty can disempower patients, resulting in delayed/missed diagnoses or inappropriate use of resource.",
+      "year": "2021",
+      "published_date": "2021-07-01",
+      "journal": "Acute medicine",
+      "url": "https://www.semanticscholar.org/paper/445ee0ad9e37a6ed54955146945861759846f3d8",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.52964/amja.0865",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Development and evaluation of a de-escalation training intervention in adult acute and forensic units: the EDITION systematic review and feasibility trial.",
+      "authors": [
+        "Owen Price",
+        "Cat Papastavrou Brooks",
+        "Isobel Johnston",
+        "Peter McPherson",
+        "Helena Goodman",
+        "Andrew Grundy",
+        "Lindsey Cree",
+        "Zahra Motala",
+        "Jade Robinson",
+        "Michael Doyle",
+        "Nicholas Stokes",
+        "Christopher J Armitage",
+        "Elizabeth Barley",
+        "Helen Brooks",
+        "Patrick Callaghan",
+        "Lesley-Anne Carter",
+        "Linda M Davies",
+        "Richard J Drake",
+        "Karina Lovell",
+        "Penny Bee"
+      ],
+      "abstract": "Containment (e.g. physical restraint and seclusion) is used frequently in mental health inpatient settings. Containment is associated with serious psychological and physical harms. De-escalation (psychosocial techniques to manage distress without containment) is recommended to manage aggression and other unsafe behaviours, for example self-harm. All National Health Service staff are trained in de-escalation but there is little to no evidence supporting training's effectiveness. Objectives were to: (1) qualitatively investigate de-escalation and identify barriers and facilitators to use across the range of adult acute and forensic mental health inpatient settings; (2) co-produce with relevant stakeholders an intervention to enhance de-escalation across these settings; (3) evaluate the intervention's preliminary effect on rates of conflict (e.g. violence, self-harm) and containment (e.g. seclusion and physical restraint) and understand barriers and facilitators to intervention effects. Intervention development informed by Experience-based Co-design and uncontrolled pre and post feasibility evaluation. Systematic reviews and qualitative interviews investigated contextual variation in use and effects of de-escalation. Synthesis of this evidence informed co-design of an intervention to enhance de-escalation. An uncontrolled feasibility trial of the intervention followed. Clinical outcome data were collected over 24 weeks including an 8-week pre-intervention phase, an 8-week embedding and an 8-week post-intervention phase. Ten inpatient wards (including acute, psychiatric intensive care, low, medium and high secure forensic) in two United Kingdom mental health trusts. In-patients, clinical staff, managers, carers/relatives and training staff in the target settings. Enhancing de-escalation techniques in adult acute and forensic units: Development and evaluation of an evidence-based training intervention (EDITION) interventions included de-escalation training, two novel models of reflective practice, post-incident debriefing and feedback on clinical practice, collaborative prescribing and ward rounds, practice changes around admission, shift handovers and the social and physical environment, and sensory modulation and support planning to reduce patient distress. Outcomes measured related to feasibility (recruitment and retention, completion of outcome measures), training outcomes and clinical and safety outcomes. Conflict and containment rates were measured via the Patient-Staff Conflict Checklist. Clinical outcomes were measured using the Attitudes to Containment Measures Questionnaire, Attitudes to Personality Disorder Questionnaire, Violence Prevention Climate Scale, Capabilities, Opportunities, and Motivation Scale, Coercion Experience Scale and Perceived Expressed Emotion in Staff Scale. Completion rates of the proposed primary outcome were very good at 68% overall (excluding remote data collection), which increased to 76% (excluding remote data collection) in the post-intervention period. Secondary outcomes had high completion rates for both staff and patient respondents. Regression analyses indicated that reductions in conflict and containment were both predicted by study phase (pre, embedding, post intervention). There were no adverse events or serious adverse events related to the intervention. Intervention and data-collection procedures were feasible, and there was a signal of an effect on the proposed primary outcome. Uncontrolled design and self-selecting sample. Definitive trial determining intervention effects. This trial is registered as ISRCTN12826685 (closed to recruitment). This award was funded by the National Institute for Health and Care Research (NIHR) Health Technology Assessment programme (NIHR award ref: 16/101/02) and is published in full in  Conflict (a term used to describe a range of potentially unsafe events including violence, self-harm, rule-breaking, medication refusal, illicit drug and alcohol use and absconding) in mental health settings causes serious physical and psychological harm. Containment interventions which are intended to minimise harm from violence (and other conflict behaviours) such as restraint, seclusion and rapid tranquilisation can result in serious injuries to patients and, occasionally, death. Involvement in physical restraint is the most common cause of serious physical injury to National Health Service mental health staff in the United Kingdom. Violence to staff results in substantial costs to the health service in sickness and litigation payments. Containment interventions are also expensive (e.g. physical restraint costs mental health services £6.1 million and enhanced observations £88 million per annum). Despite these harms, recent findings indicate containment interventions such as seclusion and physical restraint continue to be used frequently in mental health settings. Clinical trials have demonstrated that interventions can reduce containment without increasing violence and other conflict behaviours (e.g. verbal aggression, self-harm). Substantial cost-savings result from reducing containment use. De-escalation, as an intervention to manage aggression and potential violence without restrictive practices, is a core intervention. 'De-escalation' is a collective term for a range of psychosocial techniques designed to reduce distress and anger without the need to use 'containment' interventions (measures to prevent harm through restricting a person's ability to act independently, such as physical restraint and seclusion). Evidence indicates that de-escalation involves ensuring conditions for safe intervention and effective communication are established, clarifying and attempting to resolve the patient's concern, conveyance of respect and empathy and regulating unhelpful emotions such as anxiety and anger. Despite featuring prominently in clinical guidelines and training policy domestically and internationally and being a component of mandatory National Health Service training, there is no evidence-based model on which to base training. A systematic review of de-escalation training effectiveness and acceptability conducted in 2015 concluded: (1) no model of training has demonstrated effectiveness in a sufficiently rigorous evaluation, (2) the theoretical underpinning of evaluated models was often unclear and (3) there has been inadequate investigation of the characteristics of training likely to enhance acceptability and uptake. Despite all National Health Service staff being trained in de-escalation there have been no high-quality trials evaluating the effectiveness and cost-effectiveness of training. Feasibility studies are needed to establish whether it is possible to conduct a definitive trial that can determine the clinical, safety and cost-effectiveness of this intervention. Mental health hospitals are stressful places for patients and staff. Patients are often detained against their will, in places that are noisy, unfamiliar and frightening. Violence and self-injury happen quite frequently. Sometimes staff physically restrain patients or isolate patients in locked rooms (called seclusion). While these measures might sometimes be necessary to maintain safety, they are psychologically and physically harmful. To help reduce the use of these unsafe measures, staff are trained in communication skills designed to reduce anger and distress without using physical force. Professionals call these skills ‘de-escalation’. Although training in de-escalation is mandatory, there is no good evidence to say whether it works or not, or what specific techniques staff should be trained in. The Enhancing de-escalation techniques in adult acute and forensic units: Development and evaluation of an evidence-based training intervention (EDITION) project aimed to develop and evaluate a de-escalation training programme informed by research evidence. We interviewed over one hundred people who either worked in or received treatment in a mental health hospital. These people were clear that the training should target key sources of interpersonal and environmental stress that prevent de-escalation from working. We also reviewed all the scientific studies on de-escalation and training, aiming to identify the elements of training that are most likely to increase use of de-escalation. Then, in partnership with current mental health service users and clinical staff, we developed the training programme. Training was delivered to more than 270 staff working in 10 different wards in mental health hospitals. We measured rates of violence, self-injury and use of physical restraint and seclusion 8 weeks before staff received training and 16 weeks after they received training (24 weeks of data collection in total). Analysis of these data showed that these unsafe events were occurring significantly less frequently after training than they were before training, which raised the possibility that the training was helping to reduce harm.",
+      "year": "2024",
+      "published_date": "2024",
+      "journal": "Health technology assessment (Winchester, England)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38343036/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Feasibility Studies",
+        "Restraint, Physical",
+        "Adult",
+        "Aggression",
+        "Violence",
+        "United Kingdom",
+        "Self-Injurious Behavior"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.3310/FGGW6874",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis literature review"
+    },
+    {
+      "title": "Evidence-Based Psychological Interventions for the Management of Pediatric Chronic Pain: New Directions in Research and Clinical Practice",
+      "authors": [
+        "Rachael Millstein Coakley",
+        "Tessa Wihak"
+      ],
+      "abstract": "Over the past 20 years our knowledge about evidence-based psychological interventions for pediatric chronic pain has dramatically increased. Overall, the evidence in support of psychological interventions for pediatric chronic pain is strong, demonstrating positive psychological and behavioral effects for a variety of children with a range of pain conditions. However, wide scale access to effective psychologically-based pain management treatments remains a challenge for many children who suffer with pain. Increasing access to care and reducing persistent biomedical biases that inhibit attainment of psychological services are a central focus of current pain treatment interventions. Additionally, as the number of evidence-based treatments increase, tailoring treatments to a child or family's particular needs is increasingly possible. This article will (1) discuss the theoretical frameworks as well as the specific psychological skills and strategies that currently hold promise as effective agents of change; (2) review and summarize trends in the development of well-researched outpatient interventions over the past ten years; and (3) discuss future directions for intervention research on pediatric chronic pain.",
+      "year": "2017",
+      "published_date": "2017-02-04",
+      "journal": "Children",
+      "url": "https://doi.org/10.3390/children4020009",
+      "arxiv_id": "",
+      "keywords": [
+        "Psychological intervention",
+        "Chronic pain",
+        "Intervention (counseling)",
+        "Pediatric psychology",
+        "Medicine",
+        "Evidence-based practice",
+        "Clinical psychology",
+        "Pain management"
+      ],
+      "citations": 96,
+      "source": "OpenAlex",
+      "doi": "10.3390/children4020009",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Study protocol for evaluating automation of systematic review processes with EPPI-Reviewer and Copilot 365 in updating the cataract evidence gap map",
+      "authors": [
+        "Bhavisha Virendrakumar",
+        "Hugh Sharma Waddington",
+        "Pauline Scheelbeek",
+        "Emma Jolley",
+        "Elena Schmidt"
+      ],
+      "abstract": "Abstract\n                  \n                    Background\n                    The process of developing and updating an evidence gap map (EGM) is based on the principles of systematic reviews and requires extensive time and financial resources. Artificial intelligence (AI) tools, like prioritisation screening (PS), integrated into programmes such as EPPI-Reviewer (ER) and Copilot 365, can potentially mimic human performance in systematic review processes. ER is a subscription-based web application employed by systematic review groups, while Copilot 365, integrated into Microsoft 365, offers real-time assistance. Although ER shows promise in speeding up screening, the optimal threshold for accuracy remains unclear. Additionally, there is no evidence on the effectiveness of any version of Copilot in systematic review and EGM processes.\n                  \n                  \n                    Objectives\n                    Assess the accuracy and efficiency of Copilot 365 and PS integrated into ER at different stages of an EGM update, comparing it to human performance.\n                  \n                  \n                    Methods\n                    We will conduct both manual and automated screening of references, full-text screening, data extraction, and critical appraisal. Two reviewers will independently screen studies for inclusion, extract data, and appraise included studies, resolving conflicts through discussion. We will assess the accuracy and efficiency of Copilot 365 and ER at different EGM update stages, comparing them to human performance. To evaluate the PS accuracy, we will use 20% and 40% manual screening thresholds, calculating the proportion of relevant references prioritised by PS and the total relevant citations missed. We will compare Copilot 365’s full-text screening accuracy to reviewers’ decisions and assess consistency using Cohen’s Kappa. For automated data extraction and appraisal, we will manually inspect 20% of Copilot 365’s outputs, comparing them to reviewers’ results, measuring consistency with Cohen’s Kappa, and evaluating time savings by comparing the time taken for manual extraction versus using Copilot 365.\n                  \n                  \n                    Discussion\n                    This study will offer insights into ER’s accuracy in screening small samples of citations and potentially guide future applications in this context. Additionally, by evaluating Copilot 365, which shares similar features with other AI tools, we will gain a broader understanding of its applicability and limitations in evidence synthesis, making the results relevant to other AI applications in this field.\n                  \n                  \n                    Systematic review registration\n                    \n                      Registered at Open Science Framework:\n                      https://doi.org/10.17605/OSF.IO/49BX8\n                      .",
+      "year": "2026",
+      "published_date": "2026-2-17",
+      "journal": "Systematic Reviews",
+      "url": "https://doi.org/10.1186/s13643-026-03101-4",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1186/s13643-026-03101-4",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation AND reviewer agent"
+    }
+  ],
+  "timestamp": "20260423_174145"
+}

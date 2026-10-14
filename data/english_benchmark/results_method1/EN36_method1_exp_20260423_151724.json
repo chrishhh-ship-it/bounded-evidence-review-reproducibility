@@ -1,0 +1,233 @@
+{
+  "query_id": "EN36",
+  "query": "How can active learning reduce the screening burden in systematic review title and abstract triage workflows?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis",
+      "authors": [
+        "Björn Nykvist",
+        "Biljana Macura",
+        "Maria Xylia",
+        "Erik Olsson"
+      ],
+      "abstract": "In this paper we show that OpenAI’s Large Language Model (LLM) GPT perform remarkably well when used for title and abstract eligibility screening of scientific articles and within a (systematic) literature review workflow. We evaluated GPT on screening data from a systematic review study on electric vehicle charging infrastructure demand with almost 12,000 records using the same eligibility criteria as human screeners. We tested 3 different versions of this model that were tasked to distinguishing between relevant and irrelevant content by responding with a relevance probability between 0 and 1. For the latest GPT-4 model (tested in November 2023) and probability cutoff 0.5 the recall rate is 100%, meaning no relevant papers were missed and using this mode for screening would have saved 50% of the time that would otherwise be spent on manual screening. Experimenting with a higher cut of threshold can save more time. With threshold chosen so that recall is still above 95% for GPT-4 (where up to 5% of relevant papers might be missed), the model could save 75% of the time spent on manual screening. If automation technologies can replicate manual screening by human experts with effectiveness, accuracy, and precision, the work and cost savings are significant. Furthermore, the value of a comprehensive list of relevant literature, rather quickly available at the start of a research project, is hard to understate. However, as this study only evaluated the performance on one systematic review and one prompt, we caution that more test and methodological development is needed, and outline the next steps to properly evaluate rigor and effectiveness of LLMs for eligibility screening.",
+      "year": "2025",
+      "published_date": "2025-04-23",
+      "journal": "Environmental Evidence",
+      "url": "https://www.semanticscholar.org/paper/d7327fdeb93156500f92613f12dce65230193227",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13750-025-00360-x",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Machine learning in transfusion medicine: A scoping review",
+      "authors": [
+        "Suzanne Maynard",
+        "Joseph Farrington",
+        "Samah Alimam",
+        "Hayley G. Evans",
+        "Kezhi Li",
+        "Wai Keong Wong",
+        "Simon Stanworth"
+      ],
+      "abstract": "Blood transfusion is a routine medical procedure in hospitals with over 2 million blood products transfused in the UK every year at a cost of over £300 million and a median national rate of 34 packed red cells per 1000 population in Europe.1, 2 A blood transfusion can be life-saving but can also cause harm.3 Repeated studies have demonstrated a gap between recommended blood use and clinical practice.4, 5 National challenges with blood stock shortages highlight the need to optimize our current approach to identify who requires and benefits from blood components.6 Recent advances in digital technology offer a wealth of new tools, which can help improve clinical practice as well as improving both the equality and equity of healthcare. Patient Public Involvement groups consistently support better use of data and better understanding of how it might improve efficiencies, prioritizing the need for healthcare professionals to engage with research optimizing use of data. Machine learning (ML) is a subfield of artificial intelligence (AI), which offers the ability to integrate complex and varied data types and could support clinician decision-making, aid personalized care, and, with additional work, improve patient outcomes.7, 8 This field is a rapidly advancing one, which has the potential to revolutionize patient blood management (PBM). Successful implementation of ML to support clinical workflows requires collaboration between computer scientists and clinicians. Key features of ML have been described elsewhere, which support informed interpretation of the literature.9, 10 The majority of work applying ML to healthcare uses supervised learning whereby the model is trained on input features and labeled output features to enable predictions on unseen examples (Figure 1).11 Model performance evaluation uses metrics, which summarize prediction quality, for example, the area under the receiver operating characteristic curve (AUROC) for classification models. The two other main categories of ML approaches are unsupervised learning, which identifies patterns in unlabeled data (e.g., finding clusters of similar patients), and reinforcement learning, an approach to learning how to act through trial and error. To be useful in practice, models need to be validated and integrated into a clinical workflow, where capacity constraints and users ignoring alerts may limit the impact of even a perfectly performing model.12 The purpose of this review is to collate the breadth of literature of ML in transfusion medicine, describing current trends and capturing key methodological approaches, adding to the recognized need for up-to-date discussion of the challenges and potential solutions to the prospective implementation of ML in transfusion medicine.13 The review aimed to report on original research articles, using ML approaches with a focus on transfusion medicine. We followed the approaches of a scoping review used by Cochrane from the Canadian Institutes of Health Research, defined as “exploratory projects that systematically map the literature available on a topic, identifying key concepts, theories, sources of evidence, and gaps in the research.”14 Eligibility for studies was defined by blood transfusion in humans (or the support of transfusion) as the main outcome. There were no restrictions on year of publication, publication status, or language. We excluded studies using linear or logistic regression (LR) primarily for statistical inference and/or to construct a predictive risk score. This exclusion is consistent with a recent systematic review on the impact of ML on patient care.15 When considering inventory management in a hospital blood bank, we focused on recent work using patient data from electronic health records and, therefore, excluded research that predicted future demand based solely on historic demand. As it is common in ML and computer science to submit full-length works to top tier conferences instead of journals, where reports met all other criteria, conference articles were included as full text (n = 3). We searched the Clarivate Web of Science database on January 4, 2023 with the following search terms: [TS = (machine learning OR artificial intelligence OR forecast* OR algorithm OR prediction model OR predictive model OR neural network)] AND TS = {transfus* OR blood product OR blood bank OR [reaction NEAR (blood OR transfus*)]}. We reviewed the lists of publications in the literature and consulted with all authors. Additional citation search was performed and relevant reports were added, which were not captured in the initial Web of Science search. The title and abstract screen were conducted in duplicate (SM and JF). Differences were resolved by consensus or with a third reviewer, to arrive at the final set for full-text review. Where the same work was published in more than one journal (i.e., not a true duplicate, but papers aimed at different audiences), we selected the journal with a medical focus where possible for inclusion in the summary tables and figures. Data were extracted in duplicate (SM and JF), with discrepancies resolved by a third reviewer. Results were presented descriptively. Initial clinical categories were defined and agreed based on understanding of the literature and were further refined following title and abstract screening. We extracted information on clinical applications, data sources, and ML methods. The research team also predefined a range of factors identified as important when considering the methodology and exploring the opportunities and limitations of translating ML models to a healthcare setting.16-18 Meta-analysis of the results was not undertaken due to the wide range of different tasks, variability in definitions for similar tasks, and reporting heterogeneity. A total of 4504 publications were retrieved using the described search strategy performed on January 4, 2023 (Figure 2). Initial screening returned 107 citations, and 93 articles were selected for inclusion in the study following full-text review, including the addition of two articles identified through citation searching. Overall, 16 studies eligible for full-text review were excluded: Three were duplicates captured through alternative journal publications, three did not meet ML criteria, transfusion was not the main outcome for seven, and the full-text article was not available for two studies. One article was removed due to subsequent publication retraction. The temporal distribution of 93 included publications is shown in Figure 3. There is a clear trend toward increasing frequency of publications over time with 56% (52/93) of the articles published in the last 3 years. The majority of studies were focused on prediction of transfusion (58%) with other key areas of ML application identified within transfusion safety (22%), hospital blood bank (10%), and supporting transfusion decisions (10%) (Figure 4A). Within prediction of transfusion (Figure 4B), a significant majority of studies were in the setting of surgery (61% 33/54), followed by trauma (24% 13/54). In the remaining eight studies, ML was deployed in the setting of obstetrics, gastrointestinal bleeding, and hemato/oncology, and in three studies applied more broadly to all inpatients and intensive care, captured as “other hospital settings.” The objectives, sample size, and key findings of all studies within these broad categories of clinical settings are provided in Table 1 and more detailed methodological considerations in Table 2. Overall clinical applications, trends, and a summary of main findings are discussed in more detail under the relevant subheading below. 220 (AAA) c.175 (non-AAA) Overall, the most common countries for identified studies are the United States (44), followed by China (16), Europe (12), and Canada (6). The range of sample sizes reported in the studies varied from 41 to more than 4 million (Table 1). Packed red blood cells (PRBCs) were the focus of approximately half of the studies (46/93), with most of the remainder considering either multiple blood products (22%) or not specifying the blood products (22%). Five studies (5%) considered only platelets, and two studies (2%) considered only plasma. The majority of identified studies employed ML to predict transfusion related to a specific specialty or procedure, notably within orthopedics,19-25 cardiac surgery,26-30 spinal surgery,31-34 and liver transplant,35-37 focusing on a specific procedure or a variety within that specialty (Table 2). A small number of studies consider procedures from multiple specialties38-44 with Walczak and Velanovich43 including 56 different surgeries from the publicly available United States National Surgical Quality Improvement Program (NSQIP). Their use of single models to predict transfusions for a wide variety of surgical procedures could provide a much simpler approach rather than individual models for each surgical procedure. Some researchers interrogated models to identify features to help predict PRBC transfusion22, 32, 34, 36 or the decision to transfuse44 as examples of hypothesis generation from ML. Five studies developed online risk calculators and web apps based on their models.24, 30, 32, 45, 46 Gurm et al.30 highlighted that previous simplified noncomputerized tools need no longer be the limit to what can be utilized in clinical medicine; however, a recent systematic review concluded that the resultant clinical prediction models for blood transfusion in elective surgery are of a high risk of bias and often fail to adhere to reporting standards, emphasizing caution before application to clinical practice.47 There is an extensive body of literature developing risk scores for transfusion in trauma patients, and multiple reviews suggest further model development and/or validation is required.48-51 Two key challenges with trauma are the potentially large requirements of blood for a small proportion of patients52 and the importance of a fast response.53 The activation of the massive transfusion protocol (MTP) is resource intensive and may result in product wastage in cases of false positive activation.54 The ability to predict future transfusion requirements prior to hospital arrival can support triage decisions and help to ensure that blood products are available when required on arrival.55-57 When making predictions using data collected at the hospital, research has focused on four related prediction tasks: predicting transfusion,58, 59 the number of units transfused,60 activation of the MTP,54 and/or massive transfusion.58, 61-63 The model developed by Mina et al.54 to predict MTP activation was integrated into a smartphone application, externally validated and an implementation and prospective validation study was conducted at the initial site. Clinicians informed of the model's prediction made better decisions in the prospective validation study.54, 64, 65 This is a key demonstration of how we expect such models will eventually be used in practice: supplementing rather than replacing clinical judgment. Demand for blood components and associated morbidity and mortality are significant in obstetrics, gastrointestinal bleeding, and hemato/oncology1, 5, 66; however, ML for prediction of transfusion in these settings is underrepresented comprising a total of 5 of 54 studies, none of which have undergone prospective validation or implementation at the time of writing. The studies exploring gastrointestinal bleeding demonstrate benefits of using large, publicly available data sets, able to externally validate models.67, 68 Given the availability of the data, these tasks could be developed into benchmarks, enabling different research teams to compare the performance of new approaches. Interestingly, Levi et al.67 apply their model to support triage: predicting which patients do not require transfusion (suggesting no ongoing bleeding) and, therefore, may avoid admission to intensive care unit (ICU). Shung et al.68 highlight the potential impact of alert fatigue in the context of repeated predictions on a problem with relatively low frequency. Lee et al.69 and Ghassemi et al.70 predict blood transfusion within the ICU, respectively, demonstrating the inadequacy of hemoglobin measurement alone as a determinate of transfusion and that general patient state representations could be used to better predict platelet and plasma transfusions. Review of all studies suggested that task-specific performance of ML for predicting transfusion need is frequently reported with AUROC >0.8 (Table 1). In 13 studies that reported a direct task-matched comparison of ML to LR models, LR matched or outperformed ML in 54% (Table 1). However, in additional seven studies, ML was reported to demonstrate measurable clinical improvements such as cost savings or performance over current scoring systems (Table 1). Beyond prediction of the likelihood of transfusion, ML can identify inappropriate transfusions, recognize patient groups by predicted transfusion outcomes, and enable precise dosing of blood products in efforts to reduce iron overload.71, 72 Through the analysis of existing clinical trials data, ML enabled estimates of the causal effect of preoperative plasma transfusion on perioperative bleeding in patients with a high International Normalized Ratio test result73 and of different ratios of platelets and plasma relative to PRBC on mortality and hemostasis in trauma patients.74 Bruun-Rasmussen et al.75 used ML to emulate a randomized controlled trial in the context of sex-matched transfusion policy. Ngufor et al.76 take a key step toward personalized medicine, clustering patients using unsupervised ML to determine whether they will benefit from plasma transfusion. Models to identify inappropriate transfusions may reduce the labor required for retrospective quality control77 and support local efforts to reduce unnecessary orders and transfusions.78 It may also be possible to identify situations where ongoing transfusion is futile, but this has proved challenging.79 Identified studies in this category were divided into hemovigilance and laboratory support in the Blood Bank. ML has been applied primarily to enhance the ability to detect and predict acute transfusion reactions (ATRs) and adverse transfusion events. Novel information retrieval methods, such as natural language processing (NLP), when applied to electronic health records (EHRs) have demonstrated underreporting by clinicians and the potential to improve detection.80-82 Alternatively, Roubinian et al.83 and Nguyen et al.84 incorporated novel biomarkers into classification models and decision tree analysis, respectively. While the focus of ML is on prediction, and a causal relationship cannot be assumed of the covariates found to have high predictive value, identification of novel risk factors for hypothesis generation and further research can be useful as seen in transfusion-associated lung injury (TRALI)85 and in transfusion-associated that and are for clinicians in et focus on when adverse transfusion, through use of In a laboratory of studies the use of ML to blood identification including two to help reactions where in interpretation et and et learning as a novel approach to of red blood to predict red quality prior to transfusion. The availability of has the development of models to blood product demand and based on patient data in addition to demand A model in a Canadian hospital for PRBC wastage and and it is common for models to be into to the potential benefits of In addition to studies supporting two studies the use of ML to wastage in a hospital blood bank by predicting and identifying patterns associated with of the methodology of identified studies are in Table 2. of all studies were data were from in defined as hospital data that were collected research or data sources included research and laboratory research data. but two papers used supervised learning, only four papers used unsupervised learning methods. of the papers used reinforcement In Table we supervised ML into three broad methods, neural and other methods. We these groups in the a study used an of from more than one of these the are as been used in that models were included in of the studies and neural in of the studies. A common approach by of the studies is to compare different ML available in such as A small number of papers novel ML including the use of a model to provide a in and using in the of information to a model to red quality on eight studies reported the results of prospective evaluation or four their models on collected one conducted a in which predictions were in time for evaluation but not used for and three implementation as of 93 A majority of studies included an outcome performance defined as a logistic or linear regression a reported for the same or a current Where as with prediction, to a reporting was reporting including and were utilized in only studies within predicting transfusion. of the work transfusion reactions or adverse within the transfusion safety of hemovigilance reported in with a recognized Data were to be available in of studies and in only which will limit future ability to and the work performed to et provided their full data protocol as an electronic an supporting and in the field of ML in transfusion is rapidly with as by the number of However, our review also clear challenges and of studies are single and have no prospective validation or ML model and data are made available for and is of methods, with performing models often selected from a trial of Where ML performance are often the caution in interpretation of that models can performance as to current As within predicting transfusion, ML not offer over LR when task-specific performance is and the in the clinical potential of ML tasks, reporting and methodology While prospective of a model within the clinical and subsequent evaluation of in key performance is in ML. findings of prospective and are consistent with of the field where a and researchers are and to help this A workflow, as developed in recent as a for the potential impact of a model may help to for prospective Data were extracted from or from medical in three of the four studies where predictions were made in as of a or a 93 the remaining required data to be into a smartphone The may initial to such challenges in different but is a risk of data and a limit on the and types of data that can be and Recent in such as may to the development of systems that can support and integrate data from with clinical and (or of the problem at in transfusion practice, in prediction where the outcome to could Models may and predictions by patient which are considered to be This problem may be in validation of models the use different or considered the of this review, it may be of to review studies where the of for example, and features as a of the or where are in more to for of an approach could to as the large, used for ML are also well to key performance an need in transfusion by which to relevant following transfusion in a While practice the of trained models, may to new on local data. of a model into the may patterns that have been (e.g., which are and how It is to the predictions of a deployed model to ensure that predictions and The ability to and models using and/or more recent offers potential of predictive over historic simplified scores and prediction in these enabling models to new clinical trends and performance as to current practice in an To our this review is the to collate the literature on a wide range of of ML in transfusion medicine. analysis the work of and who articles of ML applied to bleeding and from a search. We have captured information on areas of to clinicians and and by review of ongoing challenges in the interpretation and of we also offer suggested for future reporting and study has a number of The of and use of reporting of results and interpretation as well as for researchers to and validate be to provide work as an online and common definitions and following reporting it to compare and identify for prospective validation and subsequent in setting to an of the the of publications captured broad search it was the of this review to to multiple and we that relevant studies may have been review was performed in efforts to studies might benefit from more focused reviews on selected in transfusion medicine. we apply the outcome of to identify studies to support we recognize that the of well this such as of (e.g., and iron and that these areas in future studies. As the body of literature of ML in transfusion and will the potential for more focused systematic This review to the studies and reviews to engage clinicians new to the of There has been a of the literature in recent the and toward the application of ML in transfusion medicine. However, challenges and limitations to data quality and to reporting and of be on consistent of and prospective validation with comparison to current practice of future studies. This study was by the Blood and in Data the for in and the The are of the and not of the or the of Health and The have no of In Table 2 of the main we supervised learning into three broad methods, neural and other methods. classification and regression tree a single decision and that an of in (e.g., or (e.g., and of of by and neural in which each input from every in the and alternative that have been developed for different types of input data including neural for and neural (e.g., the for final category that are not based on decision and are not neural including linear models (e.g., logistic regression and linear support and",
+      "year": "2023",
+      "published_date": "2023-11-10",
+      "journal": "Transfusion",
+      "url": "https://doi.org/10.1111/trf.17582",
+      "arxiv_id": "",
+      "keywords": [
+        "Transfusion medicine",
+        "Medicine",
+        "Intensive care medicine",
+        "MEDLINE",
+        "Blood transfusion",
+        "Computer science",
+        "Surgery",
+        "Chemistry"
+      ],
+      "citations": 35,
+      "source": "OpenAlex",
+      "doi": "10.1111/trf.17582",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models full text retrieval"
+    },
+    {
+      "title": "SESR-Eval: Dataset for Evaluating LLMs in the Title-Abstract Screening of Systematic Reviews",
+      "authors": [
+        "Aleksi Huotala",
+        "Miikka Kuutila",
+        "Mika Mäntylä"
+      ],
+      "abstract": "Background: The use of large language models (LLMs) in the title-abstract screening process of systematic reviews (SRs) has shown promising results, but suffers from limited performance evaluation. Aims: Create a benchmark dataset to evaluate the performance of LLMs in the title-abstract screening process of SRs. Provide evidence whether using LLMs in title-abstract screening in software engineering is advisable. Method: We start with 169 SR research artifacts and find 24 of those to be suitable for inclusion in the dataset. Using the dataset we benchmark title-abstract screening using 9 LLMs. Results: We present the SESR-Eval (Software Engineering Systematic Review Evaluation) dataset containing 34,528 labeled primary studies, sourced from 24 secondary studies published in software engineering (SE) journals. Most LLMs performed similarly and the differences in screening accuracy between secondary studies are greater than differences between LLMs. The cost of using an LLM is relatively low - less than $40 per secondary study even for the most expensive model. Conclusions: Our benchmark enables monitoring AI performance in the screening task of SRs in software engineering. At present, LLMs are not yet recommended for automating the title-abstract screening process, since accuracy varies widely across secondary studies, and no LLM managed a high recall with reasonable precision. In future, we plan to investigate factors that influence LLM screening performance between studies.",
+      "year": "2025",
+      "published_date": "2025-07-25",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2507.19027v2",
+      "arxiv_id": "2507.19027v2",
+      "keywords": [
+        "cs.SE"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Clinical Impact of Artificial Intelligence-Based Triage Systems in Emergency Departments: A Systematic Review",
+      "authors": [
+        "Abubaker Zakria Ahmed Abdalhalim",
+        "Sheimaa Nasreldein Nureldaim Ahmed",
+        "Ahmed Mohamed Dawoud Ezzelarab",
+        "Mawada Mustafa",
+        "Mohammed Gabralla Ali Albasheer",
+        "Roaa Eltag Abdelgadir Ahmed",
+        "Mowafag Bushra Galal Eldin Elsayed"
+      ],
+      "abstract": "Emergency departments (EDs) worldwide face increasing pressure to optimize triage processes amidst rising patient volumes and resource constraints. Artificial intelligence (AI) has emerged as a potential solution to enhance triage accuracy and efficiency, yet its real-world clinical impact remains inadequately characterized. We conducted a systematic review following Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines, searching PubMed/Medical Literature Analysis and Retrieval System Online (MEDLINE), Excerpta Medica Database (Embase), Web of Science, and Institute of Electrical and Electronics Engineers (IEEE) Xplore (2020-2025) for studies evaluating AI-based ED triage systems. From 119 initially identified records, six studies met inclusion criteria after duplicate removal (n=67), title/abstract screening (n=52), and full-text assessment (n=12). Eligible studies reported quantitative outcomes on AI performance compared to traditional triage methods. Risk of bias was assessed using an adapted Quality Assessment of Diagnostic Accuracy Studies-2 (QUADAS-2) tool. Narrative synthesis was employed due to methodological heterogeneity. The included studies (n=6) demonstrated AI’s potential to reduce triage time, improve documentation accuracy, and enhance decision support. Voice-based artificial intelligence (Voice-AI) systems achieved 19% faster documentation versus manual methods, while machine learning algorithms reduced mis-triage rates by 0.3-8.9%. However, limitations included undertriage risks, variable accuracy, and predominance of single-center studies. Implementation challenges encompassed workflow integration barriers and insufficient clinician acceptance metrics. AI-based triage systems show promise for improving ED efficiency but require rigorous multi-center validation and standardized outcome reporting. Key gaps include evidence on patient-centered outcomes, equity considerations, and long-term impact studies. Future development should prioritize explainable algorithms, clinician engagement, and ethical frameworks to ensure safe implementation.",
+      "year": "2025",
+      "published_date": "2025-06-01",
+      "journal": "Cureus",
+      "url": "https://www.semanticscholar.org/paper/49fb4ad0b809023785870a8282ed01304e3565ce",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 14,
+      "source": "Semantic Scholar",
+      "doi": "10.7759/cureus.85667",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent full text retrieval"
+    },
+    {
+      "title": "Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages.",
+      "authors": [
+        "Qusai Khraisha",
+        "Sophie Put",
+        "Johanna Kappenberg",
+        "Azza Warraitch",
+        "Kristin Hadfield"
+      ],
+      "abstract": "Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour-intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehensively evaluated against humans, and no study has tested Generative Pre-Trained Transformer (GPT)-4, the biggest LLM so far. This pre-registered study uses a \"human-out-of-the-loop\" approach to evaluate GPT-4's capability in title/abstract screening, full-text review and data extraction across various literature types and languages. Although GPT-4 had accuracy on par with human performance in some tasks, results were skewed by chance agreement and dataset imbalance. Adjusting for these caused performance scores to drop across all stages: for data extraction, performance was moderate, and for screening, it ranged from none in highly balanced literature datasets (~1:1) to moderate in those datasets where the ratio of inclusion to exclusion in studies was imbalanced (~1:3). When screening full-text literature using highly reliable prompts, GPT-4's performance was more robust, reaching \"human-like\" levels. Although our findings indicate that, currently, substantial caution should be exercised if LLMs are being used to conduct systematic reviews, they also offer preliminary evidence that, for certain review tasks delivered under specific conditions, LLMs can rival human performance.",
+      "year": "2024",
+      "published_date": "2024",
+      "journal": "Research synthesis methods",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38484744/",
+      "arxiv_id": "",
+      "keywords": [
+        "Algorithms",
+        "Information Storage and Retrieval",
+        "Reproducibility of Results",
+        "Systematic Reviews as Topic",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1002/jrsm.1715",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent literature review"
+    },
+    {
+      "title": "AI-Mediated Cognitive Load in L2 Learning: A Systematic Review and Gap Analysis with Focus on IELTS Writing & 1 Speaking in India",
+      "authors": [
+        "Mr. M. Sabareedharan",
+        "Dr.D.Kausalya"
+      ],
+      "abstract": "Artificial intelligence (AI) and digital tools are rapidly reshaping English language teaching (ELT), yet the mechanisms by which these technologies influence learners’ cognitive processes—particularly in high-stakes tests such as the International English Language Testing System (IELTS)—remain underexplored. This systematic review synthesizes peer-reviewed empirical and review literature (2015–2025) that examines AI/digital tools in L2 instruction with attention to cognitive constructs (cognitive load, working memory, metacognition) and practical outcomes for writing and speaking. Using a PRISMA-informed search strategy across Scopus, Web of Science, ERIC, PubMed/PMC, and Google Scholar, the review maps tool types (LLMs, automated writing evaluators, chatbots, speech-recognition systems), study designs (qualitative, quantitative, mixed), and cognitive measures (NASATLX, Paas scale, working memory tasks, MAI). Results show a robust and growing literature on AI in ELT but reveal four gaps: (1) scarce India-specific empirical studies linked to IELTS outcomes, (2) limited explicit use of validated cognitiveload instruments, (3) few mixed-methods or controlled experimental designs that combine task-based pedagogy with AI, and (4) little research that evaluates free/ low-cost tools in low-resource educational settings. Building on the synthesis, I propose an AI-Mediated Cognitive Load Model (AI-MCL) that explains how AI can reduce extraneous load, scaffold intrinsic load, and support germane processing during task-based IELTS practice. The paper concludes with a research agenda and methodological recommendations for researchers and practitioners seeking to evaluate AI interventions in Indian higher education and test-preparation contexts.",
+      "year": "2025",
+      "published_date": "2025-10-31",
+      "journal": "Bodhi international journal of research in humanities, arts and science",
+      "url": "https://www.semanticscholar.org/paper/2e2c8c64ed0095d62313c3263d4819a52d765b95",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.64938/bijri.v10n1.25.oct076",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis systematic review"
+    },
+    {
+      "title": "Efficacy and safety of music therapy for the treatment of anxiety and delirium in ICU patients: a meta-analysis and systematic review of randomized controlled trials.",
+      "authors": [
+        "Meixia Xiao",
+        "Cheng Gong",
+        "M. Mai",
+        "Miao Huang",
+        "Anyu Xiong",
+        "Hongsuo Liu",
+        "Rong Jiang"
+      ],
+      "abstract": "INTRODUCTION\nThe medical application of music therapy (MT) has received widespread attention in recent years, some researchers have attempted to apply MT to the treatment of patients with anxiety and delirium in ICU.\n\n\nEVIDENCE ACQUISITION\nRelevant randomized controlled trials (randomized controlled trials s) were searched in databases, such as Web of Science, PubMed, Embase, Cochrane Library, Medline, Scopus, and CINAHL. Researchers performed literature screening, data extraction, literature quality assessment, and heterogeneity analysis among RCTs.\n\n\nEVIDENCE SYNTHESIS\nFourteen studies met the inclusion criteria. In general, we included RCTs with low risk of bias, and the primary outcome indicators, including the Chinese version of the State-Trait Anxiety Inventory (C-STAI), Visual Analogue Scale for Anxiety Measurement (VAS-A), and Facial Anxiety Scale (FAS), have a recommended level of evidence of \"strong\". The pooled results indicated that MT was effective in alleviating the anxiety state of ICU patients (95% CI, SMD=-1.09 [-1.52, -0.67], P<0.05) and could reduce mental and physical fatigue in patients with anxious delirium in ICU (95% CI, WMD=-2.35 [-3.37, -1.33], P <0.05). There were significant differences in the therapeutic effects of MT with different intervention durations. Both 15-minute and 30-minute MT were effective in reducing anxiety levels in patients with anxiety disorders in the ICU (15min: 95%CI, SMD=-1.70[-2.15, -1.24], P<0.05; 30min: 95%CI, SMD=-0.73[-1.16, - 0.29], P<0.05). However, when the duration of MT exceeded 45 min, the overtreatment of MT instead interfered with patient rest and failed to produce a positive therapeutic effect (95% CI, SMD=-1.04 [-3.06, 0.97], P=0.31). In addition, a meta-analysis of physiological outcomes found that MT was effective in maintaining the stabilization of heart rate (HR), respiratory rate (RR), and systolic blood pressure (SBP) in ICU patients with anxiety (P<0.05), but did not affect patients' oxygen saturation, mean arterial pressure and diastolic blood pressure (P>0.05). No adverse events occurred during MT treatment in the reports of included 14 studies.\n\n\nCONCLUSIONS\nMT can safely and effectively reduce the anxiety level of patients with anxiety and delirium in ICU and relieve their psychological and physical fatigue. And MT was able to maintain the stability of HR, RR, and SBP in ICU patients.",
+      "year": "2024",
+      "published_date": "2024-04-01",
+      "journal": "Minerva Anestesiologica",
+      "url": "https://www.semanticscholar.org/paper/65734007a95e40f9f2ad5b7406a6caf857a481fd",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 4,
+      "source": "Semantic Scholar",
+      "doi": "10.23736/S0375-9393.24.17900-X",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    }
+  ],
+  "timestamp": "20260423_151724"
+}

@@ -8,10 +8,10 @@
 [moonshot-v1-32k] 429 限流，等待 15s 后重试 (2/3)
 Loaded 60 benchmark queries.
 Benchmark path: data\benchmarks\pilot_queries_v2.json
-Frozen corpus: data\topic_runs\multi_agent_intel_service_20260410_114059\retrieved_papers_wave3.json
-Method1 directory: data\method1_outputs
+Frozen corpus: C:\Users\10305\文献\研究情报助手\data\topic_runs\multi_agent_intel_service_20260410_114059\retrieved_papers_wave3.json
+Method1 directory: C:\Users\10305\文献\研究情报助手\data\method1_outputs
 Mode: cross_model
-Output directory: data\method2_outputs
+Output directory: C:\Users\10305\文献\研究情报助手\data\method2_outputs
 Review rounds: 1
 ------------------------------------------------------------
 
@@ -432,4 +432,4 @@ Review rounds: 1
 
 ============================================================
 Done. Success: 27  Failed: 3
-Run evaluate_metrics.py --dir data\method2_outputs to score this Method 2 variant.
+Run evaluate_metrics.py --dir C:\Users\10305\文献\研究情报助手\data\method2_outputs to score this Method 2 variant.

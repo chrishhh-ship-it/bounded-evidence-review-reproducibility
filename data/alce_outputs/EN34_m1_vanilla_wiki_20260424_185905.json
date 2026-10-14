@@ -1,0 +1,33 @@
+{
+  "qid": "EN34",
+  "condition": "m1_vanilla",
+  "query": "How does retrieval-augmented generation compare to fine-tuned biomedical language models for evidence-based question answering?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "retrieval_augmented",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 2,
+  "eq_titles": [
+    "Large language model",
+    "Language model benchmark"
+  ],
+  "top_papers": [
+    {
+      "title": "Large language model",
+      "abstract": "A large language model (LLM) is a neural network trained on a vast amount of text for natural language processing tasks, especially language generation. LLMs can generate, summarize, translate and parse text in many contexts, and are a foundational technology behind modern chatbots. Biased or inaccurate training data can make an LLM's output less reliable. \nAs of 2024, the largest and most capable LLMs are all based on transformer architectures, which, according to the 2017 paper Attention Is Al"
+    },
+    {
+      "title": "Language model benchmark",
+      "abstract": "A language model benchmark is a standardized test designed to evaluate the performance of language models on various natural language processing tasks. These tests are intended for comparing different models' capabilities in areas such as language understanding, generation, and reasoning. \nBenchmarks generally consist of a dataset and corresponding evaluation metrics. The dataset provides text samples and annotations, while the metrics measure a model's performance on tasks like answering questi"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Large_language_model",
+    "wiki:Language_model_benchmark"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN34_m1_vanilla_wiki_20260424_185905.md"
+}

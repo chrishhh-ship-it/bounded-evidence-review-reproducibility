@@ -1,0 +1,1943 @@
+{
+  "evaluator_sha256": "173413a6decedf04f5a55833627cbf19731bc82265a660366f882c5940bd2fcd",
+  "corpus_sha256": {
+    "pilot": "1a146fe065f2f99e6521f19db2c9d36245767def2cca4fb2a4b5c5d33a80288e",
+    "expanded": "e0182eacde3b779ea0aac13415625a807488ad942e7d097d9cc349bc0a7bff84"
+  },
+  "summaries": {
+    "A": {
+      "n": 30,
+      "cp_n": 0,
+      "citation_precision": null,
+      "bibliography_match_rate": 0.0,
+      "orphan_rate": 0.0,
+      "linkage": null,
+      "gate": 0.0,
+      "bmr_defined_only": null,
+      "gate_n": 0,
+      "has_bib_n": 0,
+      "text_orphans": 0,
+      "uncited": 0,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "0": 30
+      }
+    },
+    "B": {
+      "n": 30,
+      "cp_n": 2,
+      "citation_precision": 0.0,
+      "bibliography_match_rate": 0.0,
+      "orphan_rate": 0.06666666666666667,
+      "linkage": 0.0,
+      "gate": 0.0,
+      "bmr_defined_only": null,
+      "gate_n": 0,
+      "has_bib_n": 0,
+      "text_orphans": 16,
+      "uncited": 0,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "5": 1,
+        "2": 5,
+        "0": 15,
+        "3": 3,
+        "4": 1,
+        "1": 5
+      }
+    },
+    "pilot_M1": {
+      "n": 60,
+      "cp_n": 59,
+      "citation_precision": 0.7733050847457628,
+      "bibliography_match_rate": 0.7604166666666666,
+      "orphan_rate": 0.22916666666666666,
+      "linkage": 0.9491525423728814,
+      "gate": 0.6833333333333333,
+      "bmr_defined_only": 0.8147321428571429,
+      "gate_n": 41,
+      "has_bib_n": 56,
+      "text_orphans": 89,
+      "uncited": 4,
+      "out_of_state_reports": 12,
+      "pool_sizes": {
+        "7": 1,
+        "2": 2,
+        "0": 8,
+        "4": 1,
+        "15": 47,
+        "1": 1
+      }
+    },
+    "pilot_M2a": {
+      "n": 60,
+      "cp_n": 60,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.004166666666666667,
+      "linkage": 1.0,
+      "gate": 0.9666666666666667,
+      "bmr_defined_only": 1.0,
+      "gate_n": 58,
+      "has_bib_n": 60,
+      "text_orphans": 0,
+      "uncited": 2,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 60
+      }
+    },
+    "pilot_M2b": {
+      "n": 60,
+      "cp_n": 60,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.010416666666666666,
+      "linkage": 1.0,
+      "gate": 0.95,
+      "bmr_defined_only": 1.0,
+      "gate_n": 57,
+      "has_bib_n": 60,
+      "text_orphans": 0,
+      "uncited": 5,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 60
+      }
+    },
+    "pilot_M3": {
+      "n": 60,
+      "cp_n": 60,
+      "citation_precision": 0.9666666666666667,
+      "bibliography_match_rate": 0.9666666666666667,
+      "orphan_rate": 0.035416666666666666,
+      "linkage": 0.9666666666666667,
+      "gate": 0.95,
+      "bmr_defined_only": 1.0,
+      "gate_n": 57,
+      "has_bib_n": 58,
+      "text_orphans": 16,
+      "uncited": 1,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 60
+      }
+    },
+    "pilot_M4": {
+      "n": 60,
+      "cp_n": 60,
+      "citation_precision": 0.95,
+      "bibliography_match_rate": 0.95,
+      "orphan_rate": 0.07291666666666667,
+      "linkage": 0.95,
+      "gate": 0.85,
+      "bmr_defined_only": 1.0,
+      "gate_n": 51,
+      "has_bib_n": 57,
+      "text_orphans": 24,
+      "uncited": 11,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 60
+      }
+    },
+    "M1": {
+      "n": 251,
+      "cp_n": 251,
+      "citation_precision": 0.6184547524188959,
+      "bibliography_match_rate": 0.6185258964143426,
+      "orphan_rate": 0.38595617529880477,
+      "linkage": 0.9880478087649402,
+      "gate": 0.05976095617529881,
+      "bmr_defined_only": 0.626008064516129,
+      "gate_n": 15,
+      "has_bib_n": 248,
+      "text_orphans": 766,
+      "uncited": 9,
+      "out_of_state_reports": 230,
+      "pool_sizes": {
+        "8": 251
+      }
+    },
+    "M2a": {
+      "n": 251,
+      "cp_n": 251,
+      "citation_precision": 0.6236198064883324,
+      "bibliography_match_rate": 0.6242174160500853,
+      "orphan_rate": 0.37749003984063745,
+      "linkage": 0.9955179282868526,
+      "gate": 0.0796812749003984,
+      "bmr_defined_only": 0.6267142857142857,
+      "gate_n": 20,
+      "has_bib_n": 250,
+      "text_orphans": 754,
+      "uncited": 4,
+      "out_of_state_reports": 230,
+      "pool_sizes": {
+        "8": 251
+      }
+    },
+    "M2b": {
+      "n": 251,
+      "cp_n": 251,
+      "citation_precision": 0.6265177385695314,
+      "bibliography_match_rate": 0.6258537279453614,
+      "orphan_rate": 0.3789840637450199,
+      "linkage": 0.9925298804780877,
+      "gate": 0.06772908366533864,
+      "bmr_defined_only": 0.6283571428571428,
+      "gate_n": 17,
+      "has_bib_n": 250,
+      "text_orphans": 748,
+      "uncited": 13,
+      "out_of_state_reports": 232,
+      "pool_sizes": {
+        "8": 251
+      }
+    },
+    "M2c": {
+      "n": 251,
+      "cp_n": 225,
+      "citation_precision": 0.6146296296296296,
+      "bibliography_match_rate": 0.6135458167330677,
+      "orphan_rate": 0.7201195219123506,
+      "linkage": 1.0,
+      "gate": 0.0,
+      "bmr_defined_only": 0.6135458167330677,
+      "gate_n": 0,
+      "has_bib_n": 251,
+      "text_orphans": 346,
+      "uncited": 1100,
+      "out_of_state_reports": 241,
+      "pool_sizes": {
+        "8": 251
+      }
+    },
+    "B0": {
+      "n": 251,
+      "cp_n": 251,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.05029880478087649,
+      "linkage": 1.0,
+      "gate": 0.7848605577689243,
+      "bmr_defined_only": 1.0,
+      "gate_n": 197,
+      "has_bib_n": 251,
+      "text_orphans": 0,
+      "uncited": 101,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "8": 251
+      }
+    },
+    "pilot_M1_Q01_Q30": {
+      "n": 30,
+      "cp_n": 29,
+      "citation_precision": 0.5732758620689655,
+      "bibliography_match_rate": 0.5541666666666667,
+      "orphan_rate": 0.4166666666666667,
+      "linkage": 0.9310344827586207,
+      "gate": 0.4666666666666667,
+      "bmr_defined_only": 0.6157407407407407,
+      "gate_n": 14,
+      "has_bib_n": 27,
+      "text_orphans": 81,
+      "uncited": 2,
+      "out_of_state_reports": 12,
+      "pool_sizes": {
+        "7": 1,
+        "2": 2,
+        "0": 8,
+        "4": 1,
+        "15": 17,
+        "1": 1
+      }
+    },
+    "pilot_M1_Q31_Q60": {
+      "n": 30,
+      "cp_n": 30,
+      "citation_precision": 0.9666666666666667,
+      "bibliography_match_rate": 0.9666666666666667,
+      "orphan_rate": 0.041666666666666664,
+      "linkage": 0.9666666666666667,
+      "gate": 0.9,
+      "bmr_defined_only": 1.0,
+      "gate_n": 27,
+      "has_bib_n": 29,
+      "text_orphans": 8,
+      "uncited": 2,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 30
+      }
+    },
+    "pilot_M1_frozen": {
+      "n": 47,
+      "cp_n": 47,
+      "citation_precision": 0.9361702127659575,
+      "bibliography_match_rate": 0.9361702127659575,
+      "orphan_rate": 0.07180851063829788,
+      "linkage": 0.9361702127659575,
+      "gate": 0.8723404255319149,
+      "bmr_defined_only": 1.0,
+      "gate_n": 41,
+      "has_bib_n": 44,
+      "text_orphans": 24,
+      "uncited": 3,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 47
+      }
+    },
+    "pilot_M2a_Q01_Q30": {
+      "n": 30,
+      "cp_n": 30,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.004166666666666667,
+      "linkage": 1.0,
+      "gate": 0.9666666666666667,
+      "bmr_defined_only": 1.0,
+      "gate_n": 29,
+      "has_bib_n": 30,
+      "text_orphans": 0,
+      "uncited": 1,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 30
+      }
+    },
+    "pilot_M2a_Q31_Q60": {
+      "n": 30,
+      "cp_n": 30,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.004166666666666667,
+      "linkage": 1.0,
+      "gate": 0.9666666666666667,
+      "bmr_defined_only": 1.0,
+      "gate_n": 29,
+      "has_bib_n": 30,
+      "text_orphans": 0,
+      "uncited": 1,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 30
+      }
+    },
+    "pilot_M2a_frozen": {
+      "n": 60,
+      "cp_n": 60,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.004166666666666667,
+      "linkage": 1.0,
+      "gate": 0.9666666666666667,
+      "bmr_defined_only": 1.0,
+      "gate_n": 58,
+      "has_bib_n": 60,
+      "text_orphans": 0,
+      "uncited": 2,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 60
+      }
+    },
+    "pilot_M2b_Q01_Q30": {
+      "n": 30,
+      "cp_n": 30,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.016666666666666666,
+      "linkage": 1.0,
+      "gate": 0.9333333333333333,
+      "bmr_defined_only": 1.0,
+      "gate_n": 28,
+      "has_bib_n": 30,
+      "text_orphans": 0,
+      "uncited": 4,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 30
+      }
+    },
+    "pilot_M2b_Q31_Q60": {
+      "n": 30,
+      "cp_n": 30,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.004166666666666667,
+      "linkage": 1.0,
+      "gate": 0.9666666666666667,
+      "bmr_defined_only": 1.0,
+      "gate_n": 29,
+      "has_bib_n": 30,
+      "text_orphans": 0,
+      "uncited": 1,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 30
+      }
+    },
+    "pilot_M2b_frozen": {
+      "n": 60,
+      "cp_n": 60,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.010416666666666666,
+      "linkage": 1.0,
+      "gate": 0.95,
+      "bmr_defined_only": 1.0,
+      "gate_n": 57,
+      "has_bib_n": 60,
+      "text_orphans": 0,
+      "uncited": 5,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 60
+      }
+    },
+    "pilot_M3_Q01_Q30": {
+      "n": 30,
+      "cp_n": 30,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.0,
+      "linkage": 1.0,
+      "gate": 1.0,
+      "bmr_defined_only": 1.0,
+      "gate_n": 30,
+      "has_bib_n": 30,
+      "text_orphans": 0,
+      "uncited": 0,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 30
+      }
+    },
+    "pilot_M3_Q31_Q60": {
+      "n": 30,
+      "cp_n": 30,
+      "citation_precision": 0.9333333333333333,
+      "bibliography_match_rate": 0.9333333333333333,
+      "orphan_rate": 0.07083333333333333,
+      "linkage": 0.9333333333333333,
+      "gate": 0.9,
+      "bmr_defined_only": 1.0,
+      "gate_n": 27,
+      "has_bib_n": 28,
+      "text_orphans": 16,
+      "uncited": 1,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 30
+      }
+    },
+    "pilot_M4_Q01_Q30": {
+      "n": 30,
+      "cp_n": 30,
+      "citation_precision": 0.9333333333333333,
+      "bibliography_match_rate": 0.9333333333333333,
+      "orphan_rate": 0.075,
+      "linkage": 0.9333333333333333,
+      "gate": 0.9,
+      "bmr_defined_only": 1.0,
+      "gate_n": 27,
+      "has_bib_n": 28,
+      "text_orphans": 16,
+      "uncited": 2,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 30
+      }
+    },
+    "pilot_M4_Q31_Q60": {
+      "n": 30,
+      "cp_n": 30,
+      "citation_precision": 0.9666666666666667,
+      "bibliography_match_rate": 0.9666666666666667,
+      "orphan_rate": 0.07083333333333333,
+      "linkage": 0.9666666666666667,
+      "gate": 0.8,
+      "bmr_defined_only": 1.0,
+      "gate_n": 24,
+      "has_bib_n": 29,
+      "text_orphans": 8,
+      "uncited": 9,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 30
+      }
+    },
+    "pilot_M1_matched47": {
+      "n": 47,
+      "cp_n": 47,
+      "citation_precision": 0.9361702127659575,
+      "bibliography_match_rate": 0.9361702127659575,
+      "orphan_rate": 0.07180851063829788,
+      "linkage": 0.9361702127659575,
+      "gate": 0.8723404255319149,
+      "bmr_defined_only": 1.0,
+      "gate_n": 41,
+      "has_bib_n": 44,
+      "text_orphans": 24,
+      "uncited": 3,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 47
+      }
+    },
+    "pilot_M1_matched17": {
+      "n": 17,
+      "cp_n": 17,
+      "citation_precision": 0.8823529411764706,
+      "bibliography_match_rate": 0.8823529411764706,
+      "orphan_rate": 0.125,
+      "linkage": 0.8823529411764706,
+      "gate": 0.8235294117647058,
+      "bmr_defined_only": 1.0,
+      "gate_n": 14,
+      "has_bib_n": 15,
+      "text_orphans": 16,
+      "uncited": 1,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 17
+      }
+    },
+    "pilot_M2a_matched47": {
+      "n": 47,
+      "cp_n": 47,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.005319148936170213,
+      "linkage": 1.0,
+      "gate": 0.9574468085106383,
+      "bmr_defined_only": 1.0,
+      "gate_n": 45,
+      "has_bib_n": 47,
+      "text_orphans": 0,
+      "uncited": 2,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 47
+      }
+    },
+    "pilot_M2a_matched17": {
+      "n": 17,
+      "cp_n": 17,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.007352941176470588,
+      "linkage": 1.0,
+      "gate": 0.9411764705882353,
+      "bmr_defined_only": 1.0,
+      "gate_n": 16,
+      "has_bib_n": 17,
+      "text_orphans": 0,
+      "uncited": 1,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 17
+      }
+    },
+    "pilot_M2b_matched47": {
+      "n": 47,
+      "cp_n": 47,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.010638297872340425,
+      "linkage": 1.0,
+      "gate": 0.9574468085106383,
+      "bmr_defined_only": 1.0,
+      "gate_n": 45,
+      "has_bib_n": 47,
+      "text_orphans": 0,
+      "uncited": 4,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 47
+      }
+    },
+    "pilot_M2b_matched17": {
+      "n": 17,
+      "cp_n": 17,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.022058823529411766,
+      "linkage": 1.0,
+      "gate": 0.9411764705882353,
+      "bmr_defined_only": 1.0,
+      "gate_n": 16,
+      "has_bib_n": 17,
+      "text_orphans": 0,
+      "uncited": 3,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 17
+      }
+    },
+    "pilot_M3_matched47": {
+      "n": 47,
+      "cp_n": 47,
+      "citation_precision": 0.9574468085106383,
+      "bibliography_match_rate": 0.9574468085106383,
+      "orphan_rate": 0.04521276595744681,
+      "linkage": 0.9574468085106383,
+      "gate": 0.9361702127659575,
+      "bmr_defined_only": 1.0,
+      "gate_n": 44,
+      "has_bib_n": 45,
+      "text_orphans": 16,
+      "uncited": 1,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 47
+      }
+    },
+    "pilot_M3_matched17": {
+      "n": 17,
+      "cp_n": 17,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.0,
+      "linkage": 1.0,
+      "gate": 1.0,
+      "bmr_defined_only": 1.0,
+      "gate_n": 17,
+      "has_bib_n": 17,
+      "text_orphans": 0,
+      "uncited": 0,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 17
+      }
+    },
+    "pilot_M4_matched47": {
+      "n": 47,
+      "cp_n": 47,
+      "citation_precision": 0.9787234042553191,
+      "bibliography_match_rate": 0.9787234042553191,
+      "orphan_rate": 0.04521276595744681,
+      "linkage": 0.9787234042553191,
+      "gate": 0.8723404255319149,
+      "bmr_defined_only": 1.0,
+      "gate_n": 41,
+      "has_bib_n": 46,
+      "text_orphans": 8,
+      "uncited": 9,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 47
+      }
+    },
+    "pilot_M4_matched17": {
+      "n": 17,
+      "cp_n": 17,
+      "citation_precision": 1.0,
+      "bibliography_match_rate": 1.0,
+      "orphan_rate": 0.0,
+      "linkage": 1.0,
+      "gate": 1.0,
+      "bmr_defined_only": 1.0,
+      "gate_n": 17,
+      "has_bib_n": 17,
+      "text_orphans": 0,
+      "uncited": 0,
+      "out_of_state_reports": 0,
+      "pool_sizes": {
+        "15": 17
+      }
+    }
+  },
+  "paired_tests": [
+    {
+      "comparison": "B0-M1",
+      "metric": "citation_precision",
+      "n": 251,
+      "mean_difference": 0.38154524758110414,
+      "p": 3.5254614780206286e-43,
+      "statistic": 0.0,
+      "q": 2.115276886812377e-42
+    },
+    {
+      "comparison": "B0-M1",
+      "metric": "bibliography_match_rate",
+      "n": 251,
+      "mean_difference": 0.38147410358565736,
+      "p": 3.5233332524369457e-43,
+      "statistic": 0.0,
+      "q": 2.115276886812377e-42
+    },
+    {
+      "comparison": "B0-M1",
+      "metric": "orphan_rate",
+      "n": 251,
+      "mean_difference": -0.33565737051792827,
+      "p": 4.971839732634982e-40,
+      "statistic": 614.5,
+      "q": 1.988735893053993e-39
+    },
+    {
+      "comparison": "M2a-M1",
+      "metric": "citation_precision",
+      "n": 251,
+      "mean_difference": 0.0051650540694365395,
+      "p": 0.4967113625989096,
+      "statistic": 6784.0,
+      "q": 0.6272033174549172
+    },
+    {
+      "comparison": "M2a-M1",
+      "metric": "bibliography_match_rate",
+      "n": 251,
+      "mean_difference": 0.005691519635742743,
+      "p": 0.42391930854599036,
+      "statistic": 6588.0,
+      "q": 0.6272033174549172
+    },
+    {
+      "comparison": "M2a-M1",
+      "metric": "orphan_rate",
+      "n": 251,
+      "mean_difference": -0.00846613545816733,
+      "p": 0.40051795900298237,
+      "statistic": 6727.0,
+      "q": 0.6272033174549172
+    },
+    {
+      "comparison": "M2b-M1",
+      "metric": "citation_precision",
+      "n": 251,
+      "mean_difference": 0.008062986150635552,
+      "p": 0.2758777805285223,
+      "statistic": 6502.0,
+      "q": 0.6272033174549172
+    },
+    {
+      "comparison": "M2b-M1",
+      "metric": "bibliography_match_rate",
+      "n": 251,
+      "mean_difference": 0.007327831531018783,
+      "p": 0.3837787348023821,
+      "statistic": 6699.5,
+      "q": 0.6272033174549172
+    },
+    {
+      "comparison": "M2b-M1",
+      "metric": "orphan_rate",
+      "n": 251,
+      "mean_difference": -0.0069721115537848604,
+      "p": 0.522669431212431,
+      "statistic": 6909.0,
+      "q": 0.6272033174549172
+    },
+    {
+      "comparison": "M2c-M1",
+      "metric": "citation_precision",
+      "n": 225,
+      "mean_difference": -0.00037037037037037697,
+      "p": 0.7374843273132718,
+      "statistic": 12300.0,
+      "q": 0.7374843273132718
+    },
+    {
+      "comparison": "M2c-M1",
+      "metric": "bibliography_match_rate",
+      "n": 251,
+      "mean_difference": -0.0049800796812749,
+      "p": 0.6037623276706036,
+      "statistic": 13232.0,
+      "q": 0.6586498120042947
+    },
+    {
+      "comparison": "M2c-M1",
+      "metric": "orphan_rate",
+      "n": 251,
+      "mean_difference": 0.3341633466135458,
+      "p": 8.472226027210894e-39,
+      "statistic": 834.0,
+      "q": 2.541667808163268e-38
+    }
+  ],
+  "not_frozen_M1_qids": [
+    "Q01",
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q05",
+    "Q06",
+    "Q07",
+    "Q08",
+    "Q09",
+    "Q11",
+    "Q12",
+    "Q13",
+    "Q14"
+  ],
+  "retrieval_sidecar_evidence": {
+    "Q01": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q01_method1_20260410_211058.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 13,
+      "top_papers_n": 8,
+      "pool_n": 7,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？",
+        "effective_search_query": "多智能协同 智慧情报服务 闭环 构建",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 13,
+        "screened_count": 8,
+        "all_retrieved_ids": [
+          "title:体系化人工智能与大语言模型在智能情报场景中的应用|2024",
+          "title:智慧教育服务生态体系构建|2021",
+          "doi:10.3969/j.issn.1009-9875.2025.03.005",
+          "title:多源数据驱动下产业竞争情报智慧服务机制研究|2026",
+          "title:数智驱动背景下产业竞争情报智慧服务的认知框架与实现逻辑|2023",
+          "title:面向国家战略的产业竞争情报场景化智慧服务模式研究|2024",
+          "doi:10.12189/j.issn.1672-8505.2026.01.004?viewtype=html董克，",
+          "title:人工智能国际合作机制中的跨境数据治理范式构建.|2025",
+          "title:基于动态数据汇聚与aiot 协同的智慧园区管理系统设计与实现|2025",
+          "title:智能体赋能企业竞争情报研究——价值, 挑战与实现路径|2026",
+          "title:情报智能体——面向“十五五” 的科技情报工作新范式.|2024",
+          "title:面向重大突发事件的智慧政府情报决策: 认知框架与实践路径|2025",
+          "title:决策情报保障体系协同框架构建研究|2022"
+        ],
+        "top_papers": [
+          {
+            "title": "多源数据驱动下产业竞争情报智慧服务机制研究",
+            "year": 2026,
+            "journal": "郑荣， 魏明珠， 王晓宇， 陈玉 - 情报学报",
+            "doi": "",
+            "citations": 2,
+            "abstract": ""
+          },
+          {
+            "title": "体系化人工智能与大语言模型在智能情报场景中的应用",
+            "year": 2024,
+            "journal": "韩旭， 孙亚伟， 赵璐 - 北京邮电大学学报, 2024 - journal.bupt.edu.cn",
+            "doi": "",
+            "citations": 5,
+            "abstract": "… 传统情报的人工检索收集信息,问卷调查,专家 协同决策等规范流程更加强调专家智慧经验及人际 … 在场景化应用 集成方面,构建人工智能服务闭环,进行多能力级联 与并联优化[5] 及黑盒模型联合…"
+          },
+          {
+            "title": "数智驱动背景下产业竞争情报智慧服务的认知框架与实现逻辑",
+            "year": 2023,
+            "journal": "郑荣， 王晓宇， 高志豪， 雷亚欣 - 情报学报, 2023",
+            "doi": "",
+            "citations": 2,
+            "abstract": ""
+          },
+          {
+            "title": "面向国家战略的产业竞争情报场景化智慧服务模式研究",
+            "year": 2024,
+            "journal": "郑荣， 王晓宇， 高志豪， 魏明珠 - 情报学报, 2024",
+            "doi": "",
+            "citations": 1,
+            "abstract": ""
+          },
+          {
+            "title": "创新需求牵引的产业情报智能服务体系研究",
+            "year": 2026,
+            "journal": "董克， 陈丽芳， 吴佳纯 - 西华大学学报(哲学社会科学版), 2026 - aj.xhu.edu.cn",
+            "doi": "10.12189/j.issn.1672-8505.2026.01.004?viewType=HTML董克，",
+            "citations": 0,
+            "abstract": "… 需求及供给,构建了创新需求牵引的产业情报智能服务体系.面 向… 规模 的激增与服务对象的多元 化,情报服务加速迈向智慧化,其… 结论的闭环,为产业技术创新提供可用,可证,可复用的情报服务. …"
+          },
+          {
+            "title": "情报智能体——面向“十五五” 的科技情报工作新范式.",
+            "year": 2024,
+            "journal": "刘细文， 付芸， 韦华楠 - … of Library & Information Science in …, 2024 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 核心的 科技情报布局,满足多层次,多目标的科技情报服务 需求. … 单智能体[62]和多智能体[4]框架 ,本文 构建了基于情报智能体的… 的协同工作,新生态实 现了科技情报工作的闭环流程,为情报专家…"
+          },
+          {
+            "title": "智能体赋能企业竞争情报研究——价值, 挑战与实现路径",
+            "year": 2026,
+            "journal": "邵晓璇 - Frontiers in Economics and Management, 2026 - fcipub.org",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 多智能体的分工协作形成闭环——数据采集智能体专注于多源信息的抓取工作,分析智能体负责 深度挖掘数据价值,关联智能体则构建各… 算法黑箱的成因,危机及治理路径选择[C]//中国智慧工程…"
+          },
+          {
+            "title": "决策情报保障体系协同框架构建研究",
+            "year": 2022,
+            "journal": "胡雅萍， 张家年 - Information studies: Theory & Application, 2022",
+            "doi": "",
+            "citations": 0,
+            "abstract": ""
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q01_method1_20260410_211058.md"
+      }
+    },
+    "Q02": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q02_method1_20260410_211518.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 12,
+      "top_papers_n": 8,
+      "pool_n": 2,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "多智能体协同在竞争情报检索与证据聚合中的核心收益是什么？",
+        "effective_search_query": "多智能体协同 竞争情报 检索 证据聚合 收益",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 12,
+        "screened_count": 8,
+        "all_retrieved_ids": [
+          "doi:10.3969/j.issn.1004-910x.2025.04.004苏美文，",
+          "title:多模态认知计算|2023",
+          "title:平台经济反垄断研究的热点演进与理论框架——基于文献计量方法的分析.|2022",
+          "title:智能社会协同治理: 研究现状与发展趋势.|2023",
+          "title:海空异构多智能体全链路协同技术综述.|2026",
+          "doi:10.12189/j.issn.1672-8505.2026.01.004?viewtype=html董克，",
+          "title:面向时空资源分配的智能集群自组织预测方法.|2025",
+          "doi:10.6049/kjjbydc.d62025010633龙跃，",
+          "title:多源情报驱动的国家战略博弈可拓决策分析.|2024",
+          "title:价值链协同赋能的核电建造质量智能管控研究|2025",
+          "doi:10.15302/j-sscae-2025.07.018徐丰，",
+          "title:平台生态嵌入能否促进资本跨区域流动——来自上市公司异地投资的证据|2025"
+        ],
+        "top_papers": [
+          {
+            "title": "创新需求牵引的产业情报智能服务体系研究",
+            "year": 2026,
+            "journal": "董克， 陈丽芳， 吴佳纯 - 西华大学学报(哲学社会科学版), 2026 - aj.xhu.edu.cn",
+            "doi": "10.12189/j.issn.1672-8505.2026.01.004?viewType=HTML董克，",
+            "citations": 0,
+            "abstract": "… ,其目标由企业收益转变为产业,地区乃至国家层面的整体利益[11][22].创新链是一条包含新思 … ,搭 建多智能体情报生产流水线,形成从任务分解,证据采集到分析研判与产品化交付的协同机制.…"
+          },
+          {
+            "title": "多源情报驱动的国家战略博弈可拓决策分析.",
+            "year": 2024,
+            "journal": "张伟， 魏鑫磊， 聂芸， 杜雁双， 牛鹏飞… - Journal of …, 2024 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 最大损失和 最小收益,与既定战略目标所追求的最大收益和最小损 失… 广,维度 高,关联多,面向 国家战略博弈的情报聚合难以确定,导 致… 年12 月,DeepMind 公司在《科学》杂 志上发表的AI 智能体…"
+          },
+          {
+            "title": "海空异构多智能体全链路协同技术综述.",
+            "year": 2026,
+            "journal": "葛泉波， 李凯， 陆振宇， 李波， 杨亮… - … /Shu Ju Cai Ji Yu Chu …, 2026 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 实时性方面高度异构,难以高效聚合或压缩,这一特性使得通信带宽… 性和冗余方面,基于多神经网络 与D‑S 证据理论的数 据融合模型… 不确定协同任务分 配问题,文献[65]建立了一种考虑期望收益与…"
+          },
+          {
+            "title": "基于多源数据融合与知识关联聚合的战略性新兴产业关键技术识别研究",
+            "year": 2026,
+            "journal": "龙跃， 陈启浩 - 科技进步与对策, 2026 - kjjb.org",
+            "doi": "10.6049/kjjbydc.D62025010633龙跃，",
+            "citations": 0,
+            "abstract": "… 鉴于产业关 键技术识别属于情报分析范畴[2],故本文将多源数据 融合与知识关联聚合方法融入 … 技术平台汇聚多方资源,深 化协同攻关模式,突破核心技术瓶颈,系统提升创新效 能和产业竞争力. …"
+          },
+          {
+            "title": "面向时空资源分配的智能集群自组织预测方法.",
+            "year": 2025,
+            "journal": "王宏为， 刘玮， 郭靠， 王紫昊 - Journal of Computer …, 2025 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 流融入到基于LLM 的多智能体 协作中,促进了多智能体的自组织合作.… 这个案例发生在ai 缺乏 关于aj 的证据的情况下. … 息,并将其发送至电动汽车聚合器智能体.这些信息涵 盖电动汽车的到达与…"
+          },
+          {
+            "title": "智能社会协同治理: 研究现状与发展趋势.",
+            "year": 2023,
+            "journal": "吕鹏， 毕斯鹏， 管正青， 成海波 - Journal of South China …, 2023 - search.ebscohost.com",
+            "doi": "",
+            "citations": 1,
+            "abstract": "… 收益分配制度*文化 等因素均可以对社会协同治理系统平台协同… 治理%(多智能体) 协同治理+ 智 能社会中&多智能体的进化计算… M&基于群 体智能的方法检测基于聚合用户意见*Ê测和证据 的h…"
+          },
+          {
+            "title": "价值链协同赋能的核电建造质量智能管控研究",
+            "year": 2025,
+            "journal": "徐梦宇， 雷玮剑， 易茜， 司恒远， 冯毅雄， 易树平 - 机械工程学报, 2025 - cjmenet.com.cn",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 中证据理 论,构建保证产品协同质量和促进企业价值增长的 多… 层间投影关系,功 能层之间聚合 关系共同作用,单元能力逐渐组合形 成… 根据选择协同与不协同的适应度 计算其混合策略的期望收益,…"
+          },
+          {
+            "title": "推动人工智能与实体经济深度融合加快发展新质生产力",
+            "year": 2025,
+            "journal": "苏美文， 杨文爽， 李博文， 任飞宇， 易美妮… - 工业技术 …, 2025 - journal03.magtech.org.cn",
+            "doi": "10.3969/j.issn.1004-910X.2025.04.004苏美文，",
+            "citations": 13,
+            "abstract": "… 大模型 赋能的智能调度中枢, 通过多智能体博弈算法优 化… 亚马逊AWS聚合开发者, 用户与硬 件供应商, 形成数字生态系统. … 价值边界突破: 数据衍生服务创造增量收益. 工程机械企业通过设备…"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q02_method1_20260410_211518.md"
+      }
+    },
+    "Q03": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q03_method1_20260410_211718.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 12,
+      "top_papers_n": 8,
+      "pool_n": 0,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "面向知识服务场景，单智能体与多智能体的信息服务差异体现在哪些指标上？",
+        "effective_search_query": "单智能体 多智能体 信息服务 差异 指标 知识服务",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 12,
+        "screened_count": 8,
+        "all_retrieved_ids": [
+          "title:pnt 智能服务|2021",
+          "title:大语言模型支持的多智能体: 技术路径, 教育应用与未来展望|2024",
+          "doi:10.11959/j.issn.1000-0801.2020024/李凯，",
+          "doi:10.6049/kjjbydc.2024020067姚伟，",
+          "title:大模型驱动的教育多智能体系统应用研究—技术架构, 发展现状, 实践路径与未来展望.|2025",
+          "title:ai 赋能科技期刊知识服务的实施框架与路径|2025",
+          "title:基于多智能体q 学习的异构车载网络选择方法|2021",
+          "title:基于多智能体技术的智能电网信息管理系统研究|2017",
+          "title:基于多智能体协作模式的区域教育数字化评估探索与应用实践.|2026",
+          "title:基于大数据的科教评价信息云平台构建和智能服务研究框架|2020",
+          "title:人工智能与信息技术服务业企业创新质量|2025",
+          "doi:10.16469/j.css.2025kx054?viewtype=html朱菊芳，"
+        ],
+        "top_papers": [
+          {
+            "title": "大语言模型支持的多智能体: 技术路径, 教育应用与未来展望",
+            "year": 2024,
+            "journal": "吴永和， 姜元昊， 陈圆圆， 张文轩 - 开放教育研究, 2024 - openedu.sou.edu.cn",
+            "doi": "",
+            "citations": 12,
+            "abstract": "… 阐述了多智能体系统教育应用的多重角色,包括促 进知识管理的… 单智能体技术的成熟和能力的 增强,研究者开 始探索如何组合多… )阶段差异化应用与跨文化体系适应 教育实践复杂且多变,涉及多…"
+          },
+          {
+            "title": "大模型驱动的教育多智能体系统应用研究—技术架构, 发展现状, 实践路径与未来展望.",
+            "year": 2025,
+            "journal": "刘石奇， 刘智， 段会敏， 粟柱… - Journal of Distance …, 2025 - search.ebscohost.com",
+            "doi": "",
+            "citations": 2,
+            "abstract": "… (三@教育多智能体系统的技术特征 如图1(b)所示,与单智能体相… 多维度指标体 系包括多智能 体响应的拟人化程度准确性知识 … 这种技术差异可能阻碍其在中 国等非英语国家的应用,并进A步…"
+          },
+          {
+            "title": "基于多智能体协作模式的区域教育数字化评估探索与应用实践.",
+            "year": 2026,
+            "journal": "陈梦， 陈旭 - Modern Educational Technology, 2026 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… ,智能体在相同认知条件下快速达成共识,共享知识;异质互补模式凸显 不同角色智能体的差异性 与互补性,通过反馈优化提升评估指标的… 值得注意的是,单智能体在指标可测性上略高于多智能体(…"
+          },
+          {
+            "title": "基于多智能体Q 学习的异构车载网络选择方法",
+            "year": 2021,
+            "journal": "聂雷， 刘博， 李鹏， 何亨 - 计算机工程与科学, 2021 - joces.nudt.edu.cn",
+            "doi": "",
+            "citations": 1,
+            "abstract": "… 服务质量作为网络性能的评价指标\"… 多智能体的)6 D<LK424@算法而言\"则是使得所有智能体 的策略达 到纳什均衡!8L3C:_I2D2QK2IG$'\"\"()本节采用基 于多智能体) 学习的思想解决了单智能体…"
+          },
+          {
+            "title": "基于多智能体技术的智能电网信息管理系统研究",
+            "year": 2017,
+            "journal": "吴凡， 孙静 - 现代电力, 2017 - xddl.ncepujournal.com",
+            "doi": "",
+            "citations": 1,
+            "abstract": "… 的知识 库及分析模块同时利用先进的通信技术实现各智 能体间… 每隔一定的时间#智能体主动向 各测量单 元发出测量命令#然后… 度等方面 指标对消息进行优先级评判#按照判定结果将信息 插入…"
+          },
+          {
+            "title": "AI 赋能科技期刊知识服务的实施框架与路径",
+            "year": 2025,
+            "journal": "彭希珺， 华宁 - 中国科技期刊研究, 2025 - cjstp.cn",
+            "doi": "",
+            "citations": 2,
+            "abstract": "… 的评审水平,且存 在学科差异显著,单篇评审误差以及黑箱逻辑隐患 … 数据 安全性可用性,建立模型 评价指标,分析模型训练 效果,指导… 智能体工具研发实 现期刊智能知识服务的落地应用. 参考文献 …"
+          },
+          {
+            "title": "从数联网到知联网: 数智化时代的知识画像",
+            "year": 2025,
+            "journal": "姚伟， 张佶， 石梦茹 - 科技进步与对策, 2025 - kjjb.org",
+            "doi": "10.6049/kjjbydc.2024020067姚伟，",
+            "citations": 2,
+            "abstract": "… 形成具有多样化网络能力的信息服务体系,通过识别 数据协议规范… 知识画像具备3个差异化特征 [9]:第一, 知识画像规范人类知识… 公平指标,排查并杜 绝如性别,种族,年龄等群体歧视内容,保证知识…"
+          },
+          {
+            "title": "PNT 智能服务",
+            "year": 2021,
+            "journal": "杨元喜， 杨诚， 任夏 - 测绘学报, 2021 - researchgate.net",
+            "doi": "",
+            "citations": 29,
+            "abstract": "… 的知识图谱,最后实现 PNT 智能保障和智能服务的全过程. 智能PNT 服务不追求个性化的PNT 专家 知识,… 专家的经验,形成共性化的知识,即 所谓的专家“共识”,再以多学科专家的“共识”生 成“专家…"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q03_method1_20260410_211718.md"
+      }
+    },
+    "Q04": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q04_method1_20260410_211901.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 0,
+      "top_papers_n": 0,
+      "pool_n": 0,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "如何为智慧情报服务设计 retrieval-evidence-writing 的多阶段工作流？",
+        "effective_search_query": "智慧情报服务 retrieval-evidence-writing 多阶段工作流 设计",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 0,
+        "screened_count": 0,
+        "all_retrieved_ids": [],
+        "top_papers": [],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q04_method1_20260410_211901.md"
+      }
+    },
+    "Q05": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q05_method1_20260410_212521.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 12,
+      "top_papers_n": 8,
+      "pool_n": 0,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "智慧情报服务系统最适合采用哪些自动评测指标？",
+        "effective_search_query": "智慧情报服务系统 自动评测指标",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 12,
+        "screened_count": 8,
+        "all_retrieved_ids": [
+          "title:智慧城市教育公共服务评价指标体系研制|2017",
+          "doi:10.11946/cjstp.202411251288李涵霄，",
+          "title:政务微信公众号服务质量评价指标体系构建及实证研究|2016",
+          "title:医院信息化建设评价标准体系研究|2023",
+          "title:城乡融合发展视角下数字乡村评价指标体系构建|2021",
+          "title:国家智慧医疗评价指标体系的构建|2016",
+          "title:浅析政府网站“在线服务” 绩效评估指标的构建|2016",
+          "title:新时代教育评价改革效能的智慧监测: 一种自助平台的构想.|2025",
+          "title:我国医院智能化评价指标体系构建研究|2024",
+          "title:我国医院智慧化评价: 研究述评与展望|2024",
+          "title:research on the evaluation of the modernization level of scientific and technologicalâ information service ability under the empowerment of digital intelligence|2023",
+          "title:智慧製造成熟度指標|2026"
+        ],
+        "top_papers": [
+          {
+            "title": "Research on the Evaluation of the Modernization Level of Scientific and TechnologicalÂ Information Service Ability under the Empowerment of Digital Intelligence",
+            "year": 2023,
+            "journal": "W HUANG, Y LIU, P YANG - Scientific Information Research, 2023 - eng.kjqbyj.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 化 的科技情报服务系统,目标则是获取智慧化的科技 情报成果. … 数据的自动聚类,相近文献自动 分 析,关联性规则挖掘,文字的自动编辑… 4.2 科技情报服务能力现代化指标的筛选 本文通过专家问卷…"
+          },
+          {
+            "title": "智慧製造成熟度指標",
+            "year": 2026,
+            "journal": "SMM Indices - airitifile.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 程度,來判定智慧製造準備度.但相對的,它不是 一個直接的指標系統,無法對廠商智慧化各面向作出 … 覺察,使用大數據的理 由,自動演化系統,依分析結果即時修正能力,競爭情報大數據的有 效運用 …"
+          },
+          {
+            "title": "医院信息化建设评价标准体系研究",
+            "year": 2023,
+            "journal": "金琰， 杜贵鹃， 舒亚玲， 王艳清 - 医学信息学杂志, 2023 - yxxxx.ac.cn",
+            "doi": "",
+            "citations": 2,
+            "abstract": "… 互联互 通测评侧重于考察医院信息化建设的标准化水平, 评测医院各信息系统(平台)是否符合已 … 《公立医院高质量发 展评价指标》将电子病历分级评价,智慧服务评 估纳入智慧医院建设指标中.…"
+          },
+          {
+            "title": "科技期刊集群平台数字学术服务能力评价指标体系构建及实证研究",
+            "year": 2025,
+            "journal": "李涵霄， 杜杏叶， 曹珂瑞 - 中国科技期刊研究, 2025 - cjstp.cn",
+            "doi": "10.11946/cjstp.202411251288李涵霄，",
+            "citations": 6,
+            "abstract": "… 资源;④数字技术与工具,包括数 字软件技术与科研辅助工具;⑤服务人员的专业技 能与经验智慧 . … 够为层次分析的决策过程提供模型构造,判断矩阵 生成,权重计算与自动修正等功能,被广泛应用…"
+          },
+          {
+            "title": "国家智慧医疗评价指标体系的构建",
+            "year": 2016,
+            "journal": "钱海， 费科峰， 沈剑峰 - 中国医院, 2016",
+            "doi": "",
+            "citations": 1,
+            "abstract": ""
+          },
+          {
+            "title": "我国医院智能化评价指标体系构建研究",
+            "year": 2024,
+            "journal": "刘智勇， 郭铭睿， 陈小杭， 龙婧， 彭昱欣 - 医学信息学杂志, 2024 - yxxxx.ac.cn",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 现有医院信息化建设是智慧医院建设的基础, 在维度划分,指标筛选等方面为医院智能化评价 体 系制定提供参考.本研究基于现有评价体系,探讨 医院智能化评价体系具体维度,项目和…"
+          },
+          {
+            "title": "我国医院智慧化评价: 研究述评与展望",
+            "year": 2024,
+            "journal": "张馨洋， 彭昱欣， 王琼， 刘智勇 - 医学信息学杂志, 2024 - yxxxx.ac.cn",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 总结国内外医院智慧化建设现状,我国医院智慧化评价体系及… 医院智慧化建设主要内容,系统分析 我国医院智慧化评 价指标体系… 还有机器人自动混合和管理化疗药物以及自 动药房系统,患者流量…"
+          },
+          {
+            "title": "智慧城市教育公共服务评价指标体系研制",
+            "year": 2017,
+            "journal": "祝智庭， 余平 - 开放教育研究, 2017 - openedu.sou.edu.cn",
+            "doi": "",
+            "citations": 7,
+            "abstract": "… 指标的建立能够更好地引导教育应用的建设.与早期的教育信息化 评价指标不同,本文研究的内容 是在智慧城市整体框架下,智慧… 项城市公共服务来考虑,而评价的出发点也在于教育服务是否能够…"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q05_method1_20260410_212521.md"
+      }
+    },
+    "Q06": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q06_method1_20260410_212701.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 2,
+      "top_papers_n": 2,
+      "pool_n": 0,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "引用准确率和 orphan citation rate 是否能作为智慧情报服务的核心指标？",
+        "effective_search_query": "引用准确率 orphan citation rate 智慧情报服务 核心指标",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 2,
+        "screened_count": 2,
+        "all_retrieved_ids": [
+          "doi:10.11946/cjstp.202411251288李涵霄，",
+          "title:开源创新的现状, 热点及趋势分析——基于2005—2024 年知网文献的计量研究|2025"
+        ],
+        "top_papers": [
+          {
+            "title": "科技期刊集群平台数字学术服务能力评价指标体系构建及实证研究",
+            "year": 2025,
+            "journal": "李涵霄， 杜杏叶， 曹珂瑞 - 中国科技期刊研究, 2025 - cjstp.cn",
+            "doi": "10.11946/cjstp.202411251288李涵霄，",
+            "citations": 6,
+            "abstract": "… 科研辅助工具;⑤服务人员的专业技 能与经验智慧. 4)能力体现层———核心层. 参照笔者前期成 … 社会影响进行计量评价与可视化呈现(指标 如:新闻提及数,政策引用数,社交媒体提及数等) C41 …"
+          },
+          {
+            "title": "开源创新的现状, 热点及趋势分析——基于2005—2024 年知网文献的计量研究",
+            "year": 2025,
+            "journal": "王锐， 吕秋月， 廖佳 - 华东师范大学学报(自然科学版), 2025 - xblk.ecnu.edu.cn",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 依托 开放资源与集体智慧, 开源创新在降低研发成本,加快技术… 学与科学计量学领域, 通 过对文献 的数量特征,内容特征及引用… 工维护成本, 还显著提升了检测准确率与分析效率. 在知识产权治理…"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q06_method1_20260410_212701.md"
+      }
+    },
+    "Q07": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q07_method1_20260410_212804.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 12,
+      "top_papers_n": 8,
+      "pool_n": 0,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "多智能协同系统的 reviewer agent 对最终报告质量能带来哪些可观察改进？",
+        "effective_search_query": "多智能协同系统 reviewer agent 报告质量 改进",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 12,
+        "screened_count": 8,
+        "all_retrieved_ids": [
+          "title:科技大数据知识图谱构建方法及应用研究综述|2020",
+          "title:agent technology and its applications in scientific research.|2025",
+          "doi:10.11946/cjstp.202506080612艾莉莎，",
+          "title:review of cybersecurity technology hotspots in 2024|2025",
+          "title:多智能体协作驱动的审计问题定性法规推荐系统.|2026",
+          "title:基于大模型的ai 通话分析智能体研究与实现|2025",
+          "title:基于agent 服务的chatgpt 处理多方对话任务|2025",
+          "doi:10.13421/j.cnki.hjwsxzz.2025.10.003刘婕，",
+          "title:生成式ai 如何重构中小企业创新体系? 算法参与式知识创造, 创新能力与智能决策的链式机制检验|2025",
+          "doi:10.11946/cjstp.202506080612ai",
+          "title:大语言模型gpt 在医疗文本中的应用综述.|2025",
+          "title:balanced and coordinated regional economic development in china: insights from heterogeneous agent new keynesian models|2025"
+        ],
+        "top_papers": [
+          {
+            "title": "Agent Technology and Its Applications in Scientific Research.",
+            "year": 2025,
+            "journal": "L QIAN, Q WANG, Y LIU, Y ZHANG… - Journal of Library & …, 2025 - search.ebscohost.com",
+            "doi": "",
+            "citations": 2,
+            "abstract": "… 多智能体的协作模式包括合作,竞争和协同竞 争:①合作型系统根据各… 逻辑,再调用 NeurIPS 风格自动评审系统评分,结合人类反馈迭代 改进,可基于实验数据和文献生成 8 页左右的结构化 报告. …"
+          },
+          {
+            "title": "科技期刊数智化平台建设创新方案及实测效果探析——以《 北京邮电大学学报》 为例",
+            "year": 2025,
+            "journal": "艾莉莎， 孙宇彤， 靳海灵， 马逍悦， 钟羽， 李博识… - 中国科技期刊研究, 2025 - cjstp.cn",
+            "doi": "10.11946/cjstp.202506080612艾莉莎，",
+            "citations": 2,
+            "abstract": "… 系统基于实验操作轨迹与环境参数,自动生成 结构化的实验报告,… 构智能体协同决策模型:王付宇 等[12] 研究表示,稿件分析Agent… 分析结果,系统生成审校 质量柱状图,饼状图等,给出改进建议(如…"
+          },
+          {
+            "title": "Analysis of innovative solutions and empirical results in building digital intelligence platforms for scientific journals: Taking Journal of Beijing University of Posts and …",
+            "year": 2025,
+            "journal": "AI Lisha, SUN Yutong, JIN Hailing, MA Xiaoyue… - Chinese Journal of …, 2025 - cjstp.cn",
+            "doi": "10.11946/cjstp.202506080612AI",
+            "citations": 0,
+            "abstract": "… 系统基于实验操作轨迹与环境参数,自动生成 结构化的实验报告,… 构智能体协同决策模型:王付宇 等[12] 研究表示,稿件分析Agent… 分析结果,系统生成审校 质量柱状图,饼状图等,给出改进建议(如…"
+          },
+          {
+            "title": "多智能体协作驱动的审计问题定性法规推荐系统.",
+            "year": 2026,
+            "journal": "徐超， 刘子硕， 周立云， 朱浩然… - Journal of Frontiers of …, 2026 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 基于多智能体(multiagent)结构的法规推荐系统,针对审计报告台… 最终目标的高质量实 现;AutoGen[12]则 专注于多个智能体之间… 通过多智能体协同的任务分解机制,实现了问题特 征解耦与多级…"
+          },
+          {
+            "title": "基于Agent 服务的ChatGPT 处理多方对话任务",
+            "year": 2025,
+            "journal": "万静 - Software Engineering and Applications, 2025 - hanspub.org",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… (Action),这些部分协同工作,使Agent能够完成复杂任务. Agent功能通常被设计为一个智能体,能够 自主… 因此,对提示设计进行进一步的优化和改进,不仅有可能释放LLMs更高的性能,还能充分释放…"
+          },
+          {
+            "title": "基于大模型的AI 通话分析智能体研究与实现",
+            "year": 2025,
+            "journal": "廖红虹， 赵文博， 黄莉梅， 许健君， 郭昊淞… - Computer Science and …, 2025 - hanspub.org",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… -powered voice call analysis agent based on compliant telecom … 它具备多智能体协同,长短时 记忆,知识检索与流程编排等能力,… ,客户画像及风险预警等多维度数据报告,助力企业管理层实现了…"
+          },
+          {
+            "title": "大语言模型GPT 在医疗文本中的应用综述.",
+            "year": 2025,
+            "journal": "田崇腾， 刘静， 王晓燕， 李明 - Journal of Frontiers of …, 2025 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 互 动,从用户反馈中不断改进自身的回答质量.在这种框 架下,… ,利用人类标注者的知识来 训练 智能Agent,以促进其快速收敛.与之… 同时,强化学习增强的CoT样本选择策略, 可以根据每个医疗报告…"
+          },
+          {
+            "title": "科技大数据知识图谱构建方法及应用研究综述",
+            "year": 2020,
+            "journal": "周园春， 王卫军， 乔子越， 肖濛， 杜一 - 中国科学: 信息科学, 2020 - researchgate.net",
+            "doi": "",
+            "citations": 10,
+            "abstract": "… 组成, 具有多来源和多类型的特征, 因此建 立一个多来源异构… 文献[53] 提出了一种基于Apriori 算法和PageRank 算法的改进的… 该方法建立了一个知识数据库, 通过协同 智能构建的Web 信息, …"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q07_method1_20260410_212804.md"
+      }
+    },
+    "Q08": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q08_method1_20260410_212945.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 12,
+      "top_papers_n": 8,
+      "pool_n": 0,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "evidence agent 对情报报告的证据覆盖率有何影响？",
+        "effective_search_query": "evidence agent 情报报告 证据覆盖率 影响",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 12,
+        "screened_count": 8,
+        "all_retrieved_ids": [
+          "title:证据与价值对决策的影响|2020",
+          "title:构建全球卫生政策与管理证据库, 助力循证决策与卫生治理可持续发展|2024",
+          "doi:10.11946/cjstp.202506080612艾莉莎，",
+          "title:一种微信公众号影响力的评估方法|2016",
+          "title:qing bao in organizational decision-making and evidence in evidence-based policy|2020",
+          "title:科技循证政策制定中的证据推荐方法研究与应用.|2025",
+          "title:the establishment of independent forensic agency in taiwan|2023",
+          "title:research and application of evidence recommendation methods in science and technology evidence-based policy making|2025",
+          "doi:10.3773/j.issn.1006-4885.2025.12.007.pdf王菌丽，",
+          "title:construction of a dynamic perception system for talent supply-demand matching matching: theoretical framework and implementation path.|2025",
+          "title:跨域“协同应急” 对安全生产治理绩效的影响机制|2026",
+          "title:… mechanism of cross-regional “cooperative response to accidents” policy on production safety governance performance: empirical evidence from the beijing …|2026"
+        ],
+        "top_papers": [
+          {
+            "title": "科技循证政策制定中的证据推荐方法研究与应用.",
+            "year": 2025,
+            "journal": "何莹， 孙巍， 李周晶， 马晓敏 - Journal of Library & …, 2025 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… (Evidence-Based Policy,EBP)的核心思想 是将最佳证据放置于… 的智能协调与高效执行,本研究 系统采用了Agent 架构(图9).该… 的国家影响 更为显著,直接呼应了政策在气候变化适应性上的核 …"
+          },
+          {
+            "title": "Research and Application of Evidence Recommendation Methods in Science and Technology Evidence-Based Policy Making",
+            "year": 2025,
+            "journal": "HE Ying, SUN Wei, Z LI… - Journal of Library and …, 2025 - search.proquest.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… (Evidence-Based Policy,EBP)的核心思想 是将最佳证据放置于… 的智能协调与高效执行,本研究 系统采用了 Agent 架构(图 9).该 … 的国家影响 更为显著,直接呼应了政策在气候变化适应性上的核 …"
+          },
+          {
+            "title": "Qing Bao in Organizational Decision-making and Evidence in Evidence-based Policy",
+            "year": 2020,
+            "journal": "Q MIAO - Scientific Information Research, 2020 - eng.kjqbyj.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 》中“情报”是作为一种军事用语出现:“军 中集种种报告并预见之机… 的企业情报工作如果 以竞争 情报来概括的话,是对影响商业竞争… 对于情报工作有很 大的启发;其次,因为本文所界定的情报与证据…"
+          },
+          {
+            "title": "Construction of a Dynamic Perception System for Talent Supply-Demand Matching Matching: Theoretical Framework and Implementation Path.",
+            "year": 2025,
+            "journal": "G YANG, Z ZHANG - … of Library & Information Science in …, 2025 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 对人才市场的净影响,揭示政策效果的作用路 径与边界条件.在… 的证据链条,强化了情报产品的可 信度与可解释性, 为情报支持… to obtain quantitative evidence and actionable plans for program …"
+          },
+          {
+            "title": "科技期刊数智化平台建设创新方案及实测效果探析——以《 北京邮电大学学报》 为例",
+            "year": 2025,
+            "journal": "艾莉莎， 孙宇彤， 靳海灵， 马逍悦， 钟羽， 李博识… - 中国科技期刊研究, 2025 - cjstp.cn",
+            "doi": "10.11946/cjstp.202506080612艾莉莎，",
+            "citations": 2,
+            "abstract": "… 化数字平 的国际化运营,知识服务与影响力建设仍存在明显 差距.这种… 2 创新方案:科研进度全 周期智能管控与多维 证据链构建 … 等[12] 研究表示,稿件分析Agent基于BERT与知识图谱技 术,可以…"
+          },
+          {
+            "title": "证据与价值对决策的影响",
+            "year": 2020,
+            "journal": "耿劲松， 鲍海妮， 余小兰 - 框架在知证决策中应用的方法学, 2020 - html.rhhz.net",
+            "doi": "",
+            "citations": 2,
+            "abstract": "… 目标技术的卫生技术评估报告 [3-4] ,提供卫生技术评估的证据概要;也可通过检索… 证据需求 ,怎样获取和评估证据,如何将证据应用于决策形成了知证决策的实践指南;又如“证据至决策”(evidence …"
+          },
+          {
+            "title": "数字化转型对企业数字风险管理的影响研究",
+            "year": 2026,
+            "journal": "王菌丽， 崔俊， 贾栗 - 科学决策, 2026 - qkkxjc.cn",
+            "doi": "10.3773/j.issn.1006-4885.2025.12.007.pdf王菌丽，",
+            "citations": 0,
+            "abstract": "… 意义:合作网络不仅提供更全面的风险情报来源,也为企 业在面对网络… 这为研究框架中的主效应 提供了初步经验证据.在模型2 中加入… 4.5 机制- 中介效应分析 表7 和图2 报告了综合中介与调节式…"
+          },
+          {
+            "title": "构建全球卫生政策与管理证据库, 助力循证决策与卫生治理可持续发展",
+            "year": 2024,
+            "journal": "田晨， 杨水华， 杨克虎， 葛龙 - 协和医学杂志, 2024 - xhyxzz.pumch.cn",
+            "doi": "",
+            "citations": 2,
+            "abstract": "… , system positioning, evidence scope, technical implementation and … 证据委员会发 布了题 为《为决策者, 证据中介和以影响力为导向 的证据生产者敲响警钟并指明前进道路》 的报告, 该报告…"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q08_method1_20260410_212945.md"
+      }
+    },
+    "Q09": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q09_method1_20260410_213139.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 12,
+      "top_papers_n": 8,
+      "pool_n": 4,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "多智能协同驱动的情报服务在文献检索相关性方面有哪些优化策略？",
+        "effective_search_query": "多智能协同 情报服务 文献检索 相关性 优化策略",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 12,
+        "screened_count": 8,
+        "all_retrieved_ids": [
+          "title:基于生成式人工智能的经济管理学科相关研究综述|2025",
+          "title:情报3.0 时代科技情报服务能力构建|2017",
+          "doi:10.11946/cjstp.202506080612艾莉莎，",
+          "title:基于aigc 的文献检索优化策略研究: 融合语义理解与知识图谱|2026",
+          "title:“双一流” 战略下面向用户需求的地方高校图书馆学科服务优化策略|2026",
+          "title:情报智能体——面向“十五五” 的科技情报工作新范式.|2024",
+          "title:面向“十五五” 的高校图书馆学科情报服务探析———以电子科技大学图书馆为例.|2025",
+          "doi:10.12189/j.issn.1672-8505.2026.01.004?viewtype=html董克，",
+          "title:智能体赋能企业竞争情报研究——价值, 挑战与实现路径|2026",
+          "doi:10.11991/cccf.202509006?viewtype=html杨博，",
+          "title:融合文献多元特征的学术搜索策略优化研究|2022",
+          "title:科技信息资源智能挖掘服务的探索与思考|2024"
+        ],
+        "top_papers": [
+          {
+            "title": "基于AIGC 的文献检索优化策略研究: 融合语义理解与知识图谱",
+            "year": 2026,
+            "journal": "艾莉莎， 卢漩泓， 蓝方 - api.artdesignp.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 北京邮电大学图书馆情报服务部,北京100876 DOI: 10.61369/… ,文献检索策略还需优化,要引入 更先进的技术,探索更智能的检索… 之间的多维度联系,包括语义上的相似性,知识体系中的相关性等,…"
+          },
+          {
+            "title": "情报智能体——面向“十五五” 的科技情报工作新范式.",
+            "year": 2024,
+            "journal": "刘细文， 付芸， 韦华楠 - … of Library & Information Science in …, 2024 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… ;情报智能体;科技情报工作;新范式;人与智能体协同 中图分类号:… 将遭受历史性的降 维打击[15],文献 情报工作亟待采纳智能体. 未来… 模式的形成和优化在很 大程度上会受到信息技术和情报技术…"
+          },
+          {
+            "title": "智能体赋能企业竞争情报研究——价值, 挑战与实现路径",
+            "year": 2026,
+            "journal": "邵晓璇 - Frontiers in Economics and Management, 2026 - fcipub.org",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 而智能体通过多智能体协同机制,可实现更全面的信息搜集维度… 智能体通过数据驱动与人机协同 的融合模式,可有效优化情报… 的关联关系,提炼出其最优策略,并模拟策略制定后的潜在风险和收益,…"
+          },
+          {
+            "title": "创新需求牵引的产业情报智能服务体系研究",
+            "year": 2026,
+            "journal": "董克， 陈丽芳， 吴佳纯 - 西华大学学报(哲学社会科学版), 2026 - aj.xhu.edu.cn",
+            "doi": "10.12189/j.issn.1672-8505.2026.01.004?viewType=HTML董克，",
+            "citations": 0,
+            "abstract": "… 化决 策的服务生态,优化创新链,产业链与服务链协同流程,提升… 方面,情报服务不仅需要提供科研 数据,文献与专利 的智能检索,更… 与产能配置策略等;二是市场情报,包括竞争对手定价与促销策略,…"
+          },
+          {
+            "title": "融合文献多元特征的学术搜索策略优化研究",
+            "year": 2022,
+            "journal": "梁柱， 汤斌， 沈思 - Information studies: Theory & Application, 2022",
+            "doi": "",
+            "citations": 0,
+            "abstract": ""
+          },
+          {
+            "title": "面向“十五五” 的高校图书馆学科情报服务探析———以电子科技大学图书馆为例.",
+            "year": 2025,
+            "journal": "邓启平， 柯佳秀， 秦鸿 - Journal of Academic Libraries, 2025 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 层次学科情报服务[2];江珊等则 认为是通过主题检索和文献分析… 和协同工作,准确理解用户需 求并画像;(3)学科领域知识,对服务… 等策略,为高校图书馆在“十五五”期间实 现学科情报服务的智能…"
+          },
+          {
+            "title": "科技信息资源智能挖掘服务的探索与思考",
+            "year": 2024,
+            "journal": "罗威， 田昌海， 毛彬， 吴叔義， 刘鹏年 - 信息资源管理学报, 2024",
+            "doi": "",
+            "citations": 0,
+            "abstract": ""
+          },
+          {
+            "title": "科技期刊数智化平台建设创新方案及实测效果探析——以《 北京邮电大学学报》 为例",
+            "year": 2025,
+            "journal": "艾莉莎， 孙宇彤， 靳海灵， 马逍悦， 钟羽， 李博识… - 中国科技期刊研究, 2025 - cjstp.cn",
+            "doi": "10.11946/cjstp.202506080612艾莉莎，",
+            "citations": 2,
+            "abstract": "… 例如,在审稿意见整合或文献计量分析环节, 系统可自动生成包含… 与学科交叉性;专家 匹配Agent通过 动态画像系统(领域相关性,审… 主体 博弈在审稿人选择,编辑派单等场景中催生全局最 优策略.…"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q09_method1_20260410_213139.md"
+      }
+    },
+    "Q11": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q11_method1_20260410_213436.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 12,
+      "top_papers_n": 8,
+      "pool_n": 2,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "多源文献检索在情报服务中的常见噪声类型是什么？",
+        "effective_search_query": "多源文献检索 情报服务 噪声类型",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 12,
+        "screened_count": 8,
+        "all_retrieved_ids": [
+          "title:面向情报流程的情报方法体系构建|2016",
+          "title:文献集规模对科技领域情报分析的影响: 多种任务场景下的实证分析|2021",
+          "title:开源情报对国家情报工作制度创新的影响: 基于系统性文献综述视角|2021",
+          "title:基于citespace 的多源数据融合研究进展.|2024",
+          "title:智能情报融合综述: 对抗视角下的开源情报融合分析.|2024",
+          "title:复杂信息环境下科技情报技术基础的体系建设研究|2024",
+          "title:科技情报工作中的文献资源风险问题研究|2026",
+          "title:多源数据融合下医护科研人员科研能力提升策略研究|2024",
+          "title:智能化多源多维大数据融合设计在卫生应急中的应用|2024",
+          "title:情报智能体——面向“十五五” 的科技情报工作新范式.|2024",
+          "title:战场多源情报信息仿真评估系统的设计与实现.|2016",
+          "title:近10 年国内索引方法与技术研究的文献计量分析|2016"
+        ],
+        "top_papers": [
+          {
+            "title": "智能情报融合综述: 对抗视角下的开源情报融合分析.",
+            "year": 2024,
+            "journal": "袁唯淋， 赵卫伟， 胡振震， 曹巍， 何俊… - Chinese Journal of …, 2024 - search.ebscohost.com",
+            "doi": "",
+            "citations": 1,
+            "abstract": "… 文献[2]综述了情报信息检索 方法发展现状,概括了Web信息检索,… 并且,不同源,不同类型的 数据 往往结构差异较大,粗精不一,语义… 框架的“容忍性”来减少数据集中噪声带来 的影响,并设计了一种…"
+          },
+          {
+            "title": "基于CiteSpace 的多源数据融合研究进展.",
+            "year": 2024,
+            "journal": "何静， 冯元柳， 邵靖雯 - Journal of Guangxi Normal …, 2024 - search.ebscohost.com",
+            "doi": "",
+            "citations": 1,
+            "abstract": "… 对近30 年的文献资料进行系统性回顾,展 开多源数据融合的研究… 本次研究选取中国学术期刊 网络出版总库CNKI 和美国科学情报… 整合多源观测算法研究或将专注于解决数据间的不一致性,噪声…"
+          },
+          {
+            "title": "情报智能体——面向“十五五” 的科技情报工作新范式.",
+            "year": 2024,
+            "journal": "刘细文， 付芸， 韦华楠 - … of Library & Information Science in …, 2024 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 科学院文献情报工作的阶段特征,剖析 变革驱动要素,揭示科技情报… 和参考咨询服务上,建立了 一个全面覆盖多学 科,多类型,多语言的… 通过提升特征提取,噪声处理,数据审 核和语义对齐技术,构建…"
+          },
+          {
+            "title": "智能化多源多维大数据融合设计在卫生应急中的应用",
+            "year": 2024,
+            "journal": "李少琼， 金丽珠， 杜雪杰， 郭青 - 医学信息学杂志, 2024 - yxxxx.ac.cn",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… [文献标识码]A … 统一元数据描 述框架,将不同类型数据的多样化元数据模式重新 标识转换为该 元数据模型.三是数据标准化,数据 清理,填补空缺值,处理错误数据,消除噪声数 据,去除孤立点等有效…"
+          },
+          {
+            "title": "科技情报工作中的文献资源风险问题研究",
+            "year": 2026,
+            "journal": "Z Yunliang - itginsight.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 的专业检索功能模块下,不 限定论文年代,仅限定文献类型为期刊… 数据库的具体检索词,但是并未 作 为分析源而是作为分析对象等… 专利文献的情报分析方面,采用德温特专利数据库的 工作较多, …"
+          },
+          {
+            "title": "文献集规模对科技领域情报分析的影响: 多种任务场景下的实证分析",
+            "year": 2021,
+            "journal": "陈果， 王盼停， 王曰芬 - 情报学报, 2021",
+            "doi": "",
+            "citations": 2,
+            "abstract": ""
+          },
+          {
+            "title": "复杂信息环境下科技情报技术基础的体系建设研究",
+            "year": 2024,
+            "journal": "唐星龙， 张昱， 曾文 - 情报学报, 2024",
+            "doi": "",
+            "citations": 1,
+            "abstract": ""
+          },
+          {
+            "title": "面向情报流程的情报方法体系构建",
+            "year": 2016,
+            "journal": "化柏林， 李广建 - 情报学报, 2016",
+            "doi": "",
+            "citations": 19,
+            "abstract": ""
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q11_method1_20260410_213436.md"
+      }
+    },
+    "Q12": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q12_method1_20260410_213617.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 1,
+      "top_papers_n": 1,
+      "pool_n": 0,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "Google Scholar、OpenAlex、CrossRef、Scopus 在智慧情报服务中各自适合承担什么角色？",
+        "effective_search_query": "Google Scholar OpenAlex CrossRef Scopus 智慧情报服务 角色",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 1,
+        "screened_count": 1,
+        "all_retrieved_ids": [
+          "title:基于citespace 的移动政务服务研究热点与主题演化|2023"
+        ],
+        "top_papers": [
+          {
+            "title": "基于CiteSpace 的移动政务服务研究热点与主题演化",
+            "year": 2023,
+            "journal": "吴私 - Operations Research and Fuzziology, 2023 - hanspub.org",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 聚类5为citizen relationship management (公民关系管理),其时间跨度为2010~2023年,表明 公民关系管理在移动政务服务中一直扮演着重要的角色,公民对政府的信任被广泛认为是促进民主…"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q12_method1_20260410_213617.md"
+      }
+    },
+    "Q13": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q13_method1_20260410_213724.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 12,
+      "top_papers_n": 8,
+      "pool_n": 1,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "全文证据相较于摘要级证据，在智慧情报服务中带来哪些质量提升？",
+        "effective_search_query": "全文证据 摘要级证据 智慧情报服务 质量提升",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 12,
+        "screened_count": 8,
+        "all_retrieved_ids": [
+          "title:大数据环境下情报学发展的十个特征|2021",
+          "doi:10.11946/cjstp.202007060640刘冰",
+          "title:机构知识库: 图书馆的服务创新平台|2017",
+          "title:生成式人工智能辅助学科情报服务途径探析———以利用chatgpt 生成学科领域论文分析报告为例.|2025",
+          "title:数据驱动的图书馆学情报学|2020",
+          "title:大情报观重述: 方法演进视角下的成因探析|2021",
+          "title:复杂信息环境下科技情报技术基础的体系建设研究|2024",
+          "title:情报智能体——面向“十五五” 的科技情报工作新范式.|2024",
+          "title:科技情报工作中的文献资源风险问题研究|2026",
+          "title:从â€ œ 文献检索â€ 到â€ œ 事实检索â€: 档案检索技术范式迁移的机理, 路径与规律.|2025",
+          "title:开源创新的现状, 热点及趋势分析——基于2005—2024 年知网文献的计量研究|2025",
+          "title:2013-2015 年《 中国中医药图书情报杂志》 发文评述|2016"
+        ],
+        "top_papers": [
+          {
+            "title": "大数据环境下情报学发展的十个特征",
+            "year": 2021,
+            "journal": "罗立群， 李广建 - 图书与情报, 2021 - tsyqb.gslib.com.cn",
+            "doi": "",
+            "citations": 4,
+            "abstract": "… 通过对800 万篇全文文章和 4800 万条元数据进行分析! 验证了… 联邦调查局,中央情报局,司法部 ,美国军 队等与州级,地方政府之间… 指在情报领域利用群体智慧效 应获得相对最优的情报问题解决…"
+          },
+          {
+            "title": "大情报观重述: 方法演进视角下的成因探析",
+            "year": 2021,
+            "journal": "李博闻， 章成志 - 情报学报, 2021 - researchgate.net",
+            "doi": "",
+            "citations": 1,
+            "abstract": "… 实践创新计划“基于 学术论文全文的情报学研究方法体系自动构建… 文中声称使用了一个研究方法 A,但缺乏过程证据,结果也不可信 … 时代背景,情报学群体的实践经验与集体智慧 结晶是实践基础.…"
+          },
+          {
+            "title": "生成式人工智能辅助学科情报服务途径探析———以利用ChatGPT 生成学科领域论文分析报告为例.",
+            "year": 2025,
+            "journal": "江珊， 常定姁， 张开阳， 龚芙蓉… - Journal of Academic …, 2025 - search.ebscohost.com",
+            "doi": "",
+            "citations": 2,
+            "abstract": "… 智慧图书 馆框架构建[16-17],提升服务效率和质量,提供个性 化… 的学科情报服务旨在推动教学科 研,促进学科发展,因此校内各级… 了揭 示深度,达到真正意义上的摘要及全文层面揭示. 在这一环节,…"
+          },
+          {
+            "title": "情报智能体——面向“十五五” 的科技情报工作新范式.",
+            "year": 2024,
+            "journal": "刘细文， 付芸， 韦华楠 - … of Library & Information Science in …, 2024 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 摘要:[目的/意义]科技情报工作的每次变革与发展均围绕先进… ,逐渐建立国家, 省,市级的体系化的 科技情报机构,主要工作目标是 获取… 的核心能力,既包含传统的印本 馆藏,书目数据库和全文数据库…"
+          },
+          {
+            "title": "科技情报工作中的文献资源风险问题研究",
+            "year": 2026,
+            "journal": "Z Yunliang - itginsight.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 随着情报工作需 求多样化,对响应时间要求及时化和对证据链条… 中并没有做情报分析工作,还存在 题名/ 关键词/ 摘要 中出现体现该… 的情报分析方面,采用德温特专利数据库的 工作较多, 基于智慧…"
+          },
+          {
+            "title": "从â€ œ 文献检索â€ 到â€ œ 事实检索â€: 档案检索技术范式迁移的机理, 路径与规律.",
+            "year": 2025,
+            "journal": "赵生辉， 余亚荣， 陈燕 - Archives Science Bulletin, 2025 - search.ebscohost.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… ,我国各 级各类档案机构所能提供的档案检索服务主要是基于 … 存址和出处信息;文本检索是检索 档案全文 信息.1999年,冯惠玲 … 证据属性,档案事实数据的衍生证据属 性和档案管理机构的专业化…"
+          },
+          {
+            "title": "各类平台新型冠状病毒肺炎专题信息服务特点及对我国科技期刊的启示",
+            "year": 2020,
+            "journal": "刘冰 - 中国科技期刊研究, 2020 - cjstp.cn",
+            "doi": "10.11946/cjstp.202007060640刘冰",
+            "citations": 3,
+            "abstract": "… ,激发读者阅读兴趣,重量级研究性论著(多 为证据级别较高的随机… 平台应急开展 服务未能获得 文章全文的使用授权和下载服务,这 … 加强知 识服务能力,提升基于资源管理的智慧化知识服务. 从…"
+          },
+          {
+            "title": "数据驱动的图书馆学情报学",
+            "year": 2020,
+            "journal": "王世伟 - 情报资料工作, 2020 - qbzl.ruc.edu.cn",
+            "doi": "",
+            "citations": 2,
+            "abstract": "… 馆学情报学》的转载 数据统计显示,2019年全年12期共全文转载… 区块链技术在智慧 图书馆中的 应用研究》(《现代情报》),葛燕君的… 疆文献资料整理中的知识发现与维权证据链建 构研究》,邱均平和…"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q13_method1_20260410_213724.md"
+      }
+    },
+    "Q14": {
+      "file": "D:\\文献\\研究情报助手\\data\\method1_outputs\\Q14_method1_20260410_213920.md",
+      "sidecar_keys": [
+        "baseline",
+        "query",
+        "effective_search_query",
+        "provider",
+        "model",
+        "retrieved_count",
+        "screened_count",
+        "all_retrieved_ids",
+        "top_papers",
+        "output_markdown"
+      ],
+      "retrieved_count": 4,
+      "top_papers_n": 4,
+      "pool_n": 0,
+      "sidecar": {
+        "baseline": "method1_pipeline",
+        "query": "如果只能获取部分全文，智慧情报服务应如何进行风险提示与结论降级？",
+        "effective_search_query": "智慧情报服务 风险提示 结论降级 部分全文获取",
+        "provider": "deepseek",
+        "model": "",
+        "retrieved_count": 4,
+        "screened_count": 4,
+        "all_retrieved_ids": [
+          "doi:10.13872/j.1000-0275.2024.0004罗孳孳，",
+          "title:人机融合智能决策: 概念, 框架与应用|2025",
+          "title:我在山東當院長: 一位中國大學小官的自白|2024",
+          "title:contacts behind the hostilities: dialogues and negotiations with veiled emissaries between two sides of taiwan strait (1988-2000)|2024"
+        ],
+        "top_papers": [
+          {
+            "title": "人机融合智能决策: 概念, 框架与应用",
+            "year": 2025,
+            "journal": "李哲， 王可， 王彪， 赵梓棋， 李亚飞， 郭毅博… - 电子与信息 …, 2025 - lib.zjsru.edu.cn",
+            "doi": "",
+            "citations": 2,
+            "abstract": "… 人机融合智 能强调人类智慧和机器智能的协同共融,将人类在 … 当前面临的核心挑战与未来发展 方向, 并对全文工作进行总结. … 态势感知层聚焦于多源环境信息的获取与处 理.首先,多模态数据…"
+          },
+          {
+            "title": "气象大数据应用场景与气象服务技术预见研究——面向重庆农业领域",
+            "year": 2026,
+            "journal": "罗孳孳， 唐云辉， 武强， 阳园燕， 赵雨佳， 张逸轩… - 农业现代化 …, 2026 - nyxdhyj.isa.ac.cn",
+            "doi": "10.13872/j.1000-0275.2024.0004罗孳孳，",
+            "citations": 3,
+            "abstract": "… 此外, 分析结果表明,“政,产,学,研合作不够”,“数据资源获取和共享不… 和智慧服务过程中,数据采集 ,加工 处理,预报预测,共享服务等… ,FT 表示检索全文,式意为检索CNKI 中主题和全文包含式中对应…"
+          },
+          {
+            "title": "我在山東當院長: 一位中國大學小官的自白",
+            "year": 2024,
+            "journal": "貝淡寧 - 2024 - books.google.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 責任,但就那些進展順利的事情,大部分應 該歸功於沛的非正式建議.我… 最 美好的人生是靠智慧 和仁去服務政治群體.而實踐這種人生的… 9 現在下結論還為時過早.我能夠預測 的是,即使最終出現像…"
+          },
+          {
+            "title": "Contacts Behind the Hostilities: Dialogues and Negotiations With Veiled Emissaries Between Two Sides of Taiwan Strait (1988-2000)",
+            "year": 2024,
+            "journal": "PM Tan - 2024 - search.proquest.com",
+            "doi": "",
+            "citations": 0,
+            "abstract": "… 大部分的兩岸問題,由此而生. 本研究關注,溝通,是讓臺灣與中國大陸兩造,從政治光譜兩端逐漸… 兩岸秘密渠道, 是敵對的海峽兩岸政治實體,故意完全/部分隱瞞[國內]和國際的行為者,並藉由最 高…"
+          }
+        ],
+        "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\method1_outputs\\Q14_method1_20260410_213920.md"
+      }
+    }
+  }
+}

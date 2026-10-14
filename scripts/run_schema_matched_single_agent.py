@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import sys
 import threading
 import time
@@ -155,8 +156,6 @@ def _run_one(
 
 
 def main() -> None:
-    from modules.searcher import _load_saved_search_config
-
     parser = argparse.ArgumentParser(
         description=(
             "Run the reviewer-requested schema-matched single-agent baseline over "
@@ -165,6 +164,14 @@ def main() -> None:
     )
     parser.add_argument("--provider", default="deepseek")
     parser.add_argument("--model", default="deepseek-chat")
+    parser.add_argument(
+        "--api-key-env",
+        default="",
+        help=(
+            "Environment variable containing the provider API key. Defaults to "
+            "<PROVIDER>_API_KEY (for example, DEEPSEEK_API_KEY)."
+        ),
+    )
     parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR))
     parser.add_argument("--query-id", default="")
     parser.add_argument("--start", type=int, default=1)
@@ -185,10 +192,13 @@ def main() -> None:
             continue
         selected.append((qid, path))
 
-    config = _load_saved_search_config()
-    provider_key = config.get(f"{args.provider}_api_key", "") or ""
+    key_env = args.api_key_env or f"{args.provider.upper()}_API_KEY"
+    provider_key = os.environ.get(key_env, "")
     if not provider_key:
-        raise SystemExit(f"Missing API key for provider={args.provider}")
+        raise SystemExit(
+            f"Missing API key: set environment variable {key_env} or pass "
+            "--api-key-env NAME. No credential is stored by this script."
+        )
 
     manifest = {
         "started_at": datetime.now().isoformat(),

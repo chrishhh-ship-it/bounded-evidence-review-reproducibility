@@ -1,0 +1,27 @@
+{
+  "qid": "EN21",
+  "condition": "m1_vanilla",
+  "query": "What are the current limitations of optical character recognition for historical documents and how do they affect downstream analysis?",
+  "domain": "Digital Humanities",
+  "category": "ocr",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 1,
+  "eq_titles": [
+    "Wikipedia: What are the current limitations of opti"
+  ],
+  "top_papers": [
+    {
+      "title": "Wikipedia: What are the current limitations of opti",
+      "abstract": ""
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Wikipedia:_What_are_the_current_limitations_of_opti"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN21_m1_vanilla_wiki_20260424_185637.md"
+}

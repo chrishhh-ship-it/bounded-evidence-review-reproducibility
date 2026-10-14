@@ -1,0 +1,48 @@
+{
+  "qid": "EN49",
+  "condition": "m2b_cdma_arl",
+  "query": "How does the risk of stranded fossil fuel assets affect national climate policy ambition and financial sector stability?",
+  "domain": "Climate Policy Research",
+  "category": "stranded_assets",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 3,
+  "eq_titles": [
+    "Climate change mitigation",
+    "Sustainable finance",
+    "Open energy system models"
+  ],
+  "top_papers": [
+    {
+      "title": "Climate change mitigation",
+      "abstract": "Climate change mitigation, also called climate change decarbonisation, is an action to limit the greenhouse gases in the atmosphere that cause climate change. Climate change mitigation actions include conserving energy and replacing fossil fuels with clean energy sources. Secondary mitigation strategies include changes to land use and removing carbon dioxide (CO2) from the atmosphere. 2022 assessments emphasize that global greenhouse gas emissions must peak before 2025 and decline by about 43% b"
+    },
+    {
+      "title": "Sustainable finance",
+      "abstract": "Sustainable finance is the set of practices, standards, norms, regulations and products that pursue financial returns alongside environmental and/or social objectives. It is sometimes used interchangeably with Environmental, Social & Governance (ESG) investing. It is important to distinguish between ESG integration for better risk-adjusted returns and a broader field of sustainable finance that also includes impact investing, social finance and ethical investing. \nA key idea is that sustainable "
+    },
+    {
+      "title": "Open energy system models",
+      "abstract": "Open energy-system models are energy-system models that are open source. However, some of them may use third-party proprietary software as part of their workflows to input, process, or output data. Preferably, these models use open data, which facilitates open science.\nEnergy-system models are used to explore future energy systems and are often applied to questions involving energy and climate policy."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Climate_change_mitigation",
+    "wiki:Sustainable_finance",
+    "wiki:Open_energy_system_models"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN49_m2b_cdma_arl_wiki_20260424_193437.md"
+}

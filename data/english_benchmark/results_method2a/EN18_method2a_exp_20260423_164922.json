@@ -1,0 +1,195 @@
+{
+  "query_id": "EN18",
+  "query": "How can knowledge graphs represent historical relationships and support digital humanities research workflows?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Digital Humanities and Colonial Literature: Examining Language Representation in Online Historical Archives of Texts",
+      "authors": [
+        "Polce Aryanto Bessie",
+        "Winarti Winarti",
+        "Welsi Damayanti"
+      ],
+      "abstract": "This study investigates the representation of colonial and local languages in digital archives, with a focus on the dominance of colonial languages in historical text collections. Digital archives have become essential for preserving both colonial and indigenous texts, but this preservation often reflects historical imbalances, particularly in language representation. The main objective of this research is to analyze the prevalence of colonial versus local languages in digital historical texts and assess how this affects the representation of history and culture. Using text mining techniques, this study analyzes digital archives, including colonial government documents, local community writings, and online repositories. The analysis reveals that colonial language remains dominant, with a significantly higher frequency of colonial texts compared to local ones. This dominance highlights the enduring legacy of colonial power structures in shaping historical narratives. The findings suggest that digital archives often perpetuate historical biases by underrepresenting indigenous languages and knowledge. The study calls for the adoption of more inclusive, multilingual approaches in digital humanities, emphasizing the need to decolonize archival practices. By integrating indigenous perspectives and ensuring equitable language representation, digital archives can contribute to a more balanced and accurate portrayal of history. The research also underscores the importance of involving indigenous communities in archival processes to protect and promote their cultural heritage.",
+      "year": "2025",
+      "published_date": "2025-6-30",
+      "journal": "The Global Language and Literature Review",
+      "url": "https://doi.org/10.70062/gllr.v1i2.248",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.70062/gllr.v1i2.248",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis literature review"
+    },
+    {
+      "title": "Value Identification in Multistakeholder Recommender Systems for Humanities and Historical Research: The Case of the Digital Archive Monasterium.net",
+      "authors": [
+        "Florian Atzenhofer-Baumgartner",
+        "Bernhard C. Geiger",
+        "Georg Vogeler",
+        "Dominik Kowald"
+      ],
+      "abstract": "Recommender systems remain underutilized in humanities and historical research, despite their potential to enhance the discovery of cultural records. This paper offers an initial value identification of the multiple stakeholders that might be impacted by recommendations in Monasterium.net, a digital archive for historical legal documents. Specifically, we discuss the diverse values and objectives of its stakeholders, such as editors, aggregators, platform owners, researchers, publishers, and funding agencies. These in-depth insights into the potentially conflicting values of stakeholder groups allow designing and adapting recommender systems to enhance their usefulness for humanities and historical research. Additionally, our findings will support deeper engagement with additional stakeholders to refine value models and evaluation metrics for recommender systems in the given domains. Our conclusions are embedded in and applicable to other digital archives and a broader cultural heritage context.",
+      "year": "2024",
+      "published_date": "2024-09-26",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2409.17769v1",
+      "arxiv_id": "2409.17769v1",
+      "keywords": [
+        "cs.IR",
+        "cs.DL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis benchmark"
+    },
+    {
+      "id": "gs_1b0b816699",
+      "title": "From chatgpt, dall-e 3 to sora: How has generative ai changed digital humanities research and services?",
+      "abstract": "and challenges of large-scale language models from the research fields and computational  and digital humanities application scenarios. 2 Review of large language models",
+      "authors": [
+        "J Liu",
+        "Z Wang",
+        "J Xie",
+        "L Pei"
+      ],
+      "year": 2024,
+      "journal": "arXiv preprint arXiv:2404.18518",
+      "citations": 10,
+      "url": "https://arxiv.org/abs/2404.18518",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "title": "Digital Humanities in the Age of AI: Transforming Human Expression and Global Knowledge Sharing",
+      "authors": [
+        "Dr Priti Prasad Kapadni"
+      ],
+      "abstract": "In the 21st century, the integration of Artificial Intelligence (AI) into the digital \nhumanities has redefined how knowledge is created, preserved, interpreted, and \ndisseminated. This research explores how AI technologies are transforming human \nexpression through digital art, literature, language processing, and global \ncollaboration. The study evaluates the impact of AI tools such as machine learning, \nnatural language processing, and generative models in enhancing research, digital \narchives, translation, and knowledge sharing. By analyzing data from academic \ninstitutions, AI platforms, and user feedback, this paper highlights key trends, \nbenefits, and challenges in this digital revolution. Through case studies and survey\nbased analysis, it offers insights into how AI can enrich humanistic inquiry and \ndemocratize access to global cultural resources.",
+      "year": "2025",
+      "published_date": "2025-01-01",
+      "journal": "International Journal of Global Humanities and Management Insights",
+      "url": "https://www.semanticscholar.org/paper/1c5e3995e7f2c583e915e87a5802ff52446d9c43",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.63665/ijghmi.v01i01.02",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "A multimodal turn in Digital Humanities. Using contrastive machine learning models to explore, enrich, and analyze digital visual historical collections",
+      "authors": [
+        "T. Smits",
+        "Melvin Wevers"
+      ],
+      "abstract": "\n Until recently, most research in the Digital Humanities (DH) was monomodal, meaning that the object of analysis was either textual or visual. Seeking to integrate multimodality theory into the DH, this article demonstrates that recently developed multimodal deep learning models, such as Contrastive Language Image Pre-training (CLIP), offer new possibilities to explore and analyze image–text combinations at scale. These models, which are trained on image and text pairs, can be applied to a wide range of text-to-image, image-to-image, and image-to-text prediction tasks. Moreover, multimodal models show high accuracy in zero-shot classification, i.e. predicting unseen categories across heterogeneous datasets. Based on three exploratory case studies, we argue that this zero-shot capability opens up the way for a multimodal turn in DH research. Moreover, multimodal models allow scholars to move past the artificial separation of text and images that was dominant in the field and analyze multimodal meaning at scale. However, we also need to be aware of the specific (historical) bias of multimodal deep learning that stems from biases in the training data used to train these models.",
+      "year": "2023",
+      "published_date": "2023-03-15",
+      "journal": "Digital Scholarship in the Humanities",
+      "url": "https://www.semanticscholar.org/paper/bdd65d7bbe6ec3f04b17ea1311e4c64b1c62e63d",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 38,
+      "source": "Semantic Scholar",
+      "doi": "10.1093/llc/fqad008",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    },
+    {
+      "title": "Conceptualization and Non-Relational Implementation of Ontological and Epistemic Vagueness of Information in Digital Humanities",
+      "authors": [
+        "Patricia Martín-Rodilla",
+        "César González-Pérez"
+      ],
+      "abstract": "Research in the digital humanities often involves vague information, either because our objects of study lack clearly defined boundaries, or because our knowledge about them is incomplete or hypothetical, which is especially true in disciplines about our past (such as history, archaeology, and classical studies). Most techniques used to represent data vagueness emerged from natural sciences, and lack the expressiveness that would be ideal for humanistic contexts. Building on previous work, we present here a conceptual framework based on the ConML modelling language for the expression of information vagueness in digital humanities. In addition, we propose an implementation on non-relational data stores, which are becoming popular within the digital humanities. Having clear implementation guidelines allow us to employ search engines or big data systems (commonly implemented using non-relational approaches) to handle the vague aspects of information. The proposed implementation guidelines have been validated in practice, and show how we can query a vagueness-aware system without a large penalty in analytical and processing power.",
+      "year": "2019",
+      "published_date": "2019-05-06",
+      "journal": "Informatics",
+      "url": "https://doi.org/10.3390/informatics6020020",
+      "arxiv_id": "",
+      "keywords": [
+        "Vagueness",
+        "Conceptualization",
+        "Computer science",
+        "Digital humanities",
+        "Data science",
+        "Epistemology",
+        "Artificial intelligence",
+        "Fuzzy logic"
+      ],
+      "citations": 21,
+      "source": "OpenAlex",
+      "doi": "10.3390/informatics6020020",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "title": "Development and evaluation of an automatic text annotation system for supporting digital humanities research",
+      "authors": [
+        "Chih-Ming Chen",
+        "Yung-Ting Chen",
+        "Chen-Yu Liu"
+      ],
+      "abstract": "\nPurpose\nAn automatic text annotation system (ATAS) that can collect resources from different databases through Linked Data (LD) for automatically annotating ancient texts was developed in this study to support digital humanities research. It allows the humanists referring to resources from diverse databases when interpreting ancient texts as well as provides a friendly text annotation reader for humanists interpreting ancient text through reading. The paper aims to discuss whether the ATAS is helpful to support digital humanities research or not.\n\n\nDesign/methodology/approach\nBased on the quasi-experimental design, the ATAS developed in this study and MARKUS semi-ATAS were compared whether the significant differences in the reading effectiveness and technology acceptance for supporting humanists interpreting ancient text of the Ming dynasty’s collections existed or not. Additionally, lag sequential analysis was also used to analyze users’ operation behaviors on the ATAS. A semi-structured in-depth interview was also applied to understand users’ opinions and perception of using the ATAS to interpret ancient texts through reading.\n\n\nFindings\nThe experimental results reveal that the ATAS has higher reading effectiveness than MARKUS semi-ATAS, but not reaching the statistically significant difference. The technology acceptance of the ATAS is significantly higher than that of MARKUS semi-ATAS. Particularly, the function comparison of the two systems shows that the ATAS presents more perceived ease of use on the functions of term search, connection to source websites and adding annotation than MARKUS semi-ATAS. Furthermore, the reading interface of ATAS is simple and understandable and is more suitable for reading than MARKUS semi-ATAS. Among all the considered LD sources, Moedict, which is an online Chinese dictionary, was confirmed as the most helpful one.\n\n\nResearch limitations/implications\nThis study adopted Jieba Chinese parser to perform the word segmentation process based on a parser lexicon for the Chinese ancient texts of the Ming dynasty’s collections. The accuracy of word segmentation to a lexicon-based Chinese parser is limited due to ignoring the grammar and semantics of ancient texts. Moreover, the original parser lexicon used in Jieba Chinese parser only contains the modern words. This will reduce the accuracy of word segmentation for Chinese ancient texts. The two limitations that affect Jieba Chinese parser to correctly perform the word segmentation process for Chinese ancient texts will significantly affect the effectiveness of using ATAS to support digital humanities research. This study thus proposed a practicable scheme by adding new terms into the parser lexicon based on humanists’ self-judgment to improve the accuracy of word segmentation of Jieba Chinese parser.\n\n\nPractical implications\nAlthough some digital humanities platforms have been successfully developed to support digital humanities research for humanists, most of them have still not provided a friendly digital reading environment to support humanists on interpreting texts. For this reason, this study developed an ATAS that can automatically retrieve LD sources from different databases on the Internet to supply rich annotation information on reading texts to help humanists interpret texts. This study brings digital humanities research to a new ground.\n\n\nOriginality/value\nThis study proposed a novel ATAS that can automatically annotate useful information on an ancient text to increase the readability of the ancient text based on LD sources from different databases, thus helping humanists obtain a deeper and broader understanding in the ancient text. Currently, there is no this kind of tool developed for humanists to support digital humanities research.\n",
+      "year": "2019",
+      "published_date": "2019-09-16",
+      "journal": "Library hi tech",
+      "url": "https://www.semanticscholar.org/paper/b95989deca9ce4043f34a024c59082bc0c68fcac",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 13,
+      "source": "Semantic Scholar",
+      "doi": "10.1108/LHT-10-2017-0219",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    },
+    {
+      "title": "Digital Transformation in the Humanities: Opportunities, Practices, and Research Directions",
+      "authors": [
+        "S. Jaiswal",
+        "Dr. Ranjana Tiwari"
+      ],
+      "abstract": "Digital transformation has significantly influenced the way humanities disciplines conduct research, deliver education, preserve cultural resources, and engage with society. This paper examines how digital tools and methods are reshaping humanities practices beyond simple technological adoption. Using a mixed-method approach, the study reviews three representative project models: a digital archival initiative, a computational text analysis project, and a community-oriented digital public humanities program. The findings show that meaningful digital transformation depends mainly on institutional support, skill development, ethical awareness, and sustainable project planning rather than on technology alone. The paper concludes by proposing practical recommendations, policy considerations, and evaluation measures to support effective digital transformation in the humanities.",
+      "year": "2026",
+      "published_date": "2026-03-14",
+      "journal": "International Journal of Research &amp; Technology",
+      "url": "https://www.semanticscholar.org/paper/a17b3d36044121d085035819d50c0771c0bba4b7",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.64882/ijrt.v14.is1.1112",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis benchmark"
+    }
+  ],
+  "timestamp": "20260423_164922"
+}

@@ -1,0 +1,206 @@
+{
+  "query_id": "EN34",
+  "query": "How does retrieval-augmented generation compare to fine-tuned biomedical language models for evidence-based question answering?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "EvidenceMap: Learning Evidence Analysis to Unleash the Power of Small Language Models for Biomedical Question Answering",
+      "authors": [
+        "Chang Zong",
+        "Jian Wan",
+        "Siliang Tang",
+        "Lei Zhang"
+      ],
+      "abstract": "When addressing professional questions in the biomedical domain, humans typically acquire multiple pieces of information as evidence and engage in multifaceted analysis to provide high-quality answers. Current LLM-based question answering methods lack a detailed definition and learning process for evidence analysis, leading to the risk of error propagation and hallucinations while using evidence. Although increasing the parameter size of LLMs can alleviate these issues, it also presents challenges in training and deployment with limited resources. In this study, we propose EvidenceMap, which aims to enable a tiny pre-trained language model to explicitly learn multiple aspects of biomedical evidence, including supportive evaluation, logical correlation and content summarization, thereby latently guiding a small generative model (around 3B parameters) to provide textual responses. Experimental results demonstrate that our method, learning evidence analysis by fine-tuning a model with only 66M parameters, exceeds the RAG method with an 8B LLM by 19.9% and 5.7% in reference-based quality and accuracy, respectively.",
+      "year": "2025",
+      "published_date": "2025-01-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2501.12746v4",
+      "arxiv_id": "2501.12746v4",
+      "keywords": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models"
+    },
+    {
+      "title": "Optimizing Medical Question-Answering Systems: A Comparative Study of Fine-Tuned and Zero-Shot Large Language Models with RAG Framework",
+      "authors": [
+        "Tasnimul Hassan",
+        "Md. Karim",
+        "Haziq Jeelani",
+        "Elham Behnam",
+        "R. Green",
+        "F. Syed"
+      ],
+      "abstract": "Medical question-answering (QA) systems can benefit from advances in large language models (LLMs), but directly applying LLMs to the clinical domain poses challenges such as maintaining factual accuracy and avoiding hallucinations. In this paper, we present a retrieval-augmented generation (RAG) based medical QA system that combines domain-specific knowledge retrieval with open-source LLMs to answer medical questions. We fine-tune two state-of-the-art open LLMs (LLaMA~2 and Falcon) using Low-Rank Adaptation (LoRA) for efficient domain specialization. The system retrieves relevant medical literature to ground the LLM's answers, thereby improving factual correctness and reducing hallucinations. We evaluate the approach on benchmark datasets (PubMedQA and MedMCQA) and show that retrieval augmentation yields measurable improvements in answer accuracy compared to using LLMs alone. Our fine-tuned LLaMA~2 model achieves 71.8% accuracy on PubMedQA, substantially improving over the 55.4% zero-shot baseline, while maintaining transparency by providing source references. We also detail the system design and fine-tuning methodology, demonstrating that grounding answers in retrieved evidence reduces unsupported content by approximately 60%. These results highlight the potential of RAG-augmented open-source LLMs for reliable biomedical QA, pointing toward practical clinical informatics applications.",
+      "year": "2025",
+      "published_date": "2025-12-05",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/bfb5193d704e4171ada2a64e4579fe39f2fae88b",
+      "arxiv_id": "2512.05863",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2512.05863",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "title": "Evaluating Large Language Models for Evidence-Based Clinical Question Answering",
+      "authors": [
+        "Can Wang",
+        "Yiqun Chen"
+      ],
+      "abstract": "Large Language Models (LLMs) have demonstrated substantial progress in biomedical and clinical applications, motivating rigorous evaluation of their ability to answer nuanced, evidence-based questions. We curate a multi-source benchmark drawing from Cochrane systematic reviews and clinical guidelines, including structured recommendations from the American Heart Association and narrative guidance used by insurers. Using GPT-4o-mini and GPT-5, we observe consistent performance patterns across sources and clinical domains: accuracy is highest on structured guideline recommendations (90%) and lower on narrative guideline and systematic review questions (60--70%). We also find a strong correlation between accuracy and the citation count of the underlying systematic reviews, where each doubling of citations is associated with roughly a 30% increase in the odds of a correct answer. Models show moderate ability to reason about evidence quality when contextual information is supplied. When we incorporate retrieval-augmented prompting, providing the gold-source abstract raises accuracy on previously incorrect items to 0.79; providing top 3 PubMed abstracts (ranked by semantic relevance) improves accuracy to 0.23, while random abstracts reduce accuracy (0.10, within temperature variation). These effects are mirrored in GPT-4o-mini, underscoring that source clarity and targeted retrieval -- not just model size -- drive performance. Overall, our results highlight both the promise and current limitations of LLMs for evidence-based clinical question answering. Retrieval-augmented prompting emerges as a useful strategy to improve factual accuracy and alignment with source evidence, while stratified evaluation by specialty and question type remains essential to understand current knowledge access and to contextualize model performance.",
+      "year": "2025",
+      "published_date": "2025-09-13",
+      "journal": "Patterns",
+      "url": "https://www.semanticscholar.org/paper/a415033748e655bbeca9ca1ce02457e076728518",
+      "arxiv_id": "2509.10843",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2509.10843",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Augmenting Large Language Models and Retrieval-Augmented Generation with an Evidence-Based Medicine-Enabled Agent System",
+      "authors": [
+        "Yi Yu",
+        "Lingli Li",
+        "Yaqin Li"
+      ],
+      "abstract": "Abstract\n                \n                  Importanc\n                  Large language models (LLMs) with retrieval-augmented generation (RAG) show promise for clinical decision support. However, their application is constrained by limited &amp; outdated vector databases, suboptimal evidence retrieval and poor contextual continuity.\n                \n                \n                  Objective\n                  To develop and evaluate a novel LLM-based agent that integrates Evidence-Based Medicine (EBM) principles and contextual conversation capabilities in answering clinical questions.\n                \n                \n                  Design, Setting and Participants\n                  The agent for clinical decision making was developed and evaluated between July 1, 2024, and July 31, 2025. The system incorporated an EBM-enabled workflow, a memory module and Thought-Action-Observation (TAO) loops. Evaluation 1 assessed the system’s performance on 150 initial clinical questions across 15 cancer types. Evaluation 2 involved 45 multi-turn dialogue tasks (across 3 types). Baselines were state-of-the-art traditional RAG method and commercial LLMs with plugins. All generated responses across both evaluations were independently rated by 3 experts with over five years of clinical experience. The study was performed at West China Medical Center.\n                \n                \n                  Main Outcomes and Measures\n                  Each response in evaluation 1 was classified into one of three predefined categories—correct, inaccurate, or wrong. As for evaluation 2, tasks were deemed successful when previous conversation is remembered and answer is correct, otherwise the task was considered unsuccessful.\n                \n                \n                  Results\n                  In evaluation 1, EBMChat generated the highest proportion of accurate responses (89% vs 78% for the best baseline method). The superior performance of EBMChat was associated with its ability to retrieve optimal evidence, demonstrated by significantly higher evidence hierarchy (100% vs 17.5% RCT-level or above), stricter evidence timeliness (within 5 years vs from the 1980s onwards), and more comprehensive retrieval (median of 693 vs 267 items/question). Regarding evaluation 2, EBMChat successfully completed 93% of the tasks. In contrast, GPT-4.1 with plugins (Web Search) achieved a success rate of only 31%. This performance gap was attributed to EBM-enabled workflow, memory module and TAO loops, which ensure robust contextual conversation capabilities.\n                \n                \n                  Conclusion and Relevanc\n                  EBMChat identifies appropriate evidence by effectively balancing timeliness, hierarchy, and relevance. Meanwhile, its enhanced conversational capabilities facilitate the preservation of contextual data, enabling users to explore clinical problems more deeply or comprehensively in multi-turn dialogues. Our findings underscore that the effective promotion of clinical practice by AI requires deeper integration of core medical principles into the technology itself, rather than direct application of general-purpose AI tools.",
+      "year": "2025",
+      "published_date": "2025-10-20",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1101/2025.10.17.25338266",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1101/2025.10.17.25338266",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models full text retrieval"
+    },
+    {
+      "title": "Retrieval augmented generation based dynamic prompting for few-shot biomedical named entity recognition using large language models",
+      "authors": [
+        "Yao Ge",
+        "Sudeshna Das",
+        "Yuting Guo",
+        "Abeed Sarker"
+      ],
+      "abstract": "Abstract\n        Biomedical named entity recognition (NER) is a high-utility natural language processing (NLP) task, and large language models (LLMs) show promise particularly in few-shot settings (i.e., limited training data). In this article, we address the performance challenges of LLMs for few-shot biomedical NER by investigating a dynamic prompting strategy involving retrieval-augmented generation (RAG). In our approach, the annotated in-context learning examples are selected based on their similarities with the input texts, and the prompt is dynamically updated for each instance during inference. We implemented and optimized static and dynamic prompt engineering techniques and evaluated them on five biomedical NER datasets. Static prompting with structured components increased average F 1-scores by 12% for GPT-4, and 11% for GPT-3.5 and LLaMA 3-70B, relative to basic static prompting. Dynamic prompting further improved performance, with TF-IDF and SBERT retrieval methods yielding the best results, improving average F 1-scores by 7.3% and 5.6% in 5-shot and 10-shot settings, respectively. These findings highlight the utility of contextually adaptive prompts via RAG for biomedical NER.",
+      "year": "2025",
+      "published_date": "2025-8-25",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-7216581/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-7216581/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models full text retrieval"
+    },
+    {
+      "title": "Fine-tuned large language models for answering questions about full-text biomedical research studies",
+      "authors": [
+        "Kaiming Tao",
+        "Jinru Zhou",
+        "Zachary A. Osman",
+        "Vineet Ahluwalia",
+        "Chiara Sabatti",
+        "Robert W. Shafer"
+      ],
+      "abstract": "ABSTRACT\n                \n                  Background\n                  Few studies have explored the degree to which fine-tuning a large-language model (LLM) can improve its ability to answer a specific set of questions about a research study.\n                \n                \n                  Methods\n                  We created an instruction set comprising 250 marked-down studies of HIV drug resistance, 16 questions per study, answers to each question, and explanations for each answer. The questions were broadly relevant to studies of pathogenic human viruses including whether a study reported viral genetic sequences and the demographics and antiviral treatments of the persons from whom sequences were obtained. We fine-tuned GPT-4o-mini (GPT-4o), Llama3.1-8B-Instruct (Llama3.1-8B), and Llama3.1-70B-Instruct (Llama3.1-70B) using a quantized low rank adapter (QLoRA). We assessed the accuracy, precision, and recall of each base and fine-tuned model in answering the same questions on a test set comprising 120 different studies. Paired t-tests and Wilcoxon signed-rank tests were used to compare base models to one another, fine-tuned models to their respective base model, and the fine-tuned models to one another.\n                \n                \n                  Results\n                  Prior to fine-tuning, GPT-4o displayed significantly greater performance than both Llama3.1-70B and Llama3.1-8B due to its greater precision compared with Llama3.1-70B and greater precision and recall compared with Llama3.1-8B; there was no difference in performance between Llama3.1-70B and Llama3.1-8B. After fine-tuning, both GPT-4o and Llama3.1-70B, but not Llama3.1-8B, displayed significantly improved performance compared with their base models. The improved performance of GPT-4o resulted from a mean 6% increased precision and 9% increased recall; the improved performance of Llama3.1-70B resulted from a 15% increased precision. After fine-tuning, Llama3.1-70B significantly outperformed Llama3.1-8B but did not perform as well as the fine-tuned GPT-4o model which displayed superior recall.\n                \n                \n                  Conclusion\n                  Fine-tuning GPT-4o and Llama3.1-70B, but not the smaller Llama3.1-8B, led to marked improvement in answering specific questions about research papers. The process we describe will be useful to researchers studying other medical domains.\n                \n                \n                  AUTHOR SUMMARY\n                  Addressing key biomedical questions often requires systematically reviewing data from numerous studies—a process that demands time and expertise. Large language models (LLMs) have shown potential in screening papers and summarizing their content. However, few research groups have fine-tuned these models to enhance their performance in specialized biomedical domains. In this study, we fine-tuned three LLMs to answer questions about studies on the subject of HIV drug resistance including one proprietary LLM (GPT-4o-mini) and two open-source LLMs (Llama3.1-Instruct-70B and Llama 3.1-Instruct-8B). To fine-tune the models, we used an instruction set comprising 250 studies of HIV drug resistance and selected 16 questions covering whether studies included viral genetic sequences, patient demographics, and antiviral treatments. We then tested the models on 120 independent research studies. Our results showed that fine-tuning GPT-4o-mini and Llama3.1-Instruct-70B significantly improved their ability to answer domain-specific questions, while the smaller Llama3.1-Instruct-8B model was not improved. The process we described offers a roadmap for researchers in other fields and represents a step in our attempt towards developing an LLM capable of answering questions about research studies across a range of pathogenic human viruses.",
+      "year": "2024",
+      "published_date": "2024-10-30",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1101/2024.10.28.24316263",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "CrossRef",
+      "doi": "10.1101/2024.10.28.24316263",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models full text retrieval"
+    },
+    {
+      "title": "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing",
+      "authors": [
+        "Naeimeh Nourmohammadi",
+        "Md Meem Hossain",
+        "The Anh Han",
+        "Safina Showkat Ara",
+        "Zia Ush Shamszaman"
+      ],
+      "abstract": "Large language models (LLMs) show promise for healthcare question answering, but clinical use is limited by weak verification, insufficient evidence grounding, and unreliable confidence signalling. We propose a multi-agent medical QA framework that combines complementary LLMs with evidence retrieval, uncertainty estimation, and bias checks to improve answer reliability. Our approach has two phases. First, we fine-tune three representative LLM families (GPT, LLaMA, and DeepSeek R1) on MedQuAD-derived medical QA data (20k+ question-answer pairs across multiple NIH domains) and benchmark generation quality. DeepSeek R1 achieves the strongest scores (ROUGE-1 0.536 +- 0.04; ROUGE-2 0.226 +-0.03; BLEU 0.098 -+ 0.018) and substantially outperforms the specialised biomedical baseline BioGPT in zero-shot evaluation. Second, we implement a modular multi-agent pipeline in which a Clinical Reasoning agent (fine-tuned LLaMA) produces structured explanations, an Evidence Retrieval agent queries PubMed to ground responses in recent literature, and a Refinement agent (DeepSeek R1) improves clarity and factual consistency; an optional human validation path is triggered for high-risk or high-uncertainty cases. Safety mechanisms include Monte Carlo dropout and perplexity-based uncertainty scoring, plus lexical and sentiment-based bias detection supported by LIME/SHAP-based analyses. In evaluation, the full system achieves 87% accuracy with relevance around 0.80, and evidence augmentation reduces uncertainty (perplexity 4.13) compared to base responses, with mean end-to-end latency of 36.5 seconds under the reported configuration. Overall, the results indicate that agent specialisation and verification layers can mitigate key single-model limitations and provide a practical, extensible design for evidence-based and bias-aware medical AI.",
+      "year": "2026",
+      "published_date": "2026-02-15",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2602.14158v1",
+      "arxiv_id": "2602.14158v1",
+      "keywords": [
+        "cs.CL",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "clinical evidence review multi-agent"
+    },
+    {
+      "title": "Biomedical Literature Q&A System Using Retrieval-Augmented Generation (RAG)",
+      "authors": [
+        "Mansi Garg",
+        "Lee-Chi Wang",
+        "Bhavesh Ghanchi",
+        "Sanjana Dumpala",
+        "Shreyash Kakde",
+        "Yen-Chi Chen"
+      ],
+      "abstract": "This work presents a Biomedical Literature Question Answering (Q&A) system based on a Retrieval-Augmented Generation (RAG) architecture, designed to improve access to accurate, evidence-based medical information. Addressing the shortcomings of conventional health search engines and the lag in public access to biomedical research, the system integrates diverse sources, including PubMed articles, curated Q&A datasets, and medical encyclopedias ,to retrieve relevant information and generate concise, context-aware responses. The retrieval pipeline uses MiniLM-based semantic embeddings and FAISS vector search, while answer generation is performed by a fine-tuned Mistral-7B-v0.3 language model optimized using QLoRA for efficient, low-resource training. The system supports both general medical queries and domain-specific tasks, with a focused evaluation on breast cancer literature demonstrating the value of domain-aligned retrieval. Empirical results, measured using BERTScore (F1), show substantial improvements in factual consistency and semantic relevance compared to baseline models. The findings underscore the potential of RAG-enhanced language models to bridge the gap between complex biomedical literature and accessible public health knowledge, paving the way for future work on multilingual adaptation, privacy-preserving inference, and personalized medical AI systems.",
+      "year": "2025",
+      "published_date": "2025-09-05",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/b76847c6a56e7ada6d9f953418d191c5204f708b",
+      "arxiv_id": "2509.05505",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2509.05505",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    }
+  ],
+  "timestamp": "20260423_172014"
+}

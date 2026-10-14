@@ -1,0 +1,520 @@
+﻿table,row,cell,displayed,recomputed,rounding_tolerance,pass,basis
+tab:corpus,Multi-agent,1,1071.0,1071,0.500000001,True,raw_record_recomputed
+tab:corpus,Multi-agent,2,906.0,906,0.500000001,True,raw_record_recomputed
+tab:corpus,Multi-agent,3,95.0,95,0.500000001,True,raw_record_recomputed
+tab:corpus,Multi-agent,4,110.0,110,0.500000001,True,raw_record_recomputed
+tab:corpus,Biomedical,1,788.0,788,0.500000001,True,raw_record_recomputed
+tab:corpus,Biomedical,2,714.0,714,0.500000001,True,raw_record_recomputed
+tab:corpus,Biomedical,3,0.0,0,0.500000001,True,raw_record_recomputed
+tab:corpus,Biomedical,4,46.0,46,0.500000001,True,raw_record_recomputed
+tab:corpus,Digital,1,641.0,641,0.500000001,True,raw_record_recomputed
+tab:corpus,Digital,2,523.0,523,0.500000001,True,raw_record_recomputed
+tab:corpus,Digital,3,13.0,13,0.500000001,True,raw_record_recomputed
+tab:corpus,Digital,4,46.0,46,0.500000001,True,raw_record_recomputed
+tab:corpus,Climate,1,511.0,511,0.500000001,True,raw_record_recomputed
+tab:corpus,Climate,2,439.0,439,0.500000001,True,raw_record_recomputed
+tab:corpus,Climate,3,0.0,0,0.500000001,True,raw_record_recomputed
+tab:corpus,Climate,4,49.0,49,0.500000001,True,raw_record_recomputed
+tab:corpus,\textbf{Total},1,3011.0,3011,0.500000001,True,raw_record_recomputed
+tab:corpus,\textbf{Total},2,2582.0,2582,0.500000001,True,raw_record_recomputed
+tab:corpus,\textbf{Total},3,108.0,108,0.500000001,True,raw_record_recomputed
+tab:corpus,\textbf{Total},4,251.0,251,0.500000001,True,raw_record_recomputed
+tab:taxonomy,Competitive,1,2.0,2,0.500000001,True,raw_record_recomputed
+tab:taxonomy,Retrieval,1,4.0,4,0.500000001,True,raw_record_recomputed
+tab:taxonomy,Evaluation,1,4.0,4,0.500000001,True,raw_record_recomputed
+tab:taxonomy,Full-Text,1,3.0,3,0.500000001,True,raw_record_recomputed
+tab:taxonomy,Report Writing,1,5.0,5,0.500000001,True,raw_record_recomputed
+tab:taxonomy,Agent Roles,1,4.0,4,0.500000001,True,raw_record_recomputed
+tab:taxonomy,Cost Efficiency,1,2.0,2,0.500000001,True,raw_record_recomputed
+tab:taxonomy,Benchmark Design,1,4.0,4,0.500000001,True,raw_record_recomputed
+tab:taxonomy,Knowledge Service,1,2.0,2,0.500000001,True,raw_record_recomputed
+tab:main_results,Core workflow,1,57.3,57.327586206896555,0.050000001,True,raw_record_recomputed
+tab:main_results,Core workflow,2,55.4,55.41666666666667,0.050000001,True,raw_record_recomputed
+tab:main_results,Core workflow,3,41.7,41.66666666666667,0.050000001,True,raw_record_recomputed
+tab:main_results,Cross-model,1,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:main_results,Cross-model,2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:main_results,Cross-model,3,0.4,0.4166666666666667,0.050000001,True,raw_record_recomputed
+tab:main_results,Same-model,1,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:main_results,Same-model,2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:main_results,Same-model,3,1.7,1.6666666666666667,0.050000001,True,raw_record_recomputed
+tab:main_results,Baseline B,3,6.7,6.666666666666667,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Core workflow,1,77.3,77.33050847457628,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Core workflow,2,76.0,76.04166666666666,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Core workflow,3,22.9,22.916666666666664,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Core workflow,4,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Cross-model,1,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Cross-model,2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Cross-model,3,0.4,0.4166666666666667,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Cross-model,4,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Same-model,1,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Same-model,2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Same-model,3,1.0,1.0416666666666665,0.050000001,True,raw_record_recomputed
+tab:pilot_ext,Same-model,4,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:arch_compare,Core workflow,1,77.3,77.33050847457628,0.050000001,True,raw_record_recomputed
+tab:arch_compare,Core workflow,2,22.9,22.916666666666664,0.050000001,True,raw_record_recomputed
+tab:arch_compare,Self-critique,1,96.7,96.66666666666667,0.050000001,True,raw_record_recomputed
+tab:arch_compare,Self-critique,2,3.5,3.5416666666666665,0.050000001,True,raw_record_recomputed
+tab:arch_compare,CoT verification,1,95.0,95.0,0.050000001,True,raw_record_recomputed
+tab:arch_compare,CoT verification,2,7.3,7.291666666666667,0.050000001,True,raw_record_recomputed
+tab:arch_compare,Same-model,1,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:arch_compare,Same-model,2,1.0,1.0416666666666665,0.050000001,True,raw_record_recomputed
+tab:arch_compare,Cross-model,1,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:arch_compare,Cross-model,2,0.4,0.4166666666666667,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 1,1,251.0,251,0.500000001,True,raw_record_recomputed
+tab:expanded_results,Method 1,2,61.8,61.84547524188959,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 1,3,61.9,61.852589641434264,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 1,4,38.6,38.59561752988048,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 1,5,94.9,94.87051792828686,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2a,1,251.0,251,0.500000001,True,raw_record_recomputed
+tab:expanded_results,Method 2a,2,62.4,62.36198064883324,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2a,3,62.4,62.42174160500853,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2a,4,37.7,37.74900398406375,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2a,5,94.9,94.87051792828686,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2b,1,251.0,251,0.500000001,True,raw_record_recomputed
+tab:expanded_results,Method 2b,2,62.7,62.65177385695314,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2b,3,62.6,62.58537279453614,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2b,4,37.9,37.89840637450199,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2b,5,94.9,94.87051792828686,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2c,1,251.0,251,0.500000001,True,raw_record_recomputed
+tab:expanded_results,Method 2c,2,61.5,61.46296296296296,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2c,3,61.4,61.354581673306775,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2c,4,72.0,72.01195219123507,0.050000001,True,raw_record_recomputed
+tab:expanded_results,Method 2c,5,94.9,94.87051792828686,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,B0:,1,251.0,251,0.500000001,True,raw_record_recomputed
+tab:matched_reanalysis,B0:,2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,B0:,3,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,B0:,4,5.0,5.029880478087649,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,B0:,5,78.5,78.48605577689243,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M1:,1,251.0,251,0.500000001,True,raw_record_recomputed
+tab:matched_reanalysis,M1:,2,61.8,61.84547524188959,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M1:,3,61.9,61.852589641434264,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M1:,4,38.6,38.59561752988048,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M1:,5,6.0,5.9760956175298805,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2a:,1,251.0,251,0.500000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2a:,2,62.4,62.36198064883324,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2a:,3,62.4,62.42174160500853,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2a:,4,37.7,37.74900398406375,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2a:,5,8.0,7.968127490039841,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2b:,1,251.0,251,0.500000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2b:,2,62.7,62.65177385695314,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2b:,3,62.6,62.58537279453614,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2b:,4,37.9,37.89840637450199,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2b:,5,6.8,6.772908366533864,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2c:,1,251.0,251,0.500000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2c:,2,61.5,61.46296296296296,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2c:,3,61.4,61.354581673306775,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2c:,4,72.0,72.01195219123507,0.050000001,True,raw_record_recomputed
+tab:matched_reanalysis,M2c:,5,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:expanded_domain_breakdown,multi_agent_information_services M1 cp,0,65.9,65.89285714285714,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,multi_agent_information_services M2a cp,0,67.5,67.47727272727273,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,multi_agent_information_services M2b cp,0,68.0,67.95995670995671,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,multi_agent_information_services M2c cp,0,62.6,62.63297872340425,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,multi_agent_information_services M1 clr,0,97.3,97.27272727272728,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,multi_agent_information_services M2a clr,0,99.0,98.97727272727272,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,multi_agent_information_services M2b clr,0,98.6,98.63636363636363,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,multi_agent_information_services M2c clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,digital_humanities M1 cp,0,61.4,61.41304347826087,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,digital_humanities M2a cp,0,61.4,61.41304347826087,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,digital_humanities M2b cp,0,62.8,62.77173913043478,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,digital_humanities M2c cp,0,70.0,70.03968253968253,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,digital_humanities M1 clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,digital_humanities M2a clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,digital_humanities M2b clr,0,99.7,99.72826086956522,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,digital_humanities M2c clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,biomedical_evidence_synthesis M1 cp,0,57.9,57.88043478260869,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,biomedical_evidence_synthesis M2a cp,0,57.6,57.608695652173914,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,biomedical_evidence_synthesis M2b cp,0,58.2,58.152173913043484,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,biomedical_evidence_synthesis M2c cp,0,57.9,57.906976744186046,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,biomedical_evidence_synthesis M1 clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,biomedical_evidence_synthesis M2a clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,biomedical_evidence_synthesis M2b clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,biomedical_evidence_synthesis M2c clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,climate_policy_research M1 cp,0,56.9,56.88775510204081,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,climate_policy_research M2a cp,0,56.2,56.231778425655975,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,climate_policy_research M2b cp,0,54.8,54.8469387755102,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,climate_policy_research M2c cp,0,54.6,54.565217391304344,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,climate_policy_research M1 clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,climate_policy_research M2a clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,climate_policy_research M2b clr,0,99.5,99.48979591836735,0.05,True,raw_record_recomputed
+tab:expanded_domain_breakdown,climate_policy_research M2c clr,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:title_identity_audit,Single-agent,1,97.5,97.5,0.0050000010000000004,True,raw_record_recomputed
+tab:title_identity_audit,Single-agent,2,0.975,0.9749843652282677,0.000500001,True,raw_record_recomputed
+tab:title_identity_audit,Single-agent,3,0.95,0.95,0.000500001,True,raw_record_recomputed
+tab:title_identity_audit,Cross-model,1,99.69,99.6875,0.0050000010000000004,True,raw_record_recomputed
+tab:title_identity_audit,Cross-model,2,0.997,0.9968661554582758,0.000500001,True,raw_record_recomputed
+tab:title_identity_audit,Cross-model,3,0.994,0.9937323722970856,0.000500001,True,raw_record_recomputed
+tab:matched_semantic_audit,V0,1,60.0,60,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V0,2,60.0,60,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V0,3,0.0,0,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V0,4,19.0,19,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V0,5,37.0,37,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V0,6,4.0,4,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V0,7,31.67,31.666666666666664,0.0050000010000000004,True,raw_record_recomputed
+tab:matched_semantic_audit,V1,1,60.0,60,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V1,2,55.0,55,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V1,3,5.0,5,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V1,4,37.0,37,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V1,5,18.0,18,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V1,6,0.0,0,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V1,7,61.67,61.66666666666667,0.0050000010000000004,True,raw_record_recomputed
+tab:matched_semantic_audit,V2,1,60.0,60,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V2,2,58.0,58,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V2,3,2.0,2,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V2,4,38.0,38,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V2,5,19.0,19,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V2,6,1.0,1,0.500000001,True,raw_record_recomputed
+tab:matched_semantic_audit,V2,7,63.33,63.33333333333333,0.0050000010000000004,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.6,1,263.0,263,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.6,2,152.0,152,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.6,3,111.0,111,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.6,4,0.0,0,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.6,5,57.0,57,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.6,6,0.578,0.5779467680608364,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.6,7,1.0,1.0,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.6,8,0.733,0.7325301204819276,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.6,9,0.653,0.653125,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.65,1,231.0,231,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.65,2,152.0,152,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.65,3,79.0,79,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.65,4,0.0,0,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.65,5,89.0,89,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.65,6,0.658,0.658008658008658,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.65,7,1.0,1.0,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.65,8,0.794,0.7937336814621411,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.65,9,0.753,0.753125,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.7,1,203.0,203,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.7,2,152.0,152,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.7,3,51.0,51,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.7,4,0.0,0,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.7,5,117.0,117,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.7,6,0.749,0.7487684729064039,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.7,7,1.0,1.0,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.7,8,0.856,0.856338028169014,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.7,9,0.841,0.840625,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.72,1,197.0,197,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.72,2,152.0,152,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.72,3,45.0,45,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.72,4,0.0,0,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.72,5,123.0,123,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.72,6,0.772,0.7715736040609137,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.72,7,1.0,1.0,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.72,8,0.871,0.8710601719197707,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.72,9,0.859,0.859375,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.75,1,197.0,197,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.75,2,152.0,152,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.75,3,45.0,45,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.75,4,0.0,0,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.75,5,123.0,123,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.75,6,0.772,0.7715736040609137,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.75,7,1.0,1.0,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.75,8,0.871,0.8710601719197707,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.75,9,0.859,0.859375,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.8,1,180.0,180,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.8,2,152.0,152,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.8,3,28.0,28,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.8,4,0.0,0,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.8,5,140.0,140,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.8,6,0.844,0.8444444444444444,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.8,7,1.0,1.0,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.8,8,0.916,0.9156626506024096,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.8,9,0.913,0.9125,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.85,1,164.0,164,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.85,2,152.0,152,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.85,3,12.0,12,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.85,4,0.0,0,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.85,5,156.0,156,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.85,6,0.927,0.926829268292683,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.85,7,1.0,1.0,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.85,8,0.962,0.9620253164556963,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.85,9,0.963,0.9625,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.9,1,160.0,160,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.9,2,151.0,151,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.9,3,9.0,9,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.9,4,1.0,1,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.9,5,159.0,159,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.9,6,0.944,0.94375,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.9,7,0.993,0.993421052631579,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.9,8,0.968,0.967948717948718,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.9,9,0.969,0.96875,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.95,1,160.0,160,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.95,2,151.0,151,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.95,3,9.0,9,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.95,4,1.0,1,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.95,5,159.0,159,0.500000001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.95,6,0.944,0.94375,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.95,7,0.993,0.993421052631579,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.95,8,0.968,0.967948717948718,0.000500001,True,raw_record_recomputed
+tab:title_threshold_sensitivity,0.95,9,0.969,0.96875,0.000500001,True,raw_record_recomputed
+tab:autosurvey_comparison,Method~1,1,30.0,30,0.500000001,True,raw_record_recomputed
+tab:autosurvey_comparison,Method~1,2,57.3,57.327586206896555,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,Method~1,3,41.7,41.66666666666667,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,Method~1,4,55.4,55.41666666666667,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,\textbf{CDMA+ARL,1,30.0,30,0.500000001,True,raw_record_recomputed
+tab:autosurvey_comparison,\textbf{CDMA+ARL,2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,\textbf{CDMA+ARL,3,0.4,0.4166666666666667,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,\textbf{CDMA+ARL,4,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,AutoSurvey (controlled,1,30.0,30,0.500000001,True,raw_record_recomputed
+tab:autosurvey_comparison,AutoSurvey (controlled,2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,AutoSurvey (controlled,3,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,AutoSurvey (controlled,4,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,"AutoSurvey (native, w/",1,30.0,30,0.500000001,True,raw_record_recomputed
+tab:autosurvey_comparison,"AutoSurvey (native, w/",2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,"AutoSurvey (native, w/",3,0.8,0.7671228341242688,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,"AutoSurvey (native, w/",4,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,"AutoSurvey (native, no",1,5.0,5,0.500000001,True,raw_record_recomputed
+tab:autosurvey_comparison,"AutoSurvey (native, no",2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,"AutoSurvey (native, no",3,1.3,1.276595744680851,0.050000001,True,raw_record_recomputed
+tab:autosurvey_comparison,"AutoSurvey (native, no",4,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:alce_structural,ASQA: index,1,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:alce_structural,ASQA: index,2,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:alce_structural,ASQA: index,3,0.0,0.0,0.500000001,True,raw_record_recomputed
+tab:alce_structural,ASQA: index,4,0.0,0,0.500000001,True,raw_record_recomputed
+tab:alce_structural,ASQA: index,5,0.0,0,0.500000001,True,raw_record_recomputed
+tab:alce_structural,ASQA: index,6,40.0,40,0.500000001,True,raw_record_recomputed
+tab:alce_structural,ASQA: sentence,1,78.375,78.375,0.000500001,True,raw_record_recomputed
+tab:alce_structural,ASQA: sentence,2,93.375,93.37500000000001,0.000500001,True,raw_record_recomputed
+tab:alce_structural,ASQA: sentence,3,15.0,15.0,0.000500001,True,raw_record_recomputed
+tab:alce_structural,ASQA: sentence,4,14.0,14,0.500000001,True,raw_record_recomputed
+tab:alce_structural,ASQA: sentence,5,2.0,2,0.500000001,True,raw_record_recomputed
+tab:alce_structural,ASQA: sentence,6,24.0,24,0.500000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: index,1,75.0,75.0,0.050000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: index,2,97.5,97.5,0.050000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: index,3,22.5,22.5,0.050000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: index,4,9.0,9,0.500000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: index,5,0.0,0,0.500000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: index,6,31.0,31,0.500000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: sentence,1,74.167,74.16666666666667,0.000500001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: sentence,2,96.667,96.66666666666669,0.000500001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: sentence,3,22.5,22.5,0.050000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: sentence,4,9.0,9,0.500000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: sentence,5,0.0,0,0.500000001,True,raw_record_recomputed
+tab:alce_structural,QAMPARI: sentence,6,31.0,31,0.500000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V0,1,55.0,55,0.500000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V0,2,68.8,68.75,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V0,3,14.5,14.545454545454545,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V0,4,0.162,0.1619381016543643,0.000500001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V1,1,81.0,81,0.500000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V1,2,51.6,51.59235668789809,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V1,3,21.0,20.98765432098765,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V1,4,0.24,0.23966369963463763,0.000500001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V2,1,69.0,69,0.500000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V2,2,87.3,87.34177215189874,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V2,3,11.6,11.594202898550725,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,ASQA / V2,4,0.133,0.13263493565761525,0.000500001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V0,1,115.0,115,0.500000001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V0,2,90.6,90.5511811023622,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V0,3,8.7,8.695652173913043,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V0,4,0.191,0.19132781282836653,0.000500001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V1,1,120.0,120,0.500000001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V1,2,93.8,93.75,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V1,3,10.0,10.0,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V1,4,0.194,0.19401544788076233,0.000500001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V2,1,123.0,123,0.500000001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V2,2,93.2,93.18181818181817,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V2,3,8.9,8.94308943089431,0.050000001,True,raw_record_recomputed
+tab:local_nli_audit,QAMPARI / V2,4,0.184,0.1844402554348429,0.000500001,True,raw_record_recomputed
+tab:per_category,competitive\_intel.,1,2.0,2,0.500000001,True,raw_record_recomputed
+tab:per_category,competitive\_intel.,2,2.0,2,0.500000001,True,raw_record_recomputed
+tab:per_category,competitive\_intel.,3,43.8,43.75,0.050000001,True,raw_record_recomputed
+tab:per_category,competitive\_intel.,4,56.2,56.25,0.050000001,True,raw_record_recomputed
+tab:per_category,competitive\_intel.,5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,competitive\_intel.,6,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,cost\_efficiency,1,2.0,2,0.500000001,True,raw_record_recomputed
+tab:per_category,cost\_efficiency,2,2.0,2,0.500000001,True,raw_record_recomputed
+tab:per_category,cost\_efficiency,3,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,cost\_efficiency,4,6.2,6.25,0.050000001,True,raw_record_recomputed
+tab:per_category,cost\_efficiency,5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,cost\_efficiency,6,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,evaluation,1,4.0,4,0.500000001,True,raw_record_recomputed
+tab:per_category,evaluation,2,4.0,4,0.500000001,True,raw_record_recomputed
+tab:per_category,evaluation,3,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,evaluation,4,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,evaluation,5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,evaluation,6,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,full\_text,1,3.0,3,0.500000001,True,raw_record_recomputed
+tab:per_category,full\_text,2,3.0,3,0.500000001,True,raw_record_recomputed
+tab:per_category,full\_text,3,37.5,37.5,0.050000001,True,raw_record_recomputed
+tab:per_category,full\_text,4,62.5,62.5,0.050000001,True,raw_record_recomputed
+tab:per_category,full\_text,5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,full\_text,6,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,retrieval,1,4.0,4,0.500000001,True,raw_record_recomputed
+tab:per_category,retrieval,2,4.0,4,0.500000001,True,raw_record_recomputed
+tab:per_category,retrieval,3,40.6,40.625,0.050000001,True,raw_record_recomputed
+tab:per_category,retrieval,4,59.4,59.375,0.050000001,True,raw_record_recomputed
+tab:per_category,retrieval,5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,retrieval,6,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,benchmark,1,4.0,4,0.500000001,True,raw_record_recomputed
+tab:per_category,benchmark,2,4.0,4,0.500000001,True,raw_record_recomputed
+tab:per_category,benchmark,3,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,benchmark,4,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,benchmark,5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,benchmark,6,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,knowledge\_service,1,2.0,2,0.500000001,True,raw_record_recomputed
+tab:per_category,knowledge\_service,2,1.0,1,0.500000001,True,raw_record_recomputed
+tab:per_category,knowledge\_service,3,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,knowledge\_service,4,50.0,50.0,0.050000001,True,raw_record_recomputed
+tab:per_category,knowledge\_service,5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,knowledge\_service,6,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,writing,1,5.0,5,0.500000001,True,raw_record_recomputed
+tab:per_category,writing,2,5.0,5,0.500000001,True,raw_record_recomputed
+tab:per_category,writing,3,80.0,80.0,0.050000001,True,raw_record_recomputed
+tab:per_category,writing,4,20.0,20.0,0.050000001,True,raw_record_recomputed
+tab:per_category,writing,5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,writing,6,2.5,2.5,0.050000001,True,raw_record_recomputed
+tab:per_category,agent\_roles,1,4.0,4,0.500000001,True,raw_record_recomputed
+tab:per_category,agent\_roles,2,4.0,4,0.500000001,True,raw_record_recomputed
+tab:per_category,agent\_roles,3,75.0,75.0,0.050000001,True,raw_record_recomputed
+tab:per_category,agent\_roles,4,25.0,25.0,0.050000001,True,raw_record_recomputed
+tab:per_category,agent\_roles,5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,agent\_roles,6,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:per_category,\textbf{Overall},1,30.0,30,0.500000001,True,raw_record_recomputed
+tab:per_category,\textbf{Overall},2,29.0,29,0.500000001,True,raw_record_recomputed
+tab:per_category,\textbf{Overall},3,57.3,57.327586206896555,0.050000001,True,raw_record_recomputed
+tab:per_category,\textbf{Overall},4,41.7,41.66666666666667,0.050000001,True,raw_record_recomputed
+tab:per_category,\textbf{Overall},5,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:per_category,\textbf{Overall},6,0.4,0.4166666666666667,0.050000001,True,raw_record_recomputed
+tab:cost,Baseline A,1,0.0,0,0.500000001,True,raw_record_recomputed
+tab:cost,Baseline B,1,0.0,0,0.500000001,True,raw_record_recomputed
+tab:cost,Core workflow,1,17.0,17,0.500000001,True,raw_record_recomputed
+tab:cost,Core workflow,2,81.3,81.284,0.050000001,True,raw_record_recomputed
+tab:cost,Core workflow,3,74.9,74.869,0.050000001,True,raw_record_recomputed
+tab:cost,Core workflow,4,83.5,83.517,0.050000001,True,raw_record_recomputed
+tab:cost,Cross-model review,1,30.0,30,0.500000001,True,raw_record_recomputed
+tab:cost,Cross-model review,2,123.3,123.3075,0.050000001,True,raw_record_recomputed
+tab:cost,Cross-model review,3,114.7,114.66475,0.050000001,True,raw_record_recomputed
+tab:cost,Cross-model review,4,134.7,134.719,0.050000001,True,raw_record_recomputed
+tab:cost,Same-model review,1,30.0,30,0.500000001,True,raw_record_recomputed
+tab:cost,Same-model review,2,137.5,137.4695,0.050000001,True,raw_record_recomputed
+tab:cost,Same-model review,3,128.1,128.08350000000002,0.050000001,True,raw_record_recomputed
+tab:cost,Same-model review,4,158.4,158.43349999999998,0.050000001,True,raw_record_recomputed
+tab:english_results,Method 1,1,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:english_results,Method 1,2,97.0,97.0,0.050000001,True,raw_record_recomputed
+tab:english_results,Method 1,3,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:english_results,Method 2a,1,100.0,100.0,0.050000001,True,raw_record_recomputed
+tab:english_results,Method 2a,2,97.9,97.9,0.050000001,True,raw_record_recomputed
+tab:english_results,Method 2a,3,0.0,0.0,0.050000001,True,raw_record_recomputed
+tab:english_results,Method 2b,1,99.2,99.2,0.050000001,True,raw_record_recomputed
+tab:english_results,Method 2b,2,96.8,96.8,0.050000001,True,raw_record_recomputed
+tab:english_results,Method 2b,3,0.8,0.8,0.050000001,True,raw_record_recomputed
+tab:source_provenance,OpenAlex,1,140.0,140,0.500000001,True,raw_record_recomputed
+tab:source_provenance,OpenAlex,2,428.0,428,0.500000001,True,raw_record_recomputed
+tab:source_provenance,arXiv,1,52.0,52,0.500000001,True,raw_record_recomputed
+tab:source_provenance,arXiv,2,307.0,307,0.500000001,True,raw_record_recomputed
+tab:source_provenance,CrossRef,1,82.0,82,0.500000001,True,raw_record_recomputed
+tab:source_provenance,CrossRef,2,536.0,536,0.500000001,True,raw_record_recomputed
+tab:source_provenance,Google Scholar,1,145.0,145,0.500000001,True,raw_record_recomputed
+tab:source_provenance,Google Scholar,2,368.0,368,0.500000001,True,raw_record_recomputed
+tab:source_provenance,Semantic Scholar,1,0.0,0,0.500000001,True,raw_record_recomputed
+tab:source_provenance,Semantic Scholar,2,729.0,729,0.500000001,True,raw_record_recomputed
+tab:source_provenance,Scopus,1,12.0,12,0.500000001,True,raw_record_recomputed
+tab:source_provenance,Scopus,2,27.0,27,0.500000001,True,raw_record_recomputed
+tab:source_provenance,PubMed,1,0.0,0,0.500000001,True,raw_record_recomputed
+tab:source_provenance,PubMed,2,275.0,275,0.500000001,True,raw_record_recomputed
+tab:source_provenance,Wanfang Data,1,82.0,82,0.500000001,True,raw_record_recomputed
+tab:source_provenance,Wanfang Data,2,341.0,341,0.500000001,True,raw_record_recomputed
+tab:wiki_validation,WIKIICPM,0,90.0,90.0,0.05,True,raw_record_recomputed
+tab:wiki_validation,WIKIECPM,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:wiki_validation,WIKIOROM,0,15.5,15.5,0.05,True,raw_record_recomputed
+tab:wiki_validation,WIKIICPB,0,96.0,96.0,0.05,True,raw_record_recomputed
+tab:wiki_validation,WIKIECPB,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:wiki_validation,WIKIOROB,0,9.6,9.6,0.05,True,raw_record_recomputed
+tab:wiki_validation,WIKIICPA,0,84.0,84.0,0.05,True,raw_record_recomputed
+tab:wiki_validation,WIKIECPA,0,100.0,100.0,0.05,True,raw_record_recomputed
+tab:wiki_validation,WIKIORA,0,19.8,19.8,0.05,True,raw_record_recomputed
+tab:human_eval,CDMA+ARL,1,0.4,0.4166666666666667,0.050000001,True,raw_record_recomputed
+tab:human_eval,CDMA+ARL,2,41.7,41.66666666666667,0.050000001,True,raw_record_recomputed
+tab:human_eval,CDMA+ARL,3,1.86,1.8566666666666667,0.0050000010000000004,True,raw_record_recomputed
+tab:human_eval,CDMA+ARL,4,4.26,4.261744966442953,0.0050000010000000004,True,raw_record_recomputed
+tab:human_eval,CDMA+ARL,5,1.4,1.3993551817311707,0.0050000010000000004,True,raw_record_recomputed
+tab:human_eval,CDMA+ARL,6,26.7,26.666666666666668,0.050000001,True,raw_record_recomputed
+tab:human_eval,Core CDMA,1,41.7,41.66666666666667,0.050000001,True,raw_record_recomputed
+tab:human_eval,Core CDMA,2,29.7,29.666666666666668,0.050000001,True,raw_record_recomputed
+tab:human_eval,Core CDMA,3,2.1,2.1,0.0050000010000000004,True,raw_record_recomputed
+tab:human_eval,Core CDMA,4,3.95,3.946308724832215,0.0050000010000000004,True,raw_record_recomputed
+tab:human_eval,Core CDMA,5,1.4,1.3988221832411942,0.0050000010000000004,True,raw_record_recomputed
+tab:human_eval,Core CDMA,6,39.3,39.33333333333333,0.050000001,True,raw_record_recomputed
+tab:human_eval,Same-model,1,1.7,1.6666666666666667,0.050000001,True,raw_record_recomputed
+tab:human_eval,Same-model,2,28.7,28.666666666666668,0.050000001,True,raw_record_recomputed
+tab:human_eval,Same-model,3,2.04,2.0433333333333334,0.0050000010000000004,True,raw_record_recomputed
+tab:human_eval,Same-model,4,4.11,4.114093959731544,0.0050000010000000004,True,raw_record_recomputed
+tab:human_eval,Same-model,5,1.44,1.4426416162348445,0.0050000010000000004,True,raw_record_recomputed
+tab:human_eval,Same-model,6,34.0,34.0,0.050000001,True,raw_record_recomputed
+tab:bilingual_retrieval,C1:,1,1.8,1.7667,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C1:,2,15.0,14.97,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C1:,3,43.3,43.33,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C1:,4,0.5,0.4667,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C2:,1,17.8,17.8333,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C2:,2,59.2,59.230000000000004,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C2:,3,64.5,64.49000000000001,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C2:,4,2.4,2.4,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C3:,1,19.6,19.6,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C3:,2,59.1,59.14,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C3:,3,65.5,65.55,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C3:,4,2.4,2.4,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C3:,5,6.8,6.778,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:bilingual_retrieval,C3:,6,80.2,80.2457,0.050000001,True,archived_aggregate_only_not_raw_recomputed
+tab:output_distributions,Method 1,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 1,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 1,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 1,2,46.0,46.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 1,2,39.0,39.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 1,2,55.0,55.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 1,3,1865.0,1865.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 1,3,1668.0,1668.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 1,3,2048.0,2048.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 1,4,5.75,5.75,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 1,4,4.88,4.875,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 1,4,6.88,6.875,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 1,5,251.0,251,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,2,51.0,51.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,2,41.0,41.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,2,62.0,62.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,3,1671.0,1671.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,3,1398.0,1398.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,3,1889.0,1888.5,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2a,4,6.38,6.375,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 2a,4,5.13,5.125,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 2a,4,7.75,7.75,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 2a,5,251.0,251,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,2,50.0,50.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,2,41.0,41.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,2,60.0,59.5,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,3,1493.0,1493.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,3,1302.0,1302.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,3,1700.0,1700.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2b,4,6.38,6.375,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 2b,4,5.13,5.125,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 2b,4,7.5,7.5,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 2b,5,251.0,251,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,1,8.0,8,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,2,4.0,4.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,2,3.0,3.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,2,6.0,6.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,3,728.0,728.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,3,683.0,683.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,3,788.0,788.0,0.500000001,True,raw_record_recomputed
+tab:output_distributions,Method 2c,4,0.5,0.5,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 2c,4,0.38,0.375,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 2c,4,0.75,0.75,0.0050000010000000004,True,raw_record_recomputed
+tab:output_distributions,Method 2c,5,251.0,251,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"External registry, unique entries",1,454.0,454,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"External registry, unique entries",2,436.0,436,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"External registry, unique entries",3,6.0,6,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"External registry, unique entries",4,12.0,12,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"External registry, occurrences",1,3004.0,3004,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"External registry, occurrences",2,2878.0,2878,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"External registry, occurrences",3,95.8,95.80559254327564,0.050000001,True,raw_record_recomputed
+tab:external_semantic_audits,"Claim support, M1",1,25.0,25,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"Claim support, M1",2,12.0,12,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"Claim support, M1",3,48.0,48.0,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"Claim support, M2a",1,25.0,25,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"Claim support, M2a",2,10.0,10,0.500000001,True,raw_record_recomputed
+tab:external_semantic_audits,"Claim support, M2a",3,40.0,40.0,0.500000001,True,raw_record_recomputed

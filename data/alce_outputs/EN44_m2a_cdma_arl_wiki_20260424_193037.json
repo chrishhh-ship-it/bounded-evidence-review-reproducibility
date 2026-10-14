@@ -1,0 +1,60 @@
+{
+  "qid": "EN44",
+  "condition": "m2a_cdma_arl",
+  "query": "What is the current state of research on loss and damage finance mechanisms for climate-vulnerable nations?",
+  "domain": "Climate Policy Research",
+  "category": "loss_damage",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Climate change",
+    "Climate finance",
+    "Effects of climate change",
+    "Economic analysis of climate change",
+    "Effects of climate change on agriculture"
+  ],
+  "top_papers": [
+    {
+      "title": "Climate change",
+      "abstract": "Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution. Fossil fuel use, deforestation, and some agricultural and industrial practices rele"
+    },
+    {
+      "title": "Climate finance",
+      "abstract": "Climate finance is an umbrella term for financial resources such as loans, grants, or domestic budget allocations for climate change mitigation, adaptation or resiliency. Finance can come from private and public sources. It can be channeled by various intermediaries such as multilateral development banks or other development agencies. Those agencies are particularly important for the transfer of public resources from developed to developing countries in light of UN Climate Convention obligations"
+    },
+    {
+      "title": "Effects of climate change",
+      "abstract": "Effects of climate change are well documented and growing for Earth's natural environment and human societies. Changes to the climate system include an overall warming trend, changes to precipitation patterns, and more extreme weather. As the climate changes it impacts the natural environment with effects such as more intense forest fires, thawing permafrost, and desertification. These changes impact ecosystems and societies, and can become irreversible once tipping points are crossed."
+    },
+    {
+      "title": "Economic analysis of climate change",
+      "abstract": "Economic analysis of climate change uses economic tools and models to calculate the scale and distribution of damages caused by climate change. It can also give guidance for the best policies for mitigation and adaptation to climate change from an economic perspective. There are many economic models and frameworks. For example, in a cost–benefit analysis, the trade offs between climate change impacts, adaptation, and mitigation are made explicit."
+    },
+    {
+      "title": "Effects of climate change on agriculture",
+      "abstract": "There are numerous effects of climate change on agriculture, many of which are making it harder for agricultural activities to provide global food security. Recent research has found that climate change is likely to exacerbate the existing environmental impacts of agriculture by lowering crop productivity, reducing the effectiveness of agrochemicals, increasing soil erosion and pest pressures, and thereby driving greater use of land, water and inputs. Rising temperatures and changing weather pat"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Climate_change",
+    "wiki:Climate_finance",
+    "wiki:Effects_of_climate_change",
+    "wiki:Economic_analysis_of_climate_change",
+    "wiki:Effects_of_climate_change_on_agriculture"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN44_m2a_cdma_arl_wiki_20260424_193037.md"
+}

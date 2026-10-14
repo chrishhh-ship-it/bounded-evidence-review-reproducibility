@@ -1,6 +1,3 @@
-numpy>=1.26
-pandas>=2.0
-scipy>=1.11
-statsmodels>=0.14
-requests>=2.31
-python-dotenv>=1.0
+# Analysis dependencies for the v4 R2 deposit.
+-r requirements-analysis.txt
+# Optional provider/NLI dependencies are listed in requirements-optional.txt.

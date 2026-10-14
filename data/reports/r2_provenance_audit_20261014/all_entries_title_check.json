@@ -1,0 +1,40 @@
+{
+  "M1": {
+    "entries": 1984,
+    "verbatim": 1980,
+    "cited_entries": 1975,
+    "cited_verbatim": 1971,
+    "similarity_only": 4,
+    "cited_similarity_only": 4
+  },
+  "M2a": {
+    "entries": 1999,
+    "verbatim": 1993,
+    "cited_entries": 1995,
+    "cited_verbatim": 1989,
+    "similarity_only": 6,
+    "cited_similarity_only": 6
+  },
+  "M2b": {
+    "entries": 1993,
+    "verbatim": 1989,
+    "cited_entries": 1980,
+    "cited_verbatim": 1977,
+    "similarity_only": 4,
+    "cited_similarity_only": 3
+  },
+  "M2c": {
+    "entries": 2008,
+    "verbatim": 2008,
+    "cited_entries": 908,
+    "cited_verbatim": 908
+  },
+  "total": {
+    "entries": 7984,
+    "verbatim": 7970,
+    "cited_entries": 6858,
+    "cited_verbatim": 6845,
+    "similarity_only": 14,
+    "cited_similarity_only": 13
+  }
+}

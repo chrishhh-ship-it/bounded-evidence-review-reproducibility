@@ -1,0 +1,60 @@
+{
+  "qid": "EN40",
+  "condition": "m2a_cdma_arl",
+  "query": "How are integrated assessment models used to evaluate the co-benefits of climate mitigation policies for air quality and public health?",
+  "domain": "Climate Policy Research",
+  "category": "modelling",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Climate change mitigation",
+    "Climate change",
+    "Economic analysis of climate change",
+    "Environmental policy",
+    "Wildfire"
+  ],
+  "top_papers": [
+    {
+      "title": "Climate change mitigation",
+      "abstract": "Climate change mitigation, also called climate change decarbonisation, is an action to limit the greenhouse gases in the atmosphere that cause climate change. Climate change mitigation actions include conserving energy and replacing fossil fuels with clean energy sources. Secondary mitigation strategies include changes to land use and removing carbon dioxide (CO2) from the atmosphere. 2022 assessments emphasize that global greenhouse gas emissions must peak before 2025 and decline by about 43% b"
+    },
+    {
+      "title": "Climate change",
+      "abstract": "Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution. Fossil fuel use, deforestation, and some agricultural and industrial practices rele"
+    },
+    {
+      "title": "Economic analysis of climate change",
+      "abstract": "Economic analysis of climate change uses economic tools and models to calculate the scale and distribution of damages caused by climate change. It can also give guidance for the best policies for mitigation and adaptation to climate change from an economic perspective. There are many economic models and frameworks. For example, in a cost–benefit analysis, the trade offs between climate change impacts, adaptation, and mitigation are made explicit."
+    },
+    {
+      "title": "Environmental policy",
+      "abstract": "Environmental policy is the pledge by governments or organizations to adopt laws, regulations, and other policy tools aimed at addressing environmental issues. These typically involve air and water pollution, waste management, ecosystem protection, biodiversity conservation, management of natural resources, and safeguarding wildlife and endangered species\nFor example, concerning environmental policy, the implementation of an eco-energy-oriented policy at a global level to address the issue of cl"
+    },
+    {
+      "title": "Wildfire",
+      "abstract": "A wildfire, forest fire, or a bushfire is an unplanned and uncontrolled fire in an area of combustible vegetation. Some natural forest ecosystems depend on wildfire. Modern forest management often engages in prescribed burns to mitigate fire risk and promote natural forest cycles. However, controlled burns can turn into wildfires by mistake."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Climate_change_mitigation",
+    "wiki:Climate_change",
+    "wiki:Economic_analysis_of_climate_change",
+    "wiki:Environmental_policy",
+    "wiki:Wildfire"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN40_m2a_cdma_arl_wiki_20260424_193008.md"
+}

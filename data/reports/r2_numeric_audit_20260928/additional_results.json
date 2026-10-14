@@ -1,0 +1,160 @@
+{
+  "title": {
+    "single_agent_label": {
+      "n": 320,
+      "correct": 312,
+      "accuracy": 0.975,
+      "macro_f1": 0.9749843652282677,
+      "kappa": 0.95
+    },
+    "arl_label": {
+      "n": 320,
+      "correct": 319,
+      "accuracy": 0.996875,
+      "macro_f1": 0.9968661554582758,
+      "kappa": 0.9937323722970856
+    },
+    "mcnemar": {
+      "b": 8,
+      "c": 1,
+      "p": 0.0390625
+    }
+  },
+  "semantic": {
+    "V0": {
+      "n": 60,
+      "labels": {
+        "PARTIAL": 37,
+        "SUPPORTED": 19,
+        "INSUFFICIENT": 3,
+        "CONTRADICTED": 1
+      }
+    },
+    "V1": {
+      "n": 60,
+      "labels": {
+        "PARTIAL": 18,
+        "SUPPORTED": 37,
+        "REMOVED": 5
+      }
+    },
+    "V2": {
+      "n": 60,
+      "labels": {
+        "PARTIAL": 19,
+        "SUPPORTED": 38,
+        "REMOVED": 2,
+        "CONTRADICTED": 1
+      }
+    },
+    "reliability": {
+      "n": 173,
+      "agree": 169,
+      "kappa": 0.9551929551929552
+    }
+  },
+  "alce": {
+    "asqa_citation_index_validity": {
+      "n": 40,
+      "v0": 1.0,
+      "v2": 1.0,
+      "difference": 0.0,
+      "up": 0,
+      "down": 0,
+      "same": 40,
+      "p": null
+    },
+    "asqa_sentence_citation_coverage": {
+      "n": 40,
+      "v0": 0.7837500000000001,
+      "v2": 0.9337500000000001,
+      "difference": 0.15,
+      "up": 14,
+      "down": 2,
+      "same": 24,
+      "p": 0.0029700010983635967
+    },
+    "qampari_citation_index_validity": {
+      "n": 40,
+      "v0": 0.75,
+      "v2": 0.975,
+      "difference": 0.225,
+      "up": 9,
+      "down": 0,
+      "same": 31,
+      "p": 0.002699796063260186
+    },
+    "qampari_sentence_citation_coverage": {
+      "n": 40,
+      "v0": 0.7416666666666667,
+      "v2": 0.9666666666666668,
+      "difference": 0.225,
+      "up": 9,
+      "down": 0,
+      "same": 31,
+      "p": 0.002699796063260186
+    }
+  },
+  "nli_stored_summary": {
+    "asqa::v0": {
+      "items": 40,
+      "sentences": 80,
+      "uncited": 25,
+      "invalid": 0,
+      "cited_sentence_rate": 0.6875,
+      "claim_entailment_rate": 0.14545454545454545,
+      "mean_entailment_probability": 0.14423275009136308,
+      "pairs": 55
+    },
+    "asqa::v1": {
+      "items": 40,
+      "sentences": 157,
+      "uncited": 76,
+      "invalid": 0,
+      "cited_sentence_rate": 0.5159235668789809,
+      "claim_entailment_rate": 0.1728395061728395,
+      "mean_entailment_probability": 0.2014380844258186,
+      "pairs": 81
+    },
+    "asqa::v2": {
+      "items": 40,
+      "sentences": 79,
+      "uncited": 10,
+      "invalid": 0,
+      "cited_sentence_rate": 0.8734177215189873,
+      "claim_entailment_rate": 0.15942028985507245,
+      "mean_entailment_probability": 0.191621445337027,
+      "pairs": 69
+    },
+    "qampari::v0": {
+      "items": 40,
+      "sentences": 127,
+      "uncited": 12,
+      "invalid": 0,
+      "cited_sentence_rate": 0.905511811023622,
+      "claim_entailment_rate": 0.16521739130434782,
+      "mean_entailment_probability": 0.24787686627520167,
+      "pairs": 115
+    },
+    "qampari::v1": {
+      "items": 40,
+      "sentences": 128,
+      "uncited": 8,
+      "invalid": 0,
+      "cited_sentence_rate": 0.9375,
+      "claim_entailment_rate": 0.075,
+      "mean_entailment_probability": 0.1591803404415259,
+      "pairs": 120
+    },
+    "qampari::v2": {
+      "items": 40,
+      "sentences": 132,
+      "uncited": 9,
+      "invalid": 0,
+      "cited_sentence_rate": 0.9318181818181818,
+      "claim_entailment_rate": 0.04065040650406504,
+      "mean_entailment_probability": 0.16555465987648785,
+      "pairs": 123
+    }
+  }
+}

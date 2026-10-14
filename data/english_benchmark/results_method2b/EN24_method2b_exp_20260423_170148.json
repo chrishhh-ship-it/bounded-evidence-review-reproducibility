@@ -1,0 +1,209 @@
+{
+  "query_id": "EN24",
+  "query": "How do crowdsourced annotation platforms address reliability and inter-annotator agreement in humanities text labelling tasks?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Using Large Language Models for Text Annotation in Social Science and Humanities: A Hands-On Python/R Tutorial",
+      "authors": [
+        "Qixiang Fang",
+        "Javier Garcia-Bernardo",
+        "Erik-Jan van Kesteren"
+      ],
+      "abstract": "Large language models (LLMs) have become an essential tool for social scientists and humanities (SSH) researchers who work with textual data. One particularly valuable use case is automating text annotation, traditionally a time-consuming step in preparing data for empirical analysis. Yet, many SSH researchers face two challenges: getting started with LLMs, and understanding how to evaluate and correct for their limitations. The rapid pace of model development can make LLMs appear inaccessible or intimidating, while even experienced users may overlook how annotation errors can bias results from downstream analyses (e.g., regression estimates, $p$-values), even when accuracy appears high. This tutorial provides a step-by-step, hands-on guide to using LLMs for text annotation in SSH research for both Python and R users. We cover (1) how to choose and access LLM APIs, (2) how to design and run annotation tasks programmatically, (3) how to evaluate annotation quality and iterate on prompts, (4) how to integrate annotations into statistical workflows while accounting for uncertainty, and (5) how to manage cost, efficiency, and reproducibility. Throughout, we provide concrete examples, code snippets, and best-practice checklists to help researchers confidently and transparently incorporate LLM-based annotation into their workflows.",
+      "year": "2025",
+      "published_date": "2025-11-13",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.31235/osf.io/v4eq6_v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.31235/osf.io/v4eq6_v1",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models full text retrieval"
+    },
+    {
+      "title": "Text analysis using deep neural networks in digital humanities and information science",
+      "authors": [
+        "Omri Suissa",
+        "Avshalom Elmalech",
+        "Maayan Zhitomirsky‐Geffet"
+      ],
+      "abstract": "Abstract Combining computational technologies and humanities is an ongoing effort aimed at making resources such as texts, images, audio, video, and other artifacts digitally available, searchable, and analyzable. In recent years, deep neural networks (DNN) dominate the field of automatic text analysis and natural language processing (NLP), in some cases presenting a super‐human performance. DNNs are the state‐of‐the‐art machine learning algorithms solving many NLP tasks that are relevant for Digital Humanities (DH) research, such as spell checking, language detection, entity extraction, author detection, question answering, and other tasks. These supervised algorithms learn patterns from a large number of “right” and “wrong” examples and apply them to new examples. However, using DNNs for analyzing the text resources in DH research presents two main challenges: (un)availability of training data and a need for domain adaptation. This paper explores these challenges by analyzing multiple use‐cases of DH studies in recent literature and their possible solutions and lays out a practical decision model for DH experts for when and how to choose the appropriate deep learning approaches for their research. Moreover, in this paper, we aim to raise awareness of the benefits of utilizing deep learning models in the DH community.",
+      "year": "2021",
+      "published_date": "2021-06-30",
+      "journal": "Journal of the Association for Information Science and Technology",
+      "url": "https://doi.org/10.1002/asi.24544",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Artificial intelligence",
+        "Deep learning",
+        "Field (mathematics)",
+        "Digital humanities",
+        "Domain (mathematical analysis)",
+        "Spell",
+        "Question answering"
+      ],
+      "citations": 63,
+      "source": "OpenAlex",
+      "doi": "10.1002/asi.24544",
+      "open_access": false,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "title": "Development and evaluation of an automatic text annotation system for supporting digital humanities research",
+      "authors": [
+        "Chih-Ming Chen",
+        "Yung-Ting Chen",
+        "Chen-Yu Liu"
+      ],
+      "abstract": "\nPurpose\nAn automatic text annotation system (ATAS) that can collect resources from different databases through Linked Data (LD) for automatically annotating ancient texts was developed in this study to support digital humanities research. It allows the humanists referring to resources from diverse databases when interpreting ancient texts as well as provides a friendly text annotation reader for humanists interpreting ancient text through reading. The paper aims to discuss whether the ATAS is helpful to support digital humanities research or not.\n\n\nDesign/methodology/approach\nBased on the quasi-experimental design, the ATAS developed in this study and MARKUS semi-ATAS were compared whether the significant differences in the reading effectiveness and technology acceptance for supporting humanists interpreting ancient text of the Ming dynasty’s collections existed or not. Additionally, lag sequential analysis was also used to analyze users’ operation behaviors on the ATAS. A semi-structured in-depth interview was also applied to understand users’ opinions and perception of using the ATAS to interpret ancient texts through reading.\n\n\nFindings\nThe experimental results reveal that the ATAS has higher reading effectiveness than MARKUS semi-ATAS, but not reaching the statistically significant difference. The technology acceptance of the ATAS is significantly higher than that of MARKUS semi-ATAS. Particularly, the function comparison of the two systems shows that the ATAS presents more perceived ease of use on the functions of term search, connection to source websites and adding annotation than MARKUS semi-ATAS. Furthermore, the reading interface of ATAS is simple and understandable and is more suitable for reading than MARKUS semi-ATAS. Among all the considered LD sources, Moedict, which is an online Chinese dictionary, was confirmed as the most helpful one.\n\n\nResearch limitations/implications\nThis study adopted Jieba Chinese parser to perform the word segmentation process based on a parser lexicon for the Chinese ancient texts of the Ming dynasty’s collections. The accuracy of word segmentation to a lexicon-based Chinese parser is limited due to ignoring the grammar and semantics of ancient texts. Moreover, the original parser lexicon used in Jieba Chinese parser only contains the modern words. This will reduce the accuracy of word segmentation for Chinese ancient texts. The two limitations that affect Jieba Chinese parser to correctly perform the word segmentation process for Chinese ancient texts will significantly affect the effectiveness of using ATAS to support digital humanities research. This study thus proposed a practicable scheme by adding new terms into the parser lexicon based on humanists’ self-judgment to improve the accuracy of word segmentation of Jieba Chinese parser.\n\n\nPractical implications\nAlthough some digital humanities platforms have been successfully developed to support digital humanities research for humanists, most of them have still not provided a friendly digital reading environment to support humanists on interpreting texts. For this reason, this study developed an ATAS that can automatically retrieve LD sources from different databases on the Internet to supply rich annotation information on reading texts to help humanists interpret texts. This study brings digital humanities research to a new ground.\n\n\nOriginality/value\nThis study proposed a novel ATAS that can automatically annotate useful information on an ancient text to increase the readability of the ancient text based on LD sources from different databases, thus helping humanists obtain a deeper and broader understanding in the ancient text. Currently, there is no this kind of tool developed for humanists to support digital humanities research.\n",
+      "year": "2019",
+      "published_date": "2019-09-16",
+      "journal": "Library hi tech",
+      "url": "https://www.semanticscholar.org/paper/b95989deca9ce4043f34a024c59082bc0c68fcac",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 13,
+      "source": "Semantic Scholar",
+      "doi": "10.1108/LHT-10-2017-0219",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    },
+    {
+      "title": "Auditing frontier general-purpose large language models in biomedical tasks: reasoning gains, extraction limits, and benchmark reliability",
+      "authors": [
+        "Yu Hou",
+        "Zaifu Zhan",
+        "Min Zeng",
+        "Yifan Wu",
+        "Shuang Zhou",
+        "Xiaoyi Chen",
+        "Huixue Zhou",
+        "Meijia Song",
+        "Rui Zhang"
+      ],
+      "abstract": "As large language models approach clinical deployment, their deployment-relevant reliability and the validity of the benchmarks used to assess it remain insufficiently examined. Here, we present a unified, reproducible, and human-centric audit of frontier general-purpose language models using representative biomedical text-mining tasks and nine biomedical question-answering benchmarks spanning reasoning-intensive, extraction-oriented, and multimodal settings. We observe consistent gains in clinical reasoning and multimodal biomedical QA; however, limitations in format-constrained tasks such as span-level extraction and evidence-dense summarization pose challenges for integration into structured clinical workflows, despite narrowing gaps with supervised systems. Blinded expert adjudication confirms more coherent and clinically plausible reasoning and further reveals that a substantial fraction of apparent errors arises from outdated or ambiguous benchmark annotations, suggesting that current benchmarks may misestimate model capability and potentially misguide deployment decisions. Cost-normalized analyses demonstrate that recent frontier models achieve higher accuracy at substantially lower cost per correct answer, reshaping practical deployment trade-offs for scalable digital medicine systems. Together, these findings suggest that general-purpose language models are approaching deployment-relevant reliability; however, safe and effective clinical use will require hybrid architectures, external grounding, and human-in-the-loop evaluation and expert oversight.",
+      "year": "2026",
+      "published_date": "2026-02-18",
+      "journal": "Research Square",
+      "url": "https://www.semanticscholar.org/paper/e43ef47dd84e5d22aac2776de48cc88b4ff40b35",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.21203/rs.3.rs-8605899/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "Collaboration Dynamics and Reliability Challenges of Multi-Agent LLM Systems in Finite Element Analysis",
+      "authors": [
+        "Chuan Tian",
+        "Yilei Zhang"
+      ],
+      "abstract": "Large Language Model (LLM)-based multi-agent systems are increasingly applied to automate computational workflows in science and engineering. However, how inter-agent dynamics influence reasoning quality and verification reliability remains unclear. We study these mechanisms using an AutoGen-based multi-agent framework for linear-elastic Finite Element Analysis (FEA), evaluating seven role configurations across four tasks under a fixed 12-turn conversation limit. From 1,120 controlled trials, we find that collaboration effectiveness depends more on functional complementarity than team size: the three-agent Coder-Executor-Critic configuration uniquely produced physically and visually correct solutions, while adding redundant reviewers reduced success rates. Yet three systematic failure modes persist: (1) affirmation bias, where the Rebuttal agent endorsed rather than challenged outputs (85-92% agreement, including errors); (2) premature consensus caused by redundant reviewers; and (3) a verification-validation gap where executable but physically incorrect code passed undetected. No agent combination successfully validated constitutive relations in complex tasks. Building on theories of functional diversity, role differentiation, and computational validation, we propose actionable design principles: (i) assign complementary agent roles, (ii) enforce multi-level validation (execution, specification, physics), and (iii) prevent early consensus through adversarial or trigger-based interaction control. These findings establish a principled foundation for designing trustworthy LLM collaborations in engineering workflows.",
+      "year": "2024",
+      "published_date": "2024-08-23",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2408.13406v2",
+      "arxiv_id": "2408.13406v2",
+      "keywords": [
+        "cs.AI",
+        "cs.CE",
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system systematic review"
+    },
+    {
+      "title": "What Do Humanities Scholars Need? A User Model for Recommendation in Digital Archives",
+      "authors": [
+        "Florian Atzenhofer-Baumgartner",
+        "Dominik Kowald"
+      ],
+      "abstract": "User models for recommender systems (RecSys) typically assume stable preferences, similarity-based relevance, and session-bounded interactions -- assumptions derived from high-volume consumer contexts. This paper investigates these assumptions for humanities scholars working with digital archives. Following a human-centered design approach, we conducted focus groups and analyzed interview data from 18 researchers. Our analysis identifies four dimensions where scholarly information-seeking diverges from common RecSys user modeling: (1) context volatility -- preferences shift with research tasks and domain expertise; (2) epistemic trust -- relevance depends on verifiable provenance; (3) contrastive seeking -- researchers seek items that challenge their current direction; and (4) strand continuity -- research spans long-term threads rather than discrete sessions. We discuss implications for user modeling and outline how these dimensions relate to collaborative filtering, content-based, and session-based recommendation. We propose these dimensions as a diagnostic framework applicable beyond archives to similar application domains where typical user modeling assumptions may not hold.",
+      "year": "2026",
+      "published_date": "2026-04-02",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2604.06232v1",
+      "arxiv_id": "2604.06232v1",
+      "keywords": [
+        "cs.DL",
+        "cs.IR"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis benchmark"
+    },
+    {
+      "title": "A multimodal turn in Digital Humanities. Using contrastive machine learning models to explore, enrich, and analyze digital visual historical collections",
+      "authors": [
+        "T. Smits",
+        "Melvin Wevers"
+      ],
+      "abstract": "\n Until recently, most research in the Digital Humanities (DH) was monomodal, meaning that the object of analysis was either textual or visual. Seeking to integrate multimodality theory into the DH, this article demonstrates that recently developed multimodal deep learning models, such as Contrastive Language Image Pre-training (CLIP), offer new possibilities to explore and analyze image–text combinations at scale. These models, which are trained on image and text pairs, can be applied to a wide range of text-to-image, image-to-image, and image-to-text prediction tasks. Moreover, multimodal models show high accuracy in zero-shot classification, i.e. predicting unseen categories across heterogeneous datasets. Based on three exploratory case studies, we argue that this zero-shot capability opens up the way for a multimodal turn in DH research. Moreover, multimodal models allow scholars to move past the artificial separation of text and images that was dominant in the field and analyze multimodal meaning at scale. However, we also need to be aware of the specific (historical) bias of multimodal deep learning that stems from biases in the training data used to train these models.",
+      "year": "2023",
+      "published_date": "2023-03-15",
+      "journal": "Digital Scholarship in the Humanities",
+      "url": "https://www.semanticscholar.org/paper/bdd65d7bbe6ec3f04b17ea1311e4c64b1c62e63d",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 38,
+      "source": "Semantic Scholar",
+      "doi": "10.1093/llc/fqad008",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    },
+    {
+      "title": "How do we study misogyny in the digital age? A systematic literature review using a computational linguistic approach",
+      "authors": [
+        "Lara Fontanella",
+        "Berta Chulvi",
+        "Elisa Ignazzi",
+        "A. Sarra",
+        "Alice Tontodimamma"
+      ],
+      "abstract": "Nowadays, despite centuries of striving for equality, women still face higher levels of discrimination compared to men in nearly every aspect of life. Recently, this systemic inequality has manifested in cyberspace through the proliferation of abusive content that is even more aggressive than what one would expect in the 21st century. Various research disciplines are now attempting to characterise this new manifestation of misogyny. The endeavour to comprehend this phenomenon has resulted in a significant increase in publications from several fields, including Social Sciences, Arts and Humanities, Psychology, and Computer Science. This paper presents a systematic review of multidisciplinary research on misogyny from the years 1990 to 2022, encompassing a total of 2830 articles retrieved from the Scopus database as of December 31, 2022. The literature is thoroughly analysed using three approaches: bibliometric analysis, topic detection, and qualitative analysis of the documents. The findings suggest that the analysis of online misogyny has been the primary driver behind the exponential growth in publications in this field. Additionally, the results of the topic analysis and topic interaction reveal a limited connection between the areas of knowledge that are necessary to fully grasp this complex phenomenon.",
+      "year": "2024",
+      "published_date": "2024-04-02",
+      "journal": "Humanities and Social Sciences Communications",
+      "url": "https://www.semanticscholar.org/paper/aa211982ba661c19c4f362226b17f649f1ff05dd",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 32,
+      "source": "Semantic Scholar",
+      "doi": "10.1057/s41599-024-02978-7",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    }
+  ],
+  "timestamp": "20260423_170148"
+}

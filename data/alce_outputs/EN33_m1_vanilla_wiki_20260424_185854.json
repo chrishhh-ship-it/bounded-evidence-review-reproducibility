@@ -1,0 +1,27 @@
+{
+  "qid": "EN33",
+  "condition": "m1_vanilla",
+  "query": "How do PRISMA guidelines shape the structure of systematic reviews and what computational tools support PRISMA compliance?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "prisma",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 1,
+  "eq_titles": [
+    "Wikipedia: How do PRISMA guidelines shape the struc"
+  ],
+  "top_papers": [
+    {
+      "title": "Wikipedia: How do PRISMA guidelines shape the struc",
+      "abstract": ""
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Wikipedia:_How_do_PRISMA_guidelines_shape_the_struc"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN33_m1_vanilla_wiki_20260424_185854.md"
+}

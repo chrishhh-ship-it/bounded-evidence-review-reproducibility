@@ -1,0 +1,212 @@
+{
+  "Q59": {
+    "query_id": "Q59",
+    "query_text": "负样本测试应如何设计，才能检验 reviewer agent 是否真的能识别错误引用？",
+    "translated_en": "negative sample for reviewer error citation identification",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:04"
+  },
+  "Q103": {
+    "query_id": "Q103",
+    "query_text": "负样本（设计为失败案例）的基准查询如何设计以暴露管线的系统性弱点？",
+    "translated_en": "negative sample benchmark expose pipeline systematic weaknesses",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:06"
+  },
+  "Q072": {
+    "query_id": "Q072",
+    "query_text": "检索召回集大小（top-k）与后续 Evidence Extraction 的计算成本之间存在怎样的权衡关系？",
+    "translated_en": "trade-off between top-k retrieval size and subsequent evidence",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:08"
+  },
+  "Q11": {
+    "query_id": "Q11",
+    "query_text": "多源文献检索在情报服务中的常见噪声类型是什么？",
+    "translated_en": "multi-source retrieval intelligence common noise types",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:10"
+  },
+  "Q089": {
+    "query_id": "Q089",
+    "query_text": "在多语言混合（中文查询+英文文献）场景中，合成智能体的语言切换策略如何影响引用结构？",
+    "translated_en": "multilingual synthetic language switching strategy citation structure",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:12"
+  },
+  "Q078": {
+    "query_id": "Q078",
+    "query_text": "段落完整率（SC）作为结构指标在多智能体管线评估中的作用和局限性是什么？",
+    "translated_en": "segment completeness structural indicator multi-agent pipeline evaluation limitations",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:14"
+  },
+  "Q43": {
+    "query_id": "Q43",
+    "query_text": "如果全文只覆盖引言和方法而缺少结果部分，系统应如何限制结论陈述？",
+    "translated_en": "limiting conclusion statements texts lacking results section",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:16"
+  },
+  "Q062": {
+    "query_id": "Q062",
+    "query_text": "多智能体协同在竞争情报场景中，如何通过角色分工减少幻觉引用？",
+    "translated_en": "multi-agent collaboration competitive intelligence division reducing illusory citations",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:18"
+  },
+  "Q106": {
+    "query_id": "Q106",
+    "query_text": "知识服务场景下，多智能体情报系统相比传统数据库检索的核心优势体现在哪些指标上？",
+    "translated_en": "knowledge scenarios multi-agent intelligence core advantages traditional database",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:21"
+  },
+  "Q02": {
+    "query_id": "Q02",
+    "query_text": "多智能体协同在竞争情报检索与证据聚合中的核心收益是什么？",
+    "translated_en": "multi-agent collaboration competitive intelligence retrieval evidence aggregation core",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:25"
+  },
+  "Q068": {
+    "query_id": "Q068",
+    "query_text": "检索智能体在遭遇语义漂移查询时，应如何通过查询扩展控制幻觉引用的产生？",
+    "translated_en": "intelligent semantic drift illusion control expansion",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:29"
+  },
+  "Q099": {
+    "query_id": "Q099",
+    "query_text": "多智能体管线的延迟（~62s/query）对实时情报分析应用的可用性构成怎样的约束？",
+    "translated_en": "multi-agent pipeline latency real-time intelligence application constraints",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:31"
+  },
+  "Q082": {
+    "query_id": "Q082",
+    "query_text": "证据字典中「limitation」字段的提取质量如何影响综述报告中的局限性声明引用精度？",
+    "translated_en": "extraction quality limitation field evidence dictionary affecting precision",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:33"
+  },
+  "Q102": {
+    "query_id": "Q102",
+    "query_text": "在扩展到 n≥200 查询时，如何设计分层抽样策略以确保覆盖不同语料覆盖率等级的查询？",
+    "translated_en": "stratified sampling strategies for ensuring coverage varying corpus",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:35"
+  },
+  "Q070": {
+    "query_id": "Q070",
+    "query_text": "多智能体检索管线中，元数据仲裁（标题/DOI/摘要）的优先级排序对去重精度有何影响？",
+    "translated_en": "multi-agent retrieval pipeline metadata arbitration title doi abstract",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:37"
+  },
+  "Q094": {
+    "query_id": "Q094",
+    "query_text": "修订智能体的「受约束修复」设计如何防止其在修复引用错误时引入新的语义错误？",
+    "translated_en": "constrained repair for intelligent prevent semantic errors error",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:39"
+  },
+  "Q16": {
+    "query_id": "Q16",
+    "query_text": "面向智慧情报服务的自动报告写作，最稳妥的论文式行文结构是什么？",
+    "translated_en": "automatic report writing for intelligent intelligence optimal structure",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:41"
+  },
+  "Q093": {
+    "query_id": "Q093",
+    "query_text": "跨模型 ARL（DeepSeek 写作 + Kimi 审阅）与同模型 ARL 的性能差距如何从理论上解释？",
+    "translated_en": "inter-model arl performance gap deepseek writing kimi review",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:43"
+  },
+  "Q27": {
+    "query_id": "Q27",
+    "query_text": "如何构建面向智慧情报服务的 benchmark query set 与评测协议？",
+    "translated_en": "constructing benchmark set and evaluation protocol for intelligent",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:45"
+  },
+  "Q081": {
+    "query_id": "Q081",
+    "query_text": "多文档冲突证据的识别和调解在文献综述管线中应由哪个角色负责？如何设计？",
+    "translated_en": "identification mediation multi-document conflicting evidence review pipeline responsibility",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:02:48"
+  },
+  "Q41": {
+    "query_id": "Q41",
+    "query_text": "在冻结语料设置下，reranking agent 应优先优化相关性、可引用性还是摘要质量？",
+    "translated_en": "freeze corpus reranking optimize relevance citation summarization quality",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:12"
+  },
+  "Q084": {
+    "query_id": "Q084",
+    "query_text": "引用约束撰写中，合成智能体如何在「不允许引用语料库外文献」的约束下处理覆盖率稀疏的查询？",
+    "translated_en": "intelligent processing without external corpus citations under sparse",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:15"
+  },
+  "Q33": {
+    "query_id": "Q33",
+    "query_text": "知识服务系统中，用户问题澄清 agent 是否应独立存在，还是并入检索 agent 更合适？",
+    "translated_en": "knowledge user question clarification independent existence integration with",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:19"
+  },
+  "Q109": {
+    "query_id": "Q109",
+    "query_text": "多智能体情报系统在专业知识服务（法律/医学/专利）领域的迁移适用性取决于哪些关键因素？",
+    "translated_en": "intelligent-agent information-system knowledge-service domain transfer-applicability legal medical patent",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:21"
+  },
+  "Q46": {
+    "query_id": "Q46",
+    "query_text": "自动生成的情报报告应如何区分“证据支持的发现”和“作者推断的解释”？",
+    "translated_en": "automatic intelligence report distinguishing evidence-supported findings from author-inferred",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:23"
+  },
+  "Q079": {
+    "query_id": "Q079",
+    "query_text": "证据提取角色将摘要压缩为四字段结构体后，是否会引入摘要级信息损失从而影响引用质量？",
+    "translated_en": "evidence extraction abstract compression four-field structure information loss",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:25"
+  },
+  "Q48": {
+    "query_id": "Q48",
+    "query_text": "在引言部分，多智能体系统应如何压缩背景综述而不牺牲引用密度？",
+    "translated_en": "multi-agent compress background review maintain citation density",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:27"
+  },
+  "Q091": {
+    "query_id": "Q091",
+    "query_text": "当 Reviewer 和 Reviser 使用同一底层模型时，是否存在「自我确认偏误」的系统性风险？",
+    "translated_en": "systematic risk self-confirmation bias reviewer reviser same underlying",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:29"
+  },
+  "Q074": {
+    "query_id": "Q074",
+    "query_text": "引文精度（ICP）和证据接地精度（ECP）作为二级指标的设计如何优于单一整体评分？",
+    "translated_en": "citation precision icp evidence grounding ecp superior secondary",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:31"
+  },
+  "Q071": {
+    "query_id": "Q071",
+    "query_text": "Scopus/OpenAlex/arXiv 多源混合检索时，各源返回结果的领域偏差如何在管线中被校正？",
+    "translated_en": "multi-source retrieval domain bias correction scopus openalex arxiv",
+    "provider": "kimi",
+    "updated_at": "2026-04-15T21:03:34"
+  }
+}

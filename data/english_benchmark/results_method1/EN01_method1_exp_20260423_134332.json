@@ -1,0 +1,190 @@
+{
+  "query_id": "EN01",
+  "query": "How can multi-agent systems be architected to maintain evidence traceability in competitive intelligence workflows?",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Multi-Agent AI Systems in Healthcare: Systematic Evidence Synthesis Via PRISMA of Clinical Decision Support Systems, Robotic Interventions, and Critical Care",
+      "authors": [
+        "Oto Peter Ode",
+        "Ndukwe Chika Kalu",
+        "Saleh Abbas",
+        "Arslan Arshad",
+        "Adagboyi Isaac Inalegwu",
+        "Konstantin Koshechkin"
+      ],
+      "abstract": "Abstract: Multi-agent artificial intelligence systems (MAS) is transforming the healthcare sector by enabling intelligent decision-making, robotic interventions, and critical care management. Despite growing interest, a comprehensive synthesis of their real-world applications, performance, and limitations is lacking. This systematic review aims to evaluate the deployment of MAS in healthcare across three key domains: Clinical Decision Support Systems (CDSS), Robotic Interventions, and Critical Care Monitoring. It also addresses ethical and legal considerations, offers a comparative framework, and identifies research gaps. A systematic search of PubMed, IEEE Xplore, Scopus, and Web of Science was conducted following PRISMA guidelines. A total of 150 records were retrieved. After duplicate removal and screening, 32 studies met inclusion criteria. The Joanna Briggs Institute (JBI) Critical Appraisal Checklist guided quality assessment. Data were extracted using a structured form and organized by topic. Among the 32 studies included, 12 focused on MAS-based CDSS, 11 on robotic interventions, and 9 on MAS in critical care. Most MAS demonstrated improved diagnostic accuracy, aided real-time decision support, and enhanced patient monitoring. However, over 60% involved practical models and lacked clinical validation. Ethical concerns, particularly around autonomy, data privacy, transparency, and legal accountability were sometimes overlooked. Only 7 studies discussed ethical or legal implications in depth. A comparative framework was developed, comparing MAS tools based on scalability, clinical validation, autonomy, human-AI interaction, and data transparency. No doubt, MAS hold transformative potential across healthcare domains. However, real-world deployment remains unclear. Greater emphasis on clinical validation, ethical design, and regulatory frameworks is needed. This review provides suggestions for future research and responsible adoption of MAS in healthcare.",
+      "year": "2025",
+      "published_date": "2025-06-19",
+      "journal": "International Journal of Latest Technology in Engineering Management &amp; Applied Science",
+      "url": "https://www.semanticscholar.org/paper/fe07442a7eb33396064eb4d2400ea3464a03cd29",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.51583/ijltemas.2025.140500080",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "SLA Management in Reconfigurable Multi-Agent RAG: A Systems Approach to Question Answering",
+      "authors": [
+        "Michael Iannelli",
+        "Sneha Kuchipudi",
+        "Vera Dvorak"
+      ],
+      "abstract": "Retrieval Augmented Generation (RAG) enables Large Language Models (LLMs) to generalize to new information by decoupling reasoning capabilities from static knowledge bases. Traditional RAG enhancements have explored vertical scaling-assigning subtasks to specialized modules-and horizontal scaling-replicating tasks across multiple agents-to improve performance. However, real-world applications impose diverse Service Level Agreements (SLAs) and Quality of Service (QoS) requirements, involving trade-offs among objectives such as reducing cost, ensuring answer quality, and adhering to specific operational constraints.   In this work, we present a systems-oriented approach to multi-agent RAG tailored for real-world Question Answering (QA) applications. By integrating task-specific non-functional requirements-such as answer quality, cost, and latency-into the system, we enable dynamic reconfiguration to meet diverse SLAs. Our method maps these Service Level Objectives (SLOs) to system-level parameters, allowing the generation of optimal results within specified resource constraints.   We conduct a case study in the QA domain, demonstrating how dynamic re-orchestration of a multi-agent RAG system can effectively manage the trade-off between answer quality and cost. By adjusting the system based on query intent and operational conditions, we systematically balance performance and resource utilization. This approach allows the system to meet SLOs for various query types, showcasing its practicality for real-world applications.",
+      "year": "2024",
+      "published_date": "2024-12-07",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2412.06832v2",
+      "arxiv_id": "2412.06832v2",
+      "keywords": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL",
+        "cs.DC"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    },
+    {
+      "title": "AdversarialCI: A Buyer-Adaptive Multi-Agent Framework for Evidence-Grounded Competitive Intelligence",
+      "authors": [
+        "Ajinkya Gajananrao Chintawar"
+      ],
+      "abstract": "Competitive intelligence (CI) tools in enterprise software procurement are predominantly static, producing generic battlecards that fail to account for individual buyer priorities. We introduce AdversarialCI, a domain-agnostic multi-agent framework that simulates an adversarial court proceeding between vendor advocate agents. Verdict dimensions are dynamically weighted by a structured buyer profile termed the \"plaintiff\".\n                The framework consists of three core components: (1) a multi-source evidence ingestion pipeline with automated verification and confidence scoring; (2) a three-round adversarial court simulation where LLM-powered advocates argue solely from verified evidence; and (3) a plaintiff-weighted judge that produces dimension-level verdicts, an overall winner, and a \"swing factor\"—the single buyer constraint most likely to change the outcome.\n                We demonstrate AdversarialCI in the database vendor selection domain across five vendors, achieving 87.9% accuracy against a manually curated ground truth dataset. Critically, the system produces different verdicts for different buyer profiles on identical vendor sets, validating that the framework is genuinely buyer-adaptive. This represents the first system to combine adversarial multi-agent simulation with plaintiff-specific verdict routing for competitive intelligence. The architecture effectively addresses the tendency of LLMs to generate unsupported claims by constraining agents to a verified evidence bank and making source citation mandatory .",
+      "year": "2026",
+      "published_date": "2026-2-24",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.14293/pr2199.003028.v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.14293/pr2199.003028.v1",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "policy intelligence AND evidence grounded writing"
+    },
+    {
+      "title": "Enabling Intelligence in Digital Twins Through Semantic Enrichment and Multi-Agent Systems: A Systematic Literature Review",
+      "authors": [
+        "J. Lehmann",
+        "T. Häußermann",
+        "Tristan Wissenbach",
+        "J. Reichwald"
+      ],
+      "abstract": "Semantic technologies and Multi-Agent Systems (MAS) are promising key technologies for making Digital Twins (DTs) intelligent. Due to siloed architectures and the lack of interoperability, many current implementations remain isolated and are limited in terms of intelligence and proactivity. Semantic enrichment provides a common basis of understanding that fosters interoperability and contextual awareness across system boundaries, while MAS approaches enable decentralized, autonomous decision-making processes. Against this background, a systematic literature review of the current research landscape from 2019 to June 2025 examines the state of research on semantic and agent-based enablers for intelligent DTs, bringing together fragmented insights and identifying remaining research gaps and their potential. The findings show that the manufacturing industry dominates this field, using standardized data sources and agent-based orchestration for dynamic scheduling and adaptation, while other sectors are exploring customized ontologies and simpler agent schemes. However, many of these implementations are still in their early stages, lacking closed-loop control or fully autonomous decision-making. The conclusions point to the future need for common semantic standards, unified evaluation strategies, and integration with other artificial intelligence techniques to drive autonomy and proactivity of DT systems.",
+      "year": "2026",
+      "published_date": "",
+      "journal": "IEEE Access",
+      "url": "https://www.semanticscholar.org/paper/fc5f2e3a6fabc4c1aa2f730f57da11f2a4abecc0",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/ACCESS.2026.3671689",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Multi-Agent Systems Should be Treated as Principal-Agent Problems",
+      "authors": [
+        "Paulius Rauba",
+        "Simonas Cepenas",
+        "Mihaela van der Schaar"
+      ],
+      "abstract": "Consider a multi-agent systems setup in which a principal (a supervisor agent) assigns subtasks to specialized agents and aggregates their responses into a single system-level output. A core property of such systems is information asymmetry: agents observe task-specific information, produce intermediate reasoning traces, and operate with different context windows. In isolation, such asymmetry is not problematic, since agents report truthfully to the principal when incentives are fully aligned. However, this assumption breaks down when incentives diverge. Recent evidence suggests that LLM-based agents can acquire their own goals, such as survival or self-preservation, a phenomenon known as scheming, and may deceive humans or other agents. This leads to agency loss: a gap between the principal's intended outcome and the realized system behavior. Drawing on core ideas from microeconomic theory, we argue that these characteristics, information asymmetry and misaligned goals, are best studied through the lens of principal-agent problems. We explain why multi-agent systems, both human-to-LLM and LLM-to-LLM, naturally induce information asymmetry under this formulation, and we use scheming, where LLM agents pursue covert goals, as a concrete case study. We show that recently introduced terminology used to describe scheming, such as covert subversion or deferred subversion, corresponds to well-studied concepts in the mechanism design literature, which not only characterizes the problem but also prescribes concrete mitigation strategies. More broadly, we argue for applying tools developed to study human agent behavior to the analysis of non-human agents.",
+      "year": "2026",
+      "published_date": "2026-01-30",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2601.23211v1",
+      "arxiv_id": "2601.23211v1",
+      "keywords": [
+        "cs.MA"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis literature review"
+    },
+    {
+      "title": "Conflict Resolution Techniques in Multi-Agent Systems: Technical Review",
+      "authors": [
+        "Santosh Chikoti"
+      ],
+      "abstract": "Multi-Agent Systems represent a fundamental paradigm in distributed artificial intelligence where autonomous computational entities collaborate within shared environments to accomplish individual and collective objectives. The inherent complexity of these systems creates scenarios where agents encounter conflicting goals or maintain contradictory information about their operational environment. This comprehensive technical review examines contemporary conflict resolution techniques employed in multi-agent systems, analyzing their theoretical foundations, practical implementations, and effectiveness across various application domains. \nThe article categorizes conflict resolution techniques into three primary areas: goal conflict resolution through negotiation-based approaches and auction-based mechanisms, information conflict resolution via belief merging and consensus algorithms alongside voting systems, and structured decision-making approaches utilizing priority rules and argumentation frameworks. Each technique demonstrates distinct advantages in specific operational contexts, with negotiation-based systems excelling in resource allocation scenarios, auction-based mechanisms proving effective in competitive environments, and belief merging techniques providing robust solutions for information inconsistencies. \nThe article explores potential applications across diverse sectors, including robotics swarms, financial systems, and smart grid infrastructure, indicating promising directions for conflict resolution mechanism implementation. The review concludes by identifying emerging research opportunities, including the integration of artificial intelligence and machine learning techniques to enhance system adaptability and address scalability challenges in large-scale deployments.",
+      "year": "2025",
+      "published_date": "2025-09-23",
+      "journal": "European Modern Studies Journal",
+      "url": "https://www.semanticscholar.org/paper/c7c14339924d54b3a5adcde654bb84a1f097abe1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.59573/emsj.9(5).2025.76",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "Balancing Collective Exploration and Exploitation in Multi-Agent and Multi-Robot Systems: A Review.",
+      "authors": [
+        "Hian Lee Kwa",
+        "Jabez Leong Kit",
+        "Roland Bouffanais"
+      ],
+      "abstract": "Multi-agent systems and multi-robot systems have been recognized as unique solutions to complex dynamic tasks distributed in space. Their effectiveness in accomplishing these tasks rests upon the design of cooperative control strategies, which is acknowledged to be challenging and nontrivial. In particular, the effectiveness of these strategies has been shown to be related to the so-called exploration-exploitation dilemma: i.e., the existence of a distinct balance between exploitative actions and exploratory ones while the system is operating. Recent results point to the need for a dynamic exploration-exploitation balance to unlock high levels of flexibility, adaptivity, and swarm intelligence. This important point is especially apparent when dealing with fast-changing environments. Problems involving dynamic environments have been dealt with by different scientific communities using theory, simulations, as well as large-scale experiments. Such results spread across a range of disciplines can hinder one's ability to understand and manage the intricacies of the exploration-exploitation challenge. In this review, we summarize and categorize the methods used to control the level of exploration and exploitation carried out by an multi-agent systems. Lastly, we discuss the critical need for suitable metrics and benchmark problems to quantitatively assess and compare the levels of exploration and exploitation, as well as the overall performance of a system with a given cooperative control algorithm.",
+      "year": "2021",
+      "published_date": "2021",
+      "journal": "Frontiers in robotics and AI",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35178430/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.3389/frobt.2021.771520",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "title": "Subjective Knowledge and Reasoning about Agents in Multi-Agent Systems",
+      "authors": [
+        "Shikha Singh",
+        "Deepak Khemani"
+      ],
+      "abstract": "Though a lot of work in multi-agent systems is focused on reasoning about knowledge and beliefs of artificial agents, an explicit representation and reasoning about the presence/absence of agents, especially in the scenarios where agents may be unaware of other agents joining in or going offline in a multi-agent system, leading to partial knowledge/asymmetric knowledge of the agents is mostly overlooked by the MAS community. Such scenarios lay the foundations of cases where an agent can influence other agents' mental states by (mis)informing them about the presence/absence of collaborators or adversaries. In this paper, we investigate how Kripke structure-based epistemic models can be extended to express the above notion based on an agent's subjective knowledge and we discuss the challenges that come along.",
+      "year": "2020",
+      "published_date": "2020-01-22",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2001.08016v1",
+      "arxiv_id": "2001.08016v1",
+      "keywords": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "benchmarking multi-agent knowledge services"
+    }
+  ],
+  "timestamp": "20260423_134332"
+}

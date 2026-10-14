@@ -1,0 +1,320 @@
+{
+  "M1": {
+    "counts": {
+      "entries": 1984,
+      "exact_code_line": 1951,
+      "reports": 251,
+      "distinct_candidates_cited_total": 1979,
+      "reports_all_entries_exact_or_md": 222,
+      "title_prefix_other_venue_or_year": 28,
+      "other": 5
+    },
+    "matched_rank_distribution": {
+      "1": 185,
+      "2": 169,
+      "3": 178,
+      "4": 119,
+      "5": 153,
+      "6": 137,
+      "7": 151,
+      "8": 137,
+      "9": 92,
+      "10": 123,
+      "11": 94,
+      "12": 121,
+      "13": 84,
+      "14": 105,
+      "15": 131
+    },
+    "bibliography_sizes": {
+      "0": 3,
+      "8": 248
+    },
+    "examples": [
+      {
+        "qid": "Q05",
+        "entry": "Multi-agent systems: A survey. A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org. 2016.",
+        "expected": "Multi-agent systems: A survey. A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org. 2018."
+      },
+      {
+        "qid": "Q06",
+        "entry": "Evidence synthesis in neuromyelitis optica spectrum disorders: modeling a clinical trial based on published data. Real-World Data & Evidence. 2025.",
+        "expected": "Evidence synthesis in neuromyelitis optica spectrum disorders: modeling a clinical trial based on published data. Real-World Data &amp; Evidence. 2025."
+      },
+      {
+        "qid": "Q100",
+        "entry": "Multi-agent systems: A survey. A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org. 2017.",
+        "expected": "Multi-agent systems: A survey. A Dorri, SS Kanhere, R Jurdak - Ieee Access, 2018 - ieeexplore.ieee.org. 2018."
+      },
+      {
+        "qid": "Q116",
+        "entry": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences & Humanity Research Review. ",
+        "expected": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences &amp; Humanity Research Revi"
+      },
+      {
+        "qid": "Q118",
+        "entry": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences & Humanity Research Review. ",
+        "expected": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences &amp; Humanity Research Revi"
+      },
+      {
+        "qid": "Q118",
+        "entry": "Intersex people or khunthā in the Middle East – How they are perceived, accepted, & treated: qualitative evidence synthesis & framework analysis. Psychology & Sexuality. 2024.",
+        "expected": "Intersex people or khunthā in the Middle East – How they are perceived, accepted, & treated: qualitative evidence synthesis & framework analysis. Psychology &amp; Sexuality. 2024."
+      },
+      {
+        "qid": "Q210",
+        "entry": "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change. 2020."
+      },
+      {
+        "qid": "Q212",
+        "entry": "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change. 2020."
+      },
+      {
+        "qid": "Q212",
+        "entry": "The future of ChatGPT in academic research and publishing: A commentary for clinical and translational medicine. Clinical and Translational Medicine. 2023."
+      },
+      {
+        "qid": "Q247",
+        "entry": "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change. 2020."
+      },
+      {
+        "qid": "Q24",
+        "entry": "Biomedical reasoning in action: Multi-Agent System for Auditable Biomedical Evidence Synthesis. arXiv Preprint. 2025."
+      }
+    ]
+  },
+  "M2a": {
+    "counts": {
+      "entries": 1999,
+      "exact_code_line": 1978,
+      "reports": 251,
+      "distinct_candidates_cited_total": 1993,
+      "reports_all_entries_exact_or_md": 234,
+      "title_prefix_other_venue_or_year": 15,
+      "other": 6
+    },
+    "matched_rank_distribution": {
+      "1": 195,
+      "2": 169,
+      "3": 176,
+      "4": 124,
+      "5": 149,
+      "6": 137,
+      "7": 154,
+      "8": 134,
+      "9": 81,
+      "10": 130,
+      "11": 96,
+      "12": 124,
+      "13": 86,
+      "14": 108,
+      "15": 130
+    },
+    "bibliography_sizes": {
+      "0": 1,
+      "7": 1,
+      "8": 249
+    },
+    "examples": [
+      {
+        "qid": "Q06",
+        "entry": "Evidence synthesis in neuromyelitis optica spectrum disorders: modeling a clinical trial based on published data. Real-World Data & Evidence. 2025.",
+        "expected": "Evidence synthesis in neuromyelitis optica spectrum disorders: modeling a clinical trial based on published data. Real-World Data &amp; Evidence. 2025."
+      },
+      {
+        "qid": "Q06",
+        "entry": "Specialty-Specific Citation-Enabled AI Clinical Decision Support System for Craniofacial Surgery: Development of CASPER.. The Journal of craniofacial surgery.",
+        "expected": "Specialty-Specific Citation-Enabled AI Clinical Decision Support System for Craniofacial Surgery: Development of CASPER.. The Journal of craniofacial surgery. ."
+      },
+      {
+        "qid": "Q112",
+        "entry": "The future of ChatGPT in academic research and publishing: A commentary for *clinical and translational medicine*. Clinical and Translational Medicine. 2023."
+      },
+      {
+        "qid": "Q124",
+        "entry": "Intersex people or khunthā in the Middle East – How they are perceived, accepted, & treated: qualitative evidence synthesis & framework analysis. Psychology & Sexuality. 2024.",
+        "expected": "Intersex people or khunthā in the Middle East – How they are perceived, accepted, & treated: qualitative evidence synthesis & framework analysis. Psychology &amp; Sexuality. 2024."
+      },
+      {
+        "qid": "Q136",
+        "entry": "How I contributed to Cochrane Crowd and why it matters for evidence synthesis. International Journal of Risk & Safety in Medicine. 2026.",
+        "expected": "How I contributed to Cochrane Crowd and why it matters for evidence synthesis. International Journal of Risk &amp; Safety in Medicine. 2026."
+      },
+      {
+        "qid": "Q136",
+        "entry": "The future of ChatGPT in academic research and publishing: A commentary for *clinical and translational medicine*. Clinical and Translational Medicine. 2023."
+      },
+      {
+        "qid": "Q210",
+        "entry": "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change. 2020."
+      },
+      {
+        "qid": "Q212",
+        "entry": "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change. 2020."
+      },
+      {
+        "qid": "Q212",
+        "entry": "The future of ChatGPT in academic research and publishing: A commentary for *clinical and translational medicine*. Clinical and Translational Medicine. 2023."
+      },
+      {
+        "qid": "Q247",
+        "entry": "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change. 2020."
+      }
+    ]
+  },
+  "M2b": {
+    "counts": {
+      "entries": 1993,
+      "exact_code_line": 1964,
+      "reports": 251,
+      "distinct_candidates_cited_total": 1986,
+      "reports_all_entries_exact_or_md": 229,
+      "title_prefix_other_venue_or_year": 22,
+      "other": 7
+    },
+    "matched_rank_distribution": {
+      "1": 191,
+      "2": 168,
+      "3": 174,
+      "4": 130,
+      "5": 156,
+      "6": 137,
+      "7": 151,
+      "8": 133,
+      "9": 80,
+      "10": 123,
+      "11": 91,
+      "12": 121,
+      "13": 89,
+      "14": 115,
+      "15": 127
+    },
+    "bibliography_sizes": {
+      "0": 1,
+      "4": 1,
+      "7": 3,
+      "8": 246
+    },
+    "examples": [
+      {
+        "qid": "Q06",
+        "entry": "Evidence synthesis in neuromyelitis optica spectrum disorders: modeling a clinical trial based on published data. Real-World Data & Evidence. 2025.",
+        "expected": "Evidence synthesis in neuromyelitis optica spectrum disorders: modeling a clinical trial based on published data. Real-World Data &amp; Evidence. 2025."
+      },
+      {
+        "qid": "Q06",
+        "entry": "Specialty-Specific Citation-Enabled AI Clinical Decision Support System for Craniofacial Surgery: Development of CASPER.. The Journal of craniofacial surgery.",
+        "expected": "Specialty-Specific Citation-Enabled AI Clinical Decision Support System for Craniofacial Surgery: Development of CASPER.. The Journal of craniofacial surgery. ."
+      },
+      {
+        "qid": "Q07",
+        "entry": "A Dorri, SS Kanhere, R Jurdak. Multi-agent systems: A survey. Ieee Access, 2018."
+      },
+      {
+        "qid": "Q07",
+        "entry": "M Giannakis, M Louis. A multi-agent based system with big data processing for enhanced supply chain agility. Journal of Enterprise Information …, 2016."
+      },
+      {
+        "qid": "Q108",
+        "entry": "Neural Approaches to Conversational AI. - now publishers, Inc. eBooks, 2019.",
+        "expected": "Neural Approaches to Conversational AI. now publishers, Inc. eBooks. 2019."
+      },
+      {
+        "qid": "Q122",
+        "entry": "The Role of Industry 4.0 Technologies in Shaping Sustainable Digital Business Models: An Integrated Approach to Innovation and Strategic Capability Development: An Empirical Litera",
+        "expected": "The Role of Industry 4.0 Technologies in Shaping Sustainable Digital Business Models: An Integrated Approach to Innovation and Strategic Capability Development: An Empirical Litera"
+      },
+      {
+        "qid": "Q212",
+        "entry": "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change. 2020."
+      },
+      {
+        "qid": "Q212",
+        "entry": "The future of ChatGPT in academic research and publishing: A commentary for *clinical and translational medicine*. Clinical and Translational Medicine. 2023."
+      },
+      {
+        "qid": "Q247",
+        "entry": "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change. 2020."
+      },
+      {
+        "qid": "Q37",
+        "entry": "“AGENTIC AI–DRIVEN DECISION-SUPPORT FRAMEWORK FOR CLIMATE-RESPONSIVE AGRICULTURAL ADAPTATION USING REINFORCEMENT LEARNING”. International Journal of Applied Mathematics. 2025."
+      },
+      {
+        "qid": "Q45",
+        "entry": "Multi-Objective Workflow Scheduling With Deep-Q-Network-Based Multi-Agent Deep Reinforcement Learning. IEEE Access. 2019."
+      }
+    ]
+  },
+  "M2c": {
+    "counts": {
+      "entries": 2008,
+      "exact_code_line": 1922,
+      "reports": 251,
+      "distinct_candidates_cited_total": 2006,
+      "reports_all_entries_exact_or_md": 195,
+      "title_prefix_other_venue_or_year": 84,
+      "other": 2
+    },
+    "matched_rank_distribution": {
+      "1": 140,
+      "2": 155,
+      "3": 172,
+      "4": 142,
+      "5": 164,
+      "6": 150,
+      "7": 163,
+      "8": 135,
+      "9": 108,
+      "10": 143,
+      "11": 99,
+      "12": 109,
+      "13": 90,
+      "14": 122,
+      "15": 114
+    },
+    "bibliography_sizes": {
+      "8": 251
+    },
+    "examples": [
+      {
+        "qid": "Q04",
+        "entry": "Queryome: Orchestrating Retrieval, Reasoning, and Synthesis across Biomedical Literature. bioRxiv : the preprint server for biology. 2025.",
+        "expected": "Queryome: Orchestrating Retrieval, Reasoning, and Synthesis across Biomedical Literature.. bioRxiv : the preprint server for biology. 2025."
+      },
+      {
+        "qid": "Q111",
+        "entry": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences & Humanity Research Review. ",
+        "expected": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences &amp; Humanity Research Revi"
+      },
+      {
+        "qid": "Q116",
+        "entry": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences & Humanity Research Review. ",
+        "expected": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences &amp; Humanity Research Revi"
+      },
+      {
+        "qid": "Q118",
+        "entry": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences & Humanity Research Review. ",
+        "expected": "Evaluating the Effectiveness of AI-Assisted Emotional Metadata in Enhancing the Discoverability of Literary Texts in Digital Libraries. Social Sciences &amp; Humanity Research Revi"
+      },
+      {
+        "qid": "Q118",
+        "entry": "Intersex people or khunthā in the Middle East – How they are perceived, accepted, & treated: qualitative evidence synthesis & framework analysis. Psychology & Sexuality. 2024.",
+        "expected": "Intersex people or khunthā in the Middle East – How they are perceived, accepted, & treated: qualitative evidence synthesis & framework analysis. Psychology &amp; Sexuality. 2024."
+      },
+      {
+        "qid": "Q120",
+        "entry": "The continuous improvement of digital assistance in the radiation oncologist's work: from web-based nomograms to the adoption of large-language models (LLMs). A systematic review b",
+        "expected": "The continuous improvement of digital assistance in the radiation oncologist's work: from web-based nomograms to the adoption of large-language models (LLMs). A systematic review b"
+      },
+      {
+        "qid": "Q217",
+        "entry": "Rethink literature review of design research in an age of AI–from 'secretary work' to scholarly synthesis of insight, frameworks, and foresight. Journal of Engineering Design. 2026"
+      },
+      {
+        "qid": "Q233",
+        "entry": "Climate change and its association with the expansion of vectors and vector-borne diseases in the Hindu Kush Himalayan region: A systematic synthesis of the literature. Impacts of "
+      }
+    ]
+  }
+}

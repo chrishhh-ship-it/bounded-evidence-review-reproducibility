@@ -1,0 +1,232 @@
+{
+  "query_id": "EN05",
+  "query": "How does adversarial review between writer and reviewer agents improve structural integrity of synthesized documents?",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Does training on robotic virtual reality simulators improve the post-training robotic surgical skills of surgeons? A systematic review and meta-analysis.",
+      "authors": [
+        "Lalit Singh"
+      ],
+      "abstract": "BACKGROUND\nThe effectiveness of virtual reality (VR) simulation training for improving robotic surgical skills is not firmly established. This systematic review and meta-analysis aimed to evaluate the impact of VR simulator training on surgeons' robotic surgical performance in the operating room (OR).\n\n\nAIM\nTo synthesize evidence regarding the association between VR-based robotic surgery training and subsequent technical performance inside the OR.\n\n\nDATA SOURCES\nA comprehensive literature search was conducted in PubMed, Scopus, Embase, and CINAHL databases, adhering to PRISMA 2020 guidelines.\n\n\nELIGIBILITY CRITERIA AND STUDY SELECTION\nStudies evaluating VR simulator training for robotic surgeons with subsequent performance assessment in the OR were included. Risk of bias assessment was performed using the Medical Education Research Study Quality Instrument and the modified Newcastle-Ottawa Scale for Education (NOS-E), along with funding source appraisal.\n\n\nDATA SYNTHESIS\nA total of 294 records were screened, resulting in 13 studies (281 participants) included in the systematic review, and 4 studies (72 participants) suitable for meta-analysis. Metaanalysis was conducted using a random-effects model to pool correlation coefficients between preand post-training performance.\n\n\nRESULTS\nOf the included studies, nine reported positive evidence, three found no evidence, and one found negative evidence regarding VR training's role. The meta-analysis of before-after studies revealed a significant positive correlation (r = 0.717, P < 0.05) between simulation performance and intraoperative outcomes.\n\n\nLIMITATIONS\nThe small number of studies included in the meta-analysis and methodological heterogeneity may limit generalisability of results.\n\n\nCONCLUSIONS\nVR simulator training is associated with improved robotic surgical performance in the OR. Incorporation of VR simulation into robotic surgical curricula is likely beneficial for skill acquisition and operative readiness.",
+      "year": "2025",
+      "published_date": "2025-12-30",
+      "journal": "Journal of Minimal Access Surgery",
+      "url": "https://www.semanticscholar.org/paper/c1d03daf8bbfedcbe1c7df243868b189165ad0db",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.4103/jmas.jmas_157_25",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? An updated systematic review",
+      "authors": [
+        "Teri Knight",
+        "Sian Price",
+        "Diana E. Bowler",
+        "Amy Hookway",
+        "Sian King",
+        "Ko Konno",
+        "Raja Lorena Richter"
+      ],
+      "abstract": "Abstract Background This review updates a systematic review published in 2010 ( http://www.environmentalevidence.org/completed-reviews/how-effective-is-greening-of-urban-areas-in-reducing-human-exposure-to-ground-level-ozone-concentrations-uv-exposure-and-the-urban-heat-island-effect ) which addressed the question: How effective is ‘greening’ of urban areas in reducing human exposure to ground-level ozone concentrations, UV exposure and the ‘urban heat island effect’? Methods Searches of multiple databases and journals for relevant published articles and grey literature were conducted. Organisational websites were searched for unpublished articles. Eligibility criteria were applied at title, abstract and full text and included studies were critically appraised. Consistency checks of these processes were undertaken. Pre-defined data items were extracted from included studies. Quantitative synthesis was performed through meta-analysis and narrative synthesis was undertaken. Review findings 308 studies were included in this review. Studies were spread across all continents and climate zones except polar but were mainly concentrated in Europe and temperate regions. Most studies reported on the impact of urban greening on temperature with fewer studies reporting data on ground-level UV radiation, ozone concentrations (or precursors) or public health indicators. The findings of the original review were confirmed; urban green areas tended to be cooler than urban non-green areas. Air temperature under trees was on average 0.8 °C cooler but treed areas could be warmer at night. Cooling effect showed tree species variation. Tree canopy shading was a significant effect modifier associated with attenuation of solar radiation during the day. Urban forests were on average 1.6 °C cooler than comparator areas. Treed areas and parks and gardens were associated with improved human thermal comfort. Park or garden cooling effect was on average 0.8 °C and trees were a significant influence on this during the day. Park or garden cooling effect extended up to 1.25 kms beyond their boundaries. Grassy areas were cooler than non-green comparators, both during daytime and at night, by on average 0.6 °C. Green roofs and walls showed surface temperature cooling effect (2 and 1.8 °C on average respectively) which was influenced by substrate water content, plant density and cover. Ground-level concentrations of nitrogen oxides were on average lower by 1.0 standard deviation units in green areas, with tree species variation in removal of these pollutants and emission of biogenic volatile organic compounds (precursors of ozone). No clear impact of green areas on ground level ozone concentrations was identified. Conclusions Design of urban green areas may need to strike a balance between maximising tree canopy shading for day-time thermal comfort and enabling night-time cooling from open grassy areas. Choice of tree species needs to be guided by evapotranspiration potential, removal of nitrogen oxides and emission of biogenic volatile organic compounds. Choice of plant species and substrate composition for green roofs and walls needs to be tailored to local thermal comfort needs for optimal effect. Future research should, using robust study design, address identified evidence gaps and evaluate optimal design of urban green areas for specific circumstances, such as mitigating day or night-time urban heat island effect, availability of sustainable irrigation or optimal density and distribution of green areas. Future evidence synthesis should focus on optimal design of urban green areas for public health benefit.",
+      "year": "2021",
+      "published_date": "2021-06-05",
+      "journal": "Environmental Evidence",
+      "url": "https://doi.org/10.1186/s13750-021-00226-y",
+      "arxiv_id": "",
+      "keywords": [
+        "Urban heat island",
+        "Greening",
+        "Environmental science",
+        "Ground Level Ozone",
+        "Green infrastructure",
+        "Urbanization",
+        "Geography",
+        "Physical geography"
+      ],
+      "citations": 112,
+      "source": "OpenAlex",
+      "doi": "10.1186/s13750-021-00226-y",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "Federated Intelligence in Immersive Technologies: Systematic Review of Privacy, Agents and Metaverse",
+      "authors": [
+        "Zakaria Izouaouen",
+        "N. Kharmoum",
+        "S. Ziti"
+      ],
+      "abstract": "The convergence of Multi-Agent Systems (MAS) and immersive technologies represents a rapidly evolving research domain with significant implications for intelligent virtual environments. This systematic review presents a comprehensive comparative analysis of approaches, frameworks, and applications that integrate MAS within Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR) environments. Following PRISMA guidelines, we systematically reviewed 170 peer-reviewed articles published between 2020-2025, ultimately analyzing 25 high-quality studies that met our inclusion criteria. Our analysis reveals diverse architectural approaches including distributed multi-agent reinforcement learning frameworks, federated learning-enabled systems, and adaptive collaborative platforms. Key application domains identified include healthcare informatics, vehicular metaverses, educational training environments, and immersive collaboration systems. The study identifies critical challenges in real-time performance optimization, scalability with large agent populations, and maintaining quality of experience in distributed environments. Our findings contribute a novel classification framework for MAS-immersive technology integration, highlighting the shift towards privacy-preserving federated approaches and the emergence of metaverse applications. We present quantitative analysis of research trends and provide a roadmap for future developments in this intersection of artificial intelligence and immersive computing.",
+      "year": "2025",
+      "published_date": "2025-10-16",
+      "journal": "OPTIMA",
+      "url": "https://www.semanticscholar.org/paper/37dc615e2e25d4fa11f2e53261c0d616d2722537",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1109/ICOA66896.2025.11236955",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "research intelligence assistant systematic review"
+    },
+    {
+      "title": "Congress of Neurological Surgeons systematic review and evidence-based guidelines for the role of chemotherapy in newly diagnosed WHO Grade II diffuse glioma in adults: update.",
+      "authors": [
+        "Mateo Ziu",
+        "Lia M Halasz",
+        "Priya U Kumthekar",
+        "Tresa M McGranahan",
+        "Simon S Lo",
+        "Jeffrey J Olson"
+      ],
+      "abstract": "Questions and recommendations from the prior version of these guidelines without changeTarget populationAdult patients (older than 18 years of age) with newly diagnosed World Health Organization (WHO) Grade II gliomas (Oligodendroglioma, astrocytoma, mixed oligoastrocytoma).QuestionIs there a role for chemotherapy as adjuvant therapy of choice in treatment of patients with newly diagnosed low-grade gliomas?RecommendationLevel III: Chemotherapy is recommended as a treatment option to postpone the use of radiotherapy, to slow tumor growth and to improve progression free survival (PFS), overall survival (OS) and clinical symptoms in adult patients with newly diagnosed LGG.QuestionWho are the patients with newly diagnosed LGG that would benefit the most from chemotherapy?RecommendationLevel III: Chemotherapy is recommended as an optional component alone or in combination with radiation as the initial adjuvant therapy for all patients who cannot undergo gross total resection (GTR) of a newly diagnosed LGG. Patients with residual tumor >1 cm on post-operative MRI, presenting diameter of 4 cm or older than 40 years of age should be considered for adjuvant therapy as well.QuestionAre there tumor markers that can predict which patients can benefit the most from initial treatment with chemotherapy?RecommendationLevel III: The addition of chemotherapy to standard RT is recommended in LGG patients that carry IDH mutation. In addition, temozolomide (TMZ) is recommended as a treatment option to slow tumor growth in patients who harbor the 1p/19q co-deletion.QuestionHow soon should the chemotherapy be started once the diagnosis of LGG is confirmed?RecommendationThere is insufficient evidence to make a definitive recommendation on the timing of starting chemotherapy after surgical/pathological diagnosis of LGG has been made. However, using the 12 weeks mark as the latest timeframe to start adjuvant chemotherapy is suggested. It is recommended that patients be enrolled in properly designed clinical trials to assess the timing of chemotherapy initiation once diagnosis is confirmed for this target population.QuestionWhat chemotherapeutic agents should be used for treatment of newly diagnosed LGG?RecommendationThere is insufficient evidence to make a recommendation of one particular regimen. Enrollment of subjects in properly designed trials comparing the efficacy of these or other agents is recommended so as to determine which of these regimens is superior.QuestionWhat is the optimal duration and dosing of chemotherapy as initial treatment for LGG?RecommendationInsufficient evidence exists regarding the duration of any specific cytotoxic drug regimen for treatment of newly diagnosed LGG. Enrollment of subjects in properly designed clinical investigations assessing the optimal duration of this therapy is recommended.QuestionShould chemotherapy be given alone or in conjunction with RT as initial therapy for LGG?RecommendationInsufficient evidence exists to make recommendations in this regard. Hence, enrollment of patients in properly designed clinical trials assessing the difference between chemotherapy alone, RT alone or a combination of them is recommended.QuestionShould chemotherapy be given in addition to other type of adjuvant therapy to patients with newly diagnosed LGG?RecommendationLevel II: It is recommended that chemotherapy be added to the RT in patients with unfavorable LGG to improve their progression free survival.Updated Question and Recommendations from the Prior Version of These GuidelinesQuestionIn adult patients with pathologically confirmed WHO Grade II diffuse glioma does chemotherapy alone, combined with radiation therapy or after radiation therapy compared to radiotherapy alone result in better overall survival, progression free survival, local control, fewer complications, neurocognitive preservation, and quality of life?RecommendationLevel I: It is recommended that chemotherapy (PCV) be added to radiation therapy (RT) in all patients with newly diagnosed high-risk WHO Grade II diffuse glioma (Patients younger than 40 unable to get gross total resection and older than 40 regardless of the degree of resection) to improve their overall survival. It is recommended that chemotherapy be added to radiation therapy in all patients with newly diagnosed high-risk WHO Grade II diffuse glioma to improve overall survival without a decline in neurocognitive function. It is suggested that chemotherapy (temozolomide) be added to RT in all patients with newly diagnosed high-risk WHO Grade II diffuse glioma to improve progression free survival and overall survival. It is suggested that chemotherapy alone should be considered in patients with newly diagnosed WHO Grade II diffuse glioma in cases with 1p/19q co-deletion.New questions and recommendationsTarget populationThese recommendations apply to adult patients diagnosed with WHO Grade II diffuse glioma.QuestionIn adult patients with newly diagnosed WHO grade II diffuse glioma does administration of chemotherapy prior to surgical resection improve extent of resection, provide longer progression free survival and overall survival when compared to chemotherapy alone?RecommendationLevel III: Neo-adjuvant temozolomide may be used in patients with WHO Grade II diffuse gliomas deemed unsafe for resection due to infiltration of eloquent areas or with large contralateral extension as an initial step to improve the extent of resection.There is insufficient evidence to support a recommendation regarding the ability of chemotherapy provided prior to surgical resection to improve progression free survival (PFS) and overall survival (OS).QuestionIn adult patients with newly diagnosed WHO grade II diffuse glioma does the administration of temozolomide increase the rate of malignant transformation when compared to no chemotherapy or other chemotherapy regimens?RecommendationThere is insufficient evidence to support a recommendation against the use of temozolomide for WHO Grade II diffuse gliomas due to concern over increasing the rate of malignant transformation.QuestionIn adult patients with newly diagnosed WHO grade II diffuse glioma does administration of multi-agent chemotherapy improve progression free survival and overall survival when compared to administration of single-agent chemotherapy?RecommendationThere is insufficient evidence to support a recommendation for or against the use of multi-agent chemotherapy to improve progression free survival and overall survival when compared to administration of single-agent chemotherapy in patients with newly diagnosed WHO Grade II diffuse glioma.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Journal of neuro-oncology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39565459/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Glioma",
+        "Brain Neoplasms",
+        "Neoplasm Grading",
+        "Evidence-Based Medicine",
+        "World Health Organization",
+        "Adult",
+        "Practice Guidelines as Topic"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1007/s11060-024-04861-6",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system systematic review"
+    },
+    {
+      "title": "Agentic AI Frameworks in SMMEs: A Systematic Literature Review of Ecosystemic Interconnected Agents",
+      "authors": [
+        "Peter Adebowale Olujimi",
+        "Pius Adewale Owolawi",
+        "Refilwe Constance Mogase",
+        "Etienne Van Wyk"
+      ],
+      "abstract": "This study examines the application of agentic artificial intelligence (AI) frameworks within small, medium, and micro-enterprises (SMMEs), highlighting how interconnected autonomous agents improve operational efficiency and adaptability. Using the PRISMA 2020 framework, this study systematically identified, screened, and analyzed 66 studies, including peer-reviewed and credible gray literature, published between 2019 and 2024, to assess agentic AI frameworks in SMMEs. Recognizing the constraints faced by SMMEs, such as limited scalability, high operational demands, and restricted access to advanced technologies, the review synthesizes existing research to highlight the characteristics, implementations, and impacts of agentic AI in task automation, decision-making, and ecosystem-wide collaboration. The results demonstrate the potential of agentic AI to address technological, ethical, and infrastructure barriers while promoting innovation, scalability, and competitiveness. This review contributes to the understanding of agentic AI frameworks by offering practical insights and setting the groundwork for further research into their applications in SMMEs’ dynamic and resource-constrained economic environments.",
+      "year": "2025",
+      "published_date": "2025-06-11",
+      "journal": "AI",
+      "url": "https://doi.org/10.3390/ai6060123",
+      "arxiv_id": "",
+      "keywords": [
+        "Business"
+      ],
+      "citations": 15,
+      "source": "OpenAlex",
+      "doi": "10.3390/ai6060123",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent"
+    },
+    {
+      "title": "Transforming Data Annotation with AI Agents: A Review of Architectures, Reasoning, Applications, and Impact",
+      "authors": [
+        "Md Monjurul Karim",
+        "Sangeen Khan",
+        "Dong Hoang Van",
+        "Xinyue Liu",
+        "Chunhui Wang",
+        "Qiang Qu"
+      ],
+      "abstract": "Data annotation serves as a critical foundation for artificial intelligence (AI) and machine learning (ML). Recently, AI agents powered by large language models (LLMs) have emerged as effective solutions to longstanding challenges in data annotation, such as scalability, consistency, cost, and limitations in domain expertise. These agents facilitate intelligent automation and adaptive decision-making, thereby enhancing the efficiency and reliability of annotation workflows across various fields. Despite the growing interest in this area, a systematic understanding of the role and capabilities of AI agents in annotation is still underexplored. This paper seeks to fill that gap by providing a comprehensive review of how LLM-driven agents support advanced reasoning strategies, adaptive learning, and collaborative annotation efforts. We analyze agent architectures, integration patterns within workflows, and evaluation methods, along with real-world applications in sectors such as healthcare, finance, technology, and media. Furthermore, we evaluate current tools and platforms that support agent-based annotation, addressing key challenges such as quality assurance, bias mitigation, transparency, and scalability. Lastly, we outline future research directions, highlighting the importance of federated learning, cross-modal reasoning, and responsible system design to advance the development of next-generation annotation ecosystems.",
+      "year": "2025",
+      "published_date": "2025-08-02",
+      "journal": "Future Internet",
+      "url": "https://doi.org/10.3390/fi17080353",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer science",
+        "Annotation",
+        "Workflow",
+        "Data science",
+        "Scalability",
+        "Transparency (behavior)",
+        "Artificial intelligence",
+        "Database"
+      ],
+      "citations": 11,
+      "source": "OpenAlex",
+      "doi": "10.3390/fi17080353",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent systematic review"
+    },
+    {
+      "title": "A SYSTEMATIC REVIEW OF HUMAN-AI COLLABORATION IN IT SUPPORT SERVICES: ENHANCING USER EXPERIENCE AND WORKFLOW AUTOMATION",
+      "authors": [
+        "Zahir Babar",
+        "Rajesh Paul",
+        "Md Arifur Rahman",
+        "Tonmoy Barua"
+      ],
+      "abstract": "The rapid evolution of Artificial Intelligence (AI) has profoundly impacted IT support services, leading to a paradigm shift from traditional, hierarchical support structures to integrated, human-AI collaborative ecosystems. In these emerging models, AI systems complement human expertise by automating routine tasks, enabling predictive service responses, and enhancing decision accuracy, while human agents contribute contextual judgment, ethical oversight, and emotional intelligence. This systematic review investigates how such collaboration is transforming IT support operations, focusing specifically on its influence on user experience (UX), workflow automation, human cognitive adaptation, and institutional readiness. Adhering to the PRISMA 2020 guidelines, a total of 98 peer-reviewed articles published between 2013 and 2024 were rigorously identified, screened, and synthesized from leading academic databases including Scopus, Web of Science, IEEE Xplore, and ACM Digital Library. The reviewed literature reveals that AI technologies—such as chatbots, machine learning-driven ticketing systems, robotic process automation (RPA), and natural language processing (NLP)—have become central to the modern support landscape, improving first-contact resolution rates, reducing operational costs, and enabling 24/7 support scalability. The review further maps adoption patterns using established theoretical frameworks such as the Technology Acceptance Model (TAM), Unified Theory of Acceptance and Use of Technology (UTAUT), and various digital transformation models, all of which highlight key enablers like performance expectancy, ease of use, social influence, and strategic alignment. Despite promising outcomes, persistent challenges remain—including data fragmentation, algorithmic bias, interface limitations, and workforce resistance to automation—which must be addressed through thoughtful design and ethical governance. By synthesizing insights across technical, human, and organizational dimensions, this review contributes a comprehensive and interdisciplinary understanding of how human-AI collaboration is redefining IT support services, offering practical implications for researchers, system designers, and IT leaders seeking to deploy intelligent, sustainable, and user-centric support systems.",
+      "year": "2025",
+      "published_date": "2025-03-01",
+      "journal": "Journal of Sustainable Development and Policy",
+      "url": "https://www.semanticscholar.org/paper/83f0e8349b94474ae2796892546987bc262a09cf",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 10,
+      "source": "Semantic Scholar",
+      "doi": "10.63125/grqtf978",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    },
+    {
+      "title": "Epimedium and Its Flavonoids as Multi-Target Anti-Aging Agents: A Systematic Review of Preclinical and Clinical Evidence",
+      "authors": [
+        "Luis Mendoza",
+        "Jorge Calderón",
+        "Alfredo Núñez"
+      ],
+      "abstract": "Aging arises from numerous biological influences, including genetic factors, oxidative stress, metabolic imbalance, immune dysregulation, and alterations in sex hormones. This review summarizes how Epimedium may slow aging by examining six major dimensions: gene-related actions, antioxidant capacity, metabolic effects, immune modulation, hormone-related regulation, and clinical performance.Through an extensive survey of existing research, the goal was to identify the possible pharmacological pat",
+      "year": "2024",
+      "published_date": "2024-01-01",
+      "journal": "Interdisciplinary Research in Medical Sciences Specialty",
+      "url": "https://doi.org/10.51847/r1tmgfzam5",
+      "arxiv_id": "",
+      "keywords": [
+        "Epimedium",
+        "Immune system",
+        "Disease",
+        "Antioxidant",
+        "Oxidative damage"
+      ],
+      "citations": 1,
+      "source": "OpenAlex",
+      "doi": "10.51847/r1tmgfzam5",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "clinical evidence review multi-agent"
+    }
+  ],
+  "timestamp": "20260423_162010"
+}

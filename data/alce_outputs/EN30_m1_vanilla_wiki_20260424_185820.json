@@ -1,0 +1,51 @@
+{
+  "qid": "EN30",
+  "condition": "m1_vanilla",
+  "query": "What frameworks are used to grade the quality of evidence in clinical guideline development and how can AI assist this process?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "evidence_grading",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "Artificial intelligence in healthcare",
+    "Artificial general intelligence",
+    "Occupational therapy",
+    "Medical device",
+    "Cognitive dissonance"
+  ],
+  "top_papers": [
+    {
+      "title": "Artificial intelligence in healthcare",
+      "abstract": "Artificial intelligence in healthcare is the application of artificial intelligence (AI) to analyze and understand complex medical and healthcare data. In some cases, it can exceed or augment human capabilities by providing better or faster ways to diagnose, treat, or prevent disease.\nAs the widespread use of artificial intelligence in healthcare is still relatively new, research is ongoing into its applications across various medical subdisciplines and related industries. AI programs are being "
+    },
+    {
+      "title": "Artificial general intelligence",
+      "abstract": "Artificial general intelligence (AGI) is a hypothetical type of artificial intelligence that matches or surpasses human capabilities across virtually all cognitive tasks.\nBeyond AGI, artificial superintelligence (ASI) would outperform the best human abilities across every domain by a wide margin. Unlike artificial narrow intelligence (ANI), whose competence is confined to well‑defined tasks, an AGI system can generalise knowledge, transfer skills between domains, and solve novel problems without"
+    },
+    {
+      "title": "Occupational therapy",
+      "abstract": "Occupational therapy (OT), also known as ergotherapy in Europe, is a healthcare profession that helps people take part in the everyday activities, or occupations, that are important for daily life. These occupations include self-care tasks, work, school, social participation, and leisure activities.\nOccupational therapists work with people who experience illness, injury, disability, or age-related changes that limit their ability to function independently. They assess a person's needs, set goals"
+    },
+    {
+      "title": "Medical device",
+      "abstract": "A medical device is any device intended to be used for medical purposes. Significant potential for hazards are inherent when using a device for medical purposes and thus medical devices must be proved safe and effective with reasonable assurance before regulating governments allow marketing of the device in their country. As a general rule, as the associated risk of the device increases the amount of testing required to establish safety and efficacy also increases. Further, as associated risk in"
+    },
+    {
+      "title": "Cognitive dissonance",
+      "abstract": "In the field of psychology, cognitive dissonance is described as a mental phenomenon in which people unknowingly or subconsciously hold fundamentally conflicting cognitions. Being confronted by situations that create this dissonance or highlight these inconsistencies motivates change in their cognitions or actions to reduce this dissonance, maybe by changing a belief, by explaining something away, or by taking actions that reduce perceived inconsistency.\nRelevant items of cognition include peopl"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Artificial_intelligence_in_healthcare",
+    "wiki:Artificial_general_intelligence",
+    "wiki:Occupational_therapy",
+    "wiki:Medical_device",
+    "wiki:Cognitive_dissonance"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN30_m1_vanilla_wiki_20260424_185820.md"
+}

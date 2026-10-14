@@ -1,0 +1,60 @@
+{
+  "qid": "EN46",
+  "condition": "m2a_cdma_arl",
+  "query": "What does empirical evidence say about the effectiveness of REDD+ programmes in reducing deforestation and forest degradation?",
+  "domain": "Climate Policy Research",
+  "category": "forest_carbon",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Effects of climate change",
+    "Climate finance in Brazil",
+    "Emissions trading",
+    "2020 in science",
+    "2021 in science"
+  ],
+  "top_papers": [
+    {
+      "title": "Effects of climate change",
+      "abstract": "Effects of climate change are well documented and growing for Earth's natural environment and human societies. Changes to the climate system include an overall warming trend, changes to precipitation patterns, and more extreme weather. As the climate changes it impacts the natural environment with effects such as more intense forest fires, thawing permafrost, and desertification. These changes impact ecosystems and societies, and can become irreversible once tipping points are crossed."
+    },
+    {
+      "title": "Climate finance in Brazil",
+      "abstract": "Climate finance in Brazil drives the transition to a low-carbon economy, as well as climate change adaptation and mitigation.  The country receives resources from various sources, such as international development institutions and the private sector. \nBrazil occupies a large portion of the South American continent and is considered a megadiverse country, with species spread across six terrestrial biomes and three marine ecosystems. The country faces increasing climate impacts, such as severe dro"
+    },
+    {
+      "title": "Emissions trading",
+      "abstract": "Emissions trading is a market-oriented approach to controlling pollution by providing economic incentives for reducing the emissions of pollutants. The concept is also known as cap and trade (CAT) or emissions trading scheme (ETS). One prominent example is carbon emission trading for CO2 and other greenhouse gases which is a tool for climate change mitigation. Other schemes include sulfur dioxide and other pollutants."
+    },
+    {
+      "title": "2020 in science",
+      "abstract": "A number of significant scientific events occurred in 2020."
+    },
+    {
+      "title": "2021 in science",
+      "abstract": "This is a list of several significant scientific events that occurred or were scheduled to occur in 2021."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Effects_of_climate_change",
+    "wiki:Climate_finance_in_Brazil",
+    "wiki:Emissions_trading",
+    "wiki:2020_in_science",
+    "wiki:2021_in_science"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN46_m2a_cdma_arl_wiki_20260424_193046.md"
+}

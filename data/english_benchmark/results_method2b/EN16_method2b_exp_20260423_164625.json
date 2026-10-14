@@ -1,0 +1,205 @@
+{
+  "query_id": "EN16",
+  "query": "How do citation practices in digital humanities scholarship differ from natural sciences in terms of traceability standards?",
+  "domain_id": "digital_humanities",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "A New Field:<i>History of Humanities</i>",
+      "authors": [
+        "Rens Bod",
+        "Julia Kursell",
+        "Jaap Maat",
+        "Thijs Weststeijn"
+      ],
+      "abstract": "Previous articleNext article FreeEditorialA New Field: History of HumanitiesRens Bod, Julia Kursell, Jaap Maat, and Thijs WeststeijnRens Bod, Julia Kursell, Jaap Maat, and Thijs WeststeijnPDFPDF PLUSFull Text Add to favoritesDownload CitationTrack CitationsPermissionsReprints Share onFacebookTwitterLinked InRedditEmailQR Code SectionsMoreThese are exciting times for the humanities. The impressive corpus of knowledge that the humanities have discovered, created, and cultivated over many centuries is available for the benefit of more people than ever and evolving rapidly. Fresh perspectives open up as digital tools enable researchers to explore questions that not long ago were beyond their reach and even their imagination. Novel fields of research deal with phenomena emerging in a globalizing culture, enabling us to make sense of the way in which new media affect our lives. Cross-fertilization between disciplines leads to newly developed methods and results, such as the complex chemical analysis of the materials of ancient artworks, yielding data that were unavailable to both artists and their publics at the time of production, or neuroscientific experiments shedding new light on our capacity for producing and appreciating music.At the same time, there is a sense of gloom, perhaps even crisis, among those who are convinced that the humanities are valuable, precious, indispensable. The number of students taking humanities courses declines, and humanities departments at universities worldwide are subject to severe budget cuts or abolition altogether. In a period in which the academic world is plagued by governments insisting on measurable results for the sake of short-term financial profit, the humanities seem most vulnerable.We present the first issue of History of Humanities with feelings of anticipation. Our journal is meant to stand for the fact that scholarly practices of a type today labeled \"humanities\" have been an essential part of the process of knowledge making ever since human inquisitiveness sought to enhance our understanding of the world and ourselves. This long history has been studied in fruitful and illuminating ways, but the focus has been on either the natural sciences or on single disciplines within the humanities, such as history writing and linguistics. The fundamental contribution of the humanities to the intricate web of knowledge that scholars, thinkers, and researchers have spun in the course of several millennia has thus been poorly recognized and is consequently undervalued. We intend to redress the imbalance in the historiography of the search for knowledge that mankind has been engaged in for so long. A more balanced picture, we believe, will show that the ways we arrive at knowledge are complex, varied, and unpredictable and often involve the transmission of methods and insights from one field of investigation to another.The humanities have always been strong in reflecting on their own history and have sometimes even defined themselves as primarily concerned with the history and historicity of human endeavors. However, our motive for starting a journal devoted to the history of the humanities is not nostalgia. Instead we see a potential for a large community of scholars and researchers to make their cause more tangible through reflecting on their own history in a new constellation. We invite contributions on as many aspects of the history of the humanities as possible. Authors can discuss the histories of the study of the visual and literary arts, of language and music, of thinking, and of the past, to name but several central subjects. These studies stretch from ancient times up to the present, and they can be found in different regions across the globe.A platform of this sort is called for in view of both the positive and negative trends in today's humanities, and we hope that it will strengthen the voice of the humanities in the academic discourse at large. First attempts to bring together historians of the humanities took shape as a series of four conferences, \"The Making of the Humanities,\" in Amsterdam (2008, 2010) and Rome (2012, 2014). This is now followed by a series of annual meetings that will take place in Baltimore (2016), Oxford (2017), and Beijing (2018). Having published The Making of the Humanities, a trilogy of selected papers from the first conferences, we decided as a next step to found History of Humanities.1 We have witnessed how scholars worldwide are forming a vibrant community of historians of humanities, a process that recently resulted in the founding of the Society for the History of the Humanities.2What Do We Mean by \"Humanities\"? Toward a DefinitionIt is probably impossible to give a definition of the term humanities that would cover a category of practices, or objects of study, that remains fixed throughout all periods of intellectual activity across the world. In the European tradition alone, classifications of fields and disciplines have been many and diverse. Activities that may in hindsight be seen as belonging to a single discipline have migrated between categories. Aristotle's distinction between his Organon (works on logic), on the one hand, and the theoretical, practical, and productive sciences, on the other, existed alongside categorizations motivated by pedagogy, such as the Hellenistic enkyklios paideia and the late Roman artes liberales. A key moment as far as terminology is concerned was Coluccio Salutati's (1331–1406) defense of the studia humanitatis as a coherent and independent field: the secular study of grammar, rhetoric, poetics, history, and moral philosophy, complementary to the studia divinitatis, or Biblical scholarship. When fifteenth-century Italian universities adopted the curriculum of the studia humanitatis, its supporters were called umanisti, giving rise to the terms humanist and, later, humanism.3It is an open question whether or not the humanities as a whole can be distinguished from other groups of disciplines, such as the natural or the social sciences, on the basis of a specific method or object of study. A strong conceptual division between a science of the human and a science of nature dates back at least to Giambattista Vico's (1668–1744) Scienza Nuova of 1725. In the late nineteenth century, Wilhelm Dilthey (1833–1911) authoritatively distinguished the humanities (Geisteswissenschaften) from the sciences (Naturwissenschaften) with regard both to the methods and to the objects studied. Rather than explaining (erklären) the world in terms of countable and measurable regularities, the humanities attempt to understand (verstehen) the intentions of historical actors; the specific objects investigated by the humanities are \"the expressions of the human mind.\"4 Over the twentieth century, other categories were introduced in addition to the humanities and the sciences, in particular the social sciences (or human sciences), which study human behavior in its social context. While these divisions are not stable, Dilthey's definition covers by and large the disciplines that are today referred to by the term humanities at continental European universities, including in languages other than German or English—for example, scienze umanistiche in Italian, humanités in French, humaniora in the Dutch and Scandinavian languages, and gumanitarnyje nauki in Russian.If we move outside Europe, the picture obviously becomes more complicated. It has been argued that Islamic scholarship formed the basis for the studia humanitatis: the studia adabiya included grammar and lexicography, poetry, rhetoric, history, and moral philosophy.5 But China, for one, presents a different picture: the \"six arts\" that Confucius identified with genteel education were rites and rituals, music, archery, charioteering, calligraphy and writing, and mathematics (or prediction). Another ancient Chinese practice, to treat literature, philosophy, and history (the triad wen-shi-zhe) as one body of knowledge, was revived in the nineteenth century under the header of guoxue (national studies). Guoxue was intended as a counterweight to the term renwen, a calque of the Japanese denomination for the Western category \"humanities\" (as different from the social and natural sciences). In fact, however, renwen—the term still used today—was a retranslation, since the Japanese compound was originally derived from the Chinese Book of Changes.6Looking at the term humanities from a systematic perspective, we encounter yet another challenge. Although (and because) the journal aims at the broadest possible audience in its endeavor to contribute to a new field, it appears in a single language. Choosing English as the lingua franca entails many risks, some of which have become apparent in this first issue. In modern English, for one, the division between the humanities and the sciences is emphasized by the terminology itself. Yet in many other languages there is a single term, such as Wissenschaft in German, scienza in Italian, or nauka in Russian, that denotes the study of both the natural and the human world. In German and Italian, Literaturwissenschaft and scienza della letteratura are common terms. The emphasis in English on the difference between humanities and sciences suggests that methods do not easily migrate between these spheres of knowledge. This may be partly responsible for the tendency of English-speaking scholarship to associate the humanities with historical approaches, rather than analytical ones that study their objects independently of the historical and cultural background. By contrast, the humanities outside the United States and Britain have frequently depended on analytical, nonhistorical methods: famous examples include the Vienna School of art history, Russian formalism, and French structuralism.Our terminological challenges do not end with this alleged contrast between sciences and humanities. Another hurdle consists in an ambiguity of the latter term itself. In English, humanities can refer both to the study of the products of the human mind and to these products themselves. We do not intend to include historical studies of literature, music, theater, or the visual arts; rather, we aim at the history of the studies carried out on literature, music, theater, and the visual arts. This does not mean that we ignore that the arts themselves have often played a role in research and in the acquisition of knowledge.Scope of the JournalNo earlier journal has assembled scholarly studies on the history of the humanities disciplines across time and place. We thus believe it is not up to us to formulate rules for good practice in the history of humanities. Some of our contributors will find it legitimate to compare methods or principles stemming from different regions or periods; in the humanities, just as in the sciences, historical actors have applied practices, methods, and principles invented for specific disciplines to problems in other disciplines (sometimes by wilfully ignoring the original historical or religious contexts of these inventions). But other authors in History of Humanities may instead wish to highlight cultural incommensurabilities (and identify, for instance, the problems incurred when Western methods have been applied to the study of African literature or Chinese art).7We are aware that referring to the study of music and the study of art in Greek or Chinese antiquity with terms such as musicology and art history may entail a lapse into Eurocentric presentism in which the past and the foreign are interpreted in terms of current concepts and perspectives. One option is therefore the use of actors' categories, meaning period and local terms, such as poetics for the study of poetry and theater in ancient Greece, grammar for the Italian humanists' study of language, and jinshixue (the study of metal and stone) for tenth-century Chinese antiquarianism.History of Humanities welcomes contributions that critically engage with the validity of the term humanities and its related Eurocentric ideologies as predicated on ancient philology, Renaissance humanism, and the modern humanities faculties at German, French, and English-speaking universities. Yet as universities worldwide have adopted, at least in general terms, the Western model, our focus on the humanities reflects a global state of affairs.8 What is more, we feel that the ambition to write comparative historiographies of the humanities is a powerful heuristic that fills a conspicuous lacuna in the history of knowledge.We welcome articles on topics from all regions and all periods, both before and after the formation of university disciplines and including recently established fields, such as media studies and digital humanities, as well as discontinued fields, such as antiquarianism. Contributions may highlight the singularity of historical and geographical practices or emphasize parallels and connections between disciplines, periods, and cultures. We also invite historians of the humanities to engage with the history of science, and vice versa. Eventually a case could be made for uniting the history of the humanities and the history of science under the header of \"history of knowledge.\"9 Equally, however, contributors to History of Humanities may choose to highlight the specificity of the humanities in regard to the sciences.History of Humanities also encourages contributions on the political and societal value of the humanities. While actual practices in the humanities and sciences have been quite different from Dilthey's dichotomy between understanding and explaining, his distinction molded the minds of many, and his interpretative approach may have contributed to the current image problem of the humanities: they are seen as a luxury pastime with little relevance for society and even less for the economy. Our journal welcomes arguments in favor of (or, obviously, against) the value of the humanities, perhaps emphasizing their importance for critical thinking, social responsibility, or democratic citizenship.10 In this context, our comparative ambitions entail more than simply redressing an imbalance in our knowledge of the \"global humanities.\" The understanding of how one's own traditions have been different from, and determined by, outside influences contributes to cultural consciousness. This insight is to be taken to heart by historians of the humanities; as Edward Said (1935–2003) argued, it is their disciplines—the study of languages and civilizations—that have molded the Eurocentric worldview.11In sum, History of Humanities offers a stage to different practices and ideals in the humanities, from antiquity to the present and from all regions and cultures. Contributions may individuate singular historical actors or draw overarching parallels and connections; seek out commonalities with the sciences or emphasize the humanities' special status; and argue for or against their societal value. The journal publishes individual research articles, book reviews, and conference reports, with a special Forum section presenting a set of articles devoted to a specific theme.In the present volume, the first such Forum section explores the contemporary relevance of the dichotomy \"monument and document\" as formulated by Erwin Panofsky (by John Guillory, with commentaries by John Joseph and Geoffrey Harpham). This is followed by five articles that range from historical overviews to specific case studies. The first analyzes the status of the Chinese tradition of historical writing in the light of recent Western influences, concluding with a programmatic plea for the survival of Chinese scholarly virtues (by Liu Dong, with an introduction by Haun Saussy). The role of mythology in the Northern European humanities of the eighteenth and nineteenth centuries is analyzed from historical and methodological perspectives (by Joep Leerssen). Ferdinand Gregorovius provides a case in point of the importance of legends in historical scholarship (by Maya Maskarinec). The next contribution is a \"bio-bibliographical\" sketch of the Russian scholar Semen Vengerov, who spent his life compiling such sketches (by Mark Gamsa). Finally, one of the main challenges described above—the relationship between the humanities, human sciences, and natural sciences—is addressed (by Hans-Jörg Rheinberger).Notes1. The Making of the Humanities, vol. 1, Early Modern Europe (Amsterdam: Amsterdam University Press, 2010); vol. 2, From Early Modern to Modern Disciplines (Amsterdam: Amsterdam University Press, 2012); and vol. 3, The Modern Humanities (Amsterdam: Amsterdam University Press, 2014).2. See http://historyofhumanities.org/.3. For the history of the word humanist, see Paul Oskar Kristeller, \"Humanism and Scholasticism in the Italian Renaissance,\" Byzantion 17 (1944–45): 346–74.4. Wilhelm Dilthey, Einleitung in die Geisteswissenschaften: Versuch einer Grundlegung für das Studium der Gesellschaft und der Geschichte (Leipzig: Duncker & Humblot, 1883), 29.5. George Makdisi, The Rise of Humanism in Classical Islam and the Christian West: With Special Reference to Scholasticism (Edinburgh: Edinburgh University Press, 1990).6. Hsiung Ping-chen, \"The Evolution of Chinese Humanities,\" American Historical Review 120, no. 4 (2015): 1267–82; Perry Johansson, \"Cross-Cultural Epistemology: How European Sinology Became the Bridge to China's Modern Humanities,\" in The Making of the Humanities, 3:449–64; and Arif Dirlik, ed., \"The National Learning Revival,\" special issue of China Perspectives 1 (2011).7. James Elkins, \"Art History as a Global Discipline,\" in Is Art History Global?, ed. James Elkins (London: Routledge, 2007), 3–23.8. See, e.g., the articles on the modern humanities in South Africa (Keith Breckenridge, 1253–66), Mexico (Erica Pani, 1327–42), India (Sanjay Seth, 1354–67), and Russia (Oleg Kharkhordin, 1283–98) in American Historical Review 120, no. 4 (2015).9. See, e.g., Rens Bod, A New History of the Humanities (Oxford: Oxford University Press, 2013); John Pickstone, \"Toward a History of Western Knowledges: Sketching Together the Histories of the Humanities and the Natural Sciences,\" in Bod, Maat, and Weststeijn, Making of the Humanities, 3:667–85; Rens Bod and Julia Kursell, \"Focus: The History of Humanities and the History of Science,\" Isis 106, no. 2 (2015).10. See Jörg-Dieter Gauger and Günther Rüther, eds., Warum die Geisteswissenschaften Zukunft haben! (Freiburg im Breisgau: Herder, 2007); Jonathan Bate, ed., The Public Value of the Humanities (London: Bloomsbury Academic, 2010); Martha Nussbaum, Not for Profit: Why Democracy Needs the Humanities (Princeton, NJ: Princeton University Press, 2010); Helen Small, The Value of the Humanities (Oxford: Oxford University Press, 2013).11. Edward Said, Humanism and Democratic Criticism (Basingstoke: Palgrave, 2004).Works CitedBate, Jonathan, ed. 2010. The Public Value of the Humanities. London: Bloomsbury Academic.First citation in articleGoogle ScholarBod, Rens. 2013. A New History of the Humanities. Oxford: Oxford University Press.First citation in articleGoogle ScholarBod, Rens, and Julia Kursell. 2015. \"Focus: The History of Humanities and the History of Science.\" Isis 106, no. 2.First citation in articleGoogle ScholarBod, Rens, Jaap Maat, and Thijs Weststeijn, eds. 2010–14. The Making of the Humanities. 3 vols. Amsterdam: Amsterdam University Press.First citation in articleGoogle ScholarDilthey, Wilhelm. 1883. Einleitung in die Geisteswissenschaften: Versuch einer Grundlegung für das Studium der Gesellschaft und der Geschichte. Leipzig: Duncker & Humblot.First citation in articleGoogle ScholarDirlik, Arif, ed. 2011. \"The National Learning Revival.\" Special issue of China Perspectives 1.First citation in articleGoogle ScholarElkins, James. 2007. \"Art History as a Global Discipline.\" In Is Art History Global?, edited by James Elkins, 3–23. London: Routledge.First citation in articleGoogle ScholarGauger, Jörg-Dieter, and Günther Rüther, eds. 2007. Warum die Geisteswissenschaften Zukunft haben! Freiburg im Breisgau: Herder.First citation in articleGoogle ScholarHsiung, Ping-chen. 2015. \"The Evolution of Chinese Humanities.\" American Historical Review 120 (4): 1267–82.First citation in articleCrossrefGoogle ScholarJohansson, Perry. 2014. \"Cross-Cultural Epistemology: How European Sinology Became the Bridge to China's Modern Humanities.\" In The Modern Humanities, vol. 3 of The Making of the Humanities, edited by Rens Bod, Jaap Maat, and Thijs Weststeijn, 449–64. Amsterdam: Amsterdam University Press.First citation in articleGoogle ScholarKristeller, Paul Oskar. 1944–45. \"Humanism and Scholasticism in the Italian Renaissance.\" Byzantion 17:346–74.First citation in articleGoogle ScholarMakdisi, George. 1990. The Rise of Humanism in Classical Islam and the Christian West: With Special Reference to Scholasticism. Edinburgh: Edinburgh University Press.First citation in articleGoogle ScholarNussbaum, Martha. 2010. Not for Profit: Why Democracy Needs the Humanities. Princeton, NJ: Princeton University Press.First citation in articleGoogle ScholarPickstone, John. 2014. \"Toward a History of Western Knowledges: Sketching Together the Histories of the Humanities and the Natural Sciences.\" In The Modern Humanities, vol. 3 of The Making of the Humanities, edited by Rens Bod, Jaap Maat, and Thijs Weststeijn, Amsterdam: Amsterdam University Press.First citation in articleGoogle Humanism and Democratic citation in articleGoogle 2013. The Value of the Humanities. Oxford: Oxford University Press.First citation in articleGoogle Previous articleNext article by History of Humanities 1, by the Society for the History of the Humanities by The Society for the History of the Humanities. the articles this to the a or virtues and and The history of knowledge and the history of History of Review the ancient of in History of Review Bod History of the Humanities, Histories 2, of in the and within The Humanities in and the of Europe, History of Humanities and History of Humanities From with in the Early History of Humanities History in the and the of History of Humanities of The of in History of Humanities Criticism as a of in the The of on Humanities Classical Natural Classical and the Value of in for the History of 2, Humanities der a history of the global in the humanities and the social sciences, of Global History and Rens Bod The of the Humanities, History of Humanities James and Humanities for Review of A History of the History of Humanities The of the on the in the Early History of Humanities 3, and the Humanities, Humanities The and in Global History of Humanities 1,",
+      "year": "2016",
+      "published_date": "2016-03-01",
+      "journal": "History of Humanities",
+      "url": "https://doi.org/10.1086/685056",
+      "arxiv_id": "",
+      "keywords": [
+        "Gloom",
+        "Digital humanities",
+        "Field (mathematics)",
+        "Humanities",
+        "Subject (documents)",
+        "Art",
+        "Sociology",
+        "History"
+      ],
+      "citations": 45,
+      "source": "OpenAlex",
+      "doi": "10.1086/685056",
+      "open_access": false,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "title": "7. The Evaluation and Peer Review of Digital Scholarship in the Humanities",
+      "authors": [
+        "Julianne Nyhan"
+      ],
+      "abstract": "In this chapter, Nyhan explores the history of evaluative assessment methods for digital scholarship in the humanities. Starting from the origin of humanities computing in 1949, Nyhan surveys recorded conversations of the humanities computing community concerning peer review and evaluation, adopting a broad definition of digital scholarship as including not only digital or digitally-derived scholarship but also scholarship that has been published digitally. Her findings highlight an overall mixed experience of, and attitude towards, peer review and formal evaluation. Not only was the use of computer for research as well as publishing work on a digital platform considered problematic before the 1990s, there were also concerns about the implementation of peer review and how it could be organised. Nyhan views the eventual consensus that emerged on the importance of formal evaluation as having been accelerated by the gradual acceptance of digital publication, digital humanities and institutionalisation itself. Nyhan concludes that the inauspicious reception digital scholarship has received is linked to the ambivalence towards the evaluation of digital scholarship; she suggests that our approaches towards the latter can reveal the evolving disciplinary identity of the digital humanities.",
+      "year": "2020",
+      "published_date": "2020-1-30",
+      "journal": "Digital Technology and the Practices of Humanities Research",
+      "url": "https://doi.org/10.11647/obp.0192.07",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.11647/obp.0192.07",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    },
+    {
+      "title": "How do we study misogyny in the digital age? A systematic literature review using a computational linguistic approach",
+      "authors": [
+        "Lara Fontanella",
+        "Berta Chulvi",
+        "Elisa Ignazzi",
+        "A. Sarra",
+        "Alice Tontodimamma"
+      ],
+      "abstract": "Nowadays, despite centuries of striving for equality, women still face higher levels of discrimination compared to men in nearly every aspect of life. Recently, this systemic inequality has manifested in cyberspace through the proliferation of abusive content that is even more aggressive than what one would expect in the 21st century. Various research disciplines are now attempting to characterise this new manifestation of misogyny. The endeavour to comprehend this phenomenon has resulted in a significant increase in publications from several fields, including Social Sciences, Arts and Humanities, Psychology, and Computer Science. This paper presents a systematic review of multidisciplinary research on misogyny from the years 1990 to 2022, encompassing a total of 2830 articles retrieved from the Scopus database as of December 31, 2022. The literature is thoroughly analysed using three approaches: bibliometric analysis, topic detection, and qualitative analysis of the documents. The findings suggest that the analysis of online misogyny has been the primary driver behind the exponential growth in publications in this field. Additionally, the results of the topic analysis and topic interaction reveal a limited connection between the areas of knowledge that are necessary to fully grasp this complex phenomenon.",
+      "year": "2024",
+      "published_date": "2024-04-02",
+      "journal": "Humanities and Social Sciences Communications",
+      "url": "https://www.semanticscholar.org/paper/aa211982ba661c19c4f362226b17f649f1ff05dd",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 32,
+      "source": "Semantic Scholar",
+      "doi": "10.1057/s41599-024-02978-7",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Conceptualization and Non-Relational Implementation of Ontological and Epistemic Vagueness of Information in Digital Humanities",
+      "authors": [
+        "Patricia Martín-Rodilla",
+        "César González-Pérez"
+      ],
+      "abstract": "Research in the digital humanities often involves vague information, either because our objects of study lack clearly defined boundaries, or because our knowledge about them is incomplete or hypothetical, which is especially true in disciplines about our past (such as history, archaeology, and classical studies). Most techniques used to represent data vagueness emerged from natural sciences, and lack the expressiveness that would be ideal for humanistic contexts. Building on previous work, we present here a conceptual framework based on the ConML modelling language for the expression of information vagueness in digital humanities. In addition, we propose an implementation on non-relational data stores, which are becoming popular within the digital humanities. Having clear implementation guidelines allow us to employ search engines or big data systems (commonly implemented using non-relational approaches) to handle the vague aspects of information. The proposed implementation guidelines have been validated in practice, and show how we can query a vagueness-aware system without a large penalty in analytical and processing power.",
+      "year": "2019",
+      "published_date": "2019-05-06",
+      "journal": "Informatics",
+      "url": "https://doi.org/10.3390/informatics6020020",
+      "arxiv_id": "",
+      "keywords": [
+        "Vagueness",
+        "Conceptualization",
+        "Computer science",
+        "Digital humanities",
+        "Data science",
+        "Epistemology",
+        "Artificial intelligence",
+        "Fuzzy logic"
+      ],
+      "citations": 21,
+      "source": "OpenAlex",
+      "doi": "10.3390/informatics6020020",
+      "open_access": true,
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities AND large language models"
+    },
+    {
+      "title": "A dancing bear, a colleague, or a sharpened toolbox? The cautious adoption of generative AI technologies in digital humanities research",
+      "authors": [
+        "Rongqian Ma",
+        "Meredith Dedema",
+        "Andrew Cox"
+      ],
+      "abstract": "The advent of generative artificial intelligence (GenAI) technologies has been changing the research landscape and potentially has significant implications for Digital Humanities (DH), a field inherently intertwined with technologies. This article investigates how DH scholars adopt and critically evaluate GenAI technologies for research. Drawing on 76 responses collected from an international survey study and 15 semi-structured interviews with DH scholars, we explored the rationale for adopting GenAI tools in research, identified the specific practices of using GenAI tools, and analyzed scholars'collective perceptions regarding the benefits, risks, and challenges. The results reveal that DH research communities hold divided opinions and differing imaginations towards the role of GenAI in DH scholarship. While scholars acknowledge the benefits of GenAI in enhancing research efficiency and enabling reskilling, many remain concerned about its potential to disrupt their intellectual identities. Situated within the history of DH and viewed through the lens of Actor-Network Theory, our findings suggest that the adoption of GenAI is gradually changing the field, though this transformation remains contested, shaped by ongoing negotiations among multiple human and non-human actors. Our study is one of the first empirical analyses on this topic and has the potential to serve as a building block for future inquiries into the impact of GenAI on DH scholarship.",
+      "year": "2024",
+      "published_date": "2024-04-18",
+      "journal": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/879173816c6cf4fe4939b13789e533aa3f2f5ca3",
+      "arxiv_id": "2404.12458",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "AI-assisted humanities scholarship survey"
+    },
+    {
+      "title": "Digital Humanities and Distributed Cognition: From a Lack of Theory to its Visual Augmentation",
+      "authors": [
+        "F. Windhager",
+        "E. Mayr"
+      ],
+      "abstract": "Digital humanists have often been criticized as too technology-driven and for a lack of theoretical work. In this paper, we discuss theories from Cognitive Science on the extended mind, which provide a productive framework to theorize the use of tools and technologies for the sake of cognitive self-enhancement. Viewed through this lens, humans continuously self-amplify their natural cognitive resources and processes by extending and offloading them to interactions with artifacts and other individuals in their environment. Concepts of extended cognition further sharpen the focus on multiple types of distribution: from the outlined internal-external distribution to the propositional-visual distribution of cognition, but also for the multi-instrumental distribution across multiple types of tools and tool specialist. All these aspects are relevant for future debates about a “theory gap” in the digital humanities: DH mainly builds external, technological tools, while traditional humanities develop conceptual tools—including theories—to enable and enhance the study of complex cultural phenomena. Notwithstanding the value of confrontational discussions, we argue for the benefits of understanding the strengths and limitations of instruments on both sides—and for working toward future synergies and ecologies of the humanities’ tools and minds. In this regard, we show how visualization-based DH tools might might play a major role in closing the comprehensibility gap of traditional theories in the arts and humanities.",
+      "year": "2024",
+      "published_date": "2024-08-14",
+      "journal": "Journal of Cultural Analytics",
+      "url": "https://www.semanticscholar.org/paper/ffa065927abcdc85204f158e8bb89088f3bd4f92",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.22148/001c.121866",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    },
+    {
+      "title": "Digital humanities in the era of digital reproducibility: towards a fairest and post-computational framework",
+      "authors": [
+        "Béatrice Joyeux-Prunel"
+      ],
+      "abstract": "Reproducibility has become a requirement in the hard sciences, and its adoption is gradually extending to the digital humanities. The FAIR criteria and the publication of data papers are both indicative of this trend. However, the question that arises is whether the strict prerequisites of digital reproducibility serve only to exclude digital humanities from broader humanities scholarship. Instead of adopting a binary approach, an alternative method acknowledges the unique features of the objects, inquiries, and techniques of the humanities, including digital humanities, as well as the social and historical contexts in which the concept of reproducibility has developed in the human sciences. In the first part of this paper, I propose to examine the historical and disciplinary context in which the concept of reproducibility has developed within the human sciences, and the disciplinary struggles involved in this process, especially for art history and literature studies. In the second part, I will explore the question of reproducibility through two art history research projects that utilize various computational methods. I argue that issues of corpus, method, and interpretation cannot be separated, rendering a procedural definition of reproducibility impractical. Consequently, I propose the adoption of ‘post-computational reproducibility’, which is based on FAIREST criteria as far as digital corpora are concerned (FAIR + Ethics and Expertise, Source mention + Time-Stamp), but extended to include further sources that confirm computational results with other non-computational methodologies.",
+      "year": "2024",
+      "published_date": "2024-01-03",
+      "journal": "International Journal of Digital Humanities",
+      "url": "https://www.semanticscholar.org/paper/3124361c9e9730e77735aac3224a94b533b2d57f",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 8,
+      "source": "Semantic Scholar",
+      "doi": "10.1007/s42803-023-00079-6",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "在数字人文研究场景中，面向产业情报分析，如何构建多智能协同驱动的智慧情报服务闭环？"
+    },
+    {
+      "title": "A bibliometric study of digital humanities research in China from 2012 to 2021",
+      "authors": [
+        "Fangli Su",
+        "Shihao Li",
+        "Qinghua Liu",
+        "Yin Zhang"
+      ],
+      "abstract": "Introduction. We investigated the main research topics of digital humanities in China from 2012 to 2021, as well as the journals, authors, and institutions that produced the most research in this field.\nMethod. Based on a sample of relevant digital humanities literature from the China National Knowledge Infrastructure (CNKI) database, we applied bibliometric methods and visualisation tools for a longitudinal examination. \nAnalysis. This study took CNKI as the data source and extracted keywords for an analysis of the research output, intellectual structures, and distribution features of authors and institutions.\nResults. Digital humanities research in China is strongly associated with library and information science, with eight major reoccurring topics and themes identified. The leading research contributors in China are authors and institutions that are also identified and highlighted.\nConclusions. Digital humanities research in China rapidly grew between 2012 and 2021. This study depicts the overall situation and knowledge structure of the research and establishes a benchmark for further theoretical research and practical innovation of digital humanities in China.",
+      "year": "2023",
+      "published_date": "2023-12-15",
+      "journal": "Information Research",
+      "url": "https://www.semanticscholar.org/paper/4383f7c5996c5f6310384fa30fa30bd0a9d5268f",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.47989/ir284336",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "humanities research assistant benchmark"
+    }
+  ],
+  "timestamp": "20260423_164625"
+}

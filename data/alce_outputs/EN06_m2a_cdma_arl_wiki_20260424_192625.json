@@ -1,0 +1,36 @@
+{
+  "qid": "EN06",
+  "condition": "m2a_cdma_arl",
+  "query": "What distinguishes single-agent from multi-agent information retrieval pipelines in terms of evidence accountability?",
+  "domain": "Multi-Agent Information Services",
+  "category": "knowledge_service",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 1,
+  "eq_titles": [
+    "Wikipedia: What distinguishes single-agent from mul"
+  ],
+  "top_papers": [
+    {
+      "title": "Wikipedia: What distinguishes single-agent from mul",
+      "abstract": ""
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Wikipedia:_What_distinguishes_single-agent_from_mul"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN06_m2a_cdma_arl_wiki_20260424_192625.md"
+}

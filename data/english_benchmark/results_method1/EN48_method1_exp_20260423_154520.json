@@ -1,0 +1,203 @@
+{
+  "query_id": "EN48",
+  "query": "What factors explain variation in the ambition and credibility of nationally determined contributions under the Paris Agreement?",
+  "domain_id": "climate_policy_research",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Contributions and Risks of Artificial Intelligence (AI) in Building Smarter Cities: Insights from a Systematic Review of the Literature",
+      "authors": [
+        "Tan Yiğitcanlar",
+        "Kevin C. Desouza",
+        "Luke Butler",
+        "Farnoosh Roozkhosh"
+      ],
+      "abstract": "Artificial intelligence (AI) is one of the most disruptive technologies of our time. Interest in the use of AI for urban innovation continues to grow. Particularly, the rise of smart cities—urban locations that are enabled by community, technology, and policy to deliver productivity, innovation, livability, wellbeing, sustainability, accessibility, good governance, and good planning—has increased the demand for AI-enabled innovations. There is, nevertheless, no scholarly work that provides a comprehensive review on the topic. This paper generates insights into how AI can contribute to the development of smarter cities. A systematic review of the literature is selected as the methodologic approach. Results are categorized under the main smart city development dimensions, i.e., economy, society, environment, and governance. The findings of the systematic review containing 93 articles disclose that: (a) AI in the context of smart cities is an emerging field of research and practice. (b) The central focus of the literature is on AI technologies, algorithms, and their current and prospective applications. (c) AI applications in the context of smart cities mainly concentrate on business efficiency, data analytics, education, energy, environmental sustainability, health, land use, security, transport, and urban management areas. (d) There is limited scholarly research investigating the risks of wider AI utilization. (e) Upcoming disruptions of AI in cities and societies have not been adequately examined. Current and potential contributions of AI to the development of smarter cities are outlined in this paper to inform scholars of prospective areas for further research.",
+      "year": "2020",
+      "published_date": "2020-03-20",
+      "journal": "Energies",
+      "url": "https://doi.org/10.3390/en13061473",
+      "arxiv_id": "",
+      "keywords": [
+        "Context (archaeology)",
+        "Corporate governance",
+        "Sustainability",
+        "Smart city",
+        "Systematic review",
+        "Productivity",
+        "Applications of artificial intelligence",
+        "Big data"
+      ],
+      "citations": 498,
+      "source": "OpenAlex",
+      "doi": "10.3390/en13061473",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate governance systematic review automation"
+    },
+    {
+      "title": "What are the Factors Influencing Service Provider Response to Working with Families Affected by Intimate Partner Violence and Abuse? A Qualitative Systematic Review of the Literature",
+      "authors": [
+        "Andrea Mayrhofer",
+        "H. Alderson",
+        "Kausiki Sarma",
+        "Caroline Jackson",
+        "P. Olive",
+        "Madalina Toma",
+        "Nushra Mansuri",
+        "Amy Waterfield",
+        "Sharon Crossen",
+        "Deborah Parker",
+        "Julien Forder",
+        "E. Kaner",
+        "Robin Miller",
+        "Mark Gabbay",
+        "Dorcas Akeju",
+        "Ruth McGovern"
+      ],
+      "abstract": "Intimate partner violence and abuse (IPVA) is a major public health issue with long-term negative impacts on abused adults and affected children. Addressing this complex problem requires a multi-agency response, but barriers to effective joint working remain. This review aimed to understand the factors that influence multi-agency response to families who experience IPVA and to their children. We undertook a qualitative systematic review of international literature via five electronic databases and supplemented the review by citation searches, online searches of grey literature, and hand searches of relevant journals. We analyzed data thematically. The 31 identified papers reported findings from 29 unique studies undertaken in six countries and drew on data from 1049 professionals across health care, social care, the police, courts, schools and voluntary organisations. The main factors influencing service provider response to IPVA were siloed approaches to IPVA, particularly the separation between adult and childrens services. This influenced assessment and response to risk. Risk was also a consideration when child-protection staff were expected to work with perpetrators in ‘family settings’, even in lower-risk cases. Multi-agency working facilitated information sharing between agencies, an understanding of each other’s remit, and building trust. Multi-agency collaboration needs to be supported by clear policies of interaction between agencies. Providers of child protection services, health, mental health, housing police and probation need to be supported by specialist training in IPVA, not only in high-risk cases, but also to relieve pressure on an already overstretched workforce.",
+      "year": "2024",
+      "published_date": "2024-10-09",
+      "journal": "Journal of Family Violence",
+      "url": "https://www.semanticscholar.org/paper/fbcc7df1aebe9d1c57e6f17092fc9a22beef754f",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.1007/s10896-024-00755-3",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "citation-grounded research assistant systematic review"
+    },
+    {
+      "title": "The future of ChatGPT in academic research and publishing: A commentary for <i>clinical and translational medicine</i>",
+      "authors": [
+        "Jun Wen",
+        "Wei Wang"
+      ],
+      "abstract": "ChatGPT, an artificial intelligence (AI)-powered chatbot developed by OpenAI, is creating a buzz across all occupational sectors. Its name comes from its basis in the Generative Pretrained Transformer (GPT) language model. ChatGPT's most promising feature is its ability to offer human-like responses to text input using deep learning techniques at a level far superior to any other AI model. Its rapid integration in various industries signals the public's burgeoning reliance on AI technology. Thus, it is essential to critically evaluate ChatGPT's potential impacts on academic clinical and translational medicine research. ChatGPT contains 175 billion parameters, making it one of the largest and most powerful models for AI processing available today—hence its growing use in different occupations. ChatGPT's responses are leaps and bounds above those from past AI programs, in no small part due to being more human-like. ChatGPT has taken the business world by storm. It is easy to envision its expansion into clinical and translational medicine in the future. As such, experts must consider the potential effects of this technology in and beyond medical research. ChatGPT has made its debut in the scientific literature through published papers and preprints. Although ChatGPT can undoubtedly benefit writers of all backgrounds, its limitations in medical research merit close attention.1 The emerging use of ChatGPT has sparked an upheaval in the scientific community and ignited debates around the ethics of using AI to write scientific publications that can influence the decisions of physicians, researchers, and policymakers. The most significant disadvantage of ChatGPT is that the information it compiles is not always accurate. This drawback is especially detrimental in academic publishing; after all, progress depends on sharing appropriate information. Presenting incorrect data in a scientific setting carries a great risk of harm. For example, research influences how personal and community health concerns are treated and managed. The data which ChatGPT uses provide information from 2021 and earlier. The chatbot does not currently consider information reported in 2022 onward.2 For a field that is driven by recent advances to boost knowledge, enhance interventions, and formulate evidence-based policies, this year-long (and growing) information gap is a stark hindrance. If scholars use ChatGPT to create content, attempting to publish papers that contain false or outdated information will tarnish authors’ credibility among colleagues and peers. A double-edged sword with ChatGPT is the ability—or more accurately, the inability—of scholars to detect when other professionals have used it. Researchers at Northwestern University asked ChatGPT to write 50 medical-research abstracts based on a set of articles published in medical journals. The authors then asked a group of medical researchers to spot the fabricated abstracts.3 Problematic results emerged, with human reviewers able to correctly identify only 68% of the ChatGPT-produced abstracts and 86% of the genuine abstracts. These findings confirm ChatGPT writes believable (albeit potentially inaccurate) scientific abstracts. The results of this study bode well for those interested in employing ChatGPT to facilitate the writing process, as people reading their work likely will not realize it was AI-generated. However, this possibility raises several concerns. Being unable to identify valid information comes with consequences. Scientists may follow flawed investigation routes, which translate into wasted research dollars and misleading results. For policymakers, the inability to detect false research may ground policy decisions in incorrect information that could have monumental effects on society. Due to these implications, the future of academic and scientific publishing may soon hold policies that forbid AI-generated content. Those who use ChatGPT in any capacity will need to be aware of these mandates. The 40th International Conference on Machine Learning already banned papers written by AI tools, including ChatGPT.4 The Science family of journals is also updating their license and Editorial Policies to specify that they will not allow ChatGPT-produced text. They explained their stance in an editorial, stating that most cases of scientific misconduct arise from inadequate human attention, and permitting ChatGPT-generated content significantly increases this risk.5 Not all ChatGPT-related matters have elicited concern within the scientific research field. A February 2023 article in Nature described computational biologists’ use of ChatGPT to improve completed research papers. In just five minutes, the biologists received a review of their manuscript that increased readability and spotted equation-based mistakes. During a trial with three manuscripts, the team's use of ChatGPT was not always smooth, but the final output returned better-edited manuscripts.6 Using ChatGPT for this purpose bypasses the scientific community's primary concerns surrounding AI and its use of inaccurate or outdated information. Because computational biologists initially wrote the manuscripts, the information was already accurate and up to date. ChatGPT can help increase researchers’ productivity and content quality. If scientists can spend less time editing their work, they can devote more time to advancing the field of medicine. Considering these benefits, ChatGPT can prove invaluable for researchers looking to verify answers or identify problems in their work. It is important to remember that, as of now, ChatGPT is not sufficiently trained on specialized content to be able to fact-check technical topics.7 Experts anticipate that the technology and programs integrating ChatGPT will serve as precursors to more advanced AI systems. In the meantime, this chatbot can play a supportive role in academic and scientific publishing, primarily for editing. Even so, those who use ChatGPT must be aware of its limitations. As it stands, ChatGPT cannot be relied upon to provide correct facts or produce reliable references, as stated by a January editorial in Nature Machine Intelligence.8 Accepting the limitations of ChatGPT and using it only for certain tasks allows researchers to delegate tedious jobs, such as manuscript editing, to the AI model while avoiding catastrophes such as the publication of false information. As ChatGPT becomes more commonplace, it will be crucial to calibrate expectations about its capabilities and acknowledge that it cannot take on every job. Especially in the academic research field, any tasks in need of specialized subject knowledge or innovative ideas and opinions still require a genuine human touch that cannot be replaced by AI. Our conclusions regarding ChatGPT and its applications in scientific research focus on a high-impact journal–Clinical and Translational Medicine–that aims to promote, accelerate, and translate preclinical research for clinical applications. This journal highlights the importance of clinical and translational medicine research in the name of promoting the safety and efficacy of discoveries that proceed to human trials, reflecting the notion of ‘bench to bedside.’9 Implementing ChatGPT in its present iteration must be pursued with extreme caution given the tool's evolving limitations and capabilities when it comes to providing reliable information. Can AI replace human input? We concur with H. Holden Thorp's position5 on ChatGPT in that “ChatGPT is fun, but not an author” (p. 313). Scientists might be able to use well-developed AI tools to increase work efficiency for tasks such as proofreading and manuscript checks. In the future, AI-based tools may become recognized for their contributions to broader areas of scientific research, depending on their abilities to support human input. The boundaries between research ethics and the moral use of AI in health research10 need to be further explored to establish guidelines. All researchers and contributors must understand what AI can and cannot do. Therefore, editors and editorial board members should continue monitoring ChatGPT's applications in academic research to draft journal policies that inform contributors of best practices. Doing so will ensure that Clinical and Translational Medicine can maintain an image of integrity by publishing timely and accurate research that makes meaningful contributions. After all, research excellence is gauged by ethics and integrity. The authors declare no conflict of interest.",
+      "year": "2023",
+      "published_date": "2023-03-01",
+      "journal": "Clinical and Translational Medicine",
+      "url": "https://doi.org/10.1002/ctm2.1207",
+      "arxiv_id": "",
+      "keywords": [
+        "LEAPS",
+        "Marketing buzz",
+        "Translational medicine",
+        "Engineering ethics",
+        "Publishing",
+        "Data science",
+        "Translational research",
+        "Disadvantage"
+      ],
+      "citations": 103,
+      "source": "OpenAlex",
+      "doi": "10.1002/ctm2.1207",
+      "open_access": true,
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "policy intelligence AND evidence grounded writing"
+    },
+    {
+      "title": "What if Germany had invested in nuclear power? A comparison between the German energy policy the last 20 years and an alternative policy of investing in nuclear power",
+      "authors": [
+        "Jan Emblemsvåg"
+      ],
+      "abstract": "ABSTRACT Germany has one of the most ambitious energy transition policies dubbed ‘Die Energiewende’ to replace nuclear- and fossil power with renewables such as wind-, solar- and biopower. The climate gas emissions are reduced by 25% in the study period of 2002 through 2022. By triangulating available information sources, the total nominal expenditures are estimated at EUR 387 bn, and the associated subsidies are some EUR 310 bn giving a total nominal expenditures of EUR 696 bn. Alternatively, Germany could have kept the existing nuclear power in 2002 and possibly invest in new nuclear capacity. The analysis of these two alternatives shows that Germany could have reached its climate gas emission target by achieving a 73% cut in emissions on top of the achievements in 2022 and simultaneously cut the spending in half compared to Energiewende. Thus, Germany should have adopted an energy policy based on keeping and expanding nuclear power.",
+      "year": "2024",
+      "published_date": "2024-06-02",
+      "journal": "International Journal of Sustainable Energy",
+      "url": "https://www.semanticscholar.org/paper/6e51611ffe05ef42d81da10515589a0ee1356d80",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 11,
+      "source": "Semantic Scholar",
+      "doi": "10.1080/14786451.2024.2355642",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "energy transition policy benchmark retrieval benchmark"
+    },
+    {
+      "title": "Adjustments in Indigenous Peoples' Forest Use and Management in the Context of Climate Change: A Global Systematic Literature Review",
+      "authors": [
+        "T. Bauer"
+      ],
+      "abstract": "HIGHLIGHTS Role of Indigenous peoples in forest use and management and climate change debates is increasingly recognized. MCA associated publications on adaptation strategies, mostly related to NTFPs, with reactive measures, driven by Indigenous peoples, integrating TEK and climate sensitivity. MCA associated publications on mitigation strategies, mostly REDD+ projects, with proactive and external measures, largely omitting information on the sensitivity of the studied Indigenous group and involvement of TEK. Acknowledgement of Indigenous peoples, forest dependence, and TEK stronger in NAPs than in NDCs. Mitigation projects could likely benefit from a more inclusive approach by integrating sensitivity analysis and context-specific TEK. SUMMARY The global diversity of forest use and management responses of forest-dependent Indigenous peoples to climate change remains poorly understood and lacks synthesis. Yet, such knowledge is essential for informed policy decisions and inclusive mitigation strategies. Through a systematic literature review, forest-dependent Indigenous peoples' responses to climate change and extreme weather events were analysed, including the prevalence of the strategies, their drivers, the role of sensitivity to climate change and the integration of traditional ecological knowledge (TEK) in forest use and management. Also, an assessment was made of how forest dependence and traditional knowledge are acknowledged in Nationally Determined Contributions (NDCs) and National Adaptation Plans (NAPs). The results show knowledge clusters around coping and adaptation, mitigation, and joint strategies in North and South America and Asia. Multiple Correspondence Analysis showed that articles documenting adaptation strategies were associated to a reactive response time, Indigenous peoples as drivers and the integration of TEK and information on their climate sensitivity. The diversity of applied strategies found, mostly related to non-timber forest products (NTFPs), comprised ecologically sustainable and unsustainable practices. Mitigation strategies, mostly REDD+ projects, which were significantly associated with proactive and external initiatives, largely omitted information on the sensitivity of the studied Indigenous group and the involvement of traditional knowledge. Joint strategies seem to be a good compromise of participatory efforts and were largely linked to integrating Indigenous peoples' traditional knowledge. Knowledge gaps include evidence of forest-related resilient livelihood strategies. Future research should focus on participatory and sustainable climate measures, the role of TEK and the drivers for the success of forest-related climate responses, as well as the potential effectiveness of joint adaptation-mitigation measures for forest-dependent Indigenous peoples on a global scale. La diversité de l'utilisation des forêts et des réponses de gestion au changement climatique par les peuples Indigènes dépendantes de la forêt demeure peu comprise à l'échelle globale et n'a pas connu de synthèse à ce jour. Or, une telle connaissance est nécessaire pour informer les décisions de politique et les stratégies d'atténuation proportionnelle. Les réponses des peuples Indigènes dépendant de la forêt au changement climatique et aux évènements climatiques extrêmes ont été analysées à l'aide d'une étude systématique de la littérature, en incluant la prévalence des stratégies, des agents de celles-ci, le rôle de la sensibilité au changement climatique et à l'intégration de la connaissance écologique traditionnelle (TEK) dans l'utilisation et la gestion de la forêt. Une évaluation du degré auquel la dépendance à la forêt et la connaissance traditionnelle ont été reconnues dans les Contributions déterminées nationalement (NDCs) et les Plans d'adaptation nationaux a été également dressée. Les résultats indiquent des regroupements autour de l'adaptation et de la lutte, de l'atténuation et des stratégies jointes en Amérique du nord et du sud, et en Asie. Une analyse de correspondances multiples montrait que les articles documentant les stratégies d'adaptation étaient associés à un temps de réponse réactive, aux motivations des peuples autochtones à l'intégration de la TEK et de l'information sur leur sensibilité de ceux-ci au climat. La diversité des stratégies appliquées relevées, liées pour la plupart aux produits forestier non ligneux (PFNL), comprenaient des pratiques soutenables écologiquement, mais également non-durables. Les stratégies d'atténuation, pour la plupart des projets de la REDD+, étaient associées majoritairement à des initiatives extérieures et proactives, et laissaient majoritairement de côté les informations sur la sensibilité des groupes indigènes étudiés et sur la part faite aux connaissances traditionnelles. Les stratégies jointes semblent former un compromis acceptable des efforts participatifs et sont largement liées à une intégration de la connaissance traditionnelle des peuples Indigènes. Les hiatus dans la connaissance incluent le manque de preuves quant aux stratégies pour obtenir des revenus durables liés à la forêt. La recherche future devrait se concentrer sur des mesures climatiques participatives et durables, le rôle de la TEK et les motivations conduisant au succès des réponses climatiques, ainsi que sur l'efficacité potentielle de mesures jointes d'adaptation/atténuation pour les peuples Indigènes dépendantes de la forêt à l'échelle globale. La diversidad global del uso de los bosques y las respuestas de gestión de los Pueblos Indígenas dependientes de los bosques al cambio climático sigue siendo poco conocida y carece de síntesis. Sin embargo, este conocimiento es esencial para tomar decisiones políticas informadas y estrategias de mitigación inclusivas. El estudio hizo una revisión bibliográfica sistemática para analizar las respuestas de los Pueblos Indígenas dependientes de los bosques al cambio climático y a los fenómenos meteorológicos extremos, que incluyó la prevalencia de las estrategias, sus impulsores, el papel de la sensibilidad al cambio climático y la integración de los conocimientos ecológicos tradicionales (CET) en el uso y la gestión de los bosques. Asimismo, evaluó cómo se reconocen la dependencia de los bosques y los conocimientos tradicionales en las Contribuciones Determinadas a Nivel Nacional (CDN) y los Planes Nacionales de Adaptación (PNA). Los resultados muestran grupos de conocimientos similares en torno a las estrategias de respuesta y adaptación, mitigación y conjuntas en América del Norte y del Sur y en Asia. Un Análisis de Correspondencias Múltiples mostró que los artículos que documentaban las estrategias de adaptación estaban asociados a un tiempo de respuesta reactivo, a los Pueblos Indígenas como impulsores y a la integración de los CET y la información sobre su sensibilidad climática. La diversidad de las estrategias aplicadas encontradas, en su mayoría relacionadas con los productos forestales no maderables (PFNM), incluyó prácticas ecológicamente sostenibles y no sostenibles. Las estrategias de mitigación, en su mayoría proyectos REDD+, que se asociaron significativamente con iniciativas proactivas y externas, omitieron en gran medida la información sobre la sensibilidad del grupo Indígena estudiado y la participación del conocimiento tradicional. Las estrategias conjuntas parecen ser un buen compromiso a los esfuerzos participativos y están vinculadas en gran medida a la integración de los conocimientos tradicionales de los Pueblos Indígenas. Entre las lagunas de conocimiento están la evidencia sobre estrategias de medios de vida resilientes relacionadas con los bosques. La investigación futura debería centrarse en las medidas climáticas participativas y sostenibles, en el papel de los CET y en los factores impulsores de éxito en las respuestas climáticas relacionadas con los bosques, así como en la eficacia potencial a escala mundial de las medidas conjuntas de adaptación y mitigación para los Pueblos Indígenas dependientes de los bosques.",
+      "year": "2022",
+      "published_date": "2022-09-01",
+      "journal": "International forestry review",
+      "url": "https://www.semanticscholar.org/paper/72c968b7146e9b6f4b1f1cedb3f5c6bcb4106d23",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "Semantic Scholar",
+      "doi": "10.1505/146554822835941913",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis survey"
+    },
+    {
+      "title": "Factors Fuelling the Underrepresentation of Indigenous Knowledge in Climate Change Governance in Kenya and Ethiopia: A Systematic Review",
+      "authors": [
+        "Eromose E. Ebhuoma"
+      ],
+      "abstract": "",
+      "year": "2022",
+      "published_date": "2022",
+      "journal": "Sustainable Development Goals Series",
+      "url": "https://doi.org/10.1007/978-3-030-99411-2_15",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 3,
+      "source": "CrossRef",
+      "doi": "10.1007/978-3-030-99411-2_15",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate governance systematic review automation"
+    },
+    {
+      "title": "Did the Glasgow COP26 negotiations meet or miss Article 6 (carbon markets) of the Paris Agreement? A systematic review of the literature",
+      "authors": [
+        "Majid Asadnabizadeh"
+      ],
+      "abstract": "The Paris Agreement is an important milestone in international climate policy and the associated negotiations of the United Nations Climate Summit under the United Nations Framework Convention on Climate Change (UNFCCC). Article 6 of the Paris Agreement is a supplementary mechanism—regarding carbon markets—to reduce greenhouse gases and achieve the UNFCCC's main objective of stabilizing greenhouse gas concentrations. The 2021 United Nations Climate Summit in Glasgow (COP26) played a key role in the pursuit of this goal. Via an overview of Article 6 negotiations in past COP summits and a systematic review and qualitative meta‐synthesis of the literature leading up to COP26, I identify three arguments involving Articles 6.2, 6.4, and 6.8 behind the selected literature. I substantiate these arguments based on the meta‐evaluation of the existing literature and propose a three‐stage meta‐evaluation of the arguments on Article 6 (carbon markets) of the Paris Agreement in the context of COP26 to ascertain if the negotiations were successful in leading to requisite agreements on Article 6. I conclude that future qualitative research should focus on Articles 6.4 and 6.8 of the Paris Agreement and examine the outcomes of future climate debates to see how ideas will flow through the negotiations regarding these two articles to pursue the goal of the UNFCCC under the Paris Agreement.Jihyung Joo, Jihyung, Jouni Paavola, and James Van Alstine. 2023. “The Divergence of South Korea's Emissions Trading Scheme (ETS) from the EU ETS: An Institutional Complementarity View.” Politics & Policy 51(6): 1155–73. https://doi.org/10.1111/polp.12566.Nunes Silva, Carlos. 2012. “Policy and Evidence in a Partisan Age: The Great Disconnect—By Paul Gary Wyckoff.” Politics & Policy 40(3): 541–43. https://doi.org/10.1111/j.1747‐1346.2012.00363.x.Robles, Pedro, and Daniel J. Mallinson. 2023. “Catching up with AI: Pushing toward a Cohesive Governance Framework.” Politics & Policy 51(3): 355–72. https://doi.org/10.1111/polp.12529.",
+      "year": "2024",
+      "published_date": "2024-07-15",
+      "journal": "Politics &amp; Policy",
+      "url": "https://www.semanticscholar.org/paper/e79b1bb75a21d35d75e6f06d9d5b07ba7522299d",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 2,
+      "source": "Semantic Scholar",
+      "doi": "10.1111/polp.12621",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis benchmark"
+    },
+    {
+      "id": "gs_b90d981017",
+      "title": "A grounded theory of credibility work and illness: Explication and application to the case of women on trial in health care",
+      "abstract": "Our literature review and interviews with women uncover  of labor, for example, having to  gather “evidence” of illness not  Through our analysis and critical literature review, we provide (a",
+      "authors": [
+        "CM Thompson",
+        "S Babu"
+      ],
+      "year": 2025,
+      "journal": "Communication Research",
+      "citations": 28,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502231184318",
+      "doi": "10.1177/00936502231184318",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "evidence grounded medical literature analysis"
+    }
+  ],
+  "timestamp": "20260423_154520"
+}

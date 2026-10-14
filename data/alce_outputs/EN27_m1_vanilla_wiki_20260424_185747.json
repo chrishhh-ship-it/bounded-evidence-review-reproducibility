@@ -1,0 +1,27 @@
+{
+  "qid": "EN27",
+  "condition": "m1_vanilla",
+  "query": "What is the prevalence of hallucinated citations in large language model outputs for biomedical literature synthesis tasks?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "hallucination",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 1,
+  "eq_titles": [
+    "Human nutrition"
+  ],
+  "top_papers": [
+    {
+      "title": "Human nutrition",
+      "abstract": "Human nutrition deals with the provision of essential nutrients in food that are necessary to support human life and good health. Poor nutrition is a chronic problem often linked to poverty, food security, or a poor understanding of nutritional requirements. Malnutrition and its consequences are large contributors to deaths, physical deformities, and disabilities worldwide. Good nutrition is necessary for children to grow physically and mentally, and for normal human biological development."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Human_nutrition"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN27_m1_vanilla_wiki_20260424_185747.md"
+}

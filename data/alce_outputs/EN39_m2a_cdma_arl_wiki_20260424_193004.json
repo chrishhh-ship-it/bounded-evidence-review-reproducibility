@@ -1,0 +1,60 @@
+{
+  "qid": "EN39",
+  "condition": "m2a_cdma_arl",
+  "query": "How do climate adaptation policies address equity and justice concerns in vulnerable communities according to current research?",
+  "domain": "Climate Policy Research",
+  "category": "adaptation",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Climate justice",
+    "Climate change adaptation",
+    "Economic analysis of climate change",
+    "Climate change policy of the United States",
+    "Climate change vulnerability"
+  ],
+  "top_papers": [
+    {
+      "title": "Climate justice",
+      "abstract": "Climate justice is a type of environmental justice that focuses on the unequal impacts of climate change on marginalized or otherwise vulnerable populations. Climate justice seeks to achieve an equitable distribution of both the burdens of climate change and the efforts to mitigate climate change through advocacy and policy change. The economic burden of climate change mitigation is estimated by some at around 1% to 2% of GDP. Climate justice examines concepts such as equality, human rights, col"
+    },
+    {
+      "title": "Climate change adaptation",
+      "abstract": "Climate change adaptation is the process of adjusting to the effects of climate change, both current and anticipated. Adaptation aims to moderate or avoid harm for people, and is usually done alongside climate change mitigation. It also aims to exploit opportunities. Adaptation can involve interventions to help natural systems cope with changes."
+    },
+    {
+      "title": "Economic analysis of climate change",
+      "abstract": "Economic analysis of climate change uses economic tools and models to calculate the scale and distribution of damages caused by climate change. It can also give guidance for the best policies for mitigation and adaptation to climate change from an economic perspective. There are many economic models and frameworks. For example, in a cost–benefit analysis, the trade offs between climate change impacts, adaptation, and mitigation are made explicit."
+    },
+    {
+      "title": "Climate change policy of the United States",
+      "abstract": "The climate change policy of the United States has major impacts on global climate change and global climate change mitigation. This is because the United States is the second largest emitter of greenhouse gasses in the world after China, and is among the countries with the highest greenhouse gas emissions per person in the world. Cumulatively, the United States has emitted over a trillion metric tons of greenhouse gases, more than any country in the world.\nClimate change policy is developed at "
+    },
+    {
+      "title": "Climate change vulnerability",
+      "abstract": "Climate change vulnerability is a concept that describes how strongly people or ecosystems are likely to be affected by climate change. Its formal definition is the \"propensity or predisposition to be adversely affected\" by climate change. It can apply to humans and also to natural systems (or ecosystems). Issues around the capacity to cope and adapt are also part of this concept."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Climate_justice",
+    "wiki:Climate_change_adaptation",
+    "wiki:Economic_analysis_of_climate_change",
+    "wiki:Climate_change_policy_of_the_United_States",
+    "wiki:Climate_change_vulnerability"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN39_m2a_cdma_arl_wiki_20260424_193004.md"
+}

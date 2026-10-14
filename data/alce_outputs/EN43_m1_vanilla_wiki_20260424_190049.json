@@ -1,0 +1,51 @@
+{
+  "qid": "EN43",
+  "condition": "m1_vanilla",
+  "query": "How do net-zero pledges by national governments align with modelled pathways to limit warming to 1.5 degrees Celsius?",
+  "domain": "Climate Policy Research",
+  "category": "net_zero",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "Climate change",
+    "Climate change mitigation",
+    "International Energy Agency",
+    "Climate change in China",
+    "Politics of climate change"
+  ],
+  "top_papers": [
+    {
+      "title": "Climate change",
+      "abstract": "Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution. Fossil fuel use, deforestation, and some agricultural and industrial practices rele"
+    },
+    {
+      "title": "Climate change mitigation",
+      "abstract": "Climate change mitigation, also called climate change decarbonisation, is an action to limit the greenhouse gases in the atmosphere that cause climate change. Climate change mitigation actions include conserving energy and replacing fossil fuels with clean energy sources. Secondary mitigation strategies include changes to land use and removing carbon dioxide (CO2) from the atmosphere. 2022 assessments emphasize that global greenhouse gas emissions must peak before 2025 and decline by about 43% b"
+    },
+    {
+      "title": "International Energy Agency",
+      "abstract": "The International Energy Agency (IEA) is a Paris-based autonomous intergovernmental organization, established in 1974, that provides policy recommendations, analysis and data on the global energy sector. The 32 member countries and 13 association countries of the IEA represent 75% of global energy demand.\nThe IEA was set up under the framework of the Organisation for Economic Co-operation and Development (OECD) in the aftermath of the 1973 oil crisis to respond to physical disruptions in global "
+    },
+    {
+      "title": "Climate change in China",
+      "abstract": "Climate change is having major effects on the Chinese economy, society and the environment. The People's Republic of China is the world's largest emitter of carbon dioxide, through an energy infrastructure heavily focused on coal. China's per capita emissions are greater than the world and European Union averages but less than Australia, Canada, and the U.S. China recorded its hottest year on record in 2025, with an annual average temperature of 11.0 °C (51.8 °F). On the basis of cumulative CO2 "
+    },
+    {
+      "title": "Politics of climate change",
+      "abstract": "The politics of climate change results from different perspectives on how to respond to climate change. Global warming is driven largely by the emissions of greenhouse gases due to human activity, especially the burning of fossil fuels, certain industries like cement and steel production, and land use for agriculture and forestry. Since the Industrial Revolution, fossil fuels have provided the main source of energy for economic and technological development. The centrality of fossil fuels and ot"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Climate_change",
+    "wiki:Climate_change_mitigation",
+    "wiki:International_Energy_Agency",
+    "wiki:Climate_change_in_China",
+    "wiki:Politics_of_climate_change"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN43_m1_vanilla_wiki_20260424_190049.md"
+}

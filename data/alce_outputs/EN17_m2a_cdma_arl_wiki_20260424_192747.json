@@ -1,0 +1,42 @@
+{
+  "qid": "EN17",
+  "condition": "m2a_cdma_arl",
+  "query": "What are the challenges of applying information retrieval models to multilingual humanities corpora?",
+  "domain": "Digital Humanities",
+  "category": "information_retrieval",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 2,
+  "eq_titles": [
+    "Stylometry",
+    "Author profiling"
+  ],
+  "top_papers": [
+    {
+      "title": "Stylometry",
+      "abstract": "Stylometry is the application of the study of linguistic style, usually to written language. It has also been applied successfully to music, paintings, chess, and source code.\nStylometry is often used to attribute authorship to anonymous or disputed documents. It has legal as well as academic and literary applications, ranging from the question of the authorship of Shakespeare's works to forensic linguistics, and has methodological similarities with the analysis of text readability."
+    },
+    {
+      "title": "Author profiling",
+      "abstract": "Author profiling is the analysis of a given set of texts in an attempt to uncover various characteristics of the author based on stylistic- and content-based features, or to identify the author. Characteristics analysed commonly include age and gender, though more recent studies have looked at other characteristics, like personality traits and occupation.\nAuthor profiling is one of the three major fields in automatic authorship identification (AAI), the other two being authorship attribution and"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Stylometry",
+    "wiki:Author_profiling"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN17_m2a_cdma_arl_wiki_20260424_192747.md"
+}

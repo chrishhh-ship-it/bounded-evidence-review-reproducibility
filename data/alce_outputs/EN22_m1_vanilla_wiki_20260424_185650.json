@@ -1,0 +1,51 @@
+{
+  "qid": "EN22",
+  "condition": "m1_vanilla",
+  "query": "How are topic modelling techniques applied to track conceptual evolution in large textual archives over time?",
+  "domain": "Digital Humanities",
+  "category": "topic_modelling",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "Glossary of artificial intelligence",
+    "Folksonomy",
+    "Neural network (machine learning)",
+    "Participatory culture",
+    "Applications of artificial intelligence"
+  ],
+  "top_papers": [
+    {
+      "title": "Glossary of artificial intelligence",
+      "abstract": "This glossary of artificial intelligence is a list of definitions of terms and concepts relevant to the study of artificial intelligence (AI), its subdisciplines, and related fields. Related glossaries include Glossary of computer science, Glossary of robotics, Glossary of machine vision, and Glossary of logic."
+    },
+    {
+      "title": "Folksonomy",
+      "abstract": "Folksonomy is a classification system in which end users apply public tags to online items, typically to make those items easier for themselves or others to find later. Over time, this can give rise to a classification system based on those tags and how often they are applied or searched for, in contrast to a taxonomic classification designed by the owners of the content and specified when it is published. This practice is also known as collaborative tagging, social classification, social indexi"
+    },
+    {
+      "title": "Neural network (machine learning)",
+      "abstract": "In machine learning, a neural network (NN) or neural net, also known as an artificial neural network (ANN), is a computational model inspired by the structure and functions of biological neural networks.\nA neural network consists of connected units or nodes called artificial neurons, which loosely model the neurons in the brain. Artificial neuron models that mimic biological neurons more closely have also been recently investigated and shown to significantly improve performance. These are connec"
+    },
+    {
+      "title": "Participatory culture",
+      "abstract": "Participatory culture, an opposing concept to consumer culture, is a culture in which private individuals (the public) do not act as consumers only, but also as contributors or producers (prosumers). The term is most often applied to the production or creation of some type of published media."
+    },
+    {
+      "title": "Applications of artificial intelligence",
+      "abstract": "Artificial intelligence is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. Artificial intelligence has been used in applications throughout industry and academia. Within the field of Artificial Intelligence, there are multiple subfields. The subfield of Machine learning has been used for various scientific and commercial purposes including language translation, im"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Glossary_of_artificial_intelligence",
+    "wiki:Folksonomy",
+    "wiki:Neural_network_(machine_learning)",
+    "wiki:Participatory_culture",
+    "wiki:Applications_of_artificial_intelligence"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN22_m1_vanilla_wiki_20260424_185650.md"
+}

@@ -1,0 +1,387 @@
+{
+  "domains": {
+    "M1": {
+      "biomedical_evidence_synthesis": {
+        "n": 46,
+        "cp_n": 46,
+        "cp": 0.5788043478260869,
+        "clr_n": 46,
+        "clr": 1.0
+      },
+      "climate_policy_research": {
+        "n": 49,
+        "cp_n": 49,
+        "cp": 0.5688775510204082,
+        "clr_n": 49,
+        "clr": 1.0
+      },
+      "digital_humanities": {
+        "n": 46,
+        "cp_n": 46,
+        "cp": 0.6141304347826086,
+        "clr_n": 46,
+        "clr": 1.0
+      },
+      "multi_agent_information_services": {
+        "n": 110,
+        "cp_n": 110,
+        "cp": 0.6589285714285714,
+        "clr_n": 110,
+        "clr": 0.9727272727272728
+      }
+    },
+    "M2a": {
+      "biomedical_evidence_synthesis": {
+        "n": 46,
+        "cp_n": 46,
+        "cp": 0.5760869565217391,
+        "clr_n": 46,
+        "clr": 1.0
+      },
+      "climate_policy_research": {
+        "n": 49,
+        "cp_n": 49,
+        "cp": 0.5623177842565598,
+        "clr_n": 49,
+        "clr": 1.0
+      },
+      "digital_humanities": {
+        "n": 46,
+        "cp_n": 46,
+        "cp": 0.6141304347826086,
+        "clr_n": 46,
+        "clr": 1.0
+      },
+      "multi_agent_information_services": {
+        "n": 110,
+        "cp_n": 110,
+        "cp": 0.6747727272727273,
+        "clr_n": 110,
+        "clr": 0.9897727272727272
+      }
+    },
+    "M2b": {
+      "biomedical_evidence_synthesis": {
+        "n": 46,
+        "cp_n": 46,
+        "cp": 0.5815217391304348,
+        "clr_n": 46,
+        "clr": 1.0
+      },
+      "climate_policy_research": {
+        "n": 49,
+        "cp_n": 49,
+        "cp": 0.548469387755102,
+        "clr_n": 49,
+        "clr": 0.9948979591836735
+      },
+      "digital_humanities": {
+        "n": 46,
+        "cp_n": 46,
+        "cp": 0.6277173913043478,
+        "clr_n": 46,
+        "clr": 0.9972826086956522
+      },
+      "multi_agent_information_services": {
+        "n": 110,
+        "cp_n": 110,
+        "cp": 0.6795995670995671,
+        "clr_n": 110,
+        "clr": 0.9863636363636363
+      }
+    },
+    "M2c": {
+      "biomedical_evidence_synthesis": {
+        "n": 46,
+        "cp_n": 43,
+        "cp": 0.5790697674418605,
+        "clr_n": 43,
+        "clr": 1.0
+      },
+      "climate_policy_research": {
+        "n": 49,
+        "cp_n": 46,
+        "cp": 0.5456521739130434,
+        "clr_n": 46,
+        "clr": 1.0
+      },
+      "digital_humanities": {
+        "n": 46,
+        "cp_n": 42,
+        "cp": 0.7003968253968254,
+        "clr_n": 42,
+        "clr": 1.0
+      },
+      "multi_agent_information_services": {
+        "n": 110,
+        "cp_n": 94,
+        "cp": 0.6263297872340425,
+        "clr_n": 94,
+        "clr": 1.0
+      }
+    }
+  },
+  "sources": {
+    "pilot": {
+      "n": 513,
+      "sources": {
+        "OpenAlex": 140,
+        "Google Scholar": 145,
+        "万方数据": 82,
+        "CrossRef": 82,
+        "Scopus": 12,
+        "arXiv": 52
+      },
+      "domains": {
+        "null": 513
+      },
+      "abstracts": 425
+    },
+    "expanded": {
+      "n": 3011,
+      "sources": {
+        "OpenAlex": 428,
+        "Google Scholar": 368,
+        "万方数据": 341,
+        "CrossRef": 536,
+        "Scopus": 27,
+        "arXiv": 307,
+        "Semantic Scholar": 729,
+        "PubMed": 275
+      },
+      "domains": {
+        "multi_agent_information_services": 1071,
+        "biomedical_evidence_synthesis": 788,
+        "climate_policy_research": 511,
+        "digital_humanities": 641
+      },
+      "abstracts": 2582
+    }
+  },
+  "registry": {
+    "n": 454,
+    "unique": {
+      "verified_genuine_but_unretrieved": 436,
+      "unresolved_external": 12,
+      "probable_genuine_requires_manual_check": 6
+    },
+    "occurrences": {
+      "probable_genuine_requires_manual_check": 33,
+      "unresolved_external": 93,
+      "verified_genuine_but_unretrieved": 2878
+    }
+  },
+  "b0_elapsed": {
+    "n": 251,
+    "mean": 19.431593625498007,
+    "median": 18.343,
+    "min": 11.107,
+    "max": 37.448
+  },
+  "nli": {
+    "asqa::v0": {
+      "pairs": 55,
+      "sentences": 80,
+      "cited_sentence_rate": 0.6875,
+      "claim_entailment_rate": 0.14545454545454545,
+      "mean_entailment_probability": 0.1619381016543643,
+      "summary_comparison": {
+        "pairs": {
+          "recomputed": 55,
+          "stored": 55,
+          "match": true
+        },
+        "sentences": {
+          "recomputed": 80,
+          "stored": 80,
+          "match": true
+        },
+        "cited_sentence_rate": {
+          "recomputed": 0.6875,
+          "stored": 0.6875,
+          "match": true
+        },
+        "claim_entailment_rate": {
+          "recomputed": 0.14545454545454545,
+          "stored": 0.14545454545454545,
+          "match": true
+        },
+        "mean_entailment_probability": {
+          "recomputed": 0.1619381016543643,
+          "stored": 0.14423275009136308,
+          "match": false
+        }
+      }
+    },
+    "asqa::v1": {
+      "pairs": 81,
+      "sentences": 157,
+      "cited_sentence_rate": 0.5159235668789809,
+      "claim_entailment_rate": 0.20987654320987653,
+      "mean_entailment_probability": 0.23966369963463763,
+      "summary_comparison": {
+        "pairs": {
+          "recomputed": 81,
+          "stored": 81,
+          "match": true
+        },
+        "sentences": {
+          "recomputed": 157,
+          "stored": 157,
+          "match": true
+        },
+        "cited_sentence_rate": {
+          "recomputed": 0.5159235668789809,
+          "stored": 0.5159235668789809,
+          "match": true
+        },
+        "claim_entailment_rate": {
+          "recomputed": 0.20987654320987653,
+          "stored": 0.1728395061728395,
+          "match": false
+        },
+        "mean_entailment_probability": {
+          "recomputed": 0.23966369963463763,
+          "stored": 0.2014380844258186,
+          "match": false
+        }
+      }
+    },
+    "asqa::v2": {
+      "pairs": 69,
+      "sentences": 79,
+      "cited_sentence_rate": 0.8734177215189873,
+      "claim_entailment_rate": 0.11594202898550725,
+      "mean_entailment_probability": 0.13263493565761525,
+      "summary_comparison": {
+        "pairs": {
+          "recomputed": 69,
+          "stored": 69,
+          "match": true
+        },
+        "sentences": {
+          "recomputed": 79,
+          "stored": 79,
+          "match": true
+        },
+        "cited_sentence_rate": {
+          "recomputed": 0.8734177215189873,
+          "stored": 0.8734177215189873,
+          "match": true
+        },
+        "claim_entailment_rate": {
+          "recomputed": 0.11594202898550725,
+          "stored": 0.15942028985507245,
+          "match": false
+        },
+        "mean_entailment_probability": {
+          "recomputed": 0.13263493565761525,
+          "stored": 0.191621445337027,
+          "match": false
+        }
+      }
+    },
+    "qampari::v0": {
+      "pairs": 115,
+      "sentences": 127,
+      "cited_sentence_rate": 0.905511811023622,
+      "claim_entailment_rate": 0.08695652173913043,
+      "mean_entailment_probability": 0.19132781282836653,
+      "summary_comparison": {
+        "pairs": {
+          "recomputed": 115,
+          "stored": 115,
+          "match": true
+        },
+        "sentences": {
+          "recomputed": 127,
+          "stored": 127,
+          "match": true
+        },
+        "cited_sentence_rate": {
+          "recomputed": 0.905511811023622,
+          "stored": 0.905511811023622,
+          "match": true
+        },
+        "claim_entailment_rate": {
+          "recomputed": 0.08695652173913043,
+          "stored": 0.16521739130434782,
+          "match": false
+        },
+        "mean_entailment_probability": {
+          "recomputed": 0.19132781282836653,
+          "stored": 0.24787686627520167,
+          "match": false
+        }
+      }
+    },
+    "qampari::v1": {
+      "pairs": 120,
+      "sentences": 128,
+      "cited_sentence_rate": 0.9375,
+      "claim_entailment_rate": 0.1,
+      "mean_entailment_probability": 0.19401544788076233,
+      "summary_comparison": {
+        "pairs": {
+          "recomputed": 120,
+          "stored": 120,
+          "match": true
+        },
+        "sentences": {
+          "recomputed": 128,
+          "stored": 128,
+          "match": true
+        },
+        "cited_sentence_rate": {
+          "recomputed": 0.9375,
+          "stored": 0.9375,
+          "match": true
+        },
+        "claim_entailment_rate": {
+          "recomputed": 0.1,
+          "stored": 0.075,
+          "match": false
+        },
+        "mean_entailment_probability": {
+          "recomputed": 0.19401544788076233,
+          "stored": 0.1591803404415259,
+          "match": false
+        }
+      }
+    },
+    "qampari::v2": {
+      "pairs": 123,
+      "sentences": 132,
+      "cited_sentence_rate": 0.9318181818181818,
+      "claim_entailment_rate": 0.08943089430894309,
+      "mean_entailment_probability": 0.1844402554348429,
+      "summary_comparison": {
+        "pairs": {
+          "recomputed": 123,
+          "stored": 123,
+          "match": true
+        },
+        "sentences": {
+          "recomputed": 132,
+          "stored": 132,
+          "match": true
+        },
+        "cited_sentence_rate": {
+          "recomputed": 0.9318181818181818,
+          "stored": 0.9318181818181818,
+          "match": true
+        },
+        "claim_entailment_rate": {
+          "recomputed": 0.08943089430894309,
+          "stored": 0.04065040650406504,
+          "match": false
+        },
+        "mean_entailment_probability": {
+          "recomputed": 0.1844402554348429,
+          "stored": 0.16555465987648785,
+          "match": false
+        }
+      }
+    }
+  }
+}

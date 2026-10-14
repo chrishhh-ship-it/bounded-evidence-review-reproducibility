@@ -1,0 +1,235 @@
+{
+  "query_id": "EN37",
+  "query": "What machine learning approaches automate structured data extraction from randomised controlled trial reports?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Machine learning in transfusion medicine: A scoping review",
+      "authors": [
+        "Suzanne Maynard",
+        "Joseph Farrington",
+        "Samah Alimam",
+        "Hayley G. Evans",
+        "Kezhi Li",
+        "Wai Keong Wong",
+        "Simon Stanworth"
+      ],
+      "abstract": "Blood transfusion is a routine medical procedure in hospitals with over 2 million blood products transfused in the UK every year at a cost of over £300 million and a median national rate of 34 packed red cells per 1000 population in Europe.1, 2 A blood transfusion can be life-saving but can also cause harm.3 Repeated studies have demonstrated a gap between recommended blood use and clinical practice.4, 5 National challenges with blood stock shortages highlight the need to optimize our current approach to identify who requires and benefits from blood components.6 Recent advances in digital technology offer a wealth of new tools, which can help improve clinical practice as well as improving both the equality and equity of healthcare. Patient Public Involvement groups consistently support better use of data and better understanding of how it might improve efficiencies, prioritizing the need for healthcare professionals to engage with research optimizing use of data. Machine learning (ML) is a subfield of artificial intelligence (AI), which offers the ability to integrate complex and varied data types and could support clinician decision-making, aid personalized care, and, with additional work, improve patient outcomes.7, 8 This field is a rapidly advancing one, which has the potential to revolutionize patient blood management (PBM). Successful implementation of ML to support clinical workflows requires collaboration between computer scientists and clinicians. Key features of ML have been described elsewhere, which support informed interpretation of the literature.9, 10 The majority of work applying ML to healthcare uses supervised learning whereby the model is trained on input features and labeled output features to enable predictions on unseen examples (Figure 1).11 Model performance evaluation uses metrics, which summarize prediction quality, for example, the area under the receiver operating characteristic curve (AUROC) for classification models. The two other main categories of ML approaches are unsupervised learning, which identifies patterns in unlabeled data (e.g., finding clusters of similar patients), and reinforcement learning, an approach to learning how to act through trial and error. To be useful in practice, models need to be validated and integrated into a clinical workflow, where capacity constraints and users ignoring alerts may limit the impact of even a perfectly performing model.12 The purpose of this review is to collate the breadth of literature of ML in transfusion medicine, describing current trends and capturing key methodological approaches, adding to the recognized need for up-to-date discussion of the challenges and potential solutions to the prospective implementation of ML in transfusion medicine.13 The review aimed to report on original research articles, using ML approaches with a focus on transfusion medicine. We followed the approaches of a scoping review used by Cochrane from the Canadian Institutes of Health Research, defined as “exploratory projects that systematically map the literature available on a topic, identifying key concepts, theories, sources of evidence, and gaps in the research.”14 Eligibility for studies was defined by blood transfusion in humans (or the support of transfusion) as the main outcome. There were no restrictions on year of publication, publication status, or language. We excluded studies using linear or logistic regression (LR) primarily for statistical inference and/or to construct a predictive risk score. This exclusion is consistent with a recent systematic review on the impact of ML on patient care.15 When considering inventory management in a hospital blood bank, we focused on recent work using patient data from electronic health records and, therefore, excluded research that predicted future demand based solely on historic demand. As it is common in ML and computer science to submit full-length works to top tier conferences instead of journals, where reports met all other criteria, conference articles were included as full text (n = 3). We searched the Clarivate Web of Science database on January 4, 2023 with the following search terms: [TS = (machine learning OR artificial intelligence OR forecast* OR algorithm OR prediction model OR predictive model OR neural network)] AND TS = {transfus* OR blood product OR blood bank OR [reaction NEAR (blood OR transfus*)]}. We reviewed the lists of publications in the literature and consulted with all authors. Additional citation search was performed and relevant reports were added, which were not captured in the initial Web of Science search. The title and abstract screen were conducted in duplicate (SM and JF). Differences were resolved by consensus or with a third reviewer, to arrive at the final set for full-text review. Where the same work was published in more than one journal (i.e., not a true duplicate, but papers aimed at different audiences), we selected the journal with a medical focus where possible for inclusion in the summary tables and figures. Data were extracted in duplicate (SM and JF), with discrepancies resolved by a third reviewer. Results were presented descriptively. Initial clinical categories were defined and agreed based on understanding of the literature and were further refined following title and abstract screening. We extracted information on clinical applications, data sources, and ML methods. The research team also predefined a range of factors identified as important when considering the methodology and exploring the opportunities and limitations of translating ML models to a healthcare setting.16-18 Meta-analysis of the results was not undertaken due to the wide range of different tasks, variability in definitions for similar tasks, and reporting heterogeneity. A total of 4504 publications were retrieved using the described search strategy performed on January 4, 2023 (Figure 2). Initial screening returned 107 citations, and 93 articles were selected for inclusion in the study following full-text review, including the addition of two articles identified through citation searching. Overall, 16 studies eligible for full-text review were excluded: Three were duplicates captured through alternative journal publications, three did not meet ML criteria, transfusion was not the main outcome for seven, and the full-text article was not available for two studies. One article was removed due to subsequent publication retraction. The temporal distribution of 93 included publications is shown in Figure 3. There is a clear trend toward increasing frequency of publications over time with 56% (52/93) of the articles published in the last 3 years. The majority of studies were focused on prediction of transfusion (58%) with other key areas of ML application identified within transfusion safety (22%), hospital blood bank (10%), and supporting transfusion decisions (10%) (Figure 4A). Within prediction of transfusion (Figure 4B), a significant majority of studies were in the setting of surgery (61% 33/54), followed by trauma (24% 13/54). In the remaining eight studies, ML was deployed in the setting of obstetrics, gastrointestinal bleeding, and hemato/oncology, and in three studies applied more broadly to all inpatients and intensive care, captured as “other hospital settings.” The objectives, sample size, and key findings of all studies within these broad categories of clinical settings are provided in Table 1 and more detailed methodological considerations in Table 2. Overall clinical applications, trends, and a summary of main findings are discussed in more detail under the relevant subheading below. 220 (AAA) c.175 (non-AAA) Overall, the most common countries for identified studies are the United States (44), followed by China (16), Europe (12), and Canada (6). The range of sample sizes reported in the studies varied from 41 to more than 4 million (Table 1). Packed red blood cells (PRBCs) were the focus of approximately half of the studies (46/93), with most of the remainder considering either multiple blood products (22%) or not specifying the blood products (22%). Five studies (5%) considered only platelets, and two studies (2%) considered only plasma. The majority of identified studies employed ML to predict transfusion related to a specific specialty or procedure, notably within orthopedics,19-25 cardiac surgery,26-30 spinal surgery,31-34 and liver transplant,35-37 focusing on a specific procedure or a variety within that specialty (Table 2). A small number of studies consider procedures from multiple specialties38-44 with Walczak and Velanovich43 including 56 different surgeries from the publicly available United States National Surgical Quality Improvement Program (NSQIP). Their use of single models to predict transfusions for a wide variety of surgical procedures could provide a much simpler approach rather than individual models for each surgical procedure. Some researchers interrogated models to identify features to help predict PRBC transfusion22, 32, 34, 36 or the decision to transfuse44 as examples of hypothesis generation from ML. Five studies developed online risk calculators and web apps based on their models.24, 30, 32, 45, 46 Gurm et al.30 highlighted that previous simplified noncomputerized tools need no longer be the limit to what can be utilized in clinical medicine; however, a recent systematic review concluded that the resultant clinical prediction models for blood transfusion in elective surgery are of a high risk of bias and often fail to adhere to reporting standards, emphasizing caution before application to clinical practice.47 There is an extensive body of literature developing risk scores for transfusion in trauma patients, and multiple reviews suggest further model development and/or validation is required.48-51 Two key challenges with trauma are the potentially large requirements of blood for a small proportion of patients52 and the importance of a fast response.53 The activation of the massive transfusion protocol (MTP) is resource intensive and may result in product wastage in cases of false positive activation.54 The ability to predict future transfusion requirements prior to hospital arrival can support triage decisions and help to ensure that blood products are available when required on arrival.55-57 When making predictions using data collected at the hospital, research has focused on four related prediction tasks: predicting transfusion,58, 59 the number of units transfused,60 activation of the MTP,54 and/or massive transfusion.58, 61-63 The model developed by Mina et al.54 to predict MTP activation was integrated into a smartphone application, externally validated and an implementation and prospective validation study was conducted at the initial site. Clinicians informed of the model's prediction made better decisions in the prospective validation study.54, 64, 65 This is a key demonstration of how we expect such models will eventually be used in practice: supplementing rather than replacing clinical judgment. Demand for blood components and associated morbidity and mortality are significant in obstetrics, gastrointestinal bleeding, and hemato/oncology1, 5, 66; however, ML for prediction of transfusion in these settings is underrepresented comprising a total of 5 of 54 studies, none of which have undergone prospective validation or implementation at the time of writing. The studies exploring gastrointestinal bleeding demonstrate benefits of using large, publicly available data sets, able to externally validate models.67, 68 Given the availability of the data, these tasks could be developed into benchmarks, enabling different research teams to compare the performance of new approaches. Interestingly, Levi et al.67 apply their model to support triage: predicting which patients do not require transfusion (suggesting no ongoing bleeding) and, therefore, may avoid admission to intensive care unit (ICU). Shung et al.68 highlight the potential impact of alert fatigue in the context of repeated predictions on a problem with relatively low frequency. Lee et al.69 and Ghassemi et al.70 predict blood transfusion within the ICU, respectively, demonstrating the inadequacy of hemoglobin measurement alone as a determinate of transfusion and that general patient state representations could be used to better predict platelet and plasma transfusions. Review of all studies suggested that task-specific performance of ML for predicting transfusion need is frequently reported with AUROC >0.8 (Table 1). In 13 studies that reported a direct task-matched comparison of ML to LR models, LR matched or outperformed ML in 54% (Table 1). However, in additional seven studies, ML was reported to demonstrate measurable clinical improvements such as cost savings or performance over current scoring systems (Table 1). Beyond prediction of the likelihood of transfusion, ML can identify inappropriate transfusions, recognize patient groups by predicted transfusion outcomes, and enable precise dosing of blood products in efforts to reduce iron overload.71, 72 Through the analysis of existing clinical trials data, ML enabled estimates of the causal effect of preoperative plasma transfusion on perioperative bleeding in patients with a high International Normalized Ratio test result73 and of different ratios of platelets and plasma relative to PRBC on mortality and hemostasis in trauma patients.74 Bruun-Rasmussen et al.75 used ML to emulate a randomized controlled trial in the context of sex-matched transfusion policy. Ngufor et al.76 take a key step toward personalized medicine, clustering patients using unsupervised ML to determine whether they will benefit from plasma transfusion. Models to identify inappropriate transfusions may reduce the labor required for retrospective quality control77 and support local efforts to reduce unnecessary orders and transfusions.78 It may also be possible to identify situations where ongoing transfusion is futile, but this has proved challenging.79 Identified studies in this category were divided into hemovigilance and laboratory support in the Blood Bank. ML has been applied primarily to enhance the ability to detect and predict acute transfusion reactions (ATRs) and adverse transfusion events. Novel information retrieval methods, such as natural language processing (NLP), when applied to electronic health records (EHRs) have demonstrated underreporting by clinicians and the potential to improve detection.80-82 Alternatively, Roubinian et al.83 and Nguyen et al.84 incorporated novel biomarkers into classification models and decision tree analysis, respectively. While the focus of ML is on prediction, and a causal relationship cannot be assumed of the covariates found to have high predictive value, identification of novel risk factors for hypothesis generation and further research can be useful as seen in transfusion-associated lung injury (TRALI)85 and in transfusion-associated that and are for clinicians in et focus on when adverse transfusion, through use of In a laboratory of studies the use of ML to blood identification including two to help reactions where in interpretation et and et learning as a novel approach to of red blood to predict red quality prior to transfusion. The availability of has the development of models to blood product demand and based on patient data in addition to demand A model in a Canadian hospital for PRBC wastage and and it is common for models to be into to the potential benefits of In addition to studies supporting two studies the use of ML to wastage in a hospital blood bank by predicting and identifying patterns associated with of the methodology of identified studies are in Table 2. of all studies were data were from in defined as hospital data that were collected research or data sources included research and laboratory research data. but two papers used supervised learning, only four papers used unsupervised learning methods. of the papers used reinforcement In Table we supervised ML into three broad methods, neural and other methods. We these groups in the a study used an of from more than one of these the are as been used in that models were included in of the studies and neural in of the studies. A common approach by of the studies is to compare different ML available in such as A small number of papers novel ML including the use of a model to provide a in and using in the of information to a model to red quality on eight studies reported the results of prospective evaluation or four their models on collected one conducted a in which predictions were in time for evaluation but not used for and three implementation as of 93 A majority of studies included an outcome performance defined as a logistic or linear regression a reported for the same or a current Where as with prediction, to a reporting was reporting including and were utilized in only studies within predicting transfusion. of the work transfusion reactions or adverse within the transfusion safety of hemovigilance reported in with a recognized Data were to be available in of studies and in only which will limit future ability to and the work performed to et provided their full data protocol as an electronic an supporting and in the field of ML in transfusion is rapidly with as by the number of However, our review also clear challenges and of studies are single and have no prospective validation or ML model and data are made available for and is of methods, with performing models often selected from a trial of Where ML performance are often the caution in interpretation of that models can performance as to current As within predicting transfusion, ML not offer over LR when task-specific performance is and the in the clinical potential of ML tasks, reporting and methodology While prospective of a model within the clinical and subsequent evaluation of in key performance is in ML. findings of prospective and are consistent with of the field where a and researchers are and to help this A workflow, as developed in recent as a for the potential impact of a model may help to for prospective Data were extracted from or from medical in three of the four studies where predictions were made in as of a or a 93 the remaining required data to be into a smartphone The may initial to such challenges in different but is a risk of data and a limit on the and types of data that can be and Recent in such as may to the development of systems that can support and integrate data from with clinical and (or of the problem at in transfusion practice, in prediction where the outcome to could Models may and predictions by patient which are considered to be This problem may be in validation of models the use different or considered the of this review, it may be of to review studies where the of for example, and features as a of the or where are in more to for of an approach could to as the large, used for ML are also well to key performance an need in transfusion by which to relevant following transfusion in a While practice the of trained models, may to new on local data. of a model into the may patterns that have been (e.g., which are and how It is to the predictions of a deployed model to ensure that predictions and The ability to and models using and/or more recent offers potential of predictive over historic simplified scores and prediction in these enabling models to new clinical trends and performance as to current practice in an To our this review is the to collate the literature on a wide range of of ML in transfusion medicine. analysis the work of and who articles of ML applied to bleeding and from a search. We have captured information on areas of to clinicians and and by review of ongoing challenges in the interpretation and of we also offer suggested for future reporting and study has a number of The of and use of reporting of results and interpretation as well as for researchers to and validate be to provide work as an online and common definitions and following reporting it to compare and identify for prospective validation and subsequent in setting to an of the the of publications captured broad search it was the of this review to to multiple and we that relevant studies may have been review was performed in efforts to studies might benefit from more focused reviews on selected in transfusion medicine. we apply the outcome of to identify studies to support we recognize that the of well this such as of (e.g., and iron and that these areas in future studies. As the body of literature of ML in transfusion and will the potential for more focused systematic This review to the studies and reviews to engage clinicians new to the of There has been a of the literature in recent the and toward the application of ML in transfusion medicine. However, challenges and limitations to data quality and to reporting and of be on consistent of and prospective validation with comparison to current practice of future studies. This study was by the Blood and in Data the for in and the The are of the and not of the or the of Health and The have no of In Table 2 of the main we supervised learning into three broad methods, neural and other methods. classification and regression tree a single decision and that an of in (e.g., or (e.g., and of of by and neural in which each input from every in the and alternative that have been developed for different types of input data including neural for and neural (e.g., the for final category that are not based on decision and are not neural including linear models (e.g., logistic regression and linear support and",
+      "year": "2023",
+      "published_date": "2023-11-10",
+      "journal": "Transfusion",
+      "url": "https://doi.org/10.1111/trf.17582",
+      "arxiv_id": "",
+      "keywords": [
+        "Transfusion medicine",
+        "Medicine",
+        "Intensive care medicine",
+        "MEDLINE",
+        "Blood transfusion",
+        "Computer science",
+        "Surgery",
+        "Chemistry"
+      ],
+      "citations": 35,
+      "source": "OpenAlex",
+      "doi": "10.1111/trf.17582",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models full text retrieval"
+    },
+    {
+      "title": "Review for \"ComProScanner: A multi-agent based framework for composition-property structured data extraction from scientific literature\"",
+      "authors": [],
+      "abstract": "",
+      "year": "2026",
+      "published_date": "2026-1-19",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.1039/d5dd00521c/v1/review3",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1039/d5dd00521c/v1/review3",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system"
+    },
+    {
+      "id": "wf_230043e1152b328640e33a6920bca010",
+      "title": "Semi-supervised learning from small annotated data and large unlabeled data for fine-grained Participants, Intervention, Comparison, and Outcomes entity recognition",
+      "abstract": "Objective: Extracting PICO elements-Participants, Intervention, Comparison, and Outcomes-from clinical <span class='highlight'>trial</span> literature is essential for clinical <span class='highlight'>evidence</span> retrieval, appraisal, and <span class='highlight'>synthesis</span>.   demonstrates generalizability to a different PICO framework and to another corpus, which consistently outperforms the <span class='highlight'>benchmark</span> in diverse experimental settings (P-value < .001). Discussion: We  Existing approaches do not distinguish the attributes of PICO entities. This study aims to develop a named entity recognition (NER) model to extract PICO entities with fine granularities. Materials and  Methods: Using a corpus of 2511 abstracts with PICO mentions from 4 public datasets, we developed a semi-supervised method to facilitate the training of a NER model, FinePICO, by combining limited annotated  data of PICO entities and abundant unlabeled data. For evaluation, we divided the entire dataset into 2 subsets: a smaller group with annotations and a larger group without annotations. We then",
+      "authors": [
+        "Chen, Fangyi",
+        "Zhang, Gongbo",
+        "Fang, Yilu",
+        "Peng, Yifan",
+        "Weng, Chunhua"
+      ],
+      "year": 2025,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1093/jamia/ocae326",
+      "doi": "10.1093/jamia/ocae326",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "fine-grained PICO extraction",
+        "PICO extraction",
+        "semi-supervised learning",
+        "named entity recognition"
+      ],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Large language model-based information extraction from free-text radiology reports: a scoping review protocol.",
+      "authors": [
+        "Daniel Reichenpfader",
+        "Henning Müller",
+        "Kerstin Denecke"
+      ],
+      "abstract": "Radiological imaging is one of the most frequently performed diagnostic tests worldwide. The free-text contained in radiology reports is currently only rarely used for secondary use purposes, including research and predictive analysis. However, this data might be made available by means of information extraction (IE), based on natural language processing (NLP). Recently, a new approach to NLP, large language models (LLMs), has gained momentum and continues to improve performance of IE-related tasks. The objective of this scoping review is to show the state of research regarding IE from free-text radiology reports based on LLMs, to investigate applied methods and to guide future research by showing open challenges and limitations of current approaches. To our knowledge, no systematic or scoping review of IE from radiology reports based on LLMs has been published. Existing publications are outdated and do not comprise LLM-based methods. This protocol is designed based on the  This protocol describes the methodology of a scoping literature review and does not comprise research on or with humans, animals or their data. Therefore, no ethical approval is required. After the publication of this protocol and the conduct of the review, its results are going to be published in an open access journal dedicated to biomedical informatics/digital health.",
+      "year": "2023",
+      "published_date": "2023",
+      "journal": "BMJ open",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38070902/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Research Design",
+        "Information Storage and Retrieval",
+        "Radiology",
+        "Radiography",
+        "Language",
+        "Scoping Reviews as Topic"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1136/bmjopen-2023-076865",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models"
+    },
+    {
+      "title": "A Systematic Literature Review of Traffic Congestion Forecasting: From Machine Learning Techniques to Large Language Models",
+      "authors": [
+        "Mehdi Attioui",
+        "Mohamed Lahby"
+      ],
+      "abstract": "Traffic congestion continues to pose a significant challenge to contemporary urban transportation systems, exerting substantial effects on economic productivity, environmental sustainability, and the overall quality of life. This systematic literature review thoroughly explores the development of traffic congestion forecasting methodologies from 2014 to 2024 by analyzing 100 peer-reviewed publications according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. We examine the technological advancements from traditional machine learning (achieving 75–85% accuracy) through deep learning approaches (85–92% accuracy) to recent large language model (LLM) implementations (90–95% accuracy). Our analysis indicates that LLM-based systems exhibit superior performance in managing multimodal data integration, comprehending traffic events, and predicting non-recurrent congestion scenarios. The key findings suggest that hybrid approaches, which integrate LLMs with specialized deep learning architectures, achieve the highest prediction accuracy while addressing the traditional limitations of edge case management and transfer learning capabilities. Nonetheless, challenges remain, including higher computational demands (50–100× higher than traditional methods), domain adaptation complexity, and constraints on real-time implementation. This review offers a comprehensive taxonomy of methodologies, performance benchmarks, and practical implementation guidelines, providing researchers and practitioners with a roadmap for advancing intelligent transportation systems using next-generation AI technologies.",
+      "year": "2025",
+      "published_date": "2025-11-28",
+      "journal": "Vehicles",
+      "url": "https://www.semanticscholar.org/paper/b8fabdaf1ac24f893b82b5abec71f8d9c8d3c207",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.3390/vehicles7040142",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "id": "wf_qk3e_000034773542",
+      "title": "Automating Data Extraction From Scientific Literature and General PDF Files Using Large Language Models and KNIME: An Application in Toxicology",
+      "abstract": "of structured data. By democratizing access to LLM‐powered workflows, this approach paves the way for significant advancements in knowledge <span class='highlight'>synthesis</span> to support <span class='highlight'>biomedical</span> research. This work presents an automated data extraction workflow using <span class='highlight'>large</span> <span class='highlight'>language</span> <span class='highlight'>models</span> (LLMs) within the KNIME platform. The workflow integrates document parsing tools with LLMs to extract variables from  The <span class='highlight'>large</span> and steadily increasing volume of scientific publications presents a challenge in accessing and utilizing data due to their unstructured nature. Toxicology, in particular, depends on  structured data from diverse study types for study evaluation, weight‐of‐<span class='highlight'>evidence</span> chemical assessments, and validation of new approach methodologies (NAMs). Manual data extraction is time and labor‐intensive.  scientific publications and general PDF files. Two execution modes are available: text mode and image mode. Text mode applies tools for extracting text and tables, while image mode uses multimodal LLMs to",
+      "authors": [
+        "José Teófilo Moreira‐Filho",
+        "Dhruv Ranganath",
+        "Ricardo S. Tieghi",
+        "Robert Patton",
+        "Vicki Sutherland",
+        "Charles Schmitt",
+        "Andrew A. Rooney",
+        "Jennifer Fostel",
+        "Vickie R. Walker",
+        "Trey Saddler",
+        "David Reif",
+        "Kamel Mansouri",
+        "Nicole Kleinstreuer"
+      ],
+      "year": 2025,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.1002/wcms.70047",
+      "doi": "10.1002/wcms.70047",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "generative artificial intelligence",
+        "KNIME",
+        "LLMs"
+      ],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "id": "wf_qk3e_000034008974",
+      "title": "Benchmarking Multiple Large Language Models for Automated Clinical Trial Data Extraction in Aging Research",
+      "abstract": "oversight for nuanced or sparsely reported details. The <span class='highlight'>benchmark</span> and open-source workflow set a solid baseline for future advances in prompt engineering, model specialization, and ensemble strategies aimed  Large-language models (LLMs) show promise for automating <span class='highlight'>evidence</span> <span class='highlight'>synthesis</span>, yet head-to-head evaluations remain scarce. We benchmarked five state-of-the-art LLMs—openai/o1-mini, x-ai/grok-2-1212,  at fully automated <span class='highlight'>evidence</span> <span class='highlight'>synthesis</span> in neurostimulation research involving aging populations. Overall, the five-model multi-LLM ensemble doubled the number of eligible aging-related tDCS trials  stimulation attributes (κ = 0.94). These results demonstrate that multi-LLM ensembles can markedly expand <span class='highlight'>trial</span> coverage and reach expert-level accuracy on well-defined fields while still requiring human  meta-llama/Llama-3.3-70B-Instruct, google/Gemini-Flash-1.5-8B, and deepseek/DeepSeek-R1-70B-Distill—on extracting protocol details from transcranial direct-current stimulation (tDCS) trials enrolling older",
+      "authors": [
+        "Richard J. Young",
+        "Alice M. Matthews",
+        "Brach Poston"
+      ],
+      "year": 2025,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.3390/a18050296",
+      "doi": "10.3390/a18050296",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "clinical trial data extraction",
+        "large language models (LLMs)",
+        "API integration",
+        "multi-agent systems",
+        "systematic review methodology",
+        "transcranial direct current stimulation (tDCS)",
+        "aging research"
+      ],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Extracting adverse drug events from clinical Notes: A systematic review of approaches used.",
+      "authors": [
+        "Salisu Modi",
+        "Khairul Azhar Kasmiran",
+        "Nurfadhlina Mohd Sharef",
+        "Mohd Yunus Sharum"
+      ],
+      "abstract": "An adverse drug event (ADE) is any unfavorable effect that occurs due to the use of a drug. Extracting ADEs from unstructured clinical notes is essential to biomedical text extraction research because it helps with pharmacovigilance and patient medication studies. From the considerable amount of clinical narrative text, natural language processing (NLP) researchers have developed methods for extracting ADEs and their related attributes. This work presents a systematic review of current methods. Two biomedical databases have been searched from June 2022 until December 2023 for relevant publications regarding this review, namely the databases PubMed and Medline. Similarly, we searched the multi-disciplinary databases IEEE Xplore, Scopus, ScienceDirect, and the ACL Anthology. We adopted the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement guidelines and recommendations for reporting systematic reviews in conducting this review. Initially, we obtained 5,537 articles from the search results from the various databases between 2015 and 2023. Based on predefined inclusion and exclusion criteria for article selection, 100 publications have undergone full-text review, of which we consider 82 for our analysis. We determined the general pattern for extracting ADEs from clinical notes, with named entity recognition (NER) and relation extraction (RE) being the dual tasks considered. Researchers that tackled both NER and RE simultaneously have approached ADE extraction as a \"pipeline extraction\" problem (n = 22), as a \"joint task extraction\" problem (n = 7), and as a \"multi-task learning\" problem (n = 6), while others have tackled only NER (n = 27) or RE (n = 20). We further grouped the reviews based on the approaches for data extraction, namely rule-based (n = 8), machine learning (n = 11), deep learning (n = 32), comparison of two or more approaches (n = 11), hybrid (n = 12) and large language models (n = 8). The most used datasets are MADE 1.0, TAC 2017 and n2c2 2018. Extracting ADEs is crucial, especially for pharmacovigilance studies and patient medications. This survey showcases advances in ADE extraction research, approaches, datasets, and state-of-the-art performance in them. Challenges and future research directions are highlighted. We hope this review will guide researchers in gaining background knowledge and developing more innovative ways to address the challenges.",
+      "year": "2024",
+      "published_date": "2024",
+      "journal": "Journal of biomedical informatics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38331081/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Natural Language Processing",
+        "Drug-Related Side Effects and Adverse Reactions",
+        "Data Mining",
+        "Machine Learning",
+        "Pharmacovigilance",
+        "Electronic Health Records",
+        "Databases, Factual"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1016/j.jbi.2024.104603",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models survey"
+    }
+  ],
+  "timestamp": "20260423_151928"
+}

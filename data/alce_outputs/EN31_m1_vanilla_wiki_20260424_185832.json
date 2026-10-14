@@ -1,0 +1,45 @@
+{
+  "qid": "EN31",
+  "condition": "m1_vanilla",
+  "query": "What are the current state-of-the-art NLP models for biomedical named entity recognition and relation extraction?",
+  "domain": "Biomedical Evidence Synthesis",
+  "category": "nlp_biomedicine",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 4,
+  "eq_titles": [
+    "Outline of natural language processing",
+    "Deep learning",
+    "Biomedical text mining",
+    "Data mining"
+  ],
+  "top_papers": [
+    {
+      "title": "Outline of natural language processing",
+      "abstract": "Natural language processing is computer activity in which computers are entailed to analyze, understand, alter, or generate natural language.  This includes the automation of any or all linguistic forms, activities, or methods of communication, such as conversation, correspondence, reading, written composition, dictation, publishing, translation, lip reading, and so on.  Natural-language processing is also the name of the branch of computer science, artificial intelligence, and linguistics conce"
+    },
+    {
+      "title": "Deep learning",
+      "abstract": "In machine learning, deep learning (DL) focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training\" them to process data. The adjective \"deep\" refers to the use of multiple layers (ranging from three to several hundred or thousands) in the network. Methods used can be supervised, semi-supervised"
+    },
+    {
+      "title": "Biomedical text mining",
+      "abstract": "Biomedical text mining (including biomedical natural language processing or BioNLP) refers to the methods and study of how text mining may be applied to texts and literature of the biomedical domain. As a field of research, biomedical text mining incorporates ideas from natural language processing, bioinformatics, medical informatics and computational linguistics. The strategies in this field have been applied to the biomedical literature available through services such as PubMed.\nIn recent year"
+    },
+    {
+      "title": "Data mining",
+      "abstract": "Data mining is the process of extracting and finding patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database systems. Data mining is an interdisciplinary subfield of computer science and statistics with an overall goal of extracting information (with intelligent methods) from a data set and transforming the information into a comprehensible structure for further use. Data mining is the analysis step of the \"knowledge discovery in database"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Outline_of_natural_language_processing",
+    "wiki:Deep_learning",
+    "wiki:Biomedical_text_mining",
+    "wiki:Data_mining"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN31_m1_vanilla_wiki_20260424_185832.md"
+}

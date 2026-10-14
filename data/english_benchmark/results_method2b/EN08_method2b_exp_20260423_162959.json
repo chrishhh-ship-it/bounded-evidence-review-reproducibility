@@ -1,0 +1,234 @@
+{
+  "query_id": "EN08",
+  "query": "What empirical evidence exists for the effectiveness of cross-model versus same-model review in citation verification tasks?",
+  "domain_id": "multi_agent_information_services",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Study protocol for evaluating automation of systematic review processes with EPPI-Reviewer and Copilot 365 in updating the cataract evidence gap map",
+      "authors": [
+        "Bhavisha Virendrakumar",
+        "Hugh Sharma Waddington",
+        "Pauline Scheelbeek",
+        "Emma Jolley",
+        "Elena Schmidt"
+      ],
+      "abstract": "Abstract\n                  \n                    Background\n                    The process of developing and updating an evidence gap map (EGM) is based on the principles of systematic reviews and requires extensive time and financial resources. Artificial intelligence (AI) tools, like prioritisation screening (PS), integrated into programmes such as EPPI-Reviewer (ER) and Copilot 365, can potentially mimic human performance in systematic review processes. ER is a subscription-based web application employed by systematic review groups, while Copilot 365, integrated into Microsoft 365, offers real-time assistance. Although ER shows promise in speeding up screening, the optimal threshold for accuracy remains unclear. Additionally, there is no evidence on the effectiveness of any version of Copilot in systematic review and EGM processes.\n                  \n                  \n                    Objectives\n                    Assess the accuracy and efficiency of Copilot 365 and PS integrated into ER at different stages of an EGM update, comparing it to human performance.\n                  \n                  \n                    Methods\n                    We will conduct both manual and automated screening of references, full-text screening, data extraction, and critical appraisal. Two reviewers will independently screen studies for inclusion, extract data, and appraise included studies, resolving conflicts through discussion. We will assess the accuracy and efficiency of Copilot 365 and ER at different EGM update stages, comparing them to human performance. To evaluate the PS accuracy, we will use 20% and 40% manual screening thresholds, calculating the proportion of relevant references prioritised by PS and the total relevant citations missed. We will compare Copilot 365’s full-text screening accuracy to reviewers’ decisions and assess consistency using Cohen’s Kappa. For automated data extraction and appraisal, we will manually inspect 20% of Copilot 365’s outputs, comparing them to reviewers’ results, measuring consistency with Cohen’s Kappa, and evaluating time savings by comparing the time taken for manual extraction versus using Copilot 365.\n                  \n                  \n                    Discussion\n                    This study will offer insights into ER’s accuracy in screening small samples of citations and potentially guide future applications in this context. Additionally, by evaluating Copilot 365, which shares similar features with other AI tools, we will gain a broader understanding of its applicability and limitations in evidence synthesis, making the results relevant to other AI applications in this field.\n                  \n                  \n                    Systematic review registration\n                    \n                      Registered at Open Science Framework:\n                      https://doi.org/10.17605/OSF.IO/49BX8\n                      .",
+      "year": "2026",
+      "published_date": "2026-2-17",
+      "journal": "Systematic Reviews",
+      "url": "https://doi.org/10.1186/s13643-026-03101-4",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.1186/s13643-026-03101-4",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation AND reviewer agent"
+    },
+    {
+      "title": "Real-World Evidence of the Clinical and Economic Impact of Long-Acting Injectable Versus Oral Antipsychotics Among Patients with Schizophrenia in the United States: A Systematic Review and Meta-Analysis.",
+      "authors": [
+        "Dee Lin",
+        "Philippe Thompson-Leduc",
+        "Isabelle Ghelerter",
+        "Ha Nguyen",
+        "Marie-Hélène Lafeuille",
+        "Carmela Benson",
+        "Panagiotis Mavros",
+        "Patrick Lefebvre"
+      ],
+      "abstract": "Long-acting injectable (LAI) antipsychotics, compared with oral antipsychotics (OA), have been found to significantly improve patient outcomes, including reduced hospitalizations and emergency room (ER) admissions and increased medication adherence among adult patients with schizophrenia. In turn, the clinical benefits achieved may translate into lower economic burden. Real-world evidence of the comparative effectiveness of LAI is needed to understand the potential benefits of LAI outside of the context of clinical trials. This study aimed to provide a comprehensive synthesis of recent published real-world studies comparing healthcare utilization, costs, and adherence between patients with schizophrenia treated with LAI versus OA in the United States. In this systematic literature review, MEDLINE A total of 1083 articles were identified by the electronic literature search, and two publications were manually added subsequently. Among the 57 publications meeting the inclusion criteria, 25 provided sufficient information for inclusion in the meta-analyses. Compared with patients treated with OA, patients initiated on LAI had lower odds of hospitalization (odds ratio [OR] 0.62, 95% confidence interval [CI] 0.54-0.71, n = 7), fewer hospitalizations (incidence rate ratio [IRR] [95% CI] 0.75 [0.65-0.88], n = 9), and fewer ER admissions (IRR [95% CI] 0.86 [0.77-0.97], n = 6). The initiation of LAI was associated with higher per-patient-per-year (PPPY) pharmacy costs (mean difference [MD] [95% CI] $5603 [3799-7407], n = 6), which was offset by lower PPPY medical costs (MD [95% CI] - $5404 [- 7745 to - 3064], n = 6), resulting in no significant net difference in PPPY total all-cause healthcare costs between patients treated with LAI and those treated with OA (MD [95% CI] $327 [- 1565 to 2219], n = 7). Patients initiated on LAI also had higher odds of being adherent to their medication (PDC ≥ 80%; OR [95% CI] 1.89 [1.52-2.35], n = 9). A sensitivity analysis on a subset of publications evaluating PP1M found results similar to those of the main analysis conducted at the LAI class level. Based on multiple studies with varying sub-types of patient populations with schizophrenia in the United States published in the last decade, this meta-analysis demonstrated that LAI antipsychotics were associated with improved medication adherence and significant clinical benefit such as reduced hospitalizations and ER admissions compared with OA. The lower medical costs offset the higher pharmacy costs, resulting in a non-significant difference in total healthcare costs. Taken together, these findings provide strong evidence on the clinical and economic benefits of LAI compared with OA for the treatment of schizophrenia in the real world.",
+      "year": "2021",
+      "published_date": "2021",
+      "journal": "CNS drugs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33909272/",
+      "arxiv_id": "",
+      "keywords": [
+        "Antipsychotic Agents",
+        "Delayed-Action Preparations",
+        "Emergency Service, Hospital",
+        "Health Care Costs",
+        "Hospitalization",
+        "Humans",
+        "Injections",
+        "Medication Adherence"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1007/s40263-021-00815-y",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Congress of Neurological Surgeons systematic review and evidence-based guidelines for the role of chemotherapy in newly diagnosed WHO Grade II diffuse glioma in adults: update.",
+      "authors": [
+        "Mateo Ziu",
+        "Lia M Halasz",
+        "Priya U Kumthekar",
+        "Tresa M McGranahan",
+        "Simon S Lo",
+        "Jeffrey J Olson"
+      ],
+      "abstract": "Questions and recommendations from the prior version of these guidelines without changeTarget populationAdult patients (older than 18 years of age) with newly diagnosed World Health Organization (WHO) Grade II gliomas (Oligodendroglioma, astrocytoma, mixed oligoastrocytoma).QuestionIs there a role for chemotherapy as adjuvant therapy of choice in treatment of patients with newly diagnosed low-grade gliomas?RecommendationLevel III: Chemotherapy is recommended as a treatment option to postpone the use of radiotherapy, to slow tumor growth and to improve progression free survival (PFS), overall survival (OS) and clinical symptoms in adult patients with newly diagnosed LGG.QuestionWho are the patients with newly diagnosed LGG that would benefit the most from chemotherapy?RecommendationLevel III: Chemotherapy is recommended as an optional component alone or in combination with radiation as the initial adjuvant therapy for all patients who cannot undergo gross total resection (GTR) of a newly diagnosed LGG. Patients with residual tumor >1 cm on post-operative MRI, presenting diameter of 4 cm or older than 40 years of age should be considered for adjuvant therapy as well.QuestionAre there tumor markers that can predict which patients can benefit the most from initial treatment with chemotherapy?RecommendationLevel III: The addition of chemotherapy to standard RT is recommended in LGG patients that carry IDH mutation. In addition, temozolomide (TMZ) is recommended as a treatment option to slow tumor growth in patients who harbor the 1p/19q co-deletion.QuestionHow soon should the chemotherapy be started once the diagnosis of LGG is confirmed?RecommendationThere is insufficient evidence to make a definitive recommendation on the timing of starting chemotherapy after surgical/pathological diagnosis of LGG has been made. However, using the 12 weeks mark as the latest timeframe to start adjuvant chemotherapy is suggested. It is recommended that patients be enrolled in properly designed clinical trials to assess the timing of chemotherapy initiation once diagnosis is confirmed for this target population.QuestionWhat chemotherapeutic agents should be used for treatment of newly diagnosed LGG?RecommendationThere is insufficient evidence to make a recommendation of one particular regimen. Enrollment of subjects in properly designed trials comparing the efficacy of these or other agents is recommended so as to determine which of these regimens is superior.QuestionWhat is the optimal duration and dosing of chemotherapy as initial treatment for LGG?RecommendationInsufficient evidence exists regarding the duration of any specific cytotoxic drug regimen for treatment of newly diagnosed LGG. Enrollment of subjects in properly designed clinical investigations assessing the optimal duration of this therapy is recommended.QuestionShould chemotherapy be given alone or in conjunction with RT as initial therapy for LGG?RecommendationInsufficient evidence exists to make recommendations in this regard. Hence, enrollment of patients in properly designed clinical trials assessing the difference between chemotherapy alone, RT alone or a combination of them is recommended.QuestionShould chemotherapy be given in addition to other type of adjuvant therapy to patients with newly diagnosed LGG?RecommendationLevel II: It is recommended that chemotherapy be added to the RT in patients with unfavorable LGG to improve their progression free survival.Updated Question and Recommendations from the Prior Version of These GuidelinesQuestionIn adult patients with pathologically confirmed WHO Grade II diffuse glioma does chemotherapy alone, combined with radiation therapy or after radiation therapy compared to radiotherapy alone result in better overall survival, progression free survival, local control, fewer complications, neurocognitive preservation, and quality of life?RecommendationLevel I: It is recommended that chemotherapy (PCV) be added to radiation therapy (RT) in all patients with newly diagnosed high-risk WHO Grade II diffuse glioma (Patients younger than 40 unable to get gross total resection and older than 40 regardless of the degree of resection) to improve their overall survival. It is recommended that chemotherapy be added to radiation therapy in all patients with newly diagnosed high-risk WHO Grade II diffuse glioma to improve overall survival without a decline in neurocognitive function. It is suggested that chemotherapy (temozolomide) be added to RT in all patients with newly diagnosed high-risk WHO Grade II diffuse glioma to improve progression free survival and overall survival. It is suggested that chemotherapy alone should be considered in patients with newly diagnosed WHO Grade II diffuse glioma in cases with 1p/19q co-deletion.New questions and recommendationsTarget populationThese recommendations apply to adult patients diagnosed with WHO Grade II diffuse glioma.QuestionIn adult patients with newly diagnosed WHO grade II diffuse glioma does administration of chemotherapy prior to surgical resection improve extent of resection, provide longer progression free survival and overall survival when compared to chemotherapy alone?RecommendationLevel III: Neo-adjuvant temozolomide may be used in patients with WHO Grade II diffuse gliomas deemed unsafe for resection due to infiltration of eloquent areas or with large contralateral extension as an initial step to improve the extent of resection.There is insufficient evidence to support a recommendation regarding the ability of chemotherapy provided prior to surgical resection to improve progression free survival (PFS) and overall survival (OS).QuestionIn adult patients with newly diagnosed WHO grade II diffuse glioma does the administration of temozolomide increase the rate of malignant transformation when compared to no chemotherapy or other chemotherapy regimens?RecommendationThere is insufficient evidence to support a recommendation against the use of temozolomide for WHO Grade II diffuse gliomas due to concern over increasing the rate of malignant transformation.QuestionIn adult patients with newly diagnosed WHO grade II diffuse glioma does administration of multi-agent chemotherapy improve progression free survival and overall survival when compared to administration of single-agent chemotherapy?RecommendationThere is insufficient evidence to support a recommendation for or against the use of multi-agent chemotherapy to improve progression free survival and overall survival when compared to administration of single-agent chemotherapy in patients with newly diagnosed WHO Grade II diffuse glioma.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Journal of neuro-oncology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39565459/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Glioma",
+        "Brain Neoplasms",
+        "Neoplasm Grading",
+        "Evidence-Based Medicine",
+        "World Health Organization",
+        "Adult",
+        "Practice Guidelines as Topic"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1007/s11060-024-04861-6",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "multi-agent literature review system systematic review"
+    },
+    {
+      "title": "Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis",
+      "authors": [
+        "Björn Nykvist",
+        "Biljana Macura",
+        "Maria Xylia",
+        "Erik Olsson"
+      ],
+      "abstract": "In this paper we show that OpenAI’s Large Language Model (LLM) GPT perform remarkably well when used for title and abstract eligibility screening of scientific articles and within a (systematic) literature review workflow. We evaluated GPT on screening data from a systematic review study on electric vehicle charging infrastructure demand with almost 12,000 records using the same eligibility criteria as human screeners. We tested 3 different versions of this model that were tasked to distinguishing between relevant and irrelevant content by responding with a relevance probability between 0 and 1. For the latest GPT-4 model (tested in November 2023) and probability cutoff 0.5 the recall rate is 100%, meaning no relevant papers were missed and using this mode for screening would have saved 50% of the time that would otherwise be spent on manual screening. Experimenting with a higher cut of threshold can save more time. With threshold chosen so that recall is still above 95% for GPT-4 (where up to 5% of relevant papers might be missed), the model could save 75% of the time spent on manual screening. If automation technologies can replicate manual screening by human experts with effectiveness, accuracy, and precision, the work and cost savings are significant. Furthermore, the value of a comprehensive list of relevant literature, rather quickly available at the start of a research project, is hard to understate. However, as this study only evaluated the performance on one systematic review and one prompt, we caution that more test and methodological development is needed, and outline the next steps to properly evaluate rigor and effectiveness of LLMs for eligibility screening.",
+      "year": "2025",
+      "published_date": "2025-04-23",
+      "journal": "Environmental Evidence",
+      "url": "https://www.semanticscholar.org/paper/d7327fdeb93156500f92613f12dce65230193227",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.1186/s13750-025-00360-x",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "computational humanities evidence synthesis"
+    },
+    {
+      "title": "Assessing the Effectiveness of GPT-4o in Climate Change Evidence Synthesis and Systematic Assessments: Preliminary Insights",
+      "authors": [
+        "E. Joe",
+        "S. Koneru",
+        "Christine J Kirchhoff"
+      ],
+      "abstract": "In this research short, we examine the potential of using GPT-4o, a state-of-the-art large language model (LLM) to undertake evidence synthesis and systematic assessment tasks. Traditional workflows for such tasks involve large groups of domain experts who manually review and synthesize vast amounts of literature. The exponential growth of scientific literature and recent advances in LLMs provide an opportunity to complementing these traditional workflows with new age tools. We assess the efficacy of GPT-4o to do these tasks on a sample from the dataset created by the Global Adaptation Mapping Initiative (GAMI) where we check the accuracy of climate change adaptation related feature extraction from the scientific literature across three levels of expertise. Our results indicate that while GPT-4o can achieve high accuracy in low-expertise tasks like geographic location identification, their performance in intermediate and high-expertise tasks, such as stakeholder identification and assessment of depth of the adaptation response, is less reliable. The findings motivate the need for designing assessment workflows that utilize the strengths of models like GPT-4o while also providing refinements to improve their performance on these tasks.",
+      "year": "2024",
+      "published_date": "2024-07-02",
+      "journal": "CLIMATENLP",
+      "url": "https://www.semanticscholar.org/paper/de1bef9d368ebd1951c52bb3e4b34a50e33f1c5c",
+      "arxiv_id": "2407.12826",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 7,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2407.12826",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm literature review"
+    },
+    {
+      "title": "Communicating diagnostic uncertainty in the acute and emergency medical setting: A systematic review and ethical analysis of the empirical literature.",
+      "authors": [
+        "J. Hart",
+        "C. Cox",
+        "I. Kuhn",
+        "Z. Fritz"
+      ],
+      "abstract": "BACKGROUND\ndiagnostic uncertainty is ubiquitous. Its communication to patients requires further investigation.\n\n\nAIMS\nTo determine: 1) What is known about how and why diagnostic uncertainty is communicated in acute care; 2) evidence of the effects of (not) communicating diagnostic uncertainty in the acute setting; 3) associated ethical issues.\n\n\nMETHODS\nsystematic review of Medline, Web of Science and SCOPUS for (acute or emergency care) AND (diagnostic uncertainty) AND (ethics OR behaviours). Critical interpretive synthesis and ethical analysis were conducted.\n\n\nRESULTS AND CONCLUSION\nNine studies (primarily surveys and interviews) were identified. Doctors are not trained in communicating diagnostic uncertainty and perceive it to have negative effects on patients; however not communicating diagnostic uncertainty can disempower patients, resulting in delayed/missed diagnoses or inappropriate use of resource.",
+      "year": "2021",
+      "published_date": "2021-07-01",
+      "journal": "Acute medicine",
+      "url": "https://www.semanticscholar.org/paper/445ee0ad9e37a6ed54955146945861759846f3d8",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 12,
+      "source": "Semantic Scholar",
+      "doi": "10.52964/amja.0865",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "The Effectiveness of Artificial Intelligence Conversational Agents in Health Care: Systematic Review (Preprint)",
+      "authors": [
+        "Madison Milne‐Ives",
+        "Caroline de Cock",
+        "Ernest Lim",
+        "Melissa Harper Shehadeh",
+        "Nick de Pennington",
+        "Guy Mole",
+        "Eduardo Normando",
+        "Edward Meinert"
+      ],
+      "abstract": "<sec> <title>BACKGROUND</title> The high demand for health care services and the growing capability of artificial intelligence have led to the development of conversational agents designed to support a variety of health-related activities, including behavior change, treatment support, health monitoring, training, triage, and screening support. Automation of these tasks could free clinicians to focus on more complex work and increase the accessibility to health care services for the public. An overarching assessment of the acceptability, usability, and effectiveness of these agents in health care is needed to collate the evidence so that future development can target areas for improvement and potential for sustainable adoption. </sec> <sec> <title>OBJECTIVE</title> This systematic review aims to assess the effectiveness and usability of conversational agents in health care and identify the elements that users like and dislike to inform future research and development of these agents. </sec> <sec> <title>METHODS</title> PubMed, Medline (Ovid), EMBASE (Excerpta Medica dataBASE), CINAHL (Cumulative Index to Nursing and Allied Health Literature), Web of Science, and the Association for Computing Machinery Digital Library were systematically searched for articles published since 2008 that evaluated unconstrained natural language processing conversational agents used in health care. EndNote (version X9, Clarivate Analytics) reference management software was used for initial screening, and full-text screening was conducted by 1 reviewer. Data were extracted, and the risk of bias was assessed by one reviewer and validated by another. </sec> <sec> <title>RESULTS</title> A total of 31 studies were selected and included a variety of conversational agents, including 14 chatbots (2 of which were voice chatbots), 6 embodied conversational agents (3 of which were interactive voice response calls, virtual patients, and speech recognition screening systems), 1 contextual question-answering agent, and 1 voice recognition triage system. Overall, the evidence reported was mostly positive or mixed. Usability and satisfaction performed well (27/30 and 26/31), and positive or mixed effectiveness was found in three-quarters of the studies (23/30). However, there were several limitations of the agents highlighted in specific qualitative feedback. </sec> <sec> <title>CONCLUSIONS</title> The studies generally reported positive or mixed evidence for the effectiveness, usability, and satisfactoriness of the conversational agents investigated, but qualitative user perceptions were more mixed. The quality of many of the studies was limited, and improved study design and reporting are necessary to more accurately evaluate the usefulness of the agents in health care and identify key areas for improvement. Further research should also analyze the cost-effectiveness, privacy, and security of the agents. </sec> <sec> <title>INTERNATIONAL REGISTERED REPORT</title> RR2-10.2196/16934 </sec>",
+      "year": "2020",
+      "published_date": "2020-05-17",
+      "journal": "OpenAlex",
+      "url": "https://doi.org/10.2196/preprints.20346",
+      "arxiv_id": "",
+      "keywords": [
+        "CINAHL",
+        "Usability",
+        "Health care",
+        "Analytics",
+        "Chatbot",
+        "MEDLINE",
+        "Variety (cybernetics)",
+        "Computer science"
+      ],
+      "citations": 7,
+      "source": "OpenAlex",
+      "doi": "10.2196/preprints.20346",
+      "open_access": true,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation AND reviewer agent"
+    },
+    {
+      "title": "Transforming Evidence Synthesis: A Systematic Review of the Evolution of Automated Meta-Analysis in the Age of AI",
+      "authors": [
+        "Lingbo Li",
+        "A. Mathrani",
+        "Teo Sušnjak"
+      ],
+      "abstract": "Exponential growth in scientific literature has heightened the demand for efficient evidence-based synthesis, driving the rise of the field of Automated Meta-analysis (AMA) powered by natural language processing and machine learning. This PRISMA systematic review introduces a structured framework for assessing the current state of AMA, based on screening 978 papers from 2006 to 2024, and analyzing 54 studies across diverse domains. Findings reveal a predominant focus on automating data processing (57%), such as extraction and statistical modeling, while only 17% address advanced synthesis stages. Just one study (2%) explored preliminary full-process automation, highlighting a critical gap that limits AMA's capacity for comprehensive synthesis. Despite recent breakthroughs in large language models (LLMs) and advanced AI, their integration into statistical modeling and higher-order synthesis, such as heterogeneity assessment and bias evaluation, remains underdeveloped. This has constrained AMA's potential for fully autonomous meta-analysis. From our dataset spanning medical (67%) and non-medical (33%) applications, we found that AMA has exhibited distinct implementation patterns and varying degrees of effectiveness in actually improving efficiency, scalability, and reproducibility. While automation has enhanced specific meta-analytic tasks, achieving seamless, end-to-end automation remains an open challenge. As AI systems advance in reasoning and contextual understanding, addressing these gaps is now imperative. Future efforts must focus on bridging automation across all meta-analysis stages, refining interpretability, and ensuring methodological robustness to fully realize AMA's potential for scalable, domain-agnostic synthesis.",
+      "year": "2025",
+      "published_date": "2025-04-28",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/cbc9b68c69c564c285f97e4891835ae41cd8fa29",
+      "arxiv_id": "2504.20113",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 5,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2504.20113",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent benchmark"
+    }
+  ],
+  "timestamp": "20260423_162959"
+}

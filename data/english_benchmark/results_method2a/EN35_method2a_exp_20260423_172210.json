@@ -1,0 +1,204 @@
+{
+  "query_id": "EN35",
+  "query": "What approaches exist for automatically verifying biomedical claims against primary literature using natural language inference?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "id": "wf_qk3e_000034348468",
+      "title": "How to Write Effective Prompts for Screening Biomedical Literature Using Large Language Models",
+      "abstract": "comprehensive <span class='highlight'>evidence</span> <span class='highlight'>synthesis</span> across <span class='highlight'>biomedical</span> disciplines. <span class='highlight'>Large</span> <span class='highlight'>language</span> <span class='highlight'>models</span> (LLMs) have emerged as powerful tools for (semi-)automating the initial screening of abstracts in systematic reviews, offering the potential to significantly reduce the manual   prompts, which demand explicit <span class='highlight'>evidence</span> for every criterion. Using a periodontics case study, we illustrate how prompt design affects recall, precision, and overall screening efficiency and discuss  burden on research teams. This paper provides a broad overview of prompt engineering principles and highlights how traditional PICO (Population, Intervention, Comparison, Outcome) criteria can be converted  into actionable instructions for LLMs. We analyze the trade-offs between “soft” prompts, which maximize recall by accepting articles unless they explicitly fail an inclusion requirement, and “strict”",
+      "authors": [
+        "Maria Teresa Colangelo",
+        "Stefano Guizzardi",
+        "Marco Meleti",
+        "Elena Calciolari",
+        "Carlo Galli"
+      ],
+      "year": 2025,
+      "journal": "",
+      "citations": 0,
+      "url": "https://doi.org/10.3390/biomedinformatics5010015",
+      "doi": "10.3390/biomedinformatics5010015",
+      "source": "万方数据",
+      "language": "zh",
+      "keywords": [
+        "systematic reviews",
+        "prompt engineering",
+        "GPT",
+        "zero-shot learning",
+        "biomedical screening"
+      ],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "GAPMAP: Mapping Scientific Knowledge Gaps in Biomedical Literature Using Large Language Models",
+      "authors": [
+        "Nourah M. Salem",
+        "Elizabeth K. White",
+        "M. Bada",
+        "Lawrence Hunter"
+      ],
+      "abstract": "Scientific progress is driven by the deliberate articulation of what remains unknown. This study investigates the ability of large language models (LLMs) to identify research knowledge gaps in the biomedical literature. We define two categories of knowledge gaps: explicit gaps, clear declarations of missing knowledge; and implicit gaps, context-inferred missing knowledge. While prior work has focused mainly on explicit gap detection, we extend this line of research by addressing the novel task of inferring implicit gaps. We conducted two experiments on almost 1500 documents across four datasets, including a manually annotated corpus of biomedical articles. We benchmarked both closed-weight models (from OpenAI) and open-weight models (Llama and Gemma 2) under paragraph-level and full-paper settings. To address the reasoning of implicit gaps inference, we introduce \\textbf{\\small TABI}, a Toulmin-Abductive Bucketed Inference scheme that structures reasoning and buckets inferred conclusion candidates for validation. Our results highlight the robust capability of LLMs in identifying both explicit and implicit knowledge gaps. This is true for both open- and closed-weight models, with larger variants often performing better. This suggests a strong ability of LLMs for systematically identifying candidate knowledge gaps, which can support early-stage research formulation, policymakers, and funding decisions. We also report observed failure modes and outline directions for robust deployment, including domain adaptation, human-in-the-loop verification, and benchmarking across open- and closed-weight models.",
+      "year": "2025",
+      "published_date": "2025-10-29",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/3a23073654ab2404900c4bcc49840c2522a2a60f",
+      "arxiv_id": "2510.25055",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2510.25055",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "title": "Retrieval augmented generation based dynamic prompting for few-shot biomedical named entity recognition using large language models",
+      "authors": [
+        "Yao Ge",
+        "Sudeshna Das",
+        "Yuting Guo",
+        "Abeed Sarker"
+      ],
+      "abstract": "Abstract\n        Biomedical named entity recognition (NER) is a high-utility natural language processing (NLP) task, and large language models (LLMs) show promise particularly in few-shot settings (i.e., limited training data). In this article, we address the performance challenges of LLMs for few-shot biomedical NER by investigating a dynamic prompting strategy involving retrieval-augmented generation (RAG). In our approach, the annotated in-context learning examples are selected based on their similarities with the input texts, and the prompt is dynamically updated for each instance during inference. We implemented and optimized static and dynamic prompt engineering techniques and evaluated them on five biomedical NER datasets. Static prompting with structured components increased average F 1-scores by 12% for GPT-4, and 11% for GPT-3.5 and LLaMA 3-70B, relative to basic static prompting. Dynamic prompting further improved performance, with TF-IDF and SBERT retrieval methods yielding the best results, improving average F 1-scores by 7.3% and 5.6% in 5-shot and 10-shot settings, respectively. These findings highlight the utility of contextually adaptive prompts via RAG for biomedical NER.",
+      "year": "2025",
+      "published_date": "2025-8-25",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.21203/rs.3.rs-7216581/v1",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.21203/rs.3.rs-7216581/v1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models full text retrieval"
+    },
+    {
+      "title": "Artificial Intelligence-Based Thematic Analysis of Biomedical Literature for Precision Nutrition.",
+      "authors": [
+        "Jon L Day",
+        "Jake R Beckman",
+        "Russell Nelson",
+        "Quinten Weeks",
+        "Joseph Dorta",
+        "Moussa Doumbia",
+        "Diana M Thomas"
+      ],
+      "abstract": "The scale of contemporary biomedical research challenges the ability of traditional reviews to preserve structural awareness across entire fields. This limitation is particularly consequential in precision nutrition, where feature selection and model interpretability depend on understanding how diverse and evolving data streams intersect to influence metabolic response. However, as literature volume grows, visibility across the full evidence landscape diminishes. To address this gap, we developed an end-to-end computational framework that ingests complete PubMed query results and organizes all returned abstracts into unsupervised thematic structures. Structured queries were programmatically executed, and abstracts were analyzed using complementary natural language processing approaches. To determine whether traditional reviews reflect the thematic distribution of primary research, review and nonreview subsets were clustered independently and compared using cluster-centroid cosine similarity heat maps. To demonstrate scalability under realistic precision nutrition integration demands, the framework mapped >385,000 abstracts spanning genetics and physical activity into stable thematic representations. Although clinically consolidated domains showed strong correspondence between review and primary research clusters, several mechanistic and genomics-focused areas demonstrated comparatively limited representation in review-derived structures. The full pipeline was operationalized in an interactive web-based application (https://medreview.streamlit.app/), enabling reproducible corpus-scale structural mapping and review-gap diagnostics without manual query navigation or programming. By transforming literature synthesis into scalable structural analysis, this framework provides a quantitative infrastructure for evidence-grounded modeling in precision nutrition research.",
+      "year": "2026",
+      "published_date": "2026",
+      "journal": "The Journal of nutrition",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41819286/",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1016/j.tjnut.2026.101472",
+      "domain_id": "multi_agent_information_services",
+      "domain_label": "Multi-Agent Information Services",
+      "retrieved_by_query": "evidence-grounded literature synthesis"
+    },
+    {
+      "title": "A Literature Review of Textual Cyber Abuse Detection Using Cutting‐Edge Natural Language Processing Techniques: Language Models and Large Language Models",
+      "authors": [
+        "J. A. Diaz-Garcia",
+        "João Paulo Carvalho"
+      ],
+      "abstract": "The success of social media platforms has facilitated the emergence of various forms of online abuse within digital communities. This abuse manifests in multiple ways, including hate speech, cyberbullying, emotional abuse, grooming, and shame sexting or sextortion. In this paper, we present a comprehensive analysis of the different forms of abuse prevalent in social media, with a particular focus on how emerging technologies, such as Language Models (LMs) and Large Language Models (LLMs), are reshaping both the detection and generation of abusive content within these networks. We delve into the mechanisms through which social media abuse is perpetuated, exploring the psychological and social impact. To achieve this, we conducted a literature review based on PRISMA methodology, deriving key insights in the field of cyber abuse detection. Additionally, we examine the dual role of advanced language models—highlighting their potential to enhance automated detection systems for abusive behavior while also acknowledging their capacity to generate harmful content. This paper contributes to the ongoing discourse on online safety and ethics by offering both theoretical and practical insights into the evolving landscape of cyber abuse, as well as the technological innovations that simultaneously mitigate and exacerbate it. The findings support platform administrators and policymakers in developing more effective moderation strategies, conducting comprehensive risk assessments, and integrating AI responsibly to create safer digital environments.",
+      "year": "2025",
+      "published_date": "2025-06-27",
+      "journal": "WIREs Data. Mining. Knowl. Discov.",
+      "url": "https://www.semanticscholar.org/paper/7f2eede1ea4fec0bafd407ad52d6d3261fd82188",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 9,
+      "source": "Semantic Scholar",
+      "doi": "10.1002/widm.70029",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models literature review"
+    },
+    {
+      "title": "Converting Natural Language to Query Languages Using Large Language Models: A Systematic Literature Review",
+      "authors": [
+        "R. Lima",
+        "Kamila Cardoso Vasconcelos",
+        "Eloisa Mendonça Gadelha"
+      ],
+      "abstract": "The task of converting natural language commands into query languages (NL-to-QL) has gained attention due to its potential to improve data accessibility for non-technical users. Although several studies have explored rule-based and sequence-to-sequence models, there is still a lack of a literature review that presents the impact of using large language models (LLMs) on this task. As an output of a systematic literature review, this paper examines how recent studies have utilized LLMs by applying fine-tuning or prompt engineering techniques to address this task. Presenting a compilation of methods, architectures, and techniques, as well as evaluation metrics, datasets, and benchmarks applied, including the available competitions and educational platforms, it provides a comprehensive overview of NL-to-QL conversion, mapping current advancements, future research directions, and remaining challenges, including issues with schema generalization, query interpretability, and hallucination mitigation.",
+      "year": "2025",
+      "published_date": "2025-11-10",
+      "journal": "Brazilian Symposium on Multimedia and the Web",
+      "url": "https://www.semanticscholar.org/paper/7a5eab1275e97312fd2be8ee7f779dd928272dd2",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.5753/webmedia.2025.15123",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm benchmark"
+    },
+    {
+      "title": "Using Natural Language Processing and Networks to Automate Structured Literature Reviews: An Application to Farmers Climate Change Adaptation",
+      "authors": [
+        "Sofia Gil-Clavel",
+        "Tatiana Filatova"
+      ],
+      "abstract": "The fast-growing number of research articles makes it problematic for scholars to keep track of the new findings related to their areas of expertise. Furthermore, linking knowledge across disciplines in rapidly developing fields becomes challenging for complex topics like climate change that demand interdisciplinary solutions. At the same time, the rise of Black Box types of text summarization makes it difficult to understand how text relationships are built, let alone relate to existing theories conceptualizing cause-effect relationships and permitting hypothesizing. This work aims to sensibly use Natural Language Processing by extracting variables relations and synthesizing their findings using networks while relating to key concepts dominant in relevant disciplines. As an example, we apply our methodology to the analysis of farmers' adaptation to climate change. For this, we perform a Natural Language Processing analysis of publications returned by Scopus in August 2022. Results show that the use of Natural Language Processing together with networks in a descriptive manner offers a fast and interpretable way to synthesize literature review findings as long as researchers back up results with theory.",
+      "year": "2023",
+      "published_date": "2023-06-16",
+      "journal": "arXiv Preprint",
+      "url": "http://arxiv.org/abs/2306.09737v2",
+      "arxiv_id": "2306.09737v2",
+      "keywords": [
+        "cs.CL"
+      ],
+      "citations": 0,
+      "source": "arXiv",
+      "doi": "",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate adaptation literature mapping llm systematic review"
+    },
+    {
+      "title": "Biomedical Literature Q&A System Using Retrieval-Augmented Generation (RAG)",
+      "authors": [
+        "Mansi Garg",
+        "Lee-Chi Wang",
+        "Bhavesh Ghanchi",
+        "Sanjana Dumpala",
+        "Shreyash Kakde",
+        "Yen-Chi Chen"
+      ],
+      "abstract": "This work presents a Biomedical Literature Question Answering (Q&A) system based on a Retrieval-Augmented Generation (RAG) architecture, designed to improve access to accurate, evidence-based medical information. Addressing the shortcomings of conventional health search engines and the lag in public access to biomedical research, the system integrates diverse sources, including PubMed articles, curated Q&A datasets, and medical encyclopedias ,to retrieve relevant information and generate concise, context-aware responses. The retrieval pipeline uses MiniLM-based semantic embeddings and FAISS vector search, while answer generation is performed by a fine-tuned Mistral-7B-v0.3 language model optimized using QLoRA for efficient, low-resource training. The system supports both general medical queries and domain-specific tasks, with a focused evaluation on breast cancer literature demonstrating the value of domain-aligned retrieval. Empirical results, measured using BERTScore (F1), show substantial improvements in factual consistency and semantic relevance compared to baseline models. The findings underscore the potential of RAG-enhanced language models to bridge the gap between complex biomedical literature and accessible public health knowledge, paving the way for future work on multilingual adaptation, privacy-preserving inference, and personalized medical AI systems.",
+      "year": "2025",
+      "published_date": "2025-09-05",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/b76847c6a56e7ada6d9f953418d191c5204f708b",
+      "arxiv_id": "2509.05505",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2509.05505",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical retrieval screening pipeline"
+    }
+  ],
+  "timestamp": "20260423_172210"
+}

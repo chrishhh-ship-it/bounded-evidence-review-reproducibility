@@ -1,0 +1,51 @@
+{
+  "qid": "EN23",
+  "condition": "m1_vanilla",
+  "query": "What metrics are appropriate for evaluating the quality and accuracy of AI-generated summaries of historical source materials?",
+  "domain": "Digital Humanities",
+  "category": "evaluation",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "Journalism ethics and standards",
+    "Algorithmic bias",
+    "Particulate matter",
+    "Collective intelligence",
+    "Educational technology"
+  ],
+  "top_papers": [
+    {
+      "title": "Journalism ethics and standards",
+      "abstract": "Journalistic ethics and standards comprise principles of ethics and good practice applicable to journalists. This subset of media ethics is known as journalism's professional \"code of ethics\" and the \"canons of journalism\". The basic codes and canons commonly appear in statements by professional journalism associations and individual print, broadcast, and online news organizations.\nThere are around 400 codes covering journalistic work around the world."
+    },
+    {
+      "title": "Algorithmic bias",
+      "abstract": "Algorithmic bias describes systematic and repeatable harmful tendency in a computerized sociotechnical system to create \"unfair\" outcomes, such as \"privileging\" one category over another in ways that may or may not be different from the intended function of the algorithm.\nBias can emerge from many factors, including intentionally biased design decisions or the unintended or unanticipated use or decisions relating to the way data is coded, collected, selected or used to train the algorithm. For e"
+    },
+    {
+      "title": "Particulate matter",
+      "abstract": "Particulate matter (PM) or particulates are microscopic particles of solid or liquid matter, which are suspended in the air. An aerosol is a mixture of particulates and air, as opposed to the particulate matter itself. Sources of particulate matter can be natural or result from human activities. Particulates adversely affect human health and have impacts on climate and precipitation."
+    },
+    {
+      "title": "Collective intelligence",
+      "abstract": "Collective intelligence (CI) or group intelligence (GI) is the emergent ability of groups, whether composed of humans alone, animals, or networks of humans and artificial agents, to solve problems, make decisions, or generate knowledge more effectively than individuals alone, through either cooperation or by aggregation of diverse information, perspectives, and behaviors. The term swarm intelligence (SI) is sometimes used interchangeably with collective intelligence but is simply one instance of"
+    },
+    {
+      "title": "Educational technology",
+      "abstract": "Educational technology (often abbreviated as edtech) refers to the use of computer hardware, software, along with educational theories and practices, to facilitate learning and teaching. When referred to by its abbreviation, \"EdTech,\" it often denotes the industry of companies that develop educational technology. Scholars such as Tanner Mirrlees and Shahid Alvi (2019) have described the edtech industry as consisting largely of privately owned companies involved in producing and distributing educ"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Journalism_ethics_and_standards",
+    "wiki:Algorithmic_bias",
+    "wiki:Particulate_matter",
+    "wiki:Collective_intelligence",
+    "wiki:Educational_technology"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN23_m1_vanilla_wiki_20260424_185704.md"
+}

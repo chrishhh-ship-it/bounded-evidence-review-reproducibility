@@ -1,0 +1,16 @@
+{
+  "source_archive": "IPM_ANON_REPRO_PACKAGE_v4_R2_20261014.zip",
+  "source_archive_sha256": "acf64ee773c3833f01c1bc27051b822eb9e18a45af4fa3d0f41b8d7940ffbc2a",
+  "source_version": "2026-10-14 (v4, R2)",
+  "source_file_count": 6649,
+  "source_manifest_entries": 6647,
+  "source_manifest_verified": true,
+  "base_commit": "c9bafe20bec160949e83eaf1fb5b56d091bccbf4",
+  "integration_notes": [
+    "Retained repository-only licenses, documentation, helper modules and anonymized analysis table.",
+    "Public raw_responses_n30.csv mirrors the existing anonymous 300-row, 10-field analysis table; analysis values are identical to the supplied archive.",
+    "Replaced original workstation path prefixes and coder names with neutral labels; retained bibliographic author data.",
+    "Disabled Git newline conversion and regenerated repository checksums for the deposited bytes.",
+    "Archived numeric-audit scripts retain their original manuscript/full-text dependencies; see README_R2_ADDENDUM.md."
+  ]
+}

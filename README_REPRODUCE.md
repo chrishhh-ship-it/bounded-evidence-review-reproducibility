@@ -1,43 +1,11 @@
 # Reproducibility Guide
 
-Updated: 2026-08-15
+Updated: 2026-04-29
 
 This guide lists the copy-paste commands used to reproduce the reported
 structural metrics from preserved system outputs. `scripts/evaluate_metrics.py`
 requires an explicit `--corpus` argument so that pilot and expanded benchmark
 corpora cannot be mixed silently.
-
-## Environment and scope
-
-From the repository root, install the minimum analysis dependencies:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-For the exact versions used in the verification run, see
-`requirements-lock.txt`.
-
-The commands below reproduce analyses from preserved outputs. They do not
-promise byte-identical regeneration of hosted-model responses. Scripts that
-call model providers require the user's own credentials and may be affected by
-provider-side model updates.
-
-**Windows checkout note.** Several files under `data/reports/.../repro/v3/`
-have long nested paths. Git for Windows disables long-path support by default,
-so a plain `git clone` can silently fail to check out some of these files
-(you may see `Filename too long` errors during clone, or a later
-`build_manifest.py --verify-only` failure that looks like a missing file but
-is actually a failed local checkout). Before cloning on Windows, run:
-
-```bash
-git config --global core.longpaths true
-```
-
-Using a short checkout path such as `C:\ipmrep` further reduces the risk but
-is not a substitute for the setting above, since the long segments live
-inside the repository's own directory structure, not just in the checkout
-root.
 
 ## Required Files
 
@@ -45,16 +13,6 @@ Core corpora:
 
 - Pilot MAS corpus: `data/topic_runs/multi_agent_intel_service_20260410_114059/retrieved_papers_wave3.json`
 - Expanded multi-domain corpus: `data/frozen_corpus_multidomain_v1.json`
-
-Benchmark query definitions:
-
-- Expanded 251-query benchmark: `data/benchmarks/benchmark_all_queries.json`
-- Independent 50-query English stress test (EN01--EN50): `data/benchmarks/english_queries_benchmark.json`
-
-The English file is a separate, purpose-built 50-query English stress-test set
-that is not part of the 251-query expanded benchmark. It has no exact
-query-string overlap with `benchmark_all_queries.json` and is not an English
-subset of that benchmark.
 
 Run manifest and checksums:
 
@@ -64,8 +22,7 @@ Run manifest and checksums:
 
 Human pilot:
 
-- `data/user_study/analysis_responses_n30.csv`
-- `data/user_study/README.md`
+- `data/user_study/raw_responses_n30.csv`
 - `data/user_study/imputation_log.json`
 - `scripts/analyze_user_study.py`
 
@@ -207,22 +164,66 @@ Climate `56.9%`).
 
 ## Human Pilot
 
-The anonymized, analysis-ready 30-participant file is
-`data/user_study/analysis_responses_n30.csv`. Direct identifiers, source-file
-names, and redundant raw display fields are not deposited. The retained fields
-are the exact inputs used by the analysis scripts; see
-`data/user_study/README.md` for the data dictionary and sanitization boundary.
-The analysis entrypoint is read-only by default.
+The cleaned 30-participant file is `data/user_study/raw_responses_n30.csv`.
+The final manuscript reports the complete-case analysis produced by the final
+revision entrypoint. It does not overwrite the source CSV; it writes derived
+results under `data/reports/ipm_major_revision_20260721/repro/final_revision_20260812/`.
+
+```bash
+python scripts/final_revision_analyses_20260812.py
+```
+
+Expected complete-case descriptive values:
+
+- M2a: rank-first `41.7%`, average rank `1.86`, mean score `4.26`, SD `1.40`, most suspicious `26.7%`
+- M1: rank-first `29.7%`, average rank `2.10`, mean score `3.95`, SD `1.40`, most suspicious `39.3%`
+- M2b: rank-first `28.7%`, average rank `2.04`, mean score `4.11`, SD `1.44`, most suspicious `34.0%`
+
+The historical participant-mean imputation analysis remains available only as
+a sensitivity check:
 
 ```bash
 python scripts/analyze_user_study.py
 ```
 
-Expected descriptive values:
+Its slightly different means (`4.27`, `3.94`, and `4.12`) are not the primary
+values reported in the final manuscript.
 
-- M2a: rank-first `41.7%`, average rank `1.86`, mean score `4.27`, SD `1.40`, most suspicious `26.7%`
-- M1: rank-first `29.7%`, average rank `2.10`, mean score `3.94`, SD `1.40`, most suspicious `39.3%`
-- M2b: rank-first `28.7%`, average rank `2.04`, mean score `4.12`, SD `1.44`, most suspicious `34.0%`
+## Generation scripts and prompt provenance
+
+The archive separates two reproducibility levels:
+
+1. `scripts/` contains supported analysis entrypoints that recompute the
+   reported tables from preserved outputs.
+2. `historical_generation_protocols/` contains the original Method 1, Method 2,
+   and same-model control scripts. These files preserve the complete prompt and
+   role wording used by the historical workflow. They are documentary protocol
+   snapshots, not a promise of byte-identical API regeneration: provider models,
+   credentials, and provider-side randomness can change after data collection.
+
+The reviewer-requested schema-matched single-agent script is included as a
+supported generation entrypoint. Its CLI can be inspected without credentials:
+
+```bash
+python scripts/run_schema_matched_single_agent.py --help
+```
+
+To make a new API call, place the key in an environment variable rather than in
+the archive, for example `DEEPSEEK_API_KEY`, or select another variable with
+`--api-key-env NAME`.
+
+## Environment
+
+The verified analysis environment is Python 3.10. Install the pinned/minimum
+analysis dependencies with:
+
+```bash
+python -m pip install -r requirements-analysis.txt
+```
+
+Optional NLI and provider-backed generation dependencies are documented in
+`requirements-optional.txt`; they are not needed to recompute the main tables
+from preserved outputs.
 
 ## Notes
 
@@ -232,12 +233,5 @@ Expected descriptive values:
 - End-to-end API regeneration is not expected to be byte-identical because the
   LLM calls were not seeded. The preserved markdown/JSON outputs are the
   reproducible evaluation objects.
-
-## Verify the deposited snapshot without modifying it
-
-```bash
-python scripts/build_manifest.py --verify-only
-```
-
-The repository enforces LF line endings through `.gitattributes`, so the same
-byte-level manifest can be verified on Windows, macOS, and Linux checkouts.
+- On Windows, extract the ZIP to a short path (for example `C:\\ipm-repro`) with
+  7-Zip or `tar -xf` to avoid legacy path-length limits.

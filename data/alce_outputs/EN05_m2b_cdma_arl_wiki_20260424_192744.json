@@ -1,0 +1,36 @@
+{
+  "qid": "EN05",
+  "condition": "m2b_cdma_arl",
+  "query": "How does adversarial review between writer and reviewer agents improve structural integrity of synthesized documents?",
+  "domain": "Multi-Agent Information Services",
+  "category": "adversarial_review",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "deepseek",
+  "reviewer_model": "deepseek-chat",
+  "eq_size": 1,
+  "eq_titles": [
+    "Wikipedia: How does adversarial review between writ"
+  ],
+  "top_papers": [
+    {
+      "title": "Wikipedia: How does adversarial review between writ",
+      "abstract": ""
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Wikipedia:_How_does_adversarial_review_between_writ"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN05_m2b_cdma_arl_wiki_20260424_192744.md"
+}

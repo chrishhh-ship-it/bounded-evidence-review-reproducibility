@@ -1,0 +1,269 @@
+{
+  "query_id": "EN28",
+  "query": "How do automated meta-analysis tools extract and aggregate effect sizes from primary biomedical studies?",
+  "domain_id": "biomedical_evidence_synthesis",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Impact of awake extracorporeal membrane oxygenation on patients mortality with cardiogenic shock: a systematic review and trial sequential meta-analysis based on observational studies",
+      "authors": [
+        "Han-yang Yue",
+        "Wei Peng",
+        "Kun Luo",
+        "J. Zeng",
+        "Wei Ma",
+        "C. Lu",
+        "Li Chang",
+        "Hua Jiang",
+        "Ping Zhou"
+      ],
+      "abstract": "Objectives The use of awake extracorporeal membrane oxygenation (ECMO, without intubation or sedation under ECMO support in patients with cardiogenic shock is growing rapidly because emerging clinical investigations indicates it may reduce morbidity associated with sedation and intubation. We systematically reviewed the efficacy of awake ECMO and provided evidence for clinical practitioners and researchers. Design Systematic review and trial sequential meta-analysis based on observational studies. Data sources Data was retrieved from seven databases (PubMed, Web of Science, Embase, China National Knowledge Infrastructure, Wanfang, Chinese Biomedical Literature Database and Cochrane Library) up to 1 March 2024. Eligibility criteria We included observational studies that compared the differences in clinical outcomes between awake ECMO and non-awake ECMO in patients with cardiogenic shock. Data extraction and synthesis Two reviewers rigorously conducted literature retrieval, screening and data extraction. The RevMan software was used for data synthesis. Results Five retrospective observational studies involving 1044 patients with cardiogenic shock were included. Compared with non-awake ECMO, awake ECMO was associated with a lower mortality rate of patients with cardiogenic shock (OR=0.28; 95% CI, (0.15, 0.49); p<0.0001; I2=50%). Trial sequential analysis indicated that the sample mortality outcome reached the required information size. No significant differences were observed between the two groups on secondary outcomes such as the occurrence of ventilator-associated pneumonia, weaning from ECMO, tracheostomy, haemorrhage, thrombosis, limb ischaemia and nosocomial infection. Conclusions Implementing awake ECMO may result in better clinical outcomes in patients with cardiogenic shock. Because of the limited sample sizes and potential bias of the current studies, more rigorously designed large-scale trials are urgently needed to verify the above findings. PROSPERO registration number CRD42023407607.",
+      "year": "2024",
+      "published_date": "2024-10-01",
+      "journal": "BMJ Open",
+      "url": "https://www.semanticscholar.org/paper/98f48e1c03dc40b9427433f5ec6e29a693d74370",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 1,
+      "source": "Semantic Scholar",
+      "doi": "10.1136/bmjopen-2024-086383",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded literature review"
+    },
+    {
+      "title": "Cognitive-behavioural therapy for a variety of conditions: an overview of systematic reviews and panoramic meta-analysis.",
+      "authors": [
+        "Beth Fordham",
+        "Thavapriya Sugavanam",
+        "Katherine Edwards",
+        "Karla Hemming",
+        "Jeremy Howick",
+        "Bethan Copsey",
+        "Hopin Lee",
+        "Milla Kaidesoja",
+        "Shona Kirtley",
+        "Sally Hopewell",
+        "Roshan das Nair",
+        "Robert Howard",
+        "Paul Stallard",
+        "Julia Hamer-Hunt",
+        "Zafra Cooper",
+        "Sarah E Lamb"
+      ],
+      "abstract": "Cognitive-behavioural therapy aims to increase quality of life by changing cognitive and behavioural factors that maintain problematic symptoms. A previous overview of cognitive-behavioural therapy systematic reviews suggested that cognitive-behavioural therapy was effective for many conditions. However, few of the included reviews synthesised randomised controlled trials. This project was undertaken to map the quality and gaps in the cognitive-behavioural therapy systematic review of randomised controlled trial evidence base. Panoramic meta-analyses were also conducted to identify any across-condition general effects of cognitive-behavioural therapy. The overview was designed with cognitive-behavioural therapy patients, clinicians and researchers. The Cochrane Library, MEDLINE, EMBASE, PsycINFO, Cumulative Index to Nursing and Allied Health Literature, Child Development & Adolescent Studies, Database of Abstracts of Reviews of Effects and OpenGrey databases were searched from 1992 to January 2019. Study inclusion criteria were as follows: (1) fulfil the Centre for Reviews and Dissemination criteria; (2) intervention reported as cognitive-behavioural therapy or including one cognitive and one behavioural element; (3) include a synthesis of cognitive-behavioural therapy trials; (4) include either health-related quality of life, depression, anxiety or pain outcome; and (5) available in English. Review quality was assessed with A MeaSurement Tool to Assess systematic Reviews (AMSTAR)-2. Reviews were quality assessed and data were extracted in duplicate by two independent researchers, and then mapped according to condition, population, context and quality. The effects from high-quality reviews were pooled within condition groups, using a random-effect panoramic meta-analysis. If the across-condition heterogeneity was  A total of 494 reviews were mapped, representing 68% (27/40) of the categories of the  Data extraction and analysis were conducted at the review level, rather than returning to the individual trial data. This meant that the risk of bias of the individual trials could not be accounted for, but only the quality of the systematic reviews that synthesised them. Owing to the consistency and homogeneity of the highest-quality evidence, it is proposed that cognitive-behavioural therapy can produce a modest general, across-condition benefit in health-related quality-of-life, anxiety and pain outcomes. Future research should focus on how the modest effect sizes seen with cognitive-behavioural therapy can be increased, for example identifying alternative delivery formats to increase adherence and reduce dropout, and pursuing novel methods to assess intervention fidelity and quality. This study is registered as PROSPERO CRD42017078690. This project was funded by the National Institute for Health Research (NIHR) Health Technology Assessment programme and will be published in full in  This report is a summary of research examining if a psychological therapy called cognitive–behavioural therapy can improve the quality of life of people living with physical and/or mental conditions. Cognitive–behavioural therapy uses a set of techniques that help individuals to identify and change problematic thoughts or behaviour patterns that might contribute to and maintain their physical or mental symptoms. It can be delivered face to face or through mediums such as the internet. We aimed to understand if cognitive–behavioural therapy helps patients with specific conditions only, or if it can help patients with any condition. We searched relevant databases to find articles that combine the results from multiple trials testing cognitive–behavioural therapy. These are known as systematic reviews. We graded these reviews as providing good- or poor-quality evidence. We identified the conditions for which we had good-quality evidence on whether or not cognitive–behavioural therapy was helpful. From each review, we took numerical data that told us if cognitive–behavioural therapy improved quality of life for that specific condition. Next, we combined all the numerical data together, across all the conditions, to see if there was a consistent benefit of cognitive–behavioural therapy. The statistical analyses found that cognitive–behavioural therapy consistently improved quality of life across all the conditions where it has been tested. We have evidence that it can help children, adolescents and adults, of either sex, who are living in Europe, North America and Australasia. We are unsure if it will help older adults or people living in Africa, Asia or South America, nor do we know if cognitive–behavioural therapy is equally effective across different ethnic groups. It is recommended that future research should prioritise understanding how cognitive–behavioural therapy works, why some people do not want to use cognitive–behavioural therapy and why some patients do not benefit from it.",
+      "year": "2021",
+      "published_date": "2021",
+      "journal": "Health technology assessment (Winchester, England)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33629950/",
+      "arxiv_id": "",
+      "keywords": [
+        "Adolescent",
+        "Aged",
+        "Anxiety Disorders",
+        "Child",
+        "Cognitive Behavioral Therapy",
+        "Humans",
+        "Quality of Life",
+        "Systematic Reviews as Topic"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.3310/hta25090",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded literature review"
+    },
+    {
+      "title": "Efficacy and Safety of Automated Insulin Delivery Systems in Patients with Type 1 Diabetes Mellitus: A Systematic Review and Meta-Analysis.",
+      "authors": [
+        "Wenqi Fan",
+        "Chao Deng",
+        "Ruoyao Xu",
+        "Zhenqi Liu",
+        "Richard David Leslie",
+        "Zhiguang Zhou",
+        "Xia Li"
+      ],
+      "abstract": "Automated insulin delivery (AID) systems studies are upsurging, half of which were published in the last 5 years. We aimed to evaluate the efficacy and safety of AID systems in patients with type 1 diabetes mellitus (T1DM). We searched PubMed, Embase, Cochrane Library, Web of Science, and ClinicalTrials.gov until August 31, 2023. Randomized clinical trials that compared AID systems with other insulin-based treatments in patients with T1DM were considered eligible. Studies characteristics and glycemic metrics was extracted by three researchers independently. Sixty-five trials (3,623 patients) were included. The percentage of time in range (TIR) was 11.74% (95% confidence interval [CI], 9.37 to 14.12; P<0.001) higher with AID systems compared with control treatments. Patients on AID systems had more pronounced improvement of time below range when diabetes duration was more than 20 years (-1.80% vs. -0.86%, P=0.031) and baseline glycosylated hemoglobin lower than 7.5% (-1.93% vs. -0.87%, P=0.033). Dual-hormone full closed-loop systems revealed a greater improvement in TIR compared with hybrid closed-loop systems (-19.64% vs. -10.87%). Notably, glycemia risk index (GRI) (-3.74; 95% CI, -6.34 to -1.14; P<0.01) was also improved with AID therapy. AID systems showed significant advantages compared to other insulin-based treatments in improving glucose control represented by TIR and GRI in patients with T1DM, with more favorable effect in euglycemia by dual-hormone full closedloop systems as well as less hypoglycemia for patients who are within target for glycemic control and have longer diabetes duration.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Diabetes & metabolism journal",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39533812/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Diabetes Mellitus, Type 1",
+        "Insulin Infusion Systems",
+        "Insulin",
+        "Hypoglycemic Agents",
+        "Blood Glucose",
+        "Randomized Controlled Trials as Topic",
+        "Glycated Hemoglobin"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.4093/dmj.2024.0130",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation AND reviewer agent"
+    },
+    {
+      "title": "Automated insulin delivery in pregnant women with type 1 diabetes: a systematic review and meta-analysis.",
+      "authors": [
+        "Qin Yang",
+        "Jiayi Hao",
+        "Huijing Cui",
+        "Qingqing Yang",
+        "Feng Sun",
+        "Baoqi Zeng"
+      ],
+      "abstract": "The outcomes of automated insulin delivery (AID) systems in pregnant women with type 1 diabetes (T1D) have not been systematically evaluated. This study aims to evaluate the efficacy and safety of AID in pregnancy. Literature searches were conducted until July 5, 2024, on Embase, PubMed, Cochrane Library, and ClinicalTrials.gov website. We included clinical trials and observational studies evaluating AID systems in T1D pregnant individuals. Time in the target range (TIR, 3.5-7.8 mmol/L) was the primary outcome. Secondary outcomes included time below range (TBR,  7.8 mmol/L), and maternal and neonatal outcomes. Eighteen studies (550 participants) were included. Compared with standard care, AID did not improve 24-h TIR (mean differences [MD] 3.56%, 95% CI - 0.60 to 7.72). However, the overnight TIR increased by 10.05% (95% CI 6.57 to 13.53). The association between AID and decreased TBR (MD - 0.90%, 95% CI - 1.60 to - 0.20) was found, but not with deceased TAR. Only 7 of the 17 studies achieved the goal of a 24-h TIR above 70%. Additionally, the maternal and neonatal outcomes were comparable between AID and standard care, and AID might reduce maternal weight gain (MD - 2.54 kg, 95% CI - 3.96 to - 1.11). AID did not exhibit favourable TIR when compared to standard care. However, AID could increase overnight TIR and decrease TBR. Available evidence indicates that employing AID to meet the target of a 24-h TIR above 70% remains challenging.",
+      "year": "2025",
+      "published_date": "2025",
+      "journal": "Acta diabetologica",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39821308/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Female",
+        "Pregnancy",
+        "Diabetes Mellitus, Type 1",
+        "Insulin",
+        "Pregnancy in Diabetics",
+        "Insulin Infusion Systems",
+        "Hypoglycemic Agents"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1007/s00592-025-02454-x",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation AND reviewer agent"
+    },
+    {
+      "title": "Computational-Assisted Systematic Review and Meta-Analysis (CASMA): Effect of a Subclass of GnRH-a on Endometriosis Recurrence",
+      "authors": [
+        "Sandro Tsang"
+      ],
+      "abstract": "Background: Evidence synthesis facilitates evidence-based medicine. This task becomes increasingly difficult to accomplished with applying computational solutions, since the medical literature grows at astonishing rates. Objective: This study evaluates an information retrieval-driven workflow, CASMA, to enhance the efficiency, transparency, and reproducibility of systematic reviews. Endometriosis recurrence serves as the ideal case due to its complex and ambiguous literature. Methods: The hybrid approach integrates PRISMA guidelines with fuzzy matching and regular expression (regex) to facilitate semi-automated deduplication and filtered records before manual screening. The workflow synthesised evidence from randomised controlled trials on the efficacy of a subclass of gonadotropin-releasing hormone agonists (GnRH-a). A modified splitting method addressed unit-of-analysis errors in multi-arm trials. Results: The workflow sharply reduced the screening workload, taking only 11 days to fetch and filter 33,444 records. Seven eligible RCTs were synthesized (841 patients). The pooled random-effects model yielded a Risk Ratio (RR) of $0.64$ ($95\\%$ CI $0.48$ to $0.86$), demonstrating a $36\\%$ reduction in recurrence, with non-significant heterogeneity ($I^2=0.00\\%$, $\\tau^2=0.00$). The findings were robust and stable, as they were backed by sensitivity analyses. Conclusion: This study demonstrates an application of an information-retrieval-driven workflow for medical evidence synthesis. The approach yields valuable clinical results and a generalisable framework to scale up the evidence synthesis, bridging the gap between clinical research and computer science.",
+      "year": "2025",
+      "published_date": "2025-09-20",
+      "journal": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/08c29675213944609f275fcd664fb3b7310b5e7c",
+      "arxiv_id": "2509.16599",
+      "keywords": [
+        "Computer Science",
+        "Mathematics"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.48550/arXiv.2509.16599",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded systematic review"
+    },
+    {
+      "title": "Effectiveness of remote foetal health monitoring in improving maternal and foetal outcomes among high-risk pregnancies: A systematic review and meta-analysis.",
+      "authors": [
+        "Jiayi Wang",
+        "Yaming Dai",
+        "Hongyi Li",
+        "Xiaojiao Wang",
+        "Xinli Zhu",
+        "Hui Min",
+        "Chunyi Gu"
+      ],
+      "abstract": "BACKGROUND\nAdverse perinatal outcomes remain a significant global health challenge, exacerbated by limited access to healthcare and the need for intensified surveillance in high-risk pregnancies. Traditional foetal monitoring methods have been complemented by emerging telemedicine solutions, which provide opportunities for continuous remote monitoring. However, the synthesis of evidence regarding their clinical effectiveness in high-risk populations remains insufficiently explored.\n\n\nOBJECTIVE\nThis systematic review aims to evaluate the effectiveness of remote foetal health monitoring in improving maternal-foetal outcomes among high-risk pregnancies.\n\n\nMETHODS\nWe systematically searched Web of Science, Embase, PubMed, Scopus, CINAHL, Cochrane Library, the China Biomedical Literature Service System (Sino-Med), CNKI, Wanfang, and VIP Database from their inception until December 31, 2024. The search focused on randomised controlled trials comparing remote foetal health monitoring with routine prenatal care in high-risk pregnancies. The primary outcomes included maternal-foetal adverse outcomes and the detection rate of abnormal non-stress test. Two researchers independently conducted the study selection, data extraction, and risk-of-bias assessment using the Cochrane RoB 2 tool. Random-effects meta-analyses were performed using Review Manager version 5.4 and Stata version 18, with subgroup analyses based on predefined covariates, and the certainty of evidence was assessed using the GRADE framework.\n\n\nRESULTS\nA total of seventeen randomised controlled trials (n = 2782 participants) were included in this analysis, with the majority (15 trials) were conducted in China. Compared to traditional prenatal care, remote foetal health monitoring among high-risk pregnancies significantly reduced the likelihood of neonatal asphyxia (RR = 0.25, 95 % CI 0.17-0.37, p < 0.001) and the incidence of meconium-stained amniotic fluid (RR = 0.45, 95 % CI 0.27-0.75, p = 0.002), and improved the non-stress test abnormality detection rate (RR = 1.95, 95 % CI 1.19-3.18, p = 0.008). No statistically significant effect was observed on caesarean section rates (RR = 0.88, 95 % CI 0.76-1.03, p=0.110). The reduction in preterm birth (RR = 0.53, 95 % CI 0.36-0.76, p < 0.001) lost significance after adjusting for publication bias using the trim-and-fill method (RR = 0.85, 95 % CI 0.59-1.24, p = 0.401).\n\n\nCONCLUSIONS\nRemote foetal health monitoring effectively enhances foetal surveillance and reduces specific neonatal complications among high-risk pregnancies. However, the predominance of evidence from China may limit immediate generalisability to other settings. Future multinational studies are needed to confirm global applicability and assess cost-effectiveness.\n\n\nREGISTRATION\nPROSPERO CRD 42024606744, registered 29/11/2024.",
+      "year": "2025",
+      "published_date": "2025-12-01",
+      "journal": "International Journal of Nursing Studies",
+      "url": "https://www.semanticscholar.org/paper/2c0b16beedb2cda96128e51cc9a4a6da6b7a5d20",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.1016/j.ijnurstu.2025.105318",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded literature review"
+    },
+    {
+      "title": "Drug Survival of IL-17 and IL-23 Inhibitors for Psoriasis: A Systematic Review and Meta-Analysis.",
+      "authors": [
+        "Sarah E Thomas",
+        "Liana Barenbrug",
+        "Gerjon Hannink",
+        "Marieke M B Seyger",
+        "Elke M G J de Jong",
+        "Juul M P A van den Reek"
+      ],
+      "abstract": "The most recently approved biologics for moderate-to-severe psoriasis are the interleukin (IL)-17 and IL-23 inhibitors. Drug survival is a frequently used outcome to assess drug performance in practice. An overview of the available drug survival studies regarding IL-17 and IL-23 inhibitors is lacking. Therefore, our objective was to assess the drug survival of IL-17 and IL-23 inhibitors for psoriasis. A search of PubMed, Embase, Cochrane Library and Web of Science was conducted (last search 27 December, 2023). Inclusion criteria were (1) cohort study; (2) patients aged ≥ 18 years with plaque psoriasis; and (3) evaluation of drug survival of at least one of the IL-17 and IL-23 inhibitors. Exclusion criteria were: primary focus on patients with psoriatic arthritis, fewer than ten study subjects and another language than English. The Preferred Reporting Items for Systematic Reviews and Meta-analyses reporting guideline was followed. Survival probabilities at monthly intervals were extracted from Kaplan-Meier curves using a semi-automated tool. Data were pooled using a non-parametric random-effects model to retrieve distribution-free summary survival curves. Summary drug survival curves were constructed per biologic for different discontinuation reasons: overall, ineffectiveness and adverse events, and split for the effect modifier biologic naivety. Results were analysed separately for registry/electronic health record data and for pharmacy/claims data. A total of 69 studies aggregating drug survival outcomes of 48,704 patients on secukinumab, ixekizumab, brodalumab, guselkumab, risankizumab, and tildrakizumab were included. Summary drug survival estimates of registry/electronic health record studies for overall, ineffectiveness and adverse event related drug survival were high (all point estimates ≥ 0.8 at year 1) for included biologics, with highest estimates for guselkumab and risankizumab. All estimates for drug survival were higher in biologic naive than in experienced patients. Estimates of pharmacy/claims databases were substantially lower than estimates from the primary analyses based on registry/electronic health record data. This meta-analysis showed that the investigated IL-17 and IL-23 inhibitors had high drug survival rates, with highest rates for guselkumab and risankizumab drug survival. We showed that effect modifiers such as biologic naivety, and the source of data used (registry/electronic health record data vs pharmacy/claims databases) is relevant when interpreting drug survival studies.",
+      "year": "2024",
+      "published_date": "2024",
+      "journal": "Drugs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38630365/",
+      "arxiv_id": "",
+      "keywords": [
+        "Humans",
+        "Psoriasis",
+        "Interleukin-17",
+        "Interleukin-23",
+        "Antibodies, Monoclonal, Humanized",
+        "Dermatologic Agents"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1007/s40265-024-02028-1",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation AND reviewer agent"
+    },
+    {
+      "title": "CSF and blood biomarkers for the diagnosis of Alzheimer's disease: a systematic review and meta-analysis.",
+      "authors": [
+        "Bob Olsson",
+        "Ronald Lautner",
+        "Ulf Andreasson",
+        "Annika Öhrfelt",
+        "Erik Portelius",
+        "Maria Bjerke",
+        "Mikko Hölttä",
+        "Christoffer Rosén",
+        "Caroline Olsson",
+        "Gabrielle Strobel",
+        "Elizabeth Wu",
+        "Kelly Dakin",
+        "Max Petzold",
+        "Kaj Blennow",
+        "Henrik Zetterberg"
+      ],
+      "abstract": "Alzheimer's disease biomarkers are important for early diagnosis in routine clinical practice and research. Three core CSF biomarkers for the diagnosis of Alzheimer's disease (Aβ42, T-tau, and P-tau) have been assessed in numerous studies, and several other Alzheimer's disease markers are emerging in the literature. However, there have been no comprehensive meta-analyses of their diagnostic performance. We systematically reviewed the literature for 15 biomarkers in both CSF and blood to assess which of these were most altered in Alzheimer's disease. In this systematic review and meta-analysis, we screened PubMed and Web of Science for articles published between July 1, 1984, and June 30, 2014, about CSF and blood biomarkers reflecting neurodegeneration (T-tau, NFL, NSE, VLP-1, and HFABP), APP metabolism (Aβ42, Aβ40, Aβ38, sAPPα, and sAPPβ), tangle pathology (P-tau), blood-brain-barrier function (albumin ratio), and glial activation (YKL-40, MCP-1, and GFAP). Data were taken from cross-sectional cohort studies as well as from baseline measurements in longitudinal studies with clinical follow-up. Articles were excluded if they did not contain a cohort with Alzheimer's disease and a control cohort, or a cohort with mild cognitive impairment due to Alzheimer's disease and a stable mild cognitive impairment cohort. Data were extracted by ten authors and checked by two for accuracy. For quality assessment, modified QUADAS criteria were used. Biomarker performance was rated by random-effects meta-analysis based on the ratio between biomarker concentration in patients with Alzheimer's disease and controls (fold change) or the ratio between biomarker concentration in those with mild cognitive impariment due to Alzheimer's disease and those with stable mild cognitive impairment who had a follow-up time of at least 2 years and no further cognitive decline. Of 4521 records identified from PubMed and 624 from Web of Science, 231 articles comprising 15 699 patients with Alzheimer's disease and 13 018 controls were included in this analysis. The core biomarkers differentiated Alzheimer's disease from controls with good performance: CSF T-tau (average ratio 2·54, 95% CI 2·44-2·64, p<0·0001), P-tau (1·88, 1·79-1·97, p<0·0001), and Aβ42 (0·56, 0·55-0·58, p<0·0001). Differentiation between cohorts with mild cognitive impairment due to Alzheimer's disease and those with stable mild cognitive impairment was also strong (average ratio 0·67 for CSF Aβ42, 1·72 for P-tau, and 1·76 for T-tau). Furthermore, CSF NFL (2·35, 1·90-2·91, p<0·0001) and plasma T-tau (1·95, 1·12-3·38, p=0·02) had large effect sizes when differentiating between controls and patients with Alzheimer's disease, whereas those of CSF NSE, VLP-1, HFABP, and YKL-40 were moderate (average ratios 1·28-1·47). Other assessed biomarkers had only marginal effect sizes or did not differentiate between control and patient samples. The core CSF biomarkers of neurodegeneration (T-tau, P-tau, and Aβ42), CSF NFL, and plasma T-tau were strongly associated with Alzheimer's disease and the core biomarkers were strongly associated with mild cognitive impairment due to Alzheimer's disease. Emerging CSF biomarkers NSE, VLP-1, HFABP, and YKL-40 were moderately associated with Alzheimer's disease, whereas plasma Aβ42 and Aβ40 were not. Due to their consistency, T-tau, P-tau, Aβ42, and NFL in CSF should be used in clinical practice and clinical research. Swedish Research Council, Swedish State Support for Clinical Research, Alzheimer's Association, Knut and Alice Wallenberg Foundation, Torsten Söderberg Foundation, Alzheimer Foundation (Sweden), European Research Council, and Biomedical Research Forum.",
+      "year": "2016",
+      "published_date": "2016",
+      "journal": "The Lancet. Neurology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27068280/",
+      "arxiv_id": "",
+      "keywords": [
+        "Alzheimer Disease",
+        "Biomarkers",
+        "Humans"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1016/S1474-4422(16)00070-3",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "medical literature analysis evidence grounded"
+    }
+  ],
+  "timestamp": "20260423_170719"
+}

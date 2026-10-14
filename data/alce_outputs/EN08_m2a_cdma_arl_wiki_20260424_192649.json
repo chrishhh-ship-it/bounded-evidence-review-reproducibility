@@ -1,0 +1,60 @@
+{
+  "qid": "EN08",
+  "condition": "m2a_cdma_arl",
+  "query": "What empirical evidence exists for the effectiveness of cross-model versus same-model review in citation verification tasks?",
+  "domain": "Multi-Agent Information Services",
+  "category": "evaluation",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 5,
+  "eq_titles": [
+    "Elaboration likelihood model",
+    "Hofstede's cultural dimensions theory",
+    "Creativity",
+    "Flow (psychology)",
+    "Inquiry-based learning"
+  ],
+  "top_papers": [
+    {
+      "title": "Elaboration likelihood model",
+      "abstract": "The elaboration likelihood model (ELM) of persuasion is a dual process theory describing the change of attitudes. The ELM was developed by Richard E. Petty and John Cacioppo in 1986. The model aims to explain different ways of processing stimuli, why they are used, and their outcomes on attitude change. The ELM proposes two major routes to persuasion: the central route and the peripheral route."
+    },
+    {
+      "title": "Hofstede's cultural dimensions theory",
+      "abstract": "Hofstede's cultural dimensions theory is a framework for cross-cultural psychology, developed by Geert Hofstede. It shows the effects of a society's culture on the values of its members, and how these values relate to behavior, using a structure derived from factor analysis.\n\nHofstede developed his original model as a result of using factor analysis to examine the results of a worldwide survey of employee values by International Business Machines between 1967 and 1973. It has been refined since."
+    },
+    {
+      "title": "Creativity",
+      "abstract": "Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination. The products of creativity may be classified as either intangible or physical. Intangible products of creativity include ideas, scientific theories, literary works, musical compositions, and jokes. Physical products of creativity include inventions, dishes or meals, pieces of jewelry, costumes, and paintings."
+    },
+    {
+      "title": "Flow (psychology)",
+      "abstract": "Flow in positive psychology, also known colloquially as being in the zone or focused, is the mental state in which a person performing some activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity. In essence, flow is characterized by the complete absorption in what one does, and a resulting transformation in one's sense of time. Flow is the melting together of action and consciousness; the state of finding a balance between a ski"
+    },
+    {
+      "title": "Inquiry-based learning",
+      "abstract": "Inquiry-based learning (also spelled as enquiry-based learning in British English) is a form of active learning that starts by posing questions, problems or scenarios. It contrasts with traditional education, which generally relies on the teacher presenting facts and their knowledge about the subject. Inquiry-based learning is often assisted by a facilitator rather than a lecturer. Inquirers will identify and research issues and questions to develop knowledge or solutions."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Elaboration_likelihood_model",
+    "wiki:Hofstede's_cultural_dimensions_theory",
+    "wiki:Creativity",
+    "wiki:Flow_(psychology)",
+    "wiki:Inquiry-based_learning"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN08_m2a_cdma_arl_wiki_20260424_192649.md"
+}

@@ -1,0 +1,200 @@
+{
+  "query_id": "EN14",
+  "query": "How are computational methods applied to large-scale historical text corpora for knowledge extraction and synthesis?",
+  "domain_id": "digital_humanities",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities",
+      "authors": [
+        "Lise Jaillant",
+        "Katherine Aske"
+      ],
+      "abstract": "Innovative technologies are improving the accessibility, preservation, and searchability of born-digital and digitised records. In particular, Artificial Intelligence is opening new opportunities for archivists and researchers. However, the experience of scholars (particularly humanities scholars) and other users remain understudied. This article asks how and why researchers and general users are, or are not, using computational methods. This research is informed by an open-call survey, completed by 22 individuals, and semi-structured interviews with 33 professionals, including archivists, librarians, digital humanists, literary scholars, historians, and computer scientists. Drawing on these results, this article offers an analysis of user experiences of computational research methods applied to digitised and born-digital archives. With a focus on humanities and social science researchers, this article also discusses users who resist this kind of research, perhaps because they lack the skills necessary to engage with these materials at scale, or because they prefer to use more traditional methods, such as close reading and historical analysis. Here, we explore the uses of computational and more “traditional” research methodologies applied to digital records. We also make a series of recommendations to elevate users’ computational skills but also to improve the digital infrastructure to make archives more accessible and usable.",
+      "year": "2024",
+      "published_date": "2024-01-06",
+      "journal": "ACM Journal on Computing and Cultural Heritage",
+      "url": "https://www.semanticscholar.org/paper/6c0cd22e9f3dc78f4e13234e9f00b602c1ede15d",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 15,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3631125",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis survey"
+    },
+    {
+      "id": "gs_e49226a4ed",
+      "title": "From promise to practice: challenges and pitfalls in the evaluation of large language models for data extraction in evidence synthesis",
+      "abstract": "large language models (LLMs) has led to the exploration of their use in evidence synthesis   ,6–9 statistical analysis8 and writing plain language summaries.10 Of these tasks, data",
+      "authors": [
+        "G Gartlehner",
+        "L Kahwati"
+      ],
+      "year": 2025,
+      "journal": "BMJ Evidence-Based …",
+      "citations": 24,
+      "url": "https://ebm.bmj.com/content/30/6/385.abstract",
+      "doi": "",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities",
+      "authors": [
+        "Chuangtao Ma",
+        "Yongrui Chen",
+        "Tianxing Wu",
+        "Arijit Khan",
+        "Haofen Wang"
+      ],
+      "abstract": "Large language models (LLMs) have demonstrated remarkable performance on question-answering (QA) tasks because of their superior capabilities in natural language understanding and generation. However, LLM-based QA struggles with complex QA tasks due to poor reasoning capacity, outdated knowledge, and hallucinations. Several recent works synthesize LLMs and knowledge graphs (KGs) for QA to address the above challenges. In this survey, we propose a new structured taxonomy that categorizes the methodology of synthesizing LLMs and KGs for QA according to the categories of QA and the KG's role when integrating with LLMs. We systematically survey state-of-the-art methods in synthesizing LLMs and KGs for QA and compare and analyze these approaches in terms of strength, limitations, and KG requirements. We then align the approaches with QA and discuss how these approaches address the main challenges of different complex QA. Finally, we summarize the advancements, evaluation metrics, and benchmark datasets and highlight open challenges and opportunities.",
+      "year": "2025",
+      "published_date": "2025-05-26",
+      "journal": "Conference on Empirical Methods in Natural Language Processing",
+      "url": "https://www.semanticscholar.org/paper/b75edc38e07900ca1f5d77735fae656803ccd2c5",
+      "arxiv_id": "2505.20099",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 15,
+      "source": "Semantic Scholar",
+      "doi": "10.18653/v1/2025.emnlp-main.1249",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis large language models benchmark"
+    },
+    {
+      "title": "End-to-End Reliability of Automated Systems for Diagnostic Data Extraction: A Benchmark Study in Uro-Oncologic Evidence Synthesis",
+      "authors": [
+        "Matthias May",
+        "Julio Ruben Rodas Garzaro",
+        "Anton Kravchuk",
+        "Christian Gilfrich",
+        "Gregor Donabauer",
+        "Samy Ateia",
+        "Udo Kruschwitz",
+        "Maximilian Haas",
+        "Christoph Eckl",
+        "Maximilian Burger"
+      ],
+      "abstract": "Abstract\n                \n                  Background\n                  Automated systems, including large language models, are increasingly used to support data extraction in diagnostic systematic reviews. However, their reliability, safety, and repeatability under realistic extraction conditions remain insufficiently characterized.\n                \n                \n                  Objective\n                  To benchmark the end-to-end reliability of automated systems for extracting diagnostic accuracy data from published uro-oncologic studies, with a focus on correctness, abstention behavior in non-derivable scenarios, repeatability across repeated runs, and operational efficiency.\n                \n                \n                  Methods\n                  This prospective, protocol-driven benchmarking study evaluates a purpose-built extraction system (MedNuggetizer) and three contemporary large language models. Systems are applied to a fixed corpus of published full-text PDFs and publicly available supplementary material reporting on Uromonitor and urine cytology for bladder cancer detection. A locked, uniform extraction prompt is used across all systems. The primary endpoint is dataset-run correctness, defined as either exact extraction of the complete 2-by-2 diagnostic table or correct declaration of non-derivability. A non-inferiority design with an exact one-sided binomial test is employed. Secondary endpoints include hallucination behavior on pre-specified sentinel datasets, repeatability across repeated runs, fidelity of derived diagnostic metrics, and execution time compared with human extraction.\n                \n                \n                  Results\n                  The study is powered for a non-inferiority margin of 5 percentage points relative to a predefined correctness threshold of 95 percent. Twenty independent runs per system are performed, yielding 320 dataset-run observations. Primary inference is conducted at the run level, with consensus-level results reported as supportive robustness analyses.\n                \n                \n                  Conclusions\n                  This protocol establishes a conservative and reproducible framework for evaluating automated systems used in diagnostic evidence synthesis. By integrating correctness, abstention, repeatability, and safety into a single end-to-end evaluation, the study addresses key methodological gaps in the clinical assessment of generative AI tools.",
+      "year": "2025",
+      "published_date": "2025-12-31",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.64898/2025.12.24.25342959",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 1,
+      "source": "CrossRef",
+      "doi": "10.64898/2025.12.24.25342959",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "trial evidence synthesis benchmark"
+    },
+    {
+      "title": "Current applications and challenges in large language models for patient care: a systematic review",
+      "authors": [
+        "Felix Busch",
+        "Lena Hoffmann",
+        "Christopher Rueger",
+        "E. V. van Dijk",
+        "R. Kader",
+        "E. Ortiz-Prado",
+        "Marcus R. Makowski",
+        "Luca Saba",
+        "M. Hadamitzky",
+        "J. Kather",
+        "D. Truhn",
+        "Renato Cuocolo",
+        "L. Adams",
+        "K. Bressem"
+      ],
+      "abstract": "The introduction of large language models (LLMs) into clinical practice promises to improve patient education and empowerment, thereby personalizing medical care and broadening access to medical knowledge. Despite the popularity of LLMs, there is a significant gap in systematized information on their use in patient care. Therefore, this systematic review aims to synthesize current applications and limitations of LLMs in patient care. We systematically searched 5 databases for qualitative, quantitative, and mixed methods articles on LLMs in patient care published between 2022 and 2023. From 4349 initial records, 89 studies across 29 medical specialties were included. Quality assessment was performed using the Mixed Methods Appraisal Tool 2018. A data-driven convergent synthesis approach was applied for thematic syntheses of LLM applications and limitations using free line-by-line coding in Dedoose. We show that most studies investigate Generative Pre-trained Transformers (GPT)-3.5 (53.2%, n = 66 of 124 different LLMs examined) and GPT-4 (26.6%, n = 33/124) in answering medical questions, followed by patient information generation, including medical text summarization or translation, and clinical documentation. Our analysis delineates two primary domains of LLM limitations: design and output. Design limitations include 6 second-order and 12 third-order codes, such as lack of medical domain optimization, data transparency, and accessibility issues, while output limitations include 9 second-order and 32 third-order codes, for example, non-reproducibility, non-comprehensiveness, incorrectness, unsafety, and bias. This review systematically maps LLM applications and limitations in patient care, providing a foundational framework and taxonomy for their implementation and evaluation in healthcare settings. Large language models (LLMs) are computer programs that can generate human-like text. They promise to improve patient education and expand access to medical information by helping patients better understand health conditions and treatment options. However, more information is needed about how these tools are used in patient care and the challenges they present. In this review, researchers analyzed 89 studies from 2022 to 2023 covering 29 medical specialties. These studies explored ways LLMs are used: for example, answering patient questions, summarizing or translating medical texts, and supporting clinical paperwork. While these tools show potential, the review highlights limitations. Many LLMs are not optimized for medical use, lack transparency about data use, and can be difficult for some users to access. Additionally, the text they generate may sometimes be inaccurate, incomplete, or biased, raising safety concerns. Busch et al. discuss large language models in patient healthcare. This systematic review analyzes current literature for utilization of these models and limitations of use and implementation.",
+      "year": "2025",
+      "published_date": "2025-01-21",
+      "journal": "Communications Medicine",
+      "url": "https://www.semanticscholar.org/paper/7982d7df2980349ed9bd99db897594e94aa4b67b",
+      "arxiv_id": "",
+      "keywords": [
+        "Medicine"
+      ],
+      "citations": 168,
+      "source": "Semantic Scholar",
+      "doi": "10.1038/s43856-024-00717-2",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models systematic review"
+    },
+    {
+      "title": "Efficient Compressing and Tuning Methods for Large Language Models: A Systematic Literature Review",
+      "authors": [
+        "Gun Il Kim",
+        "Sunga Hwang",
+        "Beakcheol Jang"
+      ],
+      "abstract": "Efficient compression and tuning techniques have become indispensable in addressing the increasing computational and memory demands of large language models (LLMs). While these models have demonstrated exceptional performance across a wide range of natural language processing tasks, their growing size and resource requirements pose significant challenges to accessibility and sustainability. This survey systematically reviews state-of-the-art methods in model compression, including compression techniques such as knowledge distillation, low-rank approximation, parameter pruning, and quantization, as well as tuning techniques such as parameter-efficient fine-tuning and inference optimization. Compression techniques, though well-established in traditional deep learning, require updated methodologies tailored to the scale and dynamics of LLMs. Simultaneously, parameter-efficient fine-tuning, exemplified by techniques like Low-Rank Adaptation (LoRA) and query tuning, emerges as a promising solution for adapting models with minimal resource overhead. This study provides a detailed taxonomy of these methods, examining their practical applications, strengths, and limitations. Critical gaps are identified in scalability, and the integration of compression and tuning strategies, signaling the need for unified frameworks and hybrid approaches to maximize efficiency and performance. By addressing these challenges, this survey aims at guiding researchers toward sustainable, efficient, and accessible LLM development, ensuring their broader applicability across diverse domains while mitigating resource constraints.",
+      "year": "2025",
+      "published_date": "2025-04-08",
+      "journal": "ACM Computing Surveys",
+      "url": "https://www.semanticscholar.org/paper/b073de891287423915b1709c4cc90f40756c38b9",
+      "arxiv_id": "",
+      "keywords": [
+        "Computer Science"
+      ],
+      "citations": 16,
+      "source": "Semantic Scholar",
+      "doi": "10.1145/3728636",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "digital humanities large language models literature review"
+    },
+    {
+      "title": "Risk to Resilience: LLM-Driven Agentic AI for Natural Hazard Assessment and Decision Support",
+      "authors": [
+        "Md Adilur Rahim"
+      ],
+      "abstract": "Recent advances in large language models (LLMs) are transforming how geoscientists interact with data, models, and decision-support systems. Beyond literature web search and text processing, LLMs now enable new forms of knowledge discovery, real-time analysis, and human–AI collaboration in natural hazards and climate-risk research. At the same time, the increasing availability of geospatial data, remote sensing images, and model outputs creates both opportunities and challenges for integrating text-as-data approaches into operational geoscientific workflows.We present a set of applied case studies demonstrating how LLM-driven assistant agents can be embedded into geoscientific systems to support flood risk assessment, hazard communication, and mitigation planning and decision. The demonstrated system integrates LLM agents with hydrodynamic models (HEC-RAS), geospatial flood and exposure datasets, a building-scale digital twin, and policy and planning documents such as the Louisiana State Hazard Mitigation Plan. Through a conversational interface, users can query flood risks, building exposure, mitigation scenarios, etc., while the LLM agent orchestrates model execution, data retrieval, and insights synthesis.These case studies illustrate how LLMs can translate heterogeneous data sources into interpretable, policy-relevant information for practitioners and communities. In addition to demonstrating capabilities, we discuss methodological challenges related to reproducibility, transparency, and bias when deploying LLMs in hazard and hydrology applications, including issues of data provenance, prompt sensitivity, and model-driven interpretation. By sharing practical lessons learned from demonstrations in coastal Louisiana, this contribution highlights both the promise and limitations of using LLM agents as geoscientific assistants for real-time disaster monitoring, risk assessment, and decision support.",
+      "year": "2026",
+      "published_date": "2026-3-14",
+      "journal": "CrossRef",
+      "url": "https://doi.org/10.5194/egusphere-egu26-22037",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "CrossRef",
+      "doi": "10.5194/egusphere-egu26-22037",
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "id": "gs_48c35812bf",
+      "title": "A large language model framework for knowledge graph construction of randomized controlled trials for evidence synthesis and querying",
+      "abstract": "evidence-based medical analysis and structured biomedical reasoning and to serve the  broader biomedical  rule-based methods to Large Language Models (LLMs) and knowledge",
+      "authors": [
+        "R Kaur",
+        "S Singh"
+      ],
+      "year": 2026,
+      "journal": "IISE Transactions on Healthcare Systems …",
+      "citations": 0,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/24725579.2026.2619123",
+      "doi": "10.1080/24725579.2026.2619123",
+      "source": "Google Scholar",
+      "language": "en",
+      "keywords": [],
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    }
+  ],
+  "timestamp": "20260423_142645"
+}

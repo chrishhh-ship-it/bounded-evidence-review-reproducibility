@@ -1,0 +1,51 @@
+{
+  "qid": "EN25",
+  "condition": "m1_vanilla",
+  "query": "What computational approaches support long-term digital preservation and findability of scholarly cultural heritage materials?",
+  "domain": "Digital Humanities",
+  "category": "preservation",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 5,
+  "eq_titles": [
+    "Digital humanities",
+    "Metadata",
+    "Archaeology",
+    "Ethnomusicology",
+    "Folklore studies"
+  ],
+  "top_papers": [
+    {
+      "title": "Digital humanities",
+      "abstract": "Digital humanities (DH) is an area of scholarly activity at the intersection of computing or digital technologies and the disciplines of the humanities. It includes the systematic use of digital resources in the humanities, as well as the analysis of their application. DH can be defined as new ways of doing scholarship that involve collaborative, transdisciplinary, and computationally engaged research, teaching, and publishing. It brings digital tools and methods to the study of the humanities w"
+    },
+    {
+      "title": "Metadata",
+      "abstract": "Metadata (or metainformation) is data (or information) that defines and describes the characteristics of other data. It often helps to describe, explain, locate, or otherwise make data easier to retrieve, use, or manage. For example, the title, author, and publication date of a book are metadata about the book. But, while a data asset is finite, its metadata is infinite."
+    },
+    {
+      "title": "Archaeology",
+      "abstract": "Archaeology or archeology is the study of human activity through the recovery and analysis of material culture. The archaeological record consists of artifacts, architecture, biofacts or ecofacts, sites, and cultural landscapes. Archaeology can be considered both a social science and a branch of the humanities. It is usually considered an independent academic discipline, but may also be classified as part of anthropology (in North America – the four-field approach), history or geography."
+    },
+    {
+      "title": "Ethnomusicology",
+      "abstract": "Ethnomusicology is the multidisciplinary study of music in its cultural context. The discipline investigates social, cognitive, biological, comparative, and other dimensions. Ethnomusicologists study music as a reflection of culture and investigate the act of music-making through various immersive, observational, and analytical approaches. This discipline emerged from comparative musicology, initially focusing on non-Western music, but later expanded to embrace the study of all different music."
+    },
+    {
+      "title": "Folklore studies",
+      "abstract": "Folklore studies (also known as folkloristics and, in the United Kingdom, as tradition studies or folk life studies) is the interdisciplinary field within cultural anthropology that examines the creation, performance, and preservation of folklore. \nThe term folkloristics entered academic discourse in nineteenth-century Europe and, along with its English-language counterparts, gained currency in the 1950s as scholars differentiated the study of traditional culture from the artifacts themselves. I"
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Digital_humanities",
+    "wiki:Metadata",
+    "wiki:Archaeology",
+    "wiki:Ethnomusicology",
+    "wiki:Folklore_studies"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN25_m1_vanilla_wiki_20260424_185725.md"
+}

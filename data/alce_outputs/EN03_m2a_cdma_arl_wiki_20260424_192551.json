@@ -1,0 +1,42 @@
+{
+  "qid": "EN03",
+  "condition": "m2a_cdma_arl",
+  "query": "How should citation precision and orphan citation rate be measured in AI-generated scientific reviews?",
+  "domain": "Multi-Agent Information Services",
+  "category": "evaluation",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "kimi",
+  "reviewer_model": "moonshot-v1-32k",
+  "eq_size": 2,
+  "eq_titles": [
+    "Industrial Revolution",
+    "Domestic policy of the second Trump administration"
+  ],
+  "top_papers": [
+    {
+      "title": "Industrial Revolution",
+      "abstract": "The Industrial Revolution, sometimes called the First Industrial Revolution in contrast to the subsequent Second Industrial Revolution, was a transitional period of the global economy toward more widespread, efficient and stable manufacturing processes, succeeding the Second Agricultural Revolution. Beginning in Great Britain around 1760, the Industrial Revolution had spread to continental Europe and the United States by about 1840. Economic historians agree that the onset of the Industrial Revo"
+    },
+    {
+      "title": "Domestic policy of the second Trump administration",
+      "abstract": "This article encompasses the domestic policy of Donald Trump as the 47th president of the United States.\nProspective policies for Trump's second presidency were proposed in Agenda 47, a collection of his formal policy plans."
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Industrial_Revolution",
+    "wiki:Domestic_policy_of_the_second_Trump_administration"
+  ],
+  "review_rounds_completed": 1,
+  "review_history": [
+    {
+      "round": 1,
+      "review": {
+        "orphaned_keys": [],
+        "correction_directives": [],
+        "accept": true
+      }
+    }
+  ],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN03_m2a_cdma_arl_wiki_20260424_192551.md"
+}

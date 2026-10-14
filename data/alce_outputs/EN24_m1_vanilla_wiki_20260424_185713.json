@@ -1,0 +1,27 @@
+{
+  "qid": "EN24",
+  "condition": "m1_vanilla",
+  "query": "How do crowdsourced annotation platforms address reliability and inter-annotator agreement in humanities text labelling tasks?",
+  "domain": "Digital Humanities",
+  "category": "annotation",
+  "writer_provider": "deepseek",
+  "writer_model": "deepseek-chat",
+  "reviewer_provider": "",
+  "reviewer_model": "",
+  "eq_size": 1,
+  "eq_titles": [
+    "Wikipedia: How do crowdsourced annotation platforms"
+  ],
+  "top_papers": [
+    {
+      "title": "Wikipedia: How do crowdsourced annotation platforms",
+      "abstract": ""
+    }
+  ],
+  "all_retrieved_ids": [
+    "wiki:Wikipedia:_How_do_crowdsourced_annotation_platforms"
+  ],
+  "review_rounds_completed": 0,
+  "review_history": [],
+  "output_markdown": "<USER_ROOT>\\文献\\研究情报助手\\data\\alce_outputs\\EN24_m1_vanilla_wiki_20260424_185713.md"
+}

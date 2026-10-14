@@ -1,0 +1,242 @@
+{
+  "query_id": "EN12",
+  "query": "What factors determine user trust in AI-generated literature reviews and how can structural auditability address them?",
+  "domain_id": "multi_agent_information_services",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "n_candidates": 15,
+  "top_papers": [
+    {
+      "title": "Eight problems with literature reviews and how to fix them.",
+      "authors": [
+        "Neal R Haddaway",
+        "Alison Bethel",
+        "Lynn V Dicks",
+        "Julia Koricheva",
+        "Biljana Macura",
+        "Gillian Petrokofsky",
+        "Andrew S Pullin",
+        "Sini Savilaakso",
+        "Gavin B Stewart"
+      ],
+      "abstract": "Traditional approaches to reviewing literature may be susceptible to bias and result in incorrect decisions. This is of particular concern when reviews address policy- and practice-relevant questions. Systematic reviews have been introduced as a more rigorous approach to synthesizing evidence across studies; they rely on a suite of evidence-based methods aimed at maximizing rigour and minimizing susceptibility to bias. Despite the increasing popularity of systematic reviews in the environmental field, evidence synthesis methods continue to be poorly applied in practice, resulting in the publication of syntheses that are highly susceptible to bias. Recognizing the constraints that researchers can sometimes feel when attempting to plan, conduct and publish rigorous and comprehensive evidence syntheses, we aim here to identify major pitfalls in the conduct and reporting of systematic reviews, making use of recent examples from across the field. Adopting a 'critical friend' role in supporting would-be systematic reviews and avoiding individual responses to police use of the 'systematic review' label, we go on to identify methodological solutions to mitigate these pitfalls. We then highlight existing support available to avoid these issues and call on the entire community, including systematic review specialists, to work towards better evidence syntheses for better evidence and better decisions.",
+      "year": "2020",
+      "published_date": "2020",
+      "journal": "Nature ecology & evolution",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33046871/",
+      "arxiv_id": "",
+      "keywords": [
+        "Environment",
+        "Policy",
+        "Research Design",
+        "Systematic Reviews as Topic"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1038/s41559-020-01295-x",
+      "domain_id": "climate_policy_research",
+      "domain_label": "Climate Policy Research",
+      "retrieved_by_query": "climate policy literature synthesis"
+    },
+    {
+      "title": "Enhancing user experience and trust in advanced LLM-based conversational agents",
+      "authors": [
+        "Yuanyuan Xu",
+        "Weiting Gao",
+        "Yining Wang",
+        "Xinyang Shan",
+        "Yin‐Shan Lin"
+      ],
+      "abstract": "This study explores the enhancement of user experience (UX) and trust in advanced Large Language Model (LLM)-based conversational agents such as ChatGPT. The research involves a controlled experiment comparing participants using an LLM interface with those using a traditional messaging app with a human consultant. The results indicate that LLM-based agents offer higher satisfaction and lower cognitive load, demonstrating the potential for LLMs to revolutionize various applications from customer service to healthcare consultancy and shopping assistance. Despite these positive findings, the study also highlights significant concerns regarding transparency and data security. Participants expressed a need for clearer understanding of how LLMs process information and make decisions. The perceived opacity of these processes can hinder user trust, especially in sensitive applications such as healthcare. Additionally, robust data protection measures are crucial to ensure user privacy and foster trust in these systems. To address these issues, future research and development should focus on enhancing the transparency of LLM operations and strengthening data security protocols. Providing users with clear explanations of how their data is used and how decisions are made can build greater trust. Moreover, specialized applications may require tailored solutions to meet specific user expectations and regulatory requirements. In conclusion, while LLM-based conversational agents have demonstrated substantial advantages in improving user experience, addressing transparency and security concerns is essential for their broader acceptance and effective deployment. By focusing on these areas, developers can create more trustworthy and user-friendly AI systems, paving the way for their integration into diverse fields and everyday use.",
+      "year": "2024",
+      "published_date": "2024-08-17",
+      "journal": "Computing and artificial intelligence.",
+      "url": "https://doi.org/10.59400/cai.v2i2.1467",
+      "arxiv_id": "",
+      "keywords": [
+        "Human–computer interaction",
+        "Computer science",
+        "Dialog system",
+        "Psychology",
+        "Internet privacy",
+        "World Wide Web",
+        "Dialog box"
+      ],
+      "citations": 23,
+      "source": "OpenAlex",
+      "doi": "10.59400/cai.v2i2.1467",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature?",
+      "authors": [
+        "Qiao Jin",
+        "Robert Leaman",
+        "Zhiyong Lu"
+      ],
+      "abstract": "ChatGPT, a general purpose chatbot developed by OpenAI, has been widely reported to have the potential to revolutionize how people interact with information online.1 Like other large language models (LLMs), ChatGPT has been trained on a large text corpus to predict probable words from the surrounding context. ChatGPT, however, has received substantial popular attention for generating human-like conversational responses, and new developments are occurring rapidly. The initial release in November 2022 used the model generative pretrained transformers (GPT)-3.5, and a version based on GPT-4.0 was released in March 2023. Recent work has discussed applications of ChatGPT for medical education and clinical decision support.2–4 However, health care professionals should be aware of the drawbacks and limitations—and potential capabilities—of using ChatGPT and similar LLMs to interact with medical knowledge. A significant issue with ChatGPT is its tendency to generate confident-sounding but fabricated responses, commonly known as “hallucination.” Although it can generate plausible-sounding text, ChatGPT does not consult any source of truth.1 Occasional incorrect or biased responses are, therefore, inevitable, and ChatGPT cannot faithfully cite sources to allow their evidence to be verified. For example, we prompted GPT-3.5–based ChatGPT to list possible mechanisms of AKI in patients with coronavirus disease 2019 (COVID-19), with references. ChatGPT produced a list of plausible mechanisms, each of which has been investigated in the literature (Figure 1A) but supported its claims with fabricated titles and irrelevant PubMed identifiers. ChatGPT using the GPT-4 model acknowledges that it cannot produce references and refuses to cite articles in the answer (Figure 1C)—a significant improvement—but leaves the difficult task of verification to the user. Consulting ChatGPT directly for medical information carries a significant risk of drawing incorrect conclusions, particularly for patients.Figure 1.: Seeking information related to COVID-19 from ChatGPT. (A) ChatGPT-3.5 fabricates the references for its claims. (B) When prompted with the title and abstract of relevant articles, ChatGPT-3.5 can summarize the aspects requested, including some valid in-line references. However, many details are inaccurate: Related mechanisms are not correctly grouped, contradicting evidence is not mentioned, some citations are missing, and a listed mechanism is not specific. Note that the complete response mentioned only three of five articles. (C) ChatGPT-4 acknowledges its drawback and refuses to cite source articles in the response, which makes the verification more difficult. (D) ChatGPT-4 with the web browsing plug-in summarizes information from the search engine, but it only finds two relevant articles and fails to systematically answer the question. Responses were collected from GPT-3.5–based ChatGPT on March 14, 2023, and GPT-4–based ChatGPT on May 15, 2023.However, LLMs such as ChatGPT may be better suited for text summarization than directly answering medical questions. Pilot studies have shown that LLMs can be effective at clinical reasoning, reading comprehension, and generating fluent summaries with high fidelity.5–7 Augmenting LLMs such as ChatGPT with a traditional literature search engine may therefore help address hallucination and enable the system to provide the user with comprehensive high-level summaries. For example, the new Bing provides ChatGPT-like interactive agents to help users create effective queries, identify relevant results, and summarize their content. In addition, ChatGPT recently introduced a plug-in that allows the model to search the web when generating responses (currently in limited beta test). Incorporating such features into medical literature search has the potential to streamline gathering and synthesizing evidence from the literature, improving patient care. Unfortunately, summaries generated by current LLMs such as ChatGPT also contain inaccuracies,8 in addition to practical issues such as limitations on the length of input text. To illustrate these problems, we prompted ChatGPT (model 3.5) to identify possible mechanisms of AKI in patients with COVID-19, using five manually chosen articles on the pathophysiology of AKI in COVID-19. Although ChatGPT’s summary (Figure 1B) generally reflects the mechanisms of AKI discussed by the articles, the response lists symptoms from only three of the five input studies and misses some important mechanisms mentioned repeatedly, such as hypoxia. Moreover, some citations are missing, contradicting evidence is not mentioned, similar mechanisms are not correctly grouped, and one of the mechanisms listed is less specific than the source. We also prompted ChatGPT (model 4), with the web browsing plug-in, to answer the same question (Figure 1D). In this case, ChatGPT provides summaries with relevant citations. However, the response is based on only two articles, without synthesizing the evidence, and thus fails to answer the question systematically. Generally speaking, retrieval-augmented LLMs reduces users' control over sources, leading to results that may not align with the user's criteria for the best information (e.g., most up-to-date). Summaries generated by LLMs can miss important ideas discussed by the input sources or contain assertions unsupported by the input sources. Because imprecise or incomplete information can lead to incorrect clinical decisions and patient harm, content generated by current LLMs, including ChatGPT, must be verified for accuracy and completeness before use. Further research on the faithfulness of LLM-generated summaries and automatic verification tools is also warranted to realize the full potential of LLMs to streamline evidence gathering and synthesis from the medical literature. Despite these limitations, the remarkable progress in AI and the rapid advancements in LLMs may have profound implications for medicine, from assisting medical education,2 to accelerating literature screening for systematic reviews,7,9 and supporting physicians in various clinical settings as generalist medical AI,4 among other possibilities. In addition to augmenting LLMs with retrieval results from a search engine, LLMs can also be taught to use biomedical domain-specific tools, such as the Web APIs of specialized databases, to provide improved access to biomedical information.10 In summary, although ChatGPT is not currently suitable for use as a literature search engine on its own, we envision that the proposed retrieve, summarize, and verify paradigm could greatly benefit biomedical information seeking. This approach leverages the impressive capability of LLMs to generate high-level summaries while minimizing the risk of directly using false or fabricated information by combining LLMs and search engines. It is important to note that although LLM technology is progressing rapidly, it has not yet matured enough for clinical use. Therefore, users must retain full responsibility for verifying the accuracy and reliability of its output.",
+      "year": "2023",
+      "published_date": "2023-05-31",
+      "journal": "Journal of the American Society of Nephrology",
+      "url": "https://doi.org/10.1681/asn.0000000000000166",
+      "arxiv_id": "",
+      "keywords": [
+        "Affect (linguistics)",
+        "Medicine",
+        "Psychology",
+        "Intensive care medicine",
+        "Computer science",
+        "Communication"
+      ],
+      "citations": 67,
+      "source": "OpenAlex",
+      "doi": "10.1681/asn.0000000000000166",
+      "open_access": false,
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "biomedical evidence synthesis AND large language models"
+    },
+    {
+      "title": "The Ethics of AI-Generated Literature: Originality, Authorship, and Literary Value in the Age of Large Language Models",
+      "authors": [
+        "Lima Antony"
+      ],
+      "abstract": "The advent of sophisticated large language models capable of generating poetry and fiction has fundamentally challenged traditional conceptions of authorship, originality, and literary value. This paper examines whether AI-generated literature can be considered original creative work and analyzes the implications for authorship in literary theory and practice. Through an examination of recent empirical studies, legal frameworks, and theoretical foundations from Roland Barthes's \"Death of the Author\" to contemporary digital humanities scholarship, this analysis reveals that AI-generated literature exists in a liminal space between human creativity and algorithmic reproduction. While AI systems can produce texts that are indistinguishable from human-written works to non-expert readers, questions of originality and authorship remain deeply problematic. The paper argues that AI-generated literature challenges but does not necessarily invalidate traditional notions of authorship, instead requiring new frameworks for understanding creative collaboration between humans and machines. The implications extend beyond literary theory to questions of intellectual property, educational integrity, and the fundamental nature of creative expression in the digital age.",
+      "year": "2025",
+      "published_date": "2025-10-23",
+      "journal": "International Journal of Arts and Liberal Studies (IJALS)",
+      "url": "https://www.semanticscholar.org/paper/f16d8dd38cf6c806feba2a51cebc3bf472d2c3e7",
+      "arxiv_id": "",
+      "keywords": [],
+      "citations": 0,
+      "source": "Semantic Scholar",
+      "doi": "10.63090/ijals/3108.1673.0005",
+      "domain_id": "digital_humanities",
+      "domain_label": "Digital Humanities",
+      "retrieved_by_query": "LLM digital archives analysis literature review"
+    },
+    {
+      "title": "Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages.",
+      "authors": [
+        "Qusai Khraisha",
+        "Sophie Put",
+        "Johanna Kappenberg",
+        "Azza Warraitch",
+        "Kristin Hadfield"
+      ],
+      "abstract": "Systematic reviews are vital for guiding practice, research and policy, although they are often slow and labour-intensive. Large language models (LLMs) could speed up and automate systematic reviews, but their performance in such tasks has yet to be comprehensively evaluated against humans, and no study has tested Generative Pre-Trained Transformer (GPT)-4, the biggest LLM so far. This pre-registered study uses a \"human-out-of-the-loop\" approach to evaluate GPT-4's capability in title/abstract screening, full-text review and data extraction across various literature types and languages. Although GPT-4 had accuracy on par with human performance in some tasks, results were skewed by chance agreement and dataset imbalance. Adjusting for these caused performance scores to drop across all stages: for data extraction, performance was moderate, and for screening, it ranged from none in highly balanced literature datasets (~1:1) to moderate in those datasets where the ratio of inclusion to exclusion in studies was imbalanced (~1:3). When screening full-text literature using highly reliable prompts, GPT-4's performance was more robust, reaching \"human-like\" levels. Although our findings indicate that, currently, substantial caution should be exercised if LLMs are being used to conduct systematic reviews, they also offer preliminary evidence that, for certain review tasks delivered under specific conditions, LLMs can rival human performance.",
+      "year": "2024",
+      "published_date": "2024",
+      "journal": "Research synthesis methods",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38484744/",
+      "arxiv_id": "",
+      "keywords": [
+        "Algorithms",
+        "Information Storage and Retrieval",
+        "Reproducibility of Results",
+        "Systematic Reviews as Topic",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "citations": 0,
+      "source": "PubMed",
+      "doi": "10.1002/jrsm.1715",
+      "domain_id": "biomedical_evidence_synthesis",
+      "domain_label": "Biomedical Evidence Synthesis",
+      "retrieved_by_query": "systematic review automation reviewer agent literature review"
+    },
+    {
+      "title": "What factors contribute to the acceptance of artificial intelligence? A systematic review",
+      "authors": [
+        "Sage Kelly",
+        "Sherrie-Anne Kaye",
+        "Óscar Oviedo-Trespalacios"
+      ],
+      "abstract": "Artificial Intelligence (AI) agents are predicted to infiltrate most industries within the next decade, creating a personal, industrial, and social shift towards the new technology. As a result, there has been a surge of interest and research towards user acceptance of AI technology in recent years. However, the existing research appears dispersed and lacks systematic synthesis, limiting our understanding of user acceptance of AI technologies. To address this gap in the literature, we conducted a systematic review following the Preferred Reporting Items for Systematic Reviews and meta-Analysis guidelines using five databases: EBSCO host, Embase, Inspec (Engineering Village host), Scopus, and Web of Science. Papers were required to focus on both user acceptance and AI technology. Acceptance was defined as the behavioural intention or willingness to use, buy, or try a good or service. A total of 7912 articles were identified in the database search. Sixty articles were included in the review. Most studies (n = 31) did not define AI in their papers, and 38 studies did not define AI for their participants. The extended Technology Acceptance Model (TAM) was the most frequently used theory to assess user acceptance of AI technologies. Perceived usefulness, performance expectancy, attitudes, trust, and effort expectancy significantly and positively predicted behavioural intention, willingness, and use behaviour of AI across multiple industries. However, in some cultural scenarios, it appears that the need for human contact cannot be replicated or replaced by AI, no matter the perceived usefulness or perceived ease of use. Given that most of the methodological approaches present in the literature have relied on self-reported data, further research using naturalistic methods is needed to validate the theoretical model/s that best predict the adoption of AI technologies.",
+      "year": "2022",
+      "published_date": "2022-12-14",
+      "journal": "Telematics and Informatics",
+      "url": "https://doi.org/10.1016/j.tele.2022.101925",
+      "arxiv_id": "",
+      "keywords": [
+        "Expectancy theory",
+        "Scopus",
+        "Systematic review",
+        "Technology acceptance model",
+        "Computer science",
+        "Psychology",
+        "Usability",
+        "Knowledge management"
+      ],
+      "citations": 811,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.tele.2022.101925",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "A Framework for Critically Assessing ChatGPT and Other Large Language Artificial Intelligence Model Applications in Health Care",
+      "authors": [
+        "Jonathan Ilicki"
+      ],
+      "abstract": "Large language models (LLMs) are pretrained artificial intelligence (AI) algorithms that can interpret text and generate human-like text in real time.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar Recent studies on LLMs (eg, PaLM and GPT-3.5) have found near-human performance on medical examinations and many possible future applications have been discussed, such as drafting discharge summaries, answering consultations, or generating lists of differential diagnosis.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar, 2Liévin V, Egeberg Hother C, Winther O. Can large language models reason about medical questions? Preprint. Posted online July 17, 2022. arXiv. 2207.08143. https://doi.org/10.48550/arXiv.2207.08143Google Scholar, 3Patel S.B. Lam K. ChatGPT: the future of discharge summaries?.Lancet Digit Health. 2023; 5: e107-e108Abstract Full Text Full Text PDF PubMed Scopus (84) Google Scholar, 4Hirosawa T. Harada Y. Yokose M. Sakamoto T. Kawamura R. Shimizu T. Diagnostic accuracy of differential-diagnosis lists generated by generative pretrained transformer 3 chatbot for clinical vignettes with common chief complaints: a pilot Study.Int J Environ Res Public Health. 2023; 20: 3378Crossref PubMed Scopus (20) Google Scholar, 5Gilson A. Safranek C.W. Huang T. et al.How does ChatGPT perform on the United States medical licensing examination? The implications of large language models for medical education and knowledge assessment.JMIR Med Educ. 2023; 9e45312Crossref PubMed Scopus (128) Google Scholar, 6Kung T.H. Cheatham M. Medenilla A. et al.Performance of ChatGPT on USMLE: potential for AI-assisted medical education using large language models.PLOS Digit Health. 2023; 2e0000198Crossref PubMed Google Scholar, 7Howard A. Hope W. Gerada A. ChatGPT and antimicrobial advice: the end of the consulting infection doctor?.Lancet Infect Dis. 2023; 23: 405-406Abstract Full Text Full Text PDF PubMed Scopus (24) Google Scholar Moreover, ChatGPT can already automatically generate empathetic responses to patients and seemingly genuine scientific abstracts.8Else H. Abstracts written by ChatGPT fool scientists.Nature. 2023; 613: 423Crossref PubMed Scopus (115) Google Scholar,9Goode J. A mental health tech company ran an AI experiment on real users. Nothing’s stopping apps from conducting more. NBC News.https://www.nbcnews.com/tech/internet/chatgpt-ai-experiment-mental-health-tech-app-koko-rcna65110Date accessed: January 19, 2023Google Scholar The number of possible applications is likely to continue to increase, especially with large public investments in health care AI and as LLMs' capabilities continue to improve.10Health Secretary announces £250 million investment in artificial intelligence.Gov.UK.https://www.gov.uk/government/news/health-secretary-announces-250-million-investment-in-artificial-intelligenceDate accessed: January 19, 2023Google Scholar,11Rosemain M. Rose M. France to spend $1.8 billion on AI to compete with U.S., China. Reuters Techonology News.https://www.reuters.com/article/us-france-tech-idUSKBN1H51XPDate accessed: January 19, 2023Google Scholar However, it can be challenging for clinicians with limited technical understanding to assess the feasibility of such applications.12Chen M. Zhang B. Cai Z. et al.Acceptance of clinical artificial intelligence among physicians and medical students: a systematic review with cross-sectional survey.Front Med (Lausanne). 2022; 9: 990604Crossref PubMed Scopus (12) Google Scholar This could result in focusing on unrealistic applications or neglecting promising ones. Frameworks have been developed to assist in assessing AI applications for specific domains, eg, for radiology.13Omoumi P. Ducarouge A. Tournier A. et al.To buy or not to buy-evaluating commercial AI solutions in radiology (the ECLAIR guidelines).Eur Radiol. 2021; 31: 3786-3796Crossref PubMed Scopus (54) Google Scholar However, no such framework exists for LLM applications. Therefore, this article posits a simple framework for nontechnical health care professionals for assessing the feasibility of potential LLM applications in health care. The framework consists of the following 4 steps:1.Determine the main source of health care data that the LLM uses2.Determine the intended recipient of the LLM’s output3.Combine the answers from (1) and (2) to identify a category4.Assess fundamental limitations for that category Determine whether the health care data that the LLM will use to reply to prompts comes from patients (eg, health data or medical records), health care providers (eg, information on procedures, medications, research or organizational information, such as opening hours), or payers (eg, information on reimbursement of procedures). Determine whether the main reader of the output of LLM is a patient, provider, or payer. Combine the answers from steps 1 and 2 in the LLM feasibility framework (Table 1) to identify which category the solution belongs to.Table 1LLM Feasibility Framework: Matrix for Determining Category of LLM ApplicationMain recipient of outputMain source of health care dataUsing patient data…Using provider data…Using payer data…… to highly automate summaries or explanations of…PatientsAdapting output (see examples) to, eg., individual patients’ health literacy, medical history, and current medicationsCategory 1Example: Patient’s own medical records (eg, discharge notes, laboratory results, investigations)Category 2Example: Provider information (eg, medications, treatments, preoperative processes)Category 3Example: Payer information (eg, coverage, explanation of health care system, available providers)ProvidersAdapting output (see examples) to, eg., providers’ specific clinical context, resources, or inquiryCategory 2Example: Pertinent patient information (eg, from medical records, laboratory results)Category 2Example: Relevant medical information (eg, merging local or international guidelines, research)Category 3Example: Relevant payer information (eg, reimbursement, quality measures, or coverage)PayersAdapting output (see examples) to, eg, payers’ specific rules on coverage, reimbursement, or quality measuresCategory 2Example: Relevant population data (eg, aggregate statistics from free text medical records)Category 3Example: Relevant provider information (eg, quality, efficiency or cost of providers/pathways)Category 3Example: Improving existing internal knowledge management systemsLLM, large language model. Open table in a new tab LLM, large language model. Table 2 describes categories and corresponding fundamental limitations, which can be used to assess the feasibility of a specific application. LLMs can be used in many different ways and are developing rapidly. However, some limitations are intrinsic to the AI model itself, which can be seen in the literature to date, and these are unlikely to change despite the rapid development. In brief, these limitations are as follows:i.Lack of understanding: LLMs lack a human-like understanding of the real-world phenomena that words describe and only process their semantic representation. This lack of understanding is highlighted by unpredictable illogical errors in reasoning in recent LLM studies.2Liévin V, Egeberg Hother C, Winther O. Can large language models reason about medical questions? Preprint. Posted online July 17, 2022. arXiv. 2207.08143. https://doi.org/10.48550/arXiv.2207.08143Google Scholar,5Gilson A. Safranek C.W. Huang T. et al.How does ChatGPT perform on the United States medical licensing examination? The implications of large language models for medical education and knowledge assessment.JMIR Med Educ. 2023; 9e45312Crossref PubMed Scopus (128) Google Scholar,14Rao A, Kim J, Kamineni M, Pang M, Lie W, Succi MD. Evaluating ChatGPT as an adjunct for radiologic decision-making. Preprint. Posted online February 7, 2023. medRxiv. 23285399. https://doi.org/10.1101/2023.02.02.23285399Google Scholar This lack of real-world understanding limits the extent to which LLMs can act autonomously without oversight and creates the need of control mechanisms to ensure the appropriateness of the output.ii.Lack of predictability: LLMs run the risk of creating “hallucinations” (text responses that are either nonsensical or unfaithful to the content they should use) and errors that are difficult to predict, which can entail patient risks.1Singhal K, Azizi S, Tu T, et al. Large language models encode clinical knowledge. Preprint. Posted online December 26, 2022. arXiv. 2212.13138. https://doi.org/10.48550/arXiv.2212.13138Google Scholar,4Hirosawa T. Harada Y. Yokose M. Sakamoto T. Kawamura R. Shimizu T. Diagnostic accuracy of differential-diagnosis lists generated by generative pretrained transformer 3 chatbot for clinical vignettes with common chief complaints: a pilot Study.Int J Environ Res Public Health. 2023; 20: 3378Crossref PubMed Scopus (20) Google Scholar,15Ji Z, Lee N, Frieske R, et al. Survey of hallucination in natural language generation. Preprint. Posted online February 8, 2022. arXiv. 2202.03629. https://doi.org/10.1145/3571730Google Scholar Manufacturers must ensure that a medical LLM software performs in a safe and predictable manner according to relevant legislation (eg, the Medical Device Regulation in Europe). Guaranteeing that a LLM does not create any hallucination is challenging. This risk can be partially mitigated by, for example, letting a clinician assess the output before it is acted on (to identify errors) or by forcing the LLM to reference external sources for the statements in its output (to allow comparisons with the original data that the output is based on).iii.Lack of empathy: Even if LLMs can generate seemingly empathetic responses, they cannot experience emotions or empathize with a patient when providing emotional support.16Montemayor C. Halpern J. Fairweather A. In principle obstacles for empathic AI: why we can’t replace human empathy in healthcare.AI Soc. 2022; 37: 1353-1359Crossref PubMed Scopus (8) Google Scholar Moreover, people may not perceive empathy as genuine when coming from an algorithm.17Morris R.R. Kouddous K. Kshirsagar R. Schueller S.M. Towards an artificially empathic conversational agent for mental health applications: system design and user perceptions.J Med Internet Res. 2018; 20: e10148Crossref PubMed Scopus (118) Google Scholar This may change over time but is currently a limitation in, for example, using unsupervised LLM output to provide patients with sensitive information.Table 2LLM Feasibility Framework: Limitations relevant for each categoryCategoryExample of healthcare data usedFundamental limitations relevant for categoryLack of understandingLack of predictabilityLack of empathy1: Output without clinical supervision-Patient health data: e.g. medical records, blood results, patient reported outcome measures, data from wearables✓✓✓2: Supervised output which can impact clinical decisions-Patient health data (as above)-Generic provider data: information about e.g. medications, treatments, procedures, research-Specific provider data: information about e.g. clinicians, opening hours, services provided✓✓3: Administrative output-Provider information (generic/specific as above)-Payer data: administrative data, process measures, reimbursement, costs✓LLM, Large language model. Open table in a new tab LLM, Large language model. The framework could be applied as follows: Imagine a LLM application that aims to improve patient adherence by adapting generic medication information (provider data) to patients (patient recipient) and different levels of health literacy. The combination of data and recipient places the application in category 2, and therefore it would be important to understand how the application addresses the lack of understanding and predictability by LLMs. This framework has several limitations. First, it is not exhaustive but is designed as a simple heuristic for an initial understanding of what fundamental limitations a LLM application may have. This framework does not replace a comprehensive assessment, which is needed before clinical implementation. Such an assessment will include several important aspects, such as interpretability of models (to what extent one can understand why they produce a certain result), which LLM is used, if the training data are sufficiently representative and of high quality, and whether the model has been fine-tuned to medical data. Second, it can only be used to identify potentially impractical solutions but not to confirm the feasibility of solutions. Last, despite incorporating limitations that seem fundamental, these may change as LLMs and social norms develop. Notwithstanding the abovementioned limitations, this framework aims to aid nontechnical health care professionals in critically assessing emerging LLM applications and ensuring their development into clinically safe and useful tools. LLMs have great potential to improve many parts of health care, but more research is needed to understand their performance, safety, and effect on health care systems. Finally, when addressing novel emerging technologies, keep Amara’s law in mind: “We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.”18Amara R. 1925-2017, American futurologist.in: Ratcliffe S. Oxford Essential Quotations.5th ed. Oxford University Press, 2016Google Scholar",
+      "year": "2023",
+      "published_date": "2023-05-18",
+      "journal": "Mayo Clinic Proceedings Digital Health",
+      "url": "https://doi.org/10.1016/j.mcpdig.2023.03.006",
+      "arxiv_id": "",
+      "keywords": [
+        "Preprint",
+        "Scopus",
+        "Artificial intelligence",
+        "English language",
+        "Language model",
+        "Computer science",
+        "Natural language processing",
+        "ENCODE"
+      ],
+      "citations": 19,
+      "source": "OpenAlex",
+      "doi": "10.1016/j.mcpdig.2023.03.006",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    },
+    {
+      "title": "Delusions by design? How everyday AIs might be fuelling psychosis (and what can be done about it)",
+      "authors": [
+        "Hamilton Morrin",
+        "Luke Nicholls",
+        "Michael Levin",
+        "Jenny Yiend",
+        "Udita Iyengar",
+        "Francesca DelGuidice",
+        "Sagnik Bhattacharyya",
+        "James H. MacCabe",
+        "Stefania Tognin",
+        "Ricardo Twumasi",
+        "Ben Alderson‐Day",
+        "Thomas Pollak"
+      ],
+      "abstract": "Large language models (LLMs) are poised to become a ubiquitous feature of our lives, mediating communication, decision-making and information curation across nearly every domain. Within psychiatry and psychology the focus to date has remained largely on bespoke therapeutic applications, sometimes narrowly focused and often diagnostically siloed, rather than on the broader and more pressing reality that individuals with mental illness will increasingly engage in agential interactions with AI systems as a routine part of daily existence. While their capacity to model therapeutic dialogue, provide 24/7 companionship and assist with cognitive support has sparked understandable enthusiasm, recent reports suggest that these same systems may contribute to the onset or exacerbation of psychotic symptoms: so-called ‘AI psychosis’ or ‘ChatGPT psychosis’. Emerging, and rapidly accumulating, evidence indicates that agential AI may mirror, validate or amplify delusional or grandiose content, particularly in users already vulnerable to psychosis, due in part to the models’ design to maximise engagement and affirmation, although notably it is not clear whether these interactions have resulted or can result in the emergence of de novo psychosis in the absence of pre-existing vulnerability. Even if some individuals may benefit from AI interactions, for example where the AI functions as a benign and predictable conversational anchor, there is a growing concern that these agents may also reinforce epistemic instability, blur reality boundaries and disrupt self-regulation. In this paper, we outline both the potential harms and therapeutic possibilities of agential AI for people with psychotic disorders. In this perspective piece, we propose a framework of AI-integrated care involving personalised instruction protocols, reflective check-ins, digital advance statements and escalation safeguards to support epistemic security in vulnerable users. These tools reframe the AI agent as an epistemic ally (as opposed to ‘only’ a therapist or a friend) which functions as a partner in relapse prevention and cognitive containment. Given the rapid adoption of LLMs across all domains of digital life, these protocols must be urgently trialled and co-designed with service users and clinicians.",
+      "year": "2025",
+      "published_date": "2025-07-11",
+      "journal": "OpenAlex",
+      "url": "https://doi.org/10.31234/osf.io/cmy7n_v5",
+      "arxiv_id": "",
+      "keywords": [
+        "Psychosis",
+        "Psychology",
+        "Delusion",
+        "Psychiatry"
+      ],
+      "citations": 11,
+      "source": "OpenAlex",
+      "doi": "10.31234/osf.io/cmy7n_v5",
+      "open_access": true,
+      "domain_id": "multi_agent_information_services"
+    }
+  ],
+  "timestamp": "20260423_142149"
+}

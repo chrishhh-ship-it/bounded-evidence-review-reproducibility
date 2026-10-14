@@ -14,7 +14,7 @@
 ## 二、冻结与可复现边界
 
 - 协议：`semantic_arl_fair_v2_2_20260724`
-- 冻结文件：`data/expanded_outputs/semantic_arl_fair_v2_2/semantic_arl_fair_v2_2_20260724/confirmatory_freeze_20260724.json`
+- 冻结文件：`D:\文献\研究情报助手\data\expanded_outputs\semantic_arl_fair_v2_2\semantic_arl_fair_v2_2_20260724\confirmatory_freeze_20260724.json`
 - 运行脚本 SHA-256：`386055f9bd9a8efdd47cd15422399631c40c50f198ca542ec2c8013986ff5158`
 - 提供商/模型：DeepSeek `deepseek-v4-pro`；Kimi `moonshot-v1-32k`；OpenAI-compatible 代理 `gpt-4o-mini`。第三项不是 OpenAI 官方端点，论文中必须按 OpenAI-compatible provider 如实报告。
 - 模型未在三次内返回覆盖全部稳定 claim ID 的合法 JSON 时，该运行判为失败；没有在结果出来后反复重跑到成功。
@@ -72,17 +72,17 @@ python scripts\score_semantic_arl_human_packet_v2_2.py `
 
 ## 八、关键文件及哈希
 
-- `data/expanded_outputs/semantic_arl_fair_v2_2/semantic_arl_fair_v2_2_20260724/confirmatory_freeze_20260724.json`  
+- `D:\文献\研究情报助手\data\expanded_outputs\semantic_arl_fair_v2_2\semantic_arl_fair_v2_2_20260724\confirmatory_freeze_20260724.json`  
   SHA-256: `529bdd0b6f95941e549e7ddd501e130cb68d2714a92359c42cadf336c9fa5090`
-- `data/expanded_outputs/semantic_arl_fair_v2_2/semantic_arl_fair_v2_2_20260724/analysis/automatic_process_summary.json`  
+- `D:\文献\研究情报助手\data\expanded_outputs\semantic_arl_fair_v2_2\semantic_arl_fair_v2_2_20260724\analysis\automatic_process_summary.json`  
   SHA-256: `f2424526894c655c07538f90c88b3273293298fda7a6b8bb4a6d0900307c6497`
-- `data/expanded_outputs/semantic_arl_fair_v2_2/semantic_arl_fair_v2_2_20260724/analysis/AUTOMATIC_PROCESS_AUDIT.md`  
+- `D:\文献\研究情报助手\data\expanded_outputs\semantic_arl_fair_v2_2\semantic_arl_fair_v2_2_20260724\analysis\AUTOMATIC_PROCESS_AUDIT.md`  
   SHA-256: `7789de2302c35ae808122fdce19dcb842aac95823ce1e9dde826c9cb45bdd72f`
-- `data/expanded_outputs/semantic_arl_fair_v2_2/semantic_arl_fair_v2_2_20260724/human_evaluation/semantic_arl_coder_A.xlsx`  
+- `D:\文献\研究情报助手\data\expanded_outputs\semantic_arl_fair_v2_2\semantic_arl_fair_v2_2_20260724\human_evaluation\semantic_arl_coder_A.xlsx`  
   SHA-256: `9e6d528a65d273924fab35cd32932c525677e39e4330b3d2eb6f87a3c018b753`
-- `data/expanded_outputs/semantic_arl_fair_v2_2/semantic_arl_fair_v2_2_20260724/human_evaluation/semantic_arl_coder_B.xlsx`  
+- `D:\文献\研究情报助手\data\expanded_outputs\semantic_arl_fair_v2_2\semantic_arl_fair_v2_2_20260724\human_evaluation\semantic_arl_coder_B.xlsx`  
   SHA-256: `3fc50077823dda14e50f5f2b4cd17ac49fc96e43a5dd268b7df9edb0d9d4588d`
-- `data/expanded_outputs/semantic_arl_fair_v2_2/semantic_arl_fair_v2_2_20260724/human_evaluation/DO_NOT_SHARE_condition_key.csv`  
+- `D:\文献\研究情报助手\data\expanded_outputs\semantic_arl_fair_v2_2\semantic_arl_fair_v2_2_20260724\human_evaluation\DO_NOT_SHARE_condition_key.csv`  
   SHA-256: `8e1b247737da35b6c3ddadd6113828f014a4b3702a3f087e54955b2af0c9c041`
-- `data/expanded_outputs/semantic_arl_fair_v2_2/semantic_arl_fair_v2_2_20260724/human_evaluation/packet_manifest.json`  
+- `D:\文献\研究情报助手\data\expanded_outputs\semantic_arl_fair_v2_2\semantic_arl_fair_v2_2_20260724\human_evaluation\packet_manifest.json`  
   SHA-256: `cc650c60a02bc4ead3f2f246aa5f9466df5713c2a4b1871a860f3faa1b201803`

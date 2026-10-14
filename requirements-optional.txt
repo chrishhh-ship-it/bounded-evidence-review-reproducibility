@@ -1,0 +1,5 @@
+# Optional dependencies for NLI and provider-backed generation. They are not
+# required to reproduce the main manuscript tables from preserved outputs.
+requests==2.32.5
+torch==2.10.0
+transformers==5.5.3

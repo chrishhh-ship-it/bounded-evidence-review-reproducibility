@@ -1,0 +1,78 @@
+{
+  "M1": {
+    "unresolved_cited_keys": 24,
+    "archive_unmatched": 742,
+    "cited": 742,
+    "verbatim_title": 741,
+    "similarity_only": 1,
+    "reports_with_unresolved_keys": 3,
+    "contained_title_length_min": 5,
+    "contained_title_length_median": 14,
+    "contained_titles_under_4_tokens": 0
+  },
+  "M2a": {
+    "unresolved_cited_keys": 9,
+    "archive_unmatched": 746,
+    "cited": 745,
+    "verbatim_title": 745,
+    "uncited": 1,
+    "similarity_only": 1,
+    "reports_with_unresolved_keys": 2,
+    "contained_title_length_min": 5,
+    "contained_title_length_median": 14,
+    "contained_titles_under_4_tokens": 0
+  },
+  "M2b": {
+    "unresolved_cited_keys": 15,
+    "archive_unmatched": 740,
+    "cited": 733,
+    "verbatim_title": 738,
+    "uncited": 7,
+    "similarity_only": 2,
+    "reports_with_unresolved_keys": 5,
+    "contained_title_length_min": 5,
+    "contained_title_length_median": 14.0,
+    "contained_titles_under_4_tokens": 0
+  },
+  "M2c": {
+    "unresolved_cited_keys": 0,
+    "archive_unmatched": 776,
+    "uncited": 430,
+    "verbatim_title": 776,
+    "cited": 346,
+    "reports_with_unresolved_keys": 0,
+    "contained_title_length_min": 3,
+    "contained_title_length_median": 14.0,
+    "contained_titles_under_4_tokens": 1
+  },
+  "short_title_examples": [
+    [
+      "M2c",
+      "Q141",
+      "Managing artificial intelligence",
+      "Managing artificial intelligence. Journal of Wildlife Management. 2023."
+    ]
+  ],
+  "similarity_only_examples": [
+    [
+      "M1",
+      "Q247",
+      "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change"
+    ],
+    [
+      "M2a",
+      "Q247",
+      "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change"
+    ],
+    [
+      "M2b",
+      "Q247",
+      "Climate change adaptation in SIDS: A systematic review of the literature pre and post the IPCC Fifth Assessment Report. WIREs Climate Change"
+    ],
+    [
+      "M2b",
+      "Q45",
+      "Multi-Objective Workflow Scheduling With Deep-Q-Network-Based Multi-Agent Deep Reinforcement Learning. IEEE Access. 2019."
+    ]
+  ]
+}
